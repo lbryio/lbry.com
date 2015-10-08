@@ -1,0 +1,140 @@
+@import "global";
+
+$color-nav-border: #ddd;
+
+.header
+{
+    width: 100%;
+    padding: 15px 0;
+    margin-bottom: $spacing-vertical;
+    @include clearfix();
+    position: relative;
+    z-index: 1;
+    .icon-close { display: none; }
+}
+.header-scroll
+{
+  z-index: 2;
+  position: fixed;
+}
+.header-open
+{
+    .icon-close { display: inline-block; }
+    .icon-bars { display: none; }
+    .header-navigation-fullscreen { display: block; }
+}
+.header-content
+{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: $max-text-width;
+}
+.header-dark
+{
+  color: white;
+  .logo-dark { display: none; }
+}
+.header-light
+{
+  color: $color-text-dark;
+  border-bottom: 1px $color-nav-border solid;
+  background-color: white;
+  .logo-light { display: none; }
+}
+.primary-logo
+{
+  line-height: 0;
+  float: left;
+  img { height: $spacing-vertical * 2; }
+}
+.header-navigation-mobile, .header-navigation-fullscreen, .footer
+{
+    a
+    {
+        &:hover { text-decoration: underline; }
+        &.nav-active { font-weight: bold; }
+    }
+}
+
+@media (max-width: $mobile-width-threshold)
+{
+  .primary-logo
+  {
+    margin-left: 10px; /*just so it is never flush*/
+  }
+  .header-navigation-mobile
+  {
+    float: right;
+    margin-right: 10px; /*so it is never flush*/
+    font-size: 1.4em;
+    margin-top: 3px; /*align with text in logo*/
+  }
+  .header-dark.header-open
+  {
+     background: rgba(0,0,0,0.7);
+     border-bottom: 1px solid rgba(128,128,128,0.7);        
+  }
+  .header-light.header-open
+  {
+     background: rgba(255,255,255,0.7);
+  }  
+  .header-navigation-fullscreen
+  {
+    clear: both; 
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: $spacing-vertical / 2; /*margin would be better here but floats*/
+    .control-item
+    {
+      margin-left: 15px;
+    }
+  }
+  .header-navigation-fullscreen .control-item
+  {
+    display: block;
+    margin-bottom: $spacing-vertical * .5;
+    &:last-child
+    {
+      margin-bottom: 0;
+    }
+  }
+}
+@media (min-width: $mobile-width-threshold)
+{
+  .header-navigation-fullscreen
+  {
+    float: right;
+    margin-right: 3px;
+    margin-left: 20px;
+    padding-top: 10px;
+  }
+}
+
+.footer
+{
+  text-align: center;
+  font-size: 0.8em;
+  line-height: $spacing-vertical * 2;
+  color: #666;
+  border-top: 1px $color-nav-border solid;
+  border-bottom: 1px $color-nav-border solid;
+  padding: $spacing-vertical / 2 0;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+.footer-img-link
+{
+  display: inline-block;
+  height: $spacing-vertical * 1.5;
+  img { height: $spacing-vertical * 1.5; }
+  vertical-align: middle;
+}
+@media (max-width: $mobile-width-threshold)
+{
+  body.with-footer
+  {
+    padding-bottom: $spacing-vertical * 5;
+  }
+}

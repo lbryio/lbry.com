@@ -1,0 +1,58 @@
+@import "global";
+.cover-and-header
+{
+  @include flex();
+  flex-direction: column;
+  min-height: 100vh;
+  .cover
+  {
+    flex: 1 0 auto;
+  }
+  .header
+  {
+    margin-bottom: 0;
+  }
+}
+.cover
+{
+  @include absolute-center();
+  text-align: center;
+  @box-sizing(border-box);
+}
+.cover-dark
+{
+  color: #ddd;
+  .cover-title { color: white; }
+}
+.cover-light
+{
+  color: #333;
+  .cover-title { color: black; }
+}
+.cover-content
+{
+  padding: 10px;
+}
+.cover-title
+{
+  margin-bottom: $spacing-vertical;
+  font-size: 9vmin;
+  line-height: 1.4;
+}
+.cover-subtitle
+{
+  margin: $spacing-vertical 0 $spacing-vertical;
+  font-size: 1.1em;
+}
+.cover-search
+{
+  margin-bottom: $spacing-vertical * 2;
+  input
+  {
+      font-size: $font-size * 1.5;
+      height: $spacing-vertical * 1.5;
+      margin-bottom: $spacing-vertical * 0.5;
+      width: 520px;
+      max-width: 100%;
+  }
+}

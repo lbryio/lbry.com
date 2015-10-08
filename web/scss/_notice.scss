@@ -1,0 +1,53 @@
+@import "global";
+
+$success_bg: #dff0d8;
+$success_border: #d6e9c6;
+$success_text: #468847;
+
+$warning_bg: #fff6bf;
+$warning_border: #f89406;
+$warning_text: #514721;
+
+$error_bg: #f2dede;
+$error_border: #eed3d7;
+$error_text: #b94a48;
+
+$info_bg: #d9edf7;
+$info_border: #bce8f1;
+$info_text: #3a87ad;
+
+@mixin notice($text_color, $bg_color, $border_color)
+{
+  color: $text_color;
+  background-color: $bg_color;
+  border-color: $border_color;
+  a[href]
+  {
+    color: $text_color;
+    &:hover
+    {
+      color: lighten($text_color, 10);
+    }
+  }
+}
+
+.notice 
+{
+  padding: 10px 20px;
+  border: 1px solid #000;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  a[href] { text-decoration: underline; }
+  @include border-radius(5px);
+}
+.notice-success
+{
+  @include notice($success_text, $success_bg, $success_border);
+}
+.notice-error
+{
+  @include notice($error_text, $error_bg, $error_border);
+}
+.notice-info
+{
+  @include notice($info_text, $info_bg, $info_border);
+}

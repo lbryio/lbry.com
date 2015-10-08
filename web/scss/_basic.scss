@@ -1,0 +1,148 @@
+@import "global";
+*
+{
+  @include box-sizing(border-box);
+}
+html
+{
+    height: 100%;
+    font-size: $font-size;
+}
+body
+{
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.3333;
+    min-height: 100%;
+    position: relative;
+    &.with-footer
+    {
+      padding-bottom: $spacing-vertical * 3;
+    }
+}
+.bg-image-full
+{
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  @include background-size(cover);
+}
+iframe, img { max-width: 100%; }
+iframe { margin: 0 auto; display: block; }
+code { font-family: monospace; }
+
+h1, h2, h3
+{
+    margin-bottom: $spacing-vertical;
+}
+h1 { font-size: 2.0em; }
+h2 { font-size: 1.75em; }
+h3 { font-size: 1.4em; }
+h4 { font-size: 1.2em; margin-bottom: $spacing-vertical / 2; }
+sup, sub {
+ vertical-align: baseline;
+ position: relative;
+ top: -0.4em;
+}
+sub { top: 0.4em; }
+
+.hide { display: none; }
+.spacer1 { margin-bottom: $spacing-vertical; }
+.spacer2 { margin-bottom: $spacing-vertical * 2; }
+.text-center { text-align: center; }
+.meta { font-size: 0.8em; }
+
+.link-primary
+{
+    color: $color-primary;
+    text-decoration: underline;
+}
+a:hover img
+{
+  opacity: 0.75;
+}
+
+.control-group
+{
+}
+.control-item
+{
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+  &:first-child
+  {
+    margin-left: 0;
+  }
+  &:last-child
+  {
+    margin-right: 0;
+  }
+  &.no-label
+  {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.btn-primary, .btn-alt
+{
+  cursor: pointer;
+  display: inline-block;
+  height: $spacing-vertical * 1.5;
+  line-height: $spacing-vertical * 1.5;
+  padding: 0 15px;
+  text-decoration: none;
+  border: 0 none;
+}
+.btn-primary
+{
+  color: white;
+  @include linear-gradient(lighten($color-primary, 5), darken($color-primary, 5));
+  background-color: $color-primary;
+  border: 1px solid black;
+}
+.btn-alt
+{
+  $base-color: hsl(hue($color-primary), 15, 85);
+  @include linear-gradient(lighten($base-color, 5), darken($base-color, 5));
+  color: hsl(hue($color-primary), 85, 15);
+  border: 1px solid darken($color-primary, 10);
+}
+.no-label .btn-label
+{
+  @include offscreen();
+}
+
+.tiles
+{
+    > .tile
+    {
+        float: left;
+        margin-right: 20px;
+        margin-bottom: $spacing-vertical;
+    }
+    @include clearfix();
+}
+
+@media (max-width: $mobile-width-threshold)
+{
+  .fullscreen
+  {
+    display: none;
+  }
+}
+@media (min-width: $mobile-width-threshold)
+{
+  .mobile
+  {
+    display: none;
+  }
+}
