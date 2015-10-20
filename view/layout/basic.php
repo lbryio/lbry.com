@@ -1,9 +1,21 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>LBRY</title>
+    <head prefix="og: http://ogp.me/ns#">
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width">        
+        <meta name="viewport" content="width=device-width">
+        
+        <?php preg_match_all('/<h(1|2)>([^<]+)</', $content, $titleMatches) ?>
+        <?php $title = null ?>
+        <?php foreach($titleMatches[1] as $matchIndex => $headerValue): ?>
+          <?php if ($headerValue == '1' || !$title): ?>
+            <?php $title = $titleMatches[2][$matchIndex] ?>
+          <?php endif ?>
+        <?php endforeach ?>
+        <?php $title = $title ? 
+                          $title . (strpos($title, 'LBRY') === false ? ' - LBRY' : '') :
+                          'LBRY' ?>
+        <title><?php echo $title ?></title>
+        
         <link href='//fonts.googleapis.com/css?family=Raleway:600,300' rel='stylesheet' type='text/css'>
         <link href="/css/all.css" rel="stylesheet" type="text/css" media="screen,print" />
         <link rel="apple-touch-icon" sizes="60x60" href="/img/fav/apple-touch-icon-60x60.png">
@@ -20,16 +32,16 @@
         <meta name="msapplication-TileColor" content="#155B4A">
         <meta name="msapplication-TileImage" content="/mstile-144x144.png">
         <meta name="theme-color" content="#155B4A">        
-<!-- Twitter Card data -->
-<meta name="twitter:site" content="@lbry_io">
-<meta name="twitter:creator" content="@lbry_io">
+        <!-- Twitter Card data -->
+        <meta name="twitter:site" content="@lbry_io">
+        <meta name="twitter:creator" content="@lbry_io">
 
-<!-- Open Graph data -->
-<meta property="og:title" content="LBRY" />
-<meta property="og:type" content="article" />
-<meta property="og:image" content="http://lbry.io/img/header-logo-dark2.png" />
-<meta property="og:description" content="A Content Revolution"/> 
-<meta property="og:site_name" content="LBRY" />
+        <!-- Open Graph data -->
+        <meta property="og:title" content="<?php echo $title ?>" />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content="<?php echo View::getMetaImage() ?>" />
+        <meta property="og:description" content="<?php echo View::getMetaDescription() ?>"/>
+        <meta property="og:site_name" content="LBRY" />
     </head>
     <body <?php echo defined('FOOTER_RENDERED') && FOOTER_RENDERED ? 'class="with-footer"' : '' ?>>
       <?php echo $content ?>

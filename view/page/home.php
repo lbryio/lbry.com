@@ -1,3 +1,4 @@
+
 <div class="bg-image-full" style="background-image: url(/img/cover-home2.jpg)"></div>
 <div class="cover-and-header">
   <?php echo View::render('nav/header', ['isDark' => true]) ?>
@@ -22,6 +23,6 @@
 <?php /*
   <?php echo View::render('page/what', ['fullPage' => false]) ?>
   <?php echo View::render('page/why', ['fullPage' => false]) ?>
-  <?php echo View::render('page/participate', ['fullPage' => false]) ?>
+  <?php echo View::render('page/team', ['fullPage' => false]) ?>
   <?php echo View::render('page/get', ['fullPage' => false]) ?>
 */ ?>

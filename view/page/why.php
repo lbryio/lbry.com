@@ -1,3 +1,5 @@
+<?php View::setMetaImage('http://lbry.io/img/xkcd-comic.png') ?>
+<?php View::setMetaDescription('Learn about the inspiration behind LBRY\'s revolutionary content distribution system.') ?>
 <?php echo View::render('nav/header', ['isDark' => false]) ?>
 <div class="content"><h1>Why?</h1></div>
 <div class="hero hero-quote hero-img spacer2" style="background-image: url(/img/cover-jcole.jpg)">
@@ -98,7 +100,7 @@
     about publisher identities and how addresses are reserved that are specifically designed to combat undue profiteering.</p>
   <h3>Ready to use LBRY?</h3>
   <p><a href="/get" class="btn-primary">Get LBRY</a></p>
-  <p>Or, <a href="/participate" class="link-primary">learn about joining the team</a>.</p>
+  <p>Or, <a href="/team" class="link-primary">learn about joining the team</a>.</p>
 </div>
 <?php echo View::render('nav/footer') ?>
 <?php /* It is inspired by Bitcoin, BitTorrent, and&nbsp;a comment by Julian Assange<sup><a class="link-primary" href="https://wikileaks.org/Transcript-Meeting-Assange-Schmidt.html#731">1</a></sup>.</p> */ ?>

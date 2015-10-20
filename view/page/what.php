@@ -1,3 +1,4 @@
+<?php View::setMetaDescription('Access information and content in ways you never dreamed possible. Earn credits for your unused bandwidth and diskspace.') ?>
 <?php echo View::render('nav/header', ['isDark' => false]) ?>
 <div class="content">
   <h1>What is LBRY?</h1>

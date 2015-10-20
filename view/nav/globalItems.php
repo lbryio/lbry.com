@@ -11,7 +11,7 @@
   <a href="//blog.lbry.io">News</a>
 </div>
 <div class="control-item">
-  <a href="/participate" <?php echo $_SERVER['REQUEST_URI'] === '/participate' ? 'class="nav-active"' : ''?>>Team</a>
+  <a href="/team" <?php echo $_SERVER['REQUEST_URI'] === '/team' ? 'class="nav-active"' : ''?>>Team</a>
 </div>
 <div class="control-item no-label">
   <a href="http://twitter.com/lbry_io"><span class="icon icon-twitter"></span><span class="btn-label">Twitter</span></a>

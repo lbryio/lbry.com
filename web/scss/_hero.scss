@@ -11,6 +11,14 @@
     border-left: 10px solid rgba(180, 180, 180, 0.3);
     padding: 0 15px;
     font-size: 1.5em;
+    &.blockquote-large
+    {
+      max-width: 600px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 2.0em;
+    }
     + cite
     {
       margin-top: $spacing-vertical;

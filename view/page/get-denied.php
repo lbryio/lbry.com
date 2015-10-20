@@ -1,3 +1,4 @@
+<?php View::setMetaDescription('Download or install the latest version of LBRY.') ?>
 <?php echo View::render('nav/header', ['isDark' => false]) ?>
 <div class="content spacer1">
   <h1>Get LBRY</h1>
