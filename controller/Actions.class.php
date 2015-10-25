@@ -35,11 +35,21 @@ class Actions
 
   public function executePostCommit()
   {
-    $payload = json_decode($_REQUEST['payload']);
-    $secret = file_get_contents($_SERVER['ROOT_DIR']  . '/data/secret/github-secret');
-    $isToMaster = $payload->ref === 'refs/heads/master';
+    $payload = json_decode($_REQUEST['payload'], true);
+    $rawPost = file_get_contents('php://input');
+    $secret = trim(file_get_contents($_SERVER['ROOT_DIR']  . '/data/secret/github-secret'));
 
-    file_put_contents($_SERVER['ROOT_DIR'] . '/log/github.txt', ($isToMaster ? 'master' : 'apprentince') . "\n$secret\n" . print_r($payload, TRUE) . print_r($_REQUEST, true));
+    $this->returnErrorIf(!isset($_SERVER['HTTP_X_HUB_SIGNATURE']), "HTTP header 'X-Hub-Signature' is missing.");
+
+    list($algo, $hash) = explode('=', $_SERVER['HTTP_X_HUB_SIGNATURE'], 2) + array('', '');
+    $this->returnErrorIf(!in_array($algo, hash_algos(), TRUE), 'Invalid hash algorithm "' . $algo . '"');
+    $this->returnErrorIf($hash !== hash_hmac($algo, $rawPost, $secret), 'Hash does not match. "' . $secret . '"' . ' algo: ' . $algo . '$');
+
+    if ($payload['ref'] === 'refs/heads/master')
+    {
+      shell_exec($_SERVER['ROOT_DIR'] . '/deploy.sh > /dev/null 2>/dev/null &');
+      echo "Successful post commit.";
+    }
 
     return [null, []];
   }
@@ -78,5 +88,19 @@ class Actions
     }
 
     return false;
+  }
+
+  //this is dumb
+  protected function returnError($error)
+  {
+    throw new ErrorException($error);
+  }
+
+  protected function returnErrorIf($condition, $error)
+  {
+    if ($condition)
+    {
+      $this->returnError($error);
+    }
   }
 }

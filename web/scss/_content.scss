@@ -85,12 +85,9 @@
   }
 }
 
-.photo-grid
+.compile-test /*remove me*/
 {
-  .photo-container
-  {
-    
-  }
+  color: red;
 }
 
 @media(max-width: $max-text-width + 30)
