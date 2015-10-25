@@ -33,9 +33,20 @@ class Actions
     return ['page/get-denied', ['inviteError' => $inviteError]];
   }
 
+  public function executePostCommit()
+  {
+    $payload = json_decode($_REQUEST['payload']);
+    $secret = file_get_contents('data/secret/github-secret');
+    $isToMaster = $payload->ref === 'refs/heads/master';
+
+    file_put_contents('github.txt', ($isToMaster ? 'master' : 'apprentince') . "\n$secret\n" . print_r($payload, TRUE), FILE_APPEND);
+
+    return [null, []];
+  }
+
   protected function validateDownloadAccess()
   {
-    $seshionKey = 'buttsz';
+    $seshionKey = 'has-download-access';
     if ($this->session->get($seshionKey))
     {
       return true;
@@ -43,7 +54,7 @@ class Actions
 
     if ($_SERVER['REQUEST_METHOD'] === 'POST')
     {
-      $this->accessCodes = include $_SERVER['ROOT_DIR'] . '/data/access_list.php';
+      $this->accessCodes = include $_SERVER['ROOT_DIR'] . '/data/secret/access_list.php';
       $today = date('Y-m-d H:i:s');
       foreach($this->accessCodes as $code => $date)
       {

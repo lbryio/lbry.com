@@ -13,6 +13,11 @@ class Controller
     {
       list($viewTemplate, $viewParameters) = static::execute($uri);
 
+      if ($viewTemplate === null)
+      {
+        return '';
+      }
+
       if (!$viewTemplate)
       {
         throw new LogicException('All execute methods must return a template.');
@@ -37,6 +42,8 @@ class Controller
         return $action->executeHome();
       case '/get':
         return $action->executeGet();
+      case '/postcommit':
+        return $action->executePostCommit();
       default:
         if (View::exists('page/' . ltrim($uri, '/')))
         {
