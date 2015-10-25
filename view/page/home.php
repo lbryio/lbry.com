@@ -3,7 +3,7 @@
   <?php echo View::render('nav/header', ['isDark' => true]) ?>
   <div class="cover cover-dark" >
     <div class="cover-content">
-      <h2 class="cover-title">Watch, Share, Earn</h2>
+      <h2 class="cover-title">Watch, Share, Earn.</h2>
       <h3 class="cover-subtitle">Join a fully distributed network that makes information open to everyone.</h3>
       <div class="control-group spacer1">
         <div class="control-item">
