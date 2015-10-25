@@ -47,8 +47,9 @@ class Actions
 
     if ($payload['ref'] === 'refs/heads/master')
     {
-      shell_exec($_SERVER['ROOT_DIR'] . '/deploy.sh > /dev/null 2>/dev/null &');
-      echo "Successful post commit.";
+      $ret = shell_exec('sudo -u lbry ' . $_SERVER['ROOT_DIR'] . '/update.sh  2>&1');
+      echo "Successful post commit (aka the script executed, so maybe it is successful):\n";
+      echo $ret;
     }
 
     return [null, []];
