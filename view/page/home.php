@@ -1,4 +1,3 @@
-
 <div class="bg-image-full" style="background-image: url(/img/cover-home2.jpg)"></div>
 <div class="cover-and-header">
   <?php echo View::render('nav/header', ['isDark' => true]) ?>
