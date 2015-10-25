@@ -36,10 +36,10 @@ class Actions
   public function executePostCommit()
   {
     $payload = json_decode($_REQUEST['payload']);
-    $secret = file_get_contents('data/secret/github-secret');
+    $secret = file_get_contents($_SERVER['ROOT_DIR']  . '/data/secret/github-secret');
     $isToMaster = $payload->ref === 'refs/heads/master';
 
-    file_put_contents('github.txt', ($isToMaster ? 'master' : 'apprentince') . "\n$secret\n" . print_r($payload, TRUE), FILE_APPEND);
+    file_put_contents($_SERVER['ROOT_DIR'] . '/log/github.txt', ($isToMaster ? 'master' : 'apprentince') . "\n$secret\n" . print_r($payload, TRUE), FILE_APPEND);
 
     return [null, []];
   }
