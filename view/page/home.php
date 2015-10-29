@@ -3,7 +3,7 @@
 <main class="column-fluid">
   <div class="span12">
     <div class="cover cover-dark cover-center">
-      <h2 class="cover-title">Watch, Share, Earn.</h2>
+      <h2 class="cover-title">Check it out!</h2>
       <div class="text-center">
         <h3 class="cover-subtitle">Join a fully distributed network that makes information open to everyone.</h3>
         <div class="control-group spacer1">
