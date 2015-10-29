@@ -6,7 +6,6 @@ $color-nav-border: #ddd;
 {
     width: 100%;
     padding: 15px 0;
-    margin-bottom: $spacing-vertical;
     @include clearfix();
     position: relative;
     z-index: 1;
@@ -119,10 +118,7 @@ $color-nav-border: #ddd;
   border-top: 1px $color-nav-border solid;
   border-bottom: 1px $color-nav-border solid;
   padding: $spacing-vertical / 2 0;
-  position: absolute;
   width: 100%;
-  bottom: 0;
-  left: 0;
 }
 .footer-img-link
 {
@@ -130,11 +126,4 @@ $color-nav-border: #ddd;
   height: $spacing-vertical * 1.5;
   img { height: $spacing-vertical * 1.5; }
   vertical-align: middle;
-}
-@media (max-width: $mobile-width-threshold)
-{
-  body.with-footer
-  {
-    padding-bottom: $spacing-vertical * 5;
-  }
 }

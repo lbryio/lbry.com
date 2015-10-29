@@ -18,10 +18,6 @@ class Autoloader
       require_once $path;
       return true;
     }
-    else
-    {
-      throw new InvalidArgumentException('Class "' . $class . '" not found by autoloader');
-    }
 
     return false;
   }

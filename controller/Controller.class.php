@@ -22,7 +22,7 @@ class Controller
       {
         throw new LogicException('All execute methods must return a template.');
       }
-      
+
       echo View::render('layout/basic', [
           'content' => View::render($viewTemplate, $viewParameters + ['fullPage' => true])
       ]);
@@ -35,19 +35,19 @@ class Controller
   
   public static function execute($uri)
   {
-    $action = new Actions();
     switch($uri)
     {
       case '/':
-        return $action->executeHome();
-      case '/get':
-        return $action->executeGet();
+        return ContentActions::executeHome();
       case '/postcommit':
-        return $action->executePostCommit();
+        return OpsActions::executePostCommit();
+      case '/list-subscribe':
+        return MailActions::executeListSubscribe();
       default:
-        if (View::exists('page/' . ltrim($uri, '/')))
+        $noSlashUri = ltrim($uri, '/');
+        if (View::exists('page/' . $noSlashUri))
         {
-          return ['page/' . $uri, []];
+          return ['page/' . $noSlashUri, []];
         }
         else
         {

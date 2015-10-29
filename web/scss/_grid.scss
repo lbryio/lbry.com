@@ -57,12 +57,23 @@ $gutter_fluid: 4;
   }
 }
 
+.column-fluid {
+  @include display-flex();
+  flex-wrap: wrap;
+  > [class*="span"] {
+    @include display-flex();
+    @include flex(1 0 auto);
+    overflow: hidden;
+    justify-content: center;
+  }
+}
+
 .row-fluid, .tile-fluid {
   @include clearfix();
 }
 
 @media (max-width: $mobile-width-threshold) {
-  .row-fluid, .tile-fluid {
+  .row-fluid, .tile-fluid, .column-fluid {
     width: 100%;
   }
   .pull-left, .pull-right
@@ -73,5 +84,6 @@ $gutter_fluid: 4;
     float: none !important;
     width: 100% !important;
     margin-left: 0 !important;
+    display: block !important;
   }
 }

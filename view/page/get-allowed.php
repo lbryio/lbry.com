@@ -1,5 +1,6 @@
-<?php View::setMetaDescription('Download or install the latest version of LBRY.') ?>
+<?php Response::setMetaDescription('Download or install the latest version of LBRY.') ?>
 <?php echo View::render('nav/header', ['isDark' => false]) ?>
+<?php throw new Exception('not used atm') ?>
 <div class="content spacer1">
   <h1>Get LBRY</h1>
   <div class="notice notice-info">

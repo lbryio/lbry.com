@@ -14,10 +14,6 @@ body
     line-height: 1.3333;
     min-height: 100%;
     position: relative;
-    &.with-footer
-    {
-      padding-bottom: $spacing-vertical * 3;
-    }
 }
 .bg-image-full
 {
@@ -58,6 +54,7 @@ sub { top: 0.4em; }
 .spacer2 { margin-bottom: $spacing-vertical * 2; }
 .text-center { text-align: center; }
 .meta { font-size: 0.8em; }
+.meta-large { font-size: 1.2em; }
 
 .link-primary
 {
@@ -144,5 +141,17 @@ a:hover img
   .mobile
   {
     display: none;
+  }
+}
+
+
+body
+{
+  @include display-flex();
+  @include flex-flow(column);
+  min-height: 100vh;
+  main
+  {
+    @include flex(2);
   }
 }

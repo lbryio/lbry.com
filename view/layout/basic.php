@@ -4,13 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
         
-        <?php preg_match_all('/<h(1|2)>([^<]+)</', $content, $titleMatches) ?>
-        <?php $title = null ?>
-        <?php foreach($titleMatches[1] as $matchIndex => $headerValue): ?>
-          <?php if ($headerValue == '1' || !$title): ?>
-            <?php $title = $titleMatches[2][$matchIndex] ?>
-          <?php endif ?>
-        <?php endforeach ?>
+        <?php $title = Response::getMetaTitle() ?: Response::guessMetaTitle($content) ?>
         <?php $title = $title ? 
                           $title . (strpos($title, 'LBRY') === false ? ' - LBRY' : '') :
                           'LBRY' ?>
@@ -39,25 +33,27 @@
         <!-- Open Graph data -->
         <meta property="og:title" content="<?php echo $title ?>" />
         <meta property="og:type" content="article" />
-        <meta property="og:image" content="<?php echo View::getMetaImage() ?>" />
-        <meta property="og:description" content="<?php echo View::getMetaDescription() ?>"/>
+        <meta property="og:image" content="<?php echo Response::getMetaImage() ?>" />
+        <meta property="og:description" content="<?php echo Response::getMetaDescription() ?>"/>
         <meta property="og:site_name" content="LBRY" />
     </head>
-    <body <?php echo defined('FOOTER_RENDERED') && FOOTER_RENDERED ? 'class="with-footer"' : '' ?>>
+    <body>
       <?php echo $content ?>
-      <div id="js">
-        <script src="/js/jquery-2.1.3.min.js"></script>
-        <script src="/js/global.js"></script>
-        <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      <div class="hide">
+        <div id="js">
+          <script src="/js/jquery-2.1.3.min.js"></script>
+          <script src="/js/global.js"></script>
+          <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-          ga('create', 'UA-60403362-1', 'auto');
-          ga('send', 'pageview');
+            ga('create', 'UA-60403362-1', 'auto');
+            ga('send', 'pageview');
 
-        </script>        
+          </script>
+        </div>
       </div>
     </body>
 </html>

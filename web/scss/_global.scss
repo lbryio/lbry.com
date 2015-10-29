@@ -33,7 +33,7 @@ $max-text-width: 660px;
           border-radius: $radius;
 }
 
-@mixin flex()
+@mixin display-flex()
 {
   display: -webkit-box;
   display: -moz-box;
@@ -42,9 +42,31 @@ $max-text-width: 660px;
   display: flex;
 }
 
+@mixin flex($columns)
+{
+  -webkit-flex: $columns;
+     -moz-flex: $columns;
+      -ms-flex: $columns;
+          flex: $columns;
+}
+
+@mixin flex-flow($flow) {
+  -webkit-flex-flow: $flow;
+     -moz-flex-flow: $flow;
+      -ms-flex-flow: $flow;
+          flex-flow: $flow;
+}
+
+@mixin flex-direction($direction) {
+  -webkit-flex-direction: $direction;
+     -moz-flex-direction: $direction;
+      -ms-flex-direction: $direction;
+          flex-direction: $direction;
+}
+
 @mixin absolute-center()
 {
-  @include flex();
+  @include display-flex();
   -webkit-box-align: center;
      -moz-box-align: center;
      -ms-flex-align: center;

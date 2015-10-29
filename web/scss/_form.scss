@@ -1,24 +1,26 @@
 @import "global";
 
+$input-width: 300px;
+
 input[type="email"], input[type="text"] 
 {    
   border: 0 none;
   border: 1px solid rgba(160,160,160,.5);
   padding-left: 5px;
   padding-right: 5px;
-  width: 300px;
+  width: $input-width;
   height: $spacing-vertical * 1.5;
 }
 
 .mail-submit
 {
-    input
-    {
-        margin-right: 10px;
-    }
-    input, .btn-primary
-    {
-        vertical-align: bottom;
-        margin-bottom: $spacing-vertical / 2;
-    }
+  input
+  {
+     margin-right: 10px;
+  }
+  input, .btn-primary
+  {
+    margin-bottom: $spacing-vertical / 2;
+    vertical-align: bottom;
+  }
 }

@@ -59,7 +59,7 @@ $(document).ready(function() {
 
   function resizeVideo(iframe)
   {
-    var maxWidth = Math.min(iframe.closest('.video').width(), iframe.data('maxWidth')),
+    var maxWidth = Math.min(iframe.offsetParent().width(), iframe.data('maxWidth')),
         maxHeight = iframe.data('maxHeight'),
         ratio = iframe.data('aspectRatio');
 

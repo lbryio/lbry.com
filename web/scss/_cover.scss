@@ -1,23 +1,25 @@
 @import "global";
-.cover-and-header
-{
-  @include flex();
-  flex-direction: column;
-  min-height: 100vh;
-  .cover
-  {
-    flex: 1 0 auto;
-  }
-  .header
-  {
-    margin-bottom: 0;
-  }
-}
+
 .cover
 {
-  @include absolute-center();
-  text-align: center;
   @box-sizing(border-box);
+  .meta-large [class*="icon"]
+  {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+@media (max-width: $mobile-width-threshold) {
+  .cover { padding: $spacing-vertical; }
+}
+@media (min-width: $mobile-width-threshold) {
+  .cover { padding: $spacing-vertical * 2 $spacing-vertical * 3; }
+}
+
+.cover-center
+{
+  @include flex-direction(column);
+  @include absolute-center();
 }
 .cover-dark
 {
@@ -29,10 +31,11 @@
   color: #333;
   .cover-title { color: black; }
 }
-.cover-content
+.cover-dark-grad
 {
-  padding: 10px;
+  @include linear-gradient(darken($color-primary, 5), lighten($color-primary, 5));
 }
+
 .cover-title
 {
   margin-bottom: $spacing-vertical;
@@ -43,16 +46,4 @@
 {
   margin: $spacing-vertical 0 $spacing-vertical;
   font-size: 1.1em;
-}
-.cover-search
-{
-  margin-bottom: $spacing-vertical * 2;
-  input
-  {
-      font-size: $font-size * 1.5;
-      height: $spacing-vertical * 1.5;
-      margin-bottom: $spacing-vertical * 0.5;
-      width: 520px;
-      max-width: 100%;
-  }
 }

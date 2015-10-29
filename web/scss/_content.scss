@@ -6,20 +6,27 @@
   max-width: $max-content-width; /*we have more padding than desirable so numbers from ol can exceed container*/
   padding-left: 15px;
   padding-right: 15px;
-  color: #333;
 
   h1, h2, h3, h4, h5, h6
   {
-    color: $color-text-dark;
     &:not(:first-child)
     {
       margin-top: $spacing-vertical * 1.5;
     }
   }
 
-  .meta
+  &:not(.content-dark)
   {
-    color: #505050;
+    color: #333;
+    h1, h2, h3, h4, h5, h6
+    {
+      color: $color-text-dark;
+    }
+
+    .meta
+    {
+      color: #505050;
+    }
   }
 
   &.content-dark
@@ -31,10 +38,14 @@
 
   p
   {
-      max-width: $max-text-width;
       margin-bottom: $spacing-vertical;
       margin-left: auto;
       margin-right: auto;
+  }
+  p.pflow
+  {
+    margin-left: 0;
+    margin-right: 0;
   }
   ul, ol
   {
@@ -43,6 +54,11 @@
       max-width: $max-text-width;
       margin-left: auto;
       margin-right: auto;
+    }
+    &.no-style
+    {
+      list-style: none;
+      > li { list-style: none; }
     }
   }
   ul
@@ -83,6 +99,15 @@
     margin-left: auto;
     margin-right: auto;
   }
+}
+.content-inset
+{
+  margin-left: $spacing-vertical;
+  margin-right: $spacing-vertical;
+}
+main > .content
+{
+  margin-top: $spacing-vertical;
 }
 
 @media(max-width: $max-text-width + 30)
