@@ -10,7 +10,7 @@
     <div class="hero-content-wrapper">
       <div class="hero-content">
         <blockquote class="blockquote-large">
-          <p>Working with LBRY is a chance to align philosophy and profit.</p>
+          <p>LBRY is so simple your Grandma can use it. I’m ready to see blockchain technology become useful for regular people.</p>
         </blockquote>
         <cite>Mike Vine <em>Technology Evangelist</em></cite>
       </div>
