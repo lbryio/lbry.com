@@ -21,7 +21,7 @@
       <div class="meta  meta-large">
         <span class="icon-linux"></span> <span class="icon-apple"></span>
       </div>
-      <h1><?php echo __('I am a Linux or OSX user comfortable from the command line.') ?></h1>
+      <h1><?php echo __('I am a Linux or OS X user comfortable from the command line.') ?></h1>
       <p class="pflow">Earn early adopter rewards and interact directly with developers via our Alpha client.</p>
       <div class="content-inset">
         <ul class="no-style">
@@ -29,7 +29,7 @@
             <a href="/linux" class="link-primary"><span class="icon-linux"></span> Linux</a>
           </li>
           <li>
-            <a href="/osx" class="link-primary"><span class="icon-apple"></span> OSX</a>
+            <a href="/osx" class="link-primary"><span class="icon-apple"></span> OS X</a>
           </li>
         </ul>
       </div>

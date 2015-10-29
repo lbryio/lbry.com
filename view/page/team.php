@@ -21,7 +21,7 @@
     <div class="row-fluid">
     <div class="span6  spacer2">
       <div class="photo-container">
-        <img src="/img/jeremy-644x450.jpg" alt="photo of Jeremy"/>
+        <img src="/img/jeremy-644x450.jpg" alt="photo of Jeremy Kauffman"/>
       </div>
         <h4>Jeremy Kauffman <a href="mailto:jeremy@lbry.io" class="link-primary"><span class="icon icon-envelope"></span></a></h4>
         <div class="meta  spacer1">Founder, Director</div>
@@ -34,7 +34,7 @@
       </div>
       <div class="span6  spacer2">
         <div class="photo-container">
-              <img src="/img/jimmy-644x450.jpg" alt="photo of jimmy"/>
+              <img src="/img/jimmy-644x450.jpg" alt="photo of Jimmy Kiselak"/>
         </div>
         <h4>
           Jimmy Kiselak
@@ -53,7 +53,7 @@
     <div class="row-fluid">
       <div class="span6  spacer2">
         <div class="photo-container">
-          <img src="/img/mike-644x450.jpg" alt="photo of Mike"/>
+          <img src="/img/mike-644x450.jpg" alt="photo of Mike Vine"/>
         </div>
          <h4>Mike Vine <a href="mailto:mike@lbry.io" class="link-primary"><span class="icon icon-envelope"></span></a></h4>
           <div class="meta  spacer1">Technology Evangelist</div>
@@ -66,12 +66,26 @@
       </div>
       <div class="span6 spacer2">
         <div class="photo-container">
-          <img src="/img/brandon-644x450.jpg" alt="Photo of Brandon"/>
+          <img src="/img/stephan-644x450.jpg" alt="Photo of Stephan Kinsella"/>
         </div>
-          <h4>Brandon Ross <a href="mailto:contact@bdrosslaw.com" class="link-primary"><span class="icon icon-envelope"></span></a></h4>
-          <div class="meta  spacer1">Legal, Advisor</div>
+          <h4>Stephan Kinsella</h4>
+          <div class="meta  spacer1">Advisor, Legal</div>
           <p>
-            Brandon is the founder of <a href="//bdrosslaw.com" class="link-primary">B.D. Ross Law</a>, a law firm focusing on IP concerns. He holds degrees in math, economics, engineering, and law. Brandon regularly tells Jeremy and Jimmy that he had this idea years ago.
+            Stephan is a registered patent attorney in Houston and a former partner in the Intellectual Property Practice Group of Duane Morris LLP
+            and General Counsel for Applied Optoelectronics, Inc. He has over twenty years’ law firm and in-house experience in patent, IP, 
+            and general commercial and corporate law. Stephan has published numerous articles and books on IP law and legal topics including 
+            <a href="http://www.amazon.com/International-Investment-Political-Dispute-Resolution/dp/0379215225" class="link-primary">
+              International Investment, Political Risk, and Dispute Resolution: A Practitioner’s Guide
+            </a>  (Oxford University Press, 2005)
+            and 
+            <a href="https://mises.org/library/against-intellectual-property-0" class="link-primary">
+              Against Intellectual Property
+            </a>  (Mises Institute, 2008). 
+          </p>
+          <p> 
+            He received an LL.M. in international business law from King’s College London, a JD from the Paul M. Hebert Law Center at LSU, 
+            and BSEE and MSEE degrees from LSU. His websites are <a href="stephankinsella.com" class="link-primary">stephankinsella.com</a>
+            and <a href="kinsellalaw.com" class="link-primary">kinsellalaw.com</a>
           </p>
       </div>
     </div>
