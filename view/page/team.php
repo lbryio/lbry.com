@@ -72,14 +72,14 @@
           <div class="meta  spacer1">Advisor, Legal</div>
           <p>
             Stephan is a registered patent attorney in Houston and a former partner in the Intellectual Property Practice Group of Duane Morris LLP
-            and General Counsel for Applied Optoelectronics, Inc. He has over twenty years’ law firm and in-house experience in patent, IP, 
+            and General Counsel for Applied Optoelectronics, Inc. He is the founder and director of the Center for the Study of Innovative Freedom. He has over twenty years’ law firm and in-house experience in patent, IP, 
             and general commercial and corporate law. Stephan has published numerous articles and books on IP law and legal topics including 
             <a href="http://www.amazon.com/International-Investment-Political-Dispute-Resolution/dp/0379215225" class="link-primary">
-              International Investment, Political Risk, and Dispute Resolution: A Practitioner’s Guide
+              <em></em>International Investment, Political Risk, and Dispute Resolution: A Practitioner’s Guide</em>
             </a>  (Oxford University Press, 2005)
             and 
             <a href="https://mises.org/library/against-intellectual-property-0" class="link-primary">
-              Against Intellectual Property
+              <em>Against Intellectual Property</em>
             </a>  (Mises Institute, 2008). 
           </p>
           <p> 
