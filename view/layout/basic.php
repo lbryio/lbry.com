@@ -27,8 +27,8 @@
         <meta name="msapplication-TileImage" content="/mstile-144x144.png">
         <meta name="theme-color" content="#155B4A">        
         <!-- Twitter Card data -->
-        <meta name="twitter:site" content="@lbry_io">
-        <meta name="twitter:creator" content="@lbry_io">
+        <meta name="twitter:site" content="@lbryio">
+        <meta name="twitter:creator" content="@lbryio">
 
         <!-- Open Graph data -->
         <meta property="og:title" content="<?php echo $title ?>" />
