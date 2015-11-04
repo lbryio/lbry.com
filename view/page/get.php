@@ -12,6 +12,7 @@
       <?php echo View::render('mail/joinList', [
         'submitLabel' => 'Go',
         'listId' => Mailchimp::LIST_GENERAL_ID,
+        'mergeFields' => ['CLI' => 'No'],
         'btnClass' => 'btn-alt'
       ]) ?>
     </div>
@@ -23,16 +24,30 @@
       </div>
       <h1><?php echo __('I am a Linux or OS X user comfortable from the command line.') ?></h1>
       <p class="pflow">Earn early adopter rewards and interact directly with developers via our Alpha client.</p>
-      <div class="content-inset">
-        <ul class="no-style">
-          <li>
-            <a href="/linux" class="link-primary"><span class="icon-linux"></span> Linux</a>
-          </li>
-          <li>
-            <a href="/osx" class="link-primary"><span class="icon-apple"></span> OS X</a>
-          </li>
-        </ul>
-      </div>
+      <?php if (!$isSubscribed): ?>
+        <div class="spacer1">
+          <?php echo View::render('mail/joinList', [
+            'submitLabel' => 'Go',
+            'listId' => Mailchimp::LIST_GENERAL_ID,
+            'mergeFields' => ['CLI' => 'Yes'],
+            'returnUrl' => '/get?email=1'
+          ]) ?>
+        </div>
+        <div class="meta">
+          Already sign up or really hate sharing your email? <a href="/get?email=1" class="link-primary">Click here.</a>
+        </div>
+      <?php else: ?>
+        <div class="content-inset">
+          <ul class="no-style">
+            <li>
+              <a href="/linux" class="link-primary"><span class="icon-linux"></span> Linux</a>
+            </li>
+            <li>
+              <a href="/osx" class="link-primary"><span class="icon-apple"></span> OS X</a>
+            </li>
+          </ul>
+        </div>
+      <?php endif ?>
     </div>
   </div>
 </main>

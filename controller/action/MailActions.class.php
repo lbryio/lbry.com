@@ -26,8 +26,11 @@ class MailActions extends Actions
     else
     {
       $mcApi = new Mailchimp();
-      if ($mcApi->listSubscribe($_POST['listId'], $email, [], 'html', false))
+      $mcListId = $_POST['listId'];
+      $mergeFields = isset($_POST['mergeFields']) ? unserialize($_POST['mergeFields']) : [];
+      if ($mcApi->listSubscribe($mcListId, $email, $mergeFields, 'html', false))
       {
+        Session::set(Session::KEY_MAILCHIMP_LIST_IDS, array_merge(Session::get(Session::KEY_MAILCHIMP_LIST_IDS, []), [$mcListId]));
         Session::set('list_success', __('Great success! Welcome to LBRY.'));
       }
       else
@@ -36,7 +39,7 @@ class MailActions extends Actions
       }
     }
 
-    Controller::redirect($_POST['return_url'] ?: '/get');
+    Controller::redirect(isset($_POST['return_url']) && $_POST['return_url'] ? $_POST['return_url'] : '/get');
   }
   
   public static function prepareJoinList(array $vars)

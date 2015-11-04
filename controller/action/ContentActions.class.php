@@ -11,6 +11,13 @@ class ContentActions extends Actions
   {
     return ['page/home', []];
   }
+
+  public static function executeGet()
+  {
+    return ['page/get', [
+        'isSubscribed' => $_GET['email'] || in_array(Mailchimp::LIST_GENERAL_ID, Session::get(Session::KEY_MAILCHIMP_LIST_IDS, []))
+    ]];
+  }
 //
 //  protected static function validateDownloadAccess()
 //  {

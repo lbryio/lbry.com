@@ -9,5 +9,8 @@
     <input type="hidden" name="listId" value="<?php echo $listId ?>"/>
     <input type="email" value="" name="email" class="required email standard" placeholder="someone@somewhere.com">
     <input type="submit" value="<?php echo isset($submitLabel) ? $submitLabel : 'Subscribe' ?>" name="subscribe" id="mc-embedded-subscribe" class="<?php echo $btnClass ?>">
+    <?php if (isset($mergeFields)): ?>
+    <input type="hidden" name="mergeFields" value="<?php echo htmlentities(serialize($mergeFields)) ?>" />
+    <?php endif ?>
   </div>
 </form>

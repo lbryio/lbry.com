@@ -39,6 +39,8 @@ class Controller
     {
       case '/':
         return ContentActions::executeHome();
+      case '/get':
+        return ContentActions::executeGet();
       case '/postcommit':
         return OpsActions::executePostCommit();
       case '/list-subscribe':

@@ -5,7 +5,7 @@
  *
  * @author jeremy
  */
-class OpsActions
+class OpsActions extends Actions
 {
   public static function executePostCommit()
   {
