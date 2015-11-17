@@ -84,7 +84,7 @@
         </p>
       </li>
       <li>
-        <p><strong>It's Up to Us.</strong> A smart guy once said that power corrupts and absolutely power corrupts absolutely.</p>
+        <p><strong>It's Up to Us.</strong> A smart guy once said that power corrupts and absolute power corrupts absolutely.</p>
         <p>
           LBRY leaves no one in charge (including us). It puts power in the hands of individuals and users rather than corporations and executives.
         </p>
