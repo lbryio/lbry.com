@@ -1,0 +1,148 @@
+@import "global";
+
+.sale-title-filler
+{
+  font-size: 0.6em;
+  color: #ddd;
+}
+.sale-title-emphasis
+{
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.sale-call
+{
+  text-align: center;
+  padding: $spacing-vertical 30px;
+  .sale-call-total-people
+  {
+    font-weight: bold;
+    font-size: 2.4em;
+  }
+  .sale-cta
+  {
+    font-weight: bold;
+    font-size: 2.0em;
+    display: inline-block;
+    min-height: $spacing-vertical * 4;
+  }
+  .sale-call-prep, .sale-call-verb
+  {
+    display: block;
+    font-size: 0.85em;
+  }
+  .sale-call-verb
+  {
+    margin-bottom: $spacing-vertical / 4;
+  }
+  .sale-call-prep
+  {
+    margin: $spacing-vertical / 2 0 $spacing-vertical / 4;
+  }
+}
+.label-cycle
+{
+  :not(:first-child)
+  {
+    display: none;
+  }
+}
+
+.sale-level
+{
+  @include border-radius(5px);
+  background: #fff;
+  color: #111;
+  padding: $spacing-vertical $spacing-vertical / 2;
+  margin: 0 $spacing-vertical / 2 $spacing-vertical;
+  cursor: pointer;
+  position: relative;
+  &:hover
+  {
+    padding-left: $spacing-vertical;
+    padding-right: $spacing-vertical;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+.sale-level-label
+{
+  float: left;
+  margin-right: 5px;
+  margin-left: 20px;
+}
+.sale-level-cost
+{
+  float: right;
+}
+.sale-level-reward
+{
+  clear: both;
+}
+.sale-level-help
+{
+  color: $color-meta-light;
+  font-size: 0.75em;
+}
+.sale-level-radio
+{
+  position: absolute;
+  top: $spacing-vertical * 1.25;
+  left: $spacing-vertical / 2;
+}
+.sale-level:hover .sale-level-radio
+{
+  left: $spacing-vertical;
+}
+.sale-level-cost
+{
+  color: $color-money;
+  font-weight: bold;
+}
+.sale-level-credits
+{
+  font-weight: bold;
+  margin-bottom: $spacing-vertical / 2;
+}
+.sale-level-reward-title
+{
+  color: $color-meta-light;
+}
+
+.sale-question-bubble
+{
+  @include border-radius(5px);
+  background: $color-light-alt;
+  margin-bottom: $spacing-vertical;
+  font-size: 0.8em;
+  padding: $spacing-vertical $spacing-vertical;
+  &:last-child
+  {
+    margin-bottom: 0;
+  }
+  p
+  {
+    margin-bottom: $spacing-vertical / 2;
+    &:last-child { margin-bottom: 0; }
+  }
+}
+.sale-question
+{
+  color: #000;
+}
+.sale-question-answer
+{
+  color: #444;
+}
+
+.control-item-img
+{
+  a
+  {
+    display: inline-block;
+    height: $spacing-vertical * 2;
+    line-height: 0;
+  }
+}
+

@@ -3,7 +3,17 @@
 {
   margin-left: auto;
   margin-right: auto;
-  max-width: $max-content-width; /*we have more padding than desirable so numbers from ol can exceed container*/
+
+  &:not(.content-wide)
+  {
+    max-width: $max-content-width; /*we have more padding than desirable so numbers from ol can exceed container*/
+  }
+  &.content-wide
+  {
+    max-width: 1400px;
+  }
+
+
   padding-left: 15px;
   padding-right: 15px;
 
@@ -15,7 +25,15 @@
     }
   }
 
-  &:not(.content-dark)
+  &.content-dark
+  {
+    color: #e8e8e8;
+    h1, h2, h3, h4, h5, h6 { color: #fff; }
+    .link-primary { color: $color-light-alt; }
+    .meta { color: #dddddd; }
+  }
+
+  &:not(.content-dark), &.content-light
   {
     color: #333;
     h1, h2, h3, h4, h5, h6
@@ -25,15 +43,8 @@
 
     .meta
     {
-      color: #505050;
+      color: $color-meta-light;
     }
-  }
-
-  &.content-dark
-  {
-    color: #e8e8e8;
-    h1, h2, h3, h4, h5, h6 { color: #fff; }
-    .meta { color: #dddddd; }
   }
 
   p

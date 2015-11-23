@@ -1,6 +1,6 @@
+<?php NavActions::setNavUri('/learn') ?>
 <?php Response::setMetaImage('http://lbry.io/img/cover-team.jpg') ?>
 <?php Response::setMetaDescription('LBRY is founded by a team passionate about connecting producers and consumers and breaking down broken models. Learn more about them.') ?>
-
 <?php echo View::render('nav/header', ['isDark' => false]) ?>
 <main>
   <div class="content">
@@ -26,10 +26,13 @@
         <h4>Jeremy Kauffman <a href="mailto:jeremy@lbry.io" class="link-primary"><span class="icon icon-envelope"></span></a></h4>
         <div class="meta  spacer1">Founder, Director</div>
         <p>
-          Because graduating from RPI with degrees in physics and computer science is the hip thing to do, Jeremy did the same. Jeremy is also the founder and CEO of <a href="//usetopscore.com" class="link-primary">TopScore</a>, a startup that processes millions of dollars monthly in event and activity registrations.
+          Shortly after graduating from RPI with degrees in physics and computer science, Jeremy founded <a href="//usetopscore.com" class="link-primary">TopScore</a>. TopScore is a SaaS tool powering tens of millions in event and activity registrations.
         </p>
         <p>
-           Jeremy has been responsible for the packing, presentation, and strategy of LBRY, as well as some design aspects. Jeremy is a longtime BitTorrent community enthusiast.
+          Jeremy knows how to build and scale a startup starting from day one. He knows how to deliver usable products and get those products in front of the right people.
+        </p>
+        <p>
+           Jeremy has been responsible for the packing, presentation, and strategy of LBRY, as well as some design aspects. Jeremy is a longtime fan of BitTorrent.
         </p>
       </div>
       <div class="span6  spacer2">
@@ -42,7 +45,7 @@
         </h4>
         <div class="meta spacer1">Founder, Developer</div>
         <p>
-          After graduating from RPI with a degree in physics and computer science, Jimmy found himself mired in government bureaucracy, spending too much time to get too little done. Jimmy has been a Bitcoin fanatic since its early days as well as long been interested in the benefits of decentralization.
+          Because graduating from RPI with degrees in physics and computer science seemed hip, Jimmy did the same. After, Jimmy found himself mired in government bureaucracy, spending too much time to get too little done. 
         </p>
         <p>
           Ready to work on a project he believed in, Jimmy quit his national security job to start LBRY several months ago. Jimmy created the LBRY protocol and the first LBRY application.
@@ -104,13 +107,6 @@
       </div>
     </div>
   </div>
-  <div class="content text-center spacer2">
-    <h3>Not Ready to Get Serious?</h3>
-    <p>Join our mailing list for updates about LBRY.</p>
-      <?php echo View::render('mail/joinList', [
-          'submitLabel' => 'Subscribe',
-          'listId' => Mailchimp::LIST_GENERAL_ID
-      ]) ?>
-  </div>
+  <?php echo View::render('nav/learnFooter') ?>
 </main>
 <?php echo View::render('nav/footer') ?>

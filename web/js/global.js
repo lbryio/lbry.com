@@ -16,10 +16,16 @@ jQuery.fn.extend({
 });
 
 $(document).ready(function() {
-  var body = $('body');
+  var body = $('body'),
+      labelCycles = body.find('.label-cycle'); //should use better pattern but we have so little JS right now
   
   body.on('click', 'a', onAnchorClick);
   //$(window).scroll(onBodyScroll);
+
+  if (labelCycles.length)
+  {
+   setInterval(refreshLabelCycles,6000);
+  }
 
   function onAnchorClick()
   {
@@ -96,4 +102,17 @@ $(document).ready(function() {
       resizeVideo($(this));
     })
   });
+
+  function refreshLabelCycles()
+  {
+    labelCycles.each(function() {
+      var labelCycle = $(this),
+          activeLabel = labelCycle.find(':first-child');
+          
+      activeLabel.fadeOut(function() {
+        labelCycle.append(activeLabel);
+        labelCycle.find(':first-child').fadeIn();
+      });
+    });
+  }
 });
