@@ -10,16 +10,27 @@
         <h3 class="cover-subtitle">Join a fully distributed network that makes information open to everyone.</h3>
         <div class="control-group spacer1">
           <div class="control-item">
-            <a href="/get" class="btn-primary">Get LBRY</a>
+            <a href="/get" class="btn-primary">Test LBRY</a>
           </div>
           <div class="control-item">
             <a href="/what" class="btn-alt">Learn More</a>
           </div>
         </div>
       </div>
-      <div class="video">
+      <div class="video" style="margin-bottom: 80px">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/qMUbq3sbG-o?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
       </div>
+        <div class="row-fluid content-constrained">
+          <div class="span6 text-center">
+            <div class="fb-page" data-href="https://www.facebook.com/lbryio" data-height="300" data-small-header="false" data-width="400"
+                 data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true">
+              <div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/lbryio"><a href="https://www.facebook.com/lbryio">LBRY</a></blockquote></div>
+            </div>
+          </div>
+          <div class="span6 text-center">
+            <a width="400" class="twitter-timeline" href="https://twitter.com/LBRYio" data-widget-id="671104143034073088">Tweets by @LBRYio</a>
+          </div>
+        </div>
     </div>
   </div>
 </main>
