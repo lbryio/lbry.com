@@ -7,7 +7,7 @@
     <div class="hero-content-wrapper">
       <div class="hero-content">
         <blockquote>
-          <p>If you made the fuckin' music, and you made the art, and you put it into the world, I should be able to use it however the fuck I want. I'ma pay you, I'ma give you a percentage, but you shouldn't be able to tell me I can't use it. You was inspired by the world; allow the world to be inspired by your shit and to use your shit.</p>
+          <p>If you made the music, and you made the art, and you put it into the world, I should be able to use it however I want. I'ma pay you, I'ma give you a percentage, but you shouldn't be able to tell me I can't use it. You was inspired by the world; allow the world to be inspired by your shit and to use your shit.</p>
         </blockquote>
         <cite>J. Cole, <em><a href="https://www.youtube.com/watch?v=UMCGOAGb4Y0&amp;t=470s">Note to Self</a></em></cite>
       </div>
