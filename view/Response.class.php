@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Description of Response
  *
@@ -9,6 +8,7 @@ class Response
 {
   protected static $metaDescription = '',
                    $metaTitle = '',
+                   $jsCalls = [],
 //                   $bodyCssClasses = [],
                    $metaImg = '';
 
@@ -58,6 +58,17 @@ class Response
       }
     }
     return $title;
+  }
+  
+  public static function getJsCalls()
+  {
+    return static::$jsCalls;
+  }
+  
+  public static function jsOutputCallback($js)
+  {
+    static::$jsCalls[] = $js;
+    return '';
   }
 
 //  public static function addBodyCssClass($classOrClasses)

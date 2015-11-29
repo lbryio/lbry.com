@@ -1,5 +1,15 @@
 <?php
 
+function js_start()
+{
+  ob_start('Response::jsOutputCallback');
+}
+
+function js_end()
+{
+  ob_end_flush();
+}
+
 /**
  * Description of View
  *

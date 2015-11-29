@@ -1,3 +1,8 @@
+<?php if ($success): ?>
+  <?php js_start() ?>
+    ga('send', 'event', 'Sign Up', 'Join List', '<?php echo $listId ?>');
+  <?php js_end() ?>
+<?php endif ?>
 <form action="/list-subscribe" method="post" novalidate>
   <?php if ($error): ?>
     <div class="notice notice-error spacer1"><?php echo $error ?></div>

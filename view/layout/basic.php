@@ -56,6 +56,9 @@
             ga('send', 'pageview');
 
           </script>
+          <script>
+            <?php echo implode("\n", Response::getJsCalls()) ?>
+          </script>
         </div>
       </div>
     </body>
