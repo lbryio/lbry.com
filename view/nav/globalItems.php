@@ -19,3 +19,6 @@
 <div class="control-item no-label">
   <a href="https://www.facebook.com/lbryio"><span class="icon icon-facebook"></span> <span class="btn-label">Facebook</span></a>
 </div>
+<div class="control-item no-label">
+  <a href="//reddit.com/r/lbry"><span class="icon icon-reddit"></span> <span class="btn-label">Reddit</span></a>
+</div>
