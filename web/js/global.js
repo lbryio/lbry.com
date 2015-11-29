@@ -1,3 +1,5 @@
+document.domain = 'lbry.io';
+
 jQuery.fn.extend({
   jFor: function() {
     var self = $(this),
