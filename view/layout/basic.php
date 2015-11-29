@@ -37,6 +37,8 @@
         <meta property="og:image" content="<?php echo Response::getMetaImage() ?>" />
         <meta property="og:description" content="<?php echo Response::getMetaDescription() ?>"/>
         <meta property="og:site_name" content="LBRY" />
+        
+        <base target="_parent" />
     </head>
     <body>
       <?php echo $content ?>

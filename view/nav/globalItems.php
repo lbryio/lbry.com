@@ -8,7 +8,7 @@
   <a href="/why" <?php echo $selectedItem === '/why' ? 'class="nav-active"' : ''?>>Why</a>
 </div>
 <div class="control-item">
-  <a href="//blog.lbry.io">News</a>
+  <a href="//blog.lbry.io" <?php echo $selectedItem === '/news' ? 'class="nav-active"' : '' ?>>News</a>
 </div>
 <div class="control-item">
   <a href="/team" <?php echo $selectedItem === '/team' ? 'class="nav-active"' : ''?>>Team</a>
