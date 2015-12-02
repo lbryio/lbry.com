@@ -102,9 +102,9 @@
           </p>
       </div>
     </div>
-    <?php /*
     <h2>Advisory Team</h2>
     <div class="row-fluid">
+      <?php /*
       <div class="span6 spacer2">
         <div class="photo-container">
           <img src="/img/alex-tabarrok-644x450.jpg" alt="Photo of Alex Tabarrok"/>
