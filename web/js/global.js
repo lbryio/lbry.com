@@ -18,7 +18,8 @@ jQuery.fn.extend({
 });
 
 $(document).ready(function() {
-  var body = $('body');
+  var body = $('body'),
+      labelCycles = body.find('.label-cycle'); //should use better pattern but we have so little JS right now
   
   body.on('click', 'a', onAnchorClick);
  
@@ -35,6 +36,20 @@ $(document).ready(function() {
   };
   
   //$(window).scroll(onBodyScroll);
+
+  if (labelCycles.length)
+  {
+    setInterval(refreshLabelCycles,5000);
+    labelCycles.each(function() {
+      var labelCycle = $(this),
+          maxHeight = Math.max.apply(Math, labelCycles.find('> *').map(function(){ return $(this).height(); }).get());
+      if (maxHeight)
+      {
+        labelCycle.height(maxHeight);
+      }
+      labelCycle.addClass('label-cycle-init');
+    });
+  }
 
   function onAnchorClick()
   {
@@ -122,4 +137,17 @@ $(document).ready(function() {
       resizeVideo($(this));
     })
   });
+
+  function refreshLabelCycles()
+  {
+    labelCycles.each(function() {
+      var labelCycle = $(this),
+          activeLabel = labelCycle.find(':first-child');
+          
+      activeLabel.fadeOut(function() {
+        labelCycle.append(activeLabel);
+        labelCycle.find(':first-child').fadeIn();
+      });
+    });
+  }
 });

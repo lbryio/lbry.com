@@ -30,7 +30,7 @@
         </div>
         <div class="control-group spacer2 text-center">
           <div class="control-item">
-            <a href="/get" class="btn-primary">Get LBRY</a>
+            <a href="/fund" class="btn-primary">Fund LBRY</a>
           </div>
           <div class="control-item">
             <a href="/learn" class="btn-alt">Learn More</a>
@@ -54,3 +54,18 @@
     </div>
   </div>
 </main>
+
+<?php /*
+ * <h1>Stream, Share, Earn.</h1>
+            <div class="text-center">
+              <h3 class="cover-subtitle">Join a fully distributed network that makes information open to everyone.</h3>
+              <div class="control-group spacer1">
+                <div class="control-item">
+                  <a href="/get" class="btn-primary">Get LBRY</a>
+                </div>
+                <div class="control-item">
+                  <a href="/what" class="btn-alt">Learn More</a>
+                </div>
+              </div>
+            </div>
+ */ ?>

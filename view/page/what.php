@@ -1,5 +1,5 @@
 <?php Response::setMetaDescription('Access information and content in ways you never dreamed possible. Earn credits for your unused bandwidth and diskspace.') ?>
-
+<?php NavActions::setNavUri('/learn') ?>
 <?php echo View::render('nav/header', ['isDark' => false]) ?>
 <main>
   <div class="content">
@@ -53,7 +53,7 @@
       </ol>
     </div>
   </div>
-  <div class="hero hero-pattern spacer2">
+  <div class="hero hero-pattern">
     <div class="hero-content">
       <h2 class="text-center hero-title">If BitTorrent + BitCoin Had a Baby</h2>
       <div class="row-fluid  hero-tile-row">
@@ -97,10 +97,6 @@
       </div>
     </div>
   </div>
-  <div class="content spacer2">
-    <h3>How do I use it?</h3>
-    <p><a href="/get" class="btn-primary">Get LBRY</a></p>
-    <p>Or, learn more about <a href="/why" class="link-primary">why we've created LBRY</a>.</p>
-  </div>
+  <?php echo View::render('nav/learnFooter') ?>
 </main>
 <?php echo View::render('nav/footer') ?>

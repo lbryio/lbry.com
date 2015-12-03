@@ -3,6 +3,9 @@
   <div class="footer">
     <div class="content">
       <div class="control-group">
+        <div class="control-item">
+          <a href="/"><?php echo __('Home') ?></a>
+        </div>
         <?php echo View::render('nav/globalItems') ?>
         <div class="control-item">
           <a href="//en.wikipedia.org/wiki/AACS_encryption_key_controversy" class="footer-img-link">

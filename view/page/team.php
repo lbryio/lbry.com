@@ -1,6 +1,6 @@
+<?php NavActions::setNavUri('/learn') ?>
 <?php Response::setMetaImage('http://lbry.io/img/cover-team.jpg') ?>
 <?php Response::setMetaDescription('LBRY is founded by a team passionate about connecting producers and consumers and breaking down broken models. Learn more about them.') ?>
-
 <?php echo View::render('nav/header', ['isDark' => false]) ?>
 <main>
   <div class="content">
@@ -21,7 +21,7 @@
     <div class="row-fluid">
     <div class="span6  spacer2">
       <div class="photo-container">
-        <img src="/img/jeremy-644x450.jpg" alt="photo of Jeremy Kauffman"/>
+        <img src="/img/jeremy-644x450.jpg" alt="photo of Jeremy Kauffman"/>-
       </div>
         <h4>Jeremy Kauffman <a href="mailto:jeremy@lbry.io" class="link-primary"><span class="icon icon-envelope"></span></a></h4>
         <div class="meta  spacer1">Founder, Director</div>
@@ -31,7 +31,10 @@
           Jeremy attended <a href="//rpi.edu" class="link-primary">Rensselaer Polytechnic Institute</a>, where he received degrees in physics and computer science.
         </p>
         <p>
-           Jeremy is responsible for the packing, presentation, and strategy of LBRY, as well as some design aspects. Jeremy is a longtime BitTorrent community enthusiast.
+          Jeremy knows how to build and scale a startup starting from day one. He knows how to deliver usable products and get those products in front of the right people.
+        </p>
+        <p>
+          Jeremy is responsible for the packing, presentation, and strategy of LBRY, as well as some design aspects. He is a longtime BitTorrent community enthusiast.
         </p>
       </div>
       <div class="span6  spacer2">
@@ -45,7 +48,7 @@
         <div class="meta spacer1">Founder, Developer</div>
         <p>
           Because graduating from RPI with degrees in physics and computer science is the hip thing to do, Jimmy did the same.
-          After, he found himself mired in government bureaucracy, spending too much time to get too little done. 
+          After, he found himself mired in government bureaucracy, spending too much time to get too little done.
         </p>
         <p>
           Ready to work on a project he believed in, Jimmy quit his national security job to start LBRY.
@@ -55,7 +58,6 @@
           Jimmy is a Bitcoin fanatic and has been since its early days. He has long been interested in the benefits of decentralization.
         </p>
       </div>
-
     </div>
     <div class="row-fluid">
       <div class="span6  spacer2">
@@ -169,13 +171,6 @@
       </div>
     </div>
   </div>
-  <div class="content text-center spacer2">
-    <h3>Not Ready to Get Serious?</h3>
-    <p>Join our mailing list for updates about LBRY.</p>
-      <?php echo View::render('mail/joinList', [
-          'submitLabel' => 'Subscribe',
-          'listId' => Mailchimp::LIST_GENERAL_ID
-      ]) ?>
-  </div>
+  <?php echo View::render('nav/learnFooter') ?>
 </main>
 <?php echo View::render('nav/footer') ?>

@@ -3,19 +3,43 @@
 .cover
 {
   @box-sizing(border-box);
+  width: 100%;
   .meta-large [class*="icon"]
   {
     padding-left: 5px;
     padding-right: 5px;
   }
 }
+.cover-simple
+{
+ @box-sizing(border-box);
+  width: 100%;
+}
 @media (max-width: $mobile-width-threshold) {
-  .cover { padding: $spacing-vertical; }
+  .cover { padding: $spacing-vertical $spacing-vertical * 2 / 3; }
+  .cover-title { font-size: 2.4em; margin-bottom: $spacing-vertical; }
 }
 @media (min-width: $mobile-width-threshold) {
-  .cover { padding: $spacing-vertical * 2 $spacing-vertical * 3; }
+  .cover-title { font-size: 3.6em; }
+}
+@media (max-width: $max-content-width) and (min-width: $mobile-width-threshold) {
+  .cover { padding: $spacing-vertical * 1.5 $spacing-vertical * 2; }
+  .cover-column { padding-left: $spacing-vertical * 0.5; padding-right: $spacing-vertical * 0.5; }
+}
+@media (min-width: $max-content-width) {
+  .cover { padding: $spacing-vertical * 1.5 $spacing-vertical * 3; }
+  .cover-column { padding-left: $spacing-vertical * 1.5; padding-right: $spacing-vertical * 1.5; }
 }
 
+.cover-stretch-wrap
+{
+  @include display-flex();
+  @include flex-direction(column);
+  > .cover
+  {
+    @include flex(1);
+  }
+}
 .cover-center
 {
   @include flex-direction(column);
@@ -28,18 +52,25 @@
 }
 .cover-light
 {
+  color: #444;
+  .cover-title { color: #111; }
+}
+.cover-light-alt
+{
   color: #333;
-  .cover-title { color: black; }
+  .cover-title { color: #000; }
 }
 .cover-dark-grad
 {
   @include linear-gradient(darken($color-primary, 5), lighten($color-primary, 5));
 }
+.cover-light-alt-grad
+{
+  @include linear-gradient(darken($color-light-alt, 5), lighten($color-light-alt, 5));
+}
 
 .cover-title
 {
-  margin-bottom: $spacing-vertical;
-  font-size: 9vmin;
   line-height: 1.4;
 }
 .cover-subtitle

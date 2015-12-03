@@ -53,13 +53,23 @@ sub { top: 0.4em; }
 .spacer1 { margin-bottom: $spacing-vertical; }
 .spacer2 { margin-bottom: $spacing-vertical * 2; }
 .text-center { text-align: center; }
+.text-right { text-align: right; }
 .meta { font-size: 0.8em; }
 .meta-large { font-size: 1.2em; }
+.clear { clear: both; }
 
 .link-primary
 {
   color: $color-primary;
   text-decoration: underline;
+  .icon:first-child
+  {
+    padding-right: 5px;
+  }
+  .icon:last-child
+  {
+    padding-left: 5px;
+  }
 }
 a:hover img
 {
@@ -98,6 +108,7 @@ a:hover img
   padding: 0 15px;
   text-decoration: none;
   border: 0 none;
+  text-align: center;
 }
 .btn-primary
 {
@@ -108,10 +119,13 @@ a:hover img
 }
 .btn-alt
 {
-  $base-color: hsl(hue($color-primary), 15, 85);
-  @include linear-gradient(lighten($base-color, 5), darken($base-color, 5));
+  @include linear-gradient(lighten($color-light-alt, 5), darken($color-light-alt, 5));
   color: hsl(hue($color-primary), 85, 15);
   border: 1px solid darken($color-primary, 10);
+}
+.btn-full-width
+{
+  width: 100%;
 }
 .no-label .btn-label
 {
@@ -127,6 +141,15 @@ a:hover img
         margin-bottom: $spacing-vertical;
     }
     @include clearfix();
+}
+
+.table-layout
+{
+  td 
+  {
+    padding: 3px 5px $spacing-vertical - 3px;
+    vertical-align: middle;
+  }
 }
 
 @media (max-width: $mobile-width-threshold)

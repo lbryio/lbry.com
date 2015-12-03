@@ -23,6 +23,7 @@
         <link rel="icon" type="image/png" href="/img/fav/android-chrome-192x192.png" sizes="192x192">
         <link rel="icon" type="image/png" href="/img/fav/favicon-16x16.png" sizes="16x16">
         <link rel="manifest" href="/img/fav/manifest.json">
+
         <meta name="description" content="<?php echo Response::getMetaDescription() ?>">
         <meta name="msapplication-TileColor" content="#155B4A">
         <meta name="msapplication-TileImage" content="/mstile-144x144.png">

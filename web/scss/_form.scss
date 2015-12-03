@@ -2,6 +2,11 @@
 
 $input-width: 300px;
 
+label[for]
+{
+  cursor: pointer;
+}
+
 input[type="email"], input[type="text"] 
 {    
   border: 0 none;
@@ -10,6 +15,11 @@ input[type="email"], input[type="text"]
   padding-right: 5px;
   width: $input-width;
   height: $spacing-vertical * 1.5;
+}
+
+.form-row
+{
+  margin-bottom: $spacing-vertical;
 }
 
 .mail-submit

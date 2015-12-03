@@ -9,7 +9,10 @@ class ContentActions extends Actions
 {
   public static function executeHome()
   {
-    return ['page/home', []];
+    return ['page/home', [
+      'totalUSD' => CreditApi::getTotalDollarSales(),
+      'totalPeople' => CreditApi::getTotalPeople()
+    ]];
   }
 
   public static function executeGet()

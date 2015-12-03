@@ -1,3 +1,4 @@
+<?php NavActions::setNavUri('/learn') ?>
 <?php Response::setMetaImage('http://lbry.io/img/xkcd-comic.png') ?>
 <?php Response::setMetaDescription('Learn about the inspiration behind LBRY\'s revolutionary content distribution system.') ?>
 <?php echo View::render('nav/header', ['isDark' => false]) ?>
@@ -99,10 +100,8 @@
       <strong>LBRY is not about facilitating piracy.</strong>
       LBRY is about creating a network where creators and patrons can directly interact without relying on anyone in the middle. We've made choices
       about publisher identities and how addresses are reserved that are specifically designed to combat undue profiteering.</p>
-    <h3>Ready to use LBRY?</h3>
-    <p><a href="/get" class="btn-primary">Get LBRY</a></p>
-    <p>Or, <a href="/team" class="link-primary">learn about joining the team</a>.</p>
   </div>
+  <?php echo View::render('nav/learnFooter') ?>
 </main>
 <?php echo View::render('nav/footer') ?>
 <?php /* It is inspired by Bitcoin, BitTorrent, and&nbsp;a comment by Julian Assange<sup><a class="link-primary" href="https://wikileaks.org/Transcript-Meeting-Assange-Schmidt.html#731">1</a></sup>.</p> */ ?>
