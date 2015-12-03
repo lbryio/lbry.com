@@ -3,8 +3,8 @@
 <?php echo View::render('nav/header', ['isDark' => false]) ?>
 <main class="column-fluid">
   <div class="span4">
-    <div class="cover cover-column cover-dark cover-dark-grad">
-      <div class="content content-dark">
+    <div class="cover cover-column cover-light-alt cover-light-alt-grad">
+      <div class="content content-light">
         <h1><?php echo __('What?') ?></h1>
         <div class="spacer1">
           <div class="spacer1">
@@ -24,13 +24,13 @@
             Our goal is to provide a single box that allows anyone anywhere to find and purchase digital content from anyone else.
           </p>
         </div>
-        <a href="/what" class="btn-alt"><?php echo __('More About LBRY') ?></a>
+        <a href="/what" class="btn-primary"><?php echo __('More About LBRY') ?></a>
       </div>
     </div>
   </div>
   <div class="span4">
-    <div class="cover  cover-column cover-light-alt cover-light-alt-grad">
-      <div class="content">
+    <div class="cover  cover-column  cover-dark cover-dark-grad ">
+      <div class="content content-dark">
         <h1><?php echo __('Why?') ?></h1>
         <div class="spacer1">
           <p><?php echo __('Current systems benefit huge corporations that add little but extract a lot.') ?></p>
@@ -40,7 +40,7 @@
           <p><?php echo __('We think a better world is one in which artists and consumers are directly connected.') ?></p>
         </div>
         <div class="spacer1">
-          <a href="/why" class="btn-primary"><?php echo __('Why Make LBRY') ?></a>
+          <a href="/why" class="btn-alt"><?php echo __('Why Make LBRY') ?></a>
         </div>
         <div>
           <img src="/img/smbc-comic.png" />

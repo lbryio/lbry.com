@@ -24,7 +24,16 @@ $(document).ready(function() {
 
   if (labelCycles.length)
   {
-   setInterval(refreshLabelCycles,6000);
+    setInterval(refreshLabelCycles,5000);
+    labelCycles.each(function() {
+      var labelCycle = $(this),
+          maxHeight = Math.max.apply(Math, labelCycles.find('> *').map(function(){ return $(this).height(); }).get());
+      if (maxHeight)
+      {
+        labelCycle.height(maxHeight);
+      }
+      labelCycle.addClass('label-cycle-init');
+    });
   }
 
   function onAnchorClick()

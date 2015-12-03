@@ -9,40 +9,35 @@
         <div class="text-center">
           <h1 class="cover-title">Stream, Share, Earn.</h1>
         </div>
-        <div class="row-fluid">
-          <div class="span5 ">
-            <?php $labels = [
-                __('making history'),
-                __('empowering artists'),
-                __('spreading knowledge'),
-                __('sharing sustainably'),
-                __('protecting speech'),
-                __('building tomorrow'),
-                __('eliminating middlemen'),
-                __('furthering education'),
-            ] ?>
-            <?php shuffle($labels) ?>
-            <div class="sale-call ">
-              <span class="sale-call-verb"><?php echo __('Join') ?></span>
-              <span class="sale-call-total-people"><?php echo $totalPeople ?></span>
-              <span class="sale-call-prep">in</span>
-              <span class="sale-ctas label-cycle"  data-cycle-interval="5000">
-                <span class="sale-cta"><?php echo implode('</span><span class="sale-cta">', $labels) ?></span>
-              </span>
+          <?php $labels = [
+              __('making history'),
+              __('empowering artists'),
+              __('spreading knowledge'),
+              __('sharing sustainably'),
+              __('protecting speech'),
+              __('building tomorrow'),
+              __('eliminating middlemen'),
+              __('furthering education'),
+          ] ?>
+          <?php shuffle($labels) ?>
+          <div class="sale-call ">
+            <span class="sale-call-verb"><?php echo __('Join') ?></span>
+            <span class="sale-call-total-people"><?php echo $totalPeople ?></span>
+            <span class="sale-call-prep">others in</span>
+            <span class="sale-ctas label-cycle"  data-cycle-interval="5000">
+              <span class="sale-cta"><?php echo implode('</span><span class="sale-cta">', $labels) ?></span>
+            </span>
+          </div>
+          <div class="control-group spacer2 text-center">
+            <div class="control-item">
+              <a href="/fund" class="btn-primary">Fund LBRY</a>
             </div>
-            <div class="control-group spacer1 text-center">
-              <div class="control-item">
-                <a href="/fund" class="btn-primary">Fund LBRY</a>
-              </div>
-              <div class="control-item">
-                <a href="/learn" class="btn-alt">Learn More</a>
-              </div>
+            <div class="control-item">
+              <a href="/learn" class="btn-alt">Learn More</a>
             </div>
           </div>
-          <div class="span7">
-            <div class="video">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/qMUbq3sbG-o?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-            </div>
+          <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/qMUbq3sbG-o?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
       </div>

@@ -1,51 +1,72 @@
 @import "global";
 
+.sale-title
+{
+  margin-bottom: 0;
+  font-size: 1.5em;
+}
 .sale-title-filler
 {
-  font-size: 0.6em;
+  font-size: 0.65em;
   color: #ddd;
 }
 .sale-title-emphasis
 {
-  font-size: 1.25em;
-  font-weight: bold;
+  font-size: 1.35em;
+}
+
+.sale-ctas
+{
+  display: block;
+}
+.sale-cta
+{
+  display: block;
 }
 
 .sale-call
 {
   text-align: center;
-  padding: $spacing-vertical 30px;
+  margin-bottom: $spacing-vertical / 2;
   .sale-call-total-people
   {
     font-weight: bold;
     font-size: 2.4em;
   }
-  .sale-cta
-  {
-    font-weight: bold;
-    font-size: 2.0em;
-    display: inline-block;
-    min-height: $spacing-vertical * 4;
-  }
   .sale-call-prep, .sale-call-verb
   {
-    display: block;
     font-size: 0.85em;
+  }
+  .sale-ctas
+  {
+    margin-bottom: $spacing-vertical;
+  }
+  .sale-cta
+  {
+    font-size: 2.0em;
+  font-weight: bold;
   }
   .sale-call-verb
   {
     margin-bottom: $spacing-vertical / 4;
+    margin-right: 10px;
   }
   .sale-call-prep
   {
-    margin: $spacing-vertical / 2 0 $spacing-vertical / 4;
+    margin: 10px $spacing-vertical / 2 0 $spacing-vertical / 4;
   }
 }
 .label-cycle
 {
-  :not(:first-child)
+  visibility: hidden;
+  display: block;
+  &.label-cycle-init
   {
-    display: none;
+    visibility: visible;
+    :not(:first-child)
+    {
+      display: none;
+    }
   }
 }
 
@@ -54,16 +75,21 @@
   @include border-radius(5px);
   background: #fff;
   color: #111;
-  padding: $spacing-vertical $spacing-vertical / 2;
-  margin: 0 $spacing-vertical / 2 $spacing-vertical;
+  padding: $spacing-vertical;
   cursor: pointer;
   position: relative;
-  &:hover
+  margin-bottom: $spacing-vertical;
+  &.sale-level-clickable
   {
-    padding-left: $spacing-vertical;
-    padding-right: $spacing-vertical;
-    margin-left: 0;
-    margin-right: 0;
+    padding: $spacing-vertical $spacing-vertical / 2;
+    margin: 0 $spacing-vertical / 2 $spacing-vertical;
+    &:hover
+    {
+      padding-left: $spacing-vertical;
+      padding-right: $spacing-vertical;
+      margin-left: 0;
+      margin-right: 0;
+    }
   }
 }
 .sale-level-label
@@ -136,6 +162,55 @@
   color: #444;
 }
 
+.goal-wrap {
+  width: 100%;
+  padding: 0 20px;
+  @include clearfix();
+}
+
+.goal-glass {
+  width: 100%;
+  height: $spacing-vertical;
+  background: #c7c7c7;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.goal-progress {
+  float: left;
+  height: $spacing-vertical;
+  background: repeating-linear-gradient(
+    45deg,
+    lighten($color-primary, 20),
+    lighten($color-primary, 20) 10px,
+    lighten($color-primary, 30) 10px,
+    lighten($color-primary, 30) 20px
+  );
+  z-index: 1;
+}
+
+
+.goal-amount {
+  float: right;
+}
+
+.goal-stat, .goal-amount {
+  padding: 10px;
+}
+
+.goal-stat
+{
+  float: left;
+}
+
+.goal-number, .goal-label {
+  font-size: 0.9em;
+}
+
+.goal-number {
+  font-weight: bold;
+}
+
 .control-item-img
 {
   a
@@ -145,4 +220,3 @@
     line-height: 0;
   }
 }
-
