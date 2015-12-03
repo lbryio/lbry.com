@@ -6,6 +6,7 @@
     <div class="row-fluid">
       <div class="span9 spacer2">
         <?php echo View::render('fund/header') ?>
+        <h2>TEST TEST TEST TEST TEST - You probably don't want to be here</h2>
         <h3>Current Goal</h3>
         <div class="content content-dark">
           <?php echo View::render('fund/currentGoal') ?>

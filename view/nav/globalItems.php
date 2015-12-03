@@ -1,11 +1,8 @@
 <?php foreach([
-    '/fund' => __('Fund'),
+//    '/fund' => __('Fund'),
     '/get' => __('Get'),
     '//blog.lbry.io' => __('News'),
-    '/learn' => __('Learn'),
-//    '/what' => __('What'),
-//    '/why' => __('Why'),
-//    '/team' => __('Team')
+    '/learn' => __('Learn')
 ] as $url => $label): ?>
   <div class="control-item">
     <a href="<?php echo $url ?>" <?php echo $selectedItem === $url ? 'class="nav-active"' : ''?>><?php echo $label ?></a>
