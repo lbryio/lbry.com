@@ -9,35 +9,45 @@
         <div class="text-center">
           <h1 class="cover-title">Stream, Share, Earn.</h1>
         </div>
-          <?php $labels = [
-              __('making history'),
-              __('empowering artists'),
-              __('spreading knowledge'),
-              __('sharing sustainably'),
-              __('protecting speech'),
-              __('building tomorrow'),
-              __('eliminating middlemen'),
-              __('furthering education'),
-          ] ?>
-          <?php shuffle($labels) ?>
-          <div class="sale-call ">
-            <span class="sale-call-verb"><?php echo __('Join') ?></span>
-            <span class="sale-call-total-people"><?php echo $totalPeople ?></span>
-            <span class="sale-call-prep">others in</span>
-            <span class="sale-ctas label-cycle"  data-cycle-interval="5000">
-              <span class="sale-cta"><?php echo implode('</span><span class="sale-cta">', $labels) ?></span>
-            </span>
+        <?php $labels = [
+            __('making history'),
+            __('empowering artists'),
+            __('spreading knowledge'),
+            __('sharing sustainably'),
+            __('protecting speech'),
+            __('building tomorrow'),
+            __('eliminating middlemen'),
+            __('furthering education'),
+        ] ?>
+        <?php shuffle($labels) ?>
+        <div class="sale-call ">
+          <span class="sale-call-verb"><?php echo __('Join') ?></span>
+          <span class="sale-call-total-people"><?php echo $totalPeople ?></span>
+          <span class="sale-call-prep">others in</span>
+          <span class="sale-ctas label-cycle"  data-cycle-interval="5000">
+            <span class="sale-cta"><?php echo implode('</span><span class="sale-cta">', $labels) ?></span>
+          </span>
+        </div>
+        <div class="control-group spacer2 text-center">
+          <div class="control-item">
+            <a href="/fund" class="btn-primary">Fund LBRY</a>
           </div>
-          <div class="control-group spacer2 text-center">
-            <div class="control-item">
-              <a href="/fund" class="btn-primary">Fund LBRY</a>
-            </div>
-            <div class="control-item">
-              <a href="/learn" class="btn-alt">Learn More</a>
+          <div class="control-item">
+            <a href="/learn" class="btn-alt">Learn More</a>
+          </div>
+        </div>
+        <div class="video" style="margin-bottom: 80px">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/qMUbq3sbG-o?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="row-fluid content-constrained">
+          <div class="span6 text-center">
+            <div class="fb-page" data-href="https://www.facebook.com/lbryio" data-height="300" data-small-header="false" data-width="400"
+                 data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true">
+              <div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/lbryio"><a href="https://www.facebook.com/lbryio">LBRY</a></blockquote></div>
             </div>
           </div>
-          <div class="video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/qMUbq3sbG-o?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+          <div class="span6 text-center">
+            <a width="400" class="twitter-timeline" href="https://twitter.com/LBRYio" data-widget-id="671104143034073088">Tweets by @LBRYio</a>
           </div>
         </div>
       </div>

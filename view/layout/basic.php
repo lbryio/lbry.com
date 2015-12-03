@@ -24,6 +24,7 @@
         <link rel="icon" type="image/png" href="/img/fav/favicon-16x16.png" sizes="16x16">
         <link rel="manifest" href="/img/fav/manifest.json">
 
+        <meta name="description" content="<?php echo Response::getMetaDescription() ?>">
         <meta name="msapplication-TileColor" content="#155B4A">
         <meta name="msapplication-TileImage" content="/mstile-144x144.png">
         <meta name="theme-color" content="#155B4A">        
@@ -37,10 +38,13 @@
         <meta property="og:image" content="<?php echo Response::getMetaImage() ?>" />
         <meta property="og:description" content="<?php echo Response::getMetaDescription() ?>"/>
         <meta property="og:site_name" content="LBRY" />
+        
+        <base target="_parent" />
     </head>
     <body>
       <?php echo $content ?>
       <div class="hide">
+        <div id="fb-root"></div>
         <div id="js">
           <script src="/js/jquery-2.1.3.min.js"></script>
           <script src="/js/global.js"></script>
@@ -53,6 +57,33 @@
             ga('create', 'UA-60403362-1', 'auto');
             ga('send', 'pageview');
 
+            (function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s); js.id = id;
+              js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=1477813539180850";
+              fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+            
+            window.twttr = (function(d,s,id) {
+              var js, fjs = d.getElementsByTagName(s)[0],
+                t = window.twttr || {};
+              if (d.getElementById(id)) return;
+              js = d.createElement(s);
+              js.id = id;
+              js.src = "//platform.twitter.com/widgets.js";
+              fjs.parentNode.insertBefore(js, fjs);
+
+              t._e = [];
+              t.ready = function(f) {
+                t._e.push(f);
+              };
+
+              return t;
+            }(document, "script", "twitter-wjs"));
+          </script>
+          <script>
+            <?php echo implode("\n", Response::getJsCalls()) ?>
           </script>
         </div>
       </div>

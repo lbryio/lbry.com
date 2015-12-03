@@ -28,14 +28,16 @@ class MailActions extends Actions
       $mcApi = new Mailchimp();
       $mcListId = $_POST['listId'];
       $mergeFields = isset($_POST['mergeFields']) ? unserialize($_POST['mergeFields']) : [];
-      if ($mcApi->listSubscribe($mcListId, $email, $mergeFields, 'html', false))
+      $success = $mcApi->listSubscribe($mcListId, $email, $mergeFields, 'html', false);
+      if ($success)
       {
         Session::set(Session::KEY_MAILCHIMP_LIST_IDS, array_merge(Session::get(Session::KEY_MAILCHIMP_LIST_IDS, []), [$mcListId]));
         Session::set('list_success', __('Great success! Welcome to LBRY.'));
       }
       else
       {
-        Session::set('list_error', __('Something went wrong adding you to the list.'));
+        $error = $mcApi->errorMessage ?: __('Something went wrong adding you to the list.');
+        Session::set('list_error', $error);
       }
     }
 

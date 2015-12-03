@@ -1,3 +1,5 @@
+document.domain = 'lbry.io';
+
 jQuery.fn.extend({
   jFor: function() {
     var self = $(this),
@@ -20,6 +22,19 @@ $(document).ready(function() {
       labelCycles = body.find('.label-cycle'); //should use better pattern but we have so little JS right now
   
   body.on('click', 'a', onAnchorClick);
+ 
+  if (window.twttr)
+  {
+    twttr.ready(function (twttr) {
+      twttr.events.bind('follow', onTwitterFollow);
+    });
+  }
+  
+  window.fbAsyncInit = function()
+  {
+    window.FB.Event.subscribe('edge.create', onFacebookLike);
+  };
+  
   //$(window).scroll(onBodyScroll);
 
   if (labelCycles.length)
@@ -93,6 +108,17 @@ $(document).ready(function() {
         .width(width)
         .height(width * ratio);
     }
+  }
+  
+  function onTwitterFollow (intentEvent) 
+  {
+    if (!intentEvent) return;
+    ga('send', 'social', 'Twitter', 'follow', window.location.href);
+  }
+  
+  function onFacebookLike(url) 
+  {
+    ga('send', 'social', 'Facebook', 'like', window.location.href);
   }
 
   $('.video > iframe').each(function() {
