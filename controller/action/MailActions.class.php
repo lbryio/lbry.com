@@ -32,7 +32,7 @@ class MailActions extends Actions
       if ($success)
       {
         Session::set(Session::KEY_MAILCHIMP_LIST_IDS, array_merge(Session::get(Session::KEY_MAILCHIMP_LIST_IDS, []), [$mcListId]));
-        Session::set('list_success', __('Great success! Welcome to LBRY.'));
+        Session::set(Session::KEY_LIST_SUB_SUCCESS, __('Great success! Welcome to LBRY.'));
       }
       else
       {
@@ -48,9 +48,9 @@ class MailActions extends Actions
   {
     $vars += ['btnClass' => 'btn-primary', 'returnUrl' => $_SERVER['REQUEST_URI']];
     $vars['error'] = Session::get('list_error');
-    $vars['success'] = Session::get('list_success');
+    $vars['success'] = Session::get(Session::KEY_LIST_SUB_SUCCESS);
     Session::unsetKey('list_error');
-    Session::unsetKey('list_success');
+    Session::unsetKey(Session::KEY_LIST_SUB_SUCCESS);
     return $vars;
   }
 

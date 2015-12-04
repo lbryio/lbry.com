@@ -7,7 +7,8 @@
  */
 class Session
 {
-  const KEY_MAILCHIMP_LIST_IDS = 'mailchimp_list_ids';
+  const KEY_MAILCHIMP_LIST_IDS = 'mailchimp_list_ids',
+        KEY_LIST_SUB_SUCCESS = 'list_success';
   
   public static function init()
   {

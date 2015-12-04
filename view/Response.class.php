@@ -9,6 +9,13 @@ class Response
   protected static $metaDescription = '',
                    $metaTitle = '',
                    $jsCalls = [],
+                   $assets = [
+                      'js' => [
+                         '/js/jquery-2.1.3.min.js',
+                         '/js/global.js'
+                      ],
+                      'css' => []
+                   ],
 //                   $bodyCssClasses = [],
                    $metaImg = '';
 
@@ -69,6 +76,16 @@ class Response
   {
     static::$jsCalls[] = $js;
     return '';
+  }
+
+  public static function addJsAsset($src)
+  {
+    static::$assets['js'][] = $src;
+  }
+
+  public static function getJsAssets()
+  {
+    return static::$assets['js'];
   }
 
 //  public static function addBodyCssClass($classOrClasses)

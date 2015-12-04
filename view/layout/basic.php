@@ -46,8 +46,9 @@
       <div class="hide">
         <div id="fb-root"></div>
         <div id="js">
-          <script src="/js/jquery-2.1.3.min.js"></script>
-          <script src="/js/global.js"></script>
+          <?php foreach(Response::getJsAssets() as $src): ?>
+            <script src="<?php echo $src ?>"></script>
+          <?php endforeach ?>
           <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
