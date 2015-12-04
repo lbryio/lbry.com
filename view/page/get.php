@@ -37,7 +37,7 @@
             ]) ?>
           </div>
           <div class="meta">
-            Already sign up or really hate sharing your email? <a href="/get?email=1" class="link-primary">Click here.</a>
+            Already signed up or really hate sharing your email? <a href="/get?email=1" class="link-primary">Click here.</a>
           </div>
         <?php else: ?>
           <div class="content-inset">
