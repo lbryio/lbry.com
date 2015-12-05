@@ -10,6 +10,7 @@
         <li>Open the terminal.</li>
         <li>Go to the directory you want to install in. If you're unsure, run <code>cd ~</code>.</li>
         <li>
+          <p>Copy and paste.</p>
           <div class="code-bash">
             <code><span class="code-bash-kw2">mkdir</span> -p lbry</code>
             <code><span class="code-bash-kw1">cd</span> lbry</code>
