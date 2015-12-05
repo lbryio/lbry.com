@@ -1,0 +1,25 @@
+@import "global";
+.code-bash
+{
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+
+  word-wrap: break-word;
+  .sy0 { display: inline-block; } //will allow wrapping here
+
+  font-size: 0.75em;
+  background-color: #F8F8F8;
+  border: 1px solid #ddd;
+  padding: $spacing-vertical / 2;
+
+  .code-bash-kw1  {color: #c20cb9; font-weight: bold;}
+  .code-bash-kw2 {color: #7a0874; font-weight: bold; }
+  .sy0 {color: #000000; font-weight: bold; }
+
+  > code
+  {
+    display: block;
+  }
+}

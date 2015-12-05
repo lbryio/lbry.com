@@ -2,7 +2,6 @@
 
 .cover
 {
-  @box-sizing(border-box);
   width: 100%;
   .meta-large [class*="icon"]
   {
@@ -12,7 +11,6 @@
 }
 .cover-simple
 {
- @box-sizing(border-box);
   width: 100%;
 }
 @media (max-width: $mobile-width-threshold) {

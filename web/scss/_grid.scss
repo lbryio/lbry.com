@@ -26,7 +26,6 @@ $gutter_fluid: 4;
     float: left;
     width: 100%;
     margin-left: 1% * $gutter_fluid;
-    @box-sizing(border-box);
     &:first-child
     {
       margin-left: 0;
@@ -53,7 +52,6 @@ $gutter_fluid: 4;
   width: 100%;
   > [class*="span"] {
     float: left;
-    @box-sizing(border-box);
   }
 }
 

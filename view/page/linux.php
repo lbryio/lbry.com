@@ -7,8 +7,18 @@
     <div class="span6">
       <h3>For the Efficient and Lazy</h3>
       <ol>
-        <li>Make a folder called <code>lbry</code> where you want everything to reside.</li>
-        <li>Download and run <a href="https://raw.githubusercontent.com/lbryio/lbry-setup/master/lbry_setup.sh" class="link-primary">this script</a> from that folder.</li>
+        <li>Open the terminal.</li>
+        <li>Go to the directory you want to install in. If you're unsure, run <code>cd ~</code>.</li>
+        <li>
+          <div class="code-bash">
+            <code><span class="code-bash-kw2">mkdir</span> -p lbry</code>
+            <code><span class="code-bash-kw1">cd</span> lbry</code>
+            <code><span class="code-bash-kw2">wget</span> https:<span class="sy0">//</span>raw.githubusercontent.com<span class="sy0">/</span>lbryio<span class="sy0">/</span>lbry-setup<span class="sy0">/</span>master<span class="sy0">/</span>lbry_setup.sh</code>
+            <code><span class="code-bash-kw1">chmod</span> +x lbry_setup.sh</code>
+            <code><span class="code-bash-kw2">./lbry_setup.sh</span></code>
+            <code><span class="code-bash-kw1">lbrynet-console</span></code>
+          </div>
+        </li>
       </ol>
     </div>
     <div class="span6">
