@@ -7,8 +7,7 @@
     <div class="span6">
       <h3>For the Efficient and Lazy</h3>
       <ol>
-        <li>Make a folder called <code>lbry</code> where you want everything to reside.</li>
-        <li>Download and run <a href="https://raw.githubusercontent.com/lbryio/lbry-setup/master/lbry_setup.sh" class="link-primary">this script</a> from that folder.</li>
+        <li><code>(mkdir lbry; cd lbry; wget https://raw.githubusercontent.com/lbryio/lbry-setup/master/lbry_setup.sh; chmod 755 lbry_setup.sh; ./lbry_setup.sh; bin/lbry/lbrycrdd -server -daemon)</code></li>
       </ol>
     </div>
     <div class="span6">
