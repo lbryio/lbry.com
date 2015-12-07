@@ -32,6 +32,8 @@
         <meta name="twitter:site" content="@lbryio">
         <meta name="twitter:creator" content="@lbryio">
 
+        <meta property="fb:app_id" content="1673146449633983" />
+
         <!-- Open Graph data -->
         <meta property="og:title" content="<?php echo $title ?>" />
         <meta property="og:type" content="article" />
