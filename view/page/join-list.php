@@ -12,12 +12,9 @@
         <?php echo View::render('mail/joinList', [
              'submitLabel' => 'Subscribe',
              'returnUrl' => '/join-list',
+             'meta' => true,
              'listId' => Mailchimp::LIST_GENERAL_ID
          ]) ?>
-        <div class="meta">
-          <?php echo __('You will receive 1-2 messages a month, only from LBRY, Inc. and only about LBRY.') ?>
-          <?php echo __('You can easily unsubscribe at any time.') ?>
-        </div>
       </div>
       <div class="span3">
         <h3><?php echo __('Also On') ?></h3>

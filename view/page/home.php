@@ -40,14 +40,25 @@
           <iframe width="560" height="315" src="https://www.youtube.com/embed/qMUbq3sbG-o?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="row-fluid content-constrained">
-          <div class="span6 text-center">
-            <div class="fb-page" data-href="https://www.facebook.com/lbryio" data-height="300" data-small-header="false" data-width="400"
+          <div class="span4">
+            <h3><strong><?php echo __('Get Updates') ?></strong></h3>
+            <?php echo View::render('mail/joinList', [
+              'submitLabel' => 'Go',
+              'listId' => Mailchimp::LIST_GENERAL_ID,
+              'mergeFields' => ['CLI' => 'No'],
+              'meta' => true,
+              'returnUrl' => '/',
+              'btnClass' => 'btn-alt'
+            ]) ?>
+          </div>
+          <div class="span4 text-center">
+            <div class="fb-page" data-href="https://www.facebook.com/lbryio" data-height="300" data-small-header="false" data-width="300"
                  data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true">
               <div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/lbryio"><a href="https://www.facebook.com/lbryio">LBRY</a></blockquote></div>
             </div>
           </div>
-          <div class="span6 text-center">
-            <a width="400" class="twitter-timeline" href="https://twitter.com/LBRYio" data-widget-id="671104143034073088">Tweets by @LBRYio</a>
+          <div class="span4 text-center">
+            <a width="300" class="twitter-timeline" href="https://twitter.com/LBRYio" data-widget-id="671104143034073088">Tweets by @LBRYio</a>
           </div>
         </div>
       </div>

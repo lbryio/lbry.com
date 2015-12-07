@@ -9,9 +9,11 @@ class MailActions extends Actions
 {
   public static function executeListSubscribe()
   {
+    $nextUrl = isset($_POST['returnUrl']) && $_POST['returnUrl'] ? $_POST['returnUrl'] : '/join-list';
+
     if ($_SERVER['REQUEST_METHOD'] !== 'POST')
     {
-      Controller::redirect('/get');
+      Controller::redirect($nextUrl);
     }
     
     $email = $_POST['email'];
@@ -41,7 +43,7 @@ class MailActions extends Actions
       }
     }
 
-    Controller::redirect(isset($_POST['return_url']) && $_POST['return_url'] ? $_POST['return_url'] : '/get');
+    Controller::redirect($nextUrl);
   }
   
   public static function prepareJoinList(array $vars)

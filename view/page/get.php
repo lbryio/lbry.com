@@ -12,6 +12,7 @@
         <p class="pflow">LBRY is coming out on your favorite platform soon. Join our list to know when.</p>
         <?php echo View::render('mail/joinList', [
           'submitLabel' => 'Go',
+          'returnUrl' => '/get',
           'listId' => Mailchimp::LIST_GENERAL_ID,
           'mergeFields' => ['CLI' => 'No'],
           'btnClass' => 'btn-alt'

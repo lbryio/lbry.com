@@ -18,5 +18,11 @@
     <?php if (isset($mergeFields)): ?>
     <input type="hidden" name="mergeFields" value="<?php echo htmlentities(serialize($mergeFields)) ?>" />
     <?php endif ?>
+    <?php if (isset($meta) && $meta): ?>
+      <div class="meta">
+        <?php echo __('You will receive 1-2 messages a month, only from LBRY, Inc. and only about LBRY.') ?>
+        <?php echo __('You can easily unsubscribe at any time.') ?>
+      </div>
+    <?php endif ?>
   </div>
 </form>
