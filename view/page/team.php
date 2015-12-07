@@ -106,7 +106,6 @@
     </div>
     <h2>Advisory Team</h2>
     <div class="row-fluid">
-      <?php /*
       <div class="span6 spacer2">
         <div class="photo-container">
           <img src="/img/alex-tabarrok-644x450.jpg" alt="Photo of Alex Tabarrok"/>
@@ -128,7 +127,7 @@
         <p>Tabarrok received his PhD in economics from 
           <a class="link-primary" href="http://en.wikipedia.org/wiki/George_Mason_University" title="George Mason University">George Mason University</a>.
         </p>
-      </div>*/ ?>
+      </div>
       <div class="span6 spacer2">
         <div class="photo-container">
           <img src="/img/stephan-644x450.jpg" alt="Photo of Stephan Kinsella"/>
