@@ -8,6 +8,7 @@
     <div class="notice notice-error spacer1"><?php echo $error ?></div>
   <?php elseif ($success): ?>
     <?php echo View::render('analytics/subTwitter') ?>
+    <?php echo View::render('analytics/subFacebook') ?>
     <div class="notice notice-success spacer1"><?php echo $success ?></div>
   <?php endif ?>
   <div class="mail-submit">
