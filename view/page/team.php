@@ -21,20 +21,20 @@
     <div class="row-fluid">
     <div class="span6  spacer2">
       <div class="photo-container">
-        <img src="/img/jeremy-644x450.jpg" alt="photo of Jeremy Kauffman"/>-
+        <img src="/img/jeremy-644x450.jpg" alt="photo of Jeremy Kauffman"/>
       </div>
         <h4>Jeremy Kauffman <a href="mailto:jeremy@lbry.io" class="link-primary"><span class="icon icon-envelope"></span></a></h4>
-        <div class="meta  spacer1">Founder, Director</div>
-        <p>
-          Jeremy is the founder and CEO of <a href="//usetopscore.com" class="link-primary">TopScore</a>, a startup that
-          processes millions of dollars monthly in event and activity registrations.
-          Jeremy attended <a href="//rpi.edu" class="link-primary">Rensselaer Polytechnic Institute</a>, where he received degrees in physics and computer science.
-        </p>
+        <div class="meta  spacer1">Founder, CEO</div>
         <p>
           Jeremy knows how to build and scale a startup starting from day one. He knows how to deliver usable products and get those products in front of the right people.
         </p>
         <p>
           Jeremy is responsible for the packing, presentation, and strategy of LBRY, as well as some design aspects. He is a longtime BitTorrent community enthusiast.
+        </p>
+        <p>
+          Jeremy founded <a href="//usetopscore.com" class="link-primary">TopScore</a>, a startup that
+          processes millions of dollars monthly in event and activity registrations.
+          He also attended <a href="//rpi.edu" class="link-primary">Rensselaer Polytechnic Institute</a>, where he received degrees in physics and computer science.
         </p>
       </div>
       <div class="span6  spacer2">
@@ -45,7 +45,7 @@
           Jimmy Kiselak
           <a href="mailto:jimmy@lbry.io" class="link-primary"><span class="icon icon-envelope"></span></a>
         </h4>
-        <div class="meta spacer1">Founder, Developer</div>
+        <div class="meta spacer1">Founder, CTO</div>
         <p>
           Because graduating from RPI with degrees in physics and computer science is the hip thing to do, Jimmy did the same.
           After, he found himself mired in government bureaucracy, spending too much time to get too little done.
@@ -65,7 +65,7 @@
           <img src="/img/mike-644x450.jpg" alt="photo of Mike Vine"/>
         </div>
          <h4>Mike Vine <a href="mailto:mike@lbry.io" class="link-primary"><span class="icon icon-envelope"></span></a></h4>
-          <div class="meta  spacer1">Technology Evangelist</div>
+          <div class="meta  spacer1">Founder, Evangelist</div>
           <p>
             With a humble BA in Philosophy from <a href="http://tulane.edu/" class="link-primary">Tulane University</a>, Mike has 
             built a successful financial services marketing company, <a href="http://www.centinel.net/" class="link-primary">Centinel Consulting</a>. 
@@ -77,10 +77,26 @@
             <a class="link-primary" href="//lamassu.is">Lamassu BTM</a>,
             <a class="link-primary" href="//coinapult.com">Coinapult</a>,
             <a class="link-primary" href="//shapeshift.io">Shapeshift</a>.
-            Now, he wants a turn to help change the world by harnessing blockchain technology. 
+            Now, he's ready to change the world by harnessing blockchain technology.
             Mike heads up LBRY’s marketing efforts and serves as an ambassador for our platform to media, investors, and the public.
           </p>
       </div>
+      <div class="span6  spacer2">
+        <div class="photo-container">
+          <img src="/img/spooner-644x450.jpg" alt="photo of Josh Finer"/>
+        </div>
+         <h4>Josh Finer <a href="mailto:josh@lbry.io" class="link-primary"><span class="icon icon-envelope"></span></a></h4>
+          <div class="meta  spacer1">Chief Growth Officer</div>
+          <p>
+            Josh's combination of an MBA, strong analytical skills, programming skills, advertising expertise, and a perceptive insight to
+            financial markets lead him to frequently bear the only title that can summarize such diverse wizardry: problem solver.
+          <p>
+            Josh has founded innovative financial companies (later acquired), run millions of dollars in Adwords campaigns, and been an early
+            actor in other crypto projects. Josh's contributions to LBRY will be as diverse as his background.
+          </p>
+      </div>
+    </div>
+    <div class="row-fluid">
       <div class="span6  spacer2">
         <div class="photo-container">
           <img src="/img/jack-robison-644x450.jpg" alt="photo of Jack Robison"/>
@@ -103,6 +119,19 @@
             <em>National Public Radio</em>, the <em>New York Times</em>, and presents around the country.
           </p>
       </div>
+       <div class="span6">
+        <div class="photo-container">
+          <img src="/img/spooner-644x450.jpg" alt="photo of you!"/>
+        </div>
+        <h4>You</h4>
+          <div class="meta  spacer1">Developer, Designer, Economist, Marketer, Investor, ???</div>
+          <p>
+            Do you think opening up information would facilitate human flourishing?
+            Do you want to join a bright core of people with an obsession for upending broken systems?
+            <a href="mailto:jeremy@lbry.io" class="link-primary">Say hello.</a>
+
+          </p>
+      </div>
     </div>
     <h2>Advisory Team</h2>
     <div class="row-fluid">
@@ -111,7 +140,7 @@
           <img src="/img/alex-tabarrok-644x450.jpg" alt="Photo of Alex Tabarrok"/>
         </div>
         <h4>Alex Tabarrok</h4>
-        <div class="meta  spacer1">Advisor, Economics</div>
+        <div class="meta  spacer1">Economic Advisor</div>
         <p>Alex Tabarrok is Bartley J. Madden Chair in Economics at the <a href="http://mercatus.org/" class="link-primary">Mercatus Center</a> 
           and a professor of economics at <a href="//gmu.edu" class="link-primary">George Mason University</a>. He specializes in intellectual property reform, the effectiveness of markets, and the justice system.
         </p>
@@ -133,11 +162,11 @@
           <img src="/img/stephan-644x450.jpg" alt="Photo of Stephan Kinsella"/>
         </div>
         <h4>Stephan Kinsella</h4>
-        <div class="meta  spacer1">Advisor, Legal</div>
+        <div class="meta  spacer1">Legal Advisor</div>
         <p>
-          Stephan is a registered patent attorney and has over twenty years’ experience in patent, intellectual property, 
+          Stephan Kinsella is a registered patent attorney and has over twenty years’ experience in patent, intellectual property,
           and general commercial and corporate law. He is the founder and director of the <a href="http://c4sif.org/" class="link-primary">Center for the Study of Innovative Freedom</a>.
-          Stephan has published numerous articles and books on intellectual property law and legal topics including 
+          Kinsella has published numerous articles and books on intellectual property law and legal topics including
           <a href="http://www.amazon.com/International-Investment-Political-Dispute-Resolution/dp/0379215225" class="link-primary">
             <em>International Investment, Political Risk, and Dispute Resolution: A Practitioner’s Guide</em>
           </a>
@@ -154,17 +183,34 @@
         </p>
       </div>
     </div>
-    <h2>Newest Member</h2>
     <div class="row-fluid">
-      <div class="span3"></div>
       <div class="span6">
-        <img src="/img/spooner-644x450.jpg" alt="photo of you!"/>
-        <h4>You</h4>
-          <div class="meta  spacer1">Developer, Designer, Economist, Marketer, Investor, ???</div>
+        <div class="photo-container">
+          <img src="/img/spooner-644x450.jpg" alt="photo of you!"/>
+        </div>
+        <h4>Michael Huemer</h4>
+          <div class="meta  spacer1">Ethical Advisor</div>
           <p>
-            Do you think opening up information would facilitate human flourishing?
-            Do you want to join a bright core of people with an obsession for upending broken systems?
-            <a href="mailto:jeremy@lbry.io" class="link-primary">Say hello.</a>
+            Michael Huemer is Professor of Philosophy and Ethics at the <a href="//www.colorado.edu/" class="link-primary">University of Colorado</a>,
+            where he has taught since 1998. He has published three single-author scholarly books
+          (including <em><a href="http://www.amazon.com/Ethical-Intuitionism-Michael-Huemer/dp/0230573746" class="link-primary">Ethical Intuitionism</a></em>),
+          one edited anthology, and more than fifty academic articles in  epistemology, ethics, political philosophy, and metaphysics.
+
+          </p>
+          Huemer's articles have appeared in such journals as the <em>Philosophical Review</em>, <em>Mind</em>, the <em>Journal of Philosophy</em>, <em>Ethics</em>, and others.
+          His materials are used as readings in classrooms nationwide. He received a B.A. from UC Berkeley and a Ph.D. from Rutgers University.
+          </p>
+      </div>
+      <div class="span6">
+        <div class="photo-container">
+          <img src="/img/spooner-644x450.jpg" alt="photo of you!"/>
+        </div>
+        <h4>You</h4>
+          <div class="meta  spacer1">Technical or Media Advisor</div>
+          <p>
+            LBRY is seeking an extremely experienced technical advisor or advisor with a strong background in the publishing and media space.
+            If you're that person or have a suggestion,
+            <a href="mailto:jeremy@lbry.io?subject=Advisor" class="link-primary">let us know</a>.
 
           </p>
       </div>
