@@ -7,6 +7,11 @@
  */
 class CreditApi
 {
+  public static function getCurrentTestCreditReward()
+  {
+    return 1000;
+  }
+  
   public static function getTotalDollarSales()
   {
     return 22585;
