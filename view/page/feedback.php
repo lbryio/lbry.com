@@ -26,7 +26,7 @@
       if (count == 2) //2nd load = a submit
       {
         ga('send', 'event', 'Sign Up', 'Alpha Test');
-        //twttr.conversion.trackPid('nty1x');
+        twttr.conversion.trackPid('nu2ye');
         fbq('track', 'CompleteRegistration');
       }
     });
