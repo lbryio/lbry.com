@@ -2,11 +2,9 @@
   <?php if ($error): ?>
     <div class="notice notice-error spacer1"><?php echo $error ?></div>
   <?php elseif ($success): ?>
-    <?php Response::addJsAsset('//platform.twitter.com/oct.js') ?>
     <?php js_start() ?>
       ga('send', 'event', 'Sign Up', 'Join List', '<?php echo $listId ?>');
       twttr.conversion.trackPid('nty1x');
-      fbq('init', '1618717031725766');
       fbq('track', "Lead");
     <?php js_end() ?>
     <div class="notice notice-success spacer1"><?php echo $success ?></div>

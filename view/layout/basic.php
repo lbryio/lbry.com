@@ -48,6 +48,7 @@
       <div class="hide">
         <div id="fb-root"></div>
         <div id="js">
+          <?php Response::addJsAsset('//platform.twitter.com/oct.js') ?>
           <?php foreach(Response::getJsAssets() as $src): ?>
             <script src="<?php echo $src ?>"></script>
           <?php endforeach ?>
@@ -76,6 +77,8 @@
             t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
             document,'script','//connect.facebook.net/en_US/fbevents.js');
 
+            fbq('init', '1618717031725766');
+            
             <?php //twitter ?>
             window.twttr = (function(d,s,id) {
               var js, fjs = d.getElementsByTagName(s)[0],
