@@ -25,9 +25,9 @@
       ++count;
       if (count == 2) //2nd load = a submit
       {
-        ga('send', 'event', 'Alpha Test', 'Feedback Form');
+        ga('send', 'event', 'Sign Up', 'Alpha Test');
         //twttr.conversion.trackPid('nty1x');
-        //fbq('track', "Alpha");
+        fbq('track', 'CompleteRegistration');
       }
     });
   });
