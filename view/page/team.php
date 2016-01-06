@@ -83,7 +83,7 @@
       </div>
       <div class="span6  spacer2">
         <div class="photo-container">
-          <img src="/img/spooner-644x450.jpg" alt="photo of Josh Finer"/>
+          <img src="/img/josh-644x450.jpg" alt="photo of Josh Finer"/>
         </div>
          <h4>Josh Finer <a href="mailto:josh@lbry.io" class="link-primary"><span class="icon icon-envelope"></span></a></h4>
           <div class="meta  spacer1">Chief Growth Officer</div>
@@ -137,7 +137,7 @@
     <div class="row-fluid">
       <div class="span6 spacer2">
         <div class="photo-container">
-          <img src="/img/alex-tabarrok-644x450.jpg" alt="Photo of Alex Tabarrok"/>
+          <img src="/img/alex-tabarrok-644x450.jpg" alt="Alex Tabarrok"/>
         </div>
         <h4>Alex Tabarrok</h4>
         <div class="meta  spacer1">Economic Advisor</div>
@@ -159,7 +159,7 @@
       </div>
       <div class="span6 spacer2">
         <div class="photo-container">
-          <img src="/img/stephan-644x450.jpg" alt="Photo of Stephan Kinsella"/>
+          <img src="/img/stephan-644x450.jpg" alt="Stephan Kinsella"/>
         </div>
         <h4>Stephan Kinsella</h4>
         <div class="meta  spacer1">Legal Advisor</div>
@@ -186,7 +186,7 @@
     <div class="row-fluid">
       <div class="span6">
         <div class="photo-container">
-          <img src="/img/spooner-644x450.jpg" alt="photo of you!"/>
+          <img src="/img/huemer-644x450.jpg" alt="Michael Huemer"/>
         </div>
         <h4>Michael Huemer</h4>
           <div class="meta  spacer1">Ethical Advisor</div>
