@@ -1,3 +1,4 @@
+window.lbry = {};
 document.domain = 'lbry.io';
 
 jQuery.fn.extend({
@@ -16,6 +17,13 @@ jQuery.fn.extend({
     return $(target.toString());
   }
 });
+
+lbry.foo = function()
+{
+  $('#iframeid').load(function(){
+    alert('frame has (re)loaded');
+});
+}
 
 $(document).ready(function() {
   var body = $('body'),

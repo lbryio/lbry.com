@@ -17,6 +17,11 @@ input[type="email"], input[type="text"]
   height: $spacing-vertical * 1.5;
 }
 
+textarea
+{
+  width: 100%;
+}
+
 .form-row
 {
   margin-bottom: $spacing-vertical;

@@ -80,7 +80,7 @@ class Response
 
   public static function addJsAsset($src)
   {
-    static::$assets['js'][] = $src;
+    static::$assets['js'][$src] = $src;
   }
 
   public static function getJsAssets()

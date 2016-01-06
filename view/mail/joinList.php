@@ -1,14 +1,12 @@
-<?php if ($success): ?>
-  <?php js_start() ?>
-    ga('send', 'event', 'Sign Up', 'Join List', '<?php echo $listId ?>');
-  <?php js_end() ?>
-<?php endif ?>
 <form action="/list-subscribe" method="post" novalidate>
   <?php if ($error): ?>
     <div class="notice notice-error spacer1"><?php echo $error ?></div>
   <?php elseif ($success): ?>
-    <?php echo View::render('analytics/subTwitter') ?>
-    <?php echo View::render('analytics/subFacebook') ?>
+    <?php js_start() ?>
+      ga('send', 'event', 'Sign Up', 'Join List', '<?php echo $listId ?>');
+      twttr.conversion.trackPid('nty1x');
+      fbq('track', "Lead");
+    <?php js_end() ?>
     <div class="notice notice-success spacer1"><?php echo $success ?></div>
   <?php endif ?>
   <div class="mail-submit">
