@@ -14,7 +14,7 @@
           <div class="code-bash">
             <code><span class="code-bash-kw2">mkdir</span> -p lbry</code>
             <code><span class="code-bash-kw1">cd</span> lbry</code>
-            <code><span class="code-bash-kw2">wget</span> https:<span class="sy0">//</span>raw.githubusercontent.com<span class="sy0">/</span>lbryio<span class="sy0">/</span>lbry-setup<span class="sy0">/</span>master<span class="sy0">/</span>lbry_setup.sh</code>
+            <code><span class="code-bash-kw2">wget</span> http:<span class="sy0">//</span>lbry.io<span class="sy0">/</span>dl<span class="sy0">/</span>lbry_setup.sh</code>
             <code><span class="code-bash-kw1">chmod</span> +x lbry_setup.sh</code>
             <code><span class="code-bash-kw2">./lbry_setup.sh</span></code>
             <code><span class="code-bash-kw1">lbrynet-console</span></code>

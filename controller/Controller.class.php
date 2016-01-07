@@ -47,6 +47,8 @@ class Controller
         return OpsActions::executePostCommit();
       case '/list-subscribe':
         return MailActions::executeListSubscribe();
+      case '/dl/lbry_setup.sh':
+        return static::redirect('https://raw.githubusercontent.com/lbryio/lbry-setup/master/lbry_setup.sh', 307);
       default:
         $noSlashUri = ltrim($uri, '/');
         if (View::exists('page/' . $noSlashUri))
