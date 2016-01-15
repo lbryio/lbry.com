@@ -30,12 +30,10 @@ $(document).ready(function() {
       labelCycles = body.find('.label-cycle'); //should use better pattern but we have so little JS right now
   
   body.on('click', 'a', onAnchorClick);
- 
+
   if (window.twttr)
   {
-    twttr.ready(function (twttr) {
-      twttr.events.bind('follow', onTwitterFollow);
-    });
+    twttr.events.bind('follow', onTwitterFollow);
   }
   
   window.fbAsyncInit = function()
@@ -120,12 +118,13 @@ $(document).ready(function() {
   
   function onTwitterFollow (intentEvent) 
   {
-    if (!intentEvent) return;
+    if (!intentEvent || !ga) return;
     ga('send', 'social', 'Twitter', 'follow', window.location.href);
   }
   
-  function onFacebookLike(url) 
+  function onFacebookLike() 
   {
+    if (!ga) return;
     ga('send', 'social', 'Facebook', 'like', window.location.href);
   }
 
