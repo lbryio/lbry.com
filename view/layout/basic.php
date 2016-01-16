@@ -3,7 +3,6 @@
     <head prefix="og: http://ogp.me/ns#">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
-        
         <?php $title = Response::getMetaTitle() ?: Response::guessMetaTitle($content) ?>
         <?php $title = $title ? 
                           $title . (strpos($title, 'LBRY') === false ? ' - LBRY' : '') :
@@ -26,7 +25,7 @@
 
         <meta name="description" content="<?php echo Response::getMetaDescription() ?>">
         <meta name="msapplication-TileColor" content="#155B4A">
-        <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+        <meta name="msapplication-TileImage" content="/img/fav/mstile-144x144.png">
         <meta name="theme-color" content="#155B4A">        
         <!-- Twitter Card data -->
         <meta name="twitter:site" content="@lbryio">

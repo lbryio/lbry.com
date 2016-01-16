@@ -23,9 +23,9 @@ class Controller
         throw new LogicException('All execute methods must return a template.');
       }
 
-      echo View::render('layout/basic', [
-          'content' => View::render($viewTemplate, $viewParameters + ['fullPage' => true])
-      ]);
+      $content = View::render($viewTemplate, $viewParameters + ['fullPage' => true]);
+
+      echo View::getLayout() ? View::render('layout/' . View::getLayout(), ['content' => $content]) : $content;
     } 
     catch (StopException $e)
     {

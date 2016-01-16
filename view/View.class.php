@@ -18,7 +18,8 @@ function js_end()
 class View
 {
   protected static $metaDescription = '',
-                   $metaImg = '';
+                   $metaImg = '',
+                   $layout = 'basic';
 
   public static function render($template, array $vars = [])
   {
@@ -88,5 +89,15 @@ class View
   public static function getMetaImage()
   {
     return static::$metaImg ?: 'http://lbry.io/img/lbry-dark-1600x528.png';
+  }
+
+  public static function setLayout($layout)
+  {
+    static::$layout = $layout;
+  }
+
+  public static function getLayout()
+  {
+    return static::$layout;
   }
 }
