@@ -18,21 +18,20 @@ lbry.connect = function(callback)
 
 lbry.getBalance = function()
 {
-  return 10000;
+  var method = "get_balance";
+  var request = new XmlRpcRequest("http://localhost:7080/", method);  
+  var amount = Number(request.send().parseXML());
+  return amount;
 }
 
 lbry.search = function(query, callback)
 {
   //simulate searching via setTimeout with
   setTimeout(function() {
-    var results = query && 'wonderfullife'.startsWith(query) ?
-          [{
-              'name' : 'wonderfullife',
-              'img' : 'http://staging.lbry.io/img/wonderful-life-cover.jpg',
-              'title' : 'It\'s A Wonderful Life',
-              'cost_est' : 740,
-              'description' : 'An angel helps a compassionate but despairingly frustrated businessman by showing what life would have been like if he never existed.',
-            }] : [];
+      var method = "search_nametrie"
+      var request = new XmlRpcRequest("http://localhost:7080/", method);
+      request.addParam(query);
+      var results = request.send().parseXML();
 
     callback(results);
   }, 300);
