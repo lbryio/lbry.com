@@ -1,6 +1,6 @@
 var lbry = {
   isConnected: false,
-  rootPath: 'https://raw.githubusercontent.com/jackrobison/lbry.io/local/web/',
+  rootPath: 'https://rawgit.com/jackrobison/lbry.io/local/web/',
   colors: {
     primary: '#155B4A'
   }
