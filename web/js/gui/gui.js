@@ -109,7 +109,7 @@ var Header = React.createClass({
           <CreditAmount amount={balance}/>
         </span>
         <div style={logoStyle}>
-          <img src="/img/lbry-dark-1600x528.png" style={imgStyle}/>
+          <img src="https://raw.githubusercontent.com/jackrobison/lbry.io/d5eed710b78f2ab811d9a07bf296babab13f8ecc/web/img/lbry-dark-1600x528.png" style={imgStyle}/>
         </div>
       </header>
     );
