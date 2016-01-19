@@ -2955,6 +2955,10 @@ html {
   font-size: 18px;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* line 9, ../../scss/app/_gui.scss */
 body {
   font-family: 'Raleway', sans-serif;
