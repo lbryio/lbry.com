@@ -3019,7 +3019,7 @@ input[type="search"] {
 
 /* line 38, ../../scss/app/_gui.scss */
 .busy-indicator {
-  background: url("https://raw.githubusercontent.com/jackrobison/lbry.io/d5eed710b78f2ab811d9a07bf296babab13f8ecc/web/img/busy.gif") no-repeat center center;
+  background: url("../lbryio/web/img/busy.gif") no-repeat center center;
   display: inline-block;
   margin: -1em 0;
   min-width: 16px;
