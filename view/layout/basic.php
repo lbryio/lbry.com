@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head prefix="og: http://ogp.me/ns#">
+        
+        <meta name="google-site-verification" content="QEyIHPbSKR2Z9ZNkfVHGdGv5EE7tTM7FE0Wt8tmcH50" />
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
         
