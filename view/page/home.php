@@ -37,7 +37,7 @@
           </div>
         </div>
         <div class="video" style="margin-bottom: 80px">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/qMUbq3sbG-o?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+          <iframe width="1280" height="720" src="https://www.youtube.com/embed/BNtivEJKHxI" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="row-fluid content-constrained">
           <div class="span4">
