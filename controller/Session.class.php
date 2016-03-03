@@ -8,7 +8,10 @@
 class Session
 {
   const KEY_MAILCHIMP_LIST_IDS = 'mailchimp_list_ids',
-        KEY_LIST_SUB_SUCCESS = 'list_success';
+        KEY_LIST_SUB_ERROR = 'list_error',
+        KEY_LIST_SUB_SIGNATURE = 'list_sub_sig',
+        KEY_LIST_SUB_SUCCESS = 'list_success',
+        KEY_LIST_SUB_FB_EVENT = 'list_sub_fb_event';
   
   public static function init()
   {

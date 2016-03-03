@@ -28,15 +28,16 @@
         </div>
         <h1><?php echo __('I am a Linux or OS X user comfortable from the command line.') ?></h1>
         <p class="pflow">Earn early adopter rewards and interact directly with developers via our Alpha client.</p>
+        <div class="spacer1">
+          <?php echo View::render('mail/joinList', [
+            'submitLabel' => 'Go',
+            'listId' => Mailchimp::LIST_GENERAL_ID,
+            'mergeFields' => ['CLI' => 'Yes'],
+            'fbEvent' => 'Alpha',
+            'returnUrl' => '/get?email=1'
+          ]) ?>
+        </div>
         <?php if (!$isSubscribed): ?>
-          <div class="spacer1">
-            <?php echo View::render('mail/joinList', [
-              'submitLabel' => 'Go',
-              'listId' => Mailchimp::LIST_GENERAL_ID,
-              'mergeFields' => ['CLI' => 'Yes'],
-              'returnUrl' => '/get?email=1'
-            ]) ?>
-          </div>
           <div class="meta">
             Already signed up or really hate sharing your email? <a href="/get?email=1" class="link-primary">Click here.</a>
           </div>

@@ -15,6 +15,8 @@ class MailActions extends Actions
     {
       Controller::redirect($nextUrl);
     }
+
+    Session::set(Session::KEY_LIST_SUB_SIGNATURE, isset($_POST['listSig']) ? $_POST['listSig'] : true);
     
     $email = $_POST['email'];
     if (!$email|| !filter_var($email, FILTER_VALIDATE_EMAIL))
@@ -34,7 +36,8 @@ class MailActions extends Actions
       if ($success)
       {
         Session::set(Session::KEY_MAILCHIMP_LIST_IDS, array_merge(Session::get(Session::KEY_MAILCHIMP_LIST_IDS, []), [$mcListId]));
-        Session::set(Session::KEY_LIST_SUB_SUCCESS, __('Great success! Welcome to LBRY.'));
+        Session::set(Session::KEY_LIST_SUB_SUCCESS, true);
+        Session::set(Session::KEY_LIST_SUB_FB_EVENT, isset($_POST['fbEvent']) ? $_POST['fbEvent'] : null);
       }
       else
       {
@@ -48,11 +51,24 @@ class MailActions extends Actions
   
   public static function prepareJoinList(array $vars)
   {
+    $vars['listSig'] = md5(serialize($vars));
     $vars += ['btnClass' => 'btn-primary', 'returnUrl' => $_SERVER['REQUEST_URI']];
-    $vars['error'] = Session::get('list_error');
-    $vars['success'] = Session::get(Session::KEY_LIST_SUB_SUCCESS);
-    Session::unsetKey('list_error');
-    Session::unsetKey(Session::KEY_LIST_SUB_SUCCESS);
+
+    if (Session::get(Session::KEY_LIST_SUB_SIGNATURE) == $vars['listSig'])
+    {
+      $vars['error'] = Session::get('list_error');
+      Session::unsetKey('list_error');
+
+      $vars['success'] = Session::get(Session::KEY_LIST_SUB_SUCCESS) ? __('Great success! Welcome to LBRY.') : false;
+      $vars['fbEvent'] = Session::get(Session::KEY_LIST_SUB_FB_EVENT) ?: 'Lead';
+      Session::unsetKey(Session::KEY_LIST_SUB_SUCCESS);
+      Session::unsetKey(Session::KEY_LIST_SUB_FB_EVENT);
+    }
+    else
+    {
+      $vars['success'] = false;
+    }
+    
     return $vars;
   }
 

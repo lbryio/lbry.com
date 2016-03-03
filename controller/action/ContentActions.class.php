@@ -17,6 +17,10 @@ class ContentActions extends Actions
 
   public static function executeGet()
   {
+    if (isset($_GET['email']) && $_GET['email'] && Session::get(Session::KEY_LIST_SUB_ERROR))
+    {
+      Controller::redirect('/get');
+    }
     return ['page/get', [
         'isSubscribed' => $_GET['email'] || in_array(Mailchimp::LIST_GENERAL_ID, Session::get(Session::KEY_MAILCHIMP_LIST_IDS, []))
     ]];
