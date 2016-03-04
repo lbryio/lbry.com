@@ -5,7 +5,7 @@
     <?php js_start() ?>
       ga('send', 'event', 'Sign Up', 'Join List', '<?php echo $listId ?>');
       twttr.conversion.trackPid('nty1x');
-      fbq('track', <?php echo $fbEvent ?>);
+      fbq('track', '<?php echo $fbEvent ?>');
     <?php js_end() ?>
     <div class="notice notice-success spacer1"><?php echo $success ?></div>
   <?php endif ?>
