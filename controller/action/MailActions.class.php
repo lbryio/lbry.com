@@ -63,6 +63,7 @@ class MailActions extends Actions
       $vars['fbEvent'] = Session::get(Session::KEY_LIST_SUB_FB_EVENT) ?: 'Lead';
       Session::unsetKey(Session::KEY_LIST_SUB_SUCCESS);
       Session::unsetKey(Session::KEY_LIST_SUB_FB_EVENT);
+      Session::unsetKey(Session::KEY_LIST_SUB_SIGNATURE);
     }
     else
     {
