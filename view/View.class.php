@@ -62,7 +62,7 @@ class View
 
   protected static function getFullPath($template)
   {
-    return $_SERVER['ROOT_DIR'] . '/view/' . $template . '.php';
+    return ROOT_DIR . '/view/' . $template . '.php';
   }
 
   public static function imagePath($image)

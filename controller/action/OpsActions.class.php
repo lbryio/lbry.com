@@ -11,7 +11,7 @@ class OpsActions extends Actions
   {
     $payload = json_decode($_REQUEST['payload'], true);
     $rawPost = file_get_contents('php://input');
-    $secret = trim(file_get_contents($_SERVER['ROOT_DIR']  . '/data/secret/github-secret'));
+    $secret = Config::get('github_key');
 
     Actions::returnErrorIf(!isset($_SERVER['HTTP_X_HUB_SIGNATURE']), "HTTP header 'X-Hub-Signature' is missing.");
 
@@ -21,7 +21,7 @@ class OpsActions extends Actions
 
     if ($payload['ref'] === 'refs/heads/master')
     {
-      $ret = shell_exec('sudo -u lbry ' . $_SERVER['ROOT_DIR'] . '/update.sh  2>&1');
+      $ret = shell_exec('sudo -u lbry ' . ROOT_DIR . '/update.php  2>&1');
       echo "Successful post commit (aka the script executed, so maybe it is successful):\n";
       echo $ret;
     }

@@ -1,0 +1,11 @@
+# Auto detect text files and perform LF normalization
+*       text=auto
+
+*.php   text diff=php
+*.html  text
+*.css   text
+*.scss  text
+*.js    text
+*.sql   text
+
+*.svg   -text
