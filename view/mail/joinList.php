@@ -1,3 +1,4 @@
+<?php $error = isset($error) ? $error : null ?>
 <form action="/list-subscribe" method="post" novalidate>
   <?php if ($error): ?>
     <div class="notice notice-error spacer1"><?php echo $error ?></div>
