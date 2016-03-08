@@ -36,7 +36,7 @@ class ContentActions extends Actions
 //
 //    if ($_SERVER['REQUEST_METHOD'] === 'POST')
 //    {
-//      $accessCodes = include $_SERVER['ROOT_DIR'] . '/data/secret/access_list.php';
+//      $accessCodes = include ROOT_DIR . '/data/secret/access_list.php';
 //      $today = date('Y-m-d H:i:s');
 //      foreach($accessCodes as $code => $date)
 //      {

@@ -9,7 +9,7 @@ class Autoloader
     {
       return true;
     }
-    
+
     $class = strtolower($class);
     $path = isset(static::$classes[$class]) ? static::$classes[$class] : false;
 
@@ -37,7 +37,7 @@ class Autoloader
 
     static::$classes = [];
 
-    $dir = new RecursiveDirectoryIterator($_SERVER['ROOT_DIR'], RecursiveDirectoryIterator::SKIP_DOTS);
+    $dir = new RecursiveDirectoryIterator(ROOT_DIR, RecursiveDirectoryIterator::SKIP_DOTS);
     $ite = new RecursiveIteratorIterator($dir);
     $pathIterator = new RegexIterator($ite, '/.*\.class\.php/', RegexIterator::GET_MATCH);
     foreach($pathIterator as $paths)
@@ -58,10 +58,20 @@ class Autoloader
   {
     $mapping = [];
     $classes = [];
+
+    preg_match_all('~^\s*(?:namespace)\s+([^;]+)~mi', file_get_contents($path), $namespaces);
     preg_match_all('~^\s*(?:abstract\s+|final\s+)?(?:class|interface)\s+(\w+)~mi', file_get_contents($path), $classes);
+
+    if (isset($namespaces[1]) && count($namespaces[1]) > 2)
+    {
+      throw new RuntimeException('Autoloader cannot handle 2 namespaces in the same file');
+    }
+
+    $prefix = isset($namespaces[1]) && count($namespaces[1]) ? reset($namespaces[1]) . '\\' : '';
+
     foreach ($classes[1] as $class)
     {
-      $mapping[strtolower($class)] = $path;
+      $mapping[strtolower($prefix . $class)] = $path;
     }
     return $mapping;
   }
