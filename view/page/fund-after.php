@@ -11,7 +11,7 @@
           <h1>Thank You!!!</h1>
           <p>OMG thanks for paying.</p>
           <p>Here is a unique URL that you can use to refer others. You get 10% bonus credits for anyone who uses it.</p>
-          <h3><a class="link-primary" href="http://lbry.io/i/butts">http://lbry.io/i/butts</a></h3>
+          <h3><a class="link-primary" href="//lbry.io/i/butts">http://lbry.io/i/butts</a></h3>
           <p>Here are some details about how to claim them or other things you would want to know.</p>
         </div>
       </div>
