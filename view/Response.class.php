@@ -36,7 +36,7 @@ class Response
 
   public static function getMetaImage()
   {
-    return static::$metaImg ?: 'http://lbry.io/img/lbry-dark-1600x528.png';
+    return static::$metaImg ?: '//lbry.io/img/lbry-dark-1600x528.png';
   }
 
   public static function setMetaTitle($title)
