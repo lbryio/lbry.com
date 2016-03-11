@@ -1,5 +1,6 @@
 .sass-cache
 /data/config.php
+/data/writeable/*
 /web/css/*
 /log
 /web/zohoverify
