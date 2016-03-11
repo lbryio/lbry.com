@@ -13,7 +13,7 @@ if (!$force && !file_exists($needsUpdateFile))
   return;
 }
 
-unlink($needsUpdateFile);
+@unlink($needsUpdateFile);
 
 
 chdir(ROOT_DIR);
