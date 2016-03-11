@@ -26,13 +26,13 @@ class Controller
       echo View::render('layout/basic', [
           'content' => View::render($viewTemplate, $viewParameters + ['fullPage' => true])
       ]);
-    } 
+    }
     catch (StopException $e)
     {
 
     }
   }
-  
+
   public static function execute($uri)
   {
     switch($uri)
@@ -47,6 +47,8 @@ class Controller
         return OpsActions::executePostCommit();
       case '/list-subscribe':
         return MailActions::executeListSubscribe();
+      case '/LBRY-deck.pdf':
+        return static::redirect('https://s3.amazonaws.com/files.lbry.io/LBRY-deck.pdf', 307);
       case '/dl/lbry_setup.sh':
         return static::redirect('https://raw.githubusercontent.com/lbryio/lbry-setup/master/lbry_setup.sh', 307);
       default:
