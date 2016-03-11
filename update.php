@@ -5,8 +5,7 @@ include __DIR__.'/bootstrap.php';
 
 chdir(ROOT_DIR);
 
-Shell::exec('rm ./web/css/*');
-Shell::exec('git checkout master && git pull');
+Shell::exec('git fetch && git reset --hard origin/master');
 
 $scss = new \Leafo\ScssPhp\Compiler();
 
