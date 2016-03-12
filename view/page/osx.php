@@ -9,4 +9,4 @@
     <a href="https://github.com/lbryio/lbry-setup/blob/master/README_OSX.md" class="link-primary">GitHub</a>.
   </p>
 <?php $html = ob_get_clean() ?>
-<?php echo View::render('get/get-shared', ['installHtml' => $html]) ?>
+<?php echo View::render('get/getSharedApp', ['installHtml' => $html]) ?>

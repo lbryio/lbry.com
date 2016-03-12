@@ -30,4 +30,4 @@
     </div>
   </div>
 <?php $html = ob_get_clean() ?>
-<?php echo View::render('get/get-shared', ['installHtml' => $html]) ?>
+<?php echo View::render('get/getSharedCli', ['installHtml' => $html]) ?>
