@@ -19,12 +19,12 @@
   <div class="content photo-grid spacer2">
     <h2>The Team</h2>
     <div class="row-fluid">
-    <div class="span6  spacer2">
-      <div class="photo-container">
-        <img src="/img/jeremy-644x450.jpg" alt="photo of Jeremy Kauffman"/>
-      </div>
+      <div class="span6 spacer2">
+        <div class="photo-container">
+          <img src="/img/jeremy-644x450.jpg" alt="Jeremy Kauffman"/>
+        </div>
         <h4>Jeremy Kauffman <a href="mailto:jeremy@lbry.io" class="link-primary"><span class="icon icon-envelope"></span></a></h4>
-        <div class="meta  spacer1">Founder, CEO</div>
+        <div class="meta  spacer1">Founder, Chief Executive Officer</div>
         <p>
           Jeremy knows how to build and scale a startup starting from day one. He knows how to deliver usable products and get those products in front of the right people.
         </p>
@@ -37,32 +37,82 @@
           He also attended <a href="//rpi.edu" class="link-primary">Rensselaer Polytechnic Institute</a>, where he received degrees in physics and computer science.
         </p>
       </div>
+      <div class="span6 spacer2">
+        <div class="photo-container">
+          <img src="/img/zargham-644x450.jpg" alt="Michael Zargham"/>
+        </div>
+        <h4>Michael Zargham <a href="mailto:zargham@lbry.io" class="link-primary"><span class="icon icon-envelope"></span></a></h4>
+        <div class="meta  spacer1">Founder, Chief Technical Officer</div>
+        <p>
+         Michael has spent years managing, designing, and overseeing a data science team and framework used to make multi-million dollar
+         purchasing decisions for a large media company. He brings knowledge of the media distribution business, software development
+         expertise, business development experience, technical skill and a network of corporate contacts.
+        </p>
+        <p>
+          Michael’s ability to rapidly adapt new skill sets makes him a technical and business pocketknife of our startup team. He has a
+          PhD in systems engineering from the University of Pennsylvania, with a focus on distributed systems.
+        </p>
+      </div>
+    </div>
+    <div class="row-fluid">
+      <div class="span6 spacer2">
+        <div class="photo-container">
+          <img src="/img/kevin-644x450.jpg" alt="Kevin Brophy"/>
+        </div>
+        <h4>
+          Kevin Brophy
+          <a href="mailto:kevin@lbry.io" class="link-primary"><span class="icon icon-envelope"></span></a>
+        </h4>
+        <div class="meta spacer1">Founder, Chief Financial Officer</div>
+        <p>
+          Kevin possesses the rare ability to understand complex topics and convey them with simplicity and clarity. He has experience in
+          private equity, venture capital, commercializing new technologies, startups, and corporate development.
+        </p>
+        <p>
+          Kevin manages LBRY's relationships with investors and partners, as well as driving company financial strategy and
+          commercialization.
+        </p>
+      </div>
       <div class="span6  spacer2">
         <div class="photo-container">
-              <img src="/img/jimmy-644x450.jpg" alt="photo of Jimmy Kiselak"/>
+          <img src="/img/jimmy-644x450.jpg" alt="Jimmy Kiselak"/>
         </div>
         <h4>
           Jimmy Kiselak
           <a href="mailto:jimmy@lbry.io" class="link-primary"><span class="icon icon-envelope"></span></a>
         </h4>
-        <div class="meta spacer1">Founder, CTO</div>
+        <div class="meta spacer1">Founder, Chief Product Officer</div>
         <p>
           Because graduating from RPI with degrees in physics and computer science is the hip thing to do, Jimmy did the same.
           After, he found himself mired in government bureaucracy, spending too much time to get too little done.
         </p>
         <p>
-          Ready to work on a project he believed in, Jimmy quit his national security job to start LBRY.
+          Ready to work on a project he believed in, Jimmy left a national security programming job to start LBRY.
           Jimmy created the LBRY protocol and the first LBRY application.
         </p>
-        <p>    
+        <p>
           Jimmy is a Bitcoin fanatic and has been since its early days. He has long been interested in the benefits of decentralization.
         </p>
       </div>
     </div>
     <div class="row-fluid">
+            <div class="span6  spacer2">
+        <div class="photo-container">
+          <img src="/img/josh-644x450.jpg" alt="Josh Finer"/>
+        </div>
+         <h4>Josh Finer <a href="mailto:josh@lbry.io" class="link-primary"><span class="icon icon-envelope"></span></a></h4>
+          <div class="meta  spacer1">Founder, Chief Operations & Growth Officer</div>
+          <p>
+            Josh's combination of an MBA, strong analytical skills, programming skills, advertising expertise, and a perceptive insight to
+            financial markets lead him to frequently bear the only title that can summarize such diverse wizardry: problem solver.
+          <p>
+            Josh has founded innovative financial companies (later acquired), run millions of dollars in Adwords campaigns, and been an early
+            actor in other crypto projects. Josh's contributions to LBRY will be as diverse as his background.
+          </p>
+      </div>
       <div class="span6  spacer2">
         <div class="photo-container">
-          <img src="/img/mike-644x450.jpg" alt="photo of Mike Vine"/>
+          <img src="/img/mike-644x450.jpg" alt="Mike Vine"/>
         </div>
          <h4>Mike Vine <a href="mailto:mike@lbry.io" class="link-primary"><span class="icon icon-envelope"></span></a></h4>
           <div class="meta  spacer1">Founder, Evangelist</div>
@@ -81,28 +131,32 @@
             Mike heads up LBRY’s marketing efforts and serves as an ambassador for our platform to media, investors, and the public.
           </p>
       </div>
-      <div class="span6  spacer2">
-        <div class="photo-container">
-          <img src="/img/josh-644x450.jpg" alt="photo of Josh Finer"/>
-        </div>
-         <h4>Josh Finer <a href="mailto:josh@lbry.io" class="link-primary"><span class="icon icon-envelope"></span></a></h4>
-          <div class="meta  spacer1">Chief Growth Officer</div>
-          <p>
-            Josh's combination of an MBA, strong analytical skills, programming skills, advertising expertise, and a perceptive insight to
-            financial markets lead him to frequently bear the only title that can summarize such diverse wizardry: problem solver.
-          <p>
-            Josh has founded innovative financial companies (later acquired), run millions of dollars in Adwords campaigns, and been an early
-            actor in other crypto projects. Josh's contributions to LBRY will be as diverse as his background.
-          </p>
-      </div>
+
     </div>
     <div class="row-fluid">
       <div class="span6  spacer2">
         <div class="photo-container">
-          <img src="/img/jack-robison-644x450.jpg" alt="photo of Jack Robison"/>
+          <img src="/img/grin-644x450.jpg" alt="Alex Grin"/>
+        </div>
+         <h4>Alex Grin <a href="mailto:grin@lbry.io" class="link-primary"><span class="icon icon-envelope"></span></a></h4>
+          <div class="meta  spacer1">Founder, Chief Infrastructure Officer</div>
+          <p>
+            One of Alex's most frequent job title's is Wizard, so named because he can seemingly understand and utilize
+            new technologies faster than they can be created.
+          </p>
+          <p>
+            Alex has designed and managed scalable infrastructure solutions for SaaS firms and is leveraging that
+            experience to ensure LBRY's infrastructure and architecture is scalable.
+          <p>
+            Alex also attended RPI, receiving degrees in Computer Science and Psychology, as well as Stuyvesant High School.
+          </p>
+      </div>
+      <div class="span6  spacer2">
+        <div class="photo-container">
+          <img src="/img/jack-robison-644x450.jpg" alt="Jack Robison"/>
         </div>
          <h4>Jack Robison <a href="mailto:jack@lbry.io" class="link-primary"><span class="icon icon-envelope"></span></a></h4>
-          <div class="meta  spacer1">Core Developer</div>
+          <div class="meta  spacer1">Founder, Core Developer</div>
           <p>
             Jack's path to developer with LBRY is fairly typical:
             <a href="http://www.masslive.com/localbuzz/index.ssf/2009/06/actionreaction_how_one_teens_c.html" class="link-primary">
@@ -115,13 +169,16 @@
             about it than anyone.
           <p>
             Jack has Asperger's Syndrome and is actively involved in the autism community. He was a regular on Wrong Planet's 
-            <a href="https://www.youtube.com/user/theWrongPlanet" class="link-primary">Autism Talk TV</a>, has appeared on
+            Autism Talk TV, has appeared on
             <em>National Public Radio</em>, the <em>New York Times</em>, and presents around the country.
           </p>
       </div>
-       <div class="span6">
+    </div>
+    <div class="row-fluid">
+      <div class="span3"></div>
+        <div class="span6">
         <div class="photo-container">
-          <img src="/img/spooner-644x450.jpg" alt="photo of you!"/>
+          <img src="/img/spooner-644x450.jpg" alt="you!"/>
         </div>
         <h4>You</h4>
           <div class="meta  spacer1">Developer, Designer, Economist, Marketer, Investor, ???</div>
@@ -203,7 +260,7 @@
       </div>
       <div class="span6">
         <div class="photo-container">
-          <img src="/img/spooner-644x450.jpg" alt="photo of you!"/>
+          <img src="/img/spooner-644x450.jpg" alt="you!"/>
         </div>
         <h4>You</h4>
           <div class="meta  spacer1">Technical or Media Advisor</div>
