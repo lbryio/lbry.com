@@ -141,14 +141,14 @@
          <h4>Alex Grin <a href="mailto:grin@lbry.io" class="link-primary"><span class="icon icon-envelope"></span></a></h4>
           <div class="meta  spacer1">Founder, Chief Infrastructure Officer</div>
           <p>
-            One of Alex's most frequent job title's is Wizard, so named because he can seemingly understand and utilize
+            One of Alex's job titles is Wizard, so named because he can seemingly understand and utilize
             new technologies faster than they can be created.
           </p>
           <p>
             Alex has designed and managed scalable infrastructure solutions for SaaS firms and is leveraging that
             experience to ensure LBRY's infrastructure and architecture is scalable.
           <p>
-            Alex also attended RPI, receiving degrees in Computer Science and Psychology, as well as Stuyvesant High School.
+            Alex attended RPI (receiving degrees in Computer Science and Psychology) and Stuyvesant High School.
           </p>
       </div>
       <div class="span6  spacer2">
