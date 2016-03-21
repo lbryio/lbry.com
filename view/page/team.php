@@ -83,7 +83,7 @@
         </h4>
         <div class="meta spacer1">Founder, Chief Product Officer</div>
         <p>
-          Because graduating from RPI with degrees in physics and computer science is the hip thing to do, Jimmy did the same.
+          Jimmy is the second member of team LBRY to graduate from Rensselaer with degrees in computer science and physics.
           After, he found himself mired in government bureaucracy, spending too much time to get too little done.
         </p>
         <p>

@@ -18,6 +18,7 @@
     </div>
   </div>
 </main>
+<?php echo View::render('nav/footer') ?>
 <?php js_start() ?>
   $(function() {
     var count = 0;
