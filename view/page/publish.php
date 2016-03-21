@@ -4,7 +4,7 @@
 <main >
   <div class="content">
     <h1><?php echo __('Publish') ?></h1>
-    <p>Own or create content? Release your content on LBRY and enter a brave new world.</p>
+    <p>Own or create content? Release your work on LBRY and be ahead of the curve.</p>
   </div>
   <div class="hero hero-pattern spacer2">
     <div class="hero-content">
@@ -17,7 +17,7 @@
           <h3>Global, Robust Distribution</h3>
           <p>
             LBRY uses ground-breaking technology to make your content instantly available worldwide,
-            with no ability for us or anyone else to prevent or censor your content.
+            with no ability for us or anyone else to remove or censor your content.
           </p>
         </div>
         <div class="span4 hero-tile">
