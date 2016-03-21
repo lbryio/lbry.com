@@ -126,6 +126,7 @@
     margin-right: auto;
     height: 200px;
     color: desaturate(lighten($color-primary, 40), 30);
+    color: #7ebeae; /*above wasn't working?*/
     text-shadow: 0 0 6px rgba(0,0,0,0.8);
   }
   h3
