@@ -51,7 +51,7 @@ class Controller
         return static::redirect('https://s3.amazonaws.com/files.lbry.io/LBRY-deck.pdf', 307);
       case '/dl/lbry_setup.sh':
         return static::redirect('https://raw.githubusercontent.com/lbryio/lbry-setup/master/lbry_setup.sh', 307);
-      case '/install-lbry-osx':
+      case '/lbry-osx-latest.dmg':
         return static::redirect('https://s3.amazonaws.com/files.lbry.io/osx/lbry.0.2.0.dmg', 307);
       default:
         $noSlashUri = ltrim($uri, '/');
