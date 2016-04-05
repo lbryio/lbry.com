@@ -45,6 +45,8 @@ class Controller
         return ContentActions::executeGet();
       case '/postcommit':
         return OpsActions::executePostCommit();
+      case '/log-upload':
+        return OpsActions::executeLogUpload();
       case '/list-subscribe':
         return MailActions::executeListSubscribe();
       case '/LBRY-deck.pdf':
