@@ -31,7 +31,7 @@ class OpsActions extends Actions
   {
     $log = isset($_POST['log']) ? urldecode($_POST['log']) : null;
     $name = isset($_POST['name']) ?
-            preg_replace('/[^a-z0-9_-]+/', '', substr(strtolower(trim(urldecode($_POST['name']))),0,50)) :
+            preg_replace('/[^A-Za-z0-9_-]+/', '', substr(trim(urldecode($_POST['name'])),0,50)) :
             null;
 
     Actions::returnErrorIf(!$log || !$name, "Required params: log, name");
