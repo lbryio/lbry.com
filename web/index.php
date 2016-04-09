@@ -9,6 +9,10 @@ try
 {
   i18n::register();
   Session::init();
+  if (!IS_PRODUCTION)
+  {
+    View::compileCss();
+  }
   Controller::dispatch(strtok($_SERVER['REQUEST_URI'], '?'));
 }
 catch(Exception $e)

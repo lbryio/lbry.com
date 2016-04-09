@@ -89,4 +89,25 @@ class View
   {
     return static::$metaImg ?: '//lbry.io/img/lbry-dark-1600x528.png';
   }
+
+  public static function compileCss()
+  {
+    $scssCompiler = new \Leafo\ScssPhp\Compiler();
+
+    $scssCompiler->setImportPaths([ROOT_DIR.'/web/scss']);
+
+    $compress = true;
+    if ($compress)
+    {
+      $scssCompiler->setFormatter('Leafo\ScssPhp\Formatter\Crunched');
+    }
+    else
+    {
+      $scssCompiler->setFormatter('Leafo\ScssPhp\Formatter\Expanded');
+      $scssCompiler->setLineNumberStyle(Leafo\ScssPhp\Compiler::LINE_COMMENTS);
+    }
+
+    $css = $scssCompiler->compile(file_get_contents(ROOT_DIR.'/web/scss/all.scss'));
+    file_put_contents(ROOT_DIR.'/web/css/all.css', $css);
+  }
 }
