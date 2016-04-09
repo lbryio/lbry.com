@@ -92,7 +92,7 @@ a:hover img
   {
     margin-right: 0;
   }
-  &.no-label
+  &.no-label-desktop
   {
     margin-left: 10px;
     margin-right: 10px;
@@ -164,6 +164,10 @@ a:hover img
   .mobile
   {
     display: none;
+  }
+  .no-label-desktop .btn-label
+  {
+    @include offscreen();
   }
 }
 
