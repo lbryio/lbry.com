@@ -36,7 +36,7 @@ code { font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, De
 
 h1, h2, h3
 {
-    margin-bottom: $spacing-vertical;
+  margin-bottom: $spacing-vertical / 2; margin-top: $spacing-vertical * 1.5;
 }
 h1 { font-size: 2.0em; }
 h2 { font-size: 1.75em; }
@@ -48,6 +48,14 @@ sup, sub {
  top: -0.4em;
 }
 sub { top: 0.4em; }
+section
+{
+  margin-bottom: $spacing-vertical;
+  &:last-child
+  {
+    margin-bottom: 0;
+  }
+}
 
 .hide { display: none; }
 .spacer1 { margin-bottom: $spacing-vertical; }
