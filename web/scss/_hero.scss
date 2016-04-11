@@ -8,6 +8,7 @@
   padding-bottom: $spacing-vertical;
   blockquote
   {
+    font-family: $headerFont;
     border-left: 10px solid rgba(180, 180, 180, 0.3);
     padding: 0 15px;
     font-size: 1.5em;

@@ -10,7 +10,8 @@ html
 }
 body
 {
-    font-family: 'Raleway', sans-serif;
+    font-family: $bodyFont;
+    font-weight: 300;
     line-height: 1.3333;
     min-height: 100%;
     position: relative;
@@ -34,6 +35,11 @@ iframe, img { max-width: 100%; }
 iframe { margin: 0 auto; display: block; }
 code { font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, monospace, serif; }
 
+h1, h2, h3, h4, h5, h6
+{
+  font-family: $headerFont;
+  font-weight: 300;
+}
 h1, h2, h3
 {
     margin-bottom: $spacing-vertical;
@@ -109,6 +115,7 @@ a:hover img
   text-decoration: none;
   border: 0 none;
   text-align: center;
+  font-weight: 400;
 }
 .btn-primary
 {

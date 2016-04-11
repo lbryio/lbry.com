@@ -14,6 +14,8 @@ $mobile-width-threshold: 801px;
 $max-content-width: 1000px;
 $max-text-width: 660px;
 
+$headerFont: 'Raleway', sans-serif;
+$bodyFont: 'Lato', sans-serif;
 
 @mixin clearfix()
 {
