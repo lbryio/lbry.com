@@ -21,6 +21,10 @@
   &.content-readable
   {
     max-width: $max-content-width - 200;
+    p
+    {
+      line-height: 29px;
+    }
     a[href]
     {
       color: $color-primary;
