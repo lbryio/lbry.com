@@ -7,7 +7,7 @@
     <div class="span6">
       <h3>For the Efficient and Lazy</h3>
       <p>
-        <a class="btn-primary" download href="//lbry.io/lbry-linux-latest.deb">Download lbry-linux-latest.deb</a>
+        <a class="btn-primary" download href="//lbry.io/lbry-linux-latest.deb">Download</a>
       </p>
     </div>
     <div class="span6">
