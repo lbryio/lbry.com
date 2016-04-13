@@ -1,5 +1,5 @@
 ---
-author: jeremy
+author: mike
 title: 'Introducing LBRY: The Bitcoin of Content'
 date: '2015-09-09 13:28:35'
 ---

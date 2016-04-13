@@ -21,7 +21,7 @@ As I recently traveled across Europe, and ultimately to [PorcFest](www.porcfest.
 ##### Join Mailing List
 
 <div id="mc_embed_signup">
-<form action="//lbry.us9.list-manage.com/subscribe/post?u=6dff893a9da0ab62d6704afc9&amp;id=7b74c90030" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<form action="//lbry.us9.list-manage.com/subscribe/post?u=6dff893a9da0ab62d6704afc9&id=7b74c90030" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll" >
       <div class="mc-field-group" style="margin-bottom: 10px">
         	<label for="mce-EMAIL">Email Address </label>

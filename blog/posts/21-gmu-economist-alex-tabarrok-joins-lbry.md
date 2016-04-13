@@ -1,5 +1,5 @@
 ---
-author: jeremy
+author: lbry
 title: GMU Economist Alex Tabarrok Joins LBRY
 date: '2015-12-07 17:33:37'
 ---

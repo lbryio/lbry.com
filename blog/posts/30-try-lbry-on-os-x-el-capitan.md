@@ -1,5 +1,5 @@
 ---
-author: jeremy
+author: lbry
 title: Try LBRY's Graphical Interface On OS X El Capitan
 date: '2016-01-23 00:15:31'
 ---

@@ -1,5 +1,5 @@
 ---
-author: jeremy
+author: jack
 title: The DMCA's Chilling Effect on Security Research and Innovation
 date: '2016-01-14 16:31:51'
 ---

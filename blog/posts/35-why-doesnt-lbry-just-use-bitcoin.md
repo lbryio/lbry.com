@@ -1,5 +1,5 @@
 ---
-author: jeremy
+author: lbry
 title: Why Doesn’t LBRY Just Use Bitcoin?
 date: '2016-03-17 13:31:10'
 ---

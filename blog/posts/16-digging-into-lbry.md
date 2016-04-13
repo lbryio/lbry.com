@@ -1,5 +1,5 @@
 ---
-author: jeremy
+author: lbry
 title: 'Digging Into LBRY: Our Inspiration & The Future of Content'
 date: '2015-11-05 21:08:22'
 ---

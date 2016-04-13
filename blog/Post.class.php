@@ -44,17 +44,17 @@ class Post
     return $this->contentHtml;
   }
 
-  public function getPrevPostSlug()
+  public function getPrevPost()
   {
     $slugs = array_keys(Blog::getSlugMap());
     $key = array_search($this->getSlug(), $slugs);
-    return $key === false || $key === 0 ? null : $slugs[$key-1];
+    return $key === false || $key === 0 ? null : Blog::getPost($slugs[$key-1]);
   }
 
-  public function getNextPostSlug()
+  public function getNextPost()
   {
     $slugs = array_keys(Blog::getSlugMap());
     $key = array_search($this->getSlug(), $slugs);
-    return $key === false || $key >= count($slugs)-1 ? null : $slugs[$key+1];
+    return $key === false || $key >= count($slugs)-1 ? null : Blog::getPost($slugs[$key+1]);
   }
 }

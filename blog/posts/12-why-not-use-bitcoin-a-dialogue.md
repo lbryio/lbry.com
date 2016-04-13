@@ -1,5 +1,5 @@
 ---
-author: jeremy
+author: jimmy
 title: Why Not Use Bitcoin? A Dialogue
 date: '2015-09-23 17:57:00'
 ---

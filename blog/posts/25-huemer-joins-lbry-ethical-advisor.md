@@ -1,5 +1,5 @@
 ---
-author: jeremy
+author: lbry
 title: LBRY Blockchain App Can Now Tell Right From Wrong
 date: '2015-12-30 14:59:29'
 ---

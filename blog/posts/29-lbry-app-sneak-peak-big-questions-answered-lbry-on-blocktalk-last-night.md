@@ -1,5 +1,5 @@
 ---
-author: jeremy
+author: lbry
 title: 'LBRY App Sneak Peak + Big Questions Answered - LBRY on #Blocktalk Last Night'
 date: '2016-01-15 19:17:12'
 ---

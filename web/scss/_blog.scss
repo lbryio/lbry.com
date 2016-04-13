@@ -1,6 +1,71 @@
 @import "global";
-.blog {
+
+.blog-post {
+  .date {
+    margin-top: $spacing-vertical * 2;
+  }
+  h1 {
+    font-size: 2em;
+    margin-top: 0 !important;
+  }
   p, li {
     font-weight: 400;
+  }
+  img + p {
+    margin-top: $spacing-vertical;
+  }
+
+  .prev-next {
+    margin-top: $spacing-vertical * 2;
+    margin-bottom: $spacing-vertical * 2;
+
+    .prev-next-label {
+      font-weight: 700;
+    }
+    .next {
+      text-align: right;
+    }
+  }
+
+  blockquote {
+    padding-left: 40px;
+    border-left: solid 8px #f2f2f2;
+  }
+
+  .author {
+    background-color: #f2f2f2;
+    .content {
+      padding-top: $spacing-vertical * 2;
+      padding-bottom: $spacing-vertical * 2;
+    }
+    h2 {
+      font-weight: 400;
+      margin-top: 0;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.blog-header {
+  font-size: 2em;
+  h1 {
+    font-weight: 400;
+    &:after {
+      clear: right;
+    }
+  }
+}
+
+.post-list {
+  font-family: $bodyFont;
+  margin-bottom: $spacing-vertical * 2;
+  div {
+    margin-bottom: $spacing-vertical;
+  }
+  a {
+    font-weight: 400;
+  }
+  span {
+    margin-left: 10px;
   }
 }
