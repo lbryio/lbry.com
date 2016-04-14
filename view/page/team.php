@@ -55,23 +55,19 @@
       </div>
     </div>
     <div class="row-fluid">
-      <div class="span6 spacer2">
+      <div class="span6  spacer2">
         <div class="photo-container">
-          <img src="/img/kevin-644x450.jpg" alt="Kevin Brophy"/>
+          <img src="/img/josh-644x450.jpg" alt="Josh Finer"/>
         </div>
-        <h4>
-          Kevin Brophy
-          <a href="mailto:kevin@lbry.io" class="link-primary"><span class="icon icon-envelope"></span></a>
-        </h4>
-        <div class="meta spacer1">Founder, Chief Financial Officer</div>
-        <p>
-          Kevin possesses the rare ability to understand complex topics and convey them with simplicity and clarity. He has experience in
-          private equity, venture capital, commercializing new technologies, startups, and corporate development.
-        </p>
-        <p>
-          Kevin manages LBRY's relationships with investors and partners, as well as driving company financial strategy and
-          commercialization.
-        </p>
+         <h4>Josh Finer <a href="mailto:josh@lbry.io" class="link-primary"><span class="icon icon-envelope"></span></a></h4>
+          <div class="meta  spacer1">Founder, Chief Operations & Growth Officer</div>
+          <p>
+            Josh's combination of an MBA, strong analytical skills, programming skills, advertising expertise, and a perceptive insight to
+            financial markets lead him to frequently bear the only title that can summarize such diverse wizardry: problem solver.
+          <p>
+            Josh has founded innovative financial companies (later acquired), run millions of dollars in Adwords campaigns, and been an early
+            actor in other crypto projects. Josh's contributions to LBRY will be as diverse as his background.
+          </p>
       </div>
       <div class="span6  spacer2">
         <div class="photo-container">
@@ -96,20 +92,7 @@
       </div>
     </div>
     <div class="row-fluid">
-            <div class="span6  spacer2">
-        <div class="photo-container">
-          <img src="/img/josh-644x450.jpg" alt="Josh Finer"/>
-        </div>
-         <h4>Josh Finer <a href="mailto:josh@lbry.io" class="link-primary"><span class="icon icon-envelope"></span></a></h4>
-          <div class="meta  spacer1">Founder, Chief Operations & Growth Officer</div>
-          <p>
-            Josh's combination of an MBA, strong analytical skills, programming skills, advertising expertise, and a perceptive insight to
-            financial markets lead him to frequently bear the only title that can summarize such diverse wizardry: problem solver.
-          <p>
-            Josh has founded innovative financial companies (later acquired), run millions of dollars in Adwords campaigns, and been an early
-            actor in other crypto projects. Josh's contributions to LBRY will be as diverse as his background.
-          </p>
-      </div>
+   
       <div class="span6  spacer2">
         <div class="photo-container">
           <img src="/img/mike-644x450.jpg" alt="Mike Vine"/>
@@ -131,9 +114,6 @@
             Mike heads up LBRY’s marketing efforts and serves as an ambassador for our platform to media, investors, and the public.
           </p>
       </div>
-
-    </div>
-    <div class="row-fluid">
       <div class="span6  spacer2">
         <div class="photo-container">
           <img src="/img/grin-644x450.jpg" alt="Alex Grin"/>
@@ -151,6 +131,9 @@
             Alex attended RPI (receiving degrees in Computer Science and Psychology) and Stuyvesant High School.
           </p>
       </div>
+    </div>
+    <div class="row-fluid">
+
       <div class="span6  spacer2">
         <div class="photo-container">
           <img src="/img/jack-robison-644x450.jpg" alt="Jack Robison"/>
@@ -173,10 +156,7 @@
             <em>National Public Radio</em>, the <em>New York Times</em>, and presents around the country.
           </p>
       </div>
-    </div>
-    <div class="row-fluid">
-      <div class="span3"></div>
-        <div class="span6">
+      <div class="span6">
         <div class="photo-container">
           <img src="/img/spooner-644x450.jpg" alt="you!"/>
         </div>
@@ -186,7 +166,6 @@
             Do you think opening up information would facilitate human flourishing?
             Do you want to join a bright core of people with an obsession for upending broken systems?
             <a href="mailto:jeremy@lbry.io" class="link-primary">Say hello.</a>
-
           </p>
       </div>
     </div>
