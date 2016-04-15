@@ -1,7 +1,7 @@
 <?php foreach([
 //    '/fund' => __('Fund'),
     '/get' => __('Get'),
-    '//blog.lbry.io' => __('News'),
+    'https://blog.lbry.io' => __('News'),
     '/learn' => __('Learn')
 ] as $url => $label): ?>
   <div class="control-item">

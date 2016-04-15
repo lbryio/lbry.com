@@ -12,7 +12,7 @@
                           'LBRY' ?>
         <title><?php echo $title ?></title>
 
-        <link href='https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,600|Raleway:300,300italic,600' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,600|Raleway:300,300italic,400,600' rel='stylesheet' type='text/css'>
         <link href="/css/all.css" rel="stylesheet" type="text/css" media="screen,print" />
         <link rel="apple-touch-icon" sizes="60x60" href="/img/fav/apple-touch-icon-60x60.png">
         <link rel="apple-touch-icon" sizes="114x114" href="/img/fav/apple-touch-icon-114x114.png">
