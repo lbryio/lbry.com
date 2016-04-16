@@ -1,4 +1,5 @@
 .sass-cache
+.idea
 /data/config.php
 /data/writeable/*
 /web/css/*

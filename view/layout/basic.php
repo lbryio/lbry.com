@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head prefix="og: http://ogp.me/ns#">
-        
+
         <meta name="google-site-verification" content="QEyIHPbSKR2Z9ZNkfVHGdGv5EE7tTM7FE0Wt8tmcH50" />
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
-        
+
         <?php $title = Response::getMetaTitle() ?: Response::guessMetaTitle($content) ?>
-        <?php $title = $title ? 
+        <?php $title = $title ?
                           $title . (strpos($title, 'LBRY') === false ? ' - LBRY' : '') :
                           'LBRY' ?>
         <title><?php echo $title ?></title>
-        
-        <link href='//fonts.googleapis.com/css?family=Raleway:600,300' rel='stylesheet' type='text/css'>
+
+        <link href='https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,600|Raleway:300,300italic,400,600' rel='stylesheet' type='text/css'>
         <link href="/css/all.css" rel="stylesheet" type="text/css" media="screen,print" />
         <link rel="apple-touch-icon" sizes="60x60" href="/img/fav/apple-touch-icon-60x60.png">
         <link rel="apple-touch-icon" sizes="114x114" href="/img/fav/apple-touch-icon-114x114.png">
@@ -29,7 +29,7 @@
         <meta name="description" content="<?php echo Response::getMetaDescription() ?>">
         <meta name="msapplication-TileColor" content="#155B4A">
         <meta name="msapplication-TileImage" content="/mstile-144x144.png">
-        <meta name="theme-color" content="#155B4A">        
+        <meta name="theme-color" content="#155B4A">
         <!-- Twitter Card data -->
         <meta name="twitter:site" content="@lbryio">
         <meta name="twitter:creator" content="@lbryio">
@@ -42,7 +42,7 @@
         <meta property="og:image" content="<?php echo Response::getMetaImage() ?>" />
         <meta property="og:description" content="<?php echo Response::getMetaDescription() ?>"/>
         <meta property="og:site_name" content="LBRY" />
-        
+
         <base target="_parent" />
     </head>
     <body>
