@@ -1,5 +1,5 @@
 <main>
-  <div class="cover cover-dark cover-center cover-full" style="background-image:url(/img/AltamiraBison.jpg)">
+  <div class="cover cover-dark cover-center cover-full" style="background-image:url(/img/altamira-bison.jpg)">
     <h1 class="cover-title">Art in the Internet Age</h1>
     <div class="cover-subtitle">
       by <em>Jeremy Kauffman</em>, <em>Michael Zargham</em>, and <em>Jack Robison</em>
