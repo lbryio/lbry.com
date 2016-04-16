@@ -18,7 +18,19 @@
   {
     max-width: 1400px;
   }
-
+  &.content-readable
+  {
+    max-width: $max-content-width - 200;
+    p
+    {
+      line-height: 29px;
+    }
+    a[href]
+    {
+      color: $color-primary;
+      text-decoration: underline;
+    }
+  }
 
   padding-left: 15px;
   padding-right: 15px;
@@ -66,6 +78,12 @@
     margin-left: 0;
     margin-right: 0;
   }
+  footer
+  {
+    font-size: 0.9em;
+    font-style: italic;
+    em { font-style: normal; }
+  }
   ul, ol
   {
     > li
@@ -108,6 +126,23 @@
 
         content: counter(li-counter);
         counter-increment: li-counter;
+      }
+      ol
+      {
+        margin-top: $spacing-vertical / 2;
+        > li
+        {
+          border-left-style: dashed;
+          font-size: 0.9em;
+          min-height: 1em;
+          &:before
+          {
+            content: counter(li-counter, lower-alpha);
+            top: -0.15em;
+            font-size: 1.4em;
+            text-transform: uppercase;
+          }
+        }
       }
       + li { margin-top: $spacing-vertical; }
     }
