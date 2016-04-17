@@ -2,7 +2,7 @@
   <?php define('FOOTER_RENDERED', true) ?>
   <div class="footer">
     <div class="content">
-      <div class="control-group">
+      <nav class="control-group">
         <div class="control-item">
           <a href="/"><?php echo __('Home') ?></a>
         </div>
@@ -12,7 +12,7 @@
             <img src="/img/Free-speech-flag.svg" alt="Free Speech Flag" height="30"/>
           </a>
         </div>
-      </div>
+      </nav>
     </div>
   </div>
 <?php endif ?>

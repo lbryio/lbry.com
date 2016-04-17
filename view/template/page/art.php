@@ -31,7 +31,7 @@
       <p>At the highest level, LBRY does something extraordinarily simple. LBRY creates an association between a unique name and a piece of digital content, such as a movie, book, or game. This is similar to the domain name system that you are most likely using to access this very post.</p>
 
       <div class="text-center meta spacer1">
-        <img src="/img/lbry_UI.png"/>
+        <img src="/img/lbry-ui.png"/>
         <div class="content-inset">
           A user searches and prepares to stream and the film <em>It’s a Wonderful Life</em>, located at <a href="lbry://wonderfullife">lbry://wonderfullife</a>, via a completely decentralized network. Try it out for yourself at <a href="http://lbry.io/get">lbry.io/get</a>.
         </div>

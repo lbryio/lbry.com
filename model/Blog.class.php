@@ -7,7 +7,7 @@ class Blog
   public static function getPosts()
   {
     $posts = [];
-    foreach(glob(ROOT_DIR.'/blog/posts/*.md') as $file)
+    foreach(static::getAllPostPaths() as $file)
     {
       $posts[] = Post::fromFile($file);
     }
@@ -33,11 +33,16 @@ class Blog
   {
     if (!static::$slugMap)
     {
-      foreach(glob(ROOT_DIR.'/blog/posts/*.md') as $file)
+      foreach(static::getAllPostPaths() as $file)
       {
         static::$slugMap[static::getSlugFromFilename($file)] = $file;
       }
     }
+  }
+
+  protected static function getAllPostPaths()
+  {
+    return glob(ROOT_DIR . '/view/posts/*.md');
   }
 
   public static function getSlugMap()

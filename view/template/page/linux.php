@@ -1,6 +1,6 @@
 <?php Response::setMetaDescription('Download/install the latest version of LBRY for Linux.') ?>
 <?php ob_start() ?>
-  <h1>Install LBRY on Linux<span class="icon-linux"></span></h1>
+  <h1>Install LBRY on Linux <span class="icon-linux"></span></h1>
   <?php echo View::render('get/alphaNotice') ?>
   <div class="meta spacer1 text-center">Choose an install option.</div>
   <div class="row-fluid">

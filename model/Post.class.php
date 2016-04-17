@@ -19,6 +19,11 @@ class Post
     $this->contentHtml = ParsedownExtra::instance()->text(trim($markdown));
   }
 
+  public function getRelativeUrl()
+  {
+    return BlogActions::URL_STEM . '/' . $this->slug;
+  }
+
   public function getSlug()
   {
     return $this->slug;
@@ -56,5 +61,40 @@ class Post
     $slugs = array_keys(Blog::getSlugMap());
     $key = array_search($this->getSlug(), $slugs);
     return $key === false || $key >= count($slugs)-1 ? null : Blog::getPost($slugs[$key+1]);
+  }
+
+  public function getAuthorName()
+  {
+    switch(strtolower($this->author))
+    {
+      case 'jeremy':
+        return 'Jeremy Kauffman';
+      case 'mike':
+        return 'Mike Vine';
+      case 'jimmy':
+        return 'Jimmy Kiselak';
+      case 'jack':
+        return 'Jack Robison';
+      case 'lbry':
+      default:
+        return 'Samuel Bryan';
+    }
+  }
+
+  public function getAuthorBioHtml()
+  {
+    switch(strtolower($this->author))
+    {
+      case 'jeremy':
+        return '<p>Jeremy is the creator of TopScore (usetopscore.com), LBRY (lbry.io), and that joke where the first two items in your list are serious while the third one is a run-on sentence.</p>';
+      case 'mike':
+      case 'jimmy':
+        return '<p>' . $this->getAuthorName() . ' is one of the founding members of LBRY.</p>';
+      case 'jack':
+        return '<p>Jack was one of the first people to discover LBRY and took to it so fast he may understand more about it than anyone. He has Asperger\'s Syndrome and is actively involved in the autism community.</p>';
+      case 'lbry':
+      default:
+        return '<p>Much of our writing is a collaboration between LBRY team members, so we use SamueL BRYan to share credit. Sam has become a friend... an imaginary friend... even though we\'re adults...</p>';
+    }
   }
 }

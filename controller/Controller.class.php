@@ -58,9 +58,11 @@ class Controller
       case '/lbry-linux-latest.deb':
         return static::redirect('https://s3.amazonaws.com/files.lbry.io/linux/lbry_0.2.1_amd64.deb', 307);
       default:
-        if (preg_match('#^/blog($|/)#', $uri))
+        $blogPattern = '#^/news(/|$)#';
+        if (preg_match($blogPattern, $uri))
         {
-          return BlogActions::execute($uri);
+          $slug = preg_replace($blogPattern, '', $uri);
+          return $slug ? BlogActions::executePost($slug) : BlogActions::executeIndex();
         }
         $noSlashUri = ltrim($uri, '/');
         if (View::exists('page/' . $noSlashUri))

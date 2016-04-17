@@ -57,17 +57,22 @@ $gutter_fluid: 4;
 
 .column-fluid {
   @include display-flex();
-  flex-wrap: wrap;
+  @include flex-wrap(wrap);
   > [class*="span"] {
     @include display-flex();
     @include flex(1 0 auto);
     overflow: hidden;
-    justify-content: center;
+    @include justify-content(center);
   }
 }
 
 .row-fluid, .tile-fluid {
   @include clearfix();
+}
+
+@media (min-width: $mobile-width-threshold) {
+  .pull-left { float: left; }
+  .pull-right { float: right; }
 }
 
 @media (max-width: $mobile-width-threshold) {

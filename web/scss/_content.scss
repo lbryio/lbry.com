@@ -18,24 +18,11 @@
   {
     max-width: 1400px;
   }
-  &.content-readable
-  {
-    max-width: $max-content-width - 200;
-    p
-    {
-      line-height: 29px;
-    }
-    a[href]
-    {
-      color: $color-primary;
-      text-decoration: underline;
-    }
-  }
 
   padding-left: 15px;
   padding-right: 15px;
 
-  h1, h2, h3, h4, h5, h6
+  h1, h2, h3, h4
   {
     &:not(:first-child)
     {
@@ -65,6 +52,12 @@
     }
 
     .link-primary { color: $color-primary; }
+
+    blockquote
+    {
+      padding-left: 40px;
+      border-left: solid 8px #f2f2f2;
+    }
   }
 
   p
@@ -101,10 +94,12 @@
   ul
   {
       margin-bottom: $spacing-vertical * 1.5;
+      &:last-child { margin-bottom: $spacing-vertical / 2; }
       > li + li { margin-top: $spacing-vertical; }
   }
   ol {
     margin-bottom: $spacing-vertical * 1.5;
+    &:last-child { margin-bottom: $spacing-vertical / 2; }
     padding-left: 2em;
     counter-reset: li-counter;
     > li {

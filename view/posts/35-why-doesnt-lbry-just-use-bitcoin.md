@@ -10,7 +10,7 @@ Perhaps the most-asked question we receive is: Why have you created LBC, rather 
 
 There are three important reasons why we must use LBC instead of Bitcoin. Some of it is highly technical, so please bear with us as we attempt to translate into plain English.
 
-**Reason #1 – Using LBC instead of Bitcoin makes verifying content ownership possible for lightweight clients.**
+### Reason #1 – Using LBC instead of Bitcoin makes verifying content ownership possible for lightweight clients.
 
 In blockchain-based systems, data (in the case of Bitcoin, transactions) are grouped into multiple packages called blocks. These blocks are “chained” one after another to form the public ledger known as the blockchain. Each block starts with a block header, a comparatively tiny piece of data, which has some metadata about the block such as the time it was mined and a reference to the block that came before it. That metadata also includes a cryptographic value which can be used to prove to someone who doesn’t have (or want) the whole block, but has all of the block headers, that a given transaction was included in that block and therefore into the blockchain. This is used by so-called *lightweight clients*, which make it possible for people to use bitcoin on devices that wouldn’t be able to handle the full blockchain, like web browsers and smartphones.
 
@@ -18,7 +18,7 @@ LBC block headers contain an additional piece of information: a value which can 
 
 This is necessary for LBRY because unlike systems built on Bitcoin or other existing altcoins, LBRY’s naming system assigns ownership over content through an ongoing auction. Whoever pledges the most credits against a name holds it, subject to a defined window for a counter-bid. These bids are stored in a special tree-shaped data structure on the hard drives of all miners. Whenever the winning bid for a name changes, that change has an effect which spreads all the way up the tree and into the special piece of information stored in LBC block headers.
 
-**Reason #2 – LBRY could easily overwhelm the maximum transaction volume allowed by Bitcoin.**
+### Reason #2 – LBRY could easily overwhelm the maximum transaction volume allowed by Bitcoin.
 
 LBRY intends to thrive on microtransactions that are looking increasingly implausible with Bitcoin. By now, everyone interested in cryptocurrency is all-too-intimately familiar with the limitations of Bitcoin’s current block size. Currently, Bitcoin has a limit of one megabyte of data per block. If enough transactions happen over the network that the one-megabyte limit is reached, all additional transactions are considerably delayed. That’s why we’re currently seeing reports of transaction times in the high double-digits.
 
@@ -26,7 +26,7 @@ The problem is a double bind. If the block size stays low, then transactions gri
 
 If LBRY starts growing exponentially, we don’t want to worry about contributing to the delinquency of the Bitcoin blockchain by overwhelming it with microtransactions. And in the immediate future, we don’t want to see payments to artists eaten up by Bitcoin’s rising fees.
 
-**Reason #3 - Decentralization and independence are good for progress.**
+### Reason #3 - Decentralization and independence are good for progress.
 
 One of the main draws of Bitcoin has always been its relative decentralization of control and independence from existing legal and financial systems. Similarly, using LBC as an “appcoin” gives LBRY some healthy autonomy from Bitcoin while allowing for the technical innovations explained above.
 
@@ -36,7 +36,7 @@ In the early days of our protocol, LBRY Inc. will be making a concerted effort t
 
 Bitcoin was created as a grand experiment to demonstrate blockchain technology and liberate the world from legacy banking, but it couldn’t possibly have been designed to be all things to all applications. We believe our appcoin is the best tool to succeed at our mission of putting every film, song, book, and game ever made onto a blockchain – without trying to displace Bitcoin as a global currency.
 
-**Wait! This is also relevant to your interests:**
+### Wait! This is also relevant to your interests
 
 Converting from fiat money to cryptocash is hard. But converting between cryptos is super-easy, especially since the launch of [ShapeShift.io](http://www.shapeshift.io/). So LBRYians can earn LBC and quickly convert it to BTC to save or spend. And Bitcoiners can easily convert a bit of their holdings to LBC to get great content on the LBRY network.
 

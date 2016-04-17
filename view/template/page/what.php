@@ -2,9 +2,6 @@
 <?php NavActions::setNavUri('/learn') ?>
 <?php echo View::render('nav/header', ['isDark' => false]) ?>
 <main>
-  <div class="content">
-    <h1>What is LBRY?</h1>
-  </div>
   <div class="hero hero-pattern spacer2">
     <div class="hero-content text-center">
       <h2 class="hero-title">A revolution in accessing and publishing information.</h2>
@@ -37,8 +34,8 @@
     </div>
   </div>
   <div class="content">
+    <h1>What is LBRY?</h1>
     <div class="spacer2">
-      <h3>Tell Me More</h3>
       <p>LBRY allows anyone to publish content to a location like this:</p>
       <p class="text-center"><code>lbry://wonderfullife</code></p>
       <p>Others can access this resource, either for free or for credits. Let's look at an example:</p>

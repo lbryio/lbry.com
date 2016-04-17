@@ -19,9 +19,9 @@
         </a>
       </div>
       <div class="fullscreen header-navigation-fullscreen">
-        <div class="control-group">
+        <nav class="control-group">
           <?php echo View::render('nav/globalItems') ?>
-        </div>
+        </nav>
       </div>
     </div>
   </div>

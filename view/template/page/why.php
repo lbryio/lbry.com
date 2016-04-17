@@ -3,7 +3,6 @@
 <?php Response::setMetaDescription('Learn about the inspiration behind LBRY\'s revolutionary content distribution system.') ?>
 <?php echo View::render('nav/header', ['isDark' => false]) ?>
 <main>
-  <div class="content"><h1>Why?</h1></div>
   <div class="hero hero-quote hero-img spacer2" style="background-image: url(/img/cover-jcole.jpg)">
     <div class="hero-content-wrapper">
       <div class="hero-content">
@@ -14,6 +13,7 @@
       </div>
     </div>
   </div>
+  <div class="content"><h1>Why?</h1></div>
   <div class="content spacer2">
     <h3>The World We Live In</h3>
     <p>Annual internet video traffic is approximately 500 exabytes (500,000,000,000 GB)<sup><a href="http://www.cisco.com/c/en/us/solutions/collateral/service-provider/ip-ngn-ip-next-generation-network/white_paper_c11-481360.html">1</a></sup>.

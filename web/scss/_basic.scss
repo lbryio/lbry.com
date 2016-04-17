@@ -10,8 +10,8 @@ html
 }
 body
 {
-    font-family: $bodyFont;
-    font-weight: 300;
+    font-family: $font-body;
+    font-weight: 400;
     line-height: 1.3333;
     min-height: 100%;
     position: relative;
@@ -37,17 +37,24 @@ code { font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, De
 
 h1, h2, h3, h4, h5, h6
 {
-  font-family: $headerFont;
-  font-weight: 300;
+  font-family: $font-header;
+  font-weight: 500;
 }
-h1, h2, h3
+h1, h2, h3, h4
 {
-  margin-bottom: $spacing-vertical / 2; margin-top: $spacing-vertical * 1.5;
+  margin-bottom: $spacing-vertical / 2;
+  margin-top: $spacing-vertical / 2;
 }
-h1 { font-size: 2.0em; }
-h2 { font-size: 1.75em; }
-h3 { font-size: 1.4em; }
-h4 { font-size: 1.2em; margin-bottom: $spacing-vertical / 2; }
+h1 { font-size: 2.4em; }
+h2 { font-size: 2.0em; }
+h3 { font-size: 1.75em; }
+h4 { font-size: 1.4em; }
+nav
+{
+  font-size: 1.2em;
+  font-family: $font-header;
+  font-weight: 400;
+}
 sup, sub {
  vertical-align: baseline;
  position: relative;
@@ -64,6 +71,7 @@ section
 }
 
 .hide { display: none; }
+.spacer-half { margin-bottom: $spacing-vertical / 2; }
 .spacer1 { margin-bottom: $spacing-vertical; }
 .spacer2 { margin-bottom: $spacing-vertical * 2; }
 .text-center { text-align: center; }
@@ -74,16 +82,7 @@ section
 
 .link-primary
 {
-  color: $color-primary;
-  text-decoration: underline;
-  .icon:first-child
-  {
-    padding-right: 5px;
-  }
-  .icon:last-child
-  {
-    padding-left: 5px;
-  }
+  @include anchor($color-primary);
 }
 a:hover img
 {
@@ -123,7 +122,9 @@ a:hover img
   text-decoration: none;
   border: 0 none;
   text-align: center;
-  font-weight: 400;
+  font-family: $font-header;
+  font-size: 1.15em;
+
 }
 .btn-primary
 {
@@ -156,6 +157,11 @@ a:hover img
         margin-bottom: $spacing-vertical;
     }
     @include clearfix();
+}
+
+.clearfix
+{
+  @include clearfix();
 }
 
 .table-layout

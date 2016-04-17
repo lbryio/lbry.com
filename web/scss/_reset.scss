@@ -42,3 +42,8 @@ a
     color: inherit;
     text-decoration: none;
 }
+input, a, button, select
+{
+  -webkit-appearance: none;
+  border-radius: 0;
+}

@@ -8,8 +8,8 @@
         <h1><?php echo __('What?') ?></h1>
         <div class="spacer1">
           <div class="spacer1">
-            <a href="/img/lbry-win-ss-783x272.png">
-              <img src="/img/lbry-win-ss-783x272.png" />
+            <a href="/img/lbry-ui.png">
+              <img src="/img/lbry-ui.png" alt="Screenshot of a LBRY browser"/>
             </a>
           </div>
           <p><em>Puts on jargon hat.</em></p>

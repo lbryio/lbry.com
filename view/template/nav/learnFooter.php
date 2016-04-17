@@ -1,5 +1,5 @@
 <div class="cover cover-dark  cover-dark-grad ">
-  <div class="content content-dark spacer2">
+  <div class="content content-dark">
     <div class="row-fluid">
       <div class="span6">
         <h3><?php echo __('Sounds Great. What\'s Next?') ?></h3>
@@ -48,24 +48,8 @@
           <?php if ($_SERVER['REQUEST_URI'] != '/team'): ?>
             <li>Find out about <a href="/team" class="link-primary">the team behind LBRY</a>.</li>
           <?php endif ?>
-          <?php /*
-          <li>Access our
-            <a href="https://docs.google.com/document/u/1/d/1F2kcuWa8ccGdDZwAyPs3tddvATjN9rcq3iKkyJp9SYM/edit?usp=drive_web"
-               class="link-primary">business plan</a>.
-          </li>
-          <li>Watch our
-            <a href="https://docs.google.com/presentation/u/1/d/1zaAPzh9cqvwVD5X7Ewn7_vuBWlJcjNPIfYuUg1rVhRo/present?noreplica=1&slide=id.p"
-               class="link-primary">pitch deck</a>.
-          </li>*/ ?>
         </ul>
       </div>
     </div>
   </div>
 </div>
-<?php /*
- * <div class="content text-center spacer2">
-    <h3>Not Ready to Get Serious?</h3>
-    <p>Join our mailing list for updates about LBRY.</p>
- 
-  </div>
- */ ?>
