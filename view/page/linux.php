@@ -5,13 +5,13 @@
   <div class="meta spacer1 text-center">Choose an install option.</div>
   <div class="row-fluid">
     <div class="span6">
-      <h3>For the Efficient and Lazy</h3>
+      <h3>Casuals</h3>
       <p>
-        <a class="btn-primary" download href="//lbry.io/lbry-linux-latest.deb">Download</a>
+        <a class="btn-primary" download href="//lbry.io/lbry-linux-latest.deb">Download .deb</a>
       </p>
     </div>
     <div class="span6">
-      <h3>For the Shrewd and Frivolous</h3>
+      <h3><strike>Masochists</strike> Professionals</h3>
       <ol>
         <li>Clone and follow the build steps for <a href="https://github.com/lbryio/lbryum" class="link-primary">lbryum</a>, a lightweight client for LBRY.</li>
         <li>Clone and follow the build steps for <a href="https://github.com/lbryio/lbry"  class="link-primary">lbry</a>, a console based application for using the LBRY protocol.</li>
