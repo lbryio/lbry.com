@@ -56,7 +56,7 @@ class Controller
       case '/lbry-osx-latest.dmg':
         return static::redirect('https://s3.amazonaws.com/files.lbry.io/osx/lbry.0.2.2.dmg', 307);
       case '/lbry-linux-latest.deb':
-        return static::redirect('https://s3.amazonaws.com/files.lbry.io/linux/lbry_0.2.1_amd64.deb', 307);
+        return static::redirect('https://s3.amazonaws.com/files.lbry.io/linux/lbry_0.2.2_amd64.deb', 307);
       default:
         if (preg_match('#^/blog($|/)#', $uri))
         {
