@@ -22,7 +22,7 @@ class ContentActions extends Actions
       Controller::redirect('/get');
     }
     return ['page/get', [
-        'isSubscribed' => $_GET['email'] || in_array(Mailchimp::LIST_GENERAL_ID, Session::get(Session::KEY_MAILCHIMP_LIST_IDS, []))
+        'isSubscribed' => (isset($_GET['email']) && $_GET['email']) || in_array(Mailchimp::LIST_GENERAL_ID, Session::get(Session::KEY_MAILCHIMP_LIST_IDS, []))
     ]];
   }
 //
