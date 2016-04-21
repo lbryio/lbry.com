@@ -1,8 +1,8 @@
 <?php Response::setMetaDescription('Download/install the latest version of LBRY for Linux.') ?>
 <?php ob_start() ?>
-  <h1>Install LBRY on Linux<span class="icon-linux"></span></h1>
+  <h1>Install LBRY on Linux <span class="icon-linux"></span></h1>
   <?php echo View::render('get/alphaNotice') ?>
-  <div class="meta spacer1 text-center">Choose an install option.</div>
+  <div class="meta text-center">Choose your install level.</div>
   <div class="row-fluid">
     <div class="span6">
       <h3>Casuals</h3>
@@ -19,4 +19,4 @@
     </div>
   </div>
 <?php $html = ob_get_clean() ?>
-<?php echo View::render('get/getSharedCli', ['installHtml' => $html]) ?>
+<?php echo View::render('get/getSharedApp', ['installHtml' => $html]) ?>

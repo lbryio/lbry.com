@@ -1,6 +1,6 @@
 <?php Response::setMetaDescription('Download/install the latest version of LBRY for OS X.') ?>
 <?php ob_start() ?>
-  <h1>Install LBRY on OS X <span class="icon-apple"></span> (command line)</h1>
+  <h1>Install LBRY on OS X <span class="icon-apple"></span></h1>
   <?php echo View::render('get/alphaNotice') ?>
   <p>
     <a class="btn-primary" href="//lbry.io/lbry-osx-latest.dmg">Download for OS X</a>
