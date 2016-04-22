@@ -15,11 +15,11 @@ Nerds like us like to speculate about the end-game of this trend with others on 
 
 Generally, post-scarcity is regarded as fantastical; something that will never happen in our lifetimes. Except for one area: digital goods.
 
-Art in the internet age is infinitely reproducible and easily shared. This is a sea change from any prior time in history. Previously, vinyl records captured audio in physical grooves; tapes captured data on magnetic strips; compact disks held digital files read by lasers—in each of these cases physical, medium-specific hardware is required to both produce and recover the bits of data that made up the digital content.
+Art in the internet age is infinitely reproducible and easily shared. This is a sea change from any prior time in history. Previously, vinyl records captured audio in physical grooves; tapes captured data on magnetic strips; compact disks held digital files read by lasers — in each of these cases physical, medium-specific hardware is required to both produce and recover the bits of data that made up the digital content.
 
 Today art is just data, a string of 1s and 0s, a _number_, and we no longer need any specialized hardware to decode and enjoy digital content. We use the same technological methods to access a personal photograph a single time as we do to watch a blockbuster on Netflix.
 
-This is a big step forward from the past. As production costs fall to zero, choices go up. Digital distributors provide virtually every song, film, photo or book for purchase and download to any internet enabled device. Technology has decreased the cost of production, too -- it has never been easier for aspirant artists to achieve a following through self-publishing.
+This is a big step forward from the past. As production costs fall to zero, choices go up. Digital distributors provide virtually every song, film, photo or book for purchase and download to any internet enabled device. Technology has also decreased the cost of production — it has never been easier for aspirant artists to achieve a following through self-publishing.
 
 The digitization of art has added a lot of value to both content creators and consumers, reducing costs and increasing choice. This transition is still in its infancy. With LBRY, we’re going to make it a little more mature.
 
@@ -31,7 +31,7 @@ LBRY is the first digital marketplace to be controlled by the market’s partici
 
 At the highest level, LBRY does something extraordinarily simple. LBRY creates an association between a unique name and a piece of digital content, such as a movie, book, or game. This is similar to the domain name system that you are most likely using to access this very post.
 
-<div class="text-center meta spacer1">![](/img/lbry-ui.png)
+<div class="text-center meta spacer1">![LRBY UI](/img/lbry-ui.png)
 
 <div class="content-inset">A user searches and prepares to stream and the film _It’s a Wonderful Life_, located at [lbry://wonderfullife](lbry://wonderfullife), via a completely decentralized network. Try it out for yourself at [lbry.io/get](http://lbry.io/get).</div>
 
