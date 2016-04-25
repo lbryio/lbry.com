@@ -20,11 +20,10 @@ $gutter_fluid: 4;
 .span2 { width: 16.666%; }
 .span1 { width: 8.333%; }
 
-.row-fluid {
+.row-fluid, .row-fluid-always {
   width: 100%;
   > [class*="span"] {
     float: left;
-    width: 100%;
     margin-left: 1% * $gutter_fluid;
     &:first-child
     {
@@ -60,6 +59,7 @@ $gutter_fluid: 4;
   @include flex-wrap(wrap);
   > [class*="span"] {
     @include display-flex();
+    @include flex-wrap(wrap);
     @include flex(1 0 auto);
     overflow: hidden;
     @include justify-content(center);

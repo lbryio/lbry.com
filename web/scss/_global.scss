@@ -8,14 +8,14 @@ $color-text-dark: #000;
 $color-money: #216C2A;
 $color-meta-light: #505050;
 
-$font-size: 16px;
+$font-size: 18px;
 
 $mobile-width-threshold: 801px;
 $max-content-width: 1000px;
 $max-text-width: 660px;
 
 $font-header: 'Raleway', sans-serif;
-$font-body: 'Merriweather', sans-serif;
+$font-body: 'Raleway', sans-serif;
 
 @mixin anchor($color)
 {

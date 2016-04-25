@@ -11,7 +11,9 @@ class Controller
   {
     try
     {
-      list($viewTemplate, $viewParameters) = static::execute($uri);
+      $viewAndParams = static::execute($uri);
+      $viewTemplate = $viewAndParams[0];
+      $viewParameters = isset($viewAndParams[1]) ? $viewAndParams[1] : [];
 
       if ($viewTemplate === null)
       {
@@ -42,7 +44,12 @@ class Controller
       case '/fund':
         return CreditActions::executeFund();
       case '/get':
-        return ContentActions::executeGet();
+      case '/windows':
+      case '/ios':
+      case '/android':
+      case '/linux':
+      case '/osx':
+        return DownloadActions::executeGet();
       case '/postcommit':
         return OpsActions::executePostCommit();
       case '/log-upload':

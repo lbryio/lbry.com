@@ -21,11 +21,11 @@ class MailActions extends Actions
     $email = $_POST['email'];
     if (!$email|| !filter_var($email, FILTER_VALIDATE_EMAIL))
     {
-      Session::set('list_error', $email ? __('Please provide a valid email address.') : __('Please provide an email address.'));
+      Session::set(Session::KEY_LIST_SUB_ERROR, $email ? __('Please provide a valid email address.') : __('Please provide an email address.'));
     }
     elseif (!$_POST['listId'])
     {
-      Session::set('list_error', __('List not provided.'));
+      Session::set(Session::KEY_LIST_SUB_ERROR, __('List not provided.'));
     }
     else
     {
@@ -42,7 +42,7 @@ class MailActions extends Actions
       else
       {
         $error = $mcApi->errorMessage ?: __('Something went wrong adding you to the list.');
-        Session::set('list_error', $error);
+        Session::set(Session::KEY_LIST_SUB_ERROR, $error);
       }
     }
 
@@ -56,8 +56,8 @@ class MailActions extends Actions
 
     if (Session::get(Session::KEY_LIST_SUB_SIGNATURE) == $vars['listSig'])
     {
-      $vars['error'] = Session::get('list_error');
-      Session::unsetKey('list_error');
+      $vars['error'] = Session::get(Session::KEY_LIST_SUB_ERROR);
+      Session::unsetKey(Session::KEY_LIST_SUB_ERROR);
 
       $vars['success'] = Session::get(Session::KEY_LIST_SUB_SUCCESS) ? __('Great success! Welcome to LBRY.') : false;
       $vars['fbEvent'] = Session::get(Session::KEY_LIST_SUB_FB_EVENT) ?: 'Lead';
@@ -72,5 +72,4 @@ class MailActions extends Actions
     
     return $vars;
   }
-
 }

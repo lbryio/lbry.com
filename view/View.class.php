@@ -29,8 +29,9 @@ class View
 
     list($module, $view) = explode('/', $template);
 
+    $isPartial = $view[0] === '_';
     $actionClass  = ucfirst($module) . 'Actions';
-    $method = 'prepare' . ucfirst($view);
+    $method = 'prepare' . ucfirst(ltrim($view, '_')) . ($isPartial ? 'Partial' : '');
 
     if (method_exists($actionClass, $method))
     {

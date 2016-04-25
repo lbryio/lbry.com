@@ -29,6 +29,13 @@
       margin-top: $spacing-vertical * 1.5;
     }
   }
+  .meta
+  {
+    + h1, + h2, + h3, + h4
+    {
+      margin-top: $spacing-vertical * 0.5;
+    }
+  }
 
   &.content-dark
   {

@@ -1,5 +1,5 @@
 <?php Response::setMetaTitle(__('Join LBRY Email List')) ?>
-<?php Response::setMetaDescription(__('Join our email list and receive updates about LBRY via email.')) ?>
+<?php Response::setMetaDescription(__('Follow along and receive updates about LBRY via email.')) ?>
 <?php echo View::render('nav/header', ['isDark' => false ]) ?>
 <main>
   <div class="content">

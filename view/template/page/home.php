@@ -1,6 +1,6 @@
 <div class="bg-image-full" style="background-image: url(/img/cover-home2.jpg)"></div>
 <?php Response::setMetaTitle(__('LBRY - Watch, Share, Earn')) ?>
-<?php Response::setMetaDescription(__('Meet LBRY, a peer-to-peer, decentralized content marketplace.')) ?>
+<?php Response::setMetaDescription(__('Meet LBRY, a content sharing and publishing platform that is decentralized and owned by it\'s users.')) ?>
 <?php echo View::render('nav/header', ['isDark' => true]) ?>
 <main class="column-fluid">
   <div class="span12">
@@ -22,7 +22,7 @@
         <?php shuffle($labels) ?>
         <div class="sale-call ">
           <span class="sale-call-verb"><?php echo __('Join') ?></span>
-          <span class="sale-call-total-people"><?php echo $totalPeople ?></span>
+          <span class="sale-call-total-people"><?php echo  number_format($totalPeople) ?></span>
           <span class="sale-call-prep">others in</span>
           <span class="sale-ctas label-cycle"  data-cycle-interval="5000">
             <span class="sale-cta"><?php echo implode('</span><span class="sale-cta">', $labels) ?></span>
@@ -41,7 +41,7 @@
         </div>
         <div class="row-fluid content-constrained">
           <div class="span4">
-            <h3><strong><?php echo __('Get Updates') ?></strong></h3>
+            <h3><?php echo __('Get Updates') ?></h3>
             <?php echo View::render('mail/joinList', [
               'submitLabel' => 'Go',
               'listId' => Mailchimp::LIST_GENERAL_ID,
