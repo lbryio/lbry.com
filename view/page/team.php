@@ -245,7 +245,7 @@
         <h4>You</h4>
           <div class="meta  spacer1">Technical or Media Advisor</div>
           <p>
-            LBRY is seeking an extremely experienced technical advisor or advisor with a strong background in the publishing and media space.
+            LBRY is seeking an extremely experienced technical advisor or an advisor with a strong background in the publishing and media space.
             If you're that person or have a suggestion,
             <a href="mailto:jeremy@lbry.io?subject=Advisor" class="link-primary">let us know</a>.
 
