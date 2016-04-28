@@ -21,6 +21,10 @@
   {
     @include anchor($color-primary);
   }
+  img + p
+  {
+    margin-top: $spacing-vertical;
+  }
 }
 .post-author-spotlight
 {
