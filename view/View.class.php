@@ -29,8 +29,9 @@ class View
 
     list($module, $view) = explode('/', $template);
 
+    $isPartial = $view[0] === '_';
     $actionClass  = ucfirst($module) . 'Actions';
-    $method = 'prepare' . ucfirst($view);
+    $method = 'prepare' . ucfirst(ltrim($view, '_')) . ($isPartial ? 'Partial' : '');
 
     if (method_exists($actionClass, $method))
     {
@@ -62,7 +63,7 @@ class View
 
   protected static function getFullPath($template)
   {
-    return ROOT_DIR . '/view/' . $template . '.php';
+    return ROOT_DIR . '/view/template/' . $template . '.php';
   }
 
   public static function imagePath($image)

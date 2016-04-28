@@ -2,24 +2,16 @@
 
 class BlogActions extends Actions
 {
-  public static function execute($uri)
-  {
-    $slug = preg_replace('#^/blog(/|$)#', '', $uri);
-    if ($slug)
-    {
-      return static::executePost($slug);
-    }
-    return static::executeHome();
-  }
+  const URL_STEM = '/news';
 
-  public static function executeHome()
+  public static function executeIndex()
   {
     $posts = Blog::getPosts();
     usort($posts, function(Post $a, Post $b) {
       return strcasecmp($b->getDate()->format('Y-m-d'), $a->getDate()->format('Y-m-d'));
     });
     $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
-    return ['blog/home', [
+    return ['blog/index', [
       'posts' => $posts,
       'page' => $page
     ]];
@@ -35,5 +27,15 @@ class BlogActions extends Actions
     return ['blog/post', [
       'post' => $post
     ]];
+  }
+
+  public static function prepareAuthorPartial(array $vars)
+  {
+    $post = $vars['post'];
+    return [
+      'authorName' => $post->getAuthorName(),
+      'photoImgSrc' => $post->getAuthorPhoto(),
+      'authorBioHtml' => $post->getAuthorBioHtml()
+    ];
   }
 }

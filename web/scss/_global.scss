@@ -8,14 +8,28 @@ $color-text-dark: #000;
 $color-money: #216C2A;
 $color-meta-light: #505050;
 
-$font-size: 18px;
+$font-size: 16px;
 
 $mobile-width-threshold: 801px;
 $max-content-width: 1000px;
 $max-text-width: 660px;
 
-$headerFont: 'Raleway', sans-serif;
-$bodyFont: 'Lato', sans-serif;
+$font-header: 'Raleway', sans-serif;
+$font-body: 'Raleway', sans-serif;
+
+@mixin anchor($color)
+{
+  color: $color;
+  text-decoration: underline;
+  [class*="icon-"]:first-child
+  {
+    padding-right: 8px;
+  }
+  [class*="icon-"]:last-child
+  {
+    padding-left: 8px;
+  }
+}
 
 @mixin clearfix()
 {
@@ -69,6 +83,17 @@ $bodyFont: 'Lato', sans-serif;
           flex-direction: $direction;
 }
 
+@mixin flex-wrap($wrap) {
+  -webkit-flex-wrap: $wrap;
+  flex-wrap: $wrap;
+}
+
+
+@mixin justify-content($location) {
+  -webkit-justify-content: $location;
+  justify-content: $location;
+}
+
 @mixin absolute-center()
 {
   @include display-flex();
@@ -80,8 +105,7 @@ $bodyFont: 'Lato', sans-serif;
   -webkit-box-pack: center;
      -moz-box-pack: center;
      -ms-flex-pack: center;
-  -webkit-justify-content: center;
-          justify-content: center;
+  @include justify-content(center);
 }
 
 @mixin linear-gradient($from-color, $to-color) {

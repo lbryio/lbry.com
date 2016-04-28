@@ -18,17 +18,13 @@
 {
   height: 100vh;
   font-size: 1.2em;
-  .cover-title, .cover-subtitle
-  {
-    text-shadow: 0 0 6px rgba(0,0,0,0.8);
-  }
 }
 @media (max-width: $mobile-width-threshold) {
   .cover { padding: $spacing-vertical $spacing-vertical * 2 / 3; }
-  .cover-title { font-size: 2.4em; margin-bottom: $spacing-vertical; }
+  .cover-title { font-size: 2.8em; margin-bottom: $spacing-vertical; }
 }
 @media (min-width: $mobile-width-threshold) {
-  .cover-title { font-size: 3.6em; }
+  .cover-title { font-size: 4.0em; &.cover-title-tile { font-size: 2.8em; } }
 }
 @media (max-width: $max-content-width) and (min-width: $mobile-width-threshold) {
   .cover { padding: $spacing-vertical * 1.5 $spacing-vertical * 2; }
@@ -77,6 +73,10 @@
   @include linear-gradient(darken($color-light-alt, 5), lighten($color-light-alt, 5));
 }
 
+.cover-title, .cover-subtitle
+{
+  text-shadow: 0 0 6px rgba(0,0,0,0.8);
+}
 .cover-title
 {
   line-height: 1.4;
@@ -84,5 +84,5 @@
 .cover-subtitle
 {
   margin: $spacing-vertical 0 $spacing-vertical;
-  font-size: 1.1em;
+  font-size: 1.2em;
 }

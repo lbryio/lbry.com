@@ -17,6 +17,16 @@ input[type="email"], input[type="text"]
   height: $spacing-vertical * 1.5;
 }
 
+.span4 input[type="email"] /*hack rule fix me*/
+{
+  width: 100%;
+}
+
+form .full-width
+{
+  width: 100%;
+}
+
 textarea
 {
   width: 100%;

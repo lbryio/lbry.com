@@ -11,7 +11,9 @@ class Controller
   {
     try
     {
-      list($viewTemplate, $viewParameters) = static::execute($uri);
+      $viewAndParams = static::execute($uri);
+      $viewTemplate = $viewAndParams[0];
+      $viewParameters = isset($viewAndParams[1]) ? $viewAndParams[1] : [];
 
       if ($viewTemplate === null)
       {
@@ -42,7 +44,12 @@ class Controller
       case '/fund':
         return CreditActions::executeFund();
       case '/get':
-        return ContentActions::executeGet();
+      case '/windows':
+      case '/ios':
+      case '/android':
+      case '/linux':
+      case '/osx':
+        return DownloadActions::executeGet();
       case '/postcommit':
         return OpsActions::executePostCommit();
       case '/log-upload':
@@ -57,10 +64,14 @@ class Controller
         return static::redirect('https://s3.amazonaws.com/files.lbry.io/osx/lbry.0.2.2.dmg', 307);
       case '/lbry-linux-latest.deb':
         return static::redirect('https://s3.amazonaws.com/files.lbry.io/linux/lbry_0.2.2_amd64.deb', 307);
+      case '/art':
+        return static::redirect('/what');
       default:
-        if (preg_match('#^/blog($|/)#', $uri))
+        $blogPattern = '#^/news(/|$)#';
+        if (preg_match($blogPattern, $uri))
         {
-          return BlogActions::execute($uri);
+          $slug = preg_replace($blogPattern, '', $uri);
+          return $slug ? BlogActions::executePost($slug) : BlogActions::executeIndex();
         }
         $noSlashUri = ltrim($uri, '/');
         if (View::exists('page/' . $noSlashUri))

@@ -11,6 +11,10 @@ $color-nav-border: #ddd;
     z-index: 1;
     .icon-close { display: none; }
 }
+.header-absolute
+{
+  position: absolute;
+}
 .header-scroll
 {
   z-index: 2;
@@ -51,7 +55,7 @@ $color-nav-border: #ddd;
     a
     {
         &:hover { text-decoration: underline; }
-        // &.nav-active { font-weight: bold; }
+        &.nav-active { font-weight: bold; }
     }
 }
 

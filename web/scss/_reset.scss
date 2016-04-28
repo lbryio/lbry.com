@@ -18,7 +18,7 @@ fieldset, img, iframe
 }
 h1, h2, h3, h4, h5, h6 
 {
-    font-weight:normal;
+    font-weight: inherit;
 }
 ol, ul
 {
@@ -41,4 +41,9 @@ a
 {
     color: inherit;
     text-decoration: none;
+}
+input, a, button, select
+{
+  -webkit-appearance: none;
+  border-radius: 0;
 }

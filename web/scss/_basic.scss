@@ -10,8 +10,7 @@ html
 }
 body
 {
-    font-family: $bodyFont;
-    font-weight: 300;
+    font-family: $font-body;
     line-height: 1.3333;
     min-height: 100%;
     position: relative;
@@ -37,17 +36,22 @@ code { font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, De
 
 h1, h2, h3, h4, h5, h6
 {
-  font-family: $headerFont;
-  font-weight: 300;
+  font-family: $font-header;
 }
-h1, h2, h3
+h1, h2, h3, h4
 {
-  margin-bottom: $spacing-vertical / 2; margin-top: $spacing-vertical * 1.5;
+  margin-bottom: $spacing-vertical / 2;
+  margin-top: $spacing-vertical / 2;
 }
-h1 { font-size: 2.0em; }
-h2 { font-size: 1.75em; }
-h3 { font-size: 1.4em; }
-h4 { font-size: 1.2em; margin-bottom: $spacing-vertical / 2; }
+h1 { font-size: 2.4em; }
+h2 { font-size: 2.0em; }
+h3 { font-size: 1.75em; }
+h4 { font-size: 1.4em; }
+nav
+{
+  font-size: 1.1em;
+  font-family: $font-header;
+}
 sup, sub {
  vertical-align: baseline;
  position: relative;
@@ -64,6 +68,7 @@ section
 }
 
 .hide { display: none; }
+.spacer-half { margin-bottom: $spacing-vertical / 2; }
 .spacer1 { margin-bottom: $spacing-vertical; }
 .spacer2 { margin-bottom: $spacing-vertical * 2; }
 .text-center { text-align: center; }
@@ -71,19 +76,12 @@ section
 .meta { font-size: 0.8em; }
 .meta-large { font-size: 1.2em; }
 .clear { clear: both; }
+.align-left { float: left; }
+.align-right { float: right; }
 
 .link-primary
 {
-  color: $color-primary;
-  text-decoration: underline;
-  .icon:first-child
-  {
-    padding-right: 5px;
-  }
-  .icon:last-child
-  {
-    padding-left: 5px;
-  }
+  @include anchor($color-primary);
 }
 a:hover img
 {
@@ -123,7 +121,7 @@ a:hover img
   text-decoration: none;
   border: 0 none;
   text-align: center;
-  font-weight: 400;
+
 }
 .btn-primary
 {
@@ -158,9 +156,14 @@ a:hover img
     @include clearfix();
 }
 
+.clearfix
+{
+  @include clearfix();
+}
+
 .table-layout
 {
-  td 
+  td
   {
     padding: 3px 5px $spacing-vertical - 3px;
     vertical-align: middle;

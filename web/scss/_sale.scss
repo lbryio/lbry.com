@@ -27,6 +27,7 @@
 .sale-call
 {
   text-align: center;
+  font-family: $font-header;
   margin-bottom: $spacing-vertical / 2;
   .sale-call-total-people
   {
@@ -35,6 +36,7 @@
   }
   .sale-call-prep, .sale-call-verb
   {
+    vertical-align: super;
 //    font-size: 0.85em;
   }
   .sale-ctas
