@@ -1,9 +1,10 @@
 <?php if (!defined('HEADER_RENDERED')): ?>
   <?php define('HEADER_RENDERED', 1) ?>
   <?php extract([
-      'isDark' => false
+      'isDark' => false,
+      'isAbsolute' => false
   ], EXTR_SKIP) ?>
-  <div class="header <?php echo $isDark ? 'header-dark' : 'header-light' ?>">
+  <div class="header <?php echo $isAbsolute ? 'header-absolute' : '' ?> <?php echo $isDark ? 'header-dark' : 'header-light' ?>">
     <div class="header-content">
       <a href="/" class="primary-logo">
         <img src="<?php echo $isDark ? View::imagePath('header-logo-light.png') : View::imagePath('header-logo-dark2.png') ?>" alt="LBRY" />

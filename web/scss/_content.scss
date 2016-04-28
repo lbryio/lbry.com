@@ -1,10 +1,4 @@
 @import "global";
-.content-constrained
-{
-  max-width: $max-content-width; /*we have more padding than desirable so numbers from ol can exceed container*/
-  margin-left: auto;
-  margin-right: auto;
-}
 .content
 {
   margin-left: auto;
@@ -17,6 +11,14 @@
   &.content-wide
   {
     max-width: 1400px;
+  }
+  &.content-tile
+  {
+    max-width: $max-text-width;
+  }
+  &.content-readable
+  {
+    max-width: $max-text-width + 200;
   }
 
   padding-left: 15px;

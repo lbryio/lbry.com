@@ -3,7 +3,7 @@
 class BlogActions extends Actions
 {
   const URL_STEM = '/news';
-  
+
   public static function executeIndex()
   {
     $posts = Blog::getPosts();
@@ -28,12 +28,13 @@ class BlogActions extends Actions
       'post' => $post
     ]];
   }
-  
-  public static function prepareAuthor(array $vars)
+
+  public static function prepareAuthorPartial(array $vars)
   {
     $post = $vars['post'];
     return [
       'authorName' => $post->getAuthorName(),
+      'photoImgSrc' => $post->getAuthorPhoto(),
       'authorBioHtml' => $post->getAuthorBioHtml()
     ];
   }

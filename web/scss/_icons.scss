@@ -23,6 +23,11 @@
   font-size: inherit;
   text-rendering: auto;
   transform: translate(0, 0);
+  &.icon-fw
+  {
+    width: 1.6em;
+    text-align: center;
+  }
 }
 
 .icon-mega

@@ -5,6 +5,7 @@
     <p>
       <a class="btn-primary" download href="//lbry.io/lbry-linux-latest.deb">Download .deb</a>
     </p>
+    <div class="meta">Ubuntu, Debian, or any distro with <code>apt</code> or <code>dpkg</code>.</div>
   </div>
   <div class="span6">
     <h3><strike>Masochists</strike> Professionals</h3>

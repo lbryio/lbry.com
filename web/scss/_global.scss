@@ -8,7 +8,7 @@ $color-text-dark: #000;
 $color-money: #216C2A;
 $color-meta-light: #505050;
 
-$font-size: 18px;
+$font-size: 16px;
 
 $mobile-width-threshold: 801px;
 $max-content-width: 1000px;
@@ -21,13 +21,13 @@ $font-body: 'Raleway', sans-serif;
 {
   color: $color;
   text-decoration: underline;
-  .icon:first-child
+  [class*="icon-"]:first-child
   {
-    padding-right: 5px;
+    padding-right: 8px;
   }
-  .icon:last-child
+  [class*="icon-"]:last-child
   {
-    padding-left: 5px;
+    padding-left: 8px;
   }
 }
 

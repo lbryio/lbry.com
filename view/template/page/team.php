@@ -5,6 +5,7 @@
 <main>
   <div class="content photo-grid spacer2">
     <h1>The Team</h1>
+    <p>LBRY is made possible by more people than we could ever list here. The founding team is listed below.</p>
     <div class="row-fluid">
       <div class="span6 spacer2">
         <div class="photo-container">

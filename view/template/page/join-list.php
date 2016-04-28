@@ -17,7 +17,8 @@
          ]) ?>
       </div>
       <div class="span3">
-        <?php echo View::render('social/sidebar') ?>
+        <h3><?php echo __('Also On') ?></h3>
+        <?php echo View::render('social/_list') ?>
       </div>
     </div>
   </div>

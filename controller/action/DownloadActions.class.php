@@ -7,20 +7,20 @@
  */
 class DownloadActions extends Actions
 {
-  const OS_LINUX = 'linux',
-        OS_WINDOWS = 'windows',
+  const OS_ANDROID = 'android',
+        OS_IOS = 'ios',
+        OS_LINUX = 'linux',
         OS_OSX = 'osx',
-        OS_ANDROID = 'android',
-        OS_IOS = 'ios';
+        OS_WINDOWS = 'windows';
 
   public static function getOses()
   {
     return [
+      static::OS_WINDOWS => ['/windows', 'Windows', 'icon-windows', '_windows'],
+      static::OS_OSX => ['/osx', 'OS X', 'icon-apple', '_osx'],
       static::OS_LINUX => ['/linux', 'Linux', 'icon-linux', '_linux'],
       static::OS_ANDROID => ['/android', 'Android', 'icon-android', '_android'],
-      static::OS_OSX => ['/osx', 'OS X', 'icon-apple', '_osx'],
-      static::OS_WINDOWS => ['/windows', 'Windows', 'icon-windows', '_windows'],
-      static::OS_IOS => ['/ios', 'iOS', 'icon-ios', '_ios']
+      static::OS_IOS => ['/ios', 'iOS', 'icon-mobile', '_ios']
     ];
   }
 
@@ -28,10 +28,11 @@ class DownloadActions extends Actions
   {
     $osChoices = static::getOses();
     $os = static::guessOs();
-    if (isset($osChoices[$os]))
+
+    if ($os && isset($osChoices[$os]))
     {
       list($uri, $osTitle, $osIcon, $partial) = $osChoices[$os];
-      return ['download/get2', [
+      return ['download/get', [
         'os' => $os,
         'osTitle' => $osTitle,
         'osIcon' => $osIcon,
@@ -40,11 +41,12 @@ class DownloadActions extends Actions
             false
       ]];
     }
-    return ['download/get', [
+
+    return ['download/get-no-os', [
         'isSubscribed' => in_array(Mailchimp::LIST_GENERAL_ID, Session::get(Session::KEY_MAILCHIMP_LIST_IDS, []))
     ]];
   }
-  
+
   public static function prepareListPartial(array $vars)
   {
     return $vars + ['osChoices' => isset($vars['excludeOs']) ?
@@ -53,9 +55,9 @@ class DownloadActions extends Actions
     ];
   }
 
-  //implement me!
   protected static function guessOs()
   {
+    //if exact OS is requested, use that
     $uri = strtok($_SERVER['REQUEST_URI'], '?');
     foreach(static::getOses() as $os => $osChoice)
     {
@@ -64,9 +66,27 @@ class DownloadActions extends Actions
         return $os;
       }
     }
-//    $oses = ['linux', 'windows', 'osx', 'ios', 'android'];
-    $oses = ['linux', 'windows', 'osx'];
-    return $oses[rand(0, count($oses) - 1)];
+
+    if (static::isForRobot())
+    {
+      return null;
+    }
+
+    //otherwise guess from UA
+    $ua = $_SERVER['HTTP_USER_AGENT'];
+    if (stripos($ua, 'OS X') !== false)
+    {
+      return strpos($ua, 'iPhone') !== false || stripos($ua, 'iPad') !== false ? static::OS_IOS : static::OS_OSX;
+    }
+    if (stripos($ua, 'Linux') !== false || strpos($ua, 'X11') !== false)
+    {
+      return strpos($ua, 'Android') !== false ? static::OS_ANDROID : static::OS_LINUX;
+    }
+    if (stripos($ua, 'Windows') !== false)
+    {
+      return static::OS_WINDOWS;
+    }
+    return null;
   }
 
 //  protected static function validateDownloadAccess()

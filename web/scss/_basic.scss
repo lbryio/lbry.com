@@ -76,6 +76,8 @@ section
 .meta { font-size: 0.8em; }
 .meta-large { font-size: 1.2em; }
 .clear { clear: both; }
+.align-left { float: left; }
+.align-right { float: right; }
 
 .link-primary
 {
@@ -161,7 +163,7 @@ a:hover img
 
 .table-layout
 {
-  td 
+  td
   {
     padding: 3px 5px $spacing-vertical - 3px;
     vertical-align: middle;

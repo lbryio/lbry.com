@@ -66,7 +66,14 @@ $gutter_fluid: 4;
   }
 }
 
-.row-fluid, .tile-fluid {
+.column-fluid-constrained
+{
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row-fluid, .tile-fluid, .row-fluid-always {
   @include clearfix();
 }
 

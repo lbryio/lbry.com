@@ -81,6 +81,24 @@ class Post
     }
   }
 
+  public function getAuthorPhoto()
+  {
+    switch(strtolower($this->author))
+    {
+      case 'jeremy':
+        return 'jeremy-644x450.jpg';
+      case 'mike':
+        return 'mike-644x450.jpg';
+      case 'jimmy':
+        return 'jimmy-644x450.jpg';
+      case 'jack':
+        return 'jack-robison-644x450.jpg';
+      case 'lbry':
+      default:
+        return 'spooner-644x450.jpg';
+    }
+  }
+
   public function getAuthorBioHtml()
   {
     switch(strtolower($this->author))

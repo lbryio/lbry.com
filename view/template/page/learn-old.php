@@ -1,45 +1,6 @@
-<?php Response::setMetaDescription(__('Learn more about LBRY, the technology that puts you back in control of the internet.')) ?>
+<?php Response::setMetaDescription('Download or install the latest version of LBRY.') ?>
 <?php Response::setMetaTitle(__('Learn About LBRY')) ?>
 <?php echo View::render('nav/header', ['isDark' => false]) ?>
-
-  <main class="column-fluid ">
-    <div class="span6">
-      <div class="cover cover-light content">
-        <h1 style="max-width: 660px; margin-left: auto; margin-right: auto">LBRY in 60 Seconds</h1>
-        <?php echo View::render('download/_videoIntro') ?>
-      </div>
-    </div>
-    <div class="span6">
-      <div class="cover cover-dark cover-center content content-dark" style="background-image:url(/img/altamira-bison.jpg)">
-        <h2 class="cover-title cover-title-tile">Art in the Internet Age</h2>
-        <p class="cover-subtitle text-center">Learn how LBRY will forever improve how<br/>we create and share with one another.</p>
-        <a href="/what" class="btn-alt"><?php echo __('Read the Essay') ?></a>
-      </div>
-    </div>
-    <div class="span6">
-      <div class="cover cover-dark cover-dark-grad">
-        <div class="content content-dark content-tile">
-          <h3><?php echo __('Who Makes LBRY?') ?></h3>
-          <p><?php echo __('Learn more about the relentless rebels changing the internet.') ?></p>
-          <div class="spacer1">
-            <a href="/team" class="btn-alt"><?php echo __('About The Team') ?></a>
-          </div>
-          <h4>Talk With Us</h4>
-          <?php echo View::render('social/_list') ?>
-        </div>
-      </div>
-    </div>
-    <div class="span6">
-      <div class="cover cover-light-alt cover-light-alt-grad">
-        <div class=" content content-light content-tile">
-          <h3>Nerd With Us</h3>
-          <p>LBRY is a completely open source protocol that provides a decentralized digital marketplace.</p>
-          <?php echo View::render('social/_listDev') ?>
-        </div>
-      </div>
-    </div>
-  </main>
-<?php /*
 <main class="column-fluid">
   <div class="span4">
     <div class="cover cover-column cover-light-alt cover-light-alt-grad">
@@ -93,10 +54,17 @@
   <div class="span4">
     <div class="cover  cover-column cover-light">
       <div class="content">
-
+        <h1><?php echo __('Who?') ?></h1>
+        <div class="spacer1">
+          <p><?php echo __('LBRY promises an awful lot.') ?> <?php echo __('Can you trust us to deliver?') ?></p>
+          <p><?php echo __('Learn more about the relentless rebels changing the internet.') ?></p>
+        </div>
+        <div class="spacer1">
+          <a href="/team" class="btn-alt"><?php echo __('About The Team') ?></a>
+        </div>
         <img src="/img/cover-team.jpg" alt="<?php echo __('LBRY Founders') ?>" />
       </div>
     </div>
   </div>
-</main> */ ?>
+</main>
 <?php echo View::render('nav/footer') ?>
