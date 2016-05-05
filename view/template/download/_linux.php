@@ -3,7 +3,15 @@
   <div class="span6">
     <h3>Casuals</h3>
     <p>
-      <a class="btn-primary" download href="//lbry.io/lbry-linux-latest.deb">Download .deb</a>
+      <a id="linux-download" class="btn-primary" download href="//lbry.io/lbry-linux-latest.deb"
+         <?php /*
+         data-facebook-track-id="XXXXX"
+         data-twitter-track-id="XXXXX"
+         data-analytics-category="Sign Up"
+         data-analytics-action="Download"
+         data-analytics-label="Linux"
+          */ ?>
+      >Download .deb</a>
     </p>
     <div class="meta">Ubuntu, Debian, or any distro with <code>apt</code> or <code>dpkg</code>.</div>
   </div>
