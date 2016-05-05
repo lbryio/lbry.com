@@ -4,6 +4,7 @@ title: Wikimedia Forced to Remove Anne Frank's Diary
 date: '2016-02-12 19:21:53'
 cover: 'anne-frank-2.png'
 cover-light: true
+tags: ["copyright", "public domain", "freedom of information"]
 ---
 
 US copyright law seems hell-bent on keeping The Diary of Anne Frank out of the public domain.
