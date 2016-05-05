@@ -2,6 +2,7 @@
 author: lbry
 title: LBRY Exposes Itself to World; Adds Mad Scientist to Team
 date: '2016-03-02 18:12:13'
+cover: 'zargham-joins.jpg'
 ---
 
 LBRY hit some pretty significant milestones since the first of the year, and the momentum just keeps building with the addition of a new core team member and the opportunity to showcase our “magic box” to the crypto community.

@@ -1,22 +1,56 @@
 @import "global";
 
-.prev-next {
+.prev-next
+{
   margin-top: $spacing-vertical * 2;
   margin-bottom: $spacing-vertical * 2;
 
-  .prev-next-label {
+  .prev-next-label
+  {
     font-weight: bold;
   }
-  .next {
+  .next
+  {
     text-align: right;
   }
 }
+
+
+.post-header
+{
+  margin-bottom: $spacing-vertical * 2;
+  min-height: 500px;
+
+  @include background-size (cover);
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  @include absolute-center();
+
+  .post-header-inner
+  {
+    margin: auto;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+
+    &.content-dark
+    {
+      text-shadow: 2px 2px 3px rgba(0,0,0,0.4), -1px -1px 0 rgba(0,0,0,0.4), 1px -1px 0 rgba(0,0,0,0.4), -1px 1px 0 rgba(0,0,0,0.4), 1px 1px 0 rgba(0,0,0,0.4);
+    }
+    &.content-light
+    {
+      text-shadow: 2px 2px 3px rgba(255,255,255,0.4), -1px -1px 0 rgba(255,255,255,0.4), 1px -1px 0 rgba(255,255,255,0.4), -1px 1px 0 rgba(255,255,255,0.4), 1px 1px 0 rgba(255,255,255,0.4);
+    }
+  }
+}
+
 
 .post-content
 {
   margin-left: auto;
   margin-right: auto;
-  max-width: 800px;
+  max-width: $max-post-content-width;
   a[href]
   {
     @include anchor($color-primary);
@@ -26,6 +60,7 @@
     margin-top: $spacing-vertical;
   }
 }
+
 .post-author-spotlight
 {
   h3 { text-transform: uppercase; margin-top: $spacing-vertical / 4 !important; }

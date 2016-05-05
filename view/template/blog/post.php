@@ -1,15 +1,22 @@
 <?php Response::setMetaDescription($post->getTitle()) ?>
 <?php echo View::render('nav/header') ?>
 <main>
-  <div class="post-content">
-    <section class="content spacer2">
+  <header class="post-header"
+          <?php echo $post->getCover() ? 'style="background-image: url(\'/img/blog-covers/' . $post->getCover() . '\')"' : ''?>
+          >
+    <div class="post-header-inner content <?php echo !$post->getCover() || $post->getIsCoverLight() ? 'content-light' : 'content-dark' ?>">
       <h1><?php echo htmlentities($post->getTitle()) ?></h1>
-      <div class="meta spacer1" title="<?php echo $post->getDate()->format('F jS, Y') ?>">
-        <div class="clearfix">
-          <div class="pull-left spacer1"><?php echo $post->getAuthorName() ?></div>
-          <div class="pull-right spacer1"><?php echo $post->getDate()->format('M j') ?></div>
-        </div>
+      <div class="meta spacer1">
+        <?php echo $post->getAuthorName() ?>
+        &bull;
+        <span title="<?php echo $post->getDate()->format('F jS, Y') ?>"><?php echo $post->getDate()->format('M j') ?></span>
       </div>
+    </div>
+  </header>
+
+  <div class="post-content">
+
+    <section class="content spacer2">
       <div class="post-content">
         <?php echo $post->getContentHtml() ?>
       </div>

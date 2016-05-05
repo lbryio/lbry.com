@@ -2,7 +2,8 @@
 
 class Post
 {
-  protected $slug, $title, $author, $date, $contentHtml;
+  protected $slug, $title, $author, $date, $contentHtml, $cover;
+  protected $isCoverLight = false;
 
   public static function fromFile($filename)
   {
@@ -17,6 +18,8 @@ class Post
     $this->author = isset($frontMatter['author']) ? $frontMatter['author'] : null;
     $this->date = isset($frontMatter['date']) ? new DateTime($frontMatter['date']) : null;
     $this->contentHtml = ParsedownExtra::instance()->text(trim($markdown));
+    $this->cover = isset($frontMatter['cover']) ? $frontMatter['cover'] : null;
+    $this->isCoverLight = isset($frontMatter['cover-light']) && $frontMatter['cover-light'] == 'true';
   }
 
   public function getRelativeUrl()
@@ -42,6 +45,16 @@ class Post
   public function getDate()
   {
     return $this->date;
+  }
+
+  public function getCover()
+  {
+    return $this->cover;
+  }
+
+  public function getIsCoverLight()
+  {
+    return $this->isCoverLight;
   }
 
   public function getContentHtml()

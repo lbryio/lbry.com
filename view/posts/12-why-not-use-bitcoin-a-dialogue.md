@@ -2,6 +2,7 @@
 author: jimmy
 title: Why Not Use Bitcoin? A Dialogue
 date: '2015-09-23 17:57:00'
+cover: 'why-not-bitcoin.jpg'
 ---
 
 One of the most common questions we're asked is, "Why not use Bitcoin?" This post uses a pair of conversations to look at one of the biggest reasons we can't. If you aren't concerned with this question or the technical specifics of LBRY, this post probably won't interest you.
