@@ -179,12 +179,11 @@
         <div class="photo-container">
           <img src="/img/alex-tabarrok-644x450.jpg" alt="Alex Tabarrok"/>
         </div>
-<<<<<<< HEAD:view/template/page/team.php
         <div>
           <h4>Alex Tabarrok</h4>
           <div class="meta  spacer1">Economic Advisor</div>
           <p>Alex Tabarrok is Bartley J. Madden Chair in Economics at the <a href="http://mercatus.org/" class="link-primary">Mercatus Center</a>
-            and a professor of economics at <a href="//gmu.edu" class="link-primary">George Mason University</a>. He specializes in intellectual property reform, the effectiveness of markets, and the justice system.
+            and a professor of economics at <a href="https://gmu.edu" class="link-primary">George Mason University</a>. He specializes in intellectual property reform, the effectiveness of markets, and the justice system.
           </p>
           <p>Tabarrok is the coauthor, with Mercatus colleague Tyler Cowen, of the popular economics blog <a class="link-primary" href="http://www.marginalrevolution.com/"><em>Marginal Revolution</em></a>
             and cofounder of the online educational platform <a class="link-primary" href="http://mruniversity.com/">Marginal Revolution University</a>.
@@ -199,31 +198,11 @@
             <a class="link-primary" href="http://en.wikipedia.org/wiki/George_Mason_University" title="George Mason University">George Mason University</a>.
           </p>
         </div>
-=======
-        <h4>Alex Tabarrok</h4>
-        <div class="meta  spacer1">Economic Advisor</div>
-        <p>Alex Tabarrok is Bartley J. Madden Chair in Economics at the <a href="http://mercatus.org/" class="link-primary">Mercatus Center</a>
-          and a professor of economics at <a href="//gmu.edu" class="link-primary">George Mason University</a>. He specializes in intellectual property reform, the effectiveness of markets, and the justice system.
-        </p>
-        <p>Tabarrok is the coauthor, with Mercatus colleague Tyler Cowen, of the popular economics blog <a class="link-primary" href="http://www.marginalrevolution.com/"><em>Marginal Revolution</em></a>
-          and cofounder of the online educational platform <a class="link-primary" href="http://mruniversity.com/">Marginal Revolution University</a>.
-          He is the coauthor of
-          <em><a href="http://www.amazon.com/Modern-Principles-Economics-Tyler-Cowen/dp/1429239972" class="link-primary">Modern Principles of Economics</a></em>,
-          and author of the recent book
-          <em><a href="http://www.amazon.com/Launching-The-Innovation-Renaissance-Market-ebook/dp/B006C1HX24" class="link-primary">Launching the Innovation Renaissance</em></a>.
-          His articles have appeared in the<em> New York Times</em>, the<em> Washington Post</em>, the<em> Wall Street Journal</em>, and many
-          other prestigious publications.
-        </p>
-        <p>Tabarrok received his PhD in economics from
-          <a class="link-primary" href="http://en.wikipedia.org/wiki/George_Mason_University" title="George Mason University">George Mason University</a>.
-        </p>
->>>>>>> origin/master:view/page/team.php
       </div>
       <div class="span6 spacer2">
         <div class="photo-container">
           <img src="/img/stephan-644x450.jpg" alt="Stephan Kinsella"/>
         </div>
-<<<<<<< HEAD:view/template/page/team.php
         <div>
           <h4>Stephan Kinsella</h4>
           <div class="meta  spacer1">Legal Advisor</div>
@@ -246,28 +225,6 @@
             and <a href="kinsellalaw.com" class="link-primary">kinsellalaw.com</a>
           </p>
         </div>
-=======
-        <h4>Stephan Kinsella</h4>
-        <div class="meta  spacer1">Legal Advisor</div>
-        <p>
-          Stephan Kinsella is a registered patent attorney and has over twenty years’ experience in patent, intellectual property,
-          and general commercial and corporate law. He is the founder and director of the <a href="http://c4sif.org/" class="link-primary">Center for the Study of Innovative Freedom</a>.
-          Kinsella has published numerous articles and books on intellectual property law and legal topics including
-          <a href="http://www.amazon.com/International-Investment-Political-Dispute-Resolution/dp/0379215225" class="link-primary">
-            <em>International Investment, Political Risk, and Dispute Resolution: A Practitioner’s Guide</em>
-          </a>
-          and
-          <a href="https://mises.org/library/against-intellectual-property-0" class="link-primary">
-            <em>Against Intellectual Property</em>
-          </a>.
-        </p>
-        <p>
-          He received an LL.M. in international business law from <a href="http://www.kcl.ac.uk/" class="link-primary">King’s College London</a>, a JD from the Paul M. Hebert Law Center at
-          <a href="//lsu.edu" class="link-primary">Lousiana State University</a>,
-          as well as BSEE and MSEE degrees. His websites are <a href="stephankinsella.com" class="link-primary">stephankinsella.com</a>
-          and <a href="kinsellalaw.com" class="link-primary">kinsellalaw.com</a>
-        </p>
->>>>>>> origin/master:view/page/team.php
       </div>
     </div>
     <div class="row-fluid">
