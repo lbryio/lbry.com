@@ -6,7 +6,7 @@ date: '2016-05-06 12:11:11'
 Bandcamp, the online music store and platform for artist promotion, has a been a boon to independent musicians. 
 
 According to a Billboard article, Bandcamp has paid artists $150 million over the last eight years. The company reported paying out $4.3 million to musicians just in the last 30 days. 
-<p style="text-align: center;">![Bandcamp Is Cool & Growing – But They Still Take 15%](http://i.imgur.com/cAchinL.jpg)</p>
+![Bandcamp Is Cool & Growing – But They Still Take 15%](http://i.imgur.com/cAchinL.jpg)
 
 Bandcamp has intentionally targeted independent artists and labels. As the company’s website puts it, “Bandcamp makes it easy for fans to directly connect with and support the artists they love. We treat music as art, not content, and we tie the success of our business to the success of the artists who we serve.”
 
