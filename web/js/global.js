@@ -18,29 +18,22 @@ jQuery.fn.extend({
   }
 });
 
-lbry.foo = function()
-{
-  $('#iframeid').load(function(){
-    alert('frame has (re)loaded');
-});
-}
-
 $(document).ready(function() {
   var body = $('body'),
       labelCycles = body.find('.label-cycle'); //should use better pattern but we have so little JS right now
-  
+
   body.on('click', 'a', onAnchorClick);
 
   if (window.twttr)
   {
     twttr.events.bind('follow', onTwitterFollow);
   }
-  
+
   window.fbAsyncInit = function()
   {
     window.FB.Event.subscribe('edge.create', onFacebookLike);
   };
-  
+
   //$(window).scroll(onBodyScroll);
 
   if (labelCycles.length)
@@ -72,9 +65,21 @@ $(document).ready(function() {
     if (action == 'toggle-class')
     {
       anchor.jFor().toggleClass(anchor.data('class'));
-    }    
+    }
+    if (anchor.data('facebook-track-id') && window.fbq)
+    {
+      fbq('track', anchor.data('facebook-track-id'));
+    }
+    if (anchor.data('twitter-track-id') && window.twttr)
+    {
+      twttr.conversion.trackPid(anchor.data('twitter-track-id'));
+    }
+    if (anchor.data('analytics-category') && anchor.data('analytics-action') && anchor.data('analytics-label') && window.ga)
+    {
+      ga('send', 'event', anchor.data('analytics-category'), anchor.data('analytics-action'), anchor.data('analytics-label'));
+    }
   }
-  
+
   function onBodyScroll()
   {
     var header = $('.header');
@@ -88,7 +93,7 @@ $(document).ready(function() {
         else
         {
           header.removeClass('header-dark');
-          header.addClass('header-light');        
+          header.addClass('header-light');
         }
     }
   }
@@ -115,14 +120,14 @@ $(document).ready(function() {
         .height(width * ratio);
     }
   }
-  
-  function onTwitterFollow (intentEvent) 
+
+  function onTwitterFollow (intentEvent)
   {
     if (!intentEvent || !ga) return;
     ga('send', 'social', 'Twitter', 'follow', window.location.href);
   }
-  
-  function onFacebookLike() 
+
+  function onFacebookLike()
   {
     if (!ga) return;
     ga('send', 'social', 'Facebook', 'like', window.location.href);
@@ -150,7 +155,7 @@ $(document).ready(function() {
     labelCycles.each(function() {
       var labelCycle = $(this),
           activeLabel = labelCycle.find(':first-child');
-          
+
       activeLabel.fadeOut(function() {
         labelCycle.append(activeLabel);
         labelCycle.find(':first-child').fadeIn();
