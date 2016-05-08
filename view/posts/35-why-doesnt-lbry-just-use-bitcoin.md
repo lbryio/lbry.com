@@ -2,6 +2,8 @@
 author: lbry
 title: Why Doesn’t LBRY Just Use Bitcoin?
 date: '2016-03-17 13:31:10'
+cover: 'why-not-bitcoin2.jpg'
+cover-light: true
 ---
 
 LBRY employs blockchain technology, but doesn’t use Bitcoin itself. Instead, we use our own cryptocurrency, LBRY Credits (LBC).
