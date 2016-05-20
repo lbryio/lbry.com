@@ -19,7 +19,7 @@
 .post-header
 {
   margin-bottom: $spacing-vertical * 2;
-  min-height: 500px;
+  min-height: 100vh;
 
   @include background-size (cover);
   background-repeat: no-repeat;
@@ -42,6 +42,12 @@
     {
       text-shadow: 2px 2px 3px rgba(255,255,255,0.4), -1px -1px 0 rgba(255,255,255,0.4), 1px -1px 0 rgba(255,255,255,0.4), -1px 1px 0 rgba(255,255,255,0.4), 1px 1px 0 rgba(255,255,255,0.4);
     }
+  }
+}
+
+@media (min-height: 500px) {
+  .post-header {
+    min-height: 500px;
   }
 }
 
