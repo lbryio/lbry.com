@@ -30,9 +30,23 @@ class OpsActions extends Actions
   public static function executeLogUpload()
   {
     $log = isset($_POST['log']) ? urldecode($_POST['log']) : null;
-    $name = isset($_POST['name']) ?
-            preg_replace('/[^A-Za-z0-9_-]+/', '', substr(trim(urldecode($_POST['name'])),0,50)) :
-            null;
+    if (isset($_POST['name']))
+    {
+      $name = substr(trim(urldecode($_POST['name'])),0,50);
+    }
+    elseif (isset($_POST['date']))
+    {
+      $name = substr(trim(urldecode($_POST['date'])),0,20) . '_' .
+              substr(trim(urldecode($_POST['hash'])),0,20) . '_' .
+              substr(trim(urldecode($_POST['sys'])),0,50)  . '_' .
+              substr(trim(urldecode($_POST['type'])),0,20);
+    }
+    else
+    {
+      $name = null;
+    }
+
+    $name = preg_replace('/[^A-Za-z0-9_-]+/', '', $name);
 
     Actions::returnErrorIf(!$log || !$name, "Required params: log, name");
 
