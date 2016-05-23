@@ -21,6 +21,7 @@
   margin-bottom: $spacing-vertical * 2;
   min-height: 100vh;
 
+  background-color: $color-light-alt;
   @include background-size (cover);
   background-repeat: no-repeat;
   background-position: center center;
