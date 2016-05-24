@@ -62,18 +62,23 @@ class Post
     return $this->contentHtml;
   }
 
+  public function getPostNum()
+  {
+    return array_search($this->getSlug(), array_keys(Blog::getSlugMap()));
+  }
+
   public function getPrevPost()
   {
     $slugs = array_keys(Blog::getSlugMap());
-    $key = array_search($this->getSlug(), $slugs);
-    return $key === false || $key === 0 ? null : Blog::getPost($slugs[$key-1]);
+    $postNum = $this->getPostNum();
+    return $postNum === false || $postNum === 0 ? null : Blog::getPost($slugs[$postNum-1]);
   }
 
   public function getNextPost()
   {
     $slugs = array_keys(Blog::getSlugMap());
-    $key = array_search($this->getSlug(), $slugs);
-    return $key === false || $key >= count($slugs)-1 ? null : Blog::getPost($slugs[$key+1]);
+    $postNum = $this->getPostNum();
+    return $postNum === false || $postNum >= count($slugs)-1 ? null : Blog::getPost($slugs[$postNum+1]);
   }
 
   public function getAuthorName()
@@ -127,5 +132,10 @@ class Post
       default:
         return '<p>Much of our writing is a collaboration between LBRY team members, so we use SamueL BRYan to share credit. Sam has become a friend... an imaginary friend... even though we\'re adults...</p>';
     }
+  }
+
+  public function getCoverBackgroundStyle($maxStyles)
+  {
+    return $this->getPostNum() % $maxStyles + 1;
   }
 }

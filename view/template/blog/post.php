@@ -2,10 +2,10 @@
 <?php NavActions::setNavUri('/news') ?>
 <?php echo View::render('nav/header') ?>
 <main>
-  <header class="post-header"
+  <header class="post-header <?php echo $post->getCover() ? 'with-cover' : ('no-cover'.$post->getCoverBackgroundStyle(4)) ?>"
           <?php echo $post->getCover() ? 'style="background-image: url(\'/img/blog-covers/' . $post->getCover() . '\')"' : ''?>
           >
-    <div class="post-header-inner content <?php echo !$post->getCover() || $post->getIsCoverLight() ? 'content-light' : 'content-dark' ?>">
+    <div class="post-header-inner content <?php echo $post->getIsCoverLight() ? 'content-light' : 'content-dark' ?>">
       <h1><?php echo htmlentities($post->getTitle()) ?></h1>
       <div class="meta spacer1">
         <?php echo $post->getAuthorName() ?>

@@ -21,10 +21,40 @@
   margin-bottom: $spacing-vertical * 2;
   min-height: 100vh;
 
-  background-color: $color-light-alt;
-  @include background-size (cover);
-  background-repeat: no-repeat;
-  background-position: center center;
+  &.no-cover1 { // diagonal stripes
+    background-color: $color-primary;
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.08) 35px, rgba(255,255,255,.08) 70px);
+  }
+  &.no-cover2 { // argyle
+    background-color: $color-primary;
+    background-image:
+    repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+    repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+    linear-gradient(60deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),
+    linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1));
+    background-size: 70px 120px;
+  }
+  &.no-cover3 { // polka dots
+    background-color: $color-primary;
+    background-image: radial-gradient(rgba(255,255,255,.1) 15%, transparent 16%),
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 16%);
+    background-size:60px 60px;
+    background-position: 0 0, 30px 30px;
+  }
+  &.no-cover4 { // pluses
+    background:
+      radial-gradient(circle, transparent 17%, $color-primary 17%, $color-primary 83%, transparent 83%, transparent),
+      radial-gradient(circle, transparent 17%, $color-primary 17%, $color-primary 83%, transparent 83%, transparent) 50px 50px,
+      linear-gradient(lighten($color-primary, 7%) 6px, transparent 6px) 0 -3px,
+      linear-gradient(90deg, lighten($color-primary, 7%) 6px, transparent 6px) -3px 0;
+    background-color: $color-primary;
+    background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px;
+  }
+  &.with-cover {
+    @include background-size (cover);
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
 
   @include absolute-center();
 
