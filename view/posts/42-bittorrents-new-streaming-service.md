@@ -4,6 +4,7 @@ title: 'BitTorrent’s New Streaming Service: Close but No Cigar'
 date: '2016-05-25 00:06:18'
 ---
 News just came out that [BitTorrent is planning to launch a live streaming TV service](http://arstechnica.com/information-technology/2016/05/bittorrent-inc-announces-live-streaming-tv-service-powered-by-p2p/) to compete with centralized content distributors like Netflix and Hulu. 
+
 ![live streaming studio](/img/live_stream.jpg)
 
 According to the announcement, the service will offer both free and paid programming. It is based on a peer-to-peer live video streaming protocol BitTorrent has been working on for several years. The company said the service will be available for iOS, Android, Mac, and Apple TV platforms. 
