@@ -7,7 +7,7 @@
     <generator>https://github.com/lbryio/lbry.io</generator>
     <language>en</language>
     <?php //<lastBuildDate>Sat, 07 Sep 2002 09:42:31 GMT</lastBuildDate> ?>
-    <atom:link href="http://lbry.io<?php echo BlogActions::URL_STEM . '/' . BlogActions::RSS_SLUG ?>" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lbry.io<?php echo BlogActions::URL_STEM . '/' . BlogActions::RSS_SLUG ?>" rel="self" type="application/rss+xml" />
     <?php foreach ($posts as $post): ?>
     <item>
       <title><?php echo htmlspecialchars($post->getTitle()) ?></title>

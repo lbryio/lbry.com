@@ -32,4 +32,4 @@ With decentralization at its core, LBRY is designed to be a “trustless system,
 
 “Professor Huemer studies a subject few will touch nowadays: ethics. He's known for starting from premises everyone can agree on and arriving at profound conclusions – simply by following a logical train of thought,” Vine said. “If LBRY succeeds, the executive team will face decisions that will affect multitudes of people. I'm glad to have someone on board who can serve as an independent voice if we lose sight of our mission, or start rationalizing short-sighted decisions. Many people will question what use a company has for an Ethical Advisor; the better questions is why every company doesn't have one.”
 
-*Want to join Professor Huemer and the rest of the LBRY team? [Become an Alpha Tester and receive 1,000 LBRY credits (LBC)](http://lbry.io/get).*
+*Want to join Professor Huemer and the rest of the LBRY team? [Become an Alpha Tester and receive 1,000 LBRY credits (LBC)](https://lbry.io/get).*

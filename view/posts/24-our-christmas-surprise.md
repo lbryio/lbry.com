@@ -30,4 +30,4 @@ We know, and you’re welcome.
 
 Happy holidays, and have a wonderful new year!
 
-*Want to get us something for Christmas? [Sign-up to become an Alpha Tester](http://lbry.io/get) and earn 1,000 LBRY credits!*
+*Want to get us something for Christmas? [Sign-up to become an Alpha Tester](https://lbry.io/get) and earn 1,000 LBRY credits!*

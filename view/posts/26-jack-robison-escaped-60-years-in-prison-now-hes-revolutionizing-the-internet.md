@@ -4,9 +4,9 @@ title: Jack Robison Escaped 60 Years in Prison; Now He’s Revolutionizing the I
 date: '2015-12-31 17:10:59'
 ---
 
-Today, we officially announce the addition of Jack Robison to the [LBRY team](http://lbry.io/team) as Core Developer. Jack has been working on the project for some time, and we thought it was about time to recognize his growing role.
+Today, we officially announce the addition of Jack Robison to the [LBRY team](https://lbry.io/team) as Core Developer. Jack has been working on the project for some time, and we thought it was about time to recognize his growing role.
 
-<p style="text-align: center;"><img src="http://lbry.io/img/jack-robison-644x450.jpg" alt="Jack Robison, LBRY Core Developer"></p>
+<p style="text-align: center;"><img src="https://lbry.io/img/jack-robison-644x450.jpg" alt="Jack Robison, LBRY Core Developer"></p>
 
 We value Jack for his bursts of creative energy. In fact, Jack has quite a history with explosions. In high school, some of his homemade chemistry experiments caught the attention of law enforcement. The incident quickly became national news and goes to show that Jack doesn’t do anything half way, which makes him a perfect fit for the LBRY team.
 

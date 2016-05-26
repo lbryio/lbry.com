@@ -24,7 +24,7 @@ There's just one detail BraveNewCoin gets wrong in their conclusion:
 
 The truth is that the LBRY protocol will allow patrons to pay publishers and hosts in BTC, though the default is LBC (LBRY credits). So as far as the patron is concerned, LBRY can run on bitcoin. The only time a user must use LBC is to reserve a name to ​**publish**​ content.
 
-You don't have to take our word for it – start playing with the LBRY protocol yourself! [Sign up here to become an Alpha Tester and earn 1,000 LBC](http://lbry.io/get).
+You don't have to take our word for it – start playing with the LBRY protocol yourself! [Sign up here to become an Alpha Tester and earn 1,000 LBC](https://lbry.io/get).
 
 
 

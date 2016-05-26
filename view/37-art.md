@@ -33,7 +33,7 @@ At the highest level, LBRY does something extraordinarily simple. LBRY creates a
 
 <div class="text-center meta spacer1">![LRBY UI](/img/lbry-ui.png)
 
-<div class="content-inset">A user searches and prepares to stream and the film _It’s a Wonderful Life_, located at [lbry://wonderfullife](lbry://wonderfullife), via a completely decentralized network. Try it out for yourself at [lbry.io/get](http://lbry.io/get).</div>
+<div class="content-inset">A user searches and prepares to stream and the film _It’s a Wonderful Life_, located at [lbry://wonderfullife](lbry://wonderfullife), via a completely decentralized network. Try it out for yourself at [lbry.io/get](https://lbry.io/get).</div>
 
 </div>
 
