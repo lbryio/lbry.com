@@ -12,7 +12,7 @@
                           'LBRY' ?>
         <title><?php echo $title ?></title>
 
-        <link href='https://fonts.googleapis.com/css?family=Merriweather:300,300italic,700,700italic|Raleway:300,300italic,400,400italic,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Raleway:300,300italic,400,400italic,700' rel='stylesheet' type='text/css'>
         <link href="/css/all.css" rel="stylesheet" type="text/css" media="screen,print" />
         <link rel="apple-touch-icon" sizes="60x60" href="/img/fav/apple-touch-icon-60x60.png">
         <link rel="apple-touch-icon" sizes="114x114" href="/img/fav/apple-touch-icon-114x114.png">
@@ -25,6 +25,9 @@
         <link rel="icon" type="image/png" href="/img/fav/android-chrome-192x192.png" sizes="192x192">
         <link rel="icon" type="image/png" href="/img/fav/favicon-16x16.png" sizes="16x16">
         <link rel="manifest" href="/img/fav/manifest.json">
+        <?php if(isset($showRssLink) && $showRssLink): ?>
+          <link rel="alternate" type="application/rss+xml" title="LBRY News" href="<?php echo BlogActions::URL_STEM . '/' . BlogActions::RSS_SLUG ?>" />
+        <?php endif ?>
 
         <meta name="description" content="<?php echo Response::getMetaDescription() ?>">
         <meta name="msapplication-TileColor" content="#155B4A">

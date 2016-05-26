@@ -10,13 +10,10 @@ function js_end()
   ob_end_flush();
 }
 
-/**
- * Description of View
- *
- * @author jeremy
- */
 class View
 {
+  const LAYOUT_PARAMS = '_layout_params';
+
   protected static $metaDescription = '',
                    $metaImg = '';
 

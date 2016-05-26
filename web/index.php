@@ -1,5 +1,10 @@
 <?php
 
+# Enable PHP dev cli-server
+if (php_sapi_name() === 'cli-server' && is_file(__DIR__.preg_replace('#(\?.*)$#', '', $_SERVER['REQUEST_URI'])))
+{
+  return false;
+}
 
 include __DIR__ . '/../bootstrap.php';
 

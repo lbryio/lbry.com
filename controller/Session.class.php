@@ -12,7 +12,7 @@ class Session
         KEY_LIST_SUB_SIGNATURE = 'list_sub_sig',
         KEY_LIST_SUB_SUCCESS = 'list_success',
         KEY_LIST_SUB_FB_EVENT = 'list_sub_fb_event';
-  
+
   public static function init()
   {
     session_start();

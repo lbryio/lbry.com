@@ -3,6 +3,7 @@
 class BlogActions extends Actions
 {
   const URL_STEM = '/news';
+  const RSS_SLUG = 'rss.xml';
 
   public static function executeIndex()
   {
@@ -13,7 +14,24 @@ class BlogActions extends Actions
     $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
     return ['blog/index', [
       'posts' => $posts,
-      'page' => $page
+      'page' => $page,
+      View::LAYOUT_PARAMS => [
+        'showRssLink' => true
+      ]
+    ]];
+  }
+
+  public static function executeRss()
+  {
+    $posts = Blog::getPosts();
+    usort($posts, function(Post $a, Post $b) {
+      return strcasecmp($b->getDate()->format('Y-m-d'), $a->getDate()->format('Y-m-d'));
+    });
+    return ['blog/rss', [
+      'posts' => array_slice($posts, 0, 10),
+      '_no_layout' => true
+    ], [
+      'Content-Type' => 'text/xml; charset=utf-8'
     ]];
   }
 
@@ -25,7 +43,10 @@ class BlogActions extends Actions
       return ['page/404', []];
     }
     return ['blog/post', [
-      'post' => $post
+      'post' => $post,
+      View::LAYOUT_PARAMS => [
+        'showRssLink' => true
+      ]
     ]];
   }
 

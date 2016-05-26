@@ -17,4 +17,4 @@ We believe cryptocurrencies and blockchain technology are the key to solving thi
 
 Want to help us get LBRY launched and get in on the crypto action? [Test the LBRY Alpha and fill out our survey to earn 1,000 LBC](https://lbry.io/get).
 
-If you have a strong interest in getting involved in LBRY, [join our Slack channel](https://lbry-slackin.herokuapp.com). Come and join the fun!
+If you have a strong interest in getting involved in LBRY, [join our Slack channel](http://slack.lbry.io). Come and join the fun!

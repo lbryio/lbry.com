@@ -1,0 +1,1 @@
+<html><head><meta http-equiv="refresh" content="0;url=<?php echo htmlspecialchars($url, ENT_QUOTES, 'utf-8')?>"/></head></html>
