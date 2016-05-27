@@ -22,9 +22,11 @@
 @media (max-width: $mobile-width-threshold) {
   .cover { padding: $spacing-vertical $spacing-vertical * 2 / 3; }
   .cover-title { font-size: 2.8em; margin-bottom: $spacing-vertical; }
+  .cover-subtitle { font-size: 1.2em; }
 }
 @media (min-width: $mobile-width-threshold) {
   .cover-title { font-size: 4.0em; &.cover-title-tile { font-size: 2.8em; } }
+  .cover-subtitle { font-size: 1.4em; }
 }
 @media (max-width: $max-content-width) and (min-width: $mobile-width-threshold) {
   .cover { padding: $spacing-vertical * 1.5 $spacing-vertical * 2; }
@@ -84,5 +86,4 @@
 .cover-subtitle
 {
   margin: $spacing-vertical 0 $spacing-vertical;
-  font-size: 1.2em;
 }

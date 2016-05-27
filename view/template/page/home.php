@@ -7,8 +7,13 @@
     <div class="cover cover-dark">
       <div class="content content-wide content-dark">
         <div class="text-center">
-          <h1 class="cover-title">Stream, Share, Earn.</h1>
+          <h1 class="cover-title">Play, Share, Earn.</h1>
+          <h2 class="cover-subtitle" style="max-width: 600px; margin-left: auto; margin-right: auto">
+            Watch, read and play in a decentralized digital library controlled by the community.
+          </h2>
         </div>
+
+        <?php /*
         <?php $labels = [
           __('making history'),
           __('empowering artists'),
@@ -28,6 +33,7 @@
             <span class="sale-cta"><?php echo implode('</span><span class="sale-cta">', $labels) ?></span>
           </span>
         </div>
+ */ ?>
         <div class="control-group spacer2 text-center">
           <div class="control-item">
             <a href="/get" class="btn-primary">Get LBRY</a>
@@ -39,7 +45,9 @@
         <div class="video" style="margin-bottom: 80px">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/BNtivEJKHxI" frameborder="0" allowfullscreen></iframe>
         </div>
-        <div class="row-fluid content-constrained">
+      </div>
+      <div class="content content-dark">
+        <div class="row-fluid">
           <div class="span4">
             <h3><?php echo __('Get Updates') ?></h3>
             <?php echo View::render('mail/joinList', [
