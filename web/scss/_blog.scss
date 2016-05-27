@@ -19,7 +19,6 @@
 .post-header
 {
   margin-bottom: $spacing-vertical * 2;
-  min-height: 100vh;
 
   &.no-cover1 { // diagonal stripes
     background-color: $color-primary;
@@ -79,6 +78,15 @@
 @media (min-height: 500px) {
   .post-header {
     min-height: 500px;
+    &:not(.with-cover)
+    {
+      min-height: 250px;
+    }
+  }
+}
+@media (max-height: 500px) {
+  .post-header {
+    min-height: 100vh;
   }
 }
 

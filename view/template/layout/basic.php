@@ -26,7 +26,7 @@
         <link rel="icon" type="image/png" href="/img/fav/favicon-16x16.png" sizes="16x16">
         <link rel="manifest" href="/img/fav/manifest.json">
         <?php if(isset($showRssLink) && $showRssLink): ?>
-          <link rel="alternate" type="application/rss+xml" title="LBRY News" href="<?php echo BlogActions::URL_STEM . '/' . BlogActions::RSS_SLUG ?>" />
+          <link rel="alternate" type="application/rss+xml" title="LBRY News" href="<?php echo ContentActions::URL_NEWS . '/' . ContentActions::RSS_SLUG ?>" />
         <?php endif ?>
 
         <meta name="description" content="<?php echo Response::getMetaDescription() ?>">

@@ -73,15 +73,21 @@ class Controller
       case '/art':
         return static::redirect('/what');
       default:
-        $blogPattern = '#^' . BlogActions::URL_STEM . '(/|$)#';
-        if (preg_match($blogPattern, $uri))
+        $newsPattern = '#^' . ContentActions::URL_NEWS . '(/|$)#';
+        if (preg_match($newsPattern, $uri))
         {
-          $slug = preg_replace($blogPattern, '', $uri);
-          if ($slug == BlogActions::RSS_SLUG)
+          $slug = preg_replace($newsPattern, '', $uri);
+          if ($slug == ContentActions::RSS_SLUG)
           {
-            return BlogActions::executeRss();
+            return ContentActions::executeRss();
           }
-          return $slug ? BlogActions::executePost($slug) : BlogActions::executeIndex();
+          return $slug ? ContentActions::executePost($uri) : ContentActions::executeNews();
+        }
+        $faqPattern = '#^' . ContentActions::URL_FAQ . '(/|$)#';
+        if (preg_match($faqPattern, $uri))
+        {
+          $slug = preg_replace($faqPattern, '', $uri);
+          return $slug ? ContentActions::executePost($uri) : ContentActions::executeFaq();
         }
         $noSlashUri = ltrim($uri, '/');
         if (View::exists('page/' . $noSlashUri))

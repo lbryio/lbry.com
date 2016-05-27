@@ -2,17 +2,47 @@
 
 class Post
 {
-  protected $slug, $title, $author, $date, $markdown, $contentText, $contentHtml, $cover;
+  const SORT_DATE_DESC = 'sort_date_desc';
+
+  protected static $slugMap = [];
+  protected $slug, $title, $author, $date, $markdown, $contentText, $contentHtml, $cover, $category;
   protected $isCoverLight = false;
 
-  public static function fromFile($filename)
+  public static function load($relativeOrAbsolutePath)
   {
-    list($ignored, $frontMatter, $content) = explode('---', file_get_contents($filename), 3);
-    return new static(Blog::getSlugFromFilename($filename), Spyc::YAMLLoadString(trim($frontMatter)), trim($content));
+    $pathTokens = explode('/', $relativeOrAbsolutePath);
+    if (count($pathTokens) <= 1)
+    {
+      throw new LogicException('Cannot load a post without a path.');
+    }
+    $category = $pathTokens[count($pathTokens) - 2];
+    $filename = $pathTokens[count($pathTokens) - 1];
+    $isRelative = $relativeOrAbsolutePath[0] != '/';
+    $slug = static::getSlugFromFilename($filename);
+    $path = ($isRelative ? ROOT_DIR . '/posts/' : '') .
+              $relativeOrAbsolutePath .
+              (substr($filename, -3) !== '.md' ? '.md' : '');
+
+    if (!file_exists($path) && $isRelative) //may have come in without a post number
+    {
+      if ($isRelative)
+      {
+        $slugMap = static::getSlugMap($category);
+        if (isset($slugMap[$slug]))
+        {
+          return static::load($slugMap[$slug]);
+        }
+      }
+      throw new InvalidArgumentException('No post found for path: ' . $relativeOrAbsolutePath);
+    }
+
+    list($ignored, $frontMatter, $content) = explode('---', file_get_contents($path), 3);
+    return new static($category, $slug, Spyc::YAMLLoadString(trim($frontMatter)), trim($content));
   }
 
-  public function __construct($slug, $frontMatter, $markdown)
+  public function __construct($category, $slug, $frontMatter, $markdown)
   {
+    $this->category = $category;
     $this->slug = $slug;
     $this->markdown = $markdown;
     $this->title = isset($frontMatter['title']) ? $frontMatter['title'] : null;
@@ -22,9 +52,30 @@ class Post
     $this->isCoverLight = isset($frontMatter['cover-light']) && $frontMatter['cover-light'] == 'true';
   }
 
+  public static function find($folder, $sort = null)
+  {
+    $posts = [];
+    foreach(glob(rtrim($folder, '/') . '/*.md') as $file)
+    {
+      $posts[] = static::load($file);
+    }
+    if ($sort)
+    {
+      switch ($sort)
+      {
+        case static::SORT_DATE_DESC:
+          usort($posts, function(Post $a, Post $b) {
+            return strcasecmp($b->getDate()->format('Y-m-d'), $a->getDate()->format('Y-m-d'));
+          });
+          break;
+      }
+    }
+    return $posts;
+  }
+
   public function getRelativeUrl()
   {
-    return BlogActions::URL_STEM . '/' . $this->slug;
+    return $this->category . '/' . $this->slug;
   }
 
   public function getSlug()
@@ -79,21 +130,26 @@ class Post
 
   public function getPostNum()
   {
-    return array_search($this->getSlug(), array_keys(Blog::getSlugMap()));
+    return array_search($this->getSlug(), array_keys(static::getSlugMap($this->category)));
   }
 
   public function getPrevPost()
   {
-    $slugs = array_keys(Blog::getSlugMap());
+    $slugs = array_keys(Post::getSlugMap($this->category));
     $postNum = $this->getPostNum();
-    return $postNum === false || $postNum === 0 ? null : Blog::getPost($slugs[$postNum-1]);
+    return $postNum === false || $postNum === 0 ? null : Post::load($this->category . '/' . $slugs[$postNum-1]);
   }
 
   public function getNextPost()
   {
-    $slugs = array_keys(Blog::getSlugMap());
+    $slugs = array_keys(Post::getSlugMap($this->category));
     $postNum = $this->getPostNum();
-    return $postNum === false || $postNum >= count($slugs)-1 ? null : Blog::getPost($slugs[$postNum+1]);
+    return $postNum === false || $postNum >= count($slugs)-1 ? null : Post::load($this->category . '/' . $slugs[$postNum+1]);
+  }
+
+  public function hasAuthor()
+  {
+    return $this->author !== null;
   }
 
   public function getAuthorName()
@@ -108,6 +164,9 @@ class Post
         return 'Jimmy Kiselak';
       case 'jack':
         return 'Jack Robison';
+      case null:
+      case '':
+        return '';
       case 'lbry':
       default:
         return 'Samuel Bryan';
@@ -220,5 +279,23 @@ class Post
     }
 
     return $string;
+  }
+
+  public static function getSlugFromFilename($filename)
+  {
+    return strtolower(preg_replace('#^\d+\-#', '', basename(trim($filename), '.md')));
+  }
+
+  public static function getSlugMap($category)
+  {
+    if (!isset(static::$slugMap[$category]))
+    {
+      static::$slugMap[$category] = [];
+      foreach(glob(ROOT_DIR . '/posts/' . $category . '/*.md') as $file)
+      {
+        static::$slugMap[$category][static::getSlugFromFilename($file)] = $file;
+      }
+    }
+    return static::$slugMap[$category];
   }
 }

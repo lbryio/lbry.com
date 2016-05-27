@@ -9,7 +9,7 @@
       <h1><?php echo htmlentities($post->getTitle()) ?></h1>
       <div class="meta spacer1">
         <?php echo $post->getAuthorName() ?>
-        &bull;
+        <?php echo $post->hasAuthor() ? '&bull;' : '' ?>
         <span title="<?php echo $post->getDate()->format('F jS, Y') ?>"><?php echo $post->getDate()->format('M j') ?></span>
       </div>
     </div>
@@ -51,9 +51,11 @@
     </nav>
   </div>
 
-  <?php echo View::render('blog/_author', [
-    'post' => $post
-  ]) ?>
+  <?php if ($post->hasAuthor()): ?>
+    <?php echo View::render('content/_postAuthor', [
+      'post' => $post
+    ]) ?>
+  <?php endif ?>
 
 </main>
 <?php echo View::render('nav/footer') ?>
