@@ -4,15 +4,13 @@
 
 <main class="column-fluid">
   <div class="span7">
-    <div class="cover cover-light content">
+    <div class="cover cover-dark cover-dark-grad content content-stretch content-dark">
       <h1>LBRY for <?php echo $osTitle ?> <span class="<?php echo $osIcon ?>"></span></h1>
       <?php if ($downloadHtml): ?>
-        <?php $socialCssClasses = 'cover cover-light content content-light' ?>
         <?php echo View::render('download/_betaNotice') ?>
         <?php echo $downloadHtml ?>
         <?php echo View::render('download/_reward') ?>
       <?php else: ?>
-        <?php $socialCssClasses = 'cover cover-dark cover-dark-grad content content-dark' ?>
         <?php echo View::render('download/_unavailable') ?>
       <?php endif ?>
     </div>
@@ -21,10 +19,7 @@
     <?php echo View::render('download/_list', [
       'excludeOs' => $os
     ]) ?>
-    <?php $socialCssClasses = 'cover cover-dark cover-dark-grad content content-dark' ?>
-    <?php echo View::render('download/_social', [
-      'cssClasses' => $socialCssClasses
-    ]) ?>
+    <?php echo View::render('download/_social') ?>
   </div>
 </main>
 

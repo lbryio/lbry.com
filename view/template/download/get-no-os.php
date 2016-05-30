@@ -8,7 +8,6 @@
     ]) ?>
   </div>
   <div class="span6">
-    <?php $socialCssClasses = 'cover cover-dark cover-dark-grad content content-dark' ?>
     <?php echo View::render('download/_social', [
       'cssClasses' => $socialCssClasses
     ]) ?>

@@ -1,5 +1,5 @@
 <?php $title = isset($title) ? $title : __('Other Systems') ?>
-<div class="cover cover-light-alt cover-light-alt-grad content content-light">
+<div class="cover cover-light content content-light">
   <h3><?php echo $title ?></h3>
   <?php $buckets = array_fill(0, 3, []) ?>
   <?php $columns = 2 ?>

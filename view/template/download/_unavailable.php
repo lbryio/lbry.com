@@ -5,6 +5,7 @@
     'submitLabel' => 'Go',
     'returnUrl' => '/get',
     'meta' => true,
+    'btnClass' => 'btn-alt',
     'listId' => Mailchimp::LIST_GENERAL_ID,
     'mergeFields' => ['CLI' => 'No'],
   ]) ?>

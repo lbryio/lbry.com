@@ -8,6 +8,10 @@
   {
     max-width: $max-content-width; /*we have more padding than desirable so numbers from ol can exceed container*/
   }
+  &.content-stretch
+  {
+    max-width: none;
+  }
   &.content-wide
   {
     max-width: 1400px;

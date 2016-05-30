@@ -1,4 +1,4 @@
-<div class="<?php echo $cssClasses ?>">
+<div class="cover cover-light-alt cover-light-alt-grad content content-light">
   <h3>Build With Us</h3>
   <div class="row-fluid">
     <div class="span6">
