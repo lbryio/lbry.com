@@ -15,7 +15,7 @@ class ContentActions extends Actions
 
   public static function executeHome()
   {
-    return ['page/home', [
+    return ['content/home', [
       'totalUSD' => CreditApi::getTotalDollarSales(),
       'totalPeople' => CreditApi::getTotalPeople()
     ]];

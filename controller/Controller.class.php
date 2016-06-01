@@ -49,6 +49,10 @@ class Controller
         return ContentActions::executeHome();
       case '/fund':
         return CreditActions::executeFund();
+      case '/fund-after':
+        return ['fund/fund-after'];
+      case '/goals':
+        return ['fund/goals'];
       case '/get':
       case '/windows':
       case '/ios':

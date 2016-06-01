@@ -50,7 +50,8 @@ class View
       throw $e;
     }
 
-    return ob_get_clean();
+
+    return static::interpolateTokens(ob_get_clean());
   }
 
   public static function exists($template)
@@ -107,5 +108,12 @@ class View
 
     $css = $scssCompiler->compile(file_get_contents(ROOT_DIR.'/web/scss/all.scss'));
     file_put_contents(ROOT_DIR.'/web/css/all.css', $css);
+  }
+
+  protected static function interpolateTokens($html)
+  {
+    return preg_replace_callback('/{{[\w\.]+}}/is', function($m) {
+      return i18n::translate(trim($m[0], '}{'));
+    }, $html);
   }
 }

@@ -5,7 +5,7 @@
 <main class="column-fluid">
   <div class="span7">
     <div class="cover cover-dark cover-dark-grad content content-stretch content-dark">
-      <h1>LBRY for <?php echo $osTitle ?> <span class="<?php echo $osIcon ?>"></span></h1>
+      <h1><?php echo strtr(__('download.main.title'), ['%os%' => $osTitle]) ?> <span class="<?php echo $osIcon ?>"></span></h1>
       <?php if ($downloadHtml): ?>
         <?php echo View::render('download/_betaNotice') ?>
         <?php echo $downloadHtml ?>

@@ -25,8 +25,7 @@
       <?php endif ?>
       <?php if (isset($meta) && $meta): ?>
         <div class="meta">
-          <?php echo __('You will receive 1-2 messages a month, only from LBRY, Inc. and only about LBRY.') ?>
-          <?php echo __('You can easily unsubscribe at any time.') ?>
+          {{email.disclaimer}}
         </div>
       <?php endif ?>
     </div>

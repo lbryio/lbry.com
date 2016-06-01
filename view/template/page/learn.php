@@ -1,7 +1,6 @@
 <?php Response::setMetaDescription(__('Learn more about LBRY, the technology that puts you back in control of the internet.')) ?>
 <?php Response::setMetaTitle(__('Learn About LBRY')) ?>
 <?php echo View::render('nav/header', ['isDark' => false]) ?>
-
   <main class="column-fluid ">
     <div class="span6">
       <div class="cover cover-light content">

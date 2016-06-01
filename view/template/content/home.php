@@ -7,10 +7,8 @@
     <div class="cover cover-dark">
       <div class="content content-wide content-dark">
         <div class="text-center">
-          <h1 class="cover-title">Play, Share, Earn.</h1>
-          <h2 class="cover-subtitle" style="max-width: 600px; margin-left: auto; margin-right: auto">
-            Watch, read and play in a decentralized digital library controlled by the community.
-          </h2>
+          <h1 class="cover-title">{{tagline}}</h1>
+          <h2 class="cover-subtitle" style="max-width: 600px; margin-left: auto; margin-right: auto">{{sentence}}</h2>
         </div>
 
         <?php /*
