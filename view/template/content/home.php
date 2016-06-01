@@ -7,8 +7,8 @@
     <div class="cover cover-dark">
       <div class="content content-wide content-dark">
         <div class="text-center">
-          <h1 class="cover-title">{{tagline}}</h1>
-          <h2 class="cover-subtitle" style="max-width: 600px; margin-left: auto; margin-right: auto">{{sentence}}</h2>
+          <h1 class="cover-title">{{global.tagline}}</h1>
+          <h2 class="cover-subtitle" style="max-width: 600px; margin-left: auto; margin-right: auto">{{global.sentence}}</h2>
         </div>
 
         <?php /*
@@ -34,7 +34,7 @@
  */ ?>
         <div class="control-group spacer2 text-center">
           <div class="control-item">
-            <a href="/get" class="btn-primary">Get LBRY</a>
+            <a href="/get" class="btn-primary">{{page.home.primary_button}}</a>
           </div>
           <div class="control-item">
             <a href="/learn" class="btn-alt">Learn More</a>
