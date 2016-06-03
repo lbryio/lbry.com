@@ -3,6 +3,9 @@ global:
   sentence: Watch, read and play in a decentralized digital library controlled by the community.
 email:
   disclaimer: You will receive 1-2 messages a month, only from LBRY, Inc. and only about LBRY. You can easily unsubscribe at any time.
+page:
+  home:
+    primary_button: Get LBRY
 download:
   main:
     title: LBRY for %os%
