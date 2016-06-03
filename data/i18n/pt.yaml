@@ -1,6 +1,8 @@
 global:
-  tagline: Play, Compartilhar, ganhem.
-  sentence: Assistir, ler e jogar em uma biblioteca digital descentralizada controlado pela comunidade.
+  tagline: Assista, Compartilhe, Ganhe.
+  sentence: Acesse vídeo, texto e música numa biblioteca digital descentralizada e controlada pela comunidade.
+email:
+  disclaimer: Você receberá 1 ou 2 mensagens por mês, enviadas somente pela LBRY Inc. e somente sobre o LBRY. É fácil cancelar sua assinatura a qualquer momento.
 download:
   main:
     title: LBRY para %os%
