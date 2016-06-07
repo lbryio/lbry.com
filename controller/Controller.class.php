@@ -67,9 +67,9 @@ class Controller
       case '/dl/lbry_setup.sh':
         return ['internal/dl-not-supported', ['_no_layout' => true]];
       case '/lbry-osx-latest.dmg':
-        return static::redirect('https://github.com/lbryio/lbry/releases/download/v0.2.4/lbry.0.2.4.dmg', 307);
+        return static::redirect('https://github.com/lbryio/lbry/releases/download/v0.2.5/lbry.0.2.5.dmg', 307);
       case '/lbry-linux-latest.deb':
-        return static::redirect('https://github.com/lbryio/lbry/releases/download/v0.2.4/lbry_0.2.4_amd64.deb', 307);
+        return static::redirect('https://github.com/lbryio/lbry/releases/download/v0.2.5/lbry_0.2.5_amd64.deb', 307);
       case '/art':
         return static::redirect('/what');
       default:
