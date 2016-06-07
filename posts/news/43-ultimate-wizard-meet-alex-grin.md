@@ -1,4 +1,8 @@
-New Core Teammate Is An Ultimate Wizard: Meet Grin
+---
+author: lbry
+title: 'New Core Teammate Is An Ultimate Wizard: Meet Grin'
+date: '2016-06-07 00:06:18'
+---
 
 Alex Grintsvayg (“Grin”) played ultimate frisbee with LBRY founders Jeremy Kauffman and Jimmy Kiselak in college. Now he’s teaming up with them to create the ultimate decentralized digital marketplace.
 
