@@ -4,21 +4,21 @@ title: 'New Core Teammate Is An Ultimate Wizard: Meet Grin'
 date: '2016-06-07 00:06:18'
 ---
 
-Alex Grintsvayg (“Grin”) played ultimate frisbee with LBRY founders Jeremy Kauffman and Jimmy Kiselak in college. Now he’s teaming up with them to create the ultimate decentralized digital marketplace.
+Alex Grintsvayg (aka “Grin”) played ultimate frisbee with LBRY founders Jeremy Kauffman and Jimmy Kiselak in college. Now he’s teaming up with them to create the ultimate decentralized digital marketplace.
 
 Grin has been named LBRY’s *Chief Infrastructure Officer*, but *Wizard* is probably more descriptive of his role on the team. He will contribute to the technical side of the operation, ensuring LBRY’s underlying infrastructure is rock-solid.
 
 ![alexgrin](/img/grin-644x450.jpg)
 
-With dual-degrees from Rensselaer Polytechnic Institute in computer science and psychology, Grin has a unique ability to understand and apply new technologies. He also brings plenty of business knowledge to the table, with six years of experience running startup tech companies. Add to all of that his ultimate-frisbee skills – he played for a national-caliber team for seven years and professionally for the Philly Spinners – and you can see why we’ve dubbed him the Wizard.
+With degrees in computer science and psychology from Rensselaer Polytechnic Institute, Grin has a unique ability to understand and apply new technologies. He also brings plenty of business knowledge to the table, with six years of experience running startup tech companies. Add to all of that his ultimate-frisbee skills – he played for a national-caliber team for seven years and professionally for the Philly Spinners – and you can see why we’ve dubbed him the Wizard.
 
 After he graduated from RPI, Grin spent a year doing cognitive research for the US Navy at the the Naval Undersea Warfare Center in Newport, RI. That was as long as it took for him to realize government work wasn’t for him. 
 
 >“The bureaucracy and boredom were unbearable.”
 
-From there Grin went on to found [Topscore](http://usetopscore.com/) with Jeremy. The company makes league and member management software for recreational sports organizations. Grin serves as the Chief Technical Officer.
+From there he went on to found [Topscore](http://usetopscore.com/) with Jeremy. The company makes league and member management software for recreational sports organizations. Grin serves as Topscore's CTO.
 
-Grin said three primary factors led him to get involved with LBRY: the technology, the concept, and the people.
+Three primary factors led Grin to get involved with LBRY: the technology, the concept, and the people.
 
 >“I work best when I'm passionate about what I'm doing, and LBRY is at the intersection of several areas that I've been very interested in for a while now: bitcoin, cryptography, economics, distributed systems, and freedom of information. LBRY is an ambitious project, and having a strong team will be key to our success.”
 
