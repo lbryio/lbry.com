@@ -67,8 +67,10 @@ class Controller
       case '/dl/lbry_setup.sh':
         return ['internal/dl-not-supported', ['_no_layout' => true]];
       case '/lbry-osx-latest.dmg':
+        // THIS ROUTE IS DEPRECATED. IT WILL BE REMOVED SOON.
         return static::redirect('https://github.com/lbryio/lbry/releases/download/v0.2.5/lbry.0.2.5.dmg', 307);
       case '/lbry-linux-latest.deb':
+        // THIS ROUTE IS DEPRECATED. IT WILL BE REMOVED SOON.
         return static::redirect('https://github.com/lbryio/lbry/releases/download/v0.2.5/lbry_0.2.5_amd64.deb', 307);
       case '/art':
         return static::redirect('/what');

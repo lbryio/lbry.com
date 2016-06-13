@@ -37,7 +37,7 @@ class DownloadActions extends Actions
         'osTitle' => $osTitle,
         'osIcon' => $osIcon,
         'downloadHtml' => View::exists('download/' . $partial) ?
-            View::render('download/' . $partial) :
+            View::render('download/' . $partial, ['downloadUrl' => static::getDownloadUrl($os)]) :
             false
       ]];
     }
@@ -86,6 +86,54 @@ class DownloadActions extends Actions
     {
       return static::OS_WINDOWS;
     }
+    return null;
+  }
+
+  protected static function getDownloadUrl($os, $useCache = true)
+  {
+    if (!in_array($os, array_keys(static::getOses())))
+    {
+      throw new DomainException('Unknown OS');
+    }
+
+    $apc = $useCache && extension_loaded('apc') && ini_get('apc.enabled');
+    $key = 'lbry_release_data';
+    $releaseData = null;
+
+    if ($apc)
+    {
+      $releaseData = apc_fetch($key);
+    }
+
+    if (!$releaseData)
+    {
+      try
+      {
+        $releaseData = json_decode(Curl::get('https://api.github.com/repos/lbryio/lbry/releases/latest', [], ['user_agent' => 'LBRY']), true);
+        if ($apc)
+        {
+          apc_store($key, $releaseData, 600); // cache for 10 min
+        }
+      }
+      catch (Exception $e)
+      {
+      }
+    }
+
+    if (!$releaseData)
+    {
+      return null;
+    }
+
+    foreach($releaseData['assets'] as $asset)
+    {
+      if ($os == static::OS_LINUX && $asset['content_type'] == 'application/x-debian-package' ||
+          $os == static::OS_OSX && $asset['content_type'] == 'application/x-diskcopy')
+      {
+        return $asset['browser_download_url'];
+      }
+    }
+
     return null;
   }
 

@@ -1,6 +1,7 @@
 <div class="text-center">
   <p>
-    <a id="linux-download" class="btn-alt" download href="//lbry.io/lbry-linux-latest.deb"
+    <a id="linux-download" class="btn-alt" <?php echo $downloadUrl ? 'download' : '' ?>
+       href="<?php echo $downloadUrl ?: 'https://github.com/lbryio/lbry/releases' ?>"
       <?php /*
          data-facebook-track-id="XXXXX"
          data-twitter-track-id="XXXXX"
@@ -12,7 +13,7 @@
   </p>
   <div class="meta">
     Works with Ubuntu, Debian, or any distro with <code>apt</code> or <code>dpkg</code>.
-    Prefer to build from source? Go <a href="//github.com/lbryio/lbry" class="link-primary">here</a>.
+    Prefer to build from source? Go <a href="https://github.com/lbryio/lbry" class="link-primary">here</a>.
   </div>
 </div>
 
