@@ -152,21 +152,12 @@
         </div>
         <div>
           <h4>Alex Tabarrok</h4>
-          <div class="meta  spacer1">Economic Advisor</div>
-          <p>Alex Tabarrok is Bartley J. Madden Chair in Economics at the <a href="http://mercatus.org/" class="link-primary">Mercatus Center</a>
-            and a professor of economics at <a href="https://gmu.edu" class="link-primary">George Mason University</a>. He specializes in intellectual property reform, the effectiveness of markets, and the justice system.
+          <div class="meta  spacer1">{{page.team.alex.title}}</div>
+          <p>{{page.team.alex.parag1}}
           </p>
-          <p>Tabarrok is the coauthor, with Mercatus colleague Tyler Cowen, of the popular economics blog <a class="link-primary" href="http://www.marginalrevolution.com/"><em>Marginal Revolution</em></a>
-            and cofounder of the online educational platform <a class="link-primary" href="http://mruniversity.com/">Marginal Revolution University</a>.
-            He is the coauthor of
-            <em><a href="http://www.amazon.com/Modern-Principles-Economics-Tyler-Cowen/dp/1429239972" class="link-primary">Modern Principles of Economics</a></em>,
-            and author of the recent book
-            <em><a href="http://www.amazon.com/Launching-The-Innovation-Renaissance-Market-ebook/dp/B006C1HX24" class="link-primary">Launching the Innovation Renaissance</em></a>.
-            His articles have appeared in the<em> New York Times</em>, the<em> Washington Post</em>, the<em> Wall Street Journal</em>, and many
-            other prestigious publications.
+          <p>{{page.team.alex.parag2}}
           </p>
-          <p>Tabarrok received his PhD in economics from
-            <a class="link-primary" href="http://en.wikipedia.org/wiki/George_Mason_University" title="George Mason University">George Mason University</a>.
+          <p>{{page.team.alex.parag3}}
           </p>
         </div>
       </div>
@@ -176,24 +167,12 @@
         </div>
         <div>
           <h4>Stephan Kinsella</h4>
-          <div class="meta  spacer1">Legal Advisor</div>
+          <div class="meta  spacer1">{{page.team.stephan.title}}</div>
           <p>
-            Stephan Kinsella is a registered patent attorney and has over twenty years’ experience in patent, intellectual property,
-            and general commercial and corporate law. He is the founder and director of the <a href="http://c4sif.org/" class="link-primary">Center for the Study of Innovative Freedom</a>.
-            Kinsella has published numerous articles and books on intellectual property law and legal topics including
-            <a href="http://www.amazon.com/International-Investment-Political-Dispute-Resolution/dp/0379215225" class="link-primary">
-              <em>International Investment, Political Risk, and Dispute Resolution: A Practitioner’s Guide</em>
-            </a>
-            and
-            <a href="https://mises.org/library/against-intellectual-property-0" class="link-primary">
-              <em>Against Intellectual Property</em>
-            </a>.
+            {{page.team.stephan.parag1}}
           </p>
           <p>
-            He received an LL.M. in international business law from <a href="http://www.kcl.ac.uk/" class="link-primary">King’s College London</a>, a JD from the Paul M. Hebert Law Center at
-            <a href="//lsu.edu" class="link-primary">Lousiana State University</a>,
-            as well as BSEE and MSEE degrees. His websites are <a href="stephankinsella.com" class="link-primary">stephankinsella.com</a>
-            and <a href="kinsellalaw.com" class="link-primary">kinsellalaw.com</a>
+            {{page.team.stephan.parag2}}
           </p>
         </div>
       </div>
@@ -205,15 +184,15 @@
         </div>
         <div>
           <h4>Michael Huemer</h4>
-          <div class="meta  spacer1">Ethical Advisor</div>
+          <div class="meta  spacer1">{{page.team.michael.title}}Ethical Advisor</div>
           <p>
-            Michael Huemer is Professor of Philosophy and Ethics at the <a href="//www.colorado.edu/" class="link-primary">University of Colorado</a>,
+            {{page.team.michael.parag1}}Michael Huemer is Professor of Philosophy and Ethics at the <a href="//www.colorado.edu/" class="link-primary">University of Colorado</a>,
             where he has taught since 1998. He has published three single-author scholarly books
           (including <em><a href="http://www.amazon.com/Ethical-Intuitionism-Michael-Huemer/dp/0230573746" class="link-primary">Ethical Intuitionism</a></em>),
           one edited anthology, and more than fifty academic articles in  epistemology, ethics, political philosophy, and metaphysics.
           </p>
           <p>
-          Huemer's articles have appeared in such journals as the <em>Philosophical Review</em>, <em>Mind</em>, the <em>Journal of Philosophy</em>, <em>Ethics</em>, and others.
+          {{page.team.michael.parag2}}Huemer's articles have appeared in such journals as the <em>Philosophical Review</em>, <em>Mind</em>, the <em>Journal of Philosophy</em>, <em>Ethics</em>, and others.
           His materials are used as readings in classrooms nationwide. He received a B.A. from UC Berkeley and a Ph.D. from Rutgers University.
           </p>
         </div>
