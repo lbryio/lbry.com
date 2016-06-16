@@ -160,6 +160,25 @@
       </div>
       <div class="span6">
         <div class="photo-container">
+          <img src="/img/reilly-smith-644x450.jpg" alt="Reilly Smith"/>
+        </div>
+        <div>
+          <h4>Reilly Smith <a href="mailto:reilly@lbry.io" class="link-primary"><span class="icon icon-envelope"></span></a></h4>
+          <div class="meta  spacer1">Curator</div>
+          <p>
+          Reilly Smith serves as the in-house Curator and content liaison for LBRY. 
+          He has worked in the entertainment industry since 2010, having produced two indie two feature films and various short content. His films have shown at Sundance, SXSW, Dallas IFF, and LA Film Fest and he has produced series for Zero Day Fox and Disney.
+          </p>
+          <p>
+          Reilly holds a BA in Film and Media Studies from the University of Oklahoma.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row-fluid">
+      <div class="span3"></div>
+      <div class="span6">
+        <div class="photo-container">
           <img src="/img/spooner-644x450.jpg" alt="you!"/>
         </div>
         <div>
