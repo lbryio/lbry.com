@@ -1,4 +1,4 @@
-<?php Response::setMetaDescription('Access information and content in ways you never dreamed possible. Earn credits for your unused bandwidth and diskspace.') ?>
+<?php Response::setMetaDescription('description.what') ?>
 <?php NavActions::setNavUri('/learn') ?>
 <?php echo View::render('nav/header', ['isDark' => true, 'isAbsolute' => true]) ?>
 <main>

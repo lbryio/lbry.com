@@ -1,11 +1,65 @@
 global:
   tagline: Play, Share, Earn.
   sentence: Watch, read and play in a decentralized digital library controlled by the community.
+title:
+  home: LBRY - Watch, Share, Earn
+description:
+  home: Meet LBRY, a content sharing and publishing platform that is decentralized and owned by its users.
+  faq: Frequently asked questions about LBRY.
+  news: Access information and content in ways you never dreamed possible. Earn credits for your unused bandwidth and diskspace.
+  what: Access information and content in ways you never dreamed possible. Earn credits for your unused bandwidth and diskspace.
+  team: LBRY is founded by a team passionate about connecting producers and consumers and breaking down broken models. Learn more about them.
 email:
   disclaimer: You will receive 1-2 messages a month, only from LBRY, Inc. and only about LBRY. You can easily unsubscribe at any time.
 page:
   home:
     primary_button: Get LBRY
+    learn_button: Learn More
+  faq:
+    header: Frequently Asked Questions
+  team:
+    header: The Team
+    people: LBRY is made possible by more people than we could ever list here. The founding team is listed below.
+    jeremy:
+      title: Founder, Chief Executive Officer
+      parag1: Jeremy knows how to build and scale a startup starting from day one. He knows how to deliver usable products and get those products in front of the right people.
+      parag2: Jeremy is responsible for the packing, presentation, and strategy of LBRY, as well as some design aspects. He is a longtime BitTorrent community enthusiast.
+      parag3: Jeremy founded <a href="//usetopscore.com" class="link-primary">TopScore</a>, a startup that processes millions of dollars monthly in event and activity registrations. He also attended <a href="//rpi.edu" class="link-primary">Rensselaer Polytechnic Institute</a>, where he received degrees in physics and computer science.
+    zargham:
+      title: Founder, Chief Technical Officer
+      parag1: Michael has spent years managing, designing, and overseeing a data science team and framework used to make multi-million dollar purchasing decisions for a large media company. He brings knowledge of the media distribution business, software development expertise, business development experience, technical skill and a network of corporate contacts.
+      parag2: Michael’s ability to rapidly adapt new skill sets makes him a technical and business pocketknife of our startup team. He has a PhD in systems engineering from the University of Pennsylvania, with a focus on distributed systems.
+    josh:
+      title: Founder, Chief Operations & Growth Officer
+      parag1: Josh's combination of an MBA, strong analytical skills, programming skills, advertising expertise, and a perceptive insight to financial markets lead him to frequently bear the only title that can summarize such diverse wizardry () problem solver.
+      parag2: Josh has founded innovative financial companies (later acquired), run millions of dollars in Adwords campaigns, and been an early actor in other crypto projects. Josh's contributions to LBRY will be as diverse as his background.
+    jimmy:
+      title: Founder, Chief Product Officer
+      parag1: Jimmy is the second member of team LBRY to graduate from Rensselaer with degrees in computer science and physics. After, he found himself mired in government bureaucracy, spending too much time to get too little done.
+      parag2: Ready to work on a project he believed in, Jimmy left a national security programming job to start LBRY. Jimmy created the LBRY protocol and the first LBRY application.
+      parag3: Jimmy is a Bitcoin fanatic and has been since its early days. He has long been interested in the benefits of decentralization.
+    mike:
+      title: Founder, Evangelist
+      parag1: With a humble BA in Philosophy from <a href="http://tulane.edu/" class="link-primary">Tulane University</a>, Mike has built a successful financial services marketing company, <a href="http://www.centinel.net/" class="link-primary">Centinel Consulting</a>. Centinel has helped clients grow from close to nothing to hundreds of thousands of visitors. He manages email marketing lists and social media accounts of the same size.
+      parag2: Mike has been involved with the Bitcoin community since the early days. His friends have launched companies like <a class="link-primary" href="//lamassu.is">Lamassu BTM</a>, <a class="link-primary" href="//coinapult.com">Coinapult</a>, <a class="link-primary" href="//shapeshift.io">Shapeshift</a>. Now, he's ready to change the world by harnessing blockchain technology. Mike heads up LBRY’s marketing efforts and serves as an ambassador for our platform to media, investors, and the public.
+    grin:
+      title: Founder, Chief Infrastructure Officer
+      parag1: One of Alex's job titles is Wizard, so named because he can seemingly understand and utilize new technologies faster than they can be created.
+      parag2: Alex designs and manages scalable infrastructure solutions for SaaS firms, and is leveraging that experience to ensure LBRY's architecture is rock-solid.
+      parag3: Alex is the 3rd dual-degree graduate from RPI on this team, receiving degrees in Computer Science and Psychology. He is also an alumni of Stuyvesant High School.
+    jack:
+      title: Founder, Core Developer
+      parag1: Jack's path to developer with LBRY is fairly typical() <a href="http://www.masslive.com/localbuzz/index.ssf/2009/06/actionreaction_how_one_teens_c.html" class="link-primary"> face sixty years in prison for innocent chemistry experiments</a>; lose interest in chemistry; <a href="https://www.youtube.com/watch?v=dXZi4UZjiiI&t=10" class="link-primary">program insane electric guitars for Kiss</a>; decide to revolutionize the internet.
+      parag2: Jack was one of the first people to discover LBRY and took to it so fast he may understand more about it than anyone.
+      parag3: Jack has Asperger's Syndrome and is actively involved in the autism community. He was a regular on Wrong Planet's Autism Talk TV, has appeared on <em>National Public Radio</em>, the <em>New York Times</em>, and presents around the country.
+    you:
+      header: You
+      title: Developer, Designer, Economist, Marketer, Investor, ???
+      parag1: Do you think opening up information would facilitate human flourishing? Do you want to join a bright core of people with an obsession for upending broken systems? <a href="mailto:jeremy@lbry.io" class="link-primary">Say hello.</a>
+    advisory: Advisory Team
+    
+social:
+    tweets: Tweets by @LBRYio
 download:
   main:
     title: LBRY for %os%

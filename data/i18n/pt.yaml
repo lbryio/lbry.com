@@ -1,8 +1,24 @@
 global:
   tagline: Assista, Compartilhe, Ganhe.
   sentence: Acesse vídeo, texto e música numa biblioteca digital descentralizada e controlada pela comunidade.
+title:
+  home: LBRY - Assista, Compartilhe, Ganhe
+description:
+  home: Conheça o LBRY - a plataforma de publicação e compartilhamento de conteúdo descentralizada e controlada pelos usuários.
+  faq: Perguntas frequentes sobre o LBRY.
+  news: Acesse informação e conteúdo de maneiras que você nunca imaginou. Ganhe créditos pela conexão e espaço em disco que você não usa.
+  what: Acesse informação e conteúdo de maneiras que você nunca imaginou. Ganhe créditos pela conexão e espaço em disco que você não usa.
+  team: O LBRY foi fundado por uma equipe apaixonada por conectar produtores e consumidores e acabar com sistemas disfuncionais. Saiba mais sobre eles.
 email:
   disclaimer: Você receberá 1 ou 2 mensagens por mês, enviadas somente pela LBRY Inc. e somente sobre o LBRY. É fácil cancelar sua assinatura a qualquer momento.
+page:
+  home:
+    primary_button: Baixe o LBRY
+    learn_button: Saiba Mais
+  faq:
+    header: Perguntas Frequentes (FAQ)
+social:
+    tweets: Tweets de @LBRYio (em inglês)
 download:
   main:
     title: LBRY para %os%

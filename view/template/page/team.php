@@ -1,11 +1,11 @@
 <?php NavActions::setNavUri('/learn') ?>
 <?php Response::setMetaImage('https://lbry.io/img/cover-team.jpg') ?>
-<?php Response::setMetaDescription('LBRY is founded by a team passionate about connecting producers and consumers and breaking down broken models. Learn more about them.') ?>
+<?php Response::setMetaDescription('description.team') ?>
 <?php echo View::render('nav/header', ['isDark' => false]) ?>
 <main>
   <div class="content photo-grid spacer2">
-    <h1>The Team</h1>
-    <p>LBRY is made possible by more people than we could ever list here. The founding team is listed below.</p>
+    <h1>{{page.team.header}}</h1>
+    <p>{{page.team.people}}</p>
     <div class="row-fluid">
       <div class="span6 spacer2">
         <div class="photo-container">
@@ -13,17 +13,15 @@
         </div>
         <div>
           <h4>Jeremy Kauffman <a href="mailto:jeremy@lbry.io" class="link-primary"><span class="icon icon-envelope"></span></a></h4>
-          <div class="meta  spacer1">Founder, Chief Executive Officer</div>
+          <div class="meta  spacer1">{{page.team.jeremy.title}}</div>
           <p>
-            Jeremy knows how to build and scale a startup starting from day one. He knows how to deliver usable products and get those products in front of the right people.
+            {{page.team.jeremy.parag1}}
           </p>
           <p>
-            Jeremy is responsible for the packing, presentation, and strategy of LBRY, as well as some design aspects. He is a longtime BitTorrent community enthusiast.
+            {{page.team.jeremy.parag2}}
           </p>
           <p>
-            Jeremy founded <a href="//usetopscore.com" class="link-primary">TopScore</a>, a startup that
-            processes millions of dollars monthly in event and activity registrations.
-            He also attended <a href="//rpi.edu" class="link-primary">Rensselaer Polytechnic Institute</a>, where he received degrees in physics and computer science.
+            {{page.team.jeremy.parag3}}
           </p>
         </div>
       </div>
@@ -33,15 +31,12 @@
         </div>
         <div>
           <h4>Michael Zargham <a href="mailto:zargham@lbry.io" class="link-primary"><span class="icon icon-envelope"></span></a></h4>
-          <div class="meta  spacer1">Founder, Chief Technical Officer</div>
+          <div class="meta  spacer1">{{page.team.zargham.title}}</div>
           <p>
-           Michael has spent years managing, designing, and overseeing a data science team and framework used to make multi-million dollar
-           purchasing decisions for a large media company. He brings knowledge of the media distribution business, software development
-           expertise, business development experience, technical skill and a network of corporate contacts.
+           {{page.team.zargham.parag1}}
           </p>
           <p>
-            Michael’s ability to rapidly adapt new skill sets makes him a technical and business pocketknife of our startup team. He has a
-            PhD in systems engineering from the University of Pennsylvania, with a focus on distributed systems.
+            {{page.team.zargham.parag2}}
           </p>
         </div>
       </div>
@@ -53,13 +48,11 @@
         </div>
         <div>
           <h4>Josh Finer <a href="mailto:josh@lbry.io" class="link-primary"><span class="icon icon-envelope"></span></a></h4>
-          <div class="meta  spacer1">Founder, Chief Operations & Growth Officer</div>
+          <div class="meta  spacer1">{{page.team.josh.title}}</div>
           <p>
-            Josh's combination of an MBA, strong analytical skills, programming skills, advertising expertise, and a perceptive insight to
-            financial markets lead him to frequently bear the only title that can summarize such diverse wizardry: problem solver.
+            {{page.team.josh.parag1}}
           <p>
-            Josh has founded innovative financial companies (later acquired), run millions of dollars in Adwords campaigns, and been an early
-            actor in other crypto projects. Josh's contributions to LBRY will be as diverse as his background.
+            {{page.team.josh.parag2}}
           </p>
          </div>
       </div>
@@ -72,17 +65,15 @@
             Jimmy Kiselak
             <a href="mailto:jimmy@lbry.io" class="link-primary"><span class="icon icon-envelope"></span></a>
           </h4>
-          <div class="meta spacer1">Founder, Chief Product Officer</div>
+          <div class="meta spacer1">{{page.team.jimmy.title}}</div>
           <p>
-            Jimmy is the second member of team LBRY to graduate from Rensselaer with degrees in computer science and physics.
-            After, he found himself mired in government bureaucracy, spending too much time to get too little done.
+            {{page.team.jimmy.parag1}}
           </p>
           <p>
-            Ready to work on a project he believed in, Jimmy left a national security programming job to start LBRY.
-            Jimmy created the LBRY protocol and the first LBRY application.
+            {{page.team.jimmy.parag2}}
           </p>
           <p>
-            Jimmy is a Bitcoin fanatic and has been since its early days. He has long been interested in the benefits of decentralization.
+            {{page.team.jimmy.parag3}}
           </p>
         </div>
       </div>
@@ -94,20 +85,12 @@
         </div>
         <div>
           <h4>Mike Vine <a href="mailto:mike@lbry.io" class="link-primary"><span class="icon icon-envelope"></span></a></h4>
-          <div class="meta  spacer1">Founder, Evangelist</div>
+          <div class="meta  spacer1">{{page.team.mike.title}}</div>
           <p>
-            With a humble BA in Philosophy from <a href="http://tulane.edu/" class="link-primary">Tulane University</a>, Mike has
-            built a successful financial services marketing company, <a href="http://www.centinel.net/" class="link-primary">Centinel Consulting</a>.
-            Centinel has helped clients grow from close to nothing to hundreds of thousands of visitors. He manages
-            email marketing lists and social media accounts of the same size.
+            {{page.team.mike.parag1}}
           </p>
           <p>
-            Mike has been involved with the Bitcoin community since the early days. His friends have launched companies like
-            <a class="link-primary" href="//lamassu.is">Lamassu BTM</a>,
-            <a class="link-primary" href="//coinapult.com">Coinapult</a>,
-            <a class="link-primary" href="//shapeshift.io">Shapeshift</a>.
-            Now, he's ready to change the world by harnessing blockchain technology.
-            Mike heads up LBRY’s marketing efforts and serves as an ambassador for our platform to media, investors, and the public.
+            {{page.team.mike.parag2}}
           </p>
         </div>
       </div>
@@ -117,17 +100,14 @@
         </div>
         <div>
           <h4>Alex Grin <a href="mailto:grin@lbry.io" class="link-primary"><span class="icon icon-envelope"></span></a></h4>
-          <div class="meta  spacer1">Founder, Chief Infrastructure Officer</div>
+          <div class="meta  spacer1">{{page.team.grin.title}}</div>
           <p>
-            One of Alex's job titles is Wizard, so named because he can seemingly understand and utilize
-            new technologies faster than they can be created.
+            {{page.team.grin.parag1}}
           </p>
           <p>
-            Alex designs and manages scalable infrastructure solutions for SaaS firms, and is
-            leveraging that experience to ensure LBRY's architecture is rock-solid.
+            {{page.team.grin.parag2}}
           <p>
-            Alex is the 3rd dual-degree graduate from RPI on this team, receiving degrees in
-            Computer Science and Psychology. He is also an alumni of Stuyvesant High School.
+            {{page.team.grin.parag3}}
           </p>
         </div>
       </div>
@@ -140,21 +120,14 @@
         </div>
         <div>
           <h4>Jack Robison <a href="mailto:jack@lbry.io" class="link-primary"><span class="icon icon-envelope"></span></a></h4>
-          <div class="meta  spacer1">Founder, Core Developer</div>
+          <div class="meta  spacer1">{{page.team.jack.title}}</div>
           <p>
-            Jack's path to developer with LBRY is fairly typical:
-            <a href="http://www.masslive.com/localbuzz/index.ssf/2009/06/actionreaction_how_one_teens_c.html" class="link-primary">
-              face sixty years in prison for innocent chemistry experiments</a>; lose interest in chemistry;
-            <a href="https://www.youtube.com/watch?v=dXZi4UZjiiI&t=10" class="link-primary">program insane electric guitars for Kiss</a>;
-            decide to revolutionize the internet.
+            {{page.team.jack.parag1}}
           </p>
           <p>
-            Jack was one of the first people to discover LBRY and took to it so fast he may understand more
-            about it than anyone.
+            {{page.team.jack.parag2}}
           <p>
-            Jack has Asperger's Syndrome and is actively involved in the autism community. He was a regular on Wrong Planet's
-            Autism Talk TV, has appeared on
-            <em>National Public Radio</em>, the <em>New York Times</em>, and presents around the country.
+            {{page.team.jack.parag3}}
           </p>
         </div>
       </div>
@@ -163,17 +136,15 @@
           <img src="/img/spooner-644x450.jpg" alt="you!"/>
         </div>
         <div>
-          <h4>You</h4>
-          <div class="meta  spacer1">Developer, Designer, Economist, Marketer, Investor, ???</div>
+          <h4>{{page.team.you.header}}</h4>
+          <div class="meta  spacer1">{{page.team.you.title}}</div>
           <p>
-            Do you think opening up information would facilitate human flourishing?
-            Do you want to join a bright core of people with an obsession for upending broken systems?
-            <a href="mailto:jeremy@lbry.io" class="link-primary">Say hello.</a>
+            {{page.team.you.parag1}}
           </p>
         </div>
       </div>
     </div>
-    <h2>Advisory Team</h2>
+    <h2>{{page.team.advisory}}</h2>
     <div class="row-fluid">
       <div class="span6 spacer2">
         <div class="photo-container">

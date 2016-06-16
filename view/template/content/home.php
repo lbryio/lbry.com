@@ -1,6 +1,6 @@
 <div class="bg-image-full" style="background-image: url(/img/cover-home2.jpg)"></div>
-<?php Response::setMetaTitle(__('LBRY - Watch, Share, Earn')) ?>
-<?php Response::setMetaDescription(__('Meet LBRY, a content sharing and publishing platform that is decentralized and owned by it\'s users.')) ?>
+<?php Response::setMetaTitle(__('title.home')) ?>
+<?php Response::setMetaDescription(__('description.home')) ?>
 <?php echo View::render('nav/header', ['isDark' => true]) ?>
 <main class="column-fluid">
   <div class="span12">
@@ -37,7 +37,7 @@
             <a href="/get" class="btn-primary">{{page.home.primary_button}}</a>
           </div>
           <div class="control-item">
-            <a href="/learn" class="btn-alt">Learn More</a>
+            <a href="/learn" class="btn-alt">{{page.home.learn_button}}</a>
           </div>
         </div>
         <div class="video" style="margin-bottom: 80px">
@@ -64,7 +64,7 @@
             </div>
           </div>
           <div class="span4 text-center">
-            <a width="300" class="twitter-timeline" href="https://twitter.com/LBRYio" data-widget-id="671104143034073088">Tweets by @LBRYio</a>
+            <a width="300" class="twitter-timeline" href="https://twitter.com/LBRYio" data-widget-id="671104143034073088">{{social.tweets}}</a>
           </div>
         </div>
       </div>
