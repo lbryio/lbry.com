@@ -127,7 +127,7 @@ class DownloadActions extends Actions
 
     foreach($releaseData['assets'] as $asset)
     {
-      if ($os == static::OS_LINUX && $asset['content_type'] == 'application/x-debian-package' ||
+      if ($os == static::OS_LINUX && in_array($asset['content_type'], ['application/x-debian-package', 'application/x-deb']) ||
           $os == static::OS_OSX && $asset['content_type'] == 'application/x-diskcopy')
       {
         return $asset['browser_download_url'];
