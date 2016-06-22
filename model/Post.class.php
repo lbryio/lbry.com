@@ -152,6 +152,11 @@ class Post
     return $this->author !== null;
   }
 
+  public function hasDate()
+  {
+    return $this->date !== null;
+  }
+
   public function getAuthorName()
   {
     switch(strtolower($this->author))

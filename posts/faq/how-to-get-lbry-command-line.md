@@ -1,19 +1,20 @@
 ---
 title: How do I get LBRY for development
-date: '2015-06-21 16:00:00'
 ---
 
-In order to run lbry from command line, you need more than the packaged app/deb.
+#### On Linux
 
-####On OS X
+LBRY is installed into `/usr/share/python/lbrynet`. The executables are in
+`/usr/share/python/lbrynet/bin`. For example, to run lbrynet-daemon, type:
 
-You can install LBRY command line by running `curl -sL https://rawgit.com/lbryio/lbry-setup/master/lbry_setup_osx.sh | sudo bash` in a terminal. This script will install lbrynet and its dependancies, as well as the app.
+    /usr/share/python/lbrynet/bin/lbry
 
-####On Linux
 
-On Ubuntu or Mint you can install the prerequisites and lbrynet by running
 
-    sudo apt-get install libgmp3-dev build-essential python2.7 python2.7-dev python-pip
-    git clone https://github.com/lbryio/lbry.git
-    cd lbry
-    sudo python setup.py install
+#### On OS X
+
+On OS X, you need more than the packaged app. You can install LBRY command line by running this in a terminal:
+
+    curl -sL https://raw.githubusercontent.com/lbryio/lbry-setup/master/lbry_setup_osx.sh | sudo bash
+
+This script will install lbrynet and its dependancies, as well as the app.

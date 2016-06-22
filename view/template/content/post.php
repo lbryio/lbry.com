@@ -9,8 +9,10 @@
       <h1><?php echo htmlentities($post->getTitle()) ?></h1>
       <div class="meta spacer1">
         <?php echo $post->getAuthorName() ?>
-        <?php echo $post->hasAuthor() ? '&bull;' : '' ?>
-        <span title="<?php echo $post->getDate()->format('F jS, Y') ?>"><?php echo $post->getDate()->format('M j') ?></span>
+        <?php echo $post->hasAuthor() && $post->hasDate() ? '&bull;' : '' ?>
+        <?php if ($post->hasDate()): ?>
+          <span title="<?php echo $post->getDate()->format('F jS, Y') ?>"><?php echo $post->getDate()->format('M j') ?></span>
+        <?php endif ?>
       </div>
     </div>
   </header>
@@ -27,10 +29,10 @@
       <div class="prev span6">
         <?php if ($prevPost = $post->getPrevPost()): ?>
           <div class="prev-next-label">
-            <a href="<?php echo $prevPost->getRelativeUrl() ?>" class="link-primary">‹ Previous</a>
+            <a href="/<?php echo $prevPost->getRelativeUrl() ?>" class="link-primary">‹ Previous</a>
           </div>
           <div class="meta">
-            <a href="<?php echo $prevPost->getRelativeUrl() ?>">
+            <a href="/<?php echo $prevPost->getRelativeUrl() ?>">
               <?php echo htmlentities($prevPost->getTitle()) ?>
             </a>
           </div>
@@ -39,10 +41,10 @@
       <div class="next span6">
         <?php if ($nextPost = $post->getNextPost()): ?>
           <div class="prev-next-label">
-            <a href="<?php echo $nextPost->getRelativeUrl() ?>"  class="link-primary">Next ›</a>
+            <a href="/<?php echo $nextPost->getRelativeUrl() ?>"  class="link-primary">Next ›</a>
           </div>
           <div class="meta">
-            <a class="prev-next-title" href="<?php echo $nextPost->getRelativeUrl() ?>">
+            <a class="prev-next-title" href="/<?php echo $nextPost->getRelativeUrl() ?>">
               <?php echo htmlentities($nextPost->getTitle()) ?>
             </a>
            </div>
