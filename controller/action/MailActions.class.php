@@ -13,11 +13,11 @@ class MailActions extends Actions
 
     if ($_SERVER['REQUEST_METHOD'] !== 'POST')
     {
-      Controller::redirect($nextUrl);
+      return Controller::redirect($nextUrl);
     }
 
     Session::set(Session::KEY_LIST_SUB_SIGNATURE, isset($_POST['listSig']) ? $_POST['listSig'] : true);
-    
+
     $email = $_POST['email'];
     if (!$email|| !filter_var($email, FILTER_VALIDATE_EMAIL))
     {
@@ -46,9 +46,9 @@ class MailActions extends Actions
       }
     }
 
-    Controller::redirect($nextUrl);
+    return Controller::redirect($nextUrl);
   }
-  
+
   public static function prepareJoinList(array $vars)
   {
     $vars['listSig'] = md5(serialize($vars));
@@ -69,7 +69,7 @@ class MailActions extends Actions
     {
       $vars['success'] = false;
     }
-    
+
     return $vars;
   }
 }
