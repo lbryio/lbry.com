@@ -1,4 +1,6 @@
-#What are the LBRY Block Rewards?
+---
+title: What are the LBRY Block Rewards?
+---
 
 ##0. Only Trust the Source
 
