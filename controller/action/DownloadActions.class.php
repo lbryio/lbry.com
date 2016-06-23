@@ -36,6 +36,8 @@ class DownloadActions extends Actions
         'os' => $os,
         'osTitle' => $osTitle,
         'osIcon' => $osIcon,
+        'hasMatchingInvite' => isset($_POST['invite']) && preg_match('/^(pfa|pfb).*$/', $_POST['invite']),
+        'hasInvite' => isset($_POST['invite']) && $_POST['invite'],
         'downloadHtml' => View::exists('download/' . $partial) ?
             View::render('download/' . $partial, ['downloadUrl' => static::getDownloadUrl($os)]) :
             false

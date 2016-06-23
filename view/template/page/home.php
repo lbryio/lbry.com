@@ -36,14 +36,14 @@
  */ ?>
         <div class="control-group spacer2 text-center">
           <div class="control-item">
-            <a href="/get" class="btn-primary">Get LBRY</a>
+            <a href="/get" class="btn-primary">Early Access (invite code reqired)</a>
           </div>
           <div class="control-item">
             <a href="/learn" class="btn-alt">Learn More</a>
           </div>
         </div>
         <div class="video" style="margin-bottom: 80px">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/BNtivEJKHxI" frameborder="0" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/qkUA0vTWM7g" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
       <div class="content content-dark">

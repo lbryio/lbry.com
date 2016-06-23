@@ -5,7 +5,7 @@
   <main class="column-fluid ">
     <div class="span6">
       <div class="cover cover-light content">
-        <h1 style="max-width: 660px; margin-left: auto; margin-right: auto">LBRY in 60 Seconds</h1>
+        <h1 style="max-width: 660px; margin-left: auto; margin-right: auto">LBRY in 100 Seconds</h1>
         <?php echo View::render('download/_videoIntro') ?>
       </div>
     </div>

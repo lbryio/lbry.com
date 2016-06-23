@@ -7,8 +7,8 @@ label[for]
   cursor: pointer;
 }
 
-input[type="email"], input[type="text"] 
-{    
+input[type="email"], input[type="text"]
+{
   border: 0 none;
   border: 1px solid rgba(160,160,160,.5);
   padding-left: 5px;
@@ -37,7 +37,7 @@ textarea
   margin-bottom: $spacing-vertical;
 }
 
-.mail-submit
+.mail-submit, .invite-submit
 {
   input
   {

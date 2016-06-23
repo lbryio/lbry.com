@@ -6,12 +6,27 @@
   <div class="span7">
     <div class="cover cover-dark cover-dark-grad content content-stretch content-dark">
       <h1>LBRY for <?php echo $osTitle ?> <span class="<?php echo $osIcon ?>"></span></h1>
-      <?php if ($downloadHtml): ?>
-        <?php echo View::render('download/_betaNotice') ?>
-        <?php echo $downloadHtml ?>
-        <?php echo View::render('download/_reward') ?>
+      <?php if (!$hasMatchingInvite): ?>
+        <?php if ($hasInvite): ?>
+          <div class="notice notice-error spacer1">Please enter a valid code.</div>
+        <?php endif ?>
+        <p>LBRY is currently in invite only mode. Enter your code below for access:</p>
+        <form method="POST" action="/get">
+          <div class="invite-submit">
+            <input type="text" value="" name="invite" class="required standard" placeholder="abc123">
+            <input type="submit" value="Access LBRY" name="subscribe" class="btn-alt">
+          </div>
+        </form>
       <?php else: ?>
-        <?php echo View::render('download/_unavailable') ?>
+        <p>Your code does not grant access until July 4th, 2016. Enter your email address below for a reminder.</p>
+        <?php echo View::render('mail/joinList', [
+          'submitLabel' => 'Go',
+          'returnUrl' => '/get',
+          'meta' => true,
+          'btnClass' => 'btn-alt',
+          'listId' => Mailchimp::LIST_GENERAL_ID,
+          'mergeFields' => ['CLI' => 'No'],
+        ]) ?>
       <?php endif ?>
     </div>
   </div>
