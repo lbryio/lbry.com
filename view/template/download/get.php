@@ -6,7 +6,7 @@
   <div class="span7">
     <div class="cover cover-dark cover-dark-grad content content-stretch content-dark">
       <h1>LBRY for <?php echo $osTitle ?> <span class="<?php echo $osIcon ?>"></span></h1>
-      <?php if (!$hasMatchingInvite): ?>
+      <?php if (!$hasMatchingInvite && !Session::get(Session::KEY_LIST_SUB_SUCCESS)): ?>
         <?php if ($hasInvite): ?>
           <div class="notice notice-error spacer1">Please enter a valid code.</div>
         <?php endif ?>
