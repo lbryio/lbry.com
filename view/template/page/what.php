@@ -175,7 +175,7 @@
       <p>Additionally, some credits are awarded on a fixed basis. The total break down looks like this:</p>
 
       <ul>
-        <li>10% for organizations, charities, and other strategic partners. Organizations the EFF, ACLU, and others that have fought for digital rights and the security and freedom of the internet.</li>
+        <li>10% for organizations, charities, and other strategic partners. Organizations like the EFF, ACLU, and others that have fought for digital rights and the security and freedom of the internet.</li>
         <li>20% for adoption programs. We’ll be giving out lots of bonus credits, especially in the early days of LBRY, in order to encourage participation. We will also look to award credits broadly, ensuring the marketplace is egalitarian.</li>
         <li>10% for us. For operational costs as well as profit.</li>
         <li>60% earned by LBRY users, via mining the LBRY cryptocurrency.</li>
