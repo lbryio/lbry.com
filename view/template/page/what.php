@@ -169,7 +169,7 @@
       <p>Essentially, rather than issue a transaction to the core blockchain, transactions are issued to a 3rd-party provider. These providers have a substantial number of coins which are used to maintain balances internally and settle a smaller number of transactions to the core chain. In exchange, these providers earn a small fee, less than the fee required to issue the transaction directly to the blockchain.</p>
     </section>
     <section>
-      <h2>LBRY Credits</h2>
+      <h2 id="credits">LBRY Credits</h2>
       <p>LBRY Credits, or <em>LBC</em>, are the unit of account for LBRY. Eventually 1,000,000,000 LBC will exist, according to a defined schedule over 20 years. The schedule decays exponentially, with around 100,000,000 in the first year.</p>
 
       <p>Additionally, some credits are awarded on a fixed basis. The total break down looks like this:</p>
@@ -182,7 +182,7 @@
       </ul>
     </section>
     <section>
-      <h2>More on Naming</h2>
+      <h2 id="naming">More on Naming</h2>
       <p>LBRY names are one of the most unique aspects of LBRY and one that we believe will play a big role in helping it succeed.</p>
 
       <p>Control of a LBRY name is awarded via a <em>continuous running auction </em>in LBC. Bids are entered into a <em>trustless escrow</em>, marking the credits as unspendable, but leaving them intact. When a user looks up a name, the name resolves to the largest bid made by a party or parties. The ability for any number of people to have a say in where a name resolves is part of what makes LBRY a system controlled by its users. As the credits are distributed primarily among users and producers, it is community itself that has ultimate controls over the catalogue of what is available.</p>
@@ -214,7 +214,7 @@
       <p>And of course, let’s not forget that LBRY users are still subject to the DMCA and other laws governing intellectual property. Users who publishing infringing content are still subject to penalties for doing so in exactly the same way they would be via BitTorrent. LBRY only adds to the suite of options available. This makes LBRY a strict improvement over BitTorrent with regards to illegal usages, which provides none of the mechanisms listed.</p>
     </section>
     <section>
-      <h2>Our Values</h2>
+      <h2 id="values">Our Values</h2>
       <p>We want to be the first digital content marketplace to:</p>
 
       <ol>
@@ -231,7 +231,7 @@
       </ol>
     </section>
     <section>
-      <h2>TL;DR</h2>
+      <h2 id="tldr">TL;DR</h2>
       <p>Digital art is one of the first goods to evolve beyond scarcity. This evolution is changing the way content is discovered, publicized, paid for and delivered. Heretofore, the lack of transparency and monetization mechanisms in peer-to-peer sharing networks has largely enabled piracy. By equipping a peer-to-peer protocol with a digital currency and transparent decentralized ledger, the LBRY protocol opens the door to a new era of digital content distribution making peer-to-peer content distribution suitable for major publishing housing, self-publishers and everyone in between.</p>
 
       <p>If LBRY succeeds, we will enter a world that is even more creative, connected, and conservatory. We will waste less and we make more. We will create a world where a teenager in Kenya and a reality star in Los Angeles use the same tool to search the same network and have access to the same results -- a world where information, knowledge, and imagination know no borders. </p>
