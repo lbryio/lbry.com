@@ -13,7 +13,7 @@ LBRY binaries are out for OS X and Ubuntu. Others may try compiling from source.
 
 ## Mining on macOS
 
-1. `wget https://s3.amazonaws.com/files.lbry.io/osxbins.zip``
+1. `wget https://s3.amazonaws.com/files.lbry.io/osxbins.zip`
 1. `unzip bins.zip`
 1. `mkdir ~/Library/Application\ Support/lbrycrd`
 1. `sudo chown -R "$(whoami)" ~/Library/Application\ Support/lbrycrd`
