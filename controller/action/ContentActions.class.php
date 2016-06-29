@@ -75,7 +75,11 @@ class ContentActions extends Actions
     $zip = new ZipArchive();
     $zip->open($zipPath, ZipArchive::OVERWRITE);
 
-    $zip->addFile(ROOT_DIR . '/posts/press.md', 'intro.txt');
+    //file_get_contents fails on servers without proper SSL, so use live site always for now
+    $html = file_get_contents('https://lbry.io/press-kit');
+//    $html = file_get_contents('https://' . $_SERVER['HTTP_HOST'] . '/press-kit'));
+
+    $zip->addFromString('press.html', $html);
 
     foreach(glob(ROOT_DIR . '/web/img/press/*') as $productImgPath)
     {
@@ -86,7 +90,7 @@ class ContentActions extends Actions
 
     foreach(glob(ROOT_DIR . '/posts/bio/*.md') as $bioPath)
     {
-      list($metadata, $bioHtml) = static::parseMarkdown($bioPath);
+      list($metadata, $bioHtml) = View::parseMarkdown($bioPath);
       $zip->addFile($bioPath, '/team_bios/' . $metadata['name'] . ' - ' . $metadata['role'] . '.txt');
     }
 
@@ -113,19 +117,11 @@ class ContentActions extends Actions
     ]];
   }
 
-  protected static function parseMarkdown($path)
-  {
-    list($ignored, $frontMatter, $markdown) = explode('---', file_get_contents($path), 3);
-    $metadata = Spyc::YAMLLoadString(trim($frontMatter));
-    $html = ParsedownExtra::instance()->text(trim($markdown));
-    return [$metadata, $html];
-  }
-
   public static function prepareBioPartial(array $vars)
   {
     $person = $vars['person'];
-    $path = ROOT_DIR . '/posts/bio/' . $person . '.md';
-    list($metadata, $bioHtml) = static::parseMarkdown($path);
+    $path = 'bio/' . $person . '.md';
+    list($metadata, $bioHtml) = View::parseMarkdown($path);
     return $metadata + [
       'imgSrc' => '/img/team/' . $person . '-644x450.jpg',
       'bioHtml' => $bioHtml,

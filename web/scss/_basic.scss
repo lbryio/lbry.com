@@ -78,7 +78,7 @@ section
 .align-left { float: left; }
 .align-right { float: right; }
 
-.link-primary, .markdown a[href]
+.link-primary, .markdown a[href]:not([class])
 {
   @include anchor($color-primary);
 }
