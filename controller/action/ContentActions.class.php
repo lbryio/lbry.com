@@ -75,9 +75,20 @@ class ContentActions extends Actions
     $zip = new ZipArchive();
     $zip->open($zipPath, ZipArchive::OVERWRITE);
 
-    //file_get_contents fails on servers without proper SSL, so use live site always for now
-    $html = file_get_contents('https://lbry.io/press-kit');
-//    $html = file_get_contents('https://' . $_SERVER['HTTP_HOST'] . '/press-kit'));
+    $pageHtml = View::render('page/press-kit', ['showHeader' => false]);
+    $html = <<<EOD
+<!DOCTYPE html>
+<html>
+    <head prefix="og: http://ogp.me/ns#">
+        <title>LBRY Press Kit</title>
+        <link href='https://fonts.googleapis.com/css?family=Raleway:300,300italic,400,400italic,700' rel='stylesheet' type='text/css'>
+        <link href="https://lbry.io/css/all.css" rel="stylesheet" type="text/css" media="screen,print" />
+    </head>
+    <body>
+      $pageHtml
+    </body>
+</html>
+EOD;
 
     $zip->addFromString('press.html', $html);
 

@@ -1,6 +1,8 @@
-<?php Response::setMetaDescription('LBRY Press Kit. Information and media for those who want to report on LBRY.') ?>
-<?php NavActions::setNavUri('/learn') ?>
-<?php echo View::render('nav/header', ['isDark' => false]) ?>
+<?php if (!isset($showHeader) || $showHeader): ?>
+  <?php Response::setMetaDescription('LBRY Press Kit. Information and media for those who want to report on LBRY.') ?>
+  <?php NavActions::setNavUri('/learn') ?>
+  <?php echo View::render('nav/header', ['isDark' => false]) ?>
+<?php endif ?>
 <main>
   <div class="content content-light markdown">
     <h1>LBRY Press Kit</h1>

@@ -139,7 +139,7 @@ class Controller
         unset($headers[static::HEADER_STATUS]);
       }
     }
-
+    
     foreach($headers as $name => $value)
     {
       header($name . ': ' . $value);
