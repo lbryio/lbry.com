@@ -75,22 +75,22 @@ class ContentActions extends Actions
     $zip = new ZipArchive();
     $zip->open($zipPath, ZipArchive::OVERWRITE);
 
-    $pageHtml = View::render('page/press-kit', ['showHeader' => false]);
-    $html = <<<EOD
-<!DOCTYPE html>
-<html>
-    <head prefix="og: http://ogp.me/ns#">
-        <title>LBRY Press Kit</title>
-        <link href='https://fonts.googleapis.com/css?family=Raleway:300,300italic,400,400italic,700' rel='stylesheet' type='text/css'>
-        <link href="https://lbry.io/css/all.css" rel="stylesheet" type="text/css" media="screen,print" />
-    </head>
-    <body>
-      $pageHtml
-    </body>
-</html>
-EOD;
-
-    $zip->addFromString('press.html', $html);
+//    $pageHtml = View::render('page/press-kit', ['showHeader' => false]);
+//    $html = <<<EOD
+//<!DOCTYPE html>
+//<html>
+//    <head prefix="og: http://ogp.me/ns#">
+//        <title>LBRY Press Kit</title>
+//        <link href='https://fonts.googleapis.com/css?family=Raleway:300,300italic,400,400italic,700' rel='stylesheet' type='text/css'>
+//        <link href="https://lbry.io/css/all.css" rel="stylesheet" type="text/css" media="screen,print" />
+//    </head>
+//    <body>
+//      $pageHtml
+//    </body>
+//</html>
+//EOD;
+//
+//    $zip->addFromString('press.html', $html);
 
     foreach(glob(ROOT_DIR . '/web/img/press/*') as $productImgPath)
     {

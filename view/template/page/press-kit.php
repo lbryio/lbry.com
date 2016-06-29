@@ -10,8 +10,11 @@
       Information and media for those who want to write or report on LBRY.
       Any information or media on this page or in our kit can be re-used or otherwise published without attribution.
     </p>
-    <h3>Download Kit</h3>
+    <h3>Download Media Archive</h3>
+    <div class="spacer-half">
     <a href="/press-kit.zip" class="btn-primary"><span class="icon icon-download"></span><span class="btn-label">Download ZIP</span></a>
+    </div>
+    <p>This archive includes all logos, screenshots, and bios, but does not include all text on this page.</p>
 
     <?php echo  View::render('press-kit.md') ?>
 

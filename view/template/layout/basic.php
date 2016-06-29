@@ -13,7 +13,7 @@
         <title><?php echo $title ?></title>
 
         <link href='https://fonts.googleapis.com/css?family=Raleway:300,300italic,400,400italic,700' rel='stylesheet' type='text/css'>
-        <link href="/css/all.css" rel="stylesheet" type="text/css" media="screen,print" />
+        <link href="/css/all.css" rel="stylesheet" type="text/css" />
         <link rel="apple-touch-icon" sizes="60x60" href="/img/fav/apple-touch-icon-60x60.png">
         <link rel="apple-touch-icon" sizes="114x114" href="/img/fav/apple-touch-icon-114x114.png">
         <link rel="apple-touch-icon" sizes="120x120" href="/img/fav/apple-touch-icon-120x120.png">
