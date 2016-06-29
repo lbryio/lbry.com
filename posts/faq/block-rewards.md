@@ -2,7 +2,7 @@
 title: What are the LBRY Block Rewards?
 ---
 
-##0. Only Trust the Source
+## 0. Only Trust the Source
 
 The source code, and not this file, is the only true definiton of the block rewards. That source file is located here:
 
@@ -12,13 +12,21 @@ But is soon to be located in [`master`]:
 
 [https://github.com/lbryio/lbrycrd/blob/master/src/main.cpp](https://github.com/lbryio/lbrycrd/blob/master/src/main.cpp#L1576)
 
-##1. Reward Schedule
+## 1. Reward Schedule
 
 Eventually 1,000,000,000 LBRY credits will exist. They are awarded on the following schedule:
 
-* The genesis block rewards 400,000,000 credits to be administered by LBRY, Inc. 300,000,000 of these will be given away to the public.
-* The remaining 600,000,000 are mined.
-* The peak block is block is block 55001, at 500 credits. Block 55001 will likely hit 2-3 months after launch.
-* Blocks past 55001 descend logarithmically, lasting approximately 20 years. 
-* Blocks 0-5000 are 1 credit. Blocks 5001 to 550001 ramp up linearly to 500.
-* Block rewards ramp up slowly because we do not want to unfairly benefit early and to ensure users are given some time to get LBRY up and running.
+* The genesis block creates 400,000,000 credits to be administered by LBRY, Inc. 300,000,000 of these will be given away to the public.
+
+* The remaining 600,000,000 are mined in 3 stages:
+
+  1. The first stage goes lasts block 1 to block 5100, and will take roughly 9 days. Every block in this stage has a reward of 1 credit. This
+     is the testing stage, to ensure that there are no glaring problems with the blockchain.
+
+  2. The second stage is the ramp-up. It goes from block 5101 to block 55000 (roughly 3 months of mining). During this stage, the block reward
+     increases linearly from 2 to 500. 500 is the largest block reward available.
+
+  3. The final stage is the "normal" mining stage. From block 55001 onward, the block reward decreases logarithmically over the course of 20
+     years.
+
+* Block rewards ramp up slowly because we want to ensure that users are given some time to get LBRY up and running, and to avoid unfairly benefit the earliest users.
