@@ -201,11 +201,11 @@ class Post
     switch(strtolower($this->author))
     {
       case 'jeremy':
-        return 'jeremy-644x450.jpg';
+        return 'jeremy-kauffman-644x450.jpg';
       case 'mike':
-        return 'mike-644x450.jpg';
+        return 'mike-vine-644x450.jpg';
       case 'jimmy':
-        return 'jimmy-644x450.jpg';
+        return 'jimmy-kiselak-644x450.jpg';
       case 'jack':
         return 'jack-robison-644x450.jpg';
       case 'lbry':

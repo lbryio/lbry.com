@@ -62,6 +62,8 @@ class Controller
         return OpsActions::executeLogUpload();
       case '/list-subscribe':
         return MailActions::executeListSubscribe();
+      case '/press-kit.zip':
+        return ContentActions::executePressKit();
       case '/LBRY-deck.pdf':
         return static::redirect('https://s3.amazonaws.com/files.lbry.io/LBRY-deck.pdf', 307);
       case '/dl/lbry_setup.sh':

@@ -2,7 +2,7 @@
   <div class="content content-dark">
     <div class="row-fluid">
       <div class="span3">
-        <img src="/img/<?php echo $photoImgSrc ?>" alt="<?php echo __('Photo of %name%', ['%name%' => $authorName]) ?>"/>
+        <img src="/img/team/<?php echo $photoImgSrc ?>" alt="<?php echo __('Photo of %name%', ['%name%' => $authorName]) ?>"/>
       </div>
       <div class="span9">
         <div class="meta">Author</div>

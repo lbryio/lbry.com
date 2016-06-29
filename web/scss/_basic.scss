@@ -78,7 +78,7 @@ section
 .align-left { float: left; }
 .align-right { float: right; }
 
-.link-primary
+.link-primary, .markdown a[href]
 {
   @include anchor($color-primary);
 }
@@ -120,7 +120,10 @@ a:hover img
   text-decoration: none;
   border: 0 none;
   text-align: center;
-
+  > .icon + .btn-label
+  {
+    margin-left: 8px;
+  }
 }
 .btn-primary
 {
