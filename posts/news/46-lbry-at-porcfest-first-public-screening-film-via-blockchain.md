@@ -10,7 +10,7 @@ LBRY took its blockchain out for a test run at [PorcFest XIII](http://porcfest.c
 
 The majority of the [LBRY team](https://lbry.io/team) attended PorcFest, which was the perfect event to spread the word of our platform. 
 
-<p style="text-align: center;">![Jeremy speaking at PorcFest XIII](/web/img/lbryatpf.jpg)</p>
+![Jeremy speaking at PorcFest XIII](/web/img/lbryatpf.jpg)
 
 In fact, this year’s PorcFest was touted as “[Bitcoin Heaven on Earth](http://cointelegraph.com/news/bitcoin-heaven-on-earth-13th-annual-porcupine-freedom-festival-in-lancaster-new-hampshire)”, and we can’t argue with that. Some of us didn’t spend a single cent of fiat money the whole week, and the crowds were more than receptive to the concept of a decentralized, blockchain-based content distribution network. Matt Welch, editor at large for Reason, told CoinTelegraph:
 
@@ -23,6 +23,8 @@ In addition to the screening, Jeremy delivered a well-attended talk entitled, �
 Want to know more about the excellent films having their blockchain premiere on LBRY? Well, join our mailing list with the form below and keep an eye on your inbox this holiday weekend for a BIG announcement. Got your fireworks ready?
 
 If the suspense is killing you, then go ahead and start mining LBRY credits (LBC) today! Our blockchain is live and LBC can be mined right now via CPU. [Learn more here](https://lbry.io/news/lbry-blockchain-live-mine-lbc-now). 
+
+**Join LBRY's Mailing List:**
 
 <form action="/list-subscribe" method="post" novalidate>
         <div class="mail-submit">
