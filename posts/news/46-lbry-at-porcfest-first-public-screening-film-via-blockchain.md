@@ -10,7 +10,7 @@ LBRY took its blockchain out for a test run at [PorcFest XIII](http://porcfest.c
 
 The majority of the [LBRY team](https://lbry.io/team) attended PorcFest, which was the perfect event to spread the word of our platform. 
 
-![Jeremy speaking at PorcFest XIII](/web/img/lbryatpf.jpg)
+![Jeremy speaking at PorcFest XIII](/img/lbryatpf.jpg)
 
 In fact, this year’s PorcFest was touted as “[Bitcoin Heaven on Earth](http://cointelegraph.com/news/bitcoin-heaven-on-earth-13th-annual-porcupine-freedom-festival-in-lancaster-new-hampshire)”, and we can’t argue with that. Some of us didn’t spend a single cent of fiat money the whole week, and the crowds were more than receptive to the concept of a decentralized, blockchain-based content distribution network. Matt Welch, editor at large for Reason, told CoinTelegraph:
 
