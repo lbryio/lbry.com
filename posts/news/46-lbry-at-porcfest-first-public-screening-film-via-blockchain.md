@@ -24,6 +24,13 @@ Want to know more about the excellent films having their blockchain premiere on 
 
 If the suspense is killing you, then go ahead and start mining LBRY credits (LBC) today! Our blockchain is live and LBC can be mined right now via CPU. [Learn more here](https://lbry.io/news/lbry-blockchain-live-mine-lbc-now). 
 
+**PorcFest Media Mentions:**
+
+Look at that! We received our first international coverage thanks to our appearance at PorcFest.
+
+* [Au festival des libertariens: revolvers, bitcoins et blockchain](http://rue89.nouvelobs.com/2016/06/27/festival-libertariens-revolvers-bitcoins-blockchains-264478), *L'Obs*, June 27th
+* [Technology and Choice #08, Porcfest Potpourri](https://letstalkbitcoin.com/blog/post/technology-and-choice-08-porcfest-potpourri), *Let's Talk Bitcoin*, June 29th
+
 **Join LBRY's Mailing List:**
 
 <form action="/list-subscribe" method="post" novalidate>
