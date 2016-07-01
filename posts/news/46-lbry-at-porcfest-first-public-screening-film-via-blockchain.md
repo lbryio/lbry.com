@@ -1,7 +1,7 @@
 ---
 author: lbry
 title: 'History Is Made - First Public Film Screenings via Blockchain at PorcFest XIII'
-date: '2016-07-01 00:09:00'
+date: '2016-06-30 00:09:00'
 ---
 
 Yes, the rumors are true. Last week, a major independent Hollywood film was publicly screened via blockchain – for the first time in history! 
