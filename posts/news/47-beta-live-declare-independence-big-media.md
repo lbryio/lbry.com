@@ -18,15 +18,15 @@ The LBRY app we're releasing today is the first of its kind – a media marketpl
 
 Indie production houses have seen the potential in LBRY. **[Oscilloscope Laboratories](http://www.oscilloscope.net/) and [Emergent Order](http://emergentorder.com/) signed on as featured content partners for today’s launch.** So right from the start, beta users will be treated to the following premium films:
 
-<p style="text-align: center;">**It’s A Disaster** 
-*lbry://itsadisaster*</p>
+**<p style="text-align: center;">It’s A Disaster</p>** 
+*<p style="text-align: center;">lbry://itsadisaster</p>*
 
 ![It’s A Disaster](/img/disaster500.png)
 
 *The sleeper hit dark comedy, starring David Cross and Julia Stiles, about four couples gathering for a regular brunch when they receive news of a disaster just outside the door. The film is considered a model of indie success.*
 
-<p style="text-align: center;">**Fight of the Century: Keynes vs. Hayek Rap Battle** 
-*lbry://keynesvhayek*</p>
+**<p style="text-align: center;">Fight of the Century: Keynes vs. Hayek Rap Battle</p>** 
+*<p style="text-align: center;">lbry://keynesvhayek</p>*
 
 ![Keynes vs. Hayek Rap Battle](/img/keyneshayek500.png)
 
