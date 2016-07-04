@@ -109,7 +109,7 @@ class View
 
   public static function getMetaImage()
   {
-    return static::$metaImg ?: '//lbry.io/img/lbry-dark-1600x528.png';
+    return static::$metaImg ?: 'https://lbry.io/img/lbry-dark-1600x528.png';
   }
 
   public static function parseMarkdown($template)
