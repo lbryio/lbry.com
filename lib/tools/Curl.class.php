@@ -51,6 +51,11 @@ class Curl
 
     $ch = curl_init();
 
+    if ($ch === false || $ch === null)
+    {
+      throw new LogicException('Unable to initialize cURL');
+    }
+
     if ($method == static::GET && $params)
     {
       $url .= (strpos($url, '?') === false ? '?' : '&') . http_build_query($params);
@@ -111,7 +116,6 @@ class Curl
       }
       return strlen($h);
     });
-
 
     $responseContent = curl_exec($ch);
 

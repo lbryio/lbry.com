@@ -76,32 +76,40 @@ class Controller
         return static::redirect('https://github.com/lbryio/lbry/releases/download/v0.2.5/lbry_0.2.5_amd64.deb', 307);
       case '/art':
         return static::redirect('/what');
-      default:
-        $newsPattern = '#^' . ContentActions::URL_NEWS . '(/|$)#';
-        if (preg_match($newsPattern, $uri))
-        {
-          $slug = preg_replace($newsPattern, '', $uri);
-          if ($slug == ContentActions::RSS_SLUG)
-          {
-            return ContentActions::executeRss();
-          }
-          return $slug ? ContentActions::executePost($uri) : ContentActions::executeNews();
-        }
-        $faqPattern = '#^' . ContentActions::URL_FAQ . '(/|$)#';
-        if (preg_match($faqPattern, $uri))
-        {
-          $slug = preg_replace($faqPattern, '', $uri);
-          return $slug ? ContentActions::executePost($uri) : ContentActions::executeFaq();
-        }
-        $noSlashUri = ltrim($uri, '/');
-        if (View::exists('page/' . $noSlashUri))
-        {
-          return ['page/' . $noSlashUri, []];
-        }
-        else
-        {
-          return ['page/404', [], [static::HEADER_STATUS => 404]];
-        }
+    }
+
+    $newsPattern = '#^' . ContentActions::URL_NEWS . '(/|$)#';
+    if (preg_match($newsPattern, $uri))
+    {
+      $slug = preg_replace($newsPattern, '', $uri);
+      if ($slug == ContentActions::RSS_SLUG)
+      {
+        return ContentActions::executeRss();
+      }
+      return $slug ? ContentActions::executePost($uri) : ContentActions::executeNews();
+    }
+
+    $faqPattern = '#^' . ContentActions::URL_FAQ . '(/|$)#';
+    if (preg_match($faqPattern, $uri))
+    {
+      $slug = preg_replace($faqPattern, '', $uri);
+      return $slug ? ContentActions::executePost($uri) : ContentActions::executeFaq();
+    }
+    $noSlashUri = ltrim($uri, '/');
+
+    $accessPattern = '#^/signup#';
+    if (preg_match($accessPattern, $uri))
+    {
+      return DownloadActions::executeSignup();
+    }
+
+    if (View::exists('page/' . $noSlashUri))
+    {
+      return ['page/' . $noSlashUri, []];
+    }
+    else
+    {
+      return ['page/404', [], [static::HEADER_STATUS => 404]];
     }
   }
 
@@ -139,7 +147,7 @@ class Controller
         unset($headers[static::HEADER_STATUS]);
       }
     }
-    
+
     foreach($headers as $name => $value)
     {
       header($name . ': ' . $value);
