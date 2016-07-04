@@ -50,7 +50,7 @@
         <li><strong>Domain names are controlled via ongoing auction</strong>. This facilitates names being controlled by the publishers that value them most. These transactions take place via an electronic currency called LBRY credits, or <em>LBC</em>. This is covered in more detail, below.</li>
       </ol>
 
-      <p>While creating a protocol that we ourselves cannot control sounds chaotic, it is actually about establishing trust. Every other publishing system requires trusting an intermediary that can unilaterally change the rules on you. What happens when you build your business on YouTube or Amazon and they change fees? Or Apple drops your content because the Premier of China thought your comedy went to far?</p>
+      <p>While creating a protocol that we ourselves cannot control sounds chaotic, it is actually about establishing trust. Every other publishing system requires trusting an intermediary that can unilaterally change the rules on you. What happens when you build your business on YouTube or Amazon and they change fees? Or Apple drops your content because the Premier of China thought your comedy went too far?</p>
 
       <p>Only LBRY consists of a known, promised set of rules that no one can unilaterally change. LBRY provides this by doing something unique: leaving the <em>users</em> in control rather than demanding that control for itself.</p>
       <footer id="note-decentralized"><sup>2</sup>If it worries you that LBRY's decentralized nature facilitates infringing or unsavory content, this is addressed in <a class="link-primary"  Cohref="#combatting-the-ugly">Combatting the Ugly</a>.</footer>
