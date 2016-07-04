@@ -1,6 +1,7 @@
 ---
 author: lbry
 title: 'LBRY Beta Goes Live! A Declaration of Independence from Big Media'
+cover: 'fireworks.jpg'
 date: '2016-07-04 00:00:01'
 ---
 
