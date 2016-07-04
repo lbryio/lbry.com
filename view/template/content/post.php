@@ -1,4 +1,5 @@
 <?php Response::setMetaDescription($post->getTitle()) ?>
+<?php Response::addMetaImages($post->getImageUrls()) ?>
 <?php NavActions::setNavUri('/news') ?>
 <?php echo View::render('nav/header') ?>
 <main>

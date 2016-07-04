@@ -1,5 +1,5 @@
 <?php NavActions::setNavUri('/learn') ?>
-<?php Response::setMetaImage('https://lbry.io/img/xkcd-comic.png') ?>
+<?php Response::addMetaImage('https://lbry.io/img/xkcd-comic.png') ?>
 <?php Response::setMetaDescription('Learn about the inspiration behind LBRY\'s revolutionary content distribution system.') ?>
 <?php echo View::render('nav/header', ['isDark' => false]) ?>
 <main>

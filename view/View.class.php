@@ -14,9 +14,6 @@ class View
 {
   const LAYOUT_PARAMS = '_layout_params';
 
-  protected static $metaDescription = '',
-                   $metaImg = '';
-
   public static function render($template, array $vars = [])
   {
     if (static::isMarkdown($template))
@@ -90,26 +87,6 @@ class View
   public static function imagePath($image)
   {
     return '/img/' . $image;
-  }
-
-  public static function setMetaDescription($description)
-  {
-    static::$metaDescription = $description;
-  }
-
-  public static function setMetaImage($url)
-  {
-    static::$metaImg = $url;
-  }
-
-  public static function getMetaDescription()
-  {
-    return static::$metaDescription ?: 'A Content Revolution';
-  }
-
-  public static function getMetaImage()
-  {
-    return static::$metaImg ?: 'https://lbry.io/img/lbry-dark-1600x528.png';
   }
 
   public static function parseMarkdown($template)

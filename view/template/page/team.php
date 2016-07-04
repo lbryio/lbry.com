@@ -1,5 +1,5 @@
 <?php NavActions::setNavUri('/learn') ?>
-<?php Response::setMetaImage('https://lbry.io/img/cover-team.jpg') ?>
+<?php Response::addMetaImage('https://lbry.io/img/cover-team.jpg') ?>
 <?php Response::setMetaDescription('LBRY is founded by a team passionate about connecting producers and consumers and breaking down broken models. Learn more about them.') ?>
 <?php echo View::render('nav/header', ['isDark' => false]) ?>
 <main>

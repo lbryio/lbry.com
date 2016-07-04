@@ -236,6 +236,13 @@ class Post
     return $this->getPostNum() % $maxStyles + 1;
   }
 
+  public function getImageUrls()
+  {
+    $matches = [];
+    preg_match_all('/!\[.*?\]\((.*?)\)/', $this->markdown, $matches);
+    return $matches ? $matches[1] : [];
+  }
+
   protected function markdownToText($markdown)
   {
     $replacements = [

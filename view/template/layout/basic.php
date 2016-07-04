@@ -42,9 +42,12 @@
         <!-- Open Graph data -->
         <meta property="og:title" content="<?php echo $title ?>" />
         <meta property="og:type" content="article" />
-        <meta property="og:image" content="<?php echo Response::getMetaImage() ?>" />
         <meta property="og:description" content="<?php echo Response::getMetaDescription() ?>"/>
         <meta property="og:site_name" content="LBRY" />
+        <?php foreach(Response::getMetaImages() as $image): ?>
+          <meta property="og:image" content="<?php echo $image ?>" />
+        <?php endforeach ?>
+
 
         <base target="_parent" />
     </head>
