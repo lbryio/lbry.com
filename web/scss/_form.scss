@@ -2,7 +2,7 @@
 
 $input-width: 300px;
 
-label[for]
+label[for], .label-radio
 {
   cursor: pointer;
 }
@@ -35,6 +35,22 @@ textarea
 .form-row
 {
   margin-bottom: $spacing-vertical;
+  > label
+  {
+    font-size: 0.8em;
+    opacity: 0.9;
+    font-weight: bold;
+  }
+}
+
+input[type="checkbox"]
+{
+  -webkit-appearance: checkbox;
+}
+
+input[type="radio"]
+{
+  -webkit-appearance: radio;
 }
 
 .mail-submit, .invite-submit

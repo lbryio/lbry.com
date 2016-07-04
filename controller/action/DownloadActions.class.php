@@ -5,6 +5,9 @@
  *
  * @author jeremy
  */
+
+class PrefinerySubscribeException extends Exception {}
+
 class DownloadActions extends Actions
 {
   const OS_ANDROID = 'android',
@@ -26,27 +29,87 @@ class DownloadActions extends Actions
 
   public static function executeGet()
   {
+    if (Session::get(Session::KEY_DOWNLOAD_ALLOWED))
+    {
+      return static::executeGetAccepted();
+    }
+
+    $os = static::guessOs();
+    return ['download/get', [
+      'os' => $os
+    ]];
+  }
+
+
+  public static function executeGetAccepted()
+  {
     $osChoices = static::getOses();
     $os = static::guessOs();
 
     if ($os && isset($osChoices[$os]))
     {
       list($uri, $osTitle, $osIcon, $partial) = $osChoices[$os];
-      return ['download/get', [
+      $inviteCode = Session::get(Session::KEY_DOWNLOAD_REFERRAL_CODE);
+      return ['download/getAllowed', [
+        'inviteCode' => $inviteCode,
         'os' => $os,
         'osTitle' => $osTitle,
         'osIcon' => $osIcon,
-        'hasMatchingInvite' => isset($_POST['invite']) && preg_match('/^(pfa|pfb).*$/', $_POST['invite']),
-        'hasInvite' => isset($_POST['invite']) && $_POST['invite'],
         'downloadHtml' => View::exists('download/' . $partial) ?
-            View::render('download/' . $partial, ['downloadUrl' => static::getDownloadUrl($os)]) :
-            false
+          View::render('download/' . $partial, ['downloadUrl' => static::getDownloadUrl($os)]) :
+          false
       ]];
     }
 
-    return ['download/get-no-os', [
-        'isSubscribed' => in_array(Mailchimp::LIST_GENERAL_ID, Session::get(Session::KEY_MAILCHIMP_LIST_IDS, []))
-    ]];
+    return ['download/get-no-os'];
+  }
+
+  public static function executeSignup()
+  {
+    $email = isset($_GET['email']) ? $_GET['email'] : (isset($_POST['email']) ? $_POST['email'] : null);
+    $code = isset($_GET['code']) ? $_GET['code'] : (isset($_POST['code']) ? $_POST['code'] : null);
+
+    if (!$email || !filter_var($email, FILTER_VALIDATE_EMAIL))
+    {
+      Session::set(Session::KEY_DOWNLOAD_ACCESS_ERROR, 'Please provide a valid email. You provided: ' . $email);
+    }
+    elseif ($code)
+    {
+      try
+      {
+        static::subscribeToPrefinery($email, $code);
+        Session::set(Session::KEY_DOWNLOAD_ALLOWED, true);
+      }
+      catch (PrefinerySubscribeException $e)
+      {
+        Session::set(Session::KEY_DOWNLOAD_ACCESS_ERROR, 'Your code is not valid. If you believe this is an error, please contact ' . Config::HELP_CONTACT_EMAIL);
+      }
+    }
+    else
+    {
+      $referrerId = isset($_GET['referrer_id']) ? $_GET['referrer_id'] : (isset($_POST['referrer_id']) ? $_POST['referrer_id'] : null);
+      $failure = false;
+      try
+      {
+//        MailActions::subscribeToMailchimp($email, Mailchimp::LIST_GENERAL_ID);
+        static::subscribeToPrefinery($email, null, $referrerId);
+      }
+      catch (PrefinerySubscribeException $e)
+      {
+        $failure = true;
+      }
+      catch (MailchimpSubscribeException $e)
+      {
+        $failure = true;
+      }
+      if ($failure)
+      {
+        Session::set(Session::KEY_DOWNLOAD_ACCESS_ERROR,
+          'We were unable to add you to the wait list due to a technical error. Please contact ' . Config::HELP_CONTACT_EMAIL . ' for bonus credits.');
+      }
+    }
+
+    return Controller::redirect('/get');
   }
 
   public static function prepareListPartial(array $vars)
@@ -55,6 +118,68 @@ class DownloadActions extends Actions
       array_diff_key(static::getOses(), [$vars['excludeOs'] => null]) :
       static::getOses()
     ];
+  }
+
+  public static function subscribeToPrefinery($email, $inviteCode = null, $referrerId = null)
+  {
+    $apiKey = Config::get('prefinery_key');
+    $options = [
+      'headers' => [
+        'Accept: application/json',
+        'Content-type: application/json'
+      ],
+      'json_post' => true
+    ];
+
+    $listUrl = 'https://lbry.prefinery.com/api/v2/betas/8679/testers.json?api_key=' . $apiKey;
+
+    $body = Curl::get($listUrl, ['email' => $email], $options);
+
+    if (!$body)
+    {
+      throw new PrefinerySubscribeException('Empty cURL response.');
+    }
+
+    $data = json_decode($body, true);
+
+    if ($data && is_array($data) && count($data) && isset($data[0]['share_link']))
+    {
+      $shareLink = $data[0]['share_link'];
+    }
+    else
+    {
+      $createUrl = 'https://lbry.prefinery.com/api/v2/betas/8679/testers.json?api_key=' . $apiKey;
+
+      $params = [
+        'tester' => array_filter([
+          'email'           => $email,
+          'status'          => $inviteCode ? 'invited' : 'applied',
+          'invitation_code' => $inviteCode,
+          'referrer_id'     => $referrerId
+        ])
+      ];
+
+      $body = Curl::post($createUrl, $params, $options);
+
+      if (!$body)
+      {
+        throw new PrefinerySubscribeException('Empty cURL response.');
+      }
+
+      $data = json_decode($body, true);
+
+      if (!$data || !isset($data['share_link']))
+      {
+        throw new PrefinerySubscribeException('Missing share_link.');
+      }
+
+      $shareLink = $data['share_link'];
+    }
+
+    preg_match('/\?r\=(\w+)/', $shareLink, $matches);
+    Session::set(Session::KEY_DOWNLOAD_REFERRAL_CODE, $matches[1] ?: 'unknown');
+
+    return true;
   }
 
   protected static function guessOs()
@@ -138,40 +263,4 @@ class DownloadActions extends Actions
 
     return null;
   }
-
-//  protected static function validateDownloadAccess()
-//  {
-//    $seshionKey = 'has-get-access';
-//    if (Session::get($seshionKey))
-//    {
-//      return true;
-//    }
-//
-//    if ($_SERVER['REQUEST_METHOD'] === 'POST')
-//    {
-//      $accessCodes = include ROOT_DIR . '/data/secret/access_list.php';
-//      $today = date('Y-m-d H:i:s');
-//      foreach($accessCodes as $code => $date)
-//      {
-//        if ($_POST['invite'] == $code && $today <= $date)
-//        {
-//          Session::set($seshionKey, true);
-//          Controller::redirect('/get', 302);
-//        }
-//      }
-//
-//      if ($_POST['invite'])
-//      {
-//        Session::set('invite_error', 'Please provide a valid invite code.');
-//      }
-//      else
-//      {
-//        Session::set('invite_error', 'Please provide an invite code.');
-//      }
-//
-//      Controller::redirect('/get', 401);
-//    }
-//
-//    return false;
-//  }
 }

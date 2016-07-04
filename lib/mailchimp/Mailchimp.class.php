@@ -1,5 +1,7 @@
 <?php
 
+class MailchimpSubscribeException extends Exception {}
+
 class Mailchimp extends MCAPI
 {
   const LIST_GENERAL_ID = '7b74c90030';

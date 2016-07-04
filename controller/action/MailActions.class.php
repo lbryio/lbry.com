@@ -29,11 +29,11 @@ class MailActions extends Actions
     }
     else
     {
-      $mcApi = new Mailchimp();
       $mcListId = $_POST['listId'];
       $mergeFields = isset($_POST['mergeFields']) ? unserialize($_POST['mergeFields']) : [];
-      $success = $mcApi->listSubscribe($mcListId, $email, $mergeFields, 'html', false);
-      if ($success)
+      $errorOrSuccess = static::subscribeToMailchimp($email, $mcListId, $mergeFields);
+
+      if ($errorOrSuccess === true)
       {
         Session::set(Session::KEY_MAILCHIMP_LIST_IDS, array_merge(Session::get(Session::KEY_MAILCHIMP_LIST_IDS, []), [$mcListId]));
         Session::set(Session::KEY_LIST_SUB_SUCCESS, true);
@@ -41,12 +41,22 @@ class MailActions extends Actions
       }
       else
       {
-        $error = $mcApi->errorMessage ?: __('Something went wrong adding you to the list.');
-        Session::set(Session::KEY_LIST_SUB_ERROR, $error);
+        Session::set(Session::KEY_LIST_SUB_ERROR, $errorOrSuccess);
       }
     }
 
     return Controller::redirect($nextUrl);
+  }
+
+  public static function subscribeToMailchimp($email, $listId, array $mergeFields = [])
+  {
+    $mcApi   = new Mailchimp();
+    $success = $mcApi->listSubscribe($listId, $email, $mergeFields, 'html', false);
+    if (!$success)
+    {
+      throw new MailchimpSubscribeException($mcApi->errorMessage ?: __('Something went wrong adding you to the list.'));
+    }
+    return true;
   }
 
   public static function prepareJoinList(array $vars)
