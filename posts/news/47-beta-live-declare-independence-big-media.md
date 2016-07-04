@@ -1,11 +1,12 @@
 ---
 author: lbry
 title: 'LBRY Beta Goes Live! A Declaration of Independence from Big Media'
-cover: 'fireworks1k.png'
 date: '2016-07-04 00:00:01'
 ---
 
 **<p style="text-align: center;">LBRY Announces Beta Release, Live Blockchain & Major Content Deals on July 4th</p>**
+
+![LBRY Beta Launches](/img/fireworks600.png)
 
 240 years ago, a ragtag group of rebels declared their independence from the most powerful empire in the world. Despite the odds, they were confident that they had a system which worked better – it was more decentralized, closer to the people involved, and based on radical ideas that the old system was too slow to incorporate.
 
