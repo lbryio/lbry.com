@@ -140,7 +140,7 @@ class DownloadActions extends Actions
       throw new PrefinerySubscribeException('Empty cURL response.');
     }
 
-    $data = json_decode($body, JSON_OBJECT_AS_ARRAY);
+    $data = json_decode($body, true);
 
     if ($data && is_array($data) && count($data) && isset($data[0]['share_link']))
     {
@@ -165,7 +165,7 @@ class DownloadActions extends Actions
         throw new PrefinerySubscribeException('Empty cURL response.');
       }
 
-      $data = json_decode($body, JSON_OBJECT_AS_ARRAY);
+      $data = json_decode($body, true);
 
       if (!$data || !isset($data['share_link']))
       {
