@@ -153,7 +153,7 @@ class DownloadActions extends Actions
       $params = [
         'tester' => array_filter([
           'email'           => $email,
-          'status'          => $inviteCode ? 'invited' : 'applied',
+          'status'          => $inviteCode ? 'active' : 'applied',
           'invitation_code' => $inviteCode,
           'referrer_id'     => $referrerId
         ])
