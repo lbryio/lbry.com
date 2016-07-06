@@ -37,9 +37,7 @@ Indie production houses have seen the potential in LBRY. **[Oscilloscope Laborat
 In addition to watching these films and other pieces already uploaded to LBRY, there are several ways users can interact with the platform – and begin generating income – once they receive beta access:
 
 * Cryptocoin enthusiasts can **begin mining our new token**, called *LBRY credits*, by following [these instructions](https://lbry.io/faq/mining-credits).
-
 * Creators can **upload their own content**, set a price, and start earning credits using the app’s publishing tools.
-
 * And anyone with spare disk space can **host content** and earn credits simply by downloading something from LBRY and leaving the app running.
 
 LBRY is a key component of Web 3.0, a new internet infrastructure that is secure, open-source, and natively decentralized. The company is self-financed and has assembled a [stellar team](https://lbry.io/team) of creatives and technologists.
