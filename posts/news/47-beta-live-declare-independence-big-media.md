@@ -40,9 +40,9 @@ In addition to watching these films and other pieces already uploaded to LBRY, t
 * Creators can **upload their own content**, set a price, and start earning credits using the app’s publishing tools.
 * And anyone with spare disk space can **host content** and earn credits simply by downloading something from LBRY and leaving the app running.
 
-LBRY is a key component of Web 3.0, a new internet infrastructure that is secure, open-source, and natively decentralized. The company is self-financed and has assembled a [stellar team](https://lbry.io/team) of creatives and technologists.
-
 **<p style="text-align: center;">[Join the Waitlist for Early Access](https://lbry.io/get)</p>**
+
+LBRY is a key component of Web 3.0, a new internet infrastructure that is secure, open-source, and natively decentralized. The company is self-financed and has assembled a [stellar team](https://lbry.io/team) of creatives and technologists.
 
 **Stay Up-to-Date on LBRY Developments**
 
