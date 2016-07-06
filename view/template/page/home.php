@@ -36,7 +36,7 @@
  */ ?>
         <div class="control-group spacer2 text-center">
           <div class="control-item">
-            <a href="/get" class="btn-primary">Early Access (invite code required)</a>
+            <a href="/get" class="btn-primary">Early Access</a>
           </div>
           <div class="control-item">
             <a href="/learn" class="btn-alt">Learn More</a>
