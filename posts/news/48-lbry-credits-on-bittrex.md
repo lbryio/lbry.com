@@ -5,7 +5,7 @@ date: '2016-07-06 00:06:18'
 ---
 US-based cryptocoin exchange Bittrex has become the first to list LBRY credits (LBC) for trade to/from Bitcoin. In the first day of trading, LBC went from no established value to roughly 50¢ each! Taking into account all the LBC in existence, this would put LBC’s market cap at roughly $200 million – higher than Dash, MaidSafeCoin, Dogecoin (wow!)[^1], and on par with Litecoin. Amazingly, some 1/3 of all outstanding credits were traded on the first day. [Visit the LBC Bittrex page here](https://www.bittrex.com/Market/Index?MarketName=BTC-LBC).
 
-![LBC on Bittrex](/img/lbryonbittrex.png)
+[![LBC on Bittrex](/img/lbryonbittrex.png)](https://bittrex.com/Market/Index?MarketName=BTC-LBC)
 
 Now before you get too excited, keep in mind that there are very few credits available on the market. Only about 37K (not including the 400M pre-mined credits held by LBRY Inc.). This number will increase dramatically as mining ramps up and LBRY adoption programs are rolled out. Plus new cryptocoins are notoriously volatile in their early days. So there’s no reason to believe that LBC will maintain its current value. Really anything can happen from here. 
 
