@@ -27,11 +27,23 @@ LBRY can be compiled quite similarly to Bitcoin. Pester @jackrobison on Slack to
 
 ## FAQ
 
+###Q. How many coins do I get per block mined?
+**A.** For the first 5000 blocks, the reward was 1 LBC. In the current phase, blocks 5100 to 55000, the reward per block goes up by 1 every hundred blocks, so the reward per block = ceiling((blocknumber-5100)/100) + 1, maxing out at 500 after roughly 90 days from block 5100. After block 55000, the reward will decrease towards 0 logarithmically over 20 years.
+
+###Q. Is there an explorer?
+**A.** Yes, visit https://explorer.lbry.io
+
 ###Q. How do I check my balance?
-**A.** You can use `lbrycrd-cli getbalance`, `getinfo`, or `lbrycrd-cli getwalletinfo` for more detailed information. It takes 100 confirmed blocks (roughly 4 hours) for mined LBC to show up in your confirmed balance, but you can see these credits in your immature balance in getwalletinfo.
+**A.** You can use `lbrycrd-cli getbalance`, `lbrycrd-cli getinfo`, or `lbrycrd-cli getwalletinfo` for more detailed information. It takes 100 confirmed blocks (roughly a bit over 4 hours) for mined LBC to show up in your confirmed balance, but you can see these credits in your immature balance in getwalletinfo.
 
 ###Q. How do I check my address?
-**A.** You can get a new address with `lbrycrd-cli getnewaddress` to generate a new receiving address.
+**A.** You can use `lbrycrd-cli getnewaddress` to generate a new receiving address.
+
+###Q. How do I backup my wallet?
+**A.** You can use `lbrycrd-cli backupwallet <pathtobackup>` to back up your wallet, or alternatively you can copy the wallet.dat file manually from `~/Library/Application\ Support\lbrycrd` to anywhere you choose.
+
+###Q. How do I encrypt my wallet?
+**A.** You can use `lbrycrd-cli encryptwallet <passphrase>` to encrypt your wallet. You can use `lbrycrd-cli walletpassphrase <passphrase> <timeout>` to temporarily unlock the wallet (don't set timeout seconds too low or high).
 
 ###Q. What are some other commands available?
 **A.** lbrycrd is forked from bitcoin core, so many (but not all) of the available commands for the original client can be passed via lbrycrd-cli, like those above. Here is a list: https://en.bitcoin.it/wiki/Original_Bitcoin_client/API_calls_list
