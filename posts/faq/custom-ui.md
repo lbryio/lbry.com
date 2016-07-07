@@ -10,4 +10,4 @@ Once set with the UI flag, the given UI will be cached by lbry and used as the d
 
 To reset your ui to pull from lbryio, or to try a UI still in development, run lbry with the `--branch` flag:
 
-    lbrynet=daemon --branch=master
+    lbrynet-daemon --branch=master
