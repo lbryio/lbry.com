@@ -8,7 +8,9 @@ If for some reason you can't get lbrycrd-cli working to make these calls, make s
 
 `curl --user USER:PASSWORD --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "COMMAND", "params": [] }' -H 'content-type: text/plain;' http://127.0.0.1:9245/`
 
-USER and PASSWORD come from the above instructions and can be found in your lbrycrd.conf file ([important directories](https://lbry.io/faq/lbry-directories)), COMMAND can be any of the supported methods like getbalance or getnewaddress. 9245 is the default port used, but if you chose a custom port for the server, you'll need to use that instead. If the command accepts parameters, they can be passed inside the params array [].
+USER and PASSWORD come from the above instructions and can be found in your lbrycrd.conf file, COMMAND can be any of the supported methods like getbalance or getnewaddress. 9245 is the default port used, but if you chose a custom port for the server, you'll need to use that instead. If the command accepts parameters, they can be passed inside the params array [].
+
+See Also: [important directories](https://lbry.io/faq/lbry-directories).
 
 Note: the lbry api can only be used while either the app or lbrynet-daemon command line are running
 
