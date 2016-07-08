@@ -91,17 +91,20 @@ class DownloadActions extends Actions
       $failure = false;
       try
       {
-//        MailActions::subscribeToMailchimp($email, Mailchimp::LIST_GENERAL_ID);
+        MailActions::subscribeToMailchimp($email, Mailchimp::LIST_GENERAL_ID);
+      }
+      catch (MailchimpSubscribeException $e)
+      {
+      }
+      try
+      {
         static::subscribeToPrefinery($email, null, $referrerId);
       }
       catch (PrefinerySubscribeException $e)
       {
         $failure = true;
       }
-      catch (MailchimpSubscribeException $e)
-      {
-        $failure = true;
-      }
+
       if ($failure)
       {
         Session::set(Session::KEY_DOWNLOAD_ACCESS_ERROR,
