@@ -19,6 +19,6 @@
         </div>
       </div>
     <?php endforeach ?>
-  </section>>
+  </section>
 </main>
 <?php echo View::render('nav/footer') ?>
