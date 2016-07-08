@@ -12,7 +12,7 @@ USER and PASSWORD can be found in your lbrycrd.conf file, COMMAND can be any of 
 
 See Also: [important directories](https://lbry.io/faq/lbry-directories).
 
-Note: the lbry api can only be used while either the app or lbrynet-daemon command line are running
+Note: the LBRY API can only be used while either the app or lbrynet-daemon is running.
 
     import sys
     from jsonrpc.proxy import JSONRPCProxy

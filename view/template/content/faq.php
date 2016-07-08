@@ -8,6 +8,6 @@
         <a href="<?php echo $post->getRelativeUrl() ?>" class="link-primary"><?php echo $post->getTitle() ?></a>
       </div>
     <?php endforeach ?>
-  </section>>
+  </section>
 </main>
 <?php echo View::render('nav/footer') ?>
