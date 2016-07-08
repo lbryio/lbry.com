@@ -15,7 +15,7 @@
         ]) ?>
       <?php endif ?>
       <h3>Share and Earn</h3>
-      <p>Earn <?php echo i18n::formatCredits(25) ?> per referral by sharing this URL:</p>
+      <p>Earn <?php echo i18n::formatCredits(10) ?> per referral by sharing this URL:</p>
       <p><a href="/get?r=<?php echo Session::get(Session::KEY_DOWNLOAD_REFERRAL_CODE) ?>" class="link-primary">https://lbry.io/get?r=<?php echo Session::get(Session::KEY_DOWNLOAD_REFERRAL_CODE) ?></a></p>
       <?php echo View::render('download/_reward', [
         'inviteCode' => $inviteCode
