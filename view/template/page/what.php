@@ -74,7 +74,7 @@
         The data and technology that makes the entire interaction possible is not reliant on nor controlled by any single entity.</p>
     </section>
     <section>
-      <h2>The LBRY Network</h2>
+      <h2 id="the-network">The LBRY Network</h2>
       <p>To understand precisely what LBRY is and why it matters, one must understand both LBRY as a protocol and the services the protocol enables. HTTP is the protocol that makes web browsing possible, but it would be of little interest without the service of a web browser!</p>
 
       <p>To understand LBRY, think of LBRY in terms of two layers: <em>protocol</em> and <em>service.</em> The protocol provides a fundamental, underlying technological capability. The service layer utilizes the protocol to do something that a human being would actually find useful.</p>
