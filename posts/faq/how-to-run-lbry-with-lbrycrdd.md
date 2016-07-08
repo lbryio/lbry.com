@@ -2,7 +2,7 @@
 title:  How do I run LBRY with lbrycrdd?
 ---
 
-Start lbry with the `--wallet flag` set:
+Start LBRY with the `--wallet` flag set:
 
     lbrynet-daemon --wallet=lbrycrd
 

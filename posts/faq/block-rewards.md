@@ -29,4 +29,4 @@ Eventually 1,000,000,000 LBRY credits will exist. They are awarded on the follow
   3. The final stage is the "normal" mining stage. From block 55001 onward, the block reward decreases logarithmically over the course of 20
      years.
 
-* Block rewards ramp up slowly because we want to ensure that users are given some time to get LBRY up and running, and to avoid unfairly benefit the earliest users.
+* Block rewards ramp up slowly because we want to ensure that users are given some time to get LBRY up and running, and to avoid unfairly benefitting the earliest users.
