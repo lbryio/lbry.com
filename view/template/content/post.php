@@ -1,7 +1,7 @@
 <?php Response::setMetaDescription($post->getTitle()) ?>
 <?php Response::addMetaImages($post->getImageUrls()) ?>
 <?php NavActions::setNavUri('/news') ?>
-<?php echo View::render('nav/header') ?>
+<?php echo View::render('nav/_header') ?>
 <main>
   <header class="post-header <?php echo $post->getCover() ? 'with-cover' : ('no-cover'.$post->getCoverBackgroundStyle(4)) ?>"
           <?php echo $post->getCover() ? 'style="background-image: url(\'/img/blog-covers/' . $post->getCover() . '\')"' : ''?>
@@ -18,41 +18,13 @@
     </div>
   </header>
 
-  <div class="post-content">
+  <section class="post-content">
+    <div class="content">
+      <?php echo $post->getContentHtml() ?>
+    </div>
+  </section>
 
-    <section class="content spacer2">
-      <div class="post-content">
-        <?php echo $post->getContentHtml() ?>
-      </div>
-    </section>
-
-    <nav class="content prev-next row-fluid">
-      <div class="prev span6">
-        <?php if ($prevPost = $post->getPrevPost()): ?>
-          <div class="prev-next-label">
-            <a href="/<?php echo $prevPost->getRelativeUrl() ?>" class="link-primary">‹ Previous</a>
-          </div>
-          <div class="meta">
-            <a href="/<?php echo $prevPost->getRelativeUrl() ?>">
-              <?php echo htmlentities($prevPost->getTitle()) ?>
-            </a>
-          </div>
-        <?php endif ?>
-      </div>
-      <div class="next span6">
-        <?php if ($nextPost = $post->getNextPost()): ?>
-          <div class="prev-next-label">
-            <a href="/<?php echo $nextPost->getRelativeUrl() ?>"  class="link-primary">Next ›</a>
-          </div>
-          <div class="meta">
-            <a class="prev-next-title" href="/<?php echo $nextPost->getRelativeUrl() ?>">
-              <?php echo htmlentities($nextPost->getTitle()) ?>
-            </a>
-           </div>
-        <?php endif ?>
-      </div>
-    </nav>
-  </div>
+  <?php echo View::render('nav/_learnFooter', ['isDark' => false]) ?>
 
   <?php if ($post->hasAuthor()): ?>
     <?php echo View::render('content/_postAuthor', [
@@ -60,5 +32,33 @@
     ]) ?>
   <?php endif ?>
 
+  <?php /*
+  <nav class="content prev-next row-fluid">
+    <div class="prev span6">
+      <?php if ($prevPost = $post->getPrevPost()): ?>
+        <div class="prev-next-label">
+          <a href="/<?php echo $prevPost->getRelativeUrl() ?>" class="link-primary">‹ Previous</a>
+        </div>
+        <div class="meta">
+          <a href="/<?php echo $prevPost->getRelativeUrl() ?>">
+            <?php echo htmlentities($prevPost->getTitle()) ?>
+          </a>
+        </div>
+      <?php endif ?>
+    </div>
+    <div class="next span6">
+      <?php if ($nextPost = $post->getNextPost()): ?>
+        <div class="prev-next-label">
+          <a href="/<?php echo $nextPost->getRelativeUrl() ?>"  class="link-primary">Next ›</a>
+        </div>
+        <div class="meta">
+          <a class="prev-next-title" href="/<?php echo $nextPost->getRelativeUrl() ?>">
+            <?php echo htmlentities($nextPost->getTitle()) ?>
+          </a>
+        </div>
+      <?php endif ?>
+    </div>
+  </nav> */ ?>
+
 </main>
-<?php echo View::render('nav/footer') ?>
+<?php echo View::render('nav/_footer') ?>

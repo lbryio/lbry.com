@@ -1,5 +1,5 @@
 <?php Response::setMetaDescription('Frequently asked questions about LBRY.') ?>
-<?php echo View::render('nav/header', ['isDark' => false]) ?>
+<?php echo View::render('nav/_header', ['isDark' => false]) ?>
 <main>
   <section class="content content-readable spacer2">
     <h1>Frequently Asked Questions</h1>
@@ -10,4 +10,4 @@
     <?php endforeach ?>
   </section>
 </main>
-<?php echo View::render('nav/footer') ?>
+<?php echo View::render('nav/_footer') ?>

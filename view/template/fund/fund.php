@@ -1,6 +1,6 @@
 <?php Response::setMetaTitle(__('Fund LBRY')) ?>
 <?php Response::setMetaDescription('Contribute to the future of LBRY and buy credits for the LBRY network at pre-release prices.') ?>
-<?php echo View::render('nav/header', ['isDark' => false]) ?>
+<?php echo View::render('nav/_header', ['isDark' => false]) ?>
 <main>
   <div class="cover cover-dark cover-dark-grad">
     <div class="row-fluid">
@@ -190,4 +190,4 @@
     </div>
   </div>
 </main>
-<?php echo View::render('nav/footer') ?>
+<?php echo View::render('nav/_footer') ?>

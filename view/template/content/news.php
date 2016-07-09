@@ -1,5 +1,5 @@
 <?php Response::setMetaDescription('Access information and content in ways you never dreamed possible. Earn credits for your unused bandwidth and diskspace.') ?>
-<?php echo View::render('nav/header', ['isDark' => false]) ?>
+<?php echo View::render('nav/_header', ['isDark' => false]) ?>
 <main>
   <div class="hero hero-quote hero-img spacer2" style="background-image: url(/img/cover-team.jpg)">
     <div class="hero-content-wrapper">
@@ -21,4 +21,4 @@
     <?php endforeach ?>
   </section>
 </main>
-<?php echo View::render('nav/footer') ?>
+<?php echo View::render('nav/_footer') ?>

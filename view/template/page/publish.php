@@ -1,6 +1,6 @@
 <?php Response::setMetaDescription('Publish your content on the world\'s first platform that leaves creators in control.') ?>
 <?php Response::setMetaTitle(__('Publish')) ?>
-<?php echo View::render('nav/header', ['isDark' => false]) ?>
+<?php echo View::render('nav/_header', ['isDark' => false]) ?>
 <main >
   <div class="content">
     <h1><?php echo __('Publish') ?></h1>
@@ -44,4 +44,4 @@
             width="760" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
   </div>
 </main>
-<?php echo View::render('nav/footer') ?>
+<?php echo View::render('nav/_footer') ?>

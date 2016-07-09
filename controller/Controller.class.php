@@ -75,7 +75,10 @@ class Controller
         // THIS ROUTE IS DEPRECATED. IT WILL BE REMOVED SOON.
         return static::redirect('https://github.com/lbryio/lbry/releases/download/v0.2.5/lbry_0.2.5_amd64.deb', 307);
       case '/art':
-        return static::redirect('/what');
+        return static::redirect('/what', 301);
+      case '/why':
+      case '/feedback':
+        return static::redirect('/learn', 301);
     }
 
     $newsPattern = '#^' . ContentActions::URL_NEWS . '(/|$)#';

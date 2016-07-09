@@ -1,7 +1,7 @@
 <?php NavActions::setNavUri('/learn') ?>
 <?php Response::addMetaImage('https://lbry.io/img/cover-team.jpg') ?>
 <?php Response::setMetaDescription('LBRY is founded by a team passionate about connecting producers and consumers and breaking down broken models. Learn more about them.') ?>
-<?php echo View::render('nav/header', ['isDark' => false]) ?>
+<?php echo View::render('nav/_header', ['isDark' => false]) ?>
 <main>
   <div class="content photo-grid spacer2">
     <h1>The Team</h1>
@@ -84,6 +84,6 @@
       </div>
     </div>
   </div>
-  <?php echo View::render('nav/learnFooter') ?>
+  <?php echo View::render('nav/_learnFooter') ?>
 </main>
-<?php echo View::render('nav/footer') ?>
+<?php echo View::render('nav/_footer') ?>

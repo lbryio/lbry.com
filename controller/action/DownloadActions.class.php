@@ -66,8 +66,8 @@ class DownloadActions extends Actions
 
   public static function executeSignup()
   {
-    $email = isset($_GET['email']) ? $_GET['email'] : (isset($_POST['email']) ? $_POST['email'] : null);
-    $code = isset($_GET['code']) ? $_GET['code'] : (isset($_POST['code']) ? $_POST['code'] : null);
+    $email = static::param('email');
+    $code = static::param('code');
 
     if (!$email || !filter_var($email, FILTER_VALIDATE_EMAIL))
     {
@@ -120,6 +120,14 @@ class DownloadActions extends Actions
     return $vars + ['osChoices' => isset($vars['excludeOs']) ?
       array_diff_key(static::getOses(), [$vars['excludeOs'] => null]) :
       static::getOses()
+    ];
+  }
+
+  public static function prepareSignupPartial(array $vars)
+  {
+    return $vars + [
+      'allowInviteCode' => true,
+      'referralCode' => static::param('r', '')
     ];
   }
 

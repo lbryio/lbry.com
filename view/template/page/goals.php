@@ -1,6 +1,6 @@
 <?php Response::setMetaTitle(__('LBRY Fund Goals')) ?>
 <?php Response::setMetaDescription('Download or install the latest version of LBRY.') ?>
-<?php echo View::render('nav/header', ['isDark' => false]) ?>
+<?php echo View::render('nav/_header', ['isDark' => false]) ?>
 <main>
   <div class="cover cover-dark cover-dark-grad">
     <div class="content content-dark">
@@ -39,4 +39,4 @@
     </div>
   </div>
 </main>
-<?php echo View::render('nav/footer') ?>
+<?php echo View::render('nav/_footer') ?>

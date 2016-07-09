@@ -21,7 +21,7 @@
       </div>
       <div class="fullscreen header-navigation-fullscreen">
         <nav class="control-group">
-          <?php echo View::render('nav/globalItems') ?>
+          <?php echo View::render('nav/_globalItems') ?>
         </nav>
       </div>
     </div>
