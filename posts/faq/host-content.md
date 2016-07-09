@@ -1,5 +1,6 @@
 ---
 title: How does content hosting work?
+category: hosting
 ---
 
 Right now, it's simple: you host what you download.
