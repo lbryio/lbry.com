@@ -1,5 +1,6 @@
 ---
 title: How do I get LBRY credits?
+category: getstarted
 ---
 
 Currently, there are four ways to obtain LBRY Credits, or LBC for short.
