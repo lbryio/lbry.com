@@ -1,5 +1,6 @@
 ---
 title: How do I mine LBRY credits?
+category: mining
 ---
 
 LBRY binaries are out for OS X and Ubuntu. Others may try compiling from source.
