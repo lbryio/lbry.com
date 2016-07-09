@@ -1,5 +1,6 @@
 ---
 title: What are the LBRY Block Rewards?
+category: mining
 ---
 
 ## 0. Only Trust the Source
