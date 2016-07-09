@@ -1,5 +1,6 @@
 ---
 title: How do I encrypt my wallet?
+category: wallet
 ---
 
 You can use `lbrycrd-cli encryptwallet <passphrase>` to encrypt your wallet.
