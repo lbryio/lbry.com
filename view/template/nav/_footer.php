@@ -6,7 +6,7 @@
         <div class="control-item">
           <a href="/"><?php echo __('Home') ?></a>
         </div>
-        <?php echo View::render('nav/globalItems') ?>
+        <?php echo View::render('nav/_globalItems') ?>
         <div class="control-item">
           <a href="//en.wikipedia.org/wiki/AACS_encryption_key_controversy" class="footer-img-link">
             <img src="/img/Free-speech-flag.svg" alt="Free Speech Flag" height="30"/>

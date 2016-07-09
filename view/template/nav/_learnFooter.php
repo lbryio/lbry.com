@@ -1,21 +1,12 @@
-<div class="cover cover-dark  cover-dark-grad ">
-  <div class="content content-dark">
+<div class="cover <?php echo $isDark ? 'cover-dark cover-dark-grad' : 'cover-light-alt cover-light-alt-grad' ?> ">
+  <div class="content <?php echo $isDark ? 'content-dark' : 'content-light' ?>">
     <div class="row-fluid">
       <div class="span6">
-        <h3><?php echo __('Sounds Great. What\'s Next?') ?></h3>
+        <h3><?php echo __('What\'s Next?') ?></h3>
         <table class="table-layout">
-          <?php /*
           <tr>
             <td>
-              <a href="/fund" class="btn-alt btn-full-width"><?php echo __('Buy') ?></a>
-            </td>
-            <td>
-              <?php echo __('Pre-buy credits and support LBRY.') ?>
-            </td>
-          </tr>*/ ?>
-          <tr>
-            <td>
-              <a href="/get" class="btn-alt btn-full-width"><?php echo __('Try LBRY') ?></a>
+              <a href="/get" class="<?php echo $isDark ? 'btn-alt' : 'btn-primary' ?> btn-full-width"><?php echo __('Get LBRY') ?></a>
             </td>
             <td>
               <?php echo __('Experience digital abundance.') ?>
@@ -30,7 +21,7 @@
         </ul>
       </div>
       <div class="span6">
-        <h3><?php echo __('I Want To Know More') ?></h3>
+        <h3><?php echo __('Keep Learning') ?></h3>
         <ul>
           <?php if ($_SERVER['REQUEST_URI'] != '/what'): ?>
             <li>Read "<a href="/what" class="link-primary">Art in the Internet Age</a>", an introductory essay.</li>
@@ -38,7 +29,7 @@
           <?php if ($_SERVER['REQUEST_URI'] != '/team'): ?>
             <li>Find out about <a href="/team" class="link-primary">the team behind LBRY</a>.</li>
           <?php endif ?>
-          <?php if ($_SERVER['REQUEST_URI'] != '/news'): ?>
+          <?php if (strpos($_SERVER['REQUEST_URI'], '/news') === false): ?>
             <li>Check out the latest <a href="/news" class="link-primary">news</a>.</li>
           <?php endif ?>
         </ul>

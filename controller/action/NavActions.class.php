@@ -19,9 +19,16 @@ class NavActions extends Actions
     return static::$navUri ?: $_SERVER['REQUEST_URI'];
   }
 
-  public static function prepareGlobalItems(array $vars)
+  public static function prepareGlobalItemsPartial(array $vars)
   {
     $vars += ['selectedItem' => static::getNavUri()];
     return $vars;
+  }
+
+  public static function prepareLearnFooterPartial(array $vars)
+  {
+    return $vars + [
+      'isDark' => true
+    ];
   }
 }

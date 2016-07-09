@@ -7,6 +7,11 @@
  */
 class Actions
 {
+  public static function param($key, $default = null)
+  {
+    return isset($_POST[$key]) ? $_POST[$key] : (isset($_GET[$key]) ? $_GET[$key] : $default);
+  }
+
   //this is dumb
   protected static function returnError($error)
   {
