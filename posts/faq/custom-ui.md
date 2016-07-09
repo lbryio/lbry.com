@@ -1,5 +1,6 @@
 ---
 title: How do I specify a web-UI to use?
+category: developer
 ---
 
 If the files for the UI you'd like to use are stored locally on your computer, start LBRY with the `--ui` flag:
