@@ -108,7 +108,7 @@ class DownloadActions extends Actions
       if ($failure)
       {
         Session::set(Session::KEY_DOWNLOAD_ACCESS_ERROR,
-          'We were unable to add you to the wait list due to a technical error. Please contact ' . Config::HELP_CONTACT_EMAIL . ' for bonus credits.');
+          'We were unable to add you to the wait list. Received error "' . $e->getMessage() . '". Please contact ' . Config::HELP_CONTACT_EMAIL . ' if you think this is a mistake.' );
       }
     }
 
