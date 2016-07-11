@@ -18,7 +18,7 @@ class Post
     $category = $pathTokens[count($pathTokens) - 2];
     $filename = $pathTokens[count($pathTokens) - 1];
     $isRelative = $relativeOrAbsolutePath[0] != '/';
-    $slug = static::getSlugFromFilename($filename);
+    $slug = strpos($filename, '.md') !== false ? static::getSlugFromFilename($filename) : $filename;
     $path = ($isRelative ? ROOT_DIR . '/posts/' : '') .
               $relativeOrAbsolutePath .
               (substr($filename, -3) !== '.md' ? '.md' : '');
