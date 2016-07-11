@@ -6,38 +6,20 @@
   <div class="content photo-grid spacer2">
     <h1>The Team</h1>
     <p>LBRY is made possible by more people than we could ever list here. The founding team is listed below.</p>
+    <?php foreach([
+        ['jeremy-kauffman', 'michael-zargham'],
+        ['josh-finer', 'alex-grintsvayg'],
+        ['mike-vine', 'jimmy-kiselak', 'jack-robison'],
+        ['job-evers-meltzer', 'reilly-smith', 'alex-liebowitz']
+    ] as $bioRow): ?>
     <div class="row-fluid">
-      <div class="span6 spacer2">
-        <?php echo View::render('content/_bio', ['person' => 'jeremy-kauffman']) ?>
-      </div>
-      <div class="span6 spacer2">
-        <?php echo View::render('content/_bio', ['person' => 'michael-zargham']) ?>
-      </div>
+      <?php foreach($bioRow as $bioSlug): ?>
+        <div class="<?php echo count($bioRow) == 2 ? 'span6' : 'span4' ?> spacer2">
+          <?php echo View::render('content/_bio', ['person' => $bioSlug]) ?>
+        </div>
+      <?php endforeach ?>
     </div>
-    <div class="row-fluid">
-      <div class="span6  spacer2">
-        <?php echo View::render('content/_bio', ['person' => 'josh-finer']) ?>
-      </div>
-      <div class="span6  spacer2">
-        <?php echo View::render('content/_bio', ['person' => 'jimmy-kiselak']) ?>
-      </div>
-    </div>
-    <div class="row-fluid">
-      <div class="span6  spacer2">
-        <?php echo View::render('content/_bio', ['person' => 'mike-vine']) ?>
-      </div>
-      <div class="span6  spacer2">
-        <?php echo View::render('content/_bio', ['person' => 'alex-grintsvayg']) ?>
-      </div>
-    </div>
-    <div class="row-fluid">
-      <div class="span6  spacer2">
-        <?php echo View::render('content/_bio', ['person' => 'jack-robison']) ?>
-      </div>
-      <div class="span6">
-        <?php echo View::render('content/_bio', ['person' => 'reilly-smith']) ?>
-      </div>
-    </div>
+    <?php endforeach ?>
     <div class="row-fluid">
       <div class="span3"></div>
       <div class="span6">
@@ -67,20 +49,6 @@
     <div class="row-fluid">
       <div class="span6">
         <?php echo View::render('content/_bio', ['person' => 'michael-huemer']) ?>
-      </div>
-      <div class="span6">
-        <div class="photo-container">
-          <img src="/img/team/spooner-644x450.jpg" alt="you!"/>
-        </div>
-        <div>
-          <h4>You</h4>
-          <div class="meta  spacer1">Technical or Media Advisor</div>
-          <p>
-            LBRY is seeking an extremely experienced technical advisor or an advisor with a strong background in the publishing and media space.
-            If you're that person or have a suggestion,
-            <a href="mailto:jeremy@lbry.io?subject=Advisor" class="link-primary">let us know</a>.
-          </p>
-        </div>
       </div>
     </div>
   </div>
