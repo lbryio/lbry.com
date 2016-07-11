@@ -13,7 +13,7 @@
 
       <?php if (Session::get(Session::KEY_DOWNLOAD_REFERRAL_CODE)): ?>
         <div class="notice notice-info spacer1">
-          <p>You are currently on the wait list. Move up the list and earn <?php echo i18n::formatCredits(25) ?> per referral by sharing this URL:</p>
+          <p>You are currently on the wait list. Move up the list and earn <?php echo i18n::formatCredits(10) ?> per referral by sharing this URL:</p>
           <p><a href="/get?r=<?php echo Session::get(Session::KEY_DOWNLOAD_REFERRAL_CODE) ?>">https://lbry.io/get?r=<?php echo Session::get(Session::KEY_DOWNLOAD_REFERRAL_CODE) ?></a></p>
         </div>
       <?php endif ?>
