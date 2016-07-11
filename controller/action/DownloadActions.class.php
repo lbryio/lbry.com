@@ -158,7 +158,8 @@ class DownloadActions extends Actions
           'email'           => $email,
           'status'          => $inviteCode ? 'active' : 'applied',
           'invitation_code' => $inviteCode,
-          'referrer_id'     => $referrerId
+          'referrer_id'     => $referrerId,
+          'profile' => ['ip' => $_SERVER['REMOTE_ADDR']]
         ])
       ];
 
