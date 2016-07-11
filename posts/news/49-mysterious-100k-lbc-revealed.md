@@ -11,7 +11,7 @@ Well, worry not. This doesn’t represent a nefarious plan to dump a bunch of cr
 
 So who is this mystery buyer? That part will stay a mystery until the formal announcement. But we think our LBC watchers will be very pleased.
 
-Note that this is the first spend from LBRY’s operational funds. Going forward, as we strategically spend credits from the operational, charitable, and promotional funds, we will note the transactions and their purpose on the blockchain.
+Note that this is the first spend from [LBRY’s operational funds](https://lbry.io/news/lbry-blockchain-live-mine-lbc-now). Going forward, as we strategically spend credits from the operational, charitable, and promotional funds, we will note the transactions and their purpose on the blockchain.
 
 **<p style="text-align: center;">[Join the Waitlist for Early Access](https://lbry.io/get)</p>**
 
