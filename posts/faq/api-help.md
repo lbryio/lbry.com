@@ -1,5 +1,6 @@
 ---
 title: How do I see the list of API functions I can call, and how do I call them?
+category: developer
 ---
 
 Here is an example script to get the documentation for the various API calls. To use any of the functions displayed, just provide any specified arguments in a dictionary. Many (though not all) of the calls are the same as those for bitcoin core, which are documented [here](https://en.bitcoin.it/wiki/Original_Bitcoin_client/API_calls_list).
