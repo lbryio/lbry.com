@@ -133,8 +133,10 @@ class ContentActions extends Actions
     $person = $vars['person'];
     $path = 'bio/' . $person . '.md';
     list($metadata, $bioHtml) = View::parseMarkdown($path);
+    $relativeImgSrc = '/img/team/' . $person . '-644x450.jpg';
+    $imgSrc = file_exists(ROOT_DIR . '/web' . $relativeImgSrc) ? $relativeImgSrc : '/img/team/spooner-644x450.jpg';
     return $metadata + [
-      'imgSrc' => '/img/team/' . $person . '-644x450.jpg',
+      'imgSrc' => $imgSrc,
       'bioHtml' => $bioHtml,
     ];
   }
