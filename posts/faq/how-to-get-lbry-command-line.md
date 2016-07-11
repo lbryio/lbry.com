@@ -1,5 +1,6 @@
 ---
 title: How do I get LBRY for development?
+category: developer
 ---
 
 The LBRY project sources are hosted on [Github](https://github.com/lbryio).
