@@ -180,9 +180,19 @@ class DownloadActions extends Actions
 
       $data = json_decode($body, true);
 
-      if (!$data || !isset($data['share_link']))
+      if (!$data)
       {
-        throw new PrefinerySubscribeException('Missing share_link.');
+        throw new PrefinerySubscribeException('Received empty response.');
+      }
+      else if (isset($data['errors']))
+      {
+        throw new PrefinerySubscribeException(implode("\n", array_map(function($error) {
+          return $error['message'];
+        }, (array)$data['errors'])));
+      }
+      else if (!isset($data['share_link']))
+      {
+        throw new PrefinerySubscribeException('Missing share_link');
       }
 
       $shareLink = $data['share_link'];
