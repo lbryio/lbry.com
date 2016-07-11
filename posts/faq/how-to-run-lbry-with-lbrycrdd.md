@@ -1,5 +1,6 @@
 ---
 title:  How do I run LBRY with lbrycrdd?
+category: mining
 ---
 
 Start LBRY with the `--wallet` flag set:
