@@ -17,3 +17,9 @@
 <div class="control-item no-label-desktop">
   <a href="//reddit.com/r/lbry"><span class="btn-label">Reddit</span> <span class="icon icon-reddit"></span> </a>
 </div>
+<div class="control-item no-label-desktop">
+  <a href="http://slack.lbry.io"><span class="btn-label">Slack (chat)</span><span class="icon-slack icon-fw"></span></a>
+</div>
+<div class="control-item no-label-desktop">
+  <a href="https://github.com/lbryio"><span class="btn-label">GitHub (source code)</span><span class="icon-github icon-fw"></span></a>
+</div>
