@@ -24,8 +24,28 @@ class ContentActions extends Actions
   public static function executeFaq()
   {
     $posts = Post::find(static::VIEW_FOLDER_FAQ);
+
+    $groupNames = [
+      'getstarted' => 'Getting Started',
+      'install'    => 'Installing LBRY',
+      'running'    => 'Running LBRY',
+      'wallet'     => 'The LBRY Wallet',
+      'hosting'    => 'Hosting Content',
+      'mining'     => 'Mining LBC',
+      'developer'  => 'Developers',
+      'other'      => 'Other Questions',
+    ];
+
+    $groups = array_fill_keys(array_keys($groupNames), []);
+
+    foreach($posts as $post)
+    {
+      $groups[isset($groupNames[$post->getCategory()]) ? $post->getCategory() : 'other'][] = $post;
+    }
+
     return ['content/faq', [
-      'posts' => $posts
+      'groupNames' => $groupNames,
+      'postGroups' => $groups
     ]];
   }
 
