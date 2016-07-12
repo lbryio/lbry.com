@@ -65,7 +65,11 @@ class Controller
       case '/press-kit.zip':
         return ContentActions::executePressKit();
       case '/LBRY-deck.pdf':
-        return static::redirect('https://s3.amazonaws.com/files.lbry.io/LBRY-deck.pdf', 307);
+      case '/deck.pdf':
+        return static::redirect('https://www.dropbox.com/s/0xj4vgucsbi8rtv/lbry-deck.pdf?dl=1');
+      case '/pln.pdf':
+      case '/plan.pdf':
+        return static::redirect('https://www.dropbox.com/s/uevjrwnyr672clj/lbry-pln.pdf?dl=1');
       case '/dl/lbry_setup.sh':
         return ['internal/dl-not-supported', ['_no_layout' => true]];
       case '/lbry-osx-latest.dmg':
