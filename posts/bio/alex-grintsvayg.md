@@ -7,4 +7,4 @@ One of Alex's job titles is Wizard, so named because he can seemingly understand
 
 Alex designs and manages scalable infrastructure solutions for SaaS firms, and is leveraging that experience to ensure LBRY's architecture is rock-solid.
 
-Alex is the 3rd dual-degree graduate from RPI on this team, receiving degrees in Computer Science and Psychology. He is also an alumni of Stuyvesant High School.
+Alex is one of three dual-degree graduate from RPI on this team, receiving degrees in Computer Science and Psychology. He is also an alumni of Stuyvesant High School.
