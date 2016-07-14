@@ -16,25 +16,3 @@ Note that this is the first spend from [LBRY’s operational funds](https://lbry
 **<p style="text-align: center;">[Join the Waitlist for Early Access](https://lbry.io/get)</p>**
 
 LBRY is a key component of Web 3.0, a new internet infrastructure that is secure, open-source, and natively decentralized. The company is self-financed and has assembled a [stellar team](https://lbry.io/team) of creatives and technologists.
-
-**Stay Up-to-Date on LBRY Developments**
-
-* [Like us on Facebook](https://www.facebook.com/lbryio)
-* [Follow us on Twitter](https://twitter.com/lbryio)
-* [Join us on Reddit](https://www.reddit.com/r/lbry)
-* [Collaborate on Slack](http://slack.lbry.io/) 
-
-**Join LBRY's Mailing List**
-
-<form action="/list-subscribe" method="post" novalidate>
-        <div class="mail-submit">
-      <input type="hidden" name="returnUrl" value="/"/>
-      <input type="hidden" name="listId" value="7b74c90030"/>
-      <input type="hidden" name="listSig" value="690df09388021bf1698897f4adbdf3c2"/>
-      <input type="email" value="" name="email" class="required email standard" placeholder="someone@somewhere.com">
-      <input type="submit" value="Go" name="subscribe" id="mc-embedded-subscribe" class="btn-alt">
-                    <input type="hidden" name="mergeFields" value="a:1:{s:3:&quot;CLI&quot;;s:2:&quot;No&quot;;}" />
-                    <div class="meta">
-          You will receive 1-2 messages a month, only from LBRY, Inc. and only about LBRY.          You can easily unsubscribe at any time.        </div>
-          </div>
-  </form>
