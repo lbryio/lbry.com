@@ -1,4 +1,5 @@
 <?php Response::setMetaDescription('Frequently asked questions about LBRY.') ?>
+<?php NavActions::setNavUri('/learn') ?>
 <?php echo View::render('nav/_header', ['isDark' => false]) ?>
 <main>
   <section class="content content-readable spacer2">

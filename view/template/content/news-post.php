@@ -22,14 +22,10 @@
     <div class="content">
       <?php echo $post->getContentHtml() ?>
     </div>
-    <?php if ($post->hasPrevNext()): ?>
-      <?php echo View::render('content/_postNav', ['post' => $post]) ?>
-    <?php endif ?>
+    <?php echo View::render('content/_postNav', ['post' => $post]) ?>
   </section>
 
-  <?php if ($post->hasLearnFooter()): ?>
-    <?php echo View::render('nav/_learnFooter', ['isDark' => false]) ?>
-  <?php endif ?>
+  <?php echo View::render('nav/_learnFooter', ['isDark' => false]) ?>
 
   <?php if ($post->hasAuthor()): ?>
     <?php echo View::render('content/_postAuthor', ['post' => $post]) ?>

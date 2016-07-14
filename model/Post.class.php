@@ -163,16 +163,6 @@ class Post
     return $this->date !== null;
   }
 
-  public function hasPrevNext()
-  {
-    return $this->postType == 'news';
-  }
-
-  public function hasLearnFooter()
-  {
-    return $this->postType == 'news';
-  }
-
   public function getAuthorName()
   {
     switch(strtolower($this->author))

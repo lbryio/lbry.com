@@ -13,6 +13,9 @@ code
 }
 pre
 {
+  > code {
+    padding: 0;
+  }
   margin-bottom: $spacing-vertical;
   border-left: .3rem solid $color-primary;
   padding: 10px 20px;
