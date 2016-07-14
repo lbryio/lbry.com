@@ -4,7 +4,7 @@
 <main >
   <div class="cover cover-dark cover-center cover-full" style="background-image:url(/img/cover-home3.jpg)">
     <h1 class="cover-title" id="art">Publish on LBRY</h1>
-    <div class="cover-subtitle" style="max-width: 550px; text-align: center">
+    <div class="cover-subtitle" style="max-width: 580px; text-align: center">
       <strong>Earn $1,000 and join the next content epoch: the viewer and you, with nobody in between.</strong>
     </div>
     <a href="#learn-more" class="btn-alt">Learn More</a>
@@ -62,7 +62,7 @@
           <h3 class="cover-title cover-title-tile cover-title-flat">How It Works</h3>
           <ul>
             <li>Publish five pieces of your original content with the LBRY app.</li>
-            <li>Set any price per view—from zero to dime to one million dollars — you’re in control.</li>
+            <li>Set any price per view — from zero to dime to one million dollars — you’re in control.</li>
             <li>Receive 100% of your list price in real time as it is streamed.</li>
             <li>Give us feedback and help us make this your video publishing paradise.</li>
             <li>
