@@ -79,6 +79,8 @@ class Controller
       case '/why':
       case '/feedback':
         return static::redirect('/learn', 301);
+      case '/faq/when-referral-payouts':
+        return static::redirect('/faq/referrals', 301);
     }
 
     $newsPattern = '#^' . ContentActions::URL_NEWS . '(/|$)#';

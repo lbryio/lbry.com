@@ -37,6 +37,11 @@ class View
       $vars = $actionClass::$method($vars);
     }
 
+    if ($vars === null)
+    {
+      return;
+    }
+
     extract($vars);
     ob_start();
     ob_implicit_flush(0);
