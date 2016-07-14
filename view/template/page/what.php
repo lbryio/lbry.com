@@ -1,6 +1,7 @@
 <?php Response::setMetaDescription('Access information and content in ways you never dreamed possible. Earn credits for your unused bandwidth and diskspace.') ?>
+<?php Response::setMetaTitle(__('Art in the Internet Age: An Introduction to LBRY')) ?>
 <?php NavActions::setNavUri('/learn') ?>
-<?php echo View::render('nav/header', ['isDark' => true, 'isAbsolute' => true]) ?>
+<?php echo View::render('nav/_header', ['isDark' => true, 'isAbsolute' => true]) ?>
 <main>
   <div class="cover cover-dark cover-center cover-full" style="background-image:url(/img/altamira-bison.jpg)">
     <h1 class="cover-title" id="art">Art in the Internet Age</h1>
@@ -239,9 +240,9 @@
       <p>Build our dream with us. Download LBRY at <a class="link-primary" href="https://lbry.io/get">lbry.io/get</a>.</p>
     </section>
   </div>
-  <?php echo View::render('nav/learnFooter') ?>
+  <?php echo View::render('nav/_learnFooter') ?>
 </main>
-<?php echo View::render('nav/footer') ?>
+<?php echo View::render('nav/_footer') ?>
 <?php /*
 
  <h3>Layer 1: Protocol</h3>

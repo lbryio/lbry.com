@@ -4,11 +4,11 @@ title: 'History Is Made - First Public Film Screenings via Blockchain at PorcFes
 date: '2016-06-30 00:09:00'
 ---
 
-Yes, the rumors are true. Last week, a major independent Hollywood film was publicly screened via blockchain – for the first time in history! 
+Yes, the rumors are true. Last week, a major independent Hollywood film was publicly screened via blockchain – for the first time in history!
 
-LBRY took its blockchain out for a test run at [PorcFest XIII](http://porcfest.com/), and we’re delighted to announce it was a resounding success. Even more so because the screening also marked the private reveal of our new and very exciting media partner, the most well-regarded independent film company out there. 
+LBRY took its blockchain out for a test run at [PorcFest XIII](http://porcfest.com/), and we’re delighted to announce it was a resounding success. Even more so because the screening also marked the private reveal of our new and very exciting media partner, the most well-regarded independent film company out there.
 
-The majority of the [LBRY team](https://lbry.io/team) attended PorcFest, which was the perfect event to spread the word of our platform. 
+The majority of the [LBRY team](https://lbry.io/team) attended PorcFest, which was the perfect event to spread the word of our platform.
 
 ![Jeremy speaking at PorcFest XIII](/img/lbryatpf.jpg)
 
@@ -22,7 +22,7 @@ In addition to the screening, Jeremy delivered a well-attended talk entitled, �
 
 Want to know more about the excellent films having their blockchain premiere on LBRY? Well, join our mailing list with the form below and keep an eye on your inbox this holiday weekend for a BIG announcement. Got your fireworks ready?
 
-If the suspense is killing you, then go ahead and start mining LBRY credits (LBC) today! Our blockchain is live and LBC can be mined right now via CPU. [Learn more here](https://lbry.io/news/lbry-blockchain-live-mine-lbc-now). 
+If the suspense is killing you, then go ahead and start mining LBRY credits (LBC) today! Our blockchain is live and LBC can be mined right now via CPU. [Learn more here](https://lbry.io/news/lbry-blockchain-live-mine-lbc-now).
 
 **PorcFest Media Mentions:**
 
@@ -30,18 +30,3 @@ Look at that! We received our first international coverage thanks to our appeara
 
 * [Au festival des libertariens: revolvers, bitcoins et blockchain](http://rue89.nouvelobs.com/2016/06/27/festival-libertariens-revolvers-bitcoins-blockchains-264478), *L'Obs*, June 27th
 * [Technology and Choice #08, Porcfest Potpourri](https://letstalkbitcoin.com/blog/post/technology-and-choice-08-porcfest-potpourri), *Let's Talk Bitcoin*, June 29th
-
-**Join LBRY's Mailing List:**
-
-<form action="/list-subscribe" method="post" novalidate>
-        <div class="mail-submit">
-      <input type="hidden" name="returnUrl" value="/"/>
-      <input type="hidden" name="listId" value="7b74c90030"/>
-      <input type="hidden" name="listSig" value="690df09388021bf1698897f4adbdf3c2"/>
-      <input type="email" value="" name="email" class="required email standard" placeholder="someone@somewhere.com">
-      <input type="submit" value="Go" name="subscribe" id="mc-embedded-subscribe" class="btn-alt">
-                    <input type="hidden" name="mergeFields" value="a:1:{s:3:&quot;CLI&quot;;s:2:&quot;No&quot;;}" />
-                    <div class="meta">
-          You will receive 1-2 messages a month, only from LBRY, Inc. and only about LBRY.          You can easily unsubscribe at any time.        </div>
-          </div>
-  </form>

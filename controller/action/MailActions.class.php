@@ -59,7 +59,7 @@ class MailActions extends Actions
     return true;
   }
 
-  public static function prepareJoinList(array $vars)
+  public static function prepareJoinListPartial(array $vars)
   {
     $vars['listSig'] = md5(serialize($vars));
     $vars += ['btnClass' => 'btn-primary', 'returnUrl' => $_SERVER['REQUEST_URI']];

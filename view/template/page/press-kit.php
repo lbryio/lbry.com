@@ -1,7 +1,7 @@
 <?php if (!isset($showHeader) || $showHeader): ?>
   <?php Response::setMetaDescription('LBRY Press Kit. Information and media for those who want to report on LBRY.') ?>
   <?php NavActions::setNavUri('/learn') ?>
-  <?php echo View::render('nav/header', ['isDark' => false]) ?>
+  <?php echo View::render('nav/_header', ['isDark' => false]) ?>
 <?php endif ?>
 <main>
   <div class="content content-light markdown">

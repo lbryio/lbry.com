@@ -18,4 +18,4 @@
     </div>
   </div>
 </main>
-<?php echo View::render('nav/footer') ?>
+<?php echo View::render('nav/_footer') ?>

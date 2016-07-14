@@ -75,7 +75,10 @@ class Controller
       case '/dl/lbry_setup.sh':
         return static::redirect('/get', 301);
       case '/art':
-        return static::redirect('/what');
+        return static::redirect('/what', 301);
+      case '/why':
+      case '/feedback':
+        return static::redirect('/learn', 301);
     }
 
     $newsPattern = '#^' . ContentActions::URL_NEWS . '(/|$)#';
