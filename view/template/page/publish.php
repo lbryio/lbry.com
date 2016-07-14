@@ -18,13 +18,13 @@
           <ul>
             <li>
               <h3>More, Better Profit</h3>
-              <p>Any price you charge for content settles near-instantly into an account only you control. You receive 100% of the price. Micro-payments (and free) supported.</p>
+              <p>Any price you charge for content settles near-instantly into an account only you control. You receive 100% of the price. Micro-payments (and free content) supported.</p>
             </li>
             <li>
               <h3>Open, Trustworthy Technology</h3>
               <p>
                 LBRY uses the ground-breaking innovation of the blockchain to leave no one in control of your content except for you (including us!).
-                LBRY is an open-source protocol that is controlled by it's users: we could not change the rules even if want to.
+                LBRY is an open-source protocol that is controlled by it's users: we could not change the rules even if wanted to.
               </p>
             </li>
             <li>
@@ -62,7 +62,7 @@
           <h3 class="cover-title cover-title-tile cover-title-flat">How It Works</h3>
           <ul>
             <li>Publish five pieces of your original content with the LBRY app.</li>
-            <li>Set any price per view—from zero to dime to dollar—you’re in control.</li>
+            <li>Set any price per view—from zero to dime to one million dollars — you’re in control.</li>
             <li>Receive 100% of your list price in real time as it is streamed.</li>
             <li>Give us feedback and help us make this your video publishing paradise.</li>
             <li>
