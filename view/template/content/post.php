@@ -22,6 +22,9 @@
     <div class="content">
       <?php echo $post->getContentHtml() ?>
     </div>
+    <?php if ($post->hasPrevNext()): ?>
+      <?php echo View::render('content/_postNav', ['post' => $post]) ?>
+    <?php endif ?>
   </section>
 
   <?php echo View::render('nav/_learnFooter', ['isDark' => false]) ?>

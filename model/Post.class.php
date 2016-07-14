@@ -165,7 +165,7 @@ class Post
 
   public function hasPrevNext()
   {
-    return $this->postType == 'post';
+    return $this->postType == 'news';
   }
 
   public function getAuthorName()
