@@ -6,7 +6,7 @@
     <div class="span6">
       <div class="cover cover-dark cover-dark-grad">
         <div class="content content-dark content-tile">
-          <h1 class="cover-title cover-title-tile" style="max-width: 660px; margin-left: auto; margin-right: auto;">LBRY in 100 Seconds</h1>
+          <h1 class="cover-title cover-title-tile">LBRY in 100 Seconds</h1>
           <?php echo View::render('download/_videoIntro') ?>
         </div>
       </div>
