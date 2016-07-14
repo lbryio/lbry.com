@@ -1,6 +1,6 @@
 <?php Response::setMetaDescription(__('Download/install the latest version of LBRY.'))  ?>
 <?php NavActions::setNavUri('/get') ?>
-<?php echo View::render('nav/header', ['isDark' => false]) ?>
+<?php echo View::render('nav/_header', ['isDark' => false]) ?>
 
 <main class="column-fluid">
   <div class="span7">
@@ -19,66 +19,7 @@
       <?php endif ?>
 
       <p>LBRY is currently in invite only mode. Enter your email to join the waitlist, or your email and invite code for access.</p>
-      <form method="POST" action="/signup" id="signup-form" class="hide">
-        <div class="hide">
-          <input type="hidden" name="referrer_id" value="<?php echo $_GET['r'] ?: $_POST['r'] ?>" />
-        </div>
-        <div class="form-row">
-          <label for="email">
-            <?php echo __('Email') ?>
-          </label>
-          <div class="form-input">
-            <input type="text" value="" name="email" class="required standard" placeholder="someone@somewhere.com">
-          </div>
-        </div>
-        <div class="form-row">
-          <label for="code_select">
-            <?php echo __('Invite Code') ?>
-          </label>
-          <div class="form-input">
-            <label class="label-radio">
-              <input name="code_select" type="radio" value="" />
-              None, but I want in as soon as possible!
-            </label>
-          </div>
-          <div class="form-input">
-            <label class="label-radio">
-              <input name="code_select" type="radio" value="yes" />
-              Yes
-            </label>
-          </div>
-          <div class="form-input has-code">
-            <input type="text" value="" name="code" class="required standard" placeholder="abc123">
-          </div>
-        </div>
-        <div class="invite-submit has-code">
-          <input type="submit" value="Access LBRY" name="subscribe" class="btn-alt">
-        </div>
-        <div class="invite-submit no-code">
-          <input type="submit" value="Join List" name="subscribe" class="btn-alt">
-        </div>
-      </form>
-      <?php js_start() ?>
-      (function(){
-        var form = $('#signup-form'),
-            codeRadioInputs = form.find('input[name="code_select"]');
-        codeRadioInputs.change(function() {
-          var selectedInput = codeRadioInputs.filter(':checked'),
-              choice = selectedInput.val(),
-              hasChoice = selectedInput.length,
-              hasCode = choice == 'yes';
-
-          form.find('.has-code')[hasChoice && hasCode ? 'show' : 'hide']();
-          form.find('.no-code')[hasChoice && !hasCode ? 'show' : 'hide']();
-          if (!hasCode)
-          {
-            form.find('input[name="code"]').val('');
-          }
-        }).change();
-
-        form.show();
-      })();
-      <?php js_end() ?>
+      <?php echo View::render('download/_signup') ?>
     </div>
   </div>
   <div class="span5">
@@ -86,4 +27,4 @@
   </div>
 </main>
 
-<?php echo View::render('nav/footer') ?>
+<?php echo View::render('nav/_footer') ?>

@@ -1,7 +1,7 @@
 <?php Response::setMetaDescription($post->getTitle()) ?>
 <?php Response::addMetaImages($post->getImageUrls()) ?>
 <?php NavActions::setNavUri('/news') ?>
-<?php echo View::render('nav/header') ?>
+<?php echo View::render('nav/_header') ?>
 <main>
   <header class="post-header <?php echo $post->getCover() ? 'with-cover' : ('no-cover'.$post->getCoverBackgroundStyle(4)) ?>"
           <?php echo $post->getCover() ? 'style="background-image: url(\'/img/blog-covers/' . $post->getCover() . '\')"' : ''?>
@@ -18,18 +18,17 @@
     </div>
   </header>
 
-  <div class="post-content">
-    <section class="content spacer2">
+  <section class="post-content">
+    <div class="content">
       <?php echo $post->getContentHtml() ?>
-    </section>
-    <?php if($post->hasPrevNext()): ?>
-      <?php echo View::render('content/_postNav', ['post' => $post]) ?>
-    <?php endif ?>
-  </div>
+    </div>
+  </section>
+
+  <?php echo View::render('nav/_learnFooter', ['isDark' => false]) ?>
 
   <?php if ($post->hasAuthor()): ?>
     <?php echo View::render('content/_postAuthor', ['post' => $post]) ?>
   <?php endif ?>
 
 </main>
-<?php echo View::render('nav/footer') ?>
+<?php echo View::render('nav/_footer') ?>

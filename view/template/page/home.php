@@ -1,7 +1,7 @@
 <div class="bg-image-full" style="background-image: url(/img/cover-home2.jpg)"></div>
 <?php Response::setMetaTitle(__('LBRY - Watch, Share, Earn')) ?>
 <?php Response::setMetaDescription(__('Meet LBRY, a content sharing and publishing platform that is decentralized and owned by it\'s users.')) ?>
-<?php echo View::render('nav/header', ['isDark' => true]) ?>
+<?php echo View::render('nav/_header', ['isDark' => true]) ?>
 <main class="column-fluid">
   <div class="span12">
     <div class="cover cover-dark">
@@ -50,7 +50,7 @@
         <div class="row-fluid">
           <div class="span4">
             <h3><?php echo __('Get Updates') ?></h3>
-            <?php echo View::render('mail/joinList', [
+            <?php echo View::render('mail/_joinList', [
               'submitLabel' => 'Go',
               'listId' => Mailchimp::LIST_GENERAL_ID,
               'mergeFields' => ['CLI' => 'No'],
