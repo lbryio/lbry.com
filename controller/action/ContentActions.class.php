@@ -72,14 +72,26 @@ class ContentActions extends Actions
     ]];
   }
 
-  public static function executePost($relativeUri)
+  public static function executeFaqPost($relativeUri)
   {
     $post = Post::load(ltrim($relativeUri, '/'));
     if (!$post)
     {
       return ['page/404', []];
     }
-    return ['content/post', [
+    return ['content/faq-post', [
+      'post' => $post
+    ]];
+  }
+
+  public static function executeNewsPost($relativeUri)
+  {
+    $post = Post::load(ltrim($relativeUri, '/'));
+    if (!$post)
+    {
+      return ['page/404', []];
+    }
+    return ['content/news-post', [
       'post' => $post,
       View::LAYOUT_PARAMS => [
         'showRssLink' => true

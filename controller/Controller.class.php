@@ -89,14 +89,14 @@ class Controller
       {
         return ContentActions::executeRss();
       }
-      return $slug ? ContentActions::executePost($uri) : ContentActions::executeNews();
+      return $slug ? ContentActions::executeNewsPost($uri) : ContentActions::executeNews();
     }
 
     $faqPattern = '#^' . ContentActions::URL_FAQ . '(/|$)#';
     if (preg_match($faqPattern, $uri))
     {
       $slug = preg_replace($faqPattern, '', $uri);
-      return $slug ? ContentActions::executePost($uri) : ContentActions::executeFaq();
+      return $slug ? ContentActions::executeFaqPost($uri) : ContentActions::executeFaq();
     }
     $noSlashUri = ltrim($uri, '/');
 
