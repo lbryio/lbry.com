@@ -70,14 +70,10 @@ class Controller
       case '/pln.pdf':
       case '/plan.pdf':
         return static::redirect('https://www.dropbox.com/s/uevjrwnyr672clj/lbry-pln.pdf?dl=1');
-      case '/dl/lbry_setup.sh':
-        return ['internal/dl-not-supported', ['_no_layout' => true]];
       case '/lbry-osx-latest.dmg':
-        // THIS ROUTE IS DEPRECATED. IT WILL BE REMOVED SOON.
-        return static::redirect('https://github.com/lbryio/lbry/releases/download/v0.2.5/lbry.0.2.5.dmg', 307);
       case '/lbry-linux-latest.deb':
-        // THIS ROUTE IS DEPRECATED. IT WILL BE REMOVED SOON.
-        return static::redirect('https://github.com/lbryio/lbry/releases/download/v0.2.5/lbry_0.2.5_amd64.deb', 307);
+      case '/dl/lbry_setup.sh':
+        return static::redirect('/get', 301);
       case '/art':
         return static::redirect('/what', 301);
       case '/why':
