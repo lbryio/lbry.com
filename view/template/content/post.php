@@ -27,7 +27,9 @@
     <?php endif ?>
   </section>
 
-  <?php echo View::render('nav/_learnFooter', ['isDark' => false]) ?>
+  <?php if ($post->hasLearnFooter()): ?>
+    <?php echo View::render('nav/_learnFooter', ['isDark' => false]) ?>
+  <?php endif ?>
 
   <?php if ($post->hasAuthor()): ?>
     <?php echo View::render('content/_postAuthor', ['post' => $post]) ?>
