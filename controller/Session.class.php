@@ -8,9 +8,9 @@
 class Session
 {
   const KEY_MAILCHIMP_LIST_IDS = 'mailchimp_list_ids',
-        KEY_DOWNLOAD_ACCESS_ERROR = 'download_error',
-        KEY_DOWNLOAD_REFERRAL_CODE = 'beta_referral_code',
-        KEY_DOWNLOAD_ALLOWED = 'beta_download_allowed',
+        KEY_DOWNLOAD_ACCESS_ERROR = 'download_error2',
+        KEY_DOWNLOAD_ALLOWED = 'beta_download_allowed2',
+        KEY_PREFINERY_USER_ID = 'prefinery_user_id',
         KEY_LIST_SUB_ERROR = 'list_error',
         KEY_LIST_SUB_SIGNATURE = 'list_sub_sig',
         KEY_LIST_SUB_SUCCESS = 'list_success',
