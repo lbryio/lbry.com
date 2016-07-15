@@ -12,7 +12,7 @@
         <?php echo $downloadHtml ?>
         <h4>Claim Credits</h4>
         <?php if ($prefineryUser): ?>
-          <p>Use email <strong><?php echo $prefineryUser['email'] ?></strong> and code you received via email after download to receive your credits.</p>
+          <p>After download, use email <strong><?php echo $prefineryUser['email'] ?></strong> and the code you received via email to receive your credits.</p>
           <div class="meta">If you received a printed code and it does not work after you download, check your email for a different code.</div>
         <?php endif ?>
       <?php else: ?>
