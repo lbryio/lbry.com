@@ -7,7 +7,7 @@ You can earn credits and move up the LBRY waitlist for referring others to use L
 
 ### How do referrals affect my status on the waitlist?
 
-The more LBRYians you refer, the sooner you will be removed from the waitlist and the more credits you earn.
+The more LBRYians you refer, the sooner you'll get off the waitlist and the more credits you'll earn.
 
 ### How many credits do I get?
 
@@ -20,7 +20,7 @@ Access the [Get](/get) page. If it does not already display your status when you
 
 ### When do I get my rewards?
 
-You will not receive any credits until you are removed from the waitlist. As soon as you are, you will receive an acceptance bonus. You will not receive rewards for each referral until those users join and use LBRY themselves. This is to combat referral fraud.
+You will not receive any credits until you get off the waitlist. As soon as you do, you will receive an acceptance bonus. You will not receive rewards for each referral until those users join and use LBRY themselves. This is to combat referral fraud.
 
 ### Is there a limit to the credits I can earn?
 
