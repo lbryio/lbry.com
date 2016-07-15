@@ -49,9 +49,8 @@
     <div class="hero-content-wrapper">
       <div class="hero-content">
         <blockquote>
-          <p>I am a quote that builds confidence in LBRY, because it is from a famous person that signals other prestigious people have made the choice I am currently considering.</p>
+          <p>Profit from connecting directly to your audience on your terms.</p>
         </blockquote>
-        <cite>Someone at Oscilloscope</cite>
       </div>
     </div>
   </div>
