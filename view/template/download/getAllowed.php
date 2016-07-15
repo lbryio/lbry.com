@@ -12,7 +12,8 @@
         <?php echo $downloadHtml ?>
         <h4>Claim Credits</h4>
         <?php if ($prefineryUser): ?>
-          <p>Use email <strong><?php echo $prefineryUser['email'] ?></strong> and code <strong><?php echo $prefineryUser['invitation_code'] ?></strong> after download to receive your credits.</p>
+          <p>Use email <strong><?php echo $prefineryUser['email'] ?></strong> and code you received via email after download to receive your credits.</p>
+          <div class="meta">If you received a printed code and it does not work after you download, check your email for a different code.</div>
         <?php endif ?>
       <?php else: ?>
         <?php echo View::render('download/_unavailable', [

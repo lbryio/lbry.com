@@ -155,10 +155,6 @@ class DownloadActions extends Actions
   {
     if (!static::findInPrefinery($email))
     {
-      if ($inviteCode)
-      {
-        throw new Exception('really???');
-      }
       $userData = Prefinery::createTester(array_filter([
         'email'           => $email,
         'status'          => $inviteCode ? 'invited' : 'applied',
