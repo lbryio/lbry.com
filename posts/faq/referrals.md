@@ -12,7 +12,8 @@ The more LBRYians you refer, the sooner you'll get off the waitlist and the more
 ### How many credits do I get?
 
 The current referral reward as well as the number of people you have referred can be seen on the [Get](/get) page.
-The referral award may change without warning.
+
+The referral award may change without warning or notice. You will always receive the number of credits being awarded at the time your referree joined the list.
 
 ### How do I see how many credits I've earned?
 
@@ -21,6 +22,10 @@ Access the [Get](/get) page. If it does not already display your status when you
 ### When do I get my rewards?
 
 You will not receive any credits until you get off the waitlist. As soon as you do, you will receive an acceptance bonus. You will not receive rewards for each referral until those users join and use LBRY themselves. This is to combat referral fraud.
+
+### How frequently do you take people off the waitlist?
+
+We anticipate taking anywhere from several hundreds to several thousand off each week. It depends on how development continues.
 
 ### Is there a limit to the credits I can earn?
 
