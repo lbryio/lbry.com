@@ -244,9 +244,23 @@ class Post
 
   public function getImageUrls()
   {
+    $urls = [];
+
+    $cover = $this->getCover();
+    if ($cover)
+    {
+      $urls[] = 'https://' .  $_SERVER['SERVER_NAME'] . '/img/' . $cover;
+    }
+
     $matches = [];
     preg_match_all('/!\[.*?\]\((.*?)\)/', $this->markdown, $matches);
-    return $matches ? $matches[1] : [];
+
+    if ($matches)
+    {
+      $urls = array_merge($urls, $matches[1]);
+    }
+
+    return $urls;
   }
 
   protected function markdownToText($markdown)

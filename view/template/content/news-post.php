@@ -17,7 +17,7 @@
       </div>
     </div>
   </header>
-
+  
   <section class="post-content">
     <div class="content">
       <?php echo $post->getContentHtml() ?>
@@ -30,6 +30,6 @@
   <?php if ($post->hasAuthor()): ?>
     <?php echo View::render('content/_postAuthor', ['post' => $post]) ?>
   <?php endif ?>
-  
+
 </main>
 <?php echo View::render('nav/_footer') ?>
