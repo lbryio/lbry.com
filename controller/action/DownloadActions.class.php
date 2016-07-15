@@ -6,8 +6,6 @@
  * @author jeremy
  */
 
-class PrefinerySubscribeException extends Exception {}
-
 class DownloadActions extends Actions
 {
   const OS_ANDROID = 'android',
@@ -29,6 +27,15 @@ class DownloadActions extends Actions
 
   public static function executeGet()
   {
+    if (static::param('e'))
+    {
+      if (!filter_var(static::param('e'), FILTER_VALIDATE_EMAIL) || !static::findInPrefinery(static::param('e')))
+      {
+        Session::unsetKey(Session::KEY_PREFINERY_USER_ID);
+        Session::unsetKey(Session::KEY_DOWNLOAD_ALLOWED);
+      }
+    }
+
     if (Session::get(Session::KEY_DOWNLOAD_ALLOWED))
     {
       return static::executeGetAccepted();
@@ -49,12 +56,11 @@ class DownloadActions extends Actions
     if ($os && isset($osChoices[$os]))
     {
       list($uri, $osTitle, $osIcon, $partial) = $osChoices[$os];
-      $inviteCode = Session::get(Session::KEY_DOWNLOAD_REFERRAL_CODE);
       return ['download/getAllowed', [
-        'inviteCode' => $inviteCode,
         'os' => $os,
         'osTitle' => $osTitle,
         'osIcon' => $osIcon,
+        'prefineryUser' => Session::get(Session::KEY_PREFINERY_USER_ID) ? Prefinery::findTesterById(Session::get(Session::KEY_PREFINERY_USER_ID)) : [],
         'downloadHtml' => View::exists('download/' . $partial) ?
           View::render('download/' . $partial, ['downloadUrl' => static::getDownloadUrl($os)]) :
           false
@@ -73,18 +79,6 @@ class DownloadActions extends Actions
     {
       Session::set(Session::KEY_DOWNLOAD_ACCESS_ERROR, 'Please provide a valid email. You provided: ' . $email);
     }
-    elseif ($code)
-    {
-      try
-      {
-        static::subscribeToPrefinery($email, $code);
-        Session::set(Session::KEY_DOWNLOAD_ALLOWED, true);
-      }
-      catch (PrefinerySubscribeException $e)
-      {
-        Session::set(Session::KEY_DOWNLOAD_ACCESS_ERROR, 'Your code is not valid. If you believe this is an error, please contact ' . Config::HELP_CONTACT_EMAIL);
-      }
-    }
     else
     {
       $referrerId = isset($_GET['referrer_id']) ? $_GET['referrer_id'] : (isset($_POST['referrer_id']) ? $_POST['referrer_id'] : null);
@@ -98,15 +92,16 @@ class DownloadActions extends Actions
       }
       try
       {
-        static::subscribeToPrefinery($email, null, $referrerId);
+        static::subscribeToPrefinery($email, $code, $referrerId);
       }
-      catch (PrefinerySubscribeException $e)
+      catch (PrefineryException $e)
       {
         $failure = true;
       }
 
       if ($failure)
       {
+        Session::set(Session::KEY_DOWNLOAD_ALLOWED, false);
         Session::set(Session::KEY_DOWNLOAD_ACCESS_ERROR,
           'We were unable to add you to the wait list. Received error "' . $e->getMessage() . '". Please contact ' . Config::HELP_CONTACT_EMAIL . ' if you think this is a mistake.' );
       }
@@ -126,82 +121,71 @@ class DownloadActions extends Actions
   public static function prepareSignupPartial(array $vars)
   {
     return $vars + [
+      'defaultEmail' => static::param('e'),
       'allowInviteCode' => true,
       'referralCode' => static::param('r', '')
     ];
   }
 
+  protected static function registerPrefineryUser($userData, $checkin = true)
+  {
+    Session::set(Session::KEY_DOWNLOAD_ALLOWED, in_array($userData['status'], ['active', 'invited']));
+    Session::set(Session::KEY_PREFINERY_USER_ID, $userData['id']);
+
+    if ($checkin)
+    {
+//check-in changes status and should not be used
+//      Prefinery::checkIn($userData['id']);
+    }
+  }
+
+  public static function findInPrefinery($emailOrId)
+  {
+    $userData = is_numeric($emailOrId) ? Prefinery::findTesterById($emailOrId) : Prefinery::findTesterByEmail($emailOrId);
+
+    if ($userData)
+    {
+      static::registerPrefineryUser($userData);
+    }
+
+    return (boolean)$userData;
+  }
+
   public static function subscribeToPrefinery($email, $inviteCode = null, $referrerId = null)
   {
-    $apiKey = Config::get('prefinery_key');
-    $options = [
-      'headers' => [
-        'Accept: application/json',
-        'Content-type: application/json'
-      ],
-      'json_post' => true
+    if (!static::findInPrefinery($email))
+    {
+      if ($inviteCode)
+      {
+        throw new Exception('really???');
+      }
+      $userData = Prefinery::createTester(array_filter([
+        'email'           => $email,
+        'status'          => $inviteCode ? 'invited' : 'applied',
+        'invitation_code' => $inviteCode,
+        'referrer_id'     => $referrerId,
+        'profile'         => ['ip' => $_SERVER['REMOTE_ADDR'], 'user_agent' => $_SERVER['HTTP_USER_AGENT']]
+      ]));
+
+      static::registerPrefineryUser($userData, false);
+    }
+  }
+
+  public static function prepareReferPartial(array $vars)
+  {
+    if (!Session::get(Session::KEY_PREFINERY_USER_ID))
+    {
+      return null;
+    }
+
+    $prefineryUser = Prefinery::findTesterById(Session::get(Session::KEY_PREFINERY_USER_ID));
+
+    preg_match('/\?r\=(\w+)/', $prefineryUser['share_link'], $matches);
+
+    return $vars + [
+      'prefineryUser' => $prefineryUser,
+      'referralCode' => $matches[1] ?: 'unknown'
     ];
-
-    $listUrl = 'https://lbry.prefinery.com/api/v2/betas/8679/testers.json?api_key=' . $apiKey;
-
-    $body = Curl::get($listUrl, ['email' => $email], $options);
-
-    if (!$body)
-    {
-      throw new PrefinerySubscribeException('Empty cURL response.');
-    }
-
-    $data = json_decode($body, true);
-
-    if ($data && is_array($data) && count($data) && isset($data[0]['share_link']))
-    {
-      $shareLink = $data[0]['share_link'];
-    }
-    else
-    {
-      $createUrl = 'https://lbry.prefinery.com/api/v2/betas/8679/testers.json?api_key=' . $apiKey;
-
-      $params = [
-        'tester' => array_filter([
-          'email'           => $email,
-          'status'          => $inviteCode ? 'active' : 'applied',
-          'invitation_code' => $inviteCode,
-          'referrer_id'     => $referrerId,
-          'profile' => ['ip' => $_SERVER['REMOTE_ADDR'], 'user_agent' => $_SERVER['HTTP_USER_AGENT']]
-        ])
-      ];
-
-      $body = Curl::post($createUrl, $params, $options);
-
-      if (!$body)
-      {
-        throw new PrefinerySubscribeException('Empty cURL response.');
-      }
-
-      $data = json_decode($body, true);
-
-      if (!$data)
-      {
-        throw new PrefinerySubscribeException('Received empty response.');
-      }
-      else if (isset($data['errors']))
-      {
-        throw new PrefinerySubscribeException(implode("\n", array_map(function($error) {
-          return $error['message'];
-        }, (array)$data['errors'])));
-      }
-      else if (!isset($data['share_link']))
-      {
-        throw new PrefinerySubscribeException('Missing share_link');
-      }
-
-      $shareLink = $data['share_link'];
-    }
-
-    preg_match('/\?r\=(\w+)/', $shareLink, $matches);
-    Session::set(Session::KEY_DOWNLOAD_REFERRAL_CODE, $matches[1] ?: 'unknown');
-
-    return true;
   }
 
   protected static function guessOs()

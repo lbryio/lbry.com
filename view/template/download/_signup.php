@@ -7,7 +7,7 @@
       <?php echo __('Email') ?>
     </label>
     <div class="form-input">
-      <input type="text" value="" name="email" class="required standard" placeholder="someone@somewhere.com">
+      <input type="text" value="<?php echo $defaultEmail ?>" name="email" class="required standard" placeholder="someone@somewhere.com">
     </div>
   </div>
   <?php if ($allowInviteCode): ?>

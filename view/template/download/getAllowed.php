@@ -8,19 +8,23 @@
       <h1>LBRY for <?php echo $osTitle ?> <span class="<?php echo $osIcon ?>"></span></h1>
       <?php if ($downloadHtml): ?>
         <?php echo View::render('download/_betaNotice') ?>
+        <h4>Download</h4>
         <?php echo $downloadHtml ?>
+        <h4>Claim Credits</h4>
+        <?php if ($prefineryUser): ?>
+          <p>Use email <strong><?php echo $prefineryUser['email'] ?></strong> and code <strong><?php echo $prefineryUser['invitation_code'] ?></strong> after download to receive your credits.</p>
+        <?php endif ?>
       <?php else: ?>
         <?php echo View::render('download/_unavailable', [
           'os' => $os
         ]) ?>
       <?php endif ?>
-      <h3>Share and Earn</h3>
-      <p>Earn <?php echo i18n::formatCredits(10) ?> per referral by sharing this URL:</p>
-      <p><a href="/get?r=<?php echo Session::get(Session::KEY_DOWNLOAD_REFERRAL_CODE) ?>" class="link-primary">https://lbry.io/get?r=<?php echo Session::get(Session::KEY_DOWNLOAD_REFERRAL_CODE) ?></a></p>
-      <?php echo View::render('download/_reward', [
-        'inviteCode' => $inviteCode
-      ]) ?>
     </div>
+    <?php if ($prefineryUser): ?>
+      <div class="cover cover-light content content-stretch content-light">
+        <?php echo View::render('download/_refer') ?>
+      </div>
+    <?php endif ?>
   </div>
   <div class="span5">
     <?php echo View::render('download/_list', [
