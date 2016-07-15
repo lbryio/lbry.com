@@ -249,7 +249,7 @@ class Post
     $cover = $this->getCover();
     if ($cover)
     {
-      $urls[] = 'https://' .  $_SERVER['SERVER_NAME'] . '/img/' . $cover;
+      $urls[] = 'https://' .  $_SERVER['SERVER_NAME'] . '/img/blog-covers/' . $cover;
     }
 
     $matches = [];
