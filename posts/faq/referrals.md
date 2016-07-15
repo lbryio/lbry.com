@@ -7,7 +7,7 @@ You can earn credits and move up the LBRY waitlist for referring others to use L
 
 ### How do referrals affect my status on the waitlist?
 
-The more LBRYians you refer, the sooner you'll get off the waitlist and the more credits you'll earn.
+The more LBRYians you refer, the sooner you'll be granted access and the more credits you'll earn.
 
 ### How many credits do I get?
 
