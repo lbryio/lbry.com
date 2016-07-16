@@ -1,5 +1,5 @@
 <div class="bg-image-full" style="background-image: url(/img/cover-home2.jpg)"></div>
-<?php Response::setMetaTitle(__('LBRY - Watch, Share, Earn')) ?>
+<?php Response::setMetaTitle(__('LBRY - Play, Share, Earn')) ?>
 <?php Response::setMetaDescription(__('Meet LBRY, a content sharing and publishing platform that is decentralized and owned by it\'s users.')) ?>
 <?php echo View::render('nav/_header', ['isDark' => true]) ?>
 <main class="column-fluid">
