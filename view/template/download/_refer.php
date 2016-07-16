@@ -33,7 +33,7 @@
   }
   else
   {
-    echo 'Wow! You are too good at this. Please contact us at ' . Config::HELP_CONTACT_EMAIL . ' to make sure we can count all of these.';
+    echo 'Wow! You are too good at this. Please contact us at ' . Config::HELP_CONTACT_EMAIL . ' to make sure we can count all of these. We will also stop sending you an email for each referral, but you can always check back here.';
   }
 ?>
 </p>
