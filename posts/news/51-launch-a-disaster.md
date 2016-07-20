@@ -17,9 +17,9 @@ A groundbreaking content distribution platform is useless without great content.
 
 The film stars David Cross (*Arrested Development, Mr. Show*), Julia Stiles (*The Bourne Ultimatum, Dexter*), and was produced by some of Hollywood’s brightest rising talent. The setting for this dark comedy is a regular Sunday brunch attended by four couples. The gathering is filled with the tension and awkwardness audiences have grown to love in Cross’ performances. The strained brunch goes even further off the rails when a deadly chemical attack occurs in the nearby city, apparently dooming the attendees to an unpleasant death.
 
-*It’s a Disaster* is [Certified Fresh on Rotten Tomatoes](https://www.rottentomatoes.com/m/its_a_disaster/), with a score of 78%. It won [3 film festival awards](http://www.imdb.com/title/tt1995341/awards?ref_=tt_awd) when it was released, including Best Feature at both the Edmonton International and the New Orleans Film Festivals. The Critics Consensus on Rotten Tomatoes reads:
+*It’s a Disaster* is [Certified Fresh on Rotten Tomatoes](https://www.rottentomatoes.com/m/its_a_disaster/). It won [3 film festival awards](http://www.imdb.com/title/tt1995341/awards?ref_=tt_awd) when it was released, including Best Feature at both the Edmonton International and the New Orleans Film Festivals. Jim Emerson reviewed it for [RogerEbert.com](http://www.rogerebert.com/reviews/its-a-disaster-2013), giving it a solid recommendation:
 
->“A clever black comedy, It's a Disaster is sometimes uneven but the sharp writing and stellar ensemble cast keeps the film on track.”
+>“The movie’s funniest touches are quiet flashes of character, expertly timed and nimbly played by a deft ensemble. “It’s a Disaster” is consistently funny, but you wince more often than you laugh out loud. It’s like a Christopher Guest improvisational farce with the volume turned down to 5.”
 
 This is the first film for LBRY users from [Oscilloscope Laboratories](http://www.oscilloscope.net/films/), one of the most respected indie film distribution companies in Hollywood. Oscilloscope was founded by the late Beastie Boy, Adam Yauch, aka MCA.
 
