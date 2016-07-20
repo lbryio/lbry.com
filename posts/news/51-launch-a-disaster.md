@@ -1,6 +1,6 @@
 ---
 author: lbry
-title: 'LBRY Launch a Disaster'
+title: 'LBRY Launch A Disaster'
 date: '2016-07-20 00:06:18'
 ---
 Thanks to our intrepid Content Curator, [Reilly Smith](https://lbry.io/team), LBRY’s beta release was a disaster.
