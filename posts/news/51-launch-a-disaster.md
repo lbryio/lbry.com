@@ -19,7 +19,7 @@ The film stars David Cross (*Arrested Development, Mr. Show*), Julia Stiles (*Th
 
 *It’s a Disaster* is [Certified Fresh on Rotten Tomatoes](https://www.rottentomatoes.com/m/its_a_disaster/). It won [3 film festival awards](http://www.imdb.com/title/tt1995341/awards?ref_=tt_awd) when it was released, including Best Feature at both the Edmonton International and the New Orleans Film Festivals. Jim Emerson reviewed it for [RogerEbert.com](http://www.rogerebert.com/reviews/its-a-disaster-2013), giving it a solid recommendation:
 
->“The movie’s funniest touches are quiet flashes of character, expertly timed and nimbly played by a deft ensemble. “It’s a Disaster” is consistently funny, but you wince more often than you laugh out loud. It’s like a Christopher Guest improvisational farce with the volume turned down to 5.”
+>“The movie’s funniest touches are quiet flashes of character, expertly timed and nimbly played by a deft ensemble. *It’s a Disaster* is consistently funny, but you wince more often than you laugh out loud. It’s like a Christopher Guest improvisational farce with the volume turned down to 5.”
 
 This is the first film for LBRY users from [Oscilloscope Laboratories](http://www.oscilloscope.net/films/), one of the most respected indie film distribution companies in Hollywood. Oscilloscope was founded by the late Beastie Boy, Adam Yauch, aka MCA.
 
