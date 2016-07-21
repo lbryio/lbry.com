@@ -1,3 +1,13 @@
+# This file contains the text of the LBRY website, organized with labels.
+# Text segments are organized hierarchically. For any given language, the user's
+# browser will look at the corresponding language file for the appropriate label
+# and render the segment in the correct language.
+# For example, global.tagline renders as "Play, Share, Earn" if the user's langu
+# age settings are set to English, and the same label renders as "Assista, Compa
+# rtilhe, Ganhe" if the user's settings are set to Portuguese.
+#
+# 
+
 global:
   tagline: Play, Share, Earn.
   sentence: Watch, read and play in a decentralized digital library controlled by the community.
@@ -56,16 +66,22 @@ page:
       header: You
       title: Developer, Designer, Economist, Marketer, Investor, ???
       parag1: Do you think opening up information would facilitate human flourishing? Do you want to join a bright core of people with an obsession for upending broken systems? <a href="mailto:jeremy@lbry.io" class="link-primary">Say hello.</a>
+      advheader: Technical or Media Advisor
+      advtext: LBRY is seeking an extremely experienced technical advisor or an advisor with a strong background in the publishing and media space. If you're that person or have a suggestion, <a href="mailto:jeremy@lbry.io?subject=Advisor" class="link-primary">let us know</a>.
     advisory: Advisory Team
     alex:
       title: Economic Advisor
       parag1: Alex Tabarrok is Bartley J. Madden Chair in Economics at the <a href="http://mercatus.org/" class="link-primary">Mercatus Center</a> and a professor of economics at <a href="https://gmu.edu" class="link-primary">George Mason University</a>. He specializes in intellectual property reform, the effectiveness of markets, and the justice system.
       parag2: Tabarrok is the coauthor, with Mercatus colleague Tyler Cowen, of the popular economics blog <a class="link-primary" href="http://www.marginalrevolution.com/"><em>Marginal Revolution</em></a> and cofounder of the online educational platform <a class="link-primary" href="http://mruniversity.com/">Marginal Revolution University</a>. He is the coauthor of <em><a href="http://www.amazon.com/Modern-Principles-Economics-Tyler-Cowen/dp/1429239972" class="link-primary">Modern Principles of Economics</a></em>, and author of the recent book <em><a href="http://www.amazon.com/Launching-The-Innovation-Renaissance-Market-ebook/dp/B006C1HX24" class="link-primary">Launching the Innovation Renaissance</em></a>. His articles have appeared in the<em> New York Times</em>, the<em> Washington Post</em>, the<em> Wall Street Journal</em>, and many other prestigious publications.
-      parag3: Tabarrok received his PhD in economics from <a class="link-primary" href="http://en.wikipedia.org/wiki/George_Mason_University" title="George Mason University">George Mason University</a>.
+      parag3: Tabarrok received his PhD in economics from <a class="link-primary" href="http://en.wikipedia.org/wiki/George_Mason_University" title="George Mason University">George Mason University</a>. 
     stephan:
       title: Legal Advisor
-      parag1: Stephan Kinsella is a registered patent attorney and has over twenty years’ experience in patent, intellectual property, and general commercial and corporate law. He is the founder and director of the <a href="http://c4sif.org/" class="link-primary">Center for the Study of Innovative Freedom</a>. Kinsella has published numerous articles and books on intellectual property law and legal topics including <a href="http://www.amazon.com/International-Investment-Political-Dispute-Resolution/dp/0379215225" class="link-primary"> <em>International Investment, Political Risk, and Dispute Resolution: A Practitioner’s Guide</em> </a> and <a href="https://mises.org/library/against-intellectual-property-0" class="link-primary"><em>Against Intellectual Property</em></a>.
+      parag1: Stephan Kinsella is a registered patent attorney and has over twenty years’ experience in patent, intellectual property, and general commercial and corporate law. He is the founder and director of the <a href="http://c4sif.org/" class="link-primary">Center for the Study of Innovative Freedom</a>. Kinsella has published numerous articles and books on intellectual property law and legal topics including <a href="http://www.amazon.com/International-Investment-Political-Dispute-Resolution/dp/0379215225" class="link-primary"> <em>International Investment, Political Risk, and Dispute Resolution() A Practitioner’s Guide</em> </a> and <a href="https://mises.org/library/against-intellectual-property-0" class="link-primary"><em>Against Intellectual Property</em></a>.
       parag2: He received an LL.M. in international business law from <a href="http://www.kcl.ac.uk/" class="link-primary">King’s College London</a>, a JD from the Paul M. Hebert Law Center at <a href="//lsu.edu" class="link-primary">Lousiana State University</a>, as well as BSEE and MSEE degrees. His websites are <a href="stephankinsella.com" class="link-primary">stephankinsella.com</a> and <a href="kinsellalaw.com" class="link-primary">kinsellalaw.com</a>
+    michael:
+      title: Ethical Advisor
+      parag1: Michael Huemer is Professor of Philosophy and Ethics at the <a href="//www.colorado.edu/" class="link-primary">University of Colorado</a>, where he has taught since 1998. He has published three single-author scholarly books (including <em><a href="http://www.amazon.com/Ethical-Intuitionism-Michael-Huemer/dp/0230573746" class="link-primary">Ethical Intuitionism</a></em>), one edited anthology, and more than fifty academic articles in  epistemology, ethics, political philosophy, and metaphysics.
+      parag2: Huemer's articles have appeared in such journals as the <em>Philosophical Review</em>, <em>Mind</em>, the <em>Journal of Philosophy</em>, <em>Ethics</em>, and others. His materials are used as readings in classrooms nationwide. He received a B.A. from UC Berkeley and a Ph.D. from Rutgers University.
 social:
   tweets: Tweets by @LBRYio
 download:

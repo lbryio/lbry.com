@@ -184,16 +184,12 @@
         </div>
         <div>
           <h4>Michael Huemer</h4>
-          <div class="meta  spacer1">{{page.team.michael.title}}Ethical Advisor</div>
+          <div class="meta  spacer1">{{page.team.michael.title}}</div>
           <p>
-            {{page.team.michael.parag1}}Michael Huemer is Professor of Philosophy and Ethics at the <a href="//www.colorado.edu/" class="link-primary">University of Colorado</a>,
-            where he has taught since 1998. He has published three single-author scholarly books
-          (including <em><a href="http://www.amazon.com/Ethical-Intuitionism-Michael-Huemer/dp/0230573746" class="link-primary">Ethical Intuitionism</a></em>),
-          one edited anthology, and more than fifty academic articles in  epistemology, ethics, political philosophy, and metaphysics.
+            {{page.team.michael.parag1}}
           </p>
           <p>
-          {{page.team.michael.parag2}}Huemer's articles have appeared in such journals as the <em>Philosophical Review</em>, <em>Mind</em>, the <em>Journal of Philosophy</em>, <em>Ethics</em>, and others.
-          His materials are used as readings in classrooms nationwide. He received a B.A. from UC Berkeley and a Ph.D. from Rutgers University.
+          {{page.team.michael.parag2}}
           </p>
         </div>
       </div>
@@ -202,12 +198,10 @@
           <img src="/img/spooner-644x450.jpg" alt="you!"/>
         </div>
         <div>
-          <h4>You</h4>
-          <div class="meta  spacer1">Technical or Media Advisor</div>
+          <h4>{{page.team.you.header}}</h4>
+          <div class="meta  spacer1">{{page.team.you.advheader}}</div>
           <p>
-            LBRY is seeking an extremely experienced technical advisor or an advisor with a strong background in the publishing and media space.
-            If you're that person or have a suggestion,
-            <a href="mailto:jeremy@lbry.io?subject=Advisor" class="link-primary">let us know</a>.
+            {{page.team.you.advtext}}
           </p>
         </div>
       </div>
