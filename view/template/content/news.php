@@ -1,5 +1,5 @@
-<?php Response::setMetaDescription('description.news') ?>
-<?php echo View::render('nav/header', ['isDark' => false]) ?>
+<?php Response::setMetaDescription(__('description.news')) ?>
+<?php echo View::render('nav/_header', ['isDark' => false]) ?>
 <main>
   <div class="hero hero-quote hero-img spacer2" style="background-image: url(/img/cover-team.jpg)">
     <div class="hero-content-wrapper">
@@ -19,6 +19,6 @@
         </div>
       </div>
     <?php endforeach ?>
-  </section>>
+  </section>
 </main>
-<?php echo View::render('nav/footer') ?>
+<?php echo View::render('nav/_footer') ?>

@@ -1,4 +1,28 @@
 @import "global";
+
+pre, code
+{
+  background-color: #f1f1f1;
+}
+code
+{
+  padding: 3px 5px;
+  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, monospace, serif;
+  font-size: 90%;
+  color: darken($color-primary, 10%);
+}
+pre
+{
+  > code {
+    padding: 0;
+  }
+  margin-bottom: $spacing-vertical;
+  border-left: .3rem solid $color-primary;
+  padding: 10px 20px;
+  white-space: pre-wrap;
+}
+
+
 .code-bash
 {
   -webkit-user-select: text;

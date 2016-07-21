@@ -1,4 +1,4 @@
-<?php echo View::render('nav/header', ['isDark' => false]) ?>
+<?php echo View::render('nav/_header', ['isDark' => false]) ?>
 <main>
   <div class="content">
     <h1>Page Not Found</h1>

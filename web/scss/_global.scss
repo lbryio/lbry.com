@@ -140,3 +140,11 @@ $font-body: 'Raleway', sans-serif;
   height:1px;
   overflow:hidden;
 }
+
+@mixin jumpingScrollbarFix() {
+  // Fix for jumping scrollbar: https://aykevl.nl/2014/09/fix-jumping-scrollbar
+  @media screen and (min-width: 35em) {
+    margin-left: calc(100vw - 100%);
+    margin-right: 0;
+  }
+}

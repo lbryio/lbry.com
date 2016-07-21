@@ -1,7 +1,13 @@
 <div class="bg-image-full" style="background-image: url(/img/cover-home2.jpg)"></div>
+<<<<<<< HEAD:view/template/content/home.php
 <?php Response::setMetaTitle(__('title.home')) ?>
 <?php Response::setMetaDescription(__('description.home')) ?>
 <?php echo View::render('nav/header', ['isDark' => true]) ?>
+=======
+<?php Response::setMetaTitle(__('LBRY - Play, Share, Earn')) ?>
+<?php Response::setMetaDescription(__('Meet LBRY, a content sharing and publishing platform that is decentralized and owned by it\'s users.')) ?>
+<?php echo View::render('nav/_header', ['isDark' => true]) ?>
+>>>>>>> master:view/template/page/home.php
 <main class="column-fluid">
   <div class="span12">
     <div class="cover cover-dark">
@@ -34,21 +40,25 @@
  */ ?>
         <div class="control-group spacer2 text-center">
           <div class="control-item">
+<<<<<<< HEAD:view/template/content/home.php
             <a href="/get" class="btn-primary">{{page.home.primary_button}}</a>
+=======
+            <a href="/get" class="btn-primary">Early Access</a>
+>>>>>>> master:view/template/page/home.php
           </div>
           <div class="control-item">
             <a href="/learn" class="btn-alt">{{page.home.learn_button}}</a>
           </div>
         </div>
         <div class="video" style="margin-bottom: 80px">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/BNtivEJKHxI" frameborder="0" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/DjouYBEkQPY" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
       <div class="content content-dark">
         <div class="row-fluid">
           <div class="span4">
             <h3><?php echo __('Get Updates') ?></h3>
-            <?php echo View::render('mail/joinList', [
+            <?php echo View::render('mail/_joinList', [
               'submitLabel' => 'Go',
               'listId' => Mailchimp::LIST_GENERAL_ID,
               'mergeFields' => ['CLI' => 'No'],

@@ -11,7 +11,7 @@ html
 body
 {
     font-family: $font-body;
-    line-height: 1.3333;
+    line-height: 1.5;
     min-height: 100%;
     position: relative;
 }
@@ -32,7 +32,6 @@ body
 }
 iframe, img { max-width: 100%; }
 iframe { margin: 0 auto; display: block; }
-code { font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, monospace, serif; }
 
 h1, h2, h3, h4, h5, h6
 {
@@ -79,7 +78,7 @@ section
 .align-left { float: left; }
 .align-right { float: right; }
 
-.link-primary
+.link-primary, .markdown a[href]:not([class])
 {
   @include anchor($color-primary);
 }
@@ -121,7 +120,10 @@ a:hover img
   text-decoration: none;
   border: 0 none;
   text-align: center;
-
+  > .icon + .btn-label
+  {
+    margin-left: 8px;
+  }
 }
 .btn-primary
 {

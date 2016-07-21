@@ -24,8 +24,28 @@ class ContentActions extends Actions
   public static function executeFaq()
   {
     $posts = Post::find(static::VIEW_FOLDER_FAQ);
+
+    $groupNames = [
+      'getstarted' => 'Getting Started',
+      'install'    => 'Installing LBRY',
+      'running'    => 'Running LBRY',
+      'wallet'     => 'The LBRY Wallet',
+      'hosting'    => 'Hosting Content',
+      'mining'     => 'Mining LBC',
+      'developer'  => 'Developers',
+      'other'      => 'Other Questions',
+    ];
+
+    $groups = array_fill_keys(array_keys($groupNames), []);
+
+    foreach($posts as $post)
+    {
+      $groups[isset($groupNames[$post->getCategory()]) ? $post->getCategory() : 'other'][] = $post;
+    }
+
     return ['content/faq', [
-      'posts' => $posts
+      'groupNames' => $groupNames,
+      'postGroups' => $groups
     ]];
   }
 
@@ -52,19 +72,105 @@ class ContentActions extends Actions
     ]];
   }
 
-  public static function executePost($relativeUri)
+  public static function executeNewsPost($relativeUri)
   {
     $post = Post::load(ltrim($relativeUri, '/'));
     if (!$post)
     {
       return ['page/404', []];
     }
-    return ['content/post', [
+    return ['content/news-post', [
       'post' => $post,
       View::LAYOUT_PARAMS => [
         'showRssLink' => true
       ]
     ]];
+  }
+
+  public static function executeFaqPost($relativeUri)
+  {
+    $post = Post::load(ltrim($relativeUri, '/'));
+    if (!$post)
+    {
+      return ['page/404', []];
+    }
+    return ['content/faq-post', [
+      'post' => $post,
+    ]];
+  }
+
+  public static function executePressKit()
+  {
+    $zipFileName = 'lbry-press-kit-' . date('Y-m-d') . '.zip';
+    $zipPath = tempnam('/tmp', $zipFileName);
+
+    $zip = new ZipArchive();
+    $zip->open($zipPath, ZipArchive::OVERWRITE);
+
+//    $pageHtml = View::render('page/press-kit', ['showHeader' => false]);
+//    $html = <<<EOD
+//<!DOCTYPE html>
+//<html>
+//    <head prefix="og: http://ogp.me/ns#">
+//        <title>LBRY Press Kit</title>
+//        <link href='https://fonts.googleapis.com/css?family=Raleway:300,300italic,400,400italic,700' rel='stylesheet' type='text/css'>
+//        <link href="https://lbry.io/css/all.css" rel="stylesheet" type="text/css" media="screen,print" />
+//    </head>
+//    <body>
+//      $pageHtml
+//    </body>
+//</html>
+//EOD;
+//
+//    $zip->addFromString('press.html', $html);
+
+    foreach(glob(ROOT_DIR . '/web/img/press/*') as $productImgPath)
+    {
+      $imgPathTokens = explode('/', $productImgPath);
+      $imgName = $imgPathTokens[count($imgPathTokens) - 1];
+      $zip->addFile($productImgPath, '/logo_and_product/' . $imgName);
+    }
+
+    foreach(glob(ROOT_DIR . '/posts/bio/*.md') as $bioPath)
+    {
+      list($metadata, $bioHtml) = View::parseMarkdown($bioPath);
+      $zip->addFile($bioPath, '/team_bios/' . $metadata['name'] . ' - ' . $metadata['role'] . '.txt');
+    }
+
+    foreach(array_filter(glob(ROOT_DIR . '/web/img/team/*.jpg'), function($path) {
+      return strpos($path, 'spooner') === false;
+    }) as $bioImgPath)
+    {
+      $imgPathTokens = explode('/', $bioImgPath);
+      $imgName = str_replace('644x450', 'lbry', $imgPathTokens[count($imgPathTokens) - 1]);
+      $zip->addFile($bioImgPath, '/team_photos/' . $imgName);
+    }
+
+
+    $zip->close();
+
+    return ['internal/zip', [
+      '_no_layout' => true,
+      'zipPath' => $zipPath
+    ], [
+      'Content-Disposition' => 'attachment;filename=' . $zipFileName,
+      'X-Content-Type-Options' => 'nosniff',
+      'Content-Type' => 'application/zip',
+      'Content-Length' => filesize($zipPath),
+    ]];
+  }
+
+  public static function prepareBioPartial(array $vars)
+  {
+    $person = $vars['person'];
+    $path = 'bio/' . $person . '.md';
+    list($metadata, $bioHtml) = View::parseMarkdown($path);
+    $relativeImgSrc = '/img/team/' . $person . '-644x450.jpg';
+    $imgSrc = file_exists(ROOT_DIR . '/web' . $relativeImgSrc) ? $relativeImgSrc : '/img/team/spooner-644x450.jpg';
+    return $metadata + [
+      'imgSrc' => $imgSrc,
+      'bioHtml' => $bioHtml,
+    ];
   }
 
   public static function preparePostAuthorPartial(array $vars)

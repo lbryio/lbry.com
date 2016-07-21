@@ -14,11 +14,13 @@ class View
 {
   const LAYOUT_PARAMS = '_layout_params';
 
-  protected static $metaDescription = '',
-                   $metaImg = '';
-
   public static function render($template, array $vars = [])
   {
+    if (static::isMarkdown($template))
+    {
+      return static::markdownToHtml(static::getFullPath($template));
+    }
+
     if (!static::exists($template) || substr_count($template, '/') !== 1)
     {
       throw new InvalidArgumentException(sprintf('The template "%s" does not exist or is unreadable.', $template));
@@ -33,6 +35,11 @@ class View
     if (method_exists($actionClass, $method))
     {
       $vars = $actionClass::$method($vars);
+    }
+
+    if ($vars === null)
+    {
+      return;
     }
 
     extract($vars);
@@ -54,13 +61,32 @@ class View
     return static::interpolateTokens(ob_get_clean());
   }
 
+  public static function markdownToHtml($path)
+  {
+    return ParsedownExtra::instance()->text(trim(file_get_contents($path)));
+  }
+
   public static function exists($template)
   {
     return is_readable(static::getFullPath($template));
   }
 
+  protected static function isMarkdown($nameOrPath)
+  {
+    return strlen($nameOrPath) > 3 && substr($nameOrPath, -3) == '.md';
+  }
+
   protected static function getFullPath($template)
   {
+    if ($template && $template[0] == '/')
+    {
+      return $template;
+    }
+    if (static::isMarkdown($template))
+    {
+      return ROOT_DIR . '/posts/' . $template;
+    }
+
     return ROOT_DIR . '/view/template/' . $template . '.php';
   }
 
@@ -69,24 +95,13 @@ class View
     return '/img/' . $image;
   }
 
-  public static function setMetaDescription($description)
+  public static function parseMarkdown($template)
   {
-    static::$metaDescription = $description;
-  }
-
-  public static function setMetaImage($url)
-  {
-    static::$metaImg = $url;
-  }
-
-  public static function getMetaDescription()
-  {
-    return static::$metaDescription ?: 'A Content Revolution';
-  }
-
-  public static function getMetaImage()
-  {
-    return static::$metaImg ?: '//lbry.io/img/lbry-dark-1600x528.png';
+    $path = static::getFullPath($template);
+    list($ignored, $frontMatter, $markdown) = explode('---', file_get_contents($path), 3);
+    $metadata = Spyc::YAMLLoadString(trim($frontMatter));
+    $html = ParsedownExtra::instance()->text(trim($markdown));
+    return [$metadata, $html];
   }
 
   public static function compileCss()

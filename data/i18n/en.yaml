@@ -12,13 +12,19 @@ global:
   tagline: Play, Share, Earn.
   sentence: Watch, read and play in a decentralized digital library controlled by the community.
 title:
-  home: LBRY - Watch, Share, Earn
+  home: LBRY - Play, Share, Earn
+  what: "Art in the Internet Age: An Introduction to LBRY"
+  learn: Learn About LBRY
+  publish: Publish
 description:
   home: Meet LBRY, a content sharing and publishing platform that is decentralized and owned by its users.
   faq: Frequently asked questions about LBRY.
+  get: Download/install the latest version of LBRY.
   news: Access information and content in ways you never dreamed possible. Earn credits for your unused bandwidth and diskspace.
   what: Access information and content in ways you never dreamed possible. Earn credits for your unused bandwidth and diskspace.
   team: LBRY is founded by a team passionate about connecting producers and consumers and breaking down broken models. Learn more about them.
+  learn: Learn more about LBRY, the technology that puts you back in control of the internet.
+  publish: Publish your content on the world\'s first platform that leaves creators in control.
 email:
   disclaimer: You will receive 1-2 messages a month, only from LBRY, Inc. and only about LBRY. You can easily unsubscribe at any time.
 page:
@@ -86,4 +92,5 @@ social:
   tweets: Tweets by @LBRYio
 download:
   main:
-    title: LBRY for %os%
+    title: Get LBRY
+    signup: LBRY is currently in invite only mode. Enter your email to join the waitlist, or your email and invite code for access.

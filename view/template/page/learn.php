@@ -1,39 +1,61 @@
-<?php Response::setMetaDescription(__('Learn more about LBRY, the technology that puts you back in control of the internet.')) ?>
-<?php Response::setMetaTitle(__('Learn About LBRY')) ?>
-<?php echo View::render('nav/header', ['isDark' => false]) ?>
+<?php Response::setMetaDescription(__('description.learn')) ?>
+<?php Response::setMetaTitle(__('title.learn')) ?>
+<?php echo View::render('nav/_header', ['isDark' => false]) ?>
   <main class="column-fluid ">
     <div class="span6">
-      <div class="cover cover-light content">
-        <h1 style="max-width: 660px; margin-left: auto; margin-right: auto">LBRY in 60 Seconds</h1>
-        <?php echo View::render('download/_videoIntro') ?>
+      <div class="cover cover-dark cover-dark-grad">
+        <div class="content content-dark content-tile">
+          <h1 class="cover-title cover-title-tile">LBRY in 100 Seconds</h1>
+          <?php echo View::render('download/_videoIntro') ?>
+        </div>
       </div>
     </div>
     <div class="span6">
       <div class="cover cover-dark cover-center content content-dark" style="background-image:url(/img/altamira-bison.jpg)">
         <h2 class="cover-title cover-title-tile">Art in the Internet Age</h2>
-        <p class="cover-subtitle text-center">Learn how LBRY will forever improve how<br/>we create and share with one another.</p>
+        <p class="cover-subtitle text-center" style="max-width: 660px">Learn how LBRY will forever improve how we create and share with one another.</p>
         <a href="/what" class="btn-alt"><?php echo __('Read the Essay') ?></a>
-      </div>
-    </div>
-    <div class="span6">
-      <div class="cover cover-dark cover-dark-grad">
-        <div class="content content-dark content-tile">
-          <h3><?php echo __('Who Makes LBRY?') ?></h3>
-          <p><?php echo __('Learn more about the relentless rebels changing the internet.') ?></p>
-          <div class="spacer1">
-            <a href="/team" class="btn-alt"><?php echo __('About The Team') ?></a>
-          </div>
-          <h4>Talk With Us</h4>
-          <?php echo View::render('social/_list') ?>
-        </div>
       </div>
     </div>
     <div class="span6">
       <div class="cover cover-light-alt cover-light-alt-grad">
         <div class=" content content-light content-tile">
-          <h3>Nerd With Us</h3>
-          <p>LBRY is a completely open source protocol that provides a decentralized digital marketplace.</p>
-          <?php echo View::render('social/_listDev') ?>
+          <div class="row-fluid">
+            <div class="span6">
+              <h3>Explore</h3>
+              <div class="spacer1">
+                <a href="/faq" class="link-primary">Frequently Asked Questions</a>
+              </div>
+              <div class="spacer1">
+                <a href="http://explorer.lbry.io" class="link-primary">Block Explorer</a>
+              </div>
+              <div class="spacer1">
+                <a href="https://bittrex.com/Market/Index?MarketName=BTC-LBC" class="link-primary">Bittrex Exchange</a>
+              </div>
+            </div>
+            <div class="span6">
+              <h3>Nerd Out</h3>
+              <p>LBRY is 100% open source in the <a class="link-primary" href="https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar">Bazaar tradition</a>.</p>
+              <?php echo View::render('social/_listDev') ?>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="span6">
+      <div class="cover cover-light">
+        <div class="content content-light content-tile">
+          <div class="row-fluid">
+            <div class="span6">
+              <h3><?php echo __('The Team') ?></h3>
+              <p><?php echo __('Learn more about the relentless rebels changing the internet.') ?></p>
+              <a href="/team" class="btn-alt"><?php echo __('About The Team') ?></a>
+            </div>
+            <div class="span6">
+              <h3>Join Us</h3>
+              <?php echo View::render('social/_list') ?>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -98,4 +120,4 @@
     </div>
   </div>
 </main> */ ?>
-<?php echo View::render('nav/footer') ?>
+<?php echo View::render('nav/_footer') ?>
