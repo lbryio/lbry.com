@@ -2,46 +2,49 @@
 
 class Prefinery
 {
+  const STATE_APPLIED   = 'applied';
+  const STATE_INVITED   = 'invited';
+  const STATE_IMPORTED  = 'imported';
+  const STATE_REJECTED  = 'rejected';
+  const STATE_ACTIVE    = 'active';
+  const STATE_SUSPENDED = 'suspended';
+
+  const DOMAIN = 'https://lbry.prefinery.com';
+  const PREFIX = '/api/v2/betas/8679';
+
   protected static $curlOptions = [
-    'headers' => [
+    'headers'   => [
       'Accept: application/json',
       'Content-type: application/json'
     ],
     'json_post' => true
   ];
 
-  protected static function get($endpoint, array $data = [])
+
+  public static function findUser($emailOrId)
   {
-    $apiKey = Config::get('prefinery_key');
-
-    $baseUrl = 'https://lbry.prefinery.com/api/v2/betas/8679';
-
-    return static::decodePrefineryResponse(
-      Curl::get($baseUrl . $endpoint . '.json?api_key=' . $apiKey, $data, static::$curlOptions)
-    );
+    $user = is_numeric($emailOrId) ? Prefinery::findTesterById($emailOrId) : Prefinery::findTesterByEmail($emailOrId);
+    if ($user)
+    {
+      unset($user['invitation_code']); // so we dont leak it
+    }
+    return $user;
   }
 
-  protected static function post($endpoint, array $data = [], $allowEmptyResponse = true)
+  protected static function findTesterById($id)
   {
-    $apiKey = Config::get('prefinery_key');
-
-    $baseUrl = 'https://lbry.prefinery.com/api/v2/betas/8679';
-
-    return static::decodePrefineryResponse(
-      Curl::post($baseUrl . $endpoint . '.json?api_key=' . $apiKey, $data, static::$curlOptions),
-      $allowEmptyResponse
-    );
+    return static::get('/testers/' . (int)$id);
   }
 
-  public static function findTesterByEmail($email)
+  protected static function findTesterByEmail($email)
   {
     $data = static::get('/testers', ['email' => $email]);
 
     if ($data && is_array($data) && count($data))
     {
-      foreach($data as $userData) //can partial match on email, very unlikely though
+      foreach ($data as $userData) //can partial match on email, very unlikely though
       {
-        if ($userData['email'] == $email)
+        if (strtolower($userData['email']) == strtolower($email))
         {
           return $userData;
         }
@@ -52,22 +55,44 @@ class Prefinery
     return null;
   }
 
-  public static function findTesterById($id)
+  public static function findOrCreateUser($email, $inviteCode = null, $referrerId = null)
   {
-    return static::get('/testers/' . $id);
+    $user = static::findUser($email);
+    if (!$user)
+    {
+      $user = Prefinery::createTester(array_filter([
+        'email'           => $email,
+        'status'          => $inviteCode ? static::STATE_ACTIVE : static::STATE_APPLIED, # yes, has to be ACTIVE to validate invite code
+        'invitation_code' => $inviteCode,
+        'referrer_id'     => $referrerId,
+        'profile'         => ['ip' => $_SERVER['REMOTE_ADDR'], 'user_agent' => $_SERVER['HTTP_USER_AGENT']]
+      ]));
+    }
+
+    unset($user['invitation_code']); // so we dont leak it
+    return $user;
   }
 
-  public static function createTester(array $testerData)
+  protected static function createTester(array $testerData)
   {
-    $params = ['tester' => array_filter($testerData)];
-
-    return static::post('/testers', $params, false);
+    return static::post('/testers', ['tester' => array_filter($testerData)], false);
   }
 
-  public static function checkIn($prefineryId)
+  protected static function get($endpoint, array $data = [])
   {
-    throw new Exception('this sets a user to active, you probably do not want this');
-    static::post('/testers/' . $prefineryId . '/checkin');
+    $apiKey = Config::get('prefinery_key');
+    return static::decodePrefineryResponse(
+      Curl::get(static::DOMAIN . static::PREFIX . $endpoint . '.json?api_key=' . $apiKey, $data, static::$curlOptions)
+    );
+  }
+
+  protected static function post($endpoint, array $data = [], $allowEmptyResponse = true)
+  {
+    $apiKey = Config::get('prefinery_key');
+    return static::decodePrefineryResponse(
+      Curl::post(static::DOMAIN . static::PREFIX . $endpoint . '.json?api_key=' . $apiKey, $data, static::$curlOptions),
+      $allowEmptyResponse
+    );
   }
 
   protected static function decodePrefineryResponse($rawBody, $allowEmptyResponse = true)
@@ -86,7 +111,8 @@ class Prefinery
 
     if (isset($data['errors']))
     {
-      throw new PrefineryException(implode("\n", array_map(function($error) {
+      throw new PrefineryException(implode("\n", array_map(function ($error)
+      {
         return $error['message'];
       }, (array)$data['errors'])));
     }
@@ -95,4 +121,6 @@ class Prefinery
   }
 }
 
-class PrefineryException extends Exception {}
+class PrefineryException extends Exception
+{
+}
