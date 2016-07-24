@@ -1,4 +1,4 @@
-<?php Response::setMetaDescription('Access information and content in ways you never dreamed possible. Earn credits for your unused bandwidth and diskspace.') ?>
+<?php Response::setMetaDescription(__('description.news')) ?>
 <?php echo View::render('nav/_header', ['isDark' => false]) ?>
 <main>
   <div class="hero hero-quote hero-img spacer2" style="background-image: url(/img/cover-team.jpg)">

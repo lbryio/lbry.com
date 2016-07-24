@@ -1,11 +1,11 @@
-<?php Response::setMetaDescription(__('Download/install the latest version of LBRY.'))  ?>
+<?php Response::setMetaDescription(__('description.get'))  ?>
 <?php NavActions::setNavUri('/get') ?>
 <?php echo View::render('nav/_header', ['isDark' => false]) ?>
 
 <main class="column-fluid">
   <div class="span7">
     <div class="cover cover-dark cover-dark-grad content content-stretch content-dark">
-      <h1>Get LBRY</h1>
+      <h1>{{download.main.title}}</h1>
       <?php if (Session::get(Session::KEY_DOWNLOAD_ACCESS_ERROR)): ?>
         <div class="notice notice-error spacer1"><?php echo Session::get(Session::KEY_DOWNLOAD_ACCESS_ERROR) ?></div>
         <?php Session::unsetKey(Session::KEY_DOWNLOAD_ACCESS_ERROR) ?>
@@ -14,7 +14,7 @@
       <?php if (Session::get(Session::KEY_PREFINERY_USER_ID)): ?>
         <?php echo View::render('download/_refer') ?>
       <?php else: ?>
-        <p>LBRY is currently in invite only mode. Enter your email to join the waitlist, or your email and invite code for access.</p>
+        <p>{{download.main.signup}}</p>
         <?php echo View::render('download/_signup') ?>
       <?php endif ?>
     </div>

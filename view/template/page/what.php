@@ -1,5 +1,5 @@
-<?php Response::setMetaDescription('Access information and content in ways you never dreamed possible. Earn credits for your unused bandwidth and diskspace.') ?>
-<?php Response::setMetaTitle(__('Art in the Internet Age: An Introduction to LBRY')) ?>
+<?php Response::setMetaDescription(__('description.what')) ?>
+<?php Response::setMetaTitle(__('title.what')) ?>
 <?php NavActions::setNavUri('/learn') ?>
 <?php echo View::render('nav/_header', ['isDark' => true, 'isAbsolute' => true]) ?>
 <main>

@@ -27,17 +27,15 @@
           <img src="/img/team/spooner-644x450.jpg" alt="you!"/>
         </div>
         <div>
-          <h4>You</h4>
-          <div class="meta  spacer1">Developer, Designer, Economist, Marketer, Investor, ???</div>
+          <h4>{{page.team.you.header}}</h4>
+          <div class="meta  spacer1">{{page.team.you.title}}</div>
           <p>
-            Do you think opening up information would facilitate human flourishing?
-            Do you want to join a bright core of people with an obsession for upending broken systems?
-            <a href="mailto:jeremy@lbry.io" class="link-primary">Say hello.</a>
+            {{page.team.you.parag1}}
           </p>
         </div>
       </div>
     </div>
-    <h2>Advisory Team</h2>
+    <h2>{{page.team.advisory}}</h2>
     <div class="row-fluid">
       <div class="span6 spacer2">
         <?php echo View::render('content/_bio', ['person' => 'alex-tabarrok']) ?>

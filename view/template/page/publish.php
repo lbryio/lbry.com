@@ -1,5 +1,5 @@
-<?php Response::setMetaDescription('Publish your content on the world\'s first platform that leaves creators in control.') ?>
-<?php Response::setMetaTitle(__('Publish')) ?>
+<?php Response::setMetaDescription('description.publish') ?>
+<?php Response::setMetaTitle(__('title.publish')) ?>
 <?php echo View::render('nav/_header', ['isDark' => true, 'isAbsolute' => true]) ?>
 <main >
   <div class="cover cover-dark cover-center cover-full" style="background-image:url(/img/cover-home3.jpg)">

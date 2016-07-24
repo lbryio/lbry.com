@@ -1,7 +1,13 @@
 <div class="bg-image-full" style="background-image: url(/img/cover-home2.jpg)"></div>
+<<<<<<< HEAD:view/template/content/home.php
 <?php Response::setMetaTitle(__('title.home')) ?>
 <?php Response::setMetaDescription(__('description.home')) ?>
+<?php echo View::render('nav/header', ['isDark' => true]) ?>
+=======
+<?php Response::setMetaTitle(__('LBRY - Play, Share, Earn')) ?>
+<?php Response::setMetaDescription(__('Meet LBRY, a content sharing and publishing platform that is decentralized and owned by it\'s users.')) ?>
 <?php echo View::render('nav/_header', ['isDark' => true]) ?>
+>>>>>>> master:view/template/page/home.php
 <main class="column-fluid">
   <div class="span12">
     <div class="cover cover-dark">

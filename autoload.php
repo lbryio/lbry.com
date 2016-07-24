@@ -24,7 +24,7 @@ class Autoloader
 
   public static function reload($reload = false)
   {
-    $key = 'lbry-classes-4';
+    $key = 'lbry-classes-5';
     if (ini_get('apc.enabled') && !$reload)
     {
       $classes = apc_fetch($key, $success);
