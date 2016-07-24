@@ -47,10 +47,11 @@
   </div>
   <div class="hero hero-quote hero-img" style="background-image: url(/img/cover-jcole.jpg)">
     <div class="hero-content-wrapper">
-      <div class="hero-content">
+      <div class="hero-content" style="max-width: 540px">
         <blockquote>
-          <p>Profit from connecting directly to your audience on your terms.</p>
+          <p>You was inspired by the world; allow the world to be inspired by [you]</p>
         </blockquote>
+        <cite>J. Cole, <em><a href="https://www.youtube.com/watch?v=UMCGOAGb4Y0&amp;t=496s">Note to Self</a></em></cite>
       </div>
     </div>
   </div>
@@ -80,10 +81,10 @@
             <li>Premier Partner status. Receive insider access and support for life.</li>
             <li>Content featured on the LBRY landing screen seen by all users, as well as on our blog, social media, and 100,000 person email list.</li>
             <li>
-              Receive over $1,000 worth of LBRY credits.
+              Receive $1,000 worth of LBRY credits.
               <div class="meta">
-                You will receive 1,000 LBRY credits. Credits are yours to save or sell. We make no guarantee of the value of a credit. Current credit price can be seen
-                <a class="link-primary" href="https://bittrex.com/Market/Index?MarketName=BTC-LBC">here</a>.
+                You will $1,000 of LBRY credits. Credits are yours to save or sell. We make no guarantee of the value of a credit. Current credit price can be seen
+                <a class="link-primary" href="https://bittrex.com/Market/Index?MarketName=BTC-LBC">here</a> or <a class="link-primary" href="https://poloniex.com/exchange#btc_lbc">here</a>.
               </div>
             </li>
             <li>We hold your hand every step of the way while taking none of your revenue.</li>
