@@ -5,8 +5,7 @@ category: mining
 Library Credits (LBC) are mined over a 20-year Proof of Work period.
 Block rewards increase every 100 blocks by 1LBC, peak at 500, and decline slowly.
 
-For GPU mining, please see our list of [pools] (https://lbry.io/faq/mining-pools)
-     -Each pool has a slightly different setup so please check their Getting Started page.
+For GPU mining, please see our list of [pools] (https://lbry.io/faq/mining-pools). Each pool has a slightly different setup so please check their Getting Started page.
 
 For CPU mining, LBRY binaries are out for OS X and Ubuntu. Others may try compiling from source.
 
@@ -29,4 +28,4 @@ For CPU mining, LBRY binaries are out for OS X and Ubuntu. Others may try compil
 
 ## Compiling
 
-Come visit our Slack!
+Join us on [Slack](https://slack.lbry.io) if you need help compiling from source!
