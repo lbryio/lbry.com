@@ -103,6 +103,9 @@
     <h3>Get In Now</h3>
     <iframe id="feedback-form-iframe" src="https://docs.google.com/forms/d/17yrFsY1W86N9hfNt1batFbySY-1z-tq0wDjFjXKjgp8/viewform?embedded=true"
             width="760" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    <h3>Questions?</h3>
+    <p>Email <a  class="link-primary" href=mailto:reilly@lbry.io?subject=Publishing Program">Reilly Smith</a> with questions or to schedule a call.</p>
+    <?php echo View::render('content/_bio', ['person' => 'reilly-smith']) ?>
   </div>
 </main>
 <?php echo View::render('nav/_footer') ?>

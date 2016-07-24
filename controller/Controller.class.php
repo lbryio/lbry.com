@@ -47,8 +47,6 @@ class Controller
     {
       case '/':
         return ContentActions::executeHome();
-      case '/fund':
-        return CreditActions::executeFund();
       case '/get':
       case '/windows':
       case '/ios':
