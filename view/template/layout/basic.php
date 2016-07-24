@@ -62,7 +62,7 @@
           <?php foreach(Response::getJsAssets() as $src): ?>
             <script src="<?php echo $src ?>"></script>
           <?php endforeach ?>
-          <?php echo View::render('analytics/track') ?>
+          <?php echo View::render('layout/_analytics') ?>
           <?php $js = Response::getJsCalls() ?>
           <?php if ($js): ?>
             <script><?php echo implode("\n", $js) ?></script>
