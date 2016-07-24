@@ -1,36 +1,34 @@
+<?php NavActions::setNavUri('/get') ?>
 <?php Response::setMetaDescription('Publish your content on the world\'s first platform that leaves creators in control.') ?>
 <?php Response::setMetaTitle(__('Publish')) ?>
 <?php echo View::render('nav/_header', ['isDark' => true, 'isAbsolute' => true]) ?>
 <main >
+  <?php //if you change the image, change it on download/_publish too! ?>
   <div class="cover cover-dark cover-center cover-full" style="background-image:url(/img/cover-home3.jpg)">
     <h1 class="cover-title" id="art">Publish on LBRY</h1>
     <div class="cover-subtitle" style="max-width: 580px; text-align: center">
       <strong>Earn $1,000 and join the next content epoch: the viewer and you, with nobody in between.</strong>
     </div>
-    <a href="#learn-more" class="btn-alt">Learn More</a>
+    <a href="#learn-more" class="btn-alt">Keep Reading</a>
   </div>
   <div class="column-fluid" id="learn-more">
     <div class="span6">
       <div class="cover cover-light">
         <div class="content content-light content-tile">
-          <h2 class="cover-title cover-title-tile cover-title-flat">LBRY Premier Publishing Partnerships</h2>
-          <p>LBRY is seeking partners for a brand-new way to publish content online that offers unprecedented benefits to creators.</p>
+          <h2 class="cover-title cover-title-tile cover-title-flat">Publishing Partnership</h2>
+          <h3>How It Works</h3>
           <ul>
             <li>
-              <h3>More, Better Profit</h3>
-              <p>Any price you charge for content settles near-instantly into an account only you control. You receive 100% of the price. Micro-payments (and free content) supported.</p>
+              Publish five pieces of content with the LBRY app.
+              <div class="meta">Existing content is okay, so long as it's content you created.</div>
             </li>
+            <li>Set any price per view — from zero to a dime to one million dollars — you’re in control.</li>
+            <li>Receive 100% of your list price in real time as it is streamed.</li>
             <li>
-              <h3>Open, Trustworthy Technology</h3>
-              <p>
-                LBRY uses the ground-breaking innovation of the blockchain to leave no one in control of your content except for you (including us!).
-                LBRY is an open-source protocol that is controlled by it's users: we could not change the rules even if wanted to.
-              </p>
+              Receive approximately $1,000.<br/>
+              <div class="meta">See <a href="#what-you-get" class="link-primary">What You Get</a>.</div>
             </li>
-            <li>
-              <h3>Complete Creator Control</h3>
-              <p>Update your content at any time. Change the price. Change the title. Publish, unpublish. You and only you can do this in LBRY.</p>
-            </li>
+            <li>Answer our beta feedback survey about your experience.</li>
           </ul>
         </div>
       </div>
@@ -59,15 +57,17 @@
     <div class="span6">
       <div class="cover cover-dark cover-dark-grad">
         <div class="content content-dark content-tile">
-          <h3 class="cover-title cover-title-tile cover-title-flat">How It Works</h3>
-          <ul>
-            <li>Publish five pieces of your original content with the LBRY app.</li>
-            <li>Set any price per view — from zero to dime to one million dollars — you’re in control.</li>
-            <li>Receive 100% of your list price in real time as it is streamed.</li>
-            <li>Give us feedback and help us make this your video publishing paradise.</li>
-            <li>
-              Receive ~$1,000 for joining*.<br/>
-              <div class="meta">*See <a href="#what-you-get" class="link-primary">What You Get</a></div>
+          <h3 class="cover-title cover-title-tile cover-title-flat">Why LBRY?</h3>
+              <h4>More, Better Profit</h4>
+              <p>Any price you charge for content settles near-instantly into an account only you control. You receive 100% of the price. Micro-payments (and free content) supported.</p>
+              <h4>Open, Trustworthy Technology</h4>
+              <p>
+                LBRY uses the ground-breaking innovation of the blockchain to leave no one in control of your content except for you (including us!).</p>
+               <p>
+                 LBRY is an open-source protocol that is controlled by it's users: we could not change the rules even if wanted to.
+              </p>
+              <h4>Complete Creator Control</h4>
+              <p>Update your content at any time. Change the price. Change the title. Publish, unpublish. You and only you can do this in LBRY.</p>
             </li>
           </ul>
         </div>
@@ -79,11 +79,11 @@
           <h3 class="cover-title cover-title-tile cover-title-flat" id="what-you-get" >What You Get</h3>
           <ul>
             <li>Premier Partner status. Receive insider access and support for life.</li>
-            <li>Content featured on the LBRY landing screen seen by all users, as well as on our blog, social media, and 100,000 person email list.</li>
+            <li>Content featured on the LBRY landing screen seen by all users, as well as on our blog, social media, and 100,000 person email list, including links to your YouTube or other profiles.</li>
             <li>
-              Receive $1,000 worth of LBRY credits.
+              Receive $1,000 worth of LBRY credits to hold, use or sell.
               <div class="meta">
-                You will $1,000 of LBRY credits. Credits are yours to save or sell. We make no guarantee of the value of a credit. Current credit price can be seen
+                We make no guarantee of the value of a credit, but credits are actively traded. Current credit price can be seen
                 <a class="link-primary" href="https://bittrex.com/Market/Index?MarketName=BTC-LBC">here</a> or <a class="link-primary" href="https://poloniex.com/exchange#btc_lbc">here</a>.
               </div>
             </li>
@@ -91,9 +91,9 @@
           </ul>
           <h3 class="cover-title cover-title-tile cover-title-flat">What You Give</h3>
           <ul>
-            <li>Commit to uploading five videos via the LBRY interface (we’ll help you out).</li>
-            <li>Commit at least one social media shout out promoting your availability on LBRY.</li>
-            <li>Sign a custodial agreement (AKA let us promote your content for you!)</li>
+            <li>Upload five videos via the LBRY interface (we’ll help you out).</li>
+            <li>A single social media mention about your availability on LBRY.</li>
+            <li>Allowance for us to promote availability of your content.</li>
           </ul>
         </div>
       </div>
@@ -102,10 +102,11 @@
   <div class="content content-readable">
     <h3>Get In Now</h3>
     <iframe id="feedback-form-iframe" src="https://docs.google.com/forms/d/17yrFsY1W86N9hfNt1batFbySY-1z-tq0wDjFjXKjgp8/viewform?embedded=true"
-            width="760" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+            width="760" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     <h3>Questions?</h3>
     <p>Email <a  class="link-primary" href=mailto:reilly@lbry.io?subject=Publishing Program">Reilly Smith</a> with questions or to schedule a call.</p>
-    <?php echo View::render('content/_bio', ['person' => 'reilly-smith']) ?>
+    <?php echo View::render('content/_bio', ['person' => 'reilly-smith', 'orientation' => 'horizontal']) ?>
   </div>
+  <?php echo View::render('nav/_learnFooter', ['isDark' => true]) ?>
 </main>
 <?php echo View::render('nav/_footer') ?>
