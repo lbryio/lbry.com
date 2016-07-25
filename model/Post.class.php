@@ -5,7 +5,7 @@ class Post
   const SORT_DATE_DESC = 'sort_date_desc';
 
   protected static $slugMap = [];
-  protected $slug, $title, $author, $date, $markdown, $contentText, $contentHtml, $cover, $postType, $category;
+  protected $slug, $title, $metadata, $author, $date, $markdown, $contentText, $contentHtml, $cover, $postType, $category;
   protected $isCoverLight = false;
 
   public static function load($relativeOrAbsolutePath)
@@ -45,6 +45,7 @@ class Post
     $this->postType = $postType;
     $this->slug = $slug;
     $this->markdown = $markdown;
+    $this->metadata = $frontMatter;
     $this->title = isset($frontMatter['title']) ? $frontMatter['title'] : null;
     $this->author = isset($frontMatter['author']) ? $frontMatter['author'] : null;
     $this->date = isset($frontMatter['date']) ? new DateTime($frontMatter['date']) : null;
@@ -72,6 +73,11 @@ class Post
       }
     }
     return $posts;
+  }
+
+  public function getMetadata()
+  {
+    return $this->metadata;
   }
 
   public function getRelativeUrl()

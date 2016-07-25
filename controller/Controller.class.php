@@ -98,7 +98,13 @@ class Controller
       $slug = preg_replace($faqPattern, '', $uri);
       return $slug ? ContentActions::executeFaqPost($uri) : ContentActions::executeFaq();
     }
-    $noSlashUri = ltrim($uri, '/');
+
+    $bountyPattern = '#^' . BountyActions::URL_BOUNTY_LIST . '(/|$)#';
+    if (preg_match($bountyPattern, $uri))
+    {
+      $slug = preg_replace($bountyPattern, '', $uri);
+      return $slug ? BountyActions::executeShow($uri) : BountyActions::executeList($uri);
+    }
 
     $accessPattern = '#^/signup#';
     if (preg_match($accessPattern, $uri))
@@ -106,6 +112,8 @@ class Controller
       return DownloadActions::executeSignup();
     }
 
+
+    $noSlashUri = ltrim($uri, '/');
     if (View::exists('page/' . $noSlashUri))
     {
       return ['page/' . $noSlashUri, []];

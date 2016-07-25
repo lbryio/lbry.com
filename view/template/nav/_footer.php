@@ -1,7 +1,10 @@
 <?php if (!defined('FOOTER_RENDERED')): ?>
   <?php define('FOOTER_RENDERED', true) ?>
   <div class="footer">
-    <div class="content">
+    <?php if ($showLearnFooter): ?>
+      <?php echo View::render('nav/_learnFooter', ['isDark' => $isDark]) ?>
+    <?php endif ?>
+    <div class="content footer-standard">
       <nav class="control-group">
         <div class="control-item">
           <a href="/"><?php echo __('Home') ?></a>
