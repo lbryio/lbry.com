@@ -64,7 +64,7 @@
               <p>
                 LBRY uses the ground-breaking innovation of the blockchain to leave no one in control of your content except for you (including us!).</p>
                <p>
-                 LBRY is an open-source protocol that is controlled by it's users: we could not change the rules even if wanted to.
+                 LBRY is an open-source protocol that is controlled by it's users: we could not change the rules even if we wanted to.
               </p>
               <h4>Complete Creator Control</h4>
               <p>Update your content at any time. Change the price. Change the title. Publish, unpublish. You and only you can do this in LBRY.</p>
