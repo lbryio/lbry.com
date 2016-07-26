@@ -1,5 +1,5 @@
 <h3>Share and Earn</h3>
-<p>Earn <?php echo i18n::formatCredits(10) ?> for each user who joins via this URL:</p>
+<p>Earn <?php echo i18n::formatCredits(5) ?> for each user who joins via this URL:</p>
 <p>
   <input type="text" value="https://lbry.io/get?r=<?php echo $referralCode ?>" style="width: 100%; border-color: #155B4A" readonly id="referral-url-input"/>
   <?php js_start() ?>
