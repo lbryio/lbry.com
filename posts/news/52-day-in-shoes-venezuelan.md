@@ -22,9 +22,9 @@ You can help Javier by sending him BTC or LBC:
 
 **LBC:** bbBNDgX9WDKEWTaGkCi7yDjcaPdRb6GM4L
 
-**Walking a Day in Venezuelan Shoes**
+<center>**Walking a Day in Venezuelan Shoes**</center>
 
-*Javier [Name Redacted for Safety]*
+<center>*By Javier [Name Redacted for Safety]*</center>
 
 **The day starts**
 
