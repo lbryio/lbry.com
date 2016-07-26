@@ -1,0 +1,36 @@
+---
+title: "Quarterly Credit Report: July 2016"
+category: policy
+---
+
+## Summary
+
+This is LBRY's first quarterly report. We enter with zero credits expended. We anticipate zero institutional expenditures, zero or limited organizational expenditures, and light community expenditures.
+
+## Current Balance Sheet
+
+[Available here](https://docs.google.com/spreadsheets/d/1r7puheE4Ut4c08R47uCDZbDdMHAoQa0WDqw470gjMIw/edit#gid=0)
+
+## Overview By Fund
+
+### Community Fund
+
+Currently, we are engaging in the following programs:
+
+- 3-20 LBC for users invited to participate in the beta. This program is expected to continue well through this quarter.
+- 1-5 LBC for referrals. This program is expected to continue in parallel with above.
+- Up to 2000LBC for certain publishers to join LBRY. This program is new and experimental and subject to revision.
+- A [bounty program](http://lbry.io/bounty) with awards varying from small awards to 10,000+ LBC. This program is new and experimental.
+- Tipping on our community chat for user contribution and participation. This program is expected to continue.
+
+We have allocated approximately 2,000,000 LBC across these categories, but do not anticipate actually awarding this much.
+
+### Operational Fund
+
+We anticipate most expenses continuing to be met via existing assets.
+
+Depending on fundraising over the next 3 months, we may entertain private placements via structures that align with the long-term interest in LBRY.
+
+### Institutional Fund
+
+We anticipate zero expenditures from this fund this quarter.
