@@ -83,7 +83,7 @@
             <li>
               Receive $1,000 worth of LBRY credits to hold, use or sell.
               <div class="meta">
-                We make no guarantee of the value of a credit, but credits are actively traded. Current credit price can be seen
+                We make no guarantee of the current or future monetary value of a credit, but credits are actively traded. Current credit market prices can be seen
                 <a class="link-primary" href="https://bittrex.com/Market/Index?MarketName=BTC-LBC">here</a> or <a class="link-primary" href="https://poloniex.com/exchange#btc_lbc">here</a>.
               </div>
             </li>
