@@ -1,6 +1,7 @@
-<?php Response::setMetaDescription('description.what') ?>
+<?php Response::setMetaDescription(__('description.what')) ?>
+<?php Response::setMetaTitle(__('title.what')) ?>
 <?php NavActions::setNavUri('/learn') ?>
-<?php echo View::render('nav/header', ['isDark' => true, 'isAbsolute' => true]) ?>
+<?php echo View::render('nav/_header', ['isDark' => true, 'isAbsolute' => true]) ?>
 <main>
   <div class="cover cover-dark cover-center cover-full" style="background-image:url(/img/altamira-bison.jpg)">
     <h1 class="cover-title" id="art">Art in the Internet Age</h1>
@@ -50,7 +51,7 @@
         <li><strong>Domain names are controlled via ongoing auction</strong>. This facilitates names being controlled by the publishers that value them most. These transactions take place via an electronic currency called LBRY credits, or <em>LBC</em>. This is covered in more detail, below.</li>
       </ol>
 
-      <p>While creating a protocol that we ourselves cannot control sounds chaotic, it is actually about establishing trust. Every other publishing system requires trusting an intermediary that can unilaterally change the rules on you. What happens when you build your business on YouTube or Amazon and they change fees? Or Apple drops your content because the Premier of China thought your comedy went to far?</p>
+      <p>While creating a protocol that we ourselves cannot control sounds chaotic, it is actually about establishing trust. Every other publishing system requires trusting an intermediary that can unilaterally change the rules on you. What happens when you build your business on YouTube or Amazon and they change fees? Or Apple drops your content because the Premier of China thought your comedy went too far?</p>
 
       <p>Only LBRY consists of a known, promised set of rules that no one can unilaterally change. LBRY provides this by doing something unique: leaving the <em>users</em> in control rather than demanding that control for itself.</p>
       <footer id="note-decentralized"><sup>2</sup>If it worries you that LBRY's decentralized nature facilitates infringing or unsavory content, this is addressed in <a class="link-primary"  Cohref="#combatting-the-ugly">Combatting the Ugly</a>.</footer>
@@ -74,7 +75,7 @@
         The data and technology that makes the entire interaction possible is not reliant on nor controlled by any single entity.</p>
     </section>
     <section>
-      <h2>The LBRY Network</h2>
+      <h2 id="the-network">The LBRY Network</h2>
       <p>To understand precisely what LBRY is and why it matters, one must understand both LBRY as a protocol and the services the protocol enables. HTTP is the protocol that makes web browsing possible, but it would be of little interest without the service of a web browser!</p>
 
       <p>To understand LBRY, think of LBRY in terms of two layers: <em>protocol</em> and <em>service.</em> The protocol provides a fundamental, underlying technological capability. The service layer utilizes the protocol to do something that a human being would actually find useful.</p>
@@ -169,20 +170,20 @@
       <p>Essentially, rather than issue a transaction to the core blockchain, transactions are issued to a 3rd-party provider. These providers have a substantial number of coins which are used to maintain balances internally and settle a smaller number of transactions to the core chain. In exchange, these providers earn a small fee, less than the fee required to issue the transaction directly to the blockchain.</p>
     </section>
     <section>
-      <h2>LBRY Credits</h2>
+      <h2 id="credits">LBRY Credits</h2>
       <p>LBRY Credits, or <em>LBC</em>, are the unit of account for LBRY. Eventually 1,000,000,000 LBC will exist, according to a defined schedule over 20 years. The schedule decays exponentially, with around 100,000,000 in the first year.</p>
 
       <p>Additionally, some credits are awarded on a fixed basis. The total break down looks like this:</p>
 
       <ul>
-        <li>10% for organizations, charities, and other strategic partners. Organizations the EFF, ACLU, and others that have fought for digital rights and the security and freedom of the internet.</li>
+        <li>10% for organizations, charities, and other strategic partners. Organizations like the EFF, ACLU, and others that have fought for digital rights and the security and freedom of the internet.</li>
         <li>20% for adoption programs. We’ll be giving out lots of bonus credits, especially in the early days of LBRY, in order to encourage participation. We will also look to award credits broadly, ensuring the marketplace is egalitarian.</li>
         <li>10% for us. For operational costs as well as profit.</li>
         <li>60% earned by LBRY users, via mining the LBRY cryptocurrency.</li>
       </ul>
     </section>
     <section>
-      <h2>More on Naming</h2>
+      <h2 id="naming">More on Naming</h2>
       <p>LBRY names are one of the most unique aspects of LBRY and one that we believe will play a big role in helping it succeed.</p>
 
       <p>Control of a LBRY name is awarded via a <em>continuous running auction </em>in LBC. Bids are entered into a <em>trustless escrow</em>, marking the credits as unspendable, but leaving them intact. When a user looks up a name, the name resolves to the largest bid made by a party or parties. The ability for any number of people to have a say in where a name resolves is part of what makes LBRY a system controlled by its users. As the credits are distributed primarily among users and producers, it is community itself that has ultimate controls over the catalogue of what is available.</p>
@@ -214,7 +215,7 @@
       <p>And of course, let’s not forget that LBRY users are still subject to the DMCA and other laws governing intellectual property. Users who publishing infringing content are still subject to penalties for doing so in exactly the same way they would be via BitTorrent. LBRY only adds to the suite of options available. This makes LBRY a strict improvement over BitTorrent with regards to illegal usages, which provides none of the mechanisms listed.</p>
     </section>
     <section>
-      <h2>Our Values</h2>
+      <h2 id="values">Our Values</h2>
       <p>We want to be the first digital content marketplace to:</p>
 
       <ol>
@@ -231,7 +232,7 @@
       </ol>
     </section>
     <section>
-      <h2>TL;DR</h2>
+      <h2 id="tldr">TL;DR</h2>
       <p>Digital art is one of the first goods to evolve beyond scarcity. This evolution is changing the way content is discovered, publicized, paid for and delivered. Heretofore, the lack of transparency and monetization mechanisms in peer-to-peer sharing networks has largely enabled piracy. By equipping a peer-to-peer protocol with a digital currency and transparent decentralized ledger, the LBRY protocol opens the door to a new era of digital content distribution making peer-to-peer content distribution suitable for major publishing housing, self-publishers and everyone in between.</p>
 
       <p>If LBRY succeeds, we will enter a world that is even more creative, connected, and conservatory. We will waste less and we make more. We will create a world where a teenager in Kenya and a reality star in Los Angeles use the same tool to search the same network and have access to the same results -- a world where information, knowledge, and imagination know no borders. </p>
@@ -239,9 +240,9 @@
       <p>Build our dream with us. Download LBRY at <a class="link-primary" href="https://lbry.io/get">lbry.io/get</a>.</p>
     </section>
   </div>
-  <?php echo View::render('nav/learnFooter') ?>
+  <?php echo View::render('nav/_learnFooter') ?>
 </main>
-<?php echo View::render('nav/footer') ?>
+<?php echo View::render('nav/_footer') ?>
 <?php /*
 
  <h3>Layer 1: Protocol</h3>

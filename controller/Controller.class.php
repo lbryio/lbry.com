@@ -13,7 +13,18 @@ class Controller
       $viewParameters = isset($viewAndParams[1]) ? $viewAndParams[1] : [];
       $headers = isset($viewAndParams[2]) ? $viewAndParams[2] : [];
 
-      static::sendHeaders($headers);
+      $defaultHeaders = [
+        'Content-Security-Policy' => "frame-ancestors 'none'",
+        'X-Frame-Options' => 'DENY',
+        'X-XSS-Protection'=> '1',
+      ];
+
+      if (IS_PRODUCTION)
+      {
+        $defaultHeaders['Strict-Transport-Security'] = 'max-age=31536000';
+      }
+
+      static::sendHeaders(array_merge($defaultHeaders, $headers));
 
       if ($viewTemplate === null)
       {
@@ -47,12 +58,6 @@ class Controller
     {
       case '/':
         return ContentActions::executeHome();
-      case '/fund':
-        return CreditActions::executeFund();
-      case '/fund-after':
-        return ['fund/fund-after'];
-      case '/goals':
-        return ['fund/goals'];
       case '/get':
       case '/windows':
       case '/ios':
@@ -66,42 +71,59 @@ class Controller
         return OpsActions::executeLogUpload();
       case '/list-subscribe':
         return MailActions::executeListSubscribe();
+      case '/press-kit.zip':
+        return ContentActions::executePressKit();
       case '/LBRY-deck.pdf':
-        return static::redirect('https://s3.amazonaws.com/files.lbry.io/LBRY-deck.pdf', 307);
-      case '/dl/lbry_setup.sh':
-        return ['internal/dl-not-supported', ['_no_layout' => true]];
+      case '/deck.pdf':
+        return static::redirect('https://www.dropbox.com/s/0xj4vgucsbi8rtv/lbry-deck.pdf?dl=1');
+      case '/pln.pdf':
+      case '/plan.pdf':
+        return static::redirect('https://www.dropbox.com/s/uevjrwnyr672clj/lbry-pln.pdf?dl=1');
       case '/lbry-osx-latest.dmg':
-        return static::redirect('https://github.com/lbryio/lbry/releases/download/v0.2.4/lbry.0.2.4.dmg', 307);
       case '/lbry-linux-latest.deb':
-        return static::redirect('https://github.com/lbryio/lbry/releases/download/v0.2.4/lbry_0.2.4_amd64.deb', 307);
+      case '/dl/lbry_setup.sh':
+        return static::redirect('/get', 301);
       case '/art':
-        return static::redirect('/what');
-      default:
-        $newsPattern = '#^' . ContentActions::URL_NEWS . '(/|$)#';
-        if (preg_match($newsPattern, $uri))
-        {
-          $slug = preg_replace($newsPattern, '', $uri);
-          if ($slug == ContentActions::RSS_SLUG)
-          {
-            return ContentActions::executeRss();
-          }
-          return $slug ? ContentActions::executePost($uri) : ContentActions::executeNews();
-        }
-        $faqPattern = '#^' . ContentActions::URL_FAQ . '(/|$)#';
-        if (preg_match($faqPattern, $uri))
-        {
-          $slug = preg_replace($faqPattern, '', $uri);
-          return $slug ? ContentActions::executePost($uri) : ContentActions::executeFaq();
-        }
-        $noSlashUri = ltrim($uri, '/');
-        if (View::exists('page/' . $noSlashUri))
-        {
-          return ['page/' . $noSlashUri, []];
-        }
-        else
-        {
-          return ['page/404', [], [static::HEADER_STATUS => 404]];
-        }
+        return static::redirect('/what', 301);
+      case '/why':
+      case '/feedback':
+        return static::redirect('/learn', 301);
+      case '/faq/when-referral-payouts':
+        return static::redirect('/faq/referrals', 301);
+    }
+
+    $newsPattern = '#^' . ContentActions::URL_NEWS . '(/|$)#';
+    if (preg_match($newsPattern, $uri))
+    {
+      $slug = preg_replace($newsPattern, '', $uri);
+      if ($slug == ContentActions::RSS_SLUG)
+      {
+        return ContentActions::executeRss();
+      }
+      return $slug ? ContentActions::executeNewsPost($uri) : ContentActions::executeNews();
+    }
+
+    $faqPattern = '#^' . ContentActions::URL_FAQ . '(/|$)#';
+    if (preg_match($faqPattern, $uri))
+    {
+      $slug = preg_replace($faqPattern, '', $uri);
+      return $slug ? ContentActions::executeFaqPost($uri) : ContentActions::executeFaq();
+    }
+    $noSlashUri = ltrim($uri, '/');
+
+    $accessPattern = '#^/signup#';
+    if (preg_match($accessPattern, $uri))
+    {
+      return DownloadActions::executeSignup();
+    }
+
+    if (View::exists('page/' . $noSlashUri))
+    {
+      return ['page/' . $noSlashUri, []];
+    }
+    else
+    {
+      return ['page/404', [], [static::HEADER_STATUS => 404]];
     }
   }
 

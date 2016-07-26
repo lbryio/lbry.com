@@ -8,6 +8,9 @@
 class Session
 {
   const KEY_MAILCHIMP_LIST_IDS = 'mailchimp_list_ids',
+        KEY_DOWNLOAD_ACCESS_ERROR = 'download_error2',
+        KEY_DOWNLOAD_ALLOWED = 'beta_download_allowed2',
+        KEY_PREFINERY_USER_ID = 'prefinery_user_id',
         KEY_LIST_SUB_ERROR = 'list_error',
         KEY_LIST_SUB_SIGNATURE = 'list_sub_sig',
         KEY_LIST_SUB_SUCCESS = 'list_success',
@@ -15,7 +18,10 @@ class Session
 
   public static function init()
   {
-    session_start();
+    session_start([
+      'cookie_secure' => IS_PRODUCTION, // cookie over ssl only
+      'cookie_httponly' => true, // no js access
+    ]);
   }
 
   public static function get($key, $default = null)
