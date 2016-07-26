@@ -31,13 +31,17 @@ $info_text: #3a87ad;
   }
 }
 
-.notice 
+.notice
 {
   padding: 10px 20px;
   border: 1px solid #000;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
   a[href] { text-decoration: underline; }
   @include border-radius(5px);
+  > p:last-child
+  {
+    margin-bottom: 0;
+  }
 }
 .notice-success
 {

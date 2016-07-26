@@ -2,6 +2,8 @@
 
 class Config
 {
+  const HELP_CONTACT_EMAIL = 'josh@lbry.io';
+
   protected static $loaded = false;
   protected static $data = [];
 

@@ -11,8 +11,8 @@
     <?php foreach ($posts as $post): ?>
     <item>
       <title><?php echo htmlspecialchars($post->getTitle()) ?></title>
-      <link>https://lbry.io<?php echo $post->getRelativeUrl() ?></link>
-      <guid>https://lbry.io<?php echo $post->getRelativeUrl() ?></guid>
+      <link>https://lbry.io/<?php echo $post->getRelativeUrl() ?></link>
+      <guid>https://lbry.io/<?php echo $post->getRelativeUrl() ?></guid>
       <pubDate><?php echo $post->getDate()->format('r') ?></pubDate>
       <author><?php echo htmlspecialchars($post->getAuthorEmail()) ?> (<?php echo htmlspecialchars($post->getAuthorName()) ?>)</author>
       <description><?php echo htmlspecialchars($post->getContentText(50, true)) ?></description>

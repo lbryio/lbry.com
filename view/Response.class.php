@@ -17,16 +17,24 @@ class Response
                       'css' => []
                    ],
 //                   $bodyCssClasses = [],
-                   $metaImg = '';
+                   $metaImages = [];
 
   public static function setMetaDescription($description)
   {
     static::$metaDescription = $description;
   }
 
-  public static function setMetaImage($url)
+  public static function addMetaImage($url)
   {
-    static::$metaImg = $url;
+    static::$metaImages[] = $url;
+  }
+
+  public static function addMetaImages(array $urls)
+  {
+    foreach($urls as $url)
+    {
+      static::addMetaImage($url);
+    }
   }
 
   public static function getMetaDescription()
@@ -34,9 +42,9 @@ class Response
     return static::$metaDescription ?: 'A Content Revolution';
   }
 
-  public static function getMetaImage()
+  public static function getMetaImages()
   {
-    return static::$metaImg ?: '//lbry.io/img/lbry-dark-1600x528.png';
+    return static::$metaImages ?: ['https://lbry.io/img/lbry-dark-1600x528.png'];
   }
 
   public static function setMetaTitle($title)

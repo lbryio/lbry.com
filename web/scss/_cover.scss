@@ -25,7 +25,7 @@
   .cover-subtitle { font-size: 1.2em; }
 }
 @media (min-width: $mobile-width-threshold) {
-  .cover-title { font-size: 4.0em; &.cover-title-tile { font-size: 2.8em; } }
+  .cover-title { font-size: 4.0em; &.cover-title-tile { font-size: 2.8em; max-width: 660px; margin-left: auto; margin-right: auto; } }
   .cover-subtitle { font-size: 1.4em; }
 }
 @media (max-width: $max-content-width) and (min-width: $mobile-width-threshold) {
@@ -77,7 +77,10 @@
 
 .cover-title, .cover-subtitle
 {
-  text-shadow: 0 0 6px rgba(0,0,0,0.8);
+  &:not(.cover-title-flat)
+  {
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+  }
 }
 .cover-title
 {

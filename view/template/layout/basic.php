@@ -13,7 +13,7 @@
         <title><?php echo $title ?></title>
 
         <link href='https://fonts.googleapis.com/css?family=Raleway:300,300italic,400,400italic,700' rel='stylesheet' type='text/css'>
-        <link href="/css/all.css" rel="stylesheet" type="text/css" media="screen,print" />
+        <link href="/css/all.css" rel="stylesheet" type="text/css" />
         <link rel="apple-touch-icon" sizes="60x60" href="/img/fav/apple-touch-icon-60x60.png">
         <link rel="apple-touch-icon" sizes="114x114" href="/img/fav/apple-touch-icon-114x114.png">
         <link rel="apple-touch-icon" sizes="120x120" href="/img/fav/apple-touch-icon-120x120.png">
@@ -42,9 +42,12 @@
         <!-- Open Graph data -->
         <meta property="og:title" content="<?php echo $title ?>" />
         <meta property="og:type" content="article" />
-        <meta property="og:image" content="<?php echo Response::getMetaImage() ?>" />
         <meta property="og:description" content="<?php echo Response::getMetaDescription() ?>"/>
         <meta property="og:site_name" content="LBRY" />
+        <?php foreach(Response::getMetaImages() as $image): ?>
+          <meta property="og:image" content="<?php echo $image ?>" />
+        <?php endforeach ?>
+
 
         <base target="_parent" />
     </head>
@@ -59,7 +62,7 @@
           <?php foreach(Response::getJsAssets() as $src): ?>
             <script src="<?php echo $src ?>"></script>
           <?php endforeach ?>
-          <?php echo View::render('analytics/track') ?>
+          <?php echo View::render('layout/_analytics') ?>
           <?php $js = Response::getJsCalls() ?>
           <?php if ($js): ?>
             <script><?php echo implode("\n", $js) ?></script>

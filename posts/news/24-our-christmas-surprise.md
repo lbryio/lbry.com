@@ -14,7 +14,7 @@ All of our talk of indie artists and global content distribution was really a re
 
 We’re actually shocked how many of you didn’t notice this. In all of our promotional materials, only one piece of content is ever accessed. That’s right, *It’s A Wonderful Life*.
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/KqwbsTbeEgo" frameborder="0" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/BNtivEJKHxI" frameborder="0" allowfullscreen></iframe></p>
 
 We have put the genius of Satoshi Nakamoto, Bram Cohen, and Ronald Coase together to deliver the whole world just what they wanted to watch on Christmas Eve: *It’s A Wonderful Life*.
 

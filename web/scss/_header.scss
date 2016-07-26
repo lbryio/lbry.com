@@ -4,15 +4,16 @@ $color-nav-border: #ddd;
 
 .header
 {
-    width: 100%;
-    padding: 15px 0;
-    @include clearfix();
-    position: relative;
-    z-index: 1;
-    .icon-close { display: none; }
+  padding: 15px 0;
+  @include clearfix();
+  position: relative;
+  z-index: 1;
+  .icon-close { display: none; }
+  @include jumpingScrollbarFix();
 }
 .header-absolute
 {
+  width: 100%;
   position: absolute;
 }
 .header-scroll
@@ -122,7 +123,7 @@ $color-nav-border: #ddd;
   border-top: 1px $color-nav-border solid;
   border-bottom: 1px $color-nav-border solid;
   padding: $spacing-vertical / 2 0;
-  width: 100%;
+  @include jumpingScrollbarFix();
 }
 .footer-img-link
 {

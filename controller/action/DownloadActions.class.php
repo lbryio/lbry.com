@@ -76,7 +76,7 @@ class DownloadActions extends Actions
 
     if (!$email || !filter_var($email, FILTER_VALIDATE_EMAIL))
     {
-      Session::set(Session::KEY_DOWNLOAD_ACCESS_ERROR, 'Please provide a valid email. You provided: ' . htmlspecialchars($email));
+      Session::set(Session::KEY_DOWNLOAD_ACCESS_ERROR, 'Please provide a valid email. You provided: ' . $email);
     }
     else
     {

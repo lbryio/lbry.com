@@ -5,7 +5,7 @@ class Post
   const SORT_DATE_DESC = 'sort_date_desc';
 
   protected static $slugMap = [];
-  protected $slug, $title, $author, $date, $markdown, $contentText, $contentHtml, $cover, $category;
+  protected $slug, $title, $author, $date, $markdown, $contentText, $contentHtml, $cover, $postType, $category;
   protected $isCoverLight = false;
 
   public static function load($relativeOrAbsolutePath)
@@ -15,10 +15,10 @@ class Post
     {
       throw new LogicException('Cannot load a post without a path.');
     }
-    $category = $pathTokens[count($pathTokens) - 2];
+    $postType = $pathTokens[count($pathTokens) - 2];
     $filename = $pathTokens[count($pathTokens) - 1];
     $isRelative = $relativeOrAbsolutePath[0] != '/';
-    $slug = static::getSlugFromFilename($filename);
+    $slug = strpos($filename, '.md') !== false ? static::getSlugFromFilename($filename) : $filename;
     $path = ($isRelative ? ROOT_DIR . '/posts/' : '') .
               $relativeOrAbsolutePath .
               (substr($filename, -3) !== '.md' ? '.md' : '');
@@ -27,7 +27,7 @@ class Post
     {
       if ($isRelative)
       {
-        $slugMap = static::getSlugMap($category);
+        $slugMap = static::getSlugMap($postType);
         if (isset($slugMap[$slug]))
         {
           return static::load($slugMap[$slug]);
@@ -37,12 +37,12 @@ class Post
     }
 
     list($ignored, $frontMatter, $content) = explode('---', file_get_contents($path), 3);
-    return new static($category, $slug, Spyc::YAMLLoadString(trim($frontMatter)), trim($content));
+    return new static($postType, $slug, Spyc::YAMLLoadString(trim($frontMatter)), trim($content));
   }
 
-  public function __construct($category, $slug, $frontMatter, $markdown)
+  public function __construct($postType, $slug, $frontMatter, $markdown)
   {
-    $this->category = $category;
+    $this->postType = $postType;
     $this->slug = $slug;
     $this->markdown = $markdown;
     $this->title = isset($frontMatter['title']) ? $frontMatter['title'] : null;
@@ -50,6 +50,7 @@ class Post
     $this->date = isset($frontMatter['date']) ? new DateTime($frontMatter['date']) : null;
     $this->cover = isset($frontMatter['cover']) ? $frontMatter['cover'] : null;
     $this->isCoverLight = isset($frontMatter['cover-light']) && $frontMatter['cover-light'] == 'true';
+    $this->category = isset($frontMatter['category']) ? $frontMatter['category'] : null;
   }
 
   public static function find($folder, $sort = null)
@@ -75,7 +76,7 @@ class Post
 
   public function getRelativeUrl()
   {
-    return $this->category . '/' . $this->slug;
+    return $this->postType . '/' . $this->slug;
   }
 
   public function getSlug()
@@ -108,6 +109,11 @@ class Post
     return $this->isCoverLight;
   }
 
+  public function getCategory()
+  {
+    return $this->category;
+  }
+
   public function getContentText($wordLimit = null, $appendEllipsis = false)
   {
     if ($this->markdown && !$this->contentText)
@@ -130,26 +136,31 @@ class Post
 
   public function getPostNum()
   {
-    return array_search($this->getSlug(), array_keys(static::getSlugMap($this->category)));
+    return array_search($this->getSlug(), array_keys(static::getSlugMap($this->postType)));
   }
 
   public function getPrevPost()
   {
-    $slugs = array_keys(Post::getSlugMap($this->category));
+    $slugs = array_keys(Post::getSlugMap($this->postType));
     $postNum = $this->getPostNum();
-    return $postNum === false || $postNum === 0 ? null : Post::load($this->category . '/' . $slugs[$postNum-1]);
+    return $postNum === false || $postNum === 0 ? null : Post::load($this->postType . '/' . $slugs[$postNum-1]);
   }
 
   public function getNextPost()
   {
-    $slugs = array_keys(Post::getSlugMap($this->category));
+    $slugs = array_keys(Post::getSlugMap($this->postType));
     $postNum = $this->getPostNum();
-    return $postNum === false || $postNum >= count($slugs)-1 ? null : Post::load($this->category . '/' . $slugs[$postNum+1]);
+    return $postNum === false || $postNum >= count($slugs)-1 ? null : Post::load($this->postType . '/' . $slugs[$postNum+1]);
   }
 
   public function hasAuthor()
   {
     return $this->author !== null;
+  }
+
+  public function hasDate()
+  {
+    return $this->date !== null;
   }
 
   public function getAuthorName()
@@ -196,11 +207,11 @@ class Post
     switch(strtolower($this->author))
     {
       case 'jeremy':
-        return 'jeremy-644x450.jpg';
+        return 'jeremy-kauffman-644x450.jpg';
       case 'mike':
-        return 'mike-644x450.jpg';
+        return 'mike-vine-644x450.jpg';
       case 'jimmy':
-        return 'jimmy-644x450.jpg';
+        return 'jimmy-kiselak-644x450.jpg';
       case 'jack':
         return 'jack-robison-644x450.jpg';
       case 'lbry':
@@ -229,6 +240,27 @@ class Post
   public function getCoverBackgroundStyle($maxStyles)
   {
     return $this->getPostNum() % $maxStyles + 1;
+  }
+
+  public function getImageUrls()
+  {
+    $urls = [];
+
+    $cover = $this->getCover();
+    if ($cover)
+    {
+      $urls[] = 'https://' .  $_SERVER['SERVER_NAME'] . '/img/blog-covers/' . $cover;
+    }
+
+    $matches = [];
+    preg_match_all('/!\[.*?\]\((.*?)\)/', $this->markdown, $matches);
+
+    if ($matches)
+    {
+      $urls = array_merge($urls, $matches[1]);
+    }
+
+    return $urls;
   }
 
   protected function markdownToText($markdown)
@@ -286,16 +318,16 @@ class Post
     return strtolower(preg_replace('#^\d+\-#', '', basename(trim($filename), '.md')));
   }
 
-  public static function getSlugMap($category)
+  public static function getSlugMap($postType)
   {
-    if (!isset(static::$slugMap[$category]))
+    if (!isset(static::$slugMap[$postType]))
     {
-      static::$slugMap[$category] = [];
-      foreach(glob(ROOT_DIR . '/posts/' . $category . '/*.md') as $file)
+      static::$slugMap[$postType] = [];
+      foreach(glob(ROOT_DIR . '/posts/' . $postType . '/*.md') as $file)
       {
-        static::$slugMap[$category][static::getSlugFromFilename($file)] = $file;
+        static::$slugMap[$postType][static::getSlugFromFilename($file)] = $file;
       }
     }
-    return static::$slugMap[$category];
+    return static::$slugMap[$postType];
   }
 }

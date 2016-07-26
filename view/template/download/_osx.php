@@ -1,6 +1,7 @@
 <div class="text-center">
   <p>
-    <a class="btn-alt" href="//lbry.io/lbry-osx-latest.dmg"
+    <a class="btn-alt" <?php echo $downloadUrl ? 'download' : '' ?>
+       href="<?php echo $downloadUrl ?: 'https://github.com/lbryio/lbry/releases' ?>"
       <?php /*
            data-facebook-track-id="XXXXX"
            data-twitter-track-id="XXXXX"
