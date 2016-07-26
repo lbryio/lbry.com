@@ -2,7 +2,7 @@
 author: lbry
 title: 'Walking a Day in Venezuelan Shoes'
 date: '2016-07-26 00:09:18'
-cover: 'venezuela.JPG'
+cover: 'venezuela.jpg'
 ---
 Javier, a young Venezuelan and cryptocurrency advocate, joined [LBRY’s Slack](http://slack.lbry.io/) earlier this month to get access to our beta and learn more about LBRY’s vision.
 
@@ -22,9 +22,9 @@ You can help Javier by sending him BTC or LBC:
 
 **LBC:** bbBNDgX9WDKEWTaGkCi7yDjcaPdRb6GM4L
 
-<center>**Walking a Day in Venezuelan Shoes**</center>
+**<center>Walking a Day in Venezuelan Shoes</center>**
 
-<center>*By Javier [Name Redacted for Safety]*</center>
+*<center>By Javier [Name Redacted for Safety]</center>*
 
 **The day starts**
 
