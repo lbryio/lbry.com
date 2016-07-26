@@ -1,13 +1,7 @@
 <div class="bg-image-full" style="background-image: url(/img/cover-home2.jpg)"></div>
-<<<<<<< HEAD:view/template/content/home.php
 <?php Response::setMetaTitle(__('title.home')) ?>
 <?php Response::setMetaDescription(__('description.home')) ?>
-<?php echo View::render('nav/header', ['isDark' => true]) ?>
-=======
-<?php Response::setMetaTitle(__('LBRY - Play, Share, Earn')) ?>
-<?php Response::setMetaDescription(__('Meet LBRY, a content sharing and publishing platform that is decentralized and owned by it\'s users.')) ?>
 <?php echo View::render('nav/_header', ['isDark' => true]) ?>
->>>>>>> master:view/template/page/home.php
 <main class="column-fluid">
   <div class="span12">
     <div class="cover cover-dark">
@@ -40,11 +34,7 @@
  */ ?>
         <div class="control-group spacer2 text-center">
           <div class="control-item">
-<<<<<<< HEAD:view/template/content/home.php
             <a href="/get" class="btn-primary">{{page.home.primary_button}}</a>
-=======
-            <a href="/get" class="btn-primary">Early Access</a>
->>>>>>> master:view/template/page/home.php
           </div>
           <div class="control-item">
             <a href="/learn" class="btn-alt">{{page.home.learn_button}}</a>

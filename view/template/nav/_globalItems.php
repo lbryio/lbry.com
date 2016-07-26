@@ -1,5 +1,4 @@
 <?php foreach([
-//    '/fund' => __('Fund'),
     '/get' => __('Get'),
     '/news' => __('News'),
     '/learn' => __('Learn')

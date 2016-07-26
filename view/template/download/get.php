@@ -21,6 +21,7 @@
   </div>
   <div class="span5">
     <?php echo View::render('download/_social') ?>
+    <?php echo View::render('download/_publish') ?>
   </div>
 </main>
 

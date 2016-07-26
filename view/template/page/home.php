@@ -34,11 +34,7 @@
  */ ?>
         <div class="control-group spacer2 text-center">
           <div class="control-item">
-<<<<<<< HEAD:view/template/content/home.php
             <a href="/get" class="btn-primary">{{page.home.primary_button}}</a>
-=======
-            <a href="/get" class="btn-primary">Early Access</a>
->>>>>>> master:view/template/page/home.php
           </div>
           <div class="control-item">
             <a href="/learn" class="btn-alt">{{page.home.learn_button}}</a>

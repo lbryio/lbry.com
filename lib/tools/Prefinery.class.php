@@ -109,6 +109,11 @@ class Prefinery
       throw new PrefineryException('Received empty or improperly encoded response.');
     }
 
+    if (isset($data['error']))
+    {
+      throw new PrefineryException($data['error']);
+    }
+
     if (isset($data['errors']))
     {
       throw new PrefineryException(implode("\n", array_map(function ($error)
