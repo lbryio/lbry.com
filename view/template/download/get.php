@@ -5,7 +5,7 @@
 <main class="column-fluid">
   <div class="span7">
     <div class="cover cover-dark cover-dark-grad content content-stretch content-dark">
-      <h1>{{download.main.title}}</h1>
+      <h1>{{global.get}}</h1>
       <?php if (Session::get(Session::KEY_DOWNLOAD_ACCESS_ERROR)): ?>
         <div class="notice notice-error spacer1"><?php echo Session::get(Session::KEY_DOWNLOAD_ACCESS_ERROR) ?></div>
         <?php Session::unsetKey(Session::KEY_DOWNLOAD_ACCESS_ERROR) ?>
@@ -14,7 +14,7 @@
       <?php if (Session::get(Session::KEY_PREFINERY_USER_ID)): ?>
         <?php echo View::render('download/_refer') ?>
       <?php else: ?>
-        <p>{{download.main.signup}}</p>
+        <p>{{download.signup}}</p>
         <?php echo View::render('download/_signup') ?>
       <?php endif ?>
     </div>

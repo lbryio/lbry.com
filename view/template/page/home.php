@@ -34,10 +34,10 @@
  */ ?>
         <div class="control-group spacer2 text-center">
           <div class="control-item">
-            <a href="/get" class="btn-primary">{{page.home.primary_button}}</a>
+            <a href="/get" class="btn-primary">{{global.get}}</a>
           </div>
           <div class="control-item">
-            <a href="/learn" class="btn-alt">{{page.home.learn_button}}</a>
+            <a href="/learn" class="btn-alt">{{global.learn}}</a>
           </div>
         </div>
         <div class="video" style="margin-bottom: 80px">
@@ -47,9 +47,9 @@
       <div class="content content-dark">
         <div class="row-fluid">
           <div class="span4">
-            <h3><?php echo __('Get Updates') ?></h3>
+            <h3><?php echo __('email.updates') ?></h3>
             <?php echo View::render('mail/_joinList', [
-              'submitLabel' => 'Go',
+              'submitLabel' => __('email.go'),
               'listId' => Mailchimp::LIST_GENERAL_ID,
               'mergeFields' => ['CLI' => 'No'],
               'meta' => true,
