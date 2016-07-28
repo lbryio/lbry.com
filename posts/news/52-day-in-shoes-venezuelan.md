@@ -104,6 +104,10 @@ My life from now on (and always should) contributes to the open source community
 
 Thanks LBRY team.
 
-Javier
+Javier, July 2016
 
-July 2016
+You can help Javier by sending him BTC or LBC:
+
+**BTC:** 35jRKCLRXjL5j8sJDJJQZHmHkMNa18EVR5
+
+**LBC:** bbBNDgX9WDKEWTaGkCi7yDjcaPdRb6GM4L
