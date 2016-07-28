@@ -60,12 +60,15 @@ class Prefinery
     $user = static::findUser($email);
     if (!$user)
     {
+      // dont record ip for lbry.io addresses, for testing
+      $ip = isset($_SERVER['REMOTE_ADDR']) && !preg_match('/@lbry\.io$/', $email) ? $_SERVER['REMOTE_ADDR'] : null;
+      $ua = isset($_SERVER['HTTP_USER_AGENT']) ? $_SERVER['HTTP_USER_AGENT'] : null;
       $user = Prefinery::createTester(array_filter([
         'email'           => $email,
         'status'          => $inviteCode ? static::STATE_ACTIVE : static::STATE_APPLIED, # yes, has to be ACTIVE to validate invite code
         'invitation_code' => $inviteCode,
         'referrer_id'     => $referrerId,
-        'profile'         => ['ip' => $_SERVER['REMOTE_ADDR'], 'user_agent' => $_SERVER['HTTP_USER_AGENT']]
+        'profile'         => ['ip' => $ip, 'user_agent' => $ua]
       ]));
     }
 

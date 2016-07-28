@@ -18,7 +18,10 @@ class Session
 
   public static function init()
   {
-    session_start();
+    session_start([
+      'cookie_secure' => IS_PRODUCTION, // cookie over ssl only
+      'cookie_httponly' => true, // no js access
+    ]);
   }
 
   public static function get($key, $default = null)

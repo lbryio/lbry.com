@@ -13,7 +13,18 @@ class Controller
       $viewParameters = isset($viewAndParams[1]) ? $viewAndParams[1] : [];
       $headers = isset($viewAndParams[2]) ? $viewAndParams[2] : [];
 
-      static::sendHeaders($headers);
+      $defaultHeaders = [
+        'Content-Security-Policy' => "frame-ancestors 'none'",
+        'X-Frame-Options' => 'DENY',
+        'X-XSS-Protection'=> '1',
+      ];
+
+      if (IS_PRODUCTION)
+      {
+        $defaultHeaders['Strict-Transport-Security'] = 'max-age=31536000';
+      }
+
+      static::sendHeaders(array_merge($defaultHeaders, $headers));
 
       if ($viewTemplate === null)
       {

@@ -64,7 +64,7 @@
               <p>
                 LBRY uses the ground-breaking innovation of the blockchain to leave no one in control of your content except for you (including us!).</p>
                <p>
-                 LBRY is an open-source protocol that is controlled by it's users: we could not change the rules even if wanted to.
+                 LBRY is an open-source protocol that is controlled by it's users: we could not change the rules even if we wanted to.
               </p>
               <h4>Complete Creator Control</h4>
               <p>Update your content at any time. Change the price. Change the title. Publish, unpublish. You and only you can do this in LBRY.</p>
@@ -83,7 +83,7 @@
             <li>
               Receive $1,000 worth of LBRY credits to hold, use or sell.
               <div class="meta">
-                We make no guarantee of the value of a credit, but credits are actively traded. Current credit price can be seen
+                We make no guarantee of the current or future monetary value of a credit, but credits are actively traded. Current credit market prices can be seen
                 <a class="link-primary" href="https://bittrex.com/Market/Index?MarketName=BTC-LBC">here</a> or <a class="link-primary" href="https://poloniex.com/exchange#btc_lbc">here</a>.
               </div>
             </li>
