@@ -29,7 +29,7 @@ We have allocated approximately 2,000,000 LBC across these categories, but do no
 
 We anticipate most expenses continuing to be met via existing assets.
 
-Depending on fundraising over the next 3 months, we may entertain private placements via structures that align with the long-term interest in LBRY.
+Depending on fundraising over the next 3 months, we may entertain private placements via structures that align with the long-term interest in LBRY and minimize market impact.
 
 ### Institutional Fund
 
