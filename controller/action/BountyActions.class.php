@@ -6,14 +6,20 @@ class BountyActions extends Actions
 
   public static function executeList()
   {
-    $posts = Post::find(ROOT_DIR . '/posts/bounty');
+    $selectedStatus = static::param('status');
+    $selectedCategory = static::param('category');
 
-    $allCategories = array_unique(array_map(function($post) {
+    $filters = array_filter(['category' => $selectedCategory, 'status' => $selectedStatus]);
+    $allBounties = Post::find(ROOT_DIR . '/posts/bounty');
+
+    $allCategories = array_unique(array_map(function(Post $post) {
       $metadata = $post->getMetadata();
       return isset($metadata['category']) ? $metadata['category'] : null;
-    }, $posts));
+    }, $allBounties));
 
-    uasort($posts, function($postA, $postB) {
+    $bounties = $filters ? Post::filter($allBounties, $filters) : $allBounties;
+
+    uasort($bounties, function($postA, $postB) {
       $metadataA = $postA->getMetadata();
       $metadataB = $postB->getMetadata();
       if ($metadataA['award'] != $metadataB['award'])
@@ -23,12 +29,11 @@ class BountyActions extends Actions
       return $metadataA['title'] < $metadataB['title'] ? -1 : 1;
     });
 
-    $completeStatuses = ['any', 'incomplete', 'complete'];
-
     return ['bounty/list', [
-      'posts' => $posts,
+      'bounties' => $bounties,
       'categories' => $allCategories,
-      'completeStatuses' => $completeStatuses
+      'selectedCategory' => $selectedCategory,
+      'selectedStatus' => $selectedStatus
     ]];
   }
 

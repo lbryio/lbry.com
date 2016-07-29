@@ -2,7 +2,7 @@
 category: browser
 title: Add Wallet Interface to LBRY Browser
 award: 1000
-complete: true
+status: complete
 date: '2016-07-01'
 ---
 

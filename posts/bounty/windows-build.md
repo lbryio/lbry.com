@@ -2,6 +2,7 @@
 category: ci
 title: Build LBRY for Windows
 award: 1000
+status: available
 date: '2016-07-01'
 ---
 

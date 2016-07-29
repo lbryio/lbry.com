@@ -18,27 +18,29 @@
           <label>Category</label>
           <select name="category">
             <?php foreach($categories as $category): ?>
-              <option value="<?php echo $category ?>"><?php echo $category ?></option>
+              <option value="<?php echo $category ?>" <?php echo $selectedCategory == $category ? 'selected="selected"' : '' ?>>
+                <?php echo $category ?>
+              </option>
             <?php endforeach ?>
           </select>
         </div>
         <div class="form-row align-left">
           <label>Completed</label>
-          <select name="category">
-            <?php foreach($completeStatuses as $status): ?>
-              <option value="<?php echo $status ?>"><?php echo $status ?></option>
+          <select name="status">
+            <?php foreach(['' => 'any', 'available' => 'available', 'completed' => 'completed'] as $statusVal => $statusLabel): ?>
+              <option value="<?php echo $statusVal ?>"><?php echo $statusLabel ?></option>
             <?php endforeach ?>
           </select>
         </div>
       </div>
     </form>
     <?php js_start() ?>
-      $('#bounty-filter-form').change(function() $(this).submit(); });
+      $('#bounty-filter-form').change(function() { $(this).submit(); });
     <?php js_end() ?>
   </section>
   <section class="content content-light">
     <div class="tile-fluid clearfix  spacer2">
-      <?php foreach($posts as $post): ?>
+      <?php foreach($bounties as $post): ?>
         <div class="span4">
           <a class="bounty-tile" href="<?php echo $post->getRelativeUrl() ?>">
             <div class="text-center spacer-half"><span class="icon-mega

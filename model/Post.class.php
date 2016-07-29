@@ -61,6 +61,7 @@ class Post
     {
       $posts[] = static::load($file);
     }
+
     if ($sort)
     {
       switch ($sort)
@@ -73,6 +74,24 @@ class Post
       }
     }
     return $posts;
+  }
+
+  public static function filter(array $posts, array $filters)
+  {
+    return array_filter($posts, function(Post $post) use($filters) {
+      $metadata = $post->getMetadata();
+      foreach($filters as $filterAttr => $filterValue)
+      {
+        if (!isset($metadata[$filterAttr]) || (
+            ($metadata[$filterAttr] != $filterValue) &&
+            (!is_array($metadata[$filterAttr]) || !in_array($filterValue, $metadata[$filterAttr]))
+        ))
+        {
+          return false;
+        }
+      }
+      return true;
+    });
   }
 
   public function getMetadata()
