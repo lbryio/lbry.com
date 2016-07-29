@@ -15,7 +15,7 @@ The initial 400m credits are broken down as follows:
 | ---- | ------ | ---------------- | -------- |
 | Community | 200m |  Reward early adopters, new users, and community contributions. | [link](https://explorer.lbry.io/address/rMT5Sg8SyFP3ax2PRaweRCRZoMeYw4znEi) |
 | Operational | 100m | To allow LBRY, Inc. to function and profit. | [link](https://explorer.lbry.io/address/rEQKyb7nd7UUGyEEn5xRkk1fgXdTCf2ZCg) |
-| Instutional | 100m |  For strategic partnerships or assistance with charities, non-profits, or other institutions. | [link](https://explorer.lbry.io/address/r9DarmxyPjWkF7ocyxMzaNZN3a9gJvNTZJ) |
+| Institutional | 100m |  For strategic partnerships or assistance with charities, non-profits, or other institutions. | [link](https://explorer.lbry.io/address/r9DarmxyPjWkF7ocyxMzaNZN3a9gJvNTZJ) |
 
 ## Quartery Reports
 
@@ -46,13 +46,13 @@ The Operational Fund is 100m LBC reserved for LBRY, Inc. itself.
 
 LBRY, Inc. reserves the rights to do whatever it wants with these credits at any time, to be deployed in the best interests of LBRY, Inc.
 
-However, no one believes in the LBRY protocol more, or has more incentive for its success, than LBRY, Inc. We believe LBRY can be an world-altering technology and as such our intentions are to absolutely minimize the expenditure of these credits until we've achieved that reality.
+However, no one believes in the LBRY protocol more, or has more incentive for its success, than LBRY, Inc. We believe LBRY can be an world-altering technology and as such our intentions are to minimize the expenditure of these credits until we've achieved that reality.
 
-Minimal engagement in the market is especially necessary throughout stages of low liquidy, when any action has disproportionate impact.
+Minimal engagement in the market is especially necessary throughout stages of low liquidity, when any action has disproportionate impact.
 
 ## Institutional Fund
 
-The Institutional Fund is 100m LBC reserved for the formation of institutional partnerships and benefitting organizations of need, and  institutional partnerships, grants, donations, and other ways of strengthening relationships with organizations of need or like-mindedness.
+The Institutional Fund is 100m LBC reserved for the formation of institutional partnerships and benefiting organizations of need, and  institutional partnerships, grants, donations, and other ways of strengthening relationships with organizations of need or like-mindedness.
 
 Sample usages of this fund include:
 
@@ -60,9 +60,9 @@ Sample usages of this fund include:
 - Partnering with charities or other non-governmental organizations with similar interests to LBRY
 - Granting to organizations in need
 - Establishing separate entities related to LBRY Inc. (e.g. a non-profit to manage the protocol)
-- Strategic partnerships or affilliations with other institutions
+- Strategic partnerships or affiliations with other institutions
 
-LBRY, Inc. anticipates a dispertion period for these tokens significantly exceeding the administration of the community fund. It has no plans to utilize these credits until achieving more community growth and drafting specific programs for participation.
+LBRY, Inc. anticipates a dispersion period for these tokens significantly exceeding the administration of the community fund. It has no plans to utilize these credits until achieving more community growth and drafting specific programs for participation.
 
 ## More Details
 
