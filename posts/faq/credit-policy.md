@@ -50,6 +50,8 @@ However, no one believes in the LBRY protocol more, or has more incentive for it
 
 Minimal engagement in the market is especially necessary throughout stages of low liquidity, when any action has disproportionate impact.
 
+Should LBRY make placements from this fund, it will seek long-term engagements and commitments that align interests with LBRY, Inc. and minimize market influence.
+
 ## Institutional Fund
 
 The Institutional Fund is 100m LBC reserved for the formation of institutional partnerships and benefiting organizations of need, and  institutional partnerships, grants, donations, and other ways of strengthening relationships with organizations of need or like-mindedness.
