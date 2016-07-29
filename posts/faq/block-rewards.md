@@ -13,7 +13,7 @@ The source code, and not this file, is the only true definiton of the block rewa
 
 Eventually 1,000,000,000 LBRY credits will exist. They are awarded on the following schedule:
 
-* The genesis block creates 400,000,000 credits to be administered by LBRY, Inc. 300,000,000 of these will be given away to the public.
+* The genesis block creates 400,000,000 credits to be administered by LBRY, Inc. 300,000,000 of these will be strategically allocated to partners, many of whom have a direct interest in the naming layer.  It also includes 100,000,000 earmarked for charity.  Additionally, some may be given directly to the public in ways that add value and make sense.  100,000,000 are owned by LBRY directly.
 
 * The remaining 600,000,000 are mined in 3 stages:
 

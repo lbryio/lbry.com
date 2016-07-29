@@ -18,7 +18,15 @@ class Session
 
   public static function init()
   {
+    ini_set('session.cookie_secure', IS_PRODUCTION); // send cookie over ssl only
+    ini_set('session.cookie_httponly', true); // no js access to cookies
     session_start();
+
+    if (!static::get('secure_and_httponly_set'))
+    {
+      session_regenerate_id(); // ensure that old cookies get new settings
+    }
+    static::set('secure_and_httponly_set', true);
   }
 
   public static function get($key, $default = null)
