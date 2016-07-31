@@ -1,5 +1,5 @@
 ---
-title: How does the referral program work?
+title: How does the referral and waitlist program work?
 category: getstarted
 ---
 
@@ -8,6 +8,18 @@ You can earn credits and move up the LBRY waitlist for referring others to use L
 ### How do referrals affect my status on the waitlist?
 
 The more LBRYians you refer, the sooner you'll be granted access and the more credits you'll earn.
+
+### How long will I be on the list? How frequently do you take people off?
+
+We anticipate taking anywhere from several hundreds to several thousand off each week. It depends on how development continues.
+
+Your wait time will depend on how many you invite and how long you've been on the list. See below.
+
+### How do you determine who to take off the list?
+
+Your waitlist score is the sum of number of weeks on the list and number of people invited. We take the people with the highest scores every time we do another invite wave.
+
+Currently, invites outside of English speaking countries are paused pending better international support.
 
 ### How many credits do I get?
 
@@ -22,10 +34,6 @@ Access the [Get](/get) page. If it does not already display your status when you
 ### When do I get my rewards?
 
 You will not receive any credits until you get off the waitlist. As soon as you do, you will receive an acceptance bonus. You will not receive rewards for each referral until those users join and use LBRY themselves. This is to combat referral fraud.
-
-### How frequently do you take people off the waitlist?
-
-We anticipate taking anywhere from several hundreds to several thousand off each week. It depends on how development continues.
 
 ### Is there a limit to the credits I can earn?
 
