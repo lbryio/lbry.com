@@ -4,7 +4,7 @@
     <div class="content">
       <nav class="control-group">
         <div class="control-item">
-          <a href="/"><?php echo __('Home') ?></a>
+          <a href="/"><?php echo __('nav.home') ?></a>
         </div>
         <?php echo View::render('nav/_globalItems') ?>
         <div class="control-item">

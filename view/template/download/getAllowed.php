@@ -1,19 +1,19 @@
-<?php Response::setMetaDescription(__('Download/install the latest version of LBRY for %os%.', ['%os%' => $osTitle]))  ?>
+<?php Response::setMetaDescription(__('description.allowed', ['%os%' => $osTitle]))  ?>
 <?php NavActions::setNavUri('/get') ?>
 <?php echo View::render('nav/_header', ['isDark' => false]) ?>
 
 <main class="column-fluid">
   <div class="span7">
     <div class="cover cover-dark cover-dark-grad content content-stretch content-dark">
-      <h1>LBRY for <?php echo $osTitle ?> <span class="<?php echo $osIcon ?>"></span></h1>
+      <h1>{{download.for-os}}LBRY for <?php echo $osTitle ?> <span class="<?php echo $osIcon ?>"></span>{{download.for-os2}}</h1>
       <?php if ($downloadHtml): ?>
         <?php echo View::render('download/_betaNotice') ?>
-        <h4>Download</h4>
+        <h4>{{download.verb}}</h4>
         <?php echo $downloadHtml ?>
-        <h4>Claim Credits</h4>
+        <h4>{{download.credits}}</h4>
         <?php if ($prefineryUser): ?>
-          <p>After download, use email <strong><?php echo $prefineryUser['email'] ?></strong> and the code you received via email to receive your credits.</p>
-          <div class="meta">If you received a printed code and it does not work after you download, check your email for a different code.</div>
+          <p>{{download.email1}}<strong><?php echo $prefineryUser['email'] ?></strong>{{download.email2}}</p>
+          <div class="meta">{{download.email3}}</div>
         <?php endif ?>
       <?php else: ?>
         <?php echo View::render('download/_unavailable', [

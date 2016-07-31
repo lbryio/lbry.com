@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>LBRY News</title>
+    <title>{{rss.title}}</title>
     <link>https://lbry.io<?php echo ContentActions::URL_NEWS ?></link>
-    <description>Recent news about LBRY</description>
+    <description>{{rss.description}}</description>
     <generator>https://github.com/lbryio/lbry.io</generator>
-    <language>en</language>
+    <language>{{rss.lang}}</language>
     <?php //<lastBuildDate>Sat, 07 Sep 2002 09:42:31 GMT</lastBuildDate> ?>
     <atom:link href="https://lbry.io<?php echo ContentActions::URL_NEWS . '/' . ContentActions::RSS_SLUG ?>" rel="self" type="application/rss+xml" />
     <?php foreach ($posts as $post): ?>

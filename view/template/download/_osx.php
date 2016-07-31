@@ -9,9 +9,9 @@
            data-analytics-action="Download"
            data-analytics-label="OSX"
            */ ?>
-    >Download for OS X</a>
+    >{{download.osx2}}</a>
   </p>
-  <p class="meta">Or, view the source and compile instructions on
+  <p class="meta">{{download.github}}
     <a href="https://github.com/lbryio/lbry-setup/blob/master/README_OSX.md" class="link-primary">GitHub</a>.
   </p>
 </div>
