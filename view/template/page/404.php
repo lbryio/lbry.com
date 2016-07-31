@@ -1,7 +1,7 @@
 <?php echo View::render('nav/_header', ['isDark' => false]) ?>
 <main>
   <div class="content">
-    <h1>Page Not Found</h1>
-    <p>One day this will be funnier but today is not that day.</p>
+    <h1>{{page.notfound}}</h1>
+    <p>{{page.funnier}}</p>
   </div>
 </main>

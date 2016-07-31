@@ -5,16 +5,16 @@
     <div class="span6">
       <div class="cover cover-dark cover-dark-grad">
         <div class="content content-dark content-tile">
-          <h1 class="cover-title cover-title-tile">LBRY in 100 Seconds</h1>
+          <h1 class="cover-title cover-title-tile">{{learn.100}}</h1>
           <?php echo View::render('download/_videoIntro') ?>
         </div>
       </div>
     </div>
     <div class="span6">
       <div class="cover cover-dark cover-center content content-dark" style="background-image:url(/img/altamira-bison.jpg)">
-        <h2 class="cover-title cover-title-tile">Art in the Internet Age</h2>
-        <p class="cover-subtitle text-center" style="max-width: 660px">Learn how LBRY will forever improve how we create and share with one another.</p>
-        <a href="/what" class="btn-alt"><?php echo __('Read the Essay') ?></a>
+        <h2 class="cover-title cover-title-tile">{{learn.art}}</h2>
+        <p class="cover-subtitle text-center" style="max-width: 660px">{{learn.how}}</p>
+        <a href="/what" class="btn-alt"><?php echo __('learn.essay') ?></a>
       </div>
     </div>
     <div class="span6">
@@ -22,19 +22,19 @@
         <div class=" content content-light content-tile">
           <div class="row-fluid">
             <div class="span6">
-              <h3>Explore</h3>
+              <h3>{{learn.explore}}</h3>
               <div class="spacer1">
-                <a href="/faq" class="link-primary">Frequently Asked Questions</a>
+                <a href="/faq" class="link-primary">{{page.faq.header}}</a>
               </div>
               <div class="spacer1">
-                <a href="http://explorer.lbry.io" class="link-primary">Block Explorer</a>
+                <a href="http://explorer.lbry.io" class="link-primary">{{learn.explorer}}</a>
               </div>
               <div class="spacer1">
-                <a href="https://bittrex.com/Market/Index?MarketName=BTC-LBC" class="link-primary">Bittrex Exchange</a>
+                <a href="https://bittrex.com/Market/Index?MarketName=BTC-LBC" class="link-primary">{{learn.exchange}}</a>
               </div>
             </div>
             <div class="span6">
-              <h3>Nerd Out</h3>
+              <h3>{{learn.nerd}}</h3>
               <p>LBRY is 100% open source in the <a class="link-primary" href="https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar">Bazaar tradition</a>.</p>
               <?php echo View::render('social/_listDev') ?>
             </div>
@@ -47,12 +47,12 @@
         <div class="content content-light content-tile">
           <div class="row-fluid">
             <div class="span6">
-              <h3><?php echo __('The Team') ?></h3>
-              <p><?php echo __('Learn more about the relentless rebels changing the internet.') ?></p>
-              <a href="/team" class="btn-alt"><?php echo __('About The Team') ?></a>
+              <h3><?php echo __('page.team.header') ?></h3>
+              <p><?php echo __('page.rebels') ?></p>
+              <a href="/team" class="btn-alt"><?php echo __('learn.team') ?></a>
             </div>
             <div class="span6">
-              <h3>Join Us</h3>
+              <h3>{{learn.join}}</h3>
               <?php echo View::render('social/_list') ?>
             </div>
           </div>

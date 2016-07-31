@@ -9,19 +9,45 @@
 # 
 
 description:
+  allowed: Download/install the latest version of LBRY for %os%.
   faq: Frequently asked questions about LBRY.
   get: Download/install the latest version of LBRY.
   home: Meet LBRY, a content sharing and publishing platform that is decentralized and owned by its users.
+  join: Follow along and receive updates about LBRY via email.
   learn: Learn more about LBRY, the technology that puts you back in control of the internet.
   news: Access information and content in ways you never dreamed possible. Earn credits for your unused bandwidth and diskspace.
+  no-os: Download or install the latest version of LBRY.
+  press: LBRY Press Kit. Information and media for those who want to report on LBRY.
   publish: Publish your content on the world's first platform that leaves creators in control. 
   team: LBRY is founded by a team passionate about connecting producers and consumers and breaking down broken models. Learn more about them.
+  test: WHAT WHAT
   what: Access information and content in ways you never dreamed possible. Earn credits for your unused bandwidth and diskspace.
 download:
+  beta: This is still a beta.
   creator: Creator? Skip the Line
+  credits: Claim Credits
+  curse: While LBRY is now live, it may crash, work unreliably, or inadvertently put a curse on your family for generations (a common programming error). Use at your own risk.
+  deb: Download .deb
+  earn1: Earn
+  # this many credits
+  earn2: for completing the survey below after install.
+  email1: After download, use email 
+  email2:  and the code you received via email to receive your credits.
+  email3: If you received a printed code and it does not work after you download, check your email for a different code.
+  for-os1: Download/install the latest version of LBRY for %os%.
+  for-os2: ""
+  github: Or, view the source and compile instructions on
+  osx: Arrival is expected by July 5.
+  osx2: Download for OS X
   other: Other Systems
   popular: Popular publishers can earn $1,000 and early access for publishing via LBRY.
+  select: Select an OS
   signup: LBRY is currently in invite only mode. Enter your email to join the waitlist, or your email and invite code for access.
+  unavailable: LBRY is not yet out on your platform. You will receive an email as we expand LBRY to your preferred platform.
+  verb: Download
+  windows: Arrival is expected this month.
+  works: "Works with Ubuntu, Debian, or any distro with <code>apt</code> or <code>dpkg</code>."
+  worth: "*What is this worth? Who knows! But it is the largest reward we will <strong>ever</strong> offer to early adopters."
 email:
   address: Email
   code: Invite Code
@@ -38,14 +64,36 @@ global:
   learn: Learn More
   sentence: Watch, read and play in a decentralized digital library controlled by the community.
   tagline: Play, Share, Earn.
+learn:
+  100: LBRY in 100 Seconds
+  art: Art in the Internet Age
+  essay: Read the Essay
+  exchange: Bittrex Exchange
+  explore: Explore
+  explorer: Block Explorer
+  how: Learn how LBRY will forever improve how we create and share with one another.
+  join: Join Us
+  nerd: Nerd Out
+  rebels: Learn more about the relentless rebels changing the internet.
+  team: About The Team
 nav:
   get: Get
   home: Home
   learn: Learn
   news: News
+news:
+  # It is worth noting other languages use different date formats.
+  author: Author
+  desk: The Front Desk
+  musings: News and musings from the LBRY team.
+  next: Next
+  prev: Previous
 page:
   faq:
+    back: Back to FAQ
     header: Frequently Asked Questions
+  funnier: One day this will be funnier but today is not that day.
+  join: Join Email List
   refer:
     count0: Don't fret, we still like you.
     count1: Great start! Thanks for sharing.
@@ -70,7 +118,8 @@ page:
     # status1 and status2 are the subject of the sentence and are written in bol
     # d, hence the separation between them and the rest.
     status3: have joined because of you.
-    zero: Zero    
+    zero: Zero
+  notfound: Page Not Found
   team:
     advisory: Advisory Team
     alex:
@@ -126,6 +175,17 @@ page:
       parag1: Michael has spent years managing, designing, and overseeing a data science team and framework used to make multi-million dollar purchasing decisions for a large media company. He brings knowledge of the media distribution business, software development expertise, business development experience, technical skill and a network of corporate contacts.
       parag2: Michael's ability to rapidly adapt new skill sets makes him a technical and business pocketknife of our startup team. He has a PhD in systems engineering from the University of Pennsylvania, with a focus on distributed systems.
       title: Founder, Chief Technical Officer
+  updates: Join our email list and receive updates about LBRY via email.
+press:
+  advisory: Advisory Team
+  archive: Download Media Archive
+  includes: This archive includes all logos, screenshots, and bios, but does not include all text on this page.
+  info: Information and media for those who want to write or report on LBRY.
+  title: LBRY Press Kit
+  logos: Logos and Product Images
+  team: Founding Team
+  used: Any information or media on this page or in our kit can be re-used or otherwise published without attribution.
+  zip: Download ZIP
 publish:
   abundance: Experience digital abundance.
   allow: Allowance for us to promote availability of your content.
@@ -154,7 +214,12 @@ publish:
   why: Why LBRY?
   youget: What You Get
   yougive: What You Give
+rss:
+  description: Recent news about LBRY
+  lang: en
+  title: LBRY News
 social:
+  also: Also On
   github: GitHub (source code)
   header: Build With Us
   humansheader: Humans
@@ -165,6 +230,7 @@ social:
   tweets: Tweets by @LBRYio
 title:
   home: LBRY - Play, Share, Earn
+  join: Join LBRY Email List
   learn: Learn About LBRY
   publish: Publish
   refer: Share and Earn

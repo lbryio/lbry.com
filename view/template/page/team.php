@@ -1,11 +1,11 @@
 <?php NavActions::setNavUri('/learn') ?>
 <?php Response::addMetaImage('https://lbry.io/img/cover-team.jpg') ?>
-<?php Response::setMetaDescription('LBRY is founded by a team passionate about connecting producers and consumers and breaking down broken models. Learn more about them.') ?>
+<?php Response::setMetaDescription('description.team') ?>
 <?php echo View::render('nav/_header', ['isDark' => false]) ?>
 <main>
   <div class="content photo-grid spacer2">
-    <h1>The Team</h1>
-    <p>LBRY is made possible by more people than we could ever list here. The founding team is listed below.</p>
+    <h1>{{page.team.header}}</h1>
+    <p>{{page.team.people}}</p>
     <?php foreach([
         ['jeremy-kauffman', 'michael-zargham'],
         ['josh-finer', 'alex-grintsvayg'],

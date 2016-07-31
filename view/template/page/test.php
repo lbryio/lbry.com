@@ -1,4 +1,4 @@
-<?php Response::setMetaDescription('WHAT WHAT') ?>
+<?php Response::setMetaDescription('description.test') ?>
 <?php NavActions::setNavUri('/get') ?>
 <?php echo View::render('nav/header', ['isDark' => false]) ?>
 <main>
