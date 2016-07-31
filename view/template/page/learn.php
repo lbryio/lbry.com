@@ -48,7 +48,7 @@
           <div class="row-fluid">
             <div class="span6">
               <h3><?php echo __('page.team.header') ?></h3>
-              <p><?php echo __('page.rebels') ?></p>
+              <p><?php echo __('learn.rebels') ?></p>
               <a href="/team" class="btn-alt"><?php echo __('learn.team') ?></a>
             </div>
             <div class="span6">

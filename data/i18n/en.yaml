@@ -58,7 +58,7 @@ email:
   subs: Subscribe
   subscribe: Subscribe to our email list
   updates: Get Updates
-  yescode: Yes
+  yescode: "Yes"
 global:
   get: Get LBRY
   learn: Learn More
