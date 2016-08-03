@@ -13,7 +13,8 @@ LBRY’s genesis block contains 400 million LBC that are reserved for LBRY devel
 * 10% for organizations, charities, and other strategic partners. Organizations like the EFF, ACLU, and others that have fought for digital rights and the security and freedom of the internet.
 * 20% for adoption programs. We’ll be giving out lots of bonus credits, especially in the early days of LBRY, in order to encourage participation. We will also look to award credits broadly, ensuring the marketplace is egalitarian.
 * 10% for LBRY, for operational costs as well as profit.
-* 60% for YOU! These remaining LBC are for the LBRY community to mine!
+
+The final 60% is waiting for YOU! These remaining LBC don't yet exist, and can be mined by anyone. You can see [how much has already been mined here](https://explorer.lbry.io/).
 
 Eventually 1,000,000,000 LBC will exist, according to a defined schedule over 20 years. The schedule decays exponentially, with around 100,000,000 mineable in the first year.
 
