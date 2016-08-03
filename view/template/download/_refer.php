@@ -9,7 +9,9 @@
   <?php js_end() ?>
 </p>
 <h3>{{page.refer.status}}</h3>
-<p><strong>{{page.refer.status1}}<?php echo $prefineryUser['share_signups_count'] ?: __('page.refer.zero') ?> {{page.refer.status2}}</strong> {{page.refer.status3}}
+<p><?php echo __($prefineryUser['share_signups_count'] == 1  ? 'page.refer.referone' : 'page.refer.refermany',
+                            ['%count%' => $prefineryUser['share_signups_count']]) ?>
+  
 <?php
   if ($prefineryUser['share_signups_count'] <= 0)
   {
