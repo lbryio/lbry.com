@@ -4,7 +4,7 @@
   </div>
   <div class="form-row">
     <label for="email">
-      <?php echo __('Email') ?>
+      <?php echo __('email.address') ?>
     </label>
     <div class="form-input">
       <input type="text" value="<?php echo $defaultEmail ?>" name="email" class="required standard" placeholder="someone@somewhere.com">
@@ -13,18 +13,18 @@
   <?php if ($allowInviteCode): ?>
     <div class="form-row">
       <label for="code_select">
-        <?php echo __('Invite Code') ?>
+        <?php echo __('email.code') ?>
       </label>
       <div class="form-input">
         <label class="label-radio">
           <input name="code_select" type="radio" value="" />
-          None, but I want in as soon as possible!
+          {{email.nocode}}
         </label>
       </div>
       <div class="form-input">
         <label class="label-radio">
           <input name="code_select" type="radio" value="yes" />
-          Yes
+          {{email.yescode}}
         </label>
       </div>
       <div class="form-input has-code">

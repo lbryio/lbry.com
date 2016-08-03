@@ -22,11 +22,12 @@ class DownloadActions extends Actions
   public static function executeGet()
   {
     $email = static::param('e');
+    $user = [];
+    
     if ($email)
     {
       $emailIsValid = filter_var($email, FILTER_VALIDATE_EMAIL);
 
-      $user = [];
       if ($emailIsValid)
       {
         $user = Prefinery::findUser($email);

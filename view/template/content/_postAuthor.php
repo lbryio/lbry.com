@@ -5,7 +5,7 @@
         <img src="/img/team/<?php echo $photoImgSrc ?>" alt="<?php echo __('Photo of %name%', ['%name%' => $authorName]) ?>"/>
       </div>
       <div class="span9">
-        <div class="meta">Author</div>
+        <div class="meta">{{news.author}}</div>
         <h3><?php echo $authorName ?></h3>
         <?php echo $authorBioHtml ?>
       </div>

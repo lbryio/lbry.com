@@ -15,8 +15,8 @@
       <input type="hidden" name="returnUrl" value="<?php echo $returnUrl ?>"/>
       <input type="hidden" name="listId" value="<?php echo $listId ?>"/>
       <input type="hidden" name="listSig" value="<?php echo $listSig ?>"/>
-      <input type="email" value="" name="email" class="required email standard" placeholder="someone@somewhere.com">
-      <input type="submit" value="<?php echo isset($submitLabel) ? $submitLabel : 'Subscribe' ?>" name="subscribe" id="mc-embedded-subscribe" class="<?php echo $btnClass ?>">
+      <input type="email" value="" name="email" class="required email standard" placeholder= "__('email.placeholder')">
+      <input type="submit" value="<?php echo isset($submitLabel) ? $submitLabel : __('email.subs') ?>" name="subscribe" id="mc-embedded-subscribe" class="<?php echo $btnClass ?>">
       <?php if (isset($fbEvent)): ?>
         <input type="hidden" name="fbEvent" value="<?php echo $fbEvent ?>" />
       <?php endif ?>
@@ -25,8 +25,7 @@
       <?php endif ?>
       <?php if (isset($meta) && $meta): ?>
         <div class="meta">
-          <?php echo __('You will receive 1-2 messages a month, only from LBRY, Inc. and only about LBRY.') ?>
-          <?php echo __('You can easily unsubscribe at any time.') ?>
+          {{email.disclaimer}}
         </div>
       <?php endif ?>
     </div>

@@ -1,13 +1,13 @@
-<?php Response::setMetaTitle(__('Join LBRY Email List')) ?>
-<?php Response::setMetaDescription(__('Follow along and receive updates about LBRY via email.')) ?>
+<?php Response::setMetaTitle(__('title.join')) ?>
+<?php Response::setMetaDescription(__('description.join')) ?>
 <?php echo View::render('nav/_header', ['isDark' => false ]) ?>
 <main>
   <div class="content">
     <div class="row-fluid">
       <div class="span9">
-        <h1><?php echo __('Join Email List') ?></h1>
+        <h1><?php echo __('page.join') ?></h1>
         <p>
-          <?php echo __('Join our email list and receive updates about LBRY via email.') ?>
+          <?php echo __('page.updates') ?>
         </p>
         <?php echo View::render('mail/_joinList', [
              'submitLabel' => 'Subscribe',
@@ -17,7 +17,7 @@
          ]) ?>
       </div>
       <div class="span3">
-        <h3><?php echo __('Also On') ?></h3>
+        <h3><?php echo __('social.also') ?></h3>
         <?php echo View::render('social/_list') ?>
       </div>
     </div>

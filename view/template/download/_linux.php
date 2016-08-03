@@ -9,10 +9,10 @@
          data-analytics-action="Download"
          data-analytics-label="Linux"
           */ ?>
-    >Download .deb</a>
+    >{{download.deb}}</a>
   </p>
   <div class="meta">
-    Works with Ubuntu, Debian, or any distro with <code>apt</code> or <code>dpkg</code>.
+    {{download.works}}
     Prefer to build from source? Go <a href="https://github.com/lbryio/lbry" class="link-primary">here</a>.
   </div>
 </div>

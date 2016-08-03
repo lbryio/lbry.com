@@ -1,16 +1,14 @@
 <div class="bg-image-full" style="background-image: url(/img/cover-home2.jpg)"></div>
-<?php Response::setMetaTitle(__('LBRY - Play, Share, Earn')) ?>
-<?php Response::setMetaDescription(__('Meet LBRY, a content sharing and publishing platform that is decentralized and owned by it\'s users.')) ?>
+<?php Response::setMetaTitle(__('title.home')) ?>
+<?php Response::setMetaDescription(__('description.home')) ?>
 <?php echo View::render('nav/_header', ['isDark' => true]) ?>
 <main class="column-fluid">
   <div class="span12">
     <div class="cover cover-dark">
       <div class="content content-wide content-dark">
         <div class="text-center">
-          <h1 class="cover-title">Play, Share, Earn.</h1>
-          <h2 class="cover-subtitle" style="max-width: 600px; margin-left: auto; margin-right: auto">
-            Watch, read and play in a decentralized digital library controlled by the community.
-          </h2>
+          <h1 class="cover-title">{{global.tagline}}</h1>
+          <h2 class="cover-subtitle" style="max-width: 600px; margin-left: auto; margin-right: auto">{{global.sentence}}</h2>
         </div>
 
         <?php /*
@@ -36,10 +34,10 @@
  */ ?>
         <div class="control-group spacer2 text-center">
           <div class="control-item">
-            <a href="/get" class="btn-primary">Early Access</a>
+            <a href="/get" class="btn-primary">{{global.get}}</a>
           </div>
           <div class="control-item">
-            <a href="/learn" class="btn-alt">Learn More</a>
+            <a href="/learn" class="btn-alt">{{global.learn}}</a>
           </div>
         </div>
         <div class="video" style="margin-bottom: 80px">
@@ -49,9 +47,9 @@
       <div class="content content-dark">
         <div class="row-fluid">
           <div class="span4">
-            <h3><?php echo __('Get Updates') ?></h3>
+            <h3><?php echo __('email.updates') ?></h3>
             <?php echo View::render('mail/_joinList', [
-              'submitLabel' => 'Go',
+              'submitLabel' => __('email.go'),
               'listId' => Mailchimp::LIST_GENERAL_ID,
               'mergeFields' => ['CLI' => 'No'],
               'meta' => true,
@@ -66,7 +64,7 @@
             </div>
           </div>
           <div class="span4 text-center">
-            <a width="300" class="twitter-timeline" href="https://twitter.com/LBRYio" data-widget-id="671104143034073088">Tweets by @LBRYio</a>
+            <a width="300" class="twitter-timeline" href="https://twitter.com/LBRYio" data-widget-id="671104143034073088">{{social.tweets}}</a>
           </div>
         </div>
       </div>
