@@ -1,15 +1,14 @@
-.bounty-tile
-{
+.bounty-tile {
   display: block;
   margin: 0 10px $spacing-vertical;
   padding: 10px;
   background: #eee;
-  &:hover
-  {
+  &:hover {
     cursor: pointer;
   }
-  .icon-mega
-  {
+}
 
-  }
+.bounty-status-complete .bounty-award
+{
+  text-decoration: line-through;
 }

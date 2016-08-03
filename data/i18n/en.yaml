@@ -8,6 +8,11 @@
 #
 #
 
+bounty:
+  list:
+    noresult: No matching bounties found.
+  show:
+    completednotice: This bounty has already been completed and can no longer be claimed.
 description:
   allowed: Download/install the latest version of LBRY for %os%.
   faq: Frequently asked questions about LBRY.

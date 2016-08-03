@@ -343,6 +343,16 @@ class Post
     return strtolower(preg_replace('#^\d+\-#', '', basename(trim($filename), '.md')));
   }
 
+  public static function collectMetadata(array $posts, $field)
+  {
+    $values = array_unique(array_map(function(Post $post) use($field) {
+      $metadata = $post->getMetadata();
+      return isset($metadata[$field]) ? $metadata[$field] : null;
+    }, $posts));
+    sort($values);
+    return array_combine($values, $values);
+  }
+
   public static function getSlugMap($postType)
   {
     if (!isset(static::$slugMap[$postType]))
