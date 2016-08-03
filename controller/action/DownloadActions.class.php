@@ -187,7 +187,7 @@ class DownloadActions extends Actions
     return null;
   }
 
-  protected static function getDownloadUrl($os, $useCache = true)
+  public static function getDownloadUrl($os, $useCache = true)
   {
     if (!in_array($os, array_keys(static::getOses())))
     {
