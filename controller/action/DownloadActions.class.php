@@ -22,11 +22,12 @@ class DownloadActions extends Actions
   public static function executeGet()
   {
     $email = static::param('e');
+    $user = [];
+    
     if ($email)
     {
       $emailIsValid = filter_var($email, FILTER_VALIDATE_EMAIL);
 
-      $user = [];
       if ($emailIsValid)
       {
         $user = Prefinery::findUser($email);
@@ -187,7 +188,7 @@ class DownloadActions extends Actions
     return null;
   }
 
-  protected static function getDownloadUrl($os, $useCache = true)
+  public static function getDownloadUrl($os, $useCache = true)
   {
     if (!in_array($os, array_keys(static::getOses())))
     {

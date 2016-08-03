@@ -1,0 +1,229 @@
+# This file contains the text of the LBRY website, organized with labels.
+# Text segments are organized hierarchically. For any given language, the user's
+# browser will look at the corresponding language file for the appropriate label
+# and render the segment in the correct language.
+# For example, global.tagline renders as "Play, Share, Earn" if the user's langu
+# age settings are set to English, and the same label renders as "Assista, Compa
+# rtilhe, Ganhe" if the user's settings are set to Portuguese.
+#
+#
+
+description:
+  allowed: Download/install the latest version of LBRY for %os%.
+  faq: Frequently asked questions about LBRY.
+  get: Download/install the latest version of LBRY.
+  home: Meet LBRY, a content sharing and publishing platform that is decentralized and owned by its users.
+  join: Follow along and receive updates about LBRY via email.
+  learn: Learn more about LBRY, the technology that puts you back in control of the internet.
+  news: Access information and content in ways you never dreamed possible. Earn credits for your unused bandwidth and diskspace.
+  no-os: Download or install the latest version of LBRY.
+  press: LBRY Press Kit. Information and media for those who want to report on LBRY.
+  publish: Publish your content on the world's first platform that leaves creators in control.
+  team: LBRY is founded by a team passionate about connecting producers and consumers and breaking down broken models. Learn more about them.
+  test: WHAT WHAT
+  what: Access information and content in ways you never dreamed possible. Earn credits for your unused bandwidth and diskspace.
+download:
+  beta: This is still a beta.
+  creator: Creator? Skip the Line
+  credits: Claim Credits
+  curse: While LBRY is now live, it may crash, work unreliably, or inadvertently put a curse on your family for generations (a common programming error). Use at your own risk.
+  deb: Download .deb
+  earn1: Earn
+  # this many credits
+  earn2: for completing the survey below after install.
+  email1: After download, use email
+  email2:  and the code you received via email to receive your credits.
+  email3: If you received a printed code and it does not work after you download, check your email for a different code.
+  for-os: LBRY for %os%
+  github: Or, view the source and compile instructions on
+  osx: Arrival is expected by July 5.
+  osx2: Download for OS X
+  other: Other Systems
+  popular: Popular publishers can earn $1,000 and early access for publishing via LBRY.
+  select: Select an OS
+  signup: LBRY is currently in invite only mode. Enter your email to join the waitlist, or your email and invite code for access.
+  unavailable: LBRY is not yet out on your platform. You will receive an email as we expand LBRY to your preferred platform.
+  verb: Download
+  windows: Arrival is expected this month.
+  works: "Works with Ubuntu, Debian, or any distro with <code>apt</code> or <code>dpkg</code>."
+email:
+  address: Email
+  code: Invite Code
+  disclaimer: You will receive 1-2 messages a month, only from LBRY, Inc. and only about LBRY. You can easily unsubscribe at any time.
+  go: Go
+  nocode: None, but I want in as soon as possible!
+  placeholder: someone@somewhere.com
+  subs: Subscribe
+  subscribe: Subscribe to our email list
+  updates: Get Updates
+  yescode: "Yes"
+global:
+  get: Get LBRY
+  learn: Learn More
+  sentence: Watch, read and play in a decentralized digital library controlled by the community.
+  tagline: Play, Share, Earn.
+learn:
+  100: LBRY in 100 Seconds
+  art: Art in the Internet Age
+  essay: Read the Essay
+  exchange: Bittrex Exchange
+  explore: Explore
+  explorer: Block Explorer
+  how: Learn how LBRY will forever improve how we create and share with one another.
+  join: Join Us
+  nerd: Nerd Out
+  rebels: Learn more about the relentless rebels changing the internet.
+  team: About The Team
+nav:
+  get: Get
+  home: Home
+  learn: Learn
+  news: News
+news:
+  # It is worth noting other languages use different date formats.
+  author: Author
+  desk: The Front Desk
+  musings: News and musings from the LBRY team.
+  next: Next
+  prev: Previous
+page:
+  faq:
+    back: Back to FAQ
+    header: Frequently Asked Questions
+  funnier: One day this will be funnier but today is not that day.
+  join: Join Email List
+  refer:
+    count0: Don't fret, we still like you.
+    count1: Great start! Thanks for sharing.
+    count2: Well done! Thank you.
+    count3: You are really doing your part! Amazing.
+    count4: You are an elite LBRY sharer. Thank you much!
+    # earn1 and earn2 form a sentence with a number between them:
+    earn1: Earn
+    # this many credits
+    earn2: "for each user who joins via this URL:"
+    # The whole sentence should make sense, even if each of these segments are n
+    # ot translated literally.
+    # This might be the case if required by the syntax of the translated languag
+    # e.
+    more: more on referrals
+    referone: <strong>1 LBRYian</strong> has joined because of you.
+    refermany: <strong>%count% LBRYians</strong> have joined because of you.
+    status: Your Sharing Status
+    zero: Zero
+  notfound: Page Not Found
+  team:
+    advisory: Advisory Team
+    alex:
+      parag1: Alex Tabarrok is Bartley J. Madden Chair in Economics at the <a href="http://mercatus.org/" class="link-primary">Mercatus Center</a> and a professor of economics at <a href="https://gmu.edu" class="link-primary">George Mason University</a>. He specializes in intellectual property reform, the effectiveness of markets, and the justice system.
+      parag2: Tabarrok is the coauthor, with Mercatus colleague Tyler Cowen, of the popular economics blog <a class="link-primary" href="http://www.marginalrevolution.com/"><em>Marginal Revolution</em></a> and cofounder of the online educational platform <a class="link-primary" href="http://mruniversity.com/">Marginal Revolution University</a>. He is the coauthor of <em><a href="http://www.amazon.com/Modern-Principles-Economics-Tyler-Cowen/dp/1429239972" class="link-primary">Modern Principles of Economics</a></em>, and author of the recent book <em><a href="http://www.amazon.com/Launching-The-Innovation-Renaissance-Market-ebook/dp/B006C1HX24" class="link-primary">Launching the Innovation Renaissance</em></a>. His articles have appeared in the<em> New York Times</em>, the<em> Washington Post</em>, the<em> Wall Street Journal</em>, and many other prestigious publications.
+      parag3: Tabarrok received his PhD in economics from <a class="link-primary" href="http://en.wikipedia.org/wiki/George_Mason_University" title="George Mason University">George Mason University</a>.
+      title: Economic Advisor
+    grin:
+      parag1: One of Alex's job titles is Wizard, so named because he can seemingly understand and utilize new technologies faster than they can be created.
+      parag2: Alex designs and manages scalable infrastructure solutions for SaaS firms, and is leveraging that experience to ensure LBRY's architecture is rock-solid.
+      parag3: Alex is the 3rd dual-degree graduate from RPI on this team, receiving degrees in Computer Science and Psychology. He is also an alumni of Stuyvesant High School.
+      title: Founder, Chief Infrastructure Officer
+    header: The Team
+    jack:
+      parag1: Jack's path to developer with LBRY is fairly typical() <a href="http://www.masslive.com/localbuzz/index.ssf/2009/06/actionreaction_how_one_teens_c.html" class="link-primary"> face sixty years in prison for innocent chemistry experiments</a>; lose interest in chemistry; <a href="https://www.youtube.com/watch?v=dXZi4UZjiiI&t=10" class="link-primary">program insane electric guitars for Kiss</a>; decide to revolutionize the internet.
+      parag2: Jack was one of the first people to discover LBRY and took to it so fast he may understand more about it than anyone.
+      parag3: Jack has Asperger's Syndrome and is actively involved in the autism community. He was a regular on Wrong Planet's Autism Talk TV, has appeared on <em>National Public Radio</em>, the <em>New York Times</em>, and presents around the country.
+      title: Founder, Core Developer
+    jeremy:
+      parag1: Jeremy knows how to build and scale a startup starting from day one. He knows how to deliver usable products and get those products in front of the right people.
+      parag2: Jeremy is responsible for the packing, presentation, and strategy of LBRY, as well as some design aspects. He is a longtime BitTorrent community enthusiast.
+      parag3: Jeremy founded <a href="//usetopscore.com" class="link-primary">TopScore</a>, a startup that processes millions of dollars monthly in event and activity registrations. He also attended <a href="//rpi.edu" class="link-primary">Rensselaer Polytechnic Institute</a>, where he received degrees in physics and computer science.
+      title: Founder, Chief Executive Officer
+    jimmy:
+      parag1: Jimmy is the second member of team LBRY to graduate from Rensselaer with degrees in computer science and physics. After, he found himself mired in government bureaucracy, spending too much time to get too little done.
+      parag2: Ready to work on a project he believed in, Jimmy left a national security programming job to start LBRY. Jimmy created the LBRY protocol and the first LBRY application.
+      parag3: Jimmy is a Bitcoin fanatic and has been since its early days. He has long been interested in the benefits of decentralization.
+      title: Founder, Chief Product Officer
+    josh:
+      parag1: Josh's combination of an MBA, strong analytical skills, programming skills, advertising expertise, and a perceptive insight to financial markets lead him to frequently bear the only title that can summarize such diverse wizardry () problem solver.
+      parag2: Josh has founded innovative financial companies (later acquired), run millions of dollars in Adwords campaigns, and been an early actor in other crypto projects. Josh's contributions to LBRY will be as diverse as his background.
+      title: Founder, Chief Operations & Growth Officer
+    michael:
+      parag1: Michael Huemer is Professor of Philosophy and Ethics at the <a href="//www.colorado.edu/" class="link-primary">University of Colorado</a>, where he has taught since 1998. He has published three single-author scholarly books (including <em><a href="http://www.amazon.com/Ethical-Intuitionism-Michael-Huemer/dp/0230573746" class="link-primary">Ethical Intuitionism</a></em>), one edited anthology, and more than fifty academic articles in  epistemology, ethics, political philosophy, and metaphysics.
+      parag2: Huemer's articles have appeared in such journals as the <em>Philosophical Review</em>, <em>Mind</em>, the <em>Journal of Philosophy</em>, <em>Ethics</em>, and others. His materials are used as readings in classrooms nationwide. He received a B.A. from UC Berkeley and a Ph.D. from Rutgers University.
+      title: Ethical Advisor
+    mike:
+      parag1: With a humble BA in Philosophy from <a href="http://tulane.edu/" class="link-primary">Tulane University</a>, Mike has built a successful financial services marketing company, <a href="http://www.centinel.net/" class="link-primary">Centinel Consulting</a>. Centinel has helped clients grow from close to nothing to hundreds of thousands of visitors. He manages email marketing lists and social media accounts of the same size.
+      parag2: Mike has been involved with the Bitcoin community since the early days. His friends have launched companies like <a class="link-primary" href="//lamassu.is">Lamassu BTM</a>, <a class="link-primary" href="//coinapult.com">Coinapult</a>, <a class="link-primary" href="//shapeshift.io">Shapeshift</a>. Now, he's ready to change the world by harnessing blockchain technology. Mike heads up LBRY's marketing efforts and serves as an ambassador for our platform to media, investors, and the public.
+      title: Founder, Evangelist
+    people: LBRY is made possible by more people than we could ever list here. The founding team is listed below.
+    stephan:
+      parag1: Stephan Kinsella is a registered patent attorney and has over twenty years' experience in patent, intellectual property, and general commercial and corporate law. He is the founder and director of the <a href="http://c4sif.org/" class="link-primary">Center for the Study of Innovative Freedom</a>. Kinsella has published numerous articles and books on intellectual property law and legal topics including <a href="http://www.amazon.com/International-Investment-Political-Dispute-Resolution/dp/0379215225" class="link-primary"> <em>International Investment, Political Risk, and Dispute Resolution() A Practitioner's Guide</em> </a> and <a href="https://mises.org/library/against-intellectual-property-0" class="link-primary"><em>Against Intellectual Property</em></a>.
+      parag2: He received an LL.M. in international business law from <a href="http://www.kcl.ac.uk/" class="link-primary">King's College London</a>, a JD from the Paul M. Hebert Law Center at <a href="//lsu.edu" class="link-primary">Lousiana State University</a>, as well as BSEE and MSEE degrees. His websites are <a href="stephankinsella.com" class="link-primary">stephankinsella.com</a> and <a href="kinsellalaw.com" class="link-primary">kinsellalaw.com</a>
+      title: Legal Advisor
+    you:
+      advheader: Technical or Media Advisor
+      advtext: LBRY is seeking an extremely experienced technical advisor or an advisor with a strong background in the publishing and media space. If you're that person or have a suggestion, <a href="mailto:jeremy@lbry.io?subject=Advisor" class="link-primary">let us know</a>.
+      header: You
+      parag1: Do you think opening up information would facilitate human flourishing? Do you want to join a bright core of people with an obsession for upending broken systems? <a href="mailto:jeremy@lbry.io" class="link-primary">Say hello.</a>
+      title: Developer, Designer, Economist, Marketer, Investor, ???
+    zargham:
+      parag1: Michael has spent years managing, designing, and overseeing a data science team and framework used to make multi-million dollar purchasing decisions for a large media company. He brings knowledge of the media distribution business, software development expertise, business development experience, technical skill and a network of corporate contacts.
+      parag2: Michael's ability to rapidly adapt new skill sets makes him a technical and business pocketknife of our startup team. He has a PhD in systems engineering from the University of Pennsylvania, with a focus on distributed systems.
+      title: Founder, Chief Technical Officer
+  updates: Join our email list and receive updates about LBRY via email.
+press:
+  advisory: Advisory Team
+  archive: Download Media Archive
+  includes: This archive includes all logos, screenshots, and bios, but does not include all text on this page.
+  info: Information and media for those who want to write or report on LBRY.
+  title: LBRY Press Kit
+  logos: Logos and Product Images
+  team: Founding Team
+  used: Any information or media on this page or in our kit can be re-used or otherwise published without attribution.
+  zip: Download ZIP
+publish:
+  abundance: Experience digital abundance.
+  allow: Allowance for us to promote availability of your content.
+  control: Complete Creator Control
+  credits: Receive $1,000 worth of LBRY credits to hold, use or sell.
+  earn: "Earn $1,000 and join the next content epoch: the viewer and you, with nobody in between."
+  feature: Content featured on the LBRY landing screen seen by all users, as well as on our blog, social media, and 100,000 person email list, including links to your YouTube or other profiles.
+  hand: We hold your hand every step of the way while taking none of your revenue.
+  how: How It Works
+  keepl: Keep Learning
+  keepr: Keep Reading
+  loading: Loading...
+  mention: A single social media mention about your availability on LBRY.
+  next: What's Next?
+  now: Get In Now
+  onlbry: Publish on LBRY
+  open: Open, Trustworthy Technology
+  partner: Publishing Partnership
+  premier: Premier Partner status. Receive insider access and support for life.
+  profit: More, Better Profit
+  questions: Questions?
+  quote: You was inspired by the world; allow the world to be inspired by [you]
+  upload: Upload five videos via the LBRY interface (we'll help you out).
+  watch: Watch "LBRY in 100 Seconds", an introduction to the wonderful technology of LBRY.
+  what: What is LBRY?
+  why: Why LBRY?
+  youget: What You Get
+  yougive: What You Give
+rss:
+  description: Recent news about LBRY
+  lang: en
+  title: LBRY News
+social:
+  also: Also On
+  github: GitHub (source code)
+  header: Build With Us
+  humansheader: Humans
+  humanstext: Let's create a freer, more creative world.
+  robotsheader: Wanna Be Robots
+  robotstext: Make with us. All LBRY code is open source.
+  slack: Slack (chat)
+  tweets: Tweets by @LBRYio
+title:
+  home: LBRY - Play, Share, Earn
+  join: Join LBRY Email List
+  learn: Learn About LBRY
+  publish: Publish
+  refer: Share and Earn
+  what: "Art in the Internet Age: An Introduction to LBRY"

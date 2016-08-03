@@ -83,6 +83,10 @@ class Controller
       case '/lbry-linux-latest.deb':
       case '/dl/lbry_setup.sh':
         return static::redirect('/get', 301);
+      case '/get/lbry.dmg':
+        return static::redirect(DownloadActions::getDownloadUrl(DownloadActions::OS_OSX));
+      case '/get/lbry.deb':
+        return static::redirect(DownloadActions::getDownloadUrl(DownloadActions::OS_LINUX));
       case '/art':
         return static::redirect('/what', 301);
       case '/why':

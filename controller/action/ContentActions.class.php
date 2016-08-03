@@ -32,6 +32,7 @@ class ContentActions extends Actions
       'wallet'     => 'The LBRY Wallet',
       'hosting'    => 'Hosting Content',
       'mining'     => 'Mining LBC',
+      'policy'     => 'Policies',
       'developer'  => 'Developers',
       'other'      => 'Other Questions',
     ];
