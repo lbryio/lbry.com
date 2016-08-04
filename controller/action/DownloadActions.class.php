@@ -23,25 +23,28 @@ class DownloadActions extends Actions
   {
     $email = static::param('e');
     $user = [];
-    
+
     if ($email)
     {
-      $emailIsValid = filter_var($email, FILTER_VALIDATE_EMAIL);
-
-      if ($emailIsValid)
+      if (filter_var($email, FILTER_VALIDATE_EMAIL))
       {
         $user = Prefinery::findUser($email);
-        if ($user)
-        {
-          static::setSessionVarsForPrefineryUser($user);
-        }
       }
 
-      if (!$emailIsValid || !$user)
+      if (!$user)
       {
         Session::unsetKey(Session::KEY_PREFINERY_USER_ID);
         Session::unsetKey(Session::KEY_DOWNLOAD_ALLOWED);
       }
+    }
+    elseif (Session::get(Session::KEY_PREFINERY_USER_ID))
+    {
+      $user = Prefinery::findUser(Session::get(Session::KEY_PREFINERY_USER_ID));
+    }
+
+    if ($user)
+    {
+      static::setSessionVarsForPrefineryUser($user);
     }
 
     if (!Session::get(Session::KEY_DOWNLOAD_ALLOWED))
