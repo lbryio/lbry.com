@@ -10,11 +10,6 @@
         <?php echo View::render('download/_betaNotice') ?>
         <h4>{{download.verb}}</h4>
         <?php echo $downloadHtml ?>
-        <h4>{{download.credits}}</h4>
-        <?php if ($prefineryUser): ?>
-          <p>{{download.email1}}<strong><?php echo $prefineryUser['email'] ?></strong>{{download.email2}}</p>
-          <div class="meta">{{download.email3}}</div>
-        <?php endif ?>
       <?php else: ?>
         <?php echo View::render('download/_unavailable', [
           'os' => $os
