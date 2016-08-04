@@ -1,6 +1,6 @@
 ---
 author: lbry
-title: 'You Can Now Publish on LBRY (& Win $1,000)'
+title: 'You Can Now Publish on LBRY (& Earn $1,000)'
 date: '2016-08-04 00:09:00'
 ---
 **Today, we released a new version of LBRY beta with tools to publish your own original content!**
