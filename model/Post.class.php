@@ -5,7 +5,7 @@ class Post
   const SORT_DATE_DESC = 'sort_date_desc';
 
   protected static $slugMap = [];
-  protected $slug, $title, $author, $date, $markdown, $contentText, $contentHtml, $cover, $postType, $category;
+  protected $slug, $title, $metadata, $author, $date, $markdown, $contentText, $contentHtml, $cover, $postType, $category;
   protected $isCoverLight = false;
 
   public static function load($relativeOrAbsolutePath)
@@ -45,6 +45,7 @@ class Post
     $this->postType = $postType;
     $this->slug = $slug;
     $this->markdown = $markdown;
+    $this->metadata = $frontMatter;
     $this->title = isset($frontMatter['title']) ? $frontMatter['title'] : null;
     $this->author = isset($frontMatter['author']) ? $frontMatter['author'] : null;
     $this->date = isset($frontMatter['date']) ? new DateTime($frontMatter['date']) : null;
@@ -60,6 +61,7 @@ class Post
     {
       $posts[] = static::load($file);
     }
+
     if ($sort)
     {
       switch ($sort)
@@ -72,6 +74,29 @@ class Post
       }
     }
     return $posts;
+  }
+
+  public static function filter(array $posts, array $filters)
+  {
+    return array_filter($posts, function(Post $post) use($filters) {
+      $metadata = $post->getMetadata();
+      foreach($filters as $filterAttr => $filterValue)
+      {
+        if (!isset($metadata[$filterAttr]) || (
+            ($metadata[$filterAttr] != $filterValue) &&
+            (!is_array($metadata[$filterAttr]) || !in_array($filterValue, $metadata[$filterAttr]))
+        ))
+        {
+          return false;
+        }
+      }
+      return true;
+    });
+  }
+
+  public function getMetadata()
+  {
+    return $this->metadata;
   }
 
   public function getRelativeUrl()
@@ -316,6 +341,16 @@ class Post
   public static function getSlugFromFilename($filename)
   {
     return strtolower(preg_replace('#^\d+\-#', '', basename(trim($filename), '.md')));
+  }
+
+  public static function collectMetadata(array $posts, $field)
+  {
+    $values = array_unique(array_map(function(Post $post) use($field) {
+      $metadata = $post->getMetadata();
+      return isset($metadata[$field]) ? $metadata[$field] : null;
+    }, $posts));
+    sort($values);
+    return array_combine($values, $values);
   }
 
   public static function getSlugMap($postType)

@@ -23,9 +23,9 @@ class ContentActions extends Actions
 
   public static function executeFaq()
   {
-    $posts = Post::find(static::VIEW_FOLDER_FAQ);
+    $allPosts = Post::find(static::VIEW_FOLDER_FAQ);
 
-    $groupNames = [
+    $allCategories = array_merge(['' => ''] + Post::collectMetadata($allPosts, 'category'), [
       'getstarted' => 'Getting Started',
       'install'    => 'Installing LBRY',
       'running'    => 'Running LBRY',
@@ -35,17 +35,27 @@ class ContentActions extends Actions
       'policy'     => 'Policies',
       'developer'  => 'Developers',
       'other'      => 'Other Questions',
-    ];
+    ]);
+    $selectedCategory = static::param('category');
+    $filters = array_filter([
+      'category' => $selectedCategory && isset($allCategories[$selectedCategory]) ? $selectedCategory : null,
+    ]);
 
-    $groups = array_fill_keys(array_keys($groupNames), []);
+    asort($allCategories);
+
+    $posts = $filters ? Post::filter($allPosts, $filters) : $allPosts ;
+
+
+    $groups = array_fill_keys(array_keys($allCategories), []);
 
     foreach($posts as $post)
     {
-      $groups[isset($groupNames[$post->getCategory()]) ? $post->getCategory() : 'other'][] = $post;
+      $groups[$post->getCategory()][] = $post;
     }
 
     return ['content/faq', [
-      'groupNames' => $groupNames,
+      'categories' => $allCategories,
+      'selectedCategory' => $selectedCategory,
       'postGroups' => $groups
     ]];
   }

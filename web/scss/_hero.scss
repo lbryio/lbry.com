@@ -59,6 +59,10 @@
   background: black url(/img/dark.png) no-repeat top center fixed;
   min-height: 420px;
   @include background-size(cover);
+  &.hero-img-short
+  {
+    min-height: 200px;
+  }
   &:before
   {
     position: absolute;
@@ -69,7 +73,7 @@
     display: block;
     top: 0;
     left: 0;
-  }  
+  }
 }
 .hero-quote
 {
@@ -96,7 +100,7 @@
   padding-left: 10px;
   padding-right: 10px;
 }
-@media (max-width: $mobile-width-threshold) 
+@media (max-width: $mobile-width-threshold)
 {
     .hero
     {
