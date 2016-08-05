@@ -4,7 +4,7 @@
  * i18n dummy we'll be happy to have later
  */
 function __($msg, $args = [])
-{ 
+{
   return strtr(i18n::translate($msg), $args);
 }
 
@@ -61,7 +61,7 @@ class i18n
 
   public static function formatCredits($amount)
   {
-    return '<span class="formatted-credits">' .  number_format($amount, 1) . ' LBC</span>';
+    return '<span class="formatted-credits">' .  (is_numeric($amount) ? number_format($amount, 1) : $amount) . ' LBC</span>';
   }
 
   public static function translate($token, $language = null)

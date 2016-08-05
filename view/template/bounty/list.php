@@ -24,7 +24,7 @@
           ]) ?>
         </div>
         <div class="form-row align-left">
-          <label>Completed</label>
+          <label>Status</label>
           <select name="status">
             <?php foreach($statuses as $statusVal => $statusLabel): ?>
               <option value="<?php echo $statusVal ?>" <?php echo $selectedStatus == $statusVal ? 'selected="selected"' : '' ?>><?php echo $statusLabel ?></option>
@@ -43,7 +43,7 @@
         <?php foreach($bounties as $post): ?>
           <?php $metadata = $post->getMetadata() ?>
           <div class="span4">
-            <a class="bounty-tile <?php echo isset($metadata['status']) ? 'bounty-status-' . $metadata['status'] : '' ?>" href="<?php echo $post->getRelativeUrl() ?>">
+            <a class="bounty-tile" href="<?php echo $post->getRelativeUrl() ?>">
               <div class="text-center spacer-half"><span class="icon-mega
                 <?php switch($metadata['category']) {
                    case 'ci': echo 'icon-wrench'; break;

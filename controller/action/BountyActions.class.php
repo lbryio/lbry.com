@@ -7,11 +7,11 @@ class BountyActions extends Actions
   public static function executeList()
   {
     $allBounties = Post::find(ROOT_DIR . '/posts/bounty');
-    
-    $allCategories = ['' => ''] + Post::collectMetadata($allBounties, 'category');
-    $allStatuses = ['' => ''] + Post::collectMetadata($allBounties, 'status');
 
-    $selectedStatus = static::param('status');
+    $allCategories = ['' => ''] + Post::collectMetadata($allBounties, 'category');
+    $allStatuses = ['' => ''] + array_merge(Post::collectMetadata($allBounties, 'status'), ['complete' => 'unavailable']);
+
+    $selectedStatus = static::param('status', 'available');
     $selectedCategory = static::param('category');
 
     $filters = array_filter([

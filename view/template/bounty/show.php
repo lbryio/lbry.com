@@ -13,19 +13,28 @@
         <?php echo View::render('bounty/_meta', ['metadata' => $metadata]) ?>
       </div>
       <?php if ($metadata['status'] == 'complete'): ?>
-        <div class="notice notice-info spacer1">{{bounty.show.completednotice}}</div>
+        <div class="notice notice-info spacer1">
+          <p>{{bounty.show.completed_notice}}</p>
+          <?php if (isset($metadata['pr'])): ?>
+            <p></p><a href="<?php echo $metadata['pr'] ?>">{{bounty.show.pull_request_link}}</a></p>
+          <?php endif ?>
+        </div>
       <?php endif ?>
+      <div class="content">
         <?php echo $postHtml ?>
+      </div>
     </section>
     <section>
-      <h4>Claim This Bounty</h4>
-      <div class="spacer1">
-        <a href="mailto:bounty@lbry.io?subject=<?php echo $metadata['title'] ?>" class="btn btn-alt">Claim Bounty</a>
-      </div>
-      <h4>Bounty Questions?</h4>
-      <div class="spacer1">
-        <a href="/faq/bounties">Read the FAQ</a>
-      </div>
+      <?php if ($metadata['status'] !== 'complete'): ?>
+        <h4>Claim This Bounty</h4>
+        <div class="spacer1">
+          <a href="mailto:bounty@lbry.io?subject=<?php echo $metadata['title'] ?>" class="btn btn-alt">Claim Bounty</a>
+        </div>
+        <h4>Bounty Questions?</h4>
+        <div class="spacer1">
+          <a href="/faq/bounties">Read the FAQ</a>
+        </div>
+      <?php endif ?>
     </section>
   </div>
 </main>
