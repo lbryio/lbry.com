@@ -50,7 +50,8 @@
                    case 'android': echo 'icon-android'; break;
                    case 'ios': echo 'icon-apple'; break;
                    case 'browser': echo 'icon-globe'; break;
-                  case 'human': echo 'icon-users'; break;
+                   case 'human': echo 'icon-users'; break;
+                   case 'slack': echo 'icon-slack'; break;
                    default: echo 'icon-dollar'; break;
                 } ?>
               "></span></div>
