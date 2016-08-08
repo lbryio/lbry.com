@@ -11,8 +11,6 @@ LBRY provides two different wallets, `lbryum` and `lbrycrd`. `lbryum` is the def
 
 Make a copy of `~/.lbryum/default_wallet`.
 
-#### 
-
 ### Backup `lbrycrd` wallet
 
 #### Manually
@@ -21,6 +19,7 @@ Make a copy of `~/.lbrycrd/wallet.dat`.
 
 #### Command Line
 
+Run `lbrycrd-cli backupwallet <pathtobackup>`.
 
 ### See Also
 
