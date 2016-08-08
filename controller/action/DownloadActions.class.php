@@ -199,7 +199,7 @@ class DownloadActions extends Actions
     }
 
     $apc         = $useCache && extension_loaded('apc') && ini_get('apc.enabled');
-    $key         = 'lbry_release_data';
+    $key         = 'lbry_release_data2';
     $releaseData = null;
 
     if ($apc)
@@ -230,8 +230,9 @@ class DownloadActions extends Actions
 
     foreach ($releaseData['assets'] as $asset)
     {
-      if ($os == static::OS_LINUX && in_array($asset['content_type'], ['application/x-debian-package', 'application/x-deb']) ||
-          $os == static::OS_OSX && $asset['content_type'] == 'application/x-diskcopy'
+      if (
+        ($os == static::OS_LINUX && in_array($asset['content_type'], ['application/x-debian-package', 'application/x-deb'])) ||
+        ($os == static::OS_OSX && in_array($asset['content_type'], ['application/x-diskcopy', 'application/x-apple-diskimage']))
       )
       {
         return $asset['browser_download_url'];
