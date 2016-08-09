@@ -17,7 +17,7 @@ class Prefinery
       'Accept: application/json',
       'Content-type: application/json'
     ],
-    'json_post' => true
+    'json_data' => true
   ];
 
 
@@ -65,20 +65,50 @@ class Prefinery
       $ua = isset($_SERVER['HTTP_USER_AGENT']) ? $_SERVER['HTTP_USER_AGENT'] : null;
       $user = Prefinery::createTester(array_filter([
         'email'           => $email,
-        'status'          => $inviteCode ? static::STATE_ACTIVE : static::STATE_APPLIED, # yes, has to be ACTIVE to validate invite code
+        'status'          => $inviteCode ? static::STATE_ACTIVE: static::STATE_APPLIED, # yes, has to be ACTIVE to validate invite code
         'invitation_code' => $inviteCode,
         'referrer_id'     => $referrerId,
         'profile'         => ['ip' => $ip, 'user_agent' => $ua]
       ]));
+
+//      if ($inviteCode)
+//      {
+//        $user = static::updateTester(array_intersect_key($user, ['id' => null]) + ['status' => static::STATE_ACTIVE]);
+//        if ($user['invitation_code'] != $inviteCode)
+//        {
+//          $user['is_custom_code'] = true;
+//        }
+//      }
+
+      $user['is_custom_code'] = false;
     }
 
-    unset($user['invitation_code']); // so we dont leak it
+//    unset($user['invitation_code']); // so we dont leak it
     return $user;
   }
 
   protected static function createTester(array $testerData)
   {
     return static::post('/testers', ['tester' => array_filter($testerData)], false);
+  }
+
+  public static function updateTester(array $testerData)
+  {
+    if (!$testerData['id'])
+    {
+      throw new PrefineryException('Update tester must be called with a tester id');
+    }
+    return static::put('/testers/' . $testerData['id'], ['tester' => array_diff_key(array_filter($testerData), ['id' => null])], false);
+  }
+
+  protected static function put($endpoint, array $data = [])
+  {
+    $apiKey = Config::get('prefinery_key');
+    $options = static::$curlOptions;
+    $options['headers'][] = 'X-HTTP-Method-Override: PUT';
+    return static::decodePrefineryResponse(
+      Curl::put(static::DOMAIN . static::PREFIX . $endpoint . '.json?api_key=' . $apiKey, $data, $options)
+    );
   }
 
   protected static function get($endpoint, array $data = [])
@@ -119,10 +149,9 @@ class Prefinery
 
     if (isset($data['errors']))
     {
-      throw new PrefineryException(implode("\n", array_map(function ($error)
-      {
+      throw new PrefineryException($data['errors'] ? implode("\n", array_map(function ($error) {
         return $error['message'];
-      }, (array)$data['errors'])));
+      }, (array)$data['errors'])) : 'Received empty error array.');
     }
 
     return $data;

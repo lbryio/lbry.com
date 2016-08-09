@@ -98,6 +98,10 @@ class DownloadActions extends Actions
       {
         $user = Prefinery::findOrCreateUser($email, $code, $referrerId);
         static::setSessionVarsForPrefineryUser($user);
+        if ($code && strlen($code) > 2 && in_array(substr($code, 0, 2), ['my', 'pf', 'sl']))
+        {
+          Session::set(Session::KEY_PREFINER_USED_CUSTOM_CODE, true);
+        }
       }
       catch (PrefineryException $e)
       {
