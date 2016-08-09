@@ -2,11 +2,12 @@
 author: lbry
 title: 'ShapeShift Adds LBRY Credits! Instant Conversion to Bitcoin, Ethereum, and More'
 date: '2016-08-08 00:06:18'
-cover: 'lbry+ss.png'
 ---
 *LBC now traded on the fastest, safest digital asset exchange in the world.*
 
 As of today, LBRY Credits (LBC) are now available for exchange with other digital assets on [ShapeShift.io](https://shapeshift.io/#/coins). Using the groundbreaking service, anyone can exchange their preferred digital currency for LBRY Credits (LBC) instantly with no account, no emails, and no passwords. 
+
+![ShapeShift & LBRY](/img/news/shapeshift-lbry-logos.png)
 
 ShapeShift founder and CEO [Erik Voorhees](https://en.wikipedia.org/wiki/Erik_Voorhees) commented on the announcement: 
 
