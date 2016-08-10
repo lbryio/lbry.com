@@ -1,6 +1,6 @@
 ---
 author: lbry
-title: 'LBRY Brings You the Fight of the Century’
+title: 'LBRY Brings You the Fight of the Century'
 date: '2016-08-10 00:06:18'
 ---
 LBRY is the junction where creativity and economics meet. It’s a place to share, but also a carefully designed marketplace to *reward* creators for their efforts. [Learn more about the economics of LBRY here](https://lbry.io/what). That’s why we are so pleased to have as a featured video, *Fight of the Century: Keynes vs. Hayek Rap Battle.*
@@ -23,7 +23,7 @@ EO’s latest project is their first feature-length film: *[At The Fork](http://
 
 With your help, LBRY may one day add *At The Fork* to its featured content, as well as EO’s other amazing works. 
 
-If you’ve received a LBRY beta invite, you can do us and yourself a favor by heading to lbry://keynesvhayek and watching *Fight of the Century: Keynes vs. Hayek Rap Battle* right now!
+If you’ve received a LBRY beta invite, you can do us and yourself a favor by heading to [lbry://keynesvhayek](lbry://keynesvhayek) and watching *Fight of the Century: Keynes vs. Hayek Rap Battle* right now!
 
 We think you’ll enjoy it, and your views will help prove to intrepid creators like EO that LBRY is the future of content distribution.
 
