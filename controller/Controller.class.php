@@ -73,6 +73,8 @@ class Controller
         return MailActions::executeListSubscribe();
       case '/press-kit.zip':
         return ContentActions::executePressKit();
+      case '/roadmap':
+        return ContentActions::executeRoadmap();
       case '/LBRY-deck.pdf':
       case '/deck.pdf':
         return static::redirect('https://www.dropbox.com/s/0xj4vgucsbi8rtv/lbry-deck.pdf?dl=1');
