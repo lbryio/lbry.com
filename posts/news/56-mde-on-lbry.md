@@ -22,7 +22,7 @@ In fact, tomorrow night you can catch episode two of their brand new Adult Swim 
 - *[Williamsburg Fashion series](lbry://WilliamsburgFashion1)*
 - *[Boston Ross](lbry://BostonRoss)*
 - *[IDEAS Man](lbry://IDEASman)*
-- *[LA Street Fashion series](LAstreetFashion1)*
+- *[LA Street Fashion series](lbry://LAstreetFashion1)*
 
 **Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Just can’t wait? If you’re a creator – filmmaker, musician, artist, writer – you can skip our waiting list line and earn $1,000 in LBRY Credits at the same time. [Learn more here](https://lbry.io/publish). 
 
