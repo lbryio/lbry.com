@@ -17,7 +17,7 @@ MDE has since exploded from extremely super humble origins on YouTube to Adult S
 
 In fact, tomorrow night you can catch episode two of their brand new Adult Swim series *[MillionDollarExtreme Presents: World Peace](http://www.adultswim.com/videos/schedule)*. Tune in at 9:15 PM PT on Friday and 12:45 AM PT on Saturday.
 
-**When you're done, check out their O.G. videos on LBRY.** Look for the following titles to be added to LBRY:
+**When you're done, check out their O.G. videos.** Look for the following titles to be added to LBRY:
 
 - Williamsburg Fashion series
 - Boston Ross
