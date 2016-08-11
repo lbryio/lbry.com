@@ -9,7 +9,7 @@ cover: 'mde.jpg'
 - *[Sam Hyde’s 2070 Paradigm Shift](lbry://samhyde2070)* – The ultimate TEDx troll; an instant internet classic.
 - *[College Cunts](lbry://collegecunts)* – Practical, metaphorical, and expertly vulgar advice for would-be college students. 
 
-![Sam Hyde’s 2070 Paradigm Shift](/img/news/mde-sam-hyde.png.png)
+![Sam Hyde’s 2070 Paradigm Shift](/img/news/mde-sam-hyde.png)
 
 MDE is a comedy sketch group featuring Sam Hyde, Charles Carroll, and Nick Rochefort. Their signature, fast-paced style of random jump-cuts, meaningless text overlays, crude humor, and nonsensical characters pushed boundaries several years ago. Now it’s practically internet gospel for cutting-edge satire and comedy.
 
