@@ -19,9 +19,10 @@ In fact, tomorrow night you can catch episode two of their brand new Adult Swim 
 
 **When you're done, check out their O.G. videos.** Look for the following titles to be added to LBRY:
 
-- Williamsburg Fashion series
-- Boston Ross
-- IDEAS Man
+- *[Williamsburg Fashion series](lbry://WilliamsburgFashion1)*
+- *[Boston Ross](lbry://BostonRoss)*
+- *[IDEAS Man](lbry://IDEASman)*
+- *[LA Street Fashion series](LAstreetFashion1)*
 
 **Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Just can’t wait? If you’re a creator – filmmaker, musician, artist, writer – you can skip our waiting list line and earn $1,000 in LBRY Credits at the same time. [Learn more here](https://lbry.io/publish). 
 
