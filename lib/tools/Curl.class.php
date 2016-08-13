@@ -95,7 +95,6 @@ class Curl
 
     if (in_array($method, [static::PUT, static::POST]))
     {
-      print_r($options['json_data'] ? json_encode($params) : http_build_query($params));
       curl_setopt($ch, CURLOPT_POSTFIELDS, $options['json_data'] ? json_encode($params) : http_build_query($params));
     }
 
