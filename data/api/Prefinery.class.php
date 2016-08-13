@@ -17,7 +17,8 @@ class Prefinery
       'Accept: application/json',
       'Content-type: application/json'
     ],
-    'json_data' => true
+    'json_data' => true,
+    'json_response' => true
   ];
 
 
@@ -106,7 +107,7 @@ class Prefinery
     $apiKey = Config::get('prefinery_key');
     $options = static::$curlOptions;
     $options['headers'][] = 'X-HTTP-Method-Override: PUT';
-    return static::decodePrefineryResponse(
+    return static::processPrefineryResponse(
       Curl::put(static::DOMAIN . static::PREFIX . $endpoint . '.json?api_key=' . $apiKey, $data, $options)
     );
   }
@@ -114,7 +115,7 @@ class Prefinery
   protected static function get($endpoint, array $data = [])
   {
     $apiKey = Config::get('prefinery_key');
-    return static::decodePrefineryResponse(
+    return static::processPrefineryResponse(
       Curl::get(static::DOMAIN . static::PREFIX . $endpoint . '.json?api_key=' . $apiKey, $data, static::$curlOptions)
     );
   }
@@ -122,22 +123,15 @@ class Prefinery
   protected static function post($endpoint, array $data = [], $allowEmptyResponse = true)
   {
     $apiKey = Config::get('prefinery_key');
-    return static::decodePrefineryResponse(
+    return static::processPrefineryResponse(
       Curl::post(static::DOMAIN . static::PREFIX . $endpoint . '.json?api_key=' . $apiKey, $data, static::$curlOptions),
       $allowEmptyResponse
     );
   }
 
-  protected static function decodePrefineryResponse($rawBody, $allowEmptyResponse = true)
+  protected static function processPrefineryResponse(array $data, $allowEmptyResponse = true)
   {
-    if (!$rawBody)
-    {
-      throw new PrefineryException('Empty cURL response.');
-    }
-
-    $data = json_decode($rawBody, true);
-
-    if (!$allowEmptyResponse && !$data && $data !== [])
+    if (!$allowEmptyResponse && !$data)
     {
       throw new PrefineryException('Received empty or improperly encoded response.');
     }

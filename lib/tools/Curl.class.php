@@ -4,7 +4,8 @@ class Curl
 {
   const GET = 'GET',
         POST = 'POST',
-        PUT = 'PUT';
+        PUT = 'PUT',
+        DEFAULT_CACHE = 60000;
 
   public static function get($url, $params = [], $options = [])
   {
@@ -27,6 +28,7 @@ class Curl
   public static function doCurl($method, $url, $params = [], $options = [])
   {
     $defaults = [
+      'cache'            => false,
       'headers'          => [],
       'verify'           => true,
       'timeout'          => 5,
@@ -36,6 +38,7 @@ class Curl
       'password'         => null,
       'cookie'           => null,
       'json_data'        => false,
+      'json_response'    => false
     ];
 
     $invalid = array_diff_key($options, $defaults);
@@ -44,11 +47,26 @@ class Curl
       throw new DomainException('Invalid curl options: ' . join(', ', array_keys($invalid)));
     }
 
-    $options = array_merge($defaults, $options);
-
     if (!in_array($method, [static::GET, static::POST, static::PUT]))
     {
       throw new DomainException('Invalid method: ' . $method);
+    }
+
+    $options = array_merge($defaults, $options);
+
+    if (!Apc::isEnabled())
+    {
+      $options['cache'] = false;
+    }
+
+    if ($options['cache'])
+    {
+      $cacheKey = md5('z' . $url . $method . serialize($options) . serialize($params));
+      $cachedData = apc_fetch($cacheKey);
+      if ($cachedData)
+      {
+        return $cachedData;
+      }
     }
 
     if ($options['headers'] && $options['headers'] !== array_values($options['headers'])) // associative array
@@ -95,7 +113,6 @@ class Curl
 
     if (in_array($method, [static::PUT, static::POST]))
     {
-      print_r($options['json_data'] ? json_encode($params) : http_build_query($params));
       curl_setopt($ch, CURLOPT_POSTFIELDS, $options['json_data'] ? json_encode($params) : http_build_query($params));
     }
 
@@ -136,7 +153,16 @@ class Curl
       return strlen($h);
     });
 
-    $responseContent = curl_exec($ch);
+    $rawResponse = curl_exec($ch);
+
+    if ($options['json_response'])
+    {
+      $responseContent = $rawResponse ? json_decode($rawResponse, true) : [];
+    }
+    else
+    {
+      $responseContent = $rawResponse;
+    }
 
     $statusCode = (int)curl_getinfo($ch, CURLINFO_HTTP_CODE);
 
@@ -147,7 +173,14 @@ class Curl
 
     curl_close($ch);
 
-    return [$statusCode, $headers, $responseContent];
+    $response = [$statusCode, $headers, $responseContent];
+
+    if ($options['cache'])
+    {
+      apc_store($cacheKey, $response, is_numeric($options['cache']) ? $options['cache'] : static::DEFAULT_CACHE);
+    }
+
+    return $response;
   }
 }
 

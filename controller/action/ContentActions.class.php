@@ -113,9 +113,8 @@ class ContentActions extends Actions
 
   public static function executeRoadmap()
   {
-    print_r(Asana::listRoadmapTasks());
-    die('wtf');
     return ['content/roadmap', [
+      'tasks' => Asana::listRoadmapTasks()
     ]];
   }
 
