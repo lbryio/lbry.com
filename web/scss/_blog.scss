@@ -97,6 +97,9 @@
   margin-right: auto;
   max-width: $max-post-content-width;
   margin-bottom: $spacing-vertical * 2;
+  padding-left: $content-side-padding;
+  padding-right: $content-side-padding;
+
   a[href]:not([class])
   {
     @include anchor($color-primary);
