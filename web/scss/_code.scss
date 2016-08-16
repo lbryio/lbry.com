@@ -19,8 +19,8 @@ pre
   margin-bottom: $spacing-vertical;
   border-left: .3rem solid $color-primary;
   padding: 10px 20px;
-  white-space: pre-wrap;
-  overflow-x: scroll;
+  //white-space: pre-wrap;
+  overflow-x: auto;
 }
 
 
