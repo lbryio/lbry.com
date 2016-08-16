@@ -2,7 +2,7 @@
 category: slack
 title: Create a Slack Greeter
 award: 250
-status: available
+status: complete
 date: '2016-07-01'
 ---
 
