@@ -138,6 +138,10 @@
       vertical-align: text-bottom;
     }
   }
+  td.center
+  {
+    vertical-align: middle;
+  }
   tr.thead:not(:first-child) th
   {
     border-top: 1px solid #e2e2e2;

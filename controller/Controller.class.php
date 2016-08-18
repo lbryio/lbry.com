@@ -86,9 +86,9 @@ class Controller
       case '/dl/lbry_setup.sh':
         return static::redirect('/get', 301);
       case '/get/lbry.dmg':
-        return static::redirect(DownloadActions::getDownloadUrl(DownloadActions::OS_OSX) ?: '/get');
+        return static::redirect(Github::getDownloadUrl(Os::OS_OSX) ?: '/get');
       case '/get/lbry.deb':
-        return static::redirect(DownloadActions::getDownloadUrl(DownloadActions::OS_LINUX) ?: '/get');
+        return static::redirect(Github::getDownloadUrl(Os::OS_LINUX) ?: '/get');
       case '/art':
         return static::redirect('/what', 301);
       case '/why':

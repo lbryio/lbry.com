@@ -1,8 +1,8 @@
 <div class="notice notice-info">
   <p>{{download.unavailable}}</p>
-  <?php if ($os == DownloadActions::OS_OSX): ?>
+  <?php if ($os == Os::OS_OSX): ?>
     <p>{{download.osx}}</p>
-  <?php elseif ($os == DownloadActions::OS_WINDOWS): ?>
+  <?php elseif ($os == Os::OS_WINDOWS): ?>
     <p>{{download.windows}}</p>
   <?php endif ?>
 </div>

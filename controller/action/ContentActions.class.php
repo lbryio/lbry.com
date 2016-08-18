@@ -15,10 +15,7 @@ class ContentActions extends Actions
 
   public static function executeHome()
   {
-    return ['page/home', [
-      'totalUSD' => CreditApi::getTotalDollarSales(),
-      'totalPeople' => CreditApi::getTotalPeople()
-    ]];
+    return ['page/home'];
   }
 
   public static function executeFaq()
@@ -114,7 +111,8 @@ class ContentActions extends Actions
   public static function executeRoadmap()
   {
     return ['content/roadmap', [
-      'tasks' => Asana::listRoadmapTasks()
+      'tasks' => Asana::listRoadmapTasks(),
+      'changesets' => Github::listRoadmapChangesets()
     ]];
   }
 

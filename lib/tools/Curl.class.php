@@ -31,7 +31,7 @@ class Curl
       'cache'            => false,
       'headers'          => [],
       'verify'           => true,
-      'timeout'          => 5,
+      'timeout'          => 10, //5 was timing out on /roadmap for Asana API
       'follow_redirects' => true,
       'user_agent'       => null,
       'proxy'            => null,

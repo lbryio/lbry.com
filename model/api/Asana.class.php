@@ -53,13 +53,13 @@ class Asana
     */
 //    return static::get('/projects');
     $projects = [
-      158602294500138 => 'LBRY Browser',
-      158602294500137 => 'LBRYnet',
-      161514803479899 => 'Blockchain and Wallets',
-      158829550589337 => 'Reporting and Analytics',
-      136290697597644 => 'Integration and Building',
-      158602294500249 => 'Documentation',
-      158602294500214 => 'Other'
+      158602294500138 => ['LBRY Browser', 'https://github.com/lbryio/lbry-web-ui'],
+      158602294500137 => ['LBRYnet', 'https://github.com/lbryio/lbry'],
+      161514803479899 => ['Blockchain and Wallets', 'https://github.com/lbryio/lbrycrd'],
+      158829550589337 => ['Reporting and Analytics', null],
+      136290697597644 => ['Integration and Building', null],
+      158602294500249 => ['Documentation', null],
+      158602294500214 => ['Other', null]
     ];
 
     $tasks = [
@@ -68,8 +68,9 @@ class Asana
     ];
 
     $categories = array_keys($tasks);
-    foreach($projects as $projectId => $projectName)
+    foreach($projects as $projectId => $projectTuple)
     {
+      list($projectName, $projectUrl) = $projectTuple;
       $projectTasks = static::get('/tasks?' . http_build_query(['completed_since' => 'now', 'project' => $projectId]));
       $key = null;
       foreach ($projectTasks as $task)
@@ -85,10 +86,22 @@ class Asana
           $fullTask = static::get('/tasks/' . $task['id']);
           $tasks[$key][] = array_intersect_key($fullTask, ['name' => null, 'due_on' => null]) + [
               'project' => $projectName,
+              'url' => $projectUrl,
               'assignee' => $fullTask['assignee'] ? ucwords($fullTask['assignee']['name']) : ''
           ];
         }
       }
+    }
+
+    foreach($tasks as &$taskSet)
+    {
+      usort($taskSet, function($tA, $tB) {
+        if ($tA['due_on'] xor $tB['due_on'])
+        {
+          return $tA['due_on'] ? -1 : 1;
+        }
+        return $tA['due_on'] < $tB['due_on'] ? -1 : 1;
+      });
     }
 
     return $tasks;
@@ -96,9 +109,7 @@ class Asana
 
   protected static function get($endpoint, array $data = [])
   {
-    $apiKey = '0/c85cfce3591c2a3e214408cfba7cc44c';
-//    $apiKey = Config::get('prefinery_key');
-//    curl -H "Authorization: Bearer ACCESS_TOKEN" https://app.asana.com/api/1.0/users/me
+    $apiKey = Config::get('asana_key');
 
     $options = static::$curlOptions + [
         'headers' => ['Authorization: Bearer ' . $apiKey]
