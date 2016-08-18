@@ -30,7 +30,7 @@ catch(Throwable $e)
     $slackErrorNotificationUrl = Config::get('slack_error_notification_url');
     if ($slackErrorNotificationUrl)
     {
-      Curl::post($slackErrorNotificationUrl, ['text' => '<!everyone> ' . $e->__toString()], ['json_data' => true]);
+      Curl::post($slackErrorNotificationUrl, ['text' => '<!everyone> ' . $_SERVER['REQUEST_URI'] . "\n" . $e->__toString()], ['json_data' => true]);
     }
     throw $e;
   }
