@@ -1,7 +1,7 @@
 ---
 author: lbry
 title: 'Be Like Boba Fett – Earn Bounties for Helping LBRY Grow'
-date: '2016-07-18 00:06:18'
+date: '2016-08-18 00:06:18'
 cover: 'parchment.png'
 ---
 The [LBRY Bounty Program](https://lbry.io/bounty) is now open to the public. Anyone in the world can now improve the future of the internet and digital content and *earn money at the same time*!
