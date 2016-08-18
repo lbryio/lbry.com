@@ -1,6 +1,6 @@
 ---
 category: browser
-title: Add Transaction History to LBRY Browser
+title: PKG Installer for OS X
 award: 1500
 status: available
 date: '2016-07-01'
