@@ -85,8 +85,11 @@ class ContentActions extends Actions
 
   public static function executeNewsPost($relativeUri)
   {
-    $post = Post::load(ltrim($relativeUri, '/'));
-    if (!$post)
+    try
+    {
+      $post = Post::load(ltrim($relativeUri, '/'));
+    }
+    catch (PostNotFoundException $e)
     {
       return ['page/404', []];
     }

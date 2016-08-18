@@ -1,5 +1,7 @@
 <?php
 
+class PostNotFoundException extends Exception {}
+
 class Post
 {
   const SORT_DATE_DESC = 'sort_date_desc';
@@ -33,7 +35,7 @@ class Post
           return static::load($slugMap[$slug]);
         }
       }
-      throw new InvalidArgumentException('No post found for path: ' . $relativeOrAbsolutePath);
+      throw new PostNotFoundException('No post found for path: ' . $relativeOrAbsolutePath);
     }
 
     list($ignored, $frontMatter, $content) = explode('---', file_get_contents($path), 3);
