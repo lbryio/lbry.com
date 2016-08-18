@@ -25,8 +25,8 @@
     max-width: $max-text-width + 200;
   }
 
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: $content-side-padding;
+  padding-right: $content-side-padding;
 
   h1, h2, h3, h4
   {

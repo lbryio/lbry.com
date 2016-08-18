@@ -19,6 +19,8 @@ $max-post-content-width: 800px;
 $font-header: 'Raleway', sans-serif;
 $font-body: 'Raleway', sans-serif;
 
+$content-side-padding: 15px;
+
 @mixin anchor($color)
 {
   color: $color;

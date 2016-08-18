@@ -24,9 +24,11 @@ class BountyActions extends Actions
     uasort($bounties, function($postA, $postB) {
       $metadataA = $postA->getMetadata();
       $metadataB = $postB->getMetadata();
-      if ($metadataA['award'] != $metadataB['award'])
+      $awardA = strpos('-', $metadataA['award']) !== false ? rtrim(explode('-', $metadataA['award'])[0], '+') : $metadataA['award'];
+      $awardB = strpos('-', $metadataB['award']) !== false ? rtrim(explode('-', $metadataB['award'])[0], '+') : $metadataB['award'];
+      if ($awardA != $awardB)
       {
-        return $metadataA['award'] > $metadataB['award'] ? -1 : 1;
+        return $awardA > $awardB ? -1 : 1;
       }
       return $metadataA['title'] < $metadataB['title'] ? -1 : 1;
     });

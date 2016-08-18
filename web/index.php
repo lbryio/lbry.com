@@ -23,10 +23,15 @@ try
   }
   Controller::dispatch(strtok($_SERVER['REQUEST_URI'], '?'));
 }
-catch(Exception $e)
+catch(Throwable $e)
 {
   if (IS_PRODUCTION)
   {
+    $slackErrorNotificationUrl = Config::get('slack_error_notification_url');
+    if ($slackErrorNotificationUrl)
+    {
+      Curl::post($slackErrorNotificationUrl, ['text' => '<!everyone> ' . $e->__toString()], ['json_data' => true]);
+    }
     throw $e;
   }
 

@@ -23,4 +23,4 @@ The best place to get real-time help is our [Slack channel](https://slack.lbry.i
 
 ### I want to complete a bounty that is not listed.
 
-Send an email our bounty team at [bounty@lbry.io](mailto:bounty@lbry.io).
+Send an email to our bounty team at [bounty@lbry.io](mailto:bounty@lbry.io).
