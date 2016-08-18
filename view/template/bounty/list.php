@@ -47,7 +47,9 @@
               <div class="text-center spacer-half"><span class="icon-mega
                 <?php switch($metadata['category']) {
                    case 'android': echo 'icon-android'; break;
-                   case 'ios': echo 'icon-apple'; break;
+                   case 'osx':
+                   case 'ios':
+                     echo 'icon-apple'; break;
                    case 'browser': echo 'icon-globe'; break;
                    case 'web': echo 'icon-link'; break;
                    case 'daemon': echo 'icon-server'; break;

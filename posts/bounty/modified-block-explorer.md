@@ -14,5 +14,5 @@ Iquidus explorer is great, but does not currently support LBRY specific operatio
 
 The explorer should be modified to:
 
-- Display what LBRY name claims credits are backing
+- Display what LBRY name claims and supports
 - Exploration of name claims in a way similar to transactions
