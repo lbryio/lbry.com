@@ -1,5 +1,5 @@
 ---
-category: browser
+category: osx
 title: PKG Installer for OS X
 award: 1500
 status: available
