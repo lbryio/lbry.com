@@ -14,5 +14,7 @@ Iquidus explorer is great, but does not currently support LBRY specific operatio
 
 The explorer should be modified to:
 
-- Display what LBRY name claims and supports
-- Exploration of name claims in a way similar to transactions
+- Display LBRY name claim and support transactions
+- Exploration of contesting and updated name claims in a way similar to transactions
+
+The relevant information can be obtained from ` lbrycrd-cli getclaimsfortx ` and ` lbrycrd-cli getclaimsforname `.
