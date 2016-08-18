@@ -39,7 +39,8 @@
   </section>
   <section class="content content-light">
     <?php if (count($bounties)): ?>
-      <div class="tile-fluid clearfix  spacer2">
+      <div class="row-fluid">
+        <?php $index = 0 ?>
         <?php foreach($bounties as $post): ?>
           <?php $metadata = $post->getMetadata() ?>
           <div class="span4">
@@ -64,6 +65,9 @@
               <?php echo View::render('bounty/_meta', ['metadata' => $metadata]) ?>
             </a>
           </div>
+          <?php if (++$index % 3 == 0): ?>
+            </div><div class="row-fluid">
+          <?php endif ?>
         <?php endforeach ?>
       </div>
     <?php else: ?>
