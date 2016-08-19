@@ -3,7 +3,7 @@ category: browser
 title: Add Wallet Interface to LBRY Browser
 award: 2000
 status: complete
-pr: https://github.com/lbryio/lbry-web-ui/pull/23/files
+pr: https://github.com/lbryio/lbry-web-ui/pull/23
 date: '2016-07-01'
 ---
 
