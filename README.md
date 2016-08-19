@@ -8,7 +8,7 @@ It's very easy to have lbry.io running locally:
 
 - Install PHP7
 - Checkout the project
-- Run `php --server localhost:8000 --docroot web/ web/index.php` from the root project folder
+- Run `./dev.sh` from the project root
 - Access `localhost:8000` in your browser
 
 To run remotely, simply install PHP and configure Apache or your server of choice to serve `web/index.php`.
