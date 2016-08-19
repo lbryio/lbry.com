@@ -36,7 +36,7 @@ class Debug
     return $rtn;
   }
 
-  public static function exceptionFrameArgsToString($args)
+  public static function exceptionFrameArgsToString(array $args)
   {
     $ret = [];
     foreach ($args as $arg)
