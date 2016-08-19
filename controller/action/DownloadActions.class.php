@@ -103,6 +103,11 @@ class DownloadActions extends Actions
           Session::set(Session::KEY_PREFINER_USED_CUSTOM_CODE, true);
         }
       }
+      catch (CurlException $e)
+      {
+        $failure = true;
+        Slack::sendErrorIfProd($e);
+      }
       catch (PrefineryException $e)
       {
         $failure = true;
