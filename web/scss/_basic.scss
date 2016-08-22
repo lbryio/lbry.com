@@ -42,10 +42,10 @@ h1, h2, h3, h4
   margin-bottom: $spacing-vertical / 2;
   margin-top: $spacing-vertical / 2;
 }
-h1 { font-size: 2.4em; }
-h2 { font-size: 2.0em; }
-h3 { font-size: 1.75em; }
-h4 { font-size: 1.4em; }
+h1 { font-size: $font-size-h1; }
+h2 { font-size: $font-size-h2; }
+h3 { font-size: $font-size-h3; }
+h4 { font-size: $font-size-h4; }
 nav
 {
   font-size: 1.1em;

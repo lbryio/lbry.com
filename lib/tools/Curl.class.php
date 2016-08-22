@@ -5,7 +5,7 @@ class Curl
   const GET = 'GET',
         POST = 'POST',
         PUT = 'PUT',
-        DEFAULT_CACHE = 60000;
+        DEFAULT_CACHE = 600000;
 
   public static function get($url, $params = [], $options = [])
   {

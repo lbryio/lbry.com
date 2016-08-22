@@ -58,19 +58,6 @@
     margin: 10px $spacing-vertical / 2 0 $spacing-vertical / 4;
   }
 }
-.label-cycle
-{
-  visibility: hidden;
-  display: block;
-  &.label-cycle-init
-  {
-    visibility: visible;
-    :not(:first-child)
-    {
-      display: none;
-    }
-  }
-}
 
 .sale-level
 {

@@ -1,0 +1,132 @@
+@import "global";
+
+$color-roadmap-border: $color-primary;
+$width-roadmap: 4px;
+$width-roadmap-item: $width-roadmap - 1;
+$width-date: 120px;
+
+.roadmap-container
+{
+  border-left: $width-roadmap solid $color-roadmap-border;
+  margin: $spacing-vertical 0 $spacing-vertical $width-date;
+  &:before, &:after
+  {
+    background: $color-roadmap-border;
+    content: "";
+    display: block;
+    position: relative;
+    height: $width-roadmap;
+    left: -2 * ($width-roadmap + 1);
+    width: $width-roadmap * 4;
+  }
+  &:before
+  {
+    top: -1 * ($width-roadmap);
+  }
+  &:after
+  {
+    bottom: -1 * ($width-roadmap);
+  }
+}
+
+.show-all-releases
+{
+  display: inline-block;
+  margin: $spacing-vertical 0 0;
+}
+
+.roadmap-group-closed
+{
+  display: none;
+}
+
+.roadmap-group-title
+{
+  &:before
+  {
+    border-top: $width-roadmap solid $color-roadmap-border;
+    content: "";
+    display: inline-block;
+    height: $width-roadmap;
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 8 * $width-roadmap;
+  }
+  cursor: pointer;
+  font-weight: 400;
+  margin: $spacing-vertical * 1.5 0 $spacing-vertical * 1.5 0;
+  padding: 0;
+}
+
+.roadmap-group-title-label
+{
+  background: $color-roadmap-border;
+  @include border-radius(10px);
+  color: rgba(255, 255, 255, 0.85);
+  display: inline-block;
+  letter-spacing: 0;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.roadmap-item
+{
+  margin-bottom: $spacing-vertical;
+  position: relative;
+}
+
+.roadmap-item-date
+{
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: -1 * $width-date;
+  color: $color-meta-lighter;
+  line-height: 42px;
+}
+
+.roadmap-item-header
+{
+  display: block;
+  padding-left: 20px;
+  position: relative;
+  &:before {
+    border-top: $width-roadmap-item solid $color-roadmap-border;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.5 * ($font-size-h3);
+    display: inline-block;
+    margin-top: $width-roadmap-item / 2;
+    height: $width-roadmap-item;
+    width: 10px;
+  }
+}
+
+.roadmap-item-title
+{
+  display: inline-block;
+  margin: 0;
+}
+
+.roadmap-item-content
+{
+  margin-left: 40px;
+  margin-bottom: $spacing-vertical * 1.5;
+}
+
+.roadmap-item-closed .roadmap-item-content
+{
+  display: none;
+}
+.roadmap-item-open
+{
+  .roadmap-item-title
+  {
+    font-size: $font-size-h3 * 1.2;
+  }
+  .roadmap-item-header
+  {
+    margin-bottom: $spacing-vertical / 2;
+  }
+}

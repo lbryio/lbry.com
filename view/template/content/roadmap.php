@@ -1,13 +1,48 @@
 <?php Response::setMetaDescription('roadmap.description') ?>
+<?php Response::addJsAsset('/js/roadmap.js') ?>
 <?php NavActions::setNavUri('/learn') ?>
 <?php echo View::render('nav/_header', ['isDark' => false]) ?>
-
+<?php js_start() ?>
+  lbry.roadmap('#project-roadmap');
+<?php js_end() ?>
 <main>
-  <div class="content content-light spacer2">
-    <h1>{{roadmap.title}}</h1>
-    <div class="help spacer2">
-      Recent, ongoing and upcoming changes to LBRY.
+  <div class="hero hero-quote hero-img hero-img-short spacer1" title="Here Be Dragons" style="background-image: url(/img/here-be-dragons.jpg)">
+    <div class="hero-content-wrapper">
+      <div class="hero-content text-center">
+        <h1 class="cover-title">{{roadmap.title}}</h1>
+        <h2 class="cover-subtitle">Past successes and future plans for the journey into the land of dragons.</h2>
+      </div>
     </div>
+  </div>
+  <div style="max-width: 800px; margin: 0 auto">
+    <div class="roadmap-container" id="project-roadmap">
+      <div class="text-center"><a href="javascript:;" class="link-primary show-all-releases">Show Earlier Releases</a></div>
+      <?php foreach($items as $group => $groupItems): ?>
+        <h2 class="roadmap-group-title" <?php echo in_array($group, $closedGroups) ? 'style="display: none"' : '' ?>">
+          <span class="roadmap-group-title-label"><?php echo $group ?></span>
+        </h2>
+        <div class="roadmap-group <?php echo in_array($group, $closedGroups) ? 'roadmap-group-closed' : '' ?>">
+          <?php foreach($groupItems as $item): ?>
+            <div class="roadmap-item roadmap-item-closed">
+              <a href="javascript:;" class="roadmap-item-header">
+                <h3 class="roadmap-item-title"><?php echo $item['name'] ?></h3>
+              </a>
+              <div class="roadmap-item-date">
+                <?php echo $item['date'] ?>
+              </div>
+              <div class="roadmap-item-content">
+                <?php echo $item['body'] ?>
+              </div>
+            </div>
+          <?php endforeach ?>
+        </div>
+      <?php endforeach ?>
+    </div>
+  </div>
+</main>
+<?php /*
+
+  <div class="content content-light spacer2">
     <section class="spacer2">
       <h2>Recent Changes</h2>
       <table class="content full-table" id="changeset-table">
@@ -45,35 +80,34 @@
         });
       <?php js_end() ?>
     </section>
-    <?php foreach($tasks as $category => $categoryTasks): ?>
-      <section class="spacer2">
-        <h2><?php echo ucfirst($category) ?> Changes</h2>
-        <table class="content full-table">
-          <thead>
-            <th>Item</th>
-            <th>Date</th>
-            <th>Component</th>
-            <th>Owner</th>
-          </thead>
-          <?php foreach($categoryTasks as $task): ?>
-            <tr>
-              <td><?php echo $task['name'] ?></td>
-              <td style="width: 15%"><?php echo $task['due_on'] ?></td>
-              <td style="width: 20%">
-                <?php if ($task['url']): ?>
-                  <a href="<?php echo $task['url'] ?>" class="link-primary"><?php echo $task['project'] ?></a>
-                <?php else: ?>
-                  <?php echo $task['project'] ?>
-                <?php endif ?>
-              </td>
-              <td style="width: 20%">
-                <?php echo $task['assignee'] ?: '<em>unassigned</em>' ?>
-              </td>
-            </tr>
-          <?php endforeach ?>
-        </table>
-      </section>
-    <?php endforeach ?>
+    <section class="spacer2">
+      <h2>Upcoming Changes</h2>
+      <table class="content full-table">
+        <thead>
+          <th>Item</th>
+          <th>Date</th>
+          <th>Component</th>
+          <th>Owner</th>
+        </thead>
+        <?php foreach($items as $task): ?>
+          <tr>
+            <td><?php echo $task['name'] ?></td>
+            <td style="width: 15%"><?php echo $task['due_on'] ?></td>
+            <td style="width: 20%">
+              <?php if ($task['url']): ?>
+                <a href="<?php echo $task['url'] ?>" class="link-primary"><?php echo $task['project'] ?></a>
+              <?php else: ?>
+                <?php echo $task['project'] ?>
+              <?php endif ?>
+            </td>
+            <td style="width: 20%">
+              <?php echo $task['assignee'] ?: '<em>unassigned</em>' ?>
+            </td>
+          </tr>
+        <?php endforeach ?>
+      </table>
+    </section>
   </div>
 </main>
 <?php echo View::render('nav/_footer') ?>
+ */ ?>

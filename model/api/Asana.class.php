@@ -62,45 +62,50 @@ class Asana
       158602294500214 => ['Other', null]
     ];
 
-    $tasks = [
-      'ongoing' => [],
-      'upcoming' => []
-    ];
+    $groupCategories = ['ongoing', 'upcoming'];
+    $tasks = [];
 
-    $categories = array_keys($tasks);
     foreach($projects as $projectId => $projectTuple)
     {
       list($projectName, $projectUrl) = $projectTuple;
       $projectTasks = static::get('/tasks?' . http_build_query(['completed_since' => 'now', 'project' => $projectId]));
-      $key = null;
+      $group = null;
       foreach ($projectTasks as $task)
       {
         if (mb_substr($task['name'], -1) === ':') //if task ends with ":", it is a category heading so switch the active key
         {
-          $key = array_reduce($categories, function($carry, $category) use($task) {
-            return $carry ?: (strcasecmp($task['name'], $category . ':') === 0 ? $category : null);
+          $group = array_reduce($groupCategories, function($carry, $candidate) use($task) {
+            return $carry ?: (strcasecmp($task['name'], $candidate . ':') === 0 ? $candidate : null);
           });
         }
-        elseif ($key && $task['name'])
+        elseif ($group && $task['name'])
         {
           $fullTask = static::get('/tasks/' . $task['id']);
-          $tasks[$key][] = array_intersect_key($fullTask, ['name' => null, 'due_on' => null]) + [
+          $tasks[$group][] = array_intersect_key($fullTask, ['name' => null]) + [
               'project' => $projectName,
+              'date' => $fullTask['due_on'] ?? null,
+              'body' => $fullTask['notes'],
               'url' => $projectUrl,
+              'group' => $group,
               'assignee' => $fullTask['assignee'] ? ucwords($fullTask['assignee']['name']) : ''
           ];
         }
       }
     }
 
-    foreach($tasks as &$taskSet)
+    foreach($tasks as &$groupTasks)
     {
-      usort($taskSet, function($tA, $tB) {
-        if ($tA['due_on'] xor $tB['due_on'])
+      usort($groupTasks, function ($tA, $tB)
+      {
+        if ($tA['group'] != $tB['group'])
         {
-          return $tA['due_on'] ? -1 : 1;
+          return $tA['group'] <= $tB['group'] ? -1 : 1;
         }
-        return $tA['due_on'] < $tB['due_on'] ? -1 : 1;
+        if ($tA['date'] xor $tB['date'])
+        {
+          return $tA['date'] ? -1 : 1;
+        }
+        return $tA['date'] < $tB['date'] ? -1 : 1;
       });
     }
 
