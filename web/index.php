@@ -27,11 +27,7 @@ catch(Throwable $e)
 {
   if (IS_PRODUCTION)
   {
-    $slackErrorNotificationUrl = Config::get('slack_error_notification_url');
-    if ($slackErrorNotificationUrl)
-    {
-      Curl::post($slackErrorNotificationUrl, ['text' => '<!everyone> ' . $_SERVER['REQUEST_URI'] . "\n" . $e->__toString()], ['json_data' => true]);
-    }
+    Slack::sendErrorIfProd($e);
     throw $e;
   }
 
