@@ -15,17 +15,11 @@ To that end, we have changed the way we weight those on the waiting list. Previo
 
 **We now factor in how long you have been on the waiting list.** Your position on LBRY’s waiting list is now determined by:
 
-<p align="center">
-The number of invited users credited to you 
-</p><p align="center">
-PLUS
-</p><p align="center">
-The number of weeks you have been on the list.
-</p>
+<p align="center">The number of invited users credited to you **PLUS** the number of weeks you have been on the list.</p>
 
 Many of you have been waiting for a long while. We halted new invites for about a month after closed beta launch to work a key feature: publishing tools.
 
-Since [publishing went live](https://lbry.io/news/publish-tools-live-earn-1000-dollars) in the first week of August, we have added about 1,000 new beta users using this updated waiting list. Going forward, we intend to add approximately 500 beta users a week. 
+Since [publishing went live](https://lbry.io/news/publish-tools-live-earn-1000-dollars) in the first week of August, we have added about 2,000 new beta users using this updated waiting list. Going forward, we intend to add approximately 500 beta users a week. 
 
 So if you’re still champing at the bit, then hang tight! 
 
