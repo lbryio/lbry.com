@@ -23,4 +23,4 @@ Since [publishing went live](https://lbry.io/news/publish-tools-live-earn-1000-d
 
 So if you’re still champing at the bit, then hang tight! 
 
-Remember – you can potentially jump the waiting list (and earn 1,000 LBC) if you are a content creator interested in uploading quality digital media to LBRY. [Learn more about this opportunity here](https://lbry.io/publish). 
+Remember – you can potentially jump the waiting list (and earn $1,000 in LBC) if you are a content creator interested in uploading quality digital media to LBRY. [Learn more about this opportunity here](https://lbry.io/publish). 
