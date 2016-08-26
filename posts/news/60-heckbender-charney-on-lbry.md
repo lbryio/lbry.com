@@ -6,7 +6,7 @@ cover: 'heckbendercover.png'
 ---
 This week, we’ve added twice as many comedy partners as last week, starting with…
 
-[Heck Bender](https://www.facebook.com/heckbender/), the Los Angeles-based sketch comedy channel with nothing to prove.
+**[Heck Bender](https://www.facebook.com/heckbender/)**, the Los Angeles-based sketch comedy channel with nothing to prove.
 
 ![Heck Bender](/img/news/heckbender.png)
 
@@ -18,7 +18,7 @@ When you’re done laughing, watch some of their greats like:
 - *[Eminem - Rap God (Unofficial Pug Edition)](lbry://pugrapgod)* – It’s Eminem. In top Pug form.
 - *[True Christmas](lbry://truechristmas)* – Rust and Marty from HBO’s True Detective are in fact Santa and his top Elf, unraveling the mystery of the half eaten cookie plate.
 
-[Charney Comedy](https://www.facebook.com/charneycomedy/)
+**[Charney Comedy](https://www.facebook.com/charneycomedy/)**
 
 ![Charney Comedy](/img/news/charney.png)
 
