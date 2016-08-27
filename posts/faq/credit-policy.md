@@ -17,7 +17,7 @@ The initial 400m credits are broken down as follows:
 | Operational | 100m | To allow LBRY, Inc. to function and profit. | [link](https://explorer.lbry.io/address/rTZF9RvfkLJ6hwCwERwFd7dppRMeddKjpe) |
 | Institutional | 100m |  For strategic partnerships or assistance with charities, non-profits, or other institutions. | [link](https://explorer.lbry.io/address/rVRMmGLZenVXpT1NwYMGcnwFc642kEgWTV) |
 
-## Quartery Reports
+## Quarterly Reports
 
 LBRY issues a quarterly report every 3 months in January, April, July, and October, covering the preceding 3 full months. These reports outline the corresponding transaction history as the current state of LBRY, Inc.'s balance sheet and anticipated future expenditures.
 
