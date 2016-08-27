@@ -2,7 +2,8 @@
 category: browser
 title: Add Transaction History to LBRY Browser
 award: 2000
-status: available
+status: complete
+pr: https://github.com/lbryio/lbry-web-ui/pull/46
 date: '2016-07-01'
 ---
 
