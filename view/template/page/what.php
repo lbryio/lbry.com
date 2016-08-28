@@ -198,9 +198,9 @@
       <h2 id="combatting-the-ugly">Combatting The Ugly</h2>
       <p>As neither naïfs nor knaves, we acknowledge that LBRY can be used for bad ends. Technology is frequently this way. Encryption protects our privacy -- as well as that of terrorists. Cars allow us to travel marvelous distances -- and kill millions per year.</p>
 
-      <p>The downside to LBRY is that it can be used to exchange illegal content. However, several factors of LBRY make illicit usage less likely than it may seem at first consideration. On the whole, as with the car and encryption, the benefits of LBRY clearly outway nefarious uses.</p>
+      <p>The downside to LBRY is that it can be used to exchange illegal content. However, several factors of LBRY make illicit usage less likely than it may seem at first consideration. On the whole, as with the car and encryption, the benefits of LBRY clearly outweigh nefarious uses.</p>
 
-      <p>To evaluate a technology’s effect, we must consider where it moves us from the current state of affairs, not judge against a Platonic ideal or past eta. In assessing LBRY, we must compare it to a world in which BitTorrent already exists and is quite popular, not the 1950s. LBRY is an improvement over BitTorrent in combatting unsavory content in at least five ways:</p>
+      <p>To evaluate a technology’s effect, we must consider where it moves us from the current state of affairs, not judge against a Platonic ideal or past era. In assessing LBRY, we must compare it to a world in which BitTorrent already exists and is quite popular, not the 1950s. LBRY is an improvement over BitTorrent in combatting unsavory content in at least five ways:</p>
 
       <ol><li><strong>More records. </strong>LBRY contains a public ledger of transactions recording name purchases and content publishings. As many purchases make it onto the ledger as well, this means infringing actions are frequently recorded <em>forever, </em>or are at a minimum widely observable.</li>
 
@@ -208,7 +208,7 @@
 
         <li><strong>Blacklists</strong>. LBRY will publish and maintain a blacklist of infringing names. All clients we release and all legal clients will have to follow our blacklist, or one like it, or face substantial penalties. Especially because…</li>
 
-        <li><strong>Stiffer penalties. </strong>Penalties for profiting off of infringement are far stronger and involve can involve jail time, while infringement without profit only results in statutory damages. This serves as a far stronger deterrent for all infringing uses than BitTorrent provides.</li>
+        <li><strong>Stiffer penalties. </strong>Penalties for profiting off of infringement are far stronger and can involve jail time, while infringement without profit only results in statutory damages. This serves as a far stronger deterrent for all infringing uses than BitTorrent provides.</li>
 
         <li><strong>Expensive or impossible. </strong>Offchain settlement will be a requirement for efficient purchases at any significant network size. Settlement providers, ourselves included, will be able to block purchases for infringing content. At significant traffic volume, if infringing content can’t be outright removed or blocked, transaction fees will make it prohibitively expensive.</li>
       </ol>
@@ -219,21 +219,22 @@
       <p>We want to be the first digital content marketplace to:</p>
 
       <ol>
-        <li><strong>Treat users like adults</strong> LBRY doesn’t play nanny. It encourages individual people to express their own preferences, rather than force our own onto them. We enable consumers to make their own choices about where and who they want to purchase digital content from.</li>
+        <li><strong>Treat users like adults.</strong> LBRY doesn’t play nanny. It encourages individual people to express their own preferences, rather than force our own onto them. We enable consumers to make their own choices about where and who they want to purchase digital content from.</li>
 
-        <li><strong>Operate openly, inclusively, and transparently</strong> Anyone can publish or interact with the LBRY network. No one needs permission from us or anyone else. LBRY encourages all parties to participate in the network, rather than the creation of walled gardens. LBRY is a completely open specification and all code is open source.</li>
+        <li><strong>Operate openly, inclusively, and transparently.</strong> Anyone can publish or interact with the LBRY network. No one needs permission from us or anyone else. LBRY encourages all parties to participate in the network, rather than the creation of walled gardens. LBRY is a completely open specification and all code is open source.</li>
 
-        <li><strong>Prove decentralization doesn’t mean infringement</strong> Existing decentralized publishing protocols offer no way for rightsholders to combat or capture profits from illegally shared content. LBRY’s service layer, blacklisting mechanisms, and naming system all improve the status quo.</li>
-        <li><strong>Acknowledge modern digital realities and ethical norms</strong> Prohibition has failed at every turn and in every iteration. Regulating human behavior only works when it aligns with moral norms that are shared by the majority of the population.
+        <li><strong>Prove decentralization doesn’t mean infringement.</strong> Existing decentralized publishing protocols offer no way for rightsholders to combat or capture profits from illegally shared content. LBRY’s service layer, blacklisting mechanisms, and naming system all improve the status quo.</li>
 
+        <li><p><strong>Acknowledge modern digital realities and ethical norms.</strong> Prohibition has failed at every turn and in every iteration. Regulating human behavior only works when it aligns with moral norms that are shared by the majority of the population.
+          <p>
           If it is impossible to keep drugs out of prisons, it will never be possible to enforce copyright via analogous tactics on the infinitely less-controlled internet. Instead, focus on enticement. While legal compliance is paramount, concentrate as much as possible on making a system that relies more on giving people no excuse to do the wrong thing.</li>
 
-        <li><strong>Collect no rent</strong>. Whatever an artist or creator charges for their work should go to them. Distributing bits is exceedingly simple. There’s no need to give 45% to YouTube or 30% to Apple. Collecting no rent isn’t just a promise, it’s hard coded. The nature of LBRY means this could never be done -- by us or anyone else.</li>
+        <li><strong>Collect no rent.</strong>. Whatever an artist or creator charges for their work should go to them. Distributing bits is exceedingly simple. There’s no need to give 45% to YouTube or 30% to Apple. Collecting no rent isn’t just a promise, it’s hard coded. The nature of LBRY means this could never be done -- by us or anyone else.</li>
       </ol>
     </section>
     <section>
       <h2 id="tldr">TL;DR</h2>
-      <p>Digital art is one of the first goods to evolve beyond scarcity. This evolution is changing the way content is discovered, publicized, paid for and delivered. Heretofore, the lack of transparency and monetization mechanisms in peer-to-peer sharing networks has largely enabled piracy. By equipping a peer-to-peer protocol with a digital currency and transparent decentralized ledger, the LBRY protocol opens the door to a new era of digital content distribution making peer-to-peer content distribution suitable for major publishing housing, self-publishers and everyone in between.</p>
+      <p>Digital art is one of the first goods to evolve beyond scarcity. This evolution is changing the way content is discovered, publicized, paid for and delivered. Heretofore, the lack of transparency and monetization mechanisms in peer-to-peer sharing networks has largely enabled piracy. By equipping a peer-to-peer protocol with a digital currency and transparent decentralized ledger, the LBRY protocol opens the door to a new era of digital content distribution making peer-to-peer content distribution suitable for major publishing houses, self-publishers and everyone in between.</p>
 
       <p>If LBRY succeeds, we will enter a world that is even more creative, connected, and conservatory. We will waste less and we make more. We will create a world where a teenager in Kenya and a reality star in Los Angeles use the same tool to search the same network and have access to the same results -- a world where information, knowledge, and imagination know no borders. </p>
 
