@@ -60,7 +60,7 @@ class Response
   public static function guessMetaTitle($content)
   {
     $title = '';
-    preg_match_all('/<h(1|2)>([^<]+)</', $content, $titleMatches);
+    preg_match_all('/<h(1|2)[^>]*>([^<]+)</', $content, $titleMatches);
     foreach($titleMatches[1] as $matchIndex => $headerValue)
     {
       if ($headerValue == '1' || !$title)
@@ -74,12 +74,12 @@ class Response
     }
     return $title;
   }
-  
+
   public static function getJsCalls()
   {
     return static::$jsCalls;
   }
-  
+
   public static function jsOutputCallback($js)
   {
     static::$jsCalls[] = $js;
