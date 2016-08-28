@@ -13,9 +13,9 @@ The initial 400m credits are broken down as follows:
 
 | Name | Amount | Purpose | Wallet (initial) |
 | ---- | ------ | ---------------- | -------- |
-| Community | 200m |  Reward early adopters, new users, and community contributions. | [link](https://explorer.lbry.io/address/rMT5Sg8SyFP3ax2PRaweRCRZoMeYw4znEi) |
-| Operational | 100m | To allow LBRY, Inc. to function and profit. | [link](https://explorer.lbry.io/address/rEQKyb7nd7UUGyEEn5xRkk1fgXdTCf2ZCg) |
-| Institutional | 100m |  For strategic partnerships or assistance with charities, non-profits, or other institutions. | [link](https://explorer.lbry.io/address/r9DarmxyPjWkF7ocyxMzaNZN3a9gJvNTZJ) |
+| Community | 200m |  Reward early adopters, new users, and community contributions. | [link](https://explorer.lbry.io/address/rRmURzvpHTysU4xUSp9CXeosBTbYfKs7n5) |
+| Operational | 100m | To allow LBRY, Inc. to function and profit. | [link](https://explorer.lbry.io/address/rTZF9RvfkLJ6hwCwERwFd7dppRMeddKjpe) |
+| Institutional | 100m |  For strategic partnerships or assistance with charities, non-profits, or other institutions. | [link](https://explorer.lbry.io/address/rVRMmGLZenVXpT1NwYMGcnwFc642kEgWTV) |
 
 ## Quartery Reports
 

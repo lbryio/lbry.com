@@ -14,5 +14,9 @@ Iquidus explorer is great, but does not currently support LBRY specific operatio
 
 The explorer should be modified to:
 
-- Display what LBRY name claims and supports
-- Exploration of name claims in a way similar to transactions
+- Display name claims in a transaction and link to claim info provided a txid
+- Display a support transaction and link to claim info provided a txid
+- Display claim information (name, claim txid, value, total amount, supports, and previous updates) provided a claim id
+- Display information for contesting name claims provided a lbry name
+
+This will likely require polling for changes in the result of `lbrycrd-cli getclaimsintrie` after each block, and subsiquently populating values from `lbrycrd-cli getclaimsforname` and `lbrycrd-cli getclaimsfortx`. 
