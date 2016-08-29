@@ -2,7 +2,7 @@
 category: slack
 title: Create a URL Handler for Slack
 award: 1000
-status: available
+status: complete
 date: '2016-07-01'
 ---
 
