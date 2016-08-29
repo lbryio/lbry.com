@@ -69,6 +69,7 @@ class Github
         $sets[$group][] = array_intersect_key($release, ['prerelease' => null, 'tag_name' => null, 'published_at' => null]) + [
             'date' => date('Y-m-d', strtotime($release['created_at'])), //I thought published_at, but GitHub displays created_at and published_at is out of sync sometimes (0.3.2, 0.3.3)
             'name' => $release['name'] ?: $release['tag_name'],
+            'github_url' => $release['url'],
             'major_version' => $matches[1],
             'minor_version' => $matches[2],
             'patch_version' => isset($matches[3]) ? $matches[3] : null,

@@ -116,9 +116,13 @@ class ContentActions extends Actions
 
   public static function executeRoadmap()
   {
-    $items = array_merge(Github::listRoadmapChangesets(), Asana::listRoadmapTasks());
+    $githubItems = Github::listRoadmapChangesets();
+    $githubVersions = array_keys($githubItems);
+
+    $items = array_merge($githubItems, Asana::listRoadmapTasks());
     return ['content/roadmap', [
-      'closedGroups' => ['0.1', '0.2'], //should be dynamic
+      'closedGroups' => array_slice($githubVersions, 0, -1),
+      'latestVersion' => end($githubVersions),
       'items' => $items
     ]];
   }

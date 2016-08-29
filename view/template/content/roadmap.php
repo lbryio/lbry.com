@@ -19,19 +19,29 @@
       <div class="text-center"><a href="javascript:;" class="link-primary show-all-releases">Show Earlier Releases</a></div>
       <?php foreach($items as $group => $groupItems): ?>
         <h2 class="roadmap-group-title" <?php echo in_array($group, $closedGroups) ? 'style="display: none"' : '' ?>">
-          <span class="roadmap-group-title-label"><?php echo $group ?></span>
+          <span class="roadmap-group-title-label">
+            <?php echo $group ?>
+            <?php if ($group == $latestVersion): ?>
+              <span class="badge badge-info">current</span>
+            <?php endif ?>
+          </span>
         </h2>
         <div class="roadmap-group <?php echo in_array($group, $closedGroups) ? 'roadmap-group-closed' : '' ?>">
           <?php foreach($groupItems as $item): ?>
             <div class="roadmap-item roadmap-item-closed">
               <a href="javascript:;" class="roadmap-item-header">
-                <h3 class="roadmap-item-title"><?php echo $item['name'] ?></h3>
+                <h3 class="roadmap-item-title">
+                  <?php echo $item['name'] ?>
+                </h3>
               </a>
               <div class="roadmap-item-date">
                 <?php echo $item['date'] ?>
               </div>
               <div class="roadmap-item-content">
                 <?php echo $item['body'] ?>
+                <?php if (isset($item['github_url'])): ?>
+                  
+                <?php endif ?>
               </div>
             </div>
           <?php endforeach ?>
