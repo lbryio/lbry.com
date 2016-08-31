@@ -16,14 +16,14 @@ class View
 
   public static function render($template, array $vars = [])
   {
-    if (static::isMarkdown($template))
-    {
-      return static::markdownToHtml(static::getFullPath($template));
-    }
-
     if (!static::exists($template) || substr_count($template, '/') !== 1)
     {
       throw new InvalidArgumentException(sprintf('The template "%s" does not exist or is unreadable.', $template));
+    }
+
+    if (static::isMarkdown($template))
+    {
+      return static::markdownToHtml(static::getFullPath($template));
     }
 
     list($module, $view) = explode('/', $template);
@@ -42,23 +42,35 @@ class View
       return;
     }
 
-    extract($vars);
+    return static::interpolateTokens(static::getTemplateSafely($template, $vars));
+  }
+
+  /**
+   * This is its own function because we don't want in-scope variables to leak into the template
+   *
+   * @param string $___template
+   * @param array  $___vars
+   *
+   * @return string
+   * @throws Throwable
+   */
+  protected static function getTemplateSafely(string $___template, array $___vars): string
+  {
+    extract($___vars);
     ob_start();
     ob_implicit_flush(0);
 
     try
     {
-      require(static::getFullPath($template));
+      require(static::getFullPath($___template));
+      return ob_get_clean();
     }
-    catch (Exception $e)
+    catch (Throwable $e)
     {
       // need to end output buffering before throwing the exception
       ob_end_clean();
       throw $e;
     }
-
-
-    return static::interpolateTokens(ob_get_clean());
   }
 
   public static function markdownToHtml($path)
@@ -82,6 +94,7 @@ class View
     {
       return $template;
     }
+
     if (static::isMarkdown($template))
     {
       return ROOT_DIR . '/posts/' . $template;

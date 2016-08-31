@@ -1,10 +1,5 @@
 <?php
 
-/**
- * Description of ContentActions
- *
- * @author jeremy
- */
 class ContentActions extends Actions
 {
   const RSS_SLUG = 'rss.xml',
@@ -13,7 +8,7 @@ class ContentActions extends Actions
         VIEW_FOLDER_NEWS = ROOT_DIR . '/posts/news',
         VIEW_FOLDER_FAQ = ROOT_DIR . '/posts/faq';
 
-  public static function executeHome()
+  public static function executeHome(): array
   {
     return ['page/home', [
       'totalUSD' => CreditApi::getTotalDollarSales(),
@@ -21,7 +16,7 @@ class ContentActions extends Actions
     ]];
   }
 
-  public static function executeFaq()
+  public static function executeFaq(): array
   {
     $allPosts = Post::find(static::VIEW_FOLDER_FAQ);
 
@@ -60,7 +55,7 @@ class ContentActions extends Actions
     ]];
   }
 
-  public static function executeNews()
+  public static function executeNews(): array
   {
     $posts = Post::find(static::VIEW_FOLDER_NEWS, Post::SORT_DATE_DESC);
     return ['content/news', [
@@ -72,7 +67,7 @@ class ContentActions extends Actions
   }
 
 
-  public static function executeRss()
+  public static function executeRss(): array
   {
     $posts = Post::find(static::VIEW_FOLDER_NEWS, Post::SORT_DATE_DESC);
     return ['content/rss', [
@@ -83,7 +78,7 @@ class ContentActions extends Actions
     ]];
   }
 
-  public static function executeNewsPost($relativeUri)
+  public static function executeNewsPost($relativeUri): array
   {
     try
     {
@@ -101,7 +96,7 @@ class ContentActions extends Actions
     ]];
   }
 
-  public static function executeFaqPost($relativeUri)
+  public static function executeFaqPost($relativeUri): array
   {
     try
     {
@@ -116,7 +111,7 @@ class ContentActions extends Actions
     ]];
   }
 
-  public static function executePressKit()
+  public static function executePressKit(): array
   {
     $zipFileName = 'lbry-press-kit-' . date('Y-m-d') . '.zip';
     $zipPath = tempnam('/tmp', $zipFileName);
@@ -177,7 +172,7 @@ class ContentActions extends Actions
     ]];
   }
 
-  public static function prepareBioPartial(array $vars)
+  public static function prepareBioPartial(array $vars): array
   {
     $person = $vars['person'];
     $path = 'bio/' . $person . '.md';
@@ -191,13 +186,21 @@ class ContentActions extends Actions
     ];
   }
 
-  public static function preparePostAuthorPartial(array $vars)
+  public static function preparePostAuthorPartial(array $vars): array
   {
     $post = $vars['post'];
     return [
       'authorName' => $post->getAuthorName(),
       'photoImgSrc' => $post->getAuthorPhoto(),
       'authorBioHtml' => $post->getAuthorBioHtml()
+    ];
+  }
+
+  public static function preparePostListPartial(array $vars): array
+  {
+    $count = isset($vars['count']) ? $vars['count'] : 3;
+    return [
+      'posts' => array_slice(Post::find(static::VIEW_FOLDER_NEWS, Post::SORT_DATE_DESC), 0, $count)
     ];
   }
 }

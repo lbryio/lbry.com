@@ -68,11 +68,13 @@
 }
 .cover-dark-grad
 {
-  @include linear-gradient(darken($color-primary, 5), lighten($color-primary, 5));
+  //@include linear-gradient(darken($color-primary, 5), lighten($color-primary, 5));
+  background-color: $color-primary;
 }
 .cover-light-alt-grad
 {
-  @include linear-gradient(darken($color-light-alt, 5), lighten($color-light-alt, 5));
+  //@include linear-gradient(darken($color-light-alt, 5), lighten($color-light-alt, 5));
+  background-color: $color-light-alt;
 }
 
 .cover-title, .cover-subtitle

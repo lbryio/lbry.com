@@ -95,5 +95,9 @@ $gutter_fluid: 4;
     width: 100% !important;
     margin-left: 0 !important;
     display: block !important;
+    &:not(:last-child)
+    {
+      margin-bottom: $spacing-vertical;
+    }
   }
 }

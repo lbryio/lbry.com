@@ -12,7 +12,7 @@
           </div>
           <?php echo View::render('nav/_globalItems') ?>
           <div class="control-item">
-            <a href="//en.wikipedia.org/wiki/AACS_encryption_key_controversy" class="footer-img-link">
+            <a href="https://en.wikipedia.org/wiki/AACS_encryption_key_controversy" class="footer-img-link">
               <img src="/img/Free-speech-flag.svg" alt="Free Speech Flag" height="30"/>
             </a>
           </div>

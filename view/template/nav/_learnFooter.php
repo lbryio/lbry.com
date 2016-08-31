@@ -15,9 +15,9 @@
         </table>
         <ul>
           <li><a href="/join-list" class="link-primary"><?php echo __('email.subscribe') ?></a>.</li>
-          <li>Join us on <a href="//twitter.com/lbryio" class="link-primary"><span class="btn-label">Twitter</span><span class="icon icon-twitter"></span></a>,
-            <a href="//facebook.com/lbryio" class="link-primary"><span class="btn-label">Facebook</span><span class="icon icon-facebook"></span></a>,
-                or <a href="//reddit.com/r/lbry" class="link-primary"><span class="btn-label">Reddit</span><span class="icon icon-reddit"></span></a>.</li>
+          <li>Join us on <a href="https://twitter.com/lbryio" class="link-primary"><span class="btn-label">Twitter</span><span class="icon icon-twitter"></span></a>,
+            <a href="https://facebook.com/lbryio" class="link-primary"><span class="btn-label">Facebook</span><span class="icon icon-facebook"></span></a>,
+                or <a href="https://reddit.com/r/lbry" class="link-primary"><span class="btn-label">Reddit</span><span class="icon icon-reddit"></span></a>.</li>
         </ul>
       </div>
       <div class="span6">
