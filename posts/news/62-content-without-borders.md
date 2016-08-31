@@ -6,7 +6,7 @@ cover: 'berlinwall.png'
 ---
 National borders shouldn’t stop the flow of digital content. But they often do.
 
-![Mexico-United States Border](/image/usmexico.png)
+![US–Mexico Border](/img/news/usmexico.png)
 
 As Estonian President Toomas Hendrik explained in an interview with Ars Technica, [he can’t buy a song on iTunes for his wife](http://arstechnica.com/business/2016/05/why-cant-the-estonian-president-buy-a-song-off-itunes-for-his-latvian-wife/):
 
