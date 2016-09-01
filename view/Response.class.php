@@ -169,6 +169,7 @@ class Response
   public static function enableHttpCache(int $seconds = 300)
   {
     static::addCacheControlHeader('max-age', $seconds);
+    static::setHeader('Pragma', 'public');
   }
 
   public static function addCacheControlHeader(string $name, $value = null)
@@ -246,6 +247,11 @@ class Response
     if (static::$headersSent)
     {
       throw new LogicException('Headers have already been sent. They cannot be sent twice');
+    }
+
+    if (!static::getHeader(static::HEADER_CONTENT_TYPE))
+    {
+      static::setHeader(static::HEADER_CONTENT_TYPE, 'text/html');
     }
 
     $headers = static::getHeaders();
