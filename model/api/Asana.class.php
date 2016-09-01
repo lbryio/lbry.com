@@ -56,10 +56,8 @@ class Asana
       158602294500138 => ['LBRY Browser', 'https://github.com/lbryio/lbry-web-ui'],
       158602294500137 => ['LBRYnet', 'https://github.com/lbryio/lbry'],
       161514803479899 => ['Blockchain and Wallets', 'https://github.com/lbryio/lbrycrd'],
-      158829550589337 => ['Reporting and Analytics', null],
       136290697597644 => ['Integration and Building', null],
       158602294500249 => ['Documentation', null],
-      158602294500214 => ['Other', null]
     ];
 
     $groupCategories = ['ongoing', 'upcoming'];
@@ -82,7 +80,8 @@ class Asana
         {
           $fullTask = static::get('/tasks/' . $task['id']);
           $tasks[$group][] = array_intersect_key($fullTask, ['name' => null]) + [
-              'project' => $projectName,
+              'project_label' => $projectName,
+              'badge' => $projectName,
               'date' => $fullTask['due_on'] ?? null,
               'body' => $fullTask['notes'],
               'url' => $projectUrl,

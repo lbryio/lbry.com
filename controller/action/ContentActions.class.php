@@ -117,12 +117,25 @@ class ContentActions extends Actions
   public static function executeRoadmap()
   {
     $githubItems = Github::listRoadmapChangesets();
-    $githubVersions = array_keys($githubItems);
+
+    $projectMaxVersions = [];
+    $closedGroups = [];
+    foreach($githubItems as $group => $items)
+    {
+      if ($items)
+      {
+        $lastItem = end($items);
+        $project = $lastItem['project'];
+        if (!isset($projectMaxVersions[$project]) || $lastItem['version'] > $projectMaxVersions[$project])
+        {
+          $projectMaxVersions[$project] = $lastItem['version'];
+        }
+      }
+    }
 
     $items = array_merge($githubItems, Asana::listRoadmapTasks());
     return ['content/roadmap', [
-      'closedGroups' => array_slice($githubVersions, 0, -1),
-      'latestVersion' => end($githubVersions),
+      'projectMaxVersions' => $projectMaxVersions,
       'items' => $items
     ]];
   }

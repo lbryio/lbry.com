@@ -71,7 +71,7 @@
         <?php endforeach ?>
       </div>
     <?php else: ?>
-      <p><em>{{bounty.list.noresults}}</em></p>
+      <p><em class="no-results">{{bounty.list.noresults}}</em></p>
     <?php endif ?>
   </section>
 </main>

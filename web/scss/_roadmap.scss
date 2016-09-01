@@ -4,6 +4,7 @@ $color-roadmap-border: $color-primary;
 $width-roadmap: 4px;
 $width-roadmap-item: $width-roadmap - 1;
 $width-date: 120px;
+$radius-roadmap: 10px;
 
 .roadmap-container
 {
@@ -29,7 +30,7 @@ $width-date: 120px;
   }
 }
 
-.show-all-releases
+.show-all-roadmap-groups
 {
   display: inline-block;
   margin: $spacing-vertical 0 0;
@@ -61,7 +62,7 @@ $width-date: 120px;
 .roadmap-group-title-label
 {
   background: $color-roadmap-border;
-  @include border-radius(10px);
+  @include border-radius($radius-roadmap);
   color: rgba(255, 255, 255, 0.85);
   display: inline-block;
   letter-spacing: 0;
@@ -71,8 +72,26 @@ $width-date: 120px;
 
 .roadmap-item
 {
+  $left-margin: 20px;
+  $item-padding: 10px;
   margin-bottom: $spacing-vertical;
   position: relative;
+  margin-left: $left-margin;
+  position: relative;
+  padding: $item-padding;
+  background: #e8e8e8;
+  @include border-radius($radius-roadmap);
+  &:before {
+    border-top: $width-roadmap-item solid $color-roadmap-border;
+    content: "";
+    position: absolute;
+    left: -1 * $left-margin;
+    top: 0.5 * ($font-size-h3) + $item-padding;
+    display: inline-block;
+    margin-top: $width-roadmap-item / 2;
+    height: $width-roadmap-item;
+    width: 10px;
+  }
 }
 
 .roadmap-item-date
@@ -85,24 +104,6 @@ $width-date: 120px;
   line-height: 42px;
 }
 
-.roadmap-item-header
-{
-  display: block;
-  padding-left: 20px;
-  position: relative;
-  &:before {
-    border-top: $width-roadmap-item solid $color-roadmap-border;
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0.5 * ($font-size-h3);
-    display: inline-block;
-    margin-top: $width-roadmap-item / 2;
-    height: $width-roadmap-item;
-    width: 10px;
-  }
-}
-
 .roadmap-item-title
 {
   display: inline-block;
@@ -111,22 +112,17 @@ $width-date: 120px;
 
 .roadmap-item-content
 {
-  margin-left: 40px;
-  margin-bottom: $spacing-vertical * 1.5;
+  font-size: 0.9em;
+  margin: 10px;
 }
 
+.roadmap-item-assignee
+{
+  float: right;
+  font-size: 0.8em;
+}
+/*
 .roadmap-item-closed .roadmap-item-content
 {
   display: none;
-}
-.roadmap-item-open
-{
-  .roadmap-item-title
-  {
-    font-size: $font-size-h3 * 1.2;
-  }
-  .roadmap-item-header
-  {
-    margin-bottom: $spacing-vertical / 2;
-  }
-}
+}*/
