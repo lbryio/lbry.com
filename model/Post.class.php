@@ -276,7 +276,7 @@ class Post
     $cover = $this->getCover();
     if ($cover)
     {
-      $urls[] = 'https://' .  $_SERVER['SERVER_NAME'] . '/img/blog-covers/' . $cover;
+      $urls[] = 'https://' .  Request::getHost() . '/img/blog-covers/' . $cover;
     }
 
     $matches = [];

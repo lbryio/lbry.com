@@ -24,7 +24,7 @@ class i18n
   {
     if ($culture === null)
     {
-      $urlTokens = $_SERVER['HTTP_HOST'] ? explode('.', $_SERVER['HTTP_HOST']) : [];
+      $urlTokens = Request::getHost() ? explode('.', Request::getHost()) : [];
       $code = $urlTokens ? reset($urlTokens) : 'en';
       switch($code)
       {

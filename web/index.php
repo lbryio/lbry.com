@@ -21,7 +21,7 @@ try
   {
     View::compileCss();
   }
-  Controller::dispatch(strtok($_SERVER['REQUEST_URI'], '?'));
+  Controller::dispatch(strtok(Request::getRelativeUri(), '?'));
 }
 catch(Throwable $e)
 {

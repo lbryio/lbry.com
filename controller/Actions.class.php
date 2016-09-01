@@ -34,6 +34,6 @@ class Actions
       'okhttp', 'python'
     ];
 
-    return preg_match('/(' . join('|', $bots) . ')/i', $_SERVER['HTTP_USER_AGENT']);
+    return preg_match('/(' . join('|', $bots) . ')/i', Request::getUserAgent());
   }
 }

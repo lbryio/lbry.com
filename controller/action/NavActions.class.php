@@ -16,7 +16,7 @@ class NavActions extends Actions
 
   public static function getNavUri()
   {
-    return static::$navUri ?: $_SERVER['REQUEST_URI'];
+    return static::$navUri ?: Request::getRelativeUri();
   }
 
   public static function prepareFooterPartial(array $vars)

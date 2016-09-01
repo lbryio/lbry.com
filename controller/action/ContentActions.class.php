@@ -10,6 +10,7 @@ class ContentActions extends Actions
 
   public static function executeHome(): array
   {
+    Response::enableHttpCache(180);
     return ['page/home', [
       'totalUSD' => CreditApi::getTotalDollarSales(),
       'totalPeople' => CreditApi::getTotalPeople()
@@ -70,11 +71,10 @@ class ContentActions extends Actions
   public static function executeRss(): array
   {
     $posts = Post::find(static::VIEW_FOLDER_NEWS, Post::SORT_DATE_DESC);
+    Response::setHeader(Response::HEADER_CONTENT_TYPE, 'text/xml; charset=utf-8');
     return ['content/rss', [
       'posts' => array_slice($posts, 0, 10),
       '_no_layout' => true
-    ], [
-      'Content-Type' => 'text/xml; charset=utf-8'
     ]];
   }
 
@@ -161,14 +161,12 @@ class ContentActions extends Actions
 
     $zip->close();
 
+    Response::enableHttpCache(180);
+    Response::setDownloadHttpHeaders($zipFileName, 'application/zip', filesize($zipPath));
+
     return ['internal/zip', [
       '_no_layout' => true,
       'zipPath' => $zipPath
-    ], [
-      'Content-Disposition' => 'attachment;filename=' . $zipFileName,
-      'X-Content-Type-Options' => 'nosniff',
-      'Content-Type' => 'application/zip',
-      'Content-Length' => filesize($zipPath),
     ]];
   }
 

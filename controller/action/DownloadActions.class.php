@@ -169,7 +169,7 @@ class DownloadActions extends Actions
   protected static function guessOs()
   {
     //if exact OS is requested, use that
-    $uri = strtok($_SERVER['REQUEST_URI'], '?');
+    $uri = strtok(Request::getRelativeUri(), '?');
     foreach (static::getOses() as $os => $osChoice)
     {
       if ($osChoice[0] == $uri)
@@ -184,7 +184,7 @@ class DownloadActions extends Actions
     }
 
     //otherwise guess from UA
-    $ua = $_SERVER['HTTP_USER_AGENT'];
+    $ua = Request::getUserAgent();
     if (stripos($ua, 'OS X') !== false)
     {
       return strpos($ua, 'iPhone') !== false || stripos($ua, 'iPad') !== false ? static::OS_IOS : static::OS_OSX;

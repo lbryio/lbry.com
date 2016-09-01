@@ -78,17 +78,17 @@ class View
     return ParsedownExtra::instance()->text(trim(file_get_contents($path)));
   }
 
-  public static function exists($template)
+  public static function exists($template): bool
   {
     return is_readable(static::getFullPath($template));
   }
 
-  protected static function isMarkdown($nameOrPath)
+  protected static function isMarkdown($nameOrPath): bool
   {
     return strlen($nameOrPath) > 3 && substr($nameOrPath, -3) == '.md';
   }
 
-  protected static function getFullPath($template)
+  protected static function getFullPath($template): string
   {
     if ($template && $template[0] == '/')
     {
@@ -103,12 +103,12 @@ class View
     return ROOT_DIR . '/view/template/' . $template . '.php';
   }
 
-  public static function imagePath($image)
+  public static function imagePath($image): string
   {
     return '/img/' . $image;
   }
 
-  public static function parseMarkdown($template)
+  public static function parseMarkdown($template): array
   {
     $path = static::getFullPath($template);
     list($ignored, $frontMatter, $markdown) = explode('---', file_get_contents($path), 3);

@@ -13,7 +13,7 @@ class Slack
     $slackErrorNotificationUrl = Config::get('slack_error_notification_url');
     if ($slackErrorNotificationUrl)
     {
-      Curl::post($slackErrorNotificationUrl, ['text' => '<!everyone> ' . $_SERVER['REQUEST_URI'] . "\n" . $e], ['json_data' => true]);
+      Curl::post($slackErrorNotificationUrl, ['text' => '<!everyone> ' . Request::getRelativeUri() . "\n" . $e], ['json_data' => true]);
     }
   }
 }

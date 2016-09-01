@@ -23,13 +23,13 @@
       <div class="span6">
         <h3><?php echo __('publish.keepl') ?></h3>
         <ul>
-          <?php if ($_SERVER['REQUEST_URI'] != '/what'): ?>
+          <?php if (Request::getRelativeUri() != '/what'): ?>
             <li>Read "<a href="/what" class="link-primary">Art in the Internet Age</a>", an introductory essay.</li>
           <?php endif ?>
-          <?php if ($_SERVER['REQUEST_URI'] != '/team'): ?>
+          <?php if (Request::getRelativeUri() != '/team'): ?>
             <li>Find out about <a href="/team" class="link-primary">the team behind LBRY</a>.</li>
           <?php endif ?>
-          <?php if (strpos($_SERVER['REQUEST_URI'], '/news') === false): ?>
+          <?php if (strpos(Request::getRelativeUri(), '/news') === false): ?>
             <li>Check out the latest <a href="/news" class="link-primary">news</a>.</li>
           <?php endif ?>
         </ul>
