@@ -30,12 +30,12 @@ class Github
     return null;
   }
 
-  public static function get($endpoint)
+  public static function get($endpoint, $cache = true)
   {
-    return Curl::get('https://api.github.com' . $endpoint, [], ['user_agent' => 'LBRY', 'json_response' => true, 'cache' => true]);
+    return Curl::get('https://api.github.com' . $endpoint, [], ['user_agent' => 'LBRY', 'json_response' => true, 'cache' => $cache]);
   }
 
-  public static function listRoadmapChangesets()
+  public static function listRoadmapChangesets($cache = true)
   {
     $sets = [];
     $allReleases = [];
@@ -52,7 +52,7 @@ class Github
       $page = 1;
       do
       {
-        $releases = static::get('/repos/lbryio/' . $project . '/releases?page=' . $page);
+        $releases = static::get('/repos/lbryio/' . $project . '/releases?page=' . $page, $cache);
         $page++;
         $allReleases = array_merge($allReleases, array_map(function($release) use($label, $project) {
           return $release + ['project_label' => $label, 'project' => $project];

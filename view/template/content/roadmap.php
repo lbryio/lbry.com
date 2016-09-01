@@ -1,4 +1,4 @@
-<?php Response::setMetaDescription('roadmap.description') ?>
+<?php Response::setMetaDescription(__('roadmap.description')) ?>
 <?php Response::addJsAsset('/js/roadmap.js') ?>
 <?php NavActions::setNavUri('/learn') ?>
 <?php echo View::render('nav/_header', ['isDark' => false]) ?>

@@ -116,7 +116,8 @@ class ContentActions extends Actions
 
   public static function executeRoadmap()
   {
-    $githubItems = Github::listRoadmapChangesets();
+    $cache = !isset($_GET['nocache']);
+    $githubItems = Github::listRoadmapChangesets($cache);
 
     $projectMaxVersions = [];
     $closedGroups = [];
@@ -133,7 +134,7 @@ class ContentActions extends Actions
       }
     }
 
-    $items = array_merge($githubItems, Asana::listRoadmapTasks());
+    $items = array_merge($githubItems, Asana::listRoadmapTasks($cache));
     return ['content/roadmap', [
       'projectMaxVersions' => $projectMaxVersions,
       'items' => $items

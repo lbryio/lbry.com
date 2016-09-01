@@ -4,7 +4,7 @@ class Asana
 {
   protected static $curlOptions = ['json_response' => true, 'cache' => true];
 
-  public static function listRoadmapTasks()
+  public static function listRoadmapTasks($cache = true)
   {
     /*
      *   return static::get('/projects');
@@ -54,7 +54,7 @@ class Asana
 //    return static::get('/projects');
     $projects = [
       158602294500138 => ['LBRY Browser', 'https://github.com/lbryio/lbry-web-ui'],
-      158602294500137 => ['LBRYnet', 'https://github.com/lbryio/lbry'],
+      158602294500137 => ['LBRY Data Network', 'https://github.com/lbryio/lbry'],
       161514803479899 => ['Blockchain and Wallets', 'https://github.com/lbryio/lbrycrd'],
       136290697597644 => ['Integration and Building', null],
       158602294500249 => ['Documentation', null],
@@ -66,7 +66,7 @@ class Asana
     foreach($projects as $projectId => $projectTuple)
     {
       list($projectName, $projectUrl) = $projectTuple;
-      $projectTasks = static::get('/tasks?' . http_build_query(['completed_since' => 'now', 'project' => $projectId]));
+      $projectTasks = static::get('/tasks', ['completed_since' => 'now', 'project' => $projectId], $cache);
       $group = null;
       foreach ($projectTasks as $task)
       {
@@ -111,13 +111,14 @@ class Asana
     return $tasks;
   }
 
-  protected static function get($endpoint, array $data = [])
+  protected static function get($endpoint, array $data = [], $cache = true)
   {
     $apiKey = Config::get('asana_key');
 
-    $options = static::$curlOptions + [
-        'headers' => ['Authorization: Bearer ' . $apiKey]
-    ];
+    $options = [
+        'headers' => ['Authorization: Bearer ' . $apiKey],
+        'cache' => $cache
+    ] + static::$curlOptions;
 
     $responseData = Curl::get('https://app.asana.com/api/1.0' . $endpoint, $data, $options);
     return isset($responseData['data']) ? $responseData['data'] : [];
