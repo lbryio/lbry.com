@@ -7,6 +7,7 @@ cover: 'joaquin-pixan2.jpg'
 It’s amazing to watch full resolution films with no ads on LBRY, but the protocol is also built to carry music, ebooks, and more. On today’s #NewKids Thursday, we’re announcing something sweet for your auditory nerves.
 
 **[Joaquín Pixán](http://www.joaquinpixan.com/)** 
+
 ![Joaquín Pixán](/img/news/joaquin-pixan.png)
 
 The true treat of LBRY is finding brilliant gems from corners of the globe, like master Spanish vocalist Joaquín Pixán.
