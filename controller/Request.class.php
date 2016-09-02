@@ -56,4 +56,9 @@ class Request
   {
     return isset($_SERVER['REQUEST_URI']) ? $_SERVER['REQUEST_URI'] : '';
   }
+
+  public static function isGzipAccepted(): bool
+  {
+    return isset($_SERVER['HTTP_ACCEPT_ENCODING']) && strpos(strtolower($_SERVER['HTTP_ACCEPT_ENCODING']), 'gzip') !== false;
+  }
 }

@@ -18,6 +18,7 @@ class Response
   const HEADER_CONTENT_LENGTH       = 'Content-Length';
   const HEADER_CONTENT_DISPOSITION  = 'Content-Disposition';
   const HEADER_CONTENT_TYPE_OPTIONS = 'X-Content-Type-Options';
+  const HEADER_CONTENT_ENCODING     = 'Content-Encoding';
 
   protected static
     $metaDescription = '',
@@ -35,6 +36,7 @@ class Response
     $content = '',
     $contentSent = false,
     $isHeadersOnly = false,
+    $gzipResponseContent = true,
 //                   $bodyCssClasses = [],
     $metaImages = [];
 
@@ -115,6 +117,26 @@ class Response
     return static::$assets['js'];
   }
 
+  public static function setGzipResponseContent($gzip = true)
+  {
+    static::$gzipResponseContent = $gzip;
+  }
+
+  public static function gzipContentIfNotDisabled()
+  {
+    if (static::$gzipResponseContent)
+    {
+      $content = static::getContent();
+      if (strlen($content) > 256) // not worth it for really short content
+      {
+        $compressed = gzencode($content, 6);
+        static::setContent($compressed);
+        static::setHeader(static::HEADER_CONTENT_LENGTH, strlen($compressed));
+        static::setHeader(static::HEADER_CONTENT_ENCODING, 'gzip');
+      }
+    }
+  }
+
   public static function send()
   {
     static::sendHeaders();
@@ -153,6 +175,7 @@ class Response
 
   public static function setDownloadHttpHeaders($name, $type = null, $size = null, $noSniff = true)
   {
+    static::setGzipResponseContent(false); // in case its already compressed
     static::setHeaders(array_filter([
       'Content-Disposition'    => 'attachment;filename=' . $name,
       'Content-Type'           => $type ? 'application/zip' : null,

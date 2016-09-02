@@ -34,6 +34,10 @@ class Controller
 
       Response::setContent($layout ? View::render('layout/basic', ['content' => $content] + $layoutParams) : $content);
       Response::setDefaultSecurityHeaders();
+      if (Request::isGzipAccepted())
+      {
+        Response::gzipContentIfNotDisabled();
+      }
       Response::send();
     }
     catch (StopException $e)
