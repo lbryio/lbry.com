@@ -10,7 +10,7 @@ class ContentActions extends Actions
 
   public static function executeHome(): array
   {
-    Response::enableHttpCache(180);
+    Response::enableHttpCache();
     return ['page/home', [
       'totalUSD' => CreditApi::getTotalDollarSales(),
       'totalPeople' => CreditApi::getTotalPeople()
@@ -161,7 +161,7 @@ class ContentActions extends Actions
 
     $zip->close();
 
-    Response::enableHttpCache(180);
+    Response::enableHttpCache();
     Response::setDownloadHttpHeaders($zipFileName, 'application/zip', filesize($zipPath));
 
     return ['internal/zip', [

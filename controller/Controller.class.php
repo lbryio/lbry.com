@@ -93,7 +93,7 @@ class Controller
     $newsPattern = '#^' . ContentActions::URL_NEWS . '(/|$)#';
     if (preg_match($newsPattern, $uri))
     {
-      Response::enableHttpCache(180);
+      Response::enableHttpCache();
       $slug = preg_replace($newsPattern, '', $uri);
       if ($slug == ContentActions::RSS_SLUG)
       {
@@ -105,7 +105,7 @@ class Controller
     $faqPattern = '#^' . ContentActions::URL_FAQ . '(/|$)#';
     if (preg_match($faqPattern, $uri))
     {
-      Response::enableHttpCache(180);
+      Response::enableHttpCache();
       $slug = preg_replace($faqPattern, '', $uri);
       return $slug ? ContentActions::executeFaqPost($uri) : ContentActions::executeFaq();
     }
@@ -113,7 +113,7 @@ class Controller
     $bountyPattern = '#^' . BountyActions::URL_BOUNTY_LIST . '(/|$)#';
     if (preg_match($bountyPattern, $uri))
     {
-      Response::enableHttpCache(180);
+      Response::enableHttpCache();
       $slug = preg_replace($bountyPattern, '', $uri);
       return $slug ? BountyActions::executeShow($uri) : BountyActions::executeList($uri);
     }
@@ -128,7 +128,7 @@ class Controller
     $noSlashUri = ltrim($uri, '/');
     if (View::exists('page/' . $noSlashUri))
     {
-      Response::enableHttpCache(180);
+      Response::enableHttpCache();
       return ['page/' . $noSlashUri, []];
     }
     else
