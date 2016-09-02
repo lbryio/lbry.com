@@ -149,7 +149,7 @@ class View
     {
       foreach(glob("$dir/*.$ext") as $file)
       {
-        file_put_contents($file.'.gz', gzcompress(file_get_contents($file)));
+        file_put_contents($file.'.gz', gzencode(file_get_contents($file)));
       }
     }
   }
