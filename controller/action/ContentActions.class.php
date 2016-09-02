@@ -11,10 +11,7 @@ class ContentActions extends Actions
   public static function executeHome(): array
   {
     Response::enableHttpCache();
-    return ['page/home', [
-      'totalUSD' => CreditApi::getTotalDollarSales(),
-      'totalPeople' => CreditApi::getTotalPeople()
-    ]];
+    return ['page/home'];
   }
 
   public static function executeFaq(): array
