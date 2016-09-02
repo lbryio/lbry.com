@@ -3,9 +3,6 @@
 
 include __DIR__.'/bootstrap.php';
 
-View::gzipAssets();
-die;
-
 $options = getopt('f');
 $force = isset($options['f']); // update even if no NEEDS_UPDATE file exists
 
@@ -23,3 +20,4 @@ chdir(ROOT_DIR);
 Shell::exec('git fetch && git reset --hard origin/master');
 
 View::compileCss();
+View::gzipAssets();
