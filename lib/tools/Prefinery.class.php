@@ -37,11 +37,10 @@ class Prefinery
     if ($user)
     {
       unset($user['invitation_code']); // so we dont leak it
-    }
-
-    if ($useApc && $apcEnabled)
-    {
-      apc_store('prefinery-user-'.$emailOrId, $user, 3600);
+      if ($useApc && $apcEnabled)
+      {
+        apc_store('prefinery-user-'.$emailOrId, $user, 3600);
+      }
     }
 
     return $user;
@@ -113,6 +112,11 @@ class Prefinery
     if (!$testerData['id'])
     {
       throw new PrefineryException('Update tester must be called with a tester id');
+    }
+    $apcEnabled = extension_loaded('apc') && ini_get('apc.enabled');
+    if ($apcEnabled)
+    {
+      apc_delete('prefinery-user-'.$testerData['id']);
     }
     return static::put('/testers/' . $testerData['id'], ['tester' => array_diff_key(array_filter($testerData), ['id' => null])], false);
   }
