@@ -21,13 +21,29 @@ class Prefinery
   ];
 
 
-  public static function findUser($emailOrId)
+  public static function findUser($emailOrId, $useApc = true)
   {
+    $apcEnabled = extension_loaded('apc') && ini_get('apc.enabled');
+    if ($useApc && $apcEnabled)
+    {
+      $cached = apc_fetch('prefinery-user-'.$emailOrId, $success);
+      if ($success)
+      {
+        return $cached;
+      }
+    }
+
     $user = is_numeric($emailOrId) ? Prefinery::findTesterById($emailOrId) : Prefinery::findTesterByEmail($emailOrId);
     if ($user)
     {
       unset($user['invitation_code']); // so we dont leak it
     }
+
+    if ($useApc && $apcEnabled)
+    {
+      apc_store('prefinery-user-'.$emailOrId, $user, 3600);
+    }
+
     return $user;
   }
 
