@@ -36,9 +36,10 @@ class Request
 
   public static function getOriginalIp(): string
   {
-    return isset($_SERVER['HTTP_X_FORWARDED_FOR']) ?
-      $_SERVER['HTTP_X_FORWARDED_FOR'] :
-      (isset($_SERVER['REMOTE_ADDR']) ? $_SERVER['REMOTE_ADDR'] : '');
+    return isset($_SERVER['HTTP_X_REAL_IP']) ? $_SERVER['HTTP_X_REAL_IP'] :
+      (isset($_SERVER['HTTP_X_FORWARDED_FOR']) ?
+        trim(explode(',',$_SERVER['HTTP_X_FORWARDED_FOR'])[0]) :
+        (isset($_SERVER['REMOTE_ADDR']) ? $_SERVER['REMOTE_ADDR'] : ''));
   }
   
   public static function getUserAgent(): string
