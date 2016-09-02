@@ -14,6 +14,11 @@ class View
 {
   const LAYOUT_PARAMS = '_layout_params';
 
+  const WEB_DIR = ROOT_DIR.'/web';
+  const SCSS_DIR = self::WEB_DIR.'/scss';
+  const CSS_DIR = self::WEB_DIR.'/css';
+  const JS_DIR = self::WEB_DIR.'/js';
+
   public static function render($template, array $vars = [])
   {
     if (!static::exists($template) || substr_count($template, '/') !== 1)
@@ -121,7 +126,7 @@ class View
   {
     $scssCompiler = new \Leafo\ScssPhp\Compiler();
 
-    $scssCompiler->setImportPaths([ROOT_DIR.'/web/scss']);
+    $scssCompiler->setImportPaths([self::SCSS_DIR]);
 
     $compress = true;
     if ($compress)
@@ -134,8 +139,19 @@ class View
       $scssCompiler->setLineNumberStyle(Leafo\ScssPhp\Compiler::LINE_COMMENTS);
     }
 
-    $css = $scssCompiler->compile(file_get_contents(ROOT_DIR.'/web/scss/all.scss'));
-    file_put_contents(ROOT_DIR.'/web/css/all.css', $css);
+    $css = $scssCompiler->compile(file_get_contents(self::SCSS_DIR.'/all.scss'));
+    file_put_contents(self::CSS_DIR.'/all.css', $css);
+  }
+
+  public static function gzipAssets()
+  {
+    foreach([self::CSS_DIR => 'css', self::JS_DIR => 'js'] as $dir => $ext)
+    {
+      foreach(glob("$dir/*.$ext") as $file)
+      {
+        file_put_contents($file.'.gz', gzcompress(file_get_contents($file)));
+      }
+    }
   }
 
   protected static function interpolateTokens($html)

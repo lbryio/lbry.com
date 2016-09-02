@@ -3,6 +3,9 @@
 
 include __DIR__.'/bootstrap.php';
 
+View::gzipAssets();
+die;
+
 $options = getopt('f');
 $force = isset($options['f']); // update even if no NEEDS_UPDATE file exists
 

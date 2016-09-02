@@ -3,6 +3,7 @@
 /data/config.php
 /data/writeable/*
 /web/css/*
+/web/js/*.gz
 /log
 /web/zohoverify
 nbproject
