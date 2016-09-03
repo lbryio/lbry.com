@@ -24,7 +24,7 @@ class i18n
   {
     if ($culture == null)
     {
-      $culture = Session::get(KEY_USER_CULTURE);
+      $culture = Session::get(Session::KEY_USER_CULTURE);
     }
 
     if ($culture === null)
