@@ -22,11 +22,13 @@ class i18n
 
   public static function register($culture = null) /*needed to trigger class include, presumably setup would happen here*/
   {
+    // Get user preference, if any
     if ($culture == null)
     {
       $culture = Session::get(Session::KEY_USER_CULTURE);
     }
 
+    // Deduce from host
     if ($culture === null)
     {
       $urlTokens = Request::getHost() ? explode('.', Request::getHost()) : [];
