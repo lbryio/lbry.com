@@ -22,3 +22,13 @@
 <div class="control-item no-label-desktop">
   <a href="https://github.com/lbryio"><span class="btn-label">GitHub</span><span class="icon-github icon-fw"></span></a>
 </div>
+<div class="control-item no-label-desktop">
+  <select id="language-dropdown">
+      <option>en_US</option>
+      <option>pt_PT</option>
+  </select>
+</div>
+
+<script type="text/javascript">
+    var _currentLang = '<?php echo i18n::getLanguage()."_".i18n::getCountry() ?>';
+</script>
