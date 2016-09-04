@@ -200,7 +200,7 @@
 
       <p>The downside to LBRY is that it can be used to exchange illegal content. However, several factors of LBRY make illicit usage less likely than it may seem at first consideration. On the whole, as with the car and encryption, the benefits of LBRY clearly outweigh nefarious uses.</p>
 
-      <p>To evaluate a technology’s effect, we must consider where it moves us from the current state of affairs, not judge against a Platonic ideal or past era. In assessing LBRY, we must compare it to a world in which BitTorrent already exists and is quite popular, not the 1950s. LBRY is an improvement over BitTorrent in combatting unsavory content in at least five ways:</p>
+      <p>To evaluate a technology’s effect, we must consider where it moves us from the current state of affairs, not judge against a Platonic ideal or past era. In assessing LBRY, we must compare it to a world in which BitTorrent already exists and is quite popular, not the 1950s. LBRY is an improvement over BitTorrent in combatting unsavory content in at least four ways:</p>
 
       <ol><li><strong>More records. </strong>LBRY contains a public ledger of transactions recording name purchases and content publishings. As many purchases make it onto the ledger as well, this means infringing actions are frequently recorded <em>forever, </em>or are at a minimum widely observable.</li>
 
