@@ -7,7 +7,7 @@ class Slack
   {
     if ($e instanceof Throwable)
     {
-      4e = Debug::exceptionToString($e);
+      $e = Debug::exceptionToString($e);
     }
 
     $slackErrorNotificationUrl = Config::get('slack_error_notification_url');
