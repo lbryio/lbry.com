@@ -204,9 +204,7 @@
 
       <ol><li><strong>More records. </strong>LBRY contains a public ledger of transactions recording name purchases and content publishings. As many purchases make it onto the ledger as well, this means infringing actions are frequently recorded <em>forever, </em>or are at a minimum widely observable.</li>
 
-        <li><strong>Unilateral removal.</strong> The LBRY naming system allows for quick, unilateral acquisition of infringing URIs. Once a BitTorrent magnet hash is in the wild, there is no mechanism to update or alter its resolution whatsoever. If a LBRY name is pointing to infringing content, it can be seized according to clear rules. </li>
-
-        <li><strong>Blacklists</strong>. LBRY will publish and maintain a blacklist of infringing names. All clients we release and all legal clients will have to follow our blacklist, or one like it, or face substantial penalties. Especially because…</li>
+        <li><strong>Updatable URLs.</strong> The LBRY naming system enables legitimate creators to acquire and update infringing URIs. Once a BitTorrent magnet hash is in the wild, there is no mechanism to update or alter its resolution whatsoever. If a LBRY name is pointing to infringing content, it can be claimed and updated according to clear rules. </li>
 
         <li><strong>Stiffer penalties. </strong>Penalties for profiting off of infringement are far stronger and can involve jail time, while infringement without profit only results in statutory damages. This serves as a far stronger deterrent for all infringing uses than BitTorrent provides.</li>
 
