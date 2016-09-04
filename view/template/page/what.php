@@ -71,7 +71,7 @@
       </ol>
 
       <p>From a user's perspective, interaction is extremely similar to those that happen on hundreds of different sites, similar to YouTube, Amazon and Netflix.
-        The key different is that this one happens via a network that is completely decentralized.
+        The key difference is that this one happens via a network that is completely decentralized.
         The data and technology that makes the entire interaction possible is not reliant on nor controlled by any single entity.</p>
     </section>
     <section>
