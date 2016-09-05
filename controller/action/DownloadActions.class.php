@@ -49,7 +49,7 @@ class DownloadActions extends Actions
 
     if (!Session::get(Session::KEY_DOWNLOAD_ALLOWED))
     {
-      return ['download/get', ['os' => static::guessOs()]];
+      return ['download/get'];
     }
 
     $osChoices = static::getOses();
@@ -169,7 +169,7 @@ class DownloadActions extends Actions
   protected static function guessOs()
   {
     //if exact OS is requested, use that
-    $uri = strtok(Request::getRelativeUri(), '?');
+    $uri = Request::getRelativeUri();
     foreach (static::getOses() as $os => $osChoice)
     {
       if ($osChoice[0] == $uri)

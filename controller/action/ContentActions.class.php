@@ -2,11 +2,16 @@
 
 class ContentActions extends Actions
 {
-  const RSS_SLUG = 'rss.xml',
-        URL_NEWS = '/news',
-        URL_FAQ = '/faq',
-        VIEW_FOLDER_NEWS = ROOT_DIR . '/posts/news',
-        VIEW_FOLDER_FAQ = ROOT_DIR . '/posts/faq';
+  const
+    SLUG_RSS = 'rss.xml',
+    SLUG_NEWS = 'news',
+    SLUG_FAQ = 'faq',
+
+    URL_NEWS = '/' . self::SLUG_NEWS,
+    URL_FAQ = '/' . self::SLUG_FAQ,
+
+    VIEW_FOLDER_NEWS = ROOT_DIR . '/posts/' . self::SLUG_NEWS,
+    VIEW_FOLDER_FAQ = ROOT_DIR . '/posts/' . self::SLUG_FAQ;
 
   public static function executeHome(): array
   {
@@ -14,104 +19,107 @@ class ContentActions extends Actions
     return ['page/home'];
   }
 
-  public static function executeFaq(): array
+  public static function executeNews(string $slug = null): array
   {
-    $allPosts = Post::find(static::VIEW_FOLDER_FAQ);
+    Response::enableHttpCache();
 
-    $allCategories = array_merge(['' => ''] + Post::collectMetadata($allPosts, 'category'), [
-      'getstarted' => 'Getting Started',
-      'install'    => 'Installing LBRY',
-      'running'    => 'Running LBRY',
-      'wallet'     => 'The LBRY Wallet',
-      'hosting'    => 'Hosting Content',
-      'mining'     => 'Mining LBC',
-      'policy'     => 'Policies',
-      'developer'  => 'Developers',
-      'other'      => 'Other Questions',
-    ]);
-    $selectedCategory = static::param('category');
-    $filters = array_filter([
-      'category' => $selectedCategory && isset($allCategories[$selectedCategory]) ? $selectedCategory : null,
-    ]);
-
-    asort($allCategories);
-
-    $posts = $filters ? Post::filter($allPosts, $filters) : $allPosts ;
-
-
-    $groups = array_fill_keys(array_keys($allCategories), []);
-
-    foreach($posts as $post)
+    if (!$slug)
     {
-      $groups[$post->getCategory()][] = $post;
+      $posts = Post::find(static::VIEW_FOLDER_NEWS, Post::SORT_DATE_DESC);
+      return ['content/news', [
+        'posts'             => $posts,
+        View::LAYOUT_PARAMS => [
+          'showRssLink' => true
+        ]
+      ]];
     }
 
-    return ['content/faq', [
-      'categories' => $allCategories,
-      'selectedCategory' => $selectedCategory,
-      'postGroups' => $groups
-    ]];
-  }
+    if ($slug == static::SLUG_RSS)
+    {
+      $posts = Post::find(static::VIEW_FOLDER_NEWS, Post::SORT_DATE_DESC);
+      Response::setHeader(Response::HEADER_CONTENT_TYPE, 'text/xml; charset=utf-8');
+      return ['content/rss', [
+        'posts'      => array_slice($posts, 0, 10),
+        '_no_layout' => true
+      ]];
+    }
 
-  public static function executeNews(): array
-  {
-    $posts = Post::find(static::VIEW_FOLDER_NEWS, Post::SORT_DATE_DESC);
-    return ['content/news', [
-      'posts' => $posts,
-      View::LAYOUT_PARAMS => [
-        'showRssLink' => true
-      ]
-    ]];
-  }
-
-
-  public static function executeRss(): array
-  {
-    $posts = Post::find(static::VIEW_FOLDER_NEWS, Post::SORT_DATE_DESC);
-    Response::setHeader(Response::HEADER_CONTENT_TYPE, 'text/xml; charset=utf-8');
-    return ['content/rss', [
-      'posts' => array_slice($posts, 0, 10),
-      '_no_layout' => true
-    ]];
-  }
-
-  public static function executeNewsPost($relativeUri): array
-  {
     try
     {
-      $post = Post::load(ltrim($relativeUri, '/'));
+      $post = Post::load(static::SLUG_NEWS . '/' . ltrim($slug, '/'));
     }
     catch (PostNotFoundException $e)
     {
-      return ['page/404', []];
+      return NavActions::execute404();
     }
+
     return ['content/news-post', [
-      'post' => $post,
+      'post'              => $post,
       View::LAYOUT_PARAMS => [
         'showRssLink' => true
       ]
     ]];
   }
 
-  public static function executeFaqPost($relativeUri): array
+
+  public static function executeFaq(string $slug = null): array
   {
+    Response::enableHttpCache();
+
+    if (!$slug)
+    {
+      $allPosts = Post::find(static::VIEW_FOLDER_FAQ);
+
+      $allCategories    = array_merge(['' => ''] + Post::collectMetadata($allPosts, 'category'), [
+        'getstarted' => 'Getting Started',
+        'install'    => 'Installing LBRY',
+        'running'    => 'Running LBRY',
+        'wallet'     => 'The LBRY Wallet',
+        'hosting'    => 'Hosting Content',
+        'mining'     => 'Mining LBC',
+        'policy'     => 'Policies',
+        'developer'  => 'Developers',
+        'other'      => 'Other Questions',
+      ]);
+      $selectedCategory = static::param('category');
+      $filters          = array_filter([
+        'category' => $selectedCategory && isset($allCategories[$selectedCategory]) ? $selectedCategory : null,
+      ]);
+
+      asort($allCategories);
+
+      $posts = $filters ? Post::filter($allPosts, $filters) : $allPosts;
+
+
+      $groups = array_fill_keys(array_keys($allCategories), []);
+
+      foreach ($posts as $post)
+      {
+        $groups[$post->getCategory()][] = $post;
+      }
+
+      return ['content/faq', [
+        'categories'       => $allCategories,
+        'selectedCategory' => $selectedCategory,
+        'postGroups'       => $groups
+      ]];
+    }
+
     try
     {
-      $post = Post::load(ltrim($relativeUri, '/'));
+      $post = Post::load(static::SLUG_FAQ . '/' . ltrim($slug, '/'));
     }
     catch (PostNotFoundException $e)
     {
-      return ['page/404', []];
+      return NavActions::execute404();
     }
-    return ['content/faq-post', [
-      'post' => $post,
-    ]];
+    return ['content/faq-post', ['post' => $post,]];
   }
 
   public static function executePressKit(): array
   {
     $zipFileName = 'lbry-press-kit-' . date('Y-m-d') . '.zip';
-    $zipPath = tempnam('/tmp', $zipFileName);
+    $zipPath     = tempnam('/tmp', $zipFileName);
 
     $zip = new ZipArchive();
     $zip->open($zipPath, ZipArchive::OVERWRITE);
@@ -133,25 +141,26 @@ class ContentActions extends Actions
 //
 //    $zip->addFromString('press.html', $html);
 
-    foreach(glob(ROOT_DIR . '/web/img/press/*') as $productImgPath)
+    foreach (glob(ROOT_DIR . '/web/img/press/*') as $productImgPath)
     {
       $imgPathTokens = explode('/', $productImgPath);
-      $imgName = $imgPathTokens[count($imgPathTokens) - 1];
+      $imgName       = $imgPathTokens[count($imgPathTokens) - 1];
       $zip->addFile($productImgPath, '/logo_and_product/' . $imgName);
     }
 
-    foreach(glob(ROOT_DIR . '/posts/bio/*.md') as $bioPath)
+    foreach (glob(ROOT_DIR . '/posts/bio/*.md') as $bioPath)
     {
       list($metadata, $bioHtml) = View::parseMarkdown($bioPath);
       $zip->addFile($bioPath, '/team_bios/' . $metadata['name'] . ' - ' . $metadata['role'] . '.txt');
     }
 
-    foreach(array_filter(glob(ROOT_DIR . '/web/img/team/*.jpg'), function($path) {
+    foreach (array_filter(glob(ROOT_DIR . '/web/img/team/*.jpg'), function ($path)
+    {
       return strpos($path, 'spooner') === false;
     }) as $bioImgPath)
     {
       $imgPathTokens = explode('/', $bioImgPath);
-      $imgName = str_replace('644x450', 'lbry', $imgPathTokens[count($imgPathTokens) - 1]);
+      $imgName       = str_replace('644x450', 'lbry', $imgPathTokens[count($imgPathTokens) - 1]);
       $zip->addFile($bioImgPath, '/team_photos/' . $imgName);
     }
 
@@ -163,20 +172,20 @@ class ContentActions extends Actions
 
     return ['internal/zip', [
       '_no_layout' => true,
-      'zipPath' => $zipPath
+      'zipPath'    => $zipPath
     ]];
   }
 
   public static function prepareBioPartial(array $vars): array
   {
     $person = $vars['person'];
-    $path = 'bio/' . $person . '.md';
+    $path   = 'bio/' . $person . '.md';
     list($metadata, $bioHtml) = View::parseMarkdown($path);
     $relativeImgSrc = '/img/team/' . $person . '-644x450.jpg';
-    $imgSrc = file_exists(ROOT_DIR . '/web' . $relativeImgSrc) ? $relativeImgSrc : '/img/team/spooner-644x450.jpg';
+    $imgSrc         = file_exists(ROOT_DIR . '/web' . $relativeImgSrc) ? $relativeImgSrc : '/img/team/spooner-644x450.jpg';
     return $vars + $metadata + [
-      'imgSrc' => $imgSrc,
-      'bioHtml' => $bioHtml,
+      'imgSrc'      => $imgSrc,
+      'bioHtml'     => $bioHtml,
       'orientation' => 'vertical'
     ];
   }
@@ -185,8 +194,8 @@ class ContentActions extends Actions
   {
     $post = $vars['post'];
     return [
-      'authorName' => $post->getAuthorName(),
-      'photoImgSrc' => $post->getAuthorPhoto(),
+      'authorName'    => $post->getAuthorName(),
+      'photoImgSrc'   => $post->getAuthorPhoto(),
       'authorBioHtml' => $post->getAuthorBioHtml()
     ];
   }

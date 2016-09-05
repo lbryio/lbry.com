@@ -54,7 +54,7 @@ class Request
 
   public static function getRelativeUri(): string
   {
-    return $_SERVER['REQUEST_URI'] ?? '';
+    return isset($_SERVER['REQUEST_URI']) ? parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) : '';
   }
 
   public static function isGzipAccepted(): bool

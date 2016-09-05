@@ -1,10 +1,5 @@
 <?php
 
-/**
- * Description of NavActions
- *
- * @author jeremy
- */
 class NavActions extends Actions
 {
   protected static $navUri;
@@ -38,5 +33,11 @@ class NavActions extends Actions
     return $vars + [
       'isDark' => true
     ];
+  }
+  
+  public static function execute404()
+  {
+    Response::setStatus(404);
+    return ['page/404'];
   }
 }

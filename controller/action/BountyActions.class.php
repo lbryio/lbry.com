@@ -2,10 +2,29 @@
 
 class BountyActions extends Actions
 {
-  const URL_BOUNTY_LIST = '/bounty';
+  const
+    SLUG_BOUNTY = 'bounty',
+    URL_BOUNTY = '/' . self::SLUG_BOUNTY,
+    VIEW_FOLDER_FAQ = ROOT_DIR . '/posts/' . self::SLUG_BOUNTY;
 
-  public static function executeList()
+  public static function executeList(string $slug = null): array
   {
+    Response::enableHttpCache();
+
+    if ($slug)
+    {
+      list($metadata, $postHtml) = View::parseMarkdown(static::VIEW_FOLDER_FAQ . '/' . $slug . '.md');
+      if (!$postHtml)
+      {
+        return NavActions::execute404();
+      }
+
+      return ['bounty/show', [
+        'postHtml' => $postHtml,
+        'metadata' => $metadata
+      ]];
+    }
+
     $allBounties = Post::find(ROOT_DIR . '/posts/bounty');
 
     $allCategories = ['' => ''] + Post::collectMetadata($allBounties, 'category');
@@ -39,19 +58,6 @@ class BountyActions extends Actions
       'statuses' => $allStatuses,
       'selectedCategory' => $selectedCategory,
       'selectedStatus' => $selectedStatus
-    ]];
-  }
-
-  public static function executeShow($relativeUri)
-  {
-    list($metadata, $postHtml) = View::parseMarkdown(ROOT_DIR . '/posts/' . $relativeUri . '.md');
-    if (!$postHtml)
-    {
-      return ['page/404', []];
-    }
-    return ['bounty/show', [
-      'postHtml' => $postHtml,
-      'metadata' => $metadata
     ]];
   }
 }

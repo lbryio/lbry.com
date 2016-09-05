@@ -6,8 +6,8 @@ class Controller
   {
     try
     {
-      $viewAndParams = static::execute($uri);
-      $viewTemplate = $viewAndParams[0];
+      $viewAndParams  = static::execute(Request::getMethod(), $uri);
+      $viewTemplate   = $viewAndParams[0];
       $viewParameters = $viewAndParams[1] ?? [];
       if (!IS_PRODUCTION && isset($viewAndParams[2]))
       {
@@ -46,96 +46,86 @@ class Controller
     }
   }
 
-  public static function execute($uri)
+  public static function execute($method, $uri)
   {
-    switch($uri)
+    $router = static::getRouterWithRoutes();
+    try
     {
-      case '/':
-        return ContentActions::executeHome();
-      case '/get':
-      case '/windows':
-      case '/ios':
-      case '/android':
-      case '/linux':
-      case '/osx':
-        return DownloadActions::executeGet();
-      case '/postcommit':
-        return OpsActions::executePostCommit();
-      case '/log-upload':
-        return OpsActions::executeLogUpload();
-      case '/list-subscribe':
-        return MailActions::executeListSubscribe();
-      case '/press-kit.zip':
-        return ContentActions::executePressKit();
-      case '/LBRY-deck.pdf':
-      case '/deck.pdf':
-        return static::redirect('https://www.dropbox.com/s/0xj4vgucsbi8rtv/lbry-deck.pdf?dl=1');
-      case '/pln.pdf':
-      case '/plan.pdf':
-        return static::redirect('https://www.dropbox.com/s/uevjrwnyr672clj/lbry-pln.pdf?dl=1');
-      case '/lbry-osx-latest.dmg':
-      case '/lbry-linux-latest.deb':
-      case '/dl/lbry_setup.sh':
-        return static::redirect('/get', 301);
-      case '/get/lbry.dmg':
-        return static::redirect(DownloadActions::getDownloadUrl(DownloadActions::OS_OSX) ?: '/get');
-      case '/get/lbry.deb':
-        return static::redirect(DownloadActions::getDownloadUrl(DownloadActions::OS_LINUX) ?: '/get');
-      case '/art':
-        return static::redirect('/what', 301);
-      case '/why':
-      case '/feedback':
-        return static::redirect('/learn', 301);
-      case '/faq/when-referral-payouts':
-        return static::redirect('/faq/referrals', 301);
+      $dispatcher = new Routing\Dispatcher($router->getData());
+      return $dispatcher->dispatch($method, $uri);
     }
-
-    $newsPattern = '#^' . ContentActions::URL_NEWS . '(/|$)#';
-    if (preg_match($newsPattern, $uri))
+    catch (\Routing\HttpRouteNotFoundException $e)
     {
-      Response::enableHttpCache();
-      $slug = preg_replace($newsPattern, '', $uri);
-      if ($slug == ContentActions::RSS_SLUG)
+      return NavActions::execute404();
+    }
+  }
+
+  protected static function getRouterWithRoutes(): \Routing\RouteCollector
+  {
+    $router = new Routing\RouteCollector();
+
+    $router->get(['/', 'home'], 'ContentActions::executeHome');
+
+    $router->get(['/get', 'get'], 'DownloadActions::executeGet');
+    $router->get(['/windows', 'get-windows'], 'DownloadActions::executeGet');
+    $router->get(['/linux', 'get-linux'], 'DownloadActions::executeGet');
+    $router->get(['/osx', 'get-osx'], 'DownloadActions::executeGet');
+    $router->get(['/android', 'get-android'], 'DownloadActions::executeGet');
+    $router->get(['/ios', 'get-ios'], 'DownloadActions::executeGet');
+
+    $router->get(['/press-kit.zip', 'press-kit'], 'ContentActions::executePressKit');
+
+    $router->post('/postcommit', 'OpsActions::executePostCommit');
+    $router->post('/log-upload', 'OpsActions::executeLogUpload');
+    $router->post(['/list-subscribe', 'list-subscribe'], 'MailActions::executeListSubscribe');
+
+    $permanentRedirects = [
+      '/lbry-osx-latest.dmg'       => '/get',
+      '/lbry-linux-latest.deb'     => '/get',
+      '/dl/lbry_setup.sh'          => '/get',
+      '/art'                       => '/what',
+      '/why'                       => '/learn',
+      '/feedback'                  => '/learn',
+      '/faq/when-referral-payouts' => '/faq/referrals',
+    ];
+
+    $tempRedirects = [
+      '/LBRY-deck.pdf' => 'https://www.dropbox.com/s/0xj4vgucsbi8rtv/lbry-deck.pdf?dl=1',
+      '/deck.pdf'      => 'https://www.dropbox.com/s/0xj4vgucsbi8rtv/lbry-deck.pdf?dl=1',
+      '/pln.pdf'       => 'https://www.dropbox.com/s/uevjrwnyr672clj/lbry-pln.pdf?dl=1',
+      '/plan.pdf'      => 'https://www.dropbox.com/s/uevjrwnyr672clj/lbry-pln.pdf?dl=1',
+      '/get/lbry.dmg'  => DownloadActions::getDownloadUrl(DownloadActions::OS_OSX) ?: '/get',
+      '/get/lbry.deb'  => DownloadActions::getDownloadUrl(DownloadActions::OS_LINUX) ?: '/get',
+    ];
+
+    foreach ([302 => $tempRedirects, 301 => $permanentRedirects] as $code => $redirects)
+    {
+      foreach ($redirects as $src => $target)
       {
-        return ContentActions::executeRss();
+        $router->any($src, function () use ($target, $code) { return static::redirect($target, $code); });
       }
-      return $slug ? ContentActions::executeNewsPost($uri) : ContentActions::executeNews();
     }
 
-    $faqPattern = '#^' . ContentActions::URL_FAQ . '(/|$)#';
-    if (preg_match($faqPattern, $uri))
-    {
-      Response::enableHttpCache();
-      $slug = preg_replace($faqPattern, '', $uri);
-      return $slug ? ContentActions::executeFaqPost($uri) : ContentActions::executeFaq();
-    }
+    $router->get([ContentActions::URL_NEWS . '/{slug:c}?', 'news'], 'ContentActions::executeNews');
+    $router->get([ContentActions::URL_FAQ . '/{slug:c}?', 'faq'], 'ContentActions::executeFaq');
+    $router->get([BountyActions::URL_BOUNTY . '/{slug:c}?', 'bounty'], 'BountyActions::executeShow');
 
-    $bountyPattern = '#^' . BountyActions::URL_BOUNTY_LIST . '(/|$)#';
-    if (preg_match($bountyPattern, $uri))
-    {
-      Response::enableHttpCache();
-      $slug = preg_replace($bountyPattern, '', $uri);
-      return $slug ? BountyActions::executeShow($uri) : BountyActions::executeList($uri);
-    }
+    $router->any(['/signup{whatever}?', 'signup'], 'DownloadActions::executeSignup');
 
-    $accessPattern = '#^/signup#';
-    if (preg_match($accessPattern, $uri))
+    $router->get('/{slug}', function (string $slug)
     {
-      return DownloadActions::executeSignup();
-    }
+      if (View::exists('page/' . $slug))
+      {
+        Response::enableHttpCache();
+        return ['page/' . $slug, []];
+      }
+      else
+      {
+        return NavActions::execute404();
+      }
+    });
 
-
-    $noSlashUri = ltrim($uri, '/');
-    if (View::exists('page/' . $noSlashUri))
-    {
-      Response::enableHttpCache();
-      return ['page/' . $noSlashUri, []];
-    }
-    else
-    {
-      Response::setStatus(404);
-      return ['page/404', []];
-    }
+    return $router;
   }
 
   public static function redirect($url, $statusCode = 302)
