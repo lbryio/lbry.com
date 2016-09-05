@@ -28,6 +28,6 @@ class i18nActions extends Actions
             Session::unsetKey(Session::KEY_USER_CULTURE);
         }
 
-        return [null, null];
+        return Controller::redirect('/');
     }
 }
