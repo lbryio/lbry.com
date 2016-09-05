@@ -23,8 +23,11 @@ class NavActions extends Actions
 
   public static function prepareGlobalItemsPartial(array $vars)
   {
-    $vars += ['selectedItem' => static::getNavUri()];
-    return $vars;
+    return $vars += [
+      'selectedItem' => static::getNavUri(),
+      'selectedCulture' => i18n::getLanguage() . '_' . i18n::getCountry(),
+      'cultures' => i18n::getAllCultures()
+    ];
   }
 
   public static function execute400(array $vars)

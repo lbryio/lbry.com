@@ -163,9 +163,7 @@ $(document).ready(function() {
     });
   }
 
-  var langDropdown = $('#language-dropdown');
-  langDropdown.val(_currentLang);
-  langDropdown.on('change', function(x) {
-      $('#language-form').submit();
+  $('#language-dropdown').on('change', function() {
+    $(this).closest('form').submit();
   });
 });

@@ -28,6 +28,9 @@ class i18nActions extends Actions
             Session::unsetKey(Session::KEY_USER_CULTURE);
         }
 
-        return Controller::redirect('/');
+        //if session changes update domain
+        //english language = www
+
+        return Controller::redirect($_SERVER['HTTP_REFERER'] ?: '/');
     }
 }

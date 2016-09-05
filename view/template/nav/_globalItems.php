@@ -23,18 +23,11 @@
   <a href="https://github.com/lbryio"><span class="btn-label">GitHub</span><span class="icon-github icon-fw"></span></a>
 </div>
 <div class="control-item no-label-desktop">
-  <form id="language-form" action="/set-culture" method="POST">
-      <select id="language-dropdown" name="culture">
-          <?php
-          foreach (i18n::getAllCultures() as $culture)
-          {
-              echo "<option>$culture</option>";
-          }
-          ?>
-      </select>
+  <form action="/set-culture" method="POST">
+    <select id="language-dropdown" name="culture">
+      <?php foreach ($cultures as $culture): ?>
+        <option <?php echo $culture == $selectedCulture ? 'selected="selected"' : '' ?>><?php echo $culture ?></option>
+      <?php endforeach ?>
+    </select>
   </form>
 </div>
-
-<script type="text/javascript">
-    var _currentLang = '<?php echo i18n::getLanguage()."_".i18n::getCountry() ?>';
-</script>
