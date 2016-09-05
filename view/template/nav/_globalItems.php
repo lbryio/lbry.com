@@ -25,8 +25,12 @@
 <div class="control-item no-label-desktop">
   <form id="language-form" action="/set-culture" method="POST">
       <select id="language-dropdown" name="culture">
-          <option>en_US</option>
-          <option>pt_PT</option>
+          <?php
+          foreach (i18n::getAllCultures() as $culture)
+          {
+              echo "<option>$culture</option>";
+          }
+          ?>
       </select>
   </form>
 </div>
