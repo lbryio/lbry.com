@@ -71,7 +71,7 @@
       </ol>
 
       <p>From a user's perspective, interaction is extremely similar to those that happen on hundreds of different sites, similar to YouTube, Amazon and Netflix.
-        The key different is that this one happens via a network that is completely decentralized.
+        The key difference is that this one happens via a network that is completely decentralized.
         The data and technology that makes the entire interaction possible is not reliant on nor controlled by any single entity.</p>
     </section>
     <section>
@@ -200,13 +200,11 @@
 
       <p>The downside to LBRY is that it can be used to exchange illegal content. However, several factors of LBRY make illicit usage less likely than it may seem at first consideration. On the whole, as with the car and encryption, the benefits of LBRY clearly outweigh nefarious uses.</p>
 
-      <p>To evaluate a technology’s effect, we must consider where it moves us from the current state of affairs, not judge against a Platonic ideal or past era. In assessing LBRY, we must compare it to a world in which BitTorrent already exists and is quite popular, not the 1950s. LBRY is an improvement over BitTorrent in combatting unsavory content in at least five ways:</p>
+      <p>To evaluate a technology’s effect, we must consider where it moves us from the current state of affairs, not judge against a Platonic ideal or past era. In assessing LBRY, we must compare it to a world in which BitTorrent already exists and is quite popular, not the 1950s. LBRY is an improvement over BitTorrent in combatting unsavory content in at least four ways:</p>
 
       <ol><li><strong>More records. </strong>LBRY contains a public ledger of transactions recording name purchases and content publishings. As many purchases make it onto the ledger as well, this means infringing actions are frequently recorded <em>forever, </em>or are at a minimum widely observable.</li>
 
-        <li><strong>Unilateral removal.</strong> The LBRY naming system allows for quick, unilateral acquisition of infringing URIs. Once a BitTorrent magnet hash is in the wild, there is no mechanism to update or alter its resolution whatsoever. If a LBRY name is pointing to infringing content, it can be seized according to clear rules. </li>
-
-        <li><strong>Blacklists</strong>. LBRY will publish and maintain a blacklist of infringing names. All clients we release and all legal clients will have to follow our blacklist, or one like it, or face substantial penalties. Especially because…</li>
+        <li><strong>Updatable URLs.</strong> The LBRY naming system enables legitimate creators to acquire and update infringing URIs. Once a BitTorrent magnet hash is in the wild, there is no mechanism to update or alter its resolution whatsoever. If a LBRY name is pointing to infringing content, it can be claimed and updated according to clear rules. </li>
 
         <li><strong>Stiffer penalties. </strong>Penalties for profiting off of infringement are far stronger and can involve jail time, while infringement without profit only results in statutory damages. This serves as a far stronger deterrent for all infringing uses than BitTorrent provides.</li>
 
