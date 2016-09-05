@@ -39,7 +39,7 @@ class NavActions extends Actions
   {
     $uri = Request::getRelativeUri();
     Controller::queueToRunAfterResponse(function() use($uri) {
-      Slack::sendErrorIfProd('404 for url ' . $uri);
+      Slack::sendErrorIfProd('404 for url ' . $uri, false);
     });
     Response::setStatus(404);
     return ['page/404'];
