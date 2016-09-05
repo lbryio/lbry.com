@@ -10,10 +10,10 @@ class i18nActions extends Actions
 {
     public static function setCulture()
     {
-        $culture = isset($_POST['culture']) ? $_POST['culture'] : null;
+        $culture = $_POST['culture'] ?? null;
 
         // Validate
-        if ($culture && !($culture == 'en_US' || $culture == 'pt_PT'))
+        if ($culture && !in_array($culture, i18n::getAllCultures()))
         {
             $culture = null;
         }

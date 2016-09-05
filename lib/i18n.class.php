@@ -18,7 +18,8 @@ class i18n
   protected static
     $language = null,
     $translations = [],
-    $country = null;
+    $country = null,
+    $cultures = ['pt_PT', 'en_US'];
 
   public static function register($culture = null) /*needed to trigger class include, presumably setup would happen here*/
   {
@@ -59,6 +60,11 @@ class i18n
   public static function getCountry()
   {
     return static::$country;
+  }
+
+  public static function getAllCultures()
+  {
+      return static::$cultures;
   }
 
   public static function formatCurrency($amount, $currency = 'USD')
