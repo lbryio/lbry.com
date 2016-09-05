@@ -21,14 +21,14 @@ class View
 
   public static function render($template, array $vars = [])
   {
-    if (!static::exists($template) || substr_count($template, '/') !== 1)
-    {
-      throw new InvalidArgumentException(sprintf('The template "%s" does not exist or is unreadable.', $template));
-    }
-
     if (static::isMarkdown($template))
     {
       return static::markdownToHtml(static::getFullPath($template));
+    }
+
+    if (!static::exists($template) || substr_count($template, '/') !== 1)
+    {
+      throw new InvalidArgumentException(sprintf('The template "%s" does not exist or is unreadable.', $template));
     }
 
     list($module, $view) = explode('/', $template);
