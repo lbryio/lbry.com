@@ -1,4 +1,4 @@
-<div class="bg-image-full" style="background-image: url(/img/cover-home2.jpg)"></div>
+<div class="bg-image-full" style="background-image: url(https://s3.amazonaws.com/files.lbry.io/cover-home2.jpg)"></div>
 <?php Response::setMetaTitle(__('title.home')) ?>
 <?php Response::setMetaDescription(__('description.home')) ?>
 <?php echo View::render('nav/_header', ['isDark' => true]) ?>
@@ -11,27 +11,6 @@
           <h2 class="cover-subtitle" style="max-width: 600px; margin-left: auto; margin-right: auto">{{global.sentence}}</h2>
         </div>
 
-        <?php /*
-        <?php $labels = [
-          __('making history'),
-          __('empowering artists'),
-          __('spreading knowledge'),
-          __('sharing sustainably'),
-          __('protecting speech'),
-          __('building tomorrow'),
-          __('eliminating middlemen'),
-          __('furthering education'),
-        ] ?>
-        <?php shuffle($labels) ?>
-        <div class="sale-call ">
-          <span class="sale-call-verb"><?php echo __('Join') ?></span>
-          <span class="sale-call-total-people"><?php echo  number_format($totalPeople) ?></span>
-          <span class="sale-call-prep">others in</span>
-          <span class="sale-ctas label-cycle"  data-cycle-interval="5000">
-            <span class="sale-cta"><?php echo implode('</span><span class="sale-cta">', $labels) ?></span>
-          </span>
-        </div>
- */ ?>
         <div class="control-group spacer2 text-center">
           <div class="control-item">
             <a href="/get" class="btn-primary">{{global.get}}</a>

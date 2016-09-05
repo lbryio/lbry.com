@@ -41,10 +41,13 @@
         <?php echo View::render('content/_bio', ['person' => 'alex-tabarrok']) ?>
       </div>
       <div class="span6 spacer2">
-        <?php echo View::render('content/_bio', ['person' => 'stephan-kinsella']) ?>
+        <?php echo View::render('content/_bio', ['person' => 'ray-carballada']) ?>
       </div>
     </div>
     <div class="row-fluid">
+      <div class="span6">
+        <?php echo View::render('content/_bio', ['person' => 'stephan-kinsella']) ?>
+      </div>
       <div class="span6">
         <?php echo View::render('content/_bio', ['person' => 'michael-huemer']) ?>
       </div>

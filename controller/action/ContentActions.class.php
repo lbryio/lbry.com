@@ -1,10 +1,5 @@
 <?php
 
-/**
- * Description of ContentActions
- *
- * @author jeremy
- */
 class ContentActions extends Actions
 {
   const RSS_SLUG = 'rss.xml',
@@ -13,19 +8,17 @@ class ContentActions extends Actions
         VIEW_FOLDER_NEWS = ROOT_DIR . '/posts/news',
         VIEW_FOLDER_FAQ = ROOT_DIR . '/posts/faq';
 
-  public static function executeHome()
+  public static function executeHome(): array
   {
-    return ['page/home', [
-      'totalUSD' => CreditApi::getTotalDollarSales(),
-      'totalPeople' => CreditApi::getTotalPeople()
-    ]];
+    Response::enableHttpCache();
+    return ['page/home'];
   }
 
-  public static function executeFaq()
+  public static function executeFaq(): array
   {
-    $posts = Post::find(static::VIEW_FOLDER_FAQ);
+    $allPosts = Post::find(static::VIEW_FOLDER_FAQ);
 
-    $groupNames = [
+    $allCategories = array_merge(['' => ''] + Post::collectMetadata($allPosts, 'category'), [
       'getstarted' => 'Getting Started',
       'install'    => 'Installing LBRY',
       'running'    => 'Running LBRY',
@@ -35,22 +28,32 @@ class ContentActions extends Actions
       'policy'     => 'Policies',
       'developer'  => 'Developers',
       'other'      => 'Other Questions',
-    ];
+    ]);
+    $selectedCategory = static::param('category');
+    $filters = array_filter([
+      'category' => $selectedCategory && isset($allCategories[$selectedCategory]) ? $selectedCategory : null,
+    ]);
 
-    $groups = array_fill_keys(array_keys($groupNames), []);
+    asort($allCategories);
+
+    $posts = $filters ? Post::filter($allPosts, $filters) : $allPosts ;
+
+
+    $groups = array_fill_keys(array_keys($allCategories), []);
 
     foreach($posts as $post)
     {
-      $groups[isset($groupNames[$post->getCategory()]) ? $post->getCategory() : 'other'][] = $post;
+      $groups[$post->getCategory()][] = $post;
     }
 
     return ['content/faq', [
-      'groupNames' => $groupNames,
+      'categories' => $allCategories,
+      'selectedCategory' => $selectedCategory,
       'postGroups' => $groups
     ]];
   }
 
-  public static function executeNews()
+  public static function executeNews(): array
   {
     $posts = Post::find(static::VIEW_FOLDER_NEWS, Post::SORT_DATE_DESC);
     return ['content/news', [
@@ -62,21 +65,23 @@ class ContentActions extends Actions
   }
 
 
-  public static function executeRss()
+  public static function executeRss(): array
   {
     $posts = Post::find(static::VIEW_FOLDER_NEWS, Post::SORT_DATE_DESC);
+    Response::setHeader(Response::HEADER_CONTENT_TYPE, 'text/xml; charset=utf-8');
     return ['content/rss', [
       'posts' => array_slice($posts, 0, 10),
       '_no_layout' => true
-    ], [
-      'Content-Type' => 'text/xml; charset=utf-8'
     ]];
   }
 
-  public static function executeNewsPost($relativeUri)
+  public static function executeNewsPost($relativeUri): array
   {
-    $post = Post::load(ltrim($relativeUri, '/'));
-    if (!$post)
+    try
+    {
+      $post = Post::load(ltrim($relativeUri, '/'));
+    }
+    catch (PostNotFoundException $e)
     {
       return ['page/404', []];
     }
@@ -88,10 +93,13 @@ class ContentActions extends Actions
     ]];
   }
 
-  public static function executeFaqPost($relativeUri)
+  public static function executeFaqPost($relativeUri): array
   {
-    $post = Post::load(ltrim($relativeUri, '/'));
-    if (!$post)
+    try
+    {
+      $post = Post::load(ltrim($relativeUri, '/'));
+    }
+    catch (PostNotFoundException $e)
     {
       return ['page/404', []];
     }
@@ -100,7 +108,7 @@ class ContentActions extends Actions
     ]];
   }
 
-  public static function executePressKit()
+  public static function executePressKit(): array
   {
     $zipFileName = 'lbry-press-kit-' . date('Y-m-d') . '.zip';
     $zipPath = tempnam('/tmp', $zipFileName);
@@ -150,18 +158,16 @@ class ContentActions extends Actions
 
     $zip->close();
 
+    Response::enableHttpCache();
+    Response::setDownloadHttpHeaders($zipFileName, 'application/zip', filesize($zipPath));
+
     return ['internal/zip', [
       '_no_layout' => true,
       'zipPath' => $zipPath
-    ], [
-      'Content-Disposition' => 'attachment;filename=' . $zipFileName,
-      'X-Content-Type-Options' => 'nosniff',
-      'Content-Type' => 'application/zip',
-      'Content-Length' => filesize($zipPath),
     ]];
   }
 
-  public static function prepareBioPartial(array $vars)
+  public static function prepareBioPartial(array $vars): array
   {
     $person = $vars['person'];
     $path = 'bio/' . $person . '.md';
@@ -175,13 +181,21 @@ class ContentActions extends Actions
     ];
   }
 
-  public static function preparePostAuthorPartial(array $vars)
+  public static function preparePostAuthorPartial(array $vars): array
   {
     $post = $vars['post'];
     return [
       'authorName' => $post->getAuthorName(),
       'photoImgSrc' => $post->getAuthorPhoto(),
       'authorBioHtml' => $post->getAuthorBioHtml()
+    ];
+  }
+
+  public static function preparePostListPartial(array $vars): array
+  {
+    $count = isset($vars['count']) ? $vars['count'] : 3;
+    return [
+      'posts' => array_slice(Post::find(static::VIEW_FOLDER_NEWS, Post::SORT_DATE_DESC), 0, $count)
     ];
   }
 }

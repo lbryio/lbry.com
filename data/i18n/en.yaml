@@ -8,6 +8,12 @@
 #
 #
 
+bounty:
+  list:
+    noresults: No matching bounties found.
+  show:
+    completed_notice: This bounty has already been completed and can no longer be claimed.
+    pull_request_link: View the Pull Request
 description:
   allowed: Download/install the latest version of LBRY for %os%.
   faq: Frequently asked questions about LBRY.
@@ -67,6 +73,7 @@ learn:
   art: Art in the Internet Age
   essay: Read the Essay
   exchange: Bittrex Exchange
+  exchange2: Poloniex Exchange
   explore: Explore
   explorer: Block Explorer
   how: Learn how LBRY will forever improve how we create and share with one another.

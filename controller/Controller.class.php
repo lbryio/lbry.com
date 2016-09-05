@@ -2,8 +2,6 @@
 
 class Controller
 {
-  const HEADER_STATUS = 'Status';
-
   public static function dispatch($uri)
   {
     try
@@ -11,29 +9,19 @@ class Controller
       $viewAndParams = static::execute($uri);
       $viewTemplate = $viewAndParams[0];
       $viewParameters = isset($viewAndParams[1]) ? $viewAndParams[1] : [];
-      $headers = isset($viewAndParams[2]) ? $viewAndParams[2] : [];
-
-      $defaultHeaders = [
-        'Content-Security-Policy' => "frame-ancestors 'none'",
-        'X-Frame-Options' => 'DENY',
-        'X-XSS-Protection'=> '1',
-      ];
-
-      if (IS_PRODUCTION)
+      if (!IS_PRODUCTION && isset($viewAndParams[2]))
       {
-        $defaultHeaders['Strict-Transport-Security'] = 'max-age=31536000';
+        throw new Exception('use response::setheader instead of returning headers');
       }
-
-      static::sendHeaders(array_merge($defaultHeaders, $headers));
 
       if ($viewTemplate === null)
       {
-        return '';
+        return;
       }
 
       if (!$viewTemplate)
       {
-        throw new LogicException('All execute methods must return a template.');
+        throw new LogicException('All execute methods must return a template or NULL.');
       }
 
       $layout = !(isset($viewParameters['_no_layout']) && $viewParameters['_no_layout']);
@@ -44,7 +32,13 @@ class Controller
 
       $content = View::render($viewTemplate, $viewParameters + ['fullPage' => true]);
 
-      echo $layout ? View::render('layout/basic', ['content' => $content] + $layoutParams) : $content;
+      Response::setContent($layout ? View::render('layout/basic', ['content' => $content] + $layoutParams) : $content);
+      Response::setDefaultSecurityHeaders();
+      if (Request::isGzipAccepted())
+      {
+        Response::gzipContentIfNotDisabled();
+      }
+      Response::send();
     }
     catch (StopException $e)
     {
@@ -84,9 +78,9 @@ class Controller
       case '/dl/lbry_setup.sh':
         return static::redirect('/get', 301);
       case '/get/lbry.dmg':
-        return static::redirect(DownloadActions::getDownloadUrl(DownloadActions::OS_OSX));
+        return static::redirect(DownloadActions::getDownloadUrl(DownloadActions::OS_OSX) ?: '/get');
       case '/get/lbry.deb':
-        return static::redirect(DownloadActions::getDownloadUrl(DownloadActions::OS_LINUX));
+        return static::redirect(DownloadActions::getDownloadUrl(DownloadActions::OS_LINUX) ?: '/get');
       case '/art':
         return static::redirect('/what', 301);
       case '/why':
@@ -94,11 +88,14 @@ class Controller
         return static::redirect('/learn', 301);
       case '/faq/when-referral-payouts':
         return static::redirect('/faq/referrals', 301);
+      case '/set-culture':
+        return i18nActions::setCulture();
     }
 
     $newsPattern = '#^' . ContentActions::URL_NEWS . '(/|$)#';
     if (preg_match($newsPattern, $uri))
     {
+      Response::enableHttpCache();
       $slug = preg_replace($newsPattern, '', $uri);
       if ($slug == ContentActions::RSS_SLUG)
       {
@@ -110,10 +107,18 @@ class Controller
     $faqPattern = '#^' . ContentActions::URL_FAQ . '(/|$)#';
     if (preg_match($faqPattern, $uri))
     {
+      Response::enableHttpCache();
       $slug = preg_replace($faqPattern, '', $uri);
       return $slug ? ContentActions::executeFaqPost($uri) : ContentActions::executeFaq();
     }
-    $noSlashUri = ltrim($uri, '/');
+
+    $bountyPattern = '#^' . BountyActions::URL_BOUNTY_LIST . '(/|$)#';
+    if (preg_match($bountyPattern, $uri))
+    {
+      Response::enableHttpCache();
+      $slug = preg_replace($bountyPattern, '', $uri);
+      return $slug ? BountyActions::executeShow($uri) : BountyActions::executeList($uri);
+    }
 
     $accessPattern = '#^/signup#';
     if (preg_match($accessPattern, $uri))
@@ -121,13 +126,17 @@ class Controller
       return DownloadActions::executeSignup();
     }
 
+
+    $noSlashUri = ltrim($uri, '/');
     if (View::exists('page/' . $noSlashUri))
     {
+      Response::enableHttpCache();
       return ['page/' . $noSlashUri, []];
     }
     else
     {
-      return ['page/404', [], [static::HEADER_STATUS => 404]];
+      Response::setStatus(404);
+      return ['page/404', []];
     }
   }
 
@@ -140,88 +149,13 @@ class Controller
 
     $url = str_replace('&amp;', '&', $url);
 
-    $headers = [static::HEADER_STATUS => $statusCode];
-
+    Response::setStatus($statusCode);
 
     if ($statusCode == 201 || ($statusCode >= 300 && $statusCode < 400))
     {
-      $headers['Location'] = $url;
+      Response::setHeader(Response::HEADER_LOCATION, $url);
     }
 
-    return ['internal/redirect', ['url' => $url], $headers];
-  }
-
-  protected static function sendHeaders(array $headers)
-  {
-    if (isset($headers[static::HEADER_STATUS]))
-    {
-      $status = 'HTTP/1.0 ' . $headers[static::HEADER_STATUS] . ' ' . static::getStatusTextForCode($headers[static::HEADER_STATUS]);
-      header($status);
-
-      if (substr(php_sapi_name(), 0, 3) == 'cgi')
-      {
-        // fastcgi servers cannot send this status information because it was sent by them already due to the HTT/1.0 line
-        // so we can safely unset them. see ticket #3191
-        unset($headers[static::HEADER_STATUS]);
-      }
-    }
-
-    foreach($headers as $name => $value)
-    {
-      header($name . ': ' . $value);
-    }
-  }
-
-  public static function getStatusTextForCode($code)
-  {
-    $statusTexts = [
-      '100' => 'Continue',
-      '101' => 'Switching Protocols',
-      '200' => 'OK',
-      '201' => 'Created',
-      '202' => 'Accepted',
-      '203' => 'Non-Authoritative Information',
-      '204' => 'No Content',
-      '205' => 'Reset Content',
-      '206' => 'Partial Content',
-      '300' => 'Multiple Choices',
-      '301' => 'Moved Permanently',
-      '302' => 'Found',
-      '303' => 'See Other',
-      '304' => 'Not Modified',
-      '305' => 'Use Proxy',
-      '306' => '(Unused)',
-      '307' => 'Temporary Redirect',
-      '400' => 'Bad Request',
-      '401' => 'Unauthorized',
-      '402' => 'Payment Required',
-      '403' => 'Forbidden',
-      '404' => 'Not Found',
-      '405' => 'Method Not Allowed',
-      '406' => 'Not Acceptable',
-      '407' => 'Proxy Authentication Required',
-      '408' => 'Request Timeout',
-      '409' => 'Conflict',
-      '410' => 'Gone',
-      '411' => 'Length Required',
-      '412' => 'Precondition Failed',
-      '413' => 'Request Entity Too Large',
-      '414' => 'Request-URI Too Long',
-      '415' => 'Unsupported Media Type',
-      '416' => 'Requested Range Not Satisfiable',
-      '417' => 'Expectation Failed',
-      '419' => 'Authentication Timeout',
-      '422' => 'Unprocessable Entity',
-      '426' => 'Upgrade Required',
-      '429' => 'Too Many Requests',
-      '500' => 'Internal Server Error',
-      '501' => 'Not Implemented',
-      '502' => 'Bad Gateway',
-      '503' => 'Service Unavailable',
-      '504' => 'Gateway Timeout',
-      '505' => 'HTTP Version Not Supported',
-    ];
-
-    return isset($statusTexts[$code]) ? $statusTexts[$code] : null;
+    return ['internal/redirect', ['url' => $url]];
   }
 }

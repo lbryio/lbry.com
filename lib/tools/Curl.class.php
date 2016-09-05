@@ -2,8 +2,9 @@
 
 class Curl
 {
-  const GET = 'GET';
-  const POST = 'POST';
+  const GET = 'GET',
+        POST = 'POST',
+        PUT = 'PUT';
 
   public static function get($url, $params = [], $options = [])
   {
@@ -14,6 +15,12 @@ class Curl
   public static function post($url, $params = [], $options = [])
   {
     list ($status, $headers, $body) = static::doCurl(static::POST, $url, $params, $options);
+    return $body;
+  }
+
+  public static function put($url, $params = [], $options = [])
+  {
+    list ($status, $headers, $body) = static::doCurl(static::PUT, $url, $params, $options);
     return $body;
   }
 
@@ -28,7 +35,7 @@ class Curl
       'proxy'            => null,
       'password'         => null,
       'cookie'           => null,
-      'json_post'        => false,
+      'json_data'        => false,
     ];
 
     $invalid = array_diff_key($options, $defaults);
@@ -39,7 +46,7 @@ class Curl
 
     $options = array_merge($defaults, $options);
 
-    if (!in_array($method, [static::GET, static::POST]))
+    if (!in_array($method, [static::GET, static::POST, static::PUT]))
     {
       throw new DomainException('Invalid method: ' . $method);
     }
@@ -77,7 +84,18 @@ class Curl
     if ($method == static::POST)
     {
       curl_setopt($ch, CURLOPT_POST, true);
-      curl_setopt($ch, CURLOPT_POSTFIELDS, $options['json_post'] ? json_encode($params) : http_build_query($params));
+    }
+
+    if ($method == static::PUT)
+    {
+      curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+      curl_setopt($ch, CURLOPT_PUT, 1);
+      curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "PUT");
+    }
+
+    if (in_array($method, [static::PUT, static::POST]))
+    {
+      curl_setopt($ch, CURLOPT_POSTFIELDS, $options['json_data'] ? json_encode($params) : http_build_query($params));
     }
 
     if ($options['proxy'])

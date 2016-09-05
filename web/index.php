@@ -15,18 +15,19 @@ error_reporting(IS_PRODUCTION ? 0 : (E_ALL | E_STRICT));
 
 try
 {
-  i18n::register();
   Session::init();
+  i18n::register();
   if (!IS_PRODUCTION)
   {
     View::compileCss();
   }
-  Controller::dispatch(strtok($_SERVER['REQUEST_URI'], '?'));
+  Controller::dispatch(strtok(Request::getRelativeUri(), '?'));
 }
-catch(Exception $e)
+catch(Throwable $e)
 {
   if (IS_PRODUCTION)
   {
+    Slack::sendErrorIfProd($e);
     throw $e;
   }
 

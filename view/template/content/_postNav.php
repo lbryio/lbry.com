@@ -5,7 +5,7 @@
         <a href="/<?php echo $prevPost->getRelativeUrl() ?>" class="link-primary">‹ {{news.prev}}</a>
       </div>
       <div class="meta">
-        <a href="/<?php echo $prevPost->getRelativeUrl() ?>">
+        <a class="prev-next-title" href="/<?php echo $prevPost->getRelativeUrl() ?>">
           <?php echo htmlentities($prevPost->getTitle()) ?>
         </a>
       </div>

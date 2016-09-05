@@ -18,6 +18,8 @@ $max-post-content-width: 800px;
 $font-header: 'Raleway', sans-serif;
 $font-body: 'Raleway', sans-serif;
 
+$content-side-padding: 15px;
+
 @mixin anchor($color)
 {
   color: $color;
@@ -145,9 +147,9 @@ $font-body: 'Raleway', sans-serif;
 @mixin jumpingScrollbarFix() {
   /*
   // Fix for jumping scrollbar: https://aykevl.nl/2014/09/fix-jumping-scrollbar
-  @media screen and (min-width: 35em) {
-    margin-left: calc(100vw - 100%);
-    margin-right: 0;
+  //@media screen and (min-width: 35em) {
+  //  margin-left: calc(100vw - 100%);
+   // margin-right: 0;
   }
   */
 }

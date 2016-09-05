@@ -162,4 +162,10 @@ $(document).ready(function() {
       });
     });
   }
+
+  var langDropdown = $('#language-dropdown');
+  langDropdown.val(_currentLang);
+  langDropdown.on('change', function(x) {
+      $('#language-form').submit();
+  });
 });

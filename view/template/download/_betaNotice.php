@@ -1,4 +1,4 @@
-<div class="notice notice-info">
+<p>
   <strong>{{download.beta}}</strong>
   {{download.curse}}
-</div>
+</p>

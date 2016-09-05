@@ -11,7 +11,7 @@ class MailActions extends Actions
   {
     $nextUrl = isset($_POST['returnUrl']) && $_POST['returnUrl'] ? $_POST['returnUrl'] : '/join-list';
 
-    if ($_SERVER['REQUEST_METHOD'] !== 'POST')
+    if (!Request::isPost())
     {
       return Controller::redirect($nextUrl);
     }
@@ -62,7 +62,7 @@ class MailActions extends Actions
   public static function prepareJoinListPartial(array $vars)
   {
     $vars['listSig'] = md5(serialize($vars));
-    $vars += ['btnClass' => 'btn-primary', 'returnUrl' => $_SERVER['REQUEST_URI']];
+    $vars += ['btnClass' => 'btn-primary', 'returnUrl' => Request::getRelativeUri()];
 
     if (Session::get(Session::KEY_LIST_SUB_SIGNATURE) == $vars['listSig'])
     {

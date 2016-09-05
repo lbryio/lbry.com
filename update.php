@@ -20,3 +20,4 @@ chdir(ROOT_DIR);
 Shell::exec('git fetch && git reset --hard origin/master');
 
 View::compileCss();
+View::gzipAssets();

@@ -2,24 +2,24 @@
 
 class Debug
 {
-  public static function exceptionToString(Exception $e)
+  public static function exceptionToString(Throwable $e)
   {
     return static::getExceptionMessageWithoutTrace($e) . "\n" . static::getFullTrace($e);
   }
 
-  public static function getExceptionMessageWithoutTrace(Exception $e)
+  public static function getExceptionMessageWithoutTrace(Throwable $e)
   {
     return 'exception \'' . get_class($e) . '\' with message \'' . $e->getMessage() . '\' in ' . $e->getFile() . ':' . $e->getLine();
   }
 
   /**
    * Same as the normal getTraceAsString(), but does not truncate long lines.
-   * @param Exception $exception
+   * @param Throwable $exception
    * @return string
    * @see http://stackoverflow.com/questions/1949345/how-can-i-get-the-full-string-of-phps-gettraceasstring/6076667#6076667
    * @see https://gist.github.com/1437966
    */
-  public static function getFullTrace(Exception $exception)
+  public static function getFullTrace(Throwable $exception)
   {
     $rtn = '';
     foreach ($exception->getTrace() as $count => $frame)
@@ -36,7 +36,7 @@ class Debug
     return $rtn;
   }
 
-  public static function exceptionFrameArgsToString($args)
+  public static function exceptionFrameArgsToString(array $args)
   {
     $ret = [];
     foreach ($args as $arg)

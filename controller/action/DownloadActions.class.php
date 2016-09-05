@@ -23,25 +23,28 @@ class DownloadActions extends Actions
   {
     $email = static::param('e');
     $user = [];
-    
+
     if ($email)
     {
-      $emailIsValid = filter_var($email, FILTER_VALIDATE_EMAIL);
-
-      if ($emailIsValid)
+      if (filter_var($email, FILTER_VALIDATE_EMAIL))
       {
         $user = Prefinery::findUser($email);
-        if ($user)
-        {
-          static::setSessionVarsForPrefineryUser($user);
-        }
       }
 
-      if (!$emailIsValid || !$user)
+      if (!$user)
       {
         Session::unsetKey(Session::KEY_PREFINERY_USER_ID);
         Session::unsetKey(Session::KEY_DOWNLOAD_ALLOWED);
       }
+    }
+    elseif (Session::get(Session::KEY_PREFINERY_USER_ID))
+    {
+      $user = Prefinery::findUser(Session::get(Session::KEY_PREFINERY_USER_ID));
+    }
+
+    if ($user)
+    {
+      static::setSessionVarsForPrefineryUser($user);
     }
 
     if (!Session::get(Session::KEY_DOWNLOAD_ALLOWED))
@@ -95,6 +98,15 @@ class DownloadActions extends Actions
       {
         $user = Prefinery::findOrCreateUser($email, $code, $referrerId);
         static::setSessionVarsForPrefineryUser($user);
+        if ($code && strlen($code) > 2 && in_array(substr($code, 0, 2), ['my', 'pf', 'sl']))
+        {
+          Session::set(Session::KEY_PREFINER_USED_CUSTOM_CODE, true);
+        }
+      }
+      catch (CurlException $e)
+      {
+        $failure = true;
+        Slack::sendErrorIfProd($e);
       }
       catch (PrefineryException $e)
       {
@@ -157,7 +169,7 @@ class DownloadActions extends Actions
   protected static function guessOs()
   {
     //if exact OS is requested, use that
-    $uri = strtok($_SERVER['REQUEST_URI'], '?');
+    $uri = strtok(Request::getRelativeUri(), '?');
     foreach (static::getOses() as $os => $osChoice)
     {
       if ($osChoice[0] == $uri)
@@ -172,7 +184,7 @@ class DownloadActions extends Actions
     }
 
     //otherwise guess from UA
-    $ua = $_SERVER['HTTP_USER_AGENT'];
+    $ua = Request::getUserAgent();
     if (stripos($ua, 'OS X') !== false)
     {
       return strpos($ua, 'iPhone') !== false || stripos($ua, 'iPad') !== false ? static::OS_IOS : static::OS_OSX;
@@ -196,7 +208,7 @@ class DownloadActions extends Actions
     }
 
     $apc         = $useCache && extension_loaded('apc') && ini_get('apc.enabled');
-    $key         = 'lbry_release_data';
+    $key         = 'lbry_release_data2';
     $releaseData = null;
 
     if ($apc)
@@ -227,8 +239,9 @@ class DownloadActions extends Actions
 
     foreach ($releaseData['assets'] as $asset)
     {
-      if ($os == static::OS_LINUX && in_array($asset['content_type'], ['application/x-debian-package', 'application/x-deb']) ||
-          $os == static::OS_OSX && $asset['content_type'] == 'application/x-diskcopy'
+      if (
+        ($os == static::OS_LINUX && in_array($asset['content_type'], ['application/x-debian-package', 'application/x-deb'])) ||
+        ($os == static::OS_OSX && in_array($asset['content_type'], ['application/x-diskcopy', 'application/x-apple-diskimage']))
       )
       {
         return $asset['browser_download_url'];
