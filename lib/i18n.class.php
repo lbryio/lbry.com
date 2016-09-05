@@ -14,30 +14,45 @@ class i18n
     $language = null,
     $translations = [],
     $country = null,
-    $cultures = ['pt_PT', 'en_US'];
+    $cultures = ['pt_PT', 'en_US'],
+    $subdomainToCulture = array(
+        'pt' => 'pt_PT',
+        'en' => 'en_US'
+    );
 
   public static function register($culture = null) /*needed to trigger class include, presumably setup would happen here*/
   {
     // Get user preference, if any
-    if ($culture == null)
+    if ($culture === null)
     {
       $culture = Session::get(Session::KEY_USER_CULTURE);
     }
 
-    // Deduce from host
+    // Deduce from subdomain
     if ($culture === null)
     {
       $urlTokens = Request::getHost() ? explode('.', Request::getHost()) : [];
       $code = $urlTokens ? reset($urlTokens) : 'en';
-      switch($code)
+      if (in_array($code, static::$subdomainToCulture))
       {
-        case 'pt':
-          $culture = 'pt_PT'; break;
-        case 'en':
-        case 'www':
-        default:
-          $culture = 'en_US';
+          $culture = static::$subdomainToCulture[$code];
       }
+    }
+
+    // Deduce from HTTP_ACCEPT_LANGUAGE
+    if ($culture === null)
+    {
+        $code = explode(',', $_SERVER['HTTP_ACCEPT_LANGUAGE']);
+        if (in_array($code, static::$cultures))
+        {
+            $culture = $code;
+        }
+    }
+
+    // Default to en_US
+    if ($culture === null)
+    {
+        $culture = 'en_US';
     }
 
     list($language, $country) = explode('_', $culture);
