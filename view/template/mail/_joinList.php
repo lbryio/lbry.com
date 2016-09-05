@@ -1,4 +1,4 @@
-<?php $error = isset($error) ? $error : null ?>
+<?php $error = $error ?? null ?>
 <form action="/list-subscribe" method="post" novalidate>
   
   <?php if ($error): ?>
@@ -18,7 +18,7 @@
       <input type="hidden" name="listId" value="<?php echo $listId ?>"/>
       <input type="hidden" name="listSig" value="<?php echo $listSig ?>"/>
       <input type="email" value="" name="email" class="required email standard" placeholder= "<?php echo __('email.placeholder') ?>">
-      <input type="submit" value="<?php echo isset($submitLabel) ? $submitLabel : __('email.subs') ?>" name="subscribe" class="<?php echo $btnClass ?>">
+      <input type="submit" value="<?php echo $submitLabel ?? __('email.subs') ?>" name="subscribe" class="<?php echo $btnClass ?>">
       <?php if (isset($fbEvent)): ?>
         <input type="hidden" name="fbEvent" value="<?php echo $fbEvent ?>" />
       <?php endif ?>

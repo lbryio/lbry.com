@@ -8,7 +8,7 @@ class Controller
     {
       $viewAndParams = static::execute($uri);
       $viewTemplate = $viewAndParams[0];
-      $viewParameters = isset($viewAndParams[1]) ? $viewAndParams[1] : [];
+      $viewParameters = $viewAndParams[1] ?? [];
       if (!IS_PRODUCTION && isset($viewAndParams[2]))
       {
         throw new Exception('use response::setheader instead of returning headers');
@@ -27,7 +27,7 @@ class Controller
       $layout = !(isset($viewParameters['_no_layout']) && $viewParameters['_no_layout']);
       unset($viewParameters['_no_layout']);
 
-      $layoutParams = isset($viewParameters[View::LAYOUT_PARAMS]) ? $viewParameters[View::LAYOUT_PARAMS] : [];
+      $layoutParams = $viewParameters[View::LAYOUT_PARAMS] ?? [];
       unset($viewParameters[View::LAYOUT_PARAMS]);
 
       $content = View::render($viewTemplate, $viewParameters + ['fullPage' => true]);

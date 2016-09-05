@@ -193,7 +193,7 @@ class ContentActions extends Actions
 
   public static function preparePostListPartial(array $vars): array
   {
-    $count = isset($vars['count']) ? $vars['count'] : 3;
+    $count = $vars['count'] ?? 3;
     return [
       'posts' => array_slice(Post::find(static::VIEW_FOLDER_NEWS, Post::SORT_DATE_DESC), 0, $count)
     ];

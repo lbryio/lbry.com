@@ -204,7 +204,7 @@ class Response
       foreach (preg_split('/\s*,\s*/', $cacheControl) as $tmp)
       {
         $tmp                     = explode('=', $tmp);
-        $currentHeaders[$tmp[0]] = isset($tmp[1]) ? $tmp[1] : null;
+        $currentHeaders[$tmp[0]] = $tmp[1] ?? null;
       }
     }
     $currentHeaders[strtr(strtolower($name), '_', '-')] = $value;
@@ -236,7 +236,7 @@ class Response
 
   public static function getHeader($name, $default = null)
   {
-    return isset(static::$headers[$name]) ? static::$headers[$name] : $default;
+    return static::$headers[$name] ?? $default;
   }
 
   public static function getHeaders(): array
@@ -350,7 +350,7 @@ class Response
       '505' => 'HTTP Version Not Supported',
     ];
 
-    return isset($statusTexts[$code]) ? $statusTexts[$code] : null;
+    return $statusTexts[$code] ?? null;
   }
 
   protected static function normalizeHeaderName($name)

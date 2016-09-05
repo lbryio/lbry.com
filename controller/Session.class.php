@@ -32,7 +32,7 @@ class Session
 
   public static function get($key, $default = null)
   {
-    return isset($_SESSION[$key]) ? $_SESSION[$key] : $default;
+    return $_SESSION[$key] ?? $default;
   }
 
   public static function set($key, $value)

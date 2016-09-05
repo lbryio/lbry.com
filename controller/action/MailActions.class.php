@@ -16,7 +16,7 @@ class MailActions extends Actions
       return Controller::redirect($nextUrl);
     }
 
-    Session::set(Session::KEY_LIST_SUB_SIGNATURE, isset($_POST['listSig']) ? $_POST['listSig'] : true);
+    Session::set(Session::KEY_LIST_SUB_SIGNATURE, $_POST['listSig'] ?? true);
 
     $email = $_POST['email'];
     if (!$email|| !filter_var($email, FILTER_VALIDATE_EMAIL))
@@ -37,7 +37,7 @@ class MailActions extends Actions
       {
         Session::set(Session::KEY_MAILCHIMP_LIST_IDS, array_merge(Session::get(Session::KEY_MAILCHIMP_LIST_IDS, []), [$mcListId]));
         Session::set(Session::KEY_LIST_SUB_SUCCESS, true);
-        Session::set(Session::KEY_LIST_SUB_FB_EVENT, isset($_POST['fbEvent']) ? $_POST['fbEvent'] : null);
+        Session::set(Session::KEY_LIST_SUB_FB_EVENT, $_POST['fbEvent'] ?? null);
       }
       else
       {

@@ -28,8 +28,8 @@ class Debug
 
       $rtn .= sprintf("#%s %s(%s): %s(%s)\n",
                       $count,
-                      isset($frame['file']) ? $frame['file'] : 'unknown file',
-                      isset($frame['line']) ? $frame['line'] : 'unknown line',
+                      $frame['file'] ?? 'unknown file',
+                      $frame['line'] ?? 'unknown line',
                       isset($frame['class']) ? $frame['class'].$frame['type'].$frame['function'] : $frame['function'],
                       $args);
     }

@@ -36,15 +36,14 @@ class Request
 
   public static function getOriginalIp(): string
   {
-    return isset($_SERVER['HTTP_X_REAL_IP']) ? $_SERVER['HTTP_X_REAL_IP'] :
-      (isset($_SERVER['HTTP_X_FORWARDED_FOR']) ?
-        trim(explode(',',$_SERVER['HTTP_X_FORWARDED_FOR'])[0]) :
-        (isset($_SERVER['REMOTE_ADDR']) ? $_SERVER['REMOTE_ADDR'] : ''));
+    return $_SERVER['HTTP_X_REAL_IP'] ??
+      (isset($_SERVER['HTTP_X_FORWARDED_FOR']) ? trim(explode(',',$_SERVER['HTTP_X_FORWARDED_FOR'])[0]) :
+        ($_SERVER['REMOTE_ADDR'] ?? ''));
   }
   
   public static function getUserAgent(): string
   {
-    return isset($_SERVER['HTTP_USER_AGENT']) ? $_SERVER['HTTP_USER_AGENT'] : '';
+    return $_SERVER['HTTP_USER_AGENT'] ?? '';
   }
 
   public static function getHost(): string
@@ -55,7 +54,7 @@ class Request
 
   public static function getRelativeUri(): string
   {
-    return isset($_SERVER['REQUEST_URI']) ? $_SERVER['REQUEST_URI'] : '';
+    return $_SERVER['REQUEST_URI'] ?? '';
   }
 
   public static function isGzipAccepted(): bool

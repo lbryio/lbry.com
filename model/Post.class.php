@@ -48,12 +48,12 @@ class Post
     $this->slug = $slug;
     $this->markdown = $markdown;
     $this->metadata = $frontMatter;
-    $this->title = isset($frontMatter['title']) ? $frontMatter['title'] : null;
-    $this->author = isset($frontMatter['author']) ? $frontMatter['author'] : null;
+    $this->title = $frontMatter['title'] ?? null;
+    $this->author = $frontMatter['author'] ?? null;
     $this->date = isset($frontMatter['date']) ? new DateTime($frontMatter['date']) : null;
-    $this->cover = isset($frontMatter['cover']) ? $frontMatter['cover'] : null;
+    $this->cover = $frontMatter['cover'] ?? null;
     $this->isCoverLight = isset($frontMatter['cover-light']) && $frontMatter['cover-light'] == 'true';
-    $this->category = isset($frontMatter['category']) ? $frontMatter['category'] : null;
+    $this->category = $frontMatter['category'] ?? null;
   }
 
   public static function find($folder, $sort = null)
@@ -349,7 +349,7 @@ class Post
   {
     $values = array_unique(array_map(function(Post $post) use($field) {
       $metadata = $post->getMetadata();
-      return isset($metadata[$field]) ? $metadata[$field] : null;
+      return $metadata[$field] ?? null;
     }, $posts));
     sort($values);
     return array_combine($values, $values);
