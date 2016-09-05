@@ -23,10 +23,12 @@
   <a href="https://github.com/lbryio"><span class="btn-label">GitHub</span><span class="icon-github icon-fw"></span></a>
 </div>
 <div class="control-item no-label-desktop">
-  <select id="language-dropdown">
-      <option>en_US</option>
-      <option>pt_PT</option>
-  </select>
+  <form id="language-form" action="/set-culture" method="POST">
+      <select id="language-dropdown" name="culture">
+          <option>en_US</option>
+          <option>pt_PT</option>
+      </select>
+  </form>
 </div>
 
 <script type="text/javascript">

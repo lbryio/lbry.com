@@ -88,7 +88,7 @@ class Controller
         return static::redirect('/learn', 301);
       case '/faq/when-referral-payouts':
         return static::redirect('/faq/referrals', 301);
-      case '/language':
+      case '/set-culture':
         return i18nActions::setCulture();
     }
 
