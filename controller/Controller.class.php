@@ -2,6 +2,8 @@
 
 class Controller
 {
+  protected static $queuedFunctions = [];
+
   public static function dispatch($uri)
   {
     try
@@ -145,5 +147,18 @@ class Controller
     }
 
     return ['internal/redirect', ['url' => $url]];
+  }
+
+  public static function queueToRunAfterResponse(callable $fn)
+  {
+    static::$queuedFunctions[] = $fn;
+  }
+
+  public static function shutdown()
+  {
+    foreach(static::$queuedFunctions as $fn)
+    {
+      call_user_func($fn);
+    }
   }
 }

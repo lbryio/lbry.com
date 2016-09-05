@@ -13,6 +13,8 @@ define('IS_PRODUCTION', $_SERVER['SERVER_NAME'] == 'lbry.io');
 ini_set('display_errors', IS_PRODUCTION ? 'off' : 'on');
 error_reporting(IS_PRODUCTION ? 0 : (E_ALL | E_STRICT));
 
+register_shutdown_function('Controller::shutdown');
+
 try
 {
   i18n::register();
@@ -21,7 +23,7 @@ try
   {
     View::compileCss();
   }
-  Controller::dispatch(strtok(Request::getRelativeUri(), '?'));
+  Controller::dispatch(Request::getRelativeUri());
 }
 catch(Throwable $e)
 {
