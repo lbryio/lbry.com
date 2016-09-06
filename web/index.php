@@ -15,6 +15,14 @@ error_reporting(IS_PRODUCTION ? 0 : (E_ALL | E_STRICT));
 
 register_shutdown_function('Controller::shutdown');
 
+if (!IS_PRODUCTION)
+{
+  // make warnings into errors
+  set_error_handler(function ($errno, $errstr, $errfile, $errline ) {
+    throw new ErrorException($errstr, $errno, 0, $errfile, $errline);
+  }, E_WARNING|E_CORE_WARNING|E_COMPILE_WARNING|E_USER_WARNING);
+}
+
 try
 {
   i18n::register();
