@@ -8,6 +8,11 @@ class Controller
   {
     try
     {
+      if (IS_PRODUCTION && function_exists('newrelic_name_transaction'))
+      {
+        newrelic_name_transaction(Request::getMethod() . ' ' . strtolower($uri));
+      }
+
       $viewAndParams  = static::execute(Request::getMethod(), $uri);
       $viewTemplate   = $viewAndParams[0];
       $viewParameters = $viewAndParams[1] ?? [];
