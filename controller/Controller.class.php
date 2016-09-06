@@ -60,6 +60,12 @@ class Controller
     {
       return NavActions::execute404();
     }
+    catch (\Routing\HttpMethodNotAllowedException $e)
+    {
+      Response::setStatus(405);
+      Response::setHeader('Allow', implode(', ', $e->getAllowedMethods()));
+      return ['page/404'];
+    }
   }
 
   protected static function getRouterWithRoutes(): \Routing\RouteCollector

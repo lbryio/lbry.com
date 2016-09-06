@@ -1,5 +1,19 @@
-<?php 
+<?php
 
 namespace Routing;
 
-class HttpMethodNotAllowedException extends HttpException {}
+class HttpMethodNotAllowedException extends HttpException
+{
+  protected $allowedMethods;
+
+  public function __construct(array $allowedMethods, $message, $code, Exception $previous)
+  {
+    $this->allowedMethods = $allowedMethods;
+    parent::__construct($message, $code, $previous);
+  }
+
+  public function getAllowedMethods()
+  {
+    return $this->allowedMethods;
+  }
+}

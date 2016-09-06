@@ -93,6 +93,7 @@ news:
   next: Next
   prev: Previous
 page:
+  badmethod: HTTP method not allowed
   faq:
     back: Back to FAQ
     header: Frequently Asked Questions

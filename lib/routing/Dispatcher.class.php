@@ -175,7 +175,7 @@ class Dispatcher
 
     $this->matchedRoute = $routes;
 
-    throw new HttpMethodNotAllowedException('Allow: ' . implode(', ', array_keys($routes)));
+    throw new HttpMethodNotAllowedException(array_keys($routes), 'Method not allowed');
   }
 
   /**
