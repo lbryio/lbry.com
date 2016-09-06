@@ -121,7 +121,7 @@ class Controller
 
     $router->get([ContentActions::URL_NEWS . '/{slug:c}?', 'news'], 'ContentActions::executeNews');
     $router->get([ContentActions::URL_FAQ . '/{slug:c}?', 'faq'], 'ContentActions::executeFaq');
-    $router->get([BountyActions::URL_BOUNTY . '/{slug:c}?', 'bounty'], 'BountyActions::executeShow');
+    $router->get([BountyActions::URL_BOUNTY . '/{slug:c}?', 'bounty'], 'BountyActions::executeList');
 
     $router->any(['/signup{whatever}?', 'signup'], 'DownloadActions::executeSignup');
 
