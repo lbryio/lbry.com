@@ -81,7 +81,7 @@ class ContentActions extends Actions
         'developer'  => 'Developers',
         'other'      => 'Other Questions',
       ]);
-      $selectedCategory = static::param('category');
+      $selectedCategory = Request::getParam('category');
       $filters          = array_filter([
         'category' => $selectedCategory && isset($allCategories[$selectedCategory]) ? $selectedCategory : null,
       ]);

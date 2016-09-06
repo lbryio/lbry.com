@@ -69,7 +69,7 @@ class Controller
     {
       Response::setStatus(405);
       Response::setHeader('Allow', implode(', ', $e->getAllowedMethods()));
-      return ['page/404'];
+      return ['page/405'];
     }
   }
 

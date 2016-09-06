@@ -8,7 +8,7 @@ if (php_sapi_name() === 'cli-server' && is_file(__DIR__.preg_replace('#(\?.*)$#'
 
 include __DIR__ . '/../bootstrap.php';
 
-define('IS_PRODUCTION', $_SERVER['SERVER_NAME'] == 'lbry.io');
+define('IS_PRODUCTION', Request::getServerName() == 'lbry.io');
 
 ini_set('display_errors', IS_PRODUCTION ? 'off' : 'on');
 error_reporting(IS_PRODUCTION ? 0 : (E_ALL | E_STRICT));

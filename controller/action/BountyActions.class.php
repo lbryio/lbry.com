@@ -30,8 +30,8 @@ class BountyActions extends Actions
     $allCategories = ['' => ''] + Post::collectMetadata($allBounties, 'category');
     $allStatuses = ['' => ''] + array_merge(Post::collectMetadata($allBounties, 'status'), ['complete' => 'unavailable']);
 
-    $selectedStatus = static::param('status', 'available');
-    $selectedCategory = static::param('category');
+    $selectedStatus = Request::getParam('status', 'available');
+    $selectedCategory = Request::getParam('category');
 
     $filters = array_filter([
       'category' => $selectedCategory && isset($allCategories[$selectedCategory]) ? $selectedCategory : null,

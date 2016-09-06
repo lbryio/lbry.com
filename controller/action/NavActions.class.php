@@ -34,7 +34,13 @@ class NavActions extends Actions
       'isDark' => true
     ];
   }
-  
+
+  public static function execute400(array $vars)
+  {
+    Response::setStatus(400);
+    return ['page/400', ['error' => $vars['error'] ?? null]];
+  }
+
   public static function execute404()
   {
     $uri = Request::getRelativeUri();

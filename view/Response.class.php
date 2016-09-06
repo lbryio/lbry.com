@@ -129,7 +129,7 @@ class Response
       $content = static::getContent();
       if (strlen($content) > 256) // not worth it for really short content
       {
-        $compressed = gzencode($content, 6);
+        $compressed = gzencode($content, 1);
         static::setContent($compressed);
         static::setHeader(static::HEADER_CONTENT_LENGTH, strlen($compressed));
         static::setHeader(static::HEADER_CONTENT_ENCODING, 'gzip');

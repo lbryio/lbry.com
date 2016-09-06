@@ -21,7 +21,7 @@ class DownloadActions extends Actions
 
   public static function executeGet()
   {
-    $email = static::param('e');
+    $email = Request::getParam('e');
     $user = [];
 
     if ($email)
@@ -75,8 +75,8 @@ class DownloadActions extends Actions
 
   public static function executeSignup()
   {
-    $email = static::param('email');
-    $code  = static::param('code');
+    $email = Request::getParam('email');
+    $code  = Request::getParam('code');
 
     if (!$email || !filter_var($email, FILTER_VALIDATE_EMAIL))
     {
@@ -84,7 +84,7 @@ class DownloadActions extends Actions
     }
     else
     {
-      $referrerId = static::param('referrer_id');
+      $referrerId = Request::getParam('referrer_id');
       $failure    = false;
       try
       {
@@ -136,9 +136,9 @@ class DownloadActions extends Actions
   public static function prepareSignupPartial(array $vars)
   {
     return $vars + [
-      'defaultEmail'    => static::param('e'),
+      'defaultEmail'    => Request::getParam('e'),
       'allowInviteCode' => true,
-      'referralCode'    => static::param('r', '')
+      'referralCode'    => Request::getParam('r', '')
     ];
   }
 
