@@ -178,7 +178,7 @@ class DownloadActions extends Actions
       }
     }
 
-    if (static::isForRobot())
+    if (Request::isRobot())
     {
       return null;
     }
