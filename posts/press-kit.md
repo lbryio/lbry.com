@@ -17,6 +17,7 @@ LBRY uses blockchain technology to provide a new way for people to publish and s
 
 ### Media Mentions
 
+- [Blockchain content sharing app LBRY declares independent from Google, Apple and Amazon](http://www.ibtimes.co.uk/blockchain-content-sharing-app-lbry-declares-independent-google-apple-amazon-1568755), **International Business Times, July 2016**
 - [LBRY and decentralised apps - an interview with Jeremy Kauffman](http://goodtechnologyproject.org/blog/2016/02/07/lbry-and-decentralised-apps-an-interview-with-jeremy-kauffman/), **Good Technology Project, February 2016**
 - [The Appcoin Revolution: Interview with Mike Vine of LBRY](http://cointelegraph.com/news/the-appcoin-revolution-interview-with-mike-vine-of-lbry), **CoinTelegraph, February 2016**
 - [Alexandria vs LBRY - Which will be the file sharing application of the next generation?](http://bravenewcoin.com/news/alexandria-vs-lbry-which-will-be-the-file-sharing-application-of-the-next-generation/), **BraveNewCoin, December 2015**
