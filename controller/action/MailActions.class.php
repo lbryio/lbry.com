@@ -31,17 +31,17 @@ class MailActions extends Actions
     {
       $mcListId = $_POST['listId'];
       $mergeFields = isset($_POST['mergeFields']) ? unserialize($_POST['mergeFields']) : [];
-      $errorOrSuccess = static::subscribeToMailchimp($email, $mcListId, $mergeFields);
-
-      if ($errorOrSuccess === true)
+      try
       {
+        static::subscribeToMailchimp($email, $mcListId, $mergeFields);
         Session::set(Session::KEY_MAILCHIMP_LIST_IDS, array_merge(Session::get(Session::KEY_MAILCHIMP_LIST_IDS, []), [$mcListId]));
         Session::set(Session::KEY_LIST_SUB_SUCCESS, true);
         Session::set(Session::KEY_LIST_SUB_FB_EVENT, $_POST['fbEvent'] ?? null);
       }
-      else
+      catch (MailchimpSubscribeException $e)
       {
-        Session::set(Session::KEY_LIST_SUB_ERROR, $errorOrSuccess);
+        Session::set(Session::KEY_LIST_SUB_SUCCESS, false);
+        Session::set(Session::KEY_LIST_SUB_ERROR, $e->getMessage());
       }
     }
 
