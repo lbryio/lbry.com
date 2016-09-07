@@ -6,12 +6,15 @@ class ContentActions extends Actions
     SLUG_RSS = 'rss.xml',
     SLUG_NEWS = 'news',
     SLUG_FAQ = 'faq',
+    SLUG_PRESS = 'press',
 
     URL_NEWS = '/' . self::SLUG_NEWS,
     URL_FAQ = '/' . self::SLUG_FAQ,
+    URL_PRESS = '/' . self::SLUG_PRESS,
 
     VIEW_FOLDER_NEWS = ROOT_DIR . '/posts/' . self::SLUG_NEWS,
-    VIEW_FOLDER_FAQ = ROOT_DIR . '/posts/' . self::SLUG_FAQ;
+    VIEW_FOLDER_FAQ = ROOT_DIR . '/posts/' . self::SLUG_FAQ,
+    VIEW_FOLDER_PRESS = ROOT_DIR . '/posts/' . self::SLUG_PRESS;
 
   public static function executeHome(): array
   {
@@ -113,10 +116,24 @@ class ContentActions extends Actions
     {
       return NavActions::execute404();
     }
-    return ['content/faq-post', ['post' => $post,]];
+    return ['content/faq-post', ['post' => $post]];
   }
 
-  public static function executePressKit(): array
+  public static function executePress(string $slug = null): array
+  {
+    Response::enableHttpCache();
+    try
+    {
+      $post = Post::load(static::SLUG_PRESS . '/' . ltrim($slug, '/'));
+    }
+    catch (PostNotFoundException $e)
+    {
+      return NavActions::execute404();
+    }
+    return ['content/press-post', ['post' => $post]];
+  }
+
+    public static function executePressKit(): array
   {
     $zipFileName = 'lbry-press-kit-' . date('Y-m-d') . '.zip';
     $zipPath     = tempnam('/tmp', $zipFileName);

@@ -2,6 +2,8 @@
 
 class PostNotFoundException extends Exception {}
 
+class PostMalformedException extends Exception {}
+
 class Post
 {
   const SORT_DATE_DESC = 'sort_date_desc';
@@ -38,7 +40,11 @@ class Post
       throw new PostNotFoundException('No post found for path: ' . $relativeOrAbsolutePath);
     }
 
-    list($ignored, $frontMatter, $content) = explode('---', file_get_contents($path), 3);
+    list($ignored, $frontMatter, $content) = explode('---', file_get_contents($path), 3) + ['','',''];
+    if (!$frontMatter || !$content)
+    {
+      throw new PostMalformedException('Post "' . basename($path) . '" is missing front matter or content');
+    }
     return new static($postType, $slug, Spyc::YAMLLoadString(trim($frontMatter)), trim($content));
   }
 
