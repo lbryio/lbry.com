@@ -209,9 +209,8 @@ class Post
         return 'Jimmy Kiselak';
       case 'jack':
         return 'Jack Robison';
-      case null:
-      case '':
-        return '';
+      case 'reilly':
+        return 'Reilly Smith';
       case 'lbry':
       default:
         return 'Samuel Bryan';
@@ -220,16 +219,14 @@ class Post
 
   public function getAuthorEmail()
   {
-    switch(strtolower($this->author))
+    switch (strtolower($this->author))
     {
       case 'jeremy':
-        return 'jeremy@lbry.io';
       case 'mike':
-        return 'mike@lbry.io';
       case 'jimmy':
-        return 'jimmy@lbry.io';
       case 'jack':
-        return 'jack@lbry.io';
+      case 'reilly':
+        return strtolower($this->author) . '@lbry.io';
       case 'lbry':
       default:
         return 'hello@lbry.io';
@@ -248,6 +245,8 @@ class Post
         return 'jimmy-kiselak-644x450.jpg';
       case 'jack':
         return 'jack-robison-644x450.jpg';
+      case 'reilly':
+        return 'reilly-smith-644x450.jpg';
       case 'lbry':
       default:
         return 'spooner-644x450.jpg';
@@ -260,11 +259,13 @@ class Post
     {
       case 'jeremy':
         return '<p>Jeremy is the creator of TopScore (usetopscore.com), LBRY (lbry.io), and that joke where the first two items in your list are serious while the third one is a run-on sentence.</p>';
+      case 'jack':
+        return '<p>Jack was one of the first people to discover LBRY and took to it so fast he may understand more about it than anyone. He has Asperger\'s Syndrome and is actively involved in the autism community.</p>';
+      case 'reilly':
+        return '<p>Reilly is LBRY\'s in-house Curator and content liaison. He has worked in the entertainment industry since 2010, having produced two indie feature films and various short content.</p>';
       case 'mike':
       case 'jimmy':
         return '<p>' . $this->getAuthorName() . ' is one of the founding members of LBRY.</p>';
-      case 'jack':
-        return '<p>Jack was one of the first people to discover LBRY and took to it so fast he may understand more about it than anyone. He has Asperger\'s Syndrome and is actively involved in the autism community.</p>';
       case 'lbry':
       default:
         return '<p>Much of our writing is a collaboration between LBRY team members, so we use SamueL BRYan to share credit. Sam has become a friend... an imaginary friend... even though we\'re adults...</p>';
