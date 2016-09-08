@@ -2,7 +2,7 @@
 author: reilly
 title: 'All Mashed Up'
 date: '2016-09-08 00:06:18'
-cover: 'animalrobot.jpg'
+cover: 'animalrobot1.png'
 ---
 New week, new subwoofer. We’re so excited to share this artist with you on LBRY.
 
