@@ -19,11 +19,12 @@ class Post
     {
       throw new LogicException('Cannot load a post without a path.');
     }
+
     $postType = $pathTokens[count($pathTokens) - 2];
     $filename = $pathTokens[count($pathTokens) - 1];
     $isRelative = $relativeOrAbsolutePath[0] != '/';
     $slug = strpos($filename, '.md') !== false ? static::getSlugFromFilename($filename) : $filename;
-    $path = ($isRelative ? ROOT_DIR . '/posts/' : '') .
+    $path = ($isRelative ? ContentActions::CONTENT_DIR . '/' : '') .
               $relativeOrAbsolutePath .
               (substr($filename, -3) !== '.md' ? '.md' : '');
 
@@ -366,7 +367,7 @@ class Post
     if (!isset(static::$slugMap[$postType]))
     {
       static::$slugMap[$postType] = [];
-      foreach(glob(ROOT_DIR . '/posts/' . $postType . '/*.md') as $file)
+      foreach(glob(ContentActions::CONTENT_DIR . '/' . $postType . '/*.md') as $file)
       {
         static::$slugMap[$postType][static::getSlugFromFilename($file)] = $file;
       }

@@ -7,14 +7,19 @@ class ContentActions extends Actions
     SLUG_NEWS = 'news',
     SLUG_FAQ = 'faq',
     SLUG_PRESS = 'press',
+    SLUG_BOUNTY = 'bounty',
 
     URL_NEWS = '/' . self::SLUG_NEWS,
     URL_FAQ = '/' . self::SLUG_FAQ,
     URL_PRESS = '/' . self::SLUG_PRESS,
+    URL_BOUNTY = '/' . self::SLUG_BOUNTY,
 
-    VIEW_FOLDER_NEWS = ROOT_DIR . '/posts/' . self::SLUG_NEWS,
-    VIEW_FOLDER_FAQ = ROOT_DIR . '/posts/' . self::SLUG_FAQ,
-    VIEW_FOLDER_PRESS = ROOT_DIR . '/posts/' . self::SLUG_PRESS;
+    CONTENT_DIR = ROOT_DIR . '/content',
+
+    VIEW_FOLDER_NEWS = self::CONTENT_DIR . '/' . self::SLUG_NEWS,
+    VIEW_FOLDER_FAQ = self::CONTENT_DIR . '/' . self::SLUG_FAQ,
+    VIEW_FOLDER_BOUNTY = self::CONTENT_DIR . '/' . self::SLUG_BOUNTY,
+    VIEW_FOLDER_PRESS = self::CONTENT_DIR . '/' . self::SLUG_PRESS;
 
   public static function executeHome(): array
   {
@@ -133,7 +138,61 @@ class ContentActions extends Actions
     return ['content/press-post', ['post' => $post]];
   }
 
-    public static function executePressKit(): array
+  public static function executeBounty(string $slug = null): array
+  {
+    Response::enableHttpCache();
+
+    if ($slug)
+    {
+      list($metadata, $postHtml) = View::parseMarkdown(ContentActions::VIEW_FOLDER_BOUNTY . '/' . $slug . '.md');
+      if (!$postHtml)
+      {
+        return NavActions::execute404();
+      }
+
+      return ['bounty/show', [
+        'postHtml' => $postHtml,
+        'metadata' => $metadata
+      ]];
+    }
+
+    $allBounties = Post::find(static::CONTENT_DIR . '/bounty');
+
+    $allCategories = ['' => ''] + Post::collectMetadata($allBounties, 'category');
+    $allStatuses = ['' => ''] + array_merge(Post::collectMetadata($allBounties, 'status'), ['complete' => 'unavailable']);
+
+    $selectedStatus = Request::getParam('status', 'available');
+    $selectedCategory = Request::getParam('category');
+
+    $filters = array_filter([
+      'category' => $selectedCategory && isset($allCategories[$selectedCategory]) ? $selectedCategory : null,
+      'status' => $selectedStatus && isset($allStatuses[$selectedStatus]) ? $selectedStatus : null
+    ]);
+
+    $bounties = $filters ? Post::filter($allBounties, $filters) : $allBounties;
+
+    uasort($bounties, function($postA, $postB) {
+      $metadataA = $postA->getMetadata();
+      $metadataB = $postB->getMetadata();
+      $awardA = strpos('-', $metadataA['award']) !== false ? rtrim(explode('-', $metadataA['award'])[0], '+') : $metadataA['award'];
+      $awardB = strpos('-', $metadataB['award']) !== false ? rtrim(explode('-', $metadataB['award'])[0], '+') : $metadataB['award'];
+      if ($awardA != $awardB)
+      {
+        return $awardA > $awardB ? -1 : 1;
+      }
+      return $metadataA['title'] < $metadataB['title'] ? -1 : 1;
+    });
+
+    return ['bounty/list', [
+      'bounties' => $bounties,
+      'categories' => $allCategories,
+      'statuses' => $allStatuses,
+      'selectedCategory' => $selectedCategory,
+      'selectedStatus' => $selectedStatus
+    ]];
+  }
+
+  public static function executePressKit(): array
   {
     $zipFileName = 'lbry-press-kit-' . date('Y-m-d') . '.zip';
     $zipPath     = tempnam('/tmp', $zipFileName);
@@ -165,7 +224,7 @@ class ContentActions extends Actions
       $zip->addFile($productImgPath, '/logo_and_product/' . $imgName);
     }
 
-    foreach (glob(ROOT_DIR . '/posts/bio/*.md') as $bioPath)
+    foreach (glob(ContentActions::CONTENT_DIR . '/bio/*.md') as $bioPath)
     {
       list($metadata, $bioHtml) = View::parseMarkdown($bioPath);
       $zip->addFile($bioPath, '/team_bios/' . $metadata['name'] . ' - ' . $metadata['role'] . '.txt');
