@@ -9,4 +9,4 @@
       </div>
     </section>
   </main>
-<?php echo View::render('nav/_footer') ?>
+<?php echo View::render('nav/_footer', ['showLearnFooter' => true]) ?>
