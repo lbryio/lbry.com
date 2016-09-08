@@ -1,5 +1,5 @@
-<section class="post-author-spotlight cover cover-dark cover-dark-grad">
-  <div class="content content-dark">
+<div class="post-author-spotlight cover cover-light-alt cover-light-alt-grad">
+  <div class="content">
     <div class="row-fluid">
       <div class="span3">
         <img src="/img/team/<?php echo $photoImgSrc ?>" alt="<?php echo __('Photo of %name%', ['%name%' => $authorName]) ?>"/>
@@ -11,4 +11,4 @@
       </div>
     </div>
   </div>
-</section>
+</div>

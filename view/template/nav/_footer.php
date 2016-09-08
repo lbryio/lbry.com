@@ -2,7 +2,7 @@
   <?php define('FOOTER_RENDERED', true) ?>
   <div class="footer">
     <?php if ($showLearnFooter): ?>
-      <?php echo View::render('nav/_learnFooter', ['isDark' => $isDark]) ?>
+      <?php echo View::render('nav/_learnFooter') ?>
     <?php endif ?>
     <div class="footer-standard">
       <div class="content">

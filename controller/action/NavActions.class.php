@@ -17,7 +17,6 @@ class NavActions extends Actions
   public static function prepareFooterPartial(array $vars)
   {
     return $vars + [
-      'isDark' => false,
       'showLearnFooter' => false
     ];
   }
@@ -26,13 +25,6 @@ class NavActions extends Actions
   {
     $vars += ['selectedItem' => static::getNavUri()];
     return $vars;
-  }
-
-  public static function prepareLearnFooterPartial(array $vars)
-  {
-    return $vars + [
-      'isDark' => true
-    ];
   }
 
   public static function execute400(array $vars)

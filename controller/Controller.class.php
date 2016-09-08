@@ -168,7 +168,7 @@ class Controller
 
   public static function shutdown()
   {
-    foreach(static::$queuedFunctions as $fn)
+    while($fn = array_shift(static::$queuedFunctions))
     {
       call_user_func($fn);
     }

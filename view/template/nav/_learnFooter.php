@@ -1,12 +1,12 @@
-<div class="cover <?php echo $isDark ? 'cover-dark cover-dark-grad' : 'cover-light-alt cover-light-alt-grad' ?> ">
-  <div class="content <?php echo $isDark ? 'content-dark' : 'content-light' ?>">
+<div class="cover cover-dark cover-dark-grad">
+  <div class="content content-dark">
     <div class="row-fluid">
       <div class="span6">
         <h3><?php echo __('publish.next') ?></h3>
         <table class="table-layout">
           <tr>
             <td>
-              <a href="/get" class="<?php echo $isDark ? 'btn-alt' : 'btn-primary' ?> btn-full-width"><?php echo __('global.get') ?></a>
+              <a href="/get" class="btn-alt btn-full-width"><?php echo __('global.get') ?></a>
             </td>
             <td>
               <?php echo __('publish.abundance') ?>
@@ -29,7 +29,7 @@
           <?php if (Request::getRelativeUri() != '/team'): ?>
             <li>Find out about <a href="/team" class="link-primary">the team behind LBRY</a>.</li>
           <?php endif ?>
-          <?php if (strpos(Request::getRelativeUri(), '/news') === false): ?>
+          <?php if (strpos(Request::getRelativeUri(), ContentActions::URL_NEWS) === false): ?>
             <li>Check out the latest <a href="/news" class="link-primary">news</a>.</li>
           <?php endif ?>
         </ul>
