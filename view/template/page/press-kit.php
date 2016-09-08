@@ -72,3 +72,5 @@
     <?php endforeach ?>
   </div>
 </main>
+
+<?php echo View::render('nav/_footer') ?>
