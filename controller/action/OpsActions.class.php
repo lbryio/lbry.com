@@ -40,17 +40,17 @@ class OpsActions extends Actions
 
   public static function executeLogUpload(): array
   {
-    $log = isset($_POST['log']) ? urldecode($_POST['log']) : null;
-    if (isset($_POST['name']))
+    $log = Request::getPostParam('log') ? urldecode(Request::getPostParam('log')) : null;
+    if (Request::getPostParam('name'))
     {
-      $name = substr(trim(urldecode($_POST['name'])), 0, 50);
+      $name = substr(trim(urldecode(Request::getPostParam('name'))), 0, 50);
     }
-    elseif (isset($_POST['date']))
+    elseif (Request::getPostParam('date'))
     {
-      $name = substr(trim(urldecode($_POST['date'])), 0, 20) . '_' .
-              substr(trim(urldecode($_POST['hash'])), 0, 20) . '_' .
-              substr(trim(urldecode($_POST['sys'])), 0, 50) . '_' .
-              substr(trim(urldecode($_POST['type'])), 0, 20);
+      $name = substr(trim(urldecode(Request::getPostParam('date'))), 0, 20) . '_' .
+              substr(trim(urldecode(Request::getPostParam('hash'))), 0, 20) . '_' .
+              substr(trim(urldecode(Request::getPostParam('sys'))), 0, 50) . '_' .
+              substr(trim(urldecode(Request::getPostParam('type'))), 0, 20);
     }
     else
     {

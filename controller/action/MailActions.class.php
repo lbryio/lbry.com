@@ -1,42 +1,36 @@
 <?php
 
-/**
- * Description of MailActions
- *
- * @author jeremy
- */
 class MailActions extends Actions
 {
   public static function executeListSubscribe()
   {
-    $nextUrl = isset($_POST['returnUrl']) && $_POST['returnUrl'] ? $_POST['returnUrl'] : '/join-list';
+    $nextUrl = Request::getPostParam('returnUrl', '/join-list');
 
     if (!Request::isPost())
     {
       return Controller::redirect($nextUrl);
     }
 
-    Session::set(Session::KEY_LIST_SUB_SIGNATURE, $_POST['listSig'] ?? true);
+    Session::set(Session::KEY_LIST_SUB_SIGNATURE, Request::getPostParam('listSig', true));
 
-    $email = $_POST['email'];
+    $email = Request::getPostParam('email');
     if (!$email|| !filter_var($email, FILTER_VALIDATE_EMAIL))
     {
       Session::set(Session::KEY_LIST_SUB_ERROR, $email ? __('Please provide a valid email address.') : __('Please provide an email address.'));
     }
-    elseif (!$_POST['listId'])
+    elseif (!Request::getPostParam('listId'))
     {
       Session::set(Session::KEY_LIST_SUB_ERROR, __('List not provided.'));
     }
     else
     {
-      $mcListId = $_POST['listId'];
-      $mergeFields = isset($_POST['mergeFields']) ? (unserialize($_POST['mergeFields']) ?: []) : [];
+      $mcListId = htmlspecialchars(Request::getPostParam('listId'));
+      $mergeFields = Request::getPostParam('mergeFields') ? (unserialize(Request::getPostParam('mergeFields')) ?: []) : [];
       try
       {
         static::subscribeToMailchimp($email, $mcListId, $mergeFields);
-        Session::set(Session::KEY_MAILCHIMP_LIST_IDS, array_merge(Session::get(Session::KEY_MAILCHIMP_LIST_IDS, []), [$mcListId]));
         Session::set(Session::KEY_LIST_SUB_SUCCESS, true);
-        Session::set(Session::KEY_LIST_SUB_FB_EVENT, $_POST['fbEvent'] ?? null);
+        Session::set(Session::KEY_LIST_SUB_FB_EVENT, Request::getPostParam('fbEvent') ?? null);
       }
       catch (MailchimpSubscribeException $e)
       {

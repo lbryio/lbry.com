@@ -14,6 +14,11 @@ class Request
     return $_POST[$key] ?? $_GET[$key] ?? $default;
   }
 
+  public static function getPostParam(string $key, $default = null)
+  {
+    return $_POST[$key] ?? $default;
+  }
+
   public static function getMethod(): string
   {
     if (!static::$method)

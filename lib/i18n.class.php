@@ -8,11 +8,6 @@ function __($msg, $args = [])
   return strtr(i18n::translate($msg), $args);
 }
 
-/**
- * Description of i18n
- *
- * @author jeremy
- */
 class i18n
 {
   protected static

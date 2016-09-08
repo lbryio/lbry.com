@@ -1,10 +1,5 @@
 <?php
 
-/**
- * Description of Response
- *
- * @author jeremy
- */
 class Response
 {
   const HEADER_STATUS   = 'Status';

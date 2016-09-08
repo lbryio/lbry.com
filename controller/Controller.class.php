@@ -100,6 +100,7 @@ class Controller
       '/why'                       => '/learn',
       '/feedback'                  => '/learn',
       '/faq/when-referral-payouts' => '/faq/referrals',
+      '/news/meet-the-lbry-founders' => '/team',
     ];
 
     $tempRedirects = [
