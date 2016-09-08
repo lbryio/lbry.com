@@ -143,7 +143,7 @@ class Prefinery
   {
     $apiKey = Config::get('prefinery_key');
     return static::decodePrefineryResponse(
-      Curl::post(static::DOMAIN . static::PREFIX . $endpoint . '.json?api_key=' . $apiKey, $data, static::$curlOptions),
+      Curl::post(static::DOMAIN . static::PREFIX . $endpoint . '.json?api_key=' . $apiKey, $data, array_merge(static::$curlOptions, ['retry' => 3])),
       $allowEmptyResponse
     );
   }
