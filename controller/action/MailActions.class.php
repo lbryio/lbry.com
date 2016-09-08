@@ -30,7 +30,7 @@ class MailActions extends Actions
     else
     {
       $mcListId = $_POST['listId'];
-      $mergeFields = isset($_POST['mergeFields']) ? unserialize($_POST['mergeFields']) : [];
+      $mergeFields = isset($_POST['mergeFields']) ? (unserialize($_POST['mergeFields']) ?: []) : [];
       try
       {
         static::subscribeToMailchimp($email, $mcListId, $mergeFields);
