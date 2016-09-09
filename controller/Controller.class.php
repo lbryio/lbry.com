@@ -110,6 +110,7 @@ class Controller
       '/plan.pdf'      => 'https://www.dropbox.com/s/uevjrwnyr672clj/lbry-pln.pdf?dl=1',
       '/get/lbry.dmg'  => DownloadActions::getDownloadUrl(DownloadActions::OS_OSX) ?: '/get',
       '/get/lbry.deb'  => DownloadActions::getDownloadUrl(DownloadActions::OS_LINUX) ?: '/get',
+      '/get/lbry.msi'  => DownloadActions::getDownloadUrl(DownloadActions::OS_WINDOWS) ?: '/get',
     ];
 
     foreach ([302 => $tempRedirects, 301 => $permanentRedirects] as $code => $redirects)
