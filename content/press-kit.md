@@ -17,11 +17,12 @@ LBRY uses blockchain technology to provide a new way for people to publish and s
 
 ### Media Mentions
 
+- [Blockchain content sharing app LBRY declares independent from Google, Apple and Amazon](http://www.ibtimes.co.uk/blockchain-content-sharing-app-lbry-declares-independent-google-apple-amazon-1568755), **International Business Times, July 2016**
 - [LBRY and decentralised apps - an interview with Jeremy Kauffman](http://goodtechnologyproject.org/blog/2016/02/07/lbry-and-decentralised-apps-an-interview-with-jeremy-kauffman/), **Good Technology Project, February 2016**
 - [The Appcoin Revolution: Interview with Mike Vine of LBRY](http://cointelegraph.com/news/the-appcoin-revolution-interview-with-mike-vine-of-lbry), **CoinTelegraph, February 2016**
 - [Alexandria vs LBRY - Which will be the file sharing application of the next generation?](http://bravenewcoin.com/news/alexandria-vs-lbry-which-will-be-the-file-sharing-application-of-the-next-generation/), **BraveNewCoin, December 2015**
 - [LBRY: The Lovechild of Bitcoin, BitTorrent & Storj](http://cointelegraph.com/news/lbry-the-lovechild-of-bitcoin-bittorrent-storj), **CoinTelegraph, October 2015**
-- [This New Hampshire Startup's Plan to Fight Netflix is Equal Parts BitTorrent and Bitcoin](http://bostinno.streetwise.co/2015/09/18/bitcoin-startups-lbry-combines-bittorrent-and-bitcoin-to-fight-netflix/), **Bostinno, September 2015**
+- [This New Hampshire Startup's Plan to Fight Netflix is Equal Parts BitTorrent and Bitcoin](http://bostinno.streetwise.co/2015/09/18/bitcoin-startups-lbry-combines-bittorrent-and-bitcoin-to-fight-netflix/), **BostInno, September 2015**
 
 ### Contact & Social Media
 

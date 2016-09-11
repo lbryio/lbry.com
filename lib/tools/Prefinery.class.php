@@ -26,7 +26,7 @@ class Prefinery
     $apcEnabled = extension_loaded('apc') && ini_get('apc.enabled');
     if ($useApc && $apcEnabled)
     {
-      $cached = apc_fetch('prefinery-user-'.$emailOrId, $success);
+      $cached = apc_fetch('prefinery-user-' . $emailOrId, $success);
       if ($success)
       {
         return $cached;
@@ -39,7 +39,7 @@ class Prefinery
       unset($user['invitation_code']); // so we dont leak it
       if ($useApc && $apcEnabled)
       {
-        apc_store('prefinery-user-'.$emailOrId, $user, 3600);
+        apc_store('prefinery-user-' . $emailOrId, $user, 3600);
       }
     }
 
@@ -76,11 +76,11 @@ class Prefinery
     if (!$user)
     {
       // dont record ip for lbry.io addresses, for testing
-      $ip = !preg_match('/@lbry\.io$/', $email) ? Request::getOriginalIp() : null;
-      $ua = Request::getUserAgent();
+      $ip   = !preg_match('/@lbry\.io$/', $email) ? Request::getOriginalIp() : null;
+      $ua   = Request::getUserAgent();
       $user = Prefinery::createTester(array_filter([
         'email'           => $email,
-        'status'          => $inviteCode ? static::STATE_ACTIVE: static::STATE_APPLIED, # yes, has to be ACTIVE to validate invite code
+        'status'          => $inviteCode ? static::STATE_ACTIVE : static::STATE_APPLIED, # yes, has to be ACTIVE to validate invite code
         'invitation_code' => $inviteCode,
         'referrer_id'     => $referrerId,
         'profile'         => ['ip' => $ip, 'user_agent' => $ua]
@@ -116,15 +116,15 @@ class Prefinery
     $apcEnabled = extension_loaded('apc') && ini_get('apc.enabled');
     if ($apcEnabled)
     {
-      apc_delete('prefinery-user-'.$testerData['id']);
+      apc_delete('prefinery-user-' . $testerData['id']);
     }
     return static::put('/testers/' . $testerData['id'], ['tester' => array_diff_key(array_filter($testerData), ['id' => null])], false);
   }
 
   protected static function put($endpoint, array $data = [])
   {
-    $apiKey = Config::get('prefinery_key');
-    $options = static::$curlOptions;
+    $apiKey               = Config::get('prefinery_key');
+    $options              = static::$curlOptions;
     $options['headers'][] = 'X-HTTP-Method-Override: PUT';
     return static::decodePrefineryResponse(
       Curl::put(static::DOMAIN . static::PREFIX . $endpoint . '.json?api_key=' . $apiKey, $data, $options)
@@ -133,17 +133,31 @@ class Prefinery
 
   protected static function get($endpoint, array $data = [])
   {
-    $apiKey = Config::get('prefinery_key');
-    return static::decodePrefineryResponse(
-      Curl::get(static::DOMAIN . static::PREFIX . $endpoint . '.json?api_key=' . $apiKey, $data, static::$curlOptions)
-    );
+    $apiKey   = Config::get('prefinery_key');
+    $tries    = 0;
+    $response = null;
+
+    while (!$response && $tries < 3)
+    {
+      $tries++;
+      list($status, $headers, $response) = Curl::doCurl(Curl::GET,
+        static::DOMAIN . static::PREFIX . $endpoint . '.json?api_key=' . $apiKey, $data, array_merge(static::$curlOptions, ['retry' => 3]));
+
+      if (!$response)
+      {
+        Controller::queueToRunAfterResponse(function() use($status, $headers, $tries) {
+          Slack::sendErrorIfProd('Empty prefinery get response. Try ' . $tries . '. Status: ' . $status . '. Headers: ' . var_export($headers, true));
+        });
+      }
+    }
+    return static::decodePrefineryResponse($response);
   }
 
   protected static function post($endpoint, array $data = [], $allowEmptyResponse = true)
   {
     $apiKey = Config::get('prefinery_key');
     return static::decodePrefineryResponse(
-      Curl::post(static::DOMAIN . static::PREFIX . $endpoint . '.json?api_key=' . $apiKey, $data, static::$curlOptions),
+      Curl::post(static::DOMAIN . static::PREFIX . $endpoint . '.json?api_key=' . $apiKey, $data, array_merge(static::$curlOptions, ['retry' => 3])),
       $allowEmptyResponse
     );
   }

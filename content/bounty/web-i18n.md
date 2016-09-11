@@ -2,7 +2,7 @@
 category: web
 title: Internationalization of lbry.io
 award: 1000
-status: available
+status: complete
 date: '2016-07-01'
 ---
 

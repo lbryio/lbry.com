@@ -1,10 +1,5 @@
 <?php
 
-/**
- * Description of Response
- *
- * @author jeremy
- */
 class Response
 {
   const HEADER_STATUS   = 'Status';
@@ -129,7 +124,7 @@ class Response
       $content = static::getContent();
       if (strlen($content) > 256) // not worth it for really short content
       {
-        $compressed = gzencode($content, 6);
+        $compressed = gzencode($content, 1);
         static::setContent($compressed);
         static::setHeader(static::HEADER_CONTENT_LENGTH, strlen($compressed));
         static::setHeader(static::HEADER_CONTENT_ENCODING, 'gzip');
@@ -204,7 +199,7 @@ class Response
       foreach (preg_split('/\s*,\s*/', $cacheControl) as $tmp)
       {
         $tmp                     = explode('=', $tmp);
-        $currentHeaders[$tmp[0]] = isset($tmp[1]) ? $tmp[1] : null;
+        $currentHeaders[$tmp[0]] = $tmp[1] ?? null;
       }
     }
     $currentHeaders[strtr(strtolower($name), '_', '-')] = $value;
@@ -236,7 +231,7 @@ class Response
 
   public static function getHeader($name, $default = null)
   {
-    return isset(static::$headers[$name]) ? static::$headers[$name] : $default;
+    return static::$headers[$name] ?? $default;
   }
 
   public static function getHeaders(): array
@@ -350,7 +345,7 @@ class Response
       '505' => 'HTTP Version Not Supported',
     ];
 
-    return isset($statusTexts[$code]) ? $statusTexts[$code] : null;
+    return $statusTexts[$code] ?? null;
   }
 
   protected static function normalizeHeaderName($name)

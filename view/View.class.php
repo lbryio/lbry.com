@@ -102,7 +102,7 @@ class View
 
     if (static::isMarkdown($template))
     {
-      return ROOT_DIR . '/posts/' . $template;
+      return ContentActions::CONTENT_DIR . '/' . $template;
     }
 
     return ROOT_DIR . '/view/template/' . $template . '.php';

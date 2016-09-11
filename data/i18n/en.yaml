@@ -72,8 +72,7 @@ learn:
   100: LBRY in 100 Seconds
   art: Art in the Internet Age
   essay: Read the Essay
-  exchange: Bittrex Exchange
-  exchange2: Poloniex Exchange
+  exchange_faq: Buy/Sell LBRY Credits
   explore: Explore
   explorer: Block Explorer
   how: Learn how LBRY will forever improve how we create and share with one another.
@@ -94,6 +93,11 @@ news:
   next: Next
   prev: Previous
 page:
+  badmethod: HTTP Method Not Allowed
+  badmethod_details: Did you GET when you should have POSTed? Or vice versa?
+  badrequest: Bad Request - Your browser sent a request that this server could not understand
+  badrequest_details: The client should not repeat the request without modifications.
+  error_contact_us: If this problem persists or requires immediate attention, please contact %email%.
   faq:
     back: Back to FAQ
     header: Frequently Asked Questions

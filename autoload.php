@@ -11,7 +11,7 @@ class Autoloader
     }
 
     $class = strtolower($class);
-    $path = isset(static::$classes[$class]) ? static::$classes[$class] : false;
+    $path = static::$classes[$class] ?? false;
 
     if ($path)
     {

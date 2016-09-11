@@ -1,10 +1,5 @@
 <?php
 
-/**
- * Description of NavActions
- *
- * @author jeremy
- */
 class NavActions extends Actions
 {
   protected static $navUri;
@@ -22,7 +17,6 @@ class NavActions extends Actions
   public static function prepareFooterPartial(array $vars)
   {
     return $vars + [
-      'isDark' => false,
       'showLearnFooter' => false
     ];
   }
@@ -36,10 +30,19 @@ class NavActions extends Actions
     ];
   }
 
-  public static function prepareLearnFooterPartial(array $vars)
+  public static function execute400(array $vars)
   {
-    return $vars + [
-      'isDark' => true
-    ];
+    Response::setStatus(400);
+    return ['page/400', ['error' => $vars['error'] ?? null]];
+  }
+
+  public static function execute404()
+  {
+//    $uri = Request::getRelativeUri();
+//    Controller::queueToRunAfterResponse(function() use($uri) {
+//      Slack::sendErrorIfProd('404 for url ' . $uri, false);
+//    });
+    Response::setStatus(404);
+    return ['page/404'];
   }
 }

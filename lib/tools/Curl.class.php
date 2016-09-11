@@ -36,6 +36,7 @@ class Curl
       'password'         => null,
       'cookie'           => null,
       'json_data'        => false,
+      'retry'            => false,
     ];
 
     $invalid = array_diff_key($options, $defaults);
@@ -63,13 +64,14 @@ class Curl
       throw new LogicException('Unable to initialize cURL');
     }
 
+    $urlWithParams = $url;
     if ($method == static::GET && $params)
     {
-      $url .= (strpos($url, '?') === false ? '?' : '&') . http_build_query($params);
+      $urlWithParams .= (strpos($urlWithParams, '?') === false ? '?' : '&') . http_build_query($params);
     }
 
     curl_setopt_array($ch, [
-      CURLOPT_URL            => $url,
+      CURLOPT_URL            => $urlWithParams,
       CURLOPT_HTTPHEADER     => $options['headers'],
       CURLOPT_RETURNTRANSFER => true,
       //      CURLOPT_FAILONERROR    => true,
@@ -141,6 +143,11 @@ class Curl
 
     if (curl_errno($ch))
     {
+      if ($options['retry'] && is_numeric($options['retry']) && $options['retry'] > 0)
+      {
+        $options['retry'] -= 1;
+        return static::doCurl($method, $url, $params, $options);
+      }
       throw new CurlException($ch);
     }
 

@@ -21,7 +21,7 @@ class DownloadActions extends Actions
 
   public static function executeGet()
   {
-    $email = static::param('e');
+    $email = Request::getParam('e');
     $user = [];
 
     if ($email)
@@ -49,7 +49,7 @@ class DownloadActions extends Actions
 
     if (!Session::get(Session::KEY_DOWNLOAD_ALLOWED))
     {
-      return ['download/get', ['os' => static::guessOs()]];
+      return ['download/get'];
     }
 
     $osChoices = static::getOses();
@@ -75,8 +75,8 @@ class DownloadActions extends Actions
 
   public static function executeSignup()
   {
-    $email = static::param('email');
-    $code  = static::param('code');
+    $email = Request::getParam('email');
+    $code  = Request::getParam('code');
 
     if (!$email || !filter_var($email, FILTER_VALIDATE_EMAIL))
     {
@@ -84,7 +84,7 @@ class DownloadActions extends Actions
     }
     else
     {
-      $referrerId = static::param('referrer_id');
+      $referrerId = Request::getParam('referrer_id');
       $failure    = false;
       try
       {
@@ -136,9 +136,9 @@ class DownloadActions extends Actions
   public static function prepareSignupPartial(array $vars)
   {
     return $vars + [
-      'defaultEmail'    => static::param('e'),
+      'defaultEmail'    => Request::getParam('e'),
       'allowInviteCode' => true,
-      'referralCode'    => static::param('r', '')
+      'referralCode'    => Request::getParam('r', '')
     ];
   }
 
@@ -169,7 +169,7 @@ class DownloadActions extends Actions
   protected static function guessOs()
   {
     //if exact OS is requested, use that
-    $uri = strtok(Request::getRelativeUri(), '?');
+    $uri = Request::getRelativeUri();
     foreach (static::getOses() as $os => $osChoice)
     {
       if ($osChoice[0] == $uri)
@@ -178,7 +178,7 @@ class DownloadActions extends Actions
       }
     }
 
-    if (static::isForRobot())
+    if (Request::isRobot())
     {
       return null;
     }
@@ -240,8 +240,9 @@ class DownloadActions extends Actions
     foreach ($releaseData['assets'] as $asset)
     {
       if (
-        ($os == static::OS_LINUX && in_array($asset['content_type'], ['application/x-debian-package', 'application/x-deb'])) ||
-        ($os == static::OS_OSX && in_array($asset['content_type'], ['application/x-diskcopy', 'application/x-apple-diskimage']))
+        ($os == static::OS_LINUX && substr($asset['name'], -4) == '.deb') ||
+        ($os == static::OS_OSX && substr($asset['name'], -4) == '.dmg') ||
+        ($os == static::OS_WINDOWS && substr($asset['name'], -4) == '.msi')
       )
       {
         return $asset['browser_download_url'];

@@ -53,7 +53,7 @@
       </section>
     <?php endforeach ?>
     <h3>{{press.advisory}}</h3>
-    <?php foreach(['alex-tabarrok', 'stephan-kinsella', 'michael-huemer'] as $person): ?>
+    <?php foreach(['alex-tabarrok', 'ray-carballada', 'stephan-kinsella', 'michael-huemer'] as $person): ?>
       <?php list($metadata, $bioHtml) = View::parseMarkdown('bio/' . $person . '.md') ?>
       <section class="row-fluid">
         <div class="span3">
@@ -72,3 +72,5 @@
     <?php endforeach ?>
   </div>
 </main>
+
+<?php echo View::render('nav/_footer') ?>
