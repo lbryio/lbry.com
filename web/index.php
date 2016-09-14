@@ -25,8 +25,8 @@ if (!IS_PRODUCTION)
 
 try
 {
-  i18n::register();
   Session::init();
+  i18n::register();
   if (!IS_PRODUCTION)
   {
     View::compileCss();

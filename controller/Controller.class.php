@@ -90,6 +90,7 @@ class Controller
 
     $router->post('/postcommit', 'OpsActions::executePostCommit');
     $router->post('/log-upload', 'OpsActions::executeLogUpload');
+    $router->post('/set-culture', 'i18nActions::setCulture');
     $router->post(['/list-subscribe', 'list-subscribe'], 'MailActions::executeListSubscribe');
 
     $permanentRedirects = [

@@ -162,4 +162,8 @@ $(document).ready(function() {
       });
     });
   }
+
+  $('#language-dropdown').on('change', function() {
+    $(this).closest('form').submit();
+  });
 });
