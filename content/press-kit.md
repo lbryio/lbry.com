@@ -17,7 +17,7 @@ LBRY uses blockchain technology to provide a new way for people to publish and s
  
 ###Official Press Releases
 
-- [LBRY Announces $500K Raise to Build the First Community-Controlled YouTube Alternative](https://lbry.io/press/500k-fundraising-round-pillar-vc.md), September 7, 2016
+- [LBRY Announces $500K Raise to Build the First Community-Controlled YouTube Alternative](https://lbry.io/press/500k-fundraising-round-pillar-vc.md), **September 7, 2016**
 
 ### Media Mentions
 
