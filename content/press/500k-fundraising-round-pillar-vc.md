@@ -1,7 +1,9 @@
 ---
 title: LBRY Announces $500K Raise to Build the First Community-Controlled YouTube Alternative
 ---
-MANCHESTER NH – LBRY, a community-controlled content marketplace, today announced a $500K fundraising round. The round is led by Pillar, a Boston-based venture capital firm that focuses on transformative technologies. The company will use this capital primarily to expand its staff and fund development toward a full public release of its consumer app. LBRY’s ultimate goal is for users to have access to every film, song, book, and app ever made – on any device.
+September 7, 2016
+
+MANCHESTER, NH – LBRY, a community-controlled content marketplace, today announced a $500K fundraising round. The round is led by Pillar, a Boston-based venture capital firm that focuses on transformative technologies. The company will use this capital primarily to expand its staff and fund development toward a full public release of its consumer app. LBRY’s ultimate goal is for users to have access to every film, song, book, and app ever made – on any device.
 
 LBRY’s marketplace was science-fiction material just a few short years ago. It was the emergence of Bitcoin and its blockchain technology that laid the groundwork for LBRY’s platform. Using this technology, LBRY enables fans to pay creators directly without relying on an intermediary like Apple, Amazon, or Google. People across the world are all able to use the same system to store and view content, without a single central point of control.
 
