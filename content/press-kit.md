@@ -14,6 +14,10 @@ LBRY uses blockchain technology to provide a new way for people to publish and s
 - [LBRY in 100 Seconds (Video)](https://www.youtube.com/watch?v=qkUA0vTWM7g)
 - [How Does LBRY Work, Exactly?](https://lbry.io/news/introducing-lbry-the-bitcoin-of-content)
 - [Why Doesn't LBRY Just Use Bitcoin?](https://lbry.io/news/why-doesnt-lbry-just-use-bitcoin)
+ 
+###Official Press Releases
+
+- [LBRY Announces $500K Raise to Build the First Community-Controlled YouTube Alternative](https://lbry.io/press/500k-fundraising-round-pillar-vc.md), September 7, 2016
 
 ### Media Mentions
 
