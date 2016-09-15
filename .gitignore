@@ -9,4 +9,4 @@
 nbproject
 composer
 .ht*
-vendor/
+/vendor/
