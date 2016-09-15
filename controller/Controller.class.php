@@ -90,17 +90,20 @@ class Controller
 
     $router->post('/postcommit', 'OpsActions::executePostCommit');
     $router->post('/log-upload', 'OpsActions::executeLogUpload');
-    $router->post(['/list-subscribe', 'list-subscribe'], 'MailActions::executeListSubscribe');
+
+    $router->any('/list/subscribe', 'MailActions::executeSubscribe');
+    $router->get('/list/confirm/{hash}', 'MailActions::executeConfirm');
 
     $permanentRedirects = [
-      '/lbry-osx-latest.dmg'       => '/get',
-      '/lbry-linux-latest.deb'     => '/get',
-      '/dl/lbry_setup.sh'          => '/get',
-      '/art'                       => '/what',
-      '/why'                       => '/learn',
-      '/feedback'                  => '/learn',
-      '/faq/when-referral-payouts' => '/faq/referrals',
+      '/lbry-osx-latest.dmg'         => '/get',
+      '/lbry-linux-latest.deb'       => '/get',
+      '/dl/lbry_setup.sh'            => '/get',
+      '/art'                         => '/what',
+      '/why'                         => '/learn',
+      '/feedback'                    => '/learn',
+      '/faq/when-referral-payouts'   => '/faq/referrals',
       '/news/meet-the-lbry-founders' => '/team',
+      '/join-list'                   => '/list/subscribe',
     ];
 
     $tempRedirects = [
@@ -170,7 +173,7 @@ class Controller
 
   public static function shutdown()
   {
-    while($fn = array_shift(static::$queuedFunctions))
+    while ($fn = array_shift(static::$queuedFunctions))
     {
       call_user_func($fn);
     }

@@ -7,5 +7,6 @@
 /log
 /web/zohoverify
 nbproject
-
+composer
 .ht*
+vendor/

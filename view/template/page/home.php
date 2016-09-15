@@ -27,14 +27,7 @@
         <div class="row-fluid">
           <div class="span4">
             <h3><?php echo __('email.updates') ?></h3>
-            <?php echo View::render('mail/_joinList', [
-              'submitLabel' => __('email.go'),
-              'listId' => Mailchimp::LIST_GENERAL_ID,
-              'mergeFields' => ['CLI' => 'No'],
-              'meta' => true,
-              'returnUrl' => '/',
-              'btnClass' => 'btn-alt'
-            ]) ?>
+            <?php echo View::render('mail/_subscribeForm', ['submitLabel' => __('email.go'), 'btnClass' => 'btn-alt']) ?>
           </div>
           <div class="span4 text-center">
             <div class="fb-page" data-href="https://www.facebook.com/lbryio" data-height="300" data-small-header="false" data-width="300"

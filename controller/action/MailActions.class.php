@@ -2,77 +2,57 @@
 
 class MailActions extends Actions
 {
-  public static function executeListSubscribe()
+  public static function executeSubscribe()
   {
-    $nextUrl = Request::getPostParam('returnUrl', '/join-list');
-
     if (!Request::isPost())
     {
-      return Controller::redirect($nextUrl);
+      return ['mail/subscribe'];
     }
 
-    Session::set(Session::KEY_LIST_SUB_SIGNATURE, Request::getPostParam('listSig', true));
-
+    $nextUrl = Request::getPostParam('returnUrl', '/');
     $email = Request::getPostParam('email');
-    if (!$email|| !filter_var($email, FILTER_VALIDATE_EMAIL))
+    if (!$email || !filter_var($email, FILTER_VALIDATE_EMAIL))
     {
-      Session::set(Session::KEY_LIST_SUB_ERROR, $email ? __('Please provide a valid email address.') : __('Please provide an email address.'));
-    }
-    elseif (!Request::getPostParam('listId'))
-    {
-      Session::set(Session::KEY_LIST_SUB_ERROR, __('List not provided.'));
-    }
-    else
-    {
-      $mcListId = htmlspecialchars(Request::getPostParam('listId'));
-      $mergeFields = Request::getPostParam('mergeFields') ? (unserialize(Request::getPostParam('mergeFields')) ?: []) : [];
-      try
-      {
-        static::subscribeToMailchimp($email, $mcListId, $mergeFields);
-        Session::set(Session::KEY_LIST_SUB_SUCCESS, true);
-        Session::set(Session::KEY_LIST_SUB_FB_EVENT, Request::getPostParam('fbEvent') ?? null);
-      }
-      catch (MailchimpSubscribeException $e)
-      {
-        Session::set(Session::KEY_LIST_SUB_SUCCESS, false);
-        Session::set(Session::KEY_LIST_SUB_ERROR, $e->getMessage());
-      }
+      Session::set(Session::KEY_LIST_SUB_ERROR,
+        $email ? __('Please provide a valid email address.') : __('Please provide an email address.'));
+
+      return Controller::redirect(Request::getRelativeUri());
     }
 
-    return Controller::redirect($nextUrl);
+    $sent = Mailgun::sendSubscriptionConfirmation($email);
+    if (!$sent)
+    {
+      return ['mail/subscribe', ['error' => __('email.subscribe_send_failed')]];
+    }
+
+    return ['mail/subscribe', ['subscribeSuccess' => true, 'nextUrl' => $nextUrl]];
   }
 
-  public static function subscribeToMailchimp($email, $listId, array $mergeFields = [])
+  public static function executeConfirm(string $hash)
   {
-    $mcApi   = new Mailchimp();
-    $success = $mcApi->listSubscribe($listId, $email, $mergeFields, 'html', false);
-    if (!$success)
+    $email = Mailgun::checkConfirmHashAndGetEmail($hash);
+    if ($email === null)
     {
-      throw new MailchimpSubscribeException($mcApi->errorMessage ?: __('Something went wrong adding you to the list.'));
+      return ['mail/subscribe', ['error' => __('email.invalid_confirm_hash')]];
     }
-    return true;
+
+    $outcome = Mailgun::addToMailingList(Mailgun::LIST_GENERAL, $email);
+    if ($outcome !== true)
+    {
+      return ['mail/subscribe', ['error' => $outcome]];
+    }
+
+    return ['mail/subscribe', ['confirmSuccess' => true, 'learnFooter' => true]];
   }
 
-  public static function prepareJoinListPartial(array $vars)
+
+
+  public static function prepareSubscribeFormPartial(array $vars)
   {
-    $vars['listSig'] = md5(serialize($vars));
     $vars += ['btnClass' => 'btn-primary', 'returnUrl' => Request::getRelativeUri()];
 
-    if (Session::get(Session::KEY_LIST_SUB_SIGNATURE) == $vars['listSig'])
-    {
-      $vars['error'] = Session::get(Session::KEY_LIST_SUB_ERROR);
-      Session::unsetKey(Session::KEY_LIST_SUB_ERROR);
-
-      $vars['success'] = Session::get(Session::KEY_LIST_SUB_SUCCESS) ? __('Great success! Welcome to LBRY.') : false;
-      $vars['fbEvent'] = Session::get(Session::KEY_LIST_SUB_FB_EVENT) ?: 'Lead';
-      Session::unsetKey(Session::KEY_LIST_SUB_SUCCESS);
-      Session::unsetKey(Session::KEY_LIST_SUB_FB_EVENT);
-      Session::unsetKey(Session::KEY_LIST_SUB_SIGNATURE);
-    }
-    else
-    {
-      $vars['success'] = false;
-    }
+    $vars['error'] = Session::get(Session::KEY_LIST_SUB_ERROR);
+    Session::unsetKey(Session::KEY_LIST_SUB_ERROR);
 
     return $vars;
   }

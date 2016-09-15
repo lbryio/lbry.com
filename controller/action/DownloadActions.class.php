@@ -86,13 +86,7 @@ class DownloadActions extends Actions
     {
       $referrerId = Request::getParam('referrer_id');
       $failure    = false;
-      try
-      {
-        MailActions::subscribeToMailchimp($email, Mailchimp::LIST_GENERAL_ID);
-      }
-      catch (MailchimpSubscribeException $e)
-      {
-      }
+      Mailgun::sendSubscriptionConfirmation($email);
 
       try
       {

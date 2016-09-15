@@ -55,12 +55,22 @@ download:
 email:
   address: Email
   code: Invite Code
-  disclaimer: You will receive 1-2 messages a month, only from LBRY, Inc. and only about LBRY. You can easily unsubscribe at any time.
+  confirm_email_body: Please confirm your subscription to LBRY updates by clicking the link below.
+  confirm_email_button: Confirm Subscription
+  confirm_email_subject: Confirm Your Subscription to LBRY
+  confirm_success: Great success! Welcome to LBRY.
+  disclaimer: You will receive 1-2 messages a month, only from LBRY Inc. and only about LBRY. You can easily unsubscribe at any time.
   go: Go
+  invalid_confirm_hash: This link is expired or invalid. Please enter your email address again.
   nocode: None, but I want in as soon as possible!
   placeholder: someone@somewhere.com
+  return: Return to LBRY
   subs: Subscribe
   subscribe: Subscribe to our email list
+  subscribe_needs_confirm: We sent you an email with a confirmation link. Click the link to complete your subscription.
+  subscribe_send_failed: Something went wrong. Please enter your email address again.
+  unsubs: unsubscribe
+  unsubscribe: Don't want to stay on the bleeding edge of a content distribution revolution?
   updates: Get Updates
   yescode: "Yes"
 global:
