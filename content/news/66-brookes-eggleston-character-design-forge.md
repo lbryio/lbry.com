@@ -2,7 +2,7 @@
 author: reilly
 title: 'Storytelling Art 101'
 date: '2016-09-15 00:06:00'
-cover: ‘brookes-cover.jpg’
+cover: 'brookes-cover.jpg'
 ---
 LBRY is more than a digital entertainment outlet. A key motivation behind LBRY was enabling global access to lessons from the masters of their craft. We want to share content that empowers everyone to raise the bar.
 
