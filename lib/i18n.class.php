@@ -22,7 +22,7 @@ class i18n
 
     list($language, $country) = explode('_', $culture);
     static::$language = $language;
-    static::$country = $country;
+    static::$country  = $country;
 
     setlocale(LC_MONETARY, $culture . '.UTF-8');
   }
@@ -39,7 +39,7 @@ class i18n
 
   public static function getAllCultures()
   {
-      return static::$cultures;
+    return static::$cultures;
   }
 
   public static function formatCurrency($amount, $currency = 'USD')
@@ -49,7 +49,7 @@ class i18n
 
   public static function formatCredits($amount)
   {
-    return '<span class="formatted-credits">' .  (is_numeric($amount) ? number_format($amount, 1) : $amount) . ' LBC</span>';
+    return '<span class="formatted-credits">' . (is_numeric($amount) ? number_format($amount, 1) : $amount) . ' LBC</span>';
   }
 
   public static function translate($token, $language = null)
@@ -58,10 +58,11 @@ class i18n
     if (!isset(static::$translations[$language]))
     {
       $path = ROOT_DIR . '/data/i18n/' . $language . '.yaml';
+
       static::$translations[$language] = file_exists($path) ? Spyc::YAMLLoadString(file_get_contents($path)) : [];
     }
     $scope = static::$translations[$language];
-    foreach(explode('.', $token) as $level)
+    foreach (explode('.', $token) as $level)
     {
       if (isset($scope[$level]))
       {
@@ -85,7 +86,7 @@ class i18n
 
     //url trumps everything
     $urlTokens = Request::getHost() ? explode('.', Request::getHost()) : [];
-    $code = $urlTokens ? reset($urlTokens) : null;
+    $code      = $urlTokens ? reset($urlTokens) : null;
     if ($code !== 'www')
     {
       $candidates[] = $code;
@@ -96,15 +97,15 @@ class i18n
 
     // then headers
     // http://www.thefutureoftheweb.com/blog/use-accept-language-header
-    if (isset($_SERVER['HTTP_ACCEPT_LANGUAGE']))
+    if (Request::getHttpHeader('Accept-Language'))
     {
       // break up string into pieces (languages and q factors)
-      preg_match_all('/([a-z]{1,8}(-[a-z]{1,8})?)\s*(;\s*q\s*=\s*(1|0\.[0-9]+))?/i', $_SERVER['HTTP_ACCEPT_LANGUAGE'], $lang_parse);
+      preg_match_all('/([a-z]{1,8}(-[a-z]{1,8})?)\s*(;\s*q\s*=\s*(1|0\.[0-9]+))?/i', Request::getHttpHeader('Accept-Language'), $languages);
 
-      if (count($lang_parse[1]))
+      if (isset($languages[1]) && count($languages[1]))
       {
         // create a list like "en" => 0.8
-        $langs = array_combine($lang_parse[1], $lang_parse[4]);
+        $langs = array_combine($languages[1], $languages[4]);
 
         // set default to 1 for any without q factor
         foreach ($langs as $lang => $val)
@@ -121,7 +122,7 @@ class i18n
       }
     }
 
-    foreach($candidates as $candidate)
+    foreach ($candidates as $candidate)
     {
       foreach (static::getAllCultures() as $culture)
       {

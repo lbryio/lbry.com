@@ -26,7 +26,9 @@
   <form action="/set-culture" method="POST">
     <select id="language-dropdown" name="culture">
       <?php foreach ($cultures as $culture): ?>
-        <option <?php echo $culture == $selectedCulture ? 'selected="selected"' : '' ?>><?php echo $culture ?></option>
+        <option value="<?php echo $culture ?>" <?php echo $culture == $selectedCulture ? 'selected="selected"' : '' ?>>
+          <?php echo $culture ?>
+        </option>
       <?php endforeach ?>
     </select>
   </form>
