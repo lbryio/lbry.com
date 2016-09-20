@@ -22,6 +22,7 @@
 <div class="control-item no-label-desktop">
   <a href="https://github.com/lbryio"><span class="btn-label">GitHub</span><span class="icon-github icon-fw"></span></a>
 </div>
+<?php /*
 <div class="control-item no-label-desktop">
   <form action="/set-culture" method="POST">
     <select id="language-dropdown" name="culture">
@@ -33,3 +34,4 @@
     </select>
   </form>
 </div>
+*/ ?>
