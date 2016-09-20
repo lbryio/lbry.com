@@ -94,6 +94,8 @@ class Controller
     $router->any('/list/subscribe', 'MailActions::executeSubscribe');
     $router->get('/list/confirm/{hash}', 'MailActions::executeConfirm');
 
+    $router->post('/set-culture', 'i18nActions::setCulture');
+
     $permanentRedirects = [
       '/lbry-osx-latest.dmg'         => '/get',
       '/lbry-linux-latest.deb'       => '/get',

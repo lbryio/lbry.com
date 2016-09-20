@@ -6,7 +6,8 @@ class Session
         KEY_DOWNLOAD_ALLOWED = 'beta_download_allowed2',
         KEY_PREFINERY_USER_ID = 'prefinery_user_id',
         KEY_PREFINER_USED_CUSTOM_CODE = 'prefinery_used_custom_code',
-        KEY_LIST_SUB_ERROR = 'list_error';
+        KEY_LIST_SUB_ERROR = 'list_error',
+        KEY_USER_CULTURE = 'user_culture';
 
   public static function init()
   {
