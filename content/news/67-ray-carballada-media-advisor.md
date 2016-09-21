@@ -9,7 +9,7 @@ Ray Carballada, our new media advisor, is equally comfortable walking in the wor
 
 ![Ray Carballada, LBRY Media Advisor](/img/news/raycarballada.png)
 
-Ray is a well-established senior business leader in the converging world of digital content, advertising, movies, and social media. As president and CEO of [Alkemy X](http://www.alkemy-x.com/), Ray led the transformation of this small production house into an integrated content company with Fortune 500 companies, TV networks, and motion picture studios as major clients. Some of the well-known companies Ray has worked with include Campbell Soup, Samsung, Pepsi, BMW,  Discovery, Food Network, HBO, Sony, and the Weinstein Company. 
+Ray is a well-established senior business leader in the converging world of digital content, advertising, movies, and social media. As former CEO of [Alkemy X](http://www.alkemy-x.com/), Ray led the transformation of this small production house into an integrated content company with Fortune 500 companies, TV networks, and motion picture studios as major clients. Some of the well-known companies Ray has worked with include Campbell Soup, Samsung, Pepsi, BMW,  Discovery, Food Network, HBO, Sony, and the Weinstein Company. 
 
 Alkemy X also won major awards while Ray was at the helm. The company made INC 5000’s list of the fastest growing companies six times, earned the “Creative Economy Award for Distinction" from the Arts and Business Council of Greater Philadelphia, and garnered 60 Addy and Emmy awards along the way.
 
