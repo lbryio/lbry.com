@@ -10,6 +10,11 @@ class MailActions extends Actions
     }
 
     $nextUrl = Request::getPostParam('returnUrl', '/');
+    if (!$nextUrl || $nextUrl[0] != '/' || !filter_var($nextUrl, FILTER_VALIDATE_URL))
+    {
+      $nextUrl = '/';
+    }
+
     $email = Request::getPostParam('email');
     if (!$email || !filter_var($email, FILTER_VALIDATE_EMAIL))
     {
