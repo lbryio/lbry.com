@@ -1,7 +1,7 @@
 ---
 author: reilly
 title: 'Skate, Relax, Enjoy'
-date: '2016-09-15 00:06:00'
+date: '2016-09-22 00:06:00'
 cover: 'skate-banner.png'
 ---
 This week, we’re keeping it short and sweet with LBRY’s first short film: *SKATE YRSELF CLEAN*.
