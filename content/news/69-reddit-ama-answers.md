@@ -179,6 +179,6 @@ The advantage of getting involved right now is the same as following a local ban
 
 Or get involved because it’s rare to get an opportunity to be part of a project that could reshape the fabric of the internet and creative media for years to come.
 
-Did this FAQ address your concerns? Still think we’re full of it? Sound off at [reddit.com/r/lbry/](https://www.reddit.com/r/lbry/). Thank you for taking the time to learn about LBRY!
+*Did this FAQ address your concerns? Still think we’re full of it? Sound off at [reddit.com/r/lbry/](https://www.reddit.com/r/lbry/). Thank you for taking the time to learn about LBRY!*
 
 **Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Just can’t wait? If you’re a creator, skip our waiting list line for a chance to earn $1,000 in LBRY Credits at the same time. [Learn more here](https://lbry.io/publish).
