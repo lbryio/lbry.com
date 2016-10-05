@@ -50,7 +50,7 @@ download:
   signup: LBRY is currently in invite only mode. Enter your email to join the waitlist, or your email and invite code for access.
   unavailable: LBRY is not yet out on your platform. You will receive an email as we expand LBRY to your preferred platform.
   verb: Download
-  windows: Arrival is expected this month.
+  windows: Download for Windows
   works: "Works with Ubuntu, Debian, or any distro with <code>apt</code> or <code>dpkg</code>."
 email:
   address: Email

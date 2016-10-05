@@ -9,6 +9,6 @@
            data-analytics-action="Download"
            data-analytics-label="OSX"
            */ ?>
-    >{{download.osx2}}</a>
+    >{{download.windows}}</a>
   </p>
 </div>
