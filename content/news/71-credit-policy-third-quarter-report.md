@@ -23,7 +23,7 @@ The [Third Quarter 2016 Report](https://lbry.io/faq/quarterly-report-3q-2016) is
 **Highlights:**
 
 - All fund expenditures were substantially below estimates.
-- 276,778 LBC were distributed from the Community Fund to alpha testers, beta testers, community managers, and bounty hunters. [LINK TO BOUNTY PAGE]
+- 276,778 LBC were distributed from the [Community Fund](https://docs.google.com/spreadsheets/d/1zPG58YuLPqpB3yzypntRWouoEVc4saDOifpnvnwS8Rc/edit?ts=57f28d0e#gid=0) to alpha testers, beta testers, community managers, and [bounty hunters](https://lbry.io/bounty).
 - 100,000 LBC were distributed from the Operational Fund to ShapeShift to provide liquidity on their platform.
 - No institutional credits were moved or spent.
 - No anticipated sales from operational reserve until at least the Second Quarter 2017.
