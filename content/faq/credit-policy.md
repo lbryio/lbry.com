@@ -23,7 +23,8 @@ LBRY issues a quarterly report every 3 months in January, April, July, and Octob
 
 | Date | Report | Balance Sheet |
 | ---- | ------ | ------------ |
-| July 2016 | [report](/faq/quarterly-report-july-2016) | [sheet](https://docs.google.com/spreadsheets/d/1r7puheE4Ut4c08R47uCDZbDdMHAoQa0WDqw470gjMIw/edit#gid=0) |
+| Q2 2016 | [report](/faq/quarterly-report-july-2016) | [sheet](https://docs.google.com/spreadsheets/d/1r7puheE4Ut4c08R47uCDZbDdMHAoQa0WDqw470gjMIw/edit#gid=0) |
+| Q3 2016 | [report](/faq/quarterly-report-3q-2016) | [sheet](https://docs.google.com/spreadsheets/d/1zPG58YuLPqpB3yzypntRWouoEVc4saDOifpnvnwS8Rc/edit?ts=57f28d0e#gid=799352054) |
 
 Specific details of historic, ongoing, and anticipated fund expenditures can be seen in the most recent quarterly report.
 
