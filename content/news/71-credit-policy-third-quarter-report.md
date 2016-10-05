@@ -1,7 +1,7 @@
 ---
 author: lbry
 title: 'Credit Policy and 3rd Quarter Credit Report'
-date: '2016-010-05 00:06:18'
+date: '2016-10-05 00:06:18'
 cover: 'lbry-3d-1000.png'
 ---
 As Mike Vine explained in [our recent FAQ](https://lbry.io/news/reddit-ama-answers#whatis), LBRY-the-protocol is quite different from LBRY-the-company. With the launch of LBRY’s live blockchain, the company created three reserve pools of credits to serve specific purposes. LBRY, Inc. will administer these reserves to promote the use and growth of the protocol. 
