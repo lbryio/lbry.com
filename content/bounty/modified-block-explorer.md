@@ -2,7 +2,7 @@
 category: code
 title: Modified Block Explorer
 award: 1500
-status: available
+status: complete
 date: '2016-07-01'
 ---
 
