@@ -25,11 +25,12 @@
     <?php echo View::render('content/_postNav', ['post' => $post]) ?>
   </section>
 
-  <?php echo View::render('nav/_learnFooter', ['isDark' => false]) ?>
 
   <?php if ($post->hasAuthor()): ?>
     <?php echo View::render('content/_postAuthor', ['post' => $post]) ?>
   <?php endif ?>
+
+  <?php echo View::render('nav/_learnFooter') ?>
 
 </main>
 <?php echo View::render('nav/_footer') ?>

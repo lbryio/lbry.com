@@ -1,10 +1,5 @@
 <?php
 
-/**
- * Description of NavActions
- *
- * @author jeremy
- */
 class NavActions extends Actions
 {
   protected static $navUri;
@@ -16,27 +11,38 @@ class NavActions extends Actions
 
   public static function getNavUri()
   {
-    return static::$navUri ?: $_SERVER['REQUEST_URI'];
+    return static::$navUri ?: Request::getRelativeUri();
   }
 
   public static function prepareFooterPartial(array $vars)
   {
     return $vars + [
-      'isDark' => false,
       'showLearnFooter' => false
     ];
   }
 
   public static function prepareGlobalItemsPartial(array $vars)
   {
-    $vars += ['selectedItem' => static::getNavUri()];
-    return $vars;
+    return $vars += [
+      'selectedItem' => static::getNavUri(),
+      'selectedCulture' => i18n::getLanguage() . '_' . i18n::getCountry(),
+      'cultures' => i18n::getAllCultures()
+    ];
   }
 
-  public static function prepareLearnFooterPartial(array $vars)
+  public static function execute400(array $vars)
   {
-    return $vars + [
-      'isDark' => true
-    ];
+    Response::setStatus(400);
+    return ['page/400', ['error' => $vars['error'] ?? null]];
+  }
+
+  public static function execute404()
+  {
+//    $uri = Request::getRelativeUri();
+//    Controller::queueToRunAfterResponse(function() use($uri) {
+//      Slack::sendErrorIfProd('404 for url ' . $uri, false);
+//    });
+    Response::setStatus(404);
+    return ['page/404'];
   }
 }

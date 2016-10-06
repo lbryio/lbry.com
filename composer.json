@@ -1,0 +1,7 @@
+{
+  "name": "lbry/lbry.io",
+  "require": {
+    "php": ">=7.0",
+    "ext-curl": "*"
+  }
+}

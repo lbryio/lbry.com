@@ -2,49 +2,50 @@
 
 class Controller
 {
-  const HEADER_STATUS = 'Status';
+  protected static $queuedFunctions = [];
 
   public static function dispatch($uri)
   {
     try
     {
-      $viewAndParams = static::execute($uri);
-      $viewTemplate = $viewAndParams[0];
-      $viewParameters = isset($viewAndParams[1]) ? $viewAndParams[1] : [];
-      $headers = isset($viewAndParams[2]) ? $viewAndParams[2] : [];
-
-      $defaultHeaders = [
-        'Content-Security-Policy' => "frame-ancestors 'none'",
-        'X-Frame-Options' => 'DENY',
-        'X-XSS-Protection'=> '1',
-      ];
-
-      if (IS_PRODUCTION)
+      if (IS_PRODUCTION && function_exists('newrelic_name_transaction'))
       {
-        $defaultHeaders['Strict-Transport-Security'] = 'max-age=31536000';
+        newrelic_name_transaction(Request::getMethod() . ' ' . strtolower($uri));
       }
 
-      static::sendHeaders(array_merge($defaultHeaders, $headers));
+      $viewAndParams  = static::execute(Request::getMethod(), $uri);
+      $viewTemplate   = $viewAndParams[0];
+      $viewParameters = $viewAndParams[1] ?? [];
+      if (!IS_PRODUCTION && isset($viewAndParams[2]))
+      {
+        throw new Exception('use response::setheader instead of returning headers');
+      }
 
       if ($viewTemplate === null)
       {
-        return '';
+        return;
       }
 
       if (!$viewTemplate)
       {
-        throw new LogicException('All execute methods must return a template.');
+        throw new LogicException('All execute methods must return a template or NULL.');
       }
 
       $layout = !(isset($viewParameters['_no_layout']) && $viewParameters['_no_layout']);
       unset($viewParameters['_no_layout']);
 
-      $layoutParams = isset($viewParameters[View::LAYOUT_PARAMS]) ? $viewParameters[View::LAYOUT_PARAMS] : [];
+      $layoutParams = $viewParameters[View::LAYOUT_PARAMS] ?? [];
       unset($viewParameters[View::LAYOUT_PARAMS]);
 
       $content = View::render($viewTemplate, $viewParameters + ['fullPage' => true]);
 
-      echo $layout ? View::render('layout/basic', ['content' => $content] + $layoutParams) : $content;
+      Response::setContent($layout ? View::render('layout/basic', ['content' => $content] + $layoutParams) : $content);
+      Response::setDefaultSecurityHeaders();
+      if (Request::isGzipAccepted())
+      {
+        Response::gzipContentIfNotDisabled();
+      }
+      Response::send();
     }
     catch (StopException $e)
     {
@@ -52,93 +53,101 @@ class Controller
     }
   }
 
-  public static function execute($uri)
+  public static function execute($method, $uri)
   {
-    switch($uri)
+    $router = static::getRouterWithRoutes();
+    try
     {
-      case '/':
-        return ContentActions::executeHome();
-      case '/get':
-      case '/windows':
-      case '/ios':
-      case '/android':
-      case '/linux':
-      case '/osx':
-        return DownloadActions::executeGet();
-      case '/postcommit':
-        return OpsActions::executePostCommit();
-      case '/log-upload':
-        return OpsActions::executeLogUpload();
-      case '/list-subscribe':
-        return MailActions::executeListSubscribe();
-      case '/press-kit.zip':
-        return ContentActions::executePressKit();
-      case '/roadmap':
-        return ContentActions::executeRoadmap();
-      case '/LBRY-deck.pdf':
-      case '/deck.pdf':
-        return static::redirect('https://www.dropbox.com/s/0xj4vgucsbi8rtv/lbry-deck.pdf?dl=1');
-      case '/pln.pdf':
-      case '/plan.pdf':
-        return static::redirect('https://www.dropbox.com/s/uevjrwnyr672clj/lbry-pln.pdf?dl=1');
-      case '/lbry-osx-latest.dmg':
-      case '/lbry-linux-latest.deb':
-      case '/dl/lbry_setup.sh':
-        return static::redirect('/get', 301);
-      case '/get/lbry.dmg':
-        return static::redirect(Github::getDownloadUrl(Os::OS_OSX) ?: '/get');
-      case '/get/lbry.deb':
-        return static::redirect(Github::getDownloadUrl(Os::OS_LINUX) ?: '/get');
-      case '/art':
-        return static::redirect('/what', 301);
-      case '/why':
-      case '/feedback':
-        return static::redirect('/learn', 301);
-      case '/faq/when-referral-payouts':
-        return static::redirect('/faq/referrals', 301);
+      $dispatcher = new Routing\Dispatcher($router->getData());
+      return $dispatcher->dispatch($method, $uri);
     }
-
-    $newsPattern = '#^' . ContentActions::URL_NEWS . '(/|$)#';
-    if (preg_match($newsPattern, $uri))
+    catch (\Routing\HttpRouteNotFoundException $e)
     {
-      $slug = preg_replace($newsPattern, '', $uri);
-      if ($slug == ContentActions::RSS_SLUG)
+      return NavActions::execute404();
+    }
+    catch (\Routing\HttpMethodNotAllowedException $e)
+    {
+      Response::setStatus(405);
+      Response::setHeader('Allow', implode(', ', $e->getAllowedMethods()));
+      return ['page/405'];
+    }
+  }
+
+  protected static function getRouterWithRoutes(): \Routing\RouteCollector
+  {
+    $router = new Routing\RouteCollector();
+
+    $router->get(['/', 'home'], 'ContentActions::executeHome');
+
+    $router->get(['/get', 'get'], 'DownloadActions::executeGet');
+    $router->get(['/windows', 'get-windows'], 'DownloadActions::executeGet');
+    $router->get(['/linux', 'get-linux'], 'DownloadActions::executeGet');
+    $router->get(['/osx', 'get-osx'], 'DownloadActions::executeGet');
+    $router->get(['/android', 'get-android'], 'DownloadActions::executeGet');
+    $router->get(['/ios', 'get-ios'], 'DownloadActions::executeGet');
+    $router->get('/roadmap', 'ContentActions::executeRoadmap');
+
+    $router->get(['/press-kit.zip', 'press-kit'], 'ContentActions::executePressKit');
+
+    $router->post('/postcommit', 'OpsActions::executePostCommit');
+    $router->post('/log-upload', 'OpsActions::executeLogUpload');
+
+    $router->any('/list/subscribe', 'MailActions::executeSubscribe');
+    $router->get('/list/confirm/{hash}', 'MailActions::executeConfirm');
+
+    $router->post('/set-culture', 'i18nActions::setCulture');
+
+    $permanentRedirects = [
+      '/lbry-osx-latest.dmg'         => '/get',
+      '/lbry-linux-latest.deb'       => '/get',
+      '/dl/lbry_setup.sh'            => '/get',
+      '/art'                         => '/what',
+      '/why'                         => '/learn',
+      '/feedback'                    => '/learn',
+      '/faq/when-referral-payouts'   => '/faq/referrals',
+      '/news/meet-the-lbry-founders' => '/team',
+      '/join-list'                   => '/list/subscribe',
+    ];
+
+    $tempRedirects = [
+      '/LBRY-deck.pdf' => 'https://www.dropbox.com/s/0xj4vgucsbi8rtv/lbry-deck.pdf?dl=1',
+      '/deck.pdf'      => 'https://www.dropbox.com/s/0xj4vgucsbi8rtv/lbry-deck.pdf?dl=1',
+      '/pln.pdf'       => 'https://www.dropbox.com/s/uevjrwnyr672clj/lbry-pln.pdf?dl=1',
+      '/plan.pdf'      => 'https://www.dropbox.com/s/uevjrwnyr672clj/lbry-pln.pdf?dl=1',
+      '/get/lbry.dmg'  => GitHub::getDownloadUrl(Os::OS_OSX) ?: '/get',
+      '/get/lbry.deb'  => GitHub::getDownloadUrl(Os::OS_LINUX) ?: '/get',
+      '/get/lbry.msi'  => GitHub::getDownloadUrl(Os::OS_WINDOWS) ?: '/get',
+    ];
+
+    foreach ([302 => $tempRedirects, 301 => $permanentRedirects] as $code => $redirects)
+    {
+      foreach ($redirects as $src => $target)
       {
-        return ContentActions::executeRss();
+        $router->any($src, function () use ($target, $code) { return static::redirect($target, $code); });
       }
-      return $slug ? ContentActions::executeNewsPost($uri) : ContentActions::executeNews();
     }
 
-    $faqPattern = '#^' . ContentActions::URL_FAQ . '(/|$)#';
-    if (preg_match($faqPattern, $uri))
-    {
-      $slug = preg_replace($faqPattern, '', $uri);
-      return $slug ? ContentActions::executeFaqPost($uri) : ContentActions::executeFaq();
-    }
+    $router->get([ContentActions::URL_NEWS . '/{slug:c}?', 'news'], 'ContentActions::executeNews');
+    $router->get([ContentActions::URL_FAQ . '/{slug:c}?', 'faq'], 'ContentActions::executeFaq');
+    $router->get([ContentActions::URL_BOUNTY . '/{slug:c}?', 'bounty'], 'ContentActions::executeBounty');
+    $router->get([ContentActions::URL_PRESS . '/{slug:c}', 'press'], 'ContentActions::executePress');
 
-    $bountyPattern = '#^' . BountyActions::URL_BOUNTY_LIST . '(/|$)#';
-    if (preg_match($bountyPattern, $uri))
-    {
-      $slug = preg_replace($bountyPattern, '', $uri);
-      return $slug ? BountyActions::executeShow($uri) : BountyActions::executeList($uri);
-    }
+    $router->any(['/signup{whatever}?', 'signup'], 'DownloadActions::executeSignup');
 
-    $accessPattern = '#^/signup#';
-    if (preg_match($accessPattern, $uri))
+    $router->get('/{slug}', function (string $slug)
     {
-      return DownloadActions::executeSignup();
-    }
+      if (View::exists('page/' . $slug))
+      {
+        Response::enableHttpCache();
+        return ['page/' . $slug, []];
+      }
+      else
+      {
+        return NavActions::execute404();
+      }
+    });
 
-
-    $noSlashUri = ltrim($uri, '/');
-    if (View::exists('page/' . $noSlashUri))
-    {
-      return ['page/' . $noSlashUri, []];
-    }
-    else
-    {
-      return ['page/404', [], [static::HEADER_STATUS => 404]];
-    }
+    return $router;
   }
 
   public static function redirect($url, $statusCode = 302)
@@ -150,88 +159,26 @@ class Controller
 
     $url = str_replace('&amp;', '&', $url);
 
-    $headers = [static::HEADER_STATUS => $statusCode];
-
+    Response::setStatus($statusCode);
 
     if ($statusCode == 201 || ($statusCode >= 300 && $statusCode < 400))
     {
-      $headers['Location'] = $url;
+      Response::setHeader(Response::HEADER_LOCATION, $url);
     }
 
-    return ['internal/redirect', ['url' => $url], $headers];
+    return ['internal/redirect', ['url' => $url]];
   }
 
-  protected static function sendHeaders(array $headers)
+  public static function queueToRunAfterResponse(callable $fn)
   {
-    if (isset($headers[static::HEADER_STATUS]))
-    {
-      $status = 'HTTP/1.0 ' . $headers[static::HEADER_STATUS] . ' ' . static::getStatusTextForCode($headers[static::HEADER_STATUS]);
-      header($status);
-
-      if (substr(php_sapi_name(), 0, 3) == 'cgi')
-      {
-        // fastcgi servers cannot send this status information because it was sent by them already due to the HTT/1.0 line
-        // so we can safely unset them. see ticket #3191
-        unset($headers[static::HEADER_STATUS]);
-      }
-    }
-
-    foreach($headers as $name => $value)
-    {
-      header($name . ': ' . $value);
-    }
+    static::$queuedFunctions[] = $fn;
   }
 
-  public static function getStatusTextForCode($code)
+  public static function shutdown()
   {
-    $statusTexts = [
-      '100' => 'Continue',
-      '101' => 'Switching Protocols',
-      '200' => 'OK',
-      '201' => 'Created',
-      '202' => 'Accepted',
-      '203' => 'Non-Authoritative Information',
-      '204' => 'No Content',
-      '205' => 'Reset Content',
-      '206' => 'Partial Content',
-      '300' => 'Multiple Choices',
-      '301' => 'Moved Permanently',
-      '302' => 'Found',
-      '303' => 'See Other',
-      '304' => 'Not Modified',
-      '305' => 'Use Proxy',
-      '306' => '(Unused)',
-      '307' => 'Temporary Redirect',
-      '400' => 'Bad Request',
-      '401' => 'Unauthorized',
-      '402' => 'Payment Required',
-      '403' => 'Forbidden',
-      '404' => 'Not Found',
-      '405' => 'Method Not Allowed',
-      '406' => 'Not Acceptable',
-      '407' => 'Proxy Authentication Required',
-      '408' => 'Request Timeout',
-      '409' => 'Conflict',
-      '410' => 'Gone',
-      '411' => 'Length Required',
-      '412' => 'Precondition Failed',
-      '413' => 'Request Entity Too Large',
-      '414' => 'Request-URI Too Long',
-      '415' => 'Unsupported Media Type',
-      '416' => 'Requested Range Not Satisfiable',
-      '417' => 'Expectation Failed',
-      '419' => 'Authentication Timeout',
-      '422' => 'Unprocessable Entity',
-      '426' => 'Upgrade Required',
-      '429' => 'Too Many Requests',
-      '500' => 'Internal Server Error',
-      '501' => 'Not Implemented',
-      '502' => 'Bad Gateway',
-      '503' => 'Service Unavailable',
-      '504' => 'Gateway Timeout',
-      '505' => 'HTTP Version Not Supported',
-    ];
-
-    return isset($statusTexts[$code]) ? $statusTexts[$code] : null;
+    while ($fn = array_shift(static::$queuedFunctions))
+    {
+      call_user_func($fn);
+    }
   }
 }

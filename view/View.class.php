@@ -14,6 +14,11 @@ class View
 {
   const LAYOUT_PARAMS = '_layout_params';
 
+  const WEB_DIR = ROOT_DIR.'/web';
+  const SCSS_DIR = self::WEB_DIR.'/scss';
+  const CSS_DIR = self::WEB_DIR.'/css';
+  const JS_DIR = self::WEB_DIR.'/js';
+
   public static function render($template, array $vars = [])
   {
     if (static::isMarkdown($template))
@@ -42,23 +47,35 @@ class View
       return;
     }
 
-    extract($vars);
+    return static::interpolateTokens(static::getTemplateSafely($template, $vars));
+  }
+
+  /**
+   * This is its own function because we don't want in-scope variables to leak into the template
+   *
+   * @param string $___template
+   * @param array  $___vars
+   *
+   * @return string
+   * @throws Throwable
+   */
+  protected static function getTemplateSafely(string $___template, array $___vars): string
+  {
+    extract($___vars);
     ob_start();
     ob_implicit_flush(0);
 
     try
     {
-      require(static::getFullPath($template));
+      require(static::getFullPath($___template));
+      return ob_get_clean();
     }
-    catch (Exception $e)
+    catch (Throwable $e)
     {
       // need to end output buffering before throwing the exception
       ob_end_clean();
       throw $e;
     }
-
-
-    return static::interpolateTokens(ob_get_clean());
   }
 
   public static function markdownToHtml($path)
@@ -66,36 +83,37 @@ class View
     return ParsedownExtra::instance()->text(trim(file_get_contents($path)));
   }
 
-  public static function exists($template)
+  public static function exists($template): bool
   {
     return is_readable(static::getFullPath($template));
   }
 
-  protected static function isMarkdown($nameOrPath)
+  protected static function isMarkdown($nameOrPath): bool
   {
     return strlen($nameOrPath) > 3 && substr($nameOrPath, -3) == '.md';
   }
 
-  protected static function getFullPath($template)
+  protected static function getFullPath($template): string
   {
     if ($template && $template[0] == '/')
     {
       return $template;
     }
+
     if (static::isMarkdown($template))
     {
-      return ROOT_DIR . '/posts/' . $template;
+      return ContentActions::CONTENT_DIR . '/' . $template;
     }
 
     return ROOT_DIR . '/view/template/' . $template . '.php';
   }
 
-  public static function imagePath($image)
+  public static function imagePath($image): string
   {
     return '/img/' . $image;
   }
 
-  public static function parseMarkdown($template)
+  public static function parseMarkdown($template): array
   {
     $path = static::getFullPath($template);
     list($ignored, $frontMatter, $markdown) = explode('---', file_get_contents($path), 3);
@@ -108,7 +126,7 @@ class View
   {
     $scssCompiler = new \Leafo\ScssPhp\Compiler();
 
-    $scssCompiler->setImportPaths([ROOT_DIR.'/web/scss']);
+    $scssCompiler->setImportPaths([self::SCSS_DIR]);
 
     $compress = true;
     if ($compress)
@@ -121,8 +139,19 @@ class View
       $scssCompiler->setLineNumberStyle(Leafo\ScssPhp\Compiler::LINE_COMMENTS);
     }
 
-    $css = $scssCompiler->compile(file_get_contents(ROOT_DIR.'/web/scss/all.scss'));
-    file_put_contents(ROOT_DIR.'/web/css/all.css', $css);
+    $css = $scssCompiler->compile(file_get_contents(self::SCSS_DIR.'/all.scss'));
+    file_put_contents(self::CSS_DIR.'/all.css', $css);
+  }
+
+  public static function gzipAssets()
+  {
+    foreach([self::CSS_DIR => 'css', self::JS_DIR => 'js'] as $dir => $ext)
+    {
+      foreach(glob("$dir/*.$ext") as $file)
+      {
+        Gzip::compressFile($file);
+      }
+    }
   }
 
   protected static function interpolateTokens($html)

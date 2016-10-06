@@ -1,4 +1,4 @@
-<?php $title = isset($title) ? $title : __('download.other') ?>
+<?php $title = $title ?? __('download.other') ?>
 <div class="cover cover-light content content-light">
   <h3><?php echo $title ?></h3>
   <?php $buckets = array_fill(0, 3, []) ?>

@@ -8,20 +8,30 @@ if (php_sapi_name() === 'cli-server' && is_file(__DIR__.preg_replace('#(\?.*)$#'
 
 include __DIR__ . '/../bootstrap.php';
 
-define('IS_PRODUCTION', $_SERVER['SERVER_NAME'] == 'lbry.io');
+define('IS_PRODUCTION', Request::getServerName() == 'lbry.io');
 
 ini_set('display_errors', IS_PRODUCTION ? 'off' : 'on');
 error_reporting(IS_PRODUCTION ? 0 : (E_ALL | E_STRICT));
 
+register_shutdown_function('Controller::shutdown');
+
+if (!IS_PRODUCTION)
+{
+  // make warnings into errors
+  set_error_handler(function ($errno, $errstr, $errfile, $errline ) {
+    throw new ErrorException($errstr, $errno, 0, $errfile, $errline);
+  }, E_WARNING|E_CORE_WARNING|E_COMPILE_WARNING|E_USER_WARNING);
+}
+
 try
 {
-  i18n::register();
   Session::init();
+  i18n::register();
   if (!IS_PRODUCTION)
   {
     View::compileCss();
   }
-  Controller::dispatch(strtok($_SERVER['REQUEST_URI'], '?'));
+  Controller::dispatch(Request::getRelativeUri());
 }
 catch(Throwable $e)
 {

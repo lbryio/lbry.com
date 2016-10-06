@@ -4,7 +4,7 @@ class DownloadActions extends Actions
 {
   public static function executeGet()
   {
-    $email = static::param('e');
+    $email = Request::getParam('e');
     $user = [];
 
     if ($email)
@@ -32,7 +32,7 @@ class DownloadActions extends Actions
 
     if (!Session::get(Session::KEY_DOWNLOAD_ALLOWED))
     {
-      return ['download/get', ['os' => static::guessOs()]];
+      return ['download/get'];
     }
 
     $osChoices = Os::getAll();
@@ -58,8 +58,8 @@ class DownloadActions extends Actions
 
   public static function executeSignup()
   {
-    $email = static::param('email');
-    $code  = static::param('code');
+    $email = Request::getParam('email');
+    $code  = Request::getParam('code');
 
     if (!$email || !filter_var($email, FILTER_VALIDATE_EMAIL))
     {
@@ -67,15 +67,9 @@ class DownloadActions extends Actions
     }
     else
     {
-      $referrerId = static::param('referrer_id');
+      $referrerId = Request::getParam('referrer_id');
       $failure    = false;
-      try
-      {
-        MailActions::subscribeToMailchimp($email, Mailchimp::LIST_GENERAL_ID);
-      }
-      catch (MailchimpSubscribeException $e)
-      {
-      }
+      Mailgun::sendSubscriptionConfirmation($email);
 
       try
       {
@@ -119,9 +113,9 @@ class DownloadActions extends Actions
   public static function prepareSignupPartial(array $vars)
   {
     return $vars + [
-      'defaultEmail'    => static::param('e'),
+      'defaultEmail'    => Request::getParam('e'),
       'allowInviteCode' => true,
-      'referralCode'    => static::param('r', '')
+      'referralCode'    => Request::getParam('r', '')
     ];
   }
 
@@ -152,7 +146,7 @@ class DownloadActions extends Actions
   protected static function guessOs()
   {
     //if exact OS is requested, use that
-    $uri = strtok($_SERVER['REQUEST_URI'], '?');
+    $uri = Request::getRelativeUri();
     foreach (Os::getAll() as $os => $osChoice)
     {
       if ($osChoice[0] == $uri)
@@ -161,13 +155,13 @@ class DownloadActions extends Actions
       }
     }
 
-    if (static::isForRobot())
+    if (Request::isRobot())
     {
       return null;
     }
 
     //otherwise guess from UA
-    $ua = $_SERVER['HTTP_USER_AGENT'];
+    $ua = Request::getUserAgent();
     if (stripos($ua, 'OS X') !== false)
     {
       return strpos($ua, 'iPhone') !== false || stripos($ua, 'iPad') !== false ? Os::OS_IOS : Os::OS_OSX;
@@ -180,6 +174,5 @@ class DownloadActions extends Actions
     {
       return Os::OS_WINDOWS;
     }
-    return null;
   }
 }

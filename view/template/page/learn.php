@@ -30,10 +30,7 @@
                 <a href="http://explorer.lbry.io" class="link-primary">{{learn.explorer}}</a>
               </div>
               <div class="spacer1">
-                <a href="https://bittrex.com/Market/Index?MarketName=BTC-LBC" class="link-primary">{{learn.exchange}}</a>
-              </div>
-              <div class="spacer1">
-                <a href="https://poloniex.com/exchange#btc_lbc" class="link-primary">{{learn.exchange2}}</a>
+                <a href="/faq/exchanges" class="link-primary">{{learn.exchange_faq}}</a>
               </div>
             </div>
             <div class="span6">

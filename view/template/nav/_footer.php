@@ -2,7 +2,7 @@
   <?php define('FOOTER_RENDERED', true) ?>
   <div class="footer">
     <?php if ($showLearnFooter): ?>
-      <?php echo View::render('nav/_learnFooter', ['isDark' => $isDark]) ?>
+      <?php echo View::render('nav/_learnFooter') ?>
     <?php endif ?>
     <div class="footer-standard">
       <div class="content">
@@ -12,7 +12,7 @@
           </div>
           <?php echo View::render('nav/_globalItems') ?>
           <div class="control-item">
-            <a href="//en.wikipedia.org/wiki/AACS_encryption_key_controversy" class="footer-img-link">
+            <a href="https://en.wikipedia.org/wiki/AACS_encryption_key_controversy" class="footer-img-link">
               <img src="/img/Free-speech-flag.svg" alt="Free Speech Flag" height="30"/>
             </a>
           </div>

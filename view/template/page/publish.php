@@ -107,6 +107,6 @@
     <p>Email <a  class="link-primary" href=mailto:reilly@lbry.io?subject=Publishing Program">Reilly Smith</a> with questions or to schedule a call.</p>
     <?php echo View::render('content/_bio', ['person' => 'reilly-smith', 'orientation' => 'horizontal']) ?>
   </div>
-  <?php echo View::render('nav/_learnFooter', ['isDark' => true]) ?>
+  <?php echo View::render('nav/_learnFooter') ?>
 </main>
 <?php echo View::render('nav/_footer') ?>
