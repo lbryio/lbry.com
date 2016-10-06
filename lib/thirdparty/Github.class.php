@@ -42,10 +42,7 @@ class Github
     $allReleases = [];
 
     $projects = [
-      'lbry' => 'LBRY Data Network',
-      'lbry-web-ui' => 'LBRY Browser',
-      'lbrycrdd' => 'LBRY Blockchain',
-      'lbryum' => 'LBRY Wallet'
+      'lbry' => ''
     ];
 
     foreach($projects as $project => $label)

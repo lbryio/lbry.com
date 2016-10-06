@@ -63,29 +63,29 @@ class Asana
     $groupCategories = ['ongoing', 'upcoming'];
     $tasks = [];
 
-    foreach($projects as $projectId => $projectTuple)
+    $tags = [
+      192699565737944 => 'Ongoing',
+      192699565737946 => 'Upcoming',
+      192699565737948 => 'Future'
+    ];
+
+    foreach($tags as $tagId => $tagLabel)
     {
-      list($projectName, $projectUrl) = $projectTuple;
-      $projectTasks = static::get('/tasks', ['completed_since' => 'now', 'project' => $projectId], $cache);
-      $group = null;
-      foreach ($projectTasks as $task)
+      $taggedTasks = static::get('/tags/' . $tagId . '/tasks', ['completed_since' => 'now'], $cache);
+      foreach ($taggedTasks as $task)
       {
-        if (mb_substr($task['name'], -1) === ':') //if task ends with ":", it is a category heading so switch the active key
+        $fullTask = static::get('/tasks/' . $task['id']);
+        $projectId = $fullTask['memberships'][0]['project']['id'] ?? null;
+        if ($fullTask['name'] && $projectId && isset($projects[$projectId]))
         {
-          $group = array_reduce($groupCategories, function($carry, $candidate) use($task) {
-            return $carry ?: (strcasecmp($task['name'], $candidate . ':') === 0 ? $candidate : null);
-          });
-        }
-        elseif ($group && $task['name'])
-        {
-          $fullTask = static::get('/tasks/' . $task['id']);
-          $tasks[$group][] = array_intersect_key($fullTask, ['name' => null]) + [
+          list($projectName, $projectUrl) = $projects[$projectId];
+          $tasks[$tagLabel][] = array_intersect_key($fullTask, ['name' => null]) + [
               'project_label' => $projectName,
               'badge' => $projectName,
               'date' => $fullTask['due_on'] ?? null,
               'body' => $fullTask['notes'],
               'url' => $projectUrl,
-              'group' => $group,
+              'group' => $tagLabel,
               'assignee' => $fullTask['assignee'] ? ucwords($fullTask['assignee']['name']) : ''
           ];
         }

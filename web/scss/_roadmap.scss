@@ -41,6 +41,8 @@ $radius-roadmap: 10px;
   display: none;
 }
 
+$title-spur: 8 * $width-roadmap;
+
 .roadmap-group-title
 {
   &:before
@@ -51,11 +53,11 @@ $radius-roadmap: 10px;
     height: $width-roadmap;
     margin-right: 10px;
     vertical-align: middle;
-    width: 8 * $width-roadmap;
+    width: $title-spur;
   }
   cursor: pointer;
   font-weight: 400;
-  margin: $spacing-vertical * 1.5 0 $spacing-vertical * 1.5 0;
+  margin: $spacing-vertical * 2 0 $spacing-vertical * 1 0;
   padding: 0;
 }
 
@@ -68,18 +70,19 @@ $radius-roadmap: 10px;
   letter-spacing: 0;
   padding: 0 10px;
   text-align: center;
+  width: calc(100% - #{$title-spur} - 20px);
 }
 
 .roadmap-item
 {
   $left-margin: 20px;
-  $item-padding: 10px;
+  $item-padding: $spacing-vertical / 2;
   margin-bottom: $spacing-vertical;
   position: relative;
   margin-left: $left-margin;
   position: relative;
   padding: $item-padding;
-  background: #e8e8e8;
+  background: #f2f2f2;
   @include border-radius($radius-roadmap);
   &:before {
     border-top: $width-roadmap-item solid $color-roadmap-border;
@@ -100,7 +103,7 @@ $radius-roadmap: 10px;
   position: absolute;
   top: 0;
   left: -1 * $width-date;
-  color: $color-meta-lighter;
+  color: $color-meta-light;
   line-height: 42px;
 }
 

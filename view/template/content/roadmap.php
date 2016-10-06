@@ -22,7 +22,7 @@
         <?php $isOpen = !isset($lastItem['project']) || !isset($lastItem['version']) || $lastItem['version'] === $projectMaxVersions[$lastItem['project']] ?>
         <h2 class="roadmap-group-title" <?php echo !$isOpen ? 'style="display: none"' : '' ?>">
           <span class="roadmap-group-title-label">
-            <?php echo $group ?>
+            <?php echo $group ?> <?php echo isset($lastItem['version']) && $lastItem['version'] === $projectMaxVersions[$lastItem['project']] ? '(latest  )' : '' ?>
           </span>
         </h2>
         <div class="roadmap-group <?php echo !$isOpen ? 'roadmap-group-closed' : '' ?>">
@@ -50,7 +50,7 @@
                 <?php echo $item['name'] ?>
               </h3>
               <div class="roadmap-item-date">
-                <?php echo $item['date'] ?>
+                <?php echo $item['date'] ? date('m-d-Y', strtotime($item['date'])) : '' ?>
               </div>
               <div class="roadmap-item-content">
                 <?php echo $item['body'] ?: '<em class="no-results">No description</em>' ?>
@@ -66,74 +66,3 @@
   </div>
 </main>
 <?php echo View::render('nav/_footer') ?>
-<?php /*
-
-  <div class="content content-light spacer2">
-    <section class="spacer2">
-      <h2>Recent Changes</h2>
-      <table class="content full-table" id="changeset-table">
-        <?php $setCount = 0 ?>
-        <thead>
-          <th>Release</th>
-          <th>Date</th>
-          <th>Notes</th>
-        </thead>
-        <?php foreach($changesets as $version => $changeset): ?>
-          <tr <?php echo ++$setCount > 5 ? 'style="display: none"' : '' ?>>
-            <th style="width: 15%">
-              <?php echo $version ?>
-              <?php if ($changeset['prerelease']): ?>
-                <span class="badge badge-info">prerelease</span>
-              <?php endif ?>
-            </th>
-            <td style="width: 15%" class="center"><?php echo $changeset['published_at'] ?></td>
-            <td><?php echo $changeset['body'] ?></td>
-          </tr>
-          <?php if ($version == 'v0.2.2'): ?>
-            <tr style="display: none">
-              <th>v0.1-v0.2.2</th>
-              <td></td>
-              <td>These releases were not tagged and noted properly. We were too busy creating awesome!</td>
-            </tr>
-          <?php endif ?>
-        <?php endforeach ?>
-      </table>
-      <a href="javascript:;" class="link-primary" id="show-all-changesets">show all changes</a>
-      <?php js_start() ?>
-        $('#show-all-changesets').click(function() {
-          $(this).hide();
-          $('#changeset-table').find('tr').show();
-        });
-      <?php js_end() ?>
-    </section>
-    <section class="spacer2">
-      <h2>Upcoming Changes</h2>
-      <table class="content full-table">
-        <thead>
-          <th>Item</th>
-          <th>Date</th>
-          <th>Component</th>
-          <th>Owner</th>
-        </thead>
-        <?php foreach($items as $task): ?>
-          <tr>
-            <td><?php echo $task['name'] ?></td>
-            <td style="width: 15%"><?php echo $task['due_on'] ?></td>
-            <td style="width: 20%">
-              <?php if ($task['url']): ?>
-                <a href="<?php echo $task['url'] ?>" class="link-primary"><?php echo $task['project'] ?></a>
-              <?php else: ?>
-                <?php echo $task['project'] ?>
-              <?php endif ?>
-            </td>
-            <td style="width: 20%">
-              <?php echo $task['assignee'] ?: '<em>unassigned</em>' ?>
-            </td>
-          </tr>
-        <?php endforeach ?>
-      </table>
-    </section>
-  </div>
-</main>
-
- */ ?>
