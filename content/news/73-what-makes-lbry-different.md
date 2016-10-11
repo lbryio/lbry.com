@@ -53,4 +53,4 @@ LBRY is also brave and little. So we’re basically, fundamentally the same as a
 
 **Assumes fiber-optic transmission.*
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Want to share your niche with the world? Email reilly@lbry.io for a trip to the front of the line.
+## [Learn More: Read the Full FAQ](https://lbry.io/faq)
