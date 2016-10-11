@@ -110,6 +110,7 @@ class Controller
     ];
 
     $tempRedirects = [
+      '/apple-touch-icon.png' => '/img/fav/apple-touch-icon.png',
       '/LBRY-deck.pdf' => 'https://www.dropbox.com/s/0xj4vgucsbi8rtv/lbry-deck.pdf?dl=1',
       '/deck.pdf'      => 'https://www.dropbox.com/s/0xj4vgucsbi8rtv/lbry-deck.pdf?dl=1',
       '/pln.pdf'       => 'https://www.dropbox.com/s/uevjrwnyr672clj/lbry-pln.pdf?dl=1',

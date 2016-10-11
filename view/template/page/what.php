@@ -47,14 +47,14 @@
 
       <ol>
         <li><strong>Coupled payment and access</strong>. If desired, the person who publishes to <a href="lbry://wonderfullife">lbry://wonderfullife</a> can charge a fee to users that view the content. </li>
-        <li><strong>Decentralized and distributed</strong>. Content published to LBRY is not specific to one computer or network. No one party, including us, can unilaterally remove or block content on the LBRY network.<sup><a class="link-primary" href="#note-decentralized">2</a></sup></li>
-        <li><strong>Domain names are controlled via ongoing auction</strong>. This facilitates names being controlled by the publishers that value them most. These transactions take place via an electronic currency called LBRY credits, or <em>LBC</em>. This is covered in more detail, below.</li>
+        <li><strong>Decentralized and distributed</strong>. Content published to LBRY is not specific to one computer or network, making LBRY robust to failure and disruption.</li>
+        <li><strong>Community controlled</strong>. No party other than the publisher (including us) can unilaterally remove or block content on the LBRY network.<sup><a class="link-primary" href="#note-community-controlled">2</a></sup></li>
       </ol>
 
       <p>While creating a protocol that we ourselves cannot control sounds chaotic, it is actually about establishing trust. Every other publishing system requires trusting an intermediary that can unilaterally change the rules on you. What happens when you build your business on YouTube or Amazon and they change fees? Or Apple drops your content because the Premier of China thought your comedy went too far?</p>
 
       <p>Only LBRY consists of a known, promised set of rules that no one can unilaterally change. LBRY provides this by doing something unique: leaving the <em>users</em> in control rather than demanding that control for itself.</p>
-      <footer id="note-decentralized"><sup>2</sup>If it worries you that LBRY's decentralized nature facilitates infringing or unsavory content, this is addressed in <a class="link-primary" href="#combatting-the-ugly">Combatting the Ugly</a>.</footer>
+      <footer id="note-community-controlled"><sup>2</sup>If it worries you that LBRY facilitates infringing or unsavory content, this is addressed in <a class="link-primary" href="#combatting-the-ugly">Combatting the Ugly</a>.</footer>
     </section>
     <section>
       <h2 id="sample-use">A Sample Use</h2>
@@ -182,19 +182,8 @@
         <li>60% earned by LBRY users, via mining the LBRY cryptocurrency.</li>
       </ul>
     </section>
+    
     <section>
-      <h2 id="naming">More on Naming</h2>
-      <p>LBRY names are one of the most unique aspects of LBRY and one that we believe will play a big role in helping it succeed.</p>
-
-      <p>Control of a LBRY name is awarded via a <em>continuous running auction </em>in LBC. Bids are entered into a <em>trustless escrow</em>, marking the credits as unspendable, but leaving them intact. When a user looks up a name, the name resolves to the largest bid made by a party or parties. The ability for any number of people to have a say in where a name resolves is part of what makes LBRY a system controlled by its users. As the credits are distributed primarily among users and producers, it is community itself that has ultimate controls over the catalogue of what is available.</p>
-
-      <p>Additionally, bids can also be retracted at any time, even if you’re the current winning bidder. To prevent a name from rapidly switching between multiple resolutions, the parties that have existing control of a name have a reasonable period of time to respond to counter bids before a name’s resolution switches.</p>
-
-      <p>It’s possible this system sounds like chaos to you, but we’re betting on a Nobel-prize winning result that predicts the opposite. Economist Ronald Coase theorized that in a system with low transaction cost and clear rules, property will be held by those who value it the most. Since LBRY names are the equivalent to content storefronts, we believe that LBRY names will hold the most value to rightsholders who produce content associated with a given name.</p>
-
-      <p>As names in demand on LBRY will be more expensive, the names themselves will also serve as a signal of reputation, legitimacy, and quality. If a user searches LBRY for <em>Spider Man</em> and sees one at lbry://spiderman and one at lbry://spiderman_russhaxor, there will be little doubt that the latter is less legitimate. </p>
-
-      <footer><p>It is also worth noting that in the event that LBRY received notice that either name contained an illegitimate copy of <em>Spider Man</em>, LBRY would dutifully and quickly put that content id on a blacklist, blocking discovery or purchase via any legal services. LBRY and users of LBRY are still subject to the DMCA and other relevant laws of their respective countries.</p></footer>
       <h2 id="combatting-the-ugly">Combatting The Ugly</h2>
       <p>As neither naïfs nor knaves, we acknowledge that LBRY can be used for bad ends. Technology is frequently this way. Encryption protects our privacy -- as well as that of terrorists. Cars allow us to travel marvelous distances -- and kill millions per year.</p>
 
@@ -204,7 +193,7 @@
 
       <ol><li><strong>More records. </strong>LBRY contains a public ledger of transactions recording name purchases and content publishings. As many purchases make it onto the ledger as well, this means infringing actions are frequently recorded <em>forever, </em>or are at a minimum widely observable.</li>
 
-        <li><strong>Updatable URLs.</strong> The LBRY naming system enables legitimate creators to acquire and update infringing URIs. Once a BitTorrent magnet hash is in the wild, there is no mechanism to update or alter its resolution whatsoever. If a LBRY name is pointing to infringing content, it can be claimed and updated according to clear rules. </li>
+        <li><strong>Updatable URLs.</strong> Once a BitTorrent magnet hash is in the wild, there is no mechanism to update or alter its resolution whatsoever. If a LBRY name is pointing to infringing content, it can be updated or removed (but not by us). </li>
 
         <li><strong>Stiffer penalties. </strong>Penalties for profiting off of infringement are far stronger and can involve jail time, while infringement without profit only results in statutory damages. This serves as a far stronger deterrent for all infringing uses than BitTorrent provides.</li>
 
@@ -212,6 +201,7 @@
       </ol>
       <p>And of course, let’s not forget that LBRY users are still subject to the DMCA and other laws governing intellectual property. Users who publishing infringing content are still subject to penalties for doing so in exactly the same way they would be via BitTorrent. LBRY only adds to the suite of options available. This makes LBRY a strict improvement over BitTorrent with regards to illegal usages, which provides none of the mechanisms listed.</p>
     </section>
+
     <section>
       <h2 id="values">Our Values</h2>
       <p>We want to be the first digital content marketplace to:</p>
@@ -236,7 +226,7 @@
 
       <p>If LBRY succeeds, we will enter a world that is even more creative, connected, and conservatory. We will waste less and we make more. We will create a world where a teenager in Kenya and a reality star in Los Angeles use the same tool to search the same network and have access to the same results -- a world where information, knowledge, and imagination know no borders. </p>
 
-      <p>Build our dream with us. Download LBRY at <a class="link-primary" href="https://lbry.io/get">lbry.io/get</a>.</p>
+      <p>Build our dream with us! Download LBRY at <a class="link-primary" href="https://lbry.io/get">lbry.io/get</a>.</p>
     </section>
   </div>
   <?php echo View::render('nav/_learnFooter') ?>
