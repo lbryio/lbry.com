@@ -1,6 +1,6 @@
 ---
 title: How do I run LBRY from the command line?
-category: running
+category: setup
 ---
 
 #### If you [installed from source](how-to-get-lbry-command-line.md)

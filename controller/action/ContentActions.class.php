@@ -78,26 +78,24 @@ class ContentActions extends Actions
     {
       $allPosts = Post::find(static::VIEW_FOLDER_FAQ);
 
-      $allCategories    = array_merge(['' => ''] + Post::collectMetadata($allPosts, 'category'), [
+      $allCategories    = [
         'getstarted' => 'Getting Started',
-        'install'    => 'Installing LBRY',
-        'running'    => 'Running LBRY',
+        'setup'      => 'Installing and Running LBRY',
+        'LBRY 101'   => 'LBRY 101',
         'wallet'     => 'The LBRY Wallet',
-        'hosting'    => 'Hosting Content',
         'mining'     => 'Mining LBC',
         'policy'     => 'Policies',
         'developer'  => 'Developers',
+        'differences' => 'What Makes LBRY Different?',
         'other'      => 'Other Questions',
-      ]);
+      ] + Post::collectMetadata($allPosts, 'category');
+
       $selectedCategory = Request::getParam('category');
       $filters          = array_filter([
         'category' => $selectedCategory && isset($allCategories[$selectedCategory]) ? $selectedCategory : null,
       ]);
 
-      asort($allCategories);
-
       $posts = $filters ? Post::filter($allPosts, $filters) : $allPosts;
-
 
       $groups = array_fill_keys(array_keys($allCategories), []);
 

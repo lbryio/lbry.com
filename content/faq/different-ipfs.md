@@ -1,6 +1,6 @@
 ---
 title: How is LBRY different from IPFS / BitTorrent?
-category: What Makes LBRY Different?
+category: differences
 ---
 IPFS and BitTorrent are wonderful technologies from which LBRY has drawn a lot of inspiration. However, they both suffer from the same flaws:
 

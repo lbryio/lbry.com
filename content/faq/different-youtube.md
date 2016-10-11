@@ -1,6 +1,6 @@
 ---
 title: How is LBRY different from YouTube / Netflix / Apple TV?
-category: What Makes LBRY Different?
+category: differences
 ---
 YouTube, Netflix, Apple TV, and other similar services are centralized platforms controlled by a single corporate entity. These companies can change the rules unilaterally, as well as censor content to appease authoritarian governments or corporate partners.
 

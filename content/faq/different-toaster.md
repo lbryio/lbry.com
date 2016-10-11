@@ -1,6 +1,6 @@
 ---
 title: How is LBRY different from a toaster?
-category: What Makes LBRY Different?
+category: differences
 ---
 Toasters transfer heat via radiative EM waves in the infrared spectrum to brown bread and make people happy.
 

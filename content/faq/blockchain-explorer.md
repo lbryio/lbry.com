@@ -1,6 +1,6 @@
 ---
 title: Do you have a blockchain explorer?
-category: getstarted
+category: other
 ---
 
 Yep. You can see it at [https://explorer.lbry.io](https://explorer.lbry.io).

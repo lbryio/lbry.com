@@ -1,5 +1,5 @@
 ---
-title: "Quarterly Credit Report: July 2016"
+title: "Quarterly Credit Report: Second Quarter 2016"
 category: policy
 ---
 
