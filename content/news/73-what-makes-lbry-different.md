@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: jeremy
 title: 'How is LBRY different from Alternative X?'
 date: '2016-10-11 00:06:18'
 cover: 'lbry-desk.png'
