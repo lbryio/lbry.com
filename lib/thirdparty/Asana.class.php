@@ -6,52 +6,8 @@ class Asana
 
   public static function listRoadmapTasks($cache = true)
   {
-    /*
-     *   return static::get('/projects');
-            [55] => Array
-                (
-                    [id] => 158602294500138
-                    [name] => Browser
-                )
+    // Use print_r(static::get('/projects')) to get project IDs
 
-            [56] => Array
-                (
-                    [id] => 158602294500137
-                    [name] => Daemon
-                )
-
-            [57] => Array
-                (
-                    [id] => 161514803479899
-                    [name] => Blockchain and Wallet
-                )
-
-
-            [60] => Array
-                (
-                    [id] => 158829550589337
-                    [name] => Reporting and Analytics
-                )
-
-            [61] => Array
-                (
-                    [id] => 158602294500214
-                    [name] => Other
-                )
-
-            [62] => Array
-                (
-                    [id] => 136290697597644
-                    [name] => CI
-                )
-
-            [63] => Array
-                (
-                    [id] => 158602294500249
-                    [name] => Documentation
-                )
-    */
-//    return static::get('/projects');
     $projects = [
       158602294500138 => ['LBRY Browser', 'https://github.com/lbryio/lbry-web-ui'],
       158602294500137 => ['LBRY Data Network', 'https://github.com/lbryio/lbry'],

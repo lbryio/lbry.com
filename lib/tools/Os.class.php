@@ -1,11 +1,5 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: kauffj
- * Date: 8/16/16
- * Time: 8:18 PM
- */
 class Os
 {
   const OS_ANDROID = 'android',

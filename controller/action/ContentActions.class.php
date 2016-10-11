@@ -193,7 +193,7 @@ class ContentActions extends Actions
 
   public static function executeRoadmap()
   {
-    $cache = !isset($_GET['nocache']);
+    $cache = !Request::getParam('nocache'); 
     $githubItems = Github::listRoadmapChangesets($cache);
 
     $projectMaxVersions = [];

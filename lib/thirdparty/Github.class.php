@@ -114,8 +114,6 @@ class Github
       });
     }
 
-
-
     return $sets;
   }
 }
