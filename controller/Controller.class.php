@@ -115,9 +115,9 @@ class Controller
       '/deck.pdf'      => 'https://www.dropbox.com/s/0xj4vgucsbi8rtv/lbry-deck.pdf?dl=1',
       '/pln.pdf'       => 'https://www.dropbox.com/s/uevjrwnyr672clj/lbry-pln.pdf?dl=1',
       '/plan.pdf'      => 'https://www.dropbox.com/s/uevjrwnyr672clj/lbry-pln.pdf?dl=1',
-      '/get/lbry.dmg'  => GitHub::getDownloadUrl(Os::OS_OSX) ?: '/get',
-      '/get/lbry.deb'  => GitHub::getDownloadUrl(Os::OS_LINUX) ?: '/get',
-      '/get/lbry.msi'  => GitHub::getDownloadUrl(Os::OS_WINDOWS) ?: '/get',
+      '/get/lbry.dmg'  => GitHub::getDownloadUrl(OS::OS_OSX) ?: '/get',
+      '/get/lbry.deb'  => GitHub::getDownloadUrl(OS::OS_LINUX) ?: '/get',
+      '/get/lbry.msi'  => GitHub::getDownloadUrl(OS::OS_WINDOWS) ?: '/get',
     ];
 
     foreach ([302 => $tempRedirects, 301 => $permanentRedirects] as $code => $redirects)

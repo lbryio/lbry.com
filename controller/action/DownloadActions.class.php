@@ -35,7 +35,7 @@ class DownloadActions extends Actions
       return ['download/get'];
     }
 
-    $osChoices = Os::getAll();
+    $osChoices = OS::getAll();
     $os        = static::guessOs();
 
     if ($os && isset($osChoices[$os]))
@@ -105,8 +105,8 @@ class DownloadActions extends Actions
   public static function prepareListPartial(array $vars)
   {
     return $vars + ['osChoices' => isset($vars['excludeOs']) ?
-      array_diff_key(Os::getAll(), [$vars['excludeOs'] => null]) :
-      Os::getAll()
+      array_diff_key(OS::getAll(), [$vars['excludeOs'] => null]) :
+      OS::getAll()
     ];
   }
 
@@ -147,7 +147,7 @@ class DownloadActions extends Actions
   {
     //if exact OS is requested, use that
     $uri = Request::getRelativeUri();
-    foreach (Os::getAll() as $os => $osChoice)
+    foreach (OS::getAll() as $os => $osChoice)
     {
       if ($osChoice[0] == $uri)
       {
@@ -164,15 +164,15 @@ class DownloadActions extends Actions
     $ua = Request::getUserAgent();
     if (stripos($ua, 'OS X') !== false)
     {
-      return strpos($ua, 'iPhone') !== false || stripos($ua, 'iPad') !== false ? Os::OS_IOS : Os::OS_OSX;
+      return strpos($ua, 'iPhone') !== false || stripos($ua, 'iPad') !== false ? OS::OS_IOS : OS::OS_OSX;
     }
     if (stripos($ua, 'Linux') !== false || strpos($ua, 'X11') !== false)
     {
-      return strpos($ua, 'Android') !== false ? Os::OS_ANDROID : Os::OS_LINUX;
+      return strpos($ua, 'Android') !== false ? OS::OS_ANDROID : OS::OS_LINUX;
     }
     if (stripos($ua, 'Windows') !== false)
     {
-      return Os::OS_WINDOWS;
+      return OS::OS_WINDOWS;
     }
   }
 }
