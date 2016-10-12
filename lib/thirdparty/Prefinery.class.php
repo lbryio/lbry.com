@@ -13,11 +13,11 @@ class Prefinery
   const PREFIX = '/api/v2/betas/8679';
 
   protected static $curlOptions = [
-    'headers'   => [
+    'headers'       => [
       'Accept: application/json',
       'Content-type: application/json'
     ],
-    'json_data' => true,
+    'json_data'     => true,
     'json_response' => true
   ];
 
@@ -132,31 +132,19 @@ class Prefinery
 
   protected static function get($endpoint, array $data = [])
   {
-    $apiKey   = Config::get('prefinery_key');
-    $tries    = 0;
-    $response = null;
-
-    while (!$response && $tries < 3)
-    {
-      $tries++;
-      list($status, $headers, $response) = Curl::doCurl(Curl::GET,
-        static::DOMAIN . static::PREFIX . $endpoint . '.json?api_key=' . $apiKey, $data, array_merge(static::$curlOptions, ['retry' => 3]));
-
-      if (!$response)
-      {
-        Controller::queueToRunAfterResponse(function() use($status, $headers, $tries) {
-          Slack::sendErrorIfProd('Empty prefinery get response. Try ' . $tries . '. Status: ' . $status . '. Headers: ' . var_export($headers, true));
-        });
-      }
-    }
-    return static::decodePrefineryResponse($response);
+    return static::decodePrefineryResponse(
+      Curl::get(static::DOMAIN . static::PREFIX . $endpoint . '.json?api_key=' . Config::get('prefinery_key'),
+        $data, array_merge(static::$curlOptions, ['retry' => 3])
+      )
+    );
   }
 
-  protected static function post($endpoint, array $data = [], $allowEmptyResponse = true)
+  protected static function post($endpoint, array $data = [], bool $allowEmptyResponse = true)
   {
-    $apiKey = Config::get('prefinery_key');
     return static::decodePrefineryResponse(
-      Curl::post(static::DOMAIN . static::PREFIX . $endpoint . '.json?api_key=' . $apiKey, $data, array_merge(static::$curlOptions, ['retry' => 3])),
+      Curl::post(static::DOMAIN . static::PREFIX . $endpoint . '.json?api_key=' . Config::get('prefinery_key'),
+        $data, array_merge(static::$curlOptions, ['retry' => 3])
+      ),
       $allowEmptyResponse
     );
   }
@@ -182,9 +170,10 @@ class Prefinery
 
     if (isset($data['errors']))
     {
-      throw new PrefineryException($data['errors'] ? implode("\n", array_map(function ($error) {
-        return $error['message'];
-      }, (array)$data['errors'])) : 'Received empty error array.');
+      throw new PrefineryException($data['errors'] ?
+        implode("\n", array_map(function ($error) { return $error['message']; }, (array)$data['errors'])) :
+        'Received empty error array.'
+      );
     }
 
     return $data;

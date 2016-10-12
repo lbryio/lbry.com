@@ -69,6 +69,9 @@ class Curl
 
     $ch = curl_init();
 
+//    curl_setopt($ch, CURLOPT_VERBOSE, true);
+//    curl_setopt($ch, CURLOPT_STDERR, fopen('php://temp', 'w+'));
+
     if ($ch === false || $ch === null)
     {
       throw new LogicException('Unable to initialize cURL');
