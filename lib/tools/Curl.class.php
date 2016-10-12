@@ -2,9 +2,12 @@
 
 class Curl
 {
-  const GET = 'GET',
-        POST = 'POST',
-        PUT = 'PUT';
+  const
+    GET = 'GET',
+    POST = 'POST',
+    PUT = 'PUT',
+    DELETE = 'DELETE';
+
 
   public static function get($url, $params = [], $options = [])
   {
@@ -24,6 +27,12 @@ class Curl
     return $body;
   }
 
+  public static function delete($url, $params = [], $options = [])
+  {
+    list ($status, $headers, $body) = static::doCurl(static::DELETE, $url, $params, $options);
+    return $body;
+  }
+
   public static function doCurl($method, $url, $params = [], $options = [])
   {
     $defaults = [
@@ -36,6 +45,7 @@ class Curl
       'password'         => null,
       'cookie'           => null,
       'json_data'        => false,
+      'json_response'    => false,
       'retry'            => false,
     ];
 
@@ -45,12 +55,12 @@ class Curl
       throw new DomainException('Invalid curl options: ' . join(', ', array_keys($invalid)));
     }
 
-    $options = array_merge($defaults, $options);
-
     if (!in_array($method, [static::GET, static::POST, static::PUT]))
     {
       throw new DomainException('Invalid method: ' . $method);
     }
+
+    $options = array_merge($defaults, $options);
 
     if ($options['headers'] && $options['headers'] !== array_values($options['headers'])) // associative array
     {
@@ -137,7 +147,16 @@ class Curl
       return strlen($h);
     });
 
-    $responseContent = curl_exec($ch);
+    $rawResponse = curl_exec($ch);
+
+    if ($options['json_response'])
+    {
+      $responseContent = $rawResponse ? json_decode($rawResponse, true) : [];
+    }
+    else
+    {
+      $responseContent = $rawResponse;
+    }
 
     $statusCode = (int)curl_getinfo($ch, CURLINFO_HTTP_CODE);
 

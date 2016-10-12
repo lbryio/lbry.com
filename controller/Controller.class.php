@@ -85,6 +85,7 @@ class Controller
     $router->get(['/osx', 'get-osx'], 'DownloadActions::executeGet');
     $router->get(['/android', 'get-android'], 'DownloadActions::executeGet');
     $router->get(['/ios', 'get-ios'], 'DownloadActions::executeGet');
+    $router->get('/roadmap', 'ContentActions::executeRoadmap');
 
     $router->get(['/press-kit.zip', 'press-kit'], 'ContentActions::executePressKit');
 
@@ -114,9 +115,9 @@ class Controller
       '/deck.pdf'      => 'https://www.dropbox.com/s/0xj4vgucsbi8rtv/lbry-deck.pdf?dl=1',
       '/pln.pdf'       => 'https://www.dropbox.com/s/uevjrwnyr672clj/lbry-pln.pdf?dl=1',
       '/plan.pdf'      => 'https://www.dropbox.com/s/uevjrwnyr672clj/lbry-pln.pdf?dl=1',
-      '/get/lbry.dmg'  => DownloadActions::getDownloadUrl(DownloadActions::OS_OSX) ?: '/get',
-      '/get/lbry.deb'  => DownloadActions::getDownloadUrl(DownloadActions::OS_LINUX) ?: '/get',
-      '/get/lbry.msi'  => DownloadActions::getDownloadUrl(DownloadActions::OS_WINDOWS) ?: '/get',
+      '/get/lbry.dmg'  => GitHub::getDownloadUrl(OS::OS_OSX) ?: '/get',
+      '/get/lbry.deb'  => GitHub::getDownloadUrl(OS::OS_LINUX) ?: '/get',
+      '/get/lbry.msi'  => GitHub::getDownloadUrl(OS::OS_WINDOWS) ?: '/get',
     ];
 
     foreach ([302 => $tempRedirects, 301 => $permanentRedirects] as $code => $redirects)

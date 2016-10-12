@@ -17,13 +17,13 @@ class Prefinery
       'Accept: application/json',
       'Content-type: application/json'
     ],
-    'json_data' => true
+    'json_data' => true,
+    'json_response' => true
   ];
-
 
   public static function findUser($emailOrId, $useApc = true)
   {
-    $apcEnabled = extension_loaded('apc') && ini_get('apc.enabled');
+    $apcEnabled = Apc::isEnabled();
     if ($useApc && $apcEnabled)
     {
       $cached = apc_fetch('prefinery-user-' . $emailOrId, $success);
@@ -113,8 +113,7 @@ class Prefinery
     {
       throw new PrefineryException('Update tester must be called with a tester id');
     }
-    $apcEnabled = extension_loaded('apc') && ini_get('apc.enabled');
-    if ($apcEnabled)
+    if (Apc::isEnabled())
     {
       apc_delete('prefinery-user-' . $testerData['id']);
     }

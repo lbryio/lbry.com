@@ -19,8 +19,7 @@ jQuery.fn.extend({
 });
 
 $(document).ready(function() {
-  var body = $('body'),
-      labelCycles = body.find('.label-cycle'); //should use better pattern but we have so little JS right now
+  var body = $('body');
 
   body.on('click', 'a', onAnchorClick);
 
@@ -32,22 +31,6 @@ $(document).ready(function() {
   window.fbAsyncInit = function()
   {
     window.FB.Event.subscribe('edge.create', onFacebookLike);
-  };
-
-  //$(window).scroll(onBodyScroll);
-
-  if (labelCycles.length)
-  {
-    setInterval(refreshLabelCycles,5000);
-    labelCycles.each(function() {
-      var labelCycle = $(this),
-          maxHeight = Math.max.apply(Math, labelCycles.find('> *').map(function(){ return $(this).height(); }).get());
-      if (maxHeight)
-      {
-        labelCycle.height(maxHeight);
-      }
-      labelCycle.addClass('label-cycle-init');
-    });
   }
 
   function onAnchorClick()
@@ -77,24 +60,6 @@ $(document).ready(function() {
     if (anchor.data('analytics-category') && anchor.data('analytics-action') && anchor.data('analytics-label') && window.ga)
     {
       ga('send', 'event', anchor.data('analytics-category'), anchor.data('analytics-action'), anchor.data('analytics-label'));
-    }
-  }
-
-  function onBodyScroll()
-  {
-    var header = $('.header');
-    if (header.hasClass('header-scroll'))
-    {
-        if (window.scrollY <= 1)
-        {
-          header.removeClass('header-light');
-          header.addClass('header-dark');
-        }
-        else
-        {
-          header.removeClass('header-dark');
-          header.addClass('header-light');
-        }
     }
   }
 
@@ -148,22 +113,5 @@ $(document).ready(function() {
     $('.video > iframe').each(function() {
       resizeVideo($(this));
     })
-  });
-
-  function refreshLabelCycles()
-  {
-    labelCycles.each(function() {
-      var labelCycle = $(this),
-          activeLabel = labelCycle.find(':first-child');
-
-      activeLabel.fadeOut(function() {
-        labelCycle.append(activeLabel);
-        labelCycle.find(':first-child').fadeIn();
-      });
-    });
-  }
-
-  $('#language-dropdown').on('change', function() {
-    $(this).closest('form').submit();
   });
 });

@@ -2,23 +2,6 @@
 
 class DownloadActions extends Actions
 {
-  const OS_ANDROID = 'android',
-    OS_IOS = 'ios',
-    OS_LINUX = 'linux',
-    OS_OSX = 'osx',
-    OS_WINDOWS = 'windows';
-
-  public static function getOses()
-  {
-    return [
-      static::OS_WINDOWS => ['/windows', 'Windows', 'icon-windows', '_windows'],
-      static::OS_OSX     => ['/osx', 'OS X', 'icon-apple', '_osx'],
-      static::OS_LINUX   => ['/linux', 'Linux', 'icon-linux', '_linux'],
-      static::OS_ANDROID => ['/android', 'Android', 'icon-android', '_android'],
-      static::OS_IOS     => ['/ios', 'iOS', 'icon-mobile', '_ios']
-    ];
-  }
-
   public static function executeGet()
   {
     $email = Request::getParam('e');
@@ -52,7 +35,7 @@ class DownloadActions extends Actions
       return ['download/get'];
     }
 
-    $osChoices = static::getOses();
+    $osChoices = OS::getAll();
     $os        = static::guessOs();
 
     if ($os && isset($osChoices[$os]))
@@ -64,7 +47,7 @@ class DownloadActions extends Actions
         'osIcon'        => $osIcon,
         'prefineryUser' => $user ?: [],
         'downloadHtml'  => View::exists('download/' . $partial) ?
-          View::render('download/' . $partial, ['downloadUrl' => static::getDownloadUrl($os)]) :
+          View::render('download/' . $partial, ['downloadUrl' => Github::getDownloadUrl($os)]) :
           false
       ]];
     }
@@ -122,8 +105,8 @@ class DownloadActions extends Actions
   public static function prepareListPartial(array $vars)
   {
     return $vars + ['osChoices' => isset($vars['excludeOs']) ?
-      array_diff_key(static::getOses(), [$vars['excludeOs'] => null]) :
-      static::getOses()
+      array_diff_key(OS::getAll(), [$vars['excludeOs'] => null]) :
+      OS::getAll()
     ];
   }
 
@@ -164,7 +147,7 @@ class DownloadActions extends Actions
   {
     //if exact OS is requested, use that
     $uri = Request::getRelativeUri();
-    foreach (static::getOses() as $os => $osChoice)
+    foreach (OS::getAll() as $os => $osChoice)
     {
       if ($osChoice[0] == $uri)
       {
@@ -181,68 +164,15 @@ class DownloadActions extends Actions
     $ua = Request::getUserAgent();
     if (stripos($ua, 'OS X') !== false)
     {
-      return strpos($ua, 'iPhone') !== false || stripos($ua, 'iPad') !== false ? static::OS_IOS : static::OS_OSX;
+      return strpos($ua, 'iPhone') !== false || stripos($ua, 'iPad') !== false ? OS::OS_IOS : OS::OS_OSX;
     }
     if (stripos($ua, 'Linux') !== false || strpos($ua, 'X11') !== false)
     {
-      return strpos($ua, 'Android') !== false ? static::OS_ANDROID : static::OS_LINUX;
+      return strpos($ua, 'Android') !== false ? OS::OS_ANDROID : OS::OS_LINUX;
     }
     if (stripos($ua, 'Windows') !== false)
     {
-      return static::OS_WINDOWS;
+      return OS::OS_WINDOWS;
     }
-    return null;
-  }
-
-  public static function getDownloadUrl($os, $useCache = true)
-  {
-    if (!in_array($os, array_keys(static::getOses())))
-    {
-      throw new DomainException('Unknown OS');
-    }
-
-    $apc         = $useCache && extension_loaded('apc') && ini_get('apc.enabled');
-    $key         = 'lbry_release_data2';
-    $releaseData = null;
-
-    if ($apc)
-    {
-      $releaseData = apc_fetch($key);
-    }
-
-    if (!$releaseData)
-    {
-      try
-      {
-        $releaseData =
-          json_decode(Curl::get('https://api.github.com/repos/lbryio/lbry/releases/latest', [], ['user_agent' => 'LBRY']), true);
-        if ($apc)
-        {
-          apc_store($key, $releaseData, 600); // cache for 10 min
-        }
-      }
-      catch (Exception $e)
-      {
-      }
-    }
-
-    if (!$releaseData)
-    {
-      return null;
-    }
-
-    foreach ($releaseData['assets'] as $asset)
-    {
-      if (
-        ($os == static::OS_LINUX && substr($asset['name'], -4) == '.deb') ||
-        ($os == static::OS_OSX && substr($asset['name'], -4) == '.dmg') ||
-        ($os == static::OS_WINDOWS && substr($asset['name'], -4) == '.msi')
-      )
-      {
-        return $asset['browser_download_url'];
-      }
-    }
-
-    return null;
   }
 }

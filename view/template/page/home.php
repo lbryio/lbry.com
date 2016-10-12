@@ -10,7 +10,6 @@
           <h1 class="cover-title">{{global.tagline}}</h1>
           <h2 class="cover-subtitle" style="max-width: 600px; margin-left: auto; margin-right: auto">{{global.sentence}}</h2>
         </div>
-
         <div class="control-group spacer2 text-center">
           <div class="control-item">
             <a href="/get" class="btn-primary">{{global.get}}</a>

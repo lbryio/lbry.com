@@ -18,4 +18,8 @@ $badge-height: $spacing-vertical * 3/4;
   {
     background-color: $color-primary;
   }
+  &.badge-info
+  {
+    background-color: $color-info-bg;
+  }
 }

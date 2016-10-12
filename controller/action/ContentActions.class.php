@@ -69,7 +69,6 @@ class ContentActions extends Actions
     ]];
   }
 
-
   public static function executeFaq(string $slug = null): array
   {
     Response::enableHttpCache();
@@ -187,6 +186,33 @@ class ContentActions extends Actions
       'statuses' => $allStatuses,
       'selectedCategory' => $selectedCategory,
       'selectedStatus' => $selectedStatus
+    ]];
+  }
+
+  public static function executeRoadmap()
+  {
+    $cache = !Request::getParam('nocache'); 
+    $githubItems = Github::listRoadmapChangesets($cache);
+
+    $projectMaxVersions = [];
+    $closedGroups = [];
+    foreach($githubItems as $group => $items)
+    {
+      if ($items)
+      {
+        $lastItem = end($items);
+        $project = $lastItem['project'];
+        if (!isset($projectMaxVersions[$project]) || $lastItem['version'] > $projectMaxVersions[$project])
+        {
+          $projectMaxVersions[$project] = $lastItem['version'];
+        }
+      }
+    }
+
+    $items = array_merge($githubItems, Asana::listRoadmapTasks($cache));
+    return ['content/roadmap', [
+      'projectMaxVersions' => $projectMaxVersions,
+      'items' => $items
     ]];
   }
 
