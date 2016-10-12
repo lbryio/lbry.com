@@ -33,7 +33,7 @@ class Github
 
   public static function get($endpoint, $cache = true)
   {
-    return Curl::get('https://api.github.com' . $endpoint, [], ['user_agent' => 'LBRY', 'json_response' => true, 'cache' => $cache]);
+    return CurlWithCache::get('https://api.github.com' . $endpoint, [], ['user_agent' => 'LBRY', 'json_response' => true, 'cache' => $cache]);
   }
 
   public static function listRoadmapChangesets($cache = true)

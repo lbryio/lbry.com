@@ -2,10 +2,12 @@
 
 class Curl
 {
-  const GET = 'GET',
-        POST = 'POST',
-        PUT = 'PUT',
-        DEFAULT_CACHE = 600000;
+  const
+    GET = 'GET',
+    POST = 'POST',
+    PUT = 'PUT',
+    DELETE = 'DELETE';
+
 
   public static function get($url, $params = [], $options = [])
   {
@@ -25,13 +27,18 @@ class Curl
     return $body;
   }
 
+  public static function delete($url, $params = [], $options = [])
+  {
+    list ($status, $headers, $body) = static::doCurl(static::DELETE, $url, $params, $options);
+    return $body;
+  }
+
   public static function doCurl($method, $url, $params = [], $options = [])
   {
     $defaults = [
-      'cache'            => false,
       'headers'          => [],
       'verify'           => true,
-      'timeout'          => 10, //5 was timing out on /roadmap for Asana API
+      'timeout'          => 5,
       'follow_redirects' => true,
       'user_agent'       => null,
       'proxy'            => null,
@@ -39,7 +46,7 @@ class Curl
       'cookie'           => null,
       'json_data'        => false,
       'json_response'    => false,
-      'retry'            => false
+      'retry'            => false,
     ];
 
     $invalid = array_diff_key($options, $defaults);
@@ -54,21 +61,6 @@ class Curl
     }
 
     $options = array_merge($defaults, $options);
-
-    if (!Apc::isEnabled())
-    {
-      $options['cache'] = false;
-    }
-
-    if ($options['cache'])
-    {
-      $cacheKey = md5('z' . $url . $method . serialize($options) . serialize($params));
-      $cachedData = apc_fetch($cacheKey);
-      if ($cachedData)
-      {
-        return $cachedData;
-      }
-    }
 
     if ($options['headers'] && $options['headers'] !== array_values($options['headers'])) // associative array
     {
@@ -180,14 +172,7 @@ class Curl
 
     curl_close($ch);
 
-    $response = [$statusCode, $headers, $responseContent];
-
-    if ($options['cache'])
-    {
-      apc_store($cacheKey, $response, is_numeric($options['cache']) ? $options['cache'] : static::DEFAULT_CACHE);
-    }
-
-    return $response;
+    return [$statusCode, $headers, $responseContent];
   }
 }
 

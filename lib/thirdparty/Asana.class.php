@@ -2,7 +2,7 @@
 
 class Asana
 {
-  protected static $curlOptions = ['json_response' => true, 'cache' => true];
+  protected static $curlOptions = ['json_response' => true, 'cache' => true, 'timeout' => 10];
 
   public static function listRoadmapTasks($cache = true)
   {
@@ -16,7 +16,6 @@ class Asana
       158602294500249 => ['Documentation', null],
     ];
 
-    $groupCategories = ['ongoing', 'upcoming'];
     $tasks = [];
 
     $tags = [
@@ -25,30 +24,30 @@ class Asana
       192699565737948 => 'Future'
     ];
 
-    foreach($tags as $tagId => $tagLabel)
+    foreach ($tags as $tagId => $tagLabel)
     {
       $taggedTasks = static::get('/tags/' . $tagId . '/tasks', ['completed_since' => 'now'], $cache);
       foreach ($taggedTasks as $task)
       {
-        $fullTask = static::get('/tasks/' . $task['id']);
+        $fullTask  = static::get('/tasks/' . $task['id']);
         $projectId = $fullTask['memberships'][0]['project']['id'] ?? null;
         if ($fullTask['name'] && $projectId && isset($projects[$projectId]))
         {
           list($projectName, $projectUrl) = $projects[$projectId];
           $tasks[$tagLabel][] = array_intersect_key($fullTask, ['name' => null]) + [
               'project_label' => $projectName,
-              'badge' => $projectName,
-              'date' => $fullTask['due_on'] ?? null,
-              'body' => $fullTask['notes'],
-              'url' => $projectUrl,
-              'group' => $tagLabel,
-              'assignee' => $fullTask['assignee'] ? ucwords($fullTask['assignee']['name']) : ''
-          ];
+              'badge'         => $projectName,
+              'date'          => $fullTask['due_on'] ?? null,
+              'body'          => $fullTask['notes'],
+              'url'           => $projectUrl,
+              'group'         => $tagLabel,
+              'assignee'      => $fullTask['assignee'] ? ucwords($fullTask['assignee']['name']) : ''
+            ];
         }
       }
     }
 
-    foreach($tasks as &$groupTasks)
+    foreach ($tasks as &$groupTasks)
     {
       usort($groupTasks, function ($tA, $tB)
       {
@@ -72,12 +71,12 @@ class Asana
     $apiKey = Config::get('asana_key');
 
     $options = [
-        'headers' => ['Authorization: Bearer ' . $apiKey],
-        'cache' => $cache
-    ] + static::$curlOptions;
+                 'headers' => ['Authorization: Bearer ' . $apiKey],
+                 'cache'   => $cache
+               ] + static::$curlOptions;
 
-    $responseData = Curl::get('https://app.asana.com/api/1.0' . $endpoint, $data, $options);
-    return isset($responseData['data']) ? $responseData['data'] : [];
+    $responseData = CurlWithCache::get('https://app.asana.com/api/1.0' . $endpoint, $data, $options);
+    return $responseData['data'] ?? [];
   }
 }
 
