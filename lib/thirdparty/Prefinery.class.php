@@ -149,15 +149,8 @@ class Prefinery
     );
   }
 
-  protected static function decodePrefineryResponse($rawBody, $allowEmptyResponse = true)
+  protected static function decodePrefineryResponse($data, $allowEmptyResponse = true)
   {
-    if (!$rawBody)
-    {
-      throw new PrefineryException('Empty cURL response.');
-    }
-
-    $data = json_decode($rawBody, true);
-
     if (!$allowEmptyResponse && !$data && $data !== [])
     {
       throw new PrefineryException('Received empty or improperly encoded response.');
