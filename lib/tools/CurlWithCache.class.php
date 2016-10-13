@@ -6,13 +6,15 @@ class CurlWithCache extends Curl
 
   public static function doCurl($method, $url, $params = [], $options = [])
   {
-    $useCache = ($options['cache'] ?? true) && Apc::isEnabled();
+    $cacheAllowed = $options['cache'] ?? true;
+    $cacheEnabled = Apc::isEnabled();
+
     $cacheTimeout = is_numeric($options['cache'] ?? null) ? $options['cache'] : static::DEFAULT_CACHE;
     unset($options['cache']);
 
-    if ($useCache)
+    $cacheKey = $cacheEnabled ? md5($url . $method . serialize($options) . serialize($params)) : null;
+    if ($cacheAllowed && $cacheKey)
     {
-      $cacheKey = md5('x' . $url . $method . serialize($options) . serialize($params));
       $cachedData = apc_fetch($cacheKey);
       if ($cachedData)
       {
@@ -22,9 +24,16 @@ class CurlWithCache extends Curl
 
     $response = parent::doCurl($method, $url, $params, $options);
 
-    if ($useCache)
+    if ($cacheEnabled)
     {
-      apc_store($cacheKey, $response, $cacheTimeout);
+      if ($cacheAllowed)
+      {
+        apc_store($cacheKey, $response, $cacheTimeout);
+      }
+      else
+      {
+        apc_delete($cacheKey);
+      }
     }
 
     return $response;
