@@ -12,7 +12,7 @@ class CurlWithCache extends Curl
 
     if ($useCache)
     {
-      $cacheKey = md5('z' . $url . $method . serialize($options) . serialize($params));
+      $cacheKey = md5('x' . $url . $method . serialize($options) . serialize($params));
       $cachedData = apc_fetch($cacheKey);
       if ($cachedData)
       {

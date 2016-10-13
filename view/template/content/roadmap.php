@@ -17,8 +17,8 @@
   <div class="content content-light spacer2">
     <h4>Roadmap Notes</h4>
     <p>
-      Our roadmap pulls change note directly from our Git repo via <a href="https://github.com/lbryio/lbry" class="link-primary">GitHub</a>.
-      Ongoing, Upcoming and Future items are pulled directly from our internal project management system (<a href="https://asana.com" class="link-primary">Asana</a>), so they are always up-to-date.
+      Our roadmap pulls change notes directly from our Git repo via <a href="https://github.com/lbryio/lbry" class="link-primary">GitHub</a>.
+      Ongoing, Upcoming and Future items are pulled directly from our internal project management system (<a href="https://asana.com" class="link-primary">Asana</a>).
     </p>
     <p>
       This roadmap only outlines past and anticipated technical changes, it does not cover other initiatives. Development was fast and furious among a small group prior to 0.6, and release notes are sparse.
