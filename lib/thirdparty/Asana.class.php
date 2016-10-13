@@ -29,17 +29,22 @@ class Asana
       $taggedTasks = static::get('/tags/' . $tagId . '/tasks', ['completed_since' => 'now'], $cache);
       foreach ($taggedTasks as $task)
       {
-        $fullTask  = static::get('/tasks/' . $task['id']);
+        $fullTask  = static::get('/tasks/' . $task['id'], [], $cache);
         $projectId = $fullTask['memberships'][0]['project']['id'] ?? null;
-        if ($fullTask['name'] && $projectId && isset($projects[$projectId]))
+        if ($fullTask['name'])
         {
-          list($projectName, $projectUrl) = $projects[$projectId];
+          if ($projectId && isset($projects[$projectId]))
+          {
+            list($projectName, $projectUrl) = $projects[$projectId];
+          }
+          else
+          {
+            $projectName = 'Other';
+          }
           $tasks[$tagLabel][] = array_intersect_key($fullTask, ['name' => null]) + [
-              'project_label' => $projectName,
               'badge'         => $projectName,
               'date'          => $fullTask['due_on'] ?? null,
-              'body'          => $fullTask['notes'],
-              'url'           => $projectUrl,
+              'body'          => nl2br($fullTask['notes'])  ,
               'group'         => $tagLabel,
               'assignee'      => $fullTask['assignee'] ? ucwords($fullTask['assignee']['name']) : ''
             ];

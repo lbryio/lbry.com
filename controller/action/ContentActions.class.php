@@ -191,11 +191,10 @@ class ContentActions extends Actions
 
   public static function executeRoadmap()
   {
-    $cache = !Request::getParam('nocache'); 
+    $cache = !Request::getParam('nocache');
     $githubItems = Github::listRoadmapChangesets($cache);
 
     $projectMaxVersions = [];
-    $closedGroups = [];
     foreach($githubItems as $group => $items)
     {
       if ($items)

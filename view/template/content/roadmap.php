@@ -14,6 +14,16 @@
       </div>
     </div>
   </div>
+  <div class="content content-light spacer2">
+    <h4>Roadmap Notes</h4>
+    <p>
+      Our roadmap pulls change note directly from our Git repo via <a href="https://github.com/lbryio/lbry" class="link-primary">GitHub</a>.
+      Ongoing, Upcoming and Future items are pulled directly from our internal project management system (<a href="https://asana.com" class="link-primary">Asana</a>), so they are always up-to-date.
+    </p>
+    <p>
+      This roadmap only outlines past and anticipated technical changes, it does not cover other initiatives. Development was fast and furious among a small group prior to 0.6, and release notes are sparse.
+    </p>
+  </div>
   <div style="max-width: 800px; margin: 0 auto">
     <div class="roadmap-container" id="project-roadmap">
       <div class="text-center"><a href="javascript:;" class="link-primary show-all-roadmap-groups">Show Earlier Releases</a></div>
@@ -47,16 +57,17 @@
                 </div>
               <?php endif ?>
               <h3 class="roadmap-item-title">
-                <?php echo $item['name'] ?>
+                <?php if (isset($item['url']) && $item['url']): ?>
+                  <a href="<?php echo $item['url'] ?>" class="link-primary"><?php echo $item['name'] ?></a>
+                <?php else: ?>
+                  <?php echo $item['name'] ?>
+                <?php endif ?>
               </h3>
               <div class="roadmap-item-date">
                 <?php echo $item['date'] ? date('m-d-Y', strtotime($item['date'])) : '' ?>
               </div>
               <div class="roadmap-item-content">
                 <?php echo $item['body'] ?: '<em class="no-results">No description</em>' ?>
-                <?php if (isset($item['github_url'])): ?>
-
-                <?php endif ?>
               </div>
             </div>
           <?php endforeach ?>
@@ -64,5 +75,6 @@
       <?php endforeach ?>
     </div>
   </div>
+  <?php echo View::render('nav/_learnFooter') ?>
 </main>
 <?php echo View::render('nav/_footer') ?>

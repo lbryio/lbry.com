@@ -42,27 +42,21 @@ class Github
     $sets        = [];
     $allReleases = [];
 
-    $projects = [
-      'lbry' => ''
-    ];
+    $project = 'lbry';
+    $page = 1;
 
-    foreach ($projects as $project => $label)
+    do
     {
-      $page = 1;
-      do
+      $releases = static::get('/repos/lbryio/' . $project . '/releases?page=' . $page, $cache);
+      $page++;
+      $allReleases = array_merge($allReleases, array_map(function ($release) use ($project)
       {
-        $releases = static::get('/repos/lbryio/' . $project . '/releases?page=' . $page, $cache);
-        $page++;
-        $allReleases = array_merge($allReleases, array_map(function ($release) use ($label, $project)
-        {
-          return $release + ['project_label' => $label, 'project' => $project];
-        }, array_filter($releases, function ($release)
-        {
-          return isset($release['tag_name']) && isset($release['published_at']) && $release['published_at'] &&
-                 $release['tag_name'] != 'v0.4.0';
-        })));
-      } while (count($releases) >= 30);
-    }
+        return $release + ['project' => $project];
+      }, array_filter($releases, function ($release)
+      {
+        return isset($release['tag_name']) && isset($release['published_at']) && $release['published_at'];
+      })));
+    } while (count($releases) >= 30);
 
     foreach ($allReleases as $release)
     {
@@ -70,17 +64,17 @@ class Github
       $matches = null;
       if (isset($release['tag_name']) && preg_match('/v(\d+)\.(\d+).?(\d+)?/', $release['tag_name'], $matches))
       {
-        $group = $release['project_label'] . ' v' . $matches[1] . '.' . $matches[2];
+        $group = 'v' . $matches[1] . '.' . $matches[2];
       }
       if ($group)
       {
         $sets[$group][] = array_intersect_key($release, [
-            'prerelease' => null, 'tag_name' => null, 'published_at' => null, 'project' => null, 'project_label' => null
+            'prerelease' => null, 'tag_name' => null, 'published_at' => null, 'project' => null
           ]) + [
             'date'          => date('Y-m-d', strtotime($release['created_at'])),
             //I thought published_at, but GitHub displays created_at and published_at is out of sync sometimes (0.3.2, 0.3.3)
             'name'          => $release['name'] ?: $release['tag_name'],
-            'github_url'    => $release['url'],
+          'url'             => $release['html_url'],
             'major_version' => $matches[1],
             'minor_version' => $matches[2],
             'patch_version' => isset($matches[3]) ? $matches[3] : null,
