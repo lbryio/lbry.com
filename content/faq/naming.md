@@ -2,7 +2,9 @@
 title: LBRY’s naming system seems kinda crazy. Why don’t you just assign names the same way as internet domains?
 category: LBRY 101
 ---
-First, it’s important to know that assigning names well is a difficult problem in centralized systems. It becomes nearly impossible in decentralized ones. Just because we’re all accustomed to certain solutions doesn’t mean they aren’t seriously flawed.
+First, since there have been a lot of misconceptions about how LBRY URLs work, *it is absolutely possible to own and control a URL forever*. That is the tl;dr of this post if you don't want to read a bunch of words about how LBRY URLs work. 
+
+Assigning names optimally is a difficult problem in centralized systems. It becomes nearly impossible in decentralized ones. Just because we’re all accustomed to certain solutions doesn’t mean they aren’t seriously flawed.
 
 Let’s look at the internet’s standard domain name system (DNS). DNS is a centralized service run by an organization called ICANN. ICANN grants registrars the ability to lease domain names for 1-year terms. Registrars pay enormous fees to participate in this system, and individuals/companies can end up paying substantial fees to maintain a particular domain. That is to say, ICANN is a pretty lucrative racket for those involved.
 
