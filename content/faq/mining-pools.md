@@ -11,3 +11,4 @@ While we try to work with reliable pool operators, LBRY does not officially run 
 - [CoinMine](https://www2.coinmine.pl/lbc/index.php?page=gettingstarted)
 - [MaxMiners](https://maxminers.net/lbry/index.php?page=gettingstarted)
 - [YIIMP](http://yiimp.ccminer.org/site/mining/lbry)
+- [CoinQuarry](https://mining.coinquarry.org/)
