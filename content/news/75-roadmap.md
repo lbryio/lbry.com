@@ -26,7 +26,7 @@ Along the way, we are actively taking feedback from beta users and testers and i
 
 - Windows version of the LBRY app to be released next week 
 - Publisher channels in November
-- A technical white paper by the end of the year 
+- A technical white paper by February 
 
 [Check out the roadmap](https://lbry.io/roadmap) for more details and upcoming developments. 
 
