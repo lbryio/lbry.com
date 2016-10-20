@@ -37,7 +37,7 @@
         </h2>
         <div class="roadmap-group <?php echo !$isOpen ? 'roadmap-group-closed' : '' ?>">
           <?php $lastItem = end($groupItems) ?>
-          <?php $maxItems = isset($lastItem['version']) ? 3 : count($groupItems) ?>
+          <?php $maxItems = isset($lastItem['version']) ? 1 : count($groupItems) ?>
           <?php $index = 0 ?>
           <?php if (count($groupItems) > $maxItems): ?>
             <div class="text-center spacer1"><a href="javascript:;" class="link-primary show-all-roadmap-group-items">Show All Items for <?php echo $group ?></a></div>
