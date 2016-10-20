@@ -10,13 +10,11 @@ lbry.roadmap = function(selector)
     $(this).remove();
   });
   roadmap.on('click', '.roadmap-group-title', function() {
-    $(this).next('.roadmap-group')
-      .toggleClass('roadmap-group-closed').toggleClass('roadmap-group-open');
-      // .find('.roadmap-item')
-      //   .toggleClass('roadmap-item-open', $(this).hasClass('roadmap-group-open'))
-      //   .toggleClass('roadmap-item-closed', $(this).hasClass('roadmap-group-closed'))
+    var target = $(this).next('.roadmap-group');
+    target.toggleClass('roadmap-group-closed').toggleClass('roadmap-group-open');
+    if (target.hasClass('roadmap-group-open'))
+    {
+      target.find('.show-all-roadmap-group-items').click();
+    }
   });
-  // roadmap.on('click', '.roadmap-item-header', function() {
-  //   $(this).closest('.roadmap-item').toggleClass('roadmap-item-open').toggleClass('roadmap-item-closed');
-  // });
 }
