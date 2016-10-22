@@ -1,26 +1,14 @@
 @import "global";
 
-$success_bg: #dff0d8;
-$success_border: #d6e9c6;
-$success_text: #468847;
-
-$warning_bg: #fff6bf;
-$warning_border: #f89406;
-$warning_text: #514721;
-
-$error_bg: #f2dede;
-$error_border: #eed3d7;
-$error_text: #b94a48;
-
-$info_bg: #d9edf7;
-$info_border: #bce8f1;
-$info_text: #3a87ad;
-
 @mixin notice($text_color, $bg_color, $border_color)
 {
   color: $text_color;
   background-color: $bg_color;
   border-color: $border_color;
+  h3 {
+    color: darken($text_color, 10%);
+    margin-bottom: $spacing-vertical;
+  }
   a[href]
   {
     color: $text_color;

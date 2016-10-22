@@ -251,3 +251,18 @@ title:
 roadmap:
   title: LBRY Roadmap
   description: See past and future progress on development of LBRY, the world's first user-controlled digital marketplace.
+form_error:
+  required: Please provide this.
+  invalid: Invalid. Please check your input.
+dmca:
+  header: Report Infringing Content
+  form_labels:
+    name: Your Name
+    rightsholder: Rightsholder's Name
+    email: Email Address
+    identifier: Infringing Content Identifier
+  form_help:
+    rightsholder: The name of the entity that owns the rights to the infringing content
+    email: All communication regarding this claim will be sent to this address
+    identifier: Name, claim ID, or another way for us to identify the infringing content
+  form_submit: Submit Report

@@ -32,7 +32,6 @@ class Response
     $contentSent = false,
     $isHeadersOnly = false,
     $gzipResponseContent = true,
-//                   $bodyCssClasses = [],
     $metaImages = [];
 
   public static function setMetaDescription($description)

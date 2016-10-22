@@ -6,6 +6,20 @@ class Mailgun
 
   const LIST_GENERAL = 'lbryians@lbry.io';
 
+  public static function sendDmcaReport($data)
+  {
+    list($status, $headers, $body) = static::post('/lbry.io/messages', [
+      'from'              => 'LBRY <mail@lbry.io>',
+      'to'                => 'jeremy@lbry.io',
+      'subject'           => 'DMCA Report #' . $data['report_id'],
+      'html'              => '<pre>' . var_export($data, true) . '</pre>',
+      'o:tracking-clicks' => 'no',
+      'o:tracking-opens'  => 'no'
+    ]);
+
+    return $status == 200;
+  }
+
   public static function sendSubscriptionConfirmation($email)
   {
     $confirmHash = static::getConfirmHash($email);
