@@ -11,7 +11,7 @@ html
 body
 {
     font-family: $font-body;
-    line-height: 1.5;
+    line-height: $line-height;
     min-height: 100%;
     position: relative;
 }

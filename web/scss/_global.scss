@@ -11,6 +11,7 @@ $color-meta-lighter: #999999;
 $color-info-bg: #3a779d;
 
 $font-size: 16px;
+$line-height: $font-size * 1.5;
 
 $mobile-width-threshold: 801px;
 $max-content-width: 1000px;
@@ -26,6 +27,22 @@ $font-size-h3: 1.75em;
 $font-size-h4: 1.4em;
 
 $content-side-padding: 15px;
+
+$success_bg: #dff0d8;
+$success_border: #d6e9c6;
+$success_text: #468847;
+
+$warning_bg: #fff6bf;
+$warning_border: #f89406;
+$warning_text: #514721;
+
+$error_bg: #f2dede;
+$error_border: #eed3d7;
+$error_text: #b94a48;
+
+$info_bg: #d9edf7;
+$info_border: #bce8f1;
+$info_text: #3a87ad;
 
 @mixin anchor($color)
 {
@@ -150,6 +167,14 @@ $content-side-padding: 15px;
   overflow:hidden;
 }
 
+
+@mixin transition($transition-property, $transition-time, $method) {
+  -webkit-transition: $transition-property $transition-time $method;
+     -moz-transition: $transition-property $transition-time $method;
+      -ms-transition: $transition-property $transition-time $method;
+       -o-transition: $transition-property $transition-time $method;
+          transition: $transition-property $transition-time $method;
+}
 
 @mixin jumpingScrollbarFix() {
   /*
