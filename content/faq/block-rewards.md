@@ -5,7 +5,7 @@ category: mining
 
 ## 0. Only Trust the Source
 
-The source code, and not this file, is the only true definiton of the block rewards. That source file is located here in [`master`]:
+The source code, and not this file, is the only true definition of the block rewards. That source file is located here in [`master`]:
 
 [https://github.com/lbryio/lbrycrd/blob/master/src/main.cpp](https://github.com/lbryio/lbrycrd/blob/master/src/main.cpp#L1576)
 
