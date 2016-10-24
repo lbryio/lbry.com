@@ -23,6 +23,7 @@
       <?php echo $post->getContentHtml() ?>
     </div>
     <?php echo View::render('content/_postNav', ['post' => $post]) ?>
+    <?php echo View::render('content/_postSocialShare', ['post' => $post]) ?>
   </section>
 
 
