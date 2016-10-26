@@ -6,6 +6,29 @@ class Mailgun
 
   const LIST_GENERAL = 'lbryians@lbry.io';
 
+  public static function unsubscribeFromMailingList($listAddress, $email)
+  {
+    list($status, $headers, $body) = static::put('/lists/' . $listAddress . '/members/' . $email, [
+      'subscribed' => 'no',
+    ]);
+
+    if ($status == 200)
+    {
+      return true;
+    }
+
+    $data = json_decode($body, true);
+    $message = $data['error'] ?? $data['message'] ?? false;
+
+    if (strpos($message, 'Member '.$email) === 0 && strrpos($message, ' not found') === (strlen($message) - strlen(' not found')))
+    {
+      // message says "Member $email ... not found", so email is not on list. that's the same as unsubscribing, right?
+      return true;
+    }
+
+    return $message;
+  }
+
   public static function sendDmcaReport($data)
   {
     list($status, $headers, $body) = static::post('/lbry.io/messages', [
@@ -89,7 +112,17 @@ class Mailgun
 
   protected static function post($endpoint, $data)
   {
-    return Curl::doCurl(Curl::POST, self::BASE_URL . $endpoint, $data, [
+    return static::request(Curl::POST, $endpoint, $data);
+  }
+
+  protected static function put($endpoint, $data)
+  {
+    return static::request(Curl::PUT, $endpoint, $data);
+  }
+
+  protected static function request($method, $endpoint, $data)
+  {
+    return Curl::doCurl($method, self::BASE_URL . $endpoint, $data, [
       'headers' => [
         'Authorization: Basic ' . base64_encode('api:' . Config::get('mailgun_api_key'))
       ],
