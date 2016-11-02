@@ -37,7 +37,7 @@
       <div class="text-center meta spacer1">
         <img src="/img/lbry-ui.png"/>
         <div class="content-inset">
-          A user searches and prepares to stream and the film <em>It’s a Wonderful Life</em>, located at <a href="lbry://wonderfullife">lbry://wonderfullife</a>, via a completely decentralized network. Try it out for yourself at <a href="https://lbry.io/get">lbry.io/get</a>.
+          A user searches and prepares to stream and the film <em>It’s a Wonderful Life</em>, located at <a href="lbry://wonderfullife">lbry://wonderfullife</a>, via a completely decentralized network. Try it out for yourself at <a href="/get">lbry.io/get</a>.
         </div>
       </div>
 
@@ -115,7 +115,7 @@
       <p>Other than the usage of the LBRY blockchain to store names and metadata, there are only minor differences between the blockchains of LBRY and Bitcoin, and the changes are generally consensus improvements. We’ve buffed the hashing algorithm, smoothed the block reward function, increased the block size, increased the total number of credits, and prepared for offchain settlement.</p>
 
       <p>The LBRY blockchain simply maintains LBC balances and a content namespace/catalogue. The next part, LBRYnet, specifies what to do with this data. To compare to the existing web, the blockchain is like the domain system (it maintains a listing of what is available), while the next piece makes it possible to actually fetch and pay for content.</p>
-      <footer> If you’re a Bitcoiner wondering why we don’t use the Bitcoin blockchain, you can read a detailed answer to that question <a href="https://blog.lbry.io/why-doesnt-lbry-just-use-bitcoin/">here</a>.</footer>
+      <footer> If you’re a Bitcoiner wondering why we don’t use the Bitcoin blockchain, you can read a detailed answer to that question <a href="/news/why-doesnt-lbry-just-use-bitcoin">here</a>.</footer>
 
       <h4>Part B: The Data Network (LBRYNet)</h4>
       <p>LBRYNet is the layer that makes the LBRY blockchain useful beyond a simple payment system. It says what to do with the information available in the LBRY blockchain, how to issue payments, how to look up a content identifier, and so on. </p>
@@ -226,7 +226,7 @@
 
       <p>If LBRY succeeds, we will enter a world that is even more creative, connected, and conservatory. We will waste less and we make more. We will create a world where a teenager in Kenya and a reality star in Los Angeles use the same tool to search the same network and have access to the same results -- a world where information, knowledge, and imagination know no borders. </p>
 
-      <p>Build our dream with us! Download LBRY at <a class="link-primary" href="https://lbry.io/get">lbry.io/get</a>.</p>
+      <p>Build our dream with us! Download LBRY at <a class="link-primary" href="/get">lbry.io/get</a>.</p>
     </section>
   </div>
   <?php echo View::render('nav/_learnFooter') ?>
@@ -264,7 +264,7 @@
     <p>Other than the usage of the LBRY blockchain to store names and metadata, there are only minor differences between the blockchains of LBRY and Bitcoin, and the changes are generally consensus improvements. We’ve buffed the hashing algorithm, smoothed the block reward function, increased the block size, increased the total number of credits, and prepared for offchain settlement.</p>
 
     <p>The LBRY blockchain simply maintains LBC balances and a content namespace/catalogue. The next part, LBRYnet, specifies what to do with this data. To compare to the existing web, the blockchain is like the domain system (it maintains a listing of what is available), while the next piece makes it possible to actually fetch and pay for content.</p>
-    <footer> If you’re a Bitcoiner wondering why we don’t use the Bitcoin blockchain, you can read a detailed answer to that question <a href="https://blog.lbry.io/why-doesnt-lbry-just-use-bitcoin/">here</a>.</footer>
+    <footer> If you’re a Bitcoiner wondering why we don’t use the Bitcoin blockchain, you can read a detailed answer to that question <a href="/news/why-doesnt-lbry-just-use-bitcoin/">here</a>.</footer>
 
     <h4>Part B: The Data Network (LBRYNet)</h4>
     <p>LBRYNet is the layer that makes the LBRY blockchain useful beyond a simple payment system. It says what to do with the information available in the LBRY blockchain, how to issue payments, how to look up a content identifier, and so on. </p>

@@ -1,5 +1,5 @@
 <?php NavActions::setNavUri('/learn') ?>
-<?php Response::addMetaImage('https://lbry.io/img/cover-team.jpg') ?>
+<?php Response::addMetaImage(Request::getHostAndProto() . '/img/cover-team.jpg') ?>
 <?php Response::setMetaDescription('description.team') ?>
 <?php echo View::render('nav/_header', ['isDark' => false]) ?>
 <main>

@@ -1,7 +1,7 @@
 <h3>{{title.refer}}</h3>
 <p>{{page.refer.earn1}} <?php echo i18n::formatCredits($prefineryUser['id'] < 75000 ? 10 : 5) ?> {{page.refer.earn2}}</p>
 <p>
-  <input type="text" value="https://lbry.io/get?r=<?php echo $referralCode ?>" style="width: 100%; border-color: #155B4A" readonly id="referral-url-input"/>
+  <input type="text" value="<?php echo Request::getHostAndProto() ?>/get?r=<?php echo $referralCode ?>" style="width: 100%; border-color: #155B4A" readonly id="referral-url-input"/>
   <?php js_start() ?>
     $('#referral-url-input')
       .focus(function() { $(this).select(); })
