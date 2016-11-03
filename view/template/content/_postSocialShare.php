@@ -1,4 +1,4 @@
-<?php $url = urlencode(Request::getHostAndProto() . '/' . $post->getRelativeUrl()) ?>
+<?php $url = urlencode(Request::getHostAndProto() . $post->getRelativeUrl()) ?>
 <?php $title = urlencode($post->getTitle()) ?>
 <div class="social-share-buttons">
   <a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo $url ?>&t=<?php echo $title ?>" title="Share on Facebook" target="_blank">
