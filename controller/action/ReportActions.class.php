@@ -38,4 +38,24 @@ class ReportActions extends Actions
 
     return ['report/dmca', ['errors' => $errors, 'values' => $values]];
   }
+
+  public static function executeYouTubeSub()
+  {
+    if (!Request::isPost())
+    {
+      return Controller::redirect('/youtube');
+    }
+
+    $email = Request::getPostParam('email');
+
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL))
+    {
+      Session::setFlash('error', 'Please enter a valid email.');
+      return Controller::redirect('/youtube');
+    }
+
+    Mailgun::sendYouTubeWarmLead(['email' => $email]);
+    
+    return Controller::redirect(Request::getRelativeUri(), 303);
+  }
 }

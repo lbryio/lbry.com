@@ -36,6 +36,30 @@
     line-height: 1;
 }
 
+.icon-in-circle
+{
+  font-size: 100px;
+  color: $color-primary;
+  border-radius: 50%;
+  border: 2px solid $color-primary;
+  height: 150px;
+  width: 150px;
+  line-height: 150px;
+  margin: 0 auto;
+  /* hack fixes for weird icon placement on youtube page*/
+  .icon-cubes
+  {
+    position: relative;
+    left: 5px;
+    top: -5px;
+  }
+  .icon-code
+  {
+    position: relative;
+    top: -5px;
+  }
+}
+
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
    readers do not read off random characters that represent icons */
 .icon-glass:before {
