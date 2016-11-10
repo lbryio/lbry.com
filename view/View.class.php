@@ -14,10 +14,10 @@ class View
 {
   const LAYOUT_PARAMS = '_layout_params';
 
-  const WEB_DIR = ROOT_DIR.'/web';
-  const SCSS_DIR = self::WEB_DIR.'/scss';
-  const CSS_DIR = self::WEB_DIR.'/css';
-  const JS_DIR = self::WEB_DIR.'/js';
+  const WEB_DIR  = ROOT_DIR . '/web';
+  const SCSS_DIR = self::WEB_DIR . '/scss';
+  const CSS_DIR  = self::WEB_DIR . '/css';
+  const JS_DIR   = self::WEB_DIR . '/js';
 
   public static function render($template, array $vars = [])
   {
@@ -33,9 +33,9 @@ class View
 
     list($module, $view) = explode('/', $template);
 
-    $isPartial = $view[0] === '_';
-    $actionClass  = ucfirst($module) . 'Actions';
-    $method = 'prepare' . ucfirst(ltrim($view, '_')) . ($isPartial ? 'Partial' : '');
+    $isPartial   = $view[0] === '_';
+    $actionClass = ucfirst($module) . 'Actions';
+    $method      = 'prepare' . ucfirst(ltrim($view, '_')) . ($isPartial ? 'Partial' : '');
 
     if (method_exists($actionClass, $method))
     {
@@ -118,7 +118,7 @@ class View
     $path = static::getFullPath($template);
     list($ignored, $frontMatter, $markdown) = explode('---', file_get_contents($path), 3);
     $metadata = Spyc::YAMLLoadString(trim($frontMatter));
-    $html = ParsedownExtra::instance()->text(trim($markdown));
+    $html     = ParsedownExtra::instance()->text(trim($markdown));
     return [$metadata, $html];
   }
 
@@ -139,15 +139,15 @@ class View
       $scssCompiler->setLineNumberStyle(Leafo\ScssPhp\Compiler::LINE_COMMENTS);
     }
 
-    $css = $scssCompiler->compile(file_get_contents(self::SCSS_DIR.'/all.scss'));
-    file_put_contents(self::CSS_DIR.'/all.css', $css);
+    $css = $scssCompiler->compile(file_get_contents(self::SCSS_DIR . '/all.scss'));
+    file_put_contents(self::CSS_DIR . '/all.css', $css);
   }
 
   public static function gzipAssets()
   {
-    foreach([self::CSS_DIR => 'css', self::JS_DIR => 'js'] as $dir => $ext)
+    foreach ([self::CSS_DIR => 'css', self::JS_DIR => 'js'] as $dir => $ext)
     {
-      foreach(glob("$dir/*.$ext") as $file)
+      foreach (glob("$dir/*.$ext") as $file)
       {
         Gzip::compressFile($file);
       }
@@ -156,8 +156,32 @@ class View
 
   protected static function interpolateTokens($html)
   {
-    return preg_replace_callback('/{{[\w\.]+}}/is', function($m) {
+    return preg_replace_callback('/{{[\w\.]+}}/is', function ($m)
+    {
       return i18n::translate(trim($m[0], '}{'));
     }, $html);
+  }
+
+  protected static function escapeOnce($value)
+  {
+    return preg_replace('/&amp;([a-z]+|(#\d+)|(#x[\da-f]+));/i', '&$1;', htmlspecialchars((string)$value, ENT_QUOTES, 'utf-8'));
+  }
+
+  protected static function attributesToHtml($attributes)
+  {
+    return implode('', array_map(function ($k, $v)
+    {
+      return $v === true ? " $k" : ($v === false || $v === null || ($v === '' && $k != 'value') ? '' : sprintf(' %s="%s"', $k, static::escapeOnce($v)));
+    }, array_keys($attributes), array_values($attributes)));
+  }
+
+  public static function renderTag($tag, $attributes = [])
+  {
+    return $tag ? sprintf('<%s%s />', $tag, static::attributesToHtml($attributes)) : '';
+  }
+
+  public static function renderContentTag($tag, $content = null, $attributes = [])
+  {
+    return $tag ? sprintf('<%s%s>%s</%s>', $tag, static::attributesToHtml($attributes), $content, $tag) : '';
   }
 }

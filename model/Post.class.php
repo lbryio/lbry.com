@@ -110,7 +110,7 @@ class Post
 
   public function getRelativeUrl()
   {
-    return $this->postType . '/' . $this->slug;
+    return '/' . $this->postType . '/' . $this->slug;
   }
 
   public function getSlug()

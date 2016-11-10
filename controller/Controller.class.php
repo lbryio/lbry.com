@@ -95,6 +95,8 @@ class Controller
     $router->any('/list/subscribe', 'MailActions::executeSubscribe');
     $router->get('/list/confirm/{hash}', 'MailActions::executeConfirm');
 
+    $router->any('/dmca', 'ReportActions::executeDmca');
+
     $router->post('/set-culture', 'i18nActions::setCulture');
 
     $permanentRedirects = [

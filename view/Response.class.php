@@ -32,7 +32,6 @@ class Response
     $contentSent = false,
     $isHeadersOnly = false,
     $gzipResponseContent = true,
-//                   $bodyCssClasses = [],
     $metaImages = [];
 
   public static function setMetaDescription($description)
@@ -60,7 +59,7 @@ class Response
 
   public static function getMetaImages()
   {
-    return static::$metaImages ?: ['https://lbry.io/img/lbry-dark-1600x528.png'];
+    return static::$metaImages ?: [Request::getHostAndProto() . '/img/lbry-dark-1600x528.png'];
   }
 
   public static function setMetaTitle($title)

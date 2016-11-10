@@ -80,6 +80,16 @@ class Request
     return static::getHttpHeader('Host') ? rtrim(static::getHttpHeader('Host'), '.') : '';
   }
 
+  public static function getHostAndProto(): string
+  {
+    return (static::isSSL() ? 'https' : 'http') . '://' . static::getHost();
+  }
+
+  public static function isSSL(): bool
+  {
+    return static::getHeader('HTTPS') || strtolower(static::getHttpHeader('X_FORWARDED_PROTO')) == 'https';
+  }
+
   public static function getServerName(): string
   {
     return static::getHeader('SERVER_NAME');

@@ -33,8 +33,9 @@ class Github
 
   public static function get($endpoint, $cache = true)
   {
+    $twoHoursInSeconds = 7200;
     return CurlWithCache::get('https://api.github.com' . $endpoint, [],
-      ['user_agent' => 'LBRY', 'json_response' => true, 'cache' => $cache]);
+      ['user_agent' => 'LBRY', 'json_response' => true, 'cache' => $cache === true ? $twoHoursInSeconds : $cache]);
   }
 
   public static function listRoadmapChangesets($cache = true)
