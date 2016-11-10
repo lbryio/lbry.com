@@ -1,55 +1,29 @@
 <?php Response::setMetaDescription('description.publish') ?>
-<?php Response::setMetaTitle(__('title.publish')) ?>
+<?php Response::setMetaTitle(__('YouTubers! Teak back control.')) ?>
 <?php echo View::render('nav/_header', ['isDark' => true, 'isAbsolute' => true]) ?>
-<?php /*
-       <div class="cover-subtitle">
-          Join thousands of YouTubers on the first
-          community&#x2011;controlled video sharing site. <?php //&#x2011; = non breaking hyphen ?>
-      </div>
- */ ?>
 <main >
   <?php //if you change the image, change it on download/_publish too! ?>
-  <div class="cover cover-dark cover-center cover-full" style="background-color: green;" >
+  <div class="cover cover-dark cover-center cover-full" style="padding-top: 80px; background-image: url('/img/youtube/tanks3.jpg')" >
     <div style="max-width: 700px; text-align: center">
       <h1 class="cover-title">
-        <?php echo Request::getParam('cta') ?: 'Do you want to say yes to this leading question about YouTube?' ?></h1>
-      <div class="spacer2">
-        (and get $50?)
-      </div>
-      <div class="control-group spacer2">
-        <a href="#yes" class="btn-primary control-item">Yes</a>
-        <a href="#maybe" class="btn-alt control-item">Maybe</a>
-        <a href="https://www.youtube.com/watch?v=vjXNvLDkDTA" class="btn-alt control-item">No</a>
+        YouTubers!<br/>
+        Take Back Control.
+      </h1>
+      <div class="cover-subtitle" style="font-weight: bold">
+        Join thousands of other creators in a world where your content is made available directly to your audience, free of censorship and corporate influence.
       </div>
     </div>
   </div>
-  <div id="maybe"  class="content content-light">
-    <?php /*
- <div class="content content-light content-tile">
-          <h2 class="cover-title cover-title-tile cover-title-flat">{{publish.partner}}</h2>
-          <h3>{{publish.how}}</h3>
-          <ul>
-            <li>
-              Publish five pieces of content with the LBRY app.
-              <div class="meta">Existing content is okay, so long as it's content you created.</div>
-            </li>
-            <li>Set any price per view — from zero to a dime to one million dollars — you’re in control.</li>
-            <li>Receive 100% of your list price in real time as it is streamed.</li>
-            <li>
-              Receive approximately $1,000.<br/>
-              <div class="meta">See <a href="#what-you-get" class="link-primary">What You Get</a>.</div>
-            </li>
-            <li>Answer our beta feedback survey about your experience.</li>
-          </ul>
-          </div>
-        </div> */ ?>
-    <h2 class="spacer2">Meet LBRY</h2>
+  <div class="content content-light">
+    <h2 class="spacer2" style="text-align: center">
+      <img src="/img/lbry-dark-1600x528.png" style="max-height: 80px" alt="LBRY"/>
+    </h2>
     <div class="column-fluid" >
       <?php foreach([
         'icon-group' => ['Community Run', 'Share (and optionally monetize) your content via a network powered entirely by users themselves.'],
         'icon-cubes' => ['Blockchain', 'The power of decentralized consensus allows your content to be discovered and accessed by anyone in the world -- on your terms.'],
         'icon-thumbs-up' => ['Take Control', 'Publish your content with whatever terms, price, and quality you desire. Update, re-release, and unpublish at any time.'],
-        'icon-money' => ['Make $50', 'If you have a YouTube channel with at least, 250 followers or a video with 50,000 views, receive $50 for publishing. But everyone is welcome!'],
+        'icon-money' => ['Make More', 'You control whether your content is free or paid. If paid, you get 100% of the price.'],
         'icon-lock' => ['Secure', 'Made with encryption and love by dozens of bright contributors from MIT, CMU, RPI, Udacity, Dyn and more.'],
         'icon-code' => ['Open Source', 'Entirely open-source and permissively licensed (MIT). Maintained by stewards, not overlords.'],
         //Easy
@@ -58,7 +32,9 @@
         <div class="span4 spacer2">
           <div class="content content-light content-tile">
             <div class="text-center spacer-half">
-              <span class="icon-mega <?php echo $iconClass ?>"></span>
+              <div class="icon-in-circle">
+                <span class="<?php echo $iconClass ?>"></span>
+              </div>
             </div>
             <h3><?php echo $title ?></h3>
             <p>
@@ -71,7 +47,7 @@
   </div>
   <div class="column-fluid" >
     <div class="span6" id="yes">
-      <div class="cover cover-dark cover-dark-grad cover-full">
+      <div class="cover cover-dark cover-dark-grad">
         <div class="content content-dark content-tile">
           <h3 class="cover-title cover-title-tile cover-title-flat">I'm In</h3>
           <ol>
@@ -82,12 +58,9 @@
             <li>
               Our team will automate publishing your content to LBRY. When it's done, you'll receive a notification and a login to review, update, and manage it.
             </li>
-            <li>
-              If you meet the sponsorship program criteria, you will receive $50 in network credit.
-            </li>
           </ol>
           <div class="text-center spacer2">
-              <a href="/youtube?success=1" class="btn-alt">Let's Do This</a>
+              <a href="https://api.lbry.io/yt/connect" class="btn-alt">Let's Do This</a>
           </div>
           <div class="meta">*Unpublishing means removing the ability to decrypt and accessing your content via LBRY, but we cannot guarantee the deletion of all encrypted data.</div>
         </div>
@@ -96,11 +69,21 @@
     <div class="span6">
       <div class="cover cover-light-alt cover-light-alt-grad">
       <div class="content content-light content-tile">
-        <h3  class="cover-title cover-title-tile cover-title-flat">Questions?</h3>
-        <p>Say hello to Reilly.
-          If you're a creator, please email <a  class="link-primary" href=mailto:reilly@lbry.io?subject=Fixing+YouTube">Reilly</a> with your questions or to schedule a call.</p>
-          <?php echo View::render('content/_bio', ['person' => 'reilly-smith-youtube', 'orientation' => 'horizontal']) ?>
-        </div>
+        <h3  class="cover-title cover-title-tile cover-title-flat">I Have Questions</h3>
+        <p>
+          Schedule a meeting with Reilly, one of LBRY's founders and an experienced producer.
+          Or, <a class="link-primary" href=mailto:reilly@lbry.io?subject=YouTube+Freedom">email him directly</a>.
+        </p>
+        <form action="/youtube/sub" method="POST" class="spacer2">
+          <?php echo View::render('form/_formRow', [
+            'field'    => 'email',
+            'type'     => 'email',
+            'label'    => 'Email',
+            'required' => true,
+          ]) ?>
+          <input type="submit" value="Let's Talk" class="btn-primary">
+        </form>
+        <?php echo View::render('content/_bio', ['person' => 'reilly-smith-youtube', 'orientation' => 'horizontal']) ?>
       </div>
     </div>
   </div>

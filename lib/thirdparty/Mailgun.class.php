@@ -43,6 +43,20 @@ class Mailgun
     return $status == 200;
   }
 
+  public static function sendYouTubeWarmLead($data)
+  {
+    list($status, $headers, $body) = static::post('/lbry.io/messages', [
+      'from'              => 'LBRY <mail@lbry.io>',
+      'to'                => 'jeremy@lbry.io',
+      'subject'           => 'Interested YouTuber',
+      'html'              => '<pre>' . var_export($data, true) . '</pre>',
+      'o:tracking-clicks' => 'no',
+      'o:tracking-opens'  => 'no'
+    ]);
+
+    return $status == 200;
+  }
+
   public static function sendSubscriptionConfirmation($email)
   {
     $confirmHash = static::getConfirmHash($email);

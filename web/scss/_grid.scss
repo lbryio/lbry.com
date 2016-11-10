@@ -54,18 +54,6 @@ $gutter_fluid: 4;
   }
 }
 
-.column-fluid {
-  @include display-flex();
-  @include flex-wrap(wrap);
-  > [class*="span"] {
-    @include display-flex();
-    @include flex-wrap(wrap);
-    @include flex(1 0 auto);
-    overflow: hidden;
-    @include justify-content(center);
-  }
-}
-
 .column-fluid-constrained
 {
   max-width: 1400px;
@@ -80,6 +68,18 @@ $gutter_fluid: 4;
 @media (min-width: $mobile-width-threshold) {
   .pull-left { float: left; }
   .pull-right { float: right; }
+
+  .column-fluid {
+    @include display-flex();
+    @include flex-wrap(wrap);
+    > [class*="span"] {
+      @include display-flex();
+      @include flex-wrap(wrap);
+      @include flex(1 0 auto);
+      overflow: hidden;
+      @include justify-content(center);
+    }
+  }
 }
 
 @media (max-width: $mobile-width-threshold) {
@@ -95,7 +95,9 @@ $gutter_fluid: 4;
     width: 100% !important;
     margin-left: 0 !important;
     display: block !important;
-    &:not(:last-child)
+  }
+  .row-fluid, .tile-fluid {
+    [class*="span"]:not(:last-child)
     {
       margin-bottom: $spacing-vertical;
     }
