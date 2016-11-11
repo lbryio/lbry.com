@@ -97,6 +97,7 @@ class Controller
 
     $router->any('/dmca', 'ReportActions::executeDmca');
 
+    $router->any('/youtube/thanks', 'AcquisitionActions::executeThanks');
     $router->any('/youtube/sub', 'ReportActions::executeYoutubeSub');
 
     $router->post('/set-culture', 'i18nActions::setCulture');
