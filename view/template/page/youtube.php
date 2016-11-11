@@ -49,7 +49,7 @@
     <div class="span6" id="yes">
       <div class="cover cover-dark cover-dark-grad">
         <div class="content content-dark content-tile">
-          <h3 class="cover-title cover-title-tile cover-title-flat">I'm In</h3>
+          <h3 class="cover-title cover-title-tile cover-title-flat">I'm in.</h3>
           <ol>
             <li>
               Clicking below will authenticate with YouTube and grant permission for your content to be available on the decentralized LBRY network.
