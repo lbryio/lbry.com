@@ -1,5 +1,5 @@
 <?php Response::setMetaDescription('description.publish') ?>
-<?php Response::setMetaTitle(__('YouTubers! Teak back control.')) ?>
+<?php Response::setMetaTitle(__('YouTubers! Take back control.')) ?>
 <?php echo View::render('nav/_header', ['isDark' => true, 'isAbsolute' => true]) ?>
 <main >
   <?php //if you change the image, change it on download/_publish too! ?>
