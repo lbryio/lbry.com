@@ -47,7 +47,7 @@ class Mailgun
   {
     list($status, $headers, $body) = static::post('/lbry.io/messages', [
       'from'              => 'LBRY <mail@lbry.io>',
-      'to'                => 'jeremy@lbry.io',
+      'to'                => 'reilly@lbry.io',
       'subject'           => 'Interested YouTuber',
       'html'              => '<pre>' . var_export($data, true) . '</pre>',
       'o:tracking-clicks' => 'no',
