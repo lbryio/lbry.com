@@ -4,6 +4,9 @@ class Mailgun
 {
   const BASE_URL = 'https://api.mailgun.net/v3';
 
+  const TOP_DOMAIN = 'lbry.io';
+  const MAIL_DOMAIN = 'mail.lbry.io';
+
   const LIST_GENERAL = 'lbryians@lbry.io';
 
   public static function unsubscribeFromMailingList($listAddress, $email)
@@ -31,8 +34,8 @@ class Mailgun
 
   public static function sendDmcaReport($data)
   {
-    list($status, $headers, $body) = static::post('/lbry.io/messages', [
-      'from'              => 'LBRY <mail@lbry.io>',
+    list($status, $headers, $body) = static::post('/' . static::MAIL_DOMAIN . '/messages', [
+      'from'              => 'LBRY <mail@' . static::MAIL_DOMAIN . '>',
       'to'                => 'jeremy@lbry.io',
       'subject'           => 'DMCA Report #' . $data['report_id'],
       'html'              => '<pre>' . var_export($data, true) . '</pre>',
@@ -45,8 +48,8 @@ class Mailgun
 
   public static function sendYouTubeWarmLead($data)
   {
-    list($status, $headers, $body) = static::post('/lbry.io/messages', [
-      'from'              => 'LBRY <mail@lbry.io>',
+    list($status, $headers, $body) = static::post('/' . static::MAIL_DOMAIN . '/messages', [
+      'from'              => 'LBRY <mail@' . static::MAIL_DOMAIN . '>',
       'to'                => 'reilly@lbry.io',
       'subject'           => 'Interested YouTuber',
       'html'              => '<pre>' . var_export($data, true) . '</pre>',
@@ -60,9 +63,10 @@ class Mailgun
   public static function sendSubscriptionConfirmation($email)
   {
     $confirmHash = static::getConfirmHash($email);
-    list($status, $headers, $body) = static::post('/lbry.io/messages', [
-      'from'              => 'LBRY <mail@lbry.io>',
+    list($status, $headers, $body) = static::post('/' . static::MAIL_DOMAIN . '/messages', [
+      'from'              => 'LBRY <mail@' . static::MAIL_DOMAIN . '>',
       'to'                => $email,
+      'h:Reply-To'        => 'help@lbry.io',
       'subject'           => __('email.confirm_email_subject'),
       'html'              => static::inlineCss(View::render('email_templates/_confirmHash', [
         'confirmHash' => $confirmHash
