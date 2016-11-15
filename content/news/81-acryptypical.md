@@ -60,7 +60,8 @@ LBRY is currently funded until approximately July 2017. We'll be focusing all of
 To make a few points extraordinarily clear:
 
 - We never have, and never will, engage in market manipulation. Neither through direct purchases or orders, nor through the generation of news that is intended to affect the price rather than communicate substance.
-- We will not and have not participated in the market for LBC directly (i.e. buying or selling LBC).
+- We have not participated in the market for LBC directly (i.e. buying or selling LBC).
+- We will not participate in the market for LBC directly for at least one year, and most likely much longer than this.
 - We will not speculate about the price of LBC. If you ask us, we'll probably link you here.
 - We will focus exclusively on how we can generate real value for our users by creating a service that improves their lives.
 
