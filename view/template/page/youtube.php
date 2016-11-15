@@ -12,6 +12,9 @@
       <div class="cover-subtitle" style="font-weight: bold">
         Join thousands of other creators in a world where your content is made available directly to your audience, free of censorship and corporate influence.
       </div>
+       <div class="text-center spacer2">
+              <a href="https://api.lbry.io/yt/connect" class="btn-alt">Let's Do This</a>
+          </div>
     </div>
   </div>
   <div class="content content-light">
