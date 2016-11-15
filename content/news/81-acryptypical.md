@@ -13,7 +13,7 @@ I don't read or watch time-sensitive news. It's more likely to make me confident
 
 My savings are primarily in broad-index mutual funds. I'm a [Benjamin Graham](https://en.wikipedia.org/wiki/The_Intelligent_Investor) man, not a [Jim Cramer](https://www.youtube.com/watch?v=NkytKDzCEeU&t=52s) devotee.
 
-This a verbose, haughty way of saying I try to think for the long-term, not focus on short-term fluctuations in public opinion.
+This is a verbose, haughty way of saying I try to think for the long-term, not focus on short-term fluctuations in public opinion.
 
 Yet here I am, running a company where people ask me to do the opposite every single day:
 
