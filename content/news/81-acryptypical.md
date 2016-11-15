@@ -68,7 +68,7 @@ These statements go for both LBRY, Inc. and it's employees' independent actions.
 
 ### What To Do With Your LBC
 
-If you bought LBC in an attempt to make a quick buck, sell it now. We're not in the game of moving markets and we never will be. On our current trajectory, buyside demand is unlikely to exceed mining generation for months.
+If you bought LBC in an attempt to make a quick buck, you may be disappointed. We're not in the game of moving markets and we never will be. On our current trajectory, buyside demand is unlikely to exceed mining generation for months.
 
 If you bought LBC because you believe of the idea of a world of content sharing without censorship or middlemen, hold onto it (or spend it to buy some of the great content being added every day!). We've got an incredible [team](https://lbry.io/team) of bright, talented people that are pouring an incredible amount of time in to actualize it.
 
