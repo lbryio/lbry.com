@@ -90,11 +90,16 @@ class Mailgun
     return true;
   }
 
-  protected static function getConfirmHash($email, $timestamp = null, $nonce = null)
+  protected static function getConfirmHash($email, $timestamp = null, $nonce = null, $useOldSecret = false)
   {
     $timestamp = $timestamp !== null ? $timestamp : time();
     $nonce     = $nonce !== null ? $nonce : bin2hex(random_bytes(8));
-    $secret    = Config::get('mailing_list_hmac_secret', 'testing');
+    $secret    = $useOldSecret ? 'testing' : Config::get('mailing_list_hmac_secret');
+
+    if (!$secret)
+    {
+      throw new RuntimeException('Mailing list HMAC secret is missing');
+    }
 
     return Encoding::base64EncodeUrlsafe(join('|', [
       $email, $timestamp, $nonce, hash_hmac('sha256', $email . $timestamp . $nonce, $secret)
@@ -113,7 +118,11 @@ class Mailgun
 
     if (!hash_equals(static::getConfirmHash($email, $timestamp, $nonce), $hash))
     {
-      return null;
+      // TODO: once old hashes expire, just return null here
+      if (date('Y-m-d') >= '2016-11-18' || !hash_equals(static::getConfirmHash($email, $timestamp, $nonce, true), $hash))
+      {
+        return null;
+      }
     }
 
     if (!is_numeric($timestamp) || time() - $timestamp > 60 * 60 * 24 * 3)
