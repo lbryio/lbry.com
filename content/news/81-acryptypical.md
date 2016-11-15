@@ -3,9 +3,6 @@ author: jeremy
 title: 'Acryptypical: The CEO of LBRY on the Price of LBC'
 date: '2016-11-15 11:40:00'
 ---
-# Acryptypical
-
-## The CEO of LBRY Answers Your Questions About the Price of LBC
 
 ### Background
 I've never been a market hawk.
