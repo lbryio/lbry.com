@@ -74,6 +74,18 @@ class Request
     return static::getHttpHeader('User-Agent') ?? '';
   }
 
+  public static function getRoutingUri()
+  {
+    $host = preg_replace('/^www\./', '', $_SERVER['HTTP_HOST']);
+    switch($host)
+    {
+      case 'betteryoutube.com':
+      case 'lbrycreators.com':
+        return '/youtube';
+    }
+    return static::getRelativeUri();
+  }
+
   public static function getHost(): string
   {
     // apparently trailing period is legal: http://www.dns-sd.org/TrailingDotsInDomainNames.html
@@ -93,6 +105,11 @@ class Request
   public static function getServerName(): string
   {
     return static::getHeader('SERVER_NAME');
+  }
+
+  public static function getReferrer(string $fallback = '/')
+  {
+    return Request::getHttpHeader('Referer', $fallback);
   }
 
   public static function getRelativeUri(): string

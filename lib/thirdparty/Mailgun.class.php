@@ -50,7 +50,7 @@ class Mailgun
   {
     list($status, $headers, $body) = static::post('/' . static::MAIL_DOMAIN . '/messages', [
       'from'              => 'LBRY <mail@' . static::MAIL_DOMAIN . '>',
-      'to'                => 'reilly@lbry.io',
+      'to'                => 'jeremy@lbry.io',
       'subject'           => 'Interested YouTuber',
       'html'              => '<pre>' . var_export($data, true) . '</pre>',
       'o:tracking-clicks' => 'no',

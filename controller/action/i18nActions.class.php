@@ -24,6 +24,6 @@ class i18nActions extends Actions
     //if session changes update domain
     //english language = www
 
-    return Controller::redirect(Request::getHttpHeader('Referer', '/'));
+    return Controller::redirect(Request::getReferrer());
   }
 }

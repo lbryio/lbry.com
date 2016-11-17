@@ -31,7 +31,7 @@ try
   {
     View::compileCss();
   }
-  Controller::dispatch(Request::getRelativeUri());
+  Controller::dispatch(Request::getRoutingUri());
 }
 catch(Throwable $e)
 {

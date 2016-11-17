@@ -51,7 +51,7 @@
 
         <base target="_parent" />
     </head>
-    <body>
+    <body>  
       <?php echo $content ?>
       <div class="hide">
         <div id="fb-root"></div>
