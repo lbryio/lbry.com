@@ -1,4 +1,4 @@
-<?php Response::setMetaDescription('description.publish') ?>
+<?php Response::setMetaDescription('YouTuber? Take back control! LBRY allows publication on your terms. It\'s open-source, decentralized, and gives you 100% of the profit.') ?>
 <?php Response::setMetaTitle(__('YouTubers! Take back control.')) ?>
 <?php echo View::render('nav/_header', ['isDark' => true, 'isAbsolute' => true]) ?>
 <main >
@@ -13,12 +13,13 @@
       <div class="cover-subtitle" style="font-weight: bold">
         Join thousands of other creators in a world where your content is made available directly to your audience, free of censorship and corporate influence.
       </div>
-       <div class="text-center spacer2">
-              <a href="https://api.lbry.io/yt/connect" class="btn-alt">Let's Do This</a>
-          </div>
+       <div class="text-center control-group spacer2">
+         <a href="#do-it" class="btn-primary">Let's Do This</a>
+         <a href="#more-words" class="btn-alt">More Words, Please</a>
+       </div>
     </div>
   </div>
-  <div class="content content-light">
+  <div class="content content-light" id="more-words">
     <h2 class="spacer2" style="text-align: center">
       <img src="/img/lbry-dark-1600x528.png" style="max-height: 80px" alt="LBRY"/>
     </h2>
@@ -50,7 +51,7 @@
     </div>
   </div>
   <div class="column-fluid" >
-    <div class="span6" id="yes">
+    <div class="span6" id="do-it">
       <div class="cover cover-dark cover-dark-grad">
         <div class="content content-dark content-tile">
           <h3 class="cover-title cover-title-tile cover-title-flat">I'm in.</h3>
