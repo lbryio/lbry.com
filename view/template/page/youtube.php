@@ -6,7 +6,7 @@
   <div class="cover cover-dark cover-center cover-full" style="padding-top: 80px; background-image: url('/img/youtube/tanks3.jpg')" >
     <div style="max-width: 700px; text-align: center">
       <h1 class="cover-title">
-        YouTubers!<br/>
+        YouTube Creator?<br/>
         Take Back Control.
       </h1>
       <div class="cover-subtitle" style="font-weight: bold">
