@@ -76,7 +76,7 @@ class Request
 
   public static function getRoutingUri()
   {
-    $host = preg_replace('/^www\./', '', $_SERVER['HTTP_HOST']);
+    $host = preg_replace('/^www\./', '', static::getHost());
     switch($host)
     {
       case 'betteryoutube.com':
