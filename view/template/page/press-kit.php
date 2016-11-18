@@ -32,7 +32,7 @@
     </div>
 
     <h3>{{press.team}}</h3>
-    <?php foreach(['jeremy-kauffman', 'josh-finer', 'alex-grintsvayg', 'mike-vine', 'jimmy-kiselak', 'jack-robison'] as $person): ?>
+    <?php foreach(['jeremy-kauffman', 'josh-finer', 'alex-grintsvayg', 'jimmy-kiselak', 'jack-robison'] as $person): ?>
       <?php list($metadata, $bioHtml) = View::parseMarkdown('bio/' . $person . '.md') ?>
       <section class="row-fluid">
         <div class="span3">
