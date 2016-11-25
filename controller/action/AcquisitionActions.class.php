@@ -23,6 +23,7 @@ class AcquisitionActions extends Actions
       return Controller::redirect('/youtube');
     }
 
+    Salesforce::createContact($email, SalesForce::DEFAULT_LIST_ID, 'YouTube Campaign');
     Mailgun::sendYouTubeWarmLead(['email' => $email]);
 
     Session::setFlash('success', 'Thanks! We\'ll be in touch. The good kind of touch.');
