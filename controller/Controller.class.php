@@ -21,25 +21,26 @@ class Controller
         throw new Exception('use response::setheader instead of returning headers');
       }
 
-      if ($viewTemplate === null)
-      {
-        return;
-      }
-
       if (!$viewTemplate)
       {
-        throw new LogicException('All execute methods must return a template or NULL.');
+        if ($viewTemplate !== null)
+        {
+          throw new LogicException('All execute methods must return a template or NULL.');
+        }
+      }
+      else
+      {
+        $layout = !(isset($viewParameters['_no_layout']) && $viewParameters['_no_layout']);
+        unset($viewParameters['_no_layout']);
+
+        $layoutParams = $viewParameters[View::LAYOUT_PARAMS] ?? [];
+        unset($viewParameters[View::LAYOUT_PARAMS]);
+
+        $content = View::render($viewTemplate, $viewParameters + ['fullPage' => true]);
+
+        Response::setContent($layout ? View::render('layout/basic', ['content' => $content] + $layoutParams) : $content);
       }
 
-      $layout = !(isset($viewParameters['_no_layout']) && $viewParameters['_no_layout']);
-      unset($viewParameters['_no_layout']);
-
-      $layoutParams = $viewParameters[View::LAYOUT_PARAMS] ?? [];
-      unset($viewParameters[View::LAYOUT_PARAMS]);
-
-      $content = View::render($viewTemplate, $viewParameters + ['fullPage' => true]);
-
-      Response::setContent($layout ? View::render('layout/basic', ['content' => $content] + $layoutParams) : $content);
       Response::setDefaultSecurityHeaders();
       if (Request::isGzipAccepted())
       {

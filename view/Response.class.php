@@ -169,12 +169,17 @@ class Response
 
   public static function setDownloadHttpHeaders($name, $type = null, $size = null, $noSniff = true)
   {
+    static::setBinaryHttpHeaders($type, $size, $noSniff);
+    static::setHeader('Content-Disposition', 'attachment;filename=' . $name);
+  }
+
+  public static function setBinaryHttpHeaders($type, $size = null, $noSniff = true)
+  {
     static::setGzipResponseContent(false); // in case its already compressed
     static::setHeaders(array_filter([
-      'Content-Disposition'    => 'attachment;filename=' . $name,
-      'Content-Type'           => $type ? 'application/zip' : null,
-      'Content-Length'         => $size ?: null,
-      'X-Content-Type-Options' => $noSniff ? 'nosniff' : null,
+      static::HEADER_CONTENT_TYPE => $type,
+      static::HEADER_CONTENT_LENGTH => $size ?: null,
+      static::HEADER_CONTENT_TYPE_OPTIONS => $noSniff ? 'nosniff' : null,
     ]));
   }
 
