@@ -20,7 +20,7 @@ class DownloadActions extends Actions
         break;
     }
 
-    return Controller::redirect($target ?: '/get', 302);
+    return Controller::redirect($uri ?: '/get', 302);
   }
 
   public static function executeGet()
