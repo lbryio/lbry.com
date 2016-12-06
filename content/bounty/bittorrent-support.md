@@ -1,7 +1,7 @@
 ---
 category: daemon
 title: Add Support for BitTorrent
-award: 4000
+award: 100000
 status: available
 date: '2016-07-01'
 ---

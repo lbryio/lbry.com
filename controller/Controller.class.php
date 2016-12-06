@@ -45,6 +45,7 @@ class Controller
       {
         Response::gzipContentIfNotDisabled();
       }
+
       Response::send();
     }
     catch (StopException $e)

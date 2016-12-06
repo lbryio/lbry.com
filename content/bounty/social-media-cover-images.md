@@ -1,7 +1,7 @@
 ---
 category: design
 title: Create Social Media Cover Images
-award: 400
+award: 500
 status: available
 date: '2016-07-01'
 ---

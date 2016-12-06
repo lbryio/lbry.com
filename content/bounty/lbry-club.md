@@ -1,7 +1,7 @@
 ---
 category: human
 title: LBRY Community Rep
-award: 500
+award: 5000
 status: available
 date: '2016-07-01'
 ---
