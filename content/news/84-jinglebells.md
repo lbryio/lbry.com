@@ -6,7 +6,7 @@ cover: 'jingle-banner.PNG'
 ---
 Another month, another holiday. And not just any holiday… this one has theme songs.
 
-So, to expand your Christmas music pallet, we bring you: [*Jingle Bell Rocks*](lbry://jinglebellrocks).
+So, to expand your Christmas music palette, we bring you: [*Jingle Bell Rocks*](lbry://jinglebellrocks).
 
 The seedy underbelly of the Christmas music world is your ticket to freedom from dreadful, ear-splitting Christmas tropes of old. You don’t have to suffer! There is a better song out there!
 
