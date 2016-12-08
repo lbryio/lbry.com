@@ -16,11 +16,12 @@ The seedy underbelly of the Christmas music world is your ticket to freedom from
 
 >A surprisingly bittersweet doc.
 
-> [John DeFore, The Hollywood Reporter](http://www.hollywoodreporter.com/review/jingle-bell-rocks-film-review-759859)
+> -[John DeFore, The Hollywood Reporter](http://www.hollywoodreporter.com/review/jingle-bell-rocks-film-review-759859)
+
 
 >If you like Christmas music, you cannot miss this movie. It’s everything a holiday music fan could ask for. Featuring great songs that stray from the norm, and a group of people who know all about a love of the season, this movie will brighten your holiday.
 
->[William Brownridge,Toronto Film Scene](http://thetfs.ca/2013/12/05/review-jingle-bell-rocks/)
+> -[William Brownridge,Toronto Film Scene](http://thetfs.ca/2013/12/05/review-jingle-bell-rocks/)
 
 **Check out the rest of the LBRY film playlist**
 - [*The Internet’s Own Boy*](lbry://theinternetsownboy)
