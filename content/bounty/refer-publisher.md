@@ -1,12 +1,12 @@
 ---
 category: human
 title: Refer a Publisher to LBRY
-award: 100
+award: 250
 status: available
 date: '2016-07-01'
 ---
 
-LBRY is offering $1,000 in LBC to content creators as part of our [Publisher Partnership Program](https://lbry.io/publish).
+LBRY is offering big incentives to content creators as part of our [Publisher Partnership Program](https://lbry.io/publish).
 
 If you refer someone that is accepted into the program, you will receive this bounty award.
 

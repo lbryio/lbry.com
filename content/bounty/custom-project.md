@@ -1,7 +1,7 @@
 ---
 category: other
 title: Custom Project
-award: 250-20000+
+award: 250-50000+
 status: available
 date: '2016-07-01'
 ---

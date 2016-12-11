@@ -1,7 +1,7 @@
 ---
 category: osx
 title: PKG Installer for OS X
-award: 1500
+award: 20000
 status: available
 date: '2016-07-01'
 ---
