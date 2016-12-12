@@ -1,7 +1,7 @@
 ---
 author: jeremy
 title: 'Adult Swim Cancels Show For Supporting Trump. We're Happy to Have Them.'
-date: '2016-12-01 00:13:04'
+date: '2016-12-12 00:13:04'
 cover: 'mde.jpg'
 ---
 Adult Swim recently cancelled *World Peace*, a sketch comedy show by Million Dollar Extreme (MDE).
