@@ -2,7 +2,7 @@
 author: reilly
 title: 'Freedom.fm'
 date: '2016-12-15 00:15:00'
-cover: 'fdr-banner.PNG'
+cover: 'fdr-banner.png'
 ---
 *Hi everybody, this is Reilly with LBRY, hope you’re doing well...*
 
