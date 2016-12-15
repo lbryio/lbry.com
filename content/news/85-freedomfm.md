@@ -11,12 +11,12 @@ LBRY has its roots in freedom and liberty: say, publish, and share your mind wit
 We tip our hat to the liberty movement and welcome two of the biggest podcasts to LBRY.
 
 ![Freedomain Radio](/img/news/fdr-inline.png)
-*Freedomain Radio*
+**Freedomain Radio**
 
 Stefan Molyneux’s Freedomain Radio has grown from a part-time podcast to a full-fledged, daily radio show with millions of monthly downloads and views. Interviews with leading economists, academics, authors along with hard hitting philosophical analysis of current events make Freedomain Radio the essential counter-culture podcast.
 
 ![The Schiff Report](/img/news/schiff-inline.jpg)
-*The Schiff Report*
+**The Schiff Report**
 
 Known for his bold predictions of the 2008 financial crisis coming true. (CNBC even admitted it after the fact!), Peter Schiff is a successful financial advisor and radio host outside the traditional Wall Street beltway. Author of several books, including my personal favorite, “The Little Book of Bull Moves in Bear Markets,” his financial opines will seldom tow the party line.
 
