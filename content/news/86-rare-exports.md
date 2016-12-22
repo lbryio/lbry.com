@@ -14,6 +14,7 @@ From Finnish director Jalmari Helander comes the twisted story of the biggest Ch
 ![Rare Exports](/img/news/rare-inline.jpg)
 
 >"Rare Exports: A Christmas Tale" is a rather brilliant lump of coal for your stocking hung by the fireside with care. How else to explain an R-rated Santa Claus origin story crossed with "The Thing" (1982)?
+
 > [Roger Ebert](http://www.rogerebert.com/reviews/rare-exports-a-christmas-tale-2010)
 
 Merry Christmas to everyone who tried out LBRY in 2016. It’s been a pleasure.
