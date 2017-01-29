@@ -21,6 +21,15 @@ form {
   margin-bottom: $line-height;
 }
 
+form.form-inset
+{
+  margin-left: auto;
+  margin-right: auto;
+  background: #eee;
+  padding: $spacing-vertical;
+  max-width: 600px;
+}
+
 label[for], .label-radio
 {
   cursor: pointer;
@@ -70,6 +79,11 @@ input[type="date"] {
   height: $line-height * 1.5;
   width: $input-width;
   vertical-align: middle;
+}
+
+input.input-wallet
+{
+  width: 400px;
 }
 
 textarea {

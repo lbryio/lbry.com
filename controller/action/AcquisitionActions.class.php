@@ -2,11 +2,12 @@
 
 class AcquisitionActions extends Actions
 {
+  const DEVELOPER_REWARD = 250;
+  
   public static function executeThanks()
   {
     return ['acquisition/thanks'];
   }
-
 
   public static function executeYouTubeSub()
   {
@@ -39,5 +40,10 @@ class AcquisitionActions extends Actions
       return NavActions::execute404();
     }
     return [$template];
+  }
+
+  public static function executeCreditsForDevelopers()
+  {
+    return ['acquisition/credits-for-developers'];
   }
 }

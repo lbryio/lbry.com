@@ -88,6 +88,7 @@ class Controller
     $router->get(['/android', 'get-android'], 'DownloadActions::executeGet');
     $router->get(['/ios', 'get-ios'], 'DownloadActions::executeGet');
     $router->get('/roadmap', 'ContentActions::executeRoadmap');
+    $router->get('/credits-for-developers', 'AcquisitionActions::executeCreditsForDevelopers');
 
     $router->get(['/press-kit.zip', 'press-kit'], 'ContentActions::executePressKit');
 
