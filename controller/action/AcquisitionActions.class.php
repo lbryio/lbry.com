@@ -140,23 +140,16 @@ class AcquisitionActions extends Actions
           }
           else
           {
-            list($code, $out, $err) =
-              Shell::exec('/usr/bin/lbrynet-cli send_amount_to_address amount=250 ' . escapeshellarg('address=' . $walletAddress));
+            $response =
+              Curl::post('http://localhost:5279/lbryapi', [
+                'method' => 'send_amount_to_address',
+                'params' => [['amount' => 250, 'address' => $walletAddress]],
+              ], [
+                'json_data' => true,
+                'json_response' => true,
+              ]);
 
-            if ($code != 0)
-            {
-              if (stripos($out, 'InsufficientFundsError') !== false)
-              {
-                Session::setFlash(Session::KEY_DEVELOPER_CREDITS_ERROR,
-                  'Our wallet is running low on funds. Please ping jeremy@lbry.io so he can refill it, then try again.');
-              }
-              else
-              {
-                Session::setFlash(Session::KEY_DEVELOPER_CREDITS_ERROR,
-                  'Failed to send credits. This is an error on our side. Please email jeremy@lbry.io if it persists.');
-              }
-            }
-            else
+            if ($response === [true])
             {
               $existing[$userResponseData['login']] = [$userResponseData['email'], $walletAddress, date('Y-m-d H:i:s')];
               file_put_contents($dataFile, json_encode($existing));
@@ -164,7 +157,21 @@ class AcquisitionActions extends Actions
               Session::setFlash(Session::KEY_DEVELOPER_CREDITS_SUCCESS,
                 'Send credits to GitHub user ' . $userResponseData['login'] . ' (' . $userResponseData['email'] . ') at wallet address ' .
                 $walletAddress);
-
+            }
+            else
+            {
+              if (isset($response['faultString']) && stripos($response['faultString'], 'InsufficientFundsError') !== false)
+              {
+                Slack::sendErrorIfProd('Github dev credits need a refill');
+                Session::setFlash(Session::KEY_DEVELOPER_CREDITS_ERROR,
+                  'Our wallet is running low on funds. Please ping jeremy@lbry.io so he can refill it, then try again.');
+              }
+              else
+              {
+                Slack::sendErrorIfProd('Error claiming github dev credits: ' . var_export($response, true));
+                Session::setFlash(Session::KEY_DEVELOPER_CREDITS_ERROR,
+                  'Failed to send credits. This is an error on our side. Please email jeremy@lbry.io if it persists.');
+              }
             }
           }
 
