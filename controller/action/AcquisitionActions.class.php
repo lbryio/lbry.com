@@ -3,9 +3,9 @@
 class AcquisitionActions extends Actions
 {
   const DEVELOPER_REWARD = 250,
-        SESSION_KEY_DEVELOPER_CREDITS_ERROR = 'acquisition.developer-credits-error',
-        SESSION_KEY_DEVELOPER_CREDITS_SUCCESS = 'acquisition.developer-credits-success',
-        SESSION_KEY_DEVELOPER_CREDITS_WALLET_ADDRESS = 'acquisition.developer-credits-wallet-address';
+    SESSION_KEY_DEVELOPER_CREDITS_ERROR = 'acquisition.developer-credits-error',
+    SESSION_KEY_DEVELOPER_CREDITS_SUCCESS = 'acquisition.developer-credits-success',
+    SESSION_KEY_DEVELOPER_CREDITS_WALLET_ADDRESS = 'acquisition.developer-credits-wallet-address';
 
   public static function executeThanks()
   {
@@ -49,15 +49,15 @@ class AcquisitionActions extends Actions
   {
     $vars = [
       'defaultWalletAddress' => Session::get(static::SESSION_KEY_DEVELOPER_CREDITS_WALLET_ADDRESS),
-      'error' => Session::get(static::SESSION_KEY_DEVELOPER_CREDITS_ERROR),
-      'success' => Session::get(static::SESSION_KEY_DEVELOPER_CREDITS_SUCCESS)
+      'error'                => Session::get(static::SESSION_KEY_DEVELOPER_CREDITS_ERROR),
+      'success'              => Session::get(static::SESSION_KEY_DEVELOPER_CREDITS_SUCCESS)
     ];
     Session::unsetKey(static::SESSION_KEY_DEVELOPER_CREDITS_SUCCESS);
     Session::unsetKey(static::SESSION_KEY_DEVELOPER_CREDITS_ERROR);
     return ['acquisition/developer-program', $vars];
   }
 
-  public static function executeDeveloperProgramRedirect()
+  public static function executeDeveloperProgramPost()
   {
     $walletAddress = trim(Request::getPostParam('wallet'));
     Session::set(static::SESSION_KEY_DEVELOPER_CREDITS_WALLET_ADDRESS, $walletAddress);
@@ -71,10 +71,15 @@ class AcquisitionActions extends Actions
     }
     else
     {
+      if (!Config::get('github_developer_credits_client_id'))
+      {
+        throw new Exception('no github client id');
+      }
+
       $githubParams = [
-        'client_id' => Config::get('github_developer_credits_client_id'),
-        'redirect_uri' => 'http://localhost:8000/developer-program/callback',
-        'scope' => 'user:email',
+        'client_id'    => Config::get('github_developer_credits_client_id'),
+        'redirect_uri' => Request::getHostAndProto() . '/developer-program/callback',
+        'scope'        => 'user:email',
         'allow_signup' => false
       ];
       return Controller::redirect('https://github.com/login/oauth/authorize?' . http_build_query($githubParams));
@@ -84,9 +89,10 @@ class AcquisitionActions extends Actions
 
   public static function executeDeveloperProgramGithubCallback()
   {
-    $code = Request::getParam('code');
+    $code          = Request::getParam('code');
     $walletAddress = Session::get(static::SESSION_KEY_DEVELOPER_CREDITS_WALLET_ADDRESS);
-    if (!$walletAddress || !$code)
+
+    if (!$walletAddress)
     {
       Session::set(static::SESSION_KEY_DEVELOPER_CREDITS_ERROR, 'Your wallet address disappeared while authenticated with GitHub.');
     }
@@ -97,11 +103,11 @@ class AcquisitionActions extends Actions
     else
     {
       $authResponseData = Curl::post('https://github.com/login/oauth/access_token', [
-        'code' => $code,
-        'client_id' => Config::get('github_developer_credits_client_id'),
+        'code'          => $code,
+        'client_id'     => Config::get('github_developer_credits_client_id'),
         'client_secret' => Config::get('github_developer_credits_client_secret')
       ], [
-        'headers' => ['Accept: application/json'],
+        'headers'       => ['Accept: application/json'],
         'json_response' => true
       ]);
       if (!$authResponseData || !isset($authResponseData['access_token']))
@@ -114,9 +120,9 @@ class AcquisitionActions extends Actions
       }
       else
       {
-        $accessToken = $authResponseData['access_token'];
+        $accessToken      = $authResponseData['access_token'];
         $userResponseData = Curl::get('https://api.github.com/user', [], [
-          'headers' => ['Authorization: token ' . $accessToken, 'Accept: application/json', 'User-Agent: lbryio'],
+          'headers'       => ['Authorization: token ' . $accessToken, 'Accept: application/json', 'User-Agent: lbryio'],
           'json_response' => true
         ]);
 
@@ -133,7 +139,8 @@ class AcquisitionActions extends Actions
            */
 
           Session::set(static::SESSION_KEY_DEVELOPER_CREDITS_SUCCESS,
-            'Send credits to GitHub user ' . $userResponseData['login'] . ' (' . $userResponseData['email'] . ') at wallet address ' . $walletAddress);
+            'Send credits to GitHub user ' . $userResponseData['login'] . ' (' . $userResponseData['email'] . ') at wallet address ' .
+            $walletAddress);
         }
       }
     }

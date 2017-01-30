@@ -10,7 +10,7 @@
       <p>
         We will store your GitHub username and email address, but nothing else.
       </p>
-      <form method="POST" action="/developer-program" class="form-inset">
+      <form method="POST" action="/developer-program/post" class="form-inset">
         <h3 style="margin-top: 0">Receive Credits</h3>
         <?php if ($error): ?>
           <div class="notice notice-error spacer1"><?php echo $error ?></div>

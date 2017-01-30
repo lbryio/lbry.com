@@ -61,11 +61,41 @@
       <p>
         To verify the LBRY daemon is running correctly and responding to requests, run:
       </p>
-      <pre><code>curl --data "{ method: 'status' }" http://localhost:5279/lbryapi
-(add response when this works)</code></pre>
+      <pre><code>curl 'http://localhost:5279/lbryapi' --data '{"method":"status","params":[]}'
+[
+  {
+    "connection_status": {
+      "message": "No connection problems detected",
+      "code": "connected"
+    },
+    "is_first_run": false,
+    "is_running": true,
+    "blocks_behind": 0,
+    "startup_status": {
+      "message": "Started lbrynet",
+      "code": "started"
+    },
+    "lbry_id": "7J75jSuxU9eizREuxk1r"
+  }
+]</code></pre>
       <p>This makes it easy to interact with the LBRY API in the programming language of your choice. Here's another example:</p>
-      <pre><code>curl --data "{ method: 'resolve_name', params: [{ name: "what"}] }" http://localhost:5279/lbryapi
-(add response when this works)</code></pre>
+      <pre><code>curl 'http://localhost:5279/lbryapi' --data '{"method":"resolve_name","params":[{"name":"what"}]}'
+[
+  {
+    "ver": "0.0.3",
+    "description": "What is LBRY? An introduction with Alex Tabarrok",
+    "license": "LBRY inc",
+    "title": "What is LBRY?",
+    "author": "Samuel Bryan",
+    "language": "en",
+    "sources": {
+      "lbry_sd_hash": "d5169241150022f996fa7cd6a9a1c421937276a3275eb912790bd07ba7aec1fac5fd45431d226b8fb402691e79aeb24b"
+    },
+    "content_type": "video\/mp4",
+    "nsfw": false,
+    "thumbnail": "https:\/\/s3.amazonaws.com\/files.lbry.io\/logo.png"
+  }
+]</code></pre>
       <p>LBRY can be used to build everything from a censorship-proof image host, to a store for 3D printing files, to distribute large files or datasets, or use cases even we can't imagine!</p>
       <p><a class="btn-alt" href="http://lbryio.github.io/lbry/api/">View Full API Documentation</a></p>
     </section>
@@ -73,8 +103,8 @@
       <h3 id="credits">4. Getting Credits</h3>
       <p>Many actions, such as reserving a name or purchasing paid content, require credits.</p>
       <p>To receive credits, first generate a wallet address:</p>
-      <pre><code>curl --data "{ method: 'wallet_new_address' }" http://localhost:5279/lbryapi
-I am a response</code></pre>
+      <pre><code>curl 'http://localhost:5279/lbryapi' --data '{"method":"wallet_new_address","params":[]}'
+["bbFxRyWCFRkA9YcuuZD8nE7XTLUxYnddTs"]</code></pre>
       <p>Use this address to get credits in one of two ways:</p>
       <div class="row-fluid">
         <div class="span6">

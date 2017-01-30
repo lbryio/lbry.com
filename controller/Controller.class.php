@@ -90,7 +90,7 @@ class Controller
     $router->get('/roadmap', 'ContentActions::executeRoadmap');
 
     $router->get('/developer-program', 'AcquisitionActions::executeDeveloperProgram');
-    $router->post('/developer-program', 'AcquisitionActions::executeDeveloperProgramRedirect');
+    $router->post('/developer-program/post', 'AcquisitionActions::executeDeveloperProgramPost');
     $router->get('/developer-program/callback', 'AcquisitionActions::executeDeveloperProgramGithubCallback');
 
     $router->get(['/press-kit.zip', 'press-kit'], 'ContentActions::executePressKit');
