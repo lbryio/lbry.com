@@ -47,11 +47,9 @@
         <?php foreach(Response::getMetaImages() as $image): ?>
           <meta property="og:image" content="<?php echo $image ?>" />
         <?php endforeach ?>
-
-
         <base target="_parent" />
     </head>
-    <body>  
+    <body>
       <?php echo $content ?>
       <div class="hide">
         <div id="fb-root"></div>

@@ -10,7 +10,7 @@
           <br>
 
           <?php echo View::render('nav/_flashes') ?>
-          
+
           <form action="<?php echo Request::getRelativeUri() ?>" method="POST">
             <?php echo View::render('form/_formRow', [
               'field'    => 'name',
