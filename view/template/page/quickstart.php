@@ -10,9 +10,8 @@
     <ol class="table-of-contents">
       <li><a href="#installation" class="link-primary">Installation</a></li>
       <li><a href="#running-lbry" class="link-primary">Running LBRY</a></li>
-      <li><a href="#api-basics" class="link-primary">API Basics</a></li>
+      <li><a href="#api" class="link-primary">The API</a></li>
       <li><a href="#credits" class="link-primary">Credits</a></li>
-      <li><a href="#start-building" class="link-primary">Start Building</a></li>
       <li><a href="#community" class="link-primary">Community & Issues</a></li>
     </ol>
     <section>
@@ -52,7 +51,7 @@
       <p>The first time you run the daemon, it must catch-up with most recent blockheaders. This can take several minutes.</p>
     </section>
     <section>
-      <h3 id="api-basics">3. API Basics</h3>
+      <h3 id="api">3. The API</h3>
       <p>
         When running, the LBRY daemon provides a JSON-RPC server running at <code>https://localhost:5279/lbryapi</code>.
       </p>
@@ -62,57 +61,45 @@
       <p>
         To verify the LBRY daemon is running correctly and responding to requests, run:
       </p>
-      <p>
-        <code>
-          curl --data "{ method: 'status' }" http://localhost:5279/lbryapi
-        </code>
-      </p>
-      <p>
-        You should receive a response like:
-      </p>
-      <p>
-        <code>
-          (will copy/paste once it works)
-        </code>
-      </p>
-      <p>This makes it easy to interact with the LBRY API in the programming language of your choice.</p>
+      <pre><code>curl --data "{ method: 'status' }" http://localhost:5279/lbryapi
+(add response when this works)</code></pre>
+      <p>This makes it easy to interact with the LBRY API in the programming language of your choice. Here's another example:</p>
+      <pre><code>curl --data "{ method: 'resolve_name', params: [{ name: "what"}] }" http://localhost:5279/lbryapi
+(add response when this works)</code></pre>
+      <p>LBRY can be used to build everything from a censorship-proof image host, to a store for 3D printing files, to distribute large files or datasets, or use cases even we can't imagine!</p>
+      <p><a class="btn-alt" href="http://lbryio.github.io/lbry/api/">View Full API Documentation</a></p>
     </section>
     <section>
       <h3 id="credits">4. Getting Credits</h3>
-      <p>Many actions, such as publishing or purchasing paid content, require credits.</p>
+      <p>Many actions, such as reserving a name or purchasing paid content, require credits.</p>
       <p>To receive credits, first generate a wallet address:</p>
-      <p>
-        <code>
-          curl --data "{ method: 'wallet_new_address' }" http://localhost:5279/lbryapi<br/>
-          I am a response
-        </code>
-      </p>
+      <pre><code>curl --data "{ method: 'wallet_new_address' }" http://localhost:5279/lbryapi
+I am a response</code></pre>
       <p>Use this address to get credits in one of two ways:</p>
       <div class="row-fluid">
         <div class="span6">
-          <h4>4a) Get Credits For Free</h4>
+          <h4>4a) Receive Free Credits</h4>
           <p>
-            All developers are eligible to receive <?php echo AcquisitionActions::DEVELOPER_REWARD ?> free credits.
-            <a href="/credits-for-developers" class="link-primary">Go here</a> to claim them.</a>
+            All developers with a valid GitHub account are eligible to receive <?php echo AcquisitionActions::DEVELOPER_REWARD ?> free credits.
           </p>
+          <a href="/developer-program" class="btn-alt">Claim Your Free Credits</a>
         </div>
         <div class="span6">
           <h4>4b) Purchase Credits</h4>
           <p>
-            Credits can be bought on a variety of exchanges.
-            Go <a href="https://lbry.io/faq/exchanges" class="link-primary">here</a> to see a full list.
-            After purchasing them, send them to the address generated above.
+            Credits can be bought on <a href="https://lbry.io/faq/exchanges" class="link-primary">a variety of exchanges</a>.
+            After purchasing, send them to the address generated above.
           </p>
         </div>
       </div>
     </section>
     <section>
-      <h3 id="community">6. Community & Issues</h3>
+      <h3 id="community">5. Community & Issues</h3>
       <p>
-        <a href="http://slack.lbry.io" class="link-primary">Join our Slack Channel</a> to interact with LBRY developers and other community members. Please visit the #dev room (this is not a default channel).
+        <a href="http://slack.lbry.io" class="link-primary">Join our Slack Channel</a> to interact with LBRY developers and other community members. Please visit the #dev room (note: this is not a default channel).
       </p>
       <p>
-        Visit our <a href="https://github.com/lbryio" class="link-primary">GitHub</a> to view the source code or report issues.
+        Visit our <a href="https://github.com/lbryio" class="link-primary">GitHub page</a> to view the source code or report issues.
       </p>
     </section>
   </div>
