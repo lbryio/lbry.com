@@ -136,7 +136,7 @@ class AcquisitionActions extends Actions
 
           if (isset($existing[$userResponseData['login']]))
           {
-            Session::setFlash(Session::KEY_DEVELOPER_CREDITS_ERROR, 'You account already received credits.');
+            Session::setFlash(Session::KEY_DEVELOPER_CREDITS_ERROR, 'You already received credits.');
           }
           else
           {
