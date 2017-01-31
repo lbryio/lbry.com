@@ -155,8 +155,7 @@ class AcquisitionActions extends Actions
               file_put_contents($dataFile, json_encode($existing));
 
               Session::setFlash(Session::KEY_DEVELOPER_CREDITS_SUCCESS,
-                'Send credits to GitHub user ' . $userResponseData['login'] . ' (' . $userResponseData['email'] . ') at wallet address ' .
-                $walletAddress);
+                'Credits on their way to address ' . $walletAddress . ' for GitHub user ' . $userResponseData['login'] . '. It may take up to a minute for them to arrive.');
             }
             else
             {
