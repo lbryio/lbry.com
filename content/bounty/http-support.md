@@ -6,7 +6,7 @@ status: available
 date: '2016-11-01'
 ---
 
-Add support for resolution via HTTP to [`lbry`](https://github.com/lbry).
+Add support for resolution via HTTP to [`lbry`](https://github.com/lbryio).
 
 The LBRY blockchain supports storing metadata about media content. A simplified, sample entry looks like:
 
