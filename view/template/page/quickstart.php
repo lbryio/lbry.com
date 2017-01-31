@@ -49,6 +49,7 @@
         </code>
       </p>
       <p>The first time you run the daemon, it must catch-up with most recent blockheaders. This can take several minutes.</p>
+      <div class="meta">macOS and Windows do not currently bundle the daemon separately. Just launch the full app and the API will still be available. This will be resolved in v0.9.</div>
     </section>
     <section>
       <h3 id="api">3. The API</h3>
