@@ -105,6 +105,7 @@ class AcquisitionActions extends Actions
         'headers'       => ['Accept: application/json'],
         'json_response' => true
       ]);
+
       if (!$authResponseData || !isset($authResponseData['access_token']))
       {
         Session::setFlash(Session::KEY_DEVELOPER_CREDITS_ERROR, 'Request to GitHub failed.');
@@ -134,7 +135,7 @@ class AcquisitionActions extends Actions
 
           $existing = is_file($dataFile) ? json_decode(file_get_contents($dataFile), true) : [];
 
-          if (isset($existing[$userResponseData['login']]))
+          if (isset($existing[$userResponseData['login']]) || isset($existing[$userResponseData['id']]))
           {
             Session::setFlash(Session::KEY_DEVELOPER_CREDITS_ERROR, 'You already received credits.');
           }
@@ -151,7 +152,7 @@ class AcquisitionActions extends Actions
 
             if ($response === [true])
             {
-              $existing[$userResponseData['login']] = [$userResponseData['email'], $walletAddress, date('Y-m-d H:i:s')];
+              $existing[$userResponseData['id']] = [$userResponseData['email'], $walletAddress, date('Y-m-d H:i:s'), $userResponseData['login']];
               file_put_contents($dataFile, json_encode($existing));
 
               Session::setFlash(Session::KEY_DEVELOPER_CREDITS_SUCCESS,
