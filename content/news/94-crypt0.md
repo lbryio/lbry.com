@@ -2,13 +2,13 @@
 author: reilly
 title: 'Crypto, Crypto, Crypt0!'
 date: '2017-02-09 00:06:00'
-cover: 'crypt-zero-banner.png'
+cover: 'crypt-zero-banner.PNG'
 ---
 A rising tide lifts all ships, and while LBRY continues to gain momentum and credibility, why not take a few more cryptocoins with us?
 
 Crypt0 has covered Ethereum and other alt-coins for the better part of a year. He has a near-daily crypto vlog with insightful, balanced coverage of Ethereum, Monero, Bitcoin and more.
 
-![The Crypt0 Show](/img/news/crypto-zero-inline.png)
+![The Crypt0 Show](/img/news/crypto-zero-inline.PNG)
 
 Crypt0 joins Chris Coney’s Cryptoverse and Trevon James as the third show with wall-to-wall cryptocurrency coverage, right here on LBRY.
 
