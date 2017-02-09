@@ -8,7 +8,7 @@ A rising tide lifts all ships, and while LBRY continues to gain momentum and cre
 
 Crypt0 has covered Ethereum and other alt-coins for the better part of a year. He has a near-daily crypto vlog with insightful, balanced coverage of Ethereum, Monero, Bitcoin and more.
 
-![The Crypt0 Show](/img/news/crypto-zero-inline.PNG)
+![The Crypt0 Show](/img/news/crypt-zero-inline.PNG)
 
 Crypt0 joins Chris Coney’s Cryptoverse and Trevon James as the third show with wall-to-wall cryptocurrency coverage, right here on LBRY.
 
