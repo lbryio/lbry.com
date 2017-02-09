@@ -44,9 +44,7 @@
         Launch the deamon to run as a background process:
       </p>
       <p>
-        <code>
-          lbrynet-daemon --no-launch
-        </code>
+        <code class="code-bash"><span class="code-bash__prompt">$</span>lbrynet-daemon</code>
       </p>
       <p>The first time you run the daemon, it must catch-up with most recent blockheaders. This can take several minutes.</p>
       <div class="meta">macOS and Windows do not currently bundle the daemon separately. Just launch the full app and the API will still be available. This will be resolved in v0.9.</div>
@@ -62,7 +60,7 @@
       <p>
         To verify the LBRY daemon is running correctly and responding to requests, run:
       </p>
-      <pre><code>curl 'http://localhost:5279/lbryapi' --data '{"method":"status","params":[]}'
+      <code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"status","params":[]}'
 [
   {
     "connection_status": {
@@ -75,12 +73,11 @@
     "startup_status": {
       "message": "Started lbrynet",
       "code": "started"
-    },
-    "lbry_id": "7J75jSuxU9eizREuxk1r"
+    }
   }
-]</code></pre>
+]</code>
       <p>This makes it easy to interact with the LBRY API in the programming language of your choice. Here's another example:</p>
-      <pre><code>curl 'http://localhost:5279/lbryapi' --data '{"method":"resolve_name","params":[{"name":"what"}]}'
+      <code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"resolve_name","params":[{"name":"what"}]}'
 [
   {
     "ver": "0.0.3",
@@ -96,7 +93,7 @@
     "nsfw": false,
     "thumbnail": "https:\/\/s3.amazonaws.com\/files.lbry.io\/logo.png"
   }
-]</code></pre>
+]</code>
       <p>LBRY can be used to build everything from a censorship-proof image host, to a store for 3D printing files, to distribute large files or datasets, or use cases even we can't imagine!</p>
       <p><a class="btn-alt" href="http://lbryio.github.io/lbry/api/">View Full API Documentation</a></p>
     </section>
@@ -104,8 +101,8 @@
       <h3 id="credits">4. Getting Credits</h3>
       <p>Many actions, such as reserving a name or purchasing paid content, require credits.</p>
       <p>To receive credits, first generate a wallet address:</p>
-      <pre><code>curl 'http://localhost:5279/lbryapi' --data '{"method":"wallet_new_address","params":[]}'
-["bbFxRyWCFRkA9YcuuZD8nE7XTLUxYnddTs"]</code></pre>
+      <code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"wallet_new_address","params":[]}'
+["bbFxRyWCFRkA9YcuuZD8nE7XTLUxYnddTs"]</code>
       <p>Use this address to get credits in one of two ways:</p>
       <div class="row-fluid">
         <div class="span6">

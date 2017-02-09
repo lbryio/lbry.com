@@ -95,21 +95,19 @@
       <p>If you’re a programmer, you might recognize the LBRY blockchain as a <em>key-value store</em>. Each key, or name, corresponds to a value, or a metadata entry. Whichever party or parties bid the most LBC gets to control the metadata returned by a key lookup.</p>
 
       <p>Here is a sample key-value entry in the LBRY blockchain. Here, wonderfullife is the key, and the rest of the description is the value.</p>
-      <div class="code-bash">
-        <code><pre style="white-space: pre-wrap;">
-    <span class="code-bash-kw1">wonderfullife</span> : {
-      <span class="code-bash-kw2">title</span>: "It’s a Wonderful Life",
-      <span class="code-bash-kw2">description</span>: "An angel helps a compassionate but despairingly frustrated businessman by showing what life would have been like if he never existed.",
-      <span class="code-bash-kw2">thumbnail</span>: "http://i.imgur.com/MW45x88.jpg",
-      <span class="code-bash-kw2">license</span>: "public domain",
-      <span class="code-bash-kw2">price</span>: 0, <span class="code-bash-comment">//free!</span>
-      <span class="code-bash-kw2">publisher</span>: "A Fan Of George Bailey", <span class="code-bash-comment">//simplification</span>
-      <span class="code-bash-kw2">sources</span>: { <span class="code-bash-comment">//extensible, variable list</span>
-        <span class="code-bash-kw2">lbry_hash</span> : &lt;unique id&gt;,
-        <span class="code-bash-kw2">url</span> : &lt;url&gt;
-      }
-    }</pre></code>
-      </div>
+      <code class="code-bash"><span class="code-bash__prompt">$</span>lbrynet-cli resolve_name name=wonderfullife
+<span class="code-bash__kw1">wonderfullife</span> : {
+  <span class="code-bash__kw2">title</span>: "It’s a Wonderful Life",
+  <span class="code-bash__kw2">description</span>: "An angel helps a compassionate but despairingly frustrated businessman by showing what life would have been like if he never existed.",
+  <span class="code-bash__kw2">thumbnail</span>: "http://i.imgur.com/MW45x88.jpg",
+  <span class="code-bash__kw2">license</span>: "public domain",
+  <span class="code-bash__kw2">price</span>: 0, <span class="code-bash__comment">//free!</span>
+  <span class="code-bash__kw2">publisher</span>: "A Fan Of George Bailey", <span class="code-bash__comment">//simplification</span>
+  <span class="code-bash__kw2">sources</span>: { <span class="code-bash__comment">//extensible, variable list</span>
+    <span class="code-bash__kw2">lbry_hash</span> : &lt;unique id&gt;,
+    <span class="code-bash__kw2">url</span> : &lt;url&gt;
+  }
+}</code>
       <div class="meta text-center content-inset"><p>A slightly simplified sample entry of metadata in the LBRY blockchain. Whichever party or parties bid the most in an ongoing auction control what a name returns.</p></div>
 
       <p>Other than the usage of the LBRY blockchain to store names and metadata, there are only minor differences between the blockchains of LBRY and Bitcoin, and the changes are generally consensus improvements. We’ve buffed the hashing algorithm, smoothed the block reward function, increased the block size, increased the total number of credits, and prepared for offchain settlement.</p>
@@ -182,7 +180,7 @@
         <li>60% earned by LBRY users, via mining the LBRY cryptocurrency.</li>
       </ul>
     </section>
-    
+
     <section>
       <h2 id="combatting-the-ugly">Combatting The Ugly</h2>
       <p>As neither naïfs nor knaves, we acknowledge that LBRY can be used for bad ends. Technology is frequently this way. Encryption protects our privacy -- as well as that of terrorists. Cars allow us to travel marvelous distances -- and kill millions per year.</p>
@@ -246,16 +244,16 @@
     <p>Here is a sample key-value entry in the LBRY blockchain. Here, wonderfullife is the key, and the rest of the description is the value.</p>
     <div class="code-bash">
         <code><pre style="white-space: pre-wrap;">
-    <span class="code-bash-kw1">wonderfullife</span> : {
-      <span class="code-bash-kw2">title</span>: "It’s a Wonderful Life",
-      <span class="code-bash-kw2">description</span>: "An angel helps a compassionate but despairingly frustrated businessman by showing what life would have been like if he never existed.",
-      <span class="code-bash-kw2">thumbnail</span>: "http://i.imgur.com/MW45x88.jpg",
-      <span class="code-bash-kw2">license</span>: "public domain",
-      <span class="code-bash-kw2">price</span>: 0, <span class="code-bash-comment">//free!</span>
-      <span class="code-bash-kw2">publisher</span>: "A Fan Of George Bailey", <span class="code-bash-comment">//simplification</span>
-      <span class="code-bash-kw2">sources</span>: { <span class="code-bash-comment">//extensible, variable list</span>
-        <span class="code-bash-kw2">lbry_hash</span> : &lt;unique id&gt;,
-        <span class="code-bash-kw2">url</span> : &lt;url&gt;
+    <span class="code-bash__kw1">wonderfullife</span> : {
+      <span class="code-bash__kw2">title</span>: "It’s a Wonderful Life",
+      <span class="code-bash__kw2">description</span>: "An angel helps a compassionate but despairingly frustrated businessman by showing what life would have been like if he never existed.",
+      <span class="code-bash__kw2">thumbnail</span>: "http://i.imgur.com/MW45x88.jpg",
+      <span class="code-bash__kw2">license</span>: "public domain",
+      <span class="code-bash__kw2">price</span>: 0, <span class="code-bash__comment">//free!</span>
+      <span class="code-bash__kw2">publisher</span>: "A Fan Of George Bailey", <span class="code-bash__comment">//simplification</span>
+      <span class="code-bash__kw2">sources</span>: { <span class="code-bash__comment">//extensible, variable list</span>
+        <span class="code-bash__kw2">lbry_hash</span> : &lt;unique id&gt;,
+        <span class="code-bash__kw2">url</span> : &lt;url&gt;
       }
     }</pre></code>
     </div>

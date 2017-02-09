@@ -8,7 +8,6 @@ code
 {
   padding: 3px 5px;
   font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, monospace, serif;
-  font-size: 90%;
   color: darken($color-primary, 10%);
 }
 pre
@@ -23,7 +22,6 @@ pre
   overflow-x: auto;
 }
 
-
 .code-bash
 {
   -webkit-user-select: text;
@@ -31,21 +29,19 @@ pre
   -ms-user-select: text;
   user-select: text;
 
+  margin-bottom: $spacing-vertical;
+  border-left: .3rem solid $color-primary;
+  padding: $spacing-vertical / 2 $spacing-vertical;
+  unicode-bidi: embed;
+  overflow-x: auto;
+  white-space: pre;
+  display: block;
   word-wrap: break-word;
-  .sy0 { display: inline-block; } //will allow wrapping here
 
   font-size: 0.75em;
-  background-color: #F8F8F8;
-  border: 1px solid #ddd;
-  padding: $spacing-vertical / 2;
-
-  .code-bash-kw1  {color: #c20cb9; font-weight: bold;}
-  .code-bash-kw2 {color: #7a0874; font-weight: bold; }
-  .code-bash-comment { color: #888; }
-  .sy0 {color: #000000; font-weight: bold; }
-
-  > code
-  {
-    display: block;
-  }
 }
+
+.code-bash__kw1  {color: #c20cb9; font-weight: bold;}
+.code-bash__kw2 {color: #7a0874; font-weight: bold; }
+.code-bash__comment { color: #888; }
+.code-bash__prompt { font-weight: bold; margin-right: 5px; }
