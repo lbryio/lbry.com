@@ -4,7 +4,7 @@
 <?php echo View::render('nav/_header', ['isDark' => false, 'isAbsolute' => false]) ?>
 <main class="content content-light markdown">
     <h1>Quickstart</h1>
-    <p>This step-by-step guide will have running LBRY and interacting with the API in just a few minutes.</p>
+    <p>This step-by-step guide will have you running LBRY and interacting with the API in just a few minutes.</p>
     <p>This guide is for programmers and other technical users. For consumer usage of LBRY, please <a href="/get" class="link-primary">go here</a>.</p>
     <h3>What's Covered</h3>
     <ol class="table-of-contents">
