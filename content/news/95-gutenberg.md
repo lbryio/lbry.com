@@ -15,11 +15,12 @@ One pierre1024, a member of the [LBRY Slack community](http://slack.lbry.io/), h
 Project Gutenberg is an open project that has digitized 54,000 free pdf, epub and Kindle books.
 
 Hundreds of historical archives are now available on LBRY, including:
-The Economic Consequences of the Peace by Keynes
-A Soldier's Sketches Under Fire by Harold Harvey
-Journal of a Voyage to Brazil by Callcott
-How Jerusalem Was Won by W. T.  Massey
-Political Thought in England from Locke to Bentham
+
+- The Economic Consequences of the Peace by Keynes
+- A Soldier's Sketches Under Fire by Harold Harvey
+- Journal of a Voyage to Brazil by Callcott
+- How Jerusalem Was Won by W. T.  Massey
+- Political Thought in England from Locke to Bentham
 
 The project was started by the late Michael Hart in 1971 with the digitization of the US Declaration of Independence. Make a donation [to Project Gutenberg here](https://www.gutenberg.org/wiki/Gutenberg:Project_Gutenberg_Needs_Your_Donation), and enjoy thousands of books now available on LBRY.
 
