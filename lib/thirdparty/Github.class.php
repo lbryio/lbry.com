@@ -11,7 +11,7 @@ class Github
 
     try
     {
-      $releaseData = static::get('/repos/lbryio/lbry-electron/releases/latest', $cache);
+      $releaseData = static::get('/repos/lbryio/lbry-app/releases/latest', $cache);
       foreach ($releaseData['assets'] as $asset)
       {
         $ext = substr($asset['name'], -4);
