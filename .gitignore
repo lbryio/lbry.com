@@ -10,3 +10,4 @@ nbproject
 composer
 .ht*
 /vendor/
+.DS_Store
