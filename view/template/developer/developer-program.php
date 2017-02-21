@@ -5,7 +5,7 @@
   <main >
     <div class="content content-light markdown">
       <h1>Developer Program</h1>
-      <p>All developers with a GitHub account prior to January 31st, 2017 are eligible for <?php echo AcquisitionActions::DEVELOPER_REWARD ?> free credits.</p>
+      <p>All developers with a GitHub account prior to January 31st, 2017 are eligible for <?php echo DeveloperActions::DEVELOPER_REWARD ?> free credits.</p>
       <p>To claim your credits, enter a wallet address in the form below and authenticate with GitHub.</p>
       <p>
         We will store your GitHub username and email address, but nothing else.

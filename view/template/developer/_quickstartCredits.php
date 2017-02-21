@@ -1,0 +1,35 @@
+<h3 id="credits">Credits</h3>
+<p>So far, everything we've done with LBRY has been free. However, some actions, such as reserving a name or purchasing paid content, require credits.</p>
+<p>To receive credits, first generate a wallet address:</p>
+<code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"wallet_new_address","params":[]}'
+["bbFxRyWCFRkA9YcuuZD8nE7XTLUxYnddTs"]</code>
+<p>Enter this address in the form below and we'll send you 50 credits.</p>
+<div class="quickstart__claim-form content-light content">
+  <?php echo View::render('developer/_formNew') ?>
+</div>
+<p>Next, confirm you've received your credits by calling <span class="code-plain">wallet_balance</span>:</p>
+<code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"wallet_balance"}'
+[50.00000000]</code>
+<h3 id="publish">Publishing</h3>
+<p>Publishing to LBRY is just as easy as everything else! If you publish something, we'll send you an additional 200 LBC for further use.</p>
+<p>Not sure what to publish? We recommend your favorite picture or home video. Or just grab something from <a class="link-primary" href="https://archive.org/details/movies">here</a>.</p>
+<code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"publish", "params": [{
+  "name": "electricsheep",
+  "file_path": "\\home\kauffj\\Desktop\\electric-sheep.mp4",
+  "bid": 1,
+  "metadata":  {"what goes here": "who knows if you do not work for LBRY, certainly you will not be able to figure it out from response messages or API docs"
+}]}'
+[whatever this response looks like]</code>
+<div class="quickstart__claim-form content-light content">
+  <?php echo View::render('developer/_formCreditsPublish') ?>
+</div>
+<h3 id="community">You Did It! What's Next?</h3>
+<p>
+  Start building something awesome! LBRY works as a discovery and distribution backend for everything from films to CAD files.
+</p>
+<p>
+  <a href="http://slack.lbry.io" class="link-primary">Join our Slack Channel</a> to interact with LBRY developers and other community members. Please visit the #dev room (note: this is not a default channel).
+</p>
+<p>
+  Visit our <a href="https://github.com/lbryio" class="link-primary">GitHub page</a> to view the source code or report issues.
+</p>

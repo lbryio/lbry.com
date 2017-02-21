@@ -89,9 +89,10 @@ class Controller
     $router->get(['/ios', 'get-ios'], 'DownloadActions::executeGet');
     $router->get('/roadmap', 'ContentActions::executeRoadmap');
 
-    $router->get('/developer-program', 'AcquisitionActions::executeDeveloperProgram');
-    $router->post('/developer-program/post', 'AcquisitionActions::executeDeveloperProgramPost');
-    $router->get('/developer-program/callback', 'AcquisitionActions::executeDeveloperProgramGithubCallback');
+    $router->get('/quickstart/{step}?', 'DeveloperActions::executeQuickstart');
+    $router->get('/developer-program', 'DeveloperActions::executeDeveloperProgram');
+    $router->post('/developer-program/post', 'DeveloperActions::executeDeveloperProgramPost');
+    $router->get('/developer-program/callback', 'DeveloperActions::executeDeveloperProgramGithubCallback');
 
     $router->get(['/press-kit.zip', 'press-kit'], 'ContentActions::executePressKit');
 

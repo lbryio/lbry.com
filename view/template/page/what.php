@@ -96,6 +96,7 @@
 
       <p>Here is a sample key-value entry in the LBRY blockchain. Here, wonderfullife is the key, and the rest of the description is the value.</p>
       <code class="code-bash"><span class="code-bash__prompt">$</span>lbrynet-cli resolve_name name=wonderfullife
+        
 <span class="code-bash__kw1">wonderfullife</span> : {
   <span class="code-bash__kw2">title</span>: "It’s a Wonderful Life",
   <span class="code-bash__kw2">description</span>: "An angel helps a compassionate but despairingly frustrated businessman by showing what life would have been like if he never existed.",

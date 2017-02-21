@@ -7,8 +7,12 @@ pre, code
 code
 {
   padding: 3px 5px;
-  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, monospace, serif;
+  font-family: $font-mono;
   color: darken($color-primary, 10%);
+}
+.code-plain
+{
+  font-family: $font-mono;
 }
 pre
 {
