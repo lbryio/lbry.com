@@ -23,6 +23,8 @@
 <div class="quickstart__claim-form content-light content">
   <?php echo View::render('developer/_formCreditsPublish') ?>
 </div>
+<h3>Try the UI</h3>
+<p>LBRY comes with a UI so that normal people can use it to. You can download it <a href="https://lbry.io/get" class="link-primary">here</a>.</p>
 <h3 id="community">You Did It! What's Next?</h3>
 <p>
   Start building something awesome! LBRY works as a discovery and distribution backend for everything from films to CAD files.

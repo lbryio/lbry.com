@@ -9,9 +9,9 @@
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://lbry.io/get/lbry.dmg">Download .dmg</a></td>
-      <td><a href="https://lbry.io/get/lbry.deb">Download .deb</a></td>
-      <td><a href="https://lbry.io/get/lbry.msi">Download .msi</a></td>
+      <td><a href="https://lbry.io/get/lbry.dmg" class="link-primary">Download .dmg</a></td>
+      <td><a href="https://lbry.io/get/lbry.deb"  class="link-primary">Download .deb</a></td>
+      <td><a href="https://lbry.io/get/lbry.msi"  class="link-primary">Download .msi</a></td>
     </tr>
   </tbody>
 </table>
