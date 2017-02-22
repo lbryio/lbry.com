@@ -1,6 +1,6 @@
 <?php
 
-class Session
+class   Session
 {
   const KEY_DOWNLOAD_ACCESS_ERROR = 'download_error2',
         KEY_DOWNLOAD_ALLOWED = 'beta_download_allowed2',

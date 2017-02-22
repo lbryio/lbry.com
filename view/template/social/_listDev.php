@@ -4,6 +4,9 @@
 </div>
  */ ?>
 <div class="spacer1">
+  <a href="/quickstart" class="link-primary"><span class="icon-code icon-fw"></span><span class="btn-label">Quickstart</span></a>
+</div>
+<div class="spacer1">
   <a href="https://github.com/lbryio" class="link-primary"><span class="icon-github icon-fw"></span><span class="btn-label">{{social.github}}</span></a>
 </div>
 <div class="spacer1">

@@ -40,10 +40,10 @@ class DeveloperActions extends Actions
     return ['developer/quickstart', $viewParams];
   }
 
-  public static function prepareQuickstartOnePartial(array $vars)
+  public static function prepareQuickstartHomePartial(array $vars)
   {
     return $vars + [
-      'version' => '0.8.4'
+      'usdValue' => static::DEVELOPER_REWARD * LBRY::getLBCtoUSDRate()
     ];
   }
 
@@ -102,7 +102,8 @@ class DeveloperActions extends Actions
       ];
       return Controller::redirect('https://github.com/login/oauth/authorize?' . http_build_query($githubParams));
     }
-    return Controller::redirect('/developer-program');
+
+    return Controller::redirect(Request::getReferrer('/quickstart/credits'));
   }
 
   public static function executeDeveloperProgramGithubCallback()
@@ -120,109 +121,17 @@ class DeveloperActions extends Actions
     }
     else
     {
-      $authResponseData = Curl::post('https://github.com/login/oauth/access_token', [
-        'code'          => $code,
-        'client_id'     => Config::get('github_developer_credits_client_id'),
-        'client_secret' => Config::get('github_developer_credits_client_secret')
+      $newUserUrl          = LBRY::getApiUrl('/user/new_developer');
+      $lbryApiResponseData = Curl::post($newUserUrl, [
+        'github_code' => $code
       ], [
-        'headers'       => ['Accept: application/json'],
-        'json_response' => true
+//        'json_response' => true
       ]);
-
-      if (!$authResponseData || !isset($authResponseData['access_token']))
-      {
-        Session::setFlash(Session::KEY_DEVELOPER_CREDITS_ERROR, 'Request to GitHub failed.');
-      }
-      elseif (isset($authResponseData['error_description']))
-      {
-        Session::setFlash(Session::KEY_DEVELOPER_CREDITS_ERROR, 'GitHub replied: ' . $authResponseData['error_description']);
-      }
-      else
-      {
-        $accessToken      = $authResponseData['access_token'];
-
-        $starResponseData = Curl::put('https://api.github.com/user/starred/lbryio/lbry', [], [
-          'headers'       => ['Authorization: token ' . $accessToken, 'Accept: application/json', 'User-Agent: lbryio', 'Content-Length: 0'],
-          'json_response' => true
-        ]);
-
-        $userResponseData = Curl::get('https://api.github.com/user', [], [
-          'headers'       => ['Authorization: token ' . $accessToken, 'Accept: application/json', 'User-Agent: lbryio'],
-          'json_response' => true
-        ]);
-
-        if (!$userResponseData || !$userResponseData['created_at'] || $starResponseData !== [])
-        {
-          Session::setFlash(Session::KEY_DEVELOPER_CREDITS_ERROR, 'Received unexpected response from GitHub. Perhaps authorization was revoked?');
-        }
-        elseif(date('Y-m-d', strtotime($userResponseData['created_at'])) > '2017-01-30')
-        {
-          Session::setFlash(Session::KEY_DEVELOPER_CREDITS_ERROR, 'This GitHub account is too recent.');
-        }
-        else
-        {
-          $lockName = 'github_dev_credits_write';
-          $dataFile = ROOT_DIR . '/data/writeable/github_developer_credits';
-
-          $lock = Lock::getLock($lockName, true); // EXCLUSIVE LOCK. IF SENDING CREDITS IS SLOW, THIS COULD BLOCK USERS
-
-          $existing = is_file($dataFile) ? json_decode(file_get_contents($dataFile), true) : [];
-
-          if (isset($existing[$userResponseData['login']]) || isset($existing[$userResponseData['id']]))
-          {
-            Session::setFlash(Session::KEY_DEVELOPER_CREDITS_ERROR, 'You (' . $userResponseData['login'] . ') already received credits.');
-          }
-          else
-          {
-            try
-            {
-              $response =
-                Curl::post('http://localhost:5279/lbryapi', [
-                  'method' => 'send_amount_to_address',
-                  'params' => [['amount' => 250, 'address' => $walletAddress]],
-                ], [
-                  'json_data'     => true,
-                  'json_response' => true,
-                ]);
-            }
-            catch (Exception $e)
-            {
-              $response = null;
-            }
-
-            $response = [true];
-
-            if ($response === [true])
-            {
-              $existing[$userResponseData['id']] = [$userResponseData['email'], $walletAddress, date('Y-m-d H:i:s'), $userResponseData['login']];
-              file_put_contents($dataFile, json_encode($existing));
-
-              Session::setFlash(Session::KEY_DEVELOPER_CREDITS_SUCCESS,
-                'Credits on their way to address ' . $walletAddress . ' for GitHub user ' . $userResponseData['login'] . '. It may take up to a minute for them to arrive.');
-            }
-            elseif (is_array($response) && (isset($response['faultString']) && stripos($response['faultString'], 'InsufficientFundsError') !== false))
-            {
-              Slack::sendErrorIfProd('Github dev credits need a refill');
-              Session::setFlash(Session::KEY_DEVELOPER_CREDITS_ERROR,
-                'Our wallet is running low on funds. Please ping jeremy@lbry.io so he can refill it, then try again.');
-            }
-            else
-            {
-              Slack::sendErrorIfProd($response === null ?
-                  'Error connecting to LBRY API via cURL' :
-                  'Error of unknown origin in sending Github dev credits'  . var_export($response, true)
-              );
-              Session::setFlash(Session::KEY_DEVELOPER_CREDITS_ERROR, 'Failed to send credits. This is an error on our side. Please email jeremy@lbry.io if it persists.');
-              Session::setFlash(Session::KEY_DEVELOPER_CREDITS_ERROR,
-                'Failed to send credits. This is an error on our side. Please email jeremy@lbry.io if it persists.');
-            }
-          }
-
-          Lock::freeLock($lock);
-          $lock = null;
-        }
-      }
+      echo '<pre>';
+      print_r($lbryApiResponseData);
+      die('omg');
     }
-    return Controller::redirect('/developer-program');
+
+    return Controller::redirect(Request::getReferrer('/quickstart/credits'));
   }
 }
