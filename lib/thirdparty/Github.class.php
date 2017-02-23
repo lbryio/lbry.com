@@ -11,14 +11,14 @@ class Github
 
     try
     {
-      $releaseData = static::get('/repos/lbryio/lbry/releases/latest', $cache);
+      $releaseData = static::get('/repos/lbryio/lbry-app/releases/latest', $cache);
       foreach ($releaseData['assets'] as $asset)
       {
         $ext = substr($asset['name'], -4);
         if (
           ($os == OS::OS_LINUX && ($ext == '.deb' || in_array($asset['content_type'], ['application/x-debian-package', 'application/x-deb']))) ||
           ($os == OS::OS_OSX && ($ext == '.dmg' || in_array($asset['content_type'], ['application/x-diskcopy', 'application/x-apple-diskimage']))) ||
-          ($os == OS::OS_WINDOWS && $ext == '.msi')
+          ($os == OS::OS_WINDOWS && $ext == '.exe')
         )
         {
           return $asset['browser_download_url'];
