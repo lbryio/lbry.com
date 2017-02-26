@@ -14,6 +14,6 @@ class LBRY
       'cache' => 3600, //one hour
       'json_response' => true
     ]);
-    return $response['rate'];
+    return $response['data']['lbc_usd'] ?? 0;
   }
 }

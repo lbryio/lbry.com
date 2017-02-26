@@ -1,4 +1,5 @@
 <?php NavActions::setNavUri('/learn') ?>
+<?php Response::addJsAsset('/js/quickstart.js') ?>
 <?php Response::setMetaDescription('Be up and running with the LBRY API in just a few minutes.') ?>
 <?php Response::setMetaTitle('LBRY Quickstart') ?>
 <?php echo View::render('nav/_header', ['isDark' => false, 'isAbsolute' => false]) ?>

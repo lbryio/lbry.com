@@ -1,4 +1,4 @@
-<form method="POST" action="/developer-program/post" class="form-inset">
+<form method="POST" action="/quickstart/auth" class="form-inset">
   <h4 style="margin-top: 0">Receive Credits</h4>
   <?php if ($error): ?>
     <div class="notice notice-error spacer1"><?php echo $error ?></div>

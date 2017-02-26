@@ -4,8 +4,10 @@
 <code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"wallet_new_address","params":[]}'
 ["bbFxRyWCFRkA9YcuuZD8nE7XTLUxYnddTs"]</code>
 <p>Enter this address in the form below and we'll send you 50 credits.</p>
-<div class="quickstart__claim-form content-light content">
-  <?php echo View::render('developer/_formNew') ?>
+<div class="quickstart__claim-form content-light content" id="new-developer">
+  <?php echo View::render('developer/_formNewDeveloperReward', [
+    'returnUrl' => Request::getRelativeUri() . '#new-developer'
+  ]) ?>
 </div>
 <p>Next, confirm you've received your credits by calling <span class="code-plain">wallet_balance</span>:</p>
 <code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"wallet_balance"}'

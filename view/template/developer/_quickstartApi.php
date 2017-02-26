@@ -3,7 +3,7 @@
   When running, the LBRY daemon provides a JSON-RPC server running at <span class="code-plain">https://localhost:5279/lbryapi</span>.
 </p>
 <p>
-  It can be accessed via cURL or any other utility capable of making HTTPS GET and POST requests. So, basically anything, including possibly your toaster.
+  It can be accessed by any utility capable of making HTTPS GET and POST requests, such as cURL or possibly your toaster.
 </p>
 <p>
   To verify the LBRY daemon is running correctly, let's try looking up a name:

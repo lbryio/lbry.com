@@ -47,21 +47,14 @@ class DeveloperActions extends Actions
     ];
   }
 
-  public static function executeDeveloperProgram()
+  public static function prepareFormNewDeveloperRewardPartial(array $vars)
   {
-    return ['developer/developer-program', [
-      'defaultWalletAddress' => Session::get(Session::KEY_DEVELOPER_CREDITS_WALLET_ADDRESS),
-      'error'                => Session::getFlash(Session::KEY_DEVELOPER_CREDITS_ERROR),
-      'success'              => Session::getFlash(Session::KEY_DEVELOPER_CREDITS_SUCCESS)
-    ]];
-  }
-
-  public static function prepareFormNewPartial(array $vars)
-  {
+    $sendToGithub = !Session::get(Session::KEY_GITHUB_ACCESS_TOKEN);
     return $vars + [
       'defaultWalletAddress' => Session::get(Session::KEY_DEVELOPER_CREDITS_WALLET_ADDRESS),
       'error'                => Session::getFlash(Session::KEY_DEVELOPER_CREDITS_ERROR),
-      'success'              => Session::getFlash(Session::KEY_DEVELOPER_CREDITS_SUCCESS)
+      'sendToGithub'         => $sendToGithub,
+      'apiUrl'              => LBRY::getApiUrl('/user/new_github')
     ];
   }
 
@@ -70,68 +63,66 @@ class DeveloperActions extends Actions
     return $vars + [
       'defaultWalletAddress' => Session::get(Session::KEY_DEVELOPER_CREDITS_WALLET_ADDRESS),
       'error'                => Session::getFlash(Session::KEY_DEVELOPER_CREDITS_ERROR),
-      'success'              => Session::getFlash(Session::KEY_DEVELOPER_CREDITS_SUCCESS)
     ];
   }
 
-  public static function executeDeveloperProgramPost()
+  public static function executeQuickstartAuth()
   {
-    $walletAddress = trim(Request::getPostParam('wallet'));
-    Session::set(Session::KEY_DEVELOPER_CREDITS_WALLET_ADDRESS, $walletAddress);
+    Session::set(Session::KEY_DEVELOPER_CREDITS_WALLET_ADDRESS, trim(Request::getPostParam('wallet_address')));
 
-    if (!$walletAddress)
+    if (Request::getPostParam('returnUrl'))
     {
-      Session::setFlash(Session::KEY_DEVELOPER_CREDITS_ERROR, 'Please provide a wallet address.');
-    }
-    elseif (!preg_match('/^b[1-9A-HJ-NP-Za-km-z]{33}$/', $walletAddress))
-    {
-      Session::setFlash(Session::KEY_DEVELOPER_CREDITS_ERROR, 'This does not appear to be a valid wallet address.');
-    }
-    else
-    {
-      if (!Config::get('github_developer_credits_client_id'))
-      {
-        throw new Exception('no github client id');
-      }
-
-      $githubParams = [
-        'client_id'    => Config::get('github_developer_credits_client_id'),
-        'redirect_uri' => Request::getHostAndProto() . '/developer-program/callback',
-        'scope'        => 'user:email public_repo',
-        'allow_signup' => false
-      ];
-      return Controller::redirect('https://github.com/login/oauth/authorize?' . http_build_query($githubParams));
+      Session::set(Session::KEY_DEVELOPER_RETURN_URL_SUCCESS, Request::getPostParam('returnUrl'));
     }
 
-    return Controller::redirect(Request::getReferrer('/quickstart/credits'));
+    if (!Config::get('github_developer_credits_client_id'))
+    {
+      throw new Exception('no github client id');
+    }
+
+    $gitHubParams = [
+      'client_id'    => Config::get('github_developer_credits_client_id'),
+      'redirect_uri' => Request::getHostAndProto() . '/quickstart/github/callback',
+      'scope'        => 'user:email public_repo',
+      'allow_signup' => false
+    ];
+
+    return Controller::redirect('https://github.com/login/oauth/authorize?' . http_build_query($gitHubParams));
   }
 
-  public static function executeDeveloperProgramGithubCallback()
+  public static function executeQuickstartGithubCallback()
   {
     $code          = Request::getParam('code');
-    $walletAddress = Session::get(Session::KEY_DEVELOPER_CREDITS_WALLET_ADDRESS);
 
-    if (!$walletAddress)
-    {
-      Session::setFlash(Session::KEY_DEVELOPER_CREDITS_ERROR, 'Your wallet address disappeared while authenticated with GitHub.');
-    }
-    elseif (!$code)
+    if (!$code)
     {
       Session::setFlash(Session::KEY_DEVELOPER_CREDITS_ERROR, 'This does not appear to be a valid response from GitHub.');
     }
     else
     {
-      $newUserUrl          = LBRY::getApiUrl('/user/new_developer');
-      $lbryApiResponseData = Curl::post($newUserUrl, [
-        'github_code' => $code
+      $authResponseData = Curl::post('https://github.com/login/oauth/access_token', [
+        'code'          => $code,
+        'client_id'     => Config::get('github_developer_credits_client_id'),
+        'client_secret' => Config::get('github_developer_credits_client_secret')
       ], [
-//        'json_response' => true
+        'headers'       => ['Accept: application/json'],
+        'json_response' => true
       ]);
-      echo '<pre>';
-      print_r($lbryApiResponseData);
-      die('omg');
+
+      if (!$authResponseData || !isset($authResponseData['access_token']))
+      {
+        Session::setFlash(Session::KEY_DEVELOPER_CREDITS_ERROR, 'Request to GitHub failed.');
+      }
+      elseif (isset($authResponseData['error_description']))
+      {
+        Session::setFlash(Session::KEY_DEVELOPER_CREDITS_ERROR, 'GitHub replied: ' . $authResponseData['error_description']);
+      }
+      else
+      {
+        Session::set(Session::KEY_GITHUB_ACCESS_TOKEN, $authResponseData['access_token']);
+      }
     }
 
-    return Controller::redirect(Request::getReferrer('/quickstart/credits'));
+    return Controller::redirect(Session::get(Session::KEY_DEVELOPER_RETURN_URL_SUCCESS, '/quickstart/credits'));
   }
 }
