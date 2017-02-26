@@ -22,8 +22,10 @@
   "metadata":  {"what goes here": "who knows if you do not work for LBRY, certainly you will not be able to figure it out from response messages or API docs"
 }]}'
 [whatever this response looks like]</code>
-<div class="quickstart__claim-form content-light content">
-  <?php echo View::render('developer/_formCreditsPublish') ?>
+<div class="quickstart__claim-form content-light content" id="new-publish">
+  <?php echo View::render('developer/_formCreditsPublish', [
+    'returnUrl' => Request::getRelativeUri() . '#new-developer'
+  ]) ?>
 </div>
 <h3>Try the UI</h3>
 <p>LBRY comes with a UI so that normal people can use it to. You can download it <a href="https://lbry.io/get" class="link-primary">here</a>.</p>

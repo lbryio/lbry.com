@@ -27,6 +27,7 @@
 .quickstart__claim-form
 {
   margin: $spacing-vertical * 2 0;
+  input[type="text"] { width: 100%; }
 }
 
 .quickstart__progress-bar

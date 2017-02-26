@@ -9,11 +9,12 @@
     <label for="wallet">Wallet Address</label>
     <div class="form-input">
       <input type="text" name="wallet_address" value="<?php echo $defaultWalletAddress ?>"
-             class="required standard input-wallet" placeholder="bYnFQUPTTDM1BYNCxgxKEav4FFQsrgDBoE">
+             class="required standard " placeholder="bYnFQUPTTDM1BYNCxgxKEav4FFQsrgDBoE">
     </div>
   </div>
   <div class="submit-row spacer-half">
     <input type="hidden" name="returnUrl" value="<?php echo $returnUrl ?? '/quickstart/credits#no-return' ?>" />
+    <input type="hidden" name="formName" value="new_developer" />
     <input type="hidden" name="access_token" value="<?php echo Session::get(Session::KEY_GITHUB_ACCESS_TOKEN) ?>" />
     <input type="submit" value="Send" class="btn-primary" data-submit-label="Send" data-submitting-label="Sending credits..." />
   </div>

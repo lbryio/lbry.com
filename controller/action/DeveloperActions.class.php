@@ -3,22 +3,22 @@
 class DeveloperActions extends Actions
 {
   const DEVELOPER_REWARD = 250,
-         API_DOC_URL = 'https://lbryio.github.io/lbry/api/';
+    API_DOC_URL = 'https://lbryio.github.io/lbry/api/';
 
   public static function executeQuickstart(string $step = null)
   {
-    $stepLabels = [
-      '' => 'Home',
+    $stepLabels  = [
+      ''        => 'Home',
       'install' => 'Installation',
-      'api' => 'The API',
+      'api'     => 'The API',
       'credits' => 'Credits'
     ];
-    $allSteps = array_keys($stepLabels);
+    $allSteps    = array_keys($stepLabels);
     $currentStep = $step ?: $allSteps[0];
 
     $viewParams = [
       'currentStep' => $currentStep,
-      'stepLabels' => $stepLabels
+      'stepLabels'  => $stepLabels
     ];
 
     if ($currentStep !== 'all')
@@ -49,12 +49,10 @@ class DeveloperActions extends Actions
 
   public static function prepareFormNewDeveloperRewardPartial(array $vars)
   {
-    $sendToGithub = !Session::get(Session::KEY_GITHUB_ACCESS_TOKEN);
     return $vars + [
       'defaultWalletAddress' => Session::get(Session::KEY_DEVELOPER_CREDITS_WALLET_ADDRESS),
-      'error'                => Session::getFlash(Session::KEY_DEVELOPER_CREDITS_ERROR),
-      'sendToGithub'         => $sendToGithub,
-      'apiUrl'              => LBRY::getApiUrl('/user/new_github')
+      'error'                => Session::get(Session::KEY_DEVELOPER_LAST_FORM) == "new_developer" ? Session::getFlash(Session::KEY_DEVELOPER_CREDITS_ERROR) : '',
+      'apiUrl'               => LBRY::getApiUrl('/user/new_github')
     ];
   }
 
@@ -62,13 +60,15 @@ class DeveloperActions extends Actions
   {
     return $vars + [
       'defaultWalletAddress' => Session::get(Session::KEY_DEVELOPER_CREDITS_WALLET_ADDRESS),
-      'error'                => Session::getFlash(Session::KEY_DEVELOPER_CREDITS_ERROR),
+      'error'                => Session::get(Session::KEY_DEVELOPER_LAST_FORM) == "new_publish" ? Session::getFlash(Session::KEY_DEVELOPER_CREDITS_ERROR) : '',
+      'apiUrl'               => LBRY::getApiUrl('/reward/new')
     ];
   }
 
   public static function executeQuickstartAuth()
   {
     Session::set(Session::KEY_DEVELOPER_CREDITS_WALLET_ADDRESS, trim(Request::getPostParam('wallet_address')));
+    Session::set(Session::KEY_DEVELOPER_LAST_FORM, Request::getPostParam('formName'));
 
     if (Request::getPostParam('returnUrl'))
     {
@@ -92,7 +92,7 @@ class DeveloperActions extends Actions
 
   public static function executeQuickstartGithubCallback()
   {
-    $code          = Request::getParam('code');
+    $code = Request::getParam('code');
 
     if (!$code)
     {
