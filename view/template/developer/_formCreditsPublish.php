@@ -2,7 +2,7 @@
 lbry.quickstartForm('#form-new-publish-reward', "<?php echo $apiUrl ?>");
 <?php js_end() ?>
 <form method="POST" action="/quickstart/auth" class="form-inset" id="form-new-publish-reward">
-  <h4 style="margin-top: 0">Receive Credits for Publish</h4>
+  <h4 style="margin-top: 0">Publishing Reward</h4>
   <div class="notice notice-error spacer1 <?php echo isset($error) && $error ? '' : 'hide' ?>"><?php echo $error ?? null ?></div>
   <div class="notice notice-success spacer1 hide"></div>
   <div class="form-row">

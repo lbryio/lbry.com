@@ -1,8 +1,8 @@
 <h3 id="credits">Credits</h3>
 <p>So far, everything we've done with LBRY has been free. However, some actions, such as reserving a name or purchasing paid content, require credits.</p>
 <p>To receive credits, first generate a wallet address:</p>
-<code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"wallet_new_address","params":[]}'
-["bbFxRyWCFRkA9YcuuZD8nE7XTLUxYnddTs"]</code>
+<code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"wallet_new_address"}'
+<span class="code-bash__response">["bbFxRyWCFRkA9YcuuZD8nE7XTLUxYnddTs"]</span></code>
 <p>Enter this address in the form below and we'll send you 50 credits.</p>
 <div class="quickstart__claim-form content-light content" id="new-developer">
   <?php echo View::render('developer/_formNewDeveloperReward', [
@@ -11,7 +11,7 @@
 </div>
 <p>Next, confirm you've received your credits by calling <span class="code-plain">wallet_balance</span>:</p>
 <code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"wallet_balance"}'
-[50.00000000]</code>
+<span class="code-bash__response">[50.00000000]</span></code>
 <h3 id="publish">Publishing</h3>
 <p>Publishing to LBRY is just as easy as everything else! If you publish something, we'll send you an additional 200 LBC for further use.</p>
 <p>Not sure what to publish? We recommend your favorite picture or home video. Or just grab something from <a class="link-primary" href="https://archive.org/details/movies">here</a>.</p>
@@ -21,7 +21,7 @@
   "bid": 1,
   "metadata":  {"what goes here": "who knows if you do not work for LBRY, certainly you will not be able to figure it out from response messages or API docs"
 }}'
-[whatever this response looks like]</code>
+<span class="code-bash__response">[whatever this response looks like]</span></code>
 <div class="quickstart__claim-form content-light content" id="new-publish">
   <?php echo View::render('developer/_formCreditsPublish', [
     'returnUrl' => Request::getRelativeUri() . '#new-developer'

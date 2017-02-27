@@ -169,6 +169,13 @@ $info_text: #3a87ad;
 }
 
 
+@mixin user-select ($value) {
+  -webkit-user-select: $value;
+  -moz-user-select: $value;
+  -ms-user-select: $value;
+  user-select: $value;
+}
+
 @mixin transition($transition-property, $transition-time, $method) {
   -webkit-transition: $transition-property $transition-time $method;
      -moz-transition: $transition-property $transition-time $method;

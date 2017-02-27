@@ -97,16 +97,16 @@
       <p>Here is a sample key-value entry in the LBRY blockchain. Here, wonderfullife is the key, and the rest of the description is the value.</p>
       <code class="code-bash"><span class="code-bash__prompt">$</span>lbrynet-cli resolve_name name=wonderfullife
         
-<span class="code-bash__kw1">wonderfullife</span> : {
-  <span class="code-bash__kw2">title</span>: "It’s a Wonderful Life",
-  <span class="code-bash__kw2">description</span>: "An angel helps a compassionate but despairingly frustrated businessman by showing what life would have been like if he never existed.",
-  <span class="code-bash__kw2">thumbnail</span>: "http://i.imgur.com/MW45x88.jpg",
-  <span class="code-bash__kw2">license</span>: "public domain",
-  <span class="code-bash__kw2">price</span>: 0, <span class="code-bash__comment">//free!</span>
-  <span class="code-bash__kw2">publisher</span>: "A Fan Of George Bailey", <span class="code-bash__comment">//simplification</span>
-  <span class="code-bash__kw2">sources</span>: { <span class="code-bash__comment">//extensible, variable list</span>
-    <span class="code-bash__kw2">lbry_hash</span> : &lt;unique id&gt;,
-    <span class="code-bash__kw2">url</span> : &lt;url&gt;
+<span class="code-bash__kw">wonderfullife</span> : {
+  <span class="code-bash__kw">title</span>: "It’s a Wonderful Life",
+  <span class="code-bash__kw">description</span>: "An angel helps a compassionate but despairingly frustrated businessman by showing what life would have been like if he never existed.",
+  <span class="code-bash__kw">thumbnail</span>: "http://i.imgur.com/MW45x88.jpg",
+  <span class="code-bash__kw">license</span>: "public domain",
+  <span class="code-bash__kw">price</span>: 0, <span class="code-bash__comment">//free!</span>
+  <span class="code-bash__kw">publisher</span>: "A Fan Of George Bailey", <span class="code-bash__comment">//simplification</span>
+  <span class="code-bash__kw">sources</span>: { <span class="code-bash__comment">//extensible, variable list</span>
+    <span class="code-bash__kw">lbry_hash</span> : &lt;unique id&gt;,
+    <span class="code-bash__kw">url</span> : &lt;url&gt;
   }
 }</code>
       <div class="meta text-center content-inset"><p>A slightly simplified sample entry of metadata in the LBRY blockchain. Whichever party or parties bid the most in an ongoing auction control what a name returns.</p></div>
@@ -245,16 +245,16 @@
     <p>Here is a sample key-value entry in the LBRY blockchain. Here, wonderfullife is the key, and the rest of the description is the value.</p>
     <div class="code-bash">
         <code><pre style="white-space: pre-wrap;">
-    <span class="code-bash__kw1">wonderfullife</span> : {
-      <span class="code-bash__kw2">title</span>: "It’s a Wonderful Life",
-      <span class="code-bash__kw2">description</span>: "An angel helps a compassionate but despairingly frustrated businessman by showing what life would have been like if he never existed.",
-      <span class="code-bash__kw2">thumbnail</span>: "http://i.imgur.com/MW45x88.jpg",
-      <span class="code-bash__kw2">license</span>: "public domain",
-      <span class="code-bash__kw2">price</span>: 0, <span class="code-bash__comment">//free!</span>
-      <span class="code-bash__kw2">publisher</span>: "A Fan Of George Bailey", <span class="code-bash__comment">//simplification</span>
-      <span class="code-bash__kw2">sources</span>: { <span class="code-bash__comment">//extensible, variable list</span>
-        <span class="code-bash__kw2">lbry_hash</span> : &lt;unique id&gt;,
-        <span class="code-bash__kw2">url</span> : &lt;url&gt;
+    <span class="code-bash__kw">wonderfullife</span> : {
+      <span class="code-bash__kw">title</span>: "It’s a Wonderful Life",
+      <span class="code-bash__kw">description</span>: "An angel helps a compassionate but despairingly frustrated businessman by showing what life would have been like if he never existed.",
+      <span class="code-bash__kw">thumbnail</span>: "http://i.imgur.com/MW45x88.jpg",
+      <span class="code-bash__kw">license</span>: "public domain",
+      <span class="code-bash__kw">price</span>: 0, <span class="code-bash__comment">//free!</span>
+      <span class="code-bash__kw">publisher</span>: "A Fan Of George Bailey", <span class="code-bash__comment">//simplification</span>
+      <span class="code-bash__kw">sources</span>: { <span class="code-bash__comment">//extensible, variable list</span>
+        <span class="code-bash__kw">lbry_hash</span> : &lt;unique id&gt;,
+        <span class="code-bash__kw">url</span> : &lt;url&gt;
       }
     }</pre></code>
     </div>
