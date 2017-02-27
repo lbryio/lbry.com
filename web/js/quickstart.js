@@ -56,7 +56,7 @@ lbry.quickstartForm = function (selector, apiUrl) {
       transactionHashInput.attr('readonly', 'readonly');
       submitButton.val(submitButton.data('submittingLabel')).attr('disabled', 'disabled');
 
-      $.post(apiUrl)
+      $.post(apiUrl, postData)
         .done(function (responseData) {
           var data = responseData.data;
           var anchor = $('<a class="link-primary"></a>');
