@@ -127,7 +127,8 @@ class Controller
       '/deck.pdf'      => 'https://www.dropbox.com/s/0xj4vgucsbi8rtv/lbry-deck.pdf?dl=1',
       '/pln.pdf'       => 'https://www.dropbox.com/s/uevjrwnyr672clj/lbry-pln.pdf?dl=1',
       '/plan.pdf'      => 'https://www.dropbox.com/s/uevjrwnyr672clj/lbry-pln.pdf?dl=1',
-      '/api'           => 'http://lbryio.github.io/lbry'
+      '/api'           => 'https://lbryio.github.io/lbry',
+      '/api-help'      => 'https://lbryio.github.io/lbry'
     ];
 
 
