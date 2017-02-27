@@ -59,7 +59,7 @@ lbry.quickstartForm = function (selector, apiUrl) {
       $.post(apiUrl, postData)
         .done(function (responseData) {
           var data = responseData.data;
-          var anchor = $('<a class="link-primary"></a>');
+          var anchor = $('<a class="link-primary--break-word"></a>');
           anchor.attr("href", "https://explorer.lbry.io/tx/" + data.TransactionHash);
           anchor.html(data.TransactionHash)
           form.find('.notice-success')
