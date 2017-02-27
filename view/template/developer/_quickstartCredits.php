@@ -38,6 +38,7 @@
 <h3 id="community">You Did It! What's Next?</h3>
 <p>
   Start building something awesome! LBRY works as a discovery and distribution backend for everything from films to CAD files.
+  <a class="link-primary" href="/api">View the full API documentation</a>.
 </p>
 <p>
   <a href="http://slack.lbry.io" class="link-primary">Join our Slack Channel</a> to interact with LBRY developers and other community members. Please visit the #dev room (note: this is not a default channel).
