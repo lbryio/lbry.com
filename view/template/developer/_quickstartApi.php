@@ -29,7 +29,7 @@
 <p>Now let's download it. This time we're going to call the method <code class="code-inline">get</code> with the same parameters.</p>
 <code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"get","params":{"name":"what"} }'
 <span class="code-bash__response">["d5169241150022f996fa7cd6a9a1c421937276a3275eb912790bd07ba7aec1fac5fd45431d226b8fb402691e79aeb24b"]</span></code>
-<p>The LBRY API consists about 50 calls, all related to discovering, distributing, and purchasing content. <a class="link-primary" href="http://lbryio.github.io/lbry/api/">View the full API documentation</a>.</p>
+<p>The LBRY API consists about 50 calls, all related to discovering, distributing, and purchasing content. <a class="link-primary" href="/api">View the full API documentation</a>.</p>
 <p>You can also list all of the commands available by calling the <span class="code-plan">help</span> command.</p>
 <code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"help"}'
 </code>
