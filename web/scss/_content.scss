@@ -128,11 +128,6 @@
     &:last-child { margin-bottom: $spacing-vertical / 2; }
     padding-left: 2em;
     counter-reset: li-counter;
-    &.table-of-contents > li
-    {
-      line-height: 2em;
-      &:before { top: -0.1em; }
-    }
     > li
     {
       position: relative;

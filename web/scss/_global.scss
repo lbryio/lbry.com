@@ -20,6 +20,7 @@ $max-post-content-width: 800px;
 
 $font-header: 'Raleway', sans-serif;
 $font-body: 'Raleway', sans-serif;
+$font-mono: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, monospace, serif;
 
 $font-size-h1: 2.4em;
 $font-size-h2: 2.0em;
@@ -167,6 +168,13 @@ $info_text: #3a87ad;
   overflow:hidden;
 }
 
+
+@mixin user-select ($value) {
+  -webkit-user-select: $value;
+  -moz-user-select: $value;
+  -ms-user-select: $value;
+  user-select: $value;
+}
 
 @mixin transition($transition-property, $transition-time, $method) {
   -webkit-transition: $transition-property $transition-time $method;

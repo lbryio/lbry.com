@@ -1,14 +1,16 @@
 <?php
 
-class Session
+class   Session
 {
   const KEY_DOWNLOAD_ACCESS_ERROR = 'download_error2',
         KEY_DOWNLOAD_ALLOWED = 'beta_download_allowed2',
         KEY_PREFINERY_USER_ID = 'prefinery_user_id',
         KEY_PREFINER_USED_CUSTOM_CODE = 'prefinery_used_custom_code',
+        KEY_DEVELOPER_LAST_FORM = 'developer_last_form',
         KEY_DEVELOPER_CREDITS_ERROR = 'developer_credits_error',
-        KEY_DEVELOPER_CREDITS_SUCCESS = 'developer_credits_success',
         KEY_DEVELOPER_CREDITS_WALLET_ADDRESS = 'developer_credits_wallet_address',
+        KEY_DEVELOPER_RETURN_URL_SUCCESS = 'developer_return_url_success',
+        KEY_GITHUB_ACCESS_TOKEN = 'github_access_token',
         KEY_LIST_SUB_ERROR = 'list_error',
         KEY_USER_CULTURE = 'user_culture';
 

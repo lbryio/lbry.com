@@ -69,8 +69,8 @@ class Curl
 
     $ch = curl_init();
 
-//    curl_setopt($ch, CURLOPT_VERBOSE, true);
-//    curl_setopt($ch, CURLOPT_STDERR, fopen(sys_get_temp_dir().'/curl-debug-'.date('Ymd-His'), 'w+'));
+    curl_setopt($ch, CURLOPT_VERBOSE, true);
+    curl_setopt($ch, CURLOPT_STDERR, fopen(sys_get_temp_dir().'/curl-debug-'.date('Ymd-His'), 'w+'));
 
     if ($ch === false || $ch === null)
     {

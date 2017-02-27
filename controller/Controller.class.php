@@ -89,9 +89,9 @@ class Controller
     $router->get(['/ios', 'get-ios'], 'DownloadActions::executeGet');
     $router->get('/roadmap', 'ContentActions::executeRoadmap');
 
-    $router->get('/developer-program', 'AcquisitionActions::executeDeveloperProgram');
-    $router->post('/developer-program/post', 'AcquisitionActions::executeDeveloperProgramPost');
-    $router->get('/developer-program/callback', 'AcquisitionActions::executeDeveloperProgramGithubCallback');
+    $router->post('/quickstart/auth', 'DeveloperActions::executeQuickstartAuth');
+    $router->get('/quickstart/{step}?', 'DeveloperActions::executeQuickstart');
+    $router->get('/quickstart/github/callback', 'DeveloperActions::executeQuickstartGithubCallback');
 
     $router->get(['/press-kit.zip', 'press-kit'], 'ContentActions::executePressKit');
 
@@ -127,7 +127,8 @@ class Controller
       '/deck.pdf'      => 'https://www.dropbox.com/s/0xj4vgucsbi8rtv/lbry-deck.pdf?dl=1',
       '/pln.pdf'       => 'https://www.dropbox.com/s/uevjrwnyr672clj/lbry-pln.pdf?dl=1',
       '/plan.pdf'      => 'https://www.dropbox.com/s/uevjrwnyr672clj/lbry-pln.pdf?dl=1',
-      '/api-help'      => 'https://lbryio.github.io/lbry/api/',
+      '/api'           => 'https://lbryio.github.io/lbry',
+      '/api-help'      => 'https://lbryio.github.io/lbry'
     ];
 
 

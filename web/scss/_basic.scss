@@ -82,6 +82,10 @@ section
 {
   @include anchor($color-primary);
 }
+.link-primary--break-word
+{
+  word-break: break-all;
+}
 a:hover img
 {
   opacity: 0.75;
