@@ -9,10 +9,14 @@ code
   padding: 3px 5px;
   font-family: $font-mono;
   color: darken($color-primary, 10%);
-}
-.code-plain
-{
-  font-family: $font-mono;
+  &.code-inline {
+    padding: 0;
+    margin-left: 1px;
+    margin-right: 1px;
+    font-weight: bold;
+    color: inherit;
+    background-color: transparent;
+  }
 }
 pre
 {

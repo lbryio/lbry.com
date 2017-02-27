@@ -9,7 +9,7 @@
     'returnUrl' => Request::getRelativeUri() . '#new-developer'
   ]) ?>
 </div>
-<p>Next, confirm you've received your credits by calling <span class="code-plain">wallet_balance</span>:</p>
+<p>Next, confirm you've received your credits by calling <code class="code-inline">wallet_balance</code>:</p>
 <code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"wallet_balance"}'
 <span class="code-bash__response">[50.00000000]</span></code>
 <h3 id="publish">Publishing</h3>
