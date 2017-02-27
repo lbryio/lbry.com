@@ -15,12 +15,12 @@
 <h3 id="publish">Publishing</h3>
 <p>Publishing to LBRY is just as easy as everything else! If you publish something, we'll send you an additional 200 LBC for further use.</p>
 <p>Not sure what to publish? We recommend your favorite picture or home video. Or just grab something from <a class="link-primary" href="https://archive.org/details/movies">here</a>.</p>
-<code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"publish", "params": [{
+<code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"publish", "params": {
   "name": "electricsheep",
   "file_path": "\\home\kauffj\\Desktop\\electric-sheep.mp4",
   "bid": 1,
   "metadata":  {"what goes here": "who knows if you do not work for LBRY, certainly you will not be able to figure it out from response messages or API docs"
-}]}'
+}}'
 [whatever this response looks like]</code>
 <div class="quickstart__claim-form content-light content" id="new-publish">
   <?php echo View::render('developer/_formCreditsPublish', [
