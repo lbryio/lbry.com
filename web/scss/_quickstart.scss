@@ -5,6 +5,14 @@
   max-width: 860px;
 }
 
+.quickstart .content-dark
+{
+  ul, ol, li
+  {
+    list-style-position: outside !important; /*hack fix for CSS bug affecting headers inside LI tags, ask Grin*/
+  }
+}
+
 .quickstart__table
 {
   margin: 0 auto $spacing-vertical;
