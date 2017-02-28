@@ -1,6 +1,6 @@
 <h3 id="api">The API</h3>
 <p>
-  When running, the LBRY daemon provides a JSON-RPC server running at <code class="code-inline">https://localhost:5279/lbryapi</code>.
+  When running, the LBRY daemon provides a JSON-RPC server running at <code class="code-inline">http://localhost:5279/lbryapi</code>.
 </p>
 <p>
   It can be accessed by any utility capable of making HTTPS GET and POST requests, such as cURL or possibly your toaster.
