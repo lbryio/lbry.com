@@ -83,7 +83,7 @@ class DeveloperActions extends Actions
     $gitHubParams = [
       'client_id'    => Config::get('github_developer_credits_client_id'),
       'redirect_uri' => Request::getHostAndProto() . '/quickstart/github/callback',
-      'scope'        => 'user:email public_repo',
+      'scope'        => 'user:email,public_repo',
       'allow_signup' => false
     ];
 
