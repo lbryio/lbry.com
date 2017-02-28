@@ -3,7 +3,7 @@
 class DeveloperActions extends Actions
 {
   const DEVELOPER_REWARD = 250,
-    API_DOC_URL = 'https://lbryio.github.io/lbry/api/';
+    API_DOC_URL = 'https://lbryio.github.io/lbry/';
 
   public static function executeQuickstart(string $step = null)
   {
