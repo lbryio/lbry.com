@@ -18,7 +18,7 @@ There’s only one problem: he’s not a Genji main. He’s not going to rush yo
 
 ![Oh Gee Geo](/img/news/ohgeegeo-inline2.png)
 
-> When I saw LBRY I immediately saw the potential for the democratization of content distribution… Content creators are empowered to set their own market for their content.
+> *When I saw LBRY I immediately saw the potential for the democratization of content distribution… Content creators are empowered to set their own market for their content.
 > - OhGeeGeo
 
 Join OhGeeGeo as he streams RTS and MOBAs while learning from the young guns how to *really* play the hottest new games.
