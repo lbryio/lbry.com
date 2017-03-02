@@ -60,8 +60,8 @@ lbry.quickstartForm = function (selector, apiUrl) {
         .done(function (responseData) {
           var data = responseData.data;
           var anchor = $('<a class="link-primary--break-word"></a>');
-          anchor.attr("href", "https://explorer.lbry.io/tx/" + data.transactionId);
-          anchor.html(data.transactionId)
+          anchor.attr("href", "https://explorer.lbry.io/tx/" + data.transactionID);
+          anchor.html(data.transactionID)
           form.find('.notice-success')
             .html(data.RewardAmount + " credits sent in transaction ")
             .append(anchor)
