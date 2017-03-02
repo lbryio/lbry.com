@@ -52,7 +52,7 @@ class DeveloperActions extends Actions
     return $vars + [
       'defaultWalletAddress' => Session::get(Session::KEY_DEVELOPER_CREDITS_WALLET_ADDRESS),
       'error'                => Session::get(Session::KEY_DEVELOPER_LAST_FORM) == "new_developer" ? Session::getFlash(Session::KEY_DEVELOPER_CREDITS_ERROR) : '',
-      'apiUrl'               => LBRY::getApiUrl('/user/new_github')
+      'apiUrl'               => LBRY::getApiUrl('/reward/new?reward_type=new_developer')
     ];
   }
 
@@ -61,7 +61,7 @@ class DeveloperActions extends Actions
     return $vars + [
       'defaultWalletAddress' => Session::get(Session::KEY_DEVELOPER_CREDITS_WALLET_ADDRESS),
       'error'                => Session::get(Session::KEY_DEVELOPER_LAST_FORM) == "new_publish" ? Session::getFlash(Session::KEY_DEVELOPER_CREDITS_ERROR) : '',
-      'apiUrl'               => LBRY::getApiUrl('/reward/new')
+      'apiUrl'               => LBRY::getApiUrl('/reward/new?reward_type=first_publish')
     ];
   }
 

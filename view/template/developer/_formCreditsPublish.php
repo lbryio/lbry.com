@@ -15,7 +15,7 @@ lbry.quickstartForm('#form-new-publish-reward', "<?php echo $apiUrl ?>");
   <div class="form-row">
     <label for="wallet">Publishing Transaction ID</label>
     <div class="form-input">
-      <input type="text" name="transaction_hash" value="<?php echo '' ?>"
+      <input type="text" name="transaction_id" value="<?php echo '' ?>"
              class="required standard " placeholder="e99240e60499b372371a4e461ca25506745686b4c8fa3dd646a83f44ad358255">
     </div>
   </div>

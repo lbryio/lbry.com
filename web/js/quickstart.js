@@ -2,7 +2,7 @@ lbry.quickstartForm = function (selector, apiUrl) {
   var form = $(selector),
     accessToken = form.find(':input[name="access_token"]').val(),
     walletAddressInput = form.find(':input[name="wallet_address"]'),
-    transactionHashInput = form.find(':input[name="transaction_hash"]'),
+    transactionIdInput = form.find(':input[name="transaction_id"]'),
     storageKey = form.attr('id') + "SuccessHTML",
     submitButton = form.find(':input[type="submit"]'),
     isAutomaticSubmit = false,
@@ -11,7 +11,7 @@ lbry.quickstartForm = function (selector, apiUrl) {
   function resetFormState() {
     isSubmitting = false;
     walletAddressInput.attr('readonly', null);
-    transactionHashInput.attr('readonly', null);
+    transactionIdInput.attr('readonly', null);
     submitButton.val(submitButton.data('submitLabel')).attr('disabled', null);
   }
 
@@ -39,29 +39,29 @@ lbry.quickstartForm = function (selector, apiUrl) {
         return false;
       }
 
-      if (transactionHashInput.length) {
-        if (!transactionHashInput.val()) {
+      if (transactionIdInput.length) {
+        if (!transactionIdInput.val()) {
           resetFormState();
           if (!isAutomaticSubmit) {
             form.find('.notice-error').html("Please supply a transaction ID.").show();
           }
           return false;
         }
-        postData.transaction_hash = transactionHashInput.val();
+        postData.transaction_id = transactionIdInput.val();
       }
 
       event.preventDefault();
 
       walletAddressInput.attr('readonly', 'readonly');
-      transactionHashInput.attr('readonly', 'readonly');
+      transactionIdInput.attr('readonly', 'readonly');
       submitButton.val(submitButton.data('submittingLabel')).attr('disabled', 'disabled');
 
       $.post(apiUrl, postData)
         .done(function (responseData) {
           var data = responseData.data;
           var anchor = $('<a class="link-primary--break-word"></a>');
-          anchor.attr("href", "https://explorer.lbry.io/tx/" + data.TransactionHash);
-          anchor.html(data.TransactionHash)
+          anchor.attr("href", "https://explorer.lbry.io/tx/" + data.transactionId);
+          anchor.html(data.transactionId)
           form.find('.notice-success')
             .html(data.RewardAmount + " credits sent in transaction ")
             .append(anchor)

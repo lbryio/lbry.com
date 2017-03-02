@@ -13,9 +13,6 @@
 <code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"wallet_balance"}'
 <span class="code-bash__response">[50.00000000]</span></code>
 <h3 id="publish">Publishing</h3>
-<div class="notice notice-info spacer1">
-  The credit reward for this portion of the guide does not work yet. It will be added shortly. However, you can still follow this section to learn how to publish.
-</div>
 <p>Publishing to LBRY is just as easy as everything else! If you publish something, we'll send you an additional 200 LBC for further use.</p>
 <p>Not sure what to publish? We recommend your favorite picture or home video. Or just grab something from <a class="link-primary" href="https://archive.org/details/movies">here</a>.</p>
 <code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"publish", "params": {
@@ -24,17 +21,26 @@
   "bid": 1,
   "metadata":  { } <span class="code-bash__comment">//this should match the metadata returned by resolve_name </span>
 }}'
-<span class="code-bash__response">[whatever this response looks like]</span></code>
+<span class="code-bash__response">[
+  {
+    "claim_id": "2081486f32dc493980c77bdaa0502950b532af13",
+    "fee": 0.000329,
+    "nout": 0,
+    "tx": "0100000001a2dcee285b3f552fb8b3eef416c9f17...",
+    "txid": "d71d63ebb3e10067bfd0b302433bc1ab09fbdd5dc9bc687f50aeb6809d1770fe" <span class="code-bash__comment">//this is the value you need to copy</span>
+  }
+]</span></code>
 <div class="quickstart__claim-form content-light content" id="new-publish">
   <?php echo View::render('developer/_formCreditsPublish', [
     'returnUrl' => Request::getRelativeUri() . '#new-developer'
   ]) ?>
 </div>
 <h3>Enjoy a Hollywood Film</h3>
+<p><a href="http://www.imdb.com/title/tt1995341/" class="link-primary">It's a Disaster</a> starring David Cross is just one of tens of thousands of great pieces of content available. Check it out!</p>
 <code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"get","params":{"name":"itsadisaster"} }'
 <span class="code-bash__response">["d5169241150022f996fa7cd6a9a1c421937276a3275eb912790bd07ba7aec1fac5fd45431d226b8fb402691e79aeb24b"]</span></code>
 <h3>Try the UI</h3>
-<p>LBRY comes with a UI so that normal people can use it too. You can download it <a href="https://lbry.io/get" class="link-primary">here</a>.</p>
+<p>LBRY comes with a UI so that normal people can use it too. You can download it <a href="https://github.com/lbryio/lbry-app/releases" class="link-primary">here</a>.</p>
 <h3 id="community">You Did It! What's Next?</h3>
 <p>
   Start building something awesome! LBRY works as a discovery and distribution backend for everything from films to CAD files.
