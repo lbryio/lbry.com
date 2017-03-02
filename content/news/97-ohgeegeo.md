@@ -2,7 +2,7 @@
 author: reilly
 title: 'Filthy Casual'
 date: '2017-03-02 00:16:00'
-cover: ‘ohgeegeo-banner.png’
+cover: 'ohgee-banner.png'
 ---
 Gaming. It’s arguably more important than getting adequate nutrition.
 
