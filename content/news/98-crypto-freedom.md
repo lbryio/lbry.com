@@ -2,7 +2,7 @@
 author: jeremy
 title: 'We\'re on the Verge of Complete Cryptocurrency Deregulation'
 date: '2017-03-08 11:38:00'
-cover: 'crypto-dereg.png'
+cover: 'crypto-dereg.jpg'
 ---
 
 Is New Hampshire the best place to run a cryptocurrency business? It already has the highest per-capita Bitcoin usage. And very soon it is likely to have the most favorable regulatory climate.
