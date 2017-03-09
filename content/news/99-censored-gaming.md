@@ -20,4 +20,6 @@ From 16bit “boobs” measuring a hefty 3 pixels bra size, to the hot coffee mo
 
 Free your voice while being delightfully entertaining. Censored Gaming and LBRY are a match made in 1st Amendment heaven.
 
+Suppport Censored Gaming on Pateron right here: https://www.patreon.com/CensoredGaming
+
 **Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Feeling censored and want to stretch your expression a bit more? Email reilly@lbry.io for a ride on the wild side of publishing.
