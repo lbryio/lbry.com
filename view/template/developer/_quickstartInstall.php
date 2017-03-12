@@ -1,4 +1,9 @@
 <h3>Download</h3>
+<pre class="code-bash">
+  <?php echo Github::getDaemonDownloadUrl(OS::OS_LINUX) ?>
+  <?php echo Github::getDaemonDownloadUrl(OS::OS_WINDOWS) ?>
+  <?php echo Github::getDaemonDownloadUrl(OS::OS_OSX) ?>
+</pre>
 <table class="quickstart__table">
   <thead>
     <tr>

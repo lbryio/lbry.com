@@ -2,7 +2,7 @@
 
 class Github
 {
-  public static function getDownloadUrl($os, $cache = true)
+  public static function getAppDownloadUrl($os, $cache = true)
   {
     if (!in_array($os, array_keys(OS::getAll())))
     {
@@ -14,6 +14,39 @@ class Github
       $releaseData = static::get('/repos/lbryio/lbry-app/releases/latest', $cache);
       foreach ($releaseData['assets'] as $asset)
       {
+        $ext = substr($asset['name'], -4);
+        if (
+          ($os == OS::OS_LINUX && ($ext == '.deb' || in_array($asset['content_type'], ['application/x-debian-package', 'application/x-deb']))) ||
+          ($os == OS::OS_OSX && ($ext == '.dmg' || in_array($asset['content_type'], ['application/x-diskcopy', 'application/x-apple-diskimage']))) ||
+          ($os == OS::OS_WINDOWS && $ext == '.exe')
+        )
+        {
+          return $asset['browser_download_url'];
+        }
+      }
+    }
+    catch (Exception $e)
+    {
+    }
+
+    return null;
+  }
+
+  public static function getDaemonDownloadUrl($os, $cache = true)
+  {
+    if (!in_array($os, array_keys(OS::getAll())))
+    {
+      throw new DomainException('Unknown OS');
+    }
+
+    try
+    {
+      $releaseData = static::get('/repos/lbryio/lbry/releases/latest', $cache);
+      foreach ($releaseData['assets'] as $asset)
+      {
+        echo '<pre>';
+        print_r($asset);
+        echo '</pre>';
         $ext = substr($asset['name'], -4);
         if (
           ($os == OS::OS_LINUX && ($ext == '.deb' || in_array($asset['content_type'], ['application/x-debian-package', 'application/x-deb']))) ||

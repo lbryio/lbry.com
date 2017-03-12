@@ -8,15 +8,15 @@ class DownloadActions extends Actions
     switch ($ext)
     {
       case 'deb':
-        $uri = GitHub::getDownloadUrl(OS::OS_LINUX);
+        $uri = GitHub::getAppDownloadUrl(OS::OS_LINUX);
         break;
 
       case 'dmg':
-        $uri = GitHub::getDownloadUrl(OS::OS_OSX);
+        $uri = GitHub::getAppDownloadUrl(OS::OS_OSX);
         break;
 
       case 'msi':
-        $uri = GitHub::getDownloadUrl(OS::OS_WINDOWS);
+        $uri = GitHub::getAppDownloadUrl(OS::OS_WINDOWS);
         break;
     }
 
@@ -68,7 +68,7 @@ class DownloadActions extends Actions
         'osIcon'        => $osIcon,
         'prefineryUser' => $user ?: [],
         'downloadHtml'  => View::exists('download/' . $partial) ?
-          View::render('download/' . $partial, ['downloadUrl' => Github::getDownloadUrl($os)]) :
+          View::render('download/' . $partial, ['downloadUrl' => Github::getAppDownloadUrl($os)]) :
           false
       ]];
     }

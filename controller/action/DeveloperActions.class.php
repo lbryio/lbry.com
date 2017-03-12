@@ -47,6 +47,14 @@ class DeveloperActions extends Actions
     ];
   }
 
+
+  public static function prepareQuickstartInstallPartial(array $vars)
+  {
+    return $vars + [
+      'version' => 'foo'
+    ];
+  }
+
   public static function prepareFormNewDeveloperRewardPartial(array $vars)
   {
     return $vars + [

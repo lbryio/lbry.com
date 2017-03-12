@@ -4,20 +4,18 @@
     <?php if ($showLearnFooter): ?>
       <?php echo View::render('nav/_learnFooter') ?>
     <?php endif ?>
-    <div class="footer-standard">
-      <div class="content">
-        <nav class="control-group">
-          <div class="control-item">
-            <a href="/"><?php echo __('nav.home') ?></a>
-          </div>
-          <?php echo View::render('nav/_globalItems') ?>
-          <div class="control-item">
-            <a href="https://en.wikipedia.org/wiki/AACS_encryption_key_controversy" class="footer-img-link">
-              <img src="/img/Free-speech-flag.svg" alt="Free Speech Flag" height="30"/>
-            </a>
-          </div>
-        </nav>
-      </div>
+    <div class="footer-standard <?php echo $isDark ? 'footer-standard--dark' : 'footer-standard--light' ?>">
+      <nav class="control-group">
+        <div class="control-item">
+          <a href="/"><?php echo __('nav.home') ?></a>
+        </div>
+        <?php echo View::render('nav/_globalItems') ?>
+        <div class="control-item">
+          <a href="https://en.wikipedia.org/wiki/Free_Speech_Flag" class="footer-img-link">
+            <img src="/img/Free-speech-flag.svg" alt="Free Speech Flag" height="30"/>
+          </a>
+        </div>
+      </nav>
     </div>
   </div>
 <?php endif ?>
