@@ -50,6 +50,11 @@ class MailActions extends Actions
     return ['mail/subscribe', ['confirmSuccess' => true, 'learnFooter' => true]];
   }
 
+  public static function executeSubscribed()
+  {
+    return ['mail/subscribe', ['confirmSuccess' => true, 'learnFooter' => true]];
+  }
+
 
 
   public static function prepareSubscribeFormPartial(array $vars)

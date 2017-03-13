@@ -99,6 +99,7 @@ class Controller
     $router->post('/log-upload', 'OpsActions::executeLogUpload');
 
     $router->any('/list/subscribe', 'MailActions::executeSubscribe');
+    $router->any('/list/subscribed', 'MailActions::executeSubscribed');
     $router->get('/list/confirm/{hash}', 'MailActions::executeConfirm');
 
     $router->any('/dmca', 'ReportActions::executeDmca');
