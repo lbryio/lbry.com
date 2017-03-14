@@ -25,7 +25,7 @@ class DownloadActions extends Actions
 
   public static function executeGetDaemonRedirect(string $os)
   {
-    $uri = null;
+    $uri  = null;
     $oses = Os::getAll();
 
     if (isset($oses[$os]))
@@ -38,8 +38,8 @@ class DownloadActions extends Actions
 
   public static function executeGet()
   {
-    $email = Request::getParam('e');
-    $user = [];
+    $email = static::getEmailParam();
+    $user  = [];
 
     if ($email)
     {
@@ -147,7 +147,7 @@ class DownloadActions extends Actions
   public static function prepareSignupPartial(array $vars)
   {
     return $vars + [
-      'defaultEmail'    => Request::getParam('e'),
+      'defaultEmail'    => static::getEmailParam(),
       'allowInviteCode' => true,
       'referralCode'    => Request::getParam('r', '')
     ];
@@ -208,5 +208,25 @@ class DownloadActions extends Actions
     {
       return OS::OS_WINDOWS;
     }
+  }
+
+  protected static function getEmailParam()
+  {
+    $email = Request::getParam('e');
+
+    if (!$email)
+    {
+      $encoded = Request::getParam('ec');
+      if ($encoded)
+      {
+        $email = Smaz::decode(Encoding::base64DecodeUrlsafe($encoded), Smaz::CODEBOOK_EMAIL);
+        if (!filter_var($email, FILTER_VALIDATE_EMAIL))
+        {
+          $email = null;
+        }
+      }
+    }
+
+    return $email;
   }
 }
