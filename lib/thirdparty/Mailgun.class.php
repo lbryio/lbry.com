@@ -9,29 +9,6 @@ class Mailgun
 
   const LIST_GENERAL = 'lbryians@lbry.io';
 
-  public static function unsubscribeFromMailingList($listAddress, $email)
-  {
-    list($status, $headers, $body) = static::put('/lists/' . $listAddress . '/members/' . $email, [
-      'subscribed' => 'no',
-    ]);
-
-    if ($status == 200)
-    {
-      return true;
-    }
-
-    $data = json_decode($body, true);
-    $message = $data['error'] ?? $data['message'] ?? false;
-
-    if (strpos($message, 'Member '.$email) === 0 && strrpos($message, ' not found') === (strlen($message) - strlen(' not found')))
-    {
-      // message says "Member $email ... not found", so email is not on list. that's the same as unsubscribing, right?
-      return true;
-    }
-
-    return $message;
-  }
-
   public static function sendDmcaReport($data)
   {
     list($status, $headers, $body) = static::post('/' . static::MAIL_DOMAIN . '/messages', [
@@ -76,22 +53,6 @@ class Mailgun
     ]);
 
     return $status == 200;
-  }
-
-  public static function addToMailingList($listAddress, $email)
-  {
-    list($status, $headers, $body) = static::post('/lists/' . $listAddress . '/members', [
-      'address' => $email,
-//      'subscribed' => 'yes',
-//      'upsert' => 'no', //https://documentation.mailgun.com/api-mailinglists.html#mailing-lists
-    ]);
-
-    if ($status != 200)
-    {
-      return json_decode($body, true)['message'];
-    }
-
-    return true;
   }
 
   protected static function getConfirmHash($email, $timestamp = null, $nonce = null)
