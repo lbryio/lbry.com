@@ -28,8 +28,6 @@ Almost certainly.
 
 The vast majority of the lectures are licensed under a [Creative Commons](https://creativecommons.org/licenses/by-nc/4.0/) license that allows attributed, non-commercial redistribution. The price for this content has been set to free and all LBRY metadata attributes it to UC Berkeley.
 
-The content was
-
 Additionally, we believe that this content is legal under the First Amendment.
 
 ### The Perfect Content for LBRY

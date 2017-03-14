@@ -258,7 +258,7 @@ class Post
     switch(strtolower($this->author))
     {
       case 'jeremy':
-        return '<p>Jeremy is the creator of TopScore (usetopscore.com), LBRY (lbry.io), and that joke where the first two items in your list are serious while the third one is a run-on sentence.</p>';
+        return '<p>Jeremy is the CEO of LBRY (lbry.io). When not at his computer, he is probably on his cellphone. </p>';
       case 'jack':
         return '<p>Jack was one of the first people to discover LBRY and took to it so fast he may understand more about it than anyone. He has Asperger\'s Syndrome and is actively involved in the autism community.</p>';
       case 'reilly':
