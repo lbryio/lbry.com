@@ -10,7 +10,7 @@
   <li><h3>Earned $<?php echo money_format('%i', $usdValue) ?><sup>1</sup> for downloading a hilarious film starring David Cross.</h3></li>
   <li><h3>Irrevocably inscribed a piece of knowledge. Possibly of a cat.</h3>
     <div class="meta">
-      <sup>1</sup>USD price equivalent of 250 LBC as received from the <a href="https://poloniex.com/exchange#btc_lbc" class="link-primary">Poloneix</a> exchange.
+      <sup>1</sup>USD price equivalent of 250 LBC as received from the <a href="https://poloniex.com/exchange#btc_lbc" class="link-primary">Poloniex</a> exchange.
       LBC is a cryptographic blockchain token used to secure and administer LBRY's shared, distributed catalog. The future is weird.
     </div>
   </li>
