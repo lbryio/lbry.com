@@ -338,7 +338,7 @@
                   <tr>
                     <td class="aligncenter content-block">
                       <a href="https://lbry.io">LBRY Inc</a>
-                      &bull; 521 Pine Street, Manchester, New Hampshire 03104
+                      &bull; 848 Elm St. #310, Manchester, NH 03101
                     </td>
                   </tr>
                 </table>
