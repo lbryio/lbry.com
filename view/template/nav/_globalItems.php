@@ -1,6 +1,5 @@
 <?php foreach([
     '/get' => __('nav.get'),
-    '/news' => __('nav.news'),
     '/learn' => __('nav.learn')
 ] as $url => $label): ?>
   <div class="control-item">

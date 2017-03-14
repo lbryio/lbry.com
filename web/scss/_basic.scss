@@ -114,7 +114,7 @@ a:hover img
   }
 }
 
-.btn-primary, .btn-alt
+.btn-primary, .btn-alt, .btn-link
 {
   cursor: pointer;
   display: inline-block;
@@ -128,6 +128,17 @@ a:hover img
   {
     margin-left: 8px;
   }
+}
+.btn-link
+{
+  @include anchor($color-primary);
+}
+.btn-large
+{
+  height: $spacing-vertical * 2;
+  line-height: $spacing-vertical * 2;
+  font-size: 1.5em;
+  padding: 0 30px;
 }
 .btn-primary
 {

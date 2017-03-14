@@ -2,25 +2,38 @@
 
 class DownloadActions extends Actions
 {
-  public static function executeGetRedirect(string $ext)
+  public static function executeGetAppRedirect(string $ext)
   {
     $uri = null;
     switch ($ext)
     {
       case 'deb':
-        $uri = GitHub::getDownloadUrl(OS::OS_LINUX);
+        $uri = GitHub::getAppDownloadUrl(OS::OS_LINUX);
         break;
 
       case 'dmg':
-        $uri = GitHub::getDownloadUrl(OS::OS_OSX);
+        $uri = GitHub::getAppDownloadUrl(OS::OS_OSX);
         break;
 
       case 'msi':
-        $uri = GitHub::getDownloadUrl(OS::OS_WINDOWS);
+        $uri = GitHub::getAppDownloadUrl(OS::OS_WINDOWS);
         break;
     }
 
     return Controller::redirect($uri ?: '/get', 302);
+  }
+
+  public static function executeGetDaemonRedirect(string $os)
+  {
+    $uri = null;
+    $oses = Os::getAll();
+
+    if (isset($oses[$os]))
+    {
+      $uri = GitHub::getDaemonDownloadUrl($os);
+    }
+
+    return Controller::redirect($uri ?: '/quickstart', 302);
   }
 
   public static function executeGet()
@@ -68,7 +81,7 @@ class DownloadActions extends Actions
         'osIcon'        => $osIcon,
         'prefineryUser' => $user ?: [],
         'downloadHtml'  => View::exists('download/' . $partial) ?
-          View::render('download/' . $partial, ['downloadUrl' => Github::getDownloadUrl($os)]) :
+          View::render('download/' . $partial, ['downloadUrl' => Github::getAppDownloadUrl($os)]) :
           false
       ]];
     }

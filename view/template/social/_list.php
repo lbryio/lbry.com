@@ -1,4 +1,7 @@
 <div class="spacer1">
+  <a href="https://slack.lbry.io" class="link-primary"><span class="icon-slack icon-fw"></span><span class="btn-label">Slack</span></a>
+</div>
+<div class="spacer1">
   <a href="https://twitter.com/lbryio" class="link-primary"><span class="icon-twitter icon-fw"></span><span class="btn-label">Twitter</span></a>
 </div>
 <div class="spacer1">

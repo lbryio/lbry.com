@@ -9,9 +9,9 @@
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://github.com/lbryio/lbry/releases/download/v0.9.0/lbrynet-daemon-v0.9.0-macos.zip" class="link-primary">Download</a></td>
-      <td><a href="https://github.com/lbryio/lbry/releases/download/v0.9.0/lbrynet-daemon-v0.9.0-linux.zip"  class="link-primary">Download</a></td>
-      <td><a href="https://github.com/lbryio/lbry/releases/download/v0.9.0/lbrynet-daemon-v0.9.0-windows.zip"  class="link-primary">Download</a></td>
+      <td><a href="/get/lbrynet.<?php echo Os::OS_OSX ?>.zip" class="link-primary">Download <?php echo $versions[OS::OS_OSX] ?></a></td>
+      <td><a href="/get/lbrynet.<?php echo Os::OS_LINUX ?>.zip"  class="link-primary">Download <?php echo $versions[OS::OS_LINUX] ?></a></td>
+      <td><a href="/get/lbrynet.<?php echo Os::OS_WINDOWS ?>.zip"  class="link-primary">Download <?php echo $versions[OS::OS_WINDOWS] ?></a></td>
     </tr>
   </tbody>
 </table>

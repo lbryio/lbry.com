@@ -1,6 +1,7 @@
 @import "global";
 
-$color-nav-border: #ddd;
+$color-nav-border-light: #ddd;
+$color-nav-border-dark: #ddd;
 
 .header
 {
@@ -41,7 +42,7 @@ $color-nav-border: #ddd;
 .header-light
 {
   color: $color-text-dark;
-  border-bottom: 1px $color-nav-border solid;
+  border-bottom: 1px $color-nav-border-light solid;
   background-color: white;
   .logo-light { display: none; }
 }
@@ -119,11 +120,24 @@ $color-nav-border: #ddd;
   text-align: center;
   font-size: 0.8em;
   line-height: $spacing-vertical * 2;
-  color: #666;
-  border-top: 1px $color-nav-border solid;
-  border-bottom: 1px $color-nav-border solid;
   padding: $spacing-vertical / 2 0;
   @include jumpingScrollbarFix();
+  img
+  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.footer-standard--light
+{
+  color: $color-content-light;
+  border-top: 1px $color-nav-border-light solid;
+  border-bottom: 1px $color-nav-border-light solid;
+}
+.footer-standard--dark
+{
+  color: $color-content-dark;
 }
 .footer-img-link
 {
