@@ -50,9 +50,11 @@ class DeveloperActions extends Actions
 
   public static function prepareQuickstartInstallPartial(array $vars)
   {
-    return $vars + [
-      'version' => 'foo'
-    ];
+    return $vars + ['versions' => [
+      Os::OS_LINUX => Github::getDaemonReleaseProperty(OS::OS_LINUX, 'tag_name'),
+      Os::OS_OSX => Github::getDaemonReleaseProperty(OS::OS_OSX, 'tag_name'),
+      Os::OS_WINDOWS => Github::getDaemonReleaseProperty(OS::OS_WINDOWS, 'tag_name'),
+    ]];
   }
 
   public static function prepareFormNewDeveloperRewardPartial(array $vars)

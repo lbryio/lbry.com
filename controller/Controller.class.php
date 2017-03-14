@@ -140,7 +140,8 @@ class Controller
       }
     }
 
-    $router->any('/get/lbry.{ext:c}', 'DownloadActions::executeGetRedirect');
+    $router->any('/get/lbry.{ext:c}', 'DownloadActions::executeGetAppRedirect');
+    $router->any('/get/lbrynet.{os:c}.zip', 'DownloadActions::executeGetDaemonRedirect');
 
     $router->get([ContentActions::URL_NEWS . '/{slug:c}?', 'news'], 'ContentActions::executeNews');
     $router->get([ContentActions::URL_FAQ . '/{slug:c}?', 'faq'], 'ContentActions::executeFaq');

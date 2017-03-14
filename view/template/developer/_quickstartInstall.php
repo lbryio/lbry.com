@@ -1,9 +1,4 @@
 <h3>Download</h3>
-<pre class="code-bash">
-  <?php echo Github::getDaemonDownloadUrl(OS::OS_LINUX) ?>
-  <?php echo Github::getDaemonDownloadUrl(OS::OS_WINDOWS) ?>
-  <?php echo Github::getDaemonDownloadUrl(OS::OS_OSX) ?>
-</pre>
 <table class="quickstart__table">
   <thead>
     <tr>
@@ -14,9 +9,9 @@
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://lbry.io/get/lbry.dmg" class="link-primary">Download .dmg</a></td>
-      <td><a href="https://lbry.io/get/lbry.deb"  class="link-primary">Download .deb</a></td>
-      <td><a href="https://lbry.io/get/lbry.msi"  class="link-primary">Download .msi</a></td>
+      <td><a href="/get/lbrynet.<?php echo Os::OS_OSX ?>.zip" class="link-primary">Download <?php echo $versions[OS::OS_OSX] ?></a></td>
+      <td><a href="/get/lbrynet.<?php echo Os::OS_LINUX ?>.zip"  class="link-primary">Download <?php echo $versions[OS::OS_LINUX] ?></a></td>
+      <td><a href="/get/lbrynet.<?php echo Os::OS_WINDOWS ?>.zip"  class="link-primary">Download <?php echo $versions[OS::OS_WINDOWS] ?></a></td>
     </tr>
   </tbody>
 </table>

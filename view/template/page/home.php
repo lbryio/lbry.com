@@ -1,27 +1,27 @@
-<div class="bg-image-full" style="background-color: white" <?php //style="background-image: url(https://s3.amazonaws.com/files.lbry.io/cover-home2.jpg)" ?>></div>
+<div class="bg-image-full" style="background-image: url(https://s3.amazonaws.com/files.lbry.io/cover-home2.jpg)"></div>
 <?php Response::setMetaTitle(__('title.home')) ?>
 <?php Response::setMetaDescription(__('description.home')) ?>
-<?php echo View::render('nav/_header', ['isDark' => false, 'isLogoOnly' => false]) ?>
+<?php echo View::render('nav/_header', ['isDark' => true]) ?>
 <main class="column-fluid">
   <div class="span12">
-    <div class="cover cover-light cover-center">
-      <div class="content content-wide content-light" style="max-width: 800px">
-        <div class="spacer2">
-          <h1 class="cover-title cover-title-flat">Content Freedom</h1>
-          <h2 class="cover-subtitle cover-title-flat">Watch, read or play what you choose. Earn 100% of the price you decide.</h2>
-          <h3 class="cover-subtitle cover-title-flat">You control your data. You own the network. Indeed, <em>you</em> are the network.</h3>
-          <h3 class="cover-subtitle cover-title-flat">Find Hollywood films, college lessons, amazing streamers and more on the first open, global, and distributed digital bazaar.</h3>
+    <div class="cover cover-dark">
+      <div class="content content-wide content-dark">
+        <div class="text-center">
+          <h1 class="cover-title">{{global.tagline}}</h1>
+          <h2 class="cover-subtitle" style="max-width: 600px; margin-left: auto; margin-right: auto">{{global.sentence}}</h2>
         </div>
         <div class="control-group spacer2 text-center">
           <div class="control-item">
-            <a href="/get" class="btn-primary btn-large">Join LBRY</a>
+            <a href="/get" class="btn-primary">{{global.get}}</a>
           </div>
           <div class="control-item">
-            <a href="/learn" class="btn-link btn-large">{{global.learn}}</a>
+            <a href="/learn" class="btn-alt">{{global.learn}}</a>
           </div>
         </div>
+        <div class="video" style="margin-bottom: 80px">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/DjouYBEkQPY" frameborder="0" allowfullscreen></iframe>
+        </div>
       </div>
-      <?php /*
       <div class="content content-dark">
         <div class="row-fluid">
           <div class="span4">
@@ -37,9 +37,8 @@
           <div class="span4 text-center">
             <a width="300" class="twitter-timeline" href="https://twitter.com/LBRYio" data-widget-id="671104143034073088">{{social.tweets}}</a>
           </div>
-        </div> */ ?>
+        </div>
       </div>
     </div>
   </div>
 </main>
-<?php echo View::render('nav/_footer', ['isDark' => false]) ?>

@@ -2,7 +2,7 @@
 
 class DownloadActions extends Actions
 {
-  public static function executeGetRedirect(string $ext)
+  public static function executeGetAppRedirect(string $ext)
   {
     $uri = null;
     switch ($ext)
@@ -21,6 +21,19 @@ class DownloadActions extends Actions
     }
 
     return Controller::redirect($uri ?: '/get', 302);
+  }
+
+  public static function executeGetDaemonRedirect(string $os)
+  {
+    $uri = null;
+    $oses = Os::getAll();
+
+    if (isset($oses[$os]))
+    {
+      $uri = GitHub::getDaemonDownloadUrl($os);
+    }
+
+    return Controller::redirect($uri ?: '/quickstart', 302);
   }
 
   public static function executeGet()

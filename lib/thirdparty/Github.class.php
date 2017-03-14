@@ -32,7 +32,7 @@ class Github
     return null;
   }
 
-  public static function getDaemonDownloadUrl($os, $cache = true)
+  public static function getDaemonReleaseProperty($os, $property, $isAssetProperty = false, $cache = true)
   {
     if (!in_array($os, array_keys(OS::getAll())))
     {
@@ -44,17 +44,13 @@ class Github
       $releaseData = static::get('/repos/lbryio/lbry/releases/latest', $cache);
       foreach ($releaseData['assets'] as $asset)
       {
-        echo '<pre>';
-        print_r($asset);
-        echo '</pre>';
-        $ext = substr($asset['name'], -4);
         if (
-          ($os == OS::OS_LINUX && ($ext == '.deb' || in_array($asset['content_type'], ['application/x-debian-package', 'application/x-deb']))) ||
-          ($os == OS::OS_OSX && ($ext == '.dmg' || in_array($asset['content_type'], ['application/x-diskcopy', 'application/x-apple-diskimage']))) ||
-          ($os == OS::OS_WINDOWS && $ext == '.exe')
+          ($os == OS::OS_LINUX && stripos($asset['browser_download_url'], 'linux') !== false) ||
+          ($os == OS::OS_OSX && stripos($asset['browser_download_url'], 'macos') !== false) ||
+          ($os == OS::OS_WINDOWS && strpos($asset['browser_download_url'], 'windows') !== false)
         )
         {
-          return $asset['browser_download_url'];
+          return $isAssetProperty ? $asset[$property] : $releaseData[$property];
         }
       }
     }
@@ -63,6 +59,11 @@ class Github
     }
 
     return null;
+  }
+
+  public static function getDaemonDownloadUrl($os, $cache = true)
+  {
+    return static::getDaemonReleaseProperty($os, 'browser_download_url', true);
   }
 
   public static function get($endpoint, $cache = true)

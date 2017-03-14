@@ -38,9 +38,21 @@
 <h3>Enjoy a Hollywood Film</h3>
 <p><a href="http://www.imdb.com/title/tt1995341/" class="link-primary">It's a Disaster</a> starring David Cross is just one of tens of thousands of great pieces of content available. Check it out!</p>
 <code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"get","params":{"name":"itsadisaster"} }'
-<span class="code-bash__response">["d5169241150022f996fa7cd6a9a1c421937276a3275eb912790bd07ba7aec1fac5fd45431d226b8fb402691e79aeb24b"]</span></code>
+<span class="code-bash__response">[
+  {
+    <span class="code-bash__comment">//some response fields omitted for brevity</span>
+    "claim_id": "bd970a51249cba542a9acfb130147294a6326ee2",
+    "download_directory": "/home/kauffj/Downloads",
+    "download_path": "/home/kauffj/Downloads/It's A Disaster_Feature.mp4",
+    "metadata": {
+      "author": "Written and directed by Todd Berger",
+      "content_type": "video/mp4",
+      "description": "Four couples meet for Sunday brunch only to discover they are stuck in a house together as the world may be about to end."
+    }
+  }
+]</span></code>
 <h3>Try the UI</h3>
-<p>LBRY comes with a UI so that normal people can use it too. You can download it <a href="https://github.com/lbryio/lbry-app/releases" class="link-primary">here</a>.</p>
+<p>LBRY comes with a fully-featured UI so that normal people can use it too. You can download it <a href="https://github.com/lbryio/lbry-app/releases" class="link-primary">here</a>.</p>
 <h3 id="community">You Did It! What's Next?</h3>
 <p>
   Start building something awesome! LBRY works as a discovery and distribution backend for everything from films to CAD files.
