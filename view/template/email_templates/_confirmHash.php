@@ -1,4 +1,4 @@
-<?php $url = 'https://' . Request::getHost() . '/list/confirm/' . $confirmHash ?>
+<?php $url = Request::getHostAndProto() . '/list/confirm/' . $confirmHash ?>
 <?php ob_start() ?>
   <meta itemprop="name" content="Confirm Subscription"/>
   <table width="100%" cellpadding="0" cellspacing="0">

@@ -41,10 +41,14 @@ class MailActions extends Actions
       return ['mail/subscribe', ['error' => __('email.invalid_confirm_hash')]];
     }
 
-    $outcome = Mailgun::addToMailingList(Mailgun::LIST_GENERAL, $email);
-    if ($outcome !== true)
+    $sendy = new Sendy(Config::get('sendy_api_key'), Config::get('sendy_install_url'), Sendy::LIST_GENERAL);
+    try
     {
-      return ['mail/subscribe', ['error' => $outcome]];
+      $sendy->subscribe($email);
+    }
+    catch (SendyException $e)
+    {
+      return ['mail/subscribe', ['error' => $e->getMessage()]];
     }
 
     return ['mail/subscribe', ['confirmSuccess' => true, 'learnFooter' => true]];
