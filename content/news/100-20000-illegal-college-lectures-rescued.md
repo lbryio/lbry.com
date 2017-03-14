@@ -2,7 +2,7 @@
 author: jeremy
 title: '20,000 Worldclass University Lectures Made Illegal, So We Irrevocably Mirrored Them'
 date: '2017-03-15 00:09:00'
-cover: 'censored-banner.png'
+cover: 'berkeley-banner.jpg'
 ---
 Today, the University of California at Berkeley has deleted 20,000 college lectures from its YouTube channel. Berkeley removed the videos because of a lawsuit brought by two students from another university under the Americans with Disabilities Act.
 
@@ -28,7 +28,7 @@ Almost certainly.
 
 The vast majority of the lectures are licensed under a [Creative Commons](https://creativecommons.org/licenses/by-nc/4.0/) license that allows attributed, non-commercial redistribution. The price for this content has been set to free and all LBRY metadata attributes it to UC Berkeley.
 
-The content was 
+The content was
 
 Additionally, we believe that this content is legal under the First Amendment.
 
