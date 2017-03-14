@@ -9,9 +9,9 @@
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://lbry.io/get/lbry.dmg" class="link-primary">Download .dmg</a></td>
-      <td><a href="https://lbry.io/get/lbry.deb"  class="link-primary">Download .deb</a></td>
-      <td><a href="https://lbry.io/get/lbry.msi"  class="link-primary">Download .msi</a></td>
+      <td><a href="https://github.com/lbryio/lbry/releases/download/v0.9.0/lbrynet-daemon-v0.9.0-macos.zip" class="link-primary">Download</a></td>
+      <td><a href="https://github.com/lbryio/lbry/releases/download/v0.9.0/lbrynet-daemon-v0.9.0-linux.zip"  class="link-primary">Download</a></td>
+      <td><a href="https://github.com/lbryio/lbry/releases/download/v0.9.0/lbrynet-daemon-v0.9.0-windows.zip"  class="link-primary">Download</a></td>
     </tr>
   </tbody>
 </table>
@@ -21,7 +21,7 @@
 </p>
 <h3>Run</h3>
 <p>
-  Launch the deamon to run as a background process:
+  Unzip and launch the daemon:
 </p>
 <p>
   <code class="code-bash"><span class="code-bash__prompt">$</span>lbrynet-daemon</code>
