@@ -21,7 +21,7 @@
 </p>
 <h3>Run</h3>
 <p>
-  Launch the deamon to run as a background process:
+  Unzip and launch the daemon:
 </p>
 <p>
   <code class="code-bash"><span class="code-bash__prompt">$</span>lbrynet-daemon</code>

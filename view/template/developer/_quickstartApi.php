@@ -11,23 +11,30 @@
 <code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"resolve_name","params":{"name":"what"}}'
 <span class="code-bash__response">[
   {
-    "ver": "0.0.3",
-    "description": "What is LBRY? An introduction with Alex Tabarrok",
-    "license": "LBRY inc",
-    "title": "What is LBRY?",
     "author": "Samuel Bryan",
+    "content_type": "video/mp4",
+    "description": "What is LBRY? An introduction with Alex Tabarrok",
     "language": "en",
+    "license": "LBRY inc",
+    "nsfw": false,
     "sources": {
       "lbry_sd_hash": "d5169241150022f996fa7cd6a9a1c421937276a3275eb912790bd07ba7aec1fac5fd45431d226b8fb402691e79aeb24b"
     },
-    "content_type": "video\/mp4",
-    "nsfw": false,
-    "thumbnail": "https:\/\/s3.amazonaws.com\/files.lbry.io\/logo.png"
+    "thumbnail": "https://s3.amazonaws.com/files.lbry.io/logo.png",
+    "title": "What is LBRY?",
+    "ver": "0.0.3"
   }
 ]</span></code>
 <h3>First Download</h3>
-<p>Above, we called the method <code class="code-inline"><a href="<?php echo DeveloperActions::API_DOC_URL ?>#resolve_name" class="link-primary">resolve_name</a></code> for the URL <code class="code-inline">lbry://what</code>. This returned the metadata associated with the URL.</p>
-<p>Now let's download it. This time we're going to call the method <code class="code-inline">get</code> with the same parameters.</p>
+<p>
+  Above, we called the method
+  <code class="code-inline"><a href="<?php echo DeveloperActions::API_DOC_URL ?>#resolve_name" class="link-primary">resolve_name</a></code>
+  for the URL <code class="code-inline">lbry://what</code>. This returned the metadata associated with the URL.
+</p>
+
+<p>
+  Now let's download it. This time we're going to call the method <code class="code-inline">get</code> with the same parameters.
+</p>
 <code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"get","params":{"name":"what"} }'
 <span class="code-bash__response">[
   {
