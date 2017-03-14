@@ -31,24 +31,28 @@ class ContentActions extends Actions
   {
     Response::enableHttpCache();
 
-    if (!$slug)
+    if (!$slug || $slug == static::SLUG_RSS)
     {
-      $posts = Post::find(static::VIEW_FOLDER_NEWS, Post::SORT_DATE_DESC);
+      $posts = array_filter(
+        Post::find(static::VIEW_FOLDER_NEWS, Post::SORT_DATE_DESC),
+        function(Post $post) {
+          return !$post->getDate() || $post->getDate()->format('U') <= date('U');
+        });
+
+      if ($slug == static::SLUG_RSS)
+      {
+        Response::setHeader(Response::HEADER_CONTENT_TYPE, 'text/xml; charset=utf-8');
+        return ['content/rss', [
+          'posts'      => array_slice($posts, 0, 10),
+          '_no_layout' => true
+        ]];
+      }
+
       return ['content/news', [
         'posts'             => $posts,
         View::LAYOUT_PARAMS => [
           'showRssLink' => true
         ]
-      ]];
-    }
-
-    if ($slug == static::SLUG_RSS)
-    {
-      $posts = Post::find(static::VIEW_FOLDER_NEWS, Post::SORT_DATE_DESC);
-      Response::setHeader(Response::HEADER_CONTENT_TYPE, 'text/xml; charset=utf-8');
-      return ['content/rss', [
-        'posts'      => array_slice($posts, 0, 10),
-        '_no_layout' => true
       ]];
     }
 
