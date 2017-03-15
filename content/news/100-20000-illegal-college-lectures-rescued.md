@@ -16,7 +16,7 @@ The full catalog is over 4 TB and will be synced over the next several days.
 
 Until LBRY launches to the public in April, the videos are only accessible to technical users via the command line.
 
-If you already have access to LBRY, go to [lbry://@ucberkely](lbry://@ucberkeley) to see the full catalog.
+If you already have access to LBRY, go to [lbry://@ucberkeley](lbry://@ucberkeley) to see the full catalog.
 
 If you want to be notified as soon as the videos are made public to everyone, [sign up here](https://lbry.io/get).
 
