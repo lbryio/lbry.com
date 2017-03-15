@@ -47,7 +47,6 @@ download:
   other: Other Systems
   popular: Popular publishers can earn $1,000 and early access for publishing via LBRY.
   select: Select an OS
-  signup: LBRY is currently in invite only mode. Enter your email to join the waitlist, or your email and invite code for access.
   unavailable: LBRY is not yet out on your platform. You will receive an email as we expand LBRY to your preferred platform.
   verb: Download
   windows: Download for Windows
@@ -77,7 +76,7 @@ global:
   get: Get LBRY
   learn: Learn More
   sentence: Watch, read and play in a decentralized digital library controlled by the community.
-  tagline: Play, Share, Earn.
+  tagline: Content Freedom
 learn:
   100: LBRY in 100 Seconds
   art: Art in the Internet Age
@@ -242,7 +241,7 @@ social:
   slack: Slack (chat)
   tweets: Tweets by @LBRYio
 title:
-  home: LBRY - Play, Share, Earn
+  home: LBRY - Content Freedom
   join: Join LBRY Email List
   learn: Learn About LBRY
   publish: Publish

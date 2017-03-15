@@ -4,7 +4,7 @@
     <?php if ($showLearnFooter): ?>
       <?php echo View::render('nav/_learnFooter') ?>
     <?php endif ?>
-    <div class="footer-standard <?php echo $isDark ? 'footer-standard--dark' : 'footer-standard--light' ?>">
+    <div class="footer-standard <?php echo $isDark ? 'footer-standard--dark' : 'footer-standard--light' ?> <?php echo isset($isBordered) && !$isBordered ? 'footer-noborder' : '' ?>">
       <nav class="control-group">
         <div class="control-item">
           <a href="/"><?php echo __('nav.home') ?></a>

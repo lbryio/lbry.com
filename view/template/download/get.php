@@ -12,13 +12,15 @@
       <?php endif ?>
 
       <?php if (Session::get(Session::KEY_PREFINERY_USER_ID)): ?>
-        <h3>You're On The List</h3>
-        <p>We pull thousands of people off the list regularly.</p>
-        <p>The longer you are on the list and the more people you invite, the sooner you will be invited.</p>
+        <h3>You're In!</h3>
+        <p>You'll be sent an invite when LBRY early access begins.</p>
+        <p>And remember, friends don't let other friends miss out on content freedom.</p>
         <?php echo View::render('download/_refer') ?>
       <?php else: ?>
-        <p>{{download.signup}}</p>
-        <?php echo View::render('download/_signup') ?>
+        <div class="spacer1">
+          <h4>LBRY early access begins April 2017.</h4>
+        </div>
+        <?php echo View::render('download/_signup', ['allowInviteCode' => false]) ?>
       <?php endif ?>
     </div>
   </div>

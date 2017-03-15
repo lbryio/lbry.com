@@ -46,6 +46,10 @@ $color-nav-border-dark: #ddd;
   background-color: white;
   .logo-light { display: none; }
 }
+.header-noborder
+{
+  border-bottom: 0 none;
+}
 .primary-logo
 {
   line-height: 0;
@@ -134,6 +138,11 @@ $color-nav-border-dark: #ddd;
   color: $color-content-light;
   border-top: 1px $color-nav-border-light solid;
   border-bottom: 1px $color-nav-border-light solid;
+}
+.footer-noborder
+{
+  border-top: 0 none;
+  border-bottom: 0 none;
 }
 .footer-standard--dark
 {

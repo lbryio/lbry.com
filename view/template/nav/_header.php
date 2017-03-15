@@ -3,9 +3,10 @@
   <?php extract([
       'isDark' => false,
       'isAbsolute' => false,
-      'isLogoOnly' => false
+      'isLogoOnly' => false,
+      'isBordered' => true
   ], EXTR_SKIP) ?>
-  <div class="header <?php echo $isAbsolute ? 'header-absolute' : '' ?> <?php echo $isDark ? 'header-dark' : 'header-light' ?>">
+  <div class="header <?php echo $isAbsolute ? 'header-absolute' : '' ?> <?php echo $isDark ? 'header-dark' : 'header-light' ?> <?php echo !$isBordered ? 'header-noborder' : '' ?>">
     <div class="header-content">
       <a href="/" class="primary-logo">
         <img src="<?php echo $isDark ? View::imagePath('header-logo-light.png') : View::imagePath('header-logo-dark2.png') ?>" alt="LBRY" />

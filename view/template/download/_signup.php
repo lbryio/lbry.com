@@ -7,7 +7,7 @@
       <?php echo __('email.address') ?>
     </label>
     <div class="form-input">
-      <input type="text" value="<?php echo $defaultEmail ?>" name="email" class="required standard" placeholder="someone@somewhere.com">
+      <input type="text" value="<?php echo $defaultEmail ?>" name="email" class="required standard input-large" placeholder="someone@somewhere.com">
     </div>
   </div>
   <?php if ($allowInviteCode): ?>
@@ -38,7 +38,7 @@
     <input type="submit" value="Access LBRY" name="subscribe" class="btn-alt">
   </div>
   <div class="invite-submit no-code">
-    <input type="submit" value="Join List" name="subscribe" class="btn-alt">
+    <input type="submit" value="Join List" name="subscribe" class="btn-alt btn-large">
   </div>
 </form>
 <?php js_start() ?>
