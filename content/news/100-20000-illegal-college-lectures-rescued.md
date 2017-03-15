@@ -20,7 +20,7 @@ If you already have access to LBRY, go to [lbry://ucberkeley](lbry://ucberkeley)
 
 If you want to be notified as soon as the videos are made public to everyone, [sign up here](https://lbry.io/get).
 
-If you're command-line-capable but new to LBRY, [follow this guide](https://lbry.io/quickstart), then access [lbry://@ucberkeley](lbry://ucberkeley).
+If you're command-line-capable but new to LBRY, [follow this guide](https://lbry.io/quickstart), then access [lbry://ucberkeley](lbry://ucberkeley).
 
 ### Is This Legal?
 
