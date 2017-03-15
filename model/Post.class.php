@@ -368,7 +368,9 @@ class Post
     if (!isset(static::$slugMap[$postType]))
     {
       static::$slugMap[$postType] = [];
-      foreach(glob(ContentActions::CONTENT_DIR . '/' . $postType . '/*.md') as $file)
+      $files = glob(ContentActions::CONTENT_DIR . '/' . $postType . '/*.md');
+      usort($files, 'strnatcasecmp');
+      foreach($files as $file)
       {
         static::$slugMap[$postType][static::getSlugFromFilename($file)] = $file;
       }
