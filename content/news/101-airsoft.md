@@ -2,7 +2,7 @@
 author: reilly
 title: 'Pew Pew Bang Bang'
 date: '2017-03-16 00:18:00'
-cover: 'airsoft.png'
+cover: 'airsoft-banner.png'
 ---
 One of the biggest perks of the early days of LBRY continues to be the discovery of content creators that never even occurred to me as a thing.
 
@@ -10,7 +10,7 @@ A niche stumbles into our inbox (this time with the [LBRY-youtube sync tool here
 
 We’re going off the grid and off the rails. Gear up, soldier, and enter Amped Airsoft.
 
-![Amped Airsoft](/img/news/airsoft-inline.jpg)
+![Amped Airsoft](/img/news/airsoft-inline.png)
 
 Amped Airsoft have one of the largest channels dedicated to the sport.
 
