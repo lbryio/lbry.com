@@ -36,5 +36,5 @@ While other archive teams have also backed up these lectures using traditional m
 
 LBRY is the first truly free and censorship-resistant way to exchange content. The LBRY protocol provides a completely decentralized network for discovering, distributing, and publishing all types of content and information, from books to movies.
 
-When publishing the lectures to LBRY, the content metadata is written to a public blockchain, making it permanently public and robust to interference. Then, the content data itself is hosted via a peer-to-peer data network that offers economic incetives to ensure the data remains viable. This is superior to centralized or manual hosting, which is vulnerable to technical failure or  other forms of attrition.
+When publishing the lectures to LBRY, the content metadata is written to a public blockchain, making it permanently public and robust to interference. Then, the content data itself is hosted via a peer-to-peer data network that offers economic incentives to ensure the data remains viable. This is superior to centralized or manual hosting, which is vulnerable to technical failure or  other forms of attrition.
 
