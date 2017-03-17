@@ -15,7 +15,8 @@ class DownloadActions extends Actions
         $uri = GitHub::getAppDownloadUrl(OS::OS_OSX);
         break;
 
-      case 'msi':
+      case 'msi': // fallthrough
+      case 'exe':
         $uri = GitHub::getAppDownloadUrl(OS::OS_WINDOWS);
         break;
     }
