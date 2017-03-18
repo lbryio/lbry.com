@@ -9,7 +9,7 @@ LBRY provides two different wallets, `lbryum` and `lbrycrd`. `lbryum` is the def
 
 #### Manually
 
-Make a copy of `~/.lbryum/default_wallet`.
+Make a copy of `~/.lbryum/wallets/default_wallet`.
 
 ### Backup `lbrycrd` wallet
 
