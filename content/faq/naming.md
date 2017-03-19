@@ -14,8 +14,8 @@ So we thought, “what if there were a better way?” Consulting with economists
 
 | Type | Syntax | Resolution |
 | --- | --- |
-| **Permanent** | `lbry://<uniqueRandomID>` | Owned forever by the first claimant. |
-| **Vanity** | `lbry://vanityname` | Controlled by the party committing (like voting) with the most credits. |
+| **Permanent** | `lbry://name#<uniqueId>` | Owned forever by the first claimant. |
+| **Vanity** | `lbry://name` | Controlled by the party committing (like voting) with the most credits. |
 
 Our bet is that vanity names will be controlled by the people who get the most value out of them – which is almost always the creator of the content. Radiohead would get a lot more value out of lbry://amoonshapedpool than a squatter, pirate, or troll.
 
