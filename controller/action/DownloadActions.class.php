@@ -180,11 +180,18 @@ class DownloadActions extends Actions
 
     $prefineryUser = Prefinery::findUser($userId);
 
-    preg_match('/\?r\=(\w+)/', $prefineryUser['share_link'], $matches);
+    if ($prefineryUser)
+    {
+      preg_match('/\?r\=(\w+)/', $prefineryUser['share_link'], $matches);
+    }
+    else
+    {
+      $matches = null;
+    }
 
     return $vars + [
       'prefineryUser' => $prefineryUser,
-      'referralCode'  => $matches[1] ?: 'unknown'
+      'referralCode'  => $matches[1] ?? 'unknown'
     ];
   }
 

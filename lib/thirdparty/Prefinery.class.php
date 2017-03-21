@@ -33,7 +33,18 @@ class Prefinery
       }
     }
 
-    $user = is_numeric($emailOrId) ? Prefinery::findTesterById($emailOrId) : Prefinery::findTesterByEmail($emailOrId);
+    try
+    {
+      $user = is_numeric($emailOrId) ? Prefinery::findTesterById($emailOrId) : Prefinery::findTesterByEmail($emailOrId);
+    }
+    catch (PrefineryException $e)
+    {
+      if (stripos($e->getMessage(), 'Tester is hidden.') === false)
+      {
+        throw $e;
+      }
+    }
+
     if ($user)
     {
       unset($user['invitation_code']); // so we dont leak it
