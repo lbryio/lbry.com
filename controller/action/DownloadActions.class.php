@@ -57,7 +57,17 @@ class DownloadActions extends Actions
     }
     elseif (Session::get(Session::KEY_PREFINERY_USER_ID))
     {
-      $user = Prefinery::findUser(Session::get(Session::KEY_PREFINERY_USER_ID));
+      try
+      {
+        $user = Prefinery::findUser(Session::get(Session::KEY_PREFINERY_USER_ID));
+      }
+      catch (PrefineryException $e)
+      {
+        if (stripos($e->getMessage(), 'Tester is hidden.') === false)
+        {
+          throw $e;
+        }
+      }
     }
 
     if ($user)
