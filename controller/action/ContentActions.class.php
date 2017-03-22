@@ -79,12 +79,12 @@ class ContentActions extends Actions
 
     if (!$slug)
     {
-      $allPosts = Post::find(static::VIEW_FOLDER_FAQ);
+      $allPosts = Post::find(static::VIEW_FOLDER_FAQ, Post::SORT_ORD_ASC);
 
       $allCategories    = [
+        'LBRY 101'   => 'Intro to LBRY',
         'getstarted' => 'Getting Started',
         'setup'      => 'Installing and Running LBRY',
-        'LBRY 101'   => 'LBRY 101',
         'wallet'     => 'The LBRY Wallet',
         'mining'     => 'Mining LBC',
         'policy'     => 'Policies',
@@ -120,7 +120,7 @@ class ContentActions extends Actions
     }
     catch (PostNotFoundException $e)
     {
-      return NavActions::execute404();
+      return Controller::redirect('/' . static::SLUG_FAQ);
     }
     return ['content/faq-post', ['post' => $post]];
   }

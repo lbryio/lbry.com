@@ -1,6 +1,7 @@
 ---
 title: How does LBRY benefit content consumers? Why should I bother caring?
 category: LBRY 101
+order: 2
 ---
 Do you watch YouTube? Imagine paying a few cents to eliminate all ads. 100% of the payment will go directly to the content creator – and they’ll still be earning more than YouTube offers, so they’ll want to make even more of the content you love.
 

@@ -1,6 +1,6 @@
 ---
 title: How does LBRY benefit content creators? Can I make money using LBRY?
-category: LBRY 101
+category: other
 ---
 In our AMA title, we pitched LBRY as a “community-driven” YouTube alternative that could “save the internet.” That’s a lot of big talk, but what does it mean for the people who care most about the changes happening at YouTube – content creators?
 

@@ -1,6 +1,6 @@
 ---
 title: What is LBRY’s development status right now? Plans for the future?
-category: LBRY 101
+category: developer
 ---
 LBRY is currently in invite-only beta, with desktop apps for Linux, MacOS, and a pre-release version of Windows. There are approximately 5K active users and hundreds of content creators. The network already hosts big name content like the [feature film *It’s A Disaster*](https://lbry.io/news/launch-a-disaster) and videos from [Adult Swim’s MillionDollarExtreme](https://lbry.io/news/mde-on-lbry). We announce new featured content every Thursday on our [blog](https://lbry.io/news), [Twitter](https://twitter.com/lbryio), and [Facebook](https://www.facebook.com/lbryio).
 

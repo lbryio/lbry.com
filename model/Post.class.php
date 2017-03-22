@@ -6,7 +6,8 @@ class PostMalformedException extends Exception {}
 
 class Post
 {
-  const SORT_DATE_DESC = 'sort_date_desc';
+  const SORT_DATE_DESC = 'sort_date_desc',
+        SORT_ORD_ASC = 'sort_ord_asc';
 
   protected static $slugMap = [];
   protected $slug, $title, $metadata, $author, $date, $markdown, $contentText, $contentHtml, $cover, $postType, $category;
@@ -78,6 +79,22 @@ class Post
         case static::SORT_DATE_DESC:
           usort($posts, function(Post $a, Post $b) {
             return strcasecmp($b->getDate()->format('Y-m-d'), $a->getDate()->format('Y-m-d'));
+          });
+          break;
+
+        case static::SORT_ORD_ASC:
+          usort($posts, function(Post $a, Post $b) {
+            $aMeta = $a->getMetadata();
+            $bMeta = $b->getMetadata();
+            if (!isset($aMeta['order']) && !isset($bMeta['order']))
+            {
+              return $a->getTitle() < $b->getTitle() ? -1 : 1;
+            }
+            if (isset($aMeta['order']) && isset($bMeta['order']))
+            {
+              return $aMeta['order'] < $bMeta['order'] ? -1 : 1;
+            }
+            return isset($aMeta['order']) ? -1 : 1;
           });
           break;
       }

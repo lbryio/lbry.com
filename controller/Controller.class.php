@@ -118,6 +118,7 @@ class Controller
       '/why'                         => '/learn',
       '/feedback'                    => '/learn',
       '/faq/when-referral-payouts'   => '/faq/referrals',
+      '/faq/why-care-about-lbry'     => '/get',
       '/news/meet-the-lbry-founders' => '/team',
       '/faq/no-auction-options'      => '/faq/naming',
       '/join-list'                   => '/list/subscribe',

@@ -1,6 +1,7 @@
 ---
 title: What’s with the name LBRY?
 category: LBRY 101
+order: 4
 ---
 The very first question of newcomers is often, “How do you pronounce it?” Answer: library.
 
