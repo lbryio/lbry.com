@@ -8,9 +8,9 @@
       <div class="content content-wide content-light" style="max-width: 800px">
         <div class="spacer2">
           <h1 class="cover-title cover-title-flat text-center">Content Freedom.</h1>
-          <h2 class="cover-subtitle cover-title-flat">Watch, read or play what you choose. Earn 100% of the price you decide.</h2>
-          <h3 class="cover-subtitle cover-title-flat">You control your data. You own the network. Indeed, you <em>are</em> the network.</h3>
-          <h3 class="cover-subtitle cover-title-flat">Hollywood films, college lessons, amazing streamers and more are on LBRY, the first community-controlled media ________.</h3>
+          <h2 class="cover-subtitle cover-title-flat">Watch, read or play what you choose. Earn full value for what you create.</h2>
+          <h3 class="cover-subtitle cover-title-flat">You own your data. You control the network. Indeed, you <em>are</em> the network.</h3>
+          <h3 class="cover-subtitle cover-title-flat">Hollywood films, college lessons, amazing streamers and more are on the first media platform ruled by <em>you</em>.</h3>
         </div>
         <div class="control-group spacer2 text-center">
           <div class="control-item">
