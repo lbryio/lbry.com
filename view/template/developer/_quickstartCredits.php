@@ -19,7 +19,14 @@
   "name": "electricsheep",
   "file_path": "\\home\kauffj\\Desktop\\electric-sheep.mp4",
   "bid": 1,
-  "metadata":  { } <span class="code-bash__comment">//this should match the metadata returned by resolve_name </span>
+  "metadata":  {
+    "description": "Some interesting content",
+    "title": "My interesting content",
+    "author": "Video shot by me@example.com",
+    "language": "en",
+    "license": "LBRY Inc",
+    "nsfw": false,
+  } <span class="code-bash__comment">//this should match the metadata returned by resolve_name </span>
 }}'
 <span class="code-bash__response">[
   {
