@@ -9,7 +9,7 @@
   <div class="header <?php echo $isAbsolute ? 'header-absolute' : '' ?> <?php echo $isDark ? 'header-dark' : 'header-light' ?> <?php echo !$isBordered ? 'header-noborder' : '' ?>">
     <div class="header-content">
       <a href="/" class="primary-logo">
-        <img src="<?php echo $isDark ? View::imagePath('header-logo-light.png') : View::imagePath('header-logo-dark2.png') ?>" alt="LBRY" />
+        <img src="<?php echo $isDark ? View::imagePath('lbry-white.svg') : View::imagePath('lbry-dark.svg') ?>" alt="LBRY" />
       </a>
       <?php if (!$isLogoOnly): ?>
         <div class="mobile header-navigation-mobile">
