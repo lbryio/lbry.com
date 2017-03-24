@@ -2,7 +2,7 @@
 author: jeremy
 title: 'Watch LBRY Program Live & Beta Updates'
 date: '2017-03-24 13:26:00'
-cover: 'lbry-github-trending.png'
+cover: 'ide.png'
 ---
 # A Great Week for LBRY's Public Beta
 
