@@ -6,7 +6,7 @@ cover: 'montage-banner.PNG'
 ---
 itshappening.jpg
 
-At least something’s happening. And that something is a surge of new channels joining LBRY as they flee the clutches YouTube.
+At least something’s happening. And that something is a surge of new channels joining LBRY as they flee the clutches of YouTube.
 
 We made our own statue of liberty. She’s planted firmly at https://api.lbry.io/yt/connect and she welcomes all comers to the promised land of LBRY. Automatically. Without lifting a right trigger finger--or in most cases some WASD + left click.
 
