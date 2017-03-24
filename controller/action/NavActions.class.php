@@ -17,7 +17,8 @@ class NavActions extends Actions
   public static function prepareFooterPartial(array $vars)
   {
     return $vars + [
-      'showLearnFooter' => false
+      'isDark' => false,
+      'showLearnFooter' => false,
     ];
   }
 

@@ -10,7 +10,7 @@ class Post
         SORT_ORD_ASC = 'sort_ord_asc';
 
   protected static $slugMap = [];
-  protected $slug, $title, $metadata, $author, $date, $markdown, $contentText, $contentHtml, $cover, $postType, $category;
+  protected $path, $slug, $title, $metadata, $author, $date, $markdown, $contentText, $contentHtml, $cover, $postType, $category;
   protected $isCoverLight = false;
 
   public static function load($relativeOrAbsolutePath)
@@ -47,11 +47,12 @@ class Post
     {
       throw new PostMalformedException('Post "' . basename($path) . '" is missing front matter or content');
     }
-    return new static($postType, $slug, Spyc::YAMLLoadString(trim($frontMatter)), trim($content));
+    return new static($path, $postType, $slug, Spyc::YAMLLoadString(trim($frontMatter)), trim($content));
   }
 
-  public function __construct($postType, $slug, $frontMatter, $markdown)
+  public function __construct($path, $postType, $slug, $frontMatter, $markdown)
   {
+    $this->path = $path;
     $this->postType = $postType;
     $this->slug = $slug;
     $this->markdown = $markdown;
@@ -393,5 +394,10 @@ class Post
       }
     }
     return static::$slugMap[$postType];
+  }
+
+  public function getGithubEditUrl()
+  {
+    return 'https://github.com/lbryio/lbry.io/tree/master' . str_replace(ROOT_DIR, '', $this->path);
   }
 }
