@@ -25,7 +25,7 @@
     "author": "Video shot by me@example.com",
     "language": "en",
     "license": "LBRY Inc",
-    "nsfw": false,
+    "nsfw": false
   } <span class="code-bash__comment">//this should match the metadata returned by resolve_name </span>
 }}'
 <span class="code-bash__response">[
