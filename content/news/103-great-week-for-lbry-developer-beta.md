@@ -12,9 +12,9 @@ To show just how easy it is to use the LBRY API, we're hosting a live coding and
 
 On March 29th, from 6-9PM EST (or later), you'll be able to heckle and watch LBRY devs build an image sharing site from scratch to (hopefully!) completion.
 
-During the stream, members of the LBRY development team will be in our [chatroom](https://slack.lbry.io) answering questions and discussing LBRY.
+**You can watch the stream [here](https://www.youtube.com/watch?v=C9LCapt_OYw).**
 
-This post will be updated with the streaming link before the event.
+During the stream, members of the LBRY development team will be in our [chatroom](https://slack.lbry.io) answering questions and discussing LBRY.
 
 If you want a reminder, make sure to [join our Slack](https://slack.lbry.io) or [complete the quickstart guide](https://lbry.io/quickstart).
 
