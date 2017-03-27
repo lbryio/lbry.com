@@ -18,6 +18,9 @@
     <input type="hidden" name="access_token" value="<?php echo Session::get(Session::KEY_GITHUB_ACCESS_TOKEN) ?>" />
     <input type="submit" value="Send" class="btn-primary" data-submit-label="Send" data-submitting-label="Sending credits..." />
   </div>
-  <div class="meta">We require a GitHub account to prevent abuse. This will record your email (no spam) and mark you as interested in the lbry repo.
-    No GitHub account? No problem! Join our <a href="https://slack.lbry.io" class="link-primary">Slack channel</a> and post an introduction in #tech.</div>
+  <div class="meta">
+    We require a GitHub account to prevent abuse. This will record your email (no spam) and mark you as interested in the lbry repo.
+    No GitHub account or no public commits? No problem! Join our <a href="https://slack.lbry.io" class="link-primary">Slack channel</a> and
+    post an introduction in #tech.
+  </div>
 </form>
