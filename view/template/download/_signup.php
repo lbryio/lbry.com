@@ -1,13 +1,13 @@
 <form method="POST" action="/signup" id="signup-form" class="hide">
   <div class="hide">
-    <input type="hidden" name="referrer_id" value="<?php echo $referralCode ?>" />
+    <input type="hidden" name="referrer_id" value="<?php echo htmlspecialchars($referralCode) ?>" />
   </div>
   <div class="form-row">
     <label for="email">
       <?php echo __('email.address') ?>
     </label>
     <div class="form-input">
-      <input type="text" value="<?php echo $defaultEmail ?>" name="email" class="required standard input-large" placeholder="someone@somewhere.com">
+      <input type="text" value="<?php echo htmlspecialchars($defaultEmail) ?>" name="email" class="required standard input-large" placeholder="someone@somewhere.com">
     </div>
   </div>
   <?php if ($allowInviteCode): ?>
