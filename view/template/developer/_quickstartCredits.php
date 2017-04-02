@@ -17,7 +17,7 @@
 <p>Not sure what to publish? We recommend your favorite picture or home video. Or just grab something from <a class="link-primary" href="https://archive.org/details/movies">here</a>.</p>
 <code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"publish", "params": {
   "name": "electricsheep",
-  "file_path": "\\home\kauffj\\Desktop\\electric-sheep.mp4",
+  "file_path": "/home/kauffj/Desktop/electric-sheep.mp4",
   "bid": 1,
   "metadata":  {
     "description": "Some interesting content",
