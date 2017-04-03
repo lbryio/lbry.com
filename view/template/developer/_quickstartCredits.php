@@ -13,7 +13,7 @@
 <code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"wallet_balance"}'
 <span class="code-bash__response">[50.00000000]</span></code>
 <h3 id="publish">Publishing</h3>
-<p>Publishing to LBRY is just as easy as everything else! If you publish something, we'll send you an additional 200 LBC for further use.</p>
+<p>Publishing to LBRY is just as easy as everything else! If you publish something, we'll send you an additional 50 LBC for further use.</p>
 <p>Not sure what to publish? We recommend your favorite picture or home video. Or just grab something from <a class="link-primary" href="https://archive.org/details/movies">here</a>.</p>
 <code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"publish", "params": {
   "name": "electricsheep",
