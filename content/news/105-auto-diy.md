@@ -17,7 +17,7 @@ Donnie Smith, host of DIY Auto Body and Paint, has been hosting one of the top D
 If we ever finish DIY building the LBRY network, we think there might be a future in building cars. Or at least watching Donnie build them for us…
 
 > Remember, if something is worth doing, then do your best and have a BLAST doing it.
-> Donnie Smith
+> -Donnie Smith
 
 We agree, Mr. Smith.
 
