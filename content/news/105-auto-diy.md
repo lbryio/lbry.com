@@ -6,7 +6,9 @@ cover: 'auto-diy-banner.jpg'
 ---
 They say you don’t need to know how a car works in order to drive it.
 
-Heresy! It is imperative that you DIY everything about your vehicle, but first watch the latest channel to roll into the LBRY Auto and Repair Emporium so as not to break anything.
+We say that's heresy!
+
+It is imperative that you DIY everything about your vehicle, but first watch the latest channel to roll into the LBRY Auto and Repair Emporium so as not to break anything.
 
 ![DIY Auto Body and Paint](/img/news/auto-diy-inline.png)
 
