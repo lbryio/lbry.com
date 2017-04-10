@@ -3,6 +3,26 @@ title: How do I check my LBC address?
 category: wallet
 ---
 
+## Using lbrynet (the usual way)
+
+To get your current, unused address 
+
+    lbrynet-cli wallet_unused_address
+
+To create a new address 
+
+    lbrynet-cli wallet_new_address
+
+To list all addresses in your wallet
+
+    lbrynet-cli wallet_list
+    
+To get your balance 
+    
+    lbrynet-cli wallet_balance
+
+## Using lbrycrd (the old way)
+
 In order to check your LBC address, you must first find out the name of the account you are interested in:
 
     lbrycrd-cli listaccounts
