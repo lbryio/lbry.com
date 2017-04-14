@@ -1,3 +1,9 @@
+---
+author: reilly
+title: 'He Did The Math'
+date: '2017-04-13 00:20:00'
+cover: 'mattsokol-banner.jpg'
+---
 Math and art allegedly don’t go together.
 
 [Slack](http://slack.lbry.io/) regular Matt Sokol begs to differ. One of the first musicians on the LBRY scene, Mr. Sokol’s dream beats and math rock background feel right at home on LBRY.
