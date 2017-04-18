@@ -111,7 +111,7 @@
 }</code>
       <div class="meta text-center content-inset"><p>A slightly simplified sample entry of metadata in the LBRY blockchain. Whichever party or parties bid the most in an ongoing auction control what a name returns.</p></div>
 
-      <p>Other than the usage of the LBRY blockchain to store names and metadata, there are only minor differences between the blockchains of LBRY and Bitcoin, and the changes are generally consensus improvements. We’ve buffed the hashing algorithm, smoothed the block reward function, increased the block size, increased the total number of credits, and prepared for offchain settlement.</p>
+      <p>Other than the usage of the LBRY blockchain to store names and metadata, there are only minor differences between the blockchains of LBRY and Bitcoin, and the changes are generally consensus improvements. We’ve buffed the hashing algorithm, smoothed the block reward function, increased the block size, increased the total number of credits, and prepared for off-chain settlement.</p>
 
       <p>The LBRY blockchain simply maintains LBC balances and a content namespace/catalogue. The next part, LBRYnet, specifies what to do with this data. To compare to the existing web, the blockchain is like the domain system (it maintains a listing of what is available), while the next piece makes it possible to actually fetch and pay for content.</p>
       <footer> If you’re a Bitcoiner wondering why we don’t use the Bitcoin blockchain, you can read a detailed answer to that question <a href="/news/why-doesnt-lbry-just-use-bitcoin">here</a>.</footer>
@@ -164,7 +164,7 @@
 
       <p>Additionally, the market mechanisms of LBRY create a strong incentive for efficient distribution, which will save the costs of producers and ISPs alike. These properties, along with LBRY’s infringement disincentivizing properties, make LBRY an appealing technology for large existing data or content distributors.</p>
       <h4>Transaction Settlement</h4>
-      <p>While payments can be issued directly on the LBRY blockchain, the LBRY protocol encourages a volume of transactions that will not scale without usage of offchain settlement.</p>
+      <p>While payments can be issued directly on the LBRY blockchain, the LBRY protocol encourages a volume of transactions that will not scale without usage of off-chain settlement.</p>
 
       <p>Essentially, rather than issue a transaction to the core blockchain, transactions are issued to a 3rd-party provider. These providers have a substantial number of coins which are used to maintain balances internally and settle a smaller number of transactions to the core chain. In exchange, these providers earn a small fee, less than the fee required to issue the transaction directly to the blockchain.</p>
     </section>
@@ -183,7 +183,7 @@
     </section>
 
     <section>
-      <h2 id="combatting-the-ugly">Combatting The Ugly</h2>
+      <h2 id="combatting-the-ugly">Combating The Ugly</h2>
       <p>As neither naïfs nor knaves, we acknowledge that LBRY can be used for bad ends. Technology is frequently this way. Encryption protects our privacy -- as well as that of terrorists. Cars allow us to travel marvelous distances -- and kill millions per year.</p>
 
       <p>The downside to LBRY is that it can be used to exchange illegal content. However, several factors of LBRY make illicit usage less likely than it may seem at first consideration. On the whole, as with the car and encryption, the benefits of LBRY clearly outweigh nefarious uses.</p>
@@ -196,7 +196,7 @@
 
         <li><strong>Stiffer penalties. </strong>Penalties for profiting off of infringement are far stronger and can involve jail time, while infringement without profit only results in statutory damages. This serves as a far stronger deterrent for all infringing uses than BitTorrent provides.</li>
 
-        <li><strong>Expensive or impossible. </strong>Offchain settlement will be a requirement for efficient purchases at any significant network size. Settlement providers, ourselves included, will be able to block purchases for infringing content. At significant traffic volume, if infringing content can’t be outright removed or blocked, transaction fees will make it prohibitively expensive.</li>
+        <li><strong>Expensive or impossible. </strong>Off-chain settlement will be a requirement for efficient purchases at any significant network size. Settlement providers, ourselves included, will be able to block purchases for infringing content. At significant traffic volume, if infringing content can’t be outright removed or blocked, transaction fees will make it prohibitively expensive.</li>
       </ol>
       <p>And of course, let’s not forget that LBRY users are still subject to the DMCA and other laws governing intellectual property. Users who publishing infringing content are still subject to penalties for doing so in exactly the same way they would be via BitTorrent. LBRY only adds to the suite of options available. This makes LBRY a strict improvement over BitTorrent with regards to illegal usages, which provides none of the mechanisms listed.</p>
     </section>
@@ -260,7 +260,7 @@
     </div>
     <div class="meta text-center content-inset"><p>A slightly simplified sample entry of metadata in the LBRY blockchain. Whichever party or parties bid the most in an ongoing auction control what a name returns.</p></div>
 
-    <p>Other than the usage of the LBRY blockchain to store names and metadata, there are only minor differences between the blockchains of LBRY and Bitcoin, and the changes are generally consensus improvements. We’ve buffed the hashing algorithm, smoothed the block reward function, increased the block size, increased the total number of credits, and prepared for offchain settlement.</p>
+    <p>Other than the usage of the LBRY blockchain to store names and metadata, there are only minor differences between the blockchains of LBRY and Bitcoin, and the changes are generally consensus improvements. We’ve buffed the hashing algorithm, smoothed the block reward function, increased the block size, increased the total number of credits, and prepared for off-chain settlement.</p>
 
     <p>The LBRY blockchain simply maintains LBC balances and a content namespace/catalogue. The next part, LBRYnet, specifies what to do with this data. To compare to the existing web, the blockchain is like the domain system (it maintains a listing of what is available), while the next piece makes it possible to actually fetch and pay for content.</p>
     <footer> If you’re a Bitcoiner wondering why we don’t use the Bitcoin blockchain, you can read a detailed answer to that question <a href="/news/why-doesnt-lbry-just-use-bitcoin/">here</a>.</footer>
@@ -313,7 +313,7 @@
 
       <p>Additionally, the market mechanisms of LBRY create a strong incentive for efficient distribution, which will save the costs of producers and ISPs alike. These properties, along with LBRY’s infringement disincentivizing properties, make LBRY an appealing technology for large existing data or content distributors.</p>
       <h4>Transaction Settlement</h4>
-      <p>While payments can be issued directly on the LBRY blockchain, the LBRY protocol encourages a volume of transactions that will not scale without usage of offchain settlement.</p>
+      <p>While payments can be issued directly on the LBRY blockchain, the LBRY protocol encourages a volume of transactions that will not scale without usage of off-chain settlement.</p>
 
       <p>Essentially, rather than issue a transaction to the core blockchain, transactions are issued to a 3rd-party provider. These providers have a substantial number of coins which are used to maintain balances internally and settle a smaller number of transactions to the core chain. In exchange, these providers earn a small fee, less than the fee required to issue the transaction directly to the blockchain.</p>*
         */ ?>

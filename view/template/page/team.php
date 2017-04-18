@@ -9,9 +9,8 @@
     <?php $rowCount = 0 ?>
     <?php foreach([
         ['jeremy-kauffman', 'alex-grintsvayg'],
-        ['josh-finer', 'job-evers-meltzer'],
-        ['jack-robison',  'alex-liebowitz', 'jimmy-kiselak'],
-        ['kay-kurokawa', 'reilly-smith', 'you']
+        ['josh-finer', 'kay-kurokawa',],
+        ['jack-robison',  'alex-liebowitz', 'reilly-smith']
     ] as $bioRow): ?>
     <div class="row-fluid">
       <?php ++$rowCount ?>

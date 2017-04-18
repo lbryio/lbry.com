@@ -1,7 +1,7 @@
 ---
 name: Alex Grintsvayg
 role: Founder, Chief Technical Officer
-email: grin@lbry.io
+email: alex@lbry.io
 ---
 One of Alex's job titles is Wizard, so named because he can seemingly understand and utilize new technologies faster than they can be created.
 
