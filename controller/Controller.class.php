@@ -143,6 +143,7 @@ class Controller
       }
     }
 
+    $router->any('/get/lbry.pre.{ext:c}', 'DownloadActions::executeGetAppPrereleaseRedirect');
     $router->any('/get/lbry.{ext:c}', 'DownloadActions::executeGetAppRedirect');
     $router->any('/get/lbrynet.{os:c}.zip', 'DownloadActions::executeGetDaemonRedirect');
 

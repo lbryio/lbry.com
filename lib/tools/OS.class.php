@@ -20,4 +20,24 @@ class OS
       OS::OS_IOS     => ['/ios', 'iOS', 'icon-mobile', '_ios']
     ];
   }
+
+  public static function getOsForExtension($ext)
+  {
+    switch ($ext)
+    {
+      case 'deb':
+        return OS::OS_LINUX;
+
+      case 'dmg':
+      case 'pkg':
+        return OS::OS_OSX;
+
+      case 'msi': // fallthrough
+      case 'exe':
+        return OS::OS_WINDOWS;
+
+      default:
+        throw new LogicException("Unknown ext $ext");
+    }
+  }
 }

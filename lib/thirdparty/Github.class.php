@@ -2,27 +2,35 @@
 
 class Github
 {
-  public static function getAppDownloadUrl($os, $cache = true)
+  protected static function findReleaseDownloadUrl(array $release, string $os)
   {
     if (!in_array($os, array_keys(OS::getAll())))
     {
       throw new DomainException('Unknown OS');
     }
 
+    foreach ($release['assets'] as $asset)
+    {
+      $ext = substr($asset['name'], -4);
+      if (
+        ($os == OS::OS_LINUX && ($ext == '.deb' || in_array($asset['content_type'], ['application/x-debian-package', 'application/x-deb']))) ||
+        ($os == OS::OS_OSX && ($ext == '.dmg' || in_array($asset['content_type'], ['application/x-diskcopy', 'application/x-apple-diskimage']))) ||
+        ($os == OS::OS_WINDOWS && $ext == '.exe')
+      )
+      {
+        return $asset['browser_download_url'];
+      }
+    }
+  }
+
+  public static function getAppDownloadUrl($os, $cache = true)
+  {
     try
     {
-      $releaseData = static::get('/repos/lbryio/lbry-app/releases/latest', $cache);
-      foreach ($releaseData['assets'] as $asset)
+      $release = static::get('/repos/lbryio/lbry-app/releases/latest', $cache);
+      if ($release)
       {
-        $ext = substr($asset['name'], -4);
-        if (
-          ($os == OS::OS_LINUX && ($ext == '.deb' || in_array($asset['content_type'], ['application/x-debian-package', 'application/x-deb']))) ||
-          ($os == OS::OS_OSX && ($ext == '.dmg' || in_array($asset['content_type'], ['application/x-diskcopy', 'application/x-apple-diskimage']))) ||
-          ($os == OS::OS_WINDOWS && $ext == '.exe')
-        )
-        {
-          return $asset['browser_download_url'];
-        }
+        return static::findReleaseDownloadUrl($release, $os);
       }
     }
     catch (Exception $e)
@@ -31,6 +39,24 @@ class Github
 
     return null;
   }
+
+  public static function getAppPrereleaseDownloadUrl($os, $cache = true)
+  {
+    try
+    {
+      $releases = static::get('/repos/lbryio/lbry-app/releases', $cache);
+      if (count($releases))
+      {
+        return static::findReleaseDownloadUrl($releases[0], $os);
+      }
+    }
+    catch (Exception $e)
+    {
+    }
+
+    return null;
+  }
+
 
   public static function getDaemonReleaseProperty($os, $property, $isAssetProperty = false, $cache = true)
   {

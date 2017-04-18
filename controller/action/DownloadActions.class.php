@@ -4,25 +4,14 @@ class DownloadActions extends Actions
 {
   public static function executeGetAppRedirect(string $ext)
   {
-    $uri = null;
-    switch ($ext)
-    {
-      case 'deb':
-        $uri = GitHub::getAppDownloadUrl(OS::OS_LINUX);
-        break;
-
-      case 'dmg':
-        $uri = GitHub::getAppDownloadUrl(OS::OS_OSX);
-        break;
-
-      case 'msi': // fallthrough
-      case 'exe':
-        $uri = GitHub::getAppDownloadUrl(OS::OS_WINDOWS);
-        break;
-    }
-
-    return Controller::redirect($uri ?: '/get', 302);
+    return Controller::redirect(GitHub::getAppDownloadUrl(OS::getOsForExtension($ext)) ?: '/get', 302);
   }
+
+  public static function executeGetAppPrereleaseRedirect(string $ext)
+  {
+    return Controller::redirect(GitHub::getAppPrereleaseDownloadUrl(OS::getOsForExtension($ext)) ?: '/get', 302);
+  }
+
 
   public static function executeGetDaemonRedirect(string $os)
   {
