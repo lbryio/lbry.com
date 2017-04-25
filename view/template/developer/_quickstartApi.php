@@ -6,9 +6,9 @@
   It can be accessed by any utility capable of making HTTPS GET and POST requests, such as cURL or possibly your toaster.
 </p>
 <p>
-  To verify the LBRY daemon is running correctly, let's try looking up a name:
+  To verify the LBRY daemon is running correctly, let's try looking up a URI:
 </p>
-<code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"resolve_name","params":{"name":"what"}}'
+<code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"resolve","params":{"uri":"what"}}'
 <span class="code-bash__response">[
   {
     "author": "Samuel Bryan",
@@ -28,14 +28,14 @@
 <h3>First Download</h3>
 <p>
   Above, we called the method
-  <code class="code-inline"><a href="<?php echo DeveloperActions::API_DOC_URL ?>#resolve_name" class="link-primary">resolve_name</a></code>
+  <code class="code-inline"><a href="<?php echo DeveloperActions::API_DOC_URL ?>#resolve" class="link-primary">resolve</a></code>
   for the URL <code class="code-inline">lbry://what</code>. This returned the metadata associated with the URL.
 </p>
 
 <p>
   Now let's download it. This time we're going to call the method <code class="code-inline">get</code> with the same parameters.
 </p>
-<code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"get","params":{"name":"what"} }'
+<code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"get","params":{"uri":"what"} }'
 <span class="code-bash__response">[
   {
     <span class="code-bash__comment">//some response fields omitted for brevity</span>
