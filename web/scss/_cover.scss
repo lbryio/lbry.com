@@ -20,21 +20,25 @@
   font-size: 1.2em;
   background-position: center;
 }
-@media (max-width: $mobile-width-threshold) {
+@media (max-width: 1199px) {
   .cover { padding: $spacing-vertical $spacing-vertical * 2 / 3; }
-  .cover-title { font-size: 2.8em; margin-bottom: $spacing-vertical; }
+  .cover-title { font-size: 2.6em; margin-bottom: $spacing-vertical; }
   .cover-subtitle { font-size: 1.2em; }
 }
-@media (min-width: $mobile-width-threshold) {
+@media (min-width: 1200px) and (max-width: 1599px) {
+  .cover-title { font-size: 3.2em; &.cover-title-tile { font-size: 2.4em; max-width: 660px; margin-left: auto; margin-right: auto; } }
+  .cover-subtitle { font-size: 1.4em; }
+}
+@media (min-width: 1600px) {
   .cover-title { font-size: 4.0em; &.cover-title-tile { font-size: 2.8em; max-width: 660px; margin-left: auto; margin-right: auto; } }
   .cover-subtitle { font-size: 1.4em; }
 }
 @media (max-width: $max-content-width) and (min-width: $mobile-width-threshold) {
-  .cover { padding: $spacing-vertical * 1.5 $spacing-vertical * 2; }
+  .cover { padding: $spacing-vertical $spacing-vertical * 1.5; }
   .cover-column { padding-left: $spacing-vertical * 0.5; padding-right: $spacing-vertical * 0.5; }
 }
 @media (min-width: $max-content-width) {
-  .cover { padding: $spacing-vertical * 1.5 $spacing-vertical * 3; }
+  .cover { padding: $spacing-vertical $spacing-vertical * 2; }
   .cover-column { padding-left: $spacing-vertical * 1.5; padding-right: $spacing-vertical * 1.5; }
 }
 

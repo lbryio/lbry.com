@@ -31,6 +31,20 @@ body
   background-attachment: fixed;
   @include background-size(cover);
 }
+.bg-image-tile
+{
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+  background: #fff;
+  background-repeat: repeat;
+  background-position: top left;
+}
 iframe, img { max-width: 100%; }
 iframe { margin: 0 auto; display: block; }
 

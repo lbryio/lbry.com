@@ -2,34 +2,29 @@
 <?php Response::setMetaTitle(__('title.home')) ?>
 <?php Response::setMetaDescription(__('description.home')) ?>
 <?php echo View::render('nav/_header', ['isDark' => false, 'isBordered' => false]) ?>
-<main class="column-fluid">
-  <div class="span12">
-    <div class="cover cover-light cover-center" style="background-color: white">
-      <div class="content content-wide content-light" style="max-width: 800px">
-        <div class="spacer2">
-          <h1 class="cover-title cover-title-flat text-center">Content Freedom.</h1>
-          <h2 class="cover-subtitle cover-title-flat">Watch, read or play what you choose. Earn full value for what you create.</h2>
-          <h3 class="cover-subtitle cover-title-flat">You own your data. You control the network. Indeed, you <em>are</em> the network.</h3>
-          <h3 class="cover-subtitle cover-title-flat">Hollywood films, college lessons, amazing streamers and more are on the first media platform ruled by <em>you</em>.</h3>
-        </div>
-        <div class="control-group spacer2 text-center">
-          <div class="control-item">
-            <a href="/get" class="btn-primary btn-large">Early Access</a>
-          </div>
-          <div class="control-item">
-            <a href="/learn" class="btn-link btn-large">{{global.learn}}</a>
-          </div>
-        </div>
+<main class="column-fluid column-fluid--home">
+  <div class="span6">
+    <div class="cover cover-light cover-center content content-light">
+      <div class="spacer1"  style="max-width: 800px">
+        <h1 class="cover-title cover-title-flat text-center">Content Freedom</h1>
+        <h2 class="cover-subtitle cover-title-flat">LBRY is a free, open, and community-run digital marketplace.</h2>
+        <h3 class="cover-subtitle cover-title-flat">You own your data. You control the network. Indeed, you <em>are</em> the network.</h3>
+        <h3 class="cover-subtitle cover-title-flat">Hollywood films, college lessons, amazing streamers and more are on the first media network ruled by <em>you</em>.</h3>
       </div>
-      <div class="cover-special-message text-center">
-        <p>GitHub user? <a href="/quickstart" class="link-primary">Try our API immediately.</a></p>
-        <p>Early access begins April 2017.</p>
+      <div class="spacer2 text-center">
+        <a href="/get" class="btn-primary btn-large">Early Access</a>
+        <a href="/learn" class="btn-link btn-large">{{global.learn}}</a>
       </div>
-      <div class="video" style="margin: 48px 0">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/DjouYBEkQPY" frameborder="0" allowfullscreen></iframe>
+      <div class="cover-special-message spacer1 text-center">
+        <p>Want a super early version and willing to suffer?<br/>
+          <a href="https://slack.lbry.io" class="link-primary">Join our Slack</a>.</p>
       </div>
     </div>
   </div>
+  <div class="span6" style="max-height: calc(100vh - 78px)">
+    <div  class="cover cover-center">
+      <img style="box-shadow: 0 0 10px rgba(0,0,0,0.8); max-height: calc(100vh - 126px)" src="/img/lbry-ui.png" />
+    </div>
   </div>
 </main>
 <?php echo View::render('nav/_footer', ['isDark' => false, 'isBordered' => false]) ?>
