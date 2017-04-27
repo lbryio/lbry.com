@@ -20,6 +20,7 @@ $height: calc(100vh - 156px);
       float: right;
       height: $height;
     }
+    @include clearfix();
   }
 }
 
