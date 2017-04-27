@@ -65,7 +65,7 @@ $gutter_fluid: 4;
   @include clearfix();
 }
 
-@media (min-width: $mobile-width-threshold) {
+@media (min-width: $width-laptop-min) {
   .pull-left { float: left; }
   .pull-right { float: right; }
 
@@ -82,7 +82,7 @@ $gutter_fluid: 4;
   }
 }
 
-@media (max-width: $mobile-width-threshold) {
+@media (max-width: $width-mobile-max) {
   .row-fluid, .tile-fluid, .column-fluid {
     width: 100%;
   }
@@ -101,14 +101,5 @@ $gutter_fluid: 4;
     {
       margin-bottom: $spacing-vertical;
     }
-  }
-}
-
-@media(max-width: 1199px) {
-  .column-fluid--home [class*="span"] {
-    float: none !important;
-    width: 100% !important;
-    margin-left: 0 !important;
-    display: block !important;
   }
 }

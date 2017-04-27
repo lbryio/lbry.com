@@ -88,7 +88,6 @@ section
 .text-center { text-align: center; }
 .text-right { text-align: right; }
 .meta { font-size: 0.8em; }
-.meta-large { font-size: 1.2em; }
 .clear { clear: both; }
 .align-left { float: left; }
 .align-right { float: right; }
@@ -202,14 +201,14 @@ a:hover img
   }
 }
 
-@media (max-width: $mobile-width-threshold)
+@media (max-width: $width-mobile-max)
 {
   .fullscreen
   {
     display: none;
   }
 }
-@media (min-width: $mobile-width-threshold)
+@media (min-width: $width-laptop-min)
 {
   .mobile
   {

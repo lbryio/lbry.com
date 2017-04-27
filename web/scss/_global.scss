@@ -16,7 +16,11 @@ $color-info-bg: #3a779d;
 $font-size: 16px;
 $line-height: $font-size * 1.5;
 
-$mobile-width-threshold: 801px;
+$width-mobile-max: 799px;
+$width-laptop-min: 800px;
+$width-laptop-max: 1599px;
+$width-desktop-min: 1600px;
+
 $max-content-width: 1000px;
 $max-text-width: 660px;
 $max-post-content-width: 800px;

@@ -65,7 +65,7 @@ $color-nav-border-dark: #ddd;
     }
 }
 
-@media (max-width: $mobile-width-threshold)
+@media (max-width: $width-mobile-max)
 {
   .primary-logo
   {
@@ -108,7 +108,7 @@ $color-nav-border-dark: #ddd;
     }
   }
 }
-@media (min-width: $mobile-width-threshold)
+@media (min-width: $width-laptop-min)
 {
   .header-navigation-fullscreen
   {
