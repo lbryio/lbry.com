@@ -4,7 +4,7 @@ $height: calc(100vh - 156px);
 @media(min-width: 1200px) {
   .home {
     > div.cover {
-      max-width: 50%;
+      width: 50%;
       margin-top: 0 !important;
     }
     .home__title, .home__copy {
@@ -33,7 +33,7 @@ $height: calc(100vh - 156px);
 }
 
 .home__copy {
-  max-width: $max-post-content-width;
+  max-width: $max-text-width;
   margin-left: auto;
   margin-right: auto;
 }
