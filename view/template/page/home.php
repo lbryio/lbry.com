@@ -9,7 +9,7 @@
     <img alt="Picture of LBRY Browser" src="/img/lbry-ui.png" />
   </div>
   <div class="cover cover-light content content-light content-wide home__copy">
-    <div class="spacer2 home">
+    <div class="spacer2">
       <h2 class="cover-subtitle cover-title-flat">LBRY is a free, open, and community-run digital marketplace.</h2>
       <h3 class="cover-subtitle cover-title-flat">You own your data. You control the network. Indeed, you <em>are</em> the network.</h3>
       <h3 class="cover-subtitle cover-title-flat">Hollywood films, college lessons, amazing streamers and more are on the first media network ruled by <em>you</em>.</h3>
