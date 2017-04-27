@@ -1,4 +1,3 @@
-<div class="bg-image-full" style="background-color: white" <?php //style="background-image: url(https://s3.amazonaws.com/files.lbry.io/cover-home2.jpg)" ?>></div>
 <?php Response::setMetaTitle(__('title.home')) ?>
 <?php Response::setMetaDescription(__('description.home')) ?>
 <?php echo View::render('nav/_header', ['isDark' => false, 'isBordered' => false]) ?>
