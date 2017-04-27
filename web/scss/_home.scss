@@ -1,7 +1,7 @@
 @import "global";
 
 $height: calc(100vh - 156px);
-@media(min-width: 1200px) {
+@media(min-width: 1200px) and (min-height: 600px){
   .home {
     > div.cover {
       max-width: 50%;
@@ -19,6 +19,7 @@ $height: calc(100vh - 156px);
     }
     .home__media {
       float: right;
+      @include absolute-center();
       height: $height;
     }
     @include clearfix();
