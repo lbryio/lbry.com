@@ -12,14 +12,14 @@ One such creative Slack community member is Austrian 3D printing-engineer-wizard
 
 ![Mayer Makes](/img/news/mayermakes-inline.png)
 
-Mr. Mayer’s content is available in both Deustch and English. A mix of vlogs, livestream events, and tutorials make this yet another one-of-a-kind channel on the LBRY network.
+Mr. Mayer’s content is available in both Deutsch and English. A mix of vlogs, livestream events, and tutorials make this yet another one-of-a-kind channel on the LBRY network.
 
 LBRY’s first 3D printing and DIY electronics channel can be found at:
 
 **lbry://@MAYERMAKES**
 
 
-You can meet Clemens in person on May 6th and 7th at the [Munch Maker Festival](http://make-munich.de/). Maybe he’ll have some free LBRY Credits to give away…
+You can meet Clemens in person on May 6th and 7th at the [Munich Maker Festival](http://make-munich.de/). Maybe he’ll have some free LBRY Credits to give away…
 
 
 **Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Have cool content to publish? Email reilly@lbry.io to share your creations with everyone on planet Earth before you forget.
