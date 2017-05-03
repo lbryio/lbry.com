@@ -5,7 +5,7 @@ category: policy
 ## Summary
 
 This quarter we moved 3 million community credits from cold storage.  We spent 1,186,244 total community credits on line items detailed below. No operational credits were moved or spent.  No institutional credits were moved or spent.
-As the LBRY protocol performance and reliability has again increased, we anticipate increased outlays in Q2 2017. For example, we will be redeeming many if not all beta invites.  We also may begin the first institutional outlays, but any outlays here will be pilot programs and come with spending restrictions.
+As the LBRY protocol performance and reliability has again increased, we anticipate increased outlays in Q2 2017. This will primarily be driven by the redemption of beta invites. We also may begin the first institutional outlays, but any outlays here will be pilot programs and come with spending restrictions.
 
 ## Current Balance Sheet
 
@@ -28,12 +28,12 @@ As reliability has been increasing, we anticipate inviting many if not all users
 
 ### Operational Fund
 
--No activity this quarter
+No activity this quarter.
 
 We anticipate no usage of credits from this fund this quarter.
 
 ### Institutional Fund
 
-No activity this quarter
+No activity this quarter.
 
 We may run our first institutional pilot programs this quarter. Any outlays from this fund this quarter will be minimal and are likely to come with restrictions that prevent them from going to market.
