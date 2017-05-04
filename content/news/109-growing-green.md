@@ -8,7 +8,7 @@ We’ve been toiling away building LBRY for eighteen months now.
 
 So, we decided it was time to step outside. We’ve never been outside before, but heard it was pretty fun, and this is what we found.
 
-![Growing Your Greens](/img/news/growgreens-inline.PNG)
+![Growing Your Greens](/img/news/growgreens-inline2.PNG)
 
 Growing Your Greens is one of the oldest online gardening shows. John Kohler has been helping people cultivate their urban gardens for more than *eight years.* That’s like, O.G. YouTube days... back when YouTube was... a happier place.
 
