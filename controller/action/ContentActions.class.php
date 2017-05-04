@@ -205,7 +205,7 @@ class ContentActions extends Actions
       {
         $lastItem = end($items);
         $project = $lastItem['project'];
-        if (!isset($projectMaxVersions[$project]) || $lastItem['version'] > $projectMaxVersions[$project])
+        if (!isset($projectMaxVersions[$project]) || strnatcasecmp($lastItem['version'], $projectMaxVersions[$project]) > 0)
         {
           $projectMaxVersions[$project] = $lastItem['version'];
         }
