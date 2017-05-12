@@ -8,7 +8,7 @@ Like many internet technologies, the LBRY network was born not only as a respons
 
 In our case, the status quo are monolithic content distribution giants.
 
-Every now and then, some high level reflection can be a powerful tool. And there is no one better at that then rationality rock star Julia Galef.
+Every now and then, some high level reflection can be a powerful tool. And there is no one better at that than rationality rock star Julia Galef.
 
 ![Julia Galef](/img/news/juliagalef-inline.jpg)
 
