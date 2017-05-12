@@ -2,7 +2,7 @@
 author: reilly
 title: 'Rationale'
 date: '2017-05-11 00:19:30'
-cover: 'juliagalef-banner.JPG'
+cover: 'juliagalef-banner2.jpg'
 ---
 Like many internet technologies, the LBRY network was born not only as a response to economic incentives, but as a philosophical and ethical answer to the status quo.
 
