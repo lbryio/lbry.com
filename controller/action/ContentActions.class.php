@@ -139,13 +139,23 @@ class ContentActions extends Actions
     return ['content/press-post', ['post' => $post]];
   }
 
+  protected static function convertBountyAmount($amount)
+  {
+    return is_numeric($amount) ? round($amount / LBRY::getLBCtoUSDRate(), -1) : $amount;
+  }
+
   public static function executeBounty(string $slug = null): array
   {
     Response::enableHttpCache();
 
+
+
     if ($slug)
     {
       list($metadata, $postHtml) = View::parseMarkdown(ContentActions::VIEW_FOLDER_BOUNTY . '/' . $slug . '.md');
+
+      $metadata['lbc_award'] = static::convertBountyAmount($metadata['award']);
+
       if (!$postHtml)
       {
         return NavActions::execute404();
@@ -183,6 +193,11 @@ class ContentActions extends Actions
       }
       return $metadataA['title'] < $metadataB['title'] ? -1 : 1;
     });
+
+    foreach($bounties as $bounty) {
+      $metadata = $bounty->getMetadata();
+      $bounty->setMetadataItem('lbc_award', static::convertBountyAmount($metadata['award']));
+    }
 
     return ['bounty/list', [
       'bounties' => $bounties,

@@ -1,7 +1,7 @@
 ---
 category: browser
 title: Internationalization of LBRY Browser
-award: 40000
+award: 2000
 status: available
 date: '2016-07-01'
 ---
