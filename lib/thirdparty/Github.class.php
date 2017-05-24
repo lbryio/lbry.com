@@ -13,8 +13,10 @@ class Github
     {
       $ext = substr($asset['name'], -4);
       if (
-        ($os == OS::OS_LINUX && ($ext == '.deb' || in_array($asset['content_type'], ['application/x-debian-package', 'application/x-deb']))) ||
-        ($os == OS::OS_OSX && ($ext == '.dmg' || in_array($asset['content_type'], ['application/x-diskcopy', 'application/x-apple-diskimage']))) ||
+        ($os == OS::OS_LINUX &&
+         ($ext == '.deb' || in_array($asset['content_type'], ['application/x-debian-package', 'application/x-deb']))) ||
+        ($os == OS::OS_OSX &&
+         ($ext == '.dmg' || in_array($asset['content_type'], ['application/x-diskcopy', 'application/x-apple-diskimage']))) ||
         ($os == OS::OS_WINDOWS && $ext == '.exe')
       )
       {
@@ -105,7 +107,7 @@ class Github
     $allReleases = [];
 
     $project = 'lbry';
-    $page = 1;
+    $page    = 1;
 
     do
     {
@@ -116,7 +118,7 @@ class Github
         return $release + ['project' => $project];
       }, array_filter($releases, function ($release)
       {
-        return isset($release['tag_name']) && isset($release['published_at']) && $release['published_at'];
+        return ($release['tag_name'] ?? null) && ($release['published_at'] ?? null) && !$release['prerelease'];
       })));
     } while (count($releases) >= 30);
 
@@ -124,58 +126,28 @@ class Github
     {
       $group   = null;
       $matches = null;
-      if (isset($release['tag_name']) && preg_match('/v(\d+)\.(\d+).?(\d+)?/', $release['tag_name'], $matches))
+      if (preg_match('/^v(\d+)\.(\d+)\./', $release['tag_name'] ?? '', $matches))
       {
         $group = 'v' . $matches[1] . '.' . $matches[2];
       }
       if ($group)
       {
-        $sets[$group][] = array_intersect_key($release, [
-            'prerelease' => null, 'tag_name' => null, 'published_at' => null, 'project' => null
-          ]) + [
-            'date'          => date('Y-m-d', strtotime($release['created_at'])),
-            //I thought published_at, but GitHub displays created_at and published_at is out of sync sometimes (0.3.2, 0.3.3)
-            'name'          => $release['name'] ?: $release['tag_name'],
-          'url'             => $release['html_url'],
-            'major_version' => $matches[1],
-            'minor_version' => $matches[2],
-            'patch_version' => isset($matches[3]) ? $matches[3] : null,
-            'version'       => $matches[1] . '.' . $matches[2] . '.' . (isset($matches[3]) ? $matches[3] : ''),
-            'body'          => ParsedownExtra::instance()->text($release['body'])
-          ];
+        $sets[$group][] = [
+          'project'    => $release['project'],
+          'date'       => date('Y-m-d', strtotime($release['created_at'])),
+          'created_at' => $release['created_at'],
+          'name'       => $release['name'] ?: $release['tag_name'],
+          'url'        => $release['html_url'],
+          'version'    => $release['tag_name'],
+          'body'       => ParsedownExtra::instance()->text($release['body'])
+        ];
       }
     }
 
-    uasort($sets, function ($sA, $sB)
-    {
-      if ($sA[0]['project'] != $sB[0]['project'])
-      {
-        return $sA[0]['project'] < $sB[0]['project'] ? -1 : 1;
-      }
-      if ($sA[0]['major_version'] != $sB[0]['major_version'])
-      {
-        return $sA[0]['major_version'] < $sB[0]['major_version'] ? -1 : 1;
-      }
-      if ($sA[0]['minor_version'] != $sB[0]['minor_version'])
-      {
-        return $sA[0]['minor_version'] < $sB[0]['minor_version'] ? -1 : 1;
-      }
-      return $sA[0]['patch_version'] < $sB[0]['patch_version'] ? -1 : 1;
-    });
-
+    uasort($sets, function ($sA, $sB) { return $sA[0]['created_at'] <=> $sB[0]['created_at']; });
     foreach ($sets as $group => &$groupSet)
     {
-      usort($groupSet, function ($rA, $rB) {
-        if ($rA['major_version'] != $rB['major_version'])
-        {
-          return $rA['major_version'] < $rB['major_version'] ? -1 : 1;
-        }
-        if ($rA['minor_version'] != $rB['minor_version'])
-        {
-          return $rA['minor_version'] < $rB['minor_version'] ? -1 : 1;
-        }
-        return $rA['patch_version'] < $rB['patch_version'] ? -1 : 1;
-      });
+      usort($groupSet, function ($rA, $rB) { return $rA['created_at'] <=> $rB['created_at']; });
     }
 
     return $sets;

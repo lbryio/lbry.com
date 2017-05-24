@@ -15,7 +15,7 @@ Make a copy of the `$HOME/.lbryum/wallets` directory.
 
 ## lbrycrd wallet
 
-You may have a lbrycrd wallet if you used an early version of LBRY or if you ran `lbrycrdd` manually. Look for the `C:\Users\%USER%\AppData\Roaming\lbrycrd` directory on Windows, or the `$HOME/.lbrycrd` directory on MacOS or Linux. If you have this directory, back up the `wallet.dat` file therein.
+You may have a lbrycrd wallet if you used an early version of LBRY or if you ran `lbrycrdd` manually. Look for the `C:\Users\%USER%\AppData\Roaming\lbrycrd` directory on Windows, the `$HOME/Library/Application Support/lbrycrd` directory on MacOS, or the `$HOME/.lbrycrd` directory on Linux. If you have this directory, back up the `wallet.dat` file therein.
 
 ## See Also
 

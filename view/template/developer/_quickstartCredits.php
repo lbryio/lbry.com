@@ -13,7 +13,7 @@
 <code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"wallet_balance"}'
 <span class="code-bash__response">[50.00000000]</span></code>
 <h3 id="publish">Publishing</h3>
-<p>Publishing to LBRY is just as easy as everything else! If you publish something, we'll send you an additional 50 LBC for further use.</p>
+<p>Publishing to LBRY is just as easy as everything else! If you publish something, we'll send you an additional 25 LBC for further use.</p>
 <p>Not sure what to publish? We recommend your favorite picture or home video. Or just grab something from <a class="link-primary" href="https://archive.org/details/movies">here</a>.</p>
 <code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"publish", "params": {
   "name": "electricsheep",
@@ -44,7 +44,7 @@
 </div>
 <h3>Enjoy a Hollywood Film</h3>
 <p><a href="http://www.imdb.com/title/tt1995341/" class="link-primary">It's a Disaster</a> starring David Cross is just one of tens of thousands of great pieces of content available. Check it out!</p>
-<code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"get","params":{"name":"itsadisaster"} }'
+<code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"get","params":{"uri":"itsadisaster"} }'
 <span class="code-bash__response">[
   {
     <span class="code-bash__comment">//some response fields omitted for brevity</span>

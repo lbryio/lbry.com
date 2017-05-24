@@ -32,7 +32,7 @@
         <?php $isOpen = !isset($lastItem['project']) || !isset($lastItem['version']) || $lastItem['version'] === $projectMaxVersions[$lastItem['project']] ?>
         <h2 class="roadmap-group-title" <?php echo !$isOpen ? 'style="display: none"' : '' ?>">
           <span class="roadmap-group-title-label">
-            <?php echo $group ?> <?php echo isset($lastItem['version']) && $lastItem['version'] === $projectMaxVersions[$lastItem['project']] ? '(latest  )' : '' ?>
+            <?php echo $group ?> <?php echo isset($lastItem['version']) && $lastItem['version'] === $projectMaxVersions[$lastItem['project']] ? '(latest)' : '' ?>
           </span>
         </h2>
         <div class="roadmap-group <?php echo !$isOpen ? 'roadmap-group-closed' : '' ?>">
