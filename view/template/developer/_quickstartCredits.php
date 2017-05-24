@@ -1,15 +1,9 @@
-<div class="notice notice-info">
-  <h4>Temporarily Disabled</h4>
-  <p>Automated credit dispensing has been disabled thanks to some lovely people from Thailand.</p>
-  <p>If you <a href="https://slack.lbry.io">join our chat</a>, we'll send you some manually if you are an active dev</p>
-  <div class="meta">No, the lovely people from Thailand did not automate away very many credits. We're both impressed and annoyed by their dedication to hard work for tens of dollars.</div>
-</div>
 <h3 id="credits">Credits</h3>
 <p>So far, everything we've done with LBRY has been free. However, some actions, such as reserving a name or purchasing paid content, require credits.</p>
 <p>To receive credits, first generate a wallet address:</p>
 <code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"wallet_new_address"}'
 <span class="code-bash__response">["bbFxRyWCFRkA9YcuuZD8nE7XTLUxYnddTs"]</span></code>
-<p>Enter this address in the form below and we'll send you 25 credits.</p>
+<p>Enter this address in the form below and we'll send you <?php echo DeveloperActions::DEVELOPER_REWARD ?> credits.</p>
 <div class="quickstart__claim-form content-light content" id="new-developer">
   <?php echo View::render('developer/_formNewDeveloperReward', [
     'returnUrl' => Request::getRelativeUri() . '#new-developer'

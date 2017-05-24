@@ -126,6 +126,11 @@ class Post
     return $this->metadata;
   }
 
+  public function setMetadataItem($key, $value)
+  {
+    $this->metadata[$key] = $value;
+  }
+
   public function getRelativeUrl()
   {
     return '/' . $this->postType . '/' . $this->slug;

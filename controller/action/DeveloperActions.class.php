@@ -2,7 +2,7 @@
 
 class DeveloperActions extends Actions
 {
-  const DEVELOPER_REWARD = 100,
+  const DEVELOPER_REWARD = 40,
     API_DOC_URL = 'https://lbryio.github.io/lbry/';
 
   public static function executeQuickstart(string $step = null)

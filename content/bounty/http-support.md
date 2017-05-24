@@ -1,7 +1,7 @@
 ---
 category: daemon
 title: Add Support for HTTP
-award: 40000
+award: 3000
 status: available
 date: '2016-11-01'
 ---

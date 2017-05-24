@@ -1,7 +1,7 @@
 ---
 category: human
 title: Write, Broadcast or Share LBRY
-award: 2000
+award: 250
 status: available
 date: '2016-07-01'
 ---
