@@ -16,6 +16,6 @@ Founders, engineers, venture capitalists, and academics from Fred Ersham, Roger 
 
 - lbry://@Epicenter
 
-There *is* one person they haven’t interview yet, but the name is escaping me...
+There *is* one person they haven’t interviewed yet, but the name is escaping me...
 
 **Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Wanna drop some crypto knowledge? Email reilly@lbry.io to make us all crypto rich.
