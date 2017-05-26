@@ -12,7 +12,7 @@ But today’s show takes the cake.
 
 Brian Fabian Crain, Sebastien Couture and Meher Roy of Epicenter TV host some of best interviews from the sharpest minds in cryptocurrency.
 
-Founders, engineers, venture capitalists, and academics from Fred Ersham, Roger Ver, Peter Rizun, Vitalik Buterin, Gavin Andresen, Emin Gün Sirer… you won't want t miss a single interview, now available on LBRY in their entirety at:
+Founders, engineers, venture capitalists, and academics from Fred Ersham, Roger Ver, Peter Rizun, Vitalik Buterin, Gavin Andresen, Emin Gün Sirer… you won't want to miss a single interview, now available on LBRY in their entirety at:
 
 - lbry://@Epicenter
 
