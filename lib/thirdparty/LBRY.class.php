@@ -16,4 +16,9 @@ class LBRY
     ]);
     return $response['data']['lbc_usd'] ?? 0;
   }
+
+  public static function unsubscribe($email)
+  {
+    return Curl::post(static::getApiUrl('/user_unsubscribe/new'), ['email' => $email], ['json_response' => true]);
+  }
 }

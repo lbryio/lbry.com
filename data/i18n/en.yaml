@@ -58,6 +58,7 @@ email:
   confirm_email_button: Confirm Subscription
   confirm_email_subject: Confirm Your Subscription to LBRY
   confirm_success: Great success! Welcome to LBRY.
+  confirm_unsubscribe: You are unsubscribed.
   disclaimer: You will receive 1-2 messages a month, only from LBRY Inc. and only about LBRY. You can easily unsubscribe at any time.
   go: Go
   invalid_confirm_hash: This link is expired or invalid. Please enter your email address again.
@@ -112,6 +113,7 @@ page:
     header: Frequently Asked Questions
   funnier: One day this will be funnier but today is not that day.
   join: Join Email List
+  unsubscribe: Unsubscribe
   refer:
     count0: Don't fret, we still like you.
     count1: Great start! Thanks for sharing.
@@ -243,6 +245,7 @@ social:
 title:
   home: LBRY - Content Freedom
   join: Join LBRY Email List
+  unsubscribe: Unsubscribe
   learn: Learn About LBRY
   publish: Publish
   refer: Share and Earn

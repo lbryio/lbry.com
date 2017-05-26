@@ -60,7 +60,6 @@ class MailActions extends Actions
   }
 
 
-
   public static function prepareSubscribeFormPartial(array $vars)
   {
     $vars += ['btnClass' => 'btn-primary', 'returnUrl' => Request::getRelativeUri()];
@@ -69,5 +68,17 @@ class MailActions extends Actions
     Session::unsetKey(Session::KEY_LIST_SUB_ERROR);
 
     return $vars;
+  }
+
+  public static function executeUnsubscribe(string $email)
+  {
+    $decodedEmail = Encoding::base64DecodeUrlsafe($email);
+    if (!$decodedEmail)
+    {
+      return ['mail/unsubscribe', ['error' => 'Invalid unsubscribe link']];
+    }
+
+    $response = LBRY::unsubscribe($decodedEmail);
+    return ['mail/unsubscribe', ['error' => $response['error']]];
   }
 }

@@ -101,6 +101,7 @@ class Controller
     $router->any('/list/subscribe', 'MailActions::executeSubscribe');
     $router->any('/list/subscribed', 'MailActions::executeSubscribed');
     $router->get('/list/confirm/{hash}', 'MailActions::executeConfirm');
+    $router->get('/list/unsubscribe/{email}', 'MailActions::executeUnsubscribe');
 
     $router->any('/dmca', 'ReportActions::executeDmca');
 
