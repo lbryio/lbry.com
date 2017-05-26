@@ -4,13 +4,13 @@ title: 'Coinslaught'
 date: '2017-05-25 00:20:30'
 cover: 'epicenter-banner.png'
 ---
-The crypto scene is young. And with youth comes dearth of quality shows to watch. We’ve already [been graced](https://lbry.io/news/cryptoverse) by a [few](https://lbry.io/news/crypt0) of the greats on LBRY.
+The crypto scene is young. And with youth comes a dearth of quality shows to watch. We’ve already [been graced](https://lbry.io/news/cryptoverse) by a [few](https://lbry.io/news/crypt0) of the greats on LBRY.
 
-But today’s takes the cake.
+But today’s show takes the cake.
 
 ![Epicenter TV](/img/news/epicenter-inline.png)
 
-Brian Fabian Crain, Sebastien Couture and Meher Roy of Epicenter TV host some of best interviews from sharpest minds in cryptocurrency.
+Brian Fabian Crain, Sebastien Couture and Meher Roy of Epicenter TV host some of best interviews from the sharpest minds in cryptocurrency.
 
 Founders, engineers, venture capitalists, and academics from Fred Ersham, Roger Ver, Peter Rizun, Vitalik Buterin, Gavin Andresen, Emin Gün Sirer… some of the best interviews you’ll see are now available on LBRY at:
 
