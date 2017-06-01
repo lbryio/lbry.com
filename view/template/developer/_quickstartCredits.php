@@ -1,3 +1,10 @@
+<div class="notice notice-info">
+  <h4>Temporarily Disabled</h4>
+  <p>Automated credit dispensing has been disabled thanks to some lovely people from Thailand.</p>
+  <p>If you <a href="https://slack.lbry.io">join our chat</a>, we'll send you some manually.</p>
+  <div class="meta">No, the lovely people from Thailand did not automate away very many credits. We're both impressed and annoyed by their dedication to hard work for tens of dollars.</div>
+</div>
+
 <h3 id="credits">Credits</h3>
 <p>So far, everything we've done with LBRY has been free. However, some actions, such as reserving a name or purchasing paid content, require credits.</p>
 <p>To receive credits, first generate a wallet address:</p>
