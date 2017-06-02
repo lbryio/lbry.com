@@ -18,7 +18,7 @@
         <?php echo View::render('download/_refer') ?>
       <?php else: ?>
         <div class="spacer1">
-          <h4>LBRY early access begins April 2017.</h4>
+          <h4>LBRY early access began April 2017.</h4>
         </div>
         <?php echo View::render('download/_signup', ['allowInviteCode' => false]) ?>
       <?php endif ?>
