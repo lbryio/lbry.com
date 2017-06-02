@@ -5,9 +5,7 @@ date: '2017-06-02 00:14:00'
 ---
 # You can now store your LBRY Credits (LBC) in the Coinomi wallet!
 
-<p align="center">
-  <img src="https://spee.ch/lbrycoinomi"/>
-</p>
+![LBRY Coinomi Screenshot](https://spee.ch/lbrycoinomi)
 
 As our focus has been on building out a [great application](https://github.com/lbryio/lbry-app), we haven't put much emphasis on a standalone way to manage your LBRY credits. However, we have noticed the demand for easy backups and a simple, secure way to move credits between accounts. 
 
