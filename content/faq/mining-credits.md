@@ -9,7 +9,7 @@ LBRY mining is dominated by the GPU market and we don't see CPU mining as econon
 
 For GPU mining, please see our list of [pools](https://lbry.io/faq/mining-pools). Each pool has a slightly different setup so please check their Getting Started page.
 
-For CPU mining, LBRY binaries are out for OS X, Windows, and Ubuntu. Others may try compiling from source.
+For CPU mining, LBRY binaries are out for OS X, Windows, and Ubuntu, but the OS X miner has not been updated to version 0.9.1. Others may try compiling from source.
 
 You can download the latest binaries [here](https://github.com/lbryio/lbrycrd/releases/latest)
 
@@ -19,7 +19,7 @@ You can download the latest binaries [here](https://github.com/lbryio/lbrycrd/re
 1. `./lbrycrdd -server -printtoconsole -gen`
 1. If you need to start over, run `rm -rf bins.zip lbry* ~/.lbry*`. **Note:** this will delete your wallet and any credits you may have.
 
-## Mining on macOS
+## Mining on macOS (not yet updated to version 0.9.1)
 
 1. unzip the binaries, and `cd` into the directory containing them
 1. `mkdir ~/Library/Application\ Support/lbrycrd`
