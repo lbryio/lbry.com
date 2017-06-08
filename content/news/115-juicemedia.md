@@ -12,12 +12,12 @@ But when your life doesn’t depend on ratings and ad dollars, all of a sudden, 
  
 Corporate welfare, crony oil, coral reef decay, and other C-words like Corrupt Politicians and Corrupter McCorruptisons, no sin goes unscathed in the realest news satire on the web. The Juice Media, while covering plenty of news for local Aussies, has probably nailed a world leader in your area with a bad Yelp review at least once.
  
-Donate to [their Patreon here](https://www.patreon.com/TheJuiceMedia), and look for your new favorite way to consume current events on LBRY at:
+Donate to [their Patreon here](https://www.patreon.com/TheJuiceMedia), and look for your new favorite way to consume current events on LBRY, available soon at:
  
-lbry://@thejuicemedia
+- lbry://@thejuicemedia
  
 And add you channel to the LBRY queue like Juice Medeia,  in a single click using this tool:
  
-https://api.lbry.io/yt/connect
+- https://api.lbry.io/yt/connect
  
 **Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Rapper, newscaster or Both? Email reilly@lbry.io to spit the facts.
