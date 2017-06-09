@@ -3,7 +3,7 @@ title: How does LBRY naming work? Why don’t you just assign names the same way
 category: LBRY 101
 order: 5
 ---
-First, since there have been a lot of misconceptions about how LBRY URLs work, **it is absolutely possible to own and control a URL forever**. That is the tl;dr of this post if you don't want to read a bunch of words about how LBRY URLs work.
+First, since there have been a lot of misconceptions about how LBRY URIs work, **it is absolutely possible to own and control a URI forever**. That is the tl;dr of this post if you don't want to read a bunch of words about how LBRY URIs work.
 
 Assigning names optimally is a difficult problem in centralized systems. It becomes nearly impossible in decentralized ones. Just because we’re all accustomed to certain solutions doesn’t mean they aren’t seriously flawed.
 
@@ -11,12 +11,16 @@ Let’s look at the internet’s standard domain name system (DNS). DNS is a cen
 
 And the results aren’t even that good! Not only are domain names still very awkward (http://www.THENAMEIWANT.somethingelse), but they are highly vulnerable to squatters. Domain name squatting has become an industry unto itself, with speculators viewing it like owning real estate. Unfortunately, as with real estate, the market is opaque and transaction costs are high. Unlike real estate, the scarcity of ICANN domains is basically artificial, depending on a committee to approve new top-level domains (TLDs) at their whim.
 
-So we thought, “what if there were a better way?” Consulting with economists, we devised LBRY’s nameclaim system. LBRY supports two claim types:
+So we thought, “what if there were a better way?” Consulting with economists, we devised LBRY’s nameclaim system. LBRY URIs support four types of resolution:
 
 | Type | Syntax | Resolution |
 | --- | --- |
-| **Permanent** | `lbry://name#<uniqueId>` | Owned forever by the first claimant. |
-| **Vanity** | `lbry://name` | Controlled by the party committing (like voting) with the most credits. |
+| **Permanent** | `lbry://<name>#<claim_id>` | A fixed id for a claim to a name, this id stays the same if the claim is updated. |
+| **Vanity** | `lbry://<name>` | The claim to the name with the most credits committed towards it (like voting) - the sum of the credits committed in the claim and any claim supports. |
+| **Channel** | `lbry://<@channel_name>` | A claim containing a public key, the private counterpart is used for signing other name claims. Channel claims can be specified in the uri with the `#` modifier, and the unmodified uri has vanity resolution. |
+| **Signed** | `lbry://<@channel_name>/<example>` | The claim to `<example>` in the channel of (signed by) `<@channel_name>`. The channel claim defaults to the vanity resolution, but can be specified with the `#` modifier given before the `/`.
+
+About now you're probably wondering, "what's a claim?". Name claims, as their title would suggest, are made to a human readable name. The claim contains serialized data, which allows it to store a very little bit for a specific purpose, or to point to something else. This format is flexible, allowing support for many use cases to be added. Currently, claims contain encoded channel identities and download streams.
 
 Our bet is that vanity names will be controlled by the people who get the most value out of them – which is almost always the creator of the content. Radiohead would get a lot more value out of lbry://amoonshapedpool than a squatter, pirate, or troll.
 
@@ -28,7 +32,7 @@ Before jumping to conclusions about the system for vanity URLs, here are a few k
 
 3. **Other users can pledge credits to support the nameclaim of a creator they like.** If you claim lbry://bestmovieever and your film lives up to the hype, users may show their support by pledging some credits to make sure you hold onto that name.
 
-4. **Names are not like Youtube channels; they’re more like search terms.** Publishers will each get a unique ID that serves as their “channel” and shows all the content they upload. This ID will form permanent links so you can embed your videos on websites and include the link in promotional materials. The bidding system is only meant to get traffic from users trying to “discover” your content through the naming system. Since every comedy video would want to be at lbry://comedy, the nameclaim system allows the name to go to the creator who can make the most revenue off of it.
+4. **Names are not like Youtube channels; they’re more like search terms.** However, publishers can use a claim to a name for much the same purpose, with a "channel" claim. The uri for these claims support allow specifying other claims made by that publisher easily, like `lbry://@UCBerkeley/ucb-P7Wjq025f-Q` or `lbry://@oscopelabs/itsadisaster-sd`. Additionally, with the `#<claim_id>` syntax publishers have uris that are permanent and embeddable, where resolution is not subject to the bidding system. The only time these claims cannot be resolved is if the publisher removes the specified claim, the decision is theirs. The bidding system is only meant to get traffic from users trying to “discover” your content through the naming system. Since every comedy video would want to be at lbry://comedy, the nameclaim system allows the name to go to the creator who can make the most revenue off of it.
 
 No doubt it is unlike anything we've seen before on the net. For creators, it's a tradeoff. You might lose a valuable name, but you also don't have to worry about people squatting on the best names. Squatting has plagued projects like Namecoin and is only (poorly) resolved by ICANN at the cost of much expense and centralization.
 
