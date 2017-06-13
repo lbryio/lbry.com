@@ -72,7 +72,7 @@ class MailActions extends Actions
 
   public static function executeUnsubscribe(string $email)
   {
-    $decodedEmail = Encoding::base64DecodeUrlsafe($email);
+    $decodedEmail = Encoding::base64DecodeUrlsafe(urldecode($email));
     if (!$decodedEmail)
     {
       return ['mail/unsubscribe', ['error' => 'Invalid unsubscribe link']];
