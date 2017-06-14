@@ -138,7 +138,7 @@ class Controller
     ];
 
 
-    foreach ([302 => $tempRedirects, 301 => $permanentRedirects] as $code => $redirects)
+    foreach ([307 => $tempRedirects, 301 => $permanentRedirects] as $code => $redirects)
     {
       foreach ($redirects as $src => $target)
       {
