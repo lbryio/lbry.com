@@ -2,8 +2,8 @@
 
 <div class="notice notice-info">
   <h4>Temporarily Disabled</h4>
-  <p>Automated credit dispensing has been disabled thanks to some lovely people from Thailand.</p>
-  <p>If you <a href="https://slack.lbry.io">join our chat</a>, we'll send you some manually.</p>
+  <p>Automated credit dispensing has been disabled thanks to some lovely people from Indonesia.</p>
+  <p>If you <a href="https://slack.lbry.io">join our chat</a> and share your GitHub, we might send you some!</p>
   <div class="meta">No, the lovely people from Thailand did not automate away very many credits. We're both impressed and annoyed by their dedication to hard work for tens of dollars.</div>
 </div>
 
@@ -21,7 +21,7 @@
 <code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"wallet_balance"}'
 <span class="code-bash__response">[50.00000000]</span></code>
 <h3 id="publish">Publishing</h3>
-<p>Publishing to LBRY is just as easy as everything else! If you publish something, we'll send you an additional 10 LBC for further use.</p>
+<p>Publishing to LBRY is just as easy as everything else!</p>
 <p>Not sure what to publish? We recommend your favorite picture or home video. Or just grab something from <a class="link-primary" href="https://archive.org/details/movies">here</a>.</p>
 <code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"publish", "params": {
   "name": "electricsheep",
