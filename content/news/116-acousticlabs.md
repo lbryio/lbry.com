@@ -12,7 +12,7 @@ But there’s so much more to the music world. What if you could not only listen
  
 Acoustic Labs, otherwise known as composer GC Johnson, publishes a variety of music from furious fingerpicking on guitar and ronroco, to fully realized film scores, to acoustic renditions of classic movements like Ecstasy of Gold.
  
-GC has scored many films and multiple Netflix series. And has some of the most epic fingerpicking videos online. (The ronroco versions are my personal favorite).
+GC has scored many films and multiple Netflix series. And he has some of the most epic fingerpicking videos online. (The ronroco versions are my personal favorite).
 
 Check him out soon on LBRY at: 
 - lbry://@AcousticLabs
