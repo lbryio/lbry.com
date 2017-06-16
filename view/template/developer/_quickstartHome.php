@@ -9,7 +9,7 @@
   <li><h3>Learned the basics of the LBRY API.</h3></li>
   <li><h3>Earned $5 in LBC for downloading a hilarious film starring David Cross.</h3></li>
   <div class="meta">
-      <sup>*</sup>Automated credit withdrawal is currently disabled, please see details in guide.
+      <sup>*Automated credit withdrawal is currently disabled, please see details in guide</sup>
   </div>
   <li><h3>Irrevocably inscribed a piece of knowledge. Possibly of a cat.</h3>
     <div class="meta">
