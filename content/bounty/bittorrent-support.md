@@ -6,7 +6,7 @@ status: available
 date: '2016-07-01'
 ---
 
-Add support for the BitTorrent protocol to [`lbry`](https://github.com/lbry).
+Add support for the BitTorrent protocol to [`lbry`](https://github.com/lbryio/lbry).
 
 The LBRY blockchain supports storing metadata about media content. A simplified, sample entry looks like:
 
