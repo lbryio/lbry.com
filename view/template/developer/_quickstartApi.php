@@ -59,3 +59,7 @@
 </p>
 <code class="code-bash"><span class="code-bash__prompt">$</span>Invoke-RestMethod -Uri 'http://localhost:5279/lbryapi' -Body 'THE_JSON_DATA' -Method POST  | ConvertTo-Json
 </code>
+<p>If PowerShell does not work and you want to continue with cURL, you'll need to escape inner double quotes with a \ to pass the JSON properly via Command Prompt. 
+</p>
+<code class="code-bash"><span class="code-bash__prompt">$</span>curl "http://localhost:5279/lbryapi" --data "{\"method\":\"get\",\"params\":{\"uri\":\"what\"} }"
+</code>
