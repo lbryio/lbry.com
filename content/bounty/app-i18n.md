@@ -1,14 +1,14 @@
 ---
 category: browser
-title: Internationalization of LBRY Browser
+title: Internationalization of LBRY App
 award: 2000
 status: available
 date: '2016-07-01'
 ---
 
-The LBRY browser is currently lacking support for internationalization.
+The LBRY App is currently lacking support for internationalization.
 
-To complete this bounty, [lbry-web-ui](https://github.com/lbryio/lbry-web-ui) must be modified as follows:
+To complete this bounty, [lbry-app](https://github.com/lbryio/lbry-app) must be modified as follows:
 
 - Add [gettext](https://en.wikipedia.org/wiki/Gettext) internationalization calls to the React app
 - Store selected language in the user settings
