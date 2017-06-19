@@ -7,11 +7,6 @@
 </h2>
 <ul>
   <li><h3>Learned the basics of the LBRY API.</h3></li>
-  <li><h3>Earned $5 in LBC for downloading a hilarious film starring David Cross.</h3>
-    <div class="meta">
-      <sup>*Automated credit withdrawal is currently disabled, please see details in guide</sup>
-    </div>
-  </li>
   <li><h3>Irrevocably inscribed a piece of knowledge. Possibly of a cat.</h3>
     <div class="meta">
       <sup>1</sup>USD price equivalent of <?php echo DeveloperActions::DEVELOPER_REWARD ?> LBC as received from the <a href="https://bittrex.com/Market/Index?MarketName=BTC-LBC" class="link-primary">Bittrex</a> exchange.

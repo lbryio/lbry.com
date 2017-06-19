@@ -1,25 +1,20 @@
 <h3 id="credits">Credits</h3>
 
-<div class="notice notice-info">
-  <h4>Temporarily Disabled</h4>
-  <p>Automated credit dispensing has been disabled thanks to some lovely people from Indonesia.</p>
-  <p>If you <a href="https://slack.lbry.io">join our chat</a> and share your GitHub, we might send you some!</p>
-  <div class="meta">No, the lovely people from Thailand did not automate away very many credits. We're both impressed and annoyed by their dedication to hard work for tens of dollars.</div>
-</div>
-
 <p>So far, everything we've done with LBRY has been free. However, some actions, such as reserving a name or purchasing paid content, require credits.</p>
-<p>To receive credits, first generate a wallet address:</p>
+<p>
+  There are several ways to obtain credits. See <a href="/faq/earn-credits" class="link-primary">this page</a> for options. We also reward
+  testers and contributors, so <a href="http://slack.lbry.io" class="link-primary">join our Slack</a> if you'd like to help.
+</p>
+
+<p>To receive credits, you will need to generate a wallet address:</p>
 <code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"wallet_new_address"}'
 <span class="code-bash__response">["bbFxRyWCFRkA9YcuuZD8nE7XTLUxYnddTs"]</span></code>
-<p>Enter this address in the form below and we'll send you <?php echo DeveloperActions::DEVELOPER_REWARD ?> credits.</p>
-<div class="quickstart__claim-form content-light content" id="new-developer">
-  <?php echo View::render('developer/_formNewDeveloperReward', [
-    'returnUrl' => Request::getRelativeUri() . '#new-developer'
-  ]) ?>
-</div>
-<p>Next, confirm you've received your credits by calling <code class="code-inline">wallet_balance</code>:</p>
+
+<p>Once you have received or purchased some credits, confirm your balance by calling <code class="code-inline">wallet_balance</code>:</p>
 <code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"wallet_balance"}'
 <span class="code-bash__response">[50.00000000]</span></code>
+
+
 <h3 id="publish">Publishing</h3>
 <p>Publishing to LBRY is just as easy as everything else!</p>
 <p>Not sure what to publish? We recommend your favorite picture or home video. Or just grab something from <a class="link-primary" href="https://archive.org/details/movies">here</a>.</p>
@@ -45,11 +40,8 @@
     "txid": "d71d63ebb3e10067bfd0b302433bc1ab09fbdd5dc9bc687f50aeb6809d1770fe" <span class="code-bash__comment">//this is the value you need to copy</span>
   }
 ]</span></code>
-<div class="quickstart__claim-form content-light content" id="new-publish">
-  <?php echo View::render('developer/_formCreditsPublish', [
-    'returnUrl' => Request::getRelativeUri() . '#new-developer'
-  ]) ?>
-</div>
+
+
 <h3>Enjoy a Hollywood Film</h3>
 <p><a href="http://www.imdb.com/title/tt1995341/" class="link-primary">It's a Disaster</a> starring David Cross is just one of tens of thousands of great pieces of content available. Check it out!</p>
 <p><strong>Note! This will cost you LBC. Run the resolve command to see the cost.</strong></p>
@@ -67,6 +59,8 @@
     }
   }
 ]</span></code>
+
+
 <h3>Try the UI</h3>
 <p>LBRY comes with a fully-featured UI so that normal people can use it too. You can download it <a href="https://github.com/lbryio/lbry-app/releases" class="link-primary">here</a>.</p>
 <h3 id="community">You Did It! What's Next?</h3>
