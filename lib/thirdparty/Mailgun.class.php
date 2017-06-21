@@ -13,7 +13,7 @@ class Mailgun
   {
     list($status, $headers, $body) = static::post('/' . static::MAIL_DOMAIN . '/messages', [
       'from'              => 'LBRY <mail@' . static::MAIL_DOMAIN . '>',
-      'to'                => 'jeremy@lbry.io',
+      'to'                => 'help@lbry.io',
       'subject'           => 'DMCA Report #' . $data['report_id'],
       'html'              => '<pre>' . var_export($data, true) . '</pre>',
       'o:tracking-clicks' => 'no',
