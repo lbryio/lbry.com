@@ -29,15 +29,15 @@
       <div class="text-center"><a href="javascript:;" class="link-primary show-all-roadmap-groups">Show Earlier Releases</a></div>
       <?php foreach($items as $group => $groupItems): ?>
         <?php $lastItem = end($groupItems) ?>
-        <?php $isOpen = !isset($lastItem['project']) || !isset($lastItem['version']) || $lastItem['version'] === $projectMaxVersions[$lastItem['project']] ?>
+        <?php $isOpen = !isset($lastItem['project']) || !isset($lastItem['sort_key']) || $lastItem['sort_key'] === $projectMaxVersions[$lastItem['project']] ?>
         <h2 class="roadmap-group-title" <?php echo !$isOpen ? 'style="display: none"' : '' ?>">
           <span class="roadmap-group-title-label">
-            <?php echo $group ?> <?php echo isset($lastItem['version']) && $lastItem['version'] === $projectMaxVersions[$lastItem['project']] ? '(latest)' : '' ?>
+            <?php echo $group ?> <?php echo isset($lastItem['sort_key']) && $lastItem['sort_key'] === $projectMaxVersions[$lastItem['project']] ? '(latest)' : '' ?>
           </span>
         </h2>
         <div class="roadmap-group <?php echo !$isOpen ? 'roadmap-group-closed' : '' ?>">
           <?php $lastItem = end($groupItems) ?>
-          <?php $maxItems = isset($lastItem['version']) ? 1 : count($groupItems) ?>
+          <?php $maxItems = isset($lastItem['sort_key']) ? 1 : count($groupItems) ?>
           <?php $index = 0 ?>
           <?php if (count($groupItems) > $maxItems): ?>
             <div class="text-center spacer1"><a href="javascript:;" class="link-primary show-all-roadmap-group-items">Show All Items for <?php echo $group ?></a></div>
