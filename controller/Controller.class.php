@@ -134,7 +134,7 @@ class Controller
       '/api'                  => 'https://lbryio.github.io/lbry',
       '/api-help'             => 'https://lbryio.github.io/lbry',
       '/security'             => '/faq/security',
-      '/live'                 => 'https://www.youtube.com/channel/UCXAcp3dJuPqeUekOacsuyaQ',
+      '/live'                 => 'https://www.youtube.com/watch?v=WM60vLOCRps', //'https://www.youtube.com/channel/UCXAcp3dJuPqeUekOacsuyaQ',
     ];
 
 
