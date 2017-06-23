@@ -15,10 +15,12 @@ A professor and psychologist at the University of Toronto, Dr. Peterson has lect
 A commenter on his Biblical series summarized his channel best:
  
 📂Documents
+
   └📁Videos
-      └📁 Jordan B Peterson
-          └📁 Bad Videos
-              └⚠️ This folder is empty﻿
+ 
+    └📁 Jordan B Peterson
+     └📁 Bad Videos
+      └⚠️ This folder is empty﻿
  
 Check out some of the best lectures on LBRY at:
  
