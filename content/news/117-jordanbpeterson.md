@@ -6,7 +6,7 @@ cover: 'jordan-banner.jpg'
 ---
 People do strange things for seemingly mystical reasons.
  
-Jordan Peterson cuts through the myst and get to the heart of, well, everyone’s heart.
+Jordan Peterson cuts through the myst and gets to the heart of, well, everyone’s heart.
  
 ![Jordan B Peterson](/img/news/jordan-inline.jpg)
  
