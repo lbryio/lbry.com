@@ -8,11 +8,7 @@
 <ul>
   <li><h3>Learned the basics of the LBRY API.</h3></li>
   <li><h3>Irrevocably inscribed a piece of knowledge. Possibly of a cat.</h3>
-    <div class="meta">
-      <sup>1</sup>USD price equivalent of <?php echo DeveloperActions::DEVELOPER_REWARD ?> LBC as received from the <a href="https://bittrex.com/Market/Index?MarketName=BTC-LBC" class="link-primary">Bittrex</a> exchange.
-      LBC is a cryptographic blockchain token used to secure and administer LBRY's shared, distributed catalog. The future is weird.
-    </div>
-  </li>
+    </li>
 </ul>
 <p class="text-center">
   <a href="/quickstart/<?php echo $firstStep ?>" class="btn-alt">Begin the Guide</a>
