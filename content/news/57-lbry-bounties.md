@@ -14,17 +14,16 @@ On our [official bounty page](https://lbry.io/bounty), you’ll find details for
 
 The bounty list will be constantly growing, so bookmark it and check in regularly for updates. You’ll currently find:
 
-- [Adding support for BitTorrent](https://lbry.io/bounty/bittorrent-support) – 4,000 LBC 
-- [Add transaction history to LBRY browser](https://lbry.io/bounty/transaction-history) – 2,000 LBC
-- [Modified block explorer](https://lbry.io/bounty/modified-block-explorer) – 1,500 LBC
-- [PKG installer for OS X](https://lbry.io/bounty/pkg-installer-for-osx) – 1,500 LBC
-- [Create URL handler for Slack](https://lbry.io/bounty/slack-lbry-url-handler) – 1,000 LBC
-- [Internationalization of lbry.io](https://lbry.io/bounty/web-i18n) – 1,000 LBC
-- [LBRY Community Rep](https://lbry.io/bounty/lbry-club) – 500 LBC
-- [Write, broadcast or share LBRY](https://lbry.io/bounty/pr-for-lbry) – 500 LBC
-- [Create social media cover images](https://lbry.io/bounty/social-media-cover-images) - 400 LBC
-- [Publish open content](https://lbry.io/bounty/publish-open-content) – 250-1,000+ LBC
-- [Refer a publisher to LBRY](https://lbry.io/bounty/refer-publisher) – 100 LBC
+- [Adding support for BitTorrent](https://lbry.io/bounty/bittorrent-support) – 17,660 LBC 
+- [Adding support for HTTP](https://lbry.io/bounty/http-support) – 5,220 LBC 
+- [Internationalization of lbry.io](https://lbry.io/bounty/web-i18n) – 3,530 LBC
+- [LBRY Community Rep](https://lbry.io/bounty/lbry-club) – 530 LBC
+- [Write, broadcast or share LBRY](https://lbry.io/bounty/pr-for-lbry) – 440 LBC
+- [Publish open content](https://lbry.io/bounty/publish-open-content) – 500-10,000+ LBC
+- [Refer a publisher to LBRY](https://lbry.io/bounty/refer-publisher) – 440 LBC
+- [Automatic App Updates](https://lbry.io/bounty/automatic-app-updates) – 1,740 LBC
+- [Custom Project](https://lbry.io/bounty/custom-project) – 250-50000+ LBC
+- [Typos and Edits](https://lbry.io/bounty/typos-and-edits) – 20.0 LBC
 
 You can even [pitch us your own custom project](https://lbry.io/bounty/custom-project) and earn as much as *20,000 LBC* (reward determined by LBRY team). 
 
