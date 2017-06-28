@@ -6,7 +6,7 @@ status: available
 date: '2016-07-01'
 ---
 
-Add support for the BitTorrent protocol to [`lbrynet`](https://github.com/lbryio/lbry) and [lbryschema](https://www.github.com/lbryio/lbryschema).
+Add support for the BitTorrent protocol to [`lbrynet`](https://github.com/lbryio/lbry) and [`lbryschema`](https://www.github.com/lbryio/lbryschema).
 
 The LBRY blockchain supports storing metadata that can be resolved by a human friendly uri.
 This metadata is defined by a flexible protobuf based schema, [lbryschema](https://www.github.com/lbryio/lbryschema).
