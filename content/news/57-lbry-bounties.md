@@ -22,7 +22,7 @@ The bounty list will be constantly growing, so bookmark it and check in regularl
 - [Publish open content](https://lbry.io/bounty/publish-open-content) – 500-10,000+ LBC
 - [Refer a publisher to LBRY](https://lbry.io/bounty/refer-publisher) – 440 LBC
 - [Automatic App Updates](https://lbry.io/bounty/automatic-app-updates) – 1,740 LBC
-- [Custom Project](https://lbry.io/bounty/custom-project) – 250-50000+ LBC
+- [Custom Project](https://lbry.io/bounty/custom-project) – 250-50,000+ LBC
 - [Typos and Edits](https://lbry.io/bounty/typos-and-edits) – 20.0 LBC
 
 You can even [pitch us your own custom project](https://lbry.io/bounty/custom-project) and earn as much as *20,000 LBC* (reward determined by LBRY team). 
