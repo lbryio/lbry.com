@@ -10,4 +10,4 @@ This bounty is awarded for finding and correcting a typo, misspelling, or poor p
 
 This includes everything from low-level help messages or comments in code to the copy of the website itself.
 
-Please initiate a pull-request on GitHub to receive this bounty.
+Please initiate a pull request on GitHub to receive this bounty.
