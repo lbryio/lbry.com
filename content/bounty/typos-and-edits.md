@@ -1,7 +1,7 @@
 ---
 category: web
 title: Typos and Edits
-award: 10
+award: 5
 status: available
 date: '2016-11-01'
 ---
