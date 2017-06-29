@@ -16,7 +16,8 @@ This is the first channel I know on LBRY to host a variety of multimedia options
 
 Please do yourselves the honor, and get your indie electronica on at:
 
-lbry://@iamlukehall
-lbry://pieceofmind-mp3bundle
+<a href='lbry://@iamlukehall'>@iamlukehall</a>
+
+<a href='lbry://pieceofmind-mp3bundle'>pieceofmind-mp3bundle</a>
 
 **Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Can you make sick beats? Email reilly@lbry.io because he’s still listening to the same things he did at university eight years ago. Or sync your channel at: https://api.lbry.io/yt/connect
