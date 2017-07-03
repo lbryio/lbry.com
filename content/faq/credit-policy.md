@@ -57,7 +57,7 @@ Should LBRY make placements from this fund, it will seek long-term engagements a
 
 ## Institutional Fund
 
-The Institutional Fund is 100m LBC reserved for the formation of institutional partnerships and benefiting organizations of need, and  institutional partnerships, grants, donations, and other ways of strengthening relationships with organizations of need or like-mindedness.
+The Institutional Fund is 100m LBC reserved for the formation of institutional partnerships, and for grants, donations, and other ways of strengthening relationships with organizations of need or like-mindedness.
 
 Sample usages of this fund include:
 
