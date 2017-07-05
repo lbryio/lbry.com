@@ -106,21 +106,24 @@ class Github
     $sets        = [];
     $allReleases = [];
 
-    $project = 'lbry';
-    $page    = 1;
+    $projects = ['lbry' => 'Daemon', 'lbry-app' => 'App'];
 
-    do
+    foreach($projects as $project => $projectLabel)
     {
-      $releases = static::get('/repos/lbryio/' . $project . '/releases?page=' . $page, $cache);
-      $page++;
-      $allReleases = array_merge($allReleases, array_map(function ($release) use ($project)
+      $page = 1;
+      do
       {
-        return $release + ['project' => $project];
-      }, array_filter($releases, function ($release)
-      {
-        return ($release['tag_name'] ?? null) && ($release['published_at'] ?? null) && !$release['prerelease'];
-      })));
-    } while (count($releases) >= 30);
+        $releases = static::get('/repos/lbryio/' . $project . '/releases?page=' . $page, $cache);
+        $page++;
+        $allReleases = array_merge($allReleases, array_map(function ($release) use ($project, $projectLabel)
+        {
+          return $release + ['project' => $projectLabel];
+        }, array_filter($releases, function ($release)
+        {
+          return isset($release['tag_name']) && isset($release['published_at']) && $release['published_at'];
+        })));
+      } while (count($releases) >= 30);
+    }
 
     foreach ($allReleases as $release)
     {
@@ -128,23 +131,36 @@ class Github
       $matches = null;
       if (preg_match('/^v(\d+)\.(\d+)\./', $release['tag_name'] ?? '', $matches))
       {
-        $group = 'v' . $matches[1] . '.' . $matches[2];
+        $group = $release['project'] . ' v' . $matches[1] . '.' . $matches[2];
       }
       if ($group)
       {
-        $sets[$group][] = [
-          'project'    => $release['project'],
-          'date'       => date('Y-m-d', strtotime($release['created_at'])),
-          'created_at' => $release['created_at'],
-          'name'       => $release['name'] ?: $release['tag_name'],
-          'url'        => $release['html_url'],
-          'version'    => $release['tag_name'],
-          'body'       => ParsedownExtra::instance()->text($release['body'])
-        ];
+        $sets[$group][] = array_intersect_key($release, [
+            'prerelease' => null, 'tag_name' => null, 'published_at' => null, 'project' => null
+          ]) + [
+            'date'          => date('Y-m-d', strtotime($release['created_at'])),
+            //I thought published_at, but GitHub displays created_at and published_at is out of sync sometimes (0.3.2, 0.3.3)
+            'name'          => $release['name'] ?: $release['tag_name'],
+          'url'             => $release['html_url'],
+            'major_version' => (int)$matches[1],
+            'minor_version' => (int)$matches[2],
+            'patch_version' => (int)isset($matches[3]) ? $matches[3] : 0,
+            'sort_key'      => (int)$matches[1] * 1000000 + (int)$matches[2] * 1000 + (int)($matches[3] ?? 0),
+            'version'       => $matches[1] . '.' . $matches[2] . '.' . (isset($matches[3]) ? $matches[3] : ''),
+            'body'          => ParsedownExtra::instance()->text($release['body'])
+          ];
       }
     }
 
-    uasort($sets, function ($sA, $sB) { return $sA[0]['created_at'] <=> $sB[0]['created_at']; });
+    uasort($sets, function ($sA, $sB)
+    {
+      if ($sA[0]['project'] != $sB[0]['project'])
+      {
+        return $sA[0]['project'] < $sB[0]['project'] ? -1 : 1;
+      }
+      return $sA[0]['sort_key'] < $sB[0]['sort_key'] ? -1 : 1;
+    });
+    
     foreach ($sets as $group => &$groupSet)
     {
       usort($groupSet, function ($rA, $rB) { return $rA['created_at'] <=> $rB['created_at']; });

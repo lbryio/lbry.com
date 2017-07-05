@@ -19,7 +19,7 @@ class Asana
     $tasks = [];
 
     $tags = [
-      192699565737944 => 'Ongoing',
+      192699565737944 => 'Open Beta',
       192699565737946 => 'Upcoming',
       192699565737948 => 'Future'
     ];
@@ -40,12 +40,14 @@ class Asana
           else
           {
             $projectName = 'Other';
+            $projectId = null;
           }
           $tasks[$tagLabel][] = array_intersect_key($fullTask, ['name' => null]) + [
               'badge'         => $projectName,
               'date'          => $fullTask['due_on'] ?? null,
-              'body'          => nl2br($fullTask['notes'])  ,
+              'body'          => nl2br($fullTask['notes']),
               'group'         => $tagLabel,
+              'project_id'    => $projectId,
               'assignee'      => $fullTask['assignee'] ? ucwords($fullTask['assignee']['name']) : ''
             ];
         }
@@ -63,6 +65,10 @@ class Asana
         if ($tA['date'] xor $tB['date'])
         {
           return $tA['date'] ? -1 : 1;
+        }
+        if ($tA['project_id'] xor $tB['project_id'])
+        {
+          return $tA['project_id'] ? -1 : 1;
         }
         return $tA['date'] < $tB['date'] ? -1 : 1;
       });

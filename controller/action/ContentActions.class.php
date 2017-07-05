@@ -220,9 +220,9 @@ class ContentActions extends Actions
       {
         $lastItem = end($items);
         $project = $lastItem['project'];
-        if (!isset($projectMaxVersions[$project]) || strnatcasecmp($lastItem['version'], $projectMaxVersions[$project]) > 0)
+        if (!isset($projectMaxVersions[$project]) || $lastItem['sort_key'] > $projectMaxVersions[$project])
         {
-          $projectMaxVersions[$project] = $lastItem['version'];
+          $projectMaxVersions[$project] = $lastItem['sort_key'];
         }
       }
     }

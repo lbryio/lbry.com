@@ -1,5 +1,5 @@
 <h3>{{title.refer}}</h3>
-<p>{{page.refer.earn1}} <?php echo i18n::formatCredits($prefineryUser['id'] < 75000 ? 10 : 5) ?> {{page.refer.earn2}}</p>
+<p>{{page.refer.earn1}} <?php echo i18n::formatCredits($prefineryUser['id'] < 75000 ? 10 : (date('Y-m-d') > '2017-06-19' ? 2.5 : 5)) ?> {{page.refer.earn2}}</p>
 <p>
   <input type="text" value="<?php echo Request::getHostAndProto() ?>/get?r=<?php echo $referralCode ?>" style="width: 100%; border-color: #155B4A" readonly id="referral-url-input"/>
   <?php js_start() ?>
