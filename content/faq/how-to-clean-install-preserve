@@ -1,0 +1,36 @@
+---
+title: How to do a clean install of LBRY while preserving important data
+category: setup
+---
+
+Under certain circumstances, it may be recommended that you perform a clean installation of LBRY.  This generally involves uninstalling the current LBRY application, removing various directories/files and then reinstalling the LBRY application.  Since each Operating System has its own set of working directories, it's a good idea to review: https://lbry.io/faq/lbry-directories before proceeding.  
+
+After uninstalling LBRY, the working directories are left intact so that the application can be easily reinstalled without losing your application data and wallet file  Application data is in the lbrynet folder (LBRY folder for Mac) and it includes various database and configuration files.  Wallet and blockchain data is in the lbryum folder. Typically, you would want to keep your wallet and a handful of configuration/database files when performing a clean install while keeping most of your important data intact.
+
+## Windows
+1. Uninstall the LBRY application by going to "Add or Remove Programs" via the Control Panel
+2. Type in %appdata% into an Explorer window to find the working directories
+3. Delete the entire LBRY folder
+4. Navigate to the lbryum folder and delete the blockchain_headers file
+5. Navigate to the lbrynet folder and delete all items while leaving the following:
+5.1 'blobfiles' folder - stores blobs of downloaded files for hosting purposes
+5.2 'blobs.db' - reference data for the blob files which are used for hosting purposes
+5.3 'lbryfile_info.db' - Downloads and Publishes data
+5.4 'install_id' - Links your LBRY account with email address. Delete if want to start with new email. 
+- `C:\Program Files (x86)\lbrynet` - LBRY application itself
+- `C:\Users\%USER%\AppData\Roaming\lbrynet` - Daemon configuration and blobs
+- `C:\Users\%USER%\AppData\Roaming\LBRYum` - Wallet and blockchain headers (if using the app or the lbryum wallet)
+
+## MacOS
+
+- `~/Library/Application Support/LBRY` - LBRY application itself
+- `~/Library/Application Support/lbrycrd` - Wallet and blockchain (if using lbrycrdd wallet)
+- `~/.lbrycrd` - Alternate location for lbrycrdd wallet and blockchain
+- `~/.lbryum` - Wallet and blockchain headers (if using the app or the lbryum wallet)
+
+## Linux
+
+- `/opt/LBRY` - LBRY application itself
+- `~/.lbrynet` - Daemon configuration and blobs
+- `~/.lbryum` - Wallet and blockchain headers (if using the app or the lbryum wallet)
+- `~/.lbrycrd` - Wallet and blockchain (if using lbrycrdd wallet)
