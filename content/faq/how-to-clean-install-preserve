@@ -12,7 +12,7 @@ After uninstalling LBRY, the working directories are left intact so that the app
 ## Windows
 1. Reboot your PC (this is to ensure that no LBRY processes are running)
 2. Uninstall the LBRY application by accessing "Add or Remove Programs" via the Control Panel
-3. Type in `%appdata%` into an Explorer window to find the working directories
+3. Type `%appdata%` into an Explorer window to find the working directories
 4. Delete the entire LBRY folder
 5. If performing a clean install, delete the lbryum and lbrynet folders also **(!!THIS WILL DELETE YOUR WALLET AND DATA!!)** and skip to step 8 
 6. Navigate to the lbryum folder and delete the `blockchain_headers` file
@@ -28,7 +28,7 @@ After uninstalling LBRY, the working directories are left intact so that the app
 ## MacOS
 1. Reboot your PC (this is to ensure that no LBRY processes are running)
 2. Uninstall the LBRY application by dragging the LBRY app from the Applications folder to the Trash (located at the end of the Dock), then choose Finder > Empty Trash
-3. Open Finder, click Go on top menu, choose "Go To Folder" Type "~/Library/Application Support/LBRY" then click go.
+3. Open Finder, click Go on top menu, choose "Go To Folder", Type "~/Library/Application Support/LBRY" and then click go.
 4. If performing a clean install, delete the entire contents of this folder **(!!THIS WILL DELETE YOUR LBRY DATA!!)** and proceed to step 6
 5. Otherwise, delete everything except for:
  1. `blobfiles folder` - stores encrypted downloaded files which are used for hosting
@@ -36,7 +36,7 @@ After uninstalling LBRY, the working directories are left intact so that the app
  3. `lbryfile_info.db` - Downloads and Publishes data
  4. `blockchainname.db` - Supports downloads data
  5. `install_id` - Links your LBRY account to your email address. Delete if you want to start with new email. 
-6. In Finder - click Go menu on top, choose "Go To Folder" this box comes up. Type. ~/.lbryum and click go
+6. In Finder - click Go menu on top, choose "Go To Folder", type. ~/.lbryum and then click go
 7. If performing a clean install, delete the entire contents of this folder **(!!THIS WILL DELETE YOUR WALLET!!)** and proceed to the next step, otherwise delete just the `blockchain_headers` file
 8. Install the latest verison of LBRY from: [Github App Page](https://github.com/lbryio/lbry-app/releases "Github App Page")
 9. Launch LBRY by starting it from the Applications folder.  You can add it to your dock for easier access.  If you kept your data and wallet, your balance and content will be reflected
