@@ -9,16 +9,16 @@ In certain cases, we may ask you to send us your log file(s).  The current log f
 
 ## Windows
 1. Type `%appdata%/lbrynet` into an Explorer window to find the log file directory.
-2. Here you will see the `lbrynet.log` and any archives. 
+2. Here you will see the `lbrynet.log` file and any archives. 
 3. If posting to public forum, please ensure IP address in file is masked.
 
 ## MacOS
 1. Open Finder, click Go on top menu, choose "Go To Folder" Type "~/Library/Application Support/LBRY" and then click go.
-2. Here you will see the `lbrynet.log` and any archives. 
+2. Here you will see the `lbrynet.log` file and any archives. 
 3. If posting to public forum, please ensure IP address in file is masked.
 
 ## Ubuntu / Linux *(Exact steps may differ slightly)* 
 1. Open File browser and navigate to the Home directory. Press Ctrl-H to view hidden files and folders
 2. Navigate to the .lbrynet folder
-3. Here you will see the `lbrynet.log` and any archives. 
+3. Here you will see the `lbrynet.log` file and any archives. 
 4. If posting to public forum, please ensure IP address in file is masked.
