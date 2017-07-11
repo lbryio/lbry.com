@@ -43,7 +43,7 @@ After uninstalling LBRY, the working directories are left intact so that the app
 
 ## Ubuntu / Linux *(Exact steps may differ slightly)* 
 1. Reboot your PC (this is to ensure that no LBRY processes are running)
-2. Uninstall the LBRY application by going to terminal and typing: sudo apt-get remove lbry. Y to confirm
+2. Uninstall the LBRY application by going to terminal and typing: sudo apt-get remove lbry. Y to confirm *(different on each distro)*
 3. Open File browser and navigate to the Home directory. Press Ctrl-H to view hidden files and folders
 5. If performing a clean install, delete the .lbryum and .lbrynet folders **(!!THIS WILL DELETE YOUR WALLET AND DATA!!)** and skip to step 8
 6. Navigate to the .lbryum folder and delete the `blockchain_headers` file
