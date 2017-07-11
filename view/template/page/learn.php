@@ -33,6 +33,9 @@
         <div class="spacer1">
           <a href="/team" class="link-primary">About the Team</a>
         </div>
+        <div class="spacer1">
+          <a href="/credit-reports" class="link-primary">Credit Reports</a>
+        </div>
       </div>
     </div>
   </div>

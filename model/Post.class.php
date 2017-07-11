@@ -126,6 +126,11 @@ class Post
     return $this->metadata;
   }
 
+  public function getMetadataItem($key, $default = null)
+  {
+    return $this->metadata[$key] ?? $default;
+  }
+
   public function setMetadataItem($key, $value)
   {
     $this->metadata[$key] = $value;
@@ -373,7 +378,7 @@ class Post
 
   public static function getSlugFromFilename($filename)
   {
-    return strtolower(preg_replace('#^\d+\-#', '', basename(trim($filename), '.md')));
+    return strtolower(preg_replace('#^\d{1,3}\-#', '', basename(trim($filename), '.md')));
   }
 
   public static function collectMetadata(array $posts, $field)

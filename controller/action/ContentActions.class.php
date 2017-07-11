@@ -8,18 +8,21 @@ class ContentActions extends Actions
     SLUG_FAQ = 'faq',
     SLUG_PRESS = 'press',
     SLUG_BOUNTY = 'bounty',
+    SLUG_CREDIT_REPORTS = 'credit-reports',
 
     URL_NEWS = '/' . self::SLUG_NEWS,
     URL_FAQ = '/' . self::SLUG_FAQ,
     URL_PRESS = '/' . self::SLUG_PRESS,
     URL_BOUNTY = '/' . self::SLUG_BOUNTY,
+    URL_CREDIT_REPORTS = '/' . self::SLUG_CREDIT_REPORTS,
 
     CONTENT_DIR = ROOT_DIR . '/content',
 
     VIEW_FOLDER_NEWS = self::CONTENT_DIR . '/' . self::SLUG_NEWS,
     VIEW_FOLDER_FAQ = self::CONTENT_DIR . '/' . self::SLUG_FAQ,
     VIEW_FOLDER_BOUNTY = self::CONTENT_DIR . '/' . self::SLUG_BOUNTY,
-    VIEW_FOLDER_PRESS = self::CONTENT_DIR . '/' . self::SLUG_PRESS;
+    VIEW_FOLDER_PRESS = self::CONTENT_DIR . '/' . self::SLUG_PRESS,
+    VIEW_FOLDER_CREDIT_REPORTS = self::CONTENT_DIR . '/' . self::SLUG_CREDIT_REPORTS;
 
   public static function executeHome(): array
   {
@@ -87,7 +90,6 @@ class ContentActions extends Actions
         'setup'      => 'Installing and Running LBRY',
         'wallet'     => 'The LBRY Wallet',
         'mining'     => 'Mining LBC',
-        'policy'     => 'Policies',
         'developer'  => 'Developers',
         'differences' => 'What Makes LBRY Different?',
         'other'      => 'Other Questions',
@@ -123,6 +125,38 @@ class ContentActions extends Actions
       return Controller::redirect('/' . static::SLUG_FAQ);
     }
     return ['content/faq-post', ['post' => $post]];
+  }
+
+
+  public static function executeCreditReports(string $year = null, string $month = null): array
+  {
+    Response::enableHttpCache();
+
+    $posts = Post::find(static::VIEW_FOLDER_CREDIT_REPORTS);
+    
+    return ['content/credit-reports', [
+      'posts' => $posts
+    ]];
+  }
+
+  public static function executeCreditReport(string $year = null, string $quarter = null): array
+  {
+
+    Response::enableHttpCache();
+
+    try
+    {
+      $post = Post::load(static::SLUG_CREDIT_REPORTS . '/' . $year . '-Q' . $quarter);
+    }
+    catch (PostNotFoundException $e)
+    {
+      return Controller::redirect('/' . static::SLUG_CREDIT_REPORTS);
+    }
+    $metadata = $post->getMetadata();
+    return ['content/credit-report', [
+      'post' => $post,
+      'sheetUrl' => $metadata['sheet']
+    ]];
   }
 
   public static function executePress(string $slug = null): array

@@ -1,6 +1,6 @@
 ---
-title: LBRY Credit Policy
-category: policy
+title: What is LBRY doing with non-mined credits?
+category: other
 ---
 
 LBRY, Inc. controls a significant number of LBRY credits (LBC). At the inception of the blockchain, it was 400,000,000 LBC.
@@ -21,14 +21,7 @@ The initial 400m credits are broken down as follows:
 
 LBRY issues a quarterly report every 3 months in January, April, July, and October, covering the preceding 3 full months. These reports outline the corresponding transaction history as the current state of LBRY, Inc.'s balance sheet and anticipated future expenditures.
 
-| Date | Report | Balance Sheet |
-| ---- | ------ | ------------ |
-| Q2 2016 | [report](/faq/quarterly-report-july-2016) | [sheet](https://docs.google.com/spreadsheets/d/1r7puheE4Ut4c08R47uCDZbDdMHAoQa0WDqw470gjMIw/edit#gid=0) |
-| Q3 2016 | [report](/faq/quarterly-report-3q-2016) | [sheet](https://docs.google.com/spreadsheets/d/1zPG58YuLPqpB3yzypntRWouoEVc4saDOifpnvnwS8Rc/edit?ts=57f28d0e#gid=799352054) |
-| Q4 2016 | [report](https://docs.google.com/document/d/10xY_4PXQagYOMDBtA7Lv8-jcs2ryCBKi9WXvAN4l8EU/edit?usp=sharing) | [sheet](https://docs.google.com/spreadsheets/d/11nKwFXN3gIQHnE7jYjEK5AFClyAde9aFs6UlnGX3Uzg/edit?usp=sharing) |
-| Q1 2017 | [report](https://docs.google.com/document/d/1_B6hUXuxfSxsmVuNIUkgX7NROj0WvZc8PCI4O87aZkQ/edit?usp=sharing) | [sheet](https://docs.google.com/spreadsheets/d/1c-8CR1ro7lKOANHhWhivF7bZ19_ppgCq-d-HD_u43vM/edit?usp=sharing) |
-
-Specific details of historic, ongoing, and anticipated fund expenditures can be seen in the most recent quarterly report.
+The full list of these reports can be seen on [the credit reports page](https://lbry.io/credit-reports).
 
 ## Community Fund
 

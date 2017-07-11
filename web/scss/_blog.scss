@@ -115,6 +115,24 @@
   word-wrap: break-word;
   max-width: 100%;
 
+  thead th, > tr:first-child th
+  {
+    border-bottom: 1px solid #e2e2e2;
+    vertical-align: bottom;
+    font-weight: bold;
+    font-size: 0.9em;
+    padding: $spacing-vertical/4+1 8px $spacing-vertical/4-2;
+    text-align: left;
+    img
+    {
+      vertical-align: text-bottom;
+    }
+  }
+  tr.thead:not(:first-child) th
+  {
+    border-top: 1px solid #e2e2e2;
+  }
+
   th, td
   {
     padding: $spacing-vertical/2 8px;
@@ -128,18 +146,7 @@
   {
     vertical-align: top;
   }
-  thead th, > tr:first-child th
-  {
-    vertical-align: bottom;
-    font-weight: bold;
-    font-size: 0.9em;
-    padding: $spacing-vertical/4+1 8px $spacing-vertical/4-2;
-    text-align: left;
-    img
-    {
-      vertical-align: text-bottom;
-    }
-  }
+
   td.center
   {
     vertical-align: middle;
@@ -159,17 +166,7 @@
   {
     width: 100%;
   }
-}
-.post-content table
-{
-  thead th, > tr:first-child th
-  {
-    border-bottom: 1px solid #e2e2e2;
-  }
-  tr.thead:not(:first-child) th
-  {
-    border-top: 1px solid #e2e2e2;
-  }
+
   tbody
   {
     tr
