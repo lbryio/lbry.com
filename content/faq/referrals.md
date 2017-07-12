@@ -9,7 +9,7 @@ Please note: Invites outside of English speaking countries are paused pending be
 
 ### How long will I be on the list? How frequently do you take people off?
 
-We anticipate taking anywhere from several hundreds to several thousand off each week. 
+Since June 2017, we've been inviting over 10,000 people every week. 
 
 ### How do you determine who to take off the list?
 
