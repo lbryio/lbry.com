@@ -1,37 +1,18 @@
 ---
-title: How to change default deamon peer port?
+title: How to change default daemon peer port?
 category: setup
 ---
 
-#### Why it occurs?
+If you see the error message `couldn't bind to port 3333`, it is likely that another process is already bound to that port. You will need to change the port before starting the daemon.
 
-It usually occurs when some other service is already using the default TCP port 3333.
+To change the port once during runtime, set the LBRY_PEER_PORT env variable. Here's one way to do this:
 
+    LBRY_PEER_PORT=3334 ./lbrynet-daemon
 
-### How to solve the problem?
-
-
-#### If LBRY is not starting and spews "couldn't bind to port 3333"
-
-Open the file `lbrynet/conf.py`
-
-Locate the line:
-
-```python
-'peer_port': (int, 3333),
-```
-
-And change the value to the desired unused port.
-
-After that run the command `python setup.py install` from the repo's root directory.
-
-
-#### If LBRY Daemon is running and you want to change it for the next run
-
-You can change it via the following [api](/api) call
+Once the daemon is running, you can change the port permanently by using the following [api](/api) call
 
     curl 'http://localhost:5279/lbryapi' --data '{"method":"settings_set", "params":{"peer_port":<port-num>}}'
 
-Or via cli command
+or via cli command
 
-	lbrynet-cli settings_set --peer_port 3333
+    lbrynet-cli settings_set --peer_port 3333
