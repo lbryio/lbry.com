@@ -1,13 +1,13 @@
 ---
-title: How to do a clean install of LBRY while preserving important data
+title: How do I do a clean install of LBRY while preserving important data?
 category: setup
 ---
 
-Under certain circumstances, it may be recommended that you perform a clean installation of LBRY.  This generally involves uninstalling the current LBRY application, removing various directories/files and then reinstalling the latest version of LBRY.  Since each Operating System has its own set of working directories, it's a good idea to review: https://lbry.io/faq/lbry-directories before proceeding.  
+Under certain circumstances, particularly if you've tested earlier beta versions, it may be recommended that you perform a clean installation of LBRY.  This generally involves uninstalling the current LBRY application, removing various directories/files and then reinstalling the latest version of LBRY. Different operating systems use different folder locations and [this post on directories](https://lbry.io/faq/lbry-directories) will help if you cannot locate the right files or folders.  
 
-After uninstalling LBRY, the working directories are left intact so that the application can be easily reinstalled without losing your application data and wallet file  Application data is in the lbrynet folder (LBRY folder for Mac) and it includes various database and configuration files.  Wallet and blockchain data is in the lbryum folder. Typically, you would want to save your wallet and a handful of configuration/database files when performing a clean install in order to keep your important data intact.
+After uninstalling LBRY, the working directories are left intact so that the application can be easily reinstalled without losing your application data and wallet file. Application data is in the lbrynet folder (LBRY folder for Mac) and it includes various database and configuration files.  Wallet and blockchain data is in the lbryum folder. Typically, you will want to save your wallet and a handful of configuration/database files when performing a clean install in order to keep your important data intact.
 
-*Note: After running LBRY after a clean install, you may be prompted again for your email, this is normal. If for some reason you need your verification code resent, please email help@lbry.io or reach out to us on Slack!*
+Note: after a clean install, you may be prompted again for your email. This is normal. As always, you can email [help@lbry.io](mailto:help@lbry.io) or reach out to us on Slack if you encounter any trouble.
 
 ## Windows
 1. Reboot your PC (this is to ensure that no LBRY processes are running)
@@ -21,7 +21,6 @@ After uninstalling LBRY, the working directories are left intact so that the app
  2. `blobs.db` - reference data for the blob files which are used for hosting purposes
  3. `lbryfile_info.db` - Downloads and Publishes data
  4. `blockchainname.db` - Supports downloads data
- 5. `install_id` - Links your LBRY account to your email address. Delete if you want to start with new email
 8. Install the latest verison of LBRY from: [Github App Page](https://github.com/lbryio/lbry-app/releases "Github App Page"). If prompted to allow through Windows Firewall, click Allow
 9. LBRY should start immediately after install.  If you kept your data, your balance and content will be reflected
 
