@@ -154,7 +154,7 @@
 
       <p>Applications beyond a traditional computer based browser are possible as well. A LBRY television dongle, a LBRY radio, and any number of existing content access mechanisms can be implemented via an analogous LBRY device.</p>
       <h4>Content Discovery</h4>
-      <p>Although the namespace provided by the LBRY protocol is helpful towards discovery, much as the web would be much less useful without search engines or aggregators, LBRY needs it’s own discovery mechanisms.</p>
+      <p>Although the namespace provided by the LBRY protocol is helpful towards discovery, much as the web would be much less useful without search engines or aggregators, LBRY needs its own discovery mechanisms.</p>
 
       <p>Search features can be constructed from the catalogue of metadata provided in the blockchain as well as the content transaction history available in the blockchain or observed on the network. All of this data, along with user history, allows for the creation of content recommendation engines and advanced search features.</p>
 
@@ -172,7 +172,7 @@
       <h2 id="credits">LBRY Credits</h2>
       <p>LBRY Credits, or <em>LBC</em>, are the unit of account for LBRY. Eventually 1,000,000,000 LBC will exist, according to a defined schedule over 20 years. The schedule decays exponentially, with around 100,000,000 in the first year.</p>
 
-      <p>Additionally, some credits are awarded on a fixed basis. The total break down looks like this:</p>
+      <p>Additionally, some credits are awarded on a fixed basis. The total breakdown looks like this:</p>
 
       <ul>
         <li>10% for organizations, charities, and other strategic partners. Organizations like the EFF, ACLU, and others that have fought for digital rights and the security and freedom of the internet.</li>
@@ -190,7 +190,7 @@
 
       <p>To evaluate a technology’s effect, we must consider where it moves us from the current state of affairs, not judge against a Platonic ideal or past era. In assessing LBRY, we must compare it to a world in which BitTorrent already exists and is quite popular, not the 1950s. LBRY is an improvement over BitTorrent in combatting unsavory content in at least four ways:</p>
 
-      <ol><li><strong>More records. </strong>LBRY contains a public ledger of transactions recording name purchases and content publishings. As many purchases make it onto the ledger as well, this means infringing actions are frequently recorded <em>forever, </em>or are at a minimum widely observable.</li>
+      <ol><li><strong>More records. </strong>LBRY contains a public ledger of transactions recording name purchases and published content. As many purchases make it onto the ledger as well, this means infringing actions are frequently recorded <em>forever, </em>or are at a minimum widely observable.</li>
 
         <li><strong>Updatable URLs.</strong> Once a BitTorrent magnet hash is in the wild, there is no mechanism to update or alter its resolution whatsoever. If a LBRY name is pointing to infringing content, it can be updated or removed (but not by us). </li>
 
@@ -210,13 +210,13 @@
 
         <li><strong>Operate openly, inclusively, and transparently.</strong> Anyone can publish or interact with the LBRY network. No one needs permission from us or anyone else. LBRY encourages all parties to participate in the network, rather than the creation of walled gardens. LBRY is a completely open specification and all code is open source.</li>
 
-        <li><strong>Prove decentralization doesn’t mean infringement.</strong> Existing decentralized publishing protocols offer no way for rightsholders to combat or capture profits from illegally shared content. LBRY’s service layer, blacklisting mechanisms, and naming system all improve the status quo.</li>
+        <li><strong>Prove decentralization doesn’t mean infringement.</strong> Existing decentralized publishing protocols offer no way for right holders to combat or capture profits from illegally shared content. LBRY’s service layer, blacklisting mechanisms, and naming system all improve the status quo.</li>
 
         <li><p><strong>Acknowledge modern digital realities and ethical norms.</strong> Prohibition has failed at every turn and in every iteration. Regulating human behavior only works when it aligns with moral norms that are shared by the majority of the population.
           <p>
           If it is impossible to keep drugs out of prisons, it will never be possible to enforce copyright via analogous tactics on the infinitely less-controlled internet. Instead, focus on enticement. While legal compliance is paramount, concentrate as much as possible on making a system that relies more on giving people no excuse to do the wrong thing.</li>
 
-        <li><strong>Collect no rent.</strong>. Whatever an artist or creator charges for their work should go to them. Distributing bits is exceedingly simple. There’s no need to give 45% to YouTube or 30% to Apple. Collecting no rent isn’t just a promise, it’s hard coded. The nature of LBRY means this could never be done -- by us or anyone else.</li>
+        <li><strong>Collect no rent.</strong> Whatever an artist or creator charges for their work should go to them. Distributing bits is exceedingly simple. There’s no need to give 45% to YouTube or 30% to Apple. Collecting no rent isn’t just a promise, it’s hard coded. The nature of LBRY means this could never be done -- by us or anyone else.</li>
       </ol>
     </section>
     <section>
@@ -311,7 +311,8 @@
       <h4>Content Distribution</h4>
       <p>Digital content distributors with server-client models are subject to the whims of internet service providers and hostile foreign governments. Traffic from the host servers can be throttled or halted altogether if the owners of cables and routers so choose. However, in case of the LBRY protocol content comes from anywhere and everywhere, and is therefore not so easily stifled. </p>
 
-      <p>Additionally, the market mechanisms of LBRY create a strong incentive for efficient distribution, which will save the costs of producers and ISPs alike. These properties, along with LBRY’s infringement disincentivizing properties, make LBRY an appealing technology for large existing data or content distributors.</p>
+      <p>Additionally, the market mechanisms of LBRY create a strong incentive for efficient distribution, which will save the costs of producers and ISPs alike. These properties, along with LBRY’s infringement 
+      izing properties, make LBRY an appealing technology for large existing data or content distributors.</p>
       <h4>Transaction Settlement</h4>
       <p>While payments can be issued directly on the LBRY blockchain, the LBRY protocol encourages a volume of transactions that will not scale without usage of off-chain settlement.</p>
 
