@@ -1,0 +1,19 @@
+---
+author: reilly
+title: 'Throwback Throwdown'
+date: '2017-07-13 00:03:00'
+cover: 'slav-banner.jpg'
+---
+Ever find something you had no idea that you’d like it *so much*?
+
+That’s exactly how I feel about this conspicuously popular-yet-underground channel now on LBRY. If you love the soundscapes of synths, electronica, and EDM but are sick of the contemporary pop rehashes that all sound the same… you’re in luck.
+
+![Slav Records](/img/news/slav-inline.png)
+
+<a href='lbry://@Slav'>@Slav Records</a> are purveyors of house music with an emphasis on 90s-style beats.
+
+The sickest album art and grooviest sounds instantly made <a href='lbry://@Slav'>@Slav</a> my favorite music publisher on LBRY, second to none.
+
+They are one of the biggest musical channels to take bitcoin donations--now it’s time to shower them with LBC. While moonwalking, of course.
+
+**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Want to show us how to get down? Email reilly@lbry.io with your hottest beats. Or sync your channel at: https://api.lbry.io/yt/connect
