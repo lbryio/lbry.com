@@ -312,7 +312,7 @@
       <p>Digital content distributors with server-client models are subject to the whims of internet service providers and hostile foreign governments. Traffic from the host servers can be throttled or halted altogether if the owners of cables and routers so choose. However, in case of the LBRY protocol content comes from anywhere and everywhere, and is therefore not so easily stifled. </p>
 
       <p>Additionally, the market mechanisms of LBRY create a strong incentive for efficient distribution, which will save the costs of producers and ISPs alike. These properties, along with LBRY’s infringement 
-      izing properties, make LBRY an appealing technology for large existing data or content distributors.</p>
+      disincentivizing properties, make LBRY an appealing technology for large existing data or content distributors.</p>
       <h4>Transaction Settlement</h4>
       <p>While payments can be issued directly on the LBRY blockchain, the LBRY protocol encourages a volume of transactions that will not scale without usage of off-chain settlement.</p>
 
