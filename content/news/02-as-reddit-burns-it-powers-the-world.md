@@ -12,7 +12,7 @@ Today, these are the top 10 posts on /r/all:
 
 ![The top posts of /r/all](http://i.imgur.com/RhFZDgs.png)
 
-Perhaps my favorite internet moment ever has been given the indecently bland Wikipedia title of [AACS encryption key controversy](http://en.wikipedia.org/wiki/AACS_encryption_key_controversy). For the kids, non-nerds, and amnesiac nerds, a synopsis: the movie industry subpoenaed Digg to remove any references to the number **09 F9 11 02 9D 74 E3 5B D8 41 56 C5 63 56 88 C0** on the grounds that the number could be used to decrypt DVDs. Digg complied. Users revolted. The front page of Digg looked a lot like /r/all, except full of hexidecimal digits instead of fat people and swastikas.
+Perhaps my favorite internet moment ever has been given the indecently bland Wikipedia title of [AACS encryption key controversy](http://en.wikipedia.org/wiki/AACS_encryption_key_controversy). For the kids, non-nerds, and amnesiac nerds, a synopsis: the movie industry subpoenaed Digg to remove any references to the number **09 F9 11 02 9D 74 E3 5B D8 41 56 C5 63 56 88 C0** on the grounds that the number could be used to decrypt DVDs. Digg complied. Users revolted. The front page of Digg looked a lot like /r/all, except full of hexadecimal digits instead of fat people and swastikas.
 
 Watching the everyman rebel against censorship and control brought tears to my eyes. It was an absolute inspiration. Astute eyes can find a tiny free speech flag in [our footer ](https://lbry.io/why).
 
@@ -40,7 +40,7 @@ Reddit claims that the grounds for the bans is violation of rules regarding the 
 
 * Reddit [claims that it cares about transparency](http://www.reddit.com/r/announcements/comments/35uyil/transparency_is_important_to_us_and_today_we_take/), but refuses to provide any details or guidelines on its rules. Nor will it provide specific examples of the grounds on which it banned the targeted communities.
 
-* Reddit claims it banned communities on grounds of targeted harassment, but users that have sited numerous specific examples of harassment from communities more politically favorable to Reddit's founders go ignored.
+* Reddit claims it banned communities on grounds of targeted harassment, but users that have cited numerous specific examples of harassment from communities more politically favorable to Reddit's founders go ignored.
 
 * Reddit claims that it banned the communities on grounds of targeted harassment, but has banned new subs created by unrelated users that have done no harassing.
 

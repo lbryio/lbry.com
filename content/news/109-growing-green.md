@@ -20,4 +20,4 @@ If you’ve been looking to build your own garden and don’t know where to star
 
 Don’t stay outside long, though. You’ll miss LBRY too much.
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Have some tips and tricks of your own craft to share? Email reilly@lbry.io to **spread** your **knowledge** faster than Tai Lopez in a lambo.
+**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Have some tips and tricks of your own craft to share? Email reilly@lbry.io to **spread** your **knowledge** faster than Tai Lopez in a Lambo.

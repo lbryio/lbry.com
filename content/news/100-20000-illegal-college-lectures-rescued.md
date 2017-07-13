@@ -1,6 +1,6 @@
 ---
 author: jeremy
-title: '20,000 Worldclass University Lectures Made Illegal, So We Irrevocably Mirrored Them'
+title: '20,000 World-class University Lectures Made Illegal, So We Irrevocably Mirrored Them'
 date: '2017-03-15 00:09:00'
 cover: 'berkeley-banner.jpg'
 ---

@@ -12,7 +12,7 @@ Grin has been named LBRY’s *Chief Infrastructure Officer*, but *Wizard* is pro
 
 With degrees in computer science and psychology from Rensselaer Polytechnic Institute, Grin has a unique ability to understand and apply new technologies. He also brings plenty of business knowledge to the table, with six years of experience running startup tech companies. Add to all of that his ultimate-frisbee skills – he played for a national-caliber team for seven years and professionally for the Philly Spinners – and you can see why we’ve dubbed him the Wizard.
 
-After he graduated from RPI, Grin spent a year doing cognitive research for the US Navy at the the Naval Undersea Warfare Center in Newport, RI. That was as long as it took for him to realize government work wasn’t for him.
+After he graduated from RPI, Grin spent a year doing cognitive research for the US Navy at the Naval Undersea Warfare Center in Newport, RI. That was as long as it took for him to realize government work wasn’t for him.
 
 >“The bureaucracy and boredom were unbearable.”
 

@@ -10,7 +10,7 @@ Economist Alex Tabarrok has joined LBRY as the company’s Economic Advisor. Tab
 
 <img src="https://lbry.io/img/team/alex-tabarrok-644x450.jpg" alt="Alex Tabarrok, Economic Advisor to LBRY">
 
-LBRY is the first decentralized, open-source, encrypted content distribution service. It allows content producers to connect directly with consumers, bypassing middlemen like Netflix, iTunes, Amazon, and YouTube. LBRY addresses many of the flaws inherent in top-down, centralized content distribution systems, and could fundamentally alter they way we share media.
+LBRY is the first decentralized, open-source, encrypted content distribution service. It allows content producers to connect directly with consumers, bypassing middlemen like Netflix, iTunes, Amazon, and YouTube. LBRY addresses many of the flaws inherent in top-down, centralized content distribution systems, and could fundamentally alter the way we share media.
 
 “LBRY is designing the rules for a new global market that will let suppliers and demanders of information trade more easily, quickly and securely than ever before,” Tabarrok said. “As an economist, the opportunity to help engineer an open, decentralized, incentive-compatible institution with global reach is thrilling!”
 
