@@ -15,7 +15,7 @@ The website allows artists to chose the way they distribute their music, from fr
 
 This is a huge step forward for independent artists who struggle to find space or make any money on large centralized content distribution sites like Amazon or iTunes. These [information gatekeepers](https://lbry.io/news/information-gatekeepers-make-our-culture-sick) squeeze out indy artists. Bandcamp creates an alternative that offers indy musicians more control and more revenue.
 
-But it still comes at a price for the artist. Bandcamp takes a 15% cut on digital digital downloads. Bandcamp’s take drops to 10% after $5,000 in annual sales.
+But it still comes at a price for the artist. Bandcamp takes a 15% cut on digital downloads. Bandcamp’s take drops to 10% after $5,000 in annual sales.
 
 Now imagine artists connecting directly with their fans like they can now do on Bandcamp, but without having to give up a huge cut of their earnings. That would be even better, right?
 

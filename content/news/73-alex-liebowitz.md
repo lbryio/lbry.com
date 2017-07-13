@@ -5,7 +5,7 @@ date: '2016-10-10 00:06:18'
 ---
 LBRY’s main app developer calls himself “easily the least interesting person on the team.”
 
-That actually speaks to just how interesting the LBRY team is. Or maybe to Alex Liebowitz’s sense of modesty. The fact is, Alex is a pretty interesting guy in his own right. He’s been on the team for a few months now, and it’s high time we introduced him.
+That actually speaks to just how interesting the LBRY team is. Or maybe to Alex Liebowitz’ sense of modesty. The fact is, Alex is a pretty interesting guy in his own right. He’s been on the team for a few months now, and it’s high time we introduced him.
 
 ![Alex Liebowitz](/img/news/aliebowitz.jpg)
 

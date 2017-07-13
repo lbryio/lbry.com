@@ -41,7 +41,7 @@ We spent a lot of time debating whether it was possible to build LBRY on top of 
 offers a tremendous user base.
 
 Ultimately, we decided this was not possible to do. We want LBRY to be the most efficient market for selling and buying
-information. From a fundamental perspective, kludging LBRY ontop of Bitcoin would result in reduced efficiency.
+information. From a fundamental perspective, kludging LBRY on top of Bitcoin would result in reduced efficiency.
 
 We are huge believers in Bitcoin and recognize we would not be here without it. If we have seen further, it is by standing on
 the shoulders of anonymous giants. For this reason, we plan to commit a significant initial portion of LBRY credits to
@@ -73,9 +73,9 @@ creator. Greater user experience + greater creator experience = WNNNG<sup>1</sup
 
 First, for clarity, here is LBRY's naming system as succinctly as possible:
 
-> whoever pledges the most credits against a name holds it, subject to a defined window for a counter-bid
+> Whoever pledges the most credits against a name holds it, subject to a defined window for a counter-bid
 
-Our instinctual desire to have confident possession of our property makes LBRY's resveration-only name system feel off. However,
+Our instinctual desire to have confident possession of our property makes LBRY's reservation-only name system feel off. However,
 it has strong economic underpinnings. Famed economist Ronald Coase made the insight that as long as property rights are clearly
 defined and there are sufficiently low transaction costs, an efficient outcome will result regardless of the initial allocation
 of property.
@@ -87,7 +87,7 @@ In the sense of this theorem, the efficient outcome is that the owner of any nam
 most value. When does a name hold the most value? When it maps to content that is most desired by users.
 
 What do users desire when accessing a name? For a name to resolve to the content they envisioned as well as for that content to be
-provided by it's legitimate creator. The former desire may outstrip the latter, but consumers would clearly rather pay a legitimate
+provided by its legitimate creator. The former desire may outstrip the latter, but consumers would clearly rather pay a legitimate
 creator than a non-legitimate creator. Thus, the legitimate content creator has maximal incentive to provide a LBRY name mapping
 to their content.
 

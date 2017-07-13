@@ -68,7 +68,7 @@ pip2 install -r requirements.txt
 
 If you're not running debian/*buntu, or a derivative of those, you need to
 edit the `configure` file a bit. On line 11, remove the `apt-get` line and
-manually install the requried packages. On line 48, change `adduser` to
+manually install the required packages. On line 48, change `adduser` to
 `useradd` and on the same line, change `--disabled-password` to `-p !`.
 
 ```bash

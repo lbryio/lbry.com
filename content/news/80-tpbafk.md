@@ -18,7 +18,7 @@ It was once censored on YouTube by Hollywood studios by way of bogus takedown cl
 
 ![The Internet’s Own Boy: The Story of Aaron Swartz](/img/news/internetsown-inline.jpg)
 
-This is arguably one of the most important documentaries in recent memory (and a personal favorite of mine). The late Aaron Swartz, co-founder of reddit, took his life in the wake of impending legal doom. Director Brian Knappenberger went to extraordinary lengths to tell Aaron’s story.
+This is arguably one of the most important documentaries in recent memory (and a personal favorite of mine). The late Aaron Swartz, co-founder of Reddit, took his life in the wake of impending legal doom. Director Brian Knappenberger went to extraordinary lengths to tell Aaron’s story.
 
 [*The Internet’s Own Boy*](lbry://theinternetsownboy) premiered at Sundance in 2014, SXSW, and was shortlisted for the Academy Awards for Best Documentary Film.
 

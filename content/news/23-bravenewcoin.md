@@ -14,7 +14,7 @@ But to the point. [BraveNewCoin published the first side-by-side comparison of L
 
 >"Perhaps the most interesting difference is the naming system, which works a lot like the internet's Domain Naming System (DNS).
 
->"LBRYIn much the same way you would register a domain name for your website that starts with an 'http://', in LBRY, you would register a name for each piece of content that you want to share, and those start with 'lbry://'.
+>"LBRY in much the same way you would register a domain name for your website that starts with an 'http://', in LBRY, you would register a name for each piece of content that you want to share, and those start with 'lbry://'.
 
 >"The idea is that web browsers will eventually read those links automatically, so that you can simply click on an URL like 'lbry://wonderfullife'  in order to watch the movie 'It's a wonderful life.'"
 

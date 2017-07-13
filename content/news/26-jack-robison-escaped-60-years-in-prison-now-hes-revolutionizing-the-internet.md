@@ -16,7 +16,7 @@ The case involved big booms, YouTube videos, and overzealous prosecutors. He fac
 
 That experience pretty much nixed Jack’s passion for explosives. As he put it, "I pretty thoroughly lost interest after they indicted me.” So he redirected his focus into other areas of chemistry, specifically designing compounds for medical use.
 
-This might sound like a wild story, but it’s actually more common than you’d think. [Peter Thiel revealed in his book](http://valleywag.gawker.com/peter-thiel-admits-the-paypal-mafia-built-bombs-in-hi-1632734435) that several of the co-founders of Paypal built explosives in high school. It’s not that tech companies look to hire firecrackers. It’s just that people who disrupt industries have to be willing to take risks in the name of creating something cool. Jack has just that mentality.
+This might sound like a wild story, but it’s actually more common than you’d think. [Peter Thiel revealed in his book](http://valleywag.gawker.com/peter-thiel-admits-the-paypal-mafia-built-bombs-in-hi-1632734435) that several of the co-founders of PayPal built explosives in high school. It’s not that tech companies look to hire firecrackers. It’s just that people who disrupt industries have to be willing to take risks in the name of creating something cool. Jack has just that mentality.
 
 We’ve seen him hone various aspects of our nascent protocol with a laser-like focus. This is common for people on the autism spectrum, which Jack discovered of himself after his indictment. In fact, his atypical mind may have blinded him to the possibility that his explosions were anything more than the ambitious chemistry experiments he saw.
 

@@ -20,7 +20,7 @@ Both Chris and Trevon were LBRY early adopters. It’s still pretty early; you o
 
 Sync your YouTube channel today with this handy tool: https://lbry.io/youtube
 
-**Check out the the LBRY film playlist**
+**Check out the LBRY film playlist**
 - [*Coherence*](lbry://coherence)
 - [*It’s A Disaster*](lbry://itsadisaster)
 - [*Bellflower*](lbry://bellfower)
