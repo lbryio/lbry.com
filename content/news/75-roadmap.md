@@ -4,7 +4,7 @@ title: 'Open Beta? New Features? Keep Your Eye on the LBRY Roadmap'
 date: '2016-10-17 00:06:18'
 cover: 'lbry-3d-1000.png'
 ---
-LBRY is working hard to improve our communication with the public. While the vast majority of our time is put into building LBRY, we want to remain transparent and do more to keep those interested informed. In the past couple months, we have :
+LBRY is working hard to improve our communication with the public. While the vast majority of our time is put into building LBRY, we want to remain transparent and do more to keep those interested informed. In the past couple months, we have:
 
 - Published our [Credit Policy and second quarterly report](https://lbry.io/news/credit-policy-third-quarter-report).
 - Dramatically expanded our [FAQ](https://lbry.io/faq). See [this post](https://lbry.io/news/reddit-ama-answers) and [this one](https://lbry.io/news/what-makes-lbry-different) for the latest additions.
