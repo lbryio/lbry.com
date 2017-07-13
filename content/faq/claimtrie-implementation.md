@@ -26,7 +26,7 @@ There are also three different bid types: claim, update, and support.
 This section describes how bids are processed by the ClaimTrie in order to determine which bids have won the rights to claim a particular name.  There are 6 states a bid can be in, and they are explained below.  
 
 1. *Not accepted*: This bid is in a transaction which has not yet been included in a block which has been included in the blockchain.
-2. *Accepted*: This bid has been accepted into the blockchain. This happens when the transaction containing the TXout which contains the bid is included in a block which is included in the blockchain.
+2. *Accepted*: This bid has been accepted into the blockchain. This happens when the transaction containing the txout which contains the bid is included in a block which is included in the blockchain.
 3. *Active*: This bid is capable of controlling a name. Active bids must be in the “accepted” state and not “expired” or “spent”. Bids are “active” when either of the two conditions below are met:
     * The current block height exceeds the height of the block at which the bid became accepted plus the activation delay for the name as calculated at either the block at which the bid was accepted or any block after the bid was accepted. The activation delay is calculated as follows:
       * If, immediately before this block was included in the blockchain, there were no ‘active’ bids for the name and therefore no ‘controlling’ bids, the delay is 0.
@@ -42,7 +42,7 @@ This section describes how bids are processed by the ClaimTrie in order to deter
     * If the bid with the greatest amount does not have the same claimID as the bid which was ‘controlling’ prior to including the current block, change the delay for the name as of the current block to 0, redetermine which bids and supports should be active, and then perform the previous calculation again.
 
     * At this point, the bid calculated to have the greatest amount behind it is the ‘controlling’ bid as of this block
-5. *Spent*: A transaction has been included in the blockchain which spends the TXout which contains the bid. Must be in the ‘accepted’ state.
+5. *Spent*: A transaction has been included in the blockchain which spends the txout which contains the bid. Must be in the ‘accepted’ state.
 6. *Expired*: All bids ‘expire’ regardless of what state they are in when the current block height exceeds the height of the block at which the bid was accepted plus 52416 blocks, or 91 days ( currently this is set to 262974 blocks, or 456 days, which will be fixed in a future hard fork ). Updated claims will restart the expiration timer at the block height of the update.  
 
 
