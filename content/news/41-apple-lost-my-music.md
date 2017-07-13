@@ -31,4 +31,4 @@ Luckily for James, he was able to get his files back from a backup. But his expe
 
 LBRY eliminates that problem completely by cutting the iTunes of the world out of the equation altogether. Instead of relying on a middleman, content creators like musicians and filmmakers can connect directly to content consumers. Once you pay for the file, it’s yours. LBRY doesn’t maintain control over it and serve it to you on its own terms. You listen to your music, or watch your movie, whenever you want based on your direct relationship with the producer.
 
-Short-sighted middlemen add additional cost and hassle to the user experience in the name of customer lock-in and boosting profits. That's why we are building a content marketplace that no one company controls. You have enough enough frustration in your life without paying iTunes for more.
+Short-sighted middlemen add additional cost and hassle to the user experience in the name of customer lock-in and boosting profits. That's why we are building a content marketplace that no one company controls. You have enough frustration in your life without paying iTunes for more.
