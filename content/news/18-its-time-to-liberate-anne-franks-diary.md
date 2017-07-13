@@ -13,7 +13,7 @@ You’re probably familiar with *The Diary of Anne Frank*, also known as *The Di
 
 Anne died in the Bergen-Belsen concentration camp in 1945 at the age of 15. Herein lies the roots of the copyright battle over her diary.
 
-The Anne Frank Fonds now holds the copyright. The foundation was set up by Anne’s father, Otto Frank, before his death in 1980. Under the law, the diary should become public domain on January 1, 2016 – 70 years after Anne’s death. But Anne Frank Fonds now claims Otto was a coauthor, even though he was previously considered the “editor.” The foundation now insists Otto’s coauthorship extends the copyright to 2050 – 70 years after *his* death.
+The Anne Frank Fonds now holds the copyright. The foundation was set up by Anne’s father, Otto Frank, before his death in 1980. Under the law, the diary should become public domain on January 1, 2016 – 70 years after Anne’s death. But Anne Frank Fonds now claims Otto was a coauthor, even though he was previously considered the “editor.” The foundation now insists Otto’s co-authorship extends the copyright to 2050 – 70 years after *his* death.
 
 Of course, Anne Frank Fonds stands to collect a significant amount of money in royalties over that time.
 
@@ -31,7 +31,7 @@ An article on [BoingBoing](http://boingboing.net/2015/11/14/copyfraud-anne-frank
 
 As Rick Falkvinge argues, these archaic copyright laws simply [don’t work in the Internet age](https://torrentfreak.com/anne-frank-scandal-an-underreported-copyright-monopoly-abuse-151115/):
 
-> “The Internet is the single most important piece of infrastructure we have, and policymakers are letting an old printing monopoly decide how it can and cannot be used – which should be cause for revolts and uprisings. Instead, oldmedia are collectively treating it with a yawn, while tech writers who understand the issue are calling a spade a spade.”
+> “The Internet is the single most important piece of infrastructure we have, and policymakers are letting an old printing monopoly decide how it can and cannot be used – which should be cause for revolts and uprisings. Instead, old media are collectively treating it with a yawn, while tech writers who understand the issue are calling a spade a spade.”
 
 
 The real question is why should the distribution of Anne Frank’s diary be limited to one or two players in a monopoly system? If information were set free, you could access the diary in formats and with commentary limited only by our collective creativity.
