@@ -44,7 +44,7 @@ You get paid monthly $33 VEF (Venezuelan bolivars), which is on average $1.10 US
 
 In order to be able to buy some food, you must stand in long lines at the supermarkets for hours (4 on average) under a hot, 40°C sunny day.
 
-You must struggle against insecurity. In these lines people get killed by the hands of their fellow citizens. Under anguish and despair they just fall to madness, because these foods are sold on the black market for 4 times their price. Not to mention the constant threat of motorized criminals that even for an smart phone may take your life.
+You must struggle against insecurity. In these lines people get killed by the hands of their fellow citizens. Under anguish and despair they just fall to madness, because these foods are sold on the black market for 4 times their price. Not to mention the constant threat of motorized criminals that even for a smartphone may take your life.
 
 Getting medicines is not easy. Old people die for lack of medicines to treat high tension and cholesterol. Even a painkiller is something that you will rarely see in a pharmacy.
 
