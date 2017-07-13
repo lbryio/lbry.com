@@ -16,4 +16,6 @@ The sickest album art and grooviest sounds instantly made <a href='lbry://@Slav'
 
 They are one of the biggest musical channels to take bitcoin donations--now it’s time to shower them with LBC. While moonwalking, of course.
 
+<video autoplay controls><source src="https://spee.ch/slav-luz1e/2b9183ac19d937d2a787fcdd0d1c2cd285c52f4f" /></video>
+
 **Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Want to show us how to get down? Email reilly@lbry.io with your hottest beats. Or sync your channel at: https://api.lbry.io/yt/connect
