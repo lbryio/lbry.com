@@ -10,11 +10,7 @@ It's a classic indie comedy double feature that’s actually funny. If you haven
 
 ![S&M Lawn Care](/img/news/singletree-inline1.jpg)
 
-<<<<<<< HEAD
 [*S&M Lawn Care*](lbry://smlawncare) has a ridiculous yet effective premise: two local lawnmowers have their neighborhood business displaced by a chiseled-jaw competitor and his band of hot lawn-mowing babes.
-=======
-[*S&M Lawn Care*](lbry://smlawncare) has a ridiculous yet effective premise: two local lawnmowers have their neighborhood business displaced by a chiseled-jaw competitor and his band of hot lawn mowing babes.
->>>>>>> 00d757c... Update 79-singletree.md
 
 It won the Special Jury Prize in 2010 at the legendary Friar’s Club in New York. On the heels of success, director Mark Potts immediately went into production on his next film...
 
