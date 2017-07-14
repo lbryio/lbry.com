@@ -34,7 +34,6 @@ Note: after a clean install, you may be prompted again for your email. This is n
  2. `blobs.db` - reference data for the blob files which are used for hosting purposes
  3. `lbryfile_info.db` - Downloads and Publishes data
  4. `blockchainname.db` - Supports downloads data
- 5. `install_id` - Links your LBRY account to your email address. Delete if you want to start with new email. 
 6. In Finder - click Go menu on top, choose "Go To Folder", type. ~/.lbryum and then click go
 7. If performing a clean install, delete the entire contents of this folder **(!!THIS WILL DELETE YOUR WALLET!!)** and proceed to the next step, otherwise delete just the `blockchain_headers` file
 8. Install the latest verison of LBRY from: [Github App Page](https://github.com/lbryio/lbry-app/releases "Github App Page")
@@ -51,7 +50,6 @@ Note: after a clean install, you may be prompted again for your email. This is n
  2. `blobs.db` - reference data for the blob files which are used for hosting purposes
  3. `lbryfile_info.db` - Downloads and Publishes data
  4. `blockchainname.db` - Supports downloads data
- 5. `install_id` - Links your LBRY account to you email address. Delete if you want to start with new email
 8. Install the latest verison of LBRY from: [Github App Page](https://github.com/lbryio/lbry-app/releases "Github App Page")
 9. Click the Search button on the toolbar, type LBRY and then hit Enter to launch LBRY.  You can pin it to your taskbar for easier access. If you kept your data, your balance and content will be reflected
 
