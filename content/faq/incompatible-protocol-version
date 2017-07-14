@@ -1,0 +1,19 @@
+---
+title: Incompatible Protocol Version Warning
+category: troubleshooting
+---
+
+This warning happens when your LBRY browser did not install with the proper version of the software used to communicate with the LBRY network.
+
+The most likely cause of this error is an old version was running during the install process.
+
+### How to Fix
+
+1. Restart LBRY.
+1. If this did not work, restart your computer (or kill all processes with "lbry" in the name). Then restart LBRY.
+1. If this did not work, re-install LBRY.
+
+(do they need to do a full re-install? if you simply re-run the installer, will it update the daemon?)
+
+
+
