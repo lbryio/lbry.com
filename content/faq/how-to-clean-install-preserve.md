@@ -39,7 +39,8 @@ Note: after a clean install, you may be prompted again for your email. This is n
 8. Install the latest verison of LBRY from: [Github App Page](https://github.com/lbryio/lbry-app/releases "Github App Page")
 9. Launch LBRY by starting it from the Applications folder.  You can add it to your dock for easier access.  If you kept your data and wallet, your balance and content will be reflected
 
-## Ubuntu / Linux *(Exact steps may vary per distro)* 
+## Ubuntu / Linux
+*(Exact steps may vary per distro)* 
 1. Reboot your PC (this is to ensure that no LBRY processes are running)
 2. Uninstall the LBRY application by going to terminal and typing: sudo apt-get remove lbry. Y to confirm *(Ubunutu specific command)*
 3. Open File browser and navigate to the Home directory. Press Ctrl-H to view hidden files and folders
