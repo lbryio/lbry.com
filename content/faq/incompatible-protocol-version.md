@@ -10,7 +10,7 @@ The most likely cause of this error is an old version was running during the ins
 ### How to Fix
 
 1. Restart your PC or ensure that any processes with "lbry" in the name are not running. 
-1. [Download](https://github.com/lbryio/lbry-app) and re-install the latest version of LBRY. 
+1. [Download](https://github.com/lbryio/lbry-app/releases) and re-install the latest version of LBRY. 
 1. Start LBRY
 
 If you still receive this warning after completing the above steps, please [reach out to us](https://lbry.io/faq/how-to-report-bugs) for additional support. 
