@@ -88,6 +88,7 @@ class ContentActions extends Actions
         'LBRY 101'   => 'Intro to LBRY',
         'getstarted' => 'Getting Started',
         'setup'      => 'Installing and Running LBRY',
+        'troubleshooting' => 'Help and Troubleshooting',
         'wallet'     => 'The LBRY Wallet',
         'mining'     => 'Mining LBC',
         'developer'  => 'Developers',
