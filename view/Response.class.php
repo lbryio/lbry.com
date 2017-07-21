@@ -59,7 +59,7 @@ class Response
 
   public static function getMetaImages()
   {
-    return static::$metaImages ?: [Request::getHostAndProto() . '/img/lbry-dark-1600x528.png'];
+    return static::$metaImages ?: [Request::getHostAndProto() . '/img/lbry-green-meta-1200x900.png'];
   }
 
   public static function setMetaTitle($title)
