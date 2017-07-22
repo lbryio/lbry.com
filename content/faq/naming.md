@@ -40,4 +40,4 @@ Our economic advisor Alex Tabarrok notes:
 
 >“Auctions have many great properties, but the public doesn’t like auctions very much. Although participating in an auction is fun for some; others find it annoying. It requires inputs of time and risk, and no one likes being outbid at the last minute.”
 
-So, the short answer is that we’re aware that this an experiment within an experiment. We’re trying to solve a very hard problem in a novel way. It’s important to note that LBRY doesn't depend on the naming system, but we're committed to giving it a chance.
+So, the short answer is that we’re aware that this is an experiment within an experiment. We’re trying to solve a very hard problem in a novel way. It’s important to note that LBRY doesn't depend on the naming system, but we're committed to giving it a chance.
