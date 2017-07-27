@@ -15,4 +15,4 @@ To complete this bounty, [lbry-app](https://github.com/lbryio/lbry-app) must be 
 - Load and perform translation based on language settings
 - Existing component text and messaging must be wrapped in translation calls
 
-It is probably a good idea to consult with our development team on [Slack](https://slack.lbry.io) or via email before completing this bounty in it's entirety.
+It is probably a good idea to consult with our development team on [Slack](https://slack.lbry.io) or via email before completing this bounty in its entirety.
