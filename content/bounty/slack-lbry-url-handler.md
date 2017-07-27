@@ -6,7 +6,7 @@ status: complete
 date: '2016-07-01'
 ---
 
-Create a script or Slackbot that will:
+Create a script for Slackbot that will:
 
 - Use the Slack API to monitor all messages in all channels
 - Detect messages sent with LBRY URLs, e.g. `lbry://oprahbees`
