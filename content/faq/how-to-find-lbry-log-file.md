@@ -3,13 +3,13 @@ title: How do I locate my log files?
 category: setup
 ---
 
-In certain cases, we may ask you to send us your log file(s).  The current log file is titled `lbrynet.log` and is archived each time the files reaches 2MB. Older log files are copied to `lbrynet.log.<#>`. Typically only the lbrynet.log file is required, but we may ask for the others depending on the situation.  Since each Operating System has its own set of working directories, use the below guide in order to locate the log file(s).
+In certain cases, we may ask you to send us your log file(s).  The current log file is titled `lbrynet.log` or just `lbrynet` (if you have file extensions hidden) and is archived each time the files reaches 2MB. Older log files are copied to `lbrynet.log.<#>`. Typically only the lbrynet.log file is required, but we may ask for the others depending on the situation.  Since each Operating System has its own set of working directories, use the below guide in order to locate the log file(s).
 
  **lbrynet.log files may contain your IP address. While sharing this is not inherently dangerous, if you desire maximum privacy please mask it before posting to public forums like Slack or Github.**
 
 ## Windows
 1. Open Explorer.
-1. Type `%appdata%/lbrynet` into the address bar to go to the log file directory.
+1. Type `%appdata%/lbrynet` (or `%localappdata%/lbry/lbrynet` if you originally installed v0.14 and up) into the address bar and click Enter.
 2. Here you will see the `lbrynet.log` file and any archives. 
 
 ## MacOS
