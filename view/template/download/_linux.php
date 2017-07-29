@@ -1,7 +1,7 @@
 <div class="text-center">
   <p>
-    <a id="linux-download" class="btn-alt" <?php echo $downloadUrl ? 'download' : '' ?>
-       href="<?php echo $downloadUrl ?: 'https://github.com/lbryio/lbry/releases' ?>"
+    <a id="linux-download" class="btn-alt btn-large" <?php echo $downloadUrl ? 'download' : '' ?>
+       href="<?php echo $downloadUrl ?: 'https://github.com/lbryio/lbry-app/releases' ?>"
       <?php /*
          data-facebook-track-id="XXXXX"
          data-twitter-track-id="XXXXX"
@@ -13,7 +13,7 @@
   </p>
   <div class="meta">
     {{download.works}}
-    Prefer to build from source? Go <a href="https://github.com/lbryio/lbry" class="link-primary">here</a>.
+    Prefer to build from source? Go <a href="https://github.com/lbryio/lbry-app" class="link-primary">here</a>.
   </div>
 </div>
 

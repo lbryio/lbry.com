@@ -231,3 +231,9 @@ body
     @include flex(2);
   }
 }
+
+video {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+}

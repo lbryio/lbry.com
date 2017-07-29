@@ -14,7 +14,7 @@ class OS
     //yes, this is probably a bad pattern
     return [
       OS::OS_WINDOWS => ['/windows', 'Windows', 'icon-windows', '_windows'],
-      OS::OS_OSX     => ['/osx', 'OS X', 'icon-apple', '_osx'],
+      OS::OS_OSX     => ['/osx', 'macOS', 'icon-apple', '_osx'],
       OS::OS_LINUX   => ['/linux', 'Linux', 'icon-linux', '_linux'],
       OS::OS_ANDROID => ['/android', 'Android', 'icon-android', '_android'],
       OS::OS_IOS     => ['/ios', 'iOS', 'icon-mobile', '_ios']

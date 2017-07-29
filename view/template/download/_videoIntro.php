@@ -1,3 +1,3 @@
 <div class="video">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/DjouYBEkQPY" frameborder="0" allowfullscreen></iframe>
+  <video src="https://spee.ch/hellolbry/6.mp4" poster="/img/lbry-ui.png" controls></video>
 </div>

@@ -1,7 +1,7 @@
 <div class="text-center">
   <p>
-    <a class="btn-alt" <?php echo $downloadUrl ? 'download' : '' ?>
-       href="<?php echo $downloadUrl ?: 'https://github.com/lbryio/lbry/releases' ?>"
+    <a class="btn-alt btn-large" <?php echo $downloadUrl ? 'download' : '' ?>
+       href="<?php echo $downloadUrl ?: 'https://github.com/lbryio/lbry-app/releases' ?>"
       <?php /*
            data-facebook-track-id="XXXXX"
            data-twitter-track-id="XXXXX"
