@@ -4,11 +4,10 @@
        href="<?php echo $downloadUrl ?: 'https://github.com/lbryio/lbry-app/releases' ?>"
       <?php /*
          data-facebook-track-id="XXXXX"
-         data-twitter-track-id="XXXXX"
+         data-twitter-track-id="XXXXX"           */ ?>
          data-analytics-category="Sign Up"
          data-analytics-action="Download"
          data-analytics-label="Linux"
-          */ ?>
     >{{download.deb}}</a>
   </p>
   <div class="meta">
