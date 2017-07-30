@@ -11,7 +11,7 @@ Make a copy of the `C:\Users\%USER%\AppData\Roaming\LBRYum\wallets` directory. I
 
 ## MacOS and Linux
 
-Make a copy of the `$HOME/.lbryum/wallets` directory.
+Make a copy of the `$HOME/.lbryum/wallets` directory. Hint: Type  `~/.lbryum/wallets` into Finder and click Go. 
 
 ## lbrycrd wallet
 
