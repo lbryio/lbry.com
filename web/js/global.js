@@ -97,21 +97,21 @@ $(document).ready(function() {
     if (!ga) return;
     ga('send', 'social', 'Facebook', 'like', window.location.href);
   }
-
-  $('.video > iframe').each(function() {
-    var iframe = $(this);
-    iframe.data('maxWidth', iframe.attr('width'));
-    iframe.data('maxHeight', iframe.attr('height'));
-    iframe.data('aspectRatio', iframe.attr('height') / iframe.attr('width'))
-      .removeAttr('height')
-      .removeAttr('width');
-
-    resizeVideo(iframe);
-  });
-
-  $(window).resize(function() {
-    $('.video > iframe').each(function() {
-      resizeVideo($(this));
-    })
-  });
+  //
+  // $('.video > video').each(function() {
+  //   var iframe = $(this);
+  //   iframe.data('maxWidth', iframe.attr('width'));
+  //   iframe.data('maxHeight', iframe.attr('height'));
+  //   iframe.data('aspectRatio', iframe.attr('height') / iframe.attr('width'))
+  //     .removeAttr('height')
+  //     .removeAttr('width');
+  //
+  //   resizeVideo(iframe);
+  // });
+  //
+  // $(window).resize(function() {
+  //   $('.video > video').each(function() {
+  //     resizeVideo($(this));
+  //   })
+  // });
 });

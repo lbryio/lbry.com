@@ -3,7 +3,7 @@
   When running, the LBRY daemon provides a JSON-RPC server running at <code class="code-inline">http://localhost:5279/lbryapi</code>.
 </p>
 <p>
-  It can be accessed by any utility capable of making HTTPS GET and POST requests, such as cURL or possibly your toaster. Psst, if you are on windows you could use PowerShell while testing, scroll down to the bottom of this page to get more info.
+  It can be accessed by any utility capable of making HTTPS GET and POST requests, such as cURL or possibly your toaster. On Windows? You can also use PowerShell. <a class="link-primary" href="#windows">Learn more</a>.
 </p>
 <p>
   To verify the LBRY daemon is running correctly, let's try looking up a URI:
@@ -54,12 +54,12 @@
 <p>You can also list all of the commands available by calling the <span class="code-plan">help</span> command.</p>
 <code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"help"}'
 </code>
-<h3>Windows</h3>
+<h3 id="windows">Windows</h3>
 <p>If you are running Windows and would like to follow this guide you could substitute curl with a PowerShell console and the following code.
 </p>
 <code class="code-bash"><span class="code-bash__prompt">$</span>Invoke-RestMethod -Uri 'http://localhost:5279/lbryapi' -Body 'THE_JSON_DATA' -Method POST  | ConvertTo-Json
 </code>
-<p>If PowerShell does not work and you want to continue with cURL, you'll need to escape inner double quotes with a \ to pass the JSON properly via Command Prompt. 
+<p>If PowerShell does not work and you want to continue with cURL, you'll need to escape inner double quotes with a \ to pass the JSON properly via Command Prompt.
 </p>
 <code class="code-bash"><span class="code-bash__prompt">$</span>curl "http://localhost:5279/lbryapi" --data "{\"method\":\"get\",\"params\":{\"uri\":\"what\"} }"
 </code>

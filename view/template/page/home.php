@@ -6,7 +6,7 @@
     <h1 class="cover-title cover-title-flat text-center">Content Freedom</h1>
   </div>
   <div class="cover home__media">
-    <img alt="Picture of LBRY Browser" src="/img/lbry-ui.png" />
+    <a href="/get"><img alt="Picture of LBRY Browser" src="/img/lbry-ui.png" /></a>
   </div>
   <div class="cover cover-light content content-light content-wide home__copy">
     <div class="spacer2">
@@ -15,7 +15,7 @@
       <h3 class="cover-subtitle cover-title-flat">Hollywood films, college lessons, amazing streamers and more are on the first media network ruled by <em>you</em>.</h3>
     </div>
     <div class="spacer2 text-center">
-      <a href="/get" class="btn-primary btn-large spacer1">Early Access</a>
+      <a href="/get" class="btn-primary btn-large spacer1">Access LBRY</a>
       <a href="/learn" class="btn-link btn-large">{{global.learn}}</a>
     </div>
   </div>
