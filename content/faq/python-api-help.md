@@ -1,5 +1,5 @@
 ---
-title: How do I call API functions from python to make scripts?
+title: How do I use Python to interact with the LBRY daemon?
 category: developer
 ---
 
