@@ -7,7 +7,7 @@
            data-twitter-track-id="XXXXX"           */ ?>
            data-analytics-category="Sign Up"
            data-analytics-action="Download"
-           data-analytics-label="OSX"
+           data-analytics-label="Windows"
     >{{download.windows}}</a>
   </p>
 </div>
