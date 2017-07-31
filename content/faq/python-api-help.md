@@ -1,5 +1,5 @@
 ---
-title: How do I call API functions from python to make scripts?
+title: How do I use Python to interact with the LBRY daemon?
 category: developer
 ---
 
@@ -13,7 +13,7 @@ Well, we can't tell you that, it's a secret.
 
 **Just Kidding!**
 
-After installing the lbrynet-daemon the basics steps to be followed are pretty straightforward:
+The basics steps to be followed are pretty straightforward:
 1. Import the API Client
 2. Create an object
 3. Call the API you wish to use along with the parameters
