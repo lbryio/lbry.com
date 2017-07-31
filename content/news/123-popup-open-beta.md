@@ -1,4 +1,8 @@
-# Pop-Up Open Beta
+---
+author: jeremy
+title: Pop-Up Open Beta
+date: '2017-07-31 13:31:31'
+---
 
 ## Starting immediately, anyone can watch awesome stuff on LBRY and earn free rewards. 
 
