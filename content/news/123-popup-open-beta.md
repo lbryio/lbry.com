@@ -18,11 +18,11 @@ There's also a reason it's taken a long time for us to move to open beta, and wh
 
 As LBRY has gotten more popular...
 
-[![Graph of LBRY publishes](https://spee.ch/lbrypublishes/9.png)](https://spee.ch/lbrypublishes/9)
+[![Graph of LBRY publishes](https://spee.ch/lbrypublishes/992d4635fe41d4c57537a870ebe67a6d372f785b.png)](https://spee.ch/lbrypublishes/9)
 
 ...it's also battled a host of network and performance issues.
 
-[![Graph of LBRY failure rate](https://spee.ch/lbryfailures/f.png)](https://spee.ch/lbryfailures/f)
+[![Graph of LBRY failure rate](https://spee.ch/lbryfailures/f3d9e020c7b3ba51d31addf37b7be54715c65d3f.png)](https://spee.ch/lbryfailures/f)
 
 _April was the first month we sent out large chunks of invites, which immediately broke the network. A+ month, would play again._
 
@@ -50,7 +50,7 @@ One, LBRY still isn't in a state for the average person. Two, we're not likely t
 
 After joining the beta, you'll also receive a weekly email, mentioning the great new content added that week and offering additional rewards.
 
-[![Featured Content Email](https://spee.ch/lbryrewardemail/2.png)](https://spee.ch/lbryrewardemail/2)
+[![Featured Content Email](https://spee.ch/lbryrewardemail/24beb7c15678092d2b96fa7d3fdcaa190b24050a.png)](https://spee.ch/lbryrewardemail/2)
 
 _Open beta users can access weekly featured content and earn rewards._
 
@@ -64,4 +64,4 @@ We want to get LBRY credits into the hands of users and communities that support
 
 We're also going to drop this sweet hype video here, made by the wonderful J.J. Epic of [NeoCash Radio](http://neocashradio.com/).
 
-<video width="100%" controls poster="https://spee.ch/lbryhypeposter/850029cd898c982812fbdd83d22c1d5e32ad3ac9.png" src="https://spee.ch/hellolbry/6.mp4"/></video>
+<video width="100%" controls poster="https://spee.ch/lbryhypeposter/850029cd898c982812fbdd83d22c1d5e32ad3ac9.png" src="https://spee.ch/hellolbry/65913d27e8a5723f539447bd3cb27279b357f4d4.mp4"/></video>
