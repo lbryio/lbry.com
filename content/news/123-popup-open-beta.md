@@ -12,7 +12,7 @@ _Want to avoid icky words and just install LBRY, laugh at things, and earn your 
 
 In less than a year, over 250,000 people have signed up to put control back in the hands of the content creators and consumers. That’s more people than the population of Samoa (which is totally a place you've probably heard of!). It’s a pretty big deal.
 
-There’s a reason why people have been clamoring to get in. It's the same reason why some of YouTube’s most popular publishers, a surge of gaming channels and independent producers are flooding LBRY. It's because existing methods are fundmanetally broken. Giant corporations demand tremendous control and abuse it, rather than fostering choice and freedom. They take half of creators' money just to move bits around, when content consumers could be doing it ourselves.
+There’s a reason why people have been clamoring to get in. It's the same reason why some of YouTube’s most popular publishers, a surge of gaming channels and independent producers are flooding LBRY. It's because existing methods are fundamentally broken. Giant corporations demand tremendous control and abuse it, rather than fostering choice and freedom. They take half of creators' money just to move bits around, when content consumers could be doing it ourselves.
 
 There's also a reason it's taken a long time for us to move to open beta, and why it's likely to be temporary: it turns out fundamentally rebuilding the way we distribute content from the ground up is kind of hard.
 
@@ -26,7 +26,7 @@ As LBRY has gotten more popular...
 
 _April was the first month we sent out large chunks of invites, which immediately broke the network. A+ month, would play again._
 
-But while others have been busy focusing on hype and over-promising (_"Our next-generation web 6.0 blockchain protocol will decentralized facebook, solve global warming, and put humans on Mars (via smart contacts). Just send 923,217 ether to this address and wait patiently"_), we've been quietly working on something that can be quite beautiful...
+But while others have been busy focusing on hype and over-promising (_"Our next-generation web 6.0 blockchain protocol will decentralized Facebook, solve global warming, and put humans on Mars (via smart contacts). Just send 923,217 ether to this address and wait patiently"_), we've been quietly working on something that can be quite beautiful...
 
 ![GIF of LBRY usage example](https://spee.ch/iad-lbry/5e4c0afaed2ad4a5bd01d9a8479cd7fbce82f3e1.gif)
 
