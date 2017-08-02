@@ -1,4 +1,5 @@
 <?php Response::setMetaDescription(__('description.get'))  ?>
+<?php Response::addMetaImage(Request::getHostAndProto() . '/img/lbry-ui.png') ?>
 <?php NavActions::setNavUri('/get') ?>
 <?php echo View::render('nav/_header', ['isDark' => false]) ?>
 
