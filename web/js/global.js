@@ -49,9 +49,9 @@ $(document).ready(function() {
     {
       anchor.jFor().toggleClass(anchor.data('class'));
     }
-    if (anchor.data('facebook-track-id') && window.fbq)
+    if (anchor.data('facebook-track') && window.fbq)
     {
-      fbq('track', anchor.data('facebook-track-id'));
+      fbq('track', "Lead");
     }
     if (anchor.data('twitter-track-id') && window.twttr)
     {
