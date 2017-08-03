@@ -9,7 +9,7 @@ With the launch of [open beta](https://lbry.io/news/popup-open-beta) on July 31s
 
 *(Haven’t grabbed the beta yet? Do it [here](https://lbry.io/get).)*
 
-#LBRYcast will now be a weekly spotlight on new and great content available on the network. Each week, we’ll spotlight one or more creators that are available via LBRY. 
+\#LBRYcast will now be a weekly spotlight on new and great content available on the network. Each week, we’ll spotlight one or more creators that are available via LBRY. 
 
 LBRY users who watch this content will earn a reward *every week*. If you’ve entered your email in the LBRY app, you’ll receive a notification each week with the new content. You can also look for a post on this blog.
 
