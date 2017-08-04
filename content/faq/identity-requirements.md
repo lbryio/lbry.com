@@ -15,7 +15,7 @@ This, and only this, is the reason we require a credit card to participate in th
 
 (*Some providers may see a $1 charge appear temporarily. This is only an authorization, no actual money will ever be charged.*)
 
-Your card information is submitted direclty to [Stripe](https://stripe.com), one of the largest credit card processors in the world.
+Your card information is submitted directly to [Stripe](https://stripe.com), one of the largest credit card processors in the world.
 
 ### What If I Don't Want To Provide It?
 
