@@ -18,17 +18,17 @@ There's also a reason it's taken a long time for us to move to open beta, and wh
 
 As LBRY has gotten more popular...
 
-[![Graph of LBRY publishes](https://spee.ch/lbrypublishes/992d4635fe41d4c57537a870ebe67a6d372f785b.png)](https://spee.ch/lbrypublishes/9)
+[![Graph of LBRY publishes](https://spee.ch/992d4635fe41d4c57537a870ebe67a6d372f785b/lbrypublishes.png)](https://spee.ch/992d4635fe41d4c57537a870ebe67a6d372f785b/lbrypublishes)
 
 ...it's also battled a host of network and performance issues.
 
-[![Graph of LBRY failure rate](https://spee.ch/lbryfailures/f3d9e020c7b3ba51d31addf37b7be54715c65d3f.png)](https://spee.ch/lbryfailures/f)
+[![Graph of LBRY failure rate](https://spee.ch/f3d9e020c7b3ba51d31addf37b7be54715c65d3f/lbryfailures.png)](https://spee.ch/f3d9e020c7b3ba51d31addf37b7be54715c65d3f/lbryfailures)
 
 _April was the first month we sent out large chunks of invites, which immediately broke the network. A+ month, would play again._
 
 But while others have been busy focusing on hype and over-promising (_"Our next-generation web 6.0 blockchain protocol will decentralized Facebook, solve global warming, and put humans on Mars (via smart contacts). Just send 923,217 ether to this address and wait patiently"_), we've been quietly working on something that can be quite beautiful...
 
-![GIF of LBRY usage example](https://spee.ch/iad-lbry/5e4c0afaed2ad4a5bd01d9a8479cd7fbce82f3e1.gif)
+![GIF of LBRY usage example](https://spee.ch/5e4c0afaed2ad4a5bd01d9a8479cd7fbce82f3e1/iad-lbry.gif)
 
 _Oh-so-sweet end-to-end decentralized digital content discovery, distribution, and purchase! Or as I tell my mom, YouTube without Google._
 
@@ -50,7 +50,7 @@ One, LBRY still isn't in a state for the average person. Two, we're not likely t
 
 After joining the beta, you'll also receive a weekly email, mentioning the great new content added that week and offering additional rewards.
 
-[![Featured Content Email](https://spee.ch/lbryrewardemail/24beb7c15678092d2b96fa7d3fdcaa190b24050a.png)](https://spee.ch/lbryrewardemail/2)
+[![Featured Content Email](https://spee.ch/24beb7c15678092d2b96fa7d3fdcaa190b24050a/lbryrewardemail.png)](https://spee.ch/24beb7c15678092d2b96fa7d3fdcaa190b24050a/lbryrewardemail)
 
 _Open beta users can access weekly featured content and earn rewards._
 
@@ -64,4 +64,4 @@ We want to get LBRY credits into the hands of users and communities that support
 
 We're also going to drop this sweet hype video here, made by the wonderful J.J. Epic of [NeoCash Radio](http://neocashradio.com/).
 
-<video width="100%" controls poster="https://spee.ch/lbryhypeposter/850029cd898c982812fbdd83d22c1d5e32ad3ac9.png" src="https://spee.ch/hellolbry/65913d27e8a5723f539447bd3cb27279b357f4d4.mp4"/></video>
+<video width="100%" controls poster="https://spee.ch/850029cd898c982812fbdd83d22c1d5e32ad3ac9/lbryhypeposter.png" src="https://spee.ch/65913d27e8a5723f539447bd3cb27279b357f4d4/hellolbry.mp4"/></video>
