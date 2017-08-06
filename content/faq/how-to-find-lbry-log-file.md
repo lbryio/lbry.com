@@ -20,5 +20,5 @@ In certain cases, we may ask you to send us your log file(s).  The current log f
 
 ## Ubuntu / Linux *(Exact steps may differ slightly)* 
 1. Navigate to your home directory. Ensure hidden files and folders are shown if using a graphical file explorer.
-2. Navigate to the .lbrynet folder. 
+2. Navigate to the .lbrynet folder (or `.local/share/lbry/lbrynet` if you originally installed v0.14 and up).
 3. Here you will see the `lbrynet.log` file and any archives. 
