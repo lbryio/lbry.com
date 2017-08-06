@@ -9,7 +9,11 @@ LBRY provides two different wallets, `lbryum` and `lbrycrd`. `lbryum` is the def
 
 Make a copy of the `C:\Users\%USER%\AppData\Roaming\LBRYum\wallets` directory. If you originally installed v0.14 or later, you will find the wallet in `C:\Users\%USER%\AppData\Local\lbry\LBRYum\wallets`. The AppData folder may be hidden, so you can also try `%appdata%\LBRYum\wallets` or `%localappdata%\lbry\LBRYum\wallets` for new installations (v0.14+).
 
-## MacOS and Linux
+## Linux
+
+Make a copy of the `~/.lbryum/wallets` directory. If you originally installed v0.14 or later, you will find the wallet in `~/.local/share/lbry/lbryum/wallets`.
+
+## MacOS
 
 Make a copy of the `$HOME/.lbryum/wallets` directory. Hint: Type  `~/.lbryum/wallets` into Finder and click Go. 
 
