@@ -5,6 +5,8 @@ category: wallet
 
 LBRY provides two different wallets, `lbryum` and `lbrycrd`. `lbryum` is the default wallet, but early versions came with `lbrycrd` as the default.
 
+Wallets should be backed up securely to one or more (redundancy!) locations which only you have control over. Anyone with access to the wallet file could potentially have access to your LBRY Credits.  As an added layer of protection when backing up your wallet, you can password encrypt a ZIP file with your wallet data. We are trying to make this process easier for users in the future through the LBRY App. 
+
 ## Windows
 
 Make a copy of the `C:\Users\%USER%\AppData\Roaming\LBRYum\wallets` directory. If you originally installed v0.14 or later, you will find the wallet in `C:\Users\%USER%\AppData\Local\lbry\LBRYum\wallets`. The AppData folder may be hidden, so you can also try `%appdata%\LBRYum\wallets` or `%localappdata%\lbry\LBRYum\wallets` for new installations (v0.14+).
