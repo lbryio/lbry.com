@@ -1,6 +1,6 @@
 ---
 author: reilly
-title: '#LBRYcast Evolution'
+title: 'Game Smarter, Not Harder'
 date: '2017-08-10 00:21:00'
 cover: 'rerez-banner.PNG'
 ---
