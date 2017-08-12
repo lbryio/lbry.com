@@ -20,6 +20,8 @@ Depending on which OS and wallet you use, LBRY files may be stored in several pl
 - `~/.lbrycrd` - Alternate location for lbrycrdd wallet and blockchain
 - `~/.lbryum` - Wallet and blockchain headers (if using the app or the lbryum wallet)
 
+*Hint: copy/paste the above directories into Finder and click Go.*
+
 ## Linux
 
 - `/opt/LBRY` - LBRY application itself
@@ -27,4 +29,4 @@ Depending on which OS and wallet you use, LBRY files may be stored in several pl
 - `~/.lbryum` - Wallet and blockchain headers (if using the app or the lbryum wallet)
 - `~/.lbrycrd` - Wallet and blockchain (if using lbrycrdd wallet)
 
-*\*If you originally installed v0.14 and up, you will find the lbrynet and lbryum directories in `~/.local/share/lbry*
+*\*If you originally installed v0.14 and up, you will find the lbrynet and lbryum directories in `~/.local/share/lbry`*
