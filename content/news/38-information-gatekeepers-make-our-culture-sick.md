@@ -22,11 +22,11 @@ Nina argues that current intellectual property laws serve as a roadblock to the 
 
 Nina is talking about gatekeepers. They are primarily big corporations that dictate what information can flow to the public and what can’t.
 
-Nina produced a feature film titled *Sita Sings the Blues*. In the film, she used music from the 1920s by a singer named Annette Hanshaw. The songs should have been in the public domain years ago, but they weren’t due to retroactive copyright extension. As Nina began navigating through the system trying to secure permission to use the music, she learned first hand the power of the gatekeepers:
+Nina produced a feature film titled *Sita Sings the Blues*. In the film, she used music from the 1920s by a singer named Annette Hanshaw. The songs should have been in the public domain years ago, but they weren’t due to retroactive copyright extension. As Nina began navigating through the system trying to secure permission to use the music, she learned firsthand the power of the gatekeepers:
 
->“The kept telling me, ‘Yes It’s annoying, but the same system is protecting your intellectual property’ ... But found copyright holders weren’t getting more money because of the copyright. What they were getting is the power to suppress art – to suppress communication.”
+>“They kept telling me, ‘Yes It’s annoying, but the same system is protecting your intellectual property’ ... But found copyright holders weren’t getting more money because of the copyright. What they were getting is the power to suppress art – to suppress communication.”
 
-Ultimately, the system doesn’t benefit the artists, it doesn’t benefit the actual art in question, and it doesn’t benefit the public. It benefits the big corporations that hold the rights. As an artist, Nina experienced first hand how the system blocks the free flow of ideas:
+Ultimately, the system doesn’t benefit the artists, it doesn’t benefit the actual art in question, and it doesn’t benefit the public. It benefits the big corporations that hold the rights. As an artist, Nina experienced firsthand how the system blocks the free flow of ideas:
 
 >“What copyright was doing was blocking the circulation of my comics, which is probably why most of you haven’t seen my comics.”
 

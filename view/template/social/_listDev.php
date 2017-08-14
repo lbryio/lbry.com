@@ -12,3 +12,6 @@
 <div class="spacer1">
   <a href="https://github.com/lbryio" class="link-primary"><span class="icon-code-fork icon-fw"></span><span class="btn-label">Source Code</span></a>
 </div>
+<div class="spacer1">
+  <a href="https://slack.lbry.io" class="link-primary"><span class="icon-slack icon-fw"></span><span class="btn-label">Slack (#dev channel)</span></a>
+</div>

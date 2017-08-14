@@ -15,9 +15,8 @@ bounty:
     completed_notice: This bounty has already been completed and can no longer be claimed.
     pull_request_link: View the Pull Request
 description:
-  allowed: Download/install the latest version of LBRY for %os%.
   faq: Frequently asked questions about LBRY.
-  get: Download/install the latest version of LBRY.
+  get: Experience content freedom! Download the latest version of LBRY for Windows, mac OS, or Linux.
   home: Meet LBRY, a content sharing and publishing platform that is decentralized and owned by its users.
   join: Follow along and receive updates about LBRY via email.
   learn: Learn more about LBRY, the technology that puts you back in control of the internet.
@@ -29,10 +28,10 @@ description:
   test: WHAT WHAT
   what: Access information and content in ways you never dreamed possible. Earn credits for your unused bandwidth and diskspace.
 download:
-  beta: This is still a beta.
+  beta: This software is in beta.
   creator: Creator? Skip the Line
   credits: Claim Credits
-  curse: While LBRY is now live, it may crash, work unreliably, or inadvertently put a curse on your family for generations (a common programming error). Use at your own risk.
+  curse: It may crash, work unreliably, or inadvertently put a curse on your family for generations (a common programming error).
   deb: Download .deb
   earn1: Earn
   # this many credits
@@ -43,11 +42,11 @@ download:
   for-os: LBRY for %os%
   github: Or, view the source and compile instructions on
   osx: Arrival is expected by July 5.
-  osx2: Download for OS X
+  osx2: Download for macOS
   other: Other Systems
   popular: Popular publishers can earn $1,000 and early access for publishing via LBRY.
   select: Select an OS
-  unavailable: LBRY is not yet out on your platform. You will receive an email as we expand LBRY to your preferred platform.
+  unavailable: LBRY is not yet out on this platform, but will be soon. Enter your email to be notified when it is released.
   verb: Download
   windows: Download for Windows
   works: "Works with Ubuntu, Debian, or any distro with <code>apt</code> or <code>dpkg</code>."
@@ -79,7 +78,6 @@ global:
   sentence: Watch, read and play in a decentralized digital library controlled by the community.
   tagline: Content Freedom
 learn:
-  100: LBRY in 100 Seconds
   art: Art in the Internet Age
   essay: Read the Essay
   exchange_faq: Buy/Sell LBRY Credits
@@ -237,8 +235,8 @@ social:
   github: GitHub (source code)
   header: Build With Us
   humansheader: Humans
-  humanstext: Let's create a freer, more creative world.
-  robotsheader: Wanna Be Robots
+  humanstext: Join the LBRY community.
+  robotsheader: Robots
   robotstext: Make with us. All LBRY code is open source.
   slack: Slack (chat)
   tweets: Tweets by @LBRYio

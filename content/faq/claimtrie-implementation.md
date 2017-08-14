@@ -14,7 +14,7 @@ Bids to claim a name must win out against other claims for the same name, before
 3. *Quantity* : The quantity is the number of LBRY credits assigned to the bid. 
 4. *Claim Id* : A unique ID used to identify the bid. 
 
-There are also three different bid types : claim, update, and support.
+There are also three different bid types: claim, update, and support.
 
 1. *Claim*: A claim represent new bids for a name. If a user want to make a claim to a brand new name, or submit a competing claim to an existing name, this bid type is used.
 2. *Support*: A support adds to the total quantity of credits assigned to any bid by referring to a bid's Claim Id. A support bid can be made by anyone on any bid. It does not have its own Value or its own Claim Id, but it does contain the Claim Id of the bid that it is supporting. 
@@ -26,23 +26,23 @@ There are also three different bid types : claim, update, and support.
 This section describes how bids are processed by the ClaimTrie in order to determine which bids have won the rights to claim a particular name.  There are 6 states a bid can be in, and they are explained below.  
 
 1. *Not accepted*: This bid is in a transaction which has not yet been included in a block which has been included in the blockchain.
-2. *Accepted*: This bid has been accepted into the blockchain. this happens when the transaction containing the txout which contains the bid is included in a block which is included in the blockchain.
+2. *Accepted*: This bid has been accepted into the blockchain. This happens when the transaction containing the TXout which contains the bid is included in a block which is included in the blockchain.
 3. *Active*: This bid is capable of controlling a name. Active bids must be in the “accepted” state and not “expired” or “spent”. Bids are “active” when either of the two conditions below are met:
     * The current block height exceeds the height of the block at which the bid became accepted plus the activation delay for the name as calculated at either the block at which the bid was accepted or any block after the bid was accepted. The activation delay is calculated as follows:
       * If, immediately before this block was included in the blockchain, there were no ‘active’ bids for the name and therefore no ‘controlling’ bids, the delay is 0.
       * If there is a “controlling” bid for the name: Delay = (HeightB - HeightA) / 32
         * HeightA = the most recent height at which the bid controlling the name changed
         * HeightB = the current height
-        * Maximum delay is 7 days of blocks at 2.5 min/block (or 4032 blocks) . Thus maximum delay can be reached in 224 (7x32) days.
-    * The bid’s Claim Id matches the Claim Id of the bid which was the controlling bid immediately before the block containing this bid was included in the blockchain. In other words, it is either an update to the previous controlling bid, or an update to an update to the previous controlling bid if the bid was updated twice in this block, etc
+        * Maximum delay is 7 days of blocks at 2.5 min/block (or 4032 blocks). Thus maximum delay can be reached in 224 (7x32) days.
+    * The bid’s Claim Id matches the Claim Id of the bid which was the controlling bid immediately before the block containing this bid was included in the blockchain. In other words, it is either an update to the previous controlling bid, or an update to an update to the previous controlling bid if the bid was updated twice in this block, etc.
 
-4. *Controlling*: This bid currently controls the name. When clients ask which bid controls the name as of the current block, this is the bid that will be returned. Must be in the “active” state and only one bid for any name may be in this state. A support can not be in the “controlling” state. To determine which “active” bid is the “controlling” bid for each name:
+4. *Controlling*: This bid currently controls the name. When clients ask which bid controls the name as of the current block, this is the bid that will be returned. Must be in the “active” state and only one bid for any name may be in this state. A support cannot be in the “controlling” state. To determine which “active” bid is the “controlling” bid for each name:
     * Add the quantity of each ‘active’ bid to the quantity of all ‘active’ supports for that bid, and take whichever is greatest. If two bids have the same quantity, older bids take precedence over newer bids.
 	
     * If the bid with the greatest amount does not have the same claimID as the bid which was ‘controlling’ prior to including the current block, change the delay for the name as of the current block to 0, redetermine which bids and supports should be active, and then perform the previous calculation again.
 
     * At this point, the bid calculated to have the greatest amount behind it is the ‘controlling’ bid as of this block
-5. *Spent*: A transaction has been included in the blockchain which spends the txout which contains the bid. Must be in the ‘accepted’ state.
+5. *Spent*: A transaction has been included in the blockchain which spends the TXout which contains the bid. Must be in the ‘accepted’ state.
 6. *Expired*: All bids ‘expire’ regardless of what state they are in when the current block height exceeds the height of the block at which the bid was accepted plus 52416 blocks, or 91 days ( currently this is set to 262974 blocks, or 456 days, which will be fixed in a future hard fork ). Updated claims will restart the expiration timer at the block height of the update.  
 
 

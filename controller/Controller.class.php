@@ -112,17 +112,22 @@ class Controller
     $router->post('/set-culture', 'i18nActions::setCulture');
 
     $permanentRedirects = [
-      '/lbry-osx-latest.dmg'         => '/get',
-      '/lbry-linux-latest.deb'       => '/get',
-      '/dl/lbry_setup.sh'            => '/get',
-      '/art'                         => '/what',
-      '/why'                         => '/learn',
-      '/feedback'                    => '/learn',
-      '/faq/when-referral-payouts'   => '/faq/referrals',
-      '/faq/why-care-about-lbry'     => '/get',
-      '/news/meet-the-lbry-founders' => '/team',
-      '/faq/no-auction-options'      => '/faq/naming',
-      '/join-list'                   => '/list/subscribe',
+      '/lbry-osx-latest.dmg'                => '/get',
+      '/lbry-linux-latest.deb'              => '/get',
+      '/dl/lbry_setup.sh'                   => '/get',
+      '/art'                                => '/what',
+      '/why'                                => '/learn',
+      '/feedback'                           => '/learn',
+      '/faq/when-referral-payouts'          => '/faq/referrals',
+      '/faq/why-care-about-lbry'            => '/get',
+      '/news/meet-the-lbry-founders'        => '/team',
+      '/faq/no-auction-options'             => '/faq/naming',
+      '/join-list'                          => '/list/subscribe',
+      '/publish'                            => '/youtube',
+      '/faq/quarterly-report-july-2016'     => '/credit-reports/2016-Q2',
+      '/faq/quarterly-report-3q-2016'       => '/credit-reports/2016-Q3',
+      '/faq/Q4-credit-report'               => '/credit-reports/2016-Q4',
+      '/faq/Q1-17-CreditReport'             => '/credit-reports/2017-Q1',
     ];
 
     $tempRedirects = [
@@ -154,6 +159,9 @@ class Controller
     $router->get([ContentActions::URL_FAQ . '/{slug:c}?', 'faq'], 'ContentActions::executeFaq');
     $router->get([ContentActions::URL_BOUNTY . '/{slug:c}?', 'bounty'], 'ContentActions::executeBounty');
     $router->get([ContentActions::URL_PRESS . '/{slug:c}', 'press'], 'ContentActions::executePress');
+//    $router->get([ContentActions::URL_CREDIT_REPORTS . '/{slug:c}?', 'faq'], 'ContentActions::executeFaq');
+    $router->get(ContentActions::URL_CREDIT_REPORTS, 'ContentActions::executeCreditReports');
+    $router->get([ContentActions::URL_CREDIT_REPORTS . '/{year:c}-q{quarter:c}', ContentActions::URL_CREDIT_REPORTS . '/{year:c}-Q{quarter:c}'], 'ContentActions::executeCreditReport');
 
     $router->any(['/signup{whatever}?', 'signup'], 'DownloadActions::executeSignup');
 

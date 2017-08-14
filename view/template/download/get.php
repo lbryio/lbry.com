@@ -1,32 +1,33 @@
 <?php Response::setMetaDescription(__('description.get'))  ?>
+<?php Response::addMetaImage(Request::getHostAndProto() . '/img/lbry-ui.png') ?>
 <?php NavActions::setNavUri('/get') ?>
 <?php echo View::render('nav/_header', ['isDark' => false]) ?>
 
 <main class="column-fluid">
   <div class="span7">
     <div class="cover cover-dark cover-dark-grad content content-stretch content-dark">
-      <h1>{{global.get}}</h1>
-      <?php if (Session::get(Session::KEY_DOWNLOAD_ACCESS_ERROR)): ?>
-        <div class="notice notice-error spacer1"><?php echo Session::get(Session::KEY_DOWNLOAD_ACCESS_ERROR) ?></div>
-        <?php Session::unsetKey(Session::KEY_DOWNLOAD_ACCESS_ERROR) ?>
-      <?php endif ?>
-
-      <?php if (Session::get(Session::KEY_PREFINERY_USER_ID)): ?>
-        <h3>You're In!</h3>
-        <p>You'll be sent an invite when LBRY early access begins.</p>
-        <p>And remember, friends don't let other friends miss out on content freedom.</p>
-        <?php echo View::render('download/_refer') ?>
+      <h1><?php echo __('download.for-os', ['%os%' => $osTitle]) ?> <span class="<?php echo $osIcon ?>"></span></h1>
+      <?php if ($downloadHtml): ?>
+        <p>
+          This is a browser and wallet for the LBRY network.
+          <a href="https://lbry.io/faq/what-is-lbry" class="link-primary">What is LBRY?</a>
+        </p>
+        <p>
+          <strong>{{download.beta}}</strong>
+          {{download.curse}}
+        </p>
+        <?php echo $downloadHtml ?>
       <?php else: ?>
-        <div class="spacer1">
-          <h4>LBRY early access began April 2017.</h4>
-        </div>
-        <?php echo View::render('download/_signup', ['allowInviteCode' => false]) ?>
+        <p>{{download.unavailable}}</p>
+        <?php echo View::render('download/_signup') ?>
       <?php endif ?>
     </div>
   </div>
   <div class="span5">
+    <?php echo View::render('download/_list', [
+    'excludeOs' => $os
+    ]) ?>
     <?php echo View::render('download/_social') ?>
-    <?php echo View::render('download/_publish') ?>
   </div>
 </main>
 

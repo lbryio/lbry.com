@@ -4,7 +4,7 @@ title: RPI Hackers Meet LBRY (Notes and Slides from RCOS Presentation)
 date: '2015-11-17 01:29:07'
 ---
 
-Last Friday, we had the pleasure of presenting LBRY to [RCOS](http://rcos.rpi.edu/), the Rensselaer Center for Open Source Software. Jimmy was a member of this group when he attended RPI and I certainly would have if I known it had existed! In the years since I attended RPI it's grown from a handful of students to this:
+Last Friday, we had the pleasure of presenting LBRY to [RCOS](http://rcos.rpi.edu/), the Rensselaer Center for Open Source Software. Jimmy was a member of this group when he attended RPI and I certainly would have if I have known it had existed! In the years since I attended RPI it's grown from a handful of students to this:
 
 ![RCOS 2015](http://rcos.rpi.edu/site-media/rcos/images/spring2015-group.jpg)
 

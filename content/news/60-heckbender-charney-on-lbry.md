@@ -26,6 +26,6 @@ A whole ‘nother brand of Los Angeles comedy, Charney specializes in the art of
 
 - *[Lenders’ Den (Shark Tank)](lbry://LendersDen)* – America's most addicting reality sensation is back and BIGGER THAN EVER!
 - *[Moneyweasel (Moneyball)](lbry://moneyweasel)* – The Los Angeles Snards have a new backdoorsman in left shield, in this recreation of the scene from Moneyball wherein no one still knows what was said.
-- *[Loose Cannon (Resevoir Dogs)](lbry://LooseCannon)* – One last job, just like old times. Then they're on the next flight to Bora-Bora. ;^)
+- *[Loose Cannon (Reservoir Dogs)](lbry://LooseCannon)* – One last job, just like old times. Then they're on the next flight to Bora-Bora. ;^)
 
 **Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Just can’t wait? If you’re a creator – filmmaker, musician, artist, writer – you can skip our waiting list line for a chance to earn $1,000 in LBRY Credits at the same time. [Learn more here](https://lbry.io/publish).

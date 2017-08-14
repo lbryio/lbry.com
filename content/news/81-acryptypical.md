@@ -65,7 +65,7 @@ To make a few points extraordinarily clear:
 - We will not speculate about the price of LBC. If you ask us, we'll probably link you here.
 - We will focus exclusively on how we can generate real value for our users by creating a service that improves their lives.
 
-These statements go for both LBRY, Inc. and it's employees' independent actions.
+These statements go for both LBRY, Inc. and its employees' independent actions.
 
 ### What To Do With Your LBC
 

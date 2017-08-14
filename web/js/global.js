@@ -49,9 +49,9 @@ $(document).ready(function() {
     {
       anchor.jFor().toggleClass(anchor.data('class'));
     }
-    if (anchor.data('facebook-track-id') && window.fbq)
+    if (anchor.data('facebook-track') && window.fbq)
     {
-      fbq('track', anchor.data('facebook-track-id'));
+      fbq('track', "Lead");
     }
     if (anchor.data('twitter-track-id') && window.twttr)
     {
@@ -97,21 +97,21 @@ $(document).ready(function() {
     if (!ga) return;
     ga('send', 'social', 'Facebook', 'like', window.location.href);
   }
-
-  $('.video > iframe').each(function() {
-    var iframe = $(this);
-    iframe.data('maxWidth', iframe.attr('width'));
-    iframe.data('maxHeight', iframe.attr('height'));
-    iframe.data('aspectRatio', iframe.attr('height') / iframe.attr('width'))
-      .removeAttr('height')
-      .removeAttr('width');
-
-    resizeVideo(iframe);
-  });
-
-  $(window).resize(function() {
-    $('.video > iframe').each(function() {
-      resizeVideo($(this));
-    })
-  });
+  //
+  // $('.video > video').each(function() {
+  //   var iframe = $(this);
+  //   iframe.data('maxWidth', iframe.attr('width'));
+  //   iframe.data('maxHeight', iframe.attr('height'));
+  //   iframe.data('aspectRatio', iframe.attr('height') / iframe.attr('width'))
+  //     .removeAttr('height')
+  //     .removeAttr('width');
+  //
+  //   resizeVideo(iframe);
+  // });
+  //
+  // $(window).resize(function() {
+  //   $('.video > video').each(function() {
+  //     resizeVideo($(this));
+  //   })
+  // });
 });

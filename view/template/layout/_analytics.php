@@ -18,6 +18,7 @@
     document,'script','//connect.facebook.net/en_US/fbevents.js');
 
     fbq('init', '1618717031725766');
+    fbq('track', 'PageView');
 
     <?php //and now everyone knows what happens on our website except us ?>
 

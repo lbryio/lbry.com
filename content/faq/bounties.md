@@ -1,6 +1,6 @@
 ---
 title: How does the Bounty Program work?
-category: policy
+category: other
 ---
 
 You can earn LBRY Credits for completing tasks as part of the LBRY Bounty Program.

@@ -12,7 +12,7 @@ We made our own statue of liberty. She’s planted firmly at https://api.lbry.io
 
 ![Montage of Gamers](/img/news/montage-inline.png)
 
-We welcome Caveman Gaming, EmRatThic, Zed Gaming, Gaming Sicness, and Wingheaven to LBRY. When catagories roll out in April, you’ll find them in “Gaming.”
+We welcome Caveman Gaming, EmRatThic, Zed Gaming, Gaming Sicness, and Wingheaven to LBRY. When categories roll out in April, you’ll find them in “Gaming.”
 
 What does this seemingly gibberish string of words have to do with “Gaming?” They’ve graciously brought games from AAA and indie to LBRY, including:
 - GTAV

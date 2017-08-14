@@ -18,7 +18,7 @@ Stefan Molyneux’s Freedomain Radio has grown from a part-time podcast to a ful
 ![The Schiff Report](/img/news/schiff-inline.jpg)
 **The Schiff Report**
 
-Known for his [bold predictions](https://www.youtube.com/watch?v=LfascZSTU4o) of the 2008 financial crisis coming true and subsequent market corrections – CNBC even [admitted it after the fact!](https://www.youtube.com/watch?v=5sie11QXI_Q) – Peter Schiff is a successful financial advisor and radio host outside the traditional Wall Street beltway. Author of several books, including my personal favorite, “The Little Book of Bull Moves in Bear Markets,” his financial opines will seldom tow the party line.
+Known for his [bold predictions](https://www.youtube.com/watch?v=LfascZSTU4o) of the 2008 financial crisis coming true and subsequent market corrections – CNBC even [admitted it after the fact!](https://www.youtube.com/watch?v=5sie11QXI_Q) – Peter Schiff is a successful financial advisor and radio host outside the traditional Wall Street beltway. Author of several books, including my personal favorite, “The Little Book of Bull Moves in Bear Markets”, his financial opines will seldom tow the party line.
 
 **After the brain food, cozy up with the LBRY film playlist during the holidays!**
 - [*Jingle Bell Rocks!*](lbry://jinglebellrocks)
