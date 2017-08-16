@@ -11,11 +11,11 @@ This document outlines LBRY, Inc. policies, disclosures and intentions in admini
 
 The initial 400m credits are broken down as follows:
 
-| Name | Amount | Purpose | Wallet (initial) |
-| ---- | ------ | ---------------- | -------- |
-| Community | 200m |  Reward early adopters, new users, and community contributions. | [link](https://explorer.lbry.io/address/rRmURzvpHTysU4xUSp9CXeosBTbYfKs7n5) |
-| Operational | 100m | To allow LBRY, Inc. to function and profit. | [link](https://explorer.lbry.io/address/rTZF9RvfkLJ6hwCwERwFd7dppRMeddKjpe) |
-| Institutional | 100m |  For strategic partnerships or assistance with charities, non-profits, or other institutions. | [link](https://explorer.lbry.io/address/rVRMmGLZenVXpT1NwYMGcnwFc642kEgWTV) |
+| Name | Amount | Purpose | Wallet (Initial) | Wallet (Current) |
+| ---- | ------ | ---------------- | -------- | -------- |
+| Community | 200m |  Reward early adopters, new users, and community contributions. | [link](https://explorer.lbry.io/address/rRmURzvpHTysU4xUSp9CXeosBTbYfKs7n5) | [link](https://explorer.lbry.io/address/rFLUohPG4tP3gZHYoyhvADCtrDMiaYb7Qd) |
+| Operational | 100m | To allow LBRY, Inc. to function and profit. | [link](https://explorer.lbry.io/address/rTZF9RvfkLJ6hwCwERwFd7dppRMeddKjpe) |[link](https://explorer.lbry.io/address/r9PGXsejVJb9ZfMf3QVdDEJCzxkd9JLxzL) |
+| Institutional | 100m |  For strategic partnerships or assistance with charities, non-profits, or other institutions. | [link](https://explorer.lbry.io/address/rVRMmGLZenVXpT1NwYMGcnwFc642kEgWTV) | [link](https://explorer.lbry.io/address/r9srwX7DEN7Mex3a8oR1mKSqQmLBizoJvi) |
 
 ## Quarterly Reports
 
