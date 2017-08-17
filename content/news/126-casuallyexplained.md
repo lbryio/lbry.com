@@ -8,7 +8,7 @@ You’ve seen a few of his videos floating around the LBRY homepage. But it’s 
 
 A regular on the front page of reddit and one of the funniest channels in existence, it’s a pleasure to introduce the ongoing adventures of…
 
-![Casually Explained](/img/news/casually-inline.jpg)
+![Casually Explained](/img/news/casually-blog-inline.jpg)
 
 >*If you're looking for the answers to life's questions and Wikipedia was under scheduled maintenance, look no further, Casually Explained is here to help.*
 
