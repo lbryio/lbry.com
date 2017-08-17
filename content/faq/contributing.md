@@ -38,7 +38,7 @@ The vast majority of issues will be filed in either `lbry-app` or `lbry`.
 
 ## Raising Issues
 
-If you're about to raise an issue because you've found a problem with LBRY, or you'd like to make a request new feature, or for any other reason, please read this first.
+If you're about to raise an issue because you've found a problem with LBRY, or you'd like to request a new feature, or for any other reason, please read this first.
 
 GitHub is the preferred channel for [bug reports](#report-a-bug) and [feature requests](#feature-requests). 
 
@@ -48,11 +48,9 @@ A bug is a _demonstrable problem_ that is caused by the code in the repository. 
 
 Guidelines for bug reports:
 
-1. **Identify the correct repo**. See [ecosystem overview](#ecosystem-overview).
+1. **Identify the correct repo**. See [ecosystem overview](#ecosystem-overview). While it's okay if you get this wrong, it's a big help to us if you get it right.
 
 1. **Use the GitHub issue search** &mdash; check if the issue has already been reported (or fixed). Be sure to include closed tickets in your search.
-
-1. **Identify the correct repo**. Typical usage of LBRY interacts with several components. While it's okay if you get this wrong, it's a big help to us if you get it right. See above.
 
 1. **Follow the instructions** - When you open an issue inside of GitHub, each repo contains a template for how to create a good bug report. Please follow it!
 
@@ -66,7 +64,7 @@ Feature requests are welcome. Before you submit one be sure to:
 1. **Identify the correct repo**. See [ecosystem overview](#ecosystem-overview).
 1. **Use the Github Issues search** and check the feature hasn't already been requested. Be sure to include closed tickets.
 2. **Consider whether it's feasible** for us to tackle this feature in the next 6-12 months. The LBRY team is currently stretched thin just adding basic functionality. If this is a nice to have rather than a need, it is probably more clutter than helpful.
-3. **Make a strong case** to convince the project's leaders of the merits of this feature. Please provide as much detail and context as possible, this means explaining the use case and why it is likely to be common.
+3. **Make a strong case** to convince the project's leaders of the merits of this feature. Please provide as much detail and context as possible. This means explaining the use case and why it is likely to be common.
 
 ## Coding
 
@@ -77,7 +75,7 @@ An incredible amount of LBRY was built via public contributions. Every technical
 How to get contribute:
 
 1. **Identify the component you want to work on**. LBRY has code bases in Python, JavaScript, PHP, and C++. See [Ecosystem Overview](#ecosystem-overview).
-1. **Get setup.** Each repo has a README.md or INSTALL.md with instructions on how to get the repo up and running properly.
+1. **Get set up.** Each repo has a README.md or INSTALL.md with instructions on how to get the repo up and running properly.
 1. **Find something to work on**. Look for issues tagged "Contributor Friendly" inside of the repo you selected. These are good for new contributors. Of course, you are also welcome to work on something not currently filed if you have your own idea!
 1. **Abide coding and commit standards**. Look for a STANDARDS.md document in the repo you are working on for repo specific instructions. Update CHANGELOG.md (if it exists) along with your pull request.
 1. **Questions or problems? Ask!**. The #dev channel of [our chat](https://slack.lbry.io) is full of other LBRY community devs and team members.
@@ -110,7 +108,7 @@ Translations are not managed through Git or GitHub. Email [Josh](mailto:josh@lbr
 
 If you aren't a coder, or you're a lazy coder, one of the best ways you can contribute is testing!
 
-Both `lbry` and `lbry-app` go through regular release cycles where new versions are shipped every few weeks. Testing release candidates or builds of master is a great way to help us identity issues and ship well-hardened code.
+Both `lbry` and `lbry-app` go through regular release cycles where new versions are shipped every few weeks. Testing release candidates or builds of master is a great way to help us identity issues and ship bug-free code.
 
 For any repos you want to be a tester on, "Watch" the repo on GitHub. You will receive an email with release notes whenever a release candidate is out.
 
