@@ -29,10 +29,10 @@ Whether you want to report an issue, contribute to the code, or help test the so
 --- | --- | --- | ---
 | [lbry](https://github.com/lbryio/lbry) | Python | A daemon that runs in the background and allows your computer to speak LBRY. | Issues with downloading or uploading. <br/><br/> Anything related to output in `lbrynet.log`. <br/><br/> Issues unrelated to or deeper than the interface that do not deal with blockchain credits. |
 | [lbry-app](https://github.com/lbryio/lbry-app) | JavaScript | A graphical browser for the LBRY protocol | Problems with or features missing from the browser interface. <br/><br/> Issues with using, installing or running the LBRY app **other** than network, connection, or performance issues. |
-| [lbryum](https://github.com/lbryio/lbryum) | Python | An SPV wallet bundled with lbry/lbry-app | Issues related to credit/wallet functionality.
-| [lbrycrd](https://github.com/lbryio/lbrycrd) | C++ | The LBRY blockchain and full wallet | Mining or otherwise running a full node. <br/><br/> <em>(This wallet is not bundled with the application. You only want this if you downloaded/installed this package specifically.)</em>
-| [lbry-schema](https://github.com/lbryio/lbryschema) | Python | The definition of metadata stored in the LBRY blockchain. | You want to change the metadata LBRY stores about digital content. |
-| [lbryio](https://github.com/lbryio/lbry.io) | PHP | The lbry.io website. | If this one isn't self-explanatory, you will probably have trouble with this document and life in general.<br/><br/>FAQ/KB requests or additions.
+| [lbryum](https://github.com/lbryio/lbryum) | Python | Server for the thin wallet bundled with lbry/lbry-app | Issues related to credit/wallet functionality.<br><br><em>This is a fork of <a href="https://github.com/spesmilo">electrum</a>.</em>
+| [lbrycrd](https://github.com/lbryio/lbrycrd) | C++ | The LBRY blockchain and standalone wallet | Running a full node, or direct access to the LBRY blockchain.<br><br> <em>(This wallet is not bundled with the application. You only want this if you downloaded/installed this package specifically.)</em>
+| [lbry-schema](https://github.com/lbryio/lbryschema) | Protobuf, Python | The structure of the metadata stored in the LBRY blockchain. | You want to change the metadata LBRY stores about digital content. |
+| [lbryio](https://github.com/lbryio/lbry.io) | PHP | The lbry.io website. | Edits to the site, FAQ/KB requests or additions.
 
 The vast majority of issues will be filed in either `lbry-app` or `lbry`.
 
@@ -116,4 +116,4 @@ For any repos you want to be a tester on, "Watch" the repo on GitHub. You will r
 
 If you're feeling moderately hard-core, you can also test `master` builds via [releases.lbry.io](http://releases.lbry.io/). If you're feeling super hard-core, you can compile `master` yourself, via the README.md or INSTALL.md in the associated repo.
 
-**Note that you use release candidates and especially master builds at your own risk.**
+**Note that you use release candidates and especially master builds at your own risk. Back up your wallet first.**
