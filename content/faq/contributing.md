@@ -3,8 +3,6 @@ title: Contributing to LBRY
 category: other
 ---
 
-# Contributing to LBRY
-
 Interested in progressing content freedom? Awesome! This guide will get you started.
 
 There are many ways you can get involved. This document covers:
