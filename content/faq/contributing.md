@@ -30,7 +30,7 @@ Whether you want to report an issue, contribute to the code, or help test the so
 | Component | Language | What Is It | Use This Repo For..|
 --- | --- | --- | ---
 | [lbry](https://github.com/lbryio/lbry) | Python | A daemon that runs in the background and allows your computer to speak LBRY. | Issues with downloading or uploading. <br/><br/> Anything related to output in `lbrynet.log`. <br/><br/> Issues unrelated to or deeper than the interface that do not deal with blockchain credits. |
-| [lbry-app](https://github.com/lbryio/lbry-app) | Javascript | A graphical browser for the LBRY protocol | Problems with or features missing from the browser interface. <br/><br/> Issues with using, installing or running the LBRY app **other** than network, connection, or performance issues. |
+| [lbry-app](https://github.com/lbryio/lbry-app) | JavaScript | A graphical browser for the LBRY protocol | Problems with or features missing from the browser interface. <br/><br/> Issues with using, installing or running the LBRY app **other** than network, connection, or performance issues. |
 | [lbryum](https://github.com/lbryio/lbryum) | Python | An SPV wallet bundled with lbry/lbry-app | Issues related to credit/wallet functionality.
 | [lbrycrd](https://github.com/lbryio/lbrycrd) | C++ | The LBRY blockchain and full wallet | Mining or otherwise running a full node. <br/><br/> <em>(This wallet is not bundled with the application. You only want this if you downloaded/installed this package specifically.)</em>
 | [lbry-schema](https://github.com/lbryio/lbryschema) | Python | The definition of metadata stored in the LBRY blockchain. | You want to change the metadata LBRY stores about digital content. |
@@ -40,7 +40,7 @@ The vast majority of issues will be filed in either `lbry-app` or `lbry`.
 
 ## Raising Issues
 
-If you're about to raise an issue because you've found a problem with LBRY, or you'd like to make a request for a new feature in the codebase, or for any other reason, please read this first.
+If you're about to raise an issue because you've found a problem with LBRY, or you'd like to make a request new feature, or for any other reason, please read this first.
 
 GitHub is the preferred channel for [bug reports](#report-a-bug) and [feature requests](#feature-requests). 
 
@@ -78,7 +78,7 @@ An incredible amount of LBRY was built via public contributions. Every technical
 
 How to get contribute:
 
-1. **Identify the component you want to work on**. LBRY has code bases in Python, Javascript, PHP, and C++. See [Ecosystem Overview](#ecosystem-overview).
+1. **Identify the component you want to work on**. LBRY has code bases in Python, JavaScript, PHP, and C++. See [Ecosystem Overview](#ecosystem-overview).
 1. **Get setup.** Each repo has a README.md or INSTALL.md with instructions on how to get the repo up and running properly.
 1. **Find something to work on**. Look for issues tagged "Contributor Friendly" inside of the repo you selected. These are good for new contributors. Of course, you are also welcome to work on something not currently filed if you have your own idea!
 1. **Abide coding and commit standards**. Look for a STANDARDS.md document in the repo you are working on for repo specific instructions. Update CHANGELOG.md (if it exists) along with your pull request.
@@ -98,7 +98,7 @@ If you want to contribute new written copy, such as a blog post or other content
 
 If you're a web designer, you can contribute to either [lbry.io](https://github.com/lbryio/lbry.io) (the website) or [lbry-app](https://github.com/lbryio/lbry-app) (the browser) by opening a pull request. 
 
-If you're a graphic designer, creating engaging graphics, GIFs, explainers, howtos, wallpapers, and other related graphical content is a huge help! You can submit or discuss contributions by emailing [Jeremy](mailto:jeremy@lbry.io), or joining the #design channel in our [chat](https://slack.lbry.io).
+If you're a graphic designer, creating engaging graphics, GIFs, explainers, HOWTOs, wallpapers, and other related graphical content is a huge help! You can submit or discuss contributions by emailing [Jeremy](mailto:jeremy@lbry.io), or joining the #design channel in our [chat](https://slack.lbry.io).
 
 ### Communicating
 
