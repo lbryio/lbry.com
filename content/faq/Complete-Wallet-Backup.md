@@ -4,7 +4,7 @@ category: wallet
 ---
 
 Wallets Funds(defualt_wallet) should be backed up securely to one or more (redundancy!) locations which only you have control over. Anyone with access to the wallet file could potentially have access to your LBRY Credits. As an added layer of protection when backing up your wallet, you can password encrypt a ZIP file with your wallet data. We are trying to make this process easier for users in the future through the LBRY App.
-
+### (If not Using Windows Refer to the [Directories Page](https://github.com/lbryio/lbry.io/blob/master/content/faq/lbry-directories.md) to get the correct locations)
 ## Windows Only For Now
 #### 1. make a (LBRYbackup.zip) where all the copied files will be compressed
 #### 2. navigate to lbryum\wallets and copy (default_wallet) to the (LBRYbackup.zip)
