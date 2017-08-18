@@ -1,5 +1,5 @@
 ---
-title: How do I back up my wallet?
+title: How do I back up my wallet funds?
 category: wallet
 ---
 
