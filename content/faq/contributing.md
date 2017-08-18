@@ -72,7 +72,7 @@ You're welcome and encouraged to work with us and the community on LBRY!
 
 An incredible amount of LBRY was built via public contributions. Every technical employee of LBRY outside of the founding team started as a public contributor. Contributors have also earned hundreds of thousands of LBRY credits (and tens of millions of street cred).
 
-How to get contribute:
+How to contribute:
 
 1. **Identify the component you want to work on**. LBRY has code bases in Python, JavaScript, PHP, and C++. See [Ecosystem Overview](#ecosystem-overview).
 1. **Get set up.** Each repo has a README.md or INSTALL.md with instructions on how to get the repo up and running properly.
@@ -114,4 +114,4 @@ For any repos you want to be a tester on, "Watch" the repo on GitHub. You will r
 
 If you're feeling moderately hard-core, you can also test `master` builds via [releases.lbry.io](http://releases.lbry.io/). If you're feeling super hard-core, you can compile `master` yourself, via the README.md or INSTALL.md in the associated repo.
 
-**Note that you use release candidates and especially master builds at your own risk. Back up your wallet first.**
+**Note that you are using release candidates and especially master builds at your own risk. Back up your wallet first.**
