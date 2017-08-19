@@ -23,7 +23,7 @@ Consulting with economists, we devised LBRY’s nameclaim system. LBRY URIs supp
 | --- | --- |
 | **Permanent** | `lbry://<name>#<claim_id>` | A fixed id for a claim to a name, this id stays the same if the claim is updated. |
 | **Vanity** | `lbry://<name>` | The claim to the name with the most credits committed towards it (like voting) - the sum of the credits committed in the claim and any claim supports. |
-| **Channel** | `lbry://<@channel_name>` | A claim containing a public key, the private counterpart is used for signing other name claims. Channel claims can be specified in the uri with the `#` modifier, and the unmodified uri has vanity resolution. |
+| **Channel** | `lbry://<@channel_name>` | A claim containing a public key, the private counterpart is used for signing other name claims. Channel claims can be specified in the URI with the `#` modifier, and the unmodified URI has vanity resolution. |
 | **Signed** | `lbry://<@channel_name>/<example>` | The claim to `<example>` in the channel of (signed by) `<@channel_name>`. The channel claim defaults to the vanity resolution, but can be specified with the `#` modifier given before the `/`.
 
 #### What is a claim?</br>
@@ -40,7 +40,7 @@ Here are a few key things to takeaway:
 
 3. **Other users can pledge credits to support the nameclaim of a creator they like.** If you claim lbry://bestmovieever and your film lives up to the hype, users may show their support by pledging some credits to make sure you hold onto that name.
 
-4. **Names are not like Youtube channels; they’re more like search terms.** Publishers can use a claim to a name for much the same purpose, with a "channel" claim. The uri for these claims support allow specifying other claims made by that publisher easily, like `lbry://@UCBerkeley/ucb-P7Wjq025f-Q` or `lbry://@oscopelabs/itsadisaster-sd`. Additionally, with the `#<claim_id>` syntax publishers have uris that are permanent and embeddable, where resolution is not subject to the bidding system. The only time these claims cannot be resolved is if the publisher removes the specified claim. The bidding system is only meant to get traffic from users trying to discover your content through the naming system. Since every comedy video would want to be at `lbry://comedy` the nameclaim system allows the name to go to the creator who can make the most revenue off of it.
+4. **Names are not like Youtube channels; they’re more like search terms.** Publishers can use a claim to a name for much the same purpose, with a "channel" claim. The URI for these claims support allow specifying other claims made by that publisher easily, like `lbry://@UCBerkeley/ucb-P7Wjq025f-Q` or `lbry://@oscopelabs/itsadisaster-sd`. Additionally, with the `#<claim_id>` syntax publishers have URIs that are permanent and embeddable, where resolution is not subject to the bidding system. The only time these claims cannot be resolved is if the publisher removes the specified claim. The bidding system is only meant to get traffic from users trying to discover your content through the naming system. Since every comedy video would want to be at `lbry://comedy` the nameclaim system allows the name to go to the creator who can make the most revenue off of it.
 
 For more details on claims, please see https://lbry.io/faq/claimtrie-implementation
 
