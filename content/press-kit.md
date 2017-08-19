@@ -7,7 +7,7 @@ Mike Vine, LBRY Evangelist<br/>
 
 LBRY’s goal: Every film, song, book & game ever made – accessible anywhere.
 
-LBRY uses blockchain technology to provide a new way for people to publish and share content with each other – with no corporate middleman. It is a decentralized, censorship-resistant, open-source, peer-to-peer information marketplace and discovery protocol. LBRY was incorporated in 2015 by Jeremy Kauffman, and the team has expanded steadily since then. An alpha client was released in late October 2015, and an invite-only beta client was released on July 4th, 2016. LBRY is powered by its own cryptocoin, LBRY Credits (similar to Bitcoin), which began being mined on June 27th, 2016. On July 29th the Pop-up Open Beta Was Announced.
+LBRY uses blockchain technology to provide a new way for people to publish and share content with each other – with no corporate middleman. It is a decentralized, censorship-resistant, open-source, peer-to-peer information marketplace and discovery protocol. LBRY was incorporated in 2015 by Jeremy Kauffman, and the team has expanded steadily since then. An alpha client was released in late October 2015, and an invite-only beta client was released on July 4th, 2016. LBRY is powered by its own cryptocoin, LBRY Credits (similar to Bitcoin), which began being mined on June 27th, 2016. On July 29th, 2017 the Pop-up Open Beta Was Announced.
 
 ### FAQ
 
