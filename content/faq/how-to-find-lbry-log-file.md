@@ -13,17 +13,10 @@ In certain cases, we may ask you to send us your log file(s).  The current log f
 2. Here you will see the `lbrynet.log` file and any archives.
 
 ## MacOS
-Option 1
 1. Open Finder.
 1. Click Go on top menu and choose "Go To Folder".
 1. Type "~/Library/Application Support/LBRY" and then click go.
 2. Here you will see the `lbrynet.log` file and any archives.
----
-Option 2
-1. Open terminal
-2. Run `cat "/Users/<your_username>/Library/Application Support/LBRY/lbrynet.log"`
-3. If you are unable to find this file, run `sudo find / -type f -name "lbrynet.log"` anywhere in your terminal
- and it will show you the directory the log exists in.
 
 ## Ubuntu / Linux *(Exact steps may differ slightly)*
 1. Navigate to your home directory. Ensure hidden files and folders are shown if using a graphical file explorer.
