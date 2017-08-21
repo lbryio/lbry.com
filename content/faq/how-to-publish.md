@@ -11,14 +11,16 @@ You can revoke this claim if you no longer want to use it with the steps below.
 ### Publish Content to a Channel
 
 1. Under the `Content` section click `Choose File`.
-2. From your machine select what you would like to upload to LBRY.  LBRY accepts any HTML5 format for video, the full list can be found here: https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats
-3. Under the `Access` section select what type of license the content should be under, select which type of license is appropriate for your upload. </br>
-4. Type of the content url you'd like it to be under.  
-5. Read and agree to the terms of service.
-6. Click publish.
+2. Select what you would like to upload to LBRY.  LBRY accepts any HTML5 format for video, the full list can be found here: https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats
+3. Select a `Title`, `Thumbnail URl`, and `Description` for your upload.
+4.  Below those there is a `Language` and `Maturity` which will default to `English` and `All Ages`.  If a change is needed to these defaults click the dropdowns and change them.
+Under the `Access` section select what type of license the content should be under, select which type of license is appropriate for your upload. </br>
+5. Select the channel name you would like to publish the channel under
+6. Type out the full url you want the content to be found under along with a minimum of .1 LBC minimum deposit for the upload.
+7. Read and agree to the terms of service.
+8. Click publish.
 
 ### Updating your existing bid on a channel
-
 
 
 ### Abandoning a claim
