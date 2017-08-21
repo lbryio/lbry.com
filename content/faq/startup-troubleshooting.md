@@ -1,6 +1,7 @@
 ---
 title: LBRY Startup Troubleshooting
 category: troubleshooting
+order: 1
 ---
 
 Internet connectivity and ports are key to running LBRY successfully since it is a Peer to Peer protocol that requires clients to see and speak to each other. Since individual local network configurations, firewalls, and other security settings vary greatly, LBRY may require some basic network/PC troubleshooting in order to function properly. Also since LBRY is in beta, there are certain configurations which we don't support yet but can offer workarounds (see below) or offer one on one [support](https://lbry.io/faq/how-to-report-bugs). 
