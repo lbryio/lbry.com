@@ -1,6 +1,6 @@
 ---
 title: How do I do a clean install of LBRY while preserving important data?
-category: setup
+category: troubleshooting
 ---
 
 Under certain circumstances, particularly if you've tested earlier beta versions, it may be recommended that you perform a clean installation of LBRY.  This generally involves uninstalling the current LBRY application, removing various directories/files and then reinstalling the latest version of LBRY. Different operating systems use different folder locations and [this post on directories](https://lbry.io/faq/lbry-directories) will help if you cannot locate the right files or folders.  
