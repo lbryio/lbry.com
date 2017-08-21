@@ -1,10 +1,12 @@
 ## How to publish content on LBRY
 
+Advanced users: All of the steps below are for the LBRY app.  For additional details of how to conduct any of these actions through the cli please see https://lbryio.github.io/lbry/cli/
+
 ### How to create a channel
 1. Download the LBRY app from lbry.io/get. If you already have the application and it prompts you to update, run the update to be on the most recent version.
 2. Load the application and  click the `Publish` button.
 3. In the `Channel Name` section click the dropdown and select `New Channel` and  declare the name you would like for your channel.  For more details on different channel types, see https://lbry.io/faq/naming
-4. Once your name is selected, there is a `Deposit` section that is below.  It requires a minimum bid of 1 LBC.   See more on deposits here: naming.md.  If you would ever like to abandon your claim there is a guide below in `Abandoning a claim`.
+4. Once your name is selected, there is a `Deposit` section that is below.  It requires a minimum bid of .1 LBC.   See more on deposits here: naming.md.  If you would ever like to abandon your claim there is a guide below in `Abandoning a claim`.
 5. Click `Create Channel` once you have selected your bid amount.  Your deposit is a bid and if this channel isn't claimed by another bid, the channel is yours to use!
 You can revoke this claim if you no longer want to use it with the steps below.
 
@@ -20,22 +22,13 @@ Under the `Access` section select what type of license the content should be und
 7. Read and agree to the terms of service.
 8. Click publish.
 
-### Abandoning a claim in the LBRY app
+### Abandoning a claim and deleting uploaded content
 
 1. Click on the folder icon in the top right.
 2. Click on the `Published` link.
 3. Click on the `...` next to the `Open` link.
 4. Select `Remove...`.
-5. There will be two options.  Select `Abandon the claim for this URI`.
+5. There will be two options.  `Abandon the claim for this URI` and `Delete this file from my computer`.  Select the option that applies.  <b>Warning: Deleting content is permanent.  Please make sure this is what you want to do before confirming the deletion.
 6. Click `Remove`.
 
-### Deleting a published file in the LBRY app
-
-1. Click on the folder icon in the top right.
-2. Click on the `Published` link.
-3. Click on the `...` next to the `Open` link.
-4. Select `Remove...`.
-5. There will be two options.  Select `Delete this file from my computer`.
-6. Click `Remove`.
-
-### Updating your existing bid on a channel
+### Editing your claim on a channel
