@@ -1,6 +1,6 @@
 ---
 title: How do I get help or report a bug?
-category: setup
+category: troubleshooting
 ---
 
 ### Live Help
