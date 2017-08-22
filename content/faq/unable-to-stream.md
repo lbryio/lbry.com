@@ -3,7 +3,7 @@ title: Unable to stream any LBRY content?
 category: troubleshooting
 ---
 
-If you are having trouble streaming all LBRY content, including those on the Home Page, there may be an issue with your connectivity to the LBRY content network which operates on Port 4444 (UDP).  LBRY employs UPnP (if enabled) in order to automatically forward this port on your router. If UPnP is disabled, it must either be enabled or the port must be forwarded in your router configuration.  We have also seen instances where some ISPs may block port 4444 and for LBRY to download properly, this port must be manually configured - see steps below.  
+If you are having trouble streaming all LBRY content there may be an issue with your connectivity to the LBRY network. One common cause of this issue in lack of access over port 4444 (UDP).  LBRY employs UPnP (if enabled) in order to automatically forward this port on your router. If UPnP is disabled, it must either be enabled or the port must be forwarded in your router configuration.  We have also seen instances where some ISPs may block port 4444 and for LBRY to download properly, this port must be manually configured - see steps below.  
 
 ### How to manually set the DHT (Content Network) port
 
