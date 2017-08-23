@@ -12,9 +12,7 @@ The first area to check for start-up issues is the [LBRY log file](https://lbry.
 LBRY operates on a couple different ports and if there are conflicts/firewall rules/security settings that prevent them from being utilized, the app/daemon will experience start-up issues. LBRY tries to employ port forwarding through the use of UPnP, which may be disabled on some routers. Either UPnP must be enabled or you have to manually forward the ports below (3333 TCP and 4444 UDP) in order to fully take advantage of the LBRY network. Only 1 PC on a network can have an open outside port, so if you are running multiple PCs with LBRY, they will need to be configured manually. 
 
 - Port 3333 - LBRY daemon runs and shares data on port 3333 (TCP) by default. Often times, this port can be already in use to due to mining software or other applications/services. 
-
 - Port 4444 - LBRY daemon utilizes port 4444 to stream and download data from the LBRY network. If this port is taken or not working properly, you generally won't have start-up issues, but instead, results in the inability to download any content. See the [streaming guide](https://lbry.io/faq/unable-to-stream) for the workaround. 
-
 - Port 50001 - LBRY wallet connections happen over port 50001. LBRY may fail to start if this port is blocked by a firewall or network rules. 
 
 ### This is my first time running LBRY and it won't start
