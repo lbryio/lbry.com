@@ -17,22 +17,16 @@ LBRY operates on a couple different ports and if there are conflicts/firewall ru
 
 ### This is my first time running LBRY and it won't start
 - Port 3333 already in use. This issue would reveal itself in the log file. You can see how to change this port [here](https://lbry.io/faq/how-to-change-port). If the port is properly forwarding correctly, you are able to successfully see port 3333 Open on this [port checker tool](https://www.canyouseeme.org). 
-
 - Port 50001 wallet connection fails. This issue would reveal itself in the log file. Typical things to check would be firewall/security settings that may block this connection. 
-
 - On Linux, LBRY may fail to start because of missing authentication capability. Please see [giuthub issue](https://github.com/lbryio/lbry-app/issues/386) or possible workaround below.
-
 - On Windows, LBRY may fail to start because of non-ASCII characters in your Windows username. Check your c:\users\<username> path to see if there are any such characters. Please see [github issue](https://github.com/lbryio/lbry/issues/794) or workaround below.
 
 ### LBRY used to work previously but now it won't start
 First and foremost, please ensure you are on the [latest verison](https://lbry.io/get) of LBRY. Reinstalling the latest version may alleviate some start-up issues. Before installing, either make sure no LBRY/lbrynet processes or simply reboot your computer. 
 
 - On Windows, you may receive an error titled `Uncaught Exception - Error: Object has been destroyed...` which prevents you from starting LBRY. This usually means LBRY.exe or lbrynet-daemon.exe is already running in the background. Check the task manager, kill the process(es) and start LBRY again. Please see this [GitHub issue](https://github.com/lbryio/lbry-app/issues/353) for more details.
-
 - On Windows, you may receive an error titled `Uncaught Exception - Error spawn...ENOENT` which usually means LBRY can't find the daemon exe file. Please see this [GitHub issue](https://github.com/lbryio/lbry-app/issues/396) for more details. The workaround is to rerun the [latest](https://lbry.io/get) LBRY installation file. 
-
 - On older MAC installations, you may run into an issue with the daemon shutting down immediately. Please see [this GitHub issue](https://github.com/lbryio/lbry-app/issues/291) for troubleshooting. 
-
 - Other typical startup troubleshooting would be to ensure that LBRY or lbrynet-daemon is not already running in the background. If the processes cannot be killed, a restart of your computer may be required.
 
 ### Known startup issues and workarounds
