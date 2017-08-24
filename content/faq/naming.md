@@ -17,7 +17,7 @@ The end product of domain names can be very confusing. Domain names can be very 
 First and foremost
 **it is absolutely possible to own and control a URI forever**.
 
-Consulting with economists, we devised LBRY’s nameclaim system. LBRY URIs support four types of resolution:
+Consulting with economists, we devised LBRY’s name claim system. LBRY URIs support four types of resolution:
 
 | Type | Syntax | Resolution |
 | --- | --- |
@@ -28,9 +28,11 @@ Consulting with economists, we devised LBRY’s nameclaim system. LBRY URIs supp
 
 #### What is a claim?</br>
 
-Claims are vanity names designed to be controlled by the user who gets the most value out of them. For example, Radiohead would get a lot more value out of lbry://amoonshapedpool than a squatter, pirate, or troll.
-
 Claims are a human readable name that contains serialized data, which allows it to store a data for a specific purpose, or to point to something else.  Currently claims contain encoded channel identities and download streams.  This format is flexible, allowing support for many use cases to be added.
+
+Vanity name claims are designed to be controlled by the user who gets the most value out of them. For example, Radiohead would get a lot more value out of lbry://amoonshapedpool than a squatter, pirate, or troll.
+
+Permanent name claims are an extension of vanity name claims.  It allows your URI for your content to remain permanent even if that content is edited.
 
 Here are a few key things to takeaway:
 
