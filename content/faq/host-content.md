@@ -12,3 +12,5 @@ Think of it like how torrents or any other peer-to-peer (P2P) service
 works. First you download a file from the hosts that have it available. 
 When the download has finished, you become a host in the network 
 other people can download from. 
+
+**Please note: Hosting fees are currently disabled on the network as we work on a better way to implement the fee structure**
