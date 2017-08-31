@@ -9,7 +9,7 @@ LBRY controls millions of credits that it wants to get into the hands of content
 
 Unfortunately, when you try to give stuff away for free, people will abuse it.
 
-This, and only this, is the reason we require a credit card to participate in the rewards program. We wish we could tell you were a real person without this step, but no other solution we've tried thus far has worked well.
+This, and only this, is the reason we require a credit card to participate in the rewards program. We wish we could tell you were a real person without this step, but no other solution we've tried thus far has worked well.  This is the fastest and easiest method to verify your identity, otherwise, please see below. 
 
 **To be clear, no money will be charged to your card now or ever.** There is no fine print and there is no trick.
 
@@ -19,9 +19,9 @@ Your card information is submitted directly to [Stripe](https://stripe.com), one
 
 ### What If I Don't Want To Provide It?
 
-No problem!
+No problem! We've added two other verification methods - [YouTube Account Sync](https://api.lbry.io/yt/connect) and manual verification via [Slack chat](https://slack.lbry.io).  The YouTube sync method will require that you have a significant subscriber/view count and will take additional time as it requires us to review for eligibility and upload your content if approved. 
 
-You are welcome to use the LBRY browser without providing any personal information. We just can't give you any rewards.
+Otherwise, you are welcome to use the LBRY browser without providing any personal information. We just can't give you any rewards.
 
 Note that without some credits, you will be unable to publish or access paid content.
 
