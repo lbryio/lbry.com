@@ -16,7 +16,7 @@ Lee Camp does it all. Comedy, news anchor, in-the-field journalism and vlogs. [@
 
 A staple of the RT America television slate, Redacted Tonight has expanded its reach across the web, and is finally available right in your LBRY app.
 
-From YouTube’s [war on independent media](https://open.lbry.io/rt-PgmzvCCXlBI), to the latest goings-on in the [Charlottesville attacks](https://open.lbry.io/rt-jPQK4VWSOQc), [@RedactedTonight](https://open.lbry.io/%40RedactedTonight) on LBRY is the only way to stream the latest news straight from the source.
+From YouTube’s [war on independent media](https://open.lbry.io/rt-PgmzvCCXlBI), to the latest goings-on in [drone warfare](https://open.lbry.io/rt-GAyxoBFXOTQ), [@RedactedTonight](https://open.lbry.io/%40RedactedTonight) on LBRY is the only way to stream the latest world news straight from the source.
 
 (Literally, there are no middlemen).
 
