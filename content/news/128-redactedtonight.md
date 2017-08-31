@@ -4,7 +4,7 @@ title: 'Real Talk'
 date: '2017-08-31 00:19:00'
 cover: 'redactedtonight-banner.jpg'
 ---
-The hallmark of good news media is honesty and integrity. Telling the true story without sugarcoating or redaction or revisionist history is paramount.
+The hallmarks of good news media are honesty and integrity. Telling the true story without sugarcoating or redaction or revisionist history is paramount.
 
 But as we’re all too aware, this is a seemingly difficult quality to come by in modern news.
 
