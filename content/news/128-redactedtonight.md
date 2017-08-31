@@ -12,7 +12,7 @@ LBRY aims to be a lot of things for many people. But one of its most noble cause
 
 ![Redacted Tonight](/img/news/redactedtonight-inline.jpeg)
 
-Lee Camp does it all. Comedy, news anchor, in-the-field journalism and vlogs. [@RedactedTonight](https://open.lbry.io/%40RedactedTonight) is like The Daily Show for the next generation, and arguably a marked improvement on the groundwork laid on Comedy Central’s pioneering block of news and satire.
+Lee Camp does it all. Comedy, news anchor, in-the-field journalism and vlogs. [@RedactedTonight](https://open.lbry.io/%40RedactedTonight) is like The Daily Show for the next generation, and arguably a marked improvement on the groundwork laid by Comedy Central’s pioneering block of news and satire.
 
 A staple of the RT America television slate, Redacted Tonight has expanded its reach across the web, and is finally available right in your LBRY app.
 
