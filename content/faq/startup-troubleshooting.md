@@ -31,8 +31,7 @@ First and foremost, please ensure you are on the [latest verison](https://lbry.i
 
 ### Known startup issues and workarounds
 #### Linux auth_token requirements
-Currently, LBRY requires an authorization token to be generated using the [keytar](https://github.com/atom/node-keytar) libraries. Please ensure libsecret and keytar are installed. On some distributions, LBRY won't run unless gnome keyring is also installed/operational. See [GitHub issue](https://github.com/lbryio/lbry-app/issues/386) for more information. 
-
+Currently, LBRY requires an authorization token to be generated using the [keytar](https://github.com/atom/node-keytar) libraries. Please ensure libsecret and keytar are installed. On some distributions, LBRY won't run unless gnome keyring is also installed/operational. See [GitHub issue](https://github.com/lbryio/lbry-app/issues/386) for more information. If you get a GLIBCXX_3.4.2 error, pleasae see [this issue](https://github.com/lbryio/lbry-app/issues/423#issuecomment-327519486).
 #### Windows user path has non-ASCII characters
 Currently, the LBRY app may fail to start because it does not support non-ASCII / non-English letters in the c:\Users\<username> directory where it tries to create your LBRY wallet, downloads and application data. As a workaround, you can manually set these directories in the `daemon_settings.yml` file. If this file does not exist in your [lbrynet folder](https://lbry.io/faq/lbry-directories), you can create one or you can use [this sample](https://goo.gl/opybNE).
 
