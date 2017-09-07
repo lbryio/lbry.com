@@ -32,7 +32,7 @@
         </li>
         <li>
           We believe great results can only come from great people. If you’re interested in
-          working [alongside people](https://lbry.io/team) who are exceptionally bright, creative, and diligent, LBRY is a strong choice.
+          working <a href="/team">alongside people</a> who are bright, creative, and diligent, LBRY is a strong choice.
         </li>
       </ul>
 
@@ -57,12 +57,15 @@
         <li>
           No degree, credential, or age requirements. If you can do the work, we don't care how you got the skills.
         </li>
+        <li>
+          Someone that appreciates our CTO would [create this document](https://gist.github.com/lyoshenka/0a43205aa9a072b196ff87e2c689a8b9) and then link it in a job posting.
+        <li>
       </ul>
 
       <h2>Positions</h2>
 
       <p>
-        Contact <a href="mailto:joinus@lbry.io">joinus@lbry.io</a> if interested in the following. All inquiries ought to include the following:
+        Contact <a href="mailto:joinus@lbry.io">joinus@lbry.io</a> if interested in a position. Please include the following:
       </p>
       <ol>
         <li>A resume, Linked In profile, or other resource that would serve as a work history.</li>
