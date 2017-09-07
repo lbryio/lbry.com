@@ -80,7 +80,7 @@
       <p>
         We're seeking a developer to work on the core LBRY protocol. As our network multiplies in size, we need to keep it working smoothly.
         You'll be working on the LBRY protocol and DHT, so experience with distributed systems and networks
-        is a plus. This work also relates to blockchains</strong> and cryptography</strong>. Our code is primarily in Python and uses the Twisted framework.
+        is a plus. This work also relates to blockchains and cryptography. Our code is primarily in Python and uses the Twisted framework.
       </p>
 
       <h4>API Developer</h4>
