@@ -4,7 +4,7 @@
   <section class="post-content">
 
     <div class="content">
-      <h1>Help Us Create Content Freedom</h1>
+      <h1>Join Team Content Freedom</h1>
 
       <p>
         Changing the landscape of content distribution is no easy task. LBRY is growing rapidly, and we're always looking for great people
@@ -15,7 +15,7 @@
       <h2>About LBRY</h2>
 
       <p>
-        LBRY is an unusual company in several ways:
+        Some things to know about working at LBRY:
       </p>
 
       <ul>
@@ -31,8 +31,8 @@
           encouraged to contribute beyond those areas. We judge ideas and results, not ranks and titles.
         </li>
         <li>
-          <a href="/team">Everyone here</a> is from Lake Wobegon. Great results can only come from great people. If you’re interested in
-          working with people who are exceptionally bright, creative, and diligent, LBRY is a strong choice.
+          We believe great results can only come from great people. If you’re interested in
+          working [alongside people](https://lbry.io/team) who are exceptionally bright, creative, and diligent, LBRY is a strong choice.
         </li>
       </ul>
 
@@ -48,7 +48,7 @@
           Your job is not just to solve problems, but to solve problems in a way that will last and can easily be picked up by other people.
         </li>
         <li>
-          Knack for user experience and design. Our user base ranges from casual web surfers to cryptonerd power users. You'll need an ability to
+          Knack for user-experience and user-perspective. Even if you're designing the guts of our DHT, what you create ultimately has to work for real people. Our user base ranges from casual web surfers to cryptonerd power users and you'll need an ability to
           understand how to create solutions that work for both.
         </li>
         <li>
@@ -59,34 +59,40 @@
         </li>
       </ul>
 
-      <h2>Available Positions</h2>
+      <h2>Positions</h2>
 
       <p>
-        Send your resume/LinkedIn profile and examples of your previous work to <a href="mailto:joinus@lbry.io">joinus@lbry.io</a>.
+        Contact <a href="mailto:joinus@lbry.io">joinus@lbry.io</a> if interested in the following. All inquiries ought to include the following:
       </p>
+      <ol>
+        <li>A resume, Linked In profile, or other resource that would serve as a work history.</li>
+        <li>A code sample. Preferrably a link to a public repository for a project you have built or significantly contributed to.</li>
+        <li>One sentence about why you'd like to work for LBRY.</li>
+      </ol>
+        
+          
 
-      <h4>Backend Developer</h4>
+      <h4>Protocol Developer</h4>
 
       <p>
-        We're seeking a developer to work on the core LBRY platform. As our network multiplies in size, we need to keep it working smoothly.
-        You'll be working on the LBRY <strong>protocol</strong> and <strong>DHT</strong>, so experience with <strong>distributed systems</strong>
-        is a plus. Our code is primarily in <strong>Python</strong> and uses the <strong>Twisted</strong> framework.
+        We're seeking a developer to work on the core LBRY protocol. As our network multiplies in size, we need to keep it working smoothly.
+        You'll be working on the LBRY <strong>protocol</strong> and <strong>DHT</strong>, so experience with <strong>distributed systems</strong> and <strong>networks</strong>
+        is a plus. This work also relates to <strong>blockchains</strong> and <strong>cryptography</strong>. Our code is primarily in <strong>Python</strong> and uses the <strong>Twisted</strong> framework.
       </p>
 
       <h4>API Developer</h4>
 
       <p>
         Do you have strong opinions on API design? Know when to use a 303, and when a 307 is more appropriate? This is the perfect role for you.
-        Our current stack includes <strong>Go</strong>, <strong>SQL</strong>, and the <strong>AWS</strong> platform,
+        This role involves building auxiliary services used to onboard creators and users. It involves interactions with the LBRY blockchain and work in <strong>Go</strong>, <strong>SQL</strong>, and the <strong>AWS</strong> platform.
       </p>
 
       <h4>Frontend Developer</h4>
 
       <p>
-        Much of the LBRY's innovations happen under the hood, but the real magic comes from sparing the end-user the details. Our app provides
-        a simple, intuitive way to interact with LBRY, without requiring any knowledge of blockchains or DHTs. We use a modern
-        <strong>React</strong> UI stack, with <strong>Electron</strong> to help abstract the OS. If your passion is a clean interface and
-        a delightful user experience, holler at us.
+        Do you want to think you could build a better UI than YouTube interface? The LBRY app gives users a
+        a simple, intuitive way to interact with LBRY, without requiring any knowledge of blockchains or DHTs. We use modern
+        JavaScript along with <strong>React</strong> and <strong>Electron</strong>.
       </p>
 
       <h2>Other Work</h2>
