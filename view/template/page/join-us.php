@@ -87,15 +87,15 @@
 
       <p>
         Do you have strong opinions on API design? Know when to use a 303, and when a 307 is more appropriate? This is the perfect role for you.
-        This role involves building auxiliary services used to onboard creators and users. It involves interactions with the LBRY blockchain and work in Go, SQL, and the AWS platform.
+        This role involves building auxiliary services used to onboard creators and users. It involves interactions with the LBRY blockchain and 
+        work in Go, SQL, and the AWS platform.
       </p>
 
       <h4>Frontend Developer</h4>
 
       <p>
-        Do you want to think you could build a better UI than YouTube? The LBRY app gives users a
-        a simple, intuitive way to interact with LBRY, without requiring any knowledge of blockchains or DHTs. We use modern
-        JavaScript along with React and Electron.
+        Do you want to think you could build a better UI than YouTube? The LBRY app gives users a simple, intuitive way to interact with LBRY, 
+        without requiring any knowledge of blockchains or DHTs. We use modern JavaScript along with React and Electron.
       </p>
 
       <h2>Other Work</h2>
