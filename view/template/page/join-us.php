@@ -58,7 +58,7 @@
           No degree, credential, or age requirements. If you can do the work, we don't care how you got the skills.
         </li>
         <li>
-          Someone that appreciates our CTO would <a href="https://gist.github.com/lyoshenka/0a43205aa9a072b196ff87e2c689a8b9">create this document</a> and then link it in a job posting.
+          Someone that appreciates that our CTO would <a href="https://gist.github.com/lyoshenka/0a43205aa9a072b196ff87e2c689a8b9">create this document</a> and then link it in a job posting.
         </li>
       </ul>
 
