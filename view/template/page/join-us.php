@@ -94,7 +94,7 @@
       <h4>Frontend Developer</h4>
 
       <p>
-        Do you want to think you could build a better UI than YouTube? The LBRY app gives users a simple, intuitive way to interact with LBRY, 
+        Do you think you could build a better UI than YouTube? The LBRY app gives users a simple, intuitive way to interact with LBRY, 
         without requiring any knowledge of blockchains or DHTs. We use modern JavaScript along with React and Electron.
       </p>
 
