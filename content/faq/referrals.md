@@ -3,31 +3,33 @@ title: How does the referral and waitlist program work?
 category: getstarted
 ---
 
-You can earn credits for referring others to use LBRY.  As of 8/1/2017, we have paused referrals because LBRY has entered an "Open Beta" status where anyone can download the software. We have recorded all your referrals and are moving this information into the LBRY Application.  This information is not available at your referral link at this time, nor can your referral link earn any more credits. 
+You can earn credits for referring others to use LBRY. In the latest verison of the LBRY app, you can now view the status of your referrals and invite new users to LBRY. The Invites area can be found by going to your wallet (bank icon in the top right of the LBRY app) and then clicking Invites from the top menu. In the Invite History section, you will see all your referrals along with their status (whether it is claimable or not). You also have the ability to invite new users to LBRY via the "Invite a Friend" section.  
 
-### How many credits do I get?
+### How many credits do I get and how do I see how many credits I've earned?
 
-The current referral reward as well as the number of people you have referred has been recorded by our system
+New invites sent via the LBRY app are eligibile for a 3 LBC reward amount. 
 
-You will always receive the number of credits being awarded at the time your referree joined the list.
+For invites prior to 8/1/2017, the current referral reward as well as the number of people you have referred has been recorded by our system. You can see the list of your invited users on the Invite History section of the Invites screen.
 
-### How do I see how many credits I've earned?
-
-We've recorded all the credits you have earned up until 8/1/2017 and they be shown in inside the LBRY App once that feature is implemeneted.
+You will always receive the number of credits being awarded at the time your referree joined the list. Currently, the reward amount will be shown when the invite is claimed. You can see the reward amount in the Rewards section of the LBRY app after it is claimed. 
 
 ### When do I get my rewards?
 
-We are working on a solution where each user can redeem their rewards via the LBRY app.  When this goes live, you will then be able to claim your referral rewards. 
+We are currently in a testing phase of referral system where each account is limited to a single referral reward redemption.  
 
-You will not receive rewards for each referral until those users join and use LBRY themselves. This is to combat referral fraud.
+You will not receive rewards for each referral until those users join and use LBRY themselves (see below section regarding claimable referrals). This is to combat referral fraud.
+
+### What is the criteria for a claimable referral?
+
+A claimable referral has the same definition as a Rewards eligible or Verified LBRY user. This means the referred user must have logged into the LBRY app and verified their account.  Users who redeemed rewards prior to the LBRY Open Beta (on 8/1/2017) were automatically grandfathered as verified users. Post LBRY Open Beta verification options can be seen [here](https://lbry.io/faq/identity-requirements). 
+
+LBRY users who abuse either the Referral or Rewards system will not be eligible for referral redemption. If you have specific questions about individual referrals which are not claimable, please reach out to the [helpdesk](mailto:help@lbry.io) with details. 
 
 ### Is there a limit to the credits I can earn?
 
 If you expect to refer more than 50-100 people, please discuss it with us on [Slack](http://slack.lbry.io) or email [us](mailto:josh@lbry.io).
 
-### Will you turn Referrals back on? 
-
-Once we have the Referral system implemented in the LBRY App, we plan on turning them back on so that users can earn credits for referring their friends and family. 
+Currently during the referral reward testing phase, there is a limit of 1 redemption per account.
 
 ### I have a clever idea to cheat the referral system.
 
