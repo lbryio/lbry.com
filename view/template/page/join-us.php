@@ -79,23 +79,23 @@
 
       <p>
         We're seeking a developer to work on the core LBRY protocol. As our network multiplies in size, we need to keep it working smoothly.
-        You'll be working on the LBRY <strong>protocol</strong> and <strong>DHT</strong>, so experience with <strong>distributed systems</strong> and <strong>networks</strong>
-        is a plus. This work also relates to <strong>blockchains</strong> and <strong>cryptography</strong>. Our code is primarily in <strong>Python</strong> and uses the <strong>Twisted</strong> framework.
+        You'll be working on the LBRY protocol and DHT, so experience with distributed systems and networks
+        is a plus. This work also relates to blockchains</strong> and cryptography</strong>. Our code is primarily in Python and uses the Twisted framework.
       </p>
 
       <h4>API Developer</h4>
 
       <p>
         Do you have strong opinions on API design? Know when to use a 303, and when a 307 is more appropriate? This is the perfect role for you.
-        This role involves building auxiliary services used to onboard creators and users. It involves interactions with the LBRY blockchain and work in <strong>Go</strong>, <strong>SQL</strong>, and the <strong>AWS</strong> platform.
+        This role involves building auxiliary services used to onboard creators and users. It involves interactions with the LBRY blockchain and work in Go, SQL, and the AWS platform.
       </p>
 
       <h4>Frontend Developer</h4>
 
       <p>
-        Do you want to think you could build a better UI than YouTube interface? The LBRY app gives users a
+        Do you want to think you could build a better UI than YouTube? The LBRY app gives users a
         a simple, intuitive way to interact with LBRY, without requiring any knowledge of blockchains or DHTs. We use modern
-        JavaScript along with <strong>React</strong> and <strong>Electron</strong>.
+        JavaScript along with React and Electron.
       </p>
 
       <h2>Other Work</h2>
