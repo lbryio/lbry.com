@@ -27,12 +27,12 @@
           have. We care about what you get done.
         </li>
         <li>
-          We are extremely transparent, flat, and open-minded. While you will have clearly delineated responsibilities, you are welcome and
+          We are extremely transparent, organizationally flat, and open-minded. While you will have clearly delineated responsibilities, you are welcome and
           encouraged to contribute beyond those areas. We judge ideas and results, not ranks and titles.
         </li>
         <li>
           We believe great results can only come from great people. If you’re interested in
-          working <a href="/team">alongside people</a> who are bright, creative, and diligent, LBRY is a strong choice.
+          working <a href="/team">alongside people</a> who are bright, creative, and diligent, this is the place.
         </li>
       </ul>
 
@@ -48,8 +48,8 @@
           Your job is not just to solve problems, but to solve problems in a way that will last and can easily be picked up by other people.
         </li>
         <li>
-          Knack for user-experience and user-perspective. Even if you're designing the guts of our DHT, what you create ultimately has to work for real people. Our user base ranges from casual web surfers to cryptonerd power users and you'll need an ability to
-          understand how to create solutions that work for both.
+          Knack for user-experience and user-perspective. Even if you're designing the guts of our DHT, what you create ultimately has to work for real people. Our user base ranges from casual 
+          web surfers to crypto-nerd power users and you'll need an ability to understand how to create solutions that work for both.
         </li>
         <li>
           Reliable and independent. We expect a lot out of you, but we won't keep tabs on you. You must thrive in that kind of environment.
