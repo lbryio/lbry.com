@@ -56,7 +56,7 @@ Currently this is only possible if you set a price for your content - you will s
 
 ### I shared my URL, but others can't download it. What's up? 
 
-Since LBRY uses a Peer to Peer network, it may require that your PC is accessible through the internet. LBRY also runs servers to assis in content hosting, but this process may fail if your PC cannot send it to us. By default, the sharing port is set to 3333. If your network is properly configured and LBRY is running, a port status check on 3333 should pass on this [port checking tool](https://www.canyouseeme.org). If it fails, you can check if UPNP is enabled on your router or forward port 3333 manually. If you need assistance, check out the [help page](https://lbry.io/faq/how-to-report-bugs) on how to reach us.
+Since LBRY uses a Peer to Peer network, it may require that your PC is accessible through the internet. LBRY also runs servers to assist in content hosting, but this process may fail if your PC cannot send it to us. By default, the sharing port is set to 3333. If your network is properly configured and LBRY is running, a port status check on 3333 should pass on this [port checking tool](https://www.canyouseeme.org). If it fails, you can check if UPNP is enabled on your router or forward port 3333 manually. If you need assistance, check out the [help page](https://lbry.io/faq/how-to-report-bugs) on how to reach us.
 
 ### Where is my Channel and content saved locally?
 
