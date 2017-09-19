@@ -12,7 +12,7 @@ To summarize, the main directories to consider when backing up or migrating a LB
 ##### - Data/Settings - `lbrynet` (`LBRY` on Mac)
 ##### - File Downloads - Typically your local Downloads directory (Check settings in LBRY app).
 
-##### *\*Please note: both the Data/Settings and File Downloads directories may large if you have downloaded lots of LBRY content*
+##### *\*Please note: both the Data/Settings and File Downloads directories may be large if you have downloaded lots of LBRY content*
 
 ### How do I backup all LBRY related data?
 
