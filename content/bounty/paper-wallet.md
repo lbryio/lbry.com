@@ -6,4 +6,4 @@ status: available
 date: '2017-09-12'
 ---
 
-Fork [bitaddress.org](www.bitaddress.org) for LBC.
+Fork [bitaddress.org](https://www.bitaddress.org) for LBC.
