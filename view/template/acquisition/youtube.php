@@ -3,15 +3,16 @@
 <?php echo View::render('nav/_header', ['isDark' => true, 'isAbsolute' => true]) ?>
 <main >
   <?php //if you change the image, change it on download/_publish too! ?>
-  <div class="cover cover-dark cover-center cover-full" style="padding-top: 80px; background-image: url('/img/youtube/tanks3.jpg')" >
+  <div class="cover cover-dark cover-center cover-full" style="padding-top: 80px; background-image: url('/img/youtube/spacerise.jpg')" >
     <div style="max-width: 700px; text-align: center">
       <?php echo View::render('nav/_flashes') ?>
       <h1 class="cover-title">
-        YouTube Creator?<br/>
-        Take Back Control.
+        Leave YouTube<br/>
+        for good.
       </h1>
       <div class="cover-subtitle" style="font-weight: bold">
-        Join thousands of other creators in a world where your content is made available directly to your audience, free of censorship and corporate influence.
+        No more demonetization or sneaky algorithms.<br/>
+        Publish on your terms, not Google's.
       </div>
        <div class="text-center control-group spacer2">
          <a href="#do-it" class="btn-primary">Let's Do This</a>
@@ -25,12 +26,9 @@
     </h2>
     <div class="column-fluid" >
       <?php foreach([
-        'icon-group' => ['Community Run', 'Share (and optionally monetize) your content via a network powered entirely by users themselves.'],
-        'icon-cubes' => ['Blockchain', 'The power of decentralized consensus allows your content to be discovered and accessed by anyone in the world -- on your terms.'],
-        'icon-thumbs-up' => ['Take Control', 'Publish your content with whatever terms, price, and quality you desire. Update, re-release, and unpublish at any time.'],
-        'icon-money' => ['Make More', 'You control whether your content is free or paid. If paid, you get 100% of the price.'],
-        'icon-lock' => ['Secure', 'Made with encryption and love by dozens of bright contributors from MIT, CMU, RPI, Udacity, Dyn and more.'],
-        'icon-code' => ['Open Source', 'Entirely open-source and permissively licensed (MIT). Maintained by stewards, not overlords.'],
+        'icon-money' => ['Earn More', 'Integrated tipjars, pay-per-stream, or free: the choice is yours. And you earn 100% of it.'],
+        'icon-group' => ['Community Run', 'Your audience–not advertisers–decide what they want and how they want it.'],
+        'icon-code' => ['Accountable', 'Entirely open-source platform. Maintained by stewards, not overlords.'],
         //Easy
       ] as $iconClass => $copyTuple): ?>
         <?php list($title, $body) = $copyTuple ?>
@@ -54,7 +52,7 @@
     <div class="span6" id="do-it">
       <div class="cover cover-dark cover-dark-grad">
         <div class="content content-dark content-tile">
-          <h3 class="cover-title cover-title-tile cover-title-flat">I'm in.</h3>
+          <h3 class="cover-title cover-title-tile cover-title-flat">Leave YouTube in one click</h3>
           <ol>
             <li>
               Clicking below will authenticate with YouTube and grant permission for your content to be available on the decentralized LBRY network.
@@ -65,7 +63,7 @@
             </li>
           </ol>
           <div class="text-center spacer2">
-              <a href="https://api.lbry.io/yt/connect" class="btn-alt">Let's Do This</a>
+              <a href="https://api.lbry.io/yt/connect" class="btn-alt">Sync Channel</a>
           </div>
           <div class="meta">*Unpublishing means removing the ability to decrypt and accessing your content via LBRY, but we cannot guarantee the deletion of all encrypted data.</div>
         </div>
@@ -76,8 +74,8 @@
       <div class="content content-light content-tile">
         <h3  class="cover-title cover-title-tile cover-title-flat">I Have Questions</h3>
         <p>
-          Schedule a meeting with Reilly, one of LBRY's founders and an experienced producer.
-          Or, <a class="link-primary" href=mailto:reilly@lbry.io?subject=YouTube+Freedom">email him directly</a>.
+          Have a big audience? Let Reilly know how we can support you
+          by <a class="link-primary" href=mailto:reilly@lbry.io?subject=YouTube+Freedom">emailing him directly</a>.
         </p>
         <form action="/youtube/sub" method="POST" class="spacer2">
           <?php echo View::render('form/_formRow', [
