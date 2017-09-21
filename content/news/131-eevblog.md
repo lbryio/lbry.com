@@ -8,7 +8,7 @@ If there was a channel to perfectly embody the lyrics of Daft Punk’s Technolog
 
 Today’s #LBRYcast is one of the top engineering shows on the web. Where there’s a will to tinker (or likelihood of electric shock), there’s a way for David to break it down.
 
-![EEVblog](/img/news/eev-inline.jpeg)
+![EEVblog](/img/news/eev-inline.jpg)
 
 Want to know how your [Trezor hardware wallet](https://open.lbry.io/ee-BzxGoJdd8a4) actually works? How about why [Blu-ray beat out HD-DVD](https://open.lbry.io/ee-HsX9MJK9i4Y) or how [PID controllers](https://open.lbry.io/ee-VVOi2dbtxC0) work? You’re in the right place. David demystifies all things electronic into digestible, fun content every other day on [@EEVblog](https://open.lbry.io/%40EEVblog).
 
