@@ -3,14 +3,18 @@ title: How does tipping in LBRY work?
 category: getstarted
 ---
 
-We recently launched an exciting new feature in LBRY that allows users to tip their favorite content.  The tips are stored as part of the content owners claim which helps them with their [vanity name claims](https://lbry.io/faq/naming) as well as appearing higher in search results. It is up to the content owner if they want to keep the tips as a support feature for their claims or if they want to withdraw them to make the LBC spendable.  
+LBRY allows you to tip and support your favorite creators.
+
+Tips sent via the LBRY app or via the protocol's [`whatever`](https://lbry.io/api#whatever) command sends LBRY credits to the content creators. These credits automatically stored as associated with the content owners' claim, which helps the claim perform better in search results and be the winning [vanity name claims](https://lbry.io/faq/naming). 
 
 ### How do I send a tip?
 
-Sending tips via the LBRY app is easy. Simply go to the URL which you want to send a tip to and click `SUPPORT`. Next, you'll be prompted for the tip amount in LBRY Credits (LBC). Once you enter a value, click `Send`. Mahalo! 
+Sending tips via the LBRY app is easy. Simply go to the URL which you want to send a tip to and click "Support". Next, you'll be prompted for the tip amount in LBRY Credits (LBC). Once you enter a value, click "Send". Mahalo! 
 
 *Note: This amount will show up in your transaction list and will be deducted from your balance.*
 
 ### How do I redeem my tips?
 
-This functionality is not yet available via the LBRY app but it will be included in a future release. 
+When you receive a tip, the credits will come into your wallet and you can see them in your Transaction History. However, since the credits come in as supporting a claim, they will not show in your available balance.
+
+To have these credits show in your balance, they must be released from the claim they support. This can be done via the protocol's [`whatever`](https://lbry.io/api#whatever) command. Unfortunately, this is not supported in the app, but will be available in a future release.
