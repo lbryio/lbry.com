@@ -17,4 +17,5 @@ Sending tips via the LBRY app is easy. Simply go to the page of the content you 
 
 When you receive a tip, the credits will come into your wallet and you can see them in your Transaction History. However, since the credits come in as supporting a claim, they will not show in your available balance.
 
-To have these credits show in your balance, they must be released from the claim they support. This can be done via the protocol's [`claim_abandon`](https://lbry.io/api#claim_abandon) command. Unfortunately, this is not supported in the app, but will be available in a future release.
+To have these credits show in your balance, they must be released from the claim they support. This can be done via the protocol's [`claim_abandon`](https://lbry.io/api#claim_abandon) command using the txid/nout parameters. Unfortunately, this is not supported in the app, but will be available in a future release.
+
