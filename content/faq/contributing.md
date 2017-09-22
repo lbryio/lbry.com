@@ -108,7 +108,7 @@ Translations are not managed through Git or GitHub. Email [Josh](mailto:josh@lbr
 
 If you aren't a coder, or you're a lazy coder, one of the best ways you can contribute is testing!
 
-Both `lbry` and `lbry-app` go through regular release cycles where new versions are shipped every few weeks. Testing release candidates or builds of master is a great way to help us identity issues and ship bug-free code.
+Both `lbry` and `lbry-app` go through regular release cycles where new versions are shipped every few weeks. Testing release candidates or builds of master is a great way to help us identify issues and ship bug-free code.
 
 For any repos you want to be a tester on, "Watch" the repo on GitHub. You will receive an email with release notes whenever a release candidate is out.
 
