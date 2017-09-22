@@ -53,9 +53,13 @@ or
 4. You can now edit your claim information. No need to re-select the file if it's the same one. 
 5. When you are done, re-confirm that you agree to the terms of service and click `Publish`.
 
+### Can someone tip me for my content? 
+
+Yes, check out LBRY how tipping in LBRY works by going [here](https://lbry.io/faq/tipping).
+
 ### Can I increase my bid amount?
 
-Yes, this is possible, but is only currently available via the API/command line [tools](https://lbry.io/quickstart/api). See the [claim_new_support](https://lbryio.github.io/lbry/cli/#claim_new_support) command. 
+Yes, this is possible by sending [tips](https://lbry.io/faq/tipping) as a support (additional bids) for your own claim. Since the claim is yours, you can withdraw the tips at your convenience.  To increase your bid, go to the desired claim and click the `Support` option, enter an amount of LBC to add to the claim, and click `Send`. 
 
 ### How can I tell if someone is downloading my content?
 
