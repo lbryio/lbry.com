@@ -12,7 +12,7 @@ If you don't have LBRY yet, download it [here](https://lbry.io/get).
 1. Open the LBRY app.
 2. Once the application loads, click the `Publish` button in the top right of the screen.
 3. In the `Channel Name` section click the dropdown and select `New Channel` and  declare the name you would like for your channel. For more details on different channel types, see our write up on [naming](https://lbry.io/faq/naming).
-4. Once your name is selected, there is a `Deposit` section that is below. It requires a minimum bid of .0001 LBC (see more on deposits [here](https://lbry.io/faq/naming)). Please ensure that you have enough LBRY credits in your wallet to cover the bid amount.  There is also a small network fee associated with the creation of a channel. 
+4. Once your name is selected, there is a `Deposit` section that is below. It requires a minimum bid of .01 LBC (see more on deposits [here](https://lbry.io/faq/naming)). Please ensure that you have enough LBRY credits in your wallet to cover the bid amount.  There is also a small network fee associated with the creation of a channel. 
 5. Click `Create Channel` once you have entered your bid amount. You now own `lbry://@channelnameyoubidon#Claim_ID` and `lbry://@channelnameyoubidon` (the vanity name without a claim id) if you are the highest bidder.
 
 ### How do I Publish content? 
@@ -23,7 +23,7 @@ If you don't have LBRY yet, download it [here](https://lbry.io/get).
 4. Next, there is a `Language` and `Maturity` which will default to `English` and `All Ages`.  If a change is needed, click the dropdowns and select the appropriate choice. 
 5. Under the `Access`, first determine if you want to make your video Free or set a price (in USD or LBC) per view. Next, select the appropriate type of license for the content you are publishing.
 6. You have an option to select/create the channel you would like to publish the channel under. If one isn't selected, it will be posted anonymously.
-7. Type in the URL you want the content to be found under along with a minimum of .0001 LBC minimum deposit for the upload. If you are trying to outbid a user friendly/common URL, the system will suggest a minimum bid to take over the content at that vanity URL. There may be a delay for this takeover, check out the `#content` channel on our [Slack](https://slack.lbry.io) to see this information (search for your URL). For more details regarding the URL or bid, check out our [naming document](https://lbry.io/faq/naming).
+7. Type in the URL you want the content to be found under along with a minimum of .01 LBC minimum deposit for the upload. If you are trying to outbid a user friendly/common URL, the system will suggest a minimum bid to take over the content at that vanity URL. There may be a delay for this takeover, check out the `#content` channel on our [Slack](https://slack.lbry.io) to see this information (search for your URL). For more details regarding the URL or bid, check out our [naming document](https://lbry.io/faq/naming).
 8. Read and agree to the terms of service.
 9. Click `Publish`.
 10. The file will process in the background and will be added to the LBRY Blockchain. Larger files will take longer to upload, please leave LBRY running while your content is in the "pending confirmation" mode(currently, this page will not automatically refresh).  You can continue using LBRY while the upload completes.
@@ -32,18 +32,25 @@ If you don't have LBRY yet, download it [here](https://lbry.io/get).
 
 1. Click on the folder icon in the top right of the LBRY app. 
 2. Click on the `Published` tab.
-3. Select the content you want to remove. 
-4. Click on the *...* next to the *Open* link. If you don't see Open, try re-downloading the content first. 
-5. Select `Remove...`.
-6. There will be two options. `Abandon the claim for this URI` and `Delete this file from my computer`. Select the option that applies.  Abandoning your claim will release the LBC back into your wallet (99% of the time you want to selec this). **Warning: Deleting content is permanent. Please make sure this is what you want to do before confirming the deletion.**
-7. Click `Remove`. If you abandoned your claim, you should see the deposit back in your balance shortly. 
+3. Select the content you want to remove from LBRY 
+4. Click `Remove`. If you don't see the remove button, try downloading the content locally again. 
+5. There will be two options. `Abandon the claim for this URI` and `Delete this file from my computer`. Select the option that applies.  Abandoning your claim will release the LBC back into your wallet (99% of the time you want to selec this). **Warning: Deleting content is permanent. Please make sure this is what you want to do before confirming the deletion.**
+6. Click `Remove`. If you abandoned your claim, you should see the deposit back in your balance shortly. 
 
 ### How do I edit my existing Published content? 
+1. Click on the folder icon in the top right of the LBRY app. 
+2. Click on the `Published` tab.
+3. Select the content you want to update.
+4. Click `Edit`.
+5. You can now edit your claim information. No need to re-select the file if it's the same one. 
+6. When you are done, re-confirm that you agree to the terms of service and click `Publish`.
+
+or
 
 1. Go to the `Publish` page.
 2. In the `Content URL` section, type in your content URL for the claim you would like to edit.
 3. Below the URL you will see text saying "You already have a claim with this name." and a link that says `Use data from my existing claim`. Click this link in order to capture your previously published data. 
-4. You can now edit your claim information. Be sure to re-select the channel if it was published to one. No need to re-select the file if it's the same one. 
+4. You can now edit your claim information. No need to re-select the file if it's the same one. 
 5. When you are done, re-confirm that you agree to the terms of service and click `Publish`.
 
 ### Can I increase my bid amount?
