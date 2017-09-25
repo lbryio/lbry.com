@@ -7,19 +7,19 @@ Interested in progressing content freedom? Awesome! This guide will get you star
 
 There are many ways you can get involved. This document covers:
 
-* [Ecosystem Overview]{#ecosystem-overview}
-* [Raising Issues]{#raising-issues}
-  * [Reporting Bugs]{#report-a-bug}
-  * [Feature Requests]{#feature-requests}
-* [Coding]{#coding}
-* [Creative]{#creative}
-  * [Writing]{#writing}
-  * [Designing]{#designing}
-  * [Communicating]{#communicating}
-* [Translating]{#translating}
-* [Testing]{#testing}
+* [Ecosystem Overview](#ecosystem-overview)
+* [Raising Issues](#raising-issues)
+  * [Reporting Bugs](#report-a-bug)
+  * [Feature Requests](#feature-requests)
+* [Coding](#coding)
+* [Creative](#creative)
+  * [Writing](#writing)
+  * [Designing](#designing)
+  * [Communicating](#communicating)
+* [Translating](#translating)
+* [Testing](#testing)
 
-## Ecosystem Overview
+## Ecosystem Overview {#ecosystem-overview}
 
 Typical usage of LBRY does not involve a single piece of software, but instead involves several interacting components.
 
@@ -36,13 +36,13 @@ Whether you want to report an issue, contribute to the code, or help test the so
 
 The vast majority of issues will be filed in either `lbry-app` or `lbry`.
 
-## Raising Issues
+## Raising Issues {#raising-issue}
 
 If you're about to raise an issue because you've found a problem with LBRY, or you'd like to request a new feature, or for any other reason, please read this first.
 
 GitHub is the preferred channel for [bug reports](#report-a-bug) and [feature requests](#feature-requests). 
 
-### Reporting a Bug
+### Reporting a Bug {#report-a-bug}
 
 A bug is a _demonstrable problem_ that is caused by the code in the repository. Good bug reports are extremely helpful - thank you!
 
@@ -56,7 +56,7 @@ Guidelines for bug reports:
 
 Well-specified bug reports save developers lots of time. We are happy to tip LBRY credits for these -- just link them in the #dev channel of [our chat](https://slack.lbry.io).
 
-### Feature Requests
+### Feature Requests {#feature-requests}
 
 Feature requests are welcome. Before you submit one be sure to:
 
@@ -66,7 +66,7 @@ Feature requests are welcome. Before you submit one be sure to:
 2. **Consider whether it's feasible** for us to tackle this feature in the next 6-12 months. The LBRY team is currently stretched thin just adding basic functionality. If this is a nice to have rather than a need, it is probably more clutter than helpful.
 3. **Make a strong case** to convince the project's leaders of the merits of this feature. Please provide as much detail and context as possible. This means explaining the use case and why it is likely to be common.
 
-## Coding
+## Coding {#coding}
 
 You're welcome and encouraged to work with us and the community on LBRY!
 
@@ -80,31 +80,31 @@ How to contribute:
 1. **Abide coding and commit standards**. Look for a STANDARDS.md document in the repo you are working on for repo specific instructions. Update CHANGELOG.md (if it exists) along with your pull request.
 1. **Questions or problems? Ask!**. The #dev channel of [our chat](https://slack.lbry.io) is full of other LBRY community devs and team members.
 
-## Creative
+## Creative {#creative}
 
 If you're a writer, designer, or communicator, you can also contribute to LBRY.
 
-### Writing
+### Writing {#writing}
 
 If you want to update or edit existing written copy, it likely exists in either [lbry.io](https://github.com/lbryio/lbry.io) (the website) or [lbry-app](https://github.com/lbryio/lbry-app) (the browser). Try searching the respective repo for a string (in quotes) related to the copy that you want to adjust. You can likely figure out how to edit text via the GitHub interface. If not, you can point out issues to [Tom](mailto:tom@lbry.io).
 
 If you want to contribute new written copy, such as a blog post or other content, please contact [Jeremy](mailto:jeremy@lbry.io), or join or [chat](https://slack.lbry.io) and post a message in #general.
 
-### Design
+### Designing {#designing}
 
 If you're a web designer, you can contribute to either [lbry.io](https://github.com/lbryio/lbry.io) (the website) or [lbry-app](https://github.com/lbryio/lbry-app) (the browser) by opening a pull request. 
 
 If you're a graphic designer, creating engaging graphics, GIFs, explainers, HOWTOs, wallpapers, and other related graphical content is a huge help! You can submit or discuss contributions by emailing [Jeremy](mailto:jeremy@lbry.io), or joining the #design channel in our [chat](https://slack.lbry.io).
 
-### Communicating
+### Communicating {#communicating}
 
 If you're engaged with or otherwise involved with either an online or in-person community that could make use of LBRY, we're happy to work with you in how to introduce LBRY to them. Email [Jeremy](mailto:jeremy@lbry.io) if you are interested in this.
 
-## Translating
+## Translating {#translating}
 
 Translations are not managed through Git or GitHub. Email [Josh](mailto:josh@lbry.io) if you'd like to join LBRY as a translator.
 
-## Testing
+## Testing {#testing}
 
 If you aren't a coder, or you're a lazy coder, one of the best ways you can contribute is testing!
 
