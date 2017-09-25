@@ -66,7 +66,7 @@ OP_CLAIM_NAME <Fruit> <Apple> OP_2DROP OP_DROP OP_DUP OP_HASH160 <LBRY_Address_A
 Like any standard Bitcoin transaction output script, it will be associated with a transaction hash, and a transaction output index. The transaction hash and transaction output index is concatenated and hashed using RIPEMD-160 to create the Claim Id for this claim. For the example above, let's say it has a Claim Id X. A support for this bid will have the below full payout script.  
 
 ```python
-OP_SUPPORT_CLAIM <Apple> <X> OP_2DROP OP_DROP OP_DUP OP_HASH160 <LBRY_Address_B> OP_EQUALVERIFY OP_CHECKSIG
+OP_SUPPORT_CLAIM <Fruit> <X> OP_2DROP OP_DROP OP_DUP OP_HASH160 <LBRY_Address_B> OP_EQUALVERIFY OP_CHECKSIG
 ```
 
 And now let's say we want to update the original claim to change the value to “Banana”. An update transaction has a special requirement that it must spend the existing claim that it wishes to update in its redeem script. Otherwise, it will be considered invalid and will not make it into the ClaimTrie. Thus it will have the below redeem script to spend the claim created to set name “Fruit” to “Apple”. Note that this is identical  to the standard way of redeeming a “pay to pubkey” script in Bitcoin.
