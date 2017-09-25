@@ -7,17 +7,17 @@ Interested in progressing content freedom? Awesome! This guide will get you star
 
 There are many ways you can get involved. This document covers:
 
-* [Ecosystem Overview](#ecosystem-overview)
-* [Raising Issues](#raising-issues)
-  * [Reporting Bugs](#report-a-bug)
-  * [Feature Requests](#feature-requests)
-* [Coding](#coding)
-* [Creative](#creative)
-  * [Writing](#writing)
-  * [Designing](#designing)
-  * [Communicating](#communicating)
-* [Translating](#translating)
-* [Testing](#testing)
+* [Ecosystem Overview]{#ecosystem-overview}
+* [Raising Issues]{#raising-issues}
+  * [Reporting Bugs]{#report-a-bug}
+  * [Feature Requests]{#feature-requests}
+* [Coding]{#coding}
+* [Creative]{#creative}
+  * [Writing]{#writing}
+  * [Designing]{#designing}
+  * [Communicating]{#communicating}
+* [Translating]{#translating}
+* [Testing]{#testing}
 
 ## Ecosystem Overview
 
