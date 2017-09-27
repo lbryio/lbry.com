@@ -18,7 +18,7 @@ We wanted a system that:
 
 - Allows a single word to be mapped directly to a piece of content, with no other extension or modifier.
 - Allows creators to acquire a URL and own it permanently and forever, without ongoing fees.
-- Alllows multiple pieces of content to be located at a single keyword, while keeping URLs as short and memorable as possible.
+- Allows multiple pieces of content to be located at a single keyword, while keeping URLs as short and memorable as possible.
 - Prevents squatters from extorting creators.
 
 After significant consultation with creators, consumers, economists, computer scientists, and more, we devised LBRY’s naming system.
