@@ -8,7 +8,7 @@ Linux talk shows. Electrical engineering reviews. Experimental sci-fi movies. We
 
 But we’ve met our Nurd match. This is the most fundamental nerd fight: our battle with nature. This is, to put it explosively, the best chemistry channel on the internet.
 
-!NurdRage](/img/news/nurdrage-inline.jpg)
+![NurdRage](/img/news/nurdrage-inline.jpg)
 
 [@NurdRage](https://open.lbry.io/%40NurdRage) is one who some may consider the Periodic Table of Elements’ best friend or its worst nightmare. Did you ever wonder how to create [Tritium nuclear batteries](https://open.lbry.io/make-a-tritium-nuclear-battery-or) or build a [DIY Epipen](https://open.lbry.io/make-the-epipencil-diy-alternative-to)? Me neither. Yet, I still couldn’t help but watch each NurdRage video I start to its completion and walk away with a… solidified confidence in the miracles of chemistry.
 
