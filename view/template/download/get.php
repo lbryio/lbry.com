@@ -9,7 +9,7 @@
       <h1><?php echo __('download.for-os', ['%os%' => $osTitle]) ?> <span class="<?php echo $osIcon ?>"></span></h1>
       <?php if ($downloadHtml): ?>
         <p>
-          This is a browser and wallet for the LBRY network.
+          This is the latest beta version of the LBRY App.
           <a href="https://lbry.io/faq/what-is-lbry" class="link-primary">What is LBRY?</a>
         </p>
         <p>
