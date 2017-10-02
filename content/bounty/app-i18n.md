@@ -2,7 +2,7 @@
 category: browser
 title: Internationalization of LBRY App
 award: 2000
-status: available
+status: complete
 date: '2016-07-01'
 ---
 
