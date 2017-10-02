@@ -2,7 +2,7 @@
 category: design
 title: Nice 404 Page for lbry.io
 award: 250
-status: available
+status: complete
 date: '2017-09-07'
 ---
 
