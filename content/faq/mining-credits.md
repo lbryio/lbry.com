@@ -13,6 +13,25 @@ For CPU mining, LBRY binaries are out for OS X, Windows, and Ubuntu. Others may 
 
 You can download the latest binaries [here](https://github.com/lbryio/lbrycrd/releases/latest)
 
+## Mining on Windows OS
+1. Create account.
+Register at any of the LBC pools at  https://lbry.io/faq/mining-pools
+Create a worker that will be used by the miner to login
+1. Download a miner.
+CPU Miner Linux/Windows (Source): https://github.com/ocminer/cpuminer-lbry
+ccminer: https://github.com/tpruvot/ccminer/releases
+sgminer:  http://cryptomining-blog.com/wp-content/download/sgminer-5-4-0-lbry.zip
+1. Configure your miner.
+Settings for Stratum (recommended):
+STRATUM:    stratum+tcp://*******     
+PORT:       ****
+Algo:       -a lbry
+Username:   Weblogin.Worker
+Password:   Worker Password
+ 
+Example cmdline:    minerd -a lbry -o stratum+tcp://POOL INFO:PORT -u USERNAME.Worker -p x
+Example cmdline GPU:    sgminer -k lbry -o stratum+tcp://POOL INFO:PORT -u USERNAME.Worker -p x
+
 ## Mining on Ubuntu
 
 1. unzip the binaries, and `cd` into the directory containing them
