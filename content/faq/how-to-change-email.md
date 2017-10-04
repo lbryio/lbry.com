@@ -15,7 +15,7 @@ Clearing out this token will allow you to change your email or reset your privat
 
 ## MacOS
 1. Open the Mac Keychain (Click Finder > Go > Utilities > Keychain Access)
-1. Select the Passwords category on the left
+1. Select the **Passwords** category on the left
 1. Find **LBRY/auth_token** and remove it
 
 ## Ubuntu / Linux 
