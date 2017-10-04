@@ -13,11 +13,11 @@ class OS
     //url, English name, icon class, partial name
     //yes, this is probably a bad pattern
     return [
-      OS::OS_WINDOWS => ['/windows', 'Windows', 'icon-windows', '_windows'],
-      OS::OS_OSX     => ['/osx', 'macOS', 'icon-apple', '_osx'],
-      OS::OS_LINUX   => ['/linux', 'Linux', 'icon-linux', '_linux'],
-      OS::OS_ANDROID => ['/android', 'Android', 'icon-android', '_android'],
-      OS::OS_IOS     => ['/ios', 'iOS', 'icon-mobile', '_ios']
+      OS::OS_WINDOWS => ['/windows', 'Windows', 'icon-windows', __("Download for Windows"), "Windows"],
+      OS::OS_OSX     => ['/osx', 'macOS', 'icon-apple', __("Download for macOS"), "OSX"],
+      OS::OS_LINUX   => ['/linux', 'Linux', 'icon-linux', __("Download .deb"), "Linux"],
+      OS::OS_ANDROID => ['/android', 'Android', 'icon-android', false, false],
+      OS::OS_IOS     => ['/ios', 'iOS', 'icon-mobile', false, false]
     ];
   }
 

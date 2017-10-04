@@ -32,7 +32,6 @@ download:
   creator: Creator? Skip the Line
   credits: Claim Credits
   curse: It may crash, work unreliably, or inadvertently put a curse on your family for generations (a common programming error).
-  deb: Download .deb
   earn1: Earn
   # this many credits
   earn2: for completing the survey below after install.

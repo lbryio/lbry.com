@@ -33,14 +33,19 @@ class DownloadActions extends Actions
 
     if ($os && isset($osChoices[$os]))
     {
-      list($uri, $osTitle, $osIcon, $partial) = $osChoices[$os];
+      list($uri, $osTitle, $osIcon, $buttonLabel, $analyticsLabel) = $osChoices[$os];
+      $release = GitHub::getAppRelease();
+      $asset = GitHub::getAppAsset($os);
       return ['download/get', [
-        'os'            => $os,
-        'osTitle'       => $osTitle,
-        'osIcon'        => $osIcon,
-        'downloadHtml'  => View::exists('download/' . $partial) ?
-          View::render('download/' . $partial, ['downloadUrl' => Github::getAppDownloadUrl($os)]) :
-          false
+        'analyticsLabel' => $analyticsLabel,
+        'buttonLabel' => $buttonLabel,
+        'downloadUrl' => $asset ? $asset['browser_download_url'] : null,
+        'os'          => $os,
+        'osTitle'     => $osTitle,
+        'osIcon'      => $osIcon,
+        'releaseTimestamp' => $release ? strtotime($release['created_at']) : null,
+        'size'        => $asset ? $asset['size'] / ( 1024 * 1024 ) : 0, //bytes -> MB
+        'version'     => $release ? $release['name'] : null,
       ]];
     }
 

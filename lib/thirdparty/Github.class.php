@@ -2,7 +2,7 @@
 
 class Github
 {
-  protected static function findReleaseDownloadUrl(array $release, string $os)
+  protected static function findReleaseAssetForOs(array $release, string $os)
   {
     if (!in_array($os, array_keys(OS::getAll())))
     {
@@ -14,32 +14,41 @@ class Github
       $ext = substr($asset['name'], -4);
       if (
         ($os == OS::OS_LINUX &&
-         ($ext == '.deb' || in_array($asset['content_type'], ['application/x-debian-package', 'application/x-deb']))) ||
+          ($ext == '.deb' || in_array($asset['content_type'], ['application/x-debian-package', 'application/x-deb']))) ||
         ($os == OS::OS_OSX &&
-         ($ext == '.dmg' || in_array($asset['content_type'], ['application/x-diskcopy', 'application/x-apple-diskimage']))) ||
+          ($ext == '.dmg' || in_array($asset['content_type'], ['application/x-diskcopy', 'application/x-apple-diskimage']))) ||
         ($os == OS::OS_WINDOWS && $ext == '.exe')
       )
       {
-        return $asset['browser_download_url'];
+        return $asset;
       }
     }
   }
 
-  public static function getAppDownloadUrl($os, $cache = true)
+  public static function getAppRelease($cache = true)
   {
     try
     {
-      $release = static::get('/repos/lbryio/lbry-app/releases/latest', $cache);
-      if ($release)
-      {
-        return static::findReleaseDownloadUrl($release, $os);
-      }
+      return static::get('/repos/lbryio/lbry-app/releases/latest', $cache);
     }
     catch (Exception $e)
     {
     }
 
     return null;
+  }
+
+  public static function getAppAsset($os, $cache = true)
+  {
+    $release = static::getAppRelease($cache);
+    return $release ? static::findReleaseAssetForOs($release, $os) : null;
+  }
+
+
+  public static function getAppDownloadUrl($os, $cache = true)
+  {
+    $asset = static::getAppAsset($os, $cache);
+    return $asset ? $asset['browser_download_url'] : null;
   }
 
   public static function getAppPrereleaseDownloadUrl($os, $cache = true)
@@ -49,7 +58,8 @@ class Github
       $releases = static::get('/repos/lbryio/lbry-app/releases', $cache);
       if (count($releases))
       {
-        return static::findReleaseDownloadUrl($releases[0], $os);
+        $asset = static::findReleaseAssetForOs($releases[0], $os);
+        return $asset ? $asset['browser_download_url'] : null;
       }
     }
     catch (Exception $e)
