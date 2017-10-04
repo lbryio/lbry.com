@@ -10,8 +10,7 @@ Clearing out this token will allow you to change your email or reset your privat
 ## Windows
 1. Open the Control Panel, find the Credentials Manager (may need change View By setting)
 1. Select **Windows Credentials**
-1. Under Generic Credentials, select **LBRY/auth_token**
-1. Click **Remove**
+1. Under Generic Credentials, select **LBRY/auth_token** and click **Remove**
 
 ## MacOS
 1. Open the Mac Keychain (Click Finder > Go > Utilities > Keychain Access)
