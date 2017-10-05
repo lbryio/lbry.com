@@ -1,6 +1,6 @@
 ---
 author: reilly
-title: 'Real particles ride waves'
+title: 'Real Particles Ride Waves'
 date: '2017-10-05 00:20:30'
 cover: 'minutephysics-banner.jpg'
 ---
