@@ -1,6 +1,6 @@
 ---
 author: reilly
-title: 'buy it, use it, break it, fix it'
+title: 'Real particles ride waves'
 date: '2017-10-05 00:20:30'
 cover: 'minutephysics-banner.jpg'
 ---
