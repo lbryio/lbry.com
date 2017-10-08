@@ -10,7 +10,6 @@
       <?php if ($downloadUrl): ?>
         <p>
           This is the latest version of the LBRY App.
-          <a href="https://lbry.io/faq/what-is-lbry" class="link-primary">What is LBRY?</a>
         </p>
         <p>
           <strong>{{download.beta}}</strong>
