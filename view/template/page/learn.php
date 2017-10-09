@@ -6,7 +6,7 @@
     <div class="cover cover-dark cover-center content content-dark" style="background-image:url(/img/altamira-bison.jpg)">
       <h1 class="cover-title cover-title-tile">{{learn.art}}</h1>
       <p class="cover-subtitle text-center" style="max-width: 660px">{{learn.how}}</p>
-      <a href="/what" class="btn-alt btn-large"><?php echo __('learn.essay') ?></a><P><P>
+      <a href="/what" class="btn-primary btn-large"><?php echo __('learn.essay') ?></a><P><P>
       <a href="/get" class="btn-alt btn-large">Download Now</a>
     </div>
   </div>
