@@ -31,6 +31,8 @@ To summarize, the main directories to consider when backing up or migrating a LB
 6. Sign back into LBRY via your Email by going to the wallet (bank icon in the top right) and then accessing the Rewards tab
 7. Verify wallet balance, Downloads, Published files and Rewards eligibility
 
+*\*Please note: Do not run two instances of LBRY from the same wallet, this is unsupported*
+
 ### I'm in need of some assistance, can you help?
 
 Of course, we are always here to help! Check out our [help page](https://lbry.io/faq/how-to-report-bugs) on how to reach us.  If you are having trouble starting LBRY after migration, sending us your [log file](https://lbry.io/faq/how-to-find-lbry-log-file) will expedite the resolution. 
