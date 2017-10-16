@@ -6,7 +6,6 @@ $config = [];
 // $config['github_developer_credits_client_secret'] = '';
 // $config['lbry_api_server'] = '';
 // $config['mailchimp_key'] = '';
-// $config['prefinery_key'] = '';
 // $config['asana_key'] = '';
 // $config['aws_log_access_key'] = '';
 // $config['aws_log_secret_key'] = '';

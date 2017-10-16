@@ -24,34 +24,13 @@ class MailActions extends Actions
       return Controller::redirect(Request::getRelativeUri());
     }
 
-    $sent = Mailgun::sendSubscriptionConfirmation($email);
-    if (!$sent)
+    $response = LBRY::subscribe($email);
+    if ($response['error'])
     {
-      return ['mail/subscribe', ['error' => __('email.subscribe_send_failed')]];
+      return ['mail/subscribe', ['error' => $response['error']]];
     }
 
     return ['mail/subscribe', ['subscribeSuccess' => true, 'nextUrl' => $nextUrl]];
-  }
-
-  public static function executeConfirm(string $hash)
-  {
-    $email = Mailgun::checkConfirmHashAndGetEmail($hash);
-    if ($email === null)
-    {
-      return ['mail/subscribe', ['error' => __('email.invalid_confirm_hash')]];
-    }
-
-    $sendy = new Sendy(Config::get('sendy_api_key'), Config::get('sendy_install_url'), Sendy::LIST_GENERAL);
-    try
-    {
-      $sendy->subscribe($email);
-    }
-    catch (SendyException $e)
-    {
-      return ['mail/subscribe', ['error' => $e->getMessage()]];
-    }
-
-    return ['mail/subscribe', ['confirmSuccess' => true, 'learnFooter' => true]];
   }
 
   public static function executeSubscribed()
