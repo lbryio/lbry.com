@@ -16,7 +16,7 @@
   <a href="https://reddit.com/r/lbry"><span class="btn-label">Reddit</span> <span class="icon-fw icon-reddit"></span> </a>
 </div>
 <div class="control-item no-label-desktop">
-  <a href="https://discord.gg/YjYbwhS"><span class="btn-label">Discord</span><img style="width:25px;height:25px" src="https://camo.githubusercontent.com/4b028e8e841f57ee96b472fa88ea7ed66ddd3720/687474703a2f2f692e696d6775722e636f6d2f65597779386c632e706e67"></a>
+  <a href="https://discord.gg/YjYbwhS"><span class="btn-label">Discord</span><span class="icon-fw icon-comments"></span></a>
 </div>
 <div class="control-item no-label-desktop">
   <a href="https://github.com/lbryio"><span class="btn-label">GitHub</span><span class="icon-github icon-fw"></span></a>
