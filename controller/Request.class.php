@@ -94,8 +94,7 @@ class Request
 
   public static function getSubDomain(): string
   {
-    $urlParts = parse_url(static::getHost());
-    $host = $urlParts['host'] ?? '';
+    $host = static::getHost();
     $domainParts = explode('.', $host);
     $domainPartCount = count($domainParts);
 
