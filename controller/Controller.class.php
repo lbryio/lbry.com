@@ -58,6 +58,7 @@ class Controller
   public static function execute($method, $uri)
   {
     $router = static::getRouterWithRoutes();
+    static::performSubdomainRedirects();
     try
     {
       $dispatcher = new Routing\Dispatcher($router->getData());
@@ -72,6 +73,17 @@ class Controller
       Response::setStatus(405);
       Response::setHeader('Allow', implode(', ', $e->getAllowedMethods()));
       return ['page/405'];
+    }
+  }
+
+  protected static function performSubdomainRedirects()
+  {
+    $subDomain = Request::getSubDomain();
+
+    switch($subDomain) {
+      case 'chat':
+      case 'slack':
+        return static::redirect('https://discordapp.com/invite/U5aRyN6');
     }
   }
 

@@ -92,6 +92,30 @@ class Request
     return static::getHttpHeader('Host') ? rtrim(static::getHttpHeader('Host'), '.') : '';
   }
 
+  public static function getSubDomain(): string
+  {
+    $urlParts = parse_url(static::getHost());
+    $host = $urlParts['host'] ?? '';
+    $domainParts = explode('.', $host);
+    $domainPartCount = count($domainParts);
+
+    if (count($domainParts) < 1)
+    {
+      return '';
+    }
+
+    $isLocalhost = $domainParts[$domainPartCount - 1] === 'localhost';
+
+    if (!$isLocalhost && count($domainParts) < 2)
+    {
+      return '';
+    }
+
+    return $isLocalhost ?
+      $domainParts[$domainPartCount - 2] :
+      $domainParts[$domainPartCount - 3];
+  }
+
   public static function getHostAndProto(): string
   {
     return (static::isSSL() ? 'https' : 'http') . '://' . static::getHost();
