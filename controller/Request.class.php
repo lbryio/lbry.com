@@ -106,7 +106,7 @@ class Request
 
     $isLocalhost = $domainParts[$domainPartCount - 1] === 'localhost';
 
-    if (!$isLocalhost && count($domainParts) < 2)
+    if (count($domainParts) < ($isLocalhost ? 2 : 3))
     {
       return '';
     }
