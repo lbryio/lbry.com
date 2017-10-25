@@ -4,7 +4,7 @@ title: 'Meet Your Maker'
 date: '2017-04-27 00:19:30'
 cover: 'mayermakes-banner.png'
 ---
-The [LBRY Slack community](http://slack.lbry.io/) has welcomed its 4,000th member.
+The [LBRY Slack community](http://chat.lbry.io/) has welcomed its 4,000th member.
 
 One of the best parts of a community that has grown so much are the creatives who’ve joined the fray. Crypto-nerds, software engineers, musicians, filmmakers--they loiter online in the harmony that is the LBRY community.
 
@@ -22,4 +22,4 @@ LBRY’s first 3D printing and DIY electronics channel can be found at:
 You can meet Clemens in person on May 6th and 7th at the [Munich Maker Festival](http://make-munich.de/). Maybe he’ll have some free LBRY Credits to give away…
 
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Have cool content to publish? Email reilly@lbry.io to share your creations with everyone on planet Earth before you forget.
+**Not on LBRY yet?** [Download here](https://lbry.io/get). Have cool content to publish? Email reilly@lbry.io to share your creations with everyone on planet Earth before you forget.
