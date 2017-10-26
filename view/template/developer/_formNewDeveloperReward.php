@@ -20,7 +20,7 @@
   </div>
   <div class="meta">
     We require a GitHub account to prevent abuse. This will record your email (no spam) and mark you as interested in the lbry repo.
-    No GitHub account or no public commits? No problem! Join our <a href="https://slack.lbry.io" class="link-primary">Slack channel</a> and
+    No GitHub account or no public commits? No problem! Join our <a href="https://chat.lbry.io" class="link-primary">Discord chat</a> and
     post an introduction in #tech.
   </div>
 </form>

@@ -3,7 +3,7 @@ author: lbry
 title: 'LBRY Re-Weighting Massive Beta Waiting List'
 date: '2016-08-22 00:06:18'
 ---
-The waiting list to download the LBRY beta is *well over 100,000 strong!* If you [join our Slack](http://slack.lbry.io/) (the best place to stay on top of updates and get questions answered), one of the top inquiries is: 
+The waiting list to download the LBRY beta is *well over 100,000 strong!* If you [join our Discord chat](http://chat.lbry.io/) (the best place to stay on top of updates and get questions answered), one of the top inquiries is: 
 
 **When will I get my beta invite code?**
 

@@ -54,7 +54,7 @@ Guidelines for bug reports:
 
 1. **Follow the instructions** - When you open an issue inside of GitHub, each repo contains a template for how to create a good bug report. Please follow it!
 
-Well-specified bug reports save developers lots of time. We are happy to tip LBRY credits for these -- just link them in the #dev channel of [our chat](https://slack.lbry.io).
+Well-specified bug reports save developers lots of time. We are happy to tip LBRY credits for these -- just link them in the #dev channel of [our chat](https://chat.lbry.io).
 
 ### Feature Requests {#feature-requests}
 
@@ -78,7 +78,7 @@ How to contribute:
 1. **Get set up.** Each repo has a README.md or INSTALL.md with instructions on how to get the repo up and running properly.
 1. **Find something to work on**. Look for issues tagged "Contributor Friendly" inside of the repo you selected. These are good for new contributors. Of course, you are also welcome to work on something not currently filed if you have your own idea!
 1. **Abide coding and commit standards**. Look for a STANDARDS.md document in the repo you are working on for repo specific instructions. Update CHANGELOG.md (if it exists) along with your pull request.
-1. **Questions or problems? Ask!**. The #dev channel of [our chat](https://slack.lbry.io) is full of other LBRY community devs and team members.
+1. **Questions or problems? Ask!**. The #dev channel of [our chat](https://chat.lbry.io) is full of other LBRY community devs and team members.
 
 ## Creative {#creative}
 
@@ -88,13 +88,13 @@ If you're a writer, designer, or communicator, you can also contribute to LBRY.
 
 If you want to update or edit existing written copy, it likely exists in either [lbry.io](https://github.com/lbryio/lbry.io) (the website) or [lbry-app](https://github.com/lbryio/lbry-app) (the browser). Try searching the respective repo for a string (in quotes) related to the copy that you want to adjust. You can likely figure out how to edit text via the GitHub interface. If not, you can point out issues to [Tom](mailto:tom@lbry.io).
 
-If you want to contribute new written copy, such as a blog post or other content, please contact [Jeremy](mailto:jeremy@lbry.io), or join or [chat](https://slack.lbry.io) and post a message in #general.
+If you want to contribute new written copy, such as a blog post or other content, please contact [Jeremy](mailto:jeremy@lbry.io), or join or [chat](https://chat.lbry.io) and post a message in #general.
 
 ### Designing {#designing}
 
 If you're a web designer, you can contribute to either [lbry.io](https://github.com/lbryio/lbry.io) (the website) or [lbry-app](https://github.com/lbryio/lbry-app) (the browser) by opening a pull request. 
 
-If you're a graphic designer, creating engaging graphics, GIFs, explainers, HOWTOs, wallpapers, and other related graphical content is a huge help! You can submit or discuss contributions by emailing [Jeremy](mailto:jeremy@lbry.io), or joining the #design channel in our [chat](https://slack.lbry.io).
+If you're a graphic designer, creating engaging graphics, GIFs, explainers, HOWTOs, wallpapers, and other related graphical content is a huge help! You can submit or discuss contributions by emailing [Jeremy](mailto:jeremy@lbry.io), or joining the #design channel in our [chat](https://chat.lbry.io).
 
 ### Communicating {#communicating}
 

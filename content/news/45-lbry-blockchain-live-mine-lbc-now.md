@@ -32,6 +32,6 @@ Block rewards will remain intentionally low for a short period of time, then inc
 
 **Questions?**
 
-[Join our Slack](http://slack.lbry.io/) to talk with the team about the technical details – http://slack.lbry.io/
+[Join our Discord chat](http://chat.lbry.io/) to talk with the team about the technical details.
 
 Also – you don’t have to mine LBC to get involved in LBRY and earn your own credits! Let us know what you can offer – from testing/developing our code to uploading your own original films/songs/books/etc. 

@@ -27,7 +27,7 @@ LBRY users who abuse either the Referral or Rewards system will not be eligible 
 
 ### Is there a limit to the credits I can earn?
 
-If you expect to refer more than 50-100 people, please discuss it with us on [Slack](http://slack.lbry.io) or email [us](mailto:josh@lbry.io).
+If you expect to refer more than 50-100 people, please discuss it with us on [Discord chat](http://chat.lbry.io) or email [us](mailto:josh@lbry.io).
 
 Currently during the referral reward testing phase, there is a limit of 1 redemption per account.
 
@@ -35,4 +35,4 @@ Currently during the referral reward testing phase, there is a limit of 1 redemp
 
 If you want to waste your time to receive no reward, be our guest. We will be monitoring the system closely and going to significant lengths to only let legitimate users in.
 
-Rather than spending the time attempting to cheat and failing, we suggest you do productive work to earn LBRY credits. Join our [Slack](http://slack.lbry.io) and message Josh (@finer9) or Jeremy (@kauffj) for opportunities.
+Rather than spending the time attempting to cheat and failing, we suggest you do productive work to earn LBRY credits. Join our [Discord chat](http://chat.lbry.io) and message Josh (@finer9) or Jeremy (@kauffj) for opportunities.

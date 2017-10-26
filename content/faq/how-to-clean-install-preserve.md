@@ -7,7 +7,7 @@ Under certain circumstances, particularly if you've tested earlier beta versions
 
 After uninstalling LBRY, the working directories are left intact so that the application can be easily reinstalled without losing your application data and wallet file. Application data is in the lbrynet folder (LBRY folder for Mac) and it includes various database and configuration files.  Wallet and blockchain data is in the lbryum folder. Typically, you will want to save your wallet and a handful of configuration/database files when performing a clean install in order to keep your important data intact.
 
-Note: after a clean install, you may be prompted again for your email. This is normal. As always, you can email [help@lbry.io](mailto:help@lbry.io) or reach out to us on Slack if you encounter any trouble.
+Note: after a clean install, you may be prompted again for your email. This is normal. As always, you can email [help@lbry.io](mailto:help@lbry.io) or reach out to us on [Discord chat](https://chat.lbry.io) if you encounter any trouble.
 
 ## Windows
 1. Reboot your PC (this is to ensure that no LBRY processes are running)

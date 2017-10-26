@@ -69,7 +69,7 @@
   <a class="link-primary" href="/api">View the full API documentation</a>.
 </p>
 <p>
-  <a href="http://slack.lbry.io" class="link-primary">Join our Slack Channel</a> to interact with LBRY developers and other community members. Please visit the #dev room (note: this is not a default channel).
+  <a href="http://chat.lbry.io" class="link-primary">Join our Discord chat</a> to interact with LBRY developers and other community members. Please visit the #dev room (note: this is not a default channel).
 </p>
 <p>
   Visit our <a href="https://github.com/lbryio" class="link-primary">GitHub page</a> to view the source code or report issues.

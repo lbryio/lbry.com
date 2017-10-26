@@ -6,7 +6,7 @@ cover: 'mattsokol-banner.jpg'
 ---
 Math and art allegedly don’t go together.
 
-[Slack](http://slack.lbry.io/) regular Matt Sokol begs to differ. One of the first musicians on the LBRY scene, Mr. Sokol’s dream beats and math rock background feel right at home on LBRY.
+[LBRY chat](http://chat.lbry.io/) regular Matt Sokol begs to differ. One of the first musicians on the LBRY scene, Mr. Sokol’s dream beats and math rock background feel right at home on LBRY.
 
 ![SLUG by Matt Sokol](/img/news/mattsokol-inline.png)
 
@@ -15,4 +15,4 @@ A music industry veteran of ten years, Sokol shares an inspiring vision for the 
 His chopped up vocals, abstract drum beats, and soothing guitars from his upcoming solo debut will be rolling onto his LBRY channel lbry://@heymattsokol as soon as he finishes doing the math for it.
 
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Musician looking for a way to avoid being shafted by The Man? Email reilly@lbry.io to actually make money on your music.
+**Not on LBRY yet?** [Download here](https://lbry.io/get). Musician looking for a way to avoid being shafted by The Man? Email reilly@lbry.io to actually make money on your music.

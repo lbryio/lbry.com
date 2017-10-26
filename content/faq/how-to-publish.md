@@ -23,7 +23,7 @@ If you don't have LBRY yet, download it [here](https://lbry.io/get).
 4. Next, there is a `Language` and `Maturity` which will default to `English` and `All Ages`.  If a change is needed, click the dropdowns and select the appropriate choice. 
 5. Under the `Access`, first determine if you want to make your video Free or set a price (in USD or LBC) per view. Next, select the appropriate type of license for the content you are publishing.
 6. You have an option to select/create the channel you would like to publish the channel under. If one isn't selected, it will be posted anonymously.
-7. Type in the URL you want the content to be found under along with a minimum of 0.01 LBC minimum deposit for the upload (current limit, may change in future). If you are trying to outbid a user friendly/common URL, the system will suggest a minimum bid to take over the content at that vanity URL. There may be a delay for this takeover, check out the `#content` channel on our [Slack](https://slack.lbry.io) to see this information (search for your URL). For more details regarding the URL or bid, check out our [naming document](https://lbry.io/faq/naming).
+7. Type in the URL you want the content to be found under along with a minimum of 0.01 LBC minimum deposit for the upload (current limit, may change in future). If you are trying to outbid a user friendly/common URL, the system will suggest a minimum bid to take over the content at that vanity URL. There may be a delay for this takeover, check out the `#content` channel on our [Discord chat](https://chat.lbry.io) to see this information (search for your URL). For more details regarding the URL or bid, check out our [naming document](https://lbry.io/faq/naming).
 8. Read and agree to the terms of service.
 9. Click `Publish`.
 10. The file will process in the background and will be added to the LBRY Blockchain. Larger files will take longer to upload, please leave LBRY running while your content is in the "pending confirmation" mode(currently, this page will not automatically refresh).  You can continue using LBRY while the upload completes.
@@ -75,7 +75,7 @@ Channels and content claims are saved to your LBRY Wallet along with your LBRY C
 
 ### How and where can I share my content?
 
-LBRY URLs can be shared to anyone, but they will require the LBRY app in order to view the content. If the content is free and public, it can be retrieved through [spee.ch](https://www.spee.ch) by going to https://spee.ch/<claimname> or https://spee.ch/<@channelname>. You can also share the content on our `#publishers` channel on [Slack](https://slack.lbry.io) where we have a vibrant community with thousands of users. 
+LBRY URLs can be shared to anyone, but they will require the LBRY app in order to view the content. If the content is free and public, it can be retrieved through [spee.ch](https://www.spee.ch) by going to https://spee.ch/<claimname> or https://spee.ch/<@channelname>. You can also share the content on our `#publishers` channel on [Discord](https://chat.lbry.io) where we have a vibrant community with thousands of users. 
 
 ### I'm an advanced user, is there more I can poke around with? 
 
