@@ -73,4 +73,4 @@ If you bought LBC in an attempt to make a quick buck, you may be disappointed. W
 
 If you bought LBC because you believe of the idea of a world of content sharing without censorship or middlemen, hold onto it (or spend it to buy some of the great content being added every day!). We've got an incredible [team](https://lbry.io/team) of bright, talented people that are pouring an incredible amount of time in to actualize it.
 
-And if you're interested in participating in creating that world, come hang out with us! Join us on [Slack](https://slack.lbry.io), [GitHub](https://github.com/lbryio), or [Twitter](https://twitter.com/lbryio).
+And if you're interested in participating in creating that world, come hang out with us! Join us on [Discord chat](https://chat.lbry.io), [GitHub](https://github.com/lbryio), or [Twitter](https://twitter.com/lbryio).
