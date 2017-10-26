@@ -31,4 +31,4 @@ You can even [pitch us your own custom project](https://lbry.io/bounty/custom-pr
 
 All bounties are funded through genesis block LBRY Credits – [get the details here](https://lbry.io/news/lbry-blockchain-live-mine-lbc-now). 
 
-If you have questions about the bounty program or want more information about a specific bounty, please join [LBRY’s public Slack](http://slack.lbry.io/). 
+If you have questions about the bounty program or want more information about a specific bounty, please join [LBRY’s public Discord chat](http://chat.lbry.io/). 
