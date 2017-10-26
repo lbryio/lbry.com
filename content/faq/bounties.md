@@ -19,7 +19,7 @@ People who complete bounties are awarded LBRY credits. These credits will be tra
 
 ### I have questions about a specific bounty or want assistance in completing a bounty.
 
-The best place to get real-time help is our [Slack channel](https://slack.lbry.io). You can also email our bounty team [bounty@lbry.io](mailto:bounty@lbry.io).
+The best place to get real-time help is our [Discord chat](https://chat.lbry.io). You can also email our bounty team [bounty@lbry.io](mailto:bounty@lbry.io).
 
 ### I want to complete a bounty that is not listed.
 
