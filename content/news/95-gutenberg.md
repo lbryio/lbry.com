@@ -8,7 +8,7 @@ It always bears repeating around here: LBRY’s destiny is nothing short of the 
 
 To expedite the process, we have [an open bounty](https://lbry.io/bounty/publish-open-content) for the world’s free and digitized libraries in order to aggregate them onto one big (decentralized) shelf: LBRY’s network of gracious content hosts.
 
-One pierre1024, a member of the [LBRY Slack community](http://slack.lbry.io/), has claimed quite a big fish…
+One pierre1024, a member of the [LBRY Chat community](http://chat.lbry.io/), has claimed quite a big fish…
 
 ![Project Gutenberg](/img/news/gutenberg-inline.jpg)
 
@@ -24,4 +24,4 @@ Hundreds of historical archives are now available on LBRY, including:
 
 The project was started by the late Michael Hart in 1971 with the digitization of the US Declaration of Independence. Make a donation [to Project Gutenberg here](https://www.gutenberg.org/wiki/Gutenberg:Project_Gutenberg_Needs_Your_Donation), and enjoy thousands of books now available on LBRY.
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Have a big library bounty to claim? Email reilly@lbry.io and take all the glory.
+**Not on LBRY yet?** [Download here](https://lbry.io/get). Have a big library bounty to claim? Email reilly@lbry.io and take all the glory.
