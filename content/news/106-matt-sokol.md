@@ -6,7 +6,7 @@ cover: 'mattsokol-banner.jpg'
 ---
 Math and art allegedly don’t go together.
 
-[LBRY chat](http://slack.lbry.io/) regular Matt Sokol begs to differ. One of the first musicians on the LBRY scene, Mr. Sokol’s dream beats and math rock background feel right at home on LBRY.
+[LBRY chat](http://chat.lbry.io/) regular Matt Sokol begs to differ. One of the first musicians on the LBRY scene, Mr. Sokol’s dream beats and math rock background feel right at home on LBRY.
 
 ![SLUG by Matt Sokol](/img/news/mattsokol-inline.png)
 
