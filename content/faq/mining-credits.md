@@ -13,13 +13,13 @@ For CPU mining, LBRY binaries are out for OS X, Windows, and Ubuntu. Others may 
 
 You can download the latest binaries [here](https://github.com/lbryio/lbrycrd/releases/latest)
 
-## Mining on Ubuntu
+## CPU Mining on Ubuntu
 
 1. unzip the binaries, and `cd` into the directory containing them
 1. `./lbrycrdd -server -printtoconsole -gen`
 1. If you need to start over, run `rm -rf bins.zip lbry* ~/.lbry*`. **Note:** this will delete your wallet and any credits you may have.
 
-## Mining on macOS
+## CPU Mining on macOS
 
 1. unzip the binaries, and `cd` into the directory containing them
 1. `mkdir ~/Library/Application\ Support/lbrycrd`
