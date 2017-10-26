@@ -16,7 +16,7 @@ On March 29th, from 6-9PM EST (or later), you'll be able to heckle and watch LBR
 
 During the stream, members of the LBRY development team will be in our [chatroom](https://chat.lbry.io) answering questions and discussing LBRY.
 
-If you want a reminder, make sure to [join our Discord chat](https://slack.lbry.io) or [complete the quickstart guide](https://lbry.io/quickstart).
+If you want a reminder, make sure to [join our Discord chat](https://chat.lbry.io) or [complete the quickstart guide](https://lbry.io/quickstart).
 
 ## Trending on GitHub
 
