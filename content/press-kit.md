@@ -36,4 +36,4 @@ LBRY uses blockchain technology to provide a new way for people to publish and s
 - Twitter: [https://twitter.com/lbryio](https://twitter.com/lbryio)
 - Reddit: [https://www.reddit.com/r/lbry](https://www.reddit.com/r/lbry)
 - Mailing List: [https://lbry.io/join-list](https://lbry.io/join-list) - **Sign up to follow along as we build LBRY**
-- Discord chat: [https://chat.lbry.io](https://chat.lbry.io) - **Get your questions answered and become a LBRYian**
+- Discord Chat: [https://chat.lbry.io](https://chat.lbry.io) - **Get your questions answered and become a LBRYian**
