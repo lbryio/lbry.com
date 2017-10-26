@@ -55,7 +55,7 @@
                    case 'web': echo 'icon-link'; break;
                    case 'daemon': echo 'icon-server'; break;
                    case 'human': echo 'icon-users'; break;
-                   case 'slack': echo 'icon-slack'; break;
+                   case 'chat': echo 'icon-comments'; break;
                    case 'code': echo 'icon-code'; break;
                    case 'design': echo 'icon-image'; break;
                    default: echo 'icon-dollar'; break;
