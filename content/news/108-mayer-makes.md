@@ -4,7 +4,7 @@ title: 'Meet Your Maker'
 date: '2017-04-27 00:19:30'
 cover: 'mayermakes-banner.png'
 ---
-The [LBRY Slack community](http://chat.lbry.io/) has welcomed its 4,000th member.
+The [LBRY Chat community](http://chat.lbry.io/) has welcomed its 4,000th member.
 
 One of the best parts of a community that has grown so much are the creatives who’ve joined the fray. Crypto-nerds, software engineers, musicians, filmmakers--they loiter online in the harmony that is the LBRY community.
 
