@@ -2,7 +2,7 @@
 author: reilly
 title: 'cut chemistry'
 date: '2017-10-26 00:15:30'
-cover: 'nilered-banner.jpg'
+cover: 'nilered-banner2.jpg'
 ---
 <b>NOTICE: the latest release of the LBRY app version 17.1 is a critical update. Content availability for previous versions of the application will be low. It is vital that you update to continue watching content on the LBRY network reliably.</b>
 
