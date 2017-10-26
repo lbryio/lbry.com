@@ -17,4 +17,4 @@ Basically, Reflector ensures content is copied by other hosts before the data is
 
 This feature is intended as a work around for network and firewall issues.
 
-If you have further questions, [please join LBRY’s public Slack](http://slack.lbry.io/). 
+If you have further questions, [please join LBRY’s public chat](http://chat.lbry.io/). 
