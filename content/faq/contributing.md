@@ -54,7 +54,7 @@ Guidelines for bug reports:
 
 1. **Follow the instructions** - When you open an issue inside of GitHub, each repo contains a template for how to create a good bug report. Please follow it!
 
-Well-specified bug reports save developers lots of time. We are happy to tip LBRY credits for these -- just link them in the #dev channel of [our chat](https://chat.lbry.io).
+Well-specified bug reports save developers lots of time and are extremely appreciated, typically with a LBRY credit tip.
 
 ### Feature Requests {#feature-requests}
 
