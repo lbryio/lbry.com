@@ -2,7 +2,7 @@
 author: Brinck
 title: 'Always GIF Responsibly: Introducing Spee.ch'
 date: '2017-10-30 00:15:30'
-cover: 'Logo@3x.png'
+cover: ''
 ---
 <img src="https://spee.ch/82056d1c435a35fe584afd11583d5e634f46a6f7/gif-responsibly.gif"/>
 
