@@ -4,7 +4,7 @@ title: '#MemeSafe'
 date: '2017-10-30 00:15:32'
 cover: ''
 ---
-[Spee.ch](http://spee.ch), the only safe way to share your memes and GIFs, [is live today](https://lbry.io/news/always-GIF-Responsibly)! The meme dream can turn into a nightmare when centralized services take your content - that’s why we’re rewarding Spee.ch users who #MemeSafe!
+[Spee.ch](http://spee.ch), the only safe way to share your memes and GIFs, [is live today](https://lbry.io/news/always-gif-responsibly)! The meme dream can turn into a nightmare when centralized services take your content - that’s why we’re rewarding Spee.ch users who #MemeSafe!
 
 ### There are two ways to join the party:
 
