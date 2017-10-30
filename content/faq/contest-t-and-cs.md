@@ -1,6 +1,6 @@
 ---
 title: LBRY Contest Terms and Conditions
-category: TandCs
+category: other
 ---
 
 * Multiple entries are allowed and encouraged.
