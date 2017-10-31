@@ -2,6 +2,8 @@
 
 class Controller
 {
+  const CACHE_CLEAR_PATH = '/clear-cache';
+
   protected static $queuedFunctions = [];
 
   public static function dispatch($uri)
@@ -109,6 +111,7 @@ class Controller
 
     $router->post('/postcommit', 'OpsActions::executePostCommit');
     $router->post('/log-upload', 'OpsActions::executeLogUpload');
+    $router->get(static::CACHE_CLEAR_PATH, 'OpsActions::executeClearCache');
 
     $router->any('/list/subscribe', 'MailActions::executeSubscribe');
     $router->any('/list/subscribed', 'MailActions::executeSubscribed');

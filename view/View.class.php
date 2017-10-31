@@ -19,7 +19,7 @@ class View
   const CSS_DIR  = self::WEB_DIR . '/css';
   const JS_DIR   = self::WEB_DIR . '/js';
 
-  public static function render($template, array $vars = [])
+  public static function render($template, array $vars = []): string
   {
     if (static::isMarkdown($template))
     {
@@ -78,7 +78,7 @@ class View
     }
   }
 
-  public static function markdownToHtml($path)
+  public static function markdownToHtml($path): string
   {
     return ParsedownExtra::instance()->text(trim(file_get_contents($path)));
   }
@@ -154,7 +154,7 @@ class View
     }
   }
 
-  protected static function interpolateTokens($html)
+  protected static function interpolateTokens($html): string
   {
     return preg_replace_callback('/{{[\w\.]+}}/is', function ($m)
     {
@@ -162,12 +162,12 @@ class View
     }, $html);
   }
 
-  protected static function escapeOnce($value)
+  protected static function escapeOnce($value): string
   {
     return preg_replace('/&amp;([a-z]+|(#\d+)|(#x[\da-f]+));/i', '&$1;', htmlspecialchars((string)$value, ENT_QUOTES, 'utf-8'));
   }
 
-  protected static function attributesToHtml($attributes)
+  protected static function attributesToHtml($attributes): string
   {
     return implode('', array_map(function ($k, $v)
     {
@@ -175,13 +175,19 @@ class View
     }, array_keys($attributes), array_values($attributes)));
   }
 
-  public static function renderTag($tag, $attributes = [])
+  public static function renderTag($tag, $attributes = []): string
   {
     return $tag ? sprintf('<%s%s />', $tag, static::attributesToHtml($attributes)) : '';
   }
 
-  public static function renderContentTag($tag, $content = null, $attributes = [])
+  public static function renderContentTag($tag, $content = null, $attributes = []): string
   {
     return $tag ? sprintf('<%s%s>%s</%s>', $tag, static::attributesToHtml($attributes), $content, $tag) : '';
+  }
+
+  public static function renderJson($data): array
+  {
+    Response::setHeader(Response::HEADER_CONTENT_TYPE, 'application/json');
+    return ['internal/json', ['json' => $data, '_no_layout' => true]];
   }
 }
