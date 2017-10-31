@@ -21,3 +21,6 @@ Shell::exec('git fetch && git reset --hard origin/master');
 
 View::compileCss();
 View::gzipAssets();
+
+// clear cache
+Curl::get('localhost'.Controller::CACHE_CLEAR_PATH);
