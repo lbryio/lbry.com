@@ -352,7 +352,7 @@ class Response
     return $statusTexts[$code] ?? null;
   }
 
-  protected static function normalizeHeaderName($name)
+  protected static function normalizeHeaderName($name): string
   {
     return preg_replace_callback(
       '/\-(.)/',

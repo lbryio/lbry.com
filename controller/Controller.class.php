@@ -97,6 +97,7 @@ class Controller
 
     $router->post('/postcommit', 'OpsActions::executePostCommit');
     $router->post('/log-upload', 'OpsActions::executeLogUpload');
+    $router->get('/clear-cache', 'OpsActions::executeClearCache');
 
     $router->any('/list/subscribe', 'MailActions::executeSubscribe');
     $router->any('/list/subscribed', 'MailActions::executeSubscribed');
