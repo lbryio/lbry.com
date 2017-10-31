@@ -1,15 +1,21 @@
 ---
-title: What are the LBRY Block Rewards?
+title: What is mining and what are the LBRY Block Rewards?
 category: mining
+order: 1
 ---
 
-## 0. Only Trust the Source
+## What is Mining?
+
+Mining is a process where computing power is used to verify transactions on LBRY network and add them to the public ledger (LBRY blockchain). It is also a process of how additional new LBRY credits (LBC) are created as a reward for the successful miners (see details below). The process uses the mining software to calculate complex mathematical puzzles in order to secure the transactions.
+Both CPU and GPU hardware can be used for mining, but the current market is dominated by GPU mining. LBRY uses a mix of SHA512, SHA256 and RIPEMD hash functions in its algorithm. To put it in the most simple terms: mining enables secure and fast LBC transactions.
+
+## Only Trust the Source
 
 The source code, and not this file, is the only true definition of the block rewards. That source file is located here in [`master`]:
 
 [https://github.com/lbryio/lbrycrd/blob/master/src/main.cpp](https://github.com/lbryio/lbrycrd/blob/master/src/main.cpp#L1576)
 
-## 1. Reward Schedule
+## Mining Reward Schedule
 
 Eventually 1,000,000,000 LBRY credits will exist. They are awarded on the following schedule:
 
@@ -27,3 +33,5 @@ Eventually 1,000,000,000 LBRY credits will exist. They are awarded on the follow
      years.
 
 * Block rewards ramp up slowly because we want to ensure that users are given some time to get LBRY up and running, and to avoid unfairly benefitting the earliest users.
+
+* To see the current block reward, visit the [LBRY Blockchain Explorer](https://explorer.lbry.io) and explore the latest block details.
