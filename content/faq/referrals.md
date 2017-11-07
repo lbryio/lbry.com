@@ -1,5 +1,5 @@
 ---
-title: How does the referral and waitlist program work?
+title: How does the referral program work?
 category: getstarted
 ---
 
