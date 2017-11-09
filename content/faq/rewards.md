@@ -12,7 +12,7 @@ In order to be eligible for LBRY Rewards, users must have a [verified account](h
 ### List of the current LBRY Rewards
 | Reward | Amount | Description |
 --- | --- | --- 
-| **Your First Nickel** | 3 LBC | A one time welcome gift to learn basics of the application, wallet and if you want to buy some paid content
+| **Your First Nickel** | 3 LBC | A one-time welcome gift to learn basics of the application, wallet and if you want to buy some paid content
 | **Go for a Stream** | 2 LBC | Awarded for streaming your very first video on LBRY
 | **Channel Surfing** | 3 LBC | A one-time award for creating a Channel on LBRY via the Publish screen
 | **Many Views** | 5 LBC | A one-time award for watching several videos on LBRY
