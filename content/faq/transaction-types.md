@@ -5,7 +5,7 @@ category: wallet
 
 There are a number of transaction types which take place while using the LBRY application. You can see these transactions in the **Overview** and **History** tabs of the Wallet page (bank icon in the top right). Certain transaction allow you to take additional actions directly from the transaction screen, such as claiming an incoming tip via the unlock button and revoking a claim via the trash button. Once the action is taken, the action icon will disappear and the resulting transaction will appear in history. 
 
-Most transactions types also have details associated with them(with navigation) such as the claim/channel name or if they came from a LBRY Reward. Content purchases and incoming content payments are not currently avavailable but are planned for a future release. See below for more information on each transaction type.
+Most transactions types also have details associated to them(with navigation) such as the claim/channel name or if they came from a LBRY Reward. Content purchases and incoming content payments are not currently avavailable but are planned for a future release. See below for more information on each transaction type.
 
 | Type | Meaning / Additional Information |
 --- | --- 
