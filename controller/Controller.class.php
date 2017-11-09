@@ -142,6 +142,7 @@ class Controller
       '/faq/quarterly-report-3q-2016'       => '/credit-reports/2016-Q3',
       '/faq/Q4-credit-report'               => '/credit-reports/2016-Q4',
       '/faq/Q1-17-CreditReport'             => '/credit-reports/2017-Q1',
+      '/faq/how-to-report-bugs'             => '/faq/support',
     ];
 
     $tempRedirects = [
