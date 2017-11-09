@@ -7,6 +7,10 @@ category: troubleshooting
 
 For live help, you can join [our chat](https://chat.lbry.io) and post in the #help channel. Please share a detailed message with the issue you are experiencing. LBRY log files are a good source of information for us, you can learn how to [find them here](https://lbry.io/faq/how-to-find-lbry-log-file).
 
+## Help via Email
+
+You can also [email LBRY](mailto:help@lbry.io) with questions or issues. LBRY log files are a good source of information for us, you can learn how to [find them here](https://lbry.io/faq/how-to-find-lbry-log-file).
+
 ### Reporting Issues
 
 To report an issue, you can do one of the following:
