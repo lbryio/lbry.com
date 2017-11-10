@@ -2,11 +2,11 @@
 author: reilly
 title: 'Derivative Originality'
 date: '2017-11-10 00:20:30'
-cover: '3blue-banner.png'
+cover: '3blue-banner-2.jpg'
 ---
 And now for something completely different: three new channels in one fell swoop.
 
-A math wiz, a South African, his South African friend, and a troupe of funny men walk into a library...
+A math whiz, a South African, his South African friend, and a troupe of funny men walk into a library...
 
 ![3Blue1Brown](/img/news/3blue-inline.png)
 
