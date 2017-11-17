@@ -2,7 +2,7 @@
 author: reilly
 title: 'Zero Confirmation Bias'
 date: '2017-11-17 00:20:00'
-cover: 'unbubbled-banner.png'
+cover: 'unbubbled-banner2.png'
 ---
 At the root of LBRY is that emergent, beautiful mesh of communication: Peer-to-peer.
 
