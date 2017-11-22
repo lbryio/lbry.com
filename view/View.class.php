@@ -44,7 +44,7 @@ class View
 
     if ($vars === null)
     {
-      return;
+      return [];
     }
 
     return static::interpolateTokens(static::getTemplateSafely($template, $vars));
