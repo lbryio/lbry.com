@@ -1,6 +1,6 @@
 ---
 author: reilly
-title: 'Nono LoLo'
+title: 'Nono LoL'
 date: '2017-11-24 00:20:30'
 cover: 'nono-banner.png'
 ---
