@@ -1,5 +1,6 @@
 <?php Response::setMetaTitle(__('title.home')) ?>
 <?php Response::setMetaDescription(__('description.home')) ?>
+<?php Response::addJsAsset('https://cdn.optimizely.com/js/9525271075.js') ?>
 <?php echo View::render('nav/_header', ['isDark' => false, 'isBordered' => false]) ?>
 <main class="home">
   <div class="cover home__title cover-light">
