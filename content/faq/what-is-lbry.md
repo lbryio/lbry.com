@@ -20,3 +20,5 @@ There is no such risk of top-down corruption with the LBRY protocol. Content upl
 Now, the LBRY project is more than just a revolutionary new protocol. It is also a company, *LBRY Inc.*, which is developing a *LBRY app* to allow users to easily interact with the protocol. So it’s as if Google had developed the email protocol, released it to the world for free, and then built Gmail to help people make use of it. Not only is our app completely open-source, but others are welcome to create competing apps that also use the LBRY protocol. For a content creator, your uploaded content will be available to all of these apps at the same time.
 
 Do you see the difference here? YouTube can afford to push around its creators and users because they’ve created tremendous lock-in. LBRY is challenging this model from the ground-up. Everything we’ve built is open-source, decentralized, and belongs to the community using it. LBRY Inc. could go bankrupt tomorrow and the LBRY protocol will live on. Can YouTube say that?
+
+[Download the LBRY App Now](https://lbry.io/get)
