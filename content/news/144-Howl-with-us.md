@@ -12,7 +12,7 @@ LBRY is kicking off #MovieTuesday with the critically acclaimed **Howl**, a biop
 
 Join us on our [Discord #general channel](http://chat.lbry.io/) when we press play at 8PM ET tonight (11/28) to watch along with the LBRY team, provide deep critical exegesis, and maybe heckle a bit. 
 
-Use [this link](https://open.lbry.io/lbry%3A%2F%2F%40LBRYmovienights%23d69ccf23c948df9897d8c69624eaf11ef6131175%2Fhowl-lbry-movie-night) to watch Howl in the LBRY app.
+Use [this link](https://open.lbry.io/howl-lbry-movie-night) to watch Howl in the LBRY app.
 
 
 See you at the movies!
