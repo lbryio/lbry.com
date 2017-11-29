@@ -10,7 +10,8 @@ cover: ''
 
 LBRY is kicking off #MovieTuesday with the critically acclaimed **Howl**, a biopic that brings Allen Ginsberg’s obscenity trial to surreal life with animated sequences and powerful performances from James Franco, Jon Hamm, and Jeff Daniels. 
 
-Join us on our [Discord #general channel](http://chat.lbry.io/) when we press play at 8PM ET tonight (11/28) to watch along with the LBRY team, provide deep critical exegesis, and maybe heckle a bit.
+Join us on our [Discord #general channel](http://chat.lbry.io/) when we press play at 8PM ET tonight (11/28) to watch along with the LBRY team, provide deep critical exegesis, and maybe heckle a bit. Use this URI in the LBRY app to watch:
+lbry://@LBRYmovienights#d69ccf23c948df9897d8c69624eaf11ef6131175/howl-lbry-movie-night
 
 See you at the movies!
 
