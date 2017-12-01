@@ -102,6 +102,7 @@ class Controller
     $router->get(['/android', 'get-android'], 'DownloadActions::executeGet');
     $router->get(['/ios', 'get-ios'], 'DownloadActions::executeGet');
     $router->get('/roadmap', 'ContentActions::executeRoadmap');
+    $router->get(['/getrubin', 'get-getrubin'], 'DownloadActions::executeGet');
 
     $router->post('/quickstart/auth', 'DeveloperActions::executeQuickstartAuth');
     $router->get('/quickstart/{step}?', 'DeveloperActions::executeQuickstart');
