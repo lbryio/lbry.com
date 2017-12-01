@@ -21,4 +21,3 @@
     </div>
   </div>
 </main>
-<?php echo View::render('nav/_footer', ['isDark' => false, 'isBordered' => false]) ?>
