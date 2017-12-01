@@ -38,7 +38,6 @@
             <?php if ($os === OS::OS_LINUX): ?>
               {{download.works}}
             <?php endif ?>
-            Like source code? Go <a href="https://github.com/lbryio/lbry-app" class="link-primary">here</a>.<P><P>
             <img src="https://spee.ch/5a3e08d52dd2d7cb1c63a480b45dea8b4679cf01/lbryget-gif-mastertest.gif" />
                 <?php echo View::render('download/_list', [
                   'excludeOs' => $os
