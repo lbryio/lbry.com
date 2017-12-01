@@ -96,6 +96,7 @@ class Controller
     $router->get(['/', 'home'], 'ContentActions::executeHome');
 
     $router->get(['/get', 'get'], 'DownloadActions::executeGet');
+    $router->get(['/getrubin', 'getrubin'], 'DownloadActions::executeGet');
     $router->get(['/windows', 'get-windows'], 'DownloadActions::executeGet');
     $router->get(['/linux', 'get-linux'], 'DownloadActions::executeGet');
     $router->get(['/osx', 'get-osx'], 'DownloadActions::executeGet');
