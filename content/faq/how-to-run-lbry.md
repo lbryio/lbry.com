@@ -7,7 +7,7 @@ This guide will allow you to run the LBRY daemon which connects to the LBRY netw
 ## Windows
 1. Open a **Command Prompt** application window
 1. Type `cd "c:\Program Files (x86)\LBRY\resources\app\dist"` and click Enter
-1. Type `lbrynet-deamon` and click Enter. 
+1. Type `lbrynet-daemon` and click Enter. 
 
 ## MacOS
 1. Open a **Terminal** window
