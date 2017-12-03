@@ -18,7 +18,7 @@ We will continue to make this process easier for users in the future through the
 
 ## How do I find my wallet if I don't have LBRY open? 
 
-The LBRY wallet can be found manually by navigating to the [lbryum directory](https://lbry.io/faq/lbry-directories). The `default_walet` file is inside the wallets folder. 
+The LBRY wallet can be found manually by navigating to the [lbryum directory](https://lbry.io/faq/lbry-directories). The `default_wallet` file is inside the wallets folder. 
 
 ## How do I restore my wallet?
 
