@@ -11,3 +11,4 @@ We are listed on several exchanges. You can buy or sell credits at one of these:
 - [Changelly](https://changelly.com/exchange/BTC/LBC/1)
 - [BitSquare](https://bitsquare.io/)
 - [Cryptopia](https://www.cryptopia.co.nz/Exchange/?market=LBC_BTC)
+- [Upbit](https://upbit.com/exchange?code=CRIX.UPBIT.BTC-LBC)
