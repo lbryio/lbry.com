@@ -22,4 +22,5 @@ In order to be eligible for LBRY Rewards, users must have a [verified account](h
 
 Rewards are added to the LBC wallet balance as they are completed. All the rewards can be listed by clicking on the tab marked "REWARDS" inside the LBC wallet and they are also marked in the [transaction history](https://lbry.io/faq/transaction-types).  Rewards redemption is tied to your account but the credits themselves are stored in your wallet which is required to be [backed up](https://lbry.io/faq/how-to-backup-wallet) periodically.
 
+if you can not claim a reward, please send details including your email and lbrynet.log to email [help@lbry.io](mailto:help@lbry.io)
 If you have any questions or problems with receiving the Rewards, feel free to [reach out to us](https://lbry.io/faq/support).
