@@ -2,7 +2,7 @@
 title: How does the company behind LBRY make money?
 category: other
 ---
-The LBRY protocol has a built-in digital currency that allows it to function, called LBRY credits(LBC). These credits are very similar to bitcoins. Having a built-in digital currency creates an opportunity for a new kind of business that has never existed: [the protocol-first enterprise](https://medium.com/the-coinbase-blog/app-coins-and-the-dawn-of-the-decentralized-business-model-8b8c951e734f#.6mr8znoiu). LBRY Inc. has reserved 10% of all LBRY credits to fund continued development and provide profit for the founders. Since credits only gain value as the use of the protocol grows, the company has an incentive to continue developing this open-source project. And we can do it all without taking a percentage of anyone’s transactions.
+The LBRY protocol has a built-in digital currency that allows it to function, called LBRY credits (LBC). These credits are very similar to bitcoins. Having a built-in digital currency creates an opportunity for a new kind of business that has never existed: [the protocol-first enterprise](https://medium.com/the-coinbase-blog/app-coins-and-the-dawn-of-the-decentralized-business-model-8b8c951e734f#.6mr8znoiu). LBRY Inc. has reserved 10% of all LBRY credits to fund continued development and provide profit for the founders. Since credits only gain value as the use of the protocol grows, the company has an incentive to continue developing this open-source project. And we can do it all without taking a percentage of anyone’s transactions.
 
 Here’s how LBRY Inc. **doesn’t** make money:
 
