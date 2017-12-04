@@ -90,9 +90,9 @@
       <h4>Part A: The LBRY Blockchain</h4>
       <p>A <em>blockchain</em>, or <em>distributed ledger</em> is the key innovation behind the Bitcoin network. Blockchains solved the very complicated technological problem of having a bunch of distributed, disparate entities all agree on a rivalrous state of affairs (like how much money they owe each other).</p>
 
-      <p>Like Bitcoin, the LBRY blockchain maintain balances -- in this case, balances of <em>LBC</em>, LBRY’s unit of credit. More importantly, the LBRY blockchain also provides a decentralized lookup and metadata storage system. The LBRY blockchain supports a specific set of commands that allows anyone to bid (in LBC) to control a LBRY <em>name</em>, which is a lot like a domain name. Whoever controls a name gets to describe what it contains, what it costs to access, who to pay, and where to find it. These names are sold in a continuous running auction. We will talk more about this system a little later on.</p>
+      <p>Like Bitcoin, the LBRY blockchain maintains balances -- in this case, balances of <em>LBC</em>, LBRY’s unit of credit. More importantly, the LBRY blockchain also provides a decentralized lookup and metadata storage system. The LBRY blockchain supports a specific set of commands that allows anyone to bid (in LBC) to control a LBRY <em>name</em>, which is a lot like a domain name. Whoever controls a name gets to describe what it contains, what it costs to access, who to pay, and where to find it. These names are sold in a continuous running auction. We will talk more about this system a little later on.</p>
 
-      <p>If you’re a programmer, you might recognize the LBRY blockchain as a <em>key-value store</em>. Each key, or name, corresponds to a value, or a metadata entry. Whichever party or parties bid the most LBC gets to control the metadata returned by a key lookup.</p>
+      <p>If you’re a programmer, you might recognize the LBRY blockchain as a <em>key-value store</em>. Each key, or name, corresponds to a value, or a metadata entry. Whichever party (or parties) bids the most LBC, gets to control the metadata returned by a key lookup.</p>
 
       <p>Here is a sample key-value entry in the LBRY blockchain. Here, wonderfullife is the key, and the rest of the description is the value.</p>
       <code class="code-bash"><span class="code-bash__prompt">$</span>lbrynet-cli resolve_name name=wonderfullife
@@ -109,7 +109,7 @@
     <span class="code-bash__kw">url</span> : &lt;url&gt;
   }
 }</code>
-      <div class="meta text-center content-inset"><p>A slightly simplified sample entry of metadata in the LBRY blockchain. Whichever party or parties bid the most in an ongoing auction control what a name returns.</p></div>
+      <div class="meta text-center content-inset"><p>A slightly simplified sample entry of metadata in the LBRY blockchain. Whichever party (or parties) bids the most in an ongoing auction, controls what a name returns.</p></div>
 
       <p>Other than the usage of the LBRY blockchain to store names and metadata, there are only minor differences between the blockchains of LBRY and Bitcoin, and the changes are generally consensus improvements. We’ve buffed the hashing algorithm, smoothed the block reward function, increased the block size, increased the total number of credits, and prepared for off-chain settlement.</p>
 
@@ -146,7 +146,7 @@
 
       <p>While the protocol is determined, open, and fixed, the service layer is much more flexible. It is far easier to redesign a website than it is to revise the HTTP protocol itself. The same is true here.</p>
 
-      <p>Additionally, just as in the early days of the internet the later direction of web would have been unfathomable, so too may the best uses of LBRY’s namespace or technology be undiscovered.  However, here are some clear uses.</p>
+      <p>Additionally, just as in the early days of the internet, imagining the later direction of the web would have been unfathomable, so too may the best uses of LBRY’s namespace or technology be undiscovered.  However, there are some clear use cases:</p>
       <h4>Applications and Devices</h4>
       <p>A LBRY application is how a user would actually have meaningful interactions with the LBRY network. A LBRY client packages the power of the LBRY protocol into a simple application that allows the user to simply search for content, pay for it when necessary, download and enjoy.</p>
 
@@ -160,7 +160,7 @@
 
       <p>Discovery on LBRY can also take the form of featured content. Clients can utilize featured content to provide additional visibility for new content that consumers might not otherwise be looking for.</p>
       <h4>Content Distribution</h4>
-      <p>Digital content distributors with server-client models are subject to the whims of internet service providers and hostile foreign governments. Traffic from the host servers can be throttled or halted altogether if the owners of cables and routers so choose. However, in case of the LBRY protocol content comes from anywhere and everywhere, and is therefore not so easily stifled. </p>
+      <p>Digital content distributors with server-client models are subject to the whims of internet service providers and hostile foreign governments. Traffic from the host servers can be throttled or halted altogether if the owners of cables and routers so choose. However, in the case of the LBRY protocol, content comes from anywhere and everywhere and is therefore not so easily stifled. </p>
 
       <p>Additionally, the market mechanisms of LBRY create a strong incentive for efficient distribution, which will save the costs of producers and ISPs alike. These properties, along with LBRY’s infringement disincentivizing properties, make LBRY an appealing technology for large existing data or content distributors.</p>
       <h4>Transaction Settlement</h4>
@@ -186,11 +186,11 @@
       <h2 id="combatting-the-ugly">Combating The Ugly</h2>
       <p>As neither naïfs nor knaves, we acknowledge that LBRY can be used for bad ends. Technology is frequently this way. Encryption protects our privacy -- as well as that of terrorists. Cars allow us to travel marvelous distances -- and kill millions per year.</p>
 
-      <p>The downside to LBRY is that it can be used to exchange illegal content. However, several factors of LBRY make illicit usage less likely than it may seem at first consideration. On the whole, as with the car and encryption, the benefits of LBRY clearly outweigh nefarious uses.</p>
+      <p>The downside to LBRY is that it can be used to exchange illegal content. However, several factors of LBRY make illicit usage less likely than it may seem at first consideration. On the whole, as with the car and encryption, the benefits of LBRY clearly outweigh its nefarious uses.</p>
 
       <p>To evaluate a technology’s effect, we must consider where it moves us from the current state of affairs, not judge against a Platonic ideal or past era. In assessing LBRY, we must compare it to a world in which BitTorrent already exists and is quite popular, not the 1950s. LBRY is an improvement over BitTorrent in combatting unsavory content in at least four ways:</p>
 
-      <ol><li><strong>More records. </strong>LBRY contains a public ledger of transactions recording name purchases and published content. As many purchases make it onto the ledger as well, this means infringing actions are frequently recorded <em>forever, </em>or are at a minimum widely observable.</li>
+      <ol><li><strong>More records. </strong>LBRY contains a public ledger of transactions recording name purchases and published content. As many purchases make it onto the ledger as well, this means infringing actions are frequently recorded <em>forever, </em>or are at a minimum, widely observable.</li>
 
         <li><strong>Updatable URLs.</strong> Once a BitTorrent magnet hash is in the wild, there is no mechanism to update or alter its resolution whatsoever. If a LBRY name is pointing to infringing content, it can be updated or removed (but not by us). </li>
 
