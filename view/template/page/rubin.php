@@ -7,9 +7,12 @@
     <div class="cover cover-dark cover-center cover-full" style="background-image:url(/img/dave-phillyd-background.png)">
       <div class="content content-dark text-center">
         <h2 class="cover-title cover-title-tile cover-title-flat">
-          Dave creates. We watch.<br/>
-          Dave gets paid.*
+          The Rubin Report<br/>
+          YouTube Week
         </h2>
+        <h3>
+          Brought to you by LBRY
+        </h3>
         </br>
         </br>
         </br>
@@ -22,7 +25,7 @@
           <a href="/get" class="btn-primary btn-large">Watch Rubin on LBRY</a>
         </div>
         <div class="meta">
-          *Only Dave. No middlemen.
+          Desktop only. Mobile coming soon.
         </div>
       </div>
     </div>
@@ -30,9 +33,9 @@
   <div class="span5">
     <div class="cover cover-light">
       <div class="content content-light content-readable">
-        <h3>What am I looking at here?</h3>
-        <p>LBRY is a departure from the platforms of yesterday. Support shows like The Rubin Report with 100% of your donations, subscriptions, and attention.</p>
-        <p>Just you, and Dave.</p>
+        <h3>What's going on here?</h3>
+        <p>LBRY is a departure from the platforms of yesterday.</p>
+        <p>Watch The Rubin Report (and more) without ads or middlemen.</p>
         <h3>Okay. But why?</h3>
         <p>Open-source and decentralized, LBRY is shaped entirely by the creators and community who use it. <b>Free speech and censorship-resistance are baked into the design.</b></p>
         <p>There are lots of nifty aspects to how LBRY works (pronounced, "library"). Learn from the old-timers on our Discord at https://chat.lbry.io</p>
