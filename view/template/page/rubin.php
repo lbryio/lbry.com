@@ -35,10 +35,10 @@
       <div class="content content-light content-readable">
         <h3>What's going on here?</h3>
         <p>LBRY is a departure from the platforms of yesterday.</p>
-        <p>Watch The Rubin Report (and more) without ads or middlemen.</p>
+        <p>Watch The Rubin Report (and more) on the only community-run video app without ads or middlemen.</p>
         <h3>Okay. But why?</h3>
         <p>Open-source and decentralized, LBRY is shaped entirely by the creators and community who use it. <b>Free speech and censorship-resistance are baked into the design.</b></p>
-        <p>There are lots of nifty aspects to how LBRY works (pronounced, "library"). Learn from the old-timers on our Discord at https://chat.lbry.io</p>
+        <p>There are lots of nifty aspects to how LBRY works (pronounced, "library"). Learn from the old-timers on <a href="https://chat.lbry.io">our Discord</a>.</p>
         <div class="text-center">
           <a href="/get" class="btn-alt btn-large">Download the App</a>
         </div>
