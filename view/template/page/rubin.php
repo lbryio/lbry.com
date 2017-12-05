@@ -9,7 +9,7 @@
         <h2 class="cover-title cover-title-tile cover-title-flat">
           Dave creates. We watch.<br/>
           Dave gets paid.*
-        </h1>
+        </h2>
         </br>
         </br>
         </br>
