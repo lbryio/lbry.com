@@ -10,6 +10,8 @@
           Dave creates. We watch.<br/>
           Dave gets paid.*
         </h1>
+        </br>
+        </br>
         <div class="spacer1">
           <a href="/get" class="btn-primary btn-large">Watch Rubin on LBRY</a>
         </div>
