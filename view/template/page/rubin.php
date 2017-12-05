@@ -4,7 +4,7 @@
 <?php echo View::render('nav/_header', ['isDark' => false, 'isAbsolute' => false]) ?>
 <main class="column-fluid">
   <div class="span7">
-    <div class="cover cover-dark cover-center cover-full" style="background-image:url(/img/dave-phillyd-background.png)">
+    <div class="cover cover-dark cover-center cover-full" style="background-image:url(/img/dave-phil-lbryio.png)">
       <div class="content content-dark text-center">
         <h2 class="cover-title cover-title-tile cover-title-flat">
           The Rubin Report<br/>
