@@ -6,7 +6,7 @@
   <div class="span7">
     <div class="cover cover-dark cover-center cover-full" style="background-image:url(/img/dave-phillyd-background.png)">
       <div class="content content-dark text-center">
-        <h1 class="cover-title cover-title-tile cover-title-flat">
+        <h2 class="cover-title cover-title-tile cover-title-flat">
           Dave creates. We watch.<br/>
           Dave gets paid.*
         </h1>
