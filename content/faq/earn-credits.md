@@ -13,4 +13,4 @@ Currently, there are a couple ways to obtain LBRY Credits, or LBC for short.
 1. [Contributing](https://lbry.io/faq/contributing) to the project as a developer/engineer.
 1. Buy them: see [Exchanges](/faq/exchanges)
 1. Mine them: see [Mining](/faq/mining-credits). 
-1. Publish content: when you publish your own content to the LBRY network, you can sell it for LBC at the price of your choice.
+1. [Publish](https://lbry.io/faq/how-to-publish) content: when you publish your own content to the LBRY network, you can sell it for LBC at the price of your choice.
