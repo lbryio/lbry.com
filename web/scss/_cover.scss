@@ -1,5 +1,7 @@
 @import "global";
 
+$text-shadow-cover-title: 0 0 6px rgba(0, 0, 0, 0.8);
+
 .cover {
   width: 100%;
   background-size: cover;
@@ -24,10 +26,18 @@
 
 .cover-title, .cover-subtitle
 {
-  &:not(.cover-title-flat)
+  &:not(.cover-title-flat):not(.cover-item--outline)
   {
-    text-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+    text-shadow: $text-shadow-cover-title;
   }
+}
+.cover-item--outline {
+  text-shadow:
+          -1px -1px 0 #000,
+          1px -1px 0 #000,
+          -1px  1px 0 #000,
+          1px  1px 0 #000,
+          $text-shadow-cover-title;
 }
 
 @media (min-width:$width-laptop-min) and (max-width: $width-laptop-max) {
@@ -69,6 +79,23 @@
 {
   color: #333;
   .cover-title { color: #000; }
+}
+.cover--dark-overlay {
+  position: relative;
+  z-index: 0;
+  &:before {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.2);
+    z-index: 1;
+    content: ' ';
+    display: block;
+  }
+  .content {
+    position: relative;
+    z-index: 2;
+  }
 }
 .cover-dark-grad
 {
