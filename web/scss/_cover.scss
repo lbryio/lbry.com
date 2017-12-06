@@ -80,23 +80,6 @@ $text-shadow-cover-title: 0 0 6px rgba(0, 0, 0, 0.8);
   color: #333;
   .cover-title { color: #000; }
 }
-.cover--dark-overlay {
-  position: relative;
-  z-index: 0;
-  &:before {
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    background: rgba(0,0,0,0.2);
-    z-index: 1;
-    content: ' ';
-    display: block;
-  }
-  .content {
-    position: relative;
-    z-index: 2;
-  }
-}
 .cover-dark-grad
 {
   //@include linear-gradient(darken($color-primary, 5), lighten($color-primary, 5));
