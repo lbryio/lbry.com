@@ -1,11 +1,11 @@
 <?php Response::setMetaDescription(__('description.learn')) ?>
 <?php Response::setMetaTitle(__('title.learn')) ?>
 <?php Response::addJsAsset('https://cdn.optimizely.com/js/9525271075.js') ?>
-<?php echo View::render('nav/_header', ['isDark' => false, 'isAbsolute' => true]) ?>
+<?php echo View::render('nav/_header', ['isDark' => true, 'isAbsolute' => true]) ?>
 <main>
-  <div class="cover cover-dark cover-center cover-full" style="background-image:url(/img/dave-phil-lbryio.png)">
+  <div class="cover cover-dark cover-center cover-full cover--dark-overlay" style="background-image:url(/img/dave-phil-lbryio.png)">
     <div class="content content-dark text-center">
-      <h1 class="cover-title cover-title-tile cover-title-flat">
+      <h1 class="cover-title cover-title-tile cover-item--outline">
         The Rubin Report<br/>
         YouTube Week
       </h1>
@@ -15,7 +15,7 @@
       <div class="spacer1">
         <a href="/get" class="btn-primary btn-large">Download LBRY</a>
       </div>
-      <div class="meta">
+      <div class="meta cover-item--outline">
         Desktop only. Mobile coming soon.
       </div>
     </div>
