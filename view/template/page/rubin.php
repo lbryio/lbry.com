@@ -13,7 +13,7 @@
           Brought to you by LBRY
         </h3>
       <div class="spacer1">
-        <a href="/get" class="btn-primary btn-large">Download LBRY</a>
+        <a href="/get" class="btn-primary btn-large">Download the App</a>
       </div>
       <div class="meta cover-item--outline">
         Desktop only. Mobile coming soon.
@@ -29,7 +29,7 @@
       <p>Open-source and decentralized, LBRY is shaped entirely by the creators and community who use it. <b>Free speech and censorship-resistance are baked into the design.</b></p>
         <p>There are lots of nifty aspects to how LBRY works (pronounced, "library"). Learn from the old-timers on <a href="https://chat.lbry.io"><u>our Discord</u></a>.</p>
       <div class="text-center">
-        <a href="/get" class="btn-alt btn-large">Download the App</a>
+        <a href="/get" class="btn-alt btn-large">Download LBRY</a>
       </div>
     </div>
   </div>
