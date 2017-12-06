@@ -1,6 +1,6 @@
 ---
 title: How do I Publish content to LBRY?
-category: pubilsher
+category: publisher
 order: 1
 ---
 
