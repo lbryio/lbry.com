@@ -1,6 +1,7 @@
 ---
 title: How do I Publish content to LBRY?
-category: getstarted
+category: pubilsher
+order: 1
 ---
 
 LBRY is a free, open, and community-driven digital marketplace which enables content sharing, monetization, discovery and consumption. Publishing in LBRY is the process by which you share your content on the network - you set the price per view (can be free too) which is paid directly to you. This process involves making a "claim" in the LBRY Blockchain which will be used to retrieve the content via a URL. Content can either be published anonymously or to a particular channel/identity which will group content together at a single location. Both channels and claims require a deposit(bid) of LBRY Credits (LBC) in order to reserve their location on the LBRY network. This deposit will be deducted from your balance as long as the claim is active. See our [naming document](https://lbry.io/faq/naming) for more information about claims and bids. 
