@@ -13,7 +13,7 @@
           Brought to you by LBRY
         </h3>
       <div class="spacer1">
-        <a href="/get" class="btn-primary btn-large">Watch Rubin on LBRY</a>
+        <a href="/get" class="btn-primary btn-large">Download LBRY</a>
       </div>
       <div class="meta">
         Desktop only. Mobile coming soon.
