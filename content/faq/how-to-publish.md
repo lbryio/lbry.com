@@ -65,6 +65,10 @@ Yes, this is possible by sending [tips](https://lbry.io/faq/tipping) as a suppor
 
 Currently this is only possible if you set a price for your content - you will see transactions in your LBRY wallet as people purchase it. In the future, we will add these types of statistics to LBRY. 
 
+### My video doesn't stream in the app, what's wrong?
+
+The in-app video player's streaming capabilities are limited to MP4 files which are web optimized (metadata is contained at the front of the file). If it's not web optimized, the MP4 will still play in the app, but the entire file will need to be downloaded first. AVI/WMV/MOV files are also not supported within the in-app player. They can be shared/downloaded but will need to be played externally. 
+
 ### I shared my URL, but others can't download it. What's up? 
 
 Since LBRY uses a Peer to Peer network, it may require that your PC is accessible through the internet. LBRY also runs servers to assist in content hosting, but this process may fail if your PC cannot send it to us. By default, the sharing port is set to 3333. If your network is properly configured and LBRY is running, a port status check on 3333 should pass on this [port checking tool](https://www.canyouseeme.org). If it fails, you can check if UPNP is enabled on your router or forward port 3333 manually. If you need assistance, check out the [help page](https://lbry.io/faq/how-to-report-bugs) on how to reach us.
