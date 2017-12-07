@@ -10,7 +10,7 @@
         The Rubin Report<br/>
         YouTube Week
       </h1>
-      <h3>
+      <h3 class="cover-item--outline">
           Brought to you by LBRY
         </h3>
       <div class="spacer1">
