@@ -10,7 +10,7 @@ The ability to convert your cryptoassets into LBRY Credits (LBC) is available di
 ## Convert Crypto to LBC
 1. Open the LBRY app, access the Wallet (bank icon next to the Publish button) and click on **Get Credits**
 
-2. In the **Convert Crypto to LBC** section, choose from BTC, BCH, DAHS, ETH, LTC or XMR to convert into LBC
+2. In the **Convert Crypto to LBC** section, choose from BTC, BCH, DASH, ETH, LTC or XMR to convert into LBC
 <img src="https://spee.ch/3/convertcrypto1.JPG" width="80%" height="80%">
 
 3. Review the given rate of exchange and min/max amount. ShapeShift charges a 0.02LBC fee for the transaction
@@ -20,7 +20,7 @@ The ability to convert your cryptoassets into LBRY Credits (LBC) is available di
 5. Click **Begin Conversion**  to start your request. You will now be presented with the deposit address for your conversion.
 <img src="https://spee.ch/c/convertcrypto3.JPG" width="80%" height="80%">
 
-6. Using your crypto wallet, send any amount between the min and max to the deposit address specified. Click **VIEW THE STATUS ON SHAPESHIFT.IO** to track in realtime. You can also bookmark this transaction for your records. We are not currently storing any information about the transaction after it confirms and you receive the LBC in your wallet.
+6. Using your crypto wallet, send any amount between the min and max to the deposit address specified. Click **VIEW THE STATUS ON SHAPESHIFT.IO** to track in real-time. You can also bookmark this transaction for your records. We are not currently storing any information about the transaction after it confirms and you receive the LBC in your wallet.
 <img src="https://spee.ch/4/convertcrypto4.JPG" width="80%" height="80%">
 
 7. Once your transaction is confirmed, you will be presented with the completion screen. Click **Done** to start a new conversion. 
