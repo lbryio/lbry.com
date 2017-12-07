@@ -13,7 +13,7 @@ The ability to convert your cryptoassets into LBRY Credits (LBC) is available di
 2. In the **Convert Crypto to LBC** section, choose from BTC, BCH, DASH, ETH, LTC or XMR to convert into LBC
 <img src="https://spee.ch/3/convertcrypto1.JPG" width="80%" height="80%">
 
-3. Review the given rate of exchange and min/max amount. ShapeShift charges a 0.02LBC fee for the transaction
+3. Review the given rate of exchange and min/max amount. ShapeShift charges a small [fee](https://info.shapeshift.io/about) for the transaction
 4. Enter the return address for the cryptoasset in case something were to go wrong with the process
 <img src="https://spee.ch/7/convertcrypto2.JPG" width="80%" height="80%">
 
