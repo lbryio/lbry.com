@@ -14,7 +14,7 @@
           Brought to you by LBRY
         </h3>
       <div class="spacer1">
-        <a href="/get" class="btn-primary btn-large">Download the App</a>
+        <a href="/get" class="btn-primary btn-large">Try the App</a>
       </div>
       <div class="meta cover-item--outline">
         Desktop only. Mobile coming soon.
