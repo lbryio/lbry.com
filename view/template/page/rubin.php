@@ -6,6 +6,7 @@
   <div class="cover cover-dark cover-center cover-full cover--dark-overlay" style="background-image:url(/img/dave-phil-lbryio.png)">
     <div class="content content-dark text-center">
       <h1 class="cover-title cover-title-tile cover-item--outline">
+        <br/>
         The Rubin Report<br/>
         YouTube Week
       </h1>
