@@ -62,11 +62,26 @@
         </li>
       </ul>
 
+      
       <h2>Positions</h2>
 
+      <h4>Protocol Developer</h4>
       <p>
-        We're not looking to fill any full-time positions right now, but we're always happy to accept (and pay for) smaller contributions. If you'd like to get involved, see below.
+        We're seeking a developer to work on the core LBRY protocol. As our network multiplies in size, we need to keep it working smoothly.
+        You'll be working on the LBRY protocol and DHT, so experience with distributed systems and networks
+        is a plus. This work also relates to blockchains and cryptography. Our code is primarily in Python and uses the Twisted framework.
       </p>
+
+      <p>
+        Contact <a href="mailto:joinus@lbry.io">joinus@lbry.io</a> if interested in a position. Please include the following:
+      </p>
+      <ol>
+        <li>A resume, Linked In profile, or other resource that would serve as a work history.</li>
+        <li>A code sample. Preferrably a link to a public repository for a project you have built or significantly contributed to.</li>
+        <li>One sentence about why you'd like to work for LBRY.</li>
+      </ol>
+      
+
 
       <h2>Other Work</h2>
 
