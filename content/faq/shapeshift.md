@@ -5,7 +5,7 @@ category: wallet
 
 The ability to convert your cryptoassets into LBRY Credits (LBC) is available directly within the LBRY app, powered by [ShapeShift](https://info.shapeshift.io/about). LBRY Inc. does not handle any of the incoming funds and the LBC are sent from ShapeShift directly. 
 
-*Note: ShapeShift is unavailable in New York and Washington (and possibly surrounding areas if your ISP's goelocation is not accurate). Please see [ShapeShift](https://shapeshift.io) for more information.* 	 
+*Note: ShapeShift is unavailable in New York and Washington (and possibly surrounding areas if your ISP's goelocation is not accurate). You will see a `HTTP status code: 403` error if this happens. Please see [ShapeShift](https://shapeshift.io) for more information.* 	 
 
 ## Convert Crypto to LBC
 1. Open the LBRY app, access the Wallet (bank icon next to the Publish button) and click on **Get Credits**
