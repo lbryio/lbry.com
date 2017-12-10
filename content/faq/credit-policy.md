@@ -64,4 +64,4 @@ LBRY, Inc. anticipates a dispersion period for these tokens significantly exceed
 
 ## More Details
 
-For specific details of fund utilization, check the most recent quarterly report.
+For specific details of fund utilization, check the most recent [quarterly report](https://lbry.io/credit-reports).
