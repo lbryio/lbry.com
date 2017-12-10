@@ -1,0 +1,16 @@
+---
+author: 
+title: 'It's A Very Special Holiday Special Movie Night'
+date: '2017-12-10 00:16:00'
+cover: 
+---
+
+<img align="left" src="https://spee.ch/6/Rare-Exports-poster-4.jpg">
+
+Watching James Franco and Bob Balaban engage in witty bala-banter/beat poetry in [Howl](https://lbry.io/news/howl-with-us) with our Discord crew was such a blast that we want to do it again! But with the holidays approaching, we thought it might make sense to switch gears from dissolute beat poets to something a bit more festive.
+
+Unless you grew up with parents who talk more about Krampus than Kris Kringle, you’ll never look at Santa the same way after watching [Rare Exports](http://www.oscilloscope.net/films/film/41/Rare-Exports-A-Christmas-Tale). A heartwarming tale of child abduction, reindeer slaughter, and elf enslavement is waiting for you in this very special Finnish holiday flick.
+
+Join us on Tuesday 12/12 at 8PM EST to watch along, comment, and spread good tidings of holiday heckling to one and all. We’ll share the link to the film an hour before we get started (7PM EST), so be on the lookout! Our team will be on Discord and on Twitter using the hashtag #MovieTuesday. 
+
+And remember, the greatest gift of all the warm feeling you get in the cockles of your heart when you tell a friend to [download LBRY](http://lbry.io/get).
