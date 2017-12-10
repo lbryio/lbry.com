@@ -6,7 +6,8 @@ cover:
 ---
 <center><img src="https://preview.ibb.co/gM06vG/Rare_Exports_Twitter.png" alt="RareExportsPoster" border="0"></center>
   
-  
+<br>
+
 Watching James Franco and Bob Balaban engage in witty bala-banter/beat poetry in [Howl](https://lbry.io/news/howl-with-us) with our Discord crew was such a blast that we want to do it again! But with the holidays approaching, we thought it might make sense to switch gears from dissolute beat poets to something a bit more festive.
 
 Unless you grew up with parents who talk more about Krampus than Kris Kringle, you’ll never look at Santa the same way after watching [Rare Exports](http://www.oscilloscope.net/films/film/41/Rare-Exports-A-Christmas-Tale). A heartwarming tale of child abduction, reindeer slaughter, and elf enslavement is waiting for you in this very special Finnish holiday flick.
