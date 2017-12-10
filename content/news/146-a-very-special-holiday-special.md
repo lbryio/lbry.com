@@ -4,7 +4,7 @@ title: 'It's A Very Special Holiday Special Movie Night'
 date: '2017-12-10 00:16:00'
 cover: 
 ---
-<img src="https://ibb.co/foPYaG">
+<a href="https://ibb.co/foPYaG"><img align="center" src="https://preview.ibb.co/gM06vG/Rare_Exports_Twitter.png" alt="Rare_Exports_Twitter" border="0"></a>
 
 Watching James Franco and Bob Balaban engage in witty bala-banter/beat poetry in [Howl](https://lbry.io/news/howl-with-us) with our Discord crew was such a blast that we want to do it again! But with the holidays approaching, we thought it might make sense to switch gears from dissolute beat poets to something a bit more festive.
 
