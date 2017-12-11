@@ -67,5 +67,7 @@
           <?php endif ?>
         </div>
       </div>
+      <script type="text/javascript">var _cd_options = { animation: 'bottomBar' };</script>
+      <script src="//fightforthefuture.github.io/countdown-widget/widget.min.js"></script>
     </body>
 </html>
