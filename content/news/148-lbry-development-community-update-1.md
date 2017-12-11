@@ -7,7 +7,9 @@ The LBRY community spoke and we listened! This is the first of a bi-weekly blog 
 
 This is an exciting time to follow along and watch LBRY evolve because we recently hired three new app developers who will be focusing on front end (LBRY app) design and features - an area which definitely could use some TLC. 
 
-# Development Updates
+[Skip to **Community Happenings**](#com-updates)
+
+# Development Updates {#dev-updates}
 All of our code is open source and available on [GitHub](https://github.com/lbryio). Are you a dev and want to find out more? Check out our [contributing guide](https://lbry.io/faq/contributing). 
 
 ### Housekeeping
@@ -52,7 +54,7 @@ You can view all the open issues for the [LBRY app](https://github.com/lbryio/lb
 ## Development Roadmap
 The current LBRY [roadmap](https://lbry.io/roadmap) is not up to date at this time because of a change in our outward cycle planning software. We will be working on fixing this and getting it back up to speed.
 
-# Community Updates
+# Community Happenings {#com-updates}
 If you aren’t part of our Discord community yet, [join us](https://chat.lbry.io) anytime and say Hello! This community allows LBRYians to interact with the team directly and for us to engage users in order to grow the LBRY platform. 
 
 ## lbry.io Website
@@ -72,3 +74,4 @@ Although we are still finalizing our programs for both meetups and college initi
 ### Growing our Discord Community
 If you are aware of Discord communities which could benefit from what LBRY offers as a platform, drop us a line on Discord. We are at the beginning stages of an initiative to reach out to other communities whose interests or goals may align with LBRY’s vision for a decentralized and creator controlled digital content marketplace. 
 
+[Back to **Development Updates**](#dev-updates)
