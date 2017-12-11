@@ -1,6 +1,7 @@
 <?php foreach([
     '/get' => __('nav.get'),
-    '/learn' => __('nav.learn')
+    '/learn' => __('nav.learn'),
+    '/news' => __("News")
 ] as $url => $label): ?>
   <div class="control-item">
     <a href="<?php echo $url ?>" <?php echo $selectedItem === $url ? 'class="nav-active"' : ''?>><?php echo $label ?></a>
