@@ -1,7 +1,7 @@
 ---
 author: lbry
-title: 'Development and Community Update #1'
-date: '2017-12-12 2:00:00'
+title: 'Development and Community Update'
+date: '2017-12-12 5:00:00'
 ---
 The LBRY community spoke and we listened! This is the first of many posts that will keep the community up-to-date on project development and what’s going on in the LBRY community. 
 
