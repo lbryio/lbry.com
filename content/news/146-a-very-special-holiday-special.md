@@ -12,7 +12,7 @@ Watching James Franco and Bob Balaban engage in witty bala-banter/beat poetry in
 
 Unless you grew up with parents who talk more about Krampus than Kris Kringle, you’ll never look at Santa the same way after watching [Rare Exports](http://www.oscilloscope.net/films/film/41/Rare-Exports-A-Christmas-Tale). A heartwarming tale of child abduction, reindeer slaughter, and elf enslavement is waiting for you in this very special Finnish holiday flick.
 
-Join us on Tuesday 12/12 at 8PM EST to watch along, comment, and spread good tidings of holiday heckling to one and all. We’ll share the link to the film an hour before we get started (7PM EST), so be on the lookout! Our team will be on [Discord](http://chat.lbry.io) and on Twitter using the hashtag #MovieTuesday. 
+Join us on Tuesday 12/12 at 8PM EST to watch along, comment, and spread good tidings of holiday heckling to one and all. We’ll share the link to the film an hour before we get started (7PM EST), so be on the lookout! Our team will be in the *#general* channel on [Discord](http://chat.lbry.io) and on Twitter using the hashtag #MovieTuesday. 
 
 You can watch the movie [in-app with this link](https://open.lbry.io/rare-exports), or [on Spee.ch with this link](https://spee.ch/rare-exports).
 
