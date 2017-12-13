@@ -7,7 +7,7 @@ In addition to the JSON commands available in the [LBRY API Quickstart Guide](ht
 
 ## Windows
 1. Open a **Command Prompt** application window
-1. Type `cd "c:\Program Files (x86)\LBRY\resources\app\dist"` and click Enter
+1. Type `cd "C:\Program Files (x86)\LBRY\resources\static\daemon"` and click Enter
 1. Type `lbrynet-cli status` and click **Enter**. This will return the LBRYnet status data
 1. See examples below or [LBRY CLI documentation](https://lbryio.github.io/lbry/cli/) for additional commands
 
@@ -25,6 +25,7 @@ In addition to the JSON commands available in the [LBRY API Quickstart Guide](ht
 
 ## Common/Sample Commands
 - `lbrynet-cli claim list mine` - Show list of own claims, inlcluding channels
+- `lbrynet-cli claim_new_support --name=@channel --claim_id=<claimid> --amount=5` - add 5 LBC to a claim or channel
 - `lbrynet-cli resolve one` - Retreive information about winning claim at lbry://one
 - `lbrynet-cli claim_list one` - Retreive information about all claims at lbry://one
 - `lbrynet-cli claim_abandon --claim_id=<claimid>` - Abandon claim by claim id (from claim info)
