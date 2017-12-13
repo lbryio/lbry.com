@@ -44,14 +44,18 @@
         </div>
       <?php else: ?>
         <p>{{download.unavailable}}</p>
-        <?php echo View::render('download/_signup') ?>
+        <?php echo View::render('mail/_subscribeForm', [
+          'tag' => 'lbryio-waitlist-'.ltrim($os, '/'),
+          'submitLabel' => 'Join List',
+          'hideDisclaimer' => true,
+          'largeInput' => true,
+          'btnClass' => 'btn-alt btn-large',
+        ]) ?>
       <?php endif ?>
     </div>
   </div>
   <div class="span5">
-    <?php echo View::render('download/_list', [
-      'excludeOs' => $os
-    ]) ?>
+    <?php echo View::render('download/_list', ['excludeOs' => $os]) ?>
     <?php echo View::render('download/_social') ?>
   </div>
 </main>

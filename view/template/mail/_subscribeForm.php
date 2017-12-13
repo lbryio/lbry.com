@@ -1,4 +1,6 @@
 <?php $error = $error ?? null ?>
+<?php $tag = $tag ?? null ?>
+<?php $largeInput = $largeInput ?? false ?>
 <form action="/list/subscribe" method="POST" novalidate>
 
   <?php if ($error): ?>
@@ -6,9 +8,16 @@
   <?php endif ?>
 
   <div class="mail-submit">
+    <input type="email" name="email" class="required email standard <?php echo $largeInput ? 'input-large' : '' ?>" placeholder="{{email.placeholder}}">
     <input type="hidden" name="returnUrl" value="<?php echo $returnUrl ?>"/>
-    <input type="email" name="email" class="required email standard" placeholder="{{email.placeholder}}">
+    <?php if ($tag): ?>
+      <input type="hidden" name="tag" value="<?php echo $tag ?>"/>
+    <?php endif ?>
+
     <input type="submit" value="<?php echo $submitLabel ?? __('email.subs') ?>" name="subscribe" class="<?php echo $btnClass ?>">
-    <div class="meta">{{email.disclaimer}}</div>
+
+    <?php if (!($hideDisclaimer ?? false)): ?>
+      <div class="meta">{{email.disclaimer}}</div>
+    <?php endif ?>
   </div>
 </form>

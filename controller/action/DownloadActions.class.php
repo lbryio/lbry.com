@@ -52,35 +52,11 @@ class DownloadActions extends Actions
     return ['download/get-no-os'];
   }
 
-
-  public static function executeSignup()
-  {
-    $email = Request::getParam('email');
-
-    if (!$email || !filter_var($email, FILTER_VALIDATE_EMAIL))
-    {
-      Session::set(Session::KEY_DOWNLOAD_ACCESS_ERROR, 'Please provide a valid email. You provided: ' . htmlspecialchars($email));
-    }
-    else
-    {
-      Mailgun::sendSubscriptionConfirmation($email);
-    }
-
-    return Controller::redirect(Request::getReferrer('/get'));
-  }
-
   public static function prepareListPartial(array $vars)
   {
     return $vars + ['osChoices' => isset($vars['excludeOs']) ?
       array_diff_key(OS::getAll(), [$vars['excludeOs'] => null]) :
       OS::getAll()
-    ];
-  }
-
-  public static function prepareSignupPartial(array $vars)
-  {
-    return $vars + [
-      'defaultEmail'    => static::getEmailParam(),
     ];
   }
 

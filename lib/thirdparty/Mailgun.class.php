@@ -37,63 +37,6 @@ class Mailgun
     return $status == 200;
   }
 
-  public static function sendSubscriptionConfirmation($email)
-  {
-    $confirmHash = static::getConfirmHash($email);
-    list($status, $headers, $body) = static::post('/' . static::MAIL_DOMAIN . '/messages', [
-      'from'              => 'LBRY <mail@' . static::MAIL_DOMAIN . '>',
-      'to'                => $email,
-      'h:Reply-To'        => 'help@lbry.io',
-      'subject'           => __('email.confirm_email_subject'),
-      'html'              => static::inlineCss(View::render('email_templates/_confirmHash', [
-        'confirmHash' => $confirmHash
-      ])),
-      'o:tracking-clicks' => 'no',
-      'o:tracking-opens'  => 'no'
-    ]);
-
-    return $status == 200;
-  }
-
-  protected static function getConfirmHash($email, $timestamp = null, $nonce = null)
-  {
-    $timestamp = $timestamp !== null ? $timestamp : time();
-    $nonce     = $nonce !== null ? $nonce : bin2hex(random_bytes(8));
-    $secret    = Config::get('mailing_list_hmac_secret');
-
-    if (!$secret)
-    {
-      throw new RuntimeException('Mailing list HMAC secret is missing');
-    }
-
-    return Encoding::base64EncodeUrlsafe(join('|', [
-      $email, $timestamp, $nonce, hash_hmac('sha256', $email . $timestamp . $nonce, $secret)
-    ]));
-  }
-
-  public static function checkConfirmHashAndGetEmail($hash)
-  {
-    $parts = explode('|', Encoding::base64DecodeUrlsafe($hash));
-    if (count($parts) !== 4)
-    {
-      return null;
-    }
-
-    list($email, $timestamp, $nonce, $signature) = $parts;
-
-    if (!hash_equals(static::getConfirmHash($email, $timestamp, $nonce), $hash))
-    {
-      return null;
-    }
-
-    if (!is_numeric($timestamp) || time() - $timestamp > 60 * 60 * 24 * 3)
-    {
-      return null;
-    }
-
-    return $email;
-  }
-
   protected static function post($endpoint, $data)
   {
     return static::request(Curl::POST, $endpoint, $data);

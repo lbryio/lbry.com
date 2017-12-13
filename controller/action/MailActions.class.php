@@ -24,7 +24,9 @@ class MailActions extends Actions
       return Controller::redirect(Request::getRelativeUri());
     }
 
-    $response = LBRY::subscribe($email);
+    $tag = Request::getPostParam('tag');
+
+    $response = LBRY::subscribe($email, $tag);
     if ($response['error'])
     {
       return ['mail/subscribe', ['error' => $response['error']]];

@@ -180,8 +180,6 @@ class Controller
     $router->get(ContentActions::URL_CREDIT_REPORTS, 'ContentActions::executeCreditReports');
     $router->get([ContentActions::URL_CREDIT_REPORTS . '/{year:c}-q{quarter:c}', ContentActions::URL_CREDIT_REPORTS . '/{year:c}-Q{quarter:c}'], 'ContentActions::executeCreditReport');
 
-    $router->any(['/signup{whatever}?', 'signup'], 'DownloadActions::executeSignup');
-
     $router->get('/{slug}', function (string $slug)
     {
       if (View::exists('page/' . $slug))
