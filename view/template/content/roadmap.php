@@ -26,25 +26,23 @@
   </div>
   <div style="max-width: 800px; margin: 0 auto">
     <div class="roadmap-container" id="project-roadmap">
-      <div class="text-center"><a href="javascript:;" class="link-primary show-all-roadmap-groups">Show Earlier Releases</a></div>
       <?php foreach($items as $group => $groupItems): ?>
-        <?php $lastItem = end($groupItems) ?>
-        <?php $isOpen = !isset($lastItem['project']) || !isset($lastItem['sort_key']) || $lastItem['sort_key'] === $projectMaxVersions[$lastItem['project']] ?>
+        <?php $firstItem = reset($groupItems) ?>
+        <?php $isOpen = !isset($firstItem['project']) || !isset($firstItem['sort_key']) || $firstItem['sort_key'] === $projectMaxVersions[$firstItem['project']] ?>
         <h2 class="roadmap-group-title" <?php echo !$isOpen ? 'style="display: none"' : '' ?>">
           <span class="roadmap-group-title-label">
-            <?php echo $group ?> <?php echo isset($lastItem['sort_key']) && $lastItem['sort_key'] === $projectMaxVersions[$lastItem['project']] ? '(latest)' : '' ?>
+            <?php echo $group ?> <?php echo isset($firstItem['sort_key']) && $firstItem['sort_key'] === $projectMaxVersions[$firstItem['project']] ? '(latest)' : '' ?>
           </span>
         </h2>
         <div class="roadmap-group <?php echo !$isOpen ? 'roadmap-group-closed' : '' ?>">
-          <?php $lastItem = end($groupItems) ?>
-          <?php $maxItems = isset($lastItem['sort_key']) ? 1 : count($groupItems) ?>
+          <?php $maxItems = isset($firstItem['sort_key']) ? 1 : count($groupItems) ?>
           <?php $index = 0 ?>
           <?php if (count($groupItems) > $maxItems): ?>
             <div class="text-center spacer1"><a href="javascript:;" class="link-primary show-all-roadmap-group-items">Show All Items for <?php echo $group ?></a></div>
           <?php endif ?>
           <?php foreach($groupItems as $item): ?>
             <?php ++$index ?>
-            <div class="roadmap-item" <?php echo $index <= count($groupItems) - $maxItems ? 'style="display: none"' : '' ?>>
+            <div class="roadmap-item" <?php echo $index != 1 ? 'style="display: none"' : '' ?>>
               <?php if (isset($item['badge']) || isset($item['assignee'])): ?>
                 <div>
                   <?php if (isset($item['assignee'])): ?>
@@ -73,6 +71,7 @@
           <?php endforeach ?>
         </div>
       <?php endforeach ?>
+      <div class="text-center"><a href="javascript:;" class="link-primary show-all-roadmap-groups">Show Earlier Releases</a></div>
     </div>
   </div>
   <?php echo View::render('nav/_learnFooter') ?>

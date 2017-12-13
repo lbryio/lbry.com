@@ -254,16 +254,16 @@ class ContentActions extends Actions
     {
       if ($items)
       {
-        $lastItem = end($items);
-        $project = $lastItem['project'];
-        if (!isset($projectMaxVersions[$project]) || $lastItem['sort_key'] > $projectMaxVersions[$project])
+        $firstItem = reset($items);
+        $project = $firstItem['project'];
+        if (!isset($projectMaxVersions[$project]) || $firstItem['sort_key'] > $projectMaxVersions[$project])
         {
-          $projectMaxVersions[$project] = $lastItem['sort_key'];
+          $projectMaxVersions[$project] = $firstItem['sort_key'];
         }
       }
     }
 
-    $items = array_merge($githubItems, Asana::listRoadmapTasks($cache));
+    $items = array_merge(Asana::listRoadmapTasks($cache), $githubItems);
     return ['content/roadmap', [
       'projectMaxVersions' => $projectMaxVersions,
       'items' => $items

@@ -29,7 +29,7 @@ class Github
   {
     try
     {
-      return static::get('/repos/lbryio/lbry-app/releases/latest', $cache);
+      return static::get('/repos/lbryio/lbry-app/releases/latest', [], $cache);
     }
     catch (Exception $e)
     {
@@ -55,7 +55,7 @@ class Github
   {
     try
     {
-      $releases = static::get('/repos/lbryio/lbry-app/releases', $cache);
+      $releases = static::get('/repos/lbryio/lbry-app/releases', [], $cache);
       if (count($releases))
       {
         $asset = static::findReleaseAssetForOs($releases[0], $os);
@@ -79,7 +79,7 @@ class Github
 
     try
     {
-      $releaseData = static::get('/repos/lbryio/lbry/releases/latest', $cache);
+      $releaseData = static::get('/repos/lbryio/lbry/releases/latest', [], $cache);
       foreach ($releaseData['assets'] as $asset)
       {
         if (
@@ -104,10 +104,10 @@ class Github
     return static::getDaemonReleaseProperty($os, 'browser_download_url', true);
   }
 
-  public static function get($endpoint, $cache = true)
+  public static function get($endpoint, array $params = [], $cache = true)
   {
     $twoHoursInSeconds = 7200;
-    return CurlWithCache::get('https://api.github.com' . $endpoint, [],
+    return CurlWithCache::get('https://api.github.com' . $endpoint . '?' . http_build_query($params), [],
       ['user_agent' => 'LBRY', 'json_response' => true, 'cache' => $cache === true ? $twoHoursInSeconds : $cache]);
   }
 
@@ -116,14 +116,14 @@ class Github
     $sets        = [];
     $allReleases = [];
 
-    $projects = ['lbry' => 'Daemon', 'lbry-app' => 'App'];
+    $projects = ['lbry' => 'LBRY Protocol', 'lbry-app' => 'LBRY App'];
 
     foreach($projects as $project => $projectLabel)
     {
       $page = 1;
       do
       {
-        $releases = static::get('/repos/lbryio/' . $project . '/releases?page=' . $page, $cache);
+        $releases = static::get('/repos/lbryio/' . $project . '/releases', ['page' => $page], $cache);
         $page++;
         $allReleases = array_merge($allReleases, array_map(function ($release) use ($project, $projectLabel)
         {
@@ -134,6 +134,11 @@ class Github
         })));
       } while (count($releases) >= 30);
     }
+
+    /**
+     * This logic is likely overly convoluted at this point. It used to group releases by project before going
+     * to strictly by time. - Jeremy
+     */
 
     foreach ($allReleases as $release)
     {
@@ -148,10 +153,11 @@ class Github
         $sets[$group][] = array_intersect_key($release, [
             'prerelease' => null, 'tag_name' => null, 'published_at' => null, 'project' => null
           ]) + [
+            'created_at'    => strtotime($release['created_at']),
             'date'          => date('Y-m-d', strtotime($release['created_at'])),
             //I thought published_at, but GitHub displays created_at and published_at is out of sync sometimes (0.3.2, 0.3.3)
             'name'          => $release['name'] ?: $release['tag_name'],
-          'url'             => $release['html_url'],
+            'url'           => $release['html_url'],
             'major_version' => (int)$matches[1],
             'minor_version' => (int)$matches[2],
             'patch_version' => (int)isset($matches[3]) ? $matches[3] : 0,
@@ -168,12 +174,12 @@ class Github
       {
         return $sA[0]['project'] < $sB[0]['project'] ? -1 : 1;
       }
-      return $sA[0]['sort_key'] < $sB[0]['sort_key'] ? -1 : 1;
+      return $sB[0]['sort_key'] <=> $sA[0]['sort_key'];
     });
-    
+
     foreach ($sets as $group => &$groupSet)
     {
-      usort($groupSet, function ($rA, $rB) { return $rA['created_at'] <=> $rB['created_at']; });
+      usort($groupSet, function ($rA, $rB) { return $rB['created_at'] <=> $rA['created_at']; });
     }
 
     return $sets;
