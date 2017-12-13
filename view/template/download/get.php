@@ -45,7 +45,7 @@
       <?php else: ?>
         <p>{{download.unavailable}}</p>
         <?php echo View::render('mail/_subscribeForm', [
-          'tag' => 'lbryio-waitlist-'.ltrim($os, '/'),
+          'tag' => $os,
           'submitLabel' => 'Join List',
           'hideDisclaimer' => true,
           'largeInput' => true,
