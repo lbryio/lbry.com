@@ -97,11 +97,10 @@ class Controller
 
     $router->get(['/get', 'get'], 'DownloadActions::executeGet');
     $router->get(['/getrubin', 'getrubin'], 'DownloadActions::executeGet');
-    $router->get(['/windows', 'get-windows'], 'DownloadActions::executeGet');
-    $router->get(['/linux', 'get-linux'], 'DownloadActions::executeGet');
-    $router->get(['/osx', 'get-osx'], 'DownloadActions::executeGet');
-    $router->get(['/android', 'get-android'], 'DownloadActions::executeGet');
-    $router->get(['/ios', 'get-ios'], 'DownloadActions::executeGet');
+    foreach(array_keys(OS::getAll()) as $os)
+    {
+      $router->get(['/' . $os, 'get-' . $os], 'DownloadActions::executeGet');
+    }
     $router->get('/roadmap', 'ContentActions::executeRoadmap');
 
     $router->post('/quickstart/auth', 'DeveloperActions::executeQuickstartAuth');

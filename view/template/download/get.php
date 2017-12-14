@@ -21,11 +21,19 @@
             <a class="btn-alt btn-large"
                download
                href="<?php echo $downloadUrl ?>"
+               id="get-download-btn"
                data-facebook-track="1"
                data-analytics-category="Sign Up"
                data-analytics-action="Download"
                data-analytics-label="<?php echo $analyticsLabel ?>"
             ><?php echo $buttonLabel ?></a>
+            <?php if ($isAuto): ?>
+              <?php js_start() ?>
+                var anchor = document.getElementById('get-download-btn');
+                ga('send', 'event', anchor.getAttribute('data-analytics-category'), anchor.getAttribute('data-analytics-action'), anchor.getAttribute('data-analytics-label'));
+                setTimeout(function() { window.location = anchor.getAttribute('href'); }, 500);
+              <?php js_end() ?>
+            <?php endif ?>
             <br/>
             <span class="meta">
               <?php echo $version ?>,

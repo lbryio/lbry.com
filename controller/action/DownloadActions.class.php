@@ -40,6 +40,7 @@ class DownloadActions extends Actions
         'analyticsLabel' => $analyticsLabel,
         'buttonLabel' => $buttonLabel,
         'downloadUrl' => $asset ? $asset['browser_download_url'] : null,
+        'isAuto'      => Request::getParam('auto'),
         'os'          => $os,
         'osTitle'     => $osTitle,
         'osIcon'      => $osIcon,

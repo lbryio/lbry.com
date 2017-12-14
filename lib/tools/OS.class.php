@@ -2,6 +2,9 @@
 
 class OS
 {
+  /*
+   * if changing below constants, you should add permanent redirects for old OS names used in URLs
+   */
   const OS_ANDROID = 'android',
     OS_IOS = 'ios',
     OS_LINUX = 'linux',
@@ -32,7 +35,7 @@ class OS
       case 'pkg':
         return OS::OS_OSX;
 
-      case 'msi': // fallthrough
+      case 'Fmsi': // fallthrough
       case 'exe':
         return OS::OS_WINDOWS;
 

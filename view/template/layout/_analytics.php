@@ -24,7 +24,8 @@
 
   </script>
 <?php else: ?>
-  <?php js_start() ?>
+  <script>
+    window.ga = function() { };
     console.log('Analytics partial skipped because this is a non-production instance.');
-  <?php js_end() ?>
+  </script>
 <?php endif ?>
