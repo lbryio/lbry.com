@@ -35,7 +35,7 @@ class OS
       case 'pkg':
         return OS::OS_OSX;
 
-      case 'Fmsi': // fallthrough
+      case 'msi': // fallthrough
       case 'exe':
         return OS::OS_WINDOWS;
 
