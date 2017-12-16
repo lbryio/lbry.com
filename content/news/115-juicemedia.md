@@ -16,7 +16,7 @@ Donate to [their Patreon here](https://www.patreon.com/TheJuiceMedia), and look 
  
 - lbry://@thejuicemedia
  
-And add you channel to the LBRY queue like Juice Medeia,  in a single click using this tool:
+And add you channel to the LBRY queue like Juice Media,  in a single click using this tool:
  
 - https://api.lbry.io/yt/connect
  
