@@ -11,7 +11,7 @@ New invites sent via the LBRY app are eligible for a 3 LBC reward amount.
 
 For invites prior to 8/1/2017, the current referral reward as well as the number of people you have referred has been recorded by our system. You can see the list of your invited users on the Invite History section of the Invites screen.
 
-You will always receive the number of credits being awarded at the time your referree joined the list. Currently, the reward amount will be shown when the invite is claimed. You can see the reward amount in the Rewards section of the LBRY app after it is claimed. 
+You will always receive the number of credits being awarded at the time your referrer joined the list. Currently, the reward amount will be shown when the invite is claimed. You can see the reward amount in the Rewards section of the LBRY app after it is claimed. 
 
 ### When do I get my rewards?
 
