@@ -42,7 +42,7 @@ Note: after a clean install, you may be prompted again for your email. This is n
 ## Ubuntu / Linux
 *(Exact steps may vary per distro)* 
 1. Reboot your PC (this is to ensure that no LBRY processes are running)
-2. Uninstall the LBRY application by going to terminal and typing: sudo apt-get remove lbry. Y to confirm *(Ubunutu specific command)*
+2. Uninstall the LBRY application by going to terminal and typing: sudo apt-get remove lbry. Y to confirm *(Ubuntu specific command)*
 3. Open File browser and navigate to the Home directory. Press Ctrl-H to view hidden files and folders
 5. If performing a clean install, delete the .lbryum and .lbrynet folders **(!!THIS WILL DELETE YOUR WALLET AND DATA!!)** and skip to step 8
 6. Navigate to the .lbryum folder and delete the `blockchain_headers` file
