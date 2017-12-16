@@ -7,7 +7,7 @@ You can earn credits for referring others to use LBRY. In the latest version of 
 
 ### How many credits do I get and how do I see how many credits I've earned?
 
-New invites sent via the LBRY app are eligibile for a 3 LBC reward amount. 
+New invites sent via the LBRY app are eligible for a 3 LBC reward amount. 
 
 For invites prior to 8/1/2017, the current referral reward as well as the number of people you have referred has been recorded by our system. You can see the list of your invited users on the Invite History section of the Invites screen.
 
