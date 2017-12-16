@@ -3,7 +3,7 @@ title: How does the referral program work?
 category: getstarted
 ---
 
-You can earn credits for referring others to use LBRY. In the latest verison of the LBRY app, you can now view the status of your referrals and invite new users to LBRY. The Invites area can be found by going to your wallet (bank icon in the top right of the LBRY app) and then clicking Invites from the top menu. In the Invite History section, you will see all your referrals along with their status (whether it is claimable or not). You also have the ability to invite new users to LBRY via the "Invite a Friend" section.  
+You can earn credits for referring others to use LBRY. In the latest version of the LBRY app, you can now view the status of your referrals and invite new users to LBRY. The Invites area can be found by going to your wallet (bank icon in the top right of the LBRY app) and then clicking Invites from the top menu. In the Invite History section, you will see all your referrals along with their status (whether it is claimable or not). You also have the ability to invite new users to LBRY via the "Invite a Friend" section.  
 
 ### How many credits do I get and how do I see how many credits I've earned?
 
