@@ -35,7 +35,7 @@ If you don't have LBRY yet, download it [here](https://lbry.io/get).
 2. Click on the `Published` tab.
 3. Select the content you want to remove from LBRY 
 4. Click `Remove`. If you don't see the remove button, try downloading the content locally again. 
-5. There will be two options. `Abandon the claim for this URI` and `Delete this file from my computer`. Select the option that applies.  Abandoning your claim will release the LBC back into your wallet (99% of the time you want to selec this). **Warning: Deleting content is permanent. Please make sure this is what you want to do before confirming the deletion.**
+5. There will be two options. `Abandon the claim for this URI` and `Delete this file from my computer`. Select the option that applies.  Abandoning your claim will release the LBC back into your wallet (99% of the time you want to select this). **Warning: Deleting content is permanent. Please make sure this is what you want to do before confirming the deletion.**
 6. Click `Remove`. If you abandoned your claim, you should see the deposit back in your balance shortly. 
 
 ### How do I edit my existing Published content? 
