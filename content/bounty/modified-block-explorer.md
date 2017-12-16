@@ -19,4 +19,4 @@ The explorer should be modified to:
 - Display claim information (name, claim txid, value, total amount, supports, and previous updates) provided a claim id
 - Display information for contesting name claims provided a lbry name
 
-This will likely require polling for changes in the result of `lbrycrd-cli getclaimsintrie` after each block, and subsiquently populating values from `lbrycrd-cli getclaimsforname` and `lbrycrd-cli getclaimsfortx`. 
+This will likely require polling for changes in the result of `lbrycrd-cli getclaimsintrie` after each block, and subsequently populating values from `lbrycrd-cli getclaimsforname` and `lbrycrd-cli getclaimsfortx`. 
