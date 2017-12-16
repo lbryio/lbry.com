@@ -27,7 +27,7 @@ After significant consultation with creators, consumers, economists, computer sc
 
 First and foremost **it is absolutely possible to own and control a URL forever**.
 
-In LBRY, a URL entry is called a _claim_. For simplicity, a claim can be consistered to consist of:
+In LBRY, a URL entry is called a _claim_. For simplicity, a claim can be considered to consist of:
 
 - The name (a string of characters chosen by the creator)
 - An amount of credits
