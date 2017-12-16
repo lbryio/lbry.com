@@ -36,7 +36,7 @@ Note: after a clean install, you may be prompted again for your email. This is n
  4. `blockchainname.db` - Supports downloads data
 6. In Finder - click Go menu on top, choose "Go To Folder", type. ~/.lbryum and then click go
 7. If performing a clean install, delete the entire contents of this folder **(!!THIS WILL DELETE YOUR WALLET!!)** and proceed to the next step, otherwise delete just the `blockchain_headers` file
-8. Install the latest verison of LBRY from: [Github App Page](https://github.com/lbryio/lbry-app/releases "Github App Page")
+8. Install the latest version of LBRY from: [Github App Page](https://github.com/lbryio/lbry-app/releases "Github App Page")
 9. Launch LBRY by starting it from the Applications folder.  You can add it to your dock for easier access.  If you kept your data and wallet, your balance and content will be reflected
 
 ## Ubuntu / Linux
