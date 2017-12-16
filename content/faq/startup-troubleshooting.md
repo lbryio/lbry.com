@@ -22,7 +22,7 @@ LBRY operates on a couple different ports and if there are conflicts/firewall ru
 - On Windows, LBRY may fail to start because of non-ASCII characters in your Windows username. Check your c:\users\<username> path to see if there are any such characters. Please see [GitHub issue](https://github.com/lbryio/lbry/issues/794) or workaround below.
 
 ### LBRY used to work previously but now it won't start
-First and foremost, please ensure you are on the [latest verison](https://lbry.io/get) of LBRY. Reinstalling the latest version may alleviate some start-up issues. Before installing, either make sure no LBRY/lbrynet processes or simply reboot your computer. 
+First and foremost, please ensure you are on the [latest version](https://lbry.io/get) of LBRY. Reinstalling the latest version may alleviate some start-up issues. Before installing, either make sure no LBRY/lbrynet processes or simply reboot your computer. 
 
 - On Windows, you may receive an error titled `Uncaught Exception - Error: Object has been destroyed...` which prevents you from starting LBRY. This usually means LBRY.exe or lbrynet-daemon.exe is already running in the background. Check the task manager, kill the process(es) and start LBRY again. Please see this [GitHub issue](https://github.com/lbryio/lbry-app/issues/353) for more details.
 - On Windows, you may receive an error titled `Uncaught Exception - Error spawn...ENOENT` which usually means LBRY can't find the daemon exe file. Please see this [GitHub issue](https://github.com/lbryio/lbry-app/issues/396) for more details. The workaround is to rerun the [latest](https://lbry.io/get) LBRY installation file. 
