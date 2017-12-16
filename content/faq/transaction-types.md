@@ -29,4 +29,4 @@ Certain transactions allow you to take additional actions directly from the tran
 
 ### What About Purchases?
 
-Content purchases and incoming content payments are not currently avavailable but are planned for a future release. Currently these show as spends.
+Content purchases and incoming content payments are not currently available but are planned for a future release. Currently these show as spends.
