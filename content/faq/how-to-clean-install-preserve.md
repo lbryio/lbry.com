@@ -21,7 +21,7 @@ Note: after a clean install, you may be prompted again for your email. This is n
  2. `blobs.db` - reference data for the blob files which are used for hosting purposes
  3. `lbryfile_info.db` - Downloads and Publishes data
  4. `blockchainname.db` - Supports downloads data
-8. Install the latest verison of LBRY from: [Github App Page](https://github.com/lbryio/lbry-app/releases "Github App Page"). If prompted to allow through Windows Firewall, click Allow
+8. Install the latest version of LBRY from: [Github App Page](https://github.com/lbryio/lbry-app/releases "Github App Page"). If prompted to allow through Windows Firewall, click Allow
 9. LBRY should start immediately after install.  If you kept your data, your balance and content will be reflected
 
 ## MacOS
