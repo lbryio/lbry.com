@@ -18,7 +18,7 @@ The latest LBRY app, v0.18, is now available! **[Get it here](https://lbry.io/ge
 * Rewards are now marked in transaction history (#660)
 
 ### Changed
-* Daemon updated to v0.18.0. The largest changes here are several more network improvements and fixes as well as functionality and improvements related to concurrent heavier usage (bugs and issues largely discoverd by spee.ch).
+* Daemon updated to v0.18.0. The largest changes here are several more network improvements and fixes as well as functionality and improvements related to concurrent heavier usage (bugs and issues largely discovered by spee.ch).
 * Improved build and first-run process for new developers.
 * Replaced all instances of XMLHttpRequest with native Fetch API (#676).
 

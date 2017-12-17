@@ -3,15 +3,15 @@ title: How does the referral program work?
 category: getstarted
 ---
 
-You can earn credits for referring others to use LBRY. In the latest verison of the LBRY app, you can now view the status of your referrals and invite new users to LBRY. The Invites area can be found by going to your wallet (bank icon in the top right of the LBRY app) and then clicking Invites from the top menu. In the Invite History section, you will see all your referrals along with their status (whether it is claimable or not). You also have the ability to invite new users to LBRY via the "Invite a Friend" section.  
+You can earn credits for referring others to use LBRY. In the latest version of the LBRY app, you can now view the status of your referrals and invite new users to LBRY. The Invites area can be found by going to your wallet (bank icon in the top right of the LBRY app) and then clicking Invites from the top menu. In the Invite History section, you will see all your referrals along with their status (whether it is claimable or not). You also have the ability to invite new users to LBRY via the "Invite a Friend" section.  
 
 ### How many credits do I get and how do I see how many credits I've earned?
 
-New invites sent via the LBRY app are eligibile for a 3 LBC reward amount. 
+New invites sent via the LBRY app are eligible for a 3 LBC reward amount. 
 
 For invites prior to 8/1/2017, the current referral reward as well as the number of people you have referred has been recorded by our system. You can see the list of your invited users on the Invite History section of the Invites screen.
 
-You will always receive the number of credits being awarded at the time your referree joined the list. Currently, the reward amount will be shown when the invite is claimed. You can see the reward amount in the Rewards section of the LBRY app after it is claimed. 
+You will always receive the number of credits being awarded at the time your referrer joined the list. Currently, the reward amount will be shown when the invite is claimed. You can see the reward amount in the Rewards section of the LBRY app after it is claimed. 
 
 ### When do I get my rewards?
 

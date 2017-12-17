@@ -2,7 +2,7 @@
 title: How do I back up my LBRY wallet?
 category: wallet
 ---
-The LBRY application relies on blockchain technology and the LBRY Credits (LBC) cryptocurrency in order to participate in the network. These LBC are stored in a wallet (data file on your PC) which is generated on each user's PC when they install LBRY. Think of your credits as digital cash on your PC. It is important to understand that the wallet is not stored on any LBRY servers and as such, users are responsible for its safegaurding and making sure a backup (copy of the wallet file) is available in the event that it is lost. Wallets should be backed up periodically to ensure the most up to date information is available.     
+The LBRY application relies on blockchain technology and the LBRY Credits (LBC) cryptocurrency in order to participate in the network. These LBC are stored in a wallet (data file on your PC) which is generated on each user's PC when they install LBRY. Think of your credits as digital cash on your PC. It is important to understand that the wallet is not stored on any LBRY servers and as such, users are responsible for its safeguarding and making sure a backup (copy of the wallet file) is available in the event that it is lost. Wallets should be backed up periodically to ensure the most up to date information is available.     
 
 ## How do I find my wallet?
 

@@ -27,7 +27,7 @@ After significant consultation with creators, consumers, economists, computer sc
 
 First and foremost **it is absolutely possible to own and control a URL forever**.
 
-In LBRY, a URL entry is called a _claim_. For simplicity, a claim can be consistered to consist of:
+In LBRY, a URL entry is called a _claim_. For simplicity, a claim can be considered to consist of:
 
 - The name (a string of characters chosen by the creator)
 - An amount of credits
@@ -48,7 +48,7 @@ LBRY supports several types of URL resolution:
 
 1. **Names aren’t bought, only reserved – no credits are lost, only put on deposit.** If you win the auction for a name, your credits are held with that name until you decide to withdraw them (at any time you wish). You aren’t buying the name from anyone and no one profits off of the transfer of names. It’s just a test of who is willing to deposit the most credits toward a name. The only cost is that you can’t spend the credits on content or cash them out while they are reserving a name.
 
-2. **The longer a community name is held, the longer it sticks.** Community-controlled URLs don't change instantly if more credits are designated – especially if you’ve held it for awhile. The time for reoslution to change scales up to over 1 week.
+2. **The longer a community name is held, the longer it sticks.** Community-controlled URLs don't change instantly if more credits are designated – especially if you’ve held it for awhile. The time for resolution to change scales up to over 1 week.
 
 3. **Everyone has a say.** If you claim lbry://bestmovieever and your film lives up to the hype, user tips and purchases are a strong force keeping your content there. If the community feels a URL resolution is incorrect, they can band together to change it any time. This is a powerful force keeping bad actors at bay that has already proved useful.
 
@@ -62,4 +62,4 @@ Whether you're in love with this design or not, you'd likely agree it's unlike a
 
 The bottom line is that LBRY is dedicated to providing true content freedom. We want to provide the world's best method for creators and consumers to share and monetize digital content without middlemen. We happen to think this is a superior method to the alternatives, but we're also not dogmatic about it. 
 
-We’re trying to solve a very hard problem in a novel way and we're committed to giving this system a chance. 100,000 pieces of content in, it has worked seemlessly. But if we ever saw this system harming rather than helping, we wouldn't hesitate to change it.
+We’re trying to solve a very hard problem in a novel way and we're committed to giving this system a chance. 100,000 pieces of content in, it has worked seamlessly. But if we ever saw this system harming rather than helping, we wouldn't hesitate to change it.

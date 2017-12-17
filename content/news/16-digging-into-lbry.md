@@ -27,7 +27,7 @@ The greatest reward by far is the feeling that you are on to something absolutel
 
 <p style="text-align: center;">**<a href="https://news.bitcoin.com/lbry-decentralized-sharing-platform/" target="_blank">Bitcoin.com</a>: What are some of the current flaws within the system today that LBRY helps solve?**
 
-**Mike Vine:** There isn’t really a system. There are many systems, and some are better than others. Services like NetFlix and Hulu helped to break cable’s monopoly on TV content. YouTube allowed anyone to upload original content for a mass audience. But these are still centralized services. They are corporations that offer particular services according to their Terms of Use – or effectively, at their pleasure.
+**Mike Vine:** There isn’t really a system. There are many systems, and some are better than others. Services like Netflix and Hulu helped to break cable’s monopoly on TV content. YouTube allowed anyone to upload original content for a mass audience. But these are still centralized services. They are corporations that offer particular services according to their Terms of Use – or effectively, at their pleasure.
 
 The risks of this came to the fore just last week with <a href="http://techcrunch.com/2015/10/21/an-offer-creators-cant-refuse/" target="_blank">YouTube strong-arming publishers into its new “Red” premium service</a>. Another example from a different industry is a few years back when Facebook starting throttling Page owners’ access to their own followers – many of which they had paid to accumulate. The lesson is that if you’re using a system that has a higher authority, you’re always vulnerable.
 

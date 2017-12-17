@@ -21,7 +21,7 @@ Note: after a clean install, you may be prompted again for your email. This is n
  2. `blobs.db` - reference data for the blob files which are used for hosting purposes
  3. `lbryfile_info.db` - Downloads and Publishes data
  4. `blockchainname.db` - Supports downloads data
-8. Install the latest verison of LBRY from: [Github App Page](https://github.com/lbryio/lbry-app/releases "Github App Page"). If prompted to allow through Windows Firewall, click Allow
+8. Install the latest version of LBRY from: [Github App Page](https://github.com/lbryio/lbry-app/releases "Github App Page"). If prompted to allow through Windows Firewall, click Allow
 9. LBRY should start immediately after install.  If you kept your data, your balance and content will be reflected
 
 ## MacOS
@@ -36,13 +36,13 @@ Note: after a clean install, you may be prompted again for your email. This is n
  4. `blockchainname.db` - Supports downloads data
 6. In Finder - click Go menu on top, choose "Go To Folder", type. ~/.lbryum and then click go
 7. If performing a clean install, delete the entire contents of this folder **(!!THIS WILL DELETE YOUR WALLET!!)** and proceed to the next step, otherwise delete just the `blockchain_headers` file
-8. Install the latest verison of LBRY from: [Github App Page](https://github.com/lbryio/lbry-app/releases "Github App Page")
+8. Install the latest version of LBRY from: [Github App Page](https://github.com/lbryio/lbry-app/releases "Github App Page")
 9. Launch LBRY by starting it from the Applications folder.  You can add it to your dock for easier access.  If you kept your data and wallet, your balance and content will be reflected
 
 ## Ubuntu / Linux
 *(Exact steps may vary per distro)* 
 1. Reboot your PC (this is to ensure that no LBRY processes are running)
-2. Uninstall the LBRY application by going to terminal and typing: sudo apt-get remove lbry. Y to confirm *(Ubunutu specific command)*
+2. Uninstall the LBRY application by going to terminal and typing: sudo apt-get remove lbry. Y to confirm *(Ubuntu specific command)*
 3. Open File browser and navigate to the Home directory. Press Ctrl-H to view hidden files and folders
 5. If performing a clean install, delete the .lbryum and .lbrynet folders **(!!THIS WILL DELETE YOUR WALLET AND DATA!!)** and skip to step 8
 6. Navigate to the .lbryum folder and delete the `blockchain_headers` file
@@ -51,6 +51,6 @@ Note: after a clean install, you may be prompted again for your email. This is n
  2. `blobs.db` - reference data for the blob files which are used for hosting purposes
  3. `lbryfile_info.db` - Downloads and Publishes data
  4. `blockchainname.db` - Supports downloads data
-8. Install the latest verison of LBRY from: [Github App Page](https://github.com/lbryio/lbry-app/releases "Github App Page")
+8. Install the latest version of LBRY from: [Github App Page](https://github.com/lbryio/lbry-app/releases "Github App Page")
 9. Click the Search button on the toolbar, type LBRY and then hit Enter to launch LBRY.  You can pin it to your taskbar for easier access. If you kept your data, your balance and content will be reflected
 

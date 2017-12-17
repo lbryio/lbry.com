@@ -6,7 +6,7 @@ cover: 'mikehill-banner.png'
 ---
 Being a repository of educational material is one of LBRY’s fundamental goals.
 
-We want the LBRY network to be the pinnacle of educational wealth, a source from which anyone in the world can peruse knowledge new or old, with perspectives revisited and revisioned.
+We want the LBRY network to be the pinnacle of educational wealth, a source from which anyone in the world can peruse knowledge new or old, with perspectives revisited and revised.
 
 Being in entertainment, one of my favorite examples of this was a great lecture last year by designer Mike Hill on the lost art of Hollywood blockbusters.
 
