@@ -308,15 +308,19 @@ class ContentActions extends Actions
       $zip->addFile($bioPath, '/team_bios/' . $metadata['name'] . ' - ' . $metadata['role'] . '.txt');
     }
 
-    foreach (array_filter(glob(ROOT_DIR . '/web/img/team/*.jpg'), function ($path)
-    {
-      return strpos($path, 'spooner') === false;
-    }) as $bioImgPath)
-    {
-      $imgPathTokens = explode('/', $bioImgPath);
-      $imgName       = str_replace('644x450', 'lbry', $imgPathTokens[count($imgPathTokens) - 1]);
-      $zip->addFile($bioImgPath, '/team_photos/' . $imgName);
-    }
+    /*
+     * team bio images are no longer included in press kit now that they've moved to spee.ch
+     * this should be fixed if we care about the press-kit page
+     */
+//    foreach (array_filter(glob(ROOT_DIR . '/web/img/team/*.jpg'), function ($path)
+//    {
+//      return strpos($path, 'spooner') === false;
+//    }) as $bioImgPath)
+//    {
+//      $imgPathTokens = explode('/', $bioImgPath);
+//      $imgName       = str_replace('644x450', 'lbry', $imgPathTokens[count($imgPathTokens) - 1]);
+//      $zip->addFile($bioImgPath, '/team_photos/' . $imgName);
+//    }
 
 
     $zip->close();
@@ -335,8 +339,7 @@ class ContentActions extends Actions
     $person = $vars['person'];
     $path   = 'bio/' . $person . '.md';
     list($metadata, $bioHtml) = View::parseMarkdown($path);
-    $relativeImgSrc = '/img/team/' . $person . '-644x450.jpg';
-    $imgSrc         = file_exists(ROOT_DIR . '/web' . $relativeImgSrc) ? $relativeImgSrc : '/img/team/spooner-644x450.jpg';
+    $imgSrc         = 'https://spee.ch/@lbryteam:6/' . $person . '.jpg';
     return $vars + $metadata + [
       'imgSrc'      => $imgSrc,
       'bioHtml'     => $bioHtml,

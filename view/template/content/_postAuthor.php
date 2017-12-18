@@ -2,7 +2,7 @@
   <div class="content">
     <div class="row-fluid">
       <div class="span3">
-        <img src="/img/team/<?php echo $photoImgSrc ?>" alt="<?php echo __('Photo of %name%', ['%name%' => $authorName]) ?>"/>
+        <img src="<?php echo $photoImgSrc ?>" alt="<?php echo __('Photo of %name%', ['%name%' => $authorName]) ?>"/>
       </div>
       <div class="span9">
         <div class="meta">{{news.author}}</div>

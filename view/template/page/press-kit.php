@@ -36,7 +36,7 @@
       <?php list($metadata, $bioHtml) = View::parseMarkdown('bio/' . $person . '.md') ?>
       <section class="row-fluid">
         <div class="span3">
-          <img src="/img/team/<?php echo $person ?>-644x450.jpg" alt="<?php echo $metadata['name'] ?>"/>
+          <img src="https://spee.ch/@lbryteam:6/<?php echo $person ?>.jpg" alt="<?php echo $metadata['name'] ?>"/>
         </div>
         <div class="span9">
           <h4>
@@ -57,7 +57,7 @@
       <?php list($metadata, $bioHtml) = View::parseMarkdown('bio/' . $person . '.md') ?>
       <section class="row-fluid">
         <div class="span3">
-          <img src="/img/team/<?php echo $person ?>-644x450.jpg" alt="<?php echo $metadata['name'] ?>"/>
+          <img src="https://spee.ch/@lbryteam:6/<?php echo $person ?>.jpg" alt="<?php echo $metadata['name'] ?>"/>
         </div>
         <div class="span9">
           <h4>

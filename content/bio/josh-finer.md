@@ -1,8 +1,6 @@
 ---
 name: Josh Finer
-role: Founder, Chief Operations & Growth Officer
+role: Founder, Director of Operations and Analytics
 email: josh@lbry.io
 ---
-Josh's combination of an MBA, strong analytical skills, programming skills, advertising expertise, and a perceptive insight to financial markets lead him to frequently bear the only title that can summarize such diverse wizardry: problem solver.
-
-Josh has founded innovative financial companies (later acquired), run millions of dollars in AdWords campaigns, and been an early actor in other crypto projects. Josh's contributions to LBRY will be as diverse as his background.
+Josh is the swiss army knife of the squad. He has founded and sold financial companies, run millions of dollars in Adwords campaigns, and been an early actor in several crypto projects. To LBRY, he has been the go-to glue guy and ultimate problem solver. If you’re a crypto-nerd or have ideas on making LBRY more accessible to the masses, Finer is your man.
