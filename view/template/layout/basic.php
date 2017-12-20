@@ -47,6 +47,9 @@
         <?php foreach(Response::getMetaImages() as $image): ?>
           <meta property="og:image" content="<?php echo $image ?>" />
         <?php endforeach ?>
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
         <base target="_parent" />
     </head>
     <body>

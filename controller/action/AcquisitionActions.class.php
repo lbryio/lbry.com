@@ -39,4 +39,11 @@ class AcquisitionActions extends Actions
     }
     return [$template];
   }
+
+  public static function executeYT2()
+  {
+    return ['acquisition/yt2', ['_no_layout' => true]];
+  }
+
+
 }

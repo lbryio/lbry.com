@@ -122,6 +122,7 @@ class Controller
     $router->any('/youtube/thanks', 'AcquisitionActions::executeThanks');
     $router->any('/youtube/sub', 'AcquisitionActions::executeYouTubeSub');
     $router->any('/youtube/{campaignId:c}?', 'AcquisitionActions::executeYouTube');
+    $router->any('/yt2', 'AcquisitionActions::executeYT2');
 
     $router->post('/set-culture', 'i18nActions::setCulture');
 
