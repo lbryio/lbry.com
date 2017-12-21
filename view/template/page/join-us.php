@@ -82,7 +82,7 @@
         Contact <a href="mailto:joinus@lbry.io">joinus@lbry.io</a> if interested in a position. Please include the following:
       </p>
       <ol>
-        <li>A resume, Linked In profile, or other resource that would serve as a work history.</li>
+        <li>A resume, LinkedIn profile, or other resource that would serve as a work history.</li>
         <li>A code sample. Preferrably a link to a public repository for a project you have built or significantly contributed to.</li>
         <li>One sentence about why you'd like to work for LBRY.</li>
       </ol>
