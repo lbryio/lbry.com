@@ -11,4 +11,4 @@ Your YouTube channel must have at least 10 videos and 30,000 views to be eligibl
 ### I've met the requirements but I'm still not eligible for Rewards, help! 
 First, make sure you've restarted the LBRY app completely after linking your YouTube account. Press Ctrl-Q to quit or right click the system tray icon and then restart LBRY. If LBRY opens directly to the Home page without seeing the green loading screen, it means it is still running in the background. 
 
-If that does not fix it, please see our [help page](https://lbry.io/faq/how-to-report-bugs) to contact us. Include the YouTube channel name and LBRY connected email with your request.  
+If that does not fix it, please contact us via [email](mailto:help@lbry.io). Include the YouTube channel name and LBRY connected email with your request.  
