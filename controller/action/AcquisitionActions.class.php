@@ -45,5 +45,10 @@ class AcquisitionActions extends Actions
     return ['acquisition/yt2', ['_no_layout' => true]];
   }
 
+  public static function executeVerify(string $token = '')
+  {
+    return ['acquisition/verify', ['token' => $token]];
+  }
+
 
 }
