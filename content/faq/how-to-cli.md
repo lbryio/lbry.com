@@ -13,7 +13,7 @@ In addition to the JSON commands available in the [LBRY API Quickstart Guide](ht
 
 ## MacOS
 1. Open a **Terminal** window
-1. Type `cd /Applications/LBRY.app/Contents/Resources/static/daemonResources/static/daemon`
+1. Type `cd /Applications/LBRY.app/Contents/Resources/static/daemon`
 1. Type `./lbrynet-cli status`  and click **Enter**. This will return the LBRYnet status data
 1. See examples below or [LBRY CLI documentation](https://lbryio.github.io/lbry/cli/) for additional commands
 
