@@ -12,6 +12,11 @@
         curiosity, you've come to the right place.
       </p>
 
+      <img src="https://spee.ch/@lbryteam:6/everyone.jpg" alt="LBRY Team Photo from November 2017" />
+      <div class="meta text-center spacer1">
+        Fortunately, photo shoots are not a regular job activity.
+      </div>
+
       <h2>About LBRY</h2>
 
       <p>
@@ -72,6 +77,7 @@
         is a plus. This work also relates to blockchains and cryptography. Our code is primarily in Python and uses the Twisted framework.
       </p>
 
+      <h2>Applying</h2>
       <p>
         Contact <a href="mailto:joinus@lbry.io">joinus@lbry.io</a> if interested in a position. Please include the following:
       </p>
