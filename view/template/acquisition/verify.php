@@ -24,14 +24,17 @@
   </script>
 </head>
 <body>
-  <h1>Almost Done!</h1>
-  <p>Click the captcha to continue...</p>
-  <div class="g-recaptcha" data-sitekey="6LcG_z0UAAAAAKBPDBhiJU_jI9cRNRiJwcUHq95u" data-callback="verifyCallback" data-expired-callback="expiredCallback"></div>
-  <div id="success">
-    <p>Now click the magic link below to verify your identity in app...</p>
-    <button onclick="location.href=magicLink">Magic Link</button>
-    <p>Does the magic link not work? Not on the same device as the app? Paste this text into the verification screen instead.</p>
-    <div class="tooltip"><span class="tooltiptext">Copied!</span><div id="magic-link-text"></div></div>
+  <div style="display: flex; align-items: center; flex-direction: column;" class="text-center">
+    <img src="/img/lbry-dark-1600x528.png" style="max-height: 80px; margin-top: 50px;" alt="LBRY"/>
+    <h1>Almost Done!</h1>
+    <p>Click the captcha to continue...</p>
+    <div class="g-recaptcha" data-sitekey="6LcG_z0UAAAAAKBPDBhiJU_jI9cRNRiJwcUHq95u" data-callback="verifyCallback" data-expired-callback="expiredCallback"></div>
+    <div style="display: none; margin-top: 10px;" id="success">
+      <p>Now click the magic link below to verify your identity in app...</p>
+      <a class="btn-primary btn-large spacer1" onclick="location.href=magicLink">Magic Link</a>
+      <p><i>Does the magic link not work? Not on the same device as the app? Paste this text into the verification screen instead.</i></p>
+      <code class="multiline-code" id="magic-link-text"></code>
+    </div>
   </div>
 </body>
 </html>
