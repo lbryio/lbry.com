@@ -20,7 +20,7 @@ If you don't have LBRY yet, download it [here](https://lbry.io/get).
 
 1. Under the `Content` section click `Choose File`.
 2. On your local machine, select the content you would like to upload to LBRY.  LBRY accepts any HTML5 format for streaming video, the full list can be found [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats). Other file types can also be uploaded, but won't be streamable via the LBRY app. 
-3. Enter a `Title`, `Thumbnail URL`, and `Description` for your content.  The `Thumbnail URL` is a hyperlink to an image file which will serve as a preview for your content. It can be any image/GIF URL or you can even use [spee.ch](https://www.spee.ch) to host it.
+3. Enter a `Title`, `Thumbnail URL`, and `Description` for your content.  The `Thumbnail URL` is a hyperlink to an image file which will serve as a preview for your content. It can be any image/GIF URL or you can even use [spee.ch](https://www.spee.ch) to host it. The default size is 800x450, but the app will scale up/down. 
 4. Next, there is a `Language` and `Maturity` which will default to `English` and `All Ages`.  If a change is needed, click the dropdowns and select the appropriate choice. 
 5. Under the `Access`, first determine if you want to make your video Free or set a price (in USD or LBC) per view. Next, select the appropriate type of license for the content you are publishing.
 6. You have an option to select/create the channel you would like to publish the channel under. If one isn't selected, it will be posted anonymously.
