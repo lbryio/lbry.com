@@ -30,6 +30,8 @@ First and foremost, please ensure you are on the [latest version](https://lbry.i
 - Other typical startup troubleshooting would be to ensure that LBRY or lbrynet-daemon is not already running in the background. If the processes cannot be killed, a restart of your computer may be required.
 
 ### Known startup issues and workarounds
+#### Stuck at blockchain sync
+If you are stuck on the blockchain sync step or it shows a block count that doesn't decrease, you may need to clear your your blockchain cache. To do so, Shut LBRY down completely (check for running LBRY/lbrynet-daemon processes), delete the `blockchain_headers` file in the [lbryum folder](https://lbry.io/faq/lbry-directories) and then start LBRY again.
 #### Linux auth_token requirements
 Currently, LBRY requires an authorization token to be generated using the [keytar](https://github.com/atom/node-keytar) libraries. Please ensure libsecret and keytar are installed. On some distributions, LBRY won't run unless gnome keyring is also installed/operational. See [GitHub issue](https://github.com/lbryio/lbry-app/issues/386) for more information. If you get a GLIBCXX_3.4.2 error, please see [this issue](https://github.com/lbryio/lbry-app/issues/423#issuecomment-327519486).
 #### Windows user path has non-ASCII characters
