@@ -16,6 +16,7 @@
         }));
         magicLink = "lbry://?verify=" + payload;
         document.getElementById("magic-link-text").textContent = payload;
+        document.getElementById("magic-link-text-windows").value = payload;
         document.getElementById("success").style.display = "block";
       };
       var expiredCallback = function() {
@@ -30,11 +31,23 @@
     <p>Click the captcha to continue...</p>
     <div class="g-recaptcha" data-sitekey="6LcG_z0UAAAAAKBPDBhiJU_jI9cRNRiJwcUHq95u" data-callback="verifyCallback" data-expired-callback="expiredCallback"></div>
     <div style="display: none; margin-top: 10px;" id="success">
-      <p>Now click the magic link below to verify your identity in app...</p>
-      <a class="btn-primary btn-large spacer1" onclick="location.href=magicLink">Magic Link</a>
-      <p><i>Does the magic link not work? Not on the same device as the app? Paste this text into the verification screen instead.</i></p>
-      <code class="multiline-code" id="magic-link-text"></code>
+      <div id="non-windows">
+        <p>Now click the magic link below to verify your identity in app...</p>
+        <a class="btn-primary btn-large spacer1" onclick="location.href=magicLink">Magic Link</a>
+        <p><i>Does the magic link not work? Not on the same device as the app? Paste this text into the verification screen instead.</i></p>
+        <code class="multiline-code" id="magic-link-text"></code>
+      </div>
+      <div style="display: none;" id="windows">
+        <p>Paste this (very long) piece of text into the verification screen in the app to confirm your identity.</p>
+        <textarea style="width: 100%; height: 300px;" id="magic-link-text-windows" readonly></textarea>
+      </div>
     </div>
   </div>
+  <script>
+    if (navigator.appVersion.indexOf("Win")!==-1) {
+      document.getElementById("non-windows").style.display = "none";
+      document.getElementById("windows").style.display = "block";
+    }
+  </script>
 </body>
 </html>
