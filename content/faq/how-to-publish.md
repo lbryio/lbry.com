@@ -37,6 +37,7 @@ If you don't have LBRY yet, download it [here](https://lbry.io/get).
 4. Click `Remove`. If you don't see the remove button, try downloading the content locally again. 
 5. There will be two options. `Abandon the claim for this URI` and `Delete this file from my computer`. Select the option that applies.  Abandoning your claim will release the LBC back into your wallet (99% of the time you want to select this). **Warning: Deleting content is permanent. Please make sure this is what you want to do before confirming the deletion.**
 6. Click `Remove`. If you abandoned your claim, you should see the deposit back in your balance shortly. 
+7. You can do this by interacting through the [cli commands](https://lbry.io/faq/how-to-cli) and type `lbrynet-cli claim_abandon --claim_id=<claimid>`-Abandon claim by claim id (from claim info) Or type `lbrynet-cli claim_abandon --txid=<txid> --nout=<nout>` - Abandon claim by transaction id and nout (from claim info). **PS:only for advanced users. DWYOR.**
 
 ### How do I edit my existing Published content? 
 1. Click on the folder icon in the top right of the LBRY app. 
