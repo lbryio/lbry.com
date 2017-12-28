@@ -16,9 +16,11 @@ The full catalog is over 4 TB and will be synced over the next several days.
 
 ### How to Access
 
-Download and install the LBRY app from [here](https://lbry.io/get?auto=1) (Available on major Desktop platforms). Next, start the LBRY app ([trouble starting?](https://lbry.io/faq/startup-troubleshooting))and wait for the homepage to finish loading (the validating tiles will show actual content). Now, click [lbry://@UCBerkeley](https://open.lbry.io/%40UCBerkeley) to access the UCBerkeley channel, or simply type `@UCBerkeley` into the search bar on top and hit the Enter key. This channel may take some time to load, please be patient. It contains all the entries we've synced so far. Each entry on the channel is the course video/audio claim page where the content can be streamed (and downloaded locally).  
+1. Download and install the LBRY app from [here](https://lbry.io/get?auto=1). 
+2. Start the LBRY app and wait for the app to finish loading. 
+3. Click [lbry://@UCBerkeley](https://open.lbry.io/%40UCBerkeley) to access the UCBerkeley channel, or simply type `@UCBerkeley` into the search bar on top and hit enter. 
 
-For a complete listing in text format, see [lbry://ucberkeley](https://open.lbry.io/ucberkeley) or type `ucberkeley` into the search bar on top and hit the Enter key. Click `Download` and click `Open` to access the course listing.
+Each entry on @UCBerkeley channel is the course video/audio claim page where the content can be streamed (and downloaded locally).  
 
 Feel free to keep exploring the LBRY application and be sure to check out our [FAQ](https://lbry.io/faq). Want to learn more or contribute to LBRY? Come join us on our [Discord chat](https://chat.lbry.io) to follow along with our journey in revolutionizing digital content sharing and monetization. 
 
