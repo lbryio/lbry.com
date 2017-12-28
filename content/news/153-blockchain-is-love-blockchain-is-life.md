@@ -4,9 +4,9 @@ title: 'Blockchain Is Love, Blockchain Is Life (Protocols Not Platforms Pt. 2)'
 date: '2019-01-01 00:00:00'
 ---
 
-Blockchain technology currently has a hype to substance ratio rapidly approaching infinity. And as a team of people who are skeptical of 90+% of proposed blockchain applications, we're hesitant to contribute to that (_ed._: wait until you see what I changed the title to).
+Blockchain technology currently has a hype to substance ratio rapidly approaching infinity. And as a team of people who are skeptical of 90+% of proposed blockchain applications, we're hesitant to contribute to that (_ed.: wait until you see what I changed the title to_).
 
-But there's one area where we think extremely plausible blockchain will improve the world: the development of open standards and protocols, and consquently more user-friendly technology.
+But there's one area where we think it is extremely plausible blockchain will improve the world: the development of open standards and protocols, and consequently more user-friendly technology.
 
 ## The Status Quo
 

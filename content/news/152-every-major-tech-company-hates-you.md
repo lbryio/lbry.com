@@ -5,13 +5,13 @@ date: '2019-01-01 00:00:00'
 ---
 Every major internet proactively _damages_ user experience to serve their own interests.
 
-In a competitive economy, this is exceedingly unusual. But we'll discuss the why later. First, let's define the problem. 
+In a competitive economy, this is exceedingly unusual. But before we get to the why, let's define the problem. 
 
 ## The Problem
 
-Claim: All of the largest consumer internet company actively spend their time and resources engineering degradations in user-experience.
+Claim: Every large consumer internet company actively spends their time and resources engineering degradations in user-experience.
 
-Below are examples from Facebook, Amazon, Apple, Reddit, and YouTube.
+Below are examples from Facebook, Apple, Reddit, and YouTube.
 
 This is not meant to be an exhaustive list of user hostility, but instead to provide an unambiguous example for each.
 
@@ -21,7 +21,7 @@ Facebook had (has!) a fully working, web-based version of their messaging platfo
 
 They actively disabled on mobile to force more downloads of the app.
 
-![Hostile Facebook Messenger](https://spee.ch/@hostiletech/facebookmessenger2.jpg)
+![Hostile Facebook Messenger](https://spee.ch/@hostiletech/facebookmessanger2.jpg)
 
 ### Apple
 
@@ -39,7 +39,7 @@ Evidently, Reddit _really_ wants people to use their mobile app.
 
 It current takes five clicks to view a GIF hosted on a non-Reddit site on mobile. It used to take one.
 
-![Hostile Reddit Mobile](https://spee.ch/@hostiletech/redditmobile.gif)
+<video src="https://spee.ch/@hostiletech/redditmobile.gif" />
 
 Not because there is anything wrong with the web experience, of course. But forcing people onto mobile means Reddit can collect a lot more information about you.
 
@@ -73,10 +73,10 @@ If we look at other aspects of the internet, it's much more like restaurants tha
 
 My browser cannot treat me like crap, because HTTP is an open standard. Anyone else can make a browser, like anyone else can make a restaurant.
 
-The same is true for my email client or my BitTorrent client.
+The same is true for my email client or my torrent client.
 
 The solution to this problem is to build protocols, not platforms. 
 
 When we build protocols, people can leave. When we build protocols, it's the users, not the middlemen, who retain control.
 
-The innovation of blockchain is the most powerful development in over a decade in making this possible. We'll talk about this more in [Part 2](https://lbry.io/news/protocols-not-platforms-pt2).
+The innovation of blockchain is the most powerful development in over a decade in making this possible. We'll talk about this more in [Part 2](https://lbry.io/news/blockchain-is-love-blockchain-is-life).
