@@ -39,7 +39,7 @@ Evidently, Reddit _really_ wants people to use their mobile app.
 
 It current takes five clicks to view a GIF hosted on a non-Reddit site on mobile. It used to take one.
 
-<video src="https://spee.ch/@hostiletech/redditmobile.gif" />
+<video controls src="https://spee.ch/@hostiletech/redditmobile.gif" />
 
 Not because there is anything wrong with the web experience, of course. But forcing people onto mobile means Reddit can collect a lot more information about you.
 
