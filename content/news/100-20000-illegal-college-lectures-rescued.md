@@ -4,6 +4,8 @@ title: '20,000 World-class University Lectures Made Illegal, So We Irrevocably M
 date: '2017-03-15 00:09:00'
 cover: 'berkeley-banner.jpg'
 ---
+*Updated on 12/27/2017 with the latest access instructions.*
+
 Today, the University of California at Berkeley has deleted 20,000 college lectures from its YouTube channel. Berkeley removed the videos because of a lawsuit brought by two students from another university under the Americans with Disabilities Act.
 
 We copied all 20,000 and are making them permanently available for free via LBRY.
@@ -14,13 +16,13 @@ The full catalog is over 4 TB and will be synced over the next several days.
 
 ### How to Access
 
-Until LBRY launches to the public in the near future, the videos are only accessible to technical users via the command line.
+1. Download and install the LBRY app from [here](https://lbry.io/get?auto=1). 
+2. Start the LBRY app and wait for the app to finish loading. 
+3. Click [lbry://@UCBerkeley](https://open.lbry.io/%40UCBerkeley) to access the UCBerkeley channel, or simply type `@UCBerkeley` into the search bar on top and hit enter. 
 
-If you already have access to LBRY, go to [lbry://ucberkeley](lbry://ucberkeley) to see the full catalog.
+Each entry on @UCBerkeley channel is the course video/audio claim page where the content can be streamed (and downloaded locally).  
 
-If you want to be notified as soon as the videos are made public to everyone, [sign up here](https://lbry.io/get).
-
-If you're command-line-capable but new to LBRY, [follow this guide](https://lbry.io/quickstart), then access [lbry://ucberkeley](lbry://ucberkeley).
+Feel free to keep exploring the LBRY application and be sure to check out our [FAQ](https://lbry.io/faq). Want to learn more or contribute to LBRY? Come join us on our [Discord chat](https://chat.lbry.io) to follow along with our journey in revolutionizing digital content sharing and monetization. 
 
 ### Is This Legal?
 
