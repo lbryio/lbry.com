@@ -1,9 +1,9 @@
 ---
 author: jeremy
-title: 'Every Major Internet Company Hates You (Protocols Not Platforms Pt. 1)'
+title: 'Every Major Tech Hates You (Protocols Not Platforms Pt. 1)'
 date: '2019-01-01 00:00:00'
 ---
-Every major internet proactively _damages_ user experience to serve their own interests.
+Every major tech company proactively _damages_ user experience to serve their own interests.
 
 In a competitive economy, this is exceedingly unusual. But before we get to the why, let's define the problem. 
 
