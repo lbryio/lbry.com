@@ -1,6 +1,6 @@
 ---
 name: Michael Huemer
-role: Ethical Advisor
+role: Ethics Advisor
 ---
 Michael Huemer is Professor of Philosophy and Ethics at the [University of Colorado](//www.colorado.edu/), where he has taught since 1998\. He has published three single-author scholarly books (including _[Ethical Intuitionism](http://www.amazon.com/Ethical-Intuitionism-Michael-Huemer/dp/0230573746)_), one edited anthology, and more than fifty academic articles in epistemology, ethics, political philosophy, and metaphysics.
 
