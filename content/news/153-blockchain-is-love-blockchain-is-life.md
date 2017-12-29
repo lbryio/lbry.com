@@ -4,13 +4,13 @@ title: 'Blockchain Is Love, Blockchain Is Life (Protocols Not Platforms Pt. 2)'
 date: '2019-01-01 00:00:00'
 ---
 
-Blockchain technology currently has a hype to substance ratio rapidly approaching infinity. And as a team of people who are skeptical of 90+% of proposed blockchain applications, we're hesitant to contribute to that (_ed.: wait until you see what I changed the title to_).
+Blockchain technology currently has a hype to substance ratio rapidly approaching infinity. And as a team of people who are skeptical of over 90% of proposed blockchain applications, we're hesitant to contribute to that (_ed.: wait until you see what I changed the title to_).
 
-But there's one area where we think it is extremely plausible blockchain will improve the world: the development of open standards and protocols, and consequently more user-friendly technology.
+But there's one area where we think it is extremely plausible that blockchains will improve the world: the development of open standards and protocols, and consequently more user-friendly technology.
 
 ## The Status Quo
 
-In [Part 1](https://lbry.io/news/every-major-tech-company-hates-you), we covered how existing tech companies demonstrate active hostility towards users. If haven't read this or are not already convinced of this problem, start here.
+In [Part 1](https://lbry.io/news/every-major-tech-company-hates-you), we covered how existing tech companies demonstrate active hostility towards users. If you haven't read it or are not already convinced of this problem, start there.
 
 So: platforms = control = hostility
 
