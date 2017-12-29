@@ -1,6 +1,6 @@
 ---
 name: Sean Yesmunt
-role: Application Developer
+role: App Developer
 email: sean@lbry.io
 ---
 Sean is a recent addition to the LBRY team who has hit the ground running with serious contributions to the project as an app engineer focused on user experience (he spends his time making the LBRY app easier to use). Sean was part way through an Aerospace Engineering degree at Penn State, when he decided he didn’t want to end up working on rockets for the government.
