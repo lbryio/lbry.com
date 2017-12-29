@@ -1,6 +1,6 @@
 ---
 name: Akinwale Ariwodola
-role: Mobile Engineer
+role: Mobile Developer
 email: akinwale@lbry.io
 ---
 It was Akinwale’s search for lucrative crypto mining that brought him to LBRY. As he learned more about the project, his interest quickly turned to helping the team build what he sees as the content sharing platform of the future.
