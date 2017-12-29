@@ -12,7 +12,7 @@ But there's one area where we think it is extremely plausible that blockchains w
 
 In [Part 1](https://lbry.io/news/every-major-tech-company-hates-you), we covered how existing tech companies demonstrate active hostility towards users. If you haven't read it or are not already convinced of this problem, start there.
 
-So: platforms = control = hostility
+So: platform = control = hostility
 
 And: protocol = freedom = love & life
 
@@ -34,7 +34,7 @@ Just what do we mean when we say protocol? And how is it different from a platfo
 
 A platform means proprietary code running on servers controlled and managed by the company that created and owns the platform. It leaves the company fully in control.
 
-Suppose I wanted to build my own interface for Facebook. Perhaps because I want actual control over what shows up on my news feed, rather than leaving it to Facebook's algorithms. Currently, it would legally questionable for me to do this, and even it was legal, it would be fully legal for Facebook to block my interface from loading "its" data.
+Suppose I wanted to build my own interface for Facebook. Perhaps because I want actual control over what shows up on my news feed, rather than leaving it to Facebook's algorithms. Currently, it would be legally questionable for me to do this, and even if it were legal, it would be fully legal for Facebook to block my interface from loading "its" data.
 
 But if Facebook was implemented as a protocol, it would mean an open standard that anyone can follow.
 
@@ -56,7 +56,7 @@ This token has value in proportion to the usage and success of the network.
 
 This is a revolution in the incentives around protocol creation.
 
-It means those that discover and utilize a new protocol or network when it is small and young can reap substantial value by being their first. This helps solve the incentive problems around being a first-mover and using a likely initially inferior service. 
+It means those that discover and utilize a new protocol or network when it is small and young can reap substantial value by being there first. This helps solve the incentive problems around being a first-mover and using an initially inferior service. 
 
 It provides a source of funding for the development of the protocol. The creators can use the token to pay for the salaries and equipment required to get it started.
 
