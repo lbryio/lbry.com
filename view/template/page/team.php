@@ -27,7 +27,7 @@
     <?php endforeach ?>
     <h2>Business</h2>
     <?php foreach(['josh-finer',
-                    //'natalie-mitchell',
+                    'natalie-mitchell',
                     'reilly-smith',
                     'tom-zarebczan',
                     'brinck-slattery'] as $bioSlug): ?>
