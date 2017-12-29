@@ -1,6 +1,6 @@
 ---
 name: Igor Gassmann
-role: App Developer/Intern
+role: App Developer Intern
 email: igor@lbry.io
 ---
 Igor is an intern on the app team. By the time he turned 16, Igor’s driving passion was clear (and it was not high school). So, he dropped out, and moved to Switzerland to build a career in software development.
