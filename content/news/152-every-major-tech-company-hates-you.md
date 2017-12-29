@@ -19,7 +19,7 @@ This is not meant to be an exhaustive list of user hostility, but instead to pro
 
 Facebook had (has!) a fully working, web-based version of their messaging platform.
 
-They actively disabled on mobile to force more downloads of the app.
+They actively disabled it on mobile to force more downloads of the app.
 
 ![Hostile Facebook Messenger](https://spee.ch/@hostiletech/facebookmessanger2.jpg)
 
@@ -37,11 +37,11 @@ See [this](http://www.businessinsider.com/apple-battery-throttling-gives-custome
 
 Evidently, Reddit _really_ wants people to use their mobile app.
 
-It current takes five clicks to view a GIF hosted on a non-Reddit site on mobile. It used to take one.
+It current takes five clicks on my phone to view a GIF hosted on a non-Reddit site. It used to take one.
 
 <video controls src="https://spee.ch/@hostiletech/redditmobile.gif"></video>
 
-Not because there is anything wrong with the web experience, of course. But forcing people onto mobile means Reddit can collect a lot more information about you.
+Not because there is anything wrong with the web experience, of course. But forcing people onto their mobile app means Reddit can collect a lot more information about you.
 
 ### YouTube
 
@@ -59,7 +59,7 @@ Some people may read these examples and shrug. Companies are greedy. Is it reall
 
 And this response is partially right. Companies _are_ greedy.
 
-But in a competitive economy, greed is typically satisfied by making your services _better_, not _worse_. When the local pizzaria offers free water, free bathrooms, clean tables, and sale prices, it does this not out avarice, not benevolence!
+But in a competitive economy, greed is typically satisfied by making your services _better_, not _worse_. When the local pizzeria offers free water, free bathrooms, clean tables, and sale prices, it does this not out avarice, not benevolence!
 
 So the question becomes: why is this possible? Why are large tech companies able to get away with such abusive behavior?
 
