@@ -3,41 +3,44 @@
 <?php Response::setMetaDescription('description.team') ?>
 <?php echo View::render('nav/_header', ['isDark' => false]) ?>
 <main>
-  <div class="content photo-grid spacer2">
-    <h1>{{page.team.header}}</h1>
-    <p>{{page.team.people}}</p>
-    <?php $rowCount = 0 ?>
-    <?php foreach([
-        ['jeremy-kauffman', 'alex-grintsvayg'],
-        ['josh-finer', 'kay-kurokawa',],
-        ['jack-robison',  'alex-liebowitz', 'reilly-smith']
-    ] as $bioRow): ?>
-    <div class="row-fluid">
-      <?php ++$rowCount ?>
-      <?php foreach($bioRow as $bioSlug): ?>
-        <div class="<?php echo $rowCount <= 2 ? 'span6' : 'span4' ?> spacer2">
-          <?php echo View::render('content/_bio', ['person' => $bioSlug]) ?>
-        </div>
-      <?php endforeach ?>
+  <div class="hero hero-quote hero-img spacer2" style="background-image: url(https://spee.ch/@lbryteam/everyone-banner2.jpg)">
+    <div class="hero-content-wrapper">
+      <div class="hero-content text-center">
+        <h1 class="cover-title">{{page.team.header}}</h1>
+        <h2 class="cover-subtitle">Meet the team behind the blockchain behind the world's most ahead technology</h2>
+      </div>
     </div>
+  </div>
+  <div class="content spacer2">
+    <h2>Leadership</h2>
+    <?php foreach(['jeremy-kauffman', 'alex-grintsvayg'] as $bioSlug): ?>
+      <div class="spacer2">
+        <?php echo View::render('content/_bio', ['person' => $bioSlug]) ?>
+      </div>
+    <?php endforeach ?>
+    <h2>Technical</h2>
+    <?php foreach([ 'kay-kurokawa', 'jack-robison',
+                    'akinwale-ariwodola', 'sean-yesmunt', 'liam-cardenas', 'bill-bittner', 'amit-tulshyan', 'igor-gassmann'] as $bioSlug): ?>
+      <div class="spacer2">
+        <?php echo View::render('content/_bio', ['person' => $bioSlug]) ?>
+      </div>
+    <?php endforeach ?>
+    <h2>Business</h2>
+    <?php foreach(['josh-finer',
+                    //'natalie-mitchell',
+                    'reilly-smith',
+                    'tom-zarebczan',
+                    'brinck-slattery'] as $bioSlug): ?>
+      <div class="spacer2">
+        <?php echo View::render('content/_bio', ['person' => $bioSlug]) ?>
+      </div>
     <?php endforeach ?>
     <h2>{{page.team.advisory}}</h2>
-    <div class="row-fluid">
-      <div class="span6 spacer2">
-        <?php echo View::render('content/_bio', ['person' => 'alex-tabarrok']) ?>
+    <?php foreach(['alex-tabarrok', 'ray-carballada', 'stephan-kinsella', 'michael-huemer'] as $bioSlug): ?>
+      <div class="spacer2">
+        <?php echo View::render('content/_bio', ['person' => $bioSlug]) ?>
       </div>
-      <div class="span6 spacer2">
-        <?php echo View::render('content/_bio', ['person' => 'ray-carballada']) ?>
-      </div>
-    </div>
-    <div class="row-fluid">
-      <div class="span6">
-        <?php echo View::render('content/_bio', ['person' => 'stephan-kinsella']) ?>
-      </div>
-      <div class="span6">
-        <?php echo View::render('content/_bio', ['person' => 'michael-huemer']) ?>
-      </div>
-    </div>
+    <?php endforeach ?>
   </div>
   <?php echo View::render('nav/_learnFooter') ?>
 </main>

@@ -86,7 +86,7 @@
           ]) ?>
           <input type="submit" value="Let's Talk" class="btn-primary">
         </form>
-        <?php echo View::render('content/_bio', ['person' => 'reilly-smith-youtube', 'orientation' => 'horizontal']) ?>
+        <?php echo View::render('content/_bio', ['person' => 'reilly-smith-youtube']) ?>
       </div>
     </div>
   </div>

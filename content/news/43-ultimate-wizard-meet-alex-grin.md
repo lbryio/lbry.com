@@ -8,7 +8,7 @@ Alex Grintsvayg (aka “Grin”) played ultimate frisbee with LBRY founders Jere
 
 Grin has been named LBRY’s *Chief Infrastructure Officer*, but *Wizard* is probably more descriptive of his role on the team. He will contribute to the technical side of the operation, ensuring LBRY’s underlying infrastructure is rock-solid.
 
-![alexgrin](/img/team/alex-grintsvayg-644x450.jpg)
+![alexgrin](https://spee.ch/@lbryteam:6/alex-grintsvayg.jpg)
 
 With degrees in computer science and psychology from Rensselaer Polytechnic Institute, Grin has a unique ability to understand and apply new technologies. He also brings plenty of business knowledge to the table, with six years of experience running startup tech companies. Add to all of that his ultimate-frisbee skills – he played for a national-caliber team for seven years and professionally for the Philly Spinners – and you can see why we’ve dubbed him the Wizard.
 

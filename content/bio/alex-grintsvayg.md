@@ -1,10 +1,6 @@
----
+ m,.---
 name: Alex Grintsvayg
 role: Founder, Chief Technical Officer
 email: alex@lbry.io
 ---
-One of Alex's job titles is Wizard, so named because he can seemingly understand and utilize new technologies faster than they can be created.
-
-Alex designs and manages scalable infrastructure solutions for SaaS firms, and is leveraging that experience to ensure LBRY's architecture is rock-solid.
-
-Alex is one of three dual-degree graduates from RPI on this team, receiving degrees in Computer Science and Psychology. He is also an alumnus of Stuyvesant High School.
+Alex, AKA Grin, drives technology development at LBRY and manages infrastructure growth. Grin has previously designed and managed scalable infrastructure solutions for SaaS firms. Bringing LBRY to mainstream scale is his primary goal. Alex holds degrees in Computer Science and Psychology from Rensselaer Polytechnic Institute.

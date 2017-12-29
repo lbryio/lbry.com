@@ -266,18 +266,18 @@ class Post
     switch(strtolower($this->author))
     {
       case 'jeremy':
-        return 'jeremy-kauffman-644x450.jpg';
+        return 'https://spee.ch/@lbryteam:6/jeremy-kauffman.jpg';
       case 'mike':
-        return 'mike-vine-644x450.jpg';
+        return 'https://spee.ch/@lbryteam:6/mike-vine.jpg';
       case 'jimmy':
-        return 'jimmy-kiselak-644x450.jpg';
+        return 'https://spee.ch/@lbryteam:6/jimmy-kiselak.jpg';
       case 'jack':
-        return 'jack-robison-644x450.jpg';
+        return 'https://spee.ch/@lbryteam:6/jack-robison.jpg';
       case 'reilly':
-        return 'reilly-smith-644x450.jpg';
+        return 'https://spee.ch/@lbryteam:6/reilly-smith.jpg';
       case 'lbry':
       default:
-        return 'spooner-644x450.jpg';
+        return 'https://spee.ch/@lbryteam:6/spooner.jpg';
     }
   }
 
