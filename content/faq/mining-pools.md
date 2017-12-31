@@ -11,3 +11,4 @@ While we try to work with reliable pool operators, LBRY does not officially run 
 - [SuprNova](https://lbry.suprnova.cc/index.php?page=gettingstarted)
 - [CoinMine](https://www2.coinmine.pl/lbc/index.php?page=gettingstarted)
 - [NiceHash](https://www.nicehash.com/marketplace/lbry)
+- [LBRY Community](http://lbrypool.com)
