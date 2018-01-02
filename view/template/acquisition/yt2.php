@@ -68,8 +68,7 @@
   <div class="inner">
     <div class="content">
       <div class="zigzag"></div>
-      <h1>What if this were a persuasive copy?</h1>
-      <p>Claim your identity on the world’s first user<br>controlled digital marketplace</p>
+      <h1>Own your identity. For real this time.</h1>
       <form>
         <div class="form-inner">
           <div class="block">
@@ -87,8 +86,8 @@
 <section class="join section">
   <div class="inner">
     <div class="content">
-      <h1>Join those that get it</h1>
-      <p>Whether yo have 500 followers or 5.000.000, you deserve control.</p>
+      <h1>LBRY is more fun with friends</h1>
+      <p>Take your peers and your audience with you. Create without limits.</p>
       <div class="boxes">
         <div class="box">
           <a href="https://spee.ch/ever-wonder-how-bitcoin-and-other" class="image" target="_blank">
@@ -121,23 +120,23 @@
 <section class="how section">
   <div class="inner">
     <div class="content">
-      <h1>How this work</h1>
-      <p>This is an extremely succinct explanation of how LBRY is a new/protocol/blockchain/thing that puts creators. For more technical specific. <a href="#">Go here</a></p>
+      <h1>Migrating to LBRY</h1>
+      <p>We will automatically mirror your existing YouTube channel to the LBRY Network.</p>
       <div class="steps">
         <div class="path">
           <div class="journey"></div>
         </div>
         <div class="step one enabled" data-enable="12">
           <div class="circle">1</div>
-          <p class="text">Claim your channel for free, above. Be sure to be the first to claim it</p>
+          <p class="text">Claim your LBRY name</p>
         </div>
         <div class="step two enabled" data-enable="33">
           <div class="circle">2</div>
-          <p class="text">We’ll send you details on how to take a permanent ownership of your channel via email. Unlike every other way of sharing content, only you own your channel. Once your channel is yours, even we can’t touch it.</p>
+          <p class="text">Check your email for confirmation</p>
         </div>
         <div class="step three enabled" data-enable="75">
           <div class="circle">3</div>
-          <p class="text">Optionally, you can sync all of your YouTube content to the LBRY network. This comes with additional outlined below.</p>
+          <p class="text">Sync your existing YouTube content</p>
         </div>
       </div>
     </div>
@@ -158,10 +157,10 @@
 <section class="rewards section">
   <div class="inner">
     <div class="content">
-      <h1>Rewards</h1>
-      <p>We want creators to control the LBRY network and offering rewards commensurate for your talent</p>
+      <h1>LBRY Credits and Your Channel</h1>
+      <p>Be compensated for your value to your audience and the network, not what advertisers think you're worth.</p>
       <div class="price">
-        <h3>What you get</h3>
+        <h3>Partner Programs</h3>
         <p>LBC <span class="current-value">(0.3267 USD)</span></p>
       </div>
       <div class="table">
@@ -197,14 +196,13 @@
 <section class="contact section">
   <div class="inner">
     <div class="content">
-      <h1>I need an adult</h1>
-      <p>Send Reilly all your questions about YouTube freedom.</p>
+      <h1>Tell me more.</h1>
+      <p>We have a guy that elaborates on things. Apply directly to the forehead.</p>
       <div class="v-card">
         <div class="photo"><img src="/img/youtube/reilly-smith@2x.png"></div>
         <div class="text">
           <h3>Reilly Smith</h3>
-          <p>Community manager</p>
-          <p>Reilly holds a BA in Film and Media Studies from the University of Oklahoma and consequently has spent a significant amount of time washing dishes. Reilly is passionate about eliminating middlemen in show business.</p>
+          <p>Head of Content</p>
           <a href="mailto:reilly@lbry.io?subject=YouTube+Freedom">Contact</a>
         </div>
       </div>
