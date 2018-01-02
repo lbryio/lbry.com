@@ -58,10 +58,10 @@
     <div class="dot e"></div>
   </div>
   <div class="title">
-    <div class="overflow"><h1>Leave YouTube.</h1></div>
-    <div class="overflow"><h1>For good.</h1></div>
-    <p>No more demonetization or sneaky algorithms.<br>Publish on your terms, not Google's.</p>
-    <div class="button">Let's do it!</div>
+    <div class="overflow"><h1>Leave YouTube</h1></div>
+    <div class="overflow"><h1>for good.</h1></div>
+    <p>No more demonetization or sneaky algorithms</p>
+    <div class="button">Take me to your leader</div>
   </div>
 </section>
 <section class="claim section">
