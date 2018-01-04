@@ -2,7 +2,7 @@
 category: human
 title: Refer a Publisher to LBRY
 award: 250
-status: available
+status: complete
 date: '2016-07-01'
 ---
 
