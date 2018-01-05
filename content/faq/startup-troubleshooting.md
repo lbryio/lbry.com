@@ -40,8 +40,8 @@ Currently, the LBRY app may fail to start because it does not support non-ASCII 
 
 This will setup your directories as follows or you can create/edit the file to configure your own paths (but again, don't use any folders with non-ASCII letters):
 ```
-data_dir: c:\lbry\lbrynet
-lbryum_wallet_dir: c:\lbry\lbryum
-download_directory: c:\lbry\Downloads
+{data_dir: 'c:\lbry\lbrynet',
+lbryum_wallet_dir: 'c:\lbry\lbryum',
+download_directory: 'c:\lbry\Downloads'}
 ```
 After you are done inserting or editing the `daemon_settings.yml` configuration file, try running LBRY again. If you still receive this warning after completing the above steps, please [reach out to us](https://lbry.io/faq/how-to-report-bugs) for additional support. 
