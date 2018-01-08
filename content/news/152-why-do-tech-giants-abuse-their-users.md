@@ -75,4 +75,4 @@ The solution to this problem is to build protocols, not platforms. When we build
 
 Across the board, users have never been less satisfied with the systems they rely on to connect with their friends and share their creations. Centralized systems just can’t provide the responsiveness and experience that users want.
 
-But a new technology has already started to rock the foundations of those centralized systems. The innovation of blockchain is the most powerful development in over a decade in making this possible, and we'll talk about this more in [Part 2](https://lbry.io/news/blockchain-is-love-blockchain-is-life).
+But a new technology has already started to rock the foundations of those centralized systems. The innovation of blockchain is the most powerful development in over a decade in making this possible, and we'll talk about this more in Part 2.
