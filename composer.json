@@ -2,6 +2,8 @@
   "name": "lbry/lbry.io",
   "require": {
     "php": ">=7.0",
-    "ext-curl": "*"
+    "ext-curl": "*",
+    "ext-mbstring": "*",
+    "ext-xml": "*"
   }
 }
