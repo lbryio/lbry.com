@@ -42,7 +42,7 @@
           <?php endif ?>
           <?php foreach($groupItems as $item): ?>
             <?php ++$index ?>
-            <div class="roadmap-item" <?php echo $index != 1 ? 'style="display: none"' : '' ?>>
+            <div class="roadmap-item" <?php echo $index != 1 && isset($firstItem['sort_key']) ? 'style="display: none"' : '' ?>>
               <?php if (isset($item['badge']) || isset($item['assignee'])): ?>
                 <div>
                   <?php if (isset($item['assignee'])): ?>

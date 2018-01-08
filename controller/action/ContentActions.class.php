@@ -248,7 +248,6 @@ class ContentActions extends Actions
   {
     $cache = !Request::getParam('nocache');
     $githubItems = Github::listRoadmapChangesets($cache);
-
     $projectMaxVersions = [];
     foreach($githubItems as $group => $items)
     {
