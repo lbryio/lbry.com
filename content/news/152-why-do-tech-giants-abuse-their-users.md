@@ -1,13 +1,14 @@
 ---
 author: jeremy
-title: 'Why Do Tech Giants Abuse Their Users? (Protocols Not Platforms Pt. 1)'
+title: 'Why Do Tech Giants Abuse Their Users?'
 date: '2019-01-01 00:00:00'
 ---
+_(Protocols Not Platforms - Pt. 1 of 2)_
 Whether it’s purposefully crippling mobile experiences, hard selling upgrades and add-ons, or shuttling users to pre-selected partner companies, every major tech company seems to proactively damage user experience.
 
 In a competitive market, this sort of customer abuse shouldn’t happen. But before we get to the why, let's define the problem.  
 
-## The Problem: Every large consumer internet company actively works to make a user’s experience worse.
+## _The Problem: Every large consumer internet company actively works to make a user’s experience worse._
 
 And it's not just the cable and phone companies that immediately spring to mind as monopolistic monsters engaging in this behavior - internet favorites like Reddit, Facebook, and YouTube are all guilty. 
 
