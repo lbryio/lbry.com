@@ -19,7 +19,7 @@ Your card information is submitted directly to [Stripe](https://stripe.com), one
 
 ### What If I Don't Want To Provide It?
 
-No problem! We've added two other verification methods - [YouTube Account Sync](https://api.lbry.io/yt/connect) and manual verification via [Discord chat](https://chat.lbry.io) via the #verification channel. The YouTube sync method will require that you have a significant subscriber/view count and will take additional time as it requires us to review for eligibility and upload your content if approved. 
+No problem! We've added two other verification methods - [YouTube Account Sync](https://api.lbry.io/yt/connect) and manual verification via [Discord chat](https://chat.lbry.io) via the #verification channel and type -new this will create a ticket (channel) for your request **PS : DO NOT message any team members or post in other channels about verification concerns".** The YouTube sync method will require that you have a significant subscriber/view count and will take additional time as it requires us to review for eligibility and upload your content if approved. 
 
 Otherwise, you are welcome to use the LBRY browser without providing any personal information. We just can't give you any rewards.
 
