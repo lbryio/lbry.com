@@ -3,7 +3,7 @@ author: jeremy
 title: 'Why Do Tech Giants Abuse Their Users?'
 date: '2019-01-01 00:00:00'
 ---
-_(Protocols Not Platforms - Pt. 1 of 2)_
+_(Protocols Not Platforms - Part 1 of 2)_
 
 Whether it’s purposefully crippling mobile experiences, hard selling upgrades and add-ons, or shuttling users to pre-selected partner companies, every major tech company seems to proactively damage user experience.
 
