@@ -2,8 +2,8 @@
 
 .prev-next
 {
-  margin-top: $spacing-vertical * 2;
-  margin-bottom: $spacing-vertical * 2;
+  margin-top: $spacing-vertical * 2.5;
+  margin-bottom: $spacing-vertical * 2.5;
 
   .prev-next-label
   {
@@ -104,9 +104,12 @@
   {
     @include anchor($color-primary);
   }
-  img + p
+  img + p, video + p
   {
     margin-top: $spacing-vertical;
+  }
+  img, video {
+    max-height: 75vh;
   }
 }
 .post-content table, table.post-content-table
