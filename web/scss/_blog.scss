@@ -111,6 +111,13 @@
   img, video {
     max-height: 75vh;
   }
+  .focus-text {
+    font-size: $font-size-h2;
+    font-style: italic;
+    margin: $spacing-vertical * 1.5 $spacing-vertical * 2;
+    line-height: 1.1;
+    color: $color-meta-light;
+  }
 }
 .post-content table, table.post-content-table
 {

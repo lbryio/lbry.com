@@ -10,7 +10,9 @@ Whether it’s purposefully crippling mobile experiences, hard selling upgrades 
 
 In a competitive market, this sort of customer abuse shouldn’t happen. But before we get to the why, let's define the problem.  
 
-## _The Problem: Every large consumer internet company actively works to make a user’s experience worse._
+<div class="focus-text">
+The Problem: Every large consumer internet company actively works to make a user’s experience worse.
+</div>
 
 And it's not just the cable and phone companies that immediately spring to mind as monopolistic monsters engaging in this behavior - internet favorites like Reddit, Facebook, and YouTube are all guilty. 
 
