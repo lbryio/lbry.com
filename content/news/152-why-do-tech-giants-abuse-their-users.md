@@ -56,7 +56,7 @@ YouTube recently disabled all FireTV users from accessing YouTube for no reason 
 
 # Businesses are greedy. Is this news?
 
-Some people may read these examples and shrug. Companies are greedy. Is it really surprising they treat users this way? And this response is partially right. Companies are greedy.
+Some people may read these examples and shrug. Companies are greedy. Is it really surprising they treat users this way? And this response is partially right. Companies _are_ greedy.
 
 But in a competitive economy, greed is typically satisfied by making your services better, not worse. To quote a wise Scotsman, “It is not from the benevolence of the butcher, the brewer, or the baker that we expect our dinner, but from their regard to their own interest.” Your local pizzeria offers free bathrooms, delivery service, and fresh ingredients because they know it will give them a competitive edge, not because they love you. Companies know that if they make life worse for their customers, those customers will take their business elsewhere.
 
