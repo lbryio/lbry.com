@@ -1,7 +1,7 @@
 ---
 author: jeremy
 title: 'Why Do Tech Giants Abuse Their Users?'
-date: '2019-01-08 00:00:00'
+date: '2018-01-08 00:00:00'
 cover: "ProtsNotPlats.jpg"
 ---
 _(Protocols Not Platforms - Part 1 of 2)_
