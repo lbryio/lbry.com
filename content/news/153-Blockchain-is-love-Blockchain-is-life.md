@@ -5,6 +5,7 @@ date: '2018-01-10 09:45:00'
 cover: 'Sunrise1.jpg'
 ---
 Blockchain technology currently has a hype to substance ratio rapidly approaching infinity. And as a team of people who are skeptical of 90+% of proposed blockchain uses, we're hesitant to contribute to that (ed.: wait until you see what I changed the title to).
+
 But there's one area where we think it’s plausible, if not likely, that blockchain will improve the world: the development of open standards and protocols, and consequently more user-friendly technology.
 
 # The Status Quo
