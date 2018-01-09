@@ -53,7 +53,7 @@
           Your job is not just to solve problems, but to solve problems in a way that will last and can easily be picked up by other people.
         </li>
         <li>
-          Knack for user-experience and user-perspective. Even if you're designing the guts of our DHT, what you create ultimately has to work for real people. Our user base ranges from casual 
+          Knack for user-experience and user-perspective. Even if you're designing the guts of our DHT, what you create ultimately has to work for real people. Our user base ranges from casual
           web surfers to crypto-nerd power users and you'll need an ability to understand how to create solutions that work for both.
         </li>
         <li>
@@ -67,14 +67,23 @@
         </li>
       </ul>
 
-      
+
       <h2>Positions</h2>
 
-      <h4>Protocol Developer</h4>
+      <h4>Protocol Developers</h4>
       <p>
-        We're seeking a developer to work on the core LBRY protocol. As our network multiplies in size, we need to keep it working smoothly.
-        You'll be working on the LBRY protocol and DHT, so experience with distributed systems and networks
-        is a plus. This work also relates to blockchains and cryptography. Our code is primarily in Python and uses the Twisted framework.
+        We're seeking multiple developers to work on the core LBRY protocol. This includes the LBRY <a href="https://github.com/lbryio/lbrycrd">blockchain</a> (C++),
+        <a href="https://github.com/lbryio/lbryum">wallet</a> (Python), and <a href="https://github.com/lbryio/lbry">daemon</a> (Python, but maybe you're the one to finally rewrite it in Go).
+      </p>
+      <p>Competence with distributed systems, cryptography, and networks is mandatory. Experience with blockchain is beneficial but not required.</p>
+
+      <h4>Web Developer</h4>
+      <p>
+        We're seeking someone to manage <a href="https://github.com/lbryio/lbry.io">this very website</a>, as well as other LBRY web properties and projects.
+      </p>
+      <p>
+        This position involves both design and programming elements and is good for someone with a mix of creativity and logic.
+        The LBRY website is currently written in PHP, but you're welcome to change this :)
       </p>
 
       <h2>Applying</h2>
@@ -86,8 +95,6 @@
         <li>A code sample. Preferrably a link to a public repository for a project you have built or significantly contributed to.</li>
         <li>One sentence about why you'd like to work for LBRY.</li>
       </ol>
-      
-
 
       <h2>Other Work</h2>
 
