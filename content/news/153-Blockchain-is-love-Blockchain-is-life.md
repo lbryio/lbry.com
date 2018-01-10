@@ -24,7 +24,7 @@ Tim Berners-Lee, who is widely credited as the father of the web, made a lot of 
 # The What and Why Of Protocols
 Just what do we mean when we say protocol? And how is it different from a platform? A platform is built on proprietary code running on servers controlled and managed by the company that created and owns the platform. It leaves the company fully in control.
 
-Suppose I wanted to build my own interface for Facebook. Perhaps because I want actual control over what shows up on my news feed, rather than leaving it to Facebook's algorithms. Currently, it would legally questionable for me to do this, and even it was legal, it would also be legal for Facebook to block my interface from loading "its" data.
+Suppose I wanted to build my own interface for Facebook. Perhaps because I want actual control over what shows up on my news feed, rather than leaving it to Facebook's algorithms. Currently, it would be legally questionable for me to do this, and even it was legal, it would also be legal for Facebook to block my interface from loading "its" data.
 
 But if Facebook was implemented as a protocol, it would be an open standard that anyone could follow. Anyone could write a Facebook view, or a Facebook app. If Facebook, Inc. wanted to start acting hostile towards its users, people would simply stop using the apps released by Facebook, Inc. and instead use ones made by other parties.
 
