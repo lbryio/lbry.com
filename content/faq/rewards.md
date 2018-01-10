@@ -7,7 +7,7 @@ To provide a rich user experience and to [distribute](https://lbry.io/faq/credit
 
 ### Verification requirements
 
-In order to be eligible for LBRY Rewards, users must have a [verified account](https://lbry.io/faq/identity-requirements). If users choose not to verify themselves, LBRY works with full functionality but they will not be able to earn any free credits from LBRY. 
+In order to be eligible for LBRY Rewards, users must have a [verified account](https://lbry.io/faq/identity-requirements). If users choose not to verify themselves, LBRY works with full functionality but they will not be able to earn any free credits from LBRY. **Rewards will only be granted on a 1 account per household basis** 
 
 ### List of the current LBRY Rewards
 | Reward | Amount | Description |
