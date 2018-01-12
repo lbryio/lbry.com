@@ -97,15 +97,20 @@
         <li>One sentence about why you'd like to work for LBRY.</li>
       </ol>
 
-      <h2>Other Work</h2>
+      <h2>Referrals</h2>
+      <p>
+        Know someone who'd be a great fit? Tell them about us, send them a link this page, or show up at their house unexpectedly with a
+        box of candy and a persuasive pitch. If we hire them, we'll pay you $5,000. That's what we call a win-win.
+      </p>
 
+      <h2>Other Work</h2>
       <p>
         Interested in contributing but not ready for commitment? We have several <a href="/bounty">smaller projects</a> available for anyone
         who wants to do them. We also have a <a href="/faq/contributing">guide for contributors</a> to help you find other ways to get
         involved. If none of that suits your fancy, join our <a href="https://chat.lbry.io">Discord chat</a> and we'll help you find something
         you'll love.
       </p>
-
+      
     </div>
   </section>
 </main>
