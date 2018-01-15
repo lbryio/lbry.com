@@ -9,11 +9,9 @@
       <h1><?php echo __('download.for-os', ['%os%' => $osTitle]) ?> <span class="<?php echo $osIcon ?>"></span></h1>
       <?php if ($downloadUrl): ?>
         <p>
-          This is the latest version of the LBRY App.
+          Securely download the LBRY app here, and see what all the fuss is about!
         </p>
         <p>
-          <strong>{{download.beta}}</strong>
-          {{download.curse}}
         </p>
         <div class="text-center">
           <p>
