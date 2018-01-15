@@ -16,7 +16,6 @@
     </div>
     <div class="spacer2 text-center">
       <a href="/get" class="btn-primary btn-large spacer1">Download LBRY</a><BR>
-      <a href="/learn" class="btn-link btn-large">{{global.learn}}</a>
     </div>
   </div>
 </main>
