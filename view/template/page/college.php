@@ -1,6 +1,5 @@
 <?php Response::setMetaDescription(__('description.learn')) ?>
 <?php Response::setMetaTitle(__('title.learn')) ?>
-<?php Response::addJsAsset('https://cdn.optimizely.com/js/9525271075.js') ?>
 <?php echo View::render('nav/_header', ['isDark' => true, 'isAbsolute' => true]) ?>
 <main>
   <div class="cover cover-dark cover-center cover-full cover--dark-overlay" style="background-image:url(https://spee.ch/e/shirtless-chang.jpg)">
