@@ -1,6 +1,5 @@
 <?php Response::setMetaDescription(__('description.learn')) ?>
 <?php Response::setMetaTitle(__('title.learn')) ?>
-<?php Response::addJsAsset('https://cdn.optimizely.com/js/9525271075.js') ?>
 <?php echo View::render('nav/_header', ['isDark' => false]) ?>
 <main class="column-fluid ">
   <div class="span6">
