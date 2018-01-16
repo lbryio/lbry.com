@@ -12,7 +12,7 @@ While fan culture seems to be an enduring part of the human experience, the prod
 
 ![Ye olde rockes and whatnot](https://spee.ch/2/NewgrangeIreland.jpeg)
 
-<div style="font-size:0.8; text-align: center">I know "ye" is not a thing, and it’s actually a misrepresentation of Þe, or “the”, but it’s too fun not to use</div>
+<div style="font-size:10; text-align: center">I know "ye" is not a thing, and it’s actually a misrepresentation of Þe, or “the”, but it’s too fun not to use</div>
 
 People have been making art for about 27,000 years, for the same reasons they do today - to transcend time and space by leaving their mark on the world, to express their individuality and humanity, and to impress potential romantic partners. But unless they were making jewelry, carving tombs, or weaving bespoke loincloths for the local chief, there weren’t any professional artists, and other than telling stories by the fireside, there wasn’t any "entertainment" in the modern sense.
 
