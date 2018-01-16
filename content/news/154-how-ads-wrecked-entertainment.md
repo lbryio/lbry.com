@@ -7,7 +7,7 @@ cover: 'Draper.png'
 YouTube stars like Logan Paul have made careers out of [being awful, obnoxious human beings](http://nymag.com/selectall/2018/01/logan-paul-suicide-forest-video-youtube.html). 79% of Americans think that their fellow Americans [pay too much attention to celebrity news](http://www.rasmussenreports.com/public_content/lifestyle/general_lifestyle/november_2017/americans_see_too_much_celebrity_news), and only 20% think [celebrities are good role models](http://www.rasmussenreports.com/public_content/lifestyle/general_lifestyle/january_2017/few_see_hollywood_celebs_as_good_role_models), but we keep hearing about the same people over and over again. 
 
 <video width="100%" controls poster="" src="https://spee.ch/eb7b083c4d4c531e66bb2f37a8bc1111d1a94c9e/Heaux.mp4"/></video>
-<span style="font-size:0.8" text-align:"center"><i>If you’re in the right place at the right time with Dr. Phil, you can even make a living from unorthodox pronunciation and spelling of common words.</i></span> 
+<span style="font-size:0.8" font-style:"italic" text-align:"center">If you’re in the right place at the right time with Dr. Phil, you can even make a living from unorthodox pronunciation and spelling of common words.</span> 
 
 How did we get here? How can people who are so widely disliked remain at the center of attention? By the end of this article, you’ll have a better understanding of why advertising was grafted onto art in the first place, how advertising made mass culture terrible, and what you can do to stop the death spiral.
 
