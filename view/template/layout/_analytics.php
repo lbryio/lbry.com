@@ -7,6 +7,7 @@
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
     ga('create', 'UA-60403362-1', 'auto');
+    ga('require', 'GTM-NT8579P');
     ga('send', 'pageview');
 
     <?php //we load fb sdk elsewhere, events loaded below (do we need both??) ?>
