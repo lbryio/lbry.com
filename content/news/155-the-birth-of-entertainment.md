@@ -14,6 +14,7 @@ While fan culture seems to be an enduring part of the human experience, the prod
 
 <div style="font-size:small; text-align: center">I know "ye" is actually a misrepresentation of Þe, or “the”, but it’s too fun not to use</div>
 
+
 People have been making art for about 27,000 years, for the same reasons they do today - to transcend time and space by leaving their mark on the world, to express their individuality and humanity, and to impress potential romantic partners. But unless they were making jewelry, carving tombs, or weaving bespoke loincloths for the local chief, there weren’t any professional artists, and other than telling stories by the fireside, there wasn’t any "entertainment" in the modern sense.
 
 ## Greece (The Musical)
@@ -22,7 +23,8 @@ The first public performances popped up in ancient Athens, and the cost of these
 
 ![His work is so transgressive](https://spee.ch/2/Aeschylusathens215.jpeg)
 
-Don’t forget I’m on a dialogue-writing panel at 3PM with Sophocles
+<div style="font-size:small; text-align: center">"Don’t forget I’m on a dialogue-writing panel at 3PM with Sophocles"</div>
+
 
 One wealthy Athenian was named the [Choregos](https://en.wikipedia.org/wiki/Choregos) each year, and made responsible for producing the winning play. That included paying for costumes, a director, scenery, props, musicians and actors (except for the flute player and non-chorus actors, who were provided by the state for arcane reasons). And just like today, entertainment was an expensive pursuit - some productions cost ten times as much as a skilled worker earned in a year.
 
@@ -46,7 +48,8 @@ In 1599, Shakespeare’s theater company (the Lord Chamberlain’s Men) built th
 
 ![Shamone!](https://spee.ch/a/globe-theatre.jpeg)
 
-Foreshadowing that time Michael Jackson [caught on fire](http://www.nydailynews.com/entertainment/michael-jackson-burned-filming-commercial-1984-article-1.2511008)?
+<div style="font-size:small; text-align: center">Foreshadowing that time Michael Jackson [caught on fire](http://www.nydailynews.com/entertainment/michael-jackson-burned-filming-commercial-1984-article-1.2511008)?</div>
+
 
 The Renaissance was a literal rebirth for entertainment. Entertainment became "what people are willing to pay money to see" instead of “a thing which makes the king laugh” or “a production that displays appropriate solemnity and moral attitudes for the Bishop.” This happened at the same time that the novel was becoming a thing (a *hated *thing that authorities believed would [irreparably damage women’s minds](https://books.google.com/books?id=Gs5PRR9-8BcC&pg=PA208&lpg=PA208&dq=The+existence+of+so+many+authors+has+produced+a+host+of+readers,+and+continued+reading+generates+every+nervous+complaint;+perhaps+of+all+the+causes+that+have+harmed+women%E2%80%99s+health,+the+principal+one+has+been+the+infinite+multiplication+of+novels+in+the+last+hundred+years+%E2%80%A6+a+girl+who+at+ten+reads+instead+of+running+will,+at+twenty,+be+a+woman+with+the+vapors+and+not+a+good+nurse.&source=bl&ots=t9qT8DGVBF&sig=QlJ6vr3SxozjyqxdgS9T9rvuX3Q&hl=en&sa=X&ved=0ahUKEwiFwKPR09DYAhXp1IMKHSV5C84Q6AEIJjAA#v=onepage&q=The%20existence%20of%20so%20many%20authors%20has%20produced%20a%20host%20of%20readers%2C%20and%20continued%20reading%20generates%20every%20nervous%20complaint%3B%20perhaps%20of%20all%20the%20causes%20that%20have%20harmed%20women%E2%80%99s%20health%2C%20the%20principal%20one%20has%20been%20the%20infinite%20multiplication%20of%20novels%20in%20the%20last%20hundred%20years%20%E2%80%A6%20a%20girl%20who%20at%20ten%20reads%20instead%20of%20running%20will%2C%20at%20twenty%2C%20be%20a%20woman%20with%20the%20vapors%20and%20not%20a%20good%20nurse.&f=false) and drive people mad). Widespread use of the printing press made it possible for writers to make enough copies of their work to distribute it widely.
 
