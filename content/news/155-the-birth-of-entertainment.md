@@ -20,7 +20,7 @@ People have been making art for about 27,000 years, for the same reasons they do
 
 The first public performances popped up in ancient Athens, and the cost of these productions led to the first known patronage relationships in the arts. Theater was important to the Athenians, and they had enough wealthy merchants committed to the theater that they could afford to put on serious shows. Every spring at a feast called the Dionysia, playwrights would compete for the favor of the city in what was basically an ancient Sundance.
 
-![His work is so transgressive](https://spee.ch/7/Aeschylusathens50.jpeg)
+![His work is so transgressive](https://spee.ch/2/Aeschylusathens215.jpeg)
 
 Don’t forget I’m on a dialogue-writing panel at 3PM with Sophocles
 
