@@ -14,7 +14,7 @@ How did we get here? How can people who are so widely disliked remain at the cen
 
 # The Day The Ad Men Came
 
-**NOTE:** For a quick overview of the history of entertainment from the stone age to the Victorian age, [read this](https://lbry.io/news/the-birth-of-entertainment).
+**NOTE:** For a quick overview of the history of entertainment from the Stone Age to the Victorian Age, [read this](https://lbry.io/news/the-birth-of-entertainment).
 
 It’s 1948.  
 
