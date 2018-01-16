@@ -45,7 +45,7 @@ The movie industry managed to avoid the ad-supported mediocrity spiral that radi
 It’s 2018 - over 40 years ago, cable TV was introduced as the ad-free, subscriber-supporter alternative to broadcast TV, and almost immediately succumbed to the siren song of that sweet corporate ad revenue. Hollywood crumbled under the pressure as well, and movies have become product placement bonanzas. 
 
 ![image alt text](https://spee.ch/7/Transformers.jpeg)
-<div style="font-size:small; text-align: center">Transformers, based on cartoon that was itself created to sell toys, has morphed from a big rig of simple toy shilling into a meta-Optimus Prime capable of selling ad space on top of an ad.<div>
+<div style="font-size:small; text-align: center">Transformers, based on cartoon that was itself created to sell toys, has morphed from a big rig of simple toy shilling into a meta-Optimus Prime capable of selling ad space on top of an ad.</div>
  <br>
 
 At first, the internet was a ray of light on the dark horizon, providing creators with the ability to connect directly with fans anywhere in the world, and the start-up cost to create a website is low enough that almost anyone can afford it.
