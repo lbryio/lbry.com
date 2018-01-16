@@ -59,6 +59,7 @@ This is why you’re always being tempted to learn this one weird trick for bell
 ![Remove face to clean reptilian overlord](https://spee.ch/e/terrible-ad.jpeg)
 
 <div style="font-size:small; text-align: center">Dermatologists hate her because she is clearly some sort of life-stealing demon shedding her skin</div>
+<br>
 
 Whatever gets the most clicks wins. More clicks means more eyeballs, more eyeballs means more ad click-throughs, more ad click-throughs mean more revenue for the advertisers.
 
