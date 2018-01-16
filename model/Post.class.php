@@ -239,6 +239,8 @@ class Post
         return 'Jack Robison';
       case 'reilly':
         return 'Reilly Smith';
+      case 'brinck':
+        return 'Brinck Slattery';
       case 'lbry':
       default:
         return 'Samuel Bryan';
@@ -254,6 +256,7 @@ class Post
       case 'jimmy':
       case 'jack':
       case 'reilly':
+      case 'brinck':
         return strtolower($this->author) . '@lbry.io';
       case 'lbry':
       default:
@@ -275,6 +278,8 @@ class Post
         return 'https://spee.ch/@lbryteam:6/jack-robison.jpg';
       case 'reilly':
         return 'https://spee.ch/@lbryteam:6/reilly-smith.jpg';
+      case 'brinck':
+        return 'https://spee.ch/@lbryteam:6/brinck-slattery.jpg';
       case 'lbry':
       default:
         return 'https://spee.ch/@lbryteam:6/spooner.jpg';
@@ -291,6 +296,8 @@ class Post
         return '<p>Jack was one of the first people to discover LBRY and took to it so fast he may understand more about it than anyone. He has Asperger\'s Syndrome and is actively involved in the autism community.</p>';
       case 'reilly':
         return '<p>Reilly is LBRY\'s in-house Curator and content liaison. He has worked in the entertainment industry since 2010, having produced two indie feature films and various short content.</p>';
+      case 'brinck':
+        return "<p>Brinck, LBRY's Directory of Marketing, has experience with national political campaigns, RV sales, crisis PR, SEO writing and optimization, construction labor, and digital marketing consulting.</p>";
       case 'mike':
       case 'jimmy':
         return '<p>' . $this->getAuthorName() . ' is one of the founding members of LBRY.</p>';

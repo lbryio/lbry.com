@@ -1,5 +1,5 @@
 ---
-author: Samuel Bryan
+author: lbry
 title: 'Howl With Us'
 date: '2017-11-24 00:20:30'
 cover: ''
