@@ -1,6 +1,6 @@
 ---
 author: Brinck
-title: 'How Ads Wrecked Entertainment (And What You Can Do About It)'
+title: 'The Birth Of Entertainment (And What You Can Do About It)'
 date: '2018-11-17 14:00:00'
 cover: 'muses.jpg' 
 ---
