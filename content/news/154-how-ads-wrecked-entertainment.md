@@ -7,7 +7,8 @@ cover: 'Draper2.jpg'
 YouTube stars like Logan Paul have made careers out of [being awful, obnoxious human beings](http://nymag.com/selectall/2018/01/logan-paul-suicide-forest-video-youtube.html). 79% of Americans think that their fellow Americans [pay too much attention to celebrity news](http://www.rasmussenreports.com/public_content/lifestyle/general_lifestyle/november_2017/americans_see_too_much_celebrity_news), and only 20% think [celebrities are good role models](http://www.rasmussenreports.com/public_content/lifestyle/general_lifestyle/january_2017/few_see_hollywood_celebs_as_good_role_models), but we keep hearing about the same people over and over again. 
 
 <video width="100%" controls poster="" src="https://spee.ch/eb7b083c4d4c531e66bb2f37a8bc1111d1a94c9e/Heaux.mp4"/></video>
-_If you’re in the right place at the right time with Dr. Phil, you can even make a living from unorthodox pronunciation and spelling of common words._
+<div style="font-size:small; text-align: center">If you’re in the right place at the right time with Dr. Phil, you can even make a living from unorthodox pronunciation and spelling of common words.<div>
+ <br>
 
 How did we get here? How can people who are so widely disliked remain at the center of attention? By the end of this article, you’ll have a better understanding of why advertising was grafted onto art in the first place, how advertising made mass culture terrible, and what you can do to stop the death spiral.
 
@@ -25,16 +26,16 @@ Instead of paying for entry to a concert or play, consumers buy a device (a radi
 
  ![Winstons taste good like the Flintstones say they should](https://spee.ch/0/Flintstone-Winston.jpeg)
 
-_This new setup led to some interesting results._
-
+<div style="font-size:small; text-align: center">This new setup led to some interesting results.</div>
+<br>
 This change was the first step on the road to our modern mass culture. Instead of paying for entertainment directly, regular people paid in their attention and time spent watching ads. When an advertiser buys an ad, they’re covering some part of the cost of the content. But the product they’re really buying is the attention of people who are consuming that content.
 
 In this new world, advertising concerns drove mass culture and the arts. Andy Warhol became famous in the early 60s for inverting the formula and turning ads back into commercially successful art, but a little social commentary can’t stop an economic juggernaut. It’s more than a little ironic that art as commentary on advertising can be worth hundreds of millions of dollars, and can end up being purchased by the very people who created the ads being commented on.
 
 ![Well isn't that droll](https://spee.ch/4/warhol.jpeg)
 
-_"I can’t tell if I’m artistically and ironically enlightened or hungry for some of that delicious Campbell’s soup."_
-
+<div style="font-size:small; text-align: center">"I can’t tell if I’m artistically and ironically enlightened or hungry for some of that delicious Campbell’s soup."</div>
+<br>
 That subtle shift completely changed the incentives for creators. Instead of creating art that pleased *their *audience, the biggest rewards went to whoever could create whatever was palatable to the most people at once - i.e., the lowest common denominator.
 
 The movie industry managed to avoid the ad-supported mediocrity spiral that radio and TV fell into for a while. Early films saw plugs for [Hershey’s chocolate](http://objectsinfilm.blogspot.com/2015/09/object-38-hersheys-chocolate-bar_42.html) and [Mobil gas](https://books.google.com/books?id=FzwvICZ92IQC&pg=PA183&lpg=PA183&dq=mobil+product+placement+in+love+happy&source=bl&ots=3eSRGp82rJ&sig=Y5CcpLrclDluIZ_oopf570sSA94&hl=en&sa=X&ved=0ahUKEwivkODv7dDYAhVIxoMKHQRJB9gQ6AEIOjAG#v=onepage&q=mobil%20product%20placement%20in%20love%20happy&f=false), but the practice was rarely blatant enough to jar the audience into feeling like they were watching advertising. Novels, underground music, and theatre continued to be bastions of ad-free originality and damn-the-crowds experimentation. 
@@ -44,7 +45,8 @@ The movie industry managed to avoid the ad-supported mediocrity spiral that radi
 It’s 2018 - over 40 years ago, cable TV was introduced as the ad-free, subscriber-supporter alternative to broadcast TV, and almost immediately succumbed to the siren song of that sweet corporate ad revenue. Hollywood crumbled under the pressure as well, and movies have become product placement bonanzas. 
 
 ![image alt text](https://spee.ch/7/Transformers.jpeg)
-_Transformers, based on cartoon that was itself created to sell toys, has morphed from a big rig of simple toy shilling into a meta-Optimus Prime capable of [selling ad space on top of an ad](https://consequenceofsound.net/2017/06/an-annotated-history-of-product-placement-in-the-transformers-series/)_
+<div style="font-size:small; text-align: center">Transformers, based on cartoon that was itself created to sell toys, has morphed from a big rig of simple toy shilling into a meta-Optimus Prime capable of selling ad space on top of an ad.<div>
+ <br>
 
 At first, the internet was a ray of light on the dark horizon, providing creators with the ability to connect directly with fans anywhere in the world, and the start-up cost to create a website is low enough that almost anyone can afford it.
 
@@ -56,7 +58,7 @@ This is why you’re always being tempted to learn this one weird trick for bell
 
 ![Remove face to clean reptilian overlord](https://spee.ch/e/terrible-ad.jpeg)
 
-_Dermatologists hate her because she is clearly some sort of life-stealing demon shedding her skin_
+<div style="font-size:small; text-align: center">Dermatologists hate her because she is clearly some sort of life-stealing demon shedding her skin</div>
 
 Whatever gets the most clicks wins. More clicks means more eyeballs, more eyeballs means more ad click-throughs, more ad click-throughs mean more revenue for the advertisers.
 
@@ -70,7 +72,8 @@ Let’s say I have a video of a terrible car accident. Would you pay me to watch
 
 ![I wonder if Cronenberg Morty is into this Crash or the Don Cheadle one](https://spee.ch/1/crash.jpeg)
 
-_Most people would say no, unless an unusual number of [David Cronenberg](http://www.imdb.com/title/tt0115964/) fans are reading this._ 
+<div style="font-size:small; text-align: center">Most people would say no, unless an unusual number of David Cronenberg fans are reading this.</div>
+<br>
 
 Now, imagine that instead of asking you to pay for it, I just stuck it in front of your face and pressed play. Would you watch then? 
 
@@ -80,10 +83,10 @@ The outlook seems bleak.
 
 # Jane, How Do I Stop This Crazy Thing?
 
-![I don't trust this woman's advice anyway, she has an enslaved robot that does all her cleaning](https://spee.ch/4/Jane-Jetson.jpeg)
+![I don't trust this woman's advice anyway, she has an enslaved robot that does all her cleaning](https://spee.ch/2/JaneJetson130.jpeg)
 
-_Et tu, Jane?_
-
+<div style="font-size:small; text-align: center">Et tu, Jane?</div>
+<br>
 There are three steps you can take to help stop this ad-supported death spiral. Before getting into too much detail, here they are:
 
 1. Be intentional about the media you consume.
