@@ -48,7 +48,7 @@ It’s 2018 - over 40 years ago, cable TV was introduced as the ad-free, subscri
 <div style="font-size:small; text-align: center">Transformers, based on cartoon that was itself created to sell toys, has morphed from a big rig of simple toy shilling into a meta-Optimus Prime capable of selling ad space on top of an ad.</div>
  <br>
 
-At first, the internet was a ray of light on the dark horizon, providing creators with the ability to connect directly with fans anywhere in the world, and the start-up cost to create a website is low enough that almost anyone can afford it.
+At first, the internet was a ray of light on the dark horizon, providing creators with the ability to connect directly with fans anywhere in the world. And on top of that, the start-up cost to create a website was low enough that almost anyone could afford it.
 
 But like cable TV, the ad-free paradise of the internet was quickly choked with advertising. When advertisers purchase people’s time and attention on the internet, they’re able to really dig into the details of people’s lives for demographic information and personal details to better target their ads. If TV, radio, and print advertising are a shotgun blast, internet advertising is a hit from a highly trained sniper. 
 
