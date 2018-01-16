@@ -30,13 +30,13 @@ Instead of paying for entry to a concert or play, consumers buy a device (a radi
 <br>
 This change was the first step on the road to our modern mass culture. Instead of paying for entertainment directly, regular people paid in their attention and time spent watching ads. When an advertiser buys an ad, they’re covering some part of the cost of the content. But the product they’re really buying is the attention of people who are consuming that content.
 
-In this new world, advertising concerns drove mass culture and the arts. Andy Warhol became famous in the early 60s for inverting the formula and turning ads back into commercially successful art, but a little social commentary can’t stop an economic juggernaut. It’s more than a little ironic that art as commentary on advertising can be worth hundreds of millions of dollars, and can end up being purchased by the very people who created the ads being commented on.
+In this new world, advertising concerns drove mass culture and the arts. Andy Warhol became famous in the early 60s for inverting the formula and turning ads back into commercially successful art, but a little social commentary can’t stop an economic juggernaut.
 
 ![Well isn't that droll](https://spee.ch/4/warhol.jpeg)
 
 <div style="font-size:small; text-align: center">"I can’t tell if I’m artistically and ironically enlightened or hungry for some of that delicious Campbell’s soup."</div>
 <br>
-That subtle shift completely changed the incentives for creators. Instead of creating art that pleased *their *audience, the biggest rewards went to whoever could create whatever was palatable to the most people at once - i.e., the lowest common denominator.
+That subtle shift completely changed the incentives for creators. Instead of creating art that pleased *their* audience, the biggest rewards went to whoever could create whatever was palatable to the most people at once - i.e., the lowest common denominator.
 
 The movie industry managed to avoid the ad-supported mediocrity spiral that radio and TV fell into for a while. Early films saw plugs for [Hershey’s chocolate](http://objectsinfilm.blogspot.com/2015/09/object-38-hersheys-chocolate-bar_42.html) and [Mobil gas](https://books.google.com/books?id=FzwvICZ92IQC&pg=PA183&lpg=PA183&dq=mobil+product+placement+in+love+happy&source=bl&ots=3eSRGp82rJ&sig=Y5CcpLrclDluIZ_oopf570sSA94&hl=en&sa=X&ved=0ahUKEwivkODv7dDYAhVIxoMKHQRJB9gQ6AEIOjAG#v=onepage&q=mobil%20product%20placement%20in%20love%20happy&f=false), but the practice was rarely blatant enough to jar the audience into feeling like they were watching advertising. Novels, underground music, and theatre continued to be bastions of ad-free originality and damn-the-crowds experimentation. 
 
