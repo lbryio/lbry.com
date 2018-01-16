@@ -70,7 +70,7 @@ Let’s say I have a video of a terrible car accident. Would you pay me to watch
 
 ![I wonder if Cronenberg Morty is into this Crash or the Don Cheadle one](https://spee.ch/1/crash.jpeg)
 
-_Most people would say no, unless an unusual number of [David Cronenberg](https://en.wikipedia.org/wiki/Crash_(1996_film)) fans are reading this._ 
+_Most people would say no, unless an unusual number of [David Cronenberg](http://www.imdb.com/title/tt0115964/) fans are reading this._ 
 
 Now, imagine that instead of asking you to pay for it, I just stuck it in front of your face and pressed play. Would you watch then? 
 
