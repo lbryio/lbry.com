@@ -61,6 +61,9 @@
           Reliable and independent. We expect a lot out of you, but we won't keep tabs on you. You must thrive in that kind of environment.
         </li>
         <li>
+
+        </li>
+        <li>
           No degree, credential, or age requirements. If you can do the work, we don't care how you got the skills.
         </li>
         <li>
@@ -145,7 +148,7 @@
               <tr>
                 <td><a href="https://github.com/lbryio/lbry.io">lbry.io</a></td>
                 <td>Web Developer</td>
-                <td><a href="https://github.com/lbryio/lbry.io/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">good first issues</a><sup>1</sup></td>
+                <td><a href="https://github.com/lbryio/lbry.io/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">good first issues</a></td>
               </tr>
             </tbody>
           </table>
