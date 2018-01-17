@@ -71,31 +71,96 @@
 
       <h2>Positions</h2>
 
-      <h4>Protocol Developers</h4>
+      <h3>Blockchain Engineer</h3>
       <p>
-        We're seeking multiple developers to work on the core LBRY protocol. This includes the LBRY <a href="https://github.com/lbryio/lbrycrd">blockchain</a> (C++),
-        <a href="https://github.com/lbryio/lbryum">wallet</a> (Python), and <a href="https://github.com/lbryio/lbry">daemon</a> (Python, but maybe you're the one to finally rewrite it in Go).
+        This position involves working directly on the LBRY <a href="https://github.com/lbryio/lbrycrd">blockchain</a>, written in C++.
       </p>
-      <p>Competence with distributed systems, cryptography, and networks is mandatory. Experience with blockchain is beneficial but not required.</p>
+      <p>
+        Competence with cryptography, security, and networks is mandatory. Experience with blockchain is beneficial but not required.
+      </p>
+      <p>
+        Blockchain work is like being a goalkeeper: good work goes under-appreciated, but mistakes are catastrophic. You must be the kind of masochist that enjoys this.
+      </p>
+      <h3>Protocol Engineers</h3>
+      <p>
+        The LBRY protocol is comprised of a <a href="https://lbry.io/api">set of APIs</a> provided via a daemon. This daemon is comprised of several sub-components, and interacts with the blockchain, wallet, and other remote daemons that comprise the LBRY data network.
+      </p>
+      <p>
+        The LBRY <a href="https://github.com/lbryio/lbry">daemon</a> and <a href="https://github.com/lbryio/lbryum">wallet</a> are both written in Python, but maybe you're the one to rewrite them in Go (we're kidding) (probably).
+      </p>
+      <p>Competence with security, operating systems, and networks is mandatory. Experience with peer-to-peer technology is beneficial but not required.</p>
 
-      <h4>Web Developer</h4>
+      <h3>Web Developer</h3>
       <p>
         We're seeking someone to manage <a href="https://github.com/lbryio/lbry.io">this very website</a>, as well as other LBRY web properties and projects.
       </p>
       <p>
         This position involves both design and programming elements and is good for someone with a mix of creativity and logic.
-        The LBRY website is currently written in PHP, but you're welcome to change this :)
+        The LBRY website currently uses a moderate amount of PHP, but you be the product owner and have full control over the implementation.
       </p>
 
       <h2>Applying</h2>
+      <h4>How To Apply</h4>
       <p>
         Contact <a href="mailto:joinus@lbry.io">joinus@lbry.io</a> if interested in a position. Please include the following:
       </p>
       <ol>
         <li>A resume, LinkedIn profile, or other resource that would serve as a work history.</li>
-        <li>A code sample. Preferrably a link to a public repository for a project you have built or significantly contributed to.</li>
+        <li>A code sample. Preferably a link to a public repository for a project you have built or significantly contributed to.</li>
         <li>One sentence about why you'd like to work for LBRY.</li>
       </ol>
+
+      <h4>The Process</h4>
+      <p>
+        We use a 3-step hiring process:
+      </p>
+      <ol>
+        <li>A brief (20-30 minute) non-technical, introductory phone call with either the CEO or CTO.</li>
+        <li>
+          <p>A compensated code contribution (4 hours minimum) on the repository you'd be working on.</p>
+          <table class="full-table">
+            <thead>
+              <tr>
+                <th>Project</th>
+                <th>Position</th>
+                <th>Issues</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a href="https://github.com/lbryio/lbry">lbry</a></td>
+                <td>Protocol Engineer</td>
+                <td><a href="https://github.com/lbryio/lbry/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">good first issues</a></td>
+              </tr>
+              <tr>
+                <td><a href="https://github.com/lbryio/lbry-app">lbry-app</a></td>
+                <td>Application or UX Engineer</td>
+                <td><a href="https://github.com/lbryio/lbry-app/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">good first issues</a> <em>(coming 1/17)</em></td>
+              </tr>
+              <tr>
+                <td><a href="https://github.com/lbryio/lbrycrd">lbrycrd</a></td>
+                <td>Blockchain Engineer</td>
+                <td><a href="https://github.com/lbryio/lbrycrd/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">good first issues</a></td>
+              </tr>
+              <tr>
+                <td><a href="https://github.com/lbryio/lbry.io">lbry.io</a></td>
+                <td>Web Developer</td>
+                <td><a href="https://github.com/lbryio/lbry.io/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">good first issues</a></td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            We ask all potential full-time contributors to take on a "good first issue" on the project they'd be working on.
+          </p>
+          <p>
+            The issue you choose does not necessarily need to be fully completed, and we don't expect a perfect first contribution. We compensate at or above market rates for all completed contributions.
+          </p>
+        </li>
+        <li>
+          <p>A longer (1-2 hours) meeting with the team members you'd be working directly with, as well as the CEO and/or CTO.</p>
+        </li>
+      </ol>
+      <p>Steps 1 and 2 may be completed in either order (i.e. you're welcome to try contributing before the introductory call, otherwise we will ask you to contribute afterward).</p>
 
       <h2>Referrals</h2>
       <p>
