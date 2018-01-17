@@ -5,7 +5,7 @@
   <section class="post-content">
 
     <div class="content">
-      <h1>Join Team Content Freedom</h1>
+      <h1 id="join">Join Team Content Freedom</h1>
 
       <p>
         Changing the landscape of content distribution is no easy task. LBRY is growing rapidly, and we're always looking for great people
@@ -18,7 +18,7 @@
         Fortunately, photo shoots are not a regular job activity.
       </div>
 
-      <h2>About LBRY</h2>
+      <h2 id="about">About LBRY</h2>
 
       <p>
         Some things to know about working at LBRY:
@@ -42,7 +42,7 @@
         </li>
       </ul>
 
-      <h2>Who We're Looking For</h2>
+      <h2 id="looking">Who We're Looking For</h2>
 
       <p>
         There's no one kind of LBRYian. We value people who can bring new perspectives to our team. Here are some traits that are important to us:
@@ -69,9 +69,9 @@
       </ul>
 
 
-      <h2>Positions</h2>
+      <h2 id="positions">Positions</h2>
 
-      <h3>Blockchain Engineer</h3>
+      <h3 id="blockchain-engineer">Blockchain Engineer</h3>
       <p>
         This position involves working directly on the LBRY <a href="https://github.com/lbryio/lbrycrd">blockchain</a>, written in C++.
       </p>
@@ -81,7 +81,7 @@
       <p>
         Blockchain work is like being a goalkeeper: good work goes under-appreciated, but mistakes are catastrophic. You must be the kind of masochist that enjoys this.
       </p>
-      <h3>Protocol Engineers</h3>
+      <h3 id="protocol-engineer">Protocol Engineers</h3>
       <p>
         The LBRY protocol is comprised of a <a href="https://lbry.io/api">set of APIs</a> provided via a daemon. This daemon is comprised of several sub-components, and interacts with the blockchain, wallet, and other remote daemons that comprise the LBRY data network.
       </p>
@@ -90,7 +90,7 @@
       </p>
       <p>Competence with security, operating systems, and networks is mandatory. Experience with peer-to-peer technology is beneficial but not required.</p>
 
-      <h3>Web Developer</h3>
+      <h3 id="web-developer">Web Developer</h3>
       <p>
         We're seeking someone to manage <a href="https://github.com/lbryio/lbry.io">this very website</a>, as well as other LBRY web properties and projects.
       </p>
@@ -99,8 +99,8 @@
         The LBRY website currently uses a moderate amount of PHP, but you be the product owner and have full control over the implementation.
       </p>
 
-      <h2>Applying</h2>
-      <h4>How To Apply</h4>
+      <h2 id="applying">Applying</h2>
+      <h4 id="how-to-apply">How To Apply</h4>
       <p>
         Contact <a href="mailto:joinus@lbry.io">joinus@lbry.io</a> if interested in a position. Please include the following:
       </p>
@@ -110,7 +110,7 @@
         <li>One sentence about why you'd like to work for LBRY.</li>
       </ol>
 
-      <h4>The Process</h4>
+      <h4 id="process">The Process</h4>
       <p>
         We use a 3-step hiring process:
       </p>
@@ -165,18 +165,16 @@
       </ol>
       <p>Steps 1 and 2 may be completed in either order (i.e. you're welcome to try contributing before the introductory call).</p>
 
-      <h2>Referrals</h2>
+      <h2 id="referrals">Referrals</h2>
       <p>
         Know someone who'd be a great fit? Tell them about us, send them a link this page, or show up at their house unexpectedly with a
         box of candy and a persuasive pitch. If we hire them, we'll pay you $5,000. That's what we call a win-win.
       </p>
 
-      <h2>Other Work</h2>
+      <h2 id="other-work">Other Work</h2>
       <p>
-        Interested in contributing but not ready for commitment? We have several <a href="/bounty">smaller projects</a> available for anyone
-        who wants to do them. We also have a <a href="/faq/contributing">guide for contributors</a> to help you find other ways to get
-        involved. If none of that suits your fancy, join our <a href="https://chat.lbry.io">Discord chat</a> and we'll help you find something
-        you'll love.
+        Interested in contributing but not ready for commitment? We have a <a href="/faq/contributing">guide for contributors</a> to help you find other ways to get
+        involved. If none of that suits your fancy, join our <a href="https://chat.lbry.io">Discord chat</a> and we'll help you find something you'll love.
       </p>
       
     </div>
