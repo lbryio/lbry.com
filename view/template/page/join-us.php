@@ -153,14 +153,17 @@
             We ask all potential full-time contributors to take on a "good first issue" on the project they'd be working on.
           </p>
           <p>
-            The issue you choose does not necessarily need to be fully completed, and we don't expect a perfect first contribution. We compensate at or above market rates for all completed contributions.
+            The issue you choose does not necessarily need to be fully completed, and we don't expect a perfect first contribution. Open a pull request as soon as you'd like any feedback from one of our developers. We compensate at or above market rates for all accepted pull requests.
+          </p>
+          <p>
+            For questions or problems with a particular issue, please comment directly on the GitHub issue. For setup or environment trouble, open a separate issue. You can also join #dev in <a href="https://chat.lbry.io">our chat</a> to interact with other community members.
           </p>
         </li>
         <li>
           <p>A longer (1-2 hours) meeting with the team members you'd be working directly with, as well as the CEO and/or CTO.</p>
         </li>
       </ol>
-      <p>Steps 1 and 2 may be completed in either order (i.e. you're welcome to try contributing before the introductory call, otherwise we will ask you to contribute afterward).</p>
+      <p>Steps 1 and 2 may be completed in either order (i.e. you're welcome to try contributing before the introductory call).</p>
 
       <h2>Referrals</h2>
       <p>
