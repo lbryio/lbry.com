@@ -83,7 +83,7 @@
       </p>
       <h3 id="protocol-engineer">Protocol Engineers</h3>
       <p>
-        The LBRY protocol is comprised of a <a href="https://lbry.io/api">set of APIs</a> provided via a daemon. This daemon is comprised of several sub-components, and interacts with the blockchain, wallet, and other remote daemons that comprise the LBRY data network.
+        The LBRY protocol consists of a <a href="https://lbry.io/api">set of APIs</a> provided via a daemon. This daemon is comprised of several sub-components, and interacts with the blockchain, wallet, and other remote daemons that constitute the LBRY data network.
       </p>
       <p>
         The LBRY <a href="https://github.com/lbryio/lbry">daemon</a> and <a href="https://github.com/lbryio/lbryum">wallet</a> are both written in Python, but maybe you're the one to rewrite them in Go (we're kidding) (probably).
@@ -145,12 +145,12 @@
               <tr>
                 <td><a href="https://github.com/lbryio/lbry.io">lbry.io</a></td>
                 <td>Web Developer</td>
-                <td><a href="https://github.com/lbryio/lbry.io/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">good first issues</a></td>
+                <td><a href="https://github.com/lbryio/lbry.io/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">good first issues</a><sup>1</sup></td>
               </tr>
             </tbody>
           </table>
           <p>
-            We ask all potential full-time contributors to take on a "good first issue" on the project they'd be working on.
+            We ask all potential full-time contributors to take on a potential issue on the project they'd be working on. Issues tagged "good first issue" are suitable for this purpose, though you are welcome to work on another issue or even something not filed at all.
           </p>
           <p>
             The issue you choose does not necessarily need to be fully completed, and we don't expect a perfect first contribution. Open a pull request as soon as you'd like any feedback from one of our developers. We compensate at or above market rates for all accepted pull requests.
