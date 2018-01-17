@@ -61,9 +61,6 @@
           Reliable and independent. We expect a lot out of you, but we won't keep tabs on you. You must thrive in that kind of environment.
         </li>
         <li>
-
-        </li>
-        <li>
           No degree, credential, or age requirements. If you can do the work, we don't care how you got the skills.
         </li>
         <li>
