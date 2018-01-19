@@ -2,6 +2,7 @@
 name: Jeremy Kauffman
 role: Founder, Chief Executive Officer
 email: jeremy@lbry.io
+github: kauffj
 ---
 
 Jeremy knows how to build and scale a startup starting from day one. He knows how to deliver usable products and get those products in front of the right people.
