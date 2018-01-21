@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'Play No Evil'
 date: '2017-03-09 00:19:00'
 cover: 'censored-banner.png'

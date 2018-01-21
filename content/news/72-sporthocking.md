@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'Will the Real Slim Shady Please Sit Down'
 date: '2016-10-06 00:06:00'
 cover: 'sporthock-banner.jpg'

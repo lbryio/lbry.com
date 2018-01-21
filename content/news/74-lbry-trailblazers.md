@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'Shoutout to All You trailblazers'
 date: '2016-10-13 00:06:00'
 ---

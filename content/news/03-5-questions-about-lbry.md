@@ -1,5 +1,5 @@
 ---
-author: jeremy
+author: jeremy-kauffman
 title: 5 Questions About LBRY
 date: '2015-07-01 13:09:20'
 ---

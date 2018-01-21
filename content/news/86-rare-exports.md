@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'Santa is Real'
 date: '2016-12-22 00:03:00'
 cover: 'rare-banner.jpg'

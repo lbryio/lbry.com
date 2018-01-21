@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'Crypto, Crypto, Crypt0!'
 date: '2017-02-09 00:06:00'
 cover: 'crypt-zero-banner.PNG'

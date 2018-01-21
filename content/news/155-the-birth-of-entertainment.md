@@ -1,8 +1,8 @@
 ---
-author: Brinck
+author: brinck-slattery
 title: 'The Birth Of Entertainment'
 date: '2018-11-17 14:00:00'
-cover: 'muses.jpg' 
+cover: 'muses.jpg'
 ---
 The arts have always been a difficult business. In the 1600s, the arts were so competitive that poets and producers hired professional applauders called [claques](https://en.wikipedia.org/wiki/Claque). Shakespeare’s plays have literally [caused riots](https://culturacolectiva.com/books/history-of-riot-at-the-astor-place-shakespeare/). Managing fans and haters has always been a challenge, and our modern mass media culture has been forged in the birth and death of a thousand fandoms.
 
@@ -28,13 +28,13 @@ The first public performances popped up in ancient Athens, and the cost of these
 
 One wealthy Athenian was named the [Choregos](https://en.wikipedia.org/wiki/Choregos) each year, and made responsible for producing the winning play. That included paying for costumes, a director, scenery, props, musicians and actors (except for the flute player and non-chorus actors, who were provided by the state for arcane reasons). And just like today, entertainment was an expensive pursuit - some productions cost ten times as much as a skilled worker earned in a year.
 
-This arrangement created the works of Sophocles, Aeschylus, Euripides, and several other brilliant playwrights who you’ve also forgotten about since college. 
+This arrangement created the works of Sophocles, Aeschylus, Euripides, and several other brilliant playwrights who you’ve also forgotten about since college.
 
 ## Middle Age Crisis
 
-Time passed. In Europe, lots of art was created, mostly in royal courts or churches, where monks created beautiful illuminated manuscripts and lords commissioned impressive architecture. The situation was similar in Asia - artisans, poets, and dramatists created a lot of art, generally funded by and under the direction of the highest political authority in the region. 
+Time passed. In Europe, lots of art was created, mostly in royal courts or churches, where monks created beautiful illuminated manuscripts and lords commissioned impressive architecture. The situation was similar in Asia - artisans, poets, and dramatists created a lot of art, generally funded by and under the direction of the highest political authority in the region.
 
-In hindsight, it was a productive period for the arts; but at the time, entertainment options were few and far between for regular people. Traveling musicians and entertainers were the occasional break in a bleak, terrible period in history. 
+In hindsight, it was a productive period for the arts; but at the time, entertainment options were few and far between for regular people. Traveling musicians and entertainers were the occasional break in a bleak, terrible period in history.
 
 ![Birdwatching, especially swallow migrations, also provided entertainment](https://spee.ch/3/help-help-im-being-repressed.gif)
 
@@ -42,7 +42,7 @@ Gleeman (in England), Troubadours (in Western Europe) and their equivalents in a
 
 ## Renaissance Persons
 
-Fast forward to the Renaissance - after years of trickling from the countryside to the cities, there were enough people in urban spaces to support ongoing theatre companies, orchestras, and operas. In Italy, [impresarios](https://en.wikipedia.org/wiki/Impresario) took on the cultural (and financial) responsibility of organizing and funding operas where they charged for admission. 
+Fast forward to the Renaissance - after years of trickling from the countryside to the cities, there were enough people in urban spaces to support ongoing theatre companies, orchestras, and operas. In Italy, [impresarios](https://en.wikipedia.org/wiki/Impresario) took on the cultural (and financial) responsibility of organizing and funding operas where they charged for admission.
 
 In 1599, Shakespeare’s theater company (the Lord Chamberlain’s Men) built the Globe Theater, an employee-owned enterprise that produced Shakespeare’s plays. Artists turned into businessmen, and they did a good job of it. The Globe made enough money to survive for decades, and was even rebuilt after it caught on fire when a stage cannon backfired.
 
@@ -60,4 +60,3 @@ As we know, this didn’t lead to a DIY opera industry or the disappearance of p
 Artists had to find a hybrid system, and straddle the line between finding supporters that they’d have to please (governments, religious officials, wealthy businessmen, etc.) and supporters who just want to get more of the artist’s work but didn’t necessarily have deep pockets.
 
 The creative world stayed in this limbo until the introduction of commercial radio and ad-supported content, which you can read more about in [this post](https://lbry.io/news/how-ads-wrecked-entertainment).
-

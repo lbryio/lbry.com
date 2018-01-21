@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'Supergreen'
 date: '2017-05-04 00:19:30'
 cover: 'growgreens-banner.PNG'

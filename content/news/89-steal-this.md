@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'Art is Theft'
 date: '2017-01-12 00:03:00'
 cover: 'stealthis-banner.png'

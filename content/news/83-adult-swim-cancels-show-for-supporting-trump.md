@@ -1,5 +1,5 @@
 ---
-author: jeremy
+author: jeremy-kauffman
 title: 'Adult Swim Cancels Show For Supporting Trump. We're Happy to Have Them.'
 date: '2016-12-12 00:13:04'
 cover: 'mde.jpg'

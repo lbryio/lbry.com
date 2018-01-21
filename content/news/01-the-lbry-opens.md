@@ -1,5 +1,5 @@
 ---
-author: jeremy
+author: jeremy-kauffman
 title: The LBRY Opens
 date: '2015-05-24 16:00:00'
 ---

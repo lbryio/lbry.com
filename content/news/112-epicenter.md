@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'Coinslaught'
 date: '2017-05-25 00:20:30'
 cover: 'epicenter-banner.png'

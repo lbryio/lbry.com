@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'Pew Pew Bang Bang'
 date: '2017-03-16 00:18:00'
 cover: 'airsoft-banner.png'

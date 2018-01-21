@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'This Game of Yours'
 date: '2017-03-30 00:12:00'
 cover: 'blesshay_banner.PNG'

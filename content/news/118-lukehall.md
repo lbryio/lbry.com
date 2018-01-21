@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'Young Gun'
 date: '2017-06-29 00:10:00'
 cover: 'lukehall-banner.jpg'

@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'Derivative Originality'
 date: '2017-11-10 00:20:30'
 cover: '3blue-banner-2.jpg'

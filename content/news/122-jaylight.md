@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'Verbal Violence'
 date: '2017-07-27 00:19:30'
 cover: 'jay-banner.png'

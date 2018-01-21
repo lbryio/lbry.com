@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'Meet Your Maker'
 date: '2017-04-27 00:19:30'
 cover: 'mayermakes-banner.png'

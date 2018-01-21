@@ -1,5 +1,5 @@
 ---
-author: jeremy
+author: jeremy-kauffman
 title: 'Why Do Tech Giants Abuse Their Users?'
 date: '2018-01-08 00:00:00'
 cover: "ProtsNotPlats.jpg"
@@ -14,7 +14,7 @@ In a competitive market, this sort of customer abuse shouldn’t happen. But bef
 The Problem: Every large consumer internet company actively works to make a user’s experience worse.
 </div>
 
-And it's not just the cable and phone companies that immediately spring to mind as monopolistic monsters engaging in this behavior - internet favorites like Reddit, Facebook, and YouTube are all guilty. 
+And it's not just the cable and phone companies that immediately spring to mind as monopolistic monsters engaging in this behavior - internet favorites like Reddit, Facebook, and YouTube are all guilty.
 
 Last week, we asked our users to send over some examples of tech companies treating their customers badly, and [the response](https://www.reddit.com/r/lbry/comments/7nx6v0/can_you_help_us_collect_examples_of_hostile_tech/) was overwhelming. Take a look at these examples from some of the most popular services and companies in use today. This is not meant to be an exhaustive list of companies being actively hostile to users, as the whole list could probably fill its own book.
 

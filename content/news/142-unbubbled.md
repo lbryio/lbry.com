@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'Zero Confirmation Bias'
 date: '2017-11-17 00:20:00'
 cover: 'unbubbled-banner2.png'

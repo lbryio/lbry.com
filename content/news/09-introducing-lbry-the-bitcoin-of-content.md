@@ -1,5 +1,5 @@
 ---
-author: mike
+author: mike-vine
 title: 'Introducing LBRY: The Bitcoin of Content'
 date: '2015-09-09 13:28:35'
 ---

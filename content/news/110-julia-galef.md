@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'Rationale'
 date: '2017-05-11 00:19:30'
 cover: 'juliagalef-banner3.jpg'

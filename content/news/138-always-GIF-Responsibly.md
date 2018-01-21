@@ -1,5 +1,5 @@
 ---
-author: Brinck
+author: brinck-slattery
 title: 'Always GIF Responsibly: Introducing Spee.ch'
 date: '2017-10-30 00:15:30'
 cover: ''

@@ -1,5 +1,5 @@
 ---
-author: jeremy
+author: jeremy-kauffman
 title: 'Watch LBRY Program Live & Beta Updates'
 date: '2017-03-24 13:26:00'
 cover: 'ide.png'
@@ -43,4 +43,3 @@ This got LBRY some positive press, including:
 - [Reason](http://reason.com/blog/2017/03/17/berkeleys-online-library-saved-cornel-we)
 
 As well as popular posts on Reddit, other news websites, and many regional and local publications.
-

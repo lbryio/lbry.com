@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'The Maker’s Mark'
 date: '2017-07-21 00:03:00'
 cover: 'makestuff-banner.PNG'

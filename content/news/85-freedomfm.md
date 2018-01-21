@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'Freedom.fm'
 date: '2016-12-15 00:15:00'
 cover: 'fdr-banner.png'

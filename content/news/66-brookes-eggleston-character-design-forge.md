@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'Storytelling Art 101'
 date: '2016-09-15 00:06:00'
 cover: 'brookes-cover.jpg'
@@ -16,7 +16,7 @@ The best place to start is *[5 Tips for Better Drawing](lbry://drawbetter)*.
 
 Once you’ve covered the basics, check out the rest of the courses:
 
-- *[How to Be a Character Designer](lbry://characterdesigner)* – Learn the qualities that empower character designers in their work. 
+- *[How to Be a Character Designer](lbry://characterdesigner)* – Learn the qualities that empower character designers in their work.
 - *[Drawing a Comic Page from Start to Finish](lbry://drawingcomics)* – Walk through the steps taken to create a comic page in Photoshop.
 - *[Play to Your Strengths](lbry://playtoyourstrengths)* – Time is finite, make sure you're really working on what you'd like to be. We're talking about the ways to play to your strengths and how to balance the internet treadmill with bigger projects.
 - *[5 Ways to Make a Character More Likable](lbry://likeablecharacters)* – The appeal of a character is essential in getting an audience to like them. Use these tips to keep them in your corner.

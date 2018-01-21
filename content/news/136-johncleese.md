@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'farting in our direction'
 date: '2017-10-19 00:22:30'
 cover: 'cleese-banner.jpg'

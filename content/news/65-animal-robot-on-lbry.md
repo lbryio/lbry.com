@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'All Mashed Up'
 date: '2016-09-08 00:06:18'
 cover: 'animalrobot1.png'
@@ -10,7 +10,7 @@ Introducing, [AnimalRobot](https://www.facebook.com/animalrobot). Their work has
 
 First out the gate: if you’re feeling nostalgic for [Los Santos](http://gta.wikia.com/wiki/Los_Santos_(HD_Universe)), [Franklin](http://gta.wikia.com/wiki/Franklin_Clinton) is here to bring you back to his roots.
 
-![Straight Outta Compton | GTAV Redux](/img/news/gtav.png) 
+![Straight Outta Compton | GTAV Redux](/img/news/gtav.png)
 
 lbry://gtasoc
 

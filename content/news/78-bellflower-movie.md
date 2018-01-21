@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'Fall in Love with Medusa'
 date: '2016-10-27 00:06:00'
 cover: 'bellflower-banner.jpg'

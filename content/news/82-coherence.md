@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'Ceci n’est pas une pipe'
 date: '2016-11-17 00:06:00'
 cover: 'coherence-banner.jpg'
