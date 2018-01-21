@@ -2,7 +2,7 @@
 /**
  * SCSSPHP
  *
- * @copyright 2012-2015 Leaf Corcoran
+ * @copyright 2012-2017 Leaf Corcoran
  *
  * @license http://opensource.org/licenses/MIT MIT
  *
@@ -31,7 +31,7 @@ class Number extends Node implements \ArrayAccess
     /**
      * @var integer
      */
-    static public $precision = 5;
+    static public $precision = 10;
 
     /**
      * @see http://www.w3.org/TR/2012/WD-css3-values-20120308/
@@ -110,7 +110,7 @@ class Number extends Node implements \ArrayAccess
 
         $dimension = $this->dimension;
 
-        foreach (self::$unitTable['in'] as $unit => $conv) {
+        foreach (static::$unitTable['in'] as $unit => $conv) {
             $from       = isset($this->units[$unit]) ? $this->units[$unit] : 0;
             $to         = isset($units[$unit]) ? $units[$unit] : 0;
             $factor     = pow($conv, $from - $to);
@@ -265,7 +265,7 @@ class Number extends Node implements \ArrayAccess
      */
     public function output(Compiler $compiler = null)
     {
-        $dimension = round($this->dimension, self::$precision);
+        $dimension = round($this->dimension, static::$precision);
 
         $units = array_filter($this->units, function ($unitSize) {
             return $unitSize;
@@ -277,7 +277,7 @@ class Number extends Node implements \ArrayAccess
 
             $this->normalizeUnits($dimension, $units, 'in');
 
-            $dimension = round($dimension, self::$precision);
+            $dimension = round($dimension, static::$precision);
             $units     = array_filter($units, function ($unitSize) {
                 return $unitSize;
             });
@@ -290,9 +290,10 @@ class Number extends Node implements \ArrayAccess
         }
 
         reset($units);
-        list($unit, ) = each($units);
+        $unit = key($units);
+        $dimension = number_format($dimension, static::$precision, '.', '');
 
-        return (string) $dimension . $unit;
+        return (static::$precision ? rtrim(rtrim($dimension, '0'), '.') : $dimension) . $unit;
     }
 
     /**
@@ -316,8 +317,8 @@ class Number extends Node implements \ArrayAccess
         $units     = [];
 
         foreach ($this->units as $unit => $exp) {
-            if (isset(self::$unitTable[$baseUnit][$unit])) {
-                $factor = pow(self::$unitTable[$baseUnit][$unit], $exp);
+            if (isset(static::$unitTable[$baseUnit][$unit])) {
+                $factor = pow(static::$unitTable[$baseUnit][$unit], $exp);
 
                 $unit = $baseUnit;
                 $dimension /= $factor;
