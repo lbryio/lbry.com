@@ -2,7 +2,7 @@
 category: browser
 title: Automatic App Updates
 award: 1000
-status: available
+status: complete
 date: '2017-07-22'
 ---
 
