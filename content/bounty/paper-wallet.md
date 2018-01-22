@@ -2,7 +2,7 @@
 category: code
 title: LBC Paper Wallet
 award: 300
-status: available
+status: complete
 date: '2017-09-12'
 ---
 
