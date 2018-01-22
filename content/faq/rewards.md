@@ -3,11 +3,11 @@ title: What are LBRY Rewards?
 category: getstarted
 ---
 
-To provide a rich user experience and to [distribute](https://lbry.io/faq/credit-policy) LBRY Credits (LBC) into the hands of new and returning users, LBRY created a Rewards system where credits are earned by completing tasks throughout the application. Rewards are given to promote application testing, learning certain in-app skills, building the LBRY economy through purchasing and publishing content, and as a small "thank you" gift for being part of a revolutionary digital media platform. For qualified users, Rewards are issued automatically by the LBRY app into each users' [LBRY wallet](https://lbry.io/faq/how-to-backup-wallet). 
+To provide a rich user experience and to [distribute](https://lbry.io/faq/credit-policy) LBRY Credits (LBC) into the hands of new and returning users, LBRY created a Rewards system where credits are earned by completing tasks throughout the application. Rewards are given to promote application testing, learning certain in-app skills, building the LBRY economy through purchasing and publishing content, and as a small "thank you" gift for being part of a revolutionary digital media platform. For qualified users, Rewards are issued automatically by the LBRY app into each users' [LBRY wallet](https://lbry.io/faq/how-to-backup-wallet). **LBRY reserves the right to revoke rewards priveledges on any account if abuse is suspected or if VPN/proxy is being used.**
 
 ### Verification requirements
 
-In order to be eligible for LBRY Rewards, users must have a [verified account](https://lbry.io/faq/identity-requirements). If users choose not to verify themselves, LBRY works with full functionality but they will not be able to earn any free credits from LBRY. **Rewards will only be granted on a 1 account per household basis** 
+In order to be eligible for LBRY Rewards, users must have a [verified account](https://lbry.io/faq/identity-requirements). If users choose not to verify themselves, LBRY works with full functionality but they will not be able to earn any free credits from LBRY.  **Rewards will only be granted on a 1 account per household basis** 
 
 ### List of the current LBRY Rewards
 | Reward | Amount | Description |
