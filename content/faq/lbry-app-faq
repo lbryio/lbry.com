@@ -1,10 +1,9 @@
 ---
-title: LBRY App Basic User Guide
+title: LBRY App Debugging FAQ
 category: LBRY 101
 ---
 
-Installing LBRY and setting it up can be a bit tough, especially if you encounter bugs or errors.
-Don't worry though, this guide is here to help!
+Using LBRY is easy but sometimes you can run into bugs, here is a list of commonly asked questions and solutions.
 
 ### Content fails to stream or download, what can I do?
 
@@ -12,10 +11,24 @@ Don't worry though, this guide is here to help!
 
 2. If it still isn't working, it's probably a bug and you should report it ASAP. [Report a bug](https://lbry.io/faq/support).
 
-3. How to find the log files. [Logs](https://lbry.io/faq/how-to-find-lbry-log-file).
+3. How to find the log files.
+## Windows
+1. Open File Explorer.
+2. Type `%appdata%\lbrynet` (or `%localappdata%\lbry\lbrynet` if you originally installed v0.14 and up) into the address bar and click Enter.
+
+## MacOS
+1. Open Finder.
+1. Click Go on top menu and choose "Go To Folder".
+1. Type "~/Library/Application Support/LBRY" and then click go.
+
+## Ubuntu / Linux *(Exact steps may differ slightly)* 
+1. Navigate to your home directory. Ensure hidden files and folders are shown if using a graphical file explorer.
+2. Navigate to the .lbrynet folder (or `.local/share/lbry/lbrynet` if you originally installed v0.14 and up).
 
 4. The most helpful place for LBRY bugs. [Discord](https://discordapp.com/invite/U5aRyN6).
 Go to #help.
+
+5. [Github Issues](https://github.com/lbryio/lbry.io/issues) page where you can query for the topic you want to submit. 
 
 ### Downloads / Streams slow?
 
@@ -33,19 +46,20 @@ There are still some improvements we can make on the protocol level to speed up 
 
 ### What is the purpose of having my email connected to LBRY?
 
-Let's start with something simple you might ask yourself. The LBRY email account really only authenticates you for LBRY rewards and stores a history of them. Nothing else is stored from your installation. Wallets are in a file that's stored locally on your device. And with the
-email connected, you can simply [backup your wallet](https://lbry.io/faq/how-to-backup-wallet) and move to a new device, log in with your email, restore your wallet and you're good to go!
+We need it for login purposes and you can backup your wallet through your email address.
 
 ### What information is tied to the account?
 
 Only your basic profile information such as names and such are tied to the account. 
-Also, you'll be sent LBRY updates, security issues, and great new content.
-We'll never sell your email, and you can unsubscribe at any time.
+You'll be sent LBRY updates, security issues, and great new content.
+We'll never sell your email and you can unsubscribe at any time.
 
 ### What is a wallet and how do I find it?
 
 A wallet is a secure, digital wallet used to store, send and recieve cryptocurrency like LBRY credits.
 The LBRY app comes with it's own wallet, so you can get going right away!
+
+The LBRY app is also integrated with [Shapeshift](https://shapeshift.io/#/coins): The easiest way to exchange cryptocurrencies.
 
 Your wallet generates addresses which you give to people, in order to recieve LBC, and you use others' wallet addresses to send them LBC.
 
@@ -112,6 +126,7 @@ The quickest way to verify is with a credit card. Check out the [details](https:
 In short, there's 3 ways to get verified : 
 
 1. [Credit card](https://lbry.io/faq/identity-requirements).
+Your credit card is used to verify your country only.
 
 2. [YouTube sync](https://lbry.io/faq/youtube).
 
