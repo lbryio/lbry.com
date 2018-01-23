@@ -18,7 +18,7 @@ You can also run the development server using docker:
 - Run `./docker.sh` from the project root
 - Access [localhost:8000](http://localhost:8000) in your browser
 
-Both the `dev.sh` and `dev-docker.sh` scripts will initialise a configuration based on `data/config.php.example` if `data/config.php` does not exist.
+Both the `dev.sh` and `docker.sh` scripts will initialise a configuration based on `data/config.php.example` if `data/config.php` does not exist.
 
 To run remotely, simply install PHP and configure Apache or your server of choice to serve `web/index.php`.
 
