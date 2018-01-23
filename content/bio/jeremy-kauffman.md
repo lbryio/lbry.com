@@ -2,6 +2,7 @@
 name: Jeremy Kauffman
 role: Founder, Chief Executive Officer
 email: jeremy@lbry.io
+twitter: jeremykauffman
 github: kauffj
 ---
 
