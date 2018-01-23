@@ -1,4 +1,4 @@
-<?php Response::setMetaDescription('Join Us') ?>
+<?php Response::setMetaDescription('Like contributing to digital freedom and making money? Why not both? LBRY is hiring!') ?>
 <?php Response::addMetaImage('https://spee.ch/@lbryteam/everyone.jpg') ?>
 <?php echo View::render('nav/_header', ['isDark' => false]) ?>
 <main>
