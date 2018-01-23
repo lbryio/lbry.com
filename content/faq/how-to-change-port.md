@@ -11,7 +11,7 @@ To change the port once during runtime, set the LBRY_PEER_PORT env variable. Her
 
 Once the daemon is running, you can change the port permanently by using the following [api](/api) call
 
-    curl 'http://localhost:5279/lbryapi' --data '{"method":"settings_set", "params":{"peer_port":<port-num>}}'
+    curl 'http://localhost:5279' --data '{"method":"settings_set", "params":{"peer_port":<port-num>}}'
 
 or via cli command
 

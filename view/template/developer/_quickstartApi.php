@@ -1,6 +1,6 @@
 <h3 id="api">API Basics</h3>
 <p>
-  When running, the LBRY daemon provides a JSON-RPC server running at <code class="code-inline">http://localhost:5279/lbryapi</code>.
+  When running, the LBRY daemon provides a JSON-RPC server running at <code class="code-inline">http://localhost:5279</code>.
 </p>
 <p>
   It can be accessed by any utility capable of making HTTPS GET and POST requests, such as cURL or possibly your toaster. On Windows? You can also use PowerShell. <a class="link-primary" href="#windows">Learn more</a>.
@@ -8,7 +8,7 @@
 <p>
   To verify the LBRY daemon is running correctly, let's try looking up a URI:
 </p>
-<code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"resolve","params":{"uri":"what"}}'
+<code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279' --data '{"method":"resolve","params":{"uri":"what"}}'
 <span class="code-bash__response">[
   {
     "author": "Samuel Bryan",
@@ -35,7 +35,7 @@
 <p>
   Now let's download it. This time we're going to call the method <code class="code-inline">get</code> with the same parameters.
 </p>
-<code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"get","params":{"uri":"what"} }'
+<code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279' --data '{"method":"get","params":{"uri":"what"} }'
 <span class="code-bash__response">[
   {
     <span class="code-bash__comment">//some response fields omitted for brevity</span>
@@ -52,14 +52,14 @@
 <p>This file will download in the background to the <code class="code-inline">download_directory</code> specified in the returned data. Subsequent calls to <code class="code-inline">get</code> or <code class="code-inline">file_list</code> will return the status.</p>
 <p>The LBRY API consists of about 50 calls, all related to discovering, distributing, and purchasing content. <a class="link-primary" href="/api">View the full API documentation</a>.</p>
 <p>You can also list all of the commands available by calling the <span class="code-plan">help</span> command.</p>
-<code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279/lbryapi' --data '{"method":"help"}'
+<code class="code-bash"><span class="code-bash__prompt">$</span>curl 'http://localhost:5279' --data '{"method":"help"}'
 </code>
 <h3 id="windows">Windows</h3>
 <p>If you are running Windows and would like to follow this guide you could substitute curl with a PowerShell console and the following code.
 </p>
-<code class="code-bash"><span class="code-bash__prompt">$</span>Invoke-RestMethod -Uri 'http://localhost:5279/lbryapi' -Body 'THE_JSON_DATA' -Method POST  | ConvertTo-Json
+<code class="code-bash"><span class="code-bash__prompt">$</span>Invoke-RestMethod -Uri 'http://localhost:5279' -Body 'THE_JSON_DATA' -Method POST  | ConvertTo-Json
 </code>
 <p>If PowerShell does not work and you want to continue with cURL, you'll need to escape inner double quotes with a \ to pass the JSON properly via Command Prompt.
 </p>
-<code class="code-bash"><span class="code-bash__prompt">$</span>curl "http://localhost:5279/lbryapi" --data "{\"method\":\"get\",\"params\":{\"uri\":\"what\"} }"
+<code class="code-bash"><span class="code-bash__prompt">$</span>curl "http://localhost:5279" --data "{\"method\":\"get\",\"params\":{\"uri\":\"what\"} }"
 </code>
