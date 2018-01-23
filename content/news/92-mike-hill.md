@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'Masterclass Blast'
 date: '2017-01-26 00:17:00'
 cover: 'mikehill-banner.png'

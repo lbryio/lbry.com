@@ -1,5 +1,5 @@
 ---
-author: jeremy
+author: jeremy-kauffman
 title: 'How Is LBRY different from iTunes, Storj, YouTube, BitTorrent and Others?'
 date: '2016-10-11 00:06:18'
 cover: 'lbry-desk.png'

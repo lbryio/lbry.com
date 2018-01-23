@@ -1,5 +1,5 @@
 ---
-author: mike
+author: mike-vine
 title: Renowned IP Attorney Kinsella Joins LBRY As Legal Advisor
 date: '2015-10-29 13:57:25'
 ---

@@ -1,5 +1,5 @@
 ---
-author: jeremy
+author: jeremy-kauffman
 title: As Reddit Burns, It Powers The World
 date: '2015-06-11 11:34:52'
 ---

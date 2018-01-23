@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'Integrity 2.0'
 date: '2017-02-23 00:20:00'
 cover: 'timcast-banner.jpg'

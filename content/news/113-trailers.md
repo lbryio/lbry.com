@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'Trailer Park Punks'
 date: '2017-06-01 00:19:00'
 cover: 'trailers-banner.png'

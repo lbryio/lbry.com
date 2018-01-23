@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'It’s a Bird, It’s a Plane, It’s Pub Domain Superman!'
 date: '2016-09-29 00:06:00'
 cover: 'superman-banner.png'

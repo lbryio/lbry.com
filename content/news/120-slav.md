@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'Throwback Throwdown'
 date: '2017-07-13 00:03:00'
 cover: 'slav-banner.jpg'

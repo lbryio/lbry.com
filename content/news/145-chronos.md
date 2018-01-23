@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'The Crypto Chronosphere'
 date: '2017-11-30 00:20:00'
 cover: 'chronos-banner.png'

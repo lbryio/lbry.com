@@ -1,5 +1,5 @@
 ---
-author: mike
+author: mike-vine
 title: Mike Vine Joins LBRY as Technology Evangelist
 date: '2015-10-22 15:55:07'
 ---

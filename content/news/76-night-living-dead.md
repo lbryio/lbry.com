@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'Braaains!'
 date: '2016-10-20 00:06:00'
 cover: 'notld-banner.png'

@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'buy it, use it, break it, fix it'
 date: '2017-09-21 00:20:30'
 cover: 'eev-banner.jpg'

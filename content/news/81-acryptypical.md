@@ -1,5 +1,5 @@
 ---
-author: jeremy
+author: jeremy-kauffman
 title: 'Acryptypical: The CEO of LBRY on the Price of LBC'
 date: '2016-11-15 11:40:00'
 ---

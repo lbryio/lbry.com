@@ -135,7 +135,7 @@ class ContentActions extends Actions
     Response::enableHttpCache();
 
     $posts = Post::find(static::VIEW_FOLDER_CREDIT_REPORTS);
-    
+
     return ['content/credit-reports', [
       'posts' => $posts
     ]];
@@ -344,6 +344,7 @@ class ContentActions extends Actions
       'bioHtml'     => $bioHtml,
       'orientation' => 'vertical'
     ];
+
   }
 
   public static function preparePostAuthorPartial(array $vars): array

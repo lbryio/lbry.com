@@ -1,5 +1,5 @@
 ---
-author: jeremy
+author: jeremy-kauffman
 title: RPI Hackers Meet LBRY (Notes and Slides from RCOS Presentation)
 date: '2015-11-17 01:29:07'
 ---
@@ -27,6 +27,3 @@ The RCOS attendees expressed a lot of interest in LBRY and asked some great ques
 We were also able to listen to a number of presentations by students, with the most interesting being [Pandamonium](https://github.com/mwdewey/pandamonium), a "network emulator for testing chaotic environments". In our estimation, one could certainly test chaos with this device indeed.
 
 Additional thanks to [Mukkai Krishnamoorthy](http://www.cs.rpi.edu/~moorthy/) who hosted us.
-
-
-

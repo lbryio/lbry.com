@@ -1,5 +1,5 @@
 ---
-author: jeremy
+author: jeremy-kauffman
 title: 'Latest LBRY App Adds New First Run, Wallet, Invites, Rewards and More'
 date: '2017-08-31 15:19:00'
 ---
@@ -18,10 +18,10 @@ For immediate notification of releases, you can watch the project on GitHub.
   * Added past history of rewards to the rewards page.
   * Added wallet backup guide reference.
   * Added a new widget for setting prices (`FormFieldPrice`), used in Publish and Settings.
-  
+
 ### Changed
   * Updated to daemon [0.15](https://github.com/lbryio/lbry/releases). Most relevant changes for app are improved announcing of content and a fix for the daemon getting stuck running.
-  * Significant refinements to first-run process, process for new users, and introducing people to LBRY and LBRY credits. 
+  * Significant refinements to first-run process, process for new users, and introducing people to LBRY and LBRY credits.
 ![New Reward Enrollment](https://spee.ch/9/newlbryrewardproof.png)
   * Changed Wallet landing page to summarize status of other areas. Refactored wallet and transaction logic.
   * Added icons to missing page, improved icon and title logic.
@@ -56,4 +56,3 @@ For immediate notification of releases, you can watch the project on GitHub.
 ### Removed
   * Removed the label "Max Purchase Price" from settings page. It was redundant.
   * Unused old files from previous commit(9c3d633)
-

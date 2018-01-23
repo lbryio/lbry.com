@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'Stay Positive'
 date: '2016-12-29 00:03:00'
 cover: 'positive-banner.jpg'

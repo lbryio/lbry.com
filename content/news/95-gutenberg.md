@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'WANTED: Open Libraries'
 date: '2017-02-16 00:15:00'
 cover: 'gutenberg-banner.jpg'

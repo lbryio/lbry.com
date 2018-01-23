@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: '’Tis the Season'
 date: '2016-12-08 00:12:00'
 cover: 'jingle-banner.PNG'

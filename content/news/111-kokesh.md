@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: '...it isn’t free'
 date: '2017-05-11 00:19:30'
 cover: 'kokesh-banner.jpg'

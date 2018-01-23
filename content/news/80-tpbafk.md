@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'Political Action via Creation'
 date: '2016-11-10 00:06:00'
 cover: 'tpb-banner.jpg'

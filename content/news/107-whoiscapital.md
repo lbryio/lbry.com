@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'Get Lit on Rhymes'
 date: '2017-04-20 00:20:00'
 cover: 'capital-banner.png'

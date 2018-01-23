@@ -1,10 +1,10 @@
 ---
-author: jeremy
+author: jeremy-kauffman
 title: Pop-Up Open Beta
 date: '2017-07-31 13:31:31'
 ---
 
-## Starting immediately, anyone can watch awesome stuff on LBRY and earn free rewards. 
+## Starting immediately, anyone can watch awesome stuff on LBRY and earn free rewards.
 
 _Want to avoid icky words and just install LBRY, laugh at things, and earn your magic internet credits? [Go here](https://lbry.io/get)._
 

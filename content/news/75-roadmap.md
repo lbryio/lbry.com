@@ -1,5 +1,5 @@
 ---
-author: jeremy
+author: jeremy-kauffman
 title: 'Open Beta? New Features? Keep Your Eye on the LBRY Roadmap'
 date: '2016-10-17 00:06:18'
 cover: 'lbry-3d-1000.png'
@@ -16,18 +16,18 @@ But LBRY is a ground-breaking technology, so the real (and most asked) question 
 
 Our roadmap will keep you up-to-date on LBRY’s development as we release new versions (every two weeks) on the way to a full public release. It contains:
 
-- A history of previous releases and features. 
+- A history of previous releases and features.
 - Immediate and forthcoming updates.
-- Broader development goals. 
+- Broader development goals.
 
 The nature of pushing into new frontiers means we must to some extent chart the course as we go. It’s a measure-twice-cut-once plan; we want each release to progress smoothly, with as little backtracking as possible.
 
 Along the way, we are actively taking feedback from beta users and testers and incorporating it into the development, which will affect the timeline. So keep a close eye on it, because it will be fluid. Here are some big milestones coming up:
 
-- Windows version of the LBRY app to be released next week 
+- Windows version of the LBRY app to be released next week
 - Publisher channels in November
-- A technical white paper by February 
+- A technical white paper by February
 
-[Check out the roadmap](https://lbry.io/roadmap) for more details and upcoming developments. 
+[Check out the roadmap](https://lbry.io/roadmap) for more details and upcoming developments.
 
-If you see something missing or believe we’re overlooking something, please let us know! You can suggest additions and changes to the LBRY app by [posting to our subreddit](https://www.reddit.com/r/lbry/) or calling us out [on Twitter](https://twitter.com/lbryio). Or if you want to speak directly with the LBRY team, [join our Discord chat](http://chat.lbry.io/). 
+If you see something missing or believe we’re overlooking something, please let us know! You can suggest additions and changes to the LBRY app by [posting to our subreddit](https://www.reddit.com/r/lbry/) or calling us out [on Twitter](https://twitter.com/lbryio). Or if you want to speak directly with the LBRY team, [join our Discord chat](http://chat.lbry.io/).

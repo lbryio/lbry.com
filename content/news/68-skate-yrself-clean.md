@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'Skate, Relax, Enjoy'
 date: '2016-09-22 00:06:00'
 cover: 'skate-banner.png'

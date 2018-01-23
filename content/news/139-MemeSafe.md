@@ -1,5 +1,5 @@
 ---
-author: Brinck
+author: brinck-slattery
 title: '#MemeSafe'
 date: '2017-10-30 00:15:32'
 cover: ''
@@ -22,6 +22,6 @@ cover: ''
 * Tweet your GIF/video/meme with its Spee.ch URL and the hashtag #MemeSafe
 * Rewards will be given for participation and the user who posts the entry with the most favorites and retweets at the end of the week will receive 1,000 LBRY credits
 
-That’s it! No purchase necessary. The deadline for entries is 11:59 PM PT on Sunday, November 5, 2017. If you are a winner on Twitter, we will DM you to get your wallet address and send your rewards. 
+That’s it! No purchase necessary. The deadline for entries is 11:59 PM PT on Sunday, November 5, 2017. If you are a winner on Twitter, we will DM you to get your wallet address and send your rewards.
 
 Finally, in case you are a government agent tasked with the legal enforcement of contents and/or just like fine print, here are our [giveaway terms and conditions](https://lbry.io/faq/contest-t-and-cs).

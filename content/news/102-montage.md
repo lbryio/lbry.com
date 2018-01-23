@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'Ragequit the NoobTube'
 date: '2017-03-23 00:16:00'
 cover: 'montage-banner.PNG'

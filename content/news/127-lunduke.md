@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'Kernels of Truth'
 date: '2017-08-24 00:22:00'
 cover: 'lunduke-banner.jpg'

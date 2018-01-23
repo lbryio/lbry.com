@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'React. Or don't.'
 date: '2017-09-28 00:22:30'
 cover: 'nurdrage-banner.jpg'

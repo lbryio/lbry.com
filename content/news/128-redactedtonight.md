@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'Real Talk'
 date: '2017-08-31 00:19:00'
 cover: 'redactedtonight-banner.jpg'

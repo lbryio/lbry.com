@@ -1,5 +1,5 @@
 ---
-author: jeremy
+author: jeremy-kauffman
 title: 'We\'re on the Verge of Complete Cryptocurrency Deregulation'
 date: '2017-03-08 11:38:00'
 cover: 'crypto-dereg.jpg'

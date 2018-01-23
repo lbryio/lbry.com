@@ -1,5 +1,5 @@
 ---
-author: jeremy
+author: jeremy-kauffman
 title: "Testimony to Subcommittee on NH HB552, To Legalize Bitcoin for Payments of Taxes and Fees"
 date: '2015-09-17 02:49:17'
 ---

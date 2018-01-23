@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'Filthy Casual'
 date: '2017-03-02 00:16:00'
 cover: 'ohgee-banner.png'

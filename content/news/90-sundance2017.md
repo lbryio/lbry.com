@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'Movie Soup for the Soul'
 date: '2017-01-19 00:16:00'
 cover: 'sundance-banner.png'

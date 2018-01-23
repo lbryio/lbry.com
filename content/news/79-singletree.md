@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'Crudely Satisfying'
 date: '2016-11-03 00:06:00'
 cover: 'singletree.png'

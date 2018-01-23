@@ -1,5 +1,5 @@
 ---
-author: jimmy
+author: jimmy-kiselak
 title: Why Not Use Bitcoin? A Dialogue
 date: '2015-09-23 17:57:00'
 cover: 'why-not-bitcoin.jpg'

@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'Listen Up'
 date: '2016-12-01 00:06:00'
 cover: 'podcast-banner.png'
@@ -21,5 +21,3 @@ Katie and Will keep the candid going and add a dash of deep analysis: from why G
 
 
 >**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Have a podcast you love? Email reilly@lbry.io and we’ll get it on LBRY.
-
-

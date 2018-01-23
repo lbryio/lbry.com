@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'Pls Explain, Thx'
 date: '2017-08-17 00:15:00'
 cover: 'casually-banner.png'

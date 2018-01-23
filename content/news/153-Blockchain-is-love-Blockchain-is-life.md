@@ -1,5 +1,5 @@
 ---
-author: jeremy
+author: jeremy-kauffman
 title: 'Blockchain Is Love, Blockchain Is Life'
 date: '2018-01-10 09:45:00'
 cover: 'Sunrise1.jpg'
@@ -33,7 +33,7 @@ To be clear: this is possible today. It's been possible for decades. There's no 
 # Enter Blockchain
 Now, suppose we wanted to create Facebook Protocol in a world where blockchain exists. Let's call it PeopleChain.
 
-PeopleChain is a blockchain database that stores the same data that Facebook would (i.e. it stores profiles, posts, user friendships, groups, etc.) But because it is a public blockchain database, no one owns it. 
+PeopleChain is a blockchain database that stores the same data that Facebook would (i.e. it stores profiles, posts, user friendships, groups, etc.) But because it is a public blockchain database, no one owns it.
 
 Anyone can access and read the data inside of it, and anyone can build services that use it (note: this doesn't imply some fully transparent version of Facebook, it would still be possible to have analogous privacy and access rules via encryption). And in addition, because it is a blockchain database, it means that it utilizes some kind of blockchain token.
 
@@ -41,7 +41,7 @@ This token has value in proportion to the usage and success of the network.
 
 **This is a revolution in the incentives around protocol creation.**
 
-It means that the people who discover and utilize a new protocol or network when it’s just getting off the ground can reap substantial value by being there first. This solves the incentive problems around being a first-mover and softens the pain of using a service that probably won't be as feature-rich or slick as established competitors’ options. It provides a source of funding for the development of the protocol. The creators can use the token to pay for the salaries and equipment required to get it started. 
+It means that the people who discover and utilize a new protocol or network when it’s just getting off the ground can reap substantial value by being there first. This solves the incentive problems around being a first-mover and softens the pain of using a service that probably won't be as feature-rich or slick as established competitors’ options. It provides a source of funding for the development of the protocol. The creators can use the token to pay for the salaries and equipment required to get it started.
 
 It also aligns incentives: the developers have incentive to make the protocol maximally successful. If they take actions that users dislike, the service can be forked, and anyone can create a new version.
 
