@@ -16,6 +16,8 @@ The Problem: Every large consumer internet company actively works to make a user
 
 And it's not just the cable and phone companies that immediately spring to mind as monopolistic monsters engaging in this behavior - internet favorites like Reddit, Facebook, and YouTube are all guilty.
 
+Even platforms that are ostensibly designed with the user’s control and privacy in mind can end up abusing users when they’re centrally controlled. WhatsApp comes to mind. WhatsApp built a huge global user base claiming to put users above advertisers. Then Facebook bought it. Now users may well have their personal phone numbers and metadata mined for Facebook’s advertising algorithms.
+
 Last week, we asked our users to send over some examples of tech companies treating their customers badly, and [the response](https://www.reddit.com/r/lbry/comments/7nx6v0/can_you_help_us_collect_examples_of_hostile_tech/) was overwhelming. Take a look at these examples from some of the most popular services and companies in use today. This is not meant to be an exhaustive list of companies being actively hostile to users, as the whole list could probably fill its own book.
 
 # Tech Giants Hate You: The Proof
