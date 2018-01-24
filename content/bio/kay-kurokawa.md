@@ -2,6 +2,8 @@
 name: Kay Kurokawa
 role: Protocol Developer
 email: kay@lbry.io
+twitter: kaykurokawa
+github: kaykurokawa
 ---
 Kay Kurokawa is the primary developer for the LBRY blockchain, the foundation of the LBRY protocol. Kay first discovered Bitcoin in 2013 and immediately saw its potential. Before LBRY, he provided consultation services to blockchain startups and contributed to various open source projects such as Electrum, Litecoin, Dogecoin, and Blocknet.
 
