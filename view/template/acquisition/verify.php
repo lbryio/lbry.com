@@ -22,7 +22,7 @@
       };
       var expiredCallback = function() {
         document.getElementById("success").style.display = "none";
-          document.getElementById("captcha-block").style.display = "block";
+        document.getElementById("captcha-block").style.display = "block";
       }
   </script>
 </head>
