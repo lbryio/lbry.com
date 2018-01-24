@@ -18,9 +18,11 @@
         document.getElementById("magic-link-text").textContent = payload;
         document.getElementById("magic-link-text-windows").value = payload;
         document.getElementById("success").style.display = "block";
+        document.getElementById("captcha-block").style.display = "none";
       };
       var expiredCallback = function() {
         document.getElementById("success").style.display = "none";
+        document.getElementById("captcha-block").style.display = "block";
       }
   </script>
 </head>
@@ -28,11 +30,15 @@
   <div style="display: flex; align-items: center; flex-direction: column;" class="text-center">
     <img src="/img/lbry-dark-1600x528.png" style="max-height: 80px; margin-top: 50px;" alt="LBRY"/>
     <h1>Almost Done!</h1>
-    <p>Click the captcha to continue...</p>
-    <div class="g-recaptcha" data-sitekey="6LcG_z0UAAAAAKBPDBhiJU_jI9cRNRiJwcUHq95u" data-callback="verifyCallback" data-expired-callback="expiredCallback"></div>
-    <div style="display: none; margin-top: 10px;" id="success">
+    <div id="captcha-block">
+      <p>Click the captcha to continue...</p>
+      <br/>
+      <div class="g-recaptcha" data-sitekey="6LcG_z0UAAAAAKBPDBhiJU_jI9cRNRiJwcUHq95u" data-callback="verifyCallback" data-expired-callback="expiredCallback"></div>
+    </div>
+    <div style="  display: none; margin-top: 10px;" id="success">
       <div id="non-windows">
         <p>Now click the magic link below to verify your identity in app...</p>
+        <br/>
         <a class="btn-primary btn-large spacer1" onclick="location.href=magicLink">Magic Link</a>
         <p><i>Does the magic link not work? Not on the same device as the app? Paste this text into the verification screen instead.</i></p>
         <code class="multiline-code" id="magic-link-text"></code>
