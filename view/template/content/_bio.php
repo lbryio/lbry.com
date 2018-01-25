@@ -14,6 +14,9 @@
       <?php if (isset($twitter)): ?>
         <a href="https://www.twitter.com/<?php echo $twitter?>" class="link-primary"><span class="icon icon-twitter"></span></a>
       <?php endif ?>
+      <?php if (isset($facebook)): ?>
+        <a href="https://www.facebook.com/<?php echo $facebook?>" class="link-primary"><span class="icon icon-facebook"></span></a>
+      <?php endif ?>
     </h4>
     <div class="meta spacer1"><?php echo $role ?></div>
     <div class="markdown">
