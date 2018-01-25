@@ -92,7 +92,15 @@
     {
       max-width: $max-text-width;
       margin-left: auto;
-      margin-right: auto;
+      margin-right: auto; 
+      + li
+      {
+        margin-top: $spacing-vertical;
+      }
+      > ul > li, > ol > li
+      {
+        margin-top: $spacing-vertical / 2;
+      }
     }
     &.no-style
     {
@@ -112,10 +120,6 @@
     &:last-child
     {
       margin-bottom: $spacing-vertical / 2;
-    }
-    > li + li
-    {
-      margin-top: $spacing-vertical;
     }
   }
   ol
@@ -161,7 +165,6 @@
           }
         }
       }
-      + li { margin-top: $spacing-vertical; }
     }
   }
   img
