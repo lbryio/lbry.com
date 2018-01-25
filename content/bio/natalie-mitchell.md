@@ -2,6 +2,7 @@
 name: Natalie Mitchell
 role: Director of Growth and Branding
 email: natalie@lbry.io
+github: blckchnprncss 
 ---
 Natalie has been interested in blockchain technology and open-source everything since the early days of Bitcoin, and has been recruiting, managing operations, and coaching top notch talent to success for even longer.
 
