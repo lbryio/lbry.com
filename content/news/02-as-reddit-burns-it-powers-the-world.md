@@ -28,7 +28,7 @@ Even more important than his words, I've seen what he *did*. Attempting to share
 
 I have met Alexis Ohanian, briefly. I have read *Without Their Permission*. Alexis' words aren't bad. He encourages entrepreneurship, attacking problems, and improving the world. He also encourages going around those who would protect the entrenched, obstinate, and broken status quo.
 
-When I met Alexis a few years ago, I had the chance to ask him a question. I asked him something like: if you believe in idea of routing around the rotten, why not put more energy into projects like that? Why not put resources into projects like Tor, Bitcoin, Bittorrent, or other technology that does the things he describes?
+When I met Alexis a few years ago, I had the chance to ask him a question. I asked him something like: if you believe in idea of routing around the rotten, why not put more energy into projects like that? Why not put resources into projects like Tor, Bitcoin, BitTorrent, or other technology that does the things he describes?
 
 Alexis, at first, faltered. Then he gave me an answer about how there are difficult choices to make and it's important to work from within and from without. It wasn't a terrible answer, but it was a politician's answer. In those first few seconds I saw the mask drop. I saw a man's mind spinning a way to justify his true motivations: status and power. Those motivations are not inherently objectionable, but hypocrisy is.
 
