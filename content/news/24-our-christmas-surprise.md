@@ -4,7 +4,7 @@ title: Our Christmas Surprise!
 date: '2015-12-24 02:27:31'
 ---
 
-We at LBRY have spent the past several months talking up our protocol. It’s the world’s first decentralized, censorship-resistant, open-source, peer-to-peer information marketplace. It’s one part Bitcoin, one part Bittorrent, and one part improved DNS. It takes uploaded media, encrypts it, splits it into a thousand pieces, and sends it to hosts around the world – only to reassemble it instantly when you click “Stream” or “Download.” That is to say, it’s a fancy and complicated piece of machinery.
+We at LBRY have spent the past several months talking up our protocol. It’s the world’s first decentralized, censorship-resistant, open-source, peer-to-peer information marketplace. It’s one part Bitcoin, one part BitTorrent, and one part improved DNS. It takes uploaded media, encrypts it, splits it into a thousand pieces, and sends it to hosts around the world – only to reassemble it instantly when you click “Stream” or “Download.” That is to say, it’s a fancy and complicated piece of machinery.
 
 “But what can we *DO* with it?”, you ask.
 
