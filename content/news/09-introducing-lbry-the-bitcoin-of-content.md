@@ -28,7 +28,7 @@ Here’s what a publisher and patron relationship looks like in LBRY:
 
 1. John’s LBRY client seamlessly streams or downloads the film by collecting the pieces from the hosts and reassembling them.
 
-Every party to this transaction has had a better experience than they would have with ad-supported platforms like Youtube, subscription services like Netflix, or hunting for torrent links.
+Every party to this transaction has had a better experience than they would have with ad-supported platforms like YouTube, subscription services like Netflix, or hunting for torrent links.
 
 For publishers, LBRY is the least expensive content distribution platform available – and increases the likelihood that they will get paid for their content. Content remains entirely in the control of the publisher, with no licensing or other claims by LBRY. In fact, by design, the content publisher retains complete control of their works – LBRY has no “admins” who even have the ability to remove content from the network. They can also offer their content at memorable, branded names like “lbry://futurelibraryfilm”, rather than pointing patrons to a centralized URL or complicated magnet link.
 
