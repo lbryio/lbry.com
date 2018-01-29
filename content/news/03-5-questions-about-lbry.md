@@ -35,7 +35,7 @@ of their content nor, from a technical perspective, do they possess it. However,
 legal advice nor a promise.
 
 
-### 3. If LBRY is Bitcoin + Bittorrent, why does it not use the Bitcoin blockchain?
+### 3. If LBRY is Bitcoin + BitTorrent, why does it not use the Bitcoin blockchain?
 
 We spent a lot of time debating whether it was possible to build LBRY on top of Bitcoin. We certainly wanted to, as Bitcoin
 offers a tremendous user base.
