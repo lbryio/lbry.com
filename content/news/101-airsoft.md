@@ -6,7 +6,7 @@ cover: 'airsoft-banner.png'
 ---
 One of the biggest perks of the early days of LBRY continues to be the discovery of content creators that never even occurred to me as a thing.
 
-A niche stumbles into our inbox (this time with the [LBRY-youtube sync tool here](https://api.lbry.io/yt/connect)) and what you *thought* was a niche reveals itself as an entire world to explore.
+A niche stumbles into our inbox (this time with the [LBRY-YouTube sync tool here](https://api.lbry.io/yt/connect)) and what you *thought* was a niche reveals itself as an entire world to explore.
 
 We’re going off the grid and off the rails. Gear up, soldier, and enter Amped Airsoft.
 
