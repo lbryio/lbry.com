@@ -8,25 +8,26 @@ Depending on which OS and wallet you use, LBRY files may be stored in several pl
 ## Windows
 
 - `C:\Program Files (x86)\LBRY` - LBRY application itself
-- `C:\Users\%USER%\AppData\Roaming\lbrynet` - Daemon configuration and blobs
-- `C:\Users\%USER%\AppData\Roaming\lbryum` - Wallet and blockchain headers (if using the app or the lbryum wallet)
+- `C:\Users\%USER%\AppData\Local\lbry\lbrynet` or `%localappdata%\lbry\lbrynet` - Daemon configuration and blobs
+- `C:\Users\%USER%\AppData\Local\lbry\lbryum` or `%localappdata%\lbry\lbryum` - Wallet and blockchain headers
 
-*\*If you originally installed v0.14 and up, you will find the lbrynet and lbryum directories in `%localappdata%/lbry`*
+*\*If you originally installed v0.14 and below, you will find the lbrynet and lbryum directories in `%appdata%`*
 
 ## MacOS
 
 - `~/Library/Application Support/LBRY` - LBRY application and data files
 - `~/Library/Application Support/lbrycrd` - Wallet and blockchain (if using lbrycrdd wallet)
-- `~/.lbrycrd` - Alternate location for lbrycrdd wallet and blockchain
 - `~/.lbryum` - Wallet and blockchain headers (if using the app or the lbryum wallet)
+- `~/.lbrycrd` - Location for [lbrycrdd](https://lbry.io/faq/standalone-wallet) full blockchain data (separate install)
+
 
 *Hint: copy/paste the above directories into Finder - Click `Go` from the Finder top menu bar, then `Go To Folder`*
 
 ## Linux
 
 - `/opt/LBRY` - LBRY application itself
-- `~/.lbrynet` - Daemon configuration and blobs
-- `~/.lbryum` - Wallet and blockchain headers (if using the app or the lbryum wallet)
-- `~/.lbrycrd` - Wallet and blockchain (if using lbrycrdd wallet)
+- `~/.local/share/lbry/lbrynet` - Daemon configuration and blobs
+- `~/.local/share/lbry/lbryum` - Wallet and blockchain headers (if using the app or the lbryum wallet)
+- `~/.lbrycrd` - Location for [lbrycrdd](https://lbry.io/faq/standalone-wallet) full blockchain data (separate install)
 
-*\*If you originally installed v0.14 and up, you will find the lbrynet and lbryum directories in `~/.local/share/lbry`*
+*\*If you originally installed v0.14 and below, you will find the lbrynet and lbryum directories in `~/.lbrynet` / `~/.lbryum`*
