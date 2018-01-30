@@ -62,7 +62,11 @@
                 <?php endif ?>
               </h3>
               <div class="roadmap-item-date">
+                <?php if (isset($item['quarter_date'])): ?>
+                <?php echo $item['quarter_date'] ?>
+                  <?php else: ?>
                 <?php echo $item['date'] ? date('m-d-Y', strtotime($item['date'])) : '' ?>
+                  <?php endif ?>
               </div>
               <div class="roadmap-item-content">
                 <?php echo $item['body'] ?: '<em class="no-results">No description</em>' ?>

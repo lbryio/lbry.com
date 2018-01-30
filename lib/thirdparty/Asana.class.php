@@ -48,7 +48,8 @@ class Asana
               'body'          => nl2br($fullTask['notes']),
               'group'         => $tagLabel,
               'project_id'    => $projectId,
-              'assignee'      => $fullTask['assignee'] ? ucwords($fullTask['assignee']['name']) : ''
+              'assignee'      => $fullTask['assignee'] ? ucwords($fullTask['assignee']['name']) : '',
+              'quarter_date'  => 'Q' . self::dateToQuarter($fullTask['due_on']) . ' ' . (string) date('Y', strtotime($fullTask['due_on']))
             ];
         }
       }
@@ -88,6 +89,12 @@ class Asana
 
     $responseData = CurlWithCache::get('https://app.asana.com/api/1.0' . $endpoint, $data, $options);
     return $responseData['data'] ?? [];
+  }
+
+  // Converts date to quarter
+  protected static function dateToQuarter($date)
+  {
+    return $quarter = (string)ceil(date('m', strtotime($date))/3);
   }
 }
 
