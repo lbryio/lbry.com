@@ -1,7 +1,7 @@
 ---
 author: brinck-slattery
 title: 'Verified Awesome'
-date: '2018-01-30 20:45:00'
+date: '2018-01-30 15:45:00'
 cover: ''
 ---
 ## Good news everyone! 
