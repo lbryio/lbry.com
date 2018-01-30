@@ -5,7 +5,7 @@ category: other
 
 ### Why We Ask
 
-LBRY controls millions of credits that it wants to get into the hands of content creators and content consumers.
+LBRY controls [millions of credits](https://lbry.io/faq/credit-policy) that it wants to get into the hands of content creators and content consumers.
 
 Unfortunately, when you try to give stuff away for free, people will abuse it.
 
@@ -19,7 +19,7 @@ Your card information is submitted directly to [Stripe](https://stripe.com), one
 
 ### What If I Don't Want To Provide It?
 
-No problem! We've added two other verification methods - [YouTube Account Sync](https://lbry.io/faq/youtube) and manual verification via [Discord chat](https://chat.lbry.io). To begin manual verification, type **-new** in the #verification channel which will will create a ticket (channel) for your request. **Note: DO NOT message any team members or post in other channels about verification concerns. Rewards will only be granted on a 1 account per household basis**
+No problem! We've added three other verification methods - [Phone Verification](https://lbry.io/faq/phone), [YouTube Account Sync](https://lbry.io/faq/youtube) and manual verification via [Discord chat](https://chat.lbry.io). To begin manual verification, type **-new** in the #verification channel which will will create a ticket (channel) for your request. **Note: DO NOT message any team members or post in other channels about verification concerns. Rewards will only be granted on a 1 account per household basis**
 
 Otherwise, you are welcome to use the LBRY browser without providing any personal information. We just can't give you any rewards.
 
