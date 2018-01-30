@@ -1,7 +1,7 @@
 <?php Response::setMetaDescription(__('description.news')) ?>
 <?php echo View::render('nav/_header', ['isDark' => false]) ?>
 <main>
-  <div class="hero hero-quote hero-img spacer2" style="background-image: url(/img/ROA_5217.jpg)">
+  <div class="hero hero-quote hero-img spacer2" style="background-image: url(/img/cover-team.jpg)">
     <div class="hero-content-wrapper">
       <div class="hero-content text-center">
         <h1 class="cover-title">{{news.desk}}</h1>
