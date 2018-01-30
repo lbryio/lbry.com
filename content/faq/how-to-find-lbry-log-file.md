@@ -9,7 +9,7 @@ In certain cases, we may ask you to send us your log file(s).  The current log f
 
 ## Windows
 1. Open File Explorer.
-1. Type `%appdata%\lbrynet` (or `%localappdata%\lbry\lbrynet` if you originally installed v0.14 and up) into the address bar and click Enter.
+1. Type `%localappdata%\lbry\lbrynet` (`%appdata%\lbrynet` if you originally installed v0.14 or earlier) into the address bar and click Enter.
 2. Here you will see the `lbrynet.log` file and any archives. 
 
 ## MacOS
@@ -20,5 +20,5 @@ In certain cases, we may ask you to send us your log file(s).  The current log f
 
 ## Ubuntu / Linux *(Exact steps may differ slightly)* 
 1. Navigate to your home directory. Ensure hidden files and folders are shown if using a graphical file explorer.
-2. Navigate to the .lbrynet folder (or `.local/share/lbry/lbrynet` if you originally installed v0.14 and up).
+2. Navigate to the `.local/share/lbry/lbrynet` folder (`~/.lbrynet` if you originally installed v0.14 or earlier).
 3. Here you will see the `lbrynet.log` file and any archives. 
