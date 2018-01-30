@@ -16,7 +16,7 @@ bounty:
     pull_request_link: View the Pull Request
 description:
   faq: Frequently asked questions about LBRY.
-  get: Experience content freedom! Download the latest version of LBRY for Windows, mac OS, or Linux.
+  get: Experience content freedom! Download the latest version of LBRY for Windows, macOS, or Linux.
   home: Meet LBRY, a content sharing and publishing platform that is decentralized and owned by its users.
   join: Follow along and receive updates about LBRY via email.
   learn: Learn more about LBRY, the technology that puts you back in control of the internet.
@@ -135,7 +135,7 @@ page:
     advisory: Advisory Team
     alex:
       parag1: Alex Tabarrok is Bartley J. Madden Chair in Economics at the <a href="http://mercatus.org/" class="link-primary">Mercatus Center</a> and a professor of economics at <a href="https://gmu.edu" class="link-primary">George Mason University</a>. He specializes in intellectual property reform, the effectiveness of markets, and the justice system.
-      parag2: Tabarrok is the coauthor, with Mercatus colleague Tyler Cowen, of the popular economics blog <a class="link-primary" href="http://www.marginalrevolution.com/"><em>Marginal Revolution</em></a> and cofounder of the online educational platform <a class="link-primary" href="http://mruniversity.com/">Marginal Revolution University</a>. He is the coauthor of <em><a href="http://www.amazon.com/Modern-Principles-Economics-Tyler-Cowen/dp/1429239972" class="link-primary">Modern Principles of Economics</a></em>, and author of the recent book <em><a href="http://www.amazon.com/Launching-The-Innovation-Renaissance-Market-ebook/dp/B006C1HX24" class="link-primary">Launching the Innovation Renaissance</em></a>. His articles have appeared in the<em> New York Times</em>, the<em> Washington Post</em>, the<em> Wall Street Journal</em>, and many other prestigious publications.
+      parag2: Tabarrok is the co-author, with Mercatus colleague Tyler Cowen, of the popular economics blog <a class="link-primary" href="http://www.marginalrevolution.com/"><em>Marginal Revolution</em></a> and cofounder of the online educational platform <a class="link-primary" href="http://mruniversity.com/">Marginal Revolution University</a>. He is the coauthor of <em><a href="http://www.amazon.com/Modern-Principles-Economics-Tyler-Cowen/dp/1429239972" class="link-primary">Modern Principles of Economics</a></em>, and author of the recent book <em><a href="http://www.amazon.com/Launching-The-Innovation-Renaissance-Market-ebook/dp/B006C1HX24" class="link-primary">Launching the Innovation Renaissance</em></a>. His articles have appeared in the<em> New York Times</em>, the<em> Washington Post</em>, the<em> Wall Street Journal</em>, and many other prestigious publications.
       parag3: Tabarrok received his PhD in economics from <a class="link-primary" href="http://en.wikipedia.org/wiki/George_Mason_University" title="George Mason University">George Mason University</a>.
       title: Economic Advisor
     grin:
@@ -236,7 +236,7 @@ social:
   humanstext: Join the LBRY community.
   robotsheader: Robots
   robotstext: Make with us. All LBRY code is open source.
-  slack: Slack (chat)
+  discord: Discord (chat)
   tweets: Tweets by @LBRYio
 title:
   home: LBRY - Content Freedom
