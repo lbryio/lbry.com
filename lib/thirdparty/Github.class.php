@@ -108,7 +108,7 @@ class Github
   {
     $twoHoursInSeconds = 7200;
     return CurlWithCache::get('https://api.github.com' . $endpoint . '?' . http_build_query($params), [],
-      ['user_agent' => 'LBRY', 'json_response' => true, 'cache' => $cache === true ? $twoHoursInSeconds : $cache]);
+      ['headers' => ['Accept: application/vnd.github.v3.html+json'],'user_agent' => 'LBRY', 'json_response' => true, 'cache' => $cache === true ? $twoHoursInSeconds : $cache]);
   }
 
   public static function listRoadmapChangesets($cache = true)
@@ -163,7 +163,7 @@ class Github
             'patch_version' => (int)isset($matches[3]) ? $matches[3] : 0,
             'sort_key'      => (int)$matches[1] * 1000000 + (int)$matches[2] * 1000 + (int)($matches[3] ?? 0),
             'version'       => $matches[1] . '.' . $matches[2] . '.' . (isset($matches[3]) ? $matches[3] : ''),
-            'body'          => ParsedownExtra::instance()->text($release['body'])
+            'body'          => $release['body_html']
           ];
       }
     }
