@@ -20,8 +20,8 @@ class Asana
 
     $tags = [
       192699565737944 => 'Open Beta',
-      192699565737946 => 'Upcoming',
-      502841492992876 => 'Future'
+      542803886522122 => 'Upcoming',
+      542803886522120 => 'Future'
     ];
 
     foreach ($tags as $tagId => $tagLabel)
