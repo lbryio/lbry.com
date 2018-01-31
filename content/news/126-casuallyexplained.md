@@ -16,4 +16,4 @@ A regular on the front page of reddit and one of the funniest channels in existe
 
 Go to lbry://@CasuallyExplained to learn more about literally anything. It’s possibly the best edutainment channel on LBRY. And please consume [Casually Explained merchandise](http://casuallyexplained.com/) responsibly.
 
-**[Download LBRY today](https://lbry.io/get)**. Is your favorite channel not on LBRY? Help us feature what you want to see! Email reilly@lbry.io to make it happen. Or sync your own channel at: https://api.lbry.io/yt/connect
+**[Download LBRY today](https://lbry.io/get)**. Is your favorite channel not on LBRY? Help us feature what you want to see! Email reilly@lbry.io to make it happen. Or sync your own channel at: https://api.lbry.io/yt/connect?type=sync

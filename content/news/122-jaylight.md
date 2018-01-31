@@ -16,4 +16,4 @@ It’s a privilege to give you a sneak peek into this rising scene.
 
 Available now at <a href='lbry://light-versus-mcnamara'>lbry://light-versus-mcnamara</a>, the battle also features the legendary Jeff Ross, Tony Hinchcliffe and Comedy Central's Roast Battle season one champion Mike Lawrence as the three judges.
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Have comedy chops? Email reilly@lbry.io to make us laugh. Or sync your channel at: https://api.lbry.io/yt/connect
+**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Have comedy chops? Email reilly@lbry.io to make us laugh. Or sync your channel at: https://api.lbry.io/yt/connect?type=sync

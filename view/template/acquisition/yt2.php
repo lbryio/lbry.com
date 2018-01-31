@@ -149,7 +149,7 @@
       <h1>Sync &amp; Earn</h1>
       <p>LBRY offers a single-click sync process<br>for existing YouTubers</p>
       <div class="button">
-        <a href="https://api.lbry.io/yt/connect">Sync now</a>
+        <a href="https://api.lbry.io/yt/connect?type=sync">Sync now</a>
       </div>
     </div>
   </div>

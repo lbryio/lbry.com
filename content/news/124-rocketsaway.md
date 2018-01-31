@@ -36,4 +36,4 @@ As you can tell from [several](https://lbry.io/news/slav) [previous](https://lbr
 
 Check it out. Smash that Watch button. Listen to the illest (re)collection of sounds on LBRY.
 
-**[Download LBRY today](https://lbry.io/get)**. Is your favorite channel not on LBRY? They’re eligible for $250 LBC. Help us feature what you want to see! Email reilly@lbry.io to make it happen. Or sync your own channel at: https://api.lbry.io/yt/connect
+**[Download LBRY today](https://lbry.io/get)**. Is your favorite channel not on LBRY? They’re eligible for $250 LBC. Help us feature what you want to see! Email reilly@lbry.io to make it happen. Or sync your own channel at: https://api.lbry.io/yt/connect?type=sync

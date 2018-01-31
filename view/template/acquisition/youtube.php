@@ -63,7 +63,7 @@
             </li>
           </ol>
           <div class="text-center spacer2">
-              <a href="https://api.lbry.io/yt/connect" class="btn-alt">Sync Channel</a>
+              <a href="https://api.lbry.io/yt/connect?type=sync" class="btn-alt">Sync Channel</a>
           </div>
           <div class="meta">*Unpublishing means removing the ability to decrypt and accessing your content via LBRY, but we cannot guarantee the deletion of all encrypted data.</div>
         </div>

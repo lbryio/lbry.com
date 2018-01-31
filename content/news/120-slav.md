@@ -19,4 +19,4 @@ They are one of the biggest musical channels to take bitcoin donations--now itâ€
 Sample some Slav Records below, courtesy of Spee.ch and served directly from the LBRY network.
 <video width="100%" controls><source src="https://spee.ch/2b9183ac19d937d2a787fcdd0d1c2cd285c52f4f/slav-luz1e.mp4" /></video>
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Want to show us how to get down? Email reilly@lbry.io with your hottest beats. Or sync your channel at: https://api.lbry.io/yt/connect
+**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Want to show us how to get down? Email reilly@lbry.io with your hottest beats. Or sync your channel at: https://api.lbry.io/yt/connect?type=sync

@@ -21,7 +21,7 @@ If we ever finish DIY building the LBRY network, we think there might be a futur
 
 We agree, Mr. Smith.
 
-DIY Auto Body and Paint joined LBRY via the YouTube-LBRY API tool: https://api.lbry.io/yt/connect
+DIY Auto Body and Paint joined LBRY via the YouTube-LBRY API tool: https://api.lbry.io/yt/connect?type=sync
 Find more of Donnie’s work and courses at: http://www.collisionblast.com/
 
 **Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Want to share your DIY madness? Email reilly@lbry.io to spread your knowledge. And maybe humblebrag, too.

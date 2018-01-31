@@ -19,4 +19,4 @@ Check him out soon on LBRY at:
 
 If you're sick of Bandcamp or Spotify, LBRY could be your new outlet.
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Have tabs for sale or girls to impress with your strumming? Email reilly@lbry.io to be super cool. Or sync your channel at: https://api.lbry.io/yt/connect
+**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Have tabs for sale or girls to impress with your strumming? Email reilly@lbry.io to be super cool. Or sync your channel at: https://api.lbry.io/yt/connect?type=sync
