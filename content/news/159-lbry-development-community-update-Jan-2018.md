@@ -2,6 +2,7 @@
 author: tom-zarebczan
 title: 'Development and Community Update January 2018'
 date: '2018-02-02 5:00:00'
+cover: 'wooden-letters-banner.jpg'
 ---
 In December, we published the [first ever LBRY Development and Community update](https://lbry.io/news/lbry-development-community-update-1) and we will continue these updates at the end of each month to keep each and every LBRYian up to date on our quest to revolutionizing content discovery, sharing and monetization! 
 
