@@ -6,6 +6,12 @@
   lbry.roadmap('#project-roadmap');
 <?php js_end() ?>
 <main>
+  <?php if (ConfigurationAction::checkGithubKey() == false && ConfigurationAction::checkIsProd() == false){
+    echo "<h1>Github Key is not set api call are limited to 60 call per hour</h1>";
+  }?>
+  <?php if (ConfigurationAction::checkAsanaKey() == false && ConfigurationAction::checkIsProd() == false){
+      echo "<h1>Asana Key is not set </h1>";
+  }?>
   <div class="hero hero-quote hero-img hero-img-short spacer1" title="Here Be Dragons" style="background-image: url(/img/here-be-dragons.jpg)">
     <div class="hero-content-wrapper">
       <div class="hero-content text-center">
@@ -14,6 +20,7 @@
       </div>
     </div>
   </div>
+
   <div class="content content-light spacer2">
     <h4>Roadmap Notes</h4>
     <p>

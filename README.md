@@ -22,4 +22,4 @@ Both the `dev.sh` and `docker.sh` scripts will initialise a configuration based 
 
 To run remotely, simply install PHP and configure Apache or your server of choice to serve `web/index.php`.
 
-Note that some pages and interactions rely on API keys that will not be available to you in your install.
+*** Note that some pages and interactions rely on API keys that will not be available to you in your install. ***
