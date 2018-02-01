@@ -49,7 +49,7 @@ class Asana
               'group'         => $tagLabel,
               'project_id'    => $projectId,
               'assignee'      => $fullTask['assignee'] ? ucwords($fullTask['assignee']['name']) : '',
-              'quarter_date'  => 'Q' . self::dateToQuarter($fullTask['due_on']) . ' ' . (string) date('Y', strtotime($fullTask['due_on']))
+              'quarter_date'  => 'Q' . static::dateToQuarter($fullTask['due_on']) . ' ' . (string) date('Y', strtotime($fullTask['due_on']))
             ];
         }
       }
@@ -94,7 +94,7 @@ class Asana
   // Converts date to quarter
   protected static function dateToQuarter($date)
   {
-    return $quarter = (string)ceil(date('m', strtotime($date))/3);
+    return (string)ceil(date('m', strtotime($date))/3);
   }
 }
 
