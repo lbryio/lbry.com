@@ -1,6 +1,6 @@
 ---
 author: lbry
-title: 'Development and Community Update'
+title: 'Development and Community Update January 2018'
 cover: 'teamcropped.jpg'
 date: '2018-02-02 5:00:00'
 ---
