@@ -80,7 +80,7 @@ class Asana
 
   protected static function get($endpoint, array $data = [], $cache = true)
   {
-    $apiKey = Config::get(Config::ASANA_KEY);
+    $apiKey = Config::get('asana_key');
 
     $options = [
                  'headers' => ['Authorization: Bearer ' . $apiKey],
