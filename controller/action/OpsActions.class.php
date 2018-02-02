@@ -40,7 +40,7 @@ class OpsActions extends Actions
       }
 
       $rawPost = file_get_contents('php://input');
-      $secret  = Config::get(Config::GITHUB_KEY);
+      $secret  = Config::get('github_key');
       if ($hash !== hash_hmac($algo, $rawPost, $secret))
       {
         return NavActions::execute400(['error' => 'Hash does not match.']);
@@ -78,8 +78,8 @@ class OpsActions extends Actions
       return NavActions::execute400(['error' => "Required params: log, name"]);
     }
 
-    $awsKey    = Config::get(Config::AWS_LOG_ACCESS_KEY);
-    $awsSecret = Config::get(Config::AWS_LOG_SECRET_KEY);
+    $awsKey    = Config::get('aws_log_access_key');
+    $awsSecret = Config::get('aws_log_secret_key');
 
     if (!$log || !$name)
     {

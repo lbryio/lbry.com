@@ -5,7 +5,7 @@ class LBRY
 {
   public static function getApiUrl($endpoint)
   {
-    return Config::get(Config::LBRY_API_SERVER) . $endpoint;
+    return Config::get('lbry_api_server') . $endpoint;
   }
 
   public static function getLBCtoUSDRate()
