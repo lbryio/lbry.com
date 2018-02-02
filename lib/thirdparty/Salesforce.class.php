@@ -45,7 +45,7 @@ class Salesforce
 
   protected static function getApiUserPassword()
   {
-    $userpw = Config::get('salesforce_key') . ':' . Config::get('salesforce_secret');
+    $userpw = Config::get(Config::SALESFORCE_KEY) . ':' . Config::get(Config::SALESFORCE_SECRET);
     if ($userpw[0] === ':' || substr($userpw, -1) === ':')
     {
       throw new SalesforceException('Salesforce key and/or secret not configured correctly');

@@ -51,7 +51,7 @@ class Mailgun
   {
     return Curl::doCurl($method, self::BASE_URL . $endpoint, $data, [
       'headers' => [
-        'Authorization: Basic ' . base64_encode('api:' . Config::get('mailgun_api_key'))
+        'Authorization: Basic ' . base64_encode('api:' . Config::get(Config::MAILGUN_API_KEY))
       ],
       'retry' => 3,
     ]);
