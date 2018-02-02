@@ -27,7 +27,7 @@ class ContentActions extends Actions
   public static function executeHome(): array
   {
     Response::enableHttpCache();
-    return ['page/home'];
+    return ['page/home', DownloadActions::prepareButtonPartial()];
   }
 
   public static function executeNews(string $slug = null): array

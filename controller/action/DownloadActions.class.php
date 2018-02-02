@@ -28,6 +28,29 @@ class DownloadActions extends Actions
 
   public static function executeGet()
   {
+    if (static::prepareDownloadInformation()) {
+      return ['download/get', static::prepareDownloadInformation()];
+    }
+
+    return ['download/get'];
+  }
+
+  public static function prepareListPartial(array $vars)
+  {
+    return $vars + ['osChoices' => isset($vars['excludeOs']) ?
+      array_diff_key(OS::getAll(), [$vars['excludeOs'] => null]) :
+      OS::getAll()
+    ];
+  }
+
+  public static function prepareButtonPartial() {
+    if (static::prepareDownloadInformation()) {
+      return static::prepareDownloadInformation();
+    }
+    return [];
+  }
+
+  private static function prepareDownloadInformation() {
     $osChoices = OS::getAll();
     $os        = static::guessOs();
 
@@ -36,7 +59,7 @@ class DownloadActions extends Actions
       list($uri, $osTitle, $osIcon, $buttonLabel, $analyticsLabel) = $osChoices[$os];
       $release = GitHub::getAppRelease();
       $asset = GitHub::getAppAsset($os);
-      return ['download/get', [
+      return [
         'analyticsLabel' => $analyticsLabel,
         'buttonLabel' => $buttonLabel,
         'downloadUrl' => $asset ? $asset['browser_download_url'] : null,
@@ -47,17 +70,11 @@ class DownloadActions extends Actions
         'releaseTimestamp' => $release ? strtotime($release['created_at']) : null,
         'size'        => $asset ? $asset['size'] / ( 1024 * 1024 ) : 0, //bytes -> MB
         'version'     => $release ? $release['name'] : null,
-      ]];
+      ];
     }
 
-    return ['download/get-no-os'];
-  }
-
-  public static function prepareListPartial(array $vars)
-  {
-    return $vars + ['osChoices' => isset($vars['excludeOs']) ?
-      array_diff_key(OS::getAll(), [$vars['excludeOs'] => null]) :
-      OS::getAll()
+    return [
+      'os' => $os
     ];
   }
 
