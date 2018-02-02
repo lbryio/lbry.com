@@ -6,8 +6,8 @@
 <main class="column-fluid">
   <div class="span7">
     <div class="cover cover-dark cover-dark-grad content content-stretch content-dark">
+      <?php if (isset($downloadUrl)): ?>
       <h1><?php echo __('download.for-os', ['%os%' => $osTitle]) ?> <span class="<?php echo $osIcon ?>"></span></h1>
-      <?php if ($downloadUrl): ?>
         <p>
           Securely download the LBRY app here, and see what all the fuss is about!
         </p>
@@ -60,7 +60,11 @@
     </div>
   </div>
   <div class="span5">
-    <?php echo View::render('download/_list', ['excludeOs' => $os]) ?>
+    <?php if (isset($downloadUrl)): ?>
+      <?php echo View::render('download/_list', ['excludeOs' => $os]) ?>
+    <?php else: ?>
+      <?php echo View::render('download/_list') ?>
+    <?php endif; ?>
     <?php echo View::render('download/_social') ?>
   </div>
 </main>
