@@ -24,7 +24,7 @@ In addition to the JSON commands available in the [LBRY API Quickstart Guide](ht
 1. See examples below or [LBRY CLI documentation](https://lbryio.github.io/lbry/cli/) for additional commands
 
 ## Common/Sample Commands
-- `lbrynet-cli claim list mine` - Show list of own claims, including channels
+- `lbrynet-cli claim_list_mine` - Show list of own claims, including channels
 - `lbrynet-cli claim_new_support --name=@channel --claim_id=<claimid> --amount=5` - add 5 LBC to a claim or channel
 - `lbrynet-cli resolve one` - Retrieve information about winning claim at lbry://one
 - `lbrynet-cli claim_list one` - Retrieve information about all claims at lbry://one
