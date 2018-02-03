@@ -68,7 +68,7 @@
                 <?php echo $item['date'] ? date('m-d-Y', strtotime($item['date'])) : '' ?>
                   <?php endif ?>
               </div>
-              <div class="roadmap-item-content">
+              <div class="roadmap-item-content markdown">
                 <?php echo $item['body'] ?: '<em class="no-results">No description</em>' ?>
               </div>
             </div>

@@ -4,6 +4,22 @@ class Config
 {
   const HELP_CONTACT_EMAIL = 'josh@lbry.io';
 
+  //Constant to help with managing strings
+  const IS_PROD = "is_prod";
+  const GITHUB_KEY = "github_key";
+  const GITHUB_DEVELOPER_CREDITS_CLIENT_ID = "github_developer_credits_client_id";
+  const GITHUB_DEVELOPER_CREDITS_CLIENT_SECRET = "github_developer_credits_client_secret";
+  const LBRY_API_SERVER = "lbry_api_server";
+  const MAILCHIMP_KEY = "mailchimp_key";
+  const ASANA_KEY = "asana_key";
+  const AWS_LOG_ACCESS_KEY = "aws_log_access_key";
+  const AWS_LOG_SECRET_KEY = "aws_log_secret_key";
+  const MAILGUN_API_KEY = "mailgun_api_key";
+  const SALESFORCE_KEY = "salesforce_key";
+  const SALESFORCE_SECRET = "salesforce_secret";
+  const SLACK_ERROR_NOTIFICATION_URL = "slack_error_notification_url";
+
+
   protected static $loaded = false;
   protected static $data = [];
 

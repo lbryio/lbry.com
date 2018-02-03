@@ -8,7 +8,7 @@ if (php_sapi_name() === 'cli-server' && is_file(__DIR__.preg_replace('#(\?.*)$#'
 
 include __DIR__ . '/../bootstrap.php';
 
-define('IS_PRODUCTION', Config::get('is_prod') === "yes");
+define('IS_PRODUCTION', Config::get(Config::IS_PROD) === true);
 
 ini_set('display_errors', IS_PRODUCTION ? 'off' : 'on');
 error_reporting(IS_PRODUCTION ? 0 : (E_ALL | E_STRICT));
