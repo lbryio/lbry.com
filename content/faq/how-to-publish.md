@@ -14,9 +14,16 @@ If you don't have LBRY yet, download it [here](https://lbry.io/get).
 
 1. Open the LBRY app.
 2. Once the application loads, click the `Publish` button in the top right of the screen.
+<img src="https://spee.ch/de822faa6cda4989f68ec66abe5254bdd1ad031b/1111.jpeg"/>
+
 3. In the `Channel Name` section click the dropdown and select `New Channel` and  declare the name you would like for your channel. For more details on different channel types, see our write up on [naming](https://lbry.io/faq/naming).
+<img src="https://spee.ch/eb37ca6c6ea9d795bf2fc2a124f52b0084453c40/2222.jpeg"/>
+
 4. Once your name is selected, there is a `Deposit` section that is below. It requires a minimum bid of 0.0001 LBC (see more on deposits [here](https://lbry.io/faq/naming)). Please ensure that you have enough LBRY credits in your wallet to cover the bid amount.  There is also a small network fee associated with the creation of a channel. 
+<img src="https://spee.ch/31612026416cf1ea2c4b433aaa9835cd939a28be/3333.jpeg"/>
+
 5. Click `Create Channel` once you have entered your bid amount. You now own `lbry://@channelnameyoubidon#Claim_ID` and `lbry://@channelnameyoubidon` (the vanity name without a claim id) if you are the highest bidder.
+<img src="https://spee.ch/f14f6ec87e3a962f0112142a766d8c7f67820568/4444.jpeg"/>
 
 ### How do I Publish content? 
 
