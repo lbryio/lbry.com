@@ -10,7 +10,8 @@ A regtest server provides for a way to instantly generate blocks so that transac
 
 To begin setting up the network, there are a few things you need.
 
-Note that you need a Linux distribution to run all this. A virtual machine is fine.
+You'll need a Linux or a Mac distribution to run all this. A virtual machine is fine.
+Note: These instructions specifically were tested on Ubuntu version 16.04.
 
 ### Virtual Environment
 
