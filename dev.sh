@@ -7,4 +7,12 @@ if [ ! -e "data/config.php" ]; then
   cp "$DIR/data/config.php.example" "$DIR/data/config.php"
 fi
 
-php7.0 --server localhost:8000 --docroot "$DIR/web" "$DIR/web/index.php"
+if ! which $PHPBIN 2>/dev/null; then
+    PHPBIN=php
+fi
+
+# Install dependencies
+$PHPBIN composer.phar install
+
+# Run server
+$PHPBIN --server localhost:8000 --docroot "$DIR/web" "$DIR/web/index.php"
