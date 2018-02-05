@@ -58,10 +58,15 @@ If you don't have LBRY yet, download it [here](https://lbry.io/get).
 ### How do I delete my content and reclaim my deposit? 
 
 1. Click on the folder icon in the top right of the LBRY app. 
+[folder icon](https://spee.ch/5/lbryapp-folder-icon.jpeg)
 2. Click on the `Published` tab.
+[Published](https://spee.ch/4/lbrypublished-tab.png)
 3. Select the content you want to remove from LBRY 
 4. Click `Remove`. If you don't see the remove button, try downloading the content locally again. 
-5. There will be two options. `Abandon the claim for this URI` and `Delete this file from my computer`. Select the option that applies.  Abandoning your claim will release the LBC back into your wallet (99% of the time you want to select this). **Warning: Deleting content is permanent. Please make sure this is what you want to do before confirming the deletion.**
+[remove](https://spee.ch/7/removebox.png)
+5. There will be two options. `Abandon the claim for this URI` and `Delete this file from my computer`. Select the option that applies.  Abandoning your claim will release the LBC back into your wallet (99% of the time you want to select this). 
+[abandon-delete box](https://spee.ch/7/removeabandonbox.png)
+**Warning: Deleting content is permanent. Please make sure this is what you want to do before confirming the deletion.**
 6. Click `Remove`. If you abandoned your claim, you should see the deposit back in your balance shortly. 
 
 ### How do I edit my existing Published content? 
