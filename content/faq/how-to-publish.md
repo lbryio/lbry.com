@@ -14,19 +14,43 @@ If you don't have LBRY yet, download it [here](https://lbry.io/get).
 
 1. Open the LBRY app.
 2. Once the application loads, click the `Publish` button in the top right of the screen.
+![Click the Publish Button](https://spee.ch/de822faa6cda4989f68ec66abe5254bdd1ad031b/1111.jpeg)
+
 3. In the `Channel Name` section click the dropdown and select `New Channel` and  declare the name you would like for your channel. For more details on different channel types, see our write up on [naming](https://lbry.io/faq/naming).
+![Click the New Channel Dropdown](https://spee.ch/eb37ca6c6ea9d795bf2fc2a124f52b0084453c40/2222.jpeg)
+
 4. Once your name is selected, there is a `Deposit` section that is below. It requires a minimum bid of 0.0001 LBC (see more on deposits [here](https://lbry.io/faq/naming)). Please ensure that you have enough LBRY credits in your wallet to cover the bid amount.  There is also a small network fee associated with the creation of a channel. 
+![Set the Deposit](https://spee.ch/31612026416cf1ea2c4b433aaa9835cd939a28be/3333.jpeg)
+
 5. Click `Create Channel` once you have entered your bid amount. You now own `lbry://@channelnameyoubidon#Claim_ID` and `lbry://@channelnameyoubidon` (the vanity name without a claim id) if you are the highest bidder.
+![Create the Channel](https://spee.ch/f14f6ec87e3a962f0112142a766d8c7f67820568/4444.jpeg)
 
 ### How do I Publish content? 
 
+1. Click the `Publish` button in the top right of the screen.
+![Select Choose File](https://spee.ch/1f7bfc865a9a7b9cd6cb026a8e31343703fd57f8/Publishing001.png)
+
 1. Under the `Content` section click `Choose File`.
-2. On your local machine, select the content you would like to upload to LBRY.  LBRY accepts any HTML5 format for streaming video, the full list can be found [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats). This means a web optimized MP4 is the best format. Other file types can also be uploaded, but won't be streamable via the LBRY app. 
+![Select the Content to Upload](https://spee.ch/7e53708abaab90b89c1e410cb2c3983c79b6b550/Publishing002.png)
+
+2. On your local machine, select the content you would like to upload to LBRY.  LBRY accepts any HTML5 format for streaming video, the full list can be found [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats). This means a web optimized MP4 is the best format. Other file types can also be uploaded, but won't be streamable via the LBRY app.
+
+
 3. Enter a `Title`, `Thumbnail URL`, and `Description` for your content.  The `Thumbnail URL` is a hyperlink to an image file which will serve as a preview for your content. It can be any image/GIF URL or you can even use [spee.ch](https://www.spee.ch) to host it. The default size is 800x450, but the app will scale up/down. 
+![Enter File Information](https://spee.ch/d857e3040629145e0f5d70693c02b8016a9d45e6/Publishing003.png)
+
 4. Next, there is a `Language` and `Maturity` which will default to `English` and `All Ages`.  If a change is needed, click the dropdowns and select the appropriate choice. 
+![Enter Additional Metadata](https://spee.ch/a42fb51e56ab4809002982cea66b7fc44b938776/Publishing004.png)
+
 5. Under the `Access`, first determine if you want to make your video Free or set a price (in USD or LBC) per view. Next, select the appropriate type of license for the content you are publishing.
+![Set Access and License](https://spee.ch/35adbf43f6a8a6cd43fc67d18516ede2f74de86b/Publishing005.png)
+
 6. You have an option to select/create the channel you would like to publish the channel under. If one isn't selected, it will be posted anonymously.
+![Select Channel](https://spee.ch/d0c7fe044b0237017f0f5af00f79e3880aae201d/Publishing006.png)
+
 7. Type in the URL you want the content to be found under along with a minimum of 0.01 LBC minimum deposit for the upload (current limit, may change in future). If you are trying to outbid a user friendly/common URL, the system will suggest a minimum bid to take over the content at that vanity URL. There may be a delay for this takeover, check out the `#content` channel on our [Discord chat](https://chat.lbry.io) to see this information (search for your URL). For more details regarding the URL or bid, check out our [naming document](https://lbry.io/faq/naming).
+![Select URL](https://spee.ch/41bf24bf3249a5f505969fb192e419fda2cdddd7/Publishing007.png)
+
 8. Read and agree to the terms of service.
 9. Click `Publish`.
 10. The file will process in the background and will be added to the LBRY Blockchain. Larger files will take longer to upload, please leave LBRY running while your content is in the "pending confirmation" mode(currently, this page will not automatically refresh).  You can continue using LBRY while the upload completes.
