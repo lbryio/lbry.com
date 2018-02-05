@@ -27,11 +27,14 @@ If you don't have LBRY yet, download it [here](https://lbry.io/get).
 
 ### How do I Publish content? 
 
-1. Under the `Content` section click `Choose File`.
+1. Click the `Publish` button in the top right of the screen.
 ![Select Choose File](https://spee.ch/1f7bfc865a9a7b9cd6cb026a8e31343703fd57f8/Publishing001.png)
 
-2. On your local machine, select the content you would like to upload to LBRY.  LBRY accepts any HTML5 format for streaming video, the full list can be found [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats). This means a web optimized MP4 is the best format. Other file types can also be uploaded, but won't be streamable via the LBRY app.
+1. Under the `Content` section click `Choose File`.
 ![Select the Content to Upload](https://spee.ch/7e53708abaab90b89c1e410cb2c3983c79b6b550/Publishing002.png)
+
+2. On your local machine, select the content you would like to upload to LBRY.  LBRY accepts any HTML5 format for streaming video, the full list can be found [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats). This means a web optimized MP4 is the best format. Other file types can also be uploaded, but won't be streamable via the LBRY app.
+
 
 3. Enter a `Title`, `Thumbnail URL`, and `Description` for your content.  The `Thumbnail URL` is a hyperlink to an image file which will serve as a preview for your content. It can be any image/GIF URL or you can even use [spee.ch](https://www.spee.ch) to host it. The default size is 800x450, but the app will scale up/down. 
 ![Enter File Information](https://spee.ch/d857e3040629145e0f5d70693c02b8016a9d45e6/Publishing003.png)
