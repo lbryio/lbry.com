@@ -85,13 +85,13 @@ class DeveloperActions extends Actions
       Session::set(Session::KEY_DEVELOPER_RETURN_URL_SUCCESS, Request::getPostParam('returnUrl'));
     }
 
-    if (!Config::get('github_developer_credits_client_id'))
+    if (!Config::get(Config::GITHUB_DEVELOPER_CREDITS_CLIENT_ID))
     {
       throw new Exception('no github client id');
     }
 
     $gitHubParams = [
-      'client_id'    => Config::get('github_developer_credits_client_id'),
+      'client_id'    => Config::get(Config::GITHUB_DEVELOPER_CREDITS_CLIENT_ID),
       'redirect_uri' => Request::getHostAndProto() . '/quickstart/github/callback',
       'scope'        => 'user:email',
       'allow_signup' => false
@@ -112,8 +112,8 @@ class DeveloperActions extends Actions
     {
       $authResponseData = Curl::post('https://github.com/login/oauth/access_token', [
         'code'          => $code,
-        'client_id'     => Config::get('github_developer_credits_client_id'),
-        'client_secret' => Config::get('github_developer_credits_client_secret')
+        'client_id'     => Config::get(Config::GITHUB_DEVELOPER_CREDITS_CLIENT_ID),
+        'client_secret' => Config::get(Config::GITHUB_DEVELOPER_CREDITS_CLIENT_SECRET)
       ], [
         'headers'       => ['Accept: application/json'],
         'json_response' => true
