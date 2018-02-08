@@ -49,7 +49,6 @@ If you don't have LBRY yet, download it [here](https://lbry.io/get).
 ![Select Channel](https://spee.ch/d0c7fe044b0237017f0f5af00f79e3880aae201d/Publishing006.png)
 
 7. Type in the URL you want the content to be found under along with a minimum of 0.01 LBC minimum deposit for the upload (current limit, may change in future). If you are trying to outbid a user friendly/common URL, the system will suggest a minimum bid to take over the content at that vanity URL. There may be a delay for this takeover, check out the `#content` channel on our [Discord chat](https://chat.lbry.io) to see this information (search for your URL). For more details regarding the URL or bid, check out our [naming document](https://lbry.io/faq/naming).
-![Select URL](https://spee.ch/41bf24bf3249a5f505969fb192e419fda2cdddd7/Publishing007.png)
 
 8. Read and agree to the terms of service.
 9. Click `Publish`.
