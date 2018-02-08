@@ -1,5 +1,5 @@
 ---
-author: reilly smith
+author: reilly-smith
 title: 'Rock softly and carry a big guitar'
 date: '2018-02-08 00:20:00'
 cover: 'srod-banner.png'
