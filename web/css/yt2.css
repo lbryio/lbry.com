@@ -315,6 +315,8 @@ header .right a.github {
 .claim .block {
   position: relative;
   float: left;
+  margin-top: 10px;
+
 }
 .claim input {
   float: left;
@@ -343,6 +345,11 @@ header .right a.github {
   -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.15);
   -moz-box-shadow: 0 0 10px 0 rgba(0,0,0,0.15);
   box-shadow: 0 0 10px 0 rgba(0,0,0,0.15);
+}
+.error_form{
+  -webkit-box-shadow:inset 0px 0px 0px 2px red;
+  -moz-box-shadow:inset 0px 0px 0px 2px red;
+  box-shadow:inset 0px 0px 0px 2px red;
 }
 .claim label {
   position: absolute;

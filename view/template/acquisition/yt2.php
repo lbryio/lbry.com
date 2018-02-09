@@ -1,26 +1,12 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-  <title>LBRY for YouTubers</title>
-  <meta name="description" content="">
-
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="en">
-  <meta property="og:site_name" content="LBRY">
-  <meta property="og:title" content="LBRY for YouTubers">
-  <meta property="og:description" content="">
-  <meta property="og:url" content="https://lbry.io/youtube">
-  <meta property="og:image" content="">
-  <meta property="og:image:width" content="">
-  <meta property="og:image:height" content="">
-
-  <link href="/css/yt2.css" rel="stylesheet" type="text/css" />
-  <link rel="icon" href="images/favicon.ico">
-</head>
-<body>
+<?php
+Response::setCssAssets(['/css/yt2.css']);
+Response::addJsAsset('/js/yt2/TweenMax.min.js');
+Response::addJsAsset('/js/yt2/ScrollToPlugin.min.js');
+Response::addJsAsset('/js/yt2/app.js');
+Response::addJsAsset('/js/yt2/FormValidation.js');
+$reward = LBRY::youtubeReward();
+?>
+<main>
 <header class="header">
   <div class="inner">
     <div class="left">
@@ -66,20 +52,32 @@
 </section>
 <section class="claim section">
   <div class="inner">
+
     <div class="content">
+      <?php
+      if (isset($_GET['error'])): echo "<div>" . "The following error occurred: ". $_GET['error_message']  . " For support please send an email to hello@lbry.io" . "</div>";
+      endif;?>
       <div class="zigzag"></div>
       <h1>Own your identity. For real this time.</h1>
-      <form>
-        <div class="form-inner">
+      <form id="youtube_claim" method="post" action="/youtube/token">
+        <div class="form-inner" >
+            <div class="block" hidden id="lbry_error">LBRY channel name is not valid or blank</div>
           <div class="block">
-            <input type="text" placeholder="yourchannel" />
-            <label>@</label>
+            <input id="lbry_channel_name" type="text" name="desired_lbry_channel_name" placeholder="Desired LBRY channel name" />
           </div>
-          <div class="block">
-            <input type="submit" value="Claim now" />
-          </div>
-        </div>
+            <div class="block" hidden id="email_error">Email is not valid or blank</div>
+            <div class="block">
+                <input hidden id="email" type="text" name="email_address" placeholder="Your Email" />
+            </div>
+            <div class="block" hidden id="youtube_url_error">Youtube id is not valid or blank</div>
+            <div class="block">
+                <input hidden id="youtube_url" type="text" name="youtube_channel_url" placeholder="Your Channel ID" />
+            </div>
+
       </form>
+        <div class="block">
+            <input type="submit" value="Claim now" onClick="return submitDetailsForm()"/>
+        </div>
     </div>
   </div>
 </section>
@@ -171,22 +169,22 @@
         </div>
         <div class="line">
           <p>1,000</p>
-          <p>250 <span></span></p>
+          <p><?php echo $reward['data']['1000']; ?><span></span></p>
           <p></p>
         </div>
         <div class="line">
           <p>10,000</p>
-          <p>1,000 <span></span></p>
+          <p><?php echo $reward['data']['10000']; ?><span></span></p>
           <p></p>
         </div>
         <div class="line">
           <p>100,000</p>
-          <p>2,500 <span></span></p>
+          <p><?php echo $reward['data']['100000']; ?> <span></span></p>
           <p></p>
         </div>
         <div class="line">
           <p>1,000,000</p>
-          <p>7,000 <span></span></p>
+          <p><?php echo $reward['data']['1000000']; ?> <span></span></p>
           <p></p>
         </div>
       </div>
@@ -210,8 +208,4 @@
   </div>
 </section>
 <div class="to-top"><span>to top</span></div>
-<script type="text/javascript" src="/js/yt2/TweenMax.min.js"></script>
-<script type="text/javascript" src="/js/yt2/ScrollToPlugin.min.js"></script>
-<script type="text/javascript" src="/js/yt2/app.js"></script>
-</body>
-</html>
+</main>

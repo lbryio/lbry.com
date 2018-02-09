@@ -13,7 +13,9 @@
         <title><?php echo $title ?></title>
 
         <link href='https://fonts.googleapis.com/css?family=Raleway:500,500italic,700' rel='stylesheet' type='text/css'>
-        <link href="/css/all.css" rel="stylesheet" type="text/css" />
+        <?php foreach(Response::getCssAssets() as $src): ?>
+          <link rel="stylesheet" type="text/css" href="<?php echo $src?>">
+        <?php endforeach ?>
         <link rel="apple-touch-icon" sizes="60x60" href="/img/fav/apple-touch-icon-60x60.png">
         <link rel="apple-touch-icon" sizes="114x114" href="/img/fav/apple-touch-icon-114x114.png">
         <link rel="apple-touch-icon" sizes="120x120" href="/img/fav/apple-touch-icon-120x120.png">

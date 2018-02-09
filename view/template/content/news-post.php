@@ -17,7 +17,7 @@
       </div>
     </div>
   </header>
-  
+
   <section class="post-content">
     <div class="content">
       <?php echo $post->getContentHtml() ?>
