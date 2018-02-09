@@ -40,15 +40,18 @@ class DownloadActions extends Actions
   }
 
   public static function prepareButtonPartial() {
-    if (static::prepareDownloadInformation()) {
-      return static::prepareDownloadInformation();
-    }
-    return [];
+    return static::prepareDownloadInformation(true);
   }
 
-  public static function prepareDownloadInformation() {
+  public static function prepareDownloadInformation($forButton = false) {
     $osChoices = OS::getAll();
     $os        = static::guessOs();
+
+    if (($forButton) && ($os === 'linux')) {
+      return [
+        'os' => $os
+      ];
+    }
 
     if ($os && isset($osChoices[$os]))
     {
