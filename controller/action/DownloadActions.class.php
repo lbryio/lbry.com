@@ -28,11 +28,7 @@ class DownloadActions extends Actions
 
   public static function executeGet()
   {
-    if (static::prepareDownloadInformation()) {
-      return ['download/get', static::prepareDownloadInformation()];
-    }
-
-    return ['download/get'];
+    return ['download/get', static::prepareDownloadInformation()];
   }
 
   public static function prepareListPartial(array $vars)
@@ -50,7 +46,7 @@ class DownloadActions extends Actions
     return [];
   }
 
-  private static function prepareDownloadInformation() {
+  public static function prepareDownloadInformation() {
     $osChoices = OS::getAll();
     $os        = static::guessOs();
 
