@@ -9,4 +9,3 @@ If the enslaved squirrels that run our primary explorer are sleeping, try
 
 [https://lbry.block.ng/](https://lbry.block.ng/)
 
-[http://yiimp.eu/explorer/LBC](http://yiimp.eu/explorer/LBC)
