@@ -8,8 +8,8 @@ In certain cases, we may ask you to send us your log file(s).  The current log f
  **lbrynet.log files may contain your IP address. While sharing this is not inherently dangerous, if you desire maximum privacy please mask it before posting to public websites.**
 
 ## Windows
-1. Open File Explorer.
-1. Type `%localappdata%\lbry\lbrynet` (`%appdata%\lbrynet` if you originally installed v0.14 or earlier) into the address bar and click Enter.
+1. Open File Explorer (Keyboard shortcut: Window Key + E)
+1. Type `%localappdata%\lbry\lbrynet` (or `%appdata%\lbrynet` if you originally installed v0.14 or earlier) into the address bar and click Enter.
 2. Here you will see the `lbrynet.log` file and any archives. 
 
 ## MacOS
@@ -20,5 +20,5 @@ In certain cases, we may ask you to send us your log file(s).  The current log f
 
 ## Ubuntu / Linux *(Exact steps may differ slightly)* 
 1. Navigate to your home directory. Ensure hidden files and folders are shown if using a graphical file explorer.
-2. Navigate to the `.local/share/lbry/lbrynet` folder (`~/.lbrynet` if you originally installed v0.14 or earlier).
+2. Navigate to the `.local/share/lbry/lbrynet` folder (or `~/.lbrynet` if you originally installed v0.14 or earlier).
 3. Here you will see the `lbrynet.log` file and any archives. 

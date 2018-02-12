@@ -118,7 +118,7 @@ $title-spur: 8 * $width-roadmap;
   font-size: 0.9em;
   margin: 10px;
 }
-
+.roadmap-item-content a{@include anchor($color-primary);}
 .roadmap-item-assignee
 {
   float: right;

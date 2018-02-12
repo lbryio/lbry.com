@@ -1,9 +1,10 @@
 ---
 author: tom-zarebczan
 title: 'Development and Community Update January 2018'
-date: '2018-02-02 5:00:00'
+date: '2018-02-01 4:00:00'
+cover: 'wooden-letters-banner.jpg'
 ---
-In December, we published the [first ever LBRY Development and Community update](https://lbry.io/news/lbry-development-community-update-1) and we will continue these updates at the end of each month to keep each and every LBRYian up to date on our quest to revolutionizing content discovery, sharing and monetization! 
+In December, we published the [first ever LBRY Development and Community update](https://lbry.io/news/lbry-development-community-update-1) and we will continue this series at the end of each month to keep each and every LBRYian up to date on our quest to revolutionize content discovery, sharing and monetization! 
 
 Please take a moment to read our [Looking Back and Moving Forward: LBRY in 2017/2018](https://lbry.io/news/lbry-in-2017-2018) blog post! 
 
@@ -15,7 +16,7 @@ To skip the tech stuff and see what’s happened and what’s next in the LBRY c
 All of our code is open source and available on [GitHub](https://github.com/lbryio). Are you a dev and want to find out more? Check out our [general contributing guide](https://lbry.io/faq/contributing) and our LBRY App specific contributing [document](https://github.com/lbryio/lbry-app/blob/master/CONTRIBUTING.md).
 
 ### App and Protocol Quick Summary
-As you may know from our previous update, the LBRY app is undergoing a redesign which is taking up a large chunk of the team’s time, but we still managed to ship multiple patch releases to version 0.19 that enabled users to continue enjoying the main functions of the LBRY app. We also finished off January with [version 0.20](https://github.com/lbryio/lbry-app/releases/tag/v0.20.0) which enables a more streamlined LBRY app update process, phone number verification for [LBRY Rewards](https://lbry.io/faq/rewards) that makes it easier for new users to earn some LBC, added automated dark theme mode, patched a security hole introduced by [Electron](https://electronjs.org/blog/protocol-handler-fix) and a bit of code refactoring. On the protocol side, we ran into a showstopper related to how files are handled and were forced to go back to the drawing board to re-engineer a better solution. Our protocol devs also had to deal with growing pains on [spee.ch](https://spee.ch) which continues to uncover invaluable insights into scaling the LBRY as it’s the biggest user of the protocol to date! 
+As you may know from our previous update, the LBRY App is undergoing a redesign which is taking up a large chunk of the team’s time, but we still managed to ship multiple patch releases to version 0.19 that enabled users to continue enjoying the main functions of the LBRY app. We also finished off January with [version 0.20](https://github.com/lbryio/lbry-app/releases/tag/v0.20.0) which enables a more streamlined LBRY app update process, phone number verification for [LBRY Rewards](https://lbry.io/faq/rewards) that makes it easier for new users to earn some LBC, added automated dark theme mode, patched a security hole introduced by [Electron](https://electronjs.org/blog/protocol-handler-fix) and a bit of code refactoring. On the protocol side, we ran into a showstopper related to how files are handled and were forced to go back to the drawing board to re-engineer a better solution. Our protocol devs also had to deal with growing pains on [spee.ch](https://spee.ch) which continues to uncover invaluable insights into scaling the LBRY as it’s the biggest user of the protocol to date! 
  
 ### Documentation, Organization and Development Processes
 A considerable amount of effort went into documenting an app side [contributing process](https://github.com/lbryio/lbry-app/blob/master/CONTRIBUTING.md) along with [tagging and organization](https://github.com/lbryio/lbry/wiki/Labels) of GitHub issues which required a careful review off all oustanding issues across multiple repositories. The result was a clearer and more organized depiction of what’s on the plate for our developers to work on but it also provides a more welcoming environment for contributors and potential LBRY developers to get started.

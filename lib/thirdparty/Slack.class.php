@@ -10,7 +10,7 @@ class Slack
       $e = Debug::exceptionToString($e);
     }
 
-    $slackErrorNotificationUrl = Config::get('slack_error_notification_url');
+    $slackErrorNotificationUrl = Config::get(Config::SLACK_ERROR_NOTIFICATION_URL);
     if ($slackErrorNotificationUrl)
     {
       Curl::post($slackErrorNotificationUrl, ['text' => ($alert ? '<!channel> ' : '') . Request::getRelativeUri() . "\n" . $e], ['json_data' => true]);

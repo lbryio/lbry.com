@@ -125,6 +125,7 @@ class Controller
     $router->any('/yt2', 'AcquisitionActions::executeYT2');
     $router->get('/verify/{token}', 'AcquisitionActions::executeVerify');
 
+    $router->get('/news/category/{category}', 'ContentActions::executePostCategoryFilter');
 
     $router->post('/set-culture', 'i18nActions::setCulture');
 
