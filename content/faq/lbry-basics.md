@@ -48,15 +48,17 @@ Easiest way to check if you are sharing correctly is to determine if the port us
 
 ### How can I search for content on LBRY?
 Searching in LBRY is as easy as typing your search term(s) into the address bar at the top and waiting for the results to return (**don't click Enter!**). Clicking the Enter key will skip the search function and go directly to the URL typed - this is only helpful if you know the exact URL you are trying to view. We are still in the process of optimizing the search results, please bear with us if you are having trouble finding something! 
+![Search](https://spee.ch/f/search-faq.png)
 
 ### How can I subscribe and view my favorite channels?
 If you navigate to a channel page (LBRY URLs with an @ symbol in the front), you will see a **Subscribe @** button that manages your subscription. To view all your subscribed channels on one page, click the Subscriptions tab from the home page or the **@** symbol next to the LBRY address bar. 
+![Subscriptions](https://spee.ch/5/subs-faq.png)
 
 ### Content consistently fails to stream or download, what can I do?
 Please see our [streaming guide](https://lbry.io/faq/unable-to-stream) if you consistently cannot download or stream content on LBRY.
 
 ### Some files don't open in the LBRY app, what's going on?
-Currently, the LBRY in-app player supports MP4 videos, mp3s, images, GIFs, HTML and text files. Even though it doesn't support other formats within the app, the files can be externally opened by clicking the **Open** button or navigating to the file by clicking the**Downloaded to** file path on the content page. 
+Currently, the LBRY in-app player supports MP4 videos, mp3s, images, GIFs, HTML and text files. Even though it doesn't support other formats within the app, the files can be externally opened by clicking the **Open** button or navigating to the file by clicking the **Downloaded to** file path on the content page. 
 
 ### How do I change my LBRY connected email?
 If you ever need to change your LBRY email address or sign out, please see [this guide](https://lbry.io/faq/how-to-change-email). If you sign into a new email and need to transfer your verification status, you'll need to [reach out to us](mailto:help@lbryio) in order to link your accounts. Please do not verify again to obtain rewards on a 2nd account, your Rewards account may be disabled for abuse. 
