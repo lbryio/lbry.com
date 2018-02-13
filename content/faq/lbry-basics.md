@@ -1,6 +1,7 @@
 ---
 title: LBRY App Basics
 category: LBRY 101
+order: 1
 ---
 
 The LBRY App allows you to view free and paid content, upload your digital media for free or at a set price, tip your favorite creators, send/receive LBRY Credits(LBC) and earn credits through LBRY Rewards. The app runs on top of the [LBRY protocol](https://lbry.io/faq/what-is-lbry) which is a peer to peer, decentralized file sharing and payment network secured by blockchain technology. 
