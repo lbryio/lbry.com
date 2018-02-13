@@ -11,6 +11,9 @@ The purpose of this FAQ is to answer questions about some of the basic functiona
 ### What is the purpose of having my email connected to LBRY?
 Emails are collected to authenticate and [uniquely identify](https://lbry.io/faq/identity-requirements) users so that they can be eligible for [LBRY Rewards](#rewards) and to stay up to date on the latest LBRY happenings. No other data is stored with your email login. All other data, including your [wallet](#wallet), [downloads](#data) and published content are stored locally on your computer. You can find your connected email by going to Settings (gear icon in the top right) > Help > Connected email. 
 
+### How do I change my LBRY connected email?
+If you ever need to change your LBRY email address or sign out, please see [this guide](https://lbry.io/faq/how-to-change-email). If you sign into a new email and need to transfer your verification status, you'll need to [reach out to us](mailto:help@lbryio) in order to link your accounts. Please do not verify again to obtain rewards on a 2nd account, your Rewards account may be disabled for abuse.
+
 ### What if I want to run LBRY on multiple computers or on different Windows accounts?
 If you want to run the LBRY app on multiple PCs or Windows users, you can either choose not to sign in on the other computers/accounts or use a different email address for each. These additional accounts will not be eligible for LBRY Rewards as they are only allowed on a 1 account per household basis. If you log into a 2nd PC with the same email, the original PC will be signed out. Changing accounts back and forth on the same PC/user account will cause them to be merged.  
 
@@ -60,9 +63,6 @@ Please see our [streaming guide](https://lbry.io/faq/unable-to-stream) if you co
 
 ### Some files don't open in the LBRY app, what's going on?
 Currently, the LBRY in-app player supports MP4 videos, mp3s, images, GIFs, HTML and text files. Even though it doesn't support other formats within the app, the files can be externally opened by clicking the **Open** button or navigating to the file by clicking the **Downloaded to** file path on the content page. 
-
-### How do I change my LBRY connected email?
-If you ever need to change your LBRY email address or sign out, please see [this guide](https://lbry.io/faq/how-to-change-email). If you sign into a new email and need to transfer your verification status, you'll need to [reach out to us](mailto:help@lbryio) in order to link your accounts. Please do not verify again to obtain rewards on a 2nd account, your Rewards account may be disabled for abuse. 
 
 ### How do I begin troubleshooting problems myself?
 Please see [this guide](https://lbry.io/faq/how-to-find-lbry-log-file) on how to find your LBRY log files. These may provide you additional information to troubleshoot issues or to provide to the [support team](https://lbry.io/faq/support). 
