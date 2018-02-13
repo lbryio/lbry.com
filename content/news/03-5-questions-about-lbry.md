@@ -53,7 +53,7 @@ We will also be releasing the source of LBRY so that others may stand upon us.
 ### 4. What's the difference between LBRY and MaidSafe (or X)?
 
 There are several attempts to build a decentralized computing platform. LBRY is not one of them; it exists only for information.
-Products that subsume the information problem, such as [MaidSafe](http://www.maidsafe.com) or [Ethereum](http://www.ethereum.org), will crumble
+Products that subsume the information problem, such as [MaidSafe](https://www.maidsafe.net) or [Ethereum](https://www.ethereum.org), will crumble
 under their own weight at the worst and not approach LBRY's performance at their best. Building an information delivery network
 inside of a larger decentralized platform is guaranteed at a fundamental level to result in worse performance, greater expense,
 or both.
