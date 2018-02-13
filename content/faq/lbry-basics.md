@@ -1,6 +1,6 @@
 ---
 title: LBRY App Basics
-category: LBRY 101
+category: getstarted
 order: 1
 ---
 
