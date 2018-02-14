@@ -37,10 +37,8 @@ This section describes how bids are processed by the ClaimTrie in order to deter
     * The bid’s Claim Id matches the Claim Id of the bid which was the controlling bid immediately before the block containing this bid was included in the blockchain. In other words, it is either an update to the previous controlling bid, or an update to an update to the previous controlling bid if the bid was updated twice in this block, etc.
 
 4. *Controlling*: This bid currently controls the name. When clients ask which bid controls the name as of the current block, this is the bid that will be returned. Must be in the “active” state and only one bid for any name may be in this state. A support cannot be in the “controlling” state. To determine which “active” bid is the “controlling” bid for each name:
-    * Add the quantity of each ‘active’ bid to the quantity of all ‘active’ supports for that bid, and take whichever is greatest. If two bids have the same quantity, older bids take precedence over newer bids.
-	
+    * Add the quantity of each ‘active’ bid to the quantity of all ‘active’ supports for that bid, and take whichever is greatest. If two bids have the same quantity, older bids take precedence over newer bids.	
     * If the bid with the greatest amount does not have the same claimID as the bid which was ‘controlling’ prior to including the current block, change the delay for the name as of the current block to 0, redetermine which bids and supports should be active, and then perform the previous calculation again.
-
     * At this point, the bid calculated to have the greatest amount behind it is the ‘controlling’ bid as of this block
 5. *Spent*: A transaction has been included in the blockchain which spends the TXout which contains the bid. Must be in the ‘accepted’ state.
 6. *Expired*: All bids ‘expire’ regardless of what state they are in when the current block height exceeds the height of the block at which the bid was accepted plus 52416 blocks, or 91 days ( currently this is set to 262974 blocks, or 456 days, which will be fixed in a future hard fork ). Updated claims will restart the expiration timer at the block height of the update.  
