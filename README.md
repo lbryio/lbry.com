@@ -12,7 +12,7 @@ Please see [INSTALL](INSTALL.md) for comprehensive, easy-to-follow instructions 
 
 Unless you are planning to contributing to the lbry.io website, this project serves little independent purpose.
 
-To access a local copy of lbry.io, follow [INSTALL](INSTALL.md) and then access localhost:8000 in your browser.
+To access a local copy of lbry.io, follow [INSTALL](INSTALL.md) and then access `localhost:8000` in your browser.
 
 ## License
 
@@ -24,7 +24,7 @@ Contributions to this project are welcome, encouraged, and compensated. For more
 
 ## Contact
 
-The primary contact for this project is Jeremy Kauffman <jeremy@lbry.io>.
+The primary contact for this project is Jeremy Kauffman (jeremy@lbry.io).
 
 ## Additional Info and Links
 
