@@ -10,7 +10,7 @@ Please see [INSTALL](INSTALL.md) for comprehensive, easy-to-follow instructions 
 
 ## Usage
 
-Unless you are planning to contributing to the lbry.io website, this project serves little independent purpose.
+Unless you are planning to contribute to the lbry.io website, this project serves little independent purpose.
 
 To access a local copy of lbry.io, follow [INSTALL](INSTALL.md) and then access `localhost:8000` in your browser.
 
