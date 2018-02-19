@@ -17,7 +17,7 @@
           <li><a href="/list/subscribe" class="link-primary"><?php echo __('email.subscribe') ?></a>.</li>
           <li>Join us on <a href="https://twitter.com/lbryio" class="link-primary"><span class="btn-label">Twitter</span><span class="icon icon-twitter"></span></a>,
             <a href="https://facebook.com/lbryio" class="link-primary"><span class="btn-label">Facebook</span><span class="icon icon-facebook"></span></a>,
-                or <a href="https://reddit.com/r/lbry" class="link-primary"><span class="btn-label">Reddit</span><span class="icon icon-reddit"></span></a>.</li>
+                 <a href="https://reddit.com/r/lbry" class="link-primary"><span class="btn-label">Reddit</span><span class="icon icon-reddit"></span></a>,or  <a href="https://chat.lbry.io" target="_blank" class="link-primary"><span class="icon-comments icon-fw"></span><span class="btn-label">Discord Chat</span></a>.</li>
         </ul>
       </div>
       <div class="span6">
