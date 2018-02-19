@@ -13,4 +13,8 @@ if ! which $PHPBIN 2>/dev/null; then
     PHPBIN=php
 fi
 
+# Install dependencies
+$PHPBIN composer.phar install
+
+# Run server
 $PHPBIN --server localhost:8000 --docroot "$DIR/web" "$DIR/web/index.php"
