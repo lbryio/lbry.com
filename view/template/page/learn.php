@@ -60,5 +60,14 @@
       </div>
     </div>
   </div>
+      
+       <div class="span4">
+    <div class="cover cover-dark cover-dark-grad">
+      <div class="content content-dark content-tile">
+        <h3>{{Contact Us}}</h3>
+        <?php echo View::render('mail/contact-us') ?>
+      </div>
+    </div>
+  </div>
 </main>
 <?php echo View::render('nav/_footer') ?>
