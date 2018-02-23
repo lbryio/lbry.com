@@ -3,7 +3,7 @@ category: code
 title: Twitter Tip Bot
 award: 300
 status: available
-date: '2019-02-13'
+date: '2018-02-13'
 ---
 
 This bounty is to create a tipbot that can be used to send/receive LBRY Credits(LBC) on Twitter.  
