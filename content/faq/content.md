@@ -15,7 +15,7 @@ It is important to make a distinction between the LBRY protocol and any applicat
 
 However, LBRY also makes an app to demonstrate our protocol. Within our app, we will engage in non-arbitrary censorship, meaning only horrific or infringing content will be removed. As a U.S. company, LBRY Inc. and management of our app will follow all U.S. laws, including the CDA and DMCA. If someone made an app or website using the LBRY protocol in some other country, it would have to follow that country's laws, which aren’t necessarily the same as ours. Either app would read the same blockchain, though. 
 
-LBRY Inc., makes no guarantee your content will be hosted on the network. The peer to peer network relies on hosts to seed content. If no user continues to host data - including you, it will not continue to be available on the network.
+LBRY Inc., makes no guarantee your content will be hosted on the network. The peer-to-peer network relies on hosts to seed content. If no user continues to host data - including you, it will not continue to be available on the network.
 
 ###Someone uploaded my content to LBRY without permission. How do I remove it?
 
