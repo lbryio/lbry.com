@@ -70,35 +70,36 @@
 
 
       <h2 id="positions">Positions</h2>
+      <em>If a position is marked paused, you are still welcome to contact us. For blockchain, protocol, and application engineers, we will be hiring regularly throughout 2018.</em>
+      <div>
+        <h3 id="blockchain-engineer">Blockchain Engineer <span class="badge badge-primary">Active</span></h3>
+        <p>
+          This position involves working directly on the LBRY <a href="https://github.com/lbryio/lbrycrd">blockchain</a>, written in C++.
+        </p>
+        <p>
+          Competence with cryptography, security, and networks is mandatory. Experience with blockchain is beneficial but not required.
+        </p>
+        <p>
+          Blockchain work is like being a goalkeeper: good work goes under-appreciated, but mistakes are catastrophic. You must be the kind of masochist that enjoys this.
+        </p>
+        <h3 id="protocol-engineer">Protocol Engineers <span class="badge badge-info">Paused</span></h3>
+        <p>
+          The LBRY protocol consists of a <a href="https://lbry.io/api">set of APIs</a> provided via a daemon. This daemon is comprised of several sub-components, and interacts with the blockchain, wallet, and other remote daemons that constitute the LBRY data network.
+        </p>
+        <p>
+          The LBRY <a href="https://github.com/lbryio/lbry">daemon</a> and <a href="https://github.com/lbryio/lbryum">wallet</a> are both written in Python, but maybe you're the one to rewrite them in Go (we're kidding) (probably).
+        </p>
+        <p>Competence with security, operating systems, and networks is mandatory. Experience with peer-to-peer technology is beneficial but not required.</p>
 
-      <h3 id="blockchain-engineer">Blockchain Engineer</h3>
-      <p>
-        This position involves working directly on the LBRY <a href="https://github.com/lbryio/lbrycrd">blockchain</a>, written in C++.
-      </p>
-      <p>
-        Competence with cryptography, security, and networks is mandatory. Experience with blockchain is beneficial but not required.
-      </p>
-      <p>
-        Blockchain work is like being a goalkeeper: good work goes under-appreciated, but mistakes are catastrophic. You must be the kind of masochist that enjoys this.
-      </p>
-      <h3 id="protocol-engineer">Protocol Engineers</h3>
-      <p>
-        The LBRY protocol consists of a <a href="https://lbry.io/api">set of APIs</a> provided via a daemon. This daemon is comprised of several sub-components, and interacts with the blockchain, wallet, and other remote daemons that constitute the LBRY data network.
-      </p>
-      <p>
-        The LBRY <a href="https://github.com/lbryio/lbry">daemon</a> and <a href="https://github.com/lbryio/lbryum">wallet</a> are both written in Python, but maybe you're the one to rewrite them in Go (we're kidding) (probably).
-      </p>
-      <p>Competence with security, operating systems, and networks is mandatory. Experience with peer-to-peer technology is beneficial but not required.</p>
-
-      <h3 id="web-developer">Web Developer</h3>
-      <p>
-        We're seeking someone to manage <a href="https://github.com/lbryio/lbry.io">this very website</a>, as well as other LBRY web properties and projects.
-      </p>
-      <p>
-        This position involves both design and programming elements and is good for someone with a mix of creativity and logic.
-        The LBRY website currently uses a moderate amount of PHP, but you be the product owner and have full control over the implementation.
-      </p>
-
+        <h3 id="web-developer">Web Developer <span class="badge badge-info">Paused</span></h3>
+        <p>
+          We're seeking someone to manage <a href="https://github.com/lbryio/lbry.io">this very website</a>, as well as other LBRY web properties and projects.
+        </p>
+        <p>
+          This position involves both design and programming elements and is good for someone with a mix of creativity and logic.
+          The LBRY website currently uses a moderate amount of PHP, but you be the product owner and have full control over the implementation.
+        </p>
+      </div>
       <h2 id="applying">Applying</h2>
       <h4 id="how-to-apply">How To Apply</h4>
       <p>
@@ -135,7 +136,7 @@
               <tr>
                 <td><a href="https://github.com/lbryio/lbry-app">lbry-app</a></td>
                 <td>Application or UX Engineer</td>
-                <td><a href="https://github.com/lbryio/lbry-app/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">good first issues</a> <em>(coming 1/17)</em></td>
+                <td><a href="https://github.com/lbryio/lbry-app/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">good first issues</a></td>
               </tr>
               <tr>
                 <td><a href="https://github.com/lbryio/lbrycrd">lbrycrd</a></td>
