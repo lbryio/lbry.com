@@ -22,7 +22,7 @@
       <h3>Okay. How do I get involved?</h3>
       <p>Enter your email below and we'll tell you more.</p>
       <?php echo View::render('mail/_subscribeForm', [
-        'tag' => 'college',
+        'tag' => 'meetup',
         'submitLabel' => 'Sign me up',
         'hideDisclaimer' => true,
         'largeInput' => true,
