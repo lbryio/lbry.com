@@ -21,7 +21,7 @@ class Response
     $jsCalls = [],
     $assets = [
     'js'  => [
-      '/js/jquery-2.1.3.min.js',
+      '/js/jquery-3.3.1.min.js',
       '/js/global.js'
     ],
     'css' => []
