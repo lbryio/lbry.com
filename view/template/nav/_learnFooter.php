@@ -34,7 +34,7 @@
             <li>Check out the latest <a href="/news" class="link-primary">news</a>.</li>
      <?php endif ?>
 <?php if (Request::getRelativeUri()!= '/faq'): ?> 
-            <li>Read our <a href="/faq" class="link-primary">Frequently Asked Questions.</a>.</li>
+            <li>Read our <a href="/faq" class="link-primary">Frequently Asked Questions</a>.</li>
 <?php endif ?>
         </ul>
       </div>
