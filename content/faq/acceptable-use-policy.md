@@ -1,6 +1,6 @@
 ---
 title: Acceptable Use Policy
-category: publisher
+category: other
 ---
 
 If you've read [Art in the Internet Age,](https://lbry.io/what) you know that LBRY believes we are in a post scarcity age in terms of the reproduction of content. There are two things that are still scarce; good quality content, and good reputations. We take respecting the rights of creators very seriously, and we expect the same when it comes to our good name. Here is how we go about protecting that.
