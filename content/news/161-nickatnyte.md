@@ -16,4 +16,4 @@ He’s also a popular Fortnite streamer if action games are more your style. Eit
 
 Subscribe to @nickatenyte for the newest Clash strategies and welcome him to LBRY with LBC tips galore.
 
-**[Download LBRY today](https://lbry.io/get)**. Is your favorite channel not on LBRY? Help us feature what you want to see! Email reilly@lbry.io to make it happen. Or sync your own channel at: https://lbry.io/youtube
+**[Download LBRY today](https://lbry.io/get)**. Is your favorite channel not on LBRY? Help us feature what you want to see! Email [reilly@lbry.io](mailto:reilly@lbry.io) to make it happen. Or sync your own channel at: https://lbry.io/youtube
