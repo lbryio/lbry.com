@@ -14,4 +14,4 @@ From metal and progressive rock originals to the best geek covers this side of J
 
 Subscribe to @srodalmenara or share his songs the *safe* way [via Spee.ch](https://spee.ch/@srodalmenara).
 
-**[Download LBRY today](https://lbry.io/get)**. Is your favorite channel not on LBRY? Help us feature what you want to see! Email reilly@lbry.io to make it happen. Or sync your own channel at: https://lbry.io/youtube
+**[Download LBRY today](https://lbry.io/get)**. Is your favorite channel not on LBRY? Help us feature what you want to see! Email [reilly@lbry.io](mailto:reilly@lbry.io) to make it happen. Or sync your own channel at: https://lbry.io/youtube
