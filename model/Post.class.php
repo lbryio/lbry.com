@@ -155,6 +155,27 @@ class Post
   {
     return $this->author;
   }
+  
+  public function getAuthorGithubID()
+  {
+   $post = ContentActions::prepareBioPartial(['person' =>$this->author]);
+
+    return $post["github"];
+  }
+
+public function getAuthorTwitterID()
+{
+   $post = ContentActions::prepareBioPartial(['person' =>$this->author]);
+
+    return $post["twitter"];
+}
+
+public function getAuthorEmail()
+{
+    $post = ContentActions::prepareBioPartial(['person' =>$this->author]);
+
+    return $post["email"];
+}
 
   public function getDate()
   {
