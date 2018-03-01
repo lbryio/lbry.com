@@ -8,6 +8,7 @@
         <div class="meta">{{news.author}}</div>
         <h3><?php echo $authorName ?></h3>
         <?php echo $authorBioHtml ?>
+        <?php echo $BioHtml ?>
       </div>
     </div>
   </div>
