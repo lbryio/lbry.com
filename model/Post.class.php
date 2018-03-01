@@ -155,26 +155,29 @@ class Post
   {
     return $this->author;
   }
-  
+
   public function getAuthorGithubID()
   {
    $post = ContentActions::prepareBioPartial(['person' =>$this->author]);
-
+   if(array_key_exists("github", $post)){
     return $post["github"];
+   }
   }
 
 public function getAuthorTwitterID()
 {
    $post = ContentActions::prepareBioPartial(['person' =>$this->author]);
-
-    return $post["twitter"];
+    if(array_key_exists("twitter", $post)){
+      return $post["twitter"];
+    }
 }
 
 public function getAuthorEmail()
 {
     $post = ContentActions::prepareBioPartial(['person' =>$this->author]);
-
-    return $post["email"];
+    if(array_key_exists("email", $post)){
+      return $post["email"];
+    }
 }
 
   public function getDate()
@@ -253,7 +256,7 @@ public function getAuthorEmail()
     return $post["name"];
   }
 
-  public function getAuthorEmail()
+  public function getAuthorPostEmail()
   {
     $post = ContentActions::prepareBioPartial(['person' =>$this->author]);
 
