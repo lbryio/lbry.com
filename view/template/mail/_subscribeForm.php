@@ -1,7 +1,7 @@
 <?php $error = $error ?? null ?>
 <?php $tag = $tag ?? null ?>
 <?php $largeInput = $largeInput ?? false ?>
-<form action="/list/subscribe" method="POST" novalidate>
+<form id="mail_form" action="/list/subscribe" method="POST" novalidate>
 
   <?php if ($error): ?>
     <div class="notice notice-error spacer1"><?php echo $error ?></div>
@@ -19,5 +19,10 @@
     <?php if (!($hideDisclaimer ?? false)): ?>
       <div class="meta">{{email.disclaimer}}</div>
     <?php endif ?>
+    <?php js_start() ?>
+      $("#mail_form").submit(function() {
+      fbq('track', 'Lead');
+      });
+    <?php js_end() ?>
   </div>
 </form>
