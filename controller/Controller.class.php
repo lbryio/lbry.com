@@ -136,6 +136,7 @@ class Controller
       '/art'                                => '/what',
       '/why'                                => '/learn',
       '/feedback'                           => '/learn',
+      '/joinus'                             => '/join-us',
       '/faq/when-referral-payouts'          => '/faq/referrals',
       '/faq/why-care-about-lbry'            => '/get',
       '/news/meet-the-lbry-founders'        => '/team',
