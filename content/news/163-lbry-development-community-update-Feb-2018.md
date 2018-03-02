@@ -31,7 +31,7 @@ Stay tuned for an updated version of the LBRY app next week! In the meantime, yo
 ### App Redesign
 The LBRY App redesign continues to make great progress you can follow along on [GitHub](https://github.com/lbryio/lbry-app/issues/848) for the latest status and updates. The latest focus has been on refactoring the inner workings of the Publish page into a more optimized version using the React framework. We also have a community member, @btzr, who is helping out in migrating the dark theme into the new design. 
 
-Want to explore a web based prototype of the new LBRY app design? Head over to [https://design.lbry.io](https://design.lbry.io) to get a preview of what’s to come. *Please note: some of the design features like notifications and commenting are still experimental and most likely will not roll out with the first iteration of the re-design as they require additional support from the protocol to work properly.*
+Want to explore a web based prototype of the new LBRY app design? Head over to [https://design.lbry.io](https://design.lbry.io) to get a preview of what’s to come. This page works best on a Desktop but may display correctly in landscape mode on mobile. *Please note: some of the design features like notifications and commenting are still experimental and most likely will not roll out with the first iteration of the re-design as they require additional support from the protocol to work properly.*
 
 ![App redesign early preview](https://spee.ch/1/app-redesign-preview.jpeg)
 
@@ -97,7 +97,7 @@ LBRY has officially launched their Meetups and College programs! We are [looking
 ![Meetup and College initiative](https://spee.ch/7/meet-LBRY.png)
 
 ### LBRY.Community Contest Winners
-The [LBRY.Community contest](https://lbry.community/contest) from January wrapped up and the [winners](https://lbry.community/contest-winners-january-2018/) were first announced and tipped on our Discord channel, congrats to all the winners! All entrants were given LBC Credits as a participation bonus and LBRY.Community is also giving out stickers and handbags to all participants and judges. Thanks again to @rouse and @coolguy3289 for coordinating! The next phase of LBRY.Community’s plans are being discussed with our team. 
+The [LBRY.Community contest](https://lbry.community/category/votable-contest-entries/) from January wrapped up and the [winners](https://lbry.community/contest-winners-january-2018/) were first announced and tipped on our Discord channel, congrats to all the winners! All entrants were given LBC Credits as a participation bonus and LBRY.Community is also giving out stickers and handbags to all participants and judges. Thanks again to @rouse and @coolguy3289 for coordinating! The next phase of LBRY.Community’s plans are being discussed with our team. 
 
 ### New and updated LBRY FAQ Articles
 We recently revamped and simplified our [“What is LBRY?”](https://lbry.io/faq/what-is-lbry) FAQ so it’s a tad easier to digest for first time LBRY users. 
