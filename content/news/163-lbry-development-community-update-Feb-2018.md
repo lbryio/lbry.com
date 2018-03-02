@@ -75,7 +75,7 @@ Our revamped YouTube sync page (replacing [this one](https://lbry.io/youtube)) i
 ![YouTube Sync preview](https://spee.ch/3/sync.png)
 
 ### LBRY Social Media Updates
-We’ve surpassed 15k followers on Facebook and 30k followers on Twitter - as our audience keeps growing, there will be more opportunities than ever for new users to discover LBRY. We also want our community to be an integral part of our social presence - if you haven’t yet, join our [Discord](https://chat.lbry.io), and feel free to throw out any suggestions for posts, articles, or individuals you think we should reach out to!
+We’ve surpassed 15k followers on [Facebook](https://www.facebook.com/lbryio) and 30k followers on [Twitter](https://twitter.com/lbryio) - as our audience keeps growing, there will be more opportunities than ever for new users to discover LBRY. We also want our community to be an integral part of our social presence - if you haven’t yet, join our [Discord](https://chat.lbry.io), and feel free to throw out any suggestions for posts, articles, or individuals you think we should reach out to!
 
 ### Twitter LBC Tip Bot
 We have opened up a bounty for a [Twitter Tip Bot](https://lbry.io/bounty/twitter-tipbot) to expand our ability to distribute LBC to our Twitter followers. This will accompany our Discord and Reddit tip bots which are powerful tools used by ourselves and our community to reward LBRYians for their contributions, testing and feedback. It will work by tagging the tipbot user in Twitter replies/messages with keywords such as “tip”, “balance”, “withdraw”, “deposit” - very similar to our other tip bots. A community member is very close to getting a tipbot working and you can follow [@LBC_TipBot](https://twitter.com/@LBC_TipBot) for updates. 
