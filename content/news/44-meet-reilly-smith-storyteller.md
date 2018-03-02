@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: 'LBRY’s Content Curator Is An Indie Kid Who Will Show You What’s Good'
 date: '2016-06-21 00:06:18'
 ---

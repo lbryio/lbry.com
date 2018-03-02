@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: 'BraveNewCoin Compares LBRY to Alexandria: Who Will Be the First to Supplant BitTorrent?'
 date: '2015-12-17 21:55:57'
 ---

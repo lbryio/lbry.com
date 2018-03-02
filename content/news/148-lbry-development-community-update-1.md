@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: 'Development and Community Update'
 date: '2017-12-12 5:00:00'
 ---

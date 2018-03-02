@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: 'History Is Made - First Public Film Screenings via Blockchain at PorcFest XIII'
 date: '2016-06-30 00:09:00'
 ---

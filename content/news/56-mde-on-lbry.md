@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: 'Adult Swim's Million Dollar Extreme Joins LBRY'
 date: '2016-08-11 00:06:18'
 cover: 'mde.jpg'

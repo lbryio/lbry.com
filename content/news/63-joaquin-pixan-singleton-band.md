@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: '#NewKidsOnTheBlockchain Thursday: Indie Rockers from Ukraine & Classical Singing de la Spain'
 date: '2016-09-01 00:06:18'
 cover: 'joaquin-pixan2.jpg'

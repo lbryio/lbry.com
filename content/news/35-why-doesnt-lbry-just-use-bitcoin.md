@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: Why Doesn’t LBRY Just Use Bitcoin?
 date: '2016-03-17 13:31:10'
 cover: 'why-not-bitcoin2.jpg'

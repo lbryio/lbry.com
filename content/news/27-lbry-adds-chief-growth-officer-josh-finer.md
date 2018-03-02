@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: LBRY Means Business With Addition of Josh Finer, MBA
 date: '2016-01-06 15:11:11'
 ---

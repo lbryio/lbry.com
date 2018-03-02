@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: Wikimedia Forced to Remove Anne Frank's Diary
 date: '2016-02-12 19:21:53'
 cover: 'anne-frank-2.png'

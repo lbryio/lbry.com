@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: 'Information Gatekeepers Make Our Culture Sick'
 date: '2016-04-26 10:06:18'
 cover: 'gatekeepers.png'
