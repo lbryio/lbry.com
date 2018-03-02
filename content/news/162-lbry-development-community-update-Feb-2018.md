@@ -8,7 +8,7 @@ In December, we published the [first ever LBRY Development and Community update]
 
 Please take a moment to read our [Looking Back and Moving Forward: LBRY in 2017/2018](https://lbry.io/news/lbry-in-2017-2018) blog post and check out our [roadmap](https://lbry.io/roadmap). 
 
-Before diving in, we want to let everyone know that we’ll be hosting a live Ask me Anything event with our CEO Jeremy Kauffman next Friday (3/9) at 5:30PM ET on Twitter and Reddit. This will be the first live stream from our office, so please bear with us through any technical difficulties. Join us on the [LBRY subreddit](https://www.reddit.com/r/lbry/) and use #lbryAMA on [Twitter](https://twitter.com/LBRYio), and bring some friends who have burning questions about LBRY!
+Before diving in, we want to let everyone know that we’ll be hosting a **live Ask me Anything event** with our CEO Jeremy Kauffman next **Friday (3/9) at 5:30PM ET** on Twitter and Reddit. This will be the first live stream from our office, so please bear with us through any technical difficulties. Join us on the [LBRY subreddit](https://www.reddit.com/r/lbry/) and use #lbryAMA on [Twitter](https://twitter.com/LBRYio), and bring some friends who have burning questions about LBRY!
 
 To skip the tech stuff and see what’s happened and what’s next in the LBRY community, click the link below. Otherwise, read on!
 
@@ -55,7 +55,9 @@ As part of our push for improving scaling and overall performance, reliability a
 If you aren’t part of our Discord community yet, [join us](https://chat.lbry.io) anytime and say hello! Our community allows LBRYians to interact with the team directly and for us to engage users in order to grow the LBRY platform. 
 
 ### LBRY Team Expands - Protocol Developer!
-Great news, our team is expanding! We’ve recently hired an additional LBRY protocol developer who will be helping Jack and Kay on improving functionality and performance in LBRY’s core component. We are excited to have Lex on board! Welcome him to the team by saying hello to @eukreign on [Discord](https://chat.lbry.io). 
+Great news, our [team](https://lbry.io/team) is expanding! We’ve recently hired an additional LBRY protocol developer who will be helping Jack and Kay on improving functionality and performance in LBRY’s core component. We are excited to have Lex on board! Welcome him to the team by saying hello to @eukreign on [Discord](https://chat.lbry.io). 
+
+![Lex profile page](https://spee.ch/a/lex-profile.png)
 
 ### LBRY Merchandise Store
 On Valentine’s day, LBRY officially launched its at-cost merchandise store through [Apex Apparel](https://apexapparel.shop/collections/lbry) on Discord chat where five lucky community members were sent free merch during an initial giveaway contest. The link was later shared on Reddit and Social media where a few fans have already shared their swag photos. Special thanks to community member @TheSethser for helping us get this project off the ground and for the awesome design work!  
