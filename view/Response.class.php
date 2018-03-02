@@ -32,7 +32,8 @@ class Response
     $contentSent = false,
     $isHeadersOnly = false,
     $gzipResponseContent = true,
-    $metaImages = [];
+    $metaImages = [],
+    $facebookAnalyticsType = "PageView";
 
   public static function setMetaDescription($description)
   {
@@ -350,6 +351,14 @@ class Response
     ];
 
     return $statusTexts[$code] ?? null;
+  }
+
+  public static function setFacebookPixelAnalyticsType($type){
+    static::$facebookAnalyticsType = $type;
+  }
+
+  public static function getFacebookPixelAnalyticsType(){
+    return static::$facebookAnalyticsType;
   }
 
   protected static function normalizeHeaderName($name): string
