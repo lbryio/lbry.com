@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: 'Be Like Boba Fett – Earn Bounties for Helping LBRY Grow'
 date: '2016-08-18 00:06:18'
 cover: 'boba-fett.png'

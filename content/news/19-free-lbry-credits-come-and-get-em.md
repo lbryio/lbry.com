@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: 'Free LBRY Credits: Come and Get ‘Em!'
 date: '2015-11-24 19:43:59'
 ---

@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: 'LBRY v0.19 Is Shifting Into High Gear'
 date: '2017-12-11 12:45:00'
 ---

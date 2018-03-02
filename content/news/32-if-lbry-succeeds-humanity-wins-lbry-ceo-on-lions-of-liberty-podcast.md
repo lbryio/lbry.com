@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: 'If LBRY Succeeds, Humanity Wins: LBRY CEO on Lions of Liberty Podcast'
 date: '2016-02-17 17:45:37'
 ---

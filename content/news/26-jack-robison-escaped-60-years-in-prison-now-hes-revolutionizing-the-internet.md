@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: Jack Robison Escaped 60 Years in Prison; Now He’s Revolutionizing the Internet
 date: '2015-12-31 17:10:59'
 ---

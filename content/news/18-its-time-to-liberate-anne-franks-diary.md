@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: It’s Time To Liberate Anne Frank’s Diary
 date: '2015-11-18 14:27:39'
 cover: 'anne-frank-diary.jpg'

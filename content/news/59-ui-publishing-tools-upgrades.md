@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: 'UI & Publishing Tools Upgrade with Reflector'
 date: '2016-08-25 00:06:18'
 ---
