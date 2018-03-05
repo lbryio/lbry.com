@@ -67,7 +67,7 @@ We will tip LBC if you tag us on Twitter or Facebook with a picture of you rocki
 ![swag preview](https://spee.ch/3/LBRY-swag.png)
 
 ### Blockchain Security and Economics
-Over the last few months, we’ve noticed that the LBRY mining hash rate has gone up significantly due to the manufacturing of FPGA (specialized mining hardware) and we’ve noticed our [community](https://github.com/lbryio/lbrycrd/issues/85) has their concerns about centralization as well. We will be addresses the general blockchain security and economics discussion with a blog post that explains our take and potential solutions. 
+Over the last few months, we’ve noticed that the LBRY mining hash rate has gone up significantly due to the manufacturing of FPGA (specialized mining hardware) and we’ve noticed our [community](https://github.com/lbryio/lbrycrd/issues/85) has their concerns about centralization as well. We will be addressing the general blockchain security and economics discussion with a blog post that explains our take and potential solutions. 
 
 ### Youtube Sync Site Almost Ready! 
 Our revamped YouTube sync page (replacing [this one](https://lbry.io/youtube)) is almost ready to go live! This program will begin to target YouTubers more aggressively with the goal of having them sync their content to the LBRY network. The new process will allow them to claim their channel directly on the LBRY network during signup, detail the monthly LBC incentive based on subscriber counts and provide a sync status view so they monitor the sync progress. Stay tuned for updates!  
