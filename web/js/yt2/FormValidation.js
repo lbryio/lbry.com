@@ -1,15 +1,46 @@
+function submitEditForm(){
+    $("#youtube_settings").submit(function (event) {
+
+        // get value from id
+        var lbry_channel_name = $.trim($('#channel-name').val());
+        var email = $.trim($('#email').val());
+
+        // Hide the error message
+        $('#channel-name-error').hide();
+        $('#email-error').hide();
+
+        // If the channel name is invalid or blank stop the post request
+        if(!validateLBRYName(lbry_channel_name) || lbry_channel_name === ''){
+            $('#lbry_channel_name').addClass('error_form');
+            $('#channel-name-error').show();
+            event.preventDefault();
+        }
+
+        if(!validateEmail(email) || email === ''){
+            $('#email').addClass('error_form');
+            $('#email-error').show();
+            event.preventDefault();
+        }
+
+        // If the checkbox is not check stop the post request
+        if(!$('#sync-consent').prop('checked')){
+            $('#sync-consent').addClass('error_form');
+            $('#sync-consent-error').show();
+            event.preventDefault();
+        }
+        localStorage.setItem("status_token", $.trim($('#status_token').val()));
+        localStorage.setItem("lbry_channel_name_sync", $.trim($('#channel-name').val()));
+    });
+}
+
 function submitDetailsForm() {
     $("#youtube_claim").submit(function (event) {
 
         // get value from id
         var lbry_channel_name = $.trim($('#lbry_channel_name').val());
-        var email = $.trim($('#email').val());
-        var youtube_url = $.trim($('#youtube_url').val());
 
         // Make sure that the error message are hidden before trying to validate value
         $('#lbry_error').hide();
-        $('#email_error').hide();
-        $('#youtube_url_error').hide();
 
             // If the lbry name is invalid or blank stop the post request
             if(!validateLBRYName(lbry_channel_name) || lbry_channel_name === '') {
@@ -17,32 +48,6 @@ function submitDetailsForm() {
                 $('#lbry_error').show();
                 event.preventDefault();
             }
-            // Show the other field if the LBRY channel name field is validated once
-            else{
-                // Check only if the two fields
-                if ($('#email').is(":visible") && $('#youtube_url').is(":visible")) {
-                    // If the email is invalid or blank stop the post request
-                    if (!validateEmail(email) || email === '') {
-                        $('#email').addClass('error_form');
-                        $('#email_error').show();
-                        event.preventDefault();
-                    }
-
-                    // If the youtube url is invalid or blank stop the post request
-                    if (!validateYoutubeChannelUrl(youtube_url) || youtube_url === '') {
-                        $('#youtube_url').addClass('error_form');
-                        $('#youtube_url_error').show();
-                        event.preventDefault();
-                    }
-                }
-                else{
-                    event.preventDefault();
-                }
-                $('#youtube_url').show();
-                $('#email').show();
-            }
-
-
     });
 }
 

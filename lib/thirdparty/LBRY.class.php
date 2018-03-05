@@ -36,6 +36,11 @@ class LBRY
     return Curl::post(static::getApiUrl('/yt/new'), ['email' => $email, 'youtube_channel_id' => $channel_id,'desired_lbry_channel_name' => $channel_name], ['json_response' => true]);
   }
 
+  public static function connectYoutube($channel_name)
+  {
+    $type = 'sync';
+    return Curl::post(static::getApiUrl('/yt/connect'), ['desired_lbry_channel_name' => $channel_name, 'type' => $type], ['json_response' => true]);
+  }
   // Check the sync status
   public static function statusYoutube($status_token)
   {
@@ -44,5 +49,9 @@ class LBRY
 
   public static function youtubeReward(){
     return CurlWithCache::post(static::getApiUrl('/yt/rewards'),[], ['cache' => 3600, 'json_response' => true ]);
+  }
+
+  public static function editYouTube($status_token, $channel_name, $email, $sync_consent){
+    return Curl::post(static::getApiUrl("/yt/update"),['status_token' => $status_token, 'new_email' => $email, 'new_preferred_channel' => $channel_name, 'sync_consent' => $sync_consent], ['json_response' => true]);
   }
 }

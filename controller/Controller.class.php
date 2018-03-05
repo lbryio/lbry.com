@@ -122,6 +122,7 @@ class Controller
     $router->any('/youtube/thanks', 'AcquisitionActions::executeThanks');
     $router->any('/youtube/sub', 'AcquisitionActions::executeYouTubeSub');
     $router->any('/youtube', 'AcquisitionActions::executeYT2');
+    $router->post('/youtube/edit', 'AcquisitionActions::executeYoutubeEdit');
     $router->post('/youtube/token', 'AcquisitionActions::executeYoutubeToken');
     $router->any('/youtube/status/{token}', 'AcquisitionActions::executeYoutubeStatus');
     $router->get('/verify/{token}', 'AcquisitionActions::executeVerify');

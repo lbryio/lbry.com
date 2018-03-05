@@ -57,28 +57,21 @@ class AcquisitionActions extends Actions
     return ['acquisition/youtube_status', ['token' => $token]];
   }
 
-  public static function actionYoutubeToken(string $email, string $desired_lbry_channel_name, string $youtube_channel_id)
+  public static function actionYoutubeToken(string $desired_lbry_channel_name)
   {
 
-    $email_is_valid = static::email_verification($email);
     $desired_lbry_channel_name_is_valid = static::lbry_channel_verification($desired_lbry_channel_name);
-    $youtube_channel_id_is_valid = static::youtube_channel_verification($youtube_channel_id);
+    var_dump($desired_lbry_channel_name);
+    var_dump($desired_lbry_channel_name_is_valid);
 
+    //if ($desired_lbry_channel_name_is_valid) {
+      $token = LBRY::connectYoutube($desired_lbry_channel_name);
+      var_dump($token);
+    //}
+  }
 
-    if ($email_is_valid && $desired_lbry_channel_name_is_valid && $youtube_channel_id_is_valid) {
-      $token = LBRY::newYoutube($email, $youtube_channel_id, $desired_lbry_channel_name);
-
-      if ($token['error'] === null) {
-        $url = "/youtube/status/" . $token['data']['status_token'];
-        Controller::redirect($url);
-      } else {
-        $url = "/yt2?error=true&error_message=" . $token['error'];
-        Controller::redirect($url);
-      }
-    } else {
-      $url = "/yt2?error=true";
-      Controller::redirect($url);
-    }
+  public static function executeYoutubeEdit(){
+    return ['acquisition/youtube_edit'];
   }
 
   protected static function email_verification($email)

@@ -4,6 +4,7 @@ Response::addJsAsset('/js/yt2/TweenMax.min.js');
 Response::addJsAsset('/js/yt2/ScrollToPlugin.min.js');
 Response::addJsAsset('/js/yt2/app.js');
 Response::addJsAsset('/js/yt2/FormValidation.js');
+Response::addJsAsset('/js/yt2/SyncStatus.js');
 $reward = LBRY::youtubeReward();
 ?>
 <main>
@@ -59,21 +60,16 @@ $reward = LBRY::youtubeReward();
       endif;?>
       <div class="zigzag"></div>
       <h1>Own your identity. For real this time.</h1>
+        <div hidden id="sync-status">
+
+        </div>
       <form id="youtube_claim" method="post" action="/youtube/token">
         <div class="form-inner" >
             <div class="block" hidden id="lbry_error">LBRY channel name is not valid or blank</div>
           <div class="block">
             <input id="lbry_channel_name" type="text" name="desired_lbry_channel_name" placeholder="Desired LBRY channel name" />
+              <label>@</label>
           </div>
-            <div class="block" hidden id="email_error">Email is not valid or blank</div>
-            <div class="block">
-                <input hidden id="email" type="text" name="email_address" placeholder="Your Email" />
-            </div>
-            <div class="block" hidden id="youtube_url_error">Youtube id is not valid or blank</div>
-            <div class="block">
-                <input hidden id="youtube_url" type="text" name="youtube_channel_url" placeholder="Your Channel ID" />
-            </div>
-
       </form>
         <div class="block">
             <input type="submit" value="Claim now" onClick="return submitDetailsForm()"/>
