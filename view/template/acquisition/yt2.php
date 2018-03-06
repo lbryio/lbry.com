@@ -8,21 +8,7 @@ Response::addJsAsset('/js/yt2/SyncStatus.js');
 $reward = LBRY::youtubeReward();
 ?>
 <main>
-<header class="header">
-  <div class="inner">
-    <div class="left">
-      <div class="logo"></div>
-      <a href="https://lbry.io/get" target="_blank">Get</a>
-      <a href="https://lbry.io/learn" target="_blank">Learn</a>
-    </div>
-    <div class="right">
-      <a href="https://github.com/lbryio" target="_blank" class="github"></a>
-      <a href="https://www.reddit.com/r/lbry/" target="_blank" class="reddit"></a>
-      <a href="https://www.facebook.com/lbryio" target="_blank" class="facebook"></a>
-      <a href="https://twitter.com/lbryio" target="_blank" class="twitter"></a>
-    </div>
-  </div>
-</header>
+  <?php echo View::render('acquisition/_youtube_header') ?>
 <section class="hero">
   <div class="shape">
     <svg style="width: 100%; height: 100%;">
@@ -48,7 +34,7 @@ $reward = LBRY::youtubeReward();
     <div class="overflow"><h1>Leave YouTube</h1></div>
     <div class="overflow"><h1>for good.</h1></div>
     <p>No more demonetization or sneaky algorithms</p>
-    <div class="button">Take me to your leader</div>
+    <div class="button">Claim Your Channel</div>
   </div>
 </section>
 <section class="claim section">
@@ -74,6 +60,10 @@ $reward = LBRY::youtubeReward();
         <div class="block">
             <input type="submit" value="Claim now" onClick="return submitDetailsForm()"/>
         </div>
+      <div class="meta">
+        This will verify you are an active YouTuber, then instructions and your welcome credits will be emailed to you.
+        <a href="//faq/youtube">Learn more</a>.
+      </div>
     </div>
   </div>
 </section>
@@ -144,6 +134,9 @@ $reward = LBRY::youtubeReward();
       <p>LBRY offers a single-click sync process<br>for existing YouTubers</p>
       <div class="button">
         <a href="https://api.lbry.io/yt/connect?type=sync">Sync now</a>
+      </div>
+      <div class="meta">
+        By syncing, you agree to mirror your content to the LBRY network for 1 year, and acknowledge <a href="//faq/youtube">these terms</a>.
       </div>
     </div>
   </div>
