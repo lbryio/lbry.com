@@ -16,7 +16,7 @@ On July 29th, 2017 the Pop-up Open Beta Was Announced.
 
 ### FAQ
 
-- [LBRY in 100 Seconds (Video)](https://www.youtube.com/watch?v=qkUA0vTWM7g)
+- [LBRY in 100 Seconds (Video)](https://www.youtube.com/watch?v=DjouYBEkQPY)
 - [How Does LBRY Work, Exactly?](https://lbry.io/news/introducing-lbry-the-bitcoin-of-content)
 - [Why Doesn't LBRY Just Use Bitcoin?](https://lbry.io/news/why-doesnt-lbry-just-use-bitcoin)
 - [More F.A.Q's](https://lbry.io/faq)
