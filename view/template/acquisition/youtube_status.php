@@ -2,6 +2,8 @@
 <?php Response::setMetaTitle(__('YouTubers! Take back control.')) ?>
 <?php Response::setCssAssets(['/css/yt2.css']) ?>
 <?php Response::addJsAsset('/js/yt2/FormValidation.js')?>
+<?php  $status= LBRY::statusYoutube($token);?>
+
 <main>
     <?php echo View::render('acquisition/_youtube_header') ?>
   <section class="hero">
@@ -78,8 +80,6 @@
     </div>
   </form>
   <h3>Your Reward</h3>
-  <?php  $status= LBRY::statusYoutube($token);?>
-
   <div >
     Expected Reward:
     <?php echo $status['data']['expected_reward'];?> LBC
