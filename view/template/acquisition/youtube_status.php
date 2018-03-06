@@ -32,52 +32,59 @@
       <div class="button">Claim Your Channel</div>
     </div>
   </section>
-    <?php  $status= LBRY::statusYoutube($token);?>
-    <form id="youtube_settings" action="/youtube/edit" method="post">
-       <div>
-           <input type="hidden" name="status_token" id="status_token" value="<?php echo $token?>"/>
-       </div>
-        <div hidden id="channel-name-error" >
-            Channel is invalid or blank
-        </div>
-        <div >
-            <label for="channel-name">LBRY channel name:</label>
-            <input type="text" id="channel-name" style="display: block; margin : 0 auto;"
-                   name="new_preferred_channel" placeholder="@YourPreferredChannelName"
-                   value="<?php echo $status['data']['lbry_channel_name'];?>"
-            >
-        </div>
-        <div hidden id="email-error" >
-            Email is invalid or blank
-        </div>
-        <div >
-            Email:
-            <input type="text" id="email" style="display: block; margin : 0 auto;"
-                   name="new_email" placeholder="bill@gmail.com"
-                   value="<?php echo $status['data']['email'];?>"
-            >
-        </div>
+  <h3>Your Channel</h3>
+  <div >
+    Number Of Subscriber:
+    <?php echo $status['data']['subscribers']?>
+  </div>
+  <div >
+    Number Of Video:
+    <?php echo $status['data']['videos']?>
+  </div>
+  <h3>Edit Your Settings</h3>
+  <form id="youtube_settings" action="/youtube/edit" method="post">
+    <div>
+      <input type="hidden" name="status_token" id="status_token" value="<?php echo $token?>"/>
+    </div>
+    <div hidden id="channel-name-error" >
+      Channel is invalid or blank
+    </div>
+    <div >
+      <label for="channel-name">LBRY channel name:</label>
+      <input type="text" id="channel-name" style="display: block; margin : 0 auto;"
+             name="new_preferred_channel" placeholder="@YourPreferredChannelName"
+             value="<?php echo $status['data']['lbry_channel_name'];?>"
+      >
+    </div>
+    <div hidden id="email-error" >
+      Email is invalid or blank
+    </div>
+    <div >
+      Email:
+      <input type="text" id="email" style="display: block; margin : 0 auto;"
+             name="new_email" placeholder="bill@gmail.com"
+             value="<?php echo $status['data']['email'];?>"
+      >
+    </div>
 
-        <div >
-            Expected Reward:
-            <?php echo $status['data']['expected_reward'];?> LBC
-        </div>
-        <div >
-            Number Of Subscriber:
-            <?php echo $status['data']['subscribers']?>
-        </div>
-        <div >
-            Number Of Video:
-            <?php echo $status['data']['videos']?>
-        </div>
-        <div hidden id="sync-consent-error"  >
-            You must agreed to sync to continue
-        </div>
-        <div  >
-            <input name="sync_consent" id="sync-consent" type="checkbox"> I want to sync my content to the LBRY network and agree to the "terms"
-        </div>
-        <div >
-            <button type="submit" class="btn btn-default" onClick="return submitEditForm()">Edit my preferences</button>
-        </div>
-    </form>
+    <div hidden id="sync-consent-error"  >
+      You must agreed to sync to continue
+    </div>
+    <div  >
+      <input name="sync_consent" id="sync-consent" type="checkbox"> I want to sync my content to the LBRY network and agree to the "terms"
+    </div>
+    <div >
+      <button type="submit" class="btn btn-default" onClick="return submitEditForm()">Edit my preferences</button>
+    </div>
+  </form>
+  <h3>Your Reward</h3>
+  <?php  $status= LBRY::statusYoutube($token);?>
+
+  <div >
+    Expected Reward:
+    <?php echo $status['data']['expected_reward'];?> LBC
+  </div>
+
+  <p>To get your credits... lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ipsum velit, convallis ac libero sit amet, viverra dictum tortor. </p>
+</p>
 </main>
