@@ -145,7 +145,8 @@ $reward = LBRY::youtubeReward();
   <div class="inner">
     <div class="content">
       <h1>LBRY Credits and Your Channel</h1>
-      <p>Be compensated for your value to your audience and the network, not what advertisers think you're worth.</p>
+      <p>After you sync, receive LBRY Credits every month for one year based on your current subscriber count.</p>
+      <p>The more you give to the network, the more it gives back.</p>
       <div class="price">
         <h3>Partner Programs</h3>
         <p>LBC <span class="current-value">(0.3267 USD)</span></p>

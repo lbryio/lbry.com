@@ -75,7 +75,7 @@
         <h3  class="cover-title cover-title-tile cover-title-flat">I Have Questions</h3>
         <p>
           Have a big audience? Let Reilly know how we can support you
-          by <a class="link-primary" href=mailto:reilly@lbry.io?subject=YouTube+Freedom">emailing him directly</a>.
+          by <a class="link-primary" href=mailto:reilly@lbry.io?subject=YouTube+Freedom>emailing him directly</a>.
         </p>
         <form action="/youtube/sub" method="POST" class="spacer2">
           <?php echo View::render('form/_formRow', [
@@ -86,7 +86,7 @@
           ]) ?>
           <input type="submit" value="Let's Talk" class="btn-primary">
         </form>
-        <?php echo View::render('content/_bio', ['person' => 'reilly-smith-youtube']) ?>
+        <?php echo View::render('content/_bio', ['person' => 'reilly-smith']) ?>
       </div>
     </div>
   </div>

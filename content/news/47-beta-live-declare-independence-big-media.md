@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: 'LBRY Beta Goes Live! A Declaration of Independence from Big Media'
 date: '2016-07-04 00:00:01'
 ---

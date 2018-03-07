@@ -7,7 +7,6 @@ Absolutely. Here are some links to the pools. Each pool will have instructions o
 While we try to work with reliable pool operators, LBRY does not officially run or endorse any one pool.
 
 - [LBRY Community Pool](http://lbrypool.com)
-- [YIIMP](http://yiimp.ccminer.org)
 - [Pool.MN](https://pool.mn/lbry/index.php?page=gettingstarted)
 - [SuprNova](https://lbry.suprnova.cc/index.php?page=gettingstarted)
 - [CoinMine](https://www2.coinmine.pl/lbc/index.php?page=gettingstarted)

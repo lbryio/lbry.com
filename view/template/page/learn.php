@@ -57,8 +57,11 @@
       <div class="content content-dark content-tile">
         <h3>{{learn.join}}</h3>
         <?php echo View::render('social/_list') ?>
+        <h3>{{learn.contact}}</h3>
+        <?php echo View::render('mail/_contact-us') ?>
       </div>
     </div>
   </div>
-</main>
+      
+       </main>
 <?php echo View::render('nav/_footer') ?>

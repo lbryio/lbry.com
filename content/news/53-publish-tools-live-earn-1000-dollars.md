@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: 'You Can Now Publish on LBRY (& Earn $1,000)'
 date: '2016-08-04 00:09:00'
 ---

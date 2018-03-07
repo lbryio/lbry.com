@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: 'Credit Policy and 3rd Quarter Credit Report'
 date: '2016-10-05 00:06:18'
 cover: 'lbry-3d-1000.png'

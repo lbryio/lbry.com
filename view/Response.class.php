@@ -21,7 +21,7 @@ class Response
     $jsCalls = [],
     $assets = [
     'js'  => [
-      '/js/jquery-2.1.3.min.js',
+      '/js/jquery-3.3.1.min.js',
       '/js/global.js'
     ],
     'css' => ['/css/all.css']
@@ -32,7 +32,8 @@ class Response
     $contentSent = false,
     $isHeadersOnly = false,
     $gzipResponseContent = true,
-    $metaImages = [];
+    $metaImages = [],
+    $facebookAnalyticsType = "PageView";
 
   public static function setMetaDescription($description)
   {
@@ -363,6 +364,14 @@ class Response
     ];
 
     return $statusTexts[$code] ?? null;
+  }
+
+  public static function setFacebookPixelAnalyticsType($type){
+    static::$facebookAnalyticsType = $type;
+  }
+
+  public static function getFacebookPixelAnalyticsType(){
+    return static::$facebookAnalyticsType;
   }
 
   protected static function normalizeHeaderName($name): string

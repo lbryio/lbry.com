@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: 'Meet the Least Interesting Guy on the LBRY Team'
 date: '2016-10-10 00:06:18'
 ---

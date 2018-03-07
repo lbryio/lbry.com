@@ -1,25 +1,32 @@
 # lbry.io
 
-The [lbry.io](https://lbry.io) website.
+The [lbry.io](https://lbry.io) website. This website uses barebones PHP along with Javascript and SCSS.
 
-## Running lbry.io
+![lbry.io screenshot](https://spee.ch/@lbry/lbryio.png)
 
-It's very easy to have lbry.io running locally:
+## Installation
 
-- Install PHP7
-- Checkout the project
-- Run `./dev.sh` from the project root
-- Access [localhost:8000](http://localhost:8000) in your browser
+Please see [INSTALL](INSTALL.md) for comprehensive, easy-to-follow instructions on running this project.
 
-You can also run the development server using docker:
+## Usage
 
-- Install Docker
-- Checkout the project
-- Run `./docker.sh` from the project root
-- Access [localhost:8000](http://localhost:8000) in your browser
+Unless you are planning to contribute to the lbry.io website, this project serves little independent purpose.
 
-Both the `dev.sh` and `docker.sh` scripts will initialise a configuration based on `data/config.php.example` if `data/config.php` does not exist.
+To access a local copy of lbry.io, follow [INSTALL](INSTALL.md) and then access `localhost:8000` in your browser.
 
-To run remotely, simply install PHP and configure Apache or your server of choice to serve `web/index.php`.
+## License
 
-Note that some pages and interactions rely on API keys that will not be available to you in your install.
+This project is MIT licensed. For the full license, see [LICENSE](LICENSE).
+
+## Contributing
+
+Contributions to this project are welcome, encouraged, and compensated. For more details, see [CONTRIBUTING](https://lbry.io/faq/contributing).
+
+## Contact
+
+The primary contact for this project is Jeremy Kauffman (jeremy@lbry.io).
+
+## Additional Info and Links
+
+- [https://lbry.io](https://lbry.io) - The live LBRY website
+- [https://chat.lbry.io](https://chat.lbry.io) - A chat room for the LBRY community

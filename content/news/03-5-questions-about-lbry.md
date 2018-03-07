@@ -4,7 +4,7 @@ title: 5 Questions About LBRY
 date: '2015-07-01 13:09:20'
 ---
 
-As I recently traveled across Europe, and ultimately to [PorcFest](www.porcfest.com), I took time to talk to talk to entrepreneurs, technologists, and libertarians about [LBRY](https://lbry.io).
+As I recently traveled across Europe, and ultimately to [PorcFest](http://www.porcfest.com), I took time to talk to talk to entrepreneurs, technologists, and libertarians about [LBRY](https://lbry.io).
 For the mutualistic education of myself and others, below are the questions and answers to five frequently asked questions.
 
 ## Five Questions
@@ -16,7 +16,7 @@ As we recently Tweeted, we're extremely close to releasing a POC client:
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">LBRY&#39;s doors are locked, but gaze through the glass and one behold&#39;s the hazy form of a proof-of-concept <a href="http://t.co/93ViBCx72g">pic.twitter.com/93ViBCx72g</a></p>&mdash; LBRY (@LBRYio) <a href="https://twitter.com/LBRYio/status/616333374878281728">July 1, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-To make sure you hear as soon as it is available, [join our mailing list](https://lbry.io/list/subscribe) or [follow us](https://twitter.com/lbry_io) on Twitter.
+To make sure you hear as soon as it is available, [join our mailing list](https://lbry.io/list/subscribe) or [follow us](https://twitter.com/lbryio) on Twitter.
 
 
 ### 2. What happens if someone uploads infringing content to LBRY?
@@ -53,7 +53,7 @@ We will also be releasing the source of LBRY so that others may stand upon us.
 ### 4. What's the difference between LBRY and MaidSafe (or X)?
 
 There are several attempts to build a decentralized computing platform. LBRY is not one of them; it exists only for information.
-Products that subsume the information problem, such as [MaidSafe](www.maidsafe.com) or [Ethereum](www.ethereum.org), will crumble
+Products that subsume the information problem, such as [MaidSafe](https://www.maidsafe.net) or [Ethereum](https://www.ethereum.org), will crumble
 under their own weight at the worst and not approach LBRY's performance at their best. Building an information delivery network
 inside of a larger decentralized platform is guaranteed at a fundamental level to result in worse performance, greater expense,
 or both.

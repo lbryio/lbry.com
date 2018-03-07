@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: 'LBRY Launch A Disaster'
 date: '2016-07-20 00:06:18'
 ---

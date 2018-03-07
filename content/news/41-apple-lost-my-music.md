@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: 'Apple Lost My Music!'
 date: '2016-05-20 00:06:18'
 ---

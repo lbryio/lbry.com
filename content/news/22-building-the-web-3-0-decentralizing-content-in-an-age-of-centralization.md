@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: 'Web 3.0 with Albert K Lu: Movies, Songs, and Books with No Gatekeepers (Sorry iTunes)'
 date: '2015-12-09 16:38:00'
 ---

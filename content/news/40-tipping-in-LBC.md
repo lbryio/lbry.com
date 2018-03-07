@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: 'Tipping In LBC'
 date: '2016-05-12 00:06:18'
 ---

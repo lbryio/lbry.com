@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: 'LBRY Brings You the Fight of the Century'
 date: '2016-08-10 00:06:18'
 ---

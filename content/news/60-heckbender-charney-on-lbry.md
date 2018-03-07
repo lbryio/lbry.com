@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: 'Kinda Sketchy, Totally Legit'
 date: '2016-08-26 00:06:18'
 cover: 'heckbendercover.png'
