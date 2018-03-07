@@ -61,13 +61,11 @@ class AcquisitionActions extends Actions
   {
 
     $desired_lbry_channel_name_is_valid = static::lbry_channel_verification($desired_lbry_channel_name);
-    var_dump($desired_lbry_channel_name);
-    var_dump($desired_lbry_channel_name_is_valid);
 
-    //if ($desired_lbry_channel_name_is_valid) {
+    if ($desired_lbry_channel_name_is_valid) {
       $token = LBRY::connectYoutube($desired_lbry_channel_name);
-      var_dump($token);
-    //}
+      Controller::redirect($token['data']);
+    }
   }
 
   public static function executeYoutubeEdit(){
