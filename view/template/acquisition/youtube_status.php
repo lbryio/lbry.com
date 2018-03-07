@@ -13,12 +13,12 @@
                 <h1>Your Channel</h1>
                 <div class="block">
                     <p>Number of subscriber<br>
-                        <span>45,287<!--<?php echo $status['data']['subscribers']?>--></span>
+                        <span><?php echo $status['data']['subscribers']?></span>
                     </p>
                 </div>
                 <div class="block">
                     <p>Number of video<br>
-                        <span>96<!--<?php echo $status['data']['videos']?>--></span>
+                        <span><?php echo $status['data']['videos']?></span>
                     </p>
                 </div>
             </div>
@@ -61,7 +61,7 @@
                 <h1>Your Reward</h1>
                 <div class="block">
                     <p>Expected Reward
-                        <span class="reward">1,420<!--<?php echo $status['data']['expected_reward'];?>--><i></i></span>
+                        <span class="reward"><?php echo $status['data']['expected_reward'];?></span>
                     </p>
                 </div>
                 <div class="block get-credits">
