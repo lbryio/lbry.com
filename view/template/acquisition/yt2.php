@@ -46,15 +46,15 @@ $reward = LBRY::youtubeReward();
       endif;?>
       <div class="zigzag"></div>
       <h1>Own your identity. For real this time.</h1>
-        <div hidden id="sync-status">
+        <div hidden id="sync-status" class="sync-status">
 
         </div>
       <form id="youtube_claim" method="post" action="/youtube/token">
         <div class="form-inner" >
-            <div class="block" hidden id="lbry_error">LBRY channel name is not valid or blank</div>
           <div class="block">
             <input id="lbry_channel_name" type="text" name="desired_lbry_channel_name" placeholder="Desired LBRY channel name" />
-              <label>@</label>
+            <label>@</label>
+            <div hidden id="lbry_error" class="error">LBRY channel name is not valid or blank</div>
           </div>
       </form>
         <div class="block">

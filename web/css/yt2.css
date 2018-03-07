@@ -47,7 +47,8 @@ img {
   display: block;
 }
 a,
-input {
+input,
+button {
   outline: none;
   border: 0;
 }
@@ -284,6 +285,17 @@ header .right a.github {
 .section h1 + p a {
   color: #45B0AF;
 }
+.section .meta {
+  float: left;
+  width: 100%;
+  margin: 40px 0 0 0;
+  font: normal 400 13px/1.7 'metropolis-medium';
+  text-align: center;
+  color: #CCC;
+}
+.section .meta a {
+  color: #45B0AF;
+}
 
 
 /* --- CLAIM --- */
@@ -302,6 +314,17 @@ header .right a.github {
 .claim h1 + p {
   text-align: center;
 }
+.claim .sync-status {
+  float: left;
+  width: 100%;
+  font: normal 400 16px/40px 'metropolis-medium';
+  text-align: center;
+  color: #2F3C5C;
+  margin-top: 10px;
+}
+.claim .sync-status a {
+  color: #45B0AF;
+}
 .claim form {
   float: left;
   width: 100%;
@@ -316,7 +339,13 @@ header .right a.github {
   position: relative;
   float: left;
   margin-top: 10px;
-
+}
+.claim .error {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  font: normal 400 14px/40px 'metropolis-medium';
+  color: #E2495E;
 }
 .claim input {
   float: left;
@@ -347,9 +376,9 @@ header .right a.github {
   box-shadow: 0 0 10px 0 rgba(0,0,0,0.15);
 }
 .error_form{
-  -webkit-box-shadow:inset 0px 0px 0px 2px red;
-  -moz-box-shadow:inset 0px 0px 0px 2px red;
-  box-shadow:inset 0px 0px 0px 2px red;
+  -webkit-box-shadow:inset 0px 0px 0px 2px #E2495E;
+  -moz-box-shadow:inset 0px 0px 0px 2px #E2495E;
+  box-shadow:inset 0px 0px 0px 2px #E2495E;
 }
 .claim label {
   position: absolute;
@@ -573,7 +602,7 @@ header .right a.github {
 
 /* --- SYNC --- */
 .sync {
-  padding: 80px 0 0 0;
+  padding: 80px 0 60px 0;
   margin: 100px 0 0 0;
   background: #FAFAFA;
 }
@@ -591,7 +620,7 @@ header .right a.github {
 .sync .button {
   float: left;
   width: 100%;
-  margin: 40px 0 60px 0;
+  margin: 40px 0 0 0;
 }
 .sync .button a {
   float: none;
@@ -708,6 +737,133 @@ header .right a.github {
 }
 
 
+
+/* --- CHANNEL, SETTINGS --- */
+.channel,
+.settings {
+  padding: 80px 0;
+}
+.settings {
+  background: #F6F6F6;
+}
+.channel.pad-top {
+  padding-top: 160px;
+}
+.channel .zigzag,
+.settings .zigzag {
+  float: left;
+  width: 100%;
+  height: 30px;
+  background: url(../img/youtube/zigzag@2x.png) 0 0 no-repeat;
+  background-size: 72px;
+}
+.channel h1,
+.settings h1 {
+  font: normal 400 24px/30px 'metropolis-bold';
+  color: #2F3C5C;
+}
+.channel .block,
+.settings .block {
+  position: relative;
+  float: left;
+  width: 50%;
+  margin-top: 40px;
+  box-sizing: border-box;
+}
+.settings .block {
+  padding-right: 60px;
+}
+.settings .block.full {
+  width: 100%;
+  padding: 0;
+  font: normal 400 16px/30px 'metropolis-semibold';
+  color: #2F3C5C;
+}
+.channel .block p {
+  float: left;
+  width: 100%;
+  font: normal 400 13px/20px 'metropolis-medium';
+  color: #2F3C5C;
+}
+.channel .block.get-credits p {
+  font: normal 400 16px/1.5 'metropolis-semibold';
+  color: #2F3C5C;
+}
+.channel .block p span {
+  float: left;
+  width: 100%;
+  font: normal 400 60px/60px 'metropolis-medium';
+  color: #2F3C5C;
+  margin-top: 8px;
+}
+.channel .block i {
+  display: inline-block;
+  width: 24px;
+  height: 13px;
+  background: url(../img/youtube/lbc@2x.png) 50% 50% no-repeat;
+  background-size: 13px;
+}
+.settings form {
+  float: left;
+  width: 100%;
+}
+.settings label {
+  float: left;
+  width: 100%;
+  font: normal 400 13px/20px 'metropolis-semibold';
+  color: #2F3C5C;
+}
+.settings input {
+  float: left;
+  height: 50px;
+  border-radius: 25px;
+  font: normal 400 16px/50px 'metropolis-medium';
+  margin: 8px 0 0 0;
+}
+.settings input[type="text"] {
+  width: 100%;
+  background: #FFF;
+  text-indent: 24px;
+}
+.settings input[type="checkbox"] {
+  height: 16px;
+  margin: 6px 8px 0 0;
+  border-radius: 0;
+}
+.settings input[type="checkbox"][readonly] {
+  pointer-events: none;
+}
+.settings .error {
+  font: normal 400 14px/40px 'metropolis-medium';
+  color: #E2495E;
+}
+.settings button {
+  float: left;
+  height: 50px;
+  background: #2F3C5C;
+  border-radius: 25px;
+  padding: 0 20px;
+  font: normal 400 16px/50px 'metropolis-medium';
+  color: #FFF;
+  cursor: pointer;
+  -webkit-box-shadow: 0 20px 50px 0 rgba(0,0,0,0.15);
+  -moz-box-shadow: 0 20px 50px 0 rgba(0,0,0,0.15);
+  box-shadow: 0 20px 50px 0 rgba(0,0,0,0.15);
+  transition: box-shadow 0.3s;
+}
+.settings button:hover {
+  -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.15);
+  -moz-box-shadow: 0 0 10px 0 rgba(0,0,0,0.15);
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.15);
+}
+.channel-settings header .logo {
+    background: url(../img/youtube/lbry-dark@2x.png) 0 50% no-repeat;
+    background-size: 126px;
+}
+.channel-settings header .left a {
+  color: #125548;
+}
+
 /* ---------------------------
  --> RESPONSIVE
 --------------------------- */
@@ -750,6 +906,10 @@ header .right a.github {
   header .logo {
     width: 110px;
     background: url(../img/youtube/lbry@2x.png) 0 50% no-repeat;
+    background-size: 110px;
+  }
+  .channel-settings header .logo {
+    background: url(../img/youtube/lbry-dark@2x.png) 0 50% no-repeat;
     background-size: 110px;
   }
   header .left a {
@@ -895,10 +1055,17 @@ header .right a.github {
   header {
     padding: 0 10%;
   }
+  .channel-settings header {
+    padding: 0 64px;
+  }
   header .logo {
     width: 96px;
     background: url(../img/youtube/lbry@2x.png) 0 50% no-repeat;
     background-size: 96px;
+  }
+  .channel-settings header .logo {
+      background: url(../img/youtube/lbry-dark@2x.png) 0 50% no-repeat;
+      background-size: 96px;
   }
   header .left {
     width: 100%;
@@ -936,13 +1103,34 @@ header .right a.github {
   .section h1 + p {
     font-size: 15px;
   }
+  .channel, 
+  .settings {
+    padding: 60px 0;
+  }
+  .channel h1, 
+  .settings h1 {
+      font: normal 400 21px/30px 'metropolis-bold';
+      color: #2F3C5C;
+  }
+  .channel .block p span {
+    font: normal 400 54px/54px 'metropolis-medium';
+  }
+  .settings .block.full {
+    font: normal 400 15px/30px 'metropolis-semibold';
+  }
+  .settings button {
+      height: 40px;
+      border-radius: 20px;
+      font: normal 400 14px/40px 'metropolis-medium';
+  }
   .claim {
     padding: 60px 0;
   }
   .claim .form-inner {
     width: 436px;
   }
-  .claim input {
+  .claim input,
+  .settings input {
     height: 40px;
     border-radius: 20px;
     font: normal 400 14px/40px 'metropolis-medium';
@@ -964,7 +1152,7 @@ header .right a.github {
     font: normal 400 15px/1.5 'metropolis-medium';
   }
   .sync {
-    padding: 60px 0 0 0;
+    padding: 60px 0;
   }
   .sync .button {
     margin: 24px 0 40px 0;
@@ -1122,5 +1310,40 @@ header .right a.github {
   .how .step.two .text,
   .how .step.three .text {
     width: 90%;
+  }
+  .channel-settings header {
+      padding: 0 10%;
+  }
+  .channel.pad-top {
+      padding-top: 140px;
+  }
+  .channel .block, 
+  .settings .block {
+    width: 100%;
+  }
+  .channel .zigzag, 
+  .settings .zigzag {
+    background: url(../img/youtube/zigzag@2x.png) 50% 0 no-repeat;
+    background-size: 72px;
+  }
+  .channel .block p {
+    text-align: center;
+  }
+  .settings .block {
+    padding-right: 0;
+  }
+  .settings .block.full {
+    line-height: 1.3;
+  }
+  .channel .block.get-credits p {
+    font-size: 14px;
+  }
+  .settings button {
+    float: none;
+    display: block;
+    width: 180px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
   }
 }
