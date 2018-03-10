@@ -42,7 +42,8 @@
           <h4>
             <?php echo $metadata['name'] ?>
             <?php if (isset($metadata['email'])): ?>
-              <a href="mailto:<?php echo $metadata['email'] ?>" class="link-primary"><?php echo $metadata['email'] ?></a>
+              <a href="mailto:<?php echo $metadata['email'] ?>" class="link-primary"><span class="icon icon-envelope"></span></a><a href="https://github.com/<?php echo $metadata['github'] ?>" class="link-primary"><span class="icon icon-github"></span></a>
+<a href="https://www.twitter.com/<?php echo $metadata['twitter'] ?>" class="link-primary"><span class="icon icon-twitter"></span></a>
             <?php endif ?>
           </h4>
           <div class="meta spacer1"><?php echo $metadata['role'] ?></div>
