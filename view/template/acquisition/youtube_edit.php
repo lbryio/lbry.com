@@ -4,7 +4,10 @@ $channel_name = $_POST['new_preferred_channel'];
 $email = $_POST['new_email'];
 $sync_consent = isset($_POST['sync_consent']);
 
-LBRY::editYouTube($status_token, $channel_name, $email, $sync_consent);
+$current_value = LBRY::statusYoutube($status_token);
 
+if(!preg_match("/([@][1-z]+)/", $channel_name)){
+    $channel_name = "@" . $channel_name;
+}
 
-Controller::redirect("/youtube/status/" . $status_token);
+AcquisitionActions::actionYoutubeEdit($status_token, $channel_name, $email, $sync_consent, $current_value);

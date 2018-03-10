@@ -67,7 +67,24 @@ class AcquisitionActions extends Actions
       Controller::redirect($token['data']);
     }
   }
+  public static function actionYoutubeEdit($status_token, $channel_name, $email, $sync_consent, $current_value)
+  {
+    if($current_value['data']['email'] == $email)
+    {
+      $status = LBRY::editYoutube($status_token, $channel_name, null, $sync_consent);
+    }
+    else
+    {
+      $status = LBRY::editYoutube($status_token, $channel_name, $email, $sync_consent);
+    }
 
+    if($status['success'] == false){
+        Controller::redirect("/youtube/status/". $status_token . "?error=true&error_message=" . $status['error']);
+    }
+    else{
+        Controller::redirect("/youtube/status/" . $status_token);
+    }
+  }
   public static function executeYoutubeEdit(){
     return ['acquisition/youtube_edit'];
   }

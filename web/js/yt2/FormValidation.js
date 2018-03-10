@@ -22,12 +22,6 @@ function submitEditForm(){
             event.preventDefault();
         }
 
-        // If the checkbox is not check stop the post request
-        if(!$('#sync-consent').prop('checked')){
-            $('#sync-consent').addClass('error_form');
-            $('#sync-consent-error').show();
-            event.preventDefault();
-        }
         localStorage.setItem("status_token", $.trim($('#status_token').val()));
         localStorage.setItem("lbry_channel_name_sync", $.trim($('#channel-name').val()));
     });

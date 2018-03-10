@@ -29,7 +29,7 @@ class LBRY
   {
     return Curl::post(static::getApiUrl('/list/unsubscribe'), ['email' => $email], ['json_response' => true]);
   }
-  
+
   public static function connectYoutube($channel_name)
   {
     $type = 'sync';
@@ -49,6 +49,12 @@ class LBRY
 
   public static function editYouTube($status_token, $channel_name, $email, $sync_consent)
   {
-    return Curl::post(static::getApiUrl("/yt/update"), ['status_token' => $status_token, 'new_email' => $email, 'new_preferred_channel' => $channel_name, 'sync_consent' => $sync_consent], ['json_response' => true]);
+    if ($email == null){
+      return Curl::post(static::getApiUrl("/yt/update"),['status_token' => $status_token, 'new_preferred_channel' => $channel_name, 'sync_consent' => $sync_consent],['json_response' => true]);
+    }
+    else{
+
+      return Curl::post(static::getApiUrl("/yt/update"), ['status_token' => $status_token, 'new_email' => $email, 'new_preferred_channel' => $channel_name, 'sync_consent' => $sync_consent], ['json_response' => true]);
+    }
   }
 }
