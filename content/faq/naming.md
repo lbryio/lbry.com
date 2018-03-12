@@ -48,7 +48,7 @@ LBRY supports several types of URL resolution:
 
 1. **Names aren’t bought, only reserved – no credits are lost, only put on deposit.** If you win the auction for a name, your credits are held with that name until you decide to withdraw them (at any time you wish). You aren’t buying the name from anyone and no one profits off of the transfer of names. It’s just a test of who is willing to deposit the most credits toward a name. The only cost is that you can’t spend the credits on content or cash them out while they are reserving a name.
 
-2. **The longer a community name is held, the longer it sticks.** Community-controlled URLs don't change instantly if more credits are designated – especially if you’ve held it for awhile. The time for resolution to change scales up to over 1 week.
+2. **The longer a community name is held, the longer it sticks.** Community-controlled URLs don't change instantly if more credits are designated – especially if you’ve held it for awhile. For every month a name is controlled, 1 day is added to the waiting period, for a maximum of 7 days (after 7 months). 
 
 3. **Everyone has a say.** If you claim lbry://bestmovieever and your film lives up to the hype, user tips and purchases are a strong force keeping your content there. If the community feels a URL resolution is incorrect, they can band together to change it any time. This is a powerful force keeping bad actors at bay that has already proved useful.
 
