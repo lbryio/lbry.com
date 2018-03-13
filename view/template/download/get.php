@@ -34,7 +34,7 @@
             <br/>
             <span class="meta">
               <?php echo $version ?>,
-              <?php echo number_format($size, 1) ?>MB,
+              <?php echo number_format($size, 1) ?> MB,
               built on <?php echo date('F d', $releaseTimestamp) ?>
               at <?php echo date('H:i:s', $releaseTimestamp) ?>
             </span>
