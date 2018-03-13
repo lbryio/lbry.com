@@ -38,7 +38,7 @@
                   endif;?>
                     <div class="block">
                         <label for="channel-name">LBRY channel name:</label>
-                        <input type="text" id="channel-name" name="new_preferred_channel" placeholder="@YourPreferredChannelName" value="<?php echo $status['data']['lbry_channel_name'];?>">
+                        <input type="text" id="channel-name" name="new_preferred_channel" placeholder="@YourPreferredChannelName" value="<?php echo $status['data']['lbry_channel_name'];?>" <?php if($status['data']['status'] == 'syncing' || $status['data']['status'] == 'synced'): echo "disabled"; endif; ?> >
                         <div hidden id="channel-name-error" class="error">Channel is invalid or blank</div>
                     </div>
                     <div class="block">
