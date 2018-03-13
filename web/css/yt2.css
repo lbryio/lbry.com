@@ -770,6 +770,9 @@ header .right a.github {
   margin-top: 40px;
   box-sizing: border-box;
 }
+.channel .block:not(:first-child) {
+  width: 25%;
+}
 .settings .block {
   padding-right: 60px;
 }
@@ -792,7 +795,7 @@ header .right a.github {
 .channel .block p span {
   float: left;
   width: 100%;
-  font: normal 400 60px/60px 'metropolis-medium';
+  font: normal 400 40px/40px 'metropolis-medium';
   color: #2F3C5C;
   margin-top: 8px;
 }

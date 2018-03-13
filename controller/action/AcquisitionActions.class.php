@@ -28,18 +28,9 @@ class AcquisitionActions extends Actions
     return Controller::redirect(Request::getReferrer(), 303);
   }
 
-  public static function executeYouTube(string $campaignId = '')
+  public static function executeYouTube()
   {
-    $template = 'acquisition/youtube' . ($campaignId ? '-' . $campaignId : '');
-    if (!View::exists($template)) {
-      return NavActions::execute404();
-    }
-    return [$template];
-  }
-
-  public static function executeYT2()
-  {
-    return ['acquisition/yt2'];
+    return ['acquisition/youtube'];
   }
 
   public static function executeVerify(string $token)

@@ -39,7 +39,7 @@ class LBRY
   // Check the sync status
   public static function statusYoutube($status_token)
   {
-    return Curl::post(static::getApiUrl('/yt/status'), ['status_token' => $status_token], ['json_response' => true]);
+    return Curl::get(static::getApiUrl('/yt/status'), ['status_token' => $status_token], ['json_response' => true]);
   }
 
   public static function youtubeReward()
