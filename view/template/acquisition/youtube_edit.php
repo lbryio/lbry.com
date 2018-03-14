@@ -6,7 +6,7 @@ $sync_consent = isset($_POST['sync_consent']);
 
 $current_value = LBRY::statusYoutube($status_token);
 
-if(!preg_match("/([@][1-z]+)/", $channel_name)){
+if(!preg_match("/@[A-Za-z0-9_-]+$/", $channel_name)){
     $channel_name = "@" . $channel_name;
 }
 
