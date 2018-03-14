@@ -17,7 +17,7 @@
     <?php js_start() ?>
       $('#faq-filter-form').change(function() { $(this).submit(); });
     <?php js_end() ?>
-    
+
     <?php foreach($postGroups as $category => $posts): ?>
       <?php if (count($posts)): ?>
         <h2><?php echo $categories[$category] ?></h2>

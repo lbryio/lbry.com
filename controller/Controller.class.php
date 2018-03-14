@@ -119,12 +119,14 @@ class Controller
 
     $router->any('/dmca', 'ReportActions::executeDmca');
 
-    $router->any('/youtube/thanks', 'AcquisitionActions::executeThanks');
-    $router->any('/youtube/status/{token}?', 'AcquisitionActions::executeThanks');
     $router->any('/youtube/sub', 'AcquisitionActions::executeYouTubeSub');
-    $router->any('/youtube/{campaignId:c}?', 'AcquisitionActions::executeYouTube');
-    $router->any('/yt2', 'AcquisitionActions::executeYT2');
+    $router->post('/youtube/edit', 'AcquisitionActions::executeYoutubeEdit');
+    $router->post('/youtube/token', 'AcquisitionActions::executeYoutubeToken');
+    $router->any('/youtube/status/{token}', 'AcquisitionActions::executeYoutubeStatus');
+    $router->any('/youtube', 'AcquisitionActions::executeYouTube');
+
     $router->get('/verify/{token}', 'AcquisitionActions::executeVerify');
+
 
     $router->get('/news/category/{category}', 'ContentActions::executePostCategoryFilter');
 
