@@ -14,8 +14,8 @@ LBRY's algorimth is
 
 ```python
 intermediate = sha512(sha256(sha256(data)))  # compute the sha512() of the double-sha256() of the data
-left = ripemd(x[:len(x)/2])  # separately ripemd160 the left half
-right = ripemd(x[len(x)/2:]) # and the right half
+left = ripemd(intermediate[:len(intermediate)/2])  # separately ripemd160 the left half
+right = ripemd(intermediate[len(intermediate)/2:]) # and the right half
 proof = sha256(sha256(left + right))  # concatenate the two halves, and double-sha256() it again
 ```
 
