@@ -110,7 +110,7 @@ header .right a {
   height: 100%;
   margin: 0 0 0 20px;
 }
-header .right a.twitter {
+/*header .right a.twitter {
   background: url(../images/social/twitter@2x.png) 50% 50% no-repeat;
   background-size: 24px;
 }
@@ -125,7 +125,7 @@ header .right a.reddit {
 header .right a.github {
   background: url(../images/youtube/github@2x.png) 50% 50% no-repeat;
   background-size: 24px;
-}
+} */
 
 /* ---------------------------
  --> HERO
