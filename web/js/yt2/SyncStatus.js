@@ -5,6 +5,6 @@ $(document).ready(function () {
    if (status_token || lbry_channel_name_sync){
        var url = "/youtube/status/" + status_token;
        $("#sync-status").show();
-       $("#sync-status").html("To see the sync status of channel: " +lbry_channel_name_sync + " " + "Please" + ' <a href=' +"'" + url + "'" + '>Click Here </a>');
+       $("#sync-status").html("Hey, " + lbry_channel_name_sync + "! " + "<a href='" + url + "'>" + "See your channel sync status here</a>.");
    }
 });
