@@ -38,8 +38,9 @@
                           <span><?php echo $status['data']['expected_reward']?></span>
                       </p>
                   </div>
-                  <div class="block get-credits">
-                      <p>To get your credits, <a href="/get">download the app</a> and <a href="/faq/youtube">follow these instructions</a>.
+                  <div class="block">
+                      <p>Claiming LBC<br>
+                         To get your credits, <a href="/get">download the app</a> and <a href="/faq/youtube">follow these instructions</a>.
                       </p>
                   </div>
                 </div>
