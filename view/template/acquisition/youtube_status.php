@@ -10,8 +10,8 @@
         <div class="inner">
             <div class="content">
                 <div class="zigzag"></div>
-                <h1>Welcome to LBRY!</h1>
-                <h1>You're helping build the future of content.</h1>
+                <h1>Almost done.</h1>
+                <h2>Here's what happen next...</h2>
                 <div>
                   <div class="block">
                     <p>Your Channel Sync Status<br>
