@@ -33,9 +33,13 @@
                           <span><?php echo $status['data']['videos']?></span>
                       </p>
                   </div>
-                    <div class="block">
+                  <div class="block">
                       <p>Expected Rewards<br>
                           <span><?php echo $status['data']['expected_reward']?></span>
+                      </p>
+                  </div>
+                  <div class="block get-credits">
+                      <p>To get your credits, <a href="/get">download the app</a> and <a href="/faq/youtube">follow these instructions</a>.
                       </p>
                   </div>
                 </div>
@@ -74,21 +78,4 @@
                 </form>
             </div>
         </div>
-    </section>
-    <section class="section channel">
-        <div class="inner">
-            <div class="content">
-                <div class="zigzag"></div>
-                <h1>Your Reward</h1>
-                <div class="block">
-                    <p>Expected Reward
-                        <span class="reward"><?php echo $status['data']['expected_reward'];?></span>
-                    </p>
-                </div>
-                <div class="block get-credits">
-                  <p>To get your credits, <a href="/get">download the app</a> and <a href="/faq/youtube">follow these instructions</a>.
-                </div>
-            </div>
-        </div>
-    </section>
 </main>
