@@ -10,12 +10,13 @@
         <div class="inner">
             <div class="content">
                 <div class="zigzag"></div>
-                <h1>Your Channel</h1>
+                <h1>Welcome to LBRY!</h1>
+                <h1>You're helping build the future of content.</h1>
                 <div>
                   <div class="block">
-                    <p>Sync Status<br>
+                    <p>Your Channel Sync Status<br>
                       <span><?php switch ($status['data']['status']) {
-                          case "pending": echo __("Pending Your Approval"); break;
+                          case "pending": echo __("Agree to Terms Below"); break;
                           case "queued": echo __("Queued For Syncing"); break;
                           case "syncing": echo __("Sync in Progress!"); break;
                           case "synced": echo __("Content is Live!"); break;
@@ -40,7 +41,7 @@
         <div class="inner">
             <div class="content">
                 <div class="zigzag"></div>
-                <h1>Your LBRY Settings</h1>
+                <h1>Confirm your preferences</h1>
                 <form id="youtube_settings" action="/youtube/edit" method="post">
                     <div>
                         <input type="hidden" name="status_token" id="status_token" value="<?php echo $token?>"/>
@@ -49,21 +50,21 @@
                   if (isset($_GET['error'])): echo "<div>" . "The following error occurred: ". $_GET['error_message']  . " For support please send an email to hello@lbry.io" . "</div>";
                   endif;?>
                     <div class="block">
-                        <label for="channel-name">LBRY channel name</label>
+                        <label for="channel-name">LBRY Channel ID</label>
                         <input type="text" id="channel-name" name="new_preferred_channel" placeholder="@YourPreferredChannelName" value="<?php echo $status['data']['lbry_channel_name'];?>" <?php if($status['data']['status'] == 'syncing' || $status['data']['status'] == 'synced'): echo "disabled"; endif; ?> >
                         <div hidden id="channel-name-error" class="error">Channel is invalid or blank</div>
                     </div>
                     <div class="block">
-                        <label for="email">Email</label>
+                        <label for="email">Preferred Email</label>
                         <input type="text" id="email" name="new_email" placeholder="bill@gmail.com" value="<?php echo $status['data']['email'];?>">
                         <div hidden id="email-error" class="error">Email is invalid or blank</div>
                     </div>
                     <div class="block full">
                         <input name="sync_consent" id="sync-consent" type="checkbox" <?php if($status['data']['status'] == 'queued'): echo "checked"; endif;?> <?php if($status['data']['status'] == 'syncing' || $status['data']['status'] == 'synced'): echo "disabled "; echo "checked"; endif; ?>>I want to sync my content to the LBRY network and agree to <a href="/faq/youtube-terms">these terms</a>.
-                        <div hidden id="sync-consent-error" class="error">You must agreed to sync to continue</div>
+                        <div hidden id="sync-consent-error" class="error">In order to continue, you must agree to sync.</div>
                     </div>
                     <div class="block">
-                        <button type="submit" onClick="return submitEditForm()">Edit my preferences</button>
+                        <button type="submit" onClick="return submitEditForm()">Save Changes</button>
                     </div>
                 </form>
             </div>
@@ -80,8 +81,7 @@
                     </p>
                 </div>
                 <div class="block get-credits">
-                  <p>To get your credits, <a href="/get">download the app</a> and navigate to the "Rewards" area inside of your Wallet.
-                    For more details, see <a href="/faq/youtube">this page</a>.</p>
+                  <p>To get your credits, <a href="/get">download the app</a> and <a href="/faq/youtube">follow these instructions</a>.
                 </div>
             </div>
         </div>
