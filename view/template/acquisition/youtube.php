@@ -32,6 +32,7 @@ $reward = LBRY::youtubeReward();
   </div>
   <div class="title">
     <div class="overflow"><h1>Hedge your bets</h1></div>
+    <br/>
     <p>Put your content on the blockchain.</p>
     <div class="button">Claim Your LBRY Channel</div>
   </div>
