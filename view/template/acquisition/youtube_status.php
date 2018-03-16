@@ -14,10 +14,10 @@
                 <h2>Here's what happens next...</h2>
                 <div>
                   <div class="block">
-                    <p>Your Channel Sync Status<br>
+                    <p>Your Sync Status<br>
                       <span><?php switch ($status['data']['status']) {
                           case "pending": echo __("Agree to Terms Below"); break;
-                          case "queued": echo __("Queued For Syncing"); break;
+                          case "queued": echo __("Queued"); break;
                           case "syncing": echo __("Sync in Progress!"); break;
                           case "synced": echo __("Content is Live!"); break;
                         } ?></span>
