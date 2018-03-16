@@ -112,7 +112,7 @@ $reward = LBRY::youtubeReward();
         </div>
         <div class="step one enabled" data-enable="12">
           <div class="circle">1</div>
-          <p class="text">Confirm your channel sync</p>
+          <p class="text">Sync your channel</p>
         </div>
         <div class="step two enabled" data-enable="33">
           <div class="circle">2</div>
@@ -120,7 +120,7 @@ $reward = LBRY::youtubeReward();
         </div>
         <div class="step three enabled" data-enable="75">
           <div class="circle">3</div>
-          <p class="text">Wait for sync and receive your LBRY Credits</p>
+          <p class="text">Receive your LBRY Credits</p>
         </div>
       </div>
     </div>
