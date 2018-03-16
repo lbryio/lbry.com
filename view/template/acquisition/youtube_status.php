@@ -11,7 +11,7 @@
             <div class="content">
                 <div class="zigzag"></div>
                 <h1>Almost done.</h1>
-                <h2>Here's what happen next...</h2>
+                <h2>Here's what happens next...</h2>
                 <div>
                   <div class="block">
                     <p>Your Channel Sync Status<br>
