@@ -31,10 +31,9 @@ $reward = LBRY::youtubeReward();
     <div class="dot e"></div>
   </div>
   <div class="title">
-    <div class="overflow"><h1>Leave YouTube</h1></div>
-    <div class="overflow"><h1>for good.</h1></div>
-    <p>No more demonetization or sneaky algorithms</p>
-    <div class="button">Claim Your Channel</div>
+    <div class="overflow"><h1>Hedge your bets</h1></div>
+    <p>...away from YouTube's demonetization and sneaky algorithms</p>
+    <div class="button">Claim Your LBRY Channel</div>
   </div>
 </section>
 <section class="claim section">
@@ -45,14 +44,14 @@ $reward = LBRY::youtubeReward();
       if (isset($_GET['error'])): echo "<div>" . "The following error occurred: ". $_GET['error_message']  . " For support please send an email to hello@lbry.io" . "</div>";
       endif;?>
       <div class="zigzag"></div>
-      <h1>Own your identity. For real this time.</h1>
+      <h1>Create on a stable platform. For real this time.</h1>
         <div hidden id="sync-status" class="sync-status">
 
         </div>
       <form id="youtube_claim" method="post" action="/youtube/token">
         <div class="form-inner" >
           <div class="block">
-            <input id="lbry_channel_name" type="text" name="desired_lbry_channel_name" placeholder="Desired LBRY channel name" />
+            <input id="lbry_channel_name" type="text" name="desired_lbry_channel_name" placeholder="Enter your channel name" />
             <label>@</label>
             <div hidden id="lbry_error" class="error">LBRY channel name is not valid or blank</div>
           </div>
@@ -112,15 +111,15 @@ $reward = LBRY::youtubeReward();
         </div>
         <div class="step one enabled" data-enable="12">
           <div class="circle">1</div>
-          <p class="text">Claim your LBRY name</p>
+          <p class="text">Confirm your channel sync</p>
         </div>
         <div class="step two enabled" data-enable="33">
           <div class="circle">2</div>
-          <p class="text">Check your email for confirmation</p>
+          <p class="text">Download the LBRY App</p>
         </div>
         <div class="step three enabled" data-enable="75">
           <div class="circle">3</div>
-          <p class="text">Sync your existing YouTube content</p>
+          <p class="text">Wait for sync and Receive your LBRY Credits</p>
         </div>
       </div>
     </div>
