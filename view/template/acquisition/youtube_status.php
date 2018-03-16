@@ -33,6 +33,11 @@
                           <span><?php echo $status['data']['videos']?></span>
                       </p>
                   </div>
+                    <div class="block">
+                      <p>Expected Rewards<br>
+                          <span><?php echo $status['data']['expected_reward']?></span>
+                      </p>
+                  </div>
                 </div>
             </div>
         </div>
