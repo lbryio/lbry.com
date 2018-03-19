@@ -39,7 +39,7 @@
                         <p>Your Sync Status<br>
                             <span>
                             <?php switch ($statusData['status']) {
-                                case "pending": echo __("Agree to Terms Below"); break;
+                                case "pending": echo __("Pending Agreement"); break;
                                 case "queued": echo __("Queued"); break;
                                 case "syncing": echo __("Sync in Progress!"); break;
                                 case "synced": echo __("Content is Live!"); break;
