@@ -6,6 +6,8 @@ Response::addJsAsset('/js/yt2/app.js');
 Response::addJsAsset('/js/yt2/FormValidation.js');
 Response::addJsAsset('/js/yt2/SyncStatus.js');
 $reward = LBRY::youtubeReward();
+Response::setMetaTitle("LBRY YouTube Partner Program");
+Response::setMetaDescription("Put your content on the blockchain, experience true content freedom, and earn rewards.");
 ?>
 <main>
   <?php echo View::render('acquisition/_youtube_header') ?>
@@ -31,9 +33,9 @@ $reward = LBRY::youtubeReward();
     <div class="dot e"></div>
   </div>
   <div class="title">
-    <div class="overflow"><h1>Hedge your bets</h1></div>
+    <div class="overflow"><h1>Content Freedom.</h1></div>
     <br/>
-    <p>Put your content on the blockchain.</p>
+    <p>Put your content on the blockchain and earn rewards.</p>
     <div class="button">Claim Your LBRY Channel</div>
   </div>
 </section>
@@ -133,7 +135,7 @@ $reward = LBRY::youtubeReward();
       <h1>Sync &amp; Earn</h1>
       <p>LBRY offers a single-click sync process<br>for existing YouTubers</p>
       <div class="button">
-        <a href="https://api.lbry.io/yt/connect?type=sync">Sync now</a>
+        <a href="https://api.lbry.io/yt/connect?type=sync&immediate_sync=true">Sync now</a>
       </div>
       <div class="meta">
         By syncing, you agree to mirror your content to the LBRY network for 1 year, and acknowledge <a href="/faq/youtube-terms">these terms</a>.

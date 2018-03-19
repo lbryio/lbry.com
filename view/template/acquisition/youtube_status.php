@@ -2,20 +2,35 @@
 <?php Response::setMetaTitle(__('YouTubers! Take back control.')) ?>
 <?php Response::setCssAssets(['/css/yt2.css']) ?>
 <?php Response::addJsAsset('/js/yt2/FormValidation.js')?>
-<?php  $status= LBRY::statusYoutube($token); ?>
-
-<main class="channel-settings">
+<?php $statusResponse = LBRY::statusYoutube($token); ?>
+<?php $statusData = $statusResponse['data'] ?>
+<?php $isSyncAgreed = in_array($statusData['status'], ["syncing", "synced", "queued"]) ?>
+<?php $isRewardClaimed = $statusData['is_reward_claimed'] ?? false ?>
+  <main class="channel-settings">
     <?php echo View::render('acquisition/_youtube_header') ?>
     <section class="section channel pad-top">
         <div class="inner">
             <div class="content">
                 <div class="zigzag"></div>
-                <h1>Almost done.</h1>
-                <h2>Here's what happens next...</h2>
+                <h1><?php echo $isSyncAgreed && $isRewardClaimed ? "You're all set!" : "Almost done!" ?></h1>
+              <h3>The Steps</h3>
+                <ul>
+                  <li>
+                    <h4>✓ Confirm your channel</h4>
+                  </li>
+                  <li>
+                    <h4><?php echo $isSyncAgreed ? "✓" : "☐" ?> Agree to sync</h4>
+                  </li>
+                  <li>
+                    <h4><?php echo $isRewardClaimed ? "✓" : "☐" ?>  Claim your credits</h4>
+                    To get your credits, <a href="/get">download the app</a> and <a href="/faq/youtube">follow these instructions</a>.
+                  </li>
+                </ul>
+
                 <div>
                   <div class="block">
                     <p>Your Sync Status<br>
-                      <span><?php switch ($status['data']['status']) {
+                      <span><?php switch ($statusData['status']) {
                           case "pending": echo __("Agree to Terms Below"); break;
                           case "queued": echo __("Queued"); break;
                           case "syncing": echo __("Sync in Progress!"); break;
@@ -25,25 +40,19 @@
                   </div>
                   <div class="block">
                       <p>Subscribers<br>
-                          <span><?php echo $status['data']['subscribers']?></span>
+                          <span><?php echo $statusData['subscribers']?></span>
                       </p>
                   </div>
                   <div class="block">
                       <p>Videos<br>
-                          <span><?php echo $status['data']['videos']?></span>
+                          <span><?php echo $statusData['videos']?></span>
                       </p>
                   </div>
                   <div class="block">
                       <p>Expected Rewards<br>
-                          <span><?php echo $status['data']['expected_reward']?></span>
+                          <span><?php echo $statusData['expected_reward']?></span>
                       </p>
                   </div>
-                  <div class="block">
-                      <p>Claiming LBC<br>
-                         To get your credits, <a href="/get">download the app</a> and <a href="/faq/youtube">follow these instructions</a>.
-                      </p>
-                  </div>
-                </div>
             </div>
         </div>
     </section>
@@ -61,16 +70,16 @@
                   endif;?>
                     <div class="block">
                         <label for="channel-name">LBRY Channel ID</label>
-                        <input type="text" id="channel-name" name="new_preferred_channel" placeholder="@YourPreferredChannelName" value="<?php echo $status['data']['lbry_channel_name'];?>" <?php if($status['data']['status'] == 'syncing' || $status['data']['status'] == 'synced'): echo "disabled"; endif; ?> >
+                        <input type="text" id="channel-name" name="new_preferred_channel" placeholder="@YourPreferredChannelName" value="<?php echo $statusData['lbry_channel_name'];?>" <?php if($statusData['status'] == 'syncing' || $statusData['status'] == 'synced'): echo "disabled"; endif; ?> >
                         <div hidden id="channel-name-error" class="error">Channel is invalid or blank</div>
                     </div>
                     <div class="block">
                         <label for="email">Preferred Email</label>
-                        <input type="text" id="email" name="new_email" placeholder="bill@gmail.com" value="<?php echo $status['data']['email'];?>">
+                        <input type="text" id="email" name="new_email" placeholder="bill@gmail.com" value="<?php echo $statusData['email'];?>">
                         <div hidden id="email-error" class="error">Email is invalid or blank</div>
                     </div>
                     <div class="block full">
-                        <input name="sync_consent" id="sync-consent" type="checkbox" <?php if($status['data']['status'] == 'queued'): echo "checked"; endif;?> <?php if($status['data']['status'] == 'syncing' || $status['data']['status'] == 'synced'): echo "disabled "; echo "checked"; endif; ?>>I want to sync my content to the LBRY network and agree to <a href="/faq/youtube-terms">these terms</a>.
+                        <input name="sync_consent" id="sync-consent" type="checkbox" <?php if($statusData['status'] == 'queued'): echo "checked"; endif;?> <?php if($statusData['status'] == 'syncing' || $statusData['status'] == 'synced'): echo "disabled "; echo "checked"; endif; ?>>I want to sync my content to the LBRY network and agree to <a href="/faq/youtube-terms">these terms</a>.
                         <div hidden id="sync-consent-error" class="error">In order to continue, you must agree to sync.</div>
                     </div>
                     <div class="block">
