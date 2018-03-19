@@ -42,6 +42,7 @@ html {
   padding: 0;
   margin: 0;
   font: normal 400 16px/1.5 'metropolis-bold';
+  color: #2F3C5C;
 }
 img {
   display: block;
@@ -222,7 +223,7 @@ header .right a.github {
   height: 80px;
 }
 .hero .title .overflow + .overflow {
-  margin: -10px 0 20px 0;
+  margin: -10px 0 0 0;
 }
 .hero .title .overflow h1 {
   position: absolute;
@@ -233,6 +234,7 @@ header .right a.github {
   float: left;
   width: 100%;
   font: normal 400 21px/1.2 'metropolis-semibold';
+  margin-top: 20px;
   color: #FFF;
 }
 .hero .title .button {
@@ -806,6 +808,67 @@ header .right a.github {
   background: url(../img/youtube/lbc@2x.png) 50% 50% no-repeat;
   background-size: 13px;
 }
+.channel .error {
+  float: left;
+  width: 100%;
+  font: normal 400 18px/1.5 'metropolis-semibold';
+  color: #AAA;
+  margin: 0 0 40px 0;
+}
+.channel .error span {
+  color: #45B0AF;
+  border-bottom: 1px solid #45B0AF;
+  cursor: pointer;
+}
+.channel .confirmation-steps {
+  float: left;
+  width: 100%;
+}
+.channel .confirmation-steps ul {
+  float: left;
+  width: 100%;
+  list-style: none;
+  padding: 0;
+}
+.channel .confirmation-steps ul li {
+  position: relative;
+  float: left;
+  width: 33%;
+}
+.channel .confirmation-steps ul li span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 48px;
+  height: 48px;
+  background: #40C0A9;
+  border-radius: 50%;
+  font: normal 400 18px/48px sans-serif;
+  text-align: center;
+  color: #FFF;
+}
+.channel .confirmation-steps ul li.disabled span {
+  background: #CCC;
+  color: #FFF;
+}
+.channel .confirmation-steps ul li p {
+  float: left;
+  width: 100%;
+  padding: 0 0 0 60px;
+  line-height: 48px;
+  box-sizing: border-box;
+}
+.channel .confirmation-steps ul li.disabled p {
+  color: #CCC;
+}
+.channel .confirmation-steps ul li p + p {
+  font: normal 400 13px/20px 'metropolis-semibold';
+  color: #2F3C5C;
+  margin-top: 0;
+}
+.channel .confirmation-steps ul li a {
+  color: #45B0AF;
+}
 .settings form {
   float: left;
   width: 100%;
@@ -854,6 +917,9 @@ header .right a.github {
   box-shadow: 0 20px 50px 0 rgba(0,0,0,0.15);
   transition: box-shadow 0.3s;
 }
+.settings a {
+  color: #45B0AF;
+}
 .settings button:hover {
   -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.15);
   -moz-box-shadow: 0 0 10px 0 rgba(0,0,0,0.15);
@@ -866,6 +932,12 @@ header .right a.github {
 .channel-settings header .left a {
   color: #125548;
 }
+
+
+
+
+
+
 
 /* ---------------------------
  --> RESPONSIVE
@@ -1182,6 +1254,12 @@ header .right a.github {
     border-radius: 20px;
   }
 }
+@media only screen and (min-device-width : 300px) and (max-device-width : 767px) and (orientation : landscape) {
+  .channel .confirmation-steps ul li {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
 @media only screen and (min-device-width : 300px) and (max-device-width : 767px) and (orientation : portrait) {
   header {
     padding: 0 10%;
@@ -1347,6 +1425,17 @@ header .right a.github {
     width: 180px;
     margin: 0 auto;
     padding: 0;
+    text-align: center;
+  }
+  .channel .confirmation-steps ul li {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .channel .block:not(:first-child) {
+    width: 100%;
+  }
+  .channel .error {
+    font-size: 14px;
     text-align: center;
   }
 }

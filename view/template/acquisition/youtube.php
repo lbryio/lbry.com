@@ -34,7 +34,6 @@ Response::setMetaDescription("Put your content on the blockchain, experience tru
   </div>
   <div class="title">
     <div class="overflow"><h1>Content Freedom.</h1></div>
-    <br/>
     <p>Put your content on the blockchain and earn rewards.</p>
     <div class="button">Claim Your LBRY Channel</div>
   </div>

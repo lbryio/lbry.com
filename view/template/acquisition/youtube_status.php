@@ -11,51 +11,58 @@
     <section class="section channel pad-top">
         <div class="inner">
             <div class="content">
+                <?php if (true): ?>
+                    <div id="email-google-plus-error" class="error">Your email address is set as xxx@plusgoogle.com.<br>If this is not your email address, please <span>change it below</span>.</div>
+                <?php endif ?>
                 <div class="zigzag"></div>
                 <h1><?php echo $isSyncAgreed && $isRewardClaimed ? "You're all set!" : "Almost done!" ?></h1>
-              <h3>The Steps</h3>
-                <ul>
-                  <li>
-                    <h4>✓ Confirm your channel</h4>
-                  </li>
-                  <li>
-                    <h4><?php echo $isSyncAgreed ? "✓" : "☐" ?> Agree to sync</h4>
-                  </li>
-                  <li>
-                    <h4><?php echo $isRewardClaimed ? "✓" : "☐" ?>  Claim your credits</h4>
-                    To get your credits, <a href="/get">download the app</a> and <a href="/faq/youtube">follow these instructions</a>.
-                  </li>
-                </ul>
-
-              <?php if (true): ?>
-                  <div id="email-google-plus-error" class="error">Your email address is set as xxx@plusgoogle.com. If this is not your email address, please change it below.</div>
-              <?php endif ?>
-                <div>
-                  <div class="block">
-                    <p>Your Sync Status<br>
-                      <span><?php switch ($statusData['status']) {
-                          case "pending": echo __("Agree to Terms Below"); break;
-                          case "queued": echo __("Queued"); break;
-                          case "syncing": echo __("Sync in Progress!"); break;
-                          case "synced": echo __("Content is Live!"); break;
-                        } ?></span>
-                    </p>
-                  </div>
-                  <div class="block">
-                      <p>Subscribers<br>
-                          <span><?php echo $statusData['subscribers']?></span>
-                      </p>
-                  </div>
-                  <div class="block">
-                      <p>Videos<br>
-                          <span><?php echo $statusData['videos']?></span>
-                      </p>
-                  </div>
-                  <div class="block">
-                      <p>Expected Rewards<br>
-                          <span><?php echo $statusData['expected_reward']?></span>
-                      </p>
-                  </div>
+                <div class="confirmation-steps">
+                    <ul>
+                        <li>
+                            <span>✓</span>
+                            <p>Confirm your channel</p>
+                        </li>
+                        <li class="disabled">
+                            <span><?php echo $isSyncAgreed ? "✓" : "☐" ?></span>
+                            <p>Agree to sync</p>
+                        </li>
+                        <li class="disabled">
+                            <span><?php echo $isRewardClaimed ? "✓" : "☐" ?></span>
+                            <p>Claim your credits</p>
+                            <p>To get your credits, <a href="/get">download the app</a> and <a href="/faq/youtube">follow these instructions.</a></p>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="blocks">
+                    <div class="block">
+                        <p>Your Sync Status<br>
+                            <span>
+                            <?php switch ($statusData['status']) {
+                                case "pending": echo __("Agree to Terms Below"); break;
+                                case "queued": echo __("Queued"); break;
+                                case "syncing": echo __("Sync in Progress!"); break;
+                                case "synced": echo __("Content is Live!"); break;
+                            } ?>
+                            </span>
+                        </p>
+                    </div>
+                    <div class="block">
+                        <p>Subscribers<br>
+                            <span><?php echo $statusData['subscribers']?></span>
+                        </p>
+                    </div>
+                    <div class="block">
+                        <p>Videos<br>
+                            <span><?php echo $statusData['videos']?></span>
+                        </p>
+                    </div>
+                    <div class="block">
+                        <p>Expected Rewards<br>
+                            <span><?php echo $statusData['expected_reward']?></span>
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
