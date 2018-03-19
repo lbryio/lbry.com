@@ -1,5 +1,5 @@
-<?php Response::setMetaDescription(__('description.meetup')) ?>
-<?php Response::setMetaTitle(__('title.meetup')) ?>
+<?php Response::setMetaDescription(__('description.join')) ?>
+<?php Response::setMetaTitle(__('title.join')) ?>
 <?php echo View::render('nav/_header', ['isDark' => true, 'isAbsolute' => true]) ?>
 <main>
   <div class="cover cover-dark cover-center cover-full cover--dark-overlay" style="background-color:rgb(74, 175, 152)">
