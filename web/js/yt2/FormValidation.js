@@ -1,3 +1,5 @@
+var is_first_time = true;
+
 function submitEditForm(){
     $("#youtube_settings").submit(function (event) {
 
@@ -21,6 +23,16 @@ function submitEditForm(){
             $('#email-error').show();
             event.preventDefault();
         }
+        else(!validateEmailIsNotGooglePlus(email)){
+
+            $('#email').addClass('error_form');
+            if(is_first_time){
+                $('#email').addClass('error_form');
+                $('#email-google-plus-error').show();
+                is_first_time = false;
+                event.preventDefault()
+            }
+        }
 
         localStorage.setItem("status_token", $.trim($('#status_token').val()));
         localStorage.setItem("lbry_channel_name_sync", $.trim($('#channel-name').val()));
@@ -36,12 +48,12 @@ function submitDetailsForm() {
         // Make sure that the error message are hidden before trying to validate value
         $('#lbry_error').hide();
 
-            // If the lbry name is invalid or blank stop the post request
-            if(!validateLBRYName(lbry_channel_name) || lbry_channel_name === '') {
-                $('#lbry_channel_name').addClass('error_form');
-                $('#lbry_error').show();
-                event.preventDefault();
-            }
+        // If the lbry name is invalid or blank stop the post request
+        if(!validateLBRYName(lbry_channel_name) || lbry_channel_name === '') {
+            $('#lbry_channel_name').addClass('error_form');
+            $('#lbry_error').show();
+            event.preventDefault();
+        }
     });
 }
 
@@ -57,5 +69,10 @@ function validateLBRYName(lbry_channel_name){
 
 function validateYoutubeChannelUrl(youtube_channel_url){
     var re = /^UC[A-Za-z0-9_-]{22}$/;
-    return re.test(youtube_channel_url)
+    return re.test(youtube_channel_url);
+}
+
+function validateEmailIsNotGooglePlus(email){
+    var re = /^[A-Za-z0-9._%+-]+@(?!plusgoogle.com)[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/+g;
+    return re.test(email);
 }
