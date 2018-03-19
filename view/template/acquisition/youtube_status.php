@@ -27,6 +27,9 @@
                   </li>
                 </ul>
 
+              <?php if (true): ?>
+                  <div id="email-google-plus-error" class="error">Your email address is set as xxx@plusgoogle.com. If this is not your email address, please change it below.</div>
+              <?php endif ?>
                 <div>
                   <div class="block">
                     <p>Your Sync Status<br>
@@ -77,7 +80,6 @@
                         <label for="email">Preferred Email</label>
                         <input type="text" id="email" name="new_email" placeholder="bill@gmail.com" value="<?php echo $statusData['email'];?>">
                         <div hidden id="email-error" class="error">Email is invalid or blank</div>
-                        <div hidden id="email-google-plus-error" class="error">Are you sure you want to use this email</div>
                     </div>
                     <div class="block full">
                         <input name="sync_consent" id="sync-consent" type="checkbox" <?php if($statusData['status'] == 'queued'): echo "checked"; endif;?> <?php if($statusData['status'] == 'syncing' || $statusData['status'] == 'synced'): echo "disabled "; echo "checked"; endif; ?>>I want to sync my content to the LBRY network and agree to <a href="/faq/youtube-terms">these terms</a>.
