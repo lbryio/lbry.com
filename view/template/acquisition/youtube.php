@@ -77,8 +77,8 @@ Response::setMetaDescription("Put your content on the blockchain, experience tru
       <div class="boxes">
         <div class="box">
             <div class="image" target="_blank">
-                <div class="to-play" onclick="playVideo1()"><span></span></div>
-                    <video id="video1" width="100%" poster="/img/youtube/01@2x.jpg" src="https://spee.ch/1ac47b8b3def40a25850dc726a09ce23d09e7009/ever-wonder-how-bitcoin-and-other.mp4"/></video>
+                <div id="play-video1" class="to-play" onclick="playVideo1()"><span></span></div>
+                    <video id="video1" width="100%" poster="/img/youtube/01@2x.jpg" src="https://spee.ch/1ac47b8b3def40a25850dc726a09ce23d09e7009/ever-wonder-how-bitcoin-and-other.mp4" style="cursor: pointer" onclick="this.paused ? this.play() : this.pause();"/></video>
             </div>
 
           <div class="text">
@@ -87,8 +87,8 @@ Response::setMetaDescription("Put your content on the blockchain, experience tru
         </div>
         <div class="box">
             <div class="image" target="_blank">
-                <div class="to-play" onclick="playVideo2()"><span></span></div>
-              <video id="video2" width="100%" poster="/img/youtube/02@2x.jpg" src="https://spee.ch/3c96f32de285db6c04e80bd6f5fad573250541e9/casually-successful.mp4"/></video>
+                <div id="play-video2" class="to-play" onclick="playVideo2()"><span></span></div>
+              <video id="video2" width="100%" poster="/img/youtube/02@2x.jpg" src="https://spee.ch/3c96f32de285db6c04e80bd6f5fad573250541e9/casually-successful.mp4" style="cursor: pointer" onclick="this.paused ? this.play() : this.pause();" /></video>
             </div>
 
           <div class="text">
@@ -97,8 +97,8 @@ Response::setMetaDescription("Put your content on the blockchain, experience tru
         </div>
         <div class="box">
           <div class="image"  target="_blank">
-              <div class="to-play" onclick="playVideo3()"><span></span></div>
-              <video id="video3" width="100%" poster="/img/youtube/03@2x.jpg" src="https://spee.ch/8958c5d573d71f5c2d0c1bfdf752737ce39744cb/the-historical-elements-of-wolfenstein.mp4"></video>
+              <div id="play-video3" class="to-play" onclick="playVideo3()"><span></span></div>
+              <video id="video3" width="100%" poster="/img/youtube/03@2x.jpg" src="https://spee.ch/8958c5d573d71f5c2d0c1bfdf752737ce39744cb/the-historical-elements-of-wolfenstein.mp4" style="cursor: pointer" onclick="this.paused ? this.play() : this.pause();"></video>
           </div>
           <div class="text">
             <p>@ColinsLastStand</p>
