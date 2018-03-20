@@ -1,7 +1,7 @@
 ---
 category: code
 title: Bulk Sync/Upload Utility
-award: 2000
+award: 500
 status: available
 date: '2018-03-20'
 ---
