@@ -139,8 +139,11 @@ class View
       $scssCompiler->setLineNumberStyle(Leafo\ScssPhp\Compiler::LINE_COMMENTS);
     }
 
-    $css = $scssCompiler->compile(file_get_contents(self::SCSS_DIR . '/all.scss'));
-    file_put_contents(self::CSS_DIR . '/all.css', $css);
+    $all_css = $scssCompiler->compile(file_get_contents(self::SCSS_DIR . '/all.scss'));
+    file_put_contents(self::CSS_DIR . '/all.css', $all_css);
+
+    $yt2_css = $scssCompiler->compile(file_get_contents(self::SCSS_DIR . '/yt2.scss'));
+    file_put_contents(self::CSS_DIR . '/yt2.css', $yt2_css);
   }
 
   public static function gzipAssets()

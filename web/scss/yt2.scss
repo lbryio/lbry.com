@@ -1,0 +1,1568 @@
+/* ---------------------------
+ -->
+--------------------------- */
+@font-face {
+  font-family: 'metropolis-bold';
+  src: url('../font/metropolis/bold.eot');
+  src: url('../font/metropolis/bold.eot?#iefix') format("embedded-opentype"), url('../font/metropolis/bold.woff') format("woff"), url('../font/metropolis/bold.ttf') format("truetype"), url('../font/metropolis/bold.svg#metropolis-bold') format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'metropolis-semibold';
+  src: url('../font/metropolis/semibold.eot');
+  src: url('../font/metropolis/semibold.eot?#iefix') format("embedded-opentype"), url('../font/metropolis/semibold.woff') format("woff"), url('../font/metropolis/semibold.ttf') format("truetype"), url('../font/metropolis/semibold.svg#metropolis-semibold') format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'metropolis-medium';
+  src: url('../font/metropolis/medium.eot');
+  src: url('../font/metropolis/medium.eot?#iefix') format("embedded-opentype"), url('../font/metropolis/medium.woff') format("woff"), url('../font/metropolis/medium.ttf') format("truetype"), url('../font/metropolis/medium.svg#metropolis-medium') format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* ---------------------------
+ --> INIT
+--------------------------- */
+
+body, html {
+  padding: 0;
+  margin: 0;
+  font: normal 400 16px/1.5 'metropolis-bold';
+  color: #2F3C5C;
+}
+
+img {
+  display: block;
+}
+
+a, input, button {
+  outline: none;
+  border: 0;
+}
+
+p, h1, h2, h3, img, input {
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+p, h1, h2, h3 {
+  width: 100%;
+}
+
+/* ---------------------------
+ --> HEADER
+--------------------------- */
+
+header {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  padding: 0 80px;
+  z-index: 1;
+  box-sizing: border-box;
+  .inner {
+    float: left;
+    width: 100%;
+    height: 100%;
+  }
+  .left {
+    float: left;
+    width: 50%;
+    height: 100%;
+  }
+  .right {
+    float: left;
+    width: 50%;
+    height: 100%;
+    float: right;
+  }
+  .logo {
+    float: left;
+    width: 126px;
+    height: 100%;
+    background: url(../img/youtube/lbry@2x.png) 0 50% no-repeat;
+    background-size: 126px;
+    margin: 0 40px 0 0;
+  }
+  .left a {
+    float: left;
+    font: normal 400 18px/80px 'metropolis-medium';
+    color: #FFF;
+    margin: 0 20px 0 0;
+    text-decoration: none;
+  }
+  .right a {
+    float: right;
+    width: 40px;
+    height: 100%;
+    margin: 0 0 0 20px;
+  }
+}
+
+/*header .right a.twitter {
+  background: url(../images/social/twitter@2x.png) 50% 50% no-repeat;
+  background-size: 24px;
+}
+header .right a.facebook {
+  background: url(../images/youtube/facebook@2x.png) 50% 50% no-repeat;
+  background-size: 11px;
+}
+header .right a.reddit {
+  background: url(../images/youtube/reddit@2x.png) 50% 50% no-repeat;
+  background-size: 27px;
+}
+header .right a.github {
+  background: url(../images/youtube/github@2x.png) 50% 50% no-repeat;
+  background-size: 24px;
+} */
+
+/* ---------------------------
+ --> HERO
+--------------------------- */
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url(../img/youtube/hero@2x.jpg);
+  background-size: cover;
+  .shape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    .circle {
+      -webkit-box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.25);
+      -moz-box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.25);
+      box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.25);
+      position: absolute;
+      width: 60px;
+      height: 60px;
+      background: #2F3C5C;
+      border-radius: 50%;
+      margin: -30px 0 0 -30px;
+    }
+    .dot {
+      position: absolute;
+      width: 60px;
+      height: 60px;
+      background: #2F3C5C;
+      border-radius: 50%;
+      margin: -30px 0 0 -30px;
+      width: 6px;
+      height: 6px;
+      margin: -3px 0 0 -3px;
+    }
+    .circle {
+      &.one {
+        top: 31%;
+        left: 50%;
+        width: 76px;
+        height: 76px;
+        background: #2F3C5C url(../img/youtube/core@2x.png) 50% 50% no-repeat;
+        background-size: 25px;
+        margin: -38px 0 0 -38px;
+      }
+      &.two {
+        top: 20%;
+        left: 75%;
+        background: #2F3C5C url(../img/youtube/video@2x.png) 50% 50% no-repeat;
+        background-size: 15px;
+      }
+      &.three {
+        top: 73%;
+        left: 82%;
+        background: #2F3C5C url(../img/youtube/music@2x.png) 50% 50% no-repeat;
+        background-size: 13px;
+      }
+    }
+    .dot {
+      &.a {
+        top: 34%;
+        left: 72%;
+      }
+      &.b {
+        top: 27%;
+        left: 80%;
+      }
+      &.c {
+        top: 81%;
+        left: 75%;
+      }
+      &.d {
+        top: 92%;
+        left: 76%;
+      }
+      &.e {
+        top: 81%;
+        left: 93%;
+      }
+      &.f {
+        top: 109%;
+        left: 90%;
+      }
+    }
+  }
+  .title {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    width: 70%;
+    .overflow {
+      float: left;
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      height: 80px;
+      + .overflow {
+        margin: -10px 0 0 0;
+      }
+      h1 {
+        position: absolute;
+        font: normal 400 80px/1 'metropolis-bold';
+        color: #FFF;
+      }
+    }
+    p {
+      float: left;
+      width: 100%;
+      font: normal 400 21px/1.2 'metropolis-semibold';
+      margin-top: 20px;
+      color: #FFF;
+    }
+    .button {
+      float: left;
+      height: 60px;
+      background: #FFF;
+      color: #2F3C5C;
+      padding: 0 24px;
+      margin: 40px 0 0 0;
+      font: normal 400 18px/60px 'metropolis-semibold';
+      border-radius: 30px;
+      cursor: pointer;
+      -webkit-box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.15);
+      -moz-box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.15);
+      box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.15);
+      transition: box-shadow 0.3s;
+      &:hover {
+        -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+        -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+      }
+    }
+  }
+}
+
+/* ---------------------------
+ --> SECTIONS
+--------------------------- */
+
+.section {
+  float: left;
+  width: 100%;
+  .inner {
+    float: none;
+    width: 960px;
+    margin: 0 auto;
+    .content {
+      float: left;
+      width: 100%;
+    }
+  }
+  h1 {
+    font: normal 400 30px/1 'metropolis-bold';
+    color: #2F3C5C;
+    + p {
+      font: normal 400 18px/1.3 'metropolis-medium';
+      margin: 12px 0 0 0;
+      color: #AAA;
+      a {
+        color: #45B0AF;
+      }
+    }
+  }
+  .meta {
+    float: left;
+    width: 100%;
+    margin: 40px 0 0 0;
+    font: normal 400 13px/1.7 'metropolis-medium';
+    text-align: center;
+    color: #CCC;
+    a {
+      color: #45B0AF;
+    }
+  }
+}
+
+/* --- CLAIM --- */
+
+.claim {
+  background: #F6F6F6;
+  padding: 80px 0;
+  .zigzag {
+    float: left;
+    width: 100%;
+    height: 40px;
+    background: url(../img/youtube/zigzag@2x.png) 50% 0 no-repeat;
+    background-size: 72px;
+  }
+  h1 {
+    text-align: center;
+    + p {
+      text-align: center;
+    }
+  }
+  .sync-status {
+    float: left;
+    width: 100%;
+    font: normal 400 16px/40px 'metropolis-medium';
+    text-align: center;
+    color: #2F3C5C;
+    margin-top: 10px;
+    a {
+      color: #45B0AF;
+    }
+  }
+  form {
+    float: left;
+    width: 100%;
+    margin: 60px 0 0 0;
+  }
+  .form-inner {
+    float: none;
+    width: 446px;
+    margin: 0 auto;
+  }
+  .block {
+    position: relative;
+    float: left;
+    margin-top: 10px;
+  }
+  .error {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    font: normal 400 14px/40px 'metropolis-medium';
+    color: #E2495E;
+  }
+  input {
+    float: left;
+    height: 50px;
+    border-radius: 25px;
+    font: normal 400 16px/50px 'metropolis-medium';
+    &[type="text"] {
+      width: 306px;
+      background: #FFF;
+      text-indent: 32px;
+    }
+    &[type="submit"] {
+      width: 120px;
+      background: #2F3C5C;
+      color: #FFF;
+      text-align: center;
+      cursor: pointer;
+      margin: 0 0 0 20px;
+      -webkit-box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.15);
+      -moz-box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.15);
+      box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.15);
+      transition: box-shadow 0.3s;
+      &:hover {
+        -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+        -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+      }
+    }
+  }
+}
+
+.error_form {
+  -webkit-box-shadow: inset 0px 0px 0px 2px #E2495E;
+  -moz-box-shadow: inset 0px 0px 0px 2px #E2495E;
+  box-shadow: inset 0px 0px 0px 2px #E2495E;
+}
+
+.claim label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font: normal 400 16px/50px 'metropolis-medium';
+  text-indent: 16px;
+}
+
+::-webkit-input-placeholder, ::-moz-placeholder, :-moz-placeholder, :-ms-input-placeholder {
+  color: #AAA;
+}
+
+/* --- JOIN --- */
+
+.join {
+  padding: 100px 0 0 0;
+  .boxes {
+    float: left;
+    width: 100%;
+    margin: 40px 0 0 0;
+  }
+  .box {
+    float: left;
+    width: 306px;
+    margin: 0 21px 0 0;
+    &:last-child {
+      margin: 0;
+    }
+    .image, .text {
+      position: relative;
+      float: left;
+      width: 100%;
+      height: 100%;
+    }
+    video {
+      float: left;
+    }
+    .image {
+      img {
+        width: 100%;
+        height: auto;
+      }
+      .to-play {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0);
+        z-index: 1;
+        -webkit-transition: background 0.4s;
+        transition: background 0.4s;
+      }
+      &:hover .to-play {
+        background: rgba(0, 0, 0, 0.5);
+      }
+      .to-play span {
+        opacity: 0;
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 40px;
+        height: 40px;
+        background: url(../img/youtube/play@2x.png) 50% 50% no-repeat;
+        background-size: 30px;
+        -webkit-transform: translate(-50%, -40%);
+        transform: translate(-50%, -40%);
+        -webkit-transition: transform 0.4s, opacity 0.4s;
+        transition: transform 0.4s, opacity 0.4s;
+      }
+      &:hover .to-play span {
+        opacity: 1;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
+    }
+    .text {
+      margin: 20px 0 0 0;
+      p {
+        font: normal 400 18px/20px 'metropolis-semibold';
+        color: #2F3C5C;
+        + p {
+          font: normal 400 14px/20px 'metropolis-medium';
+          color: #AAA;
+          margin: 10px 0 0 0;
+        }
+      }
+    }
+  }
+}
+
+/* --- HOW --- */
+
+.how {
+  padding: 100px 0 0 0;
+  .steps {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 260px;
+    margin: 80px 0 0 0;
+    .path {
+      position: absolute;
+      top: -52px;
+      left: -60px;
+      width: 752px;
+      height: 287px;
+      background: url(../img/youtube/path@2x.png) 0 0 no-repeat;
+      background-size: 752px;
+      .journey {
+        position: absolute;
+        overflow: hidden;
+        top: 0;
+        left: 0;
+        width: 120px;
+        height: 287px;
+        background: url(../img/youtube/path-complete@2x.png) 0 0 no-repeat;
+        background-size: 752px;
+      }
+    }
+  }
+  .step {
+    position: absolute;
+    top: 0;
+    left: 0;
+    .circle {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 62px;
+      height: 62px;
+      border-radius: 50%;
+      background: #2F3C5C;
+      font: normal 400 24px/62px 'metropolis-semibold';
+      text-align: center;
+      color: #FFF;
+      -webkit-box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.15);
+      -moz-box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.15);
+      box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.15);
+      -webkit-transition: background 0.4s;
+      transition: background 0.4s;
+    }
+    .text {
+      position: absolute;
+      top: 0;
+      left: 82px;
+      font: normal 400 18px/1.5 'metropolis-medium';
+      color: #2F3C5C;
+      -webkit-transition: color 0.4s;
+      transition: color 0.4s;
+    }
+    &.one .text {
+      width: 226px;
+    }
+    &.two {
+      top: 160px;
+      left: 164px;
+      .text {
+        width: 552px;
+      }
+    }
+    &.three {
+      top: 0;
+      left: 490px;
+      .text {
+        width: 390px;
+      }
+    }
+    &.enabled {
+      .circle {
+        background: #CCC;
+      }
+      .text {
+        color: #CCC;
+      }
+    }
+  }
+}
+
+/* ---  REWARDS --- */
+
+.rewards {
+  padding: 40px 0 80px 0;
+  background: #FAFAFA;
+  .price {
+    float: left;
+    width: 100%;
+    margin: 40px 0;
+    h3 {
+      float: left;
+      width: auto;
+      font: normal 400 21px/30px 'metropolis-bold';
+      color: #2F3C5C;
+    }
+    p {
+      float: right;
+      width: auto;
+      background: url(../img/youtube/lbc@2x.png) 0 50% no-repeat;
+      background-size: 13px;
+      font: normal 400 14px/30px 'metropolis-semibold';
+      text-indent: 20px;
+      span {
+        font: normal 400 12px/30px 'metropolis-medium';
+        color: #AAA;
+      }
+    }
+  }
+  .table {
+    float: left;
+    width: 100%;
+    .head, .line {
+      float: left;
+      width: 100%;
+    }
+    .head {
+      height: 40px;
+      border-bottom: 1px solid #EEE;
+      p {
+        float: left;
+        width: 306px;
+        text-indent: 20px;
+        margin: 0 21px 0 0;
+        font: normal 400 16px/40px 'metropolis-semibold';
+        color: #2F3C5C;
+      }
+    }
+    .line p {
+      float: left;
+      width: 306px;
+      text-indent: 20px;
+      margin: 0 21px 0 0;
+      font: normal 400 16px/40px 'metropolis-semibold';
+      color: #2F3C5C;
+    }
+    .head p:last-child {
+      margin: 0;
+    }
+    .line {
+      p:last-child {
+        margin: 0;
+      }
+      height: 60px;
+      &:nth-child(odd) {
+        background: #F6F6F6;
+      }
+      p {
+        font: normal 400 16px/60px 'metropolis-medium';
+        span {
+          display: inline-block;
+          width: 13px;
+          height: 13px;
+          background: url(../img/youtube/lbc@2x.png) 0 50% no-repeat;
+          background-size: 13px;
+        }
+        i {
+          font: normal 400 10px/60px 'metropolis-medium';
+        }
+      }
+    }
+  }
+}
+
+/* --- SYNC --- */
+
+.sync {
+  padding: 80px 0 60px 0;
+  margin: 100px 0 0 0;
+  background: #FAFAFA;
+  .zigzag {
+    float: left;
+    width: 100%;
+    height: 40px;
+    background: url(../img/youtube/zigzag@2x.png) 50% 0 no-repeat;
+    background-size: 72px;
+  }
+  h1 {
+    text-align: center;
+    + p {
+      text-align: center;
+    }
+  }
+  .button {
+    float: left;
+    width: 100%;
+    margin: 40px 0 0 0;
+    a {
+      float: none;
+      display: block;
+      text-decoration: none;
+      width: 120px;
+      height: 50px;
+      background: #45B0AF;
+      margin: 0 auto;
+      border-radius: 25px;
+      font: normal 400 16px/50px 'metropolis-medium';
+      text-align: center;
+      color: #FFF;
+      -webkit-box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.15);
+      -moz-box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.15);
+      box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.15);
+      transition: box-shadow 0.3s;
+      &:hover {
+        -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+        -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+      }
+    }
+  }
+}
+
+/* --- CONTACT --- */
+
+.contact {
+  padding: 80px 0 100px 0;
+  .v-card {
+    float: left;
+    width: 100%;
+    margin: 40px 0 0 0;
+  }
+  .photo {
+    float: left;
+    width: 82px;
+    margin: 0 24px 0 0;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .text {
+    float: left;
+    width: 854px;
+    h3 {
+      font: normal 400 21px/30px 'metropolis-bold';
+      color: #2F3C5C;
+    }
+    p {
+      font: normal 400 18px/1.5 'metropolis-medium';
+      color: #AAA;
+    }
+    h3 + p {
+      font: normal 400 16px/20px 'metropolis-medium';
+      color: #AAA;
+      margin: 0 0 24px 0;
+    }
+    a {
+      float: left;
+      height: 50px;
+      background: #2F3C5C;
+      color: #FFF;
+      padding: 0 20px;
+      margin: 40px 0 0 0;
+      font: normal 400 16px/50px 'metropolis-medium';
+      text-decoration: none;
+      border-radius: 25px;
+      -webkit-box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.15);
+      -moz-box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.15);
+      box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.15);
+      transition: box-shadow 0.3s;
+      &:hover {
+        -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+        -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+      }
+    }
+  }
+}
+
+/* --- TO TOP --- */
+
+.to-top {
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  bottom: 100px;
+  right: 80px;
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  background: #DDD url(../img/youtube/top@2x.png) 50% 50% no-repeat;
+  background-size: 16px;
+  cursor: pointer;
+  -webkit-box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.1);
+  -webkit-transition: background 0.4s;
+  transition: background 0.4s;
+  &:hover {
+    background: #2F3C5C url(../img/youtube/top@2x.png) 50% 50% no-repeat;
+    background-size: 16px;
+  }
+  span {
+    position: absolute;
+    top: -24px;
+    left: 0;
+    width: 62px;
+    font: normal 400 14px/20px 'metropolis-bold';
+    text-align: center;
+    color: #CCC;
+  }
+}
+
+/* --- CHANNEL, SETTINGS --- */
+
+.channel {
+  padding: 80px 0;
+}
+
+.settings {
+  padding: 80px 0;
+  background: #F6F6F6;
+}
+
+.channel {
+  &.pad-top {
+    padding-top: 160px;
+  }
+  .zigzag {
+    float: left;
+    width: 100%;
+    height: 30px;
+    background: url(../img/youtube/zigzag@2x.png) 0 0 no-repeat;
+    background-size: 72px;
+  }
+}
+
+.settings .zigzag {
+  float: left;
+  width: 100%;
+  height: 30px;
+  background: url(../img/youtube/zigzag@2x.png) 0 0 no-repeat;
+  background-size: 72px;
+}
+
+.channel h1, .settings h1 {
+  font: normal 400 24px/30px 'metropolis-bold';
+  color: #2F3C5C;
+}
+
+.channel .block, .settings .block {
+  position: relative;
+  float: left;
+  width: 50%;
+  margin-top: 40px;
+  box-sizing: border-box;
+}
+
+.channel .block:not(:first-child) {
+  width: 25%;
+}
+
+.settings .block {
+  padding-right: 60px;
+  &.full {
+    width: 100%;
+    padding: 0;
+    font: normal 400 16px/30px 'metropolis-semibold';
+    color: #2F3C5C;
+  }
+}
+
+.channel {
+  .block {
+    p {
+      float: left;
+      width: 100%;
+      font: normal 400 13px/20px 'metropolis-medium';
+      color: #2F3C5C;
+    }
+    &.get-credits p {
+      font: normal 400 16px/1.5 'metropolis-semibold';
+      color: #2F3C5C;
+    }
+    p span {
+      float: left;
+      width: 100%;
+      font: normal 400 40px/40px 'metropolis-medium';
+      color: #2F3C5C;
+      margin-top: 8px;
+    }
+    i {
+      display: inline-block;
+      width: 24px;
+      height: 13px;
+      background: url(../img/youtube/lbc@2x.png) 50% 50% no-repeat;
+      background-size: 13px;
+    }
+  }
+  .error {
+    float: left;
+    width: 100%;
+    font: normal 400 18px/1.5 'metropolis-semibold';
+    color: #AAA;
+    margin: 0 0 40px 0;
+    span {
+      color: #45B0AF;
+      border-bottom: 1px solid #45B0AF;
+      cursor: pointer;
+    }
+  }
+  .confirmation-steps {
+    float: left;
+    width: 100%;
+    ul {
+      float: left;
+      width: 100%;
+      list-style: none;
+      padding: 0;
+      li {
+        position: relative;
+        float: left;
+        width: 33%;
+        span {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 48px;
+          height: 48px;
+          background: #40C0A9;
+          border-radius: 50%;
+          font: normal 400 18px/48px sans-serif;
+          text-align: center;
+          color: #FFF;
+        }
+        &.disabled span {
+          background: #CCC;
+          color: #FFF;
+        }
+        p {
+          float: left;
+          width: 100%;
+          padding: 0 0 0 60px;
+          line-height: 48px;
+          box-sizing: border-box;
+        }
+        &.disabled p {
+          color: #CCC;
+        }
+        p + p {
+          font: normal 400 13px/20px 'metropolis-semibold';
+          color: #2F3C5C;
+          margin-top: 0;
+        }
+        a {
+          color: #45B0AF;
+        }
+      }
+    }
+  }
+}
+
+.settings {
+  form {
+    float: left;
+    width: 100%;
+  }
+  label {
+    float: left;
+    width: 100%;
+    font: normal 400 13px/20px 'metropolis-semibold';
+    color: #2F3C5C;
+  }
+  input {
+    float: left;
+    height: 50px;
+    border-radius: 25px;
+    font: normal 400 16px/50px 'metropolis-medium';
+    margin: 8px 0 0 0;
+    &[type="text"] {
+      width: 100%;
+      background: #FFF;
+      text-indent: 24px;
+    }
+    &[type="checkbox"] {
+      height: 16px;
+      margin: 6px 8px 0 0;
+      border-radius: 0;
+      &[readonly] {
+        pointer-events: none;
+      }
+    }
+  }
+  .error {
+    font: normal 400 14px/40px 'metropolis-medium';
+    color: #E2495E;
+  }
+  button {
+    float: left;
+    height: 50px;
+    background: #2F3C5C;
+    border-radius: 25px;
+    padding: 0 20px;
+    font: normal 400 16px/50px 'metropolis-medium';
+    color: #FFF;
+    cursor: pointer;
+    -webkit-box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s;
+  }
+  a {
+    color: #45B0AF;
+  }
+  button:hover {
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+  }
+}
+
+.channel-settings header {
+  .logo {
+    background: url(../img/youtube/lbry-dark@2x.png) 0 50% no-repeat;
+    background-size: 126px;
+  }
+  .left a {
+    color: #125548;
+  }
+}
+
+/* ---------------------------
+ --> RESPONSIVE
+--------------------------- */
+@media only screen and (min-width: 1680px) {
+  .hero .title .overflow {
+    height: 90px;
+    h1 {
+      font: normal 400 90px/1 'metropolis-bold';
+    }
+  }
+  .section .inner {
+    width: 1120px;
+  }
+  .claim {
+    .form-inner {
+      width: 500px;
+    }
+    input[type="text"] {
+      width: 360px;
+    }
+  }
+  .join .box {
+    width: 360px;
+    margin: 0 20px 0 0;
+  }
+  .earnings .table {
+    .head p, .line p {
+      width: 360px;
+      margin: 0 20px 0 0;
+    }
+  }
+  .rewards .table {
+    .head p, .line p {
+      width: 360px;
+      margin: 0 20px 0 0;
+    }
+  }
+  .how .steps {
+    margin: 100px 0 0 60px;
+  }
+}
+
+@media only screen and (max-width: 1120px) {
+  header {
+    top: 20px;
+    padding: 0 48px;
+    .logo {
+      width: 110px;
+      background: url(../img/youtube/lbry@2x.png) 0 50% no-repeat;
+      background-size: 110px;
+    }
+  }
+  .channel-settings header .logo {
+    background: url(../img/youtube/lbry-dark@2x.png) 0 50% no-repeat;
+    background-size: 110px;
+  }
+  header {
+    .left a {
+      font-size: 16px;
+    }
+    .right a {
+      width: 32px;
+      &.twitter {
+        background: url(../img/youtube/twitter@2x.png) 50% 50% no-repeat;
+        background-size: 19px;
+      }
+      &.facebook {
+        background: url(../img/social/facebook@2x.png) 50% 50% no-repeat;
+        background-size: 9px;
+      }
+      &.reddit {
+        background: url(../img/social/reddit@2x.png) 50% 50% no-repeat;
+        background-size: 22px;
+      }
+      &.github {
+        background: url(../img/social/github@2x.png) 50% 50% no-repeat;
+        background-size: 19px;
+      }
+    }
+  }
+  .hero .title {
+    .overflow {
+      height: 64px;
+      + .overflow {
+        margin-top: 0;
+      }
+      h1 {
+        font: normal 400 64px/1 'metropolis-bold';
+      }
+    }
+    p {
+      font: normal 400 18px/1.3 'metropolis-medium';
+    }
+    .button {
+      height: 50px;
+      padding: 0 20px;
+      margin: 32px 0 0 0;
+      font: normal 400 16px/50px 'metropolis-semibold';
+      border-radius: 25px;
+    }
+  }
+  .section {
+    .inner {
+      width: 900px;
+    }
+    h1 {
+      font-size: 26px;
+      + p {
+        font: normal 400 16px/1.5 'metropolis-medium';
+      }
+    }
+  }
+  .claim form {
+    margin: 50px 0 0 0;
+  }
+  .join {
+    padding: 80px 0 0 0;
+    .box {
+      width: 286px;
+    }
+  }
+  .rewards .table {
+    .head p, .line p {
+      width: 286px;
+    }
+  }
+  .contact .text {
+    width: 794px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .section .inner {
+    width: 100%;
+    padding: 0 64px;
+    box-sizing: border-box;
+  }
+  .join .box {
+    width: 31%;
+    margin: 0 3.5% 0 0;
+  }
+  .rewards .table {
+    .head p, .line p {
+      width: 31%;
+      margin: 0 3.5% 0 0;
+    }
+  }
+  .how {
+    padding: 80px 0 0 0;
+    .steps {
+      margin: 24px 0 0 0;
+      height: auto;
+      .path {
+        display: none;
+      }
+    }
+    .step {
+      position: static;
+      float: left;
+      .circle, .text {
+        position: static;
+        float: left;
+      }
+      width: 100%;
+      margin: 24px 0 0 0;
+      &:first-child {
+        margin: 0;
+      }
+      &.enabled .circle {
+        width: 5%;
+        height: auto;
+        margin: 0;
+        background: none;
+        color: #CCC;
+        font: normal 400 18px/1.5 'metropolis-medium';
+        text-align: left;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        -webkit-transition: none;
+        transition: none;
+      }
+      &.one .text, &.two .text, &.three .text {
+        width: 95%;
+      }
+      &.enabled .text {
+        color: #2F3C5C;
+      }
+    }
+  }
+  .sync {
+    margin: 80px 0 0 0;
+  }
+  .rewards {
+    padding: 0 0 80px 0;
+  }
+  .contact {
+    .photo {
+      width: 8%;
+      margin: 0 2% 0 0;
+    }
+    .text {
+      width: 90%;
+    }
+  }
+  .to-top {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  header {
+    padding: 0 10%;
+  }
+  .channel-settings header {
+    padding: 0 64px;
+  }
+  header .logo {
+    width: 96px;
+    background: url(../img/youtube/lbry@2x.png) 0 50% no-repeat;
+    background-size: 96px;
+  }
+  .channel-settings header .logo {
+    background: url(../img/youtube/lbry-dark@2x.png) 0 50% no-repeat;
+    background-size: 96px;
+  }
+  header {
+    .left {
+      width: 100%;
+    }
+    .right {
+      display: none;
+    }
+  }
+  .hero {
+    float: left;
+    height: auto;
+    padding: 200px 10% 80px 10%;
+    box-sizing: border-box;
+    .shape {
+      display: none;
+    }
+    .title {
+      position: static;
+      float: left;
+      width: 100%;
+      .overflow {
+        height: auto;
+        h1 {
+          position: static;
+          font-size: 48px;
+        }
+      }
+      .button {
+        display: none;
+      }
+    }
+  }
+  .section h1 {
+    font-size: 24px;
+    + p {
+      font-size: 15px;
+    }
+  }
+  .channel, .settings {
+    padding: 60px 0;
+  }
+  .channel h1, .settings h1 {
+    font: normal 400 21px/30px 'metropolis-bold';
+    color: #2F3C5C;
+  }
+  .channel .block p span {
+    font: normal 400 54px/54px 'metropolis-medium';
+  }
+  .settings {
+    .block.full {
+      font: normal 400 15px/30px 'metropolis-semibold';
+    }
+    button {
+      height: 40px;
+      border-radius: 20px;
+      font: normal 400 14px/40px 'metropolis-medium';
+    }
+  }
+  .claim {
+    padding: 60px 0;
+    .form-inner {
+      width: 436px;
+    }
+    input {
+      height: 40px;
+      border-radius: 20px;
+      font: normal 400 14px/40px 'metropolis-medium';
+    }
+  }
+  .settings input {
+    height: 40px;
+    border-radius: 20px;
+    font: normal 400 14px/40px 'metropolis-medium';
+  }
+  .claim {
+    input[type="submit"] {
+      width: 110px;
+    }
+    label {
+      font: normal 400 16px/40px 'metropolis-medium';
+    }
+  }
+  .join .box .text p {
+    font-size: 15px;
+    + p {
+      font: normal 400 13px/1.5 'metropolis-medium';
+    }
+  }
+  .how .step {
+    .text, &.enabled .circle {
+      font: normal 400 15px/1.5 'metropolis-medium';
+    }
+  }
+  .sync {
+    padding: 60px 0;
+    .button {
+      margin: 24px 0 40px 0;
+      a {
+        width: 110px;
+        height: 40px;
+        border-radius: 20px;
+        font: normal 400 15px/40px 'metropolis-medium';
+      }
+    }
+  }
+  .contact .text {
+    h3 {
+      font-size: 16px;
+      + p {
+        font: normal 400 13px/1 'metropolis-medium';
+      }
+    }
+    p {
+      font: normal 400 15px/1.5 'metropolis-medium';
+    }
+    a {
+      height: 40px;
+      margin: 24px 0 0 0;
+      font: normal 400 15px/40px 'metropolis-medium';
+      border-radius: 20px;
+    }
+  }
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 767px) and (orientation: landscape) {
+  .channel .confirmation-steps ul li {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 767px) and (orientation: portrait) {
+  header {
+    padding: 0 10%;
+    .logo {
+      width: 100px;
+      background: url(../img/youtube/lbry@2x.png) 0 50% no-repeat;
+      background-size: 100px;
+    }
+    .left {
+      width: 100%;
+      a {
+        float: right;
+      }
+    }
+    .right {
+      display: none;
+    }
+  }
+  .hero {
+    float: left;
+    height: auto;
+    padding: 200px 10% 80px 10%;
+    box-sizing: border-box;
+    .shape {
+      display: none;
+    }
+    .title {
+      position: static;
+      float: left;
+      width: 100%;
+      .overflow {
+        height: auto;
+        h1 {
+          position: static;
+          font-size: 48px;
+        }
+      }
+      p {
+        font-size: 18px;
+      }
+      .button {
+        display: none;
+      }
+    }
+  }
+  .section {
+    .inner {
+      padding: 0 36px;
+    }
+    h1 {
+      font: normal 400 24px/1.2 'metropolis-bold';
+      text-align: center;
+      + p {
+        font: normal 400 16px/1.5 'metropolis-medium';
+        text-align: center;
+      }
+    }
+  }
+  .claim {
+    .form-inner, .block {
+      width: 100%;
+    }
+    input {
+      float: none;
+      &[type="text"] {
+        width: 100%;
+      }
+      &[type="submit"] {
+        display: block;
+        margin: 24px auto 0 auto;
+        width: 120px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+      }
+    }
+  }
+  .join {
+    padding: 60px 0 0 0;
+    .box {
+      width: 100%;
+      margin: 24px 0 0 0;
+      &:last-child {
+        width: 100%;
+        margin: 24px 0 0 0;
+      }
+      &:first-child {
+        margin: 0;
+      }
+      .text {
+        margin: 12px 0 0 0;
+        p {
+          font-size: 18px;
+          + p {
+            margin: 4px 0 0 0;
+          }
+        }
+      }
+    }
+  }
+  .rewards {
+    .price {
+      h3 {
+        width: 100%;
+        text-align: center;
+      }
+      p {
+        width: 100%;
+        text-align: center;
+        background: none;
+        text-indent: 0;
+      }
+    }
+    .table {
+      .head p, .line p {
+        text-indent: 10px;
+        font-size: 13px;
+      }
+    }
+  }
+  .contact {
+    padding: 60px 0 100px 0;
+    .photo {
+      width: 30%;
+      margin: 0 35%;
+    }
+    .text {
+      width: 100%;
+      text-align: center;
+      a {
+        width: 40%;
+        margin: 20px 30% 0 30%;
+        box-sizing: border-box;
+      }
+    }
+  }
+  .how .step {
+    &.enabled .circle {
+      width: 10%;
+      font-size: 20px;
+    }
+    &.one .text, &.two .text, &.three .text {
+      width: 90%;
+    }
+  }
+  .channel-settings header {
+    padding: 0 10%;
+  }
+  .channel {
+    &.pad-top {
+      padding-top: 140px;
+    }
+    .block {
+      width: 100%;
+    }
+  }
+  .settings .block {
+    width: 100%;
+  }
+  .channel .zigzag, .settings .zigzag {
+    background: url(../img/youtube/zigzag@2x.png) 50% 0 no-repeat;
+    background-size: 72px;
+  }
+  .channel .block p {
+    text-align: center;
+  }
+  .settings .block {
+    padding-right: 0;
+    &.full {
+      line-height: 1.3;
+    }
+  }
+  .channel .block.get-credits p {
+    font-size: 14px;
+  }
+  .settings button {
+    float: none;
+    display: block;
+    width: 180px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+  }
+  .channel {
+    .confirmation-steps ul li {
+      width: 100%;
+      margin-top: 20px;
+    }
+    .block:not(:first-child) {
+      width: 100%;
+    }
+    .error {
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+}
