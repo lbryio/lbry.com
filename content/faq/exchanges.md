@@ -13,3 +13,4 @@ We are listed on several exchanges. You can buy or sell credits at one of these:
 - [Cryptopia](https://www.cryptopia.co.nz/Exchange/?market=LBC_BTC)
 - [Upbit](https://upbit.com/exchange?code=CRIX.UPBIT.BTC-LBC)
 - [Coinspot](https://www.coinspot.com.au/buy/lbc)
+- [trade by trade](https://app.tradebytrade.com/exchange-one)
