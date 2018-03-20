@@ -77,6 +77,7 @@ Response::setMetaDescription("Put your content on the blockchain, experience tru
         <div class="box">
           <a href="https://spee.ch/ever-wonder-how-bitcoin-and-other" class="image" target="_blank">
             <img src="/img/youtube/01@2x.jpg">
+            <div class="to-play"><span></span></div>
           </a>
           <div class="text">
             <p>@3Blue1Brown</p>
@@ -85,6 +86,7 @@ Response::setMetaDescription("Put your content on the blockchain, experience tru
         <div class="box">
           <a href="https://spee.ch/3c96f32de285db6c04e80bd6f5fad573250541e9/casually-successful" class="image" target="_blank">
             <img src="/img/youtube/02@2x.jpg">
+            <div class="to-play"><span></span></div>
           </a>
           <div class="text">
             <p>@CasuallyExplained</p>
@@ -93,6 +95,7 @@ Response::setMetaDescription("Put your content on the blockchain, experience tru
         <div class="box">
           <a href="https://spee.ch/the-historical-elements-of-wolfenstein" class="image"  target="_blank">
             <img src="/img/youtube/03@2x.jpg">
+            <div class="to-play"><span></span></div>
           </a>
           <div class="text">
             <p>@ColinsLastStand</p>
@@ -160,12 +163,12 @@ Response::setMetaDescription("Put your content on the blockchain, experience tru
         </div>
         <div class="line">
           <p>1,000</p>
-          <p><?php echo $reward['data']['1000']; ?><span></span></p>
+          <p><?php echo $reward['data']['1000']; ?> <span></span></p>
           <p></p>
         </div>
         <div class="line">
           <p>10,000</p>
-          <p><?php echo $reward['data']['10000']; ?><span></span></p>
+          <p><?php echo $reward['data']['10000']; ?> <span></span></p>
           <p></p>
         </div>
         <div class="line">
