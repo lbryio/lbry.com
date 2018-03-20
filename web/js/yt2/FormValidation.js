@@ -23,7 +23,7 @@ function submitEditForm(){
             $('#email-error').show();
             event.preventDefault();
         }
-        else(!validateEmailIsNotGooglePlus(email)){
+        else if(!validateEmailIsNotGooglePlus(email)){
 
             $('#email').addClass('error_form');
             if(is_first_time){
@@ -73,6 +73,6 @@ function validateYoutubeChannelUrl(youtube_channel_url){
 }
 
 function validateEmailIsNotGooglePlus(email){
-    var re = /^[A-Za-z0-9._%+-]+@(?!plusgoogle.com)[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/+g;
+    var re = /^[A-Za-z0-9._%+-]+@(?!plusgoogle.com)[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/;
     return re.test(email);
 }

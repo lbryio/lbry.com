@@ -5,6 +5,7 @@ Response::addJsAsset('/js/yt2/ScrollToPlugin.min.js');
 Response::addJsAsset('/js/yt2/app.js');
 Response::addJsAsset('/js/yt2/FormValidation.js');
 Response::addJsAsset('/js/yt2/SyncStatus.js');
+Response::addJsAsset('/js/yt2/youtube_video.js');
 $reward = LBRY::youtubeReward();
 Response::setMetaTitle("LBRY YouTube Partner Program");
 Response::setMetaDescription("Put your content on the blockchain, experience true content freedom, and earn rewards.");
@@ -75,28 +76,30 @@ Response::setMetaDescription("Put your content on the blockchain, experience tru
       <p>Take your peers and your audience with you. Create without limits.</p>
       <div class="boxes">
         <div class="box">
-          <a href="https://spee.ch/ever-wonder-how-bitcoin-and-other" class="image" target="_blank">
-            <img src="/img/youtube/01@2x.jpg">
-            <div class="to-play"><span></span></div>
-          </a>
+            <div class="image" target="_blank">
+                <div class="to-play" onclick="playVideo1()"><span></span></div>
+                    <video id="video1" width="100%" poster="/img/youtube/01@2x.jpg" src="https://spee.ch/1ac47b8b3def40a25850dc726a09ce23d09e7009/ever-wonder-how-bitcoin-and-other.mp4"/></video>
+            </div>
+
           <div class="text">
             <p>@3Blue1Brown</p>
           </div>
         </div>
         <div class="box">
-          <a href="https://spee.ch/3c96f32de285db6c04e80bd6f5fad573250541e9/casually-successful" class="image" target="_blank">
-            <img src="/img/youtube/02@2x.jpg">
-            <div class="to-play"><span></span></div>
-          </a>
+            <div class="image" target="_blank">
+                <div class="to-play" onclick="playVideo2()"><span></span></div>
+              <video id="video2" width="100%" poster="/img/youtube/02@2x.jpg" src="https://spee.ch/3c96f32de285db6c04e80bd6f5fad573250541e9/casually-successful.mp4"/></video>
+            </div>
+
           <div class="text">
             <p>@CasuallyExplained</p>
           </div>
         </div>
         <div class="box">
-          <a href="https://spee.ch/the-historical-elements-of-wolfenstein" class="image"  target="_blank">
-            <img src="/img/youtube/03@2x.jpg">
-            <div class="to-play"><span></span></div>
-          </a>
+          <div class="image"  target="_blank">
+              <div class="to-play" onclick="playVideo3()"><span></span></div>
+              <video id="video3" width="100%" poster="/img/youtube/03@2x.jpg" src="https://spee.ch/8958c5d573d71f5c2d0c1bfdf752737ce39744cb/the-historical-elements-of-wolfenstein.mp4"></video>
+          </div>
           <div class="text">
             <p>@ColinsLastStand</p>
           </div>
@@ -136,6 +139,7 @@ Response::setMetaDescription("Put your content on the blockchain, experience tru
       <div class="zigzag"></div>
       <h1>Sync &amp; Earn</h1>
       <p>LBRY offers a single-click sync process<br>for existing YouTubers</p>
+
       <div class="button">
         <a href="https://api.lbry.io/yt/connect?type=sync&immediate_sync=true">Sync now</a>
       </div>

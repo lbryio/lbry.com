@@ -2,17 +2,19 @@
 <?php Response::setMetaTitle(__('YouTubers! Take back control.')) ?>
 <?php Response::setCssAssets(['/css/yt2.css']) ?>
 <?php Response::addJsAsset('/js/yt2/FormValidation.js')?>
+<?php Response::addJsAsset('/js/yt2/youtube_status.js') ?>
+<?php Response::addJsAsset('/js/yt2/youtube_video.js')?>
 <?php $statusResponse = LBRY::statusYoutube($token); ?>
 <?php $statusData = $statusResponse['data'] ?>
-<?php $isSyncAgreed = in_array($statusData['status'], ["syncing", "synced", "queued"]) ?>
+<?php $isSyncAgreed = false ?>
 <?php $isRewardClaimed = $statusData['is_reward_claimed'] ?? false ?>
   <main class="channel-settings">
     <?php echo View::render('acquisition/_youtube_header') ?>
     <section class="section channel pad-top">
         <div class="inner">
             <div class="content">
-                <?php if (true): ?>
-                    <div id="email-google-plus-error" class="error">Your email address is set as xxx@plusgoogle.com.<br>If this is not your email address, please <span>change it below</span>.</div>
+                <?php if (preg_match('/^[A-Za-z0-9._%+-]+@plusgoogle.com$/', $statusData['email'])): ?>
+                    <div id="email-google-plus-error" class="error">Your email address is set as <?php echo $statusData['email'];?>.<br>If this is not your email address, please <span id="scroll_email">change it below</span>.</div>
                 <?php endif ?>
                 <div class="zigzag"></div>
                 <h1><?php echo $isSyncAgreed && $isRewardClaimed ? "You're all set!" : "Almost done!" ?></h1>
@@ -22,14 +24,15 @@
                             <span>✓</span>
                             <p>Confirm your channel</p>
                         </li>
-                        <li class="disabled">
+                        <li class="<?php echo $isSyncAgreed? "" : "disabled" ?>">
                             <span><?php echo $isSyncAgreed ? "✓" : "☐" ?></span>
                             <p>Agree to sync</p>
+                            <p <?php echo $isSyncAgreed ? "hidden" : "" ?>>click <a id="scroll-sync" href="#">here</a> to agree to sync your content</p>
                         </li>
-                        <li class="disabled">
+                        <li class="<?php echo $isRewardClaimed && $isSyncAgreed? "" : "disabled" ?>">
                             <span><?php echo $isRewardClaimed ? "✓" : "☐" ?></span>
                             <p>Claim your credits</p>
-                            <p>To get your credits, <a href="/get">download the app</a> and <a href="/faq/youtube">follow these instructions.</a></p>
+                            <p <?php echo ($isRewardClaimed === false && $isSyncAgreed === true)? "" : "hidden"?>>To get your credits, <a href="/get">download the app</a> and <a href="/faq/youtube">follow these instructions.</a></p>
                         </li>
                     </ul>
                 </div>
@@ -49,17 +52,17 @@
                     </div>
                     <div class="block">
                         <p>Subscribers<br>
-                            <span><?php echo $statusData['subscribers']?></span>
+                            <span><?php echo $statusData['subscribers'] === 0? "-": $statusData['subscribers']?></span>
                         </p>
                     </div>
                     <div class="block">
                         <p>Videos<br>
-                            <span><?php echo $statusData['videos']?></span>
+                            <span><?php echo $statusData['videos'] === 0? "-": $statusData['videos']?></span>
                         </p>
                     </div>
                     <div class="block">
                         <p>Expected Rewards<br>
-                            <span><?php echo $statusData['expected_reward']?></span>
+                            <span><?php echo $statusData['expected_reward'] === 0? "-": $statusData['expected_reward']?></span>
                         </p>
                     </div>
                 </div>
@@ -89,10 +92,10 @@
                         <div hidden id="email-error" class="error">Email is invalid or blank</div>
                         <div hidden id="email-google-plus-error" class="error">Are you sure you want to use this email</div>
                     </div>
-                    <div class="block full">
+                    <label for="sync-consent" class="block full">
                         <input name="sync_consent" id="sync-consent" type="checkbox" <?php if($statusData['status'] == 'queued'): echo "checked"; endif;?> <?php if($statusData['status'] == 'syncing' || $statusData['status'] == 'synced'): echo "disabled "; echo "checked"; endif; ?>>I want to sync my content to the LBRY network and agree to <a href="/faq/youtube-terms">these terms</a>.
                         <div hidden id="sync-consent-error" class="error">In order to continue, you must agree to sync.</div>
-                    </div>
+                    </label>
                     <div class="block">
                         <button type="submit" onClick="return submitEditForm()">Save Changes</button>
                     </div>
