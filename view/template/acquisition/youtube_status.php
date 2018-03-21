@@ -1,11 +1,10 @@
 <?php Response::setMetaDescription('YouTuber? Take back control! LBRY allows publication on your terms. It\'s open-source, decentralized, and gives you 100% of the profit.') ?>
 <?php Response::setMetaTitle(__('YouTubers! Take back control.')) ?>
-<?php Response::setCssAssets(['/css/yt2.css']) ?>
+<?php Response::setCssAssets(['/css/youtube.css']) ?>
 <?php Response::addJsAsset('/js/yt2/FormValidation.js')?>
 <?php Response::addJsAsset('/js/yt2/youtube_status.js') ?>
 <?php Response::addJsAsset('/js/yt2/youtube_video.js')?>
-<?php $statusResponse = AcquisitionActions::actionGetYoutubeStatus($token) ?>
-<?php $statusData = $statusResponse['data'] ?>
+<?php $statusData = $status_token['data'] ?>
 <?php $isSyncAgreed = false ?>
 <?php $isRewardClaimed = $statusData['is_reward_claimed'] ?? false ?>
   <main class="channel-settings">
@@ -79,7 +78,7 @@
                         <input type="hidden" name="status_token" id="status_token" value="<?php echo $token?>"/>
                     </div>
                   <?php
-                  if (isset($_GET['error']) && isset($_GET['error_message'])): echo "<div>" . "The following error occurred: ". $_GET['error_message']  . " For support please send an email to hello@lbry.io" . "</div>";
+                  if ($error_message): echo "<div>" . "The following error occurred: ". $error_message  . " For support please send an email to hello@lbry.io" . "</div>";
                   endif;?>
                     <div class="block">
                         <label for="channel-name">LBRY Channel ID</label>

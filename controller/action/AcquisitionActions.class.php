@@ -30,7 +30,10 @@ class AcquisitionActions extends Actions
 
   public static function executeYouTube()
   {
-    return ['acquisition/youtube'];
+    return ['acquisition/youtube', [
+        'reward' => LBRY::youtubeReward(),
+        'error_message' => $_GET['error_message'] ?? null
+    ]];
   }
 
   public static function executeVerify(string $token)
@@ -45,7 +48,11 @@ class AcquisitionActions extends Actions
 
   public static function executeYoutubeStatus(string $token)
   {
-    return ['acquisition/youtube_status', ['token' => $token]];
+    return ['acquisition/youtube_status', [
+        'token' => $token,
+        'status_token' => LBRY::statusYoutube($token),
+        'error_message' => $_GET['error_message'] ?? null
+    ]];
   }
 
   public static function actionYoutubeToken(string $desired_lbry_channel_name)
@@ -66,8 +73,9 @@ class AcquisitionActions extends Actions
 
     }
   }
-  public static function actionYoutubeEdit($status_token, $channel_name, $email, $sync_consent, $current_value)
+  public static function actionYoutubeEdit($status_token, $channel_name, $email, $sync_consent)
   {
+    $current_value = LBRY::statusYoutube($status_token);
     if($current_value['data']['email'] == $email)
     {
       $status = LBRY::editYoutube($status_token, $channel_name, null, $sync_consent);
@@ -113,15 +121,5 @@ class AcquisitionActions extends Actions
     } else {
       return false;
     }
-  }
-
-  public static function actionGetLBRYReward()
-  {
-      return LBRY::youtubeReward();
-  }
-
-  public static function actionGetYoutubeStatus($status_token)
-  {
-      return LBRY::statusYoutube($status_token);
   }
 }
