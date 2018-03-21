@@ -675,22 +675,50 @@ header .right a.github {
       text-align: center;
     }
   }
-  .button {
+  form {
     float: left;
     width: 100%;
-    margin: 40px 0 0 0;
-    a {
-      float: none;
-      display: block;
-      text-decoration: none;
+    margin: 60px 0 0 0;
+  }
+  .form-inner {
+    float: none;
+    width: 446px;
+    margin: 0 auto;
+  }
+  .block {
+    position: relative;
+    float: left;
+    margin-top: 10px;
+  }
+  .error {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    font: normal 400 14px/40px 'metropolis-medium';
+    color: #E2495E;
+  }
+  label {
+    display: block;
+    text-indent: 15px;
+    margin-bottom: 15px;
+  }
+  input {
+    float: left;
+    height: 50px;
+    border-radius: 25px;
+    font: normal 400 16px/50px 'metropolis-medium';
+    &[type="text"] {
+      width: 306px;
+      background: #FFF;
+      text-indent: 32px;
+    }
+    &[type="submit"] {
       width: 120px;
-      height: 50px;
-      background: #45B0AF;
-      margin: 0 auto;
-      border-radius: 25px;
-      font: normal 400 16px/50px 'metropolis-medium';
-      text-align: center;
+      background: #2F3C5C;
       color: #FFF;
+      text-align: center;
+      cursor: pointer;
+      margin: 0 0 0 20px;
       -webkit-box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.15);
       -moz-box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.15);
       box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.15);
@@ -699,9 +727,43 @@ header .right a.github {
         -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
         -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
         box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
-      }
+      }&[type="checkbox"] {
+         height: 50px;
+         margin: 6px 8px 0 0;
+         border-radius: 0;
+         &[readonly] {
+           pointer-events: none;
+         }
+       }
     }
   }
+  .error {
+    font: normal 400 14px/40px 'metropolis-medium';
+    color: #E2495E;
+  }
+  button {
+    float: left;
+    height: 50px;
+    background: #2F3C5C;
+    border-radius: 25px;
+    padding: 0 20px;
+    font: normal 400 16px/50px 'metropolis-medium';
+    color: #FFF;
+    cursor: pointer;
+    -webkit-box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s;
+  }
+  a {
+    color: #45B0AF;
+  }
+  button:hover {
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+  }
+
 }
 
 /* --- CONTACT --- */

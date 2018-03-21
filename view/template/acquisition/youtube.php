@@ -141,12 +141,10 @@ Response::setMetaDescription("Put your content on the blockchain, experience tru
       <p>LBRY offers a single-click sync process<br>for existing YouTubers</p>
         <form class="form" id="sync" method="post" action="http://api.lbry.io/yt/connect">
             <div class="form-inner">
-                <div class="block">
             <input type="text" hidden name="type" value="sync"/>
-                </div>
-                <div class="block">
-            <input name="immediate_sync" type="checkbox" value="true"/>I want to sync my content.
-                </div>
+
+                <input id="immediate-sync" name="immediate_sync" type="checkbox" value="true"/><label class="block full" for="immediate-sync">I want to sync my content.</label>
+
                 <div class="block">
                     <input type="submit" value="Sync Now"/>
                 </div>
