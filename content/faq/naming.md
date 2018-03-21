@@ -12,7 +12,7 @@ Names exist so that we can map a human readable and understandable word or term 
 
 Designing a naming system that works well and fairly assigns names is quite hard! Consider the domain system you are likely using to access this document. Notice that you are reading this page on lbry.io, rather than lbry.com. Is this because lbry.com is providing some productive service? No! It is because a squatter holds it, simply looking to extort money from those who would do something useful or creative.
 
-The traditional system has several other flaws. It is centralized and a mechanism of censorship, as holders do not have true ownership of their domain, only the top-level provider. Top-level domains (like .io) are also arbitrary and largely illogical (if designing the domain system again, would we really want to add an arbitrary ".com" to the most prestigious URL for a given keyword? does LBRY have anything to do with the *I*ndian *O*cean?). Finally, in addition to incentivizing bad behavior, the flat-fee structure of domains prevents the good behavior from those who are priced out.
+The traditional system has several other flaws. It is centralized and a mechanism of censorship, as holders do not have true ownership of their domain, only the top-level provider. Top-level domains (like .io) are also arbitrary and largely illogical (if designing the domain system again, would we really want to add an arbitrary ".com" to the most prestigious URL for a given keyword? does LBRY have anything to do with the *I*ndian *O*cean?). Finally, in addition to incentivizing bad behavior, the flat-fee structure of domains prevents good behavior from those who are priced out.
 
 We wanted a system that:
 
