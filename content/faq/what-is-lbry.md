@@ -3,7 +3,7 @@ title: What is LBRY exactly – is it a protocol, an app, a website, a company?
 category: LBRY 101
 order: 1
 ---
-For most users, LBRY will be a place where they can find great videos, music, ebooks, and more. A vast digital library is available on all of your devices. But LBRY is many components working together.
+For most users, LBRY will be a place where they can find great videos, music, ebooks, and more. A vast digital library that is available on all of your devices. But LBRY is many components working together.
 
 LBRY is first and foremost a new *protocol* that allows anyone to build apps that interact with digital content on the LBRY network. Apps built on the protocol allow creators to upload their work to the LBRY network of hosts (like BitTorrent), and set a price per stream or download (like iTunes) or give it away for free (like YouTube without ads).
 
