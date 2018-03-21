@@ -18,7 +18,7 @@ We wanted a system that:
 
 - Allows a single word to be mapped directly to a piece of content, with no other extension or modifier.
 - Allows creators to acquire a URL and own it permanently and forever, without ongoing fees.
-- Allows multiple pieces of content to be located at a single keyword, while keeping URLs as short and memorable as possible.
+- Allows multiple pieces of content to be located at a single keyword while keeping URLs as short and memorable as possible.
 - Prevents squatters from extorting creators.
 
 After significant consultation with creators, consumers, economists, computer scientists, and more, we devised LBRY’s naming system.
@@ -30,17 +30,17 @@ First and foremost **it is absolutely possible to own and control a URL forever*
 In LBRY, a URL entry is called a _claim_. For simplicity, a claim can be considered to consist of:
 
 - The name (a string of characters chosen by the creator)
-- An amount of credits
+- A number of credits
 - Additional data related to the content and/or publisher identity
 
-Claims in LBRY are non-consumptive. When you designate an amount of credits in a claim, nothing is lost or destroyed beyond the relatively minimal transaction fee. At any time, the credits allocated to a claim can be used for another purpose, recovered, or sent somewhere else. When this happens, the claim is no longer considered valid.
+Claims in LBRY are non-consumptive. When you designate a number of credits in a claim, nothing is lost or destroyed beyond the relatively minimal transaction fee. At any time, the credits allocated to a claim can be used for another purpose, recovered, or sent somewhere else. When this happens, the claim is no longer considered valid.
 
 LBRY supports several types of URL resolution:
 
 | Type | Syntax | Resolution |
 | --- | --- |
 | **Permanent** | `lbry://<name>#<claim_id>` | This URL consists of a name and randomly assigned ID. This is permanently owned and controlled by the publisher. Permanent URLs support partial, temporal-ordered ID matching, so these can be quite short (e.g. lbry://name#8 or lbry://name#ab) |
-| **Community** | `lbry://<name>` | Of all of the claims named `<name>`, this returns the publish with the most credits committed towards it, not just by the publisher, but by the entire community. These URLs are not permanent or owned, but instead controlled by the community itself, allowing the resolution to settle on that which the community determines most appropriate. |
+| **Community** | `lbry://<name>` | Of all of the claims named `<name>`, this returns the publish with the most credits committed towards it, not just by the publisher, but by the entire community. These URLs are not permanent or owned but instead controlled by the community itself, allowing the resolution to settle on that which the community determines most appropriate. |
 | **Channel** | `lbry://<@channel_name>` | A URL corresponding to a publisher identity. These resolve to the identity of a specific publisher and their publishes. Channel URLs can be specified with or without the `#` modifier. An unmodified URL returns the channel determined by the community.
 | **Signed** | `lbry://<@channel_name>/<example>` | The piece of content published to the name `<example>` within the channel  of `<@channel_name>`.
 
@@ -50,7 +50,7 @@ LBRY supports several types of URL resolution:
 
 2. **The longer a community name is held, the longer it sticks.** Community-controlled URLs don't change instantly if more credits are designated – especially if you’ve held it for awhile. The time for resolution to change scales up to over 1 week.
 
-3. **Everyone has a say.** If you claim lbry://bestmovieever and your film lives up to the hype, user tips and purchases are a strong force keeping your content there. If the community feels a URL resolution is incorrect, they can band together to change it any time. This is a powerful force keeping bad actors at bay that has already proved useful.
+3. **Everyone has a say.** If you claim lbry://bestmovieever and your film lives up to the hype, user tips and purchases are a strong force keeping your content there. If the community feels a URL resolution is incorrect, they can band together to change it anytime. This is a powerful force keeping bad actors at bay that has already proved useful.
 
 4. **Names are more like search terms.** When a user searches the LBRY network, or a recommendation engine suggests content, all valid claims are considered. Not having the community URL for your content does not mean no one will see it. Many different pieces of content under the same name can be displayed when users look for content on the network.
 
