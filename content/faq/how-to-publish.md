@@ -33,7 +33,7 @@ If you don't have LBRY yet, download it [here](https://lbry.io/get).
 1. Under the `Content` section click `Choose File`.
 ![Select the Content to Upload](https://spee.ch/7e53708abaab90b89c1e410cb2c3983c79b6b550/Publishing002.png)
 
-2. On your local machine, select the content you would like to upload to LBRY.  LBRY accepts any HTML5 format for streaming video, the full list can be found [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats). This means a web optimized MP4 is the best format. Other file types can also be uploaded, but won't be streamable via the LBRY app.
+2. On your local machine, select the content you would like to upload to LBRY.  LBRY accepts any HTML5 format for streaming video; the full list can be found [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats). This means a web optimized MP4 is the best format. Other file types can also be uploaded, but won't be streamable via the LBRY app.
 
 
 3. Enter a `Title`, `Thumbnail URL`, and `Description` for your content.  The `Thumbnail URL` is a hyperlink to an image file which will serve as a preview for your content. It can be any image/GIF URL or you can even use [spee.ch](https://www.spee.ch) to host it. The default size is 800x450, but the app will scale up/down. 
@@ -42,13 +42,13 @@ If you don't have LBRY yet, download it [here](https://lbry.io/get).
 4. Next, there is a `Language` and `Maturity` which will default to `English` and `All Ages`.  If a change is needed, click the dropdowns and select the appropriate choice. 
 ![Enter Additional Metadata](https://spee.ch/a42fb51e56ab4809002982cea66b7fc44b938776/Publishing004.png)
 
-5. Under the `Access`, first determine if you want to make your video Free or set a price (in USD or LBC) per view. Next, select the appropriate type of license for the content you are publishing.
+5. Under the `Access`, first, determine if you want to make your video Free or set a price (in USD or LBC) per view. Next, select the appropriate type of license for the content you are publishing.
 ![Set Access and License](https://spee.ch/35adbf43f6a8a6cd43fc67d18516ede2f74de86b/Publishing005.png)
 
 6. You have an option to select/create the channel you would like to publish the channel under. If one isn't selected, it will be posted anonymously.
 ![Select Channel](https://spee.ch/d0c7fe044b0237017f0f5af00f79e3880aae201d/Publishing006.png)
 
-7. Type in the URL you want the content to be found under along with a minimum of 0.0001 LBC deposit for the upload (current limit, may change in future). If you are trying to outbid a user friendly/common URL, the system will suggest a minimum bid to take over the content at that vanity URL. There may be a delay for this takeover, check out the `#content` channel on our [Discord chat](https://chat.lbry.io) to see this information (search for your URL). For more details regarding the URL or bid, check out our [naming document](https://lbry.io/faq/naming).
+7. Type in the URL you want the content to be found under along with a minimum of 0.0001 LBC deposit for the upload (current limit, may change in future). If you are trying to outbid a user-friendly/common URL, the system will suggest a minimum bid to take over the content at that vanity URL. There may be a delay for this takeover, check out the `#content` channel on our [Discord chat](https://chat.lbry.io) to see this information (search for your URL). For more details regarding the URL or bid, check out our [naming document](https://lbry.io/faq/naming).
 
 8. Read and agree to the terms of service.
 9. Click `Publish`.
@@ -95,11 +95,11 @@ Yes, this is possible by sending [tips](https://lbry.io/faq/tipping) as a suppor
 
 ### How can I tell if someone is downloading my content?
 
-Currently this is only possible if you set a price for your content - you will see transactions in your LBRY wallet as people purchase it. In the future, we will add these types of statistics to LBRY. 
+Currently, this is only possible if you set a price for your content - you will see transactions in your LBRY wallet as people purchase it. In the future, we will add these types of statistics to LBRY. 
 
 ### My video doesn't stream in the app, what's wrong?
 
-The in-app video player's streaming capabilities are limited to MP4 files which are web optimized (metadata is contained at the front of the file). If it's not web optimized, the MP4 will still play in the app, but the entire file will need to be downloaded first. AVI/WMV/MOV files are also not supported within the in-app player. They can be shared/downloaded but will need to be played externally. 
+The in-app video player's streaming capabilities are limited to MP4 files which are web optimized (metadata is contained at the front of the file). If it's not web optimized, the MP4 will still play in the app, but the entire file will need to be downloaded first. AVI/WMV/MOV files are also not supported by the in-app player. They can be shared/downloaded but will need to be played externally. 
 
 ### I shared my URL, but others can't download it. What's up? 
 
@@ -111,7 +111,7 @@ Channels and content claims are saved to your LBRY Wallet along with your LBRY C
 
 ### How and where can I share my content?
 
-LBRY URLs can be shared to anyone, but they will require the LBRY app in order to view the content. If the content is free and public, it can be retrieved through [spee.ch](https://www.spee.ch) by going to https://spee.ch/<claimname> or https://spee.ch/<@channelname>. You can also share the content on our `#publishers` channel on [Discord](https://chat.lbry.io) where we have a vibrant community with thousands of users. 
+LBRY URLs can be shared with anyone, but they will require the LBRY app in order to view the content. If the content is free and public, it can be retrieved through [spee.ch](https://www.spee.ch) by going to https://spee.ch/<claimname> or https://spee.ch/<@channelname>. You can also share the content on our `#publishers` channel on [Discord](https://chat.lbry.io) where we have a vibrant community with thousands of users. 
 
 ### I'm an advanced user, is there more I can poke around with? 
 
