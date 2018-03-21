@@ -4,7 +4,7 @@
 <?php Response::addJsAsset('/js/yt2/FormValidation.js')?>
 <?php Response::addJsAsset('/js/yt2/youtube_status.js') ?>
 <?php Response::addJsAsset('/js/yt2/youtube_video.js')?>
-<?php $statusResponse = LBRY::statusYoutube($token); ?>
+<?php $statusResponse = AcquisitionActions::actionGetYoutubeStatus($token) ?>
 <?php $statusData = $statusResponse['data'] ?>
 <?php $isSyncAgreed = false ?>
 <?php $isRewardClaimed = $statusData['is_reward_claimed'] ?? false ?>
@@ -79,7 +79,7 @@
                         <input type="hidden" name="status_token" id="status_token" value="<?php echo $token?>"/>
                     </div>
                   <?php
-                  if (isset($_GET['error'])): echo "<div>" . "The following error occurred: ". $_GET['error_message']  . " For support please send an email to hello@lbry.io" . "</div>";
+                  if (isset($_GET['error']) && isset($_GET['error_message'])): echo "<div>" . "The following error occurred: ". $_GET['error_message']  . " For support please send an email to hello@lbry.io" . "</div>";
                   endif;?>
                     <div class="block">
                         <label for="channel-name">LBRY Channel ID</label>

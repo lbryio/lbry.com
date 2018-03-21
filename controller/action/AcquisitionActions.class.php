@@ -114,4 +114,14 @@ class AcquisitionActions extends Actions
       return false;
     }
   }
+
+  public static function actionGetLBRYReward()
+  {
+      return LBRY::youtubeReward();
+  }
+
+  public static function actionGetYoutubeStatus($status_token)
+  {
+      return LBRY::statusYoutube($status_token);
+  }
 }

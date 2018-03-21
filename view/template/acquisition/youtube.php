@@ -6,7 +6,7 @@ Response::addJsAsset('/js/yt2/app.js');
 Response::addJsAsset('/js/yt2/FormValidation.js');
 Response::addJsAsset('/js/yt2/SyncStatus.js');
 Response::addJsAsset('/js/yt2/youtube_video.js');
-$reward = LBRY::youtubeReward();
+$reward = AcquisitionActions::actionGetLBRYReward();
 Response::setMetaTitle("LBRY YouTube Partner Program");
 Response::setMetaDescription("Put your content on the blockchain, experience true content freedom, and earn rewards.");
 ?>
@@ -44,7 +44,7 @@ Response::setMetaDescription("Put your content on the blockchain, experience tru
 
     <div class="content">
       <?php
-      if (isset($_GET['error'])): echo "<div>" . "The following error occurred: ". $_GET['error_message']  . " For support please send an email to hello@lbry.io" . "</div>";
+      if (isset($_GET['error']) && $_GET['error_message']): echo "<div>" . "The following error occurred: ". $_GET['error_message']  . " For support please send an email to hello@lbry.io" . "</div>";
       endif;?>
       <div class="zigzag"></div>
       <h1>Create on a stable platform. For real this time.</h1>
@@ -139,13 +139,23 @@ Response::setMetaDescription("Put your content on the blockchain, experience tru
       <div class="zigzag"></div>
       <h1>Sync &amp; Earn</h1>
       <p>LBRY offers a single-click sync process<br>for existing YouTubers</p>
-        <form id="sync" method="get" action="/123">
-            <input hidden name="type" value="sync"/>
+        <form class="form" id="sync" method="post" action="http://api.lbry.io/yt/connect">
+            <div class="form-inner">
+                <div class="block">
+            <input type="text" hidden name="type" value="sync"/>
+                </div>
+                <div class="block">
             <input name="immediate_sync" type="checkbox" value="true"/>I want to sync my content.
-            <div class="button">
-                <input type="submit"/> Sync now
+                </div>
+                <div class="block">
+                    <input type="submit" value="Sync Now"/>
+                </div>
             </div>
         </form>
+
+
+
+
       <div class="meta">
         By syncing, you agree to mirror your content to the LBRY network for 1 year, and acknowledge <a href="/faq/youtube-terms">these terms</a>.
       </div>
