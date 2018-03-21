@@ -5,7 +5,7 @@ category: getstarted
 
 LBRY allows you to tip and support your favorite creators.
 
-Tips can be sent via the LBRY app or via the protocol's [`wallet_send`](https://lbry.io/api#wallet_send) command (with an associated claim id). These credits are automatically stored as associated with the content owners' claim, which helps the claim perform better in search results and be the winning [vanity name claims](https://lbry.io/faq/naming). 
+Tips can be sent via the LBRY app or the protocol's [`wallet_send`](https://lbry.io/api#wallet_send) command (with an associated claim id). These credits are automatically stored as associated with the content owners' claim, which helps the claim perform better in search results and be the winning [vanity name claims](https://lbry.io/faq/naming). 
 
 ### How do I send a tip?
 
@@ -17,7 +17,7 @@ Support Box: <img src="https://spee.ch/1/support-box.png" width="80%" height="80
 
 ### How do I redeem my tips?
 
-When you receive a tip, the credits will come into your wallet and you can see them in your Transaction History. However, since the credits come in as supporting a claim, they will not show in your available balance.
+When you receive a tip, the credits will come into your wallet, and you can see them in your Transaction History. However, since the credits come in as supporting a claim, they will not show in your available balance.
 
 To have these credits show in your balance, they must be unlocked via the wallet Overview/History page. This is done by clicking the unlock icon next to `Tip` and then confirming your action on the following screen. Once the transaction is finalized, the icon will disappear. 
 
