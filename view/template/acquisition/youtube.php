@@ -43,7 +43,7 @@ Response::setMetaDescription("Put your content on the blockchain, experience tru
 
     <div class="content">
       <?php
-      if (isset($_GET['error']) && $_GET['error_message']): echo "<div>" . "The following error occurred: ". $_GET['error_message']  . " For support please send an email to hello@lbry.io" . "</div>";
+      if ($error_message): echo "<div>" . "The following error occurred: ". $error_message  . " For support please send an email to hello@lbry.io" . "</div>";
       endif;?>
       <div class="zigzag"></div>
       <h1>Create on a stable platform. For real this time.</h1>
