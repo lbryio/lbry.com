@@ -1,0 +1,47 @@
+//301 Redirect Old File
+
+<IfModule mod_rewrite.c>
+RewriteEngine On 
+
+Redirect 301 https://lbry.io/news/lbry-promo-video-raw-footage https://lbry.io/news																		
+Redirect 301 https://lbry.io/developer-program https://lbry.io/news																	
+Redirect 301 https://lbry.io/news/page/2 https://lbry.io/news																		
+Redirect 301 https://lbry.io/slack https://chat.lbry.io																	
+Redirect 301 https://lbry.io/youtube/sync https://lbry.io/faq/youtube																		
+Redirect 301 https://lbry.io/nothing-here https://lbry.io/news														
+Redirect 301 https://lbry.io/news/www.maidsafe.com https://lbry.io/faq/different-storj															
+Redirect 301 https://lbry.io/news/www.porcfest.com https://lbry.io/news/lbry-at-porcfest-first-public-screening-film-via-blockchain																		
+Redirect 301 https://lbry.io/news/author/jeremy/page/2 https://lbry.io/team																	
+Redirect 301 https://lbry.io/news/every-major-tech-company-hates-you https://lbry.io/news																		
+Redirect 301 https://lbry.io/navframe?selectedItem=/news https://lbry.io/news																		
+Redirect 301 https://lbry.io/participate https://chat.lbry.io/																
+Redirect 301 https://lbry.io/news/author/jack-robison https://lbry.io/team																	
+Redirect 301 https://lbry.io/news/mysterious- https://lbry.io/news/mysterious-100k-lbc-revealed																			
+Redirect 301 https://lbry.io/news/author/sam https://lbry.io/team														
+Redirect 301 https://lbry.io/navframe?selectedItem=/news?selectedItem=/news https://lbry.io/news																		
+Redirect 301 https://lbry.io/news/author/samuel https://lbry.io/team																	
+Redirect 301 https://lbry.io/news/author/sam/page/3 https://lbry.io/team																	
+Redirect 301 https://lbry.io/news/author/sam/page/2 https://lbry.io/team																			
+Redirect 301 https://lbry.io/news/team https://lbry.io/team															
+Redirect 301 https://lbry.io/get.How+to+Create+an+Identity+LBRY+TutorialsFollow https://lbry.io/faq/identity-requirements																	
+Redirect 301 https://lbry.io/what-is-lbry https://lbry.io/faq/what-is-lbry																	
+Redirect 301 https://lbry.io/getFree https://lbry.io/news/free-lbry-credits-come-and-get-em																	
+Redirect 301 https://lbry.io/news/tag/freedom-of-information https://lbry.io/news/crypto-freedom																		
+Redirect 301 https://lbry.io/news/feedback https://chat.lbry.io																	
+Redirect 301 https://lbry.io/news/ios https://lbry.io/ios																		
+Redirect 301 https://lbry.io/news/page/5 https://lbry.io/news																			
+Redirect 301 https://lbry.io/news/author/jimmy-kiselak https://lbry.io/team																		
+Redirect 301 https://lbry.io/FLO https://lbry.io/news																
+Redirect 301 https://lbry.io/news/what https://lbry.io/what																		
+Redirect 301 https://lbry.io/news/tag/team https://lbry.io/team																	
+Redirect 301 https://lbry.io/news/tag/events https://lbry.io/roadmap																	
+Redirect 301 https://lbry.io/news/windows https://lbry.io/news/lbry-windows																	
+Redirect 301 https://lbry.io/news/boom https://lbry.io/news/boombust																		
+Redirect 301 https://lbry.io/news/get https://lbry.io/get																		
+Redirect 301 https://lbry.io/There https://lbry.io/news														
+Redirect 301 https://lbry.io/youtube/cdSSo https://lbry.io/news																		
+Redirect 301 https://lbry.io/chat https://chat.lbry.io		
+          
+//301 Redirect Entire Directory
+RedirectMatch 301 /news//news/(.*) /news//$1
+</IfModule>
