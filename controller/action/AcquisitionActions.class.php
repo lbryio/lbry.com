@@ -62,8 +62,6 @@ class AcquisitionActions extends Actions
 
     if ($desired_lbry_channel_name_is_valid) {
       $token = LBRY::connectYoutube($desired_lbry_channel_name);
-      var_dump($token);
-      var_dump($desired_lbry_channel_name);
       if ($token['success'] == false) {
           Controller::redirect('/youtube?error=true&error_message=' . $token['error']);
       }
