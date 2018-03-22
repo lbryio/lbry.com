@@ -5,7 +5,7 @@
 <?php Response::addJsAsset('/js/yt2/youtube_status.js') ?>
 <?php Response::addJsAsset('/js/yt2/youtube_video.js')?>
 <?php $statusData = $status_token['data'] ?>
-<?php $isSyncAgreed = false ?>
+<?php $isSyncAgreed = in_array($statusData['status'], ["syncing", "synced", "queued"]) ?>
 <?php $isRewardClaimed = $statusData['is_reward_claimed'] ?? false ?>
   <main class="channel-settings">
     <?php echo View::render('acquisition/_youtube_header') ?>
