@@ -32,7 +32,7 @@ class AcquisitionActions extends Actions
   {
     return ['acquisition/youtube', [
         'reward' => LBRY::youtubeReward(),
-        'error_message' => $_GET['error_message'] ?? null
+        'error_message' => Request::encodeStringFromUser($_GET['error_message']) ?? null
     ]];
   }
 
@@ -51,7 +51,7 @@ class AcquisitionActions extends Actions
     return ['acquisition/youtube_status', [
         'token' => $token,
         'status_token' => LBRY::statusYoutube($token),
-        'error_message' => $_GET['error_message'] ?? null
+        'error_message' => Request::encodeStringFromUser($_GET['error_message']) ?? null
     ]];
   }
 
