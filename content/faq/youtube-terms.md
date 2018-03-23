@@ -15,7 +15,7 @@ By agreeing to sync your content to the LBRY network, you agree to the terms spe
 This Agreement lasts twelve (12) months from the date that the Content is uploaded to your Channel on LBRY.  After that time, your content will continue to be on the LBRY Network under the terms of this agreement for successive 6-month periods; if you decide to revoke your content, it will be taken down within 30 days of LBRY receiving notice from you.
 
 ### 2. Receiving LBRY Credits
-Receiving LBRY Credits is considered taxable income in the United States, and may be considered taxable income in your country. If you are a citizen of the United States* and eligible receive over $600 worth of LBC, you will also have to complete tax related documentation. We will contact you if you are over this threshold.
+Receiving LBRY Credits is considered taxable income in the United States, and may be considered taxable income in your country. If you are a citizen of the United States* and eligible to receive over $600 worth of LBC, you will also have to complete tax related documentation. We will contact you if you are over this threshold.
 
 ### 3. Promotional Rights
 LBRY, Inc. has the right to promote your content and its availablilty on the LBRY network, and to use the name/likeness/voice of your content in its mailing lists, on its website, on the network itself, and through advertising by any and all means.
