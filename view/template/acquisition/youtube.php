@@ -163,7 +163,7 @@ Response::setMetaDescription("Put your content on the blockchain, experience tru
   <div class="inner">
     <div class="content">
       <h1>LBRY Credits and Your Channel</h1>
-      <p>After you sync, receive LBRY Credits every month for one year based on your current subscriber count.<br/><br/>
+      <p>After you sync, receive LBRY Credits for one year based on your current subscriber count.<br/><br/>
       The more you give to the network, the more it gives back.</p>
       <div class="price">
         <h3>Partner Programs</h3>
@@ -172,7 +172,7 @@ Response::setMetaDescription("Put your content on the blockchain, experience tru
       <div class="table">
         <div class="head">
           <p>Subscribers</p>
-          <p>Monthly</p>
+          <p>Yearly</p>
           <p>Amount</p>
         </div>
         <div class="line">
