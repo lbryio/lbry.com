@@ -35,7 +35,7 @@
                         </li>
                     </ul>
                 </div>
-                
+
                 <div class="blocks">
                     <div class="block">
                         <p>Your Sync Status<br>
