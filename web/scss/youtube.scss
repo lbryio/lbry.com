@@ -686,9 +686,12 @@ header .right a.github {
     margin: 0 auto;
   }
   .block {
-    position: relative;
     float: left;
-    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  .center {
+    display: inline-block;
   }
   .error {
     position: absolute;
@@ -698,9 +701,8 @@ header .right a.github {
     color: #E2495E;
   }
   label {
-    display: block;
-    text-indent: 15px;
-    margin-bottom: 15px;
+    float: left;
+    margin: 15px 0 15px 10px;
   }
   input {
     float: left;
