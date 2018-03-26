@@ -4,7 +4,7 @@
 
         <meta name="google-site-verification" content="QEyIHPbSKR2Z9ZNkfVHGdGv5EE7tTM7FE0Wt8tmcH50" />
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
         <?php $title = Response::getMetaTitle() ?: Response::guessMetaTitle($content) ?>
         <?php $title = $title ?
