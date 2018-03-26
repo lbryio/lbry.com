@@ -85,9 +85,11 @@
                     <div>
                         <input type="hidden" name="status_token" id="status_token" value="<?php echo $token?>"/>
                     </div>
-                  <?php
-                  if ($error_message): echo "<div>" . "The following error occurred: ". $error_message  . " For support please send an email to hello@lbry.io" . "</div>";
-                  endif;?>
+                    <?php
+                    if ($error_message ?? false):
+                        echo View::render('acquisition/_youtube_error', ['error_message' => $error_message, 'email' => $statusData['email']]);
+                    endif;
+                    ?>
                     <div class="block">
                         <label for="channel-name">LBRY Channel ID</label>
                         <input type="text" id="channel-name" name="new_preferred_channel" placeholder="@YourPreferredChannelName" value="<?php echo $statusData['lbry_channel_name'];?>" <?php if($statusData['status'] == 'syncing' || $statusData['status'] == 'synced'): echo "disabled"; endif; ?> >
