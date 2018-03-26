@@ -30,9 +30,13 @@ class AcquisitionActions extends Actions
 
   public static function executeYouTube()
   {
+    if(isset($_GET['error_message'])){
+      $error_message = Request::encodeStringFromUser($_GET['error_message']);
+    }
+
     return ['acquisition/youtube', [
         'reward' => LBRY::youtubeReward(),
-        'error_message' => $_GET['error_message'] ?? null
+        'error_message' => $error_message ?? ''
     ]];
   }
 
@@ -48,10 +52,18 @@ class AcquisitionActions extends Actions
 
   public static function executeYoutubeStatus(string $token)
   {
+    if(isset($_GET['error_message'])){
+      $error_message = Request::encodeStringFromUser($_GET['error_message']);
+    }
+
+    $data = LBRY::statusYoutube($token);
+    if ($data['success'] == false){
+      Controller::redirect('/youtube?error=true&error_message=' . $data['error']);
+    }
     return ['acquisition/youtube_status', [
         'token' => $token,
-        'status_token' => LBRY::statusYoutube($token),
-        'error_message' => $_GET['error_message'] ?? null
+        'status_token' => $data,
+        'error_message' => $error_message ?? ''
     ]];
   }
 
