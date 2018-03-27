@@ -32,7 +32,7 @@
     </div>
 
     <h3>{{press.team}}</h3>
-    <?php foreach(['jeremy-kauffman', 'josh-finer', 'alex-grintsvayg', 'jimmy-kiselak', 'jack-robison'] as $person): ?>
+    <?php foreach(['jeremy-kauffman', 'josh-finer', 'alex-grintsvayg', 'jack-robison'] as $person): ?>
       <?php list($metadata, $bioHtml) = View::parseMarkdown('bio/' . $person . '.md') ?>
       <section class="row-fluid">
         <div class="span3">
@@ -42,8 +42,14 @@
           <h4>
             <?php echo $metadata['name'] ?>
             <?php if (isset($metadata['email'])): ?>
-              <a href="mailto:<?php echo $metadata['email'] ?>" class="link-primary"><?php echo $metadata['email'] ?></a>
-            <?php endif ?>
+              <a href="mailto:<?php echo $metadata['email'] ?>" class="link-primary"><span class="icon icon-envelope"></span></a>
+           <?php endif ?>        
+           <?php if (isset($metadata['github'])): ?>
+              <a href="https://github.com/<?php echo $metadata['github'] ?>" class="link-primary"><span class="icon icon-github"></span></a>
+          <?php endif ?> 
+          <?php if (isset($metadata['twitter'])): ?>
+              <a href="https://www.twitter.com/<?php echo $metadata['twitter'] ?>" class="link-primary"><span class="icon icon-twitter"></span></a>
+          <?php endif ?>
           </h4>
           <div class="meta spacer1"><?php echo $metadata['role'] ?></div>
           <div class="markdown">

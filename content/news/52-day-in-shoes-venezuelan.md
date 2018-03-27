@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: 'Walking a Day in Venezuelan Shoes'
 date: '2016-07-26 00:09:18'
 cover: 'venezuela.jpg'

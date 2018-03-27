@@ -19,7 +19,7 @@
       </div>
     <?php endforeach ?>
     <h2>Technical</h2>
-    <?php foreach([ 'kay-kurokawa', 'jack-robison',
+    <?php foreach([ 'kay-kurokawa', 'jack-robison', 'lex-berezhny',
                     'akinwale-ariwodola', 'sean-yesmunt', 'liam-cardenas', 'bill-bittner', 'amit-tulshyan', 'igor-gassmann'] as $bioSlug): ?>
       <div class="spacer2">
         <?php echo View::render('content/_bio', ['person' => $bioSlug]) ?>

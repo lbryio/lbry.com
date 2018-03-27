@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: 'New Core Teammate Is An Ultimate Wizard: Meet Grin'
 date: '2016-06-07 00:06:18'
 ---

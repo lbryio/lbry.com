@@ -31,15 +31,15 @@ Stay tuned for an updated version of the LBRY app next week! In the meantime, yo
 ### App Redesign
 The LBRY App redesign continues to make great progress you can follow along on [GitHub](https://github.com/lbryio/lbry-app/issues/848) for the latest status and updates. The latest focus has been on refactoring the inner workings of the Publish page into a more optimized version using the React framework. We also have a community member, @btzr, who is helping out in migrating the dark theme into the new design. 
 
-Want to explore a web based prototype of the new LBRY app design? Head over to [https://design.lbry.io](https://design.lbry.io) to get a preview of what’s to come. *Please note: some of the design features like notifications and commenting are still experimental and most likely will not roll out with the first iteration of the re-design as they require additional support from the protocol to work properly.*
+Want to explore a web based prototype of the new LBRY app design? Head over to [https://design.lbry.io](https://design.lbry.io) to get a preview of what’s to come. This page works best on a Desktop but may display correctly in landscape mode on mobile. *Please note: some of the design features like notifications and commenting are still experimental and most likely will not roll out with the first iteration of the re-design as they require additional support from the protocol to work properly.*
 
 ![App redesign early preview](https://spee.ch/1/app-redesign-preview.jpeg)
 
 ### Subscription Enhancements in Progress
-A new round of enhancements to the Subscription feature is being developed. The goal is to increase interactivity, engagement and notification for users who subscribe to channels on LBRY. This will include an option to automatically download new content as it is added to a channel as well as notification features within the app and email.  Have questions or comments, drop us a line on the [GitHub issue](https://github.com/lbryio/lbry-app/issues/994). 
+A new round of enhancements to the Subscription feature are being developed. The goal is to increase interactivity, engagement and notification for users who subscribe to channels on LBRY. This will include an option to automatically download new content as it is added to a channel as well as notification features within the app and email. Have questions or comments, drop us a line on the [GitHub issue](https://github.com/lbryio/lbry-app/issues/994). 
 
 ### LBRY Mobile for Android
-LBRY recently worked with a user interface designer came up with a very nice and simple design prototype, see video below. We've been adapting this prototype to React Native code, and while there some difficulties trying to integrate the daemon build process with the React Native app build due to speed, we've come up with a way to build both independently, such that the React Native app can be tested against the daemon build on the device. This enables testing the UI changes relatively quickly against any stable or development build of the daemon. There is a good chance that we will have a basic working mobile Android app in a few weeks!
+LBRY recently worked with a user interface designer who came up with a very nice and simple design prototype, check out video below for a preview. The process of incorporating this prototype into React Native code is underway. To solve delays deploying the app changes, we had to come up with a way to build the UI and daemon separately, such that the React Native app can be reloaded without having to rebuild the daemon each time (slow!). This enables testing the UI changes relatively quickly against any stable or development build of the daemon. There is a good chance that we will have a basic working mobile Android app in a few weeks!
 
 <video width="100%" controls src="https://spee.ch/b/android-prototype.mp4"/></video>
 
@@ -67,7 +67,7 @@ We will tip LBC if you tag us on Twitter or Facebook with a picture of you rocki
 ![swag preview](https://spee.ch/3/LBRY-swag.png)
 
 ### Blockchain Security and Economics
-Over the last few months, we’ve noticed that the LBRY mining hash rate has gone up significantly due to the manufacturing of FPGA (specialized mining hardware) and we’ve noticed our [community](https://github.com/lbryio/lbrycrd/issues/85) has their concerns about centralization as well. We will be addresses the general blockchain security and economics discussion with a blog post that explains our take and potential solutions. 
+Over the last few months, we’ve noticed that the LBRY mining hash rate has gone up significantly due to the manufacturing of FPGA (specialized mining hardware) and we’ve noticed our [community](https://github.com/lbryio/lbrycrd/issues/85) has their concerns about centralization as well. We will be addressing the general blockchain security and economics discussion with a blog post that explains our take and potential solutions. 
 
 ### Youtube Sync Site Almost Ready! 
 Our revamped YouTube sync page (replacing [this one](https://lbry.io/youtube)) is almost ready to go live! This program will begin to target YouTubers more aggressively with the goal of having them sync their content to the LBRY network. The new process will allow them to claim their channel directly on the LBRY network during signup, detail the monthly LBC incentive based on subscriber counts and provide a sync status view so they monitor the sync progress. Stay tuned for updates!  
@@ -75,7 +75,7 @@ Our revamped YouTube sync page (replacing [this one](https://lbry.io/youtube)) i
 ![YouTube Sync preview](https://spee.ch/3/sync.png)
 
 ### LBRY Social Media Updates
-We’ve surpassed 15k followers on Facebook and 30k followers on Twitter - as our audience keeps growing, there will be more opportunities than ever for new users to discover LBRY. We also want our community to be an integral part of our social presence - if you haven’t yet, join our [Discord](https://chat.lbry.io), and feel free to throw out any suggestions for posts, articles, or individuals you think we should reach out to!
+We’ve surpassed 15k followers on [Facebook](https://www.facebook.com/lbryio) and 30k followers on [Twitter](https://twitter.com/lbryio) - as our audience keeps growing, there will be more opportunities than ever for new users to discover LBRY. We also want our community to be an integral part of our social presence - if you haven’t yet, join our [Discord](https://chat.lbry.io), and feel free to throw out any suggestions for posts, articles, or individuals you think we should reach out to!
 
 ### Twitter LBC Tip Bot
 We have opened up a bounty for a [Twitter Tip Bot](https://lbry.io/bounty/twitter-tipbot) to expand our ability to distribute LBC to our Twitter followers. This will accompany our Discord and Reddit tip bots which are powerful tools used by ourselves and our community to reward LBRYians for their contributions, testing and feedback. It will work by tagging the tipbot user in Twitter replies/messages with keywords such as “tip”, “balance”, “withdraw”, “deposit” - very similar to our other tip bots. A community member is very close to getting a tipbot working and you can follow [@LBC_TipBot](https://twitter.com/@LBC_TipBot) for updates. 
@@ -97,7 +97,7 @@ LBRY has officially launched their Meetups and College programs! We are [looking
 ![Meetup and College initiative](https://spee.ch/7/meet-LBRY.png)
 
 ### LBRY.Community Contest Winners
-The [LBRY.Community contest](https://lbry.community/contest) from January wrapped up and the [winners](https://lbry.community/contest-winners-january-2018/) were first announced and tipped on our Discord channel, congrats to all the winners! All entrants were given LBC Credits as a participation bonus and LBRY.Community is also giving out stickers and handbags to all participants and judges. Thanks again to @rouse and @coolguy3289 for coordinating! The next phase of LBRY.Community’s plans are being discussed with our team. 
+The [LBRY.Community contest](https://lbry.community/category/votable-contest-entries/) from January wrapped up and the [winners](https://lbry.community/contest-winners-january-2018/) were first announced and tipped on our Discord channel, congrats to all the winners! All entrants were given LBC Credits as a participation bonus and LBRY.Community is also giving out stickers and handbags to all participants and judges. Thanks again to @rouse and @coolguy3289 for coordinating! The next phase of LBRY.Community’s plans are being discussed with our team. 
 
 ### New and updated LBRY FAQ Articles
 We recently revamped and simplified our [“What is LBRY?”](https://lbry.io/faq/what-is-lbry) FAQ so it’s a tad easier to digest for first time LBRY users. 

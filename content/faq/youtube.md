@@ -3,12 +3,14 @@ title: What is YouTube Sync?
 category: publisher
 order: 4
 ---
-The YouTube Sync process available within the [LBRY app](https://lbry.io/get) serves two purposes: 1) Allow YouTubers to qualify for [LBRY Rewards](https://lbry.io/faq/rewards) 2) Collect your YouTube channel information so LBRY can mirror your YouTube videos onto the LBRY network. Part 2 is is still undergoing development, so unless we reach out to you directly, your content will not be mirrored automatically. You are encouraged to [claim your channel and publish content](https://lbry.io/faq/how-to-publish) to LBRY directly through the app.   
+LBRY offers an easy way for YouTubers to sync their content to the LBRY network, engage with LBRY users, and earn LBC.
 
-### What are the minimum requirements to be eligible for Rewards?
-Your YouTube channel must have at least 10 videos and 30,000 views to be eligible for [LBRY Rewards](https://lbry.io/faq/rewards). If your channel does not meet these requirements, please use one of the other [verification options](https://lbry.io/faq/identity-requirements).
+To sync your existing channel to LBRY and learn more about the program, use the [LBRY.io YouTube Sync page](https://lbry.io/youtube).
 
-### I've met the requirements but I'm still not eligible for Rewards, help! 
-First, make sure you've restarted the LBRY app completely after linking your YouTube account. Press Ctrl-Q to quit or right click the system tray icon and then restart LBRY. If LBRY opens directly to the Home page without seeing the green loading screen, it means it is still running in the background. 
+Authenticating your YouTube channel and other information puts your content into a queue to be automatically mirrored on the LBRY network. This serves as an alternative to moving your entire channel by yourself. The content, its title and description, as well as thumbnails and other metadata, will sync to your channel name. When it is done, you will receive a notice from LBRY indicating your channel is available to view.
 
-If that does not fix it, please contact us via [email](mailto:help@lbry.io). Include the YouTube channel name and LBRY connected email with your request.  
+When you sync your channel, you are also eligible to receive LBRY Credits in our Partner Program based on your subscriber count. Receiving these credits is subject to a one year agreement. The exact agreement you make when you sync can be seen [here](https://lbry.io/faq/youtube-terms). The current rewards for syncing can be seen on the [sync page](https://lbry.io/youtube).
+
+If you're having any trouble with the sync process or receiving your credits, please contact [help@lbry.io](mailto:help@lbry.io).
+
+

@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: 'The Mysterious 100K LBC Transaction: Revealed!'
 date: '2016-07-11 00:06:18'
 ---

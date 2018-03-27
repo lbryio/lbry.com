@@ -177,7 +177,7 @@
         Interested in contributing but not ready for commitment? We have a <a href="/faq/contributing">guide for contributors</a> to help you find other ways to get
         involved. If none of that suits your fancy, join our <a href="https://chat.lbry.io">Discord chat</a> and we'll help you find something you'll love.
       </p>
-      
+
     </div>
   </section>
 </main>

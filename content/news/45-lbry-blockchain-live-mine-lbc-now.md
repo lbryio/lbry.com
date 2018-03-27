@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: 'Come and Get ‘Em! LBRY Credits Now Available to Mine'
 date: '2016-06-29 00:09:00'
 ---

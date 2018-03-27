@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: 'Stop Net Banality'
 date: '2017-12-14 12:30:00'
 ---

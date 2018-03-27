@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: 'LBRY v0.17 Has What You’ve Been Searching For'
 date: '2017-10-12 16:00:00'
 ---
