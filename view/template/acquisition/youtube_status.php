@@ -17,6 +17,9 @@
                 <?php endif ?>
                 <div class="zigzag"></div>
                 <h1><?php echo $isSyncAgreed && $isRewardClaimed ? "You're all set!" : "Almost done!" ?></h1>
+                 <?php js_start() ?>
+                      ga('send', 'event', 'YT Sync', '', '');
+                 <?php js_end() ?>
                 <div class="confirmation-steps">
                     <ul>
                         <li>
