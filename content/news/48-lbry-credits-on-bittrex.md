@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: 'LBRY Credits Listed on First Exchange! Liquidity Ensues!'
 date: '2016-07-06 00:06:18'
 ---

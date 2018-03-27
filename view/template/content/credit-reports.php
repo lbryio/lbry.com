@@ -4,7 +4,7 @@
   <section class="content content-readable spacer2">
     <h1>Quarterly Credit Reports</h1>
     <p>
-      LBRY issues a quarterly report every 3 months in January, April, July, and October, covering the preceding 3 full months. These reports outline the corresponding transaction history as the current state of LBRY, Inc.'s balance sheet and anticipated future expenditures.
+      LBRY issues a quarterly report every 3 months in January, April, July, and October, covering the preceding 3 full months. These reports outline the corresponding transaction history as well as the current state of LBRY, Inc.'s balance sheet and anticipated future expenditures.
     </p>
     <table class="post-content-table full-table">
       <thead>

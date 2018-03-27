@@ -10,7 +10,7 @@
     </p>
     <div class="meta">
       The above image is not controlled by LBRY, Inc. Instead, it is the most popular claim for the URL lbry://404.
-      Want to change it? <a href="/get">Download LBRY</a>.
+      Want to change it? <a href="/get " class="link-primary" >Download LBRY</a>.
     </div>
   </div>
 </main>

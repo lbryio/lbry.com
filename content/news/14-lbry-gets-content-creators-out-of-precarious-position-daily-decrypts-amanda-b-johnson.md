@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: "LBRY Gets Content Creators Out of Precarious Position - Daily Decrypt's Amanda B. Johnson"
 date: '2015-10-26 15:10:51'
 ---

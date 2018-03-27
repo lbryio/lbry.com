@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: 'Built for Artists by Autists: LBRY Takes Autism Personally'
 date: '2016-03-21 20:06:18'
 ---

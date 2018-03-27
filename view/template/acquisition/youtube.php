@@ -1,94 +1,224 @@
-<?php Response::setMetaDescription('YouTuber? Take back control! LBRY allows publication on your terms. It\'s open-source, decentralized, and gives you 100% of the profit.') ?>
-<?php Response::setMetaTitle(__('YouTubers! Take back control.')) ?>
-<?php echo View::render('nav/_header', ['isDark' => true, 'isAbsolute' => true]) ?>
-<main >
-  <?php //if you change the image, change it on download/_publish too! ?>
-  <div class="cover cover-dark cover-center cover-full" style="padding-top: 80px; background-image: url('/img/youtube/spacerise.jpg')" >
-    <div style="max-width: 700px; text-align: center">
-      <?php echo View::render('nav/_flashes') ?>
-      <h1 class="cover-title">
-        Leave YouTube<br/>
-        for good.
-      </h1>
-      <div class="cover-subtitle" style="font-weight: bold">
-        No more demonetization or sneaky algorithms.<br/>
-        Publish on your terms, not Google's.
+<?php
+Response::setCssAssets(['/css/youtube.css']);
+Response::addJsAsset('/js/yt2/TweenMax.min.js');
+Response::addJsAsset('/js/yt2/ScrollToPlugin.min.js');
+Response::addJsAsset('/js/yt2/app.js');
+Response::addJsAsset('/js/yt2/FormValidation.js');
+Response::addJsAsset('/js/yt2/SyncStatus.js');
+Response::addJsAsset('/js/yt2/youtube_video.js');
+Response::setMetaTitle("LBRY YouTube Partner Program");
+Response::setMetaDescription("Put your content on the blockchain, experience true content freedom, and earn rewards.");
+?>
+<main>
+  <?php echo View::render('acquisition/_youtube_header') ?>
+<section class="hero">
+  <div class="shape">
+    <svg style="width: 100%; height: 100%;">
+      <path d="M 0,0" stroke="#2F3C5C" stroke-width="0.3px" fill="none" data-from="-1" />
+      <path d="M 0,0" stroke="#2F3C5C" stroke-width="0.3px" fill="none" data-from="0" />
+      <path d="M 0,0" stroke="#2F3C5C" stroke-width="0.3px" fill="none" data-from="0" />
+      <path d="M 0,0" stroke="#2F3C5C" stroke-width="0.3px" fill="none" data-from="1" />
+      <path d="M 0,0" stroke="#2F3C5C" stroke-width="0.3px" fill="none" data-from="1" />
+      <path d="M 0,0" stroke="#2F3C5C" stroke-width="0.3px" fill="none" data-from="2" />
+      <path d="M 0,0" stroke="#2F3C5C" stroke-width="0.3px" fill="none" data-from="2" />
+      <path d="M 0,0" stroke="#2F3C5C" stroke-width="0.3px" fill="none" data-from="2" />
+    </svg>
+    <div class="circle one"></div>
+    <div class="circle two"></div>
+    <div class="circle three"></div>
+    <div class="dot a"></div>
+    <div class="dot b"></div>
+    <div class="dot c"></div>
+    <div class="dot d"></div>
+    <div class="dot e"></div>
+  </div>
+  <div class="title">
+    <div class="overflow"><h1>Content Freedom.</h1></div>
+    <p>Put your content on the blockchain and earn rewards.</p>
+    <div class="button">Claim Your LBRY Channel</div>
+  </div>
+</section>
+<section class="claim section">
+  <div class="inner">
+
+    <div class="content">
+      <?php
+      if ($error_message): echo "<div>" . "The following error occurred: ". $error_message  . " For support please send an email to hello@lbry.io" . "</div>";
+      endif;?>
+      <div class="zigzag"></div>
+      <h1>Create on a stable platform. For real this time.</h1>
+        <div hidden id="sync-status" class="sync-status">
+
+        </div>
+      <form id="youtube_claim" method="post" action="/youtube/token">
+        <div class="form-inner" >
+          <div class="block">
+            <input id="lbry_channel_name" type="text" name="desired_lbry_channel_name" placeholder="Enter your channel name" />
+            <label>@</label>
+            <div hidden id="lbry_error" class="error">LBRY channel name is not valid or blank</div>
+          </div>
+      </form>
+        <div class="block">
+            <input type="submit" value="Claim now" onClick="return submitDetailsForm()"/>
+        </div>
+      <div class="meta">
+        This will verify you are an active YouTuber, then instructions and your welcome credits will be emailed to you.
+        <a href="/faq/youtube">Learn more</a>.
       </div>
-       <div class="text-center control-group spacer2">
-         <a href="#do-it" class="btn-primary">Let's Do This</a>
-         <a href="#more-words" class="btn-alt">More Words, Please</a>
-       </div>
     </div>
   </div>
-  <div class="content content-light" id="more-words">
-    <h2 class="spacer2" style="text-align: center">
-      <img src="/img/lbry-dark-1600x528.png" style="max-height: 80px" alt="LBRY"/>
-    </h2>
-    <div class="column-fluid" >
-      <?php foreach([
-        'icon-money' => ['Earn More', 'Integrated tipjars, pay-per-stream, or free: the choice is yours. And you earn 100% of it.'],
-        'icon-group' => ['Community Run', 'Your audience–not advertisers–decide what they want and how they want it.'],
-        'icon-code' => ['Accountable', 'Entirely open-source platform. Maintained by stewards, not overlords.'],
-        //Easy
-      ] as $iconClass => $copyTuple): ?>
-        <?php list($title, $body) = $copyTuple ?>
-        <div class="span4 spacer2">
-          <div class="content content-light content-tile">
-            <div class="text-center spacer-half">
-              <div class="icon-in-circle">
-                <span class="<?php echo $iconClass ?>"></span>
+</section>
+<section class="join section">
+  <div class="inner">
+    <div class="content">
+      <h1>LBRY is more fun with friends</h1>
+      <p>Take your peers and your audience with you. Create without limits.</p>
+      <div class="boxes">
+        <div class="box">
+            <div class="image" target="_blank">
+                <div id="play-video1" class="to-play" onclick="playVideo('video1')"><span></span></div>
+                    <video id="video1" width="100%" poster="/img/youtube/01@2x.jpg" src="https://spee.ch/1ac47b8b3def40a25850dc726a09ce23d09e7009/ever-wonder-how-bitcoin-and-other.mp4" style="cursor: pointer" onclick="this.paused ? this.play() : this.pause();"/></video>
+            </div>
+
+          <div class="text">
+            <p>@3Blue1Brown</p>
+          </div>
+        </div>
+        <div class="box">
+            <div class="image" target="_blank">
+                <div id="play-video2" class="to-play" onclick="playVideo('video2')"><span></span></div>
+              <video id="video2" width="100%" poster="/img/youtube/02@2x.jpg" src="https://spee.ch/3c96f32de285db6c04e80bd6f5fad573250541e9/casually-successful.mp4" style="cursor: pointer" onclick="this.paused ? this.play() : this.pause();" /></video>
+            </div>
+
+          <div class="text">
+            <p>@CasuallyExplained</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image"  target="_blank">
+              <div id="play-video3" class="to-play" onclick="playVideo('video3')"><span></span></div>
+              <video id="video3" width="100%" poster="/img/youtube/03@2x.jpg" src="https://spee.ch/8958c5d573d71f5c2d0c1bfdf752737ce39744cb/the-historical-elements-of-wolfenstein.mp4" style="cursor: pointer" onclick="this.paused ? this.play() : this.pause();"></video>
+          </div>
+          <div class="text">
+            <p>@ColinsLastStand</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="how section">
+  <div class="inner">
+    <div class="content">
+      <h1>Migrating to LBRY</h1>
+      <p>We will automatically mirror your existing YouTube channel to the LBRY Network.</p>
+      <div class="steps">
+        <div class="path">
+          <div class="journey"></div>
+        </div>
+        <div class="step one enabled" data-enable="12">
+          <div class="circle">1</div>
+          <p class="text">Sync your channel</p>
+        </div>
+        <div class="step two enabled" data-enable="33">
+          <div class="circle">2</div>
+          <p class="text">Download the LBRY App</p>
+        </div>
+        <div class="step three enabled" data-enable="75">
+          <div class="circle">3</div>
+          <p class="text">Receive your LBRY Credits</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="sync section">
+  <div class="inner">
+    <div class="content">
+      <div class="zigzag"></div>
+      <h1>Sync &amp; Earn</h1>
+      <p>LBRY offers a single-click sync process<br>for existing YouTubers</p>
+        <form class="form" id="sync" method="post" action="http://api.lbry.io/yt/connect">
+            <div class="form-inner">
+              <div class="block">
+                <div class="center">
+                  <input type="text" hidden name="type" value="sync"/>
+                  <input id="immediate-sync" name="immediate_sync" type="checkbox" value="true"/>
+                  <label for="immediate-sync">I want to sync my content.</label></div>
+                </div>
+              </div>
+              <div class="block">
+                <div class="center">
+                  <input type="submit" value="Sync Now"/>
+                </div>
               </div>
             </div>
-            <h3><?php echo $title ?></h3>
-            <p>
-              <?php echo $body ?>
-            </p>
-          </div>
-        </div>
-        <?php endforeach ?>
-    </div>
-  </div>
-  <div class="column-fluid" >
-    <div class="span6" id="do-it">
-      <div class="cover cover-dark cover-dark-grad">
-        <div class="content content-dark content-tile">
-          <h3 class="cover-title cover-title-tile cover-title-flat">Leave YouTube in one click</h3>
-          <ol>
-            <li>
-              Clicking below will authenticate with YouTube and grant permission for your content to be available on the decentralized LBRY network.
-              You may revoke this permission and unpublish* your content at any time.
-            </li>
-            <li>
-              Our team will automate publishing your content to LBRY. When it's done, you'll receive a notification and a login to review, update, and manage it.
-            </li>
-          </ol>
-          <div class="text-center spacer2">
-              <a href="https://api.lbry.io/yt/connect?type=sync" class="btn-alt">Sync Channel</a>
-          </div>
-          <div class="meta">*Unpublishing means removing the ability to decrypt and accessing your content via LBRY, but we cannot guarantee the deletion of all encrypted data.</div>
-        </div>
-      </div>
-    </div>
-    <div class="span6">
-      <div class="cover cover-light-alt cover-light-alt-grad">
-      <div class="content content-light content-tile">
-        <h3  class="cover-title cover-title-tile cover-title-flat">I Have Questions</h3>
-        <p>
-          Have a big audience? Let Reilly know how we can support you
-          by <a class="link-primary" href=mailto:reilly@lbry.io?subject=YouTube+Freedom>emailing him directly</a>.
-        </p>
-        <form action="/youtube/sub" method="POST" class="spacer2">
-          <?php echo View::render('form/_formRow', [
-            'field'    => 'email',
-            'type'     => 'email',
-            'label'    => 'Email',
-            'required' => true,
-          ]) ?>
-          <input type="submit" value="Let's Talk" class="btn-primary">
         </form>
-        <?php echo View::render('content/_bio', ['person' => 'reilly-smith']) ?>
+
+
+
+
+      <div class="meta">
+        By syncing, you agree to mirror your content to the LBRY network for 1 year, and acknowledge <a href="/faq/youtube-terms">these terms</a>.
       </div>
     </div>
   </div>
+</section>
+<section class="rewards section">
+  <div class="inner">
+    <div class="content">
+      <h1>LBRY Credits and Your Channel</h1>
+      <p>After you sync, receive LBRY Credits for one year based on your current subscriber count.<br/><br/>
+      The more you give to the network, the more it gives back.</p>
+      <div class="price">
+        <h3>Partner Programs</h3>
+        <p>LBC <span class="current-value"></span></p>
+      </div>
+      <div class="table">
+        <div class="head">
+          <p>Subscribers</p>
+          <p>Yearly</p>
+          <p>Amount</p>
+        </div>
+        <div class="line">
+          <p>1,000</p>
+          <p><?php echo $reward['data']['1000']; ?> <span></span></p>
+          <p></p>
+        </div>
+        <div class="line">
+          <p>10,000</p>
+          <p><?php echo $reward['data']['10000']; ?> <span></span></p>
+          <p></p>
+        </div>
+        <div class="line">
+          <p>100,000</p>
+          <p><?php echo $reward['data']['100000']; ?> <span></span></p>
+          <p></p>
+        </div>
+        <div class="line">
+          <p>1,000,000</p>
+          <p><?php echo $reward['data']['1000000']; ?> <span></span></p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="contact section">
+  <div class="inner">
+    <div class="content">
+      <h1>Tell me more.</h1>
+      <p>We have a guy that elaborates on things. Apply directly to the forehead.</p>
+      <div class="v-card">
+        <div class="photo"><img src="/img/youtube/reilly-smith@2x.png"></div>
+        <div class="text">
+          <h3>Reilly Smith</h3>
+          <p>Head of Content</p>
+          <a href="mailto:reilly@lbry.io?subject=YouTube+Freedom">Contact</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="to-top"><span>to top</span></div>
 </main>
-<?php echo View::render('nav/_footer') ?>

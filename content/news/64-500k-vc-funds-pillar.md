@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: '$500K in VC Funds from Pillar et al'
 date: '2016-09-07 00:06:18'
 ---

@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: 'LBRY Re-Weighting Massive Beta Waiting List'
 date: '2016-08-22 00:06:18'
 ---

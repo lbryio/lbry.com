@@ -2,7 +2,7 @@
 category: code
 title: Publish Open Content
 award: 500-10000+
-status: available
+status: complete
 date: '2016-07-01'
 ---
 

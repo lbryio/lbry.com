@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: 'ShapeShift Adds LBRY Credits! Instant Conversion to Bitcoin, Ethereum, and More'
 date: '2016-08-08 00:06:18'
 ---

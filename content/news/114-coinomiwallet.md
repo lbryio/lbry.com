@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: 'Coinomi Wallet Integration'
 date: '2017-06-02 00:14:00'
 ---

@@ -353,7 +353,10 @@ class ContentActions extends Actions
     return [
       'authorName'    => $post->getAuthorName(),
       'photoImgSrc'   => $post->getAuthorPhoto(),
-      'authorBioHtml' => $post->getAuthorBioHtml()
+      'authorBioHtml' => $post->getAuthorBioHtml(),
+      'authorGithub' => $post->getAuthorGithubID(),
+      'authorTwitter' => $post->getAuthorTwitterID(),
+      'authorEmail' => $post->getAuthorPostEmail()
     ];
   }
 

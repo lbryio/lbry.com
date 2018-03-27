@@ -173,6 +173,12 @@
     margin-left: auto;
     margin-right: auto;
   }
+  iframe /*added for FAQ*/
+  {
+    width: 100%;
+    height: 500px;
+    margin-bottom: $spacing-vertical * 2;
+  }
 }
 .content-inset
 {

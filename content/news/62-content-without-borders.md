@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: 'Content Without Borders'
 date: '2016-08-31 00:06:18'
 cover: 'berlinwall.png'

@@ -1,5 +1,5 @@
 ---
-author: lbry
+author: samuel-lbryian
 title: 'NSFW: LBRY Bares All (Then Quickly Covers Up)'
 date: '2016-08-29 00:06:18'
 cover: 'nude.png'

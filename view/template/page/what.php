@@ -96,7 +96,7 @@
 
       <p>Here is a sample key-value entry in the LBRY blockchain. Here, wonderfullife is the key, and the rest of the description is the value.</p>
       <code class="code-bash"><span class="code-bash__prompt">$</span>lbrynet-cli resolve_name name=wonderfullife
-        
+
 <span class="code-bash__kw">wonderfullife</span> : {
   <span class="code-bash__kw">title</span>: "It’s a Wonderful Life",
   <span class="code-bash__kw">description</span>: "An angel helps a compassionate but despairingly frustrated businessman by showing what life would have been like if he never existed.",
@@ -311,7 +311,7 @@
       <h4>Content Distribution</h4>
       <p>Digital content distributors with server-client models are subject to the whims of internet service providers and hostile foreign governments. Traffic from the host servers can be throttled or halted altogether if the owners of cables and routers so choose. However, in case of the LBRY protocol content comes from anywhere and everywhere, and is therefore not so easily stifled. </p>
 
-      <p>Additionally, the market mechanisms of LBRY create a strong incentive for efficient distribution, which will save the costs of producers and ISPs alike. These properties, along with LBRY’s infringement 
+      <p>Additionally, the market mechanisms of LBRY create a strong incentive for efficient distribution, which will save the costs of producers and ISPs alike. These properties, along with LBRY’s infringement
       disincentivizing properties, make LBRY an appealing technology for large existing data or content distributors.</p>
       <h4>Transaction Settlement</h4>
       <p>While payments can be issued directly on the LBRY blockchain, the LBRY protocol encourages a volume of transactions that will not scale without usage of off-chain settlement.</p>

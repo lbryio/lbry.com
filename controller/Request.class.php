@@ -155,4 +155,8 @@ class Request
 
     return preg_match('/(' . join('|', $bots) . ')/i', static::getUserAgent());
   }
+  //Method that encode html tags to special character
+  public static function encodeStringFromUser($string){
+      return htmlspecialchars($string, ENT_QUOTES, 'UTF-8');
+  }
 }
