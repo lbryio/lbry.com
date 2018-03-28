@@ -7,6 +7,14 @@
 <?php $statusData = $status_token['data'] ?>
 <?php $isSyncAgreed = in_array($statusData['status'], ["syncing", "synced", "queued"]) ?>
 <?php $isRewardClaimed = $statusData['is_reward_claimed'] ?? false ?>
+<?php if (IS_PRODUCTION): ?>
+<?php js_start() ?>
+    if(!localStorage.getItem('status_token')){
+        ga('send', 'event', 'YT Sync', '', '');
+    };
+<?php js_end() ?>
+<?php endif ?>
+
   <main class="channel-settings">
     <?php echo View::render('acquisition/_youtube_header') ?>
     <section class="section channel pad-top">
