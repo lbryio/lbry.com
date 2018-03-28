@@ -15,4 +15,4 @@ Users will also get a popup notification when a new video is added to a channel 
 
 We've upgraded the LBRY Protocol from version 0.18.2 to 0.19.1., which should improve reliability and help download performance and a number of other back-end processes. Get caught up on all changes in the release notes for [0.19.0](https://github.com/lbryio/lbry/releases/tag/v0.19.) and [0.19.1](https://github.com/lbryio/lbry/releases/tag/v0.19.1).
 
-You can read the [full release notes for v0.21.2 here](https://github.com/lbryio/lbry-app/releases). And if you haven't downloaded the app yet, [what are you waiting for](lbry.io/get)?
+You can read the [full release notes for v0.21.2 here](https://github.com/lbryio/lbry-app/releases). And if you haven't downloaded the app yet, [what are you waiting for](https://lbry.io/get?auto=1)?
