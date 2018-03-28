@@ -124,6 +124,7 @@ class Controller
     $router->post('/youtube/token', 'AcquisitionActions::executeYoutubeToken');
     $router->any('/youtube/status/{token}', 'AcquisitionActions::executeYoutubeStatus');
     $router->any('/youtube', 'AcquisitionActions::executeYouTube');
+    $router->any('/youtube/status', 'AcquisitionActions::executeRedirectYoutube');
 
     $router->get('/verify/{token}', 'AcquisitionActions::executeVerify');
 

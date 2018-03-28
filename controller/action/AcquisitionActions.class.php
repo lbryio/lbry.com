@@ -106,6 +106,10 @@ class AcquisitionActions extends Actions
     return ['acquisition/youtube_edit'];
   }
 
+  public static function executeRedirectYoutube(){
+      return ['acquisition/youtube_status_redirect'];
+  }
+
   protected static function email_verification($email)
   {
     if (preg_match('/\S+@\S+\.\S+/', $email)) {
