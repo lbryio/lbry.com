@@ -27,6 +27,7 @@ description:
   team: LBRY is founded by a team passionate about connecting producers and consumers and breaking down broken models. Learn more about them.
   test: WHAT WHAT
   what: Access information and content in ways you never dreamed possible. Earn credits for your unused bandwidth and diskspace.
+  guns: Don't let big tech companies take your rights
 download:
   beta: This software is in beta.
   creator: Creator? Skip the Line
@@ -248,6 +249,7 @@ title:
   refer: Share and Earn
   what: "Art in the Internet Age: An Introduction to LBRY"
   meetup: Let LBRY Join Your Group
+  guns: LBRY Fights For Free Speech
 roadmap:
   title: LBRY Roadmap
   description: See past and future progress on development of LBRY, the world's first user-controlled digital marketplace.
