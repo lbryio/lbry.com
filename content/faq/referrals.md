@@ -9,7 +9,7 @@ You can earn credits for referring others to use LBRY. In the latest version of 
 
 New invites sent via the LBRY app are eligible for a 3 LBC reward amount. 
 
-For invites prior to 8/1/2017, the current referral reward as well as the number of people you have referred has been recorded by our system. You can see the list of your invited users on the Invite History section of the Invites screen.
+For invites prior to 8/1/2017, the current referral reward, as well as the number of people you have referred, has been recorded by our system. You can see the list of your invited users on the Invite History section of the Invites screen.
 
 You will always receive the number of credits being awarded at the time your referrer joined the list. Currently, the reward amount will be shown when the invite is claimed. You can see the reward amount in the Rewards section of the LBRY app after it is claimed. 
 
@@ -29,7 +29,7 @@ LBRY users who abuse either the Referral or Rewards system will not be eligible 
 
 If you expect to refer more than 50-100 people, please discuss it with us on [Discord chat](http://chat.lbry.io) or email [us](mailto:josh@lbry.io).
 
-Currently during the referral reward testing phase, there is a limit of 1 redemption per account.
+Currently, during the referral reward testing phase, there is a limit of 1 redemption per account.
 
 ### I have a clever idea to cheat the referral system.
 

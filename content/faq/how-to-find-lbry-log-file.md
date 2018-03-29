@@ -5,7 +5,7 @@ category: troubleshooting
 
 In certain cases, we may ask you to send us your log file(s).  The current log file is titled `lbrynet.log` (or just `lbrynet` if you have file extensions hidden) and is archived each time the files reaches 2MB. Older log files are copied to `lbrynet.log.<#>`. Typically only the lbrynet.log file is required, but we may ask for the others depending on the situation.  Since each Operating System has its own set of working directories, use the below guide in order to locate the log file(s).
 
- **lbrynet.log files may contain your IP address. While sharing this is not inherently dangerous, if you desire maximum privacy please mask it before posting to public websites.**
+ **lbrynet.log files may contain your IP address. While sharing this is not inherently dangerous, if you desire maximum privacy, please mask it before posting to public websites.**
 
 ## Windows
 1. Open File Explorer (Keyboard shortcut: Window Key + E)
@@ -14,7 +14,7 @@ In certain cases, we may ask you to send us your log file(s).  The current log f
 
 ## MacOS
 1. Open Finder.
-1. Click Go on top menu and choose "Go To Folder".
+1. Click Go in the top menu and choose "Go To Folder".
 1. Type "~/Library/Application Support/LBRY" and then click go.
 2. Here you will see the `lbrynet.log` file and any archives. 
 

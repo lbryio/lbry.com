@@ -5,7 +5,7 @@ category: other
 
 Reporting a security issue? [Click here](/faq/security).
 
-Our GPG is on [Keybase](https://keybase.io/lbry/key.asc), and is reproduced below.
+Our GPG is on [Keybase](https://keybase.io/lbry/key.asc) and is reproduced below.
 
 <pre><code id="keybase-key"></code></pre>
 <script type="text/javascript">

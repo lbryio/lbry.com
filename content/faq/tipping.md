@@ -17,7 +17,7 @@ Support Box: <img src="https://spee.ch/1/support-box.png" width="80%" height="80
 
 ### How do I redeem my tips?
 
-When you receive a tip, the credits will come into your wallet and you can see them in your Transaction History. However, since the credits come in as supporting a claim, they will not show in your available balance.
+When you receive a tip, the credits will come into your wallet, and you can see them in your Transaction History. However, since the credits come in as supporting a claim, they will not show in your available balance.
 
 To have these credits show in your balance, they must be unlocked via the wallet Overview/History page. This is done by clicking the unlock icon next to `Tip` and then confirming your action on the following screen. Once the transaction is finalized, the icon will disappear. 
 

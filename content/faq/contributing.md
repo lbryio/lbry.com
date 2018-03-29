@@ -21,13 +21,13 @@ There are many ways you can get involved. This document covers:
 
 ## Ecosystem Overview {#ecosystem-overview}
 
-Typical usage of LBRY does not involve a single piece of software, but instead involves several interacting components.
+Typical usage of LBRY does not involve a single piece of software but instead involves several interacting components.
 
 Whether you want to report an issue, contribute to the code, or help test the software, it's important to understand which component you want.
 
 | Component | Language | What Is It | Use This Repo For..|
 --- | --- | --- | ---
-| [lbry](https://github.com/lbryio/lbry) | Python | A daemon that runs in the background and allows your computer to speak LBRY. | Issues with downloading or uploading. <br/><br/> Anything related to output in `lbrynet.log`. <br/><br/> Issues unrelated to or deeper than the interface that do not deal with blockchain credits. |
+| [lbry](https://github.com/lbryio/lbry) | Python | A daemon that runs in the background and allows your computer to speak LBRY. | Issues with downloading or uploading. <br/><br/> Anything related to output in `lbrynet.log`. <br/><br/> Issues unrelated to or deeper than the interface that does not deal with blockchain credits. |
 | [lbry-app](https://github.com/lbryio/lbry-app) | JavaScript | A graphical browser for the LBRY protocol | Problems with or features missing from the browser interface. <br/><br/> Issues with using, installing or running the LBRY app **other** than network, connection, or performance issues. |
 | [lbryum](https://github.com/lbryio/lbryum) | Python | Server for the thin wallet bundled with lbry/lbry-app | Issues related to credit/wallet functionality.<br><br><em>This is a fork of <a href="https://github.com/spesmilo">electrum</a>.</em>
 | [lbrycrd](https://github.com/lbryio/lbrycrd) | C++ | The LBRY blockchain and standalone wallet | Running a full node, or direct access to the LBRY blockchain.<br><br> <em>(This wallet is not bundled with the application. You only want this if you downloaded/installed this package specifically.)</em>
@@ -54,7 +54,7 @@ Guidelines for bug reports:
 
 1. **Follow the instructions** - When you open an issue inside of GitHub, each repo contains a template for how to create a good bug report. Please follow it!
 
-Well-specified bug reports save developers lots of time and are extremely appreciated, typically with a LBRY credit tip.
+Well-specified bug reports save developers lots of time and are extremely appreciated, typically with an LBRY credit tip.
 
 ### Feature Requests {#feature-requests}
 
@@ -94,7 +94,7 @@ If you want to contribute new written copy, such as a blog post or other content
 
 If you're a web designer, you can contribute to either [lbry.io](https://github.com/lbryio/lbry.io) (the website) or [lbry-app](https://github.com/lbryio/lbry-app) (the browser) by opening a pull request. 
 
-If you're a graphic designer, creating engaging graphics, GIFs, explainers, HOWTOs, wallpapers, and other related graphical content is a huge help! You can submit or discuss contributions by emailing [Jeremy](mailto:jeremy@lbry.io), or joining the #design channel in our [chat](https://chat.lbry.io).
+If you're a graphic designer, creating engaging graphics, GIFs, explainers, HOWTOs, wallpapers, and other related graphical content is a huge help! You can submit or discuss contributions by emailing [Jeremy](mailto:jeremy@lbry.io) or joining the #design channel in our [chat](https://chat.lbry.io).
 
 ### Communicating {#communicating}
 
@@ -108,9 +108,9 @@ Translations are not managed through Git or GitHub. Email [Josh](mailto:josh@lbr
 
 If you aren't a coder, or you're a lazy coder, one of the best ways you can contribute is testing!
 
-Both `lbry` and `lbry-app` go through regular release cycles where new versions are shipped every few weeks. Testing release candidates or builds of master is a great way to help us identify issues and ship bug-free code.
+Both `lbry` and `lbry-app` go through regular release cycles where new versions are shipped every few weeks. Testing release candidates or builds of a master is a great way to help us identify issues and ship bug-free code.
 
-For any repos you want to be a tester on, "Watch" the repo on GitHub. You will receive an email with release notes whenever a release candidate is out.
+For any repos, you want to be a tester on, "Watch" the repo on GitHub. You will receive an email with release notes whenever a release candidate is out.
 
 If you're feeling moderately hard-core, you can also test `master` builds via [releases.lbry.io](http://releases.lbry.io/). If you're feeling super hard-core, you can compile `master` yourself, via the README.md or INSTALL.md in the associated repo.
 

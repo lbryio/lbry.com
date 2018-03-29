@@ -13,7 +13,7 @@ Providing you with a tip, in LBRY Credits (LBC), is our recognition and apprecia
 
 You already completed the hard part, so we'll try to make this as easy as possible.
 
-Simply send us an [email](mailto:hello@lbry.io) with the relevant details for your contribution. For example, if linked to this page from a pull request, send the link to the pull request. Or if someone shared this link on social media, send us the thread, etc.  Also include your LBC address.
+Simply send us an [email](mailto:hello@lbry.io) with the relevant details for your contribution. For example, if linked to this page from a pull request, send the link to the pull request. Or if someone shared this link on social media, send us the thread, etc.  Also, include your LBC address.
 
 If you don't have an address, download [LBRY](https://lbry.io/get) to create one. 
 

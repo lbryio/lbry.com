@@ -3,9 +3,9 @@ title: How can I convert my crypto into LBC?
 category: wallet
 ---
 
-The ability to convert your cryptoassets into LBRY Credits (LBC) is available directly within the LBRY app, powered by [ShapeShift](https://info.shapeshift.io/about). LBRY Inc. does not handle any of the incoming funds and the LBC are sent from ShapeShift directly. 
+The ability to convert your cryptoassets into LBRY Credits (LBC) is available directly within the LBRY app, powered by [ShapeShift](https://info.shapeshift.io/about). LBRY Inc. does not handle any of the incoming funds, and the LBC are sent from ShapeShift directly. 
 
-*Note: ShapeShift is unavailable in New York and Washington (and possibly surrounding areas based on IP geolocation). You will see a `HTTP status code: 403` error if this happens. Please see [ShapeShift](https://shapeshift.io) for more information.* 	 
+*Note: ShapeShift is unavailable in New York and Washington (and possibly surrounding areas based on IP geolocation). You will see an `HTTP status code: 403` error if this happens. Please see [ShapeShift](https://shapeshift.io) for more information.* 	 
 
 ## Convert Crypto to LBC
 1. Open the LBRY app, access the Wallet (bank icon next to the Publish button) and click on **Get Credits**
@@ -14,7 +14,7 @@ The ability to convert your cryptoassets into LBRY Credits (LBC) is available di
 <img src="https://spee.ch/3/convertcrypto1.JPG" width="80%" height="80%">
 
 3. Review the given rate of exchange and min/max amount. ShapeShift charges a small [fee](https://info.shapeshift.io/about) for the transaction
-4. Enter the return address for the cryptoasset in case something were to go wrong with the process (if address is not provided, you'll need to contact ShapeShift about your refund). 
+4. Enter the return address for the cryptoasset in case something were to go wrong with the process (if the address is not provided, you'll need to contact ShapeShift about your refund). 
 <img src="https://spee.ch/7/convertcrypto2.JPG" width="80%" height="80%">
 
 5. Click **Begin Conversion**  to start your request. You will now be presented with the deposit address for your conversion.

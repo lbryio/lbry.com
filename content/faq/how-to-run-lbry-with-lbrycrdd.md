@@ -2,7 +2,7 @@
 title:  How do I run LBRY with lbrycrdd?
 category: mining
 ---
-***WARNING: Currently, the LBRY app does not support the LBRYcrd wallet but this functionality may be available in the future***
+***WARNING: Currently, the LBRY app does not support the LBRYcrd wallet, but this functionality may be available in the future***
 
 Start LBRY with the `--wallet` flag set:
 

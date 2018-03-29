@@ -18,11 +18,11 @@ For more details on how naming works, please see: [Naming](https://lbry.io/faq/n
 
 ### How do I publish to the Community Top Bids area?
 
-1. Begin a standard publish by clicking the "PUBLISH" button in the top of the App.
+1. Begin a standard publish by clicking the "PUBLISH" button at the top of the App.
 2. When filling out the Content URL, enter the desired claim you want to bid on (one, two, five, eight, etc.)
-3. After you have entered the desired URL, the system will automatically show you the minimum amount of LBC you need to deposit to get the claim. This LBC remains yours and the deposit can be undone at any time.
+3. After you have entered the desired URL, the system will automatically show you the minimum amount of LBC you need to deposit to get the claim. This LBC remains yours, and the deposit can be undone at any time.
 4. Finish the rest of the publishing process.
 
 ### How do I know if my content is overtaken?
 
-We do not have a mechanism in place to notify users when they are outbid but one is planned for a future release. For now, you can monitor the Community Top Bids section to see if your content is still available. 
+We do not have a mechanism in place to notify users when they are outbid, but one is planned for a future release. For now, you can monitor the Community Top Bids section to see if your content is still available. 

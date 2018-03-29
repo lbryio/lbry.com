@@ -1,15 +1,15 @@
----
+﻿---
 title: How does LBRY benefit content creators? Can I make money using LBRY?
 category: publisher
 order: 2
 ---
-In our AMA title, we pitched LBRY as a “community-driven” YouTube alternative that could “save the internet.” That’s a lot of big talk, but what does it mean for the people who care most about the changes happening at YouTube – content creators?
+In our AMA title, we pitched LBRY as a “community-driven” YouTube alternative that could “save the internet.” That’s a lot of big talks, but what does it mean for the people who care most about the changes happening at YouTube – content creators?
 
-If you are earning money from your videos on YouTube right now, you are likely familiar with the recent controversies over videos being “de-monetized” for containing content unfriendly to advertisers. It’s no surprise that YouTube caters to advertisers, because those are its ultimate customers.
+If you are earning money from your videos on YouTube right now, you are likely familiar with the recent controversies over videos being “de-monetized” for containing content unfriendly to advertisers. It’s no surprise that YouTube caters to advertisers because those are its ultimate customers.
 
 LBRY is not an ad-driven media service. In fact, it’s not a traditional media service at all. LBRY is an open protocol that allows you to publish your videos to the network at no cost to you and set a price per stream or download. Because LBRY is a protocol and not a corporate store, there is no approval process for content to be listed and no authority that can “de-monetize” your videos. That’s between you and your fans.
 
-With LBRY, pricing is completely at the discretion of the creator and 100% of that price goes to the creator. Compare this to iTunes’ fixed pricing tiers and 30% cut of every sale.
+With LBRY, pricing is completely at the discretion of the creator, and 100% of that price goes to the creator. Compare this to iTunes’ fixed pricing tiers and 30% cut of every sale.
 
 Because LBRY uses digital currency (a la Bitcoin), creators can accept micropayments for every view without worrying about credit card processing fees. Or a studio could use LBRY to distribute a theatrical release to independent theaters and charge thousands of dollars per download. The only constraint on pricing is what your viewers are willing to pay.
 
