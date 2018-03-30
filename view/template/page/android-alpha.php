@@ -8,7 +8,7 @@
         Testing... Testing...
       </h1>
       <h3 class="cover-item--outline">
-        LBRY is looking for alpha testers for our Android app!
+        LBRY needs alpha testers for our Android app!
       </h3>
       <div class="spacer1">
         <a href="#about" class="btn-primary btn-large">Tell Me More!</a>
