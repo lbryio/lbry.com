@@ -5,7 +5,7 @@
   <div class="cover cover-dark cover-center cover-full cover--dark-overlay" style="background-image: url(/img/droid1.jpg)">
     <div class="content content-dark text-center">
       <h1 class="cover-title cover-title-tile cover-item--outline">
-        Ready to start testing?
+        Testing... Testing...
       </h1>
       <h3 class="cover-item--outline">
         LBRY is looking for alpha testers for our Android app!
@@ -19,11 +19,11 @@
     <div class="content content-light content-readable">
       <h3>Want to help build the first ever decentralized, blockchain based media streaming app?</h3>
       <p> We're looking for developers who can help us get our Android app ready for prime time.</p>
-      <h3>Okay. How do I get involved?</h3>
+      <h3>How do I get involved?</h3>
       <p>Enter your email below and we'll send you everything you need to get started as an alpha tester.</p>
       <?php echo View::render('mail/_subscribeForm', [
         'tag' => 'android-alpha',
-        'submitLabel' => 'Sign me up',
+        'submitLabel' => 'Make Me an Alpha Tester!',
         'hideDisclaimer' => true,
         'largeInput' => true,
         'btnClass' => 'btn-alt btn-large',
