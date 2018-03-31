@@ -8,7 +8,7 @@ In December, we published the [first ever LBRY Development and Community update]
 
 Please take a moment to read our [Looking Back and Moving Forward: LBRY in 2017/2018](https://lbry.io/news/lbry-in-2017-2018) blog post! 
 
-To skip the tech stuff and see what’s happened and what’s next in the LBRY community, click the link below. Otherwise, read on!
+To skip the tech stuff, see what’s happened and what’s next in the LBRY community, click the link below. Otherwise, read on!
 
 [Skip to **Community Happenings**](#com-updates)
 
@@ -16,10 +16,12 @@ To skip the tech stuff and see what’s happened and what’s next in the LBRY c
 All of our code is open source and available on [GitHub](https://github.com/lbryio). Are you a dev and want to find out more? Check out our [general contributing guide](https://lbry.io/faq/contributing) and our LBRY App specific contributing [document](https://github.com/lbryio/lbry-app/blob/master/CONTRIBUTING.md).
 
 ### App and Protocol Quick Summary
-As you may know from our previous update, the LBRY App is undergoing a redesign which is taking up a large chunk of the team’s time, but we still managed to ship multiple patch releases to version 0.19 that enabled users to continue enjoying the main functions of the LBRY app. We also finished off January with [version 0.20](https://github.com/lbryio/lbry-app/releases/tag/v0.20.0) which enables a more streamlined LBRY app update process, phone number verification for [LBRY Rewards](https://lbry.io/faq/rewards) that makes it easier for new users to earn some LBC, added automated dark theme mode, patched a security hole introduced by [Electron](https://electronjs.org/blog/protocol-handler-fix) and a bit of code refactoring. On the protocol side, we ran into a showstopper related to how files are handled and were forced to go back to the drawing board to re-engineer a better solution. Our protocol devs also had to deal with growing pains on [spee.ch](https://spee.ch) which continues to uncover invaluable insights into scaling the LBRY as it’s the biggest user of the protocol to date! 
+As you may know from our previous update, the LBRY App is undergoing a redesign which is taking up a large chunk of the team’s time, but we still managed to ship multiple patch releases to version 0.19 that enabled users to continue enjoying the main functions of the LBRY app.
+
+We also finished off January with [version 0.20](https://github.com/lbryio/lbry-app/releases/tag/v0.20.0) which enables a more streamlined LBRY app update process, phone number verification for [LBRY Rewards](https://lbry.io/faq/rewards) that makes it easier for new users to earn some LBC, added automated dark theme mode, patched a security hole introduced by [Electron](https://electronjs.org/blog/protocol-handler-fix) and a bit of code refactoring. On the protocol side, we ran into a showstopper related to how files are handled and were forced to go back to the drawing board to re-engineer a better solution. Our protocol devs also had to deal with growing pains on [spee.ch](https://spee.ch) which continues to uncover invaluable insights into scaling the LBRY as it’s the biggest user of the protocol to date! 
  
 ### Documentation, Organization and Development Processes
-A considerable amount of effort went into documenting an app side [contributing process](https://github.com/lbryio/lbry-app/blob/master/CONTRIBUTING.md) along with [tagging and organization](https://github.com/lbryio/lbry/wiki/Labels) of GitHub issues which required a careful review off all oustanding issues across multiple repositories. The result was a clearer and more organized depiction of what’s on the plate for our developers to work on but it also provides a more welcoming environment for contributors and potential LBRY developers to get started.
+A considerable amount of effort went into documenting an app side [contributing process](https://github.com/lbryio/lbry-app/blob/master/CONTRIBUTING.md) along with [tagging and organization](https://github.com/lbryio/lbry/wiki/Labels) of GitHub issues which required a careful review off all outstanding issues across multiple repositories. The result was a clearer and more organized depiction of what’s on the plate for our developers to work on but it also provides a more welcoming environment for contributors and potential LBRY developers to get started.
 
 During the past month, we’ve also transitioned to a more agile development methodology we like to call [scrum-lite](https://github.com/lbryio/lbry/wiki/Development-Process-&-Standards) which enables the team to reassess and refocus our efforts on a bi-monthly basis. In addition to creating a more structured framework around development processes, this also forces us to break down large tasks into smaller, easier to tackle initiatives which allows for a transition from “I’m still working on it” to “completed part 1A, onto the next one!”. 
 
@@ -49,13 +51,13 @@ LBRY wallet encryption has been enabled in the latest versions of the daemon (no
 ![Wallet Encryption command line](https://spee.ch/7/walletencryption.png)
 
 ### LBRY Rewards Abuse Defenses
-Unfortunately, when you try to give away free internet currency, some people will stop at nothing to abuse the system, and as such, we will continue to evolve in order to ramp up defences. We have instituted a new policy that disallows rewards when a VPN/proxy connection is detected and also limit rewards to 1 per household now (previously 1 per person). The 1 LBC email verification reward was removed in a version 19 patch because it was easily abusable. Our wish would be to spend this valuable time on developing the app instead but we also have to be good stewards of LBRY credits that we give out.  
+Unfortunately, when running a rewards program, some people will stop at nothing to abuse the system, and as such, we will continue to evolve in order to ramp up defences. We have instituted a new policy that disallows rewards when a VPN/proxy connection is detected and also limit rewards to 1 per household now (previously 1 per person). The 1 LBC email verification reward was removed in a version 19 patch because it was easily abusable. Our wish would be to spend this valuable time on developing the app instead but we also have to be good stewards of LBRY credits that we give out.  
 
 ### New LBRY Rewards Verification Method - SMS
 In order to provide a more seamless new user experience, version 0.20 of the LBRY app allows users to earn [LBRY rewards](https://lbry.io/faq/rewards) by verifying their phone number over SMS. We will monitor usage and potential abuse over the coming days in order to build a ruleset that minimizes rewards abuse. We also hope that many legitimate users will opt for this method versus our current manual verification which is time consuming for both them and ourselves!  
 
 # Community Happenings {#com-updates}
-If you aren’t part of our Discord community yet, [join us](https://chat.lbry.io) anytime and say hello! Our community allows LBRYians to interact with the team directly and for us to engage users in order to grow the LBRY platform. 
+If you aren’t part of our Discord community yet, [join us](https://chat.lbry.io) Santatoshi anytime and say hello! Our community allows LBRYians to interact with the team directly and for us to engage users in order to grow the LBRY platform. 
 
 ### LBRY at Sundance Film Festival
 LBRY’s Content Creator and Director of Growth and Branding attended the Sundance film festival at the end of January - be on the lookout for a video recap of the event!
@@ -67,7 +69,7 @@ The LBRY website was updated with the latest [team information](https://lbry.io/
 The LBRY business team worked alongside the tech team to provide the community with a [roadmap of enhancements, features and new undertakings for 2018](https://lbry.io/roadmap). We hope this provides project supporters a transparent insight into what LBRY plans to accomplish in the mid to long term future. Have any feedback, we’d love to hear it in the #ideas-and-feedback channel on [Discord](https://chat.lbry.io). 
 
 ### Santatoshi LBC Tipping over the Holiday Season
-Our Discord server is armed with the almighty LBRY tipbot which allows us to reward our community members for their suggestions, feedback and other contributions. Over the holiday season, Santatoshi paid a visit on numerous occasions tipping LBC to innocent bystanders. To top things off on Christmas Day, Santa made it rain LBC with amounts up to 500 LBC to our most active community members. Over 12K LBC was given away!   
+Our Discord server is armed with the almighty LBRY tipbot which allows us to reward our community members for their suggestions, feedback and other contributions. Over the holiday season, paid a visit on numerous occasions tipping LBC to innocent bystanders. To top things off on Christmas Day, Santa made it rain LBC with amounts up to 500 LBC to our most active community members. Over 12K LBC was given away!   
 
 ![Tipping in Discord](https://spee.ch/3/santa-discord.png)
 
@@ -81,7 +83,7 @@ Last year we had a community member named Adrian, from Poland, reach out to us i
 Last but not least, we also received interest to collaborate with Avery who is part of the [Arizona State University Blockchain Innovation Society](http://asubis.weebly.com/) - initial talks are underway!  
 
 ### Babson College 
-Professor [Steven Gordon](http://www.babson.edu/Academics/faculty/profiles/Pages/gordon-steven.aspx) from Babson College, a business school in Massachusettes, found out about LBRY when researching local blockchain projects and imediately contacted us for more information. He created a new class for this semester on Blockchain technology and will feature LBRY as a case study in the curriculum and one of our team members will be on site to assist!  
+Professor [Steven Gordon](http://www.babson.edu/Academics/faculty/profiles/Pages/gordon-steven.aspx) from Babson College, a business school in Massachusettes, found out about LBRY when researching local blockchain projects and immediately contacted us for more information. He created a new class for this semester on Blockchain technology and will feature LBRY as a case study in the curriculum and one of our team members will be on site to assist!  
 
 ### lbry.community Initiatives
 [lbry.community](https://lbry.community/about/) is a completely independent, community run effort to help spread awareness to the importance of the LBRY protocol. We are thrilled at what they have been able to accomplish to date and are extremely excited that they are able to share a vision for LBRY which takes a unique, user focused approach compared to LBRY’s internal one. Recently, the community website went through a redesign which they promoted alongside various contests which included either visual and written requirements as well as simpler [reddit/Twitter initiatives (you can still enter until Feb 6!)](https://lbry.community/category/open-contests/) . The contest entry period ended with [19 video submissions](https://lbry.community/jan-competition-videos/) and [11 written articles](https://lbry.community/contests/), a truly impressive turnout! Contest voting ends on Feb 6, stay tuned for the results!
@@ -89,3 +91,5 @@ Professor [Steven Gordon](http://www.babson.edu/Academics/faculty/profiles/Pages
 If you are interested in helping out, please reach out to @rouse on [Discord](https://chat.lbry.io).  
 
 [Back to **Development Updates**](#dev-updates)
+
+
