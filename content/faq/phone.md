@@ -7,7 +7,7 @@ category: other
 
 LBRY controls [millions of credits](https://lbry.io/faq/credit-policy) that it wants to get into the hands of content creators and content consumers.
 
-Unfortunately, when you try to give stuff away for free, people will abuse it.
+Unfortunately, when running a rewards program, people will abuse it.
 
 Phone number verification provides another method for LBRY users to participate in the [rewards](https://lbry.io/faq/rewards) program.
 
