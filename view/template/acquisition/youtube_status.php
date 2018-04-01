@@ -10,8 +10,8 @@
 <?php if (IS_PRODUCTION): ?>
 <?php js_start() ?>
     if(!localStorage.getItem('status_token')){
-      ga('send', 'event', 'YT Sync', 'pending', '');
-    };
+      ga('send', 'event', 'YT Sync', '<?php echo $isSyncAgreed ? "pending" : "queued" ?>', '');
+    }
 <?php js_end() ?>
 <?php endif ?>
 
