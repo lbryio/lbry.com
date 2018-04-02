@@ -7,7 +7,7 @@ category: other
 
 LBRY controls [millions of credits](https://lbry.io/faq/credit-policy) that it wants to get into the hands of content creators and content consumers.
 
-Unfortunately, when you try to give stuff away for free, people will abuse it.
+Unfortunately, when running a rewards program, people will abuse it.
 
 This, and only this, is the reason we require a credit card to participate in the [rewards](https://lbry.io/faq/rewards) program. We wish we could tell you were a real person without this step, but no other solution we've tried thus far has worked well. This is the fastest and easiest method to verify your identity, otherwise, please see below. 
 
