@@ -57,7 +57,7 @@ Unfortunately, when running a rewards program, some people will stop at nothing 
 In order to provide a more seamless new user experience, version 0.20 of the LBRY app allows users to earn [LBRY rewards](https://lbry.io/faq/rewards) by verifying their phone number over SMS. We will monitor usage and potential abuse over the coming days in order to build a ruleset that minimizes rewards abuse. We also hope that many legitimate users will opt for this method versus our current manual verification which is time consuming for both them and ourselves!  
 
 # Community Happenings {#com-updates}
-If you aren’t part of our Discord community yet, [join us](https://chat.lbry.io) Santatoshi anytime and say hello! Our community allows LBRYians to interact with the team directly and for us to engage users in order to grow the LBRY platform. 
+If you aren’t part of our Discord community yet, [join us](https://chat.lbry.io) anytime and say hello! Our community allows LBRYians to interact with the team directly and for us to engage users in order to grow the LBRY platform. 
 
 ### LBRY at Sundance Film Festival
 LBRY’s Content Creator and Director of Growth and Branding attended the Sundance film festival at the end of January - be on the lookout for a video recap of the event!
@@ -69,7 +69,7 @@ The LBRY website was updated with the latest [team information](https://lbry.io/
 The LBRY business team worked alongside the tech team to provide the community with a [roadmap of enhancements, features and new undertakings for 2018](https://lbry.io/roadmap). We hope this provides project supporters a transparent insight into what LBRY plans to accomplish in the mid to long term future. Have any feedback, we’d love to hear it in the #ideas-and-feedback channel on [Discord](https://chat.lbry.io). 
 
 ### Santatoshi LBC Tipping over the Holiday Season
-Our Discord server is armed with the almighty LBRY tipbot which allows us to reward our community members for their suggestions, feedback and other contributions. Over the holiday season, paid a visit on numerous occasions tipping LBC to innocent bystanders. To top things off on Christmas Day, Santa made it rain LBC with amounts up to 500 LBC to our most active community members. Over 12K LBC was given away!   
+Our Discord server is armed with the almighty LBRY tipbot which allows us to reward our community members for their suggestions, feedback and other contributions. Over the holiday season, Santatoshi paid a visit on numerous occasions tipping LBC to innocent bystanders. To top things off on Christmas Day, Santa made it rain LBC with amounts up to 500 LBC to our most active community members. Over 12K LBC was given away!   
 
 ![Tipping in Discord](https://spee.ch/3/santa-discord.png)
 
