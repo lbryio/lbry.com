@@ -14,7 +14,7 @@ To skip the tech stuff, see what’s happened and what’s next in the LBRY comm
 [Skip to **Community Happenings**](#com-updates)
 
 # Development Updates {#dev-updates}
-All of our code is open source and available on [GitHub](https://github.com/lbryio). Are you a dev and want to find out more? Check out our [general contributing guide](https://lbry.io/faq/contributing) and our LBRY App specific contributing [document](https://github.com/lbryio/lbry-app/blob/master/CONTRIBUTING.md). Please be patient with us while we improve our technical documentation. Our plan is to create a technical reference site which will be developer focused at https://lbry.tech which will also include a StackExchange like forum for Q&A/troubleshooting in the future. 
+All of our code is open source and available on [GitHub](https://github.com/lbryio). Are you a dev and want to find out more? Check out our [general contributing guide](https://lbry.io/faq/contributing) and our LBRY App specific contributing [document](https://github.com/lbryio/lbry-app/blob/master/CONTRIBUTING.md). Please be patient with us while we improve our technical documentation. Our plan is to create a technical reference site which will be developer focused at https://lbry.tech (not live yet!) which will also include a StackExchange like forum for Q&A/troubleshooting in the future. 
 
 ### App and Protocol Summary
 It felt like forever from January 30th until March 22 when we released a LBRY app update, but we are very happy with how it turned out, especially with the auto update process and version 0.19.1 LBRY daemon enhancements it included. This was the first major protocol update since last November and a big step in the right direction. You can read about specific enhancements in the changelogs ([0.19.0](https://github.com/lbryio/lbry/releases/tag/v0.19.0) and [0.19.1](https://github.com/lbryio/lbry/releases/tag/v0.19.1)) but in general we’ve noticed improvements in network availability and streaming speed (time from when play is clicked to when the download starts). 
@@ -43,7 +43,7 @@ Other enhancements include improved results with partial search terms and a bett
 If you run into search issues while testing the app or not happy with search results, give us some feedback on [GitHub](https://github.com/lbryio/lighthouse/issues)!
  
 ### App Redesign {#redesign-updates}
-The LBRY app redesign has been merged into the master branch and is available to [run from source](https://github.com/lbryio/lbry-app) for those interested in checking out an early preview. We have identified a number of issues which block a release candidate from being built yet and they are marked with a  [redesign label](https://github.com/lbryio/lbry-app/issues?q=is%3Aissue+is%3Aopen+label%3Aredesign) on the issues page. Before submitting any new design related issues, be sure to review those first. 
+The LBRY app redesign has been merged into the master branch and is available to [run from source](https://github.com/lbryio/lbry-app) for those interested in checking out an early preview. We have identified a number of issues which block a release candidate from being built yet and they are marked with a [redesign label](https://github.com/lbryio/lbry-app/issues?q=is%3Aissue+is%3Aopen+label%3Aredesign) on the issues page. Before submitting any new design related issues, be sure to review those first. We are extremely excited and eager to get the redesign into the hands of community members, stay tuned! 
 
 ![App-preview](https://spee.ch/c/app-preview.jpeg)
 
@@ -64,12 +64,12 @@ Over the past few weeks, we’ve been converting the code base of spee.ch so tha
 
 In terms of spee.ch site performance, the publishing function has been running without a hitch over the last 2 weeks after the team implemented a few patches to deal with wallet issues. Currently, publishes take about 15-20 seconds but we are hoping to get that number close to 5 seconds with additional refactoring and enhancements to the publishing process.  
 
-### Protocol -  Wallet Server and Client Development Efforts
+### Protocol - Wallet Server and Client Development Efforts
 We’ve found that elements of the LBRY wallet (LBRYum) and LBRY wallet server (LBRYum-server) are causing bottlenecks with claim resolution and publishing - two functions that are widely used throughout the LBRY app experience. Claim resolution occurs between the client and server to make sure that claim data is read correctly from the blockchain. Publishing is the process by which a claim id is generated and broadcast to the network - something the spee.ch server has been struggling with since there is lots of publishing activity. 
 
 In order to fix the client issue, the lbryum framework is being re-written into the LBRY daemon with performance and stability in mind. On the server side, we are migrating away from the Electrum code base and into [ElectrumX](https://github.com/kyuupichan/electrumx) which will bring numerous performance and stability enhancements. There is significant development and testing to be done in both areas and we believe this will result in a much better App and protocol experience. 
 
-### Blockchain -  Preparing for a Hardfork
+### Blockchain - Preparing for a Hardfork
 There are two major changes/fixes to the LBRY blockchain in the pipeline that will require a hard fork of the network. Neither of these changes are controversial - both will improve the functionality of the blockchain. Our goal is to announce these at the end of April and allow for another month or two before the hardfork code will activate so that exchanges, miners and other services have time to update.
 
 The first deals with how [case sensitivity is treated](https://github.com/lbryio/lbrycrd/pull/102) when calculating vanity claim/channel resolution and permanent URLs on the LBRY network. Currently, @HardFork and @hardfork are treated as two separate claim resolutions - this also means if only @HardFork exists and someone types @hardfork, they would not be able to get to the correct channel. We want the claim and channels names to work more like domain names where www.Amazon.com and www.amazon.com both end up at the same URL. 
@@ -81,8 +81,8 @@ If you aren’t part of our Discord community yet, [join us](https://chat.lbry.i
 
 ### Roadmap Check-in
 The Q1 coming to a close, we wanted to provide an update on our [roadmap objectives](https://lbry.io/roadmap). 
-The [YouTube Sync partner program is live and getting feedback from testers, see additional information below]((#youtube-updates). 
-The Meetup program has also been launched on our [Meet](https://lbry.io/meet) and [College](https://lbry.io/college) landing pages, see ]below for more information](#meetup-update). 
+The [YouTube Sync partner program is live and getting feedback from testers, see additional information below](#youtube-updates). 
+The Meetup program has also been launched on our [Meet](https://lbry.io/meet) and [College](https://lbry.io/college) landing pages, see [below for more information](#meetup-update). 
 
 Significant progress has been made on the white paper and a first draft is very close to being shared publicly. It will be released as a navigational document, in an in-progress state, on our new lbry.tech (not live yet) developer resource site and we’ll be asking the community for their feedback.
 
@@ -107,7 +107,7 @@ The most common issue creators run into, especially those who have used the LBRY
 ![Youtube Rewards](https://spee.ch/b/youtube-program.png)
 
 ### Twitter LBC Tip Bot
-The Twitter TipBot bounty was solved internally by the team after open source code was discovered that provided 90% of the functionality we were looking for. With a few modifications, we set up a test server and were able to send tips! The TipBot is now being migrated to an official LBRY server which will allow it to be used all across Twitter world to tip LBC -  users, creators, fans, and even projects with similar missions! Stay tuned on our Discord server and [@LBC_TipBot](https://twitter.com/@LBC_TipBot) for updates. 
+The Twitter TipBot bounty was solved internally by the team after open source code was discovered that provided 90% of the functionality we were looking for. With a few modifications, we set up a test server and were able to send tips! The TipBot is now being migrated to an official LBRY server which will allow it to be used all across Twitter world to tip LBC - users, creators, fans, and even projects with similar missions! Stay tuned on our Discord server and [@LBC_TipBot](https://twitter.com/@LBC_TipBot) for updates. 
 
 ![Tipbot](https://spee.ch/d/lbrytipbot.png)
 
@@ -129,7 +129,7 @@ We are also looking for communities, subreddits and websites that could make use
 ![speech](https://spee.ch/b/speech-fork.jpeg)
 
 ### Favorite Creators Contest in Discord
-We recently reached out to [Isaac Arthur](https://www.youtube.com/channel/UCZFipeZtQM5CKUjx6grh54g) with a 10K LBC bounty (+ YouTube rewards atwho was the most up-voted in our Favorite Creators contest on Discord. We will give Mr. Arthur a few days to respond and then try reaching out a 2nd time. If we don’t hear back, we’ll move onto the 2nd most voted which is [VetRanch](https://www.youtube.com/user/VetRanch). 
+We recently reached out to [Isaac Arthur](https://www.youtube.com/channel/UCZFipeZtQM5CKUjx6grh54g), with a 10K LBC bounty (plus YouTube rewards at 5K LBC), as he was the most up-voted in our Favorite Creators contest on Discord. We will give Mr. Arthur a few days to respond and then try reaching out a 2nd time and final time. If we don’t hear back, we’ll move onto the 2nd most voted channel which is [VetRanch](https://www.youtube.com/user/VetRanch). 
 
 ### New Bounties Channel in Discord
 We’ve created a new channel for bounty and task announcements. In addition to announcing new [bounty page listings,](https://lbry.io/bounty) we also occasionally post smaller tasks exclusively in the #bounties channel. These tasks are a great way to get involved with the LBRY project and earn a few LBC. Research, transcription, and content posting are all good examples of small tasks. 
