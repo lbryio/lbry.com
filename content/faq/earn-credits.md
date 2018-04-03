@@ -4,8 +4,7 @@ category: getstarted
 order: 1
 ---
 
-=======
-There are several ways to obtain LBRY Credits (LBC.
+Currently, there are several ways to obtain LBRY Credits, or LBC.
 
 1. LBRY users get an LBC gift by way of in-app [Rewards](https://lbry.io/faq/rewards).
 1. LBRY users get LBC for [referring](https://lbry.io/faq/referrals) other users via the LBRY app (see Invites section of the wallet).
