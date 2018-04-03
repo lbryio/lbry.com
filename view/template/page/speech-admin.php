@@ -18,7 +18,7 @@
   <div class="cover cover-light" id="about">
     <div class="content content-light content-readable">
       <h3>LBRY wants to help you set up your own personalized version of Spee.ch!</h3>
-      <p> We're looking for users and communities that are interested in hosting a spee.ch like website or a web portal into their own LBRY content. We'll walk you through the process of customizing and tweaking it to your liking.</p>
+      <p> We're looking for users and communities that are interested in hosting a spee.ch-style website or a web portal into their own LBRY content. We'll walk you through the process of customizing and tweaking it to your liking.</p>
       <h3>Ready to get started?</h3>
       <p>Enter your email below and we'll get in touch with everything you need.</p>
       <?php echo View::render('mail/_subscribeForm', [
