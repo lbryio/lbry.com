@@ -9,7 +9,7 @@ Back in December, we published the [first ever LBRY Development and Community up
 
 If you haven’t already, please take a moment to read our [Looking Back and Moving Forward: LBRY in 2017/2018](https://lbry.io/news/lbry-in-2017-2018) blog post and check out our [roadmap](https://lbry.io/roadmap). 
 
-To skip the tech stuff, see what’s happened and what’s next in the LBRY community, click the link below. Otherwise, read on!
+To skip the tech stuff and see what’s happened and what’s next in the LBRY community, click the link below. Otherwise, read on!
 
 [Skip to **Community Happenings**](#com-updates)
 
@@ -17,7 +17,7 @@ To skip the tech stuff, see what’s happened and what’s next in the LBRY comm
 All of our code is open source and available on [GitHub](https://github.com/lbryio). Are you a dev and want to find out more? Check out our [general contributing guide](https://lbry.io/faq/contributing) and our LBRY App specific contributing [document](https://github.com/lbryio/lbry-app/blob/master/CONTRIBUTING.md). Please be patient with us while we improve our technical documentation. Our plan is to create a technical reference site which will be developer focused at https://lbry.tech (not live yet!) which will also include a StackExchange like forum for Q&A/troubleshooting in the future. 
 
 ### App and Protocol Summary
-It felt like forever from January 30th until March 22 when we released a LBRY app update, but we are very happy with how it turned out, especially with the auto update process and version 0.19.1 LBRY daemon enhancements it included. This was the first major protocol update since last November and a big step in the right direction. You can read about specific enhancements in the changelogs ([0.19.0](https://github.com/lbryio/lbry/releases/tag/v0.19.0) and [0.19.1](https://github.com/lbryio/lbry/releases/tag/v0.19.1)) but in general we’ve noticed improvements in network availability and streaming speed (time from when play is clicked to when the download starts). 
+We know it's been a long wait, but we're very happy with our latest app release. And the wait will be worth it when you experience the improved LBRY daemon - it's the first major protocol update since last November, and it's a big step in the right direction. You can read about specific enhancements in the changelogs ([0.19.0](https://github.com/lbryio/lbry/releases/tag/v0.19.0) and [0.19.1](https://github.com/lbryio/lbry/releases/tag/v0.19.1)) but in general we’ve noticed improvements in network availability and streaming speed (time from when play is clicked to when the download starts). 
 
 On top of that, it brought some much needed bug fixes, wallet encryption capabilities, ability to redownload content on updated claims and updating claims with large LBC deposits (now it uses the current bid, previously you had to have the balance in your wallet to cover it). The next steps for the protocol are to significantly improve network data announcement times, speed up startup times and rewrite of client/server side wallet functionality. 
 
