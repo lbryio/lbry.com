@@ -9,7 +9,7 @@ For live help, you can join [our chat](https://chat.lbry.io) and post in the #he
 
 ## Help via Email
 
-You can also [email LBRY](mailto:help@lbry.io) with questions or issues. LBRY log files are a good source of information for us; you can learn how to [find them here](https://lbry.io/faq/how-to-find-lbry-log-file).
+You can also [email LBRY](mailto:help@lbry.io) with questions or issues. LBRY log files will help us better understand the issue you are experiencing, you can learn how to [find them here](https://lbry.io/faq/how-to-find-lbry-log-file) and attach with your email. 
 
 ### Reporting Issues
 

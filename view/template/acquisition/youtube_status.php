@@ -1,13 +1,20 @@
 <?php Response::setMetaDescription('YouTuber? Take back control! LBRY allows publication on your terms. It\'s open-source, decentralized, and gives you 100% of the profit.') ?>
 <?php Response::setMetaTitle(__('YouTubers! Take back control.')) ?>
-<?php Response::setCssAssets(['/css/yt2.css']) ?>
+<?php Response::setCssAssets(['/css/youtube.css']) ?>
 <?php Response::addJsAsset('/js/yt2/FormValidation.js')?>
 <?php Response::addJsAsset('/js/yt2/youtube_status.js') ?>
 <?php Response::addJsAsset('/js/yt2/youtube_video.js')?>
-<?php $statusResponse = LBRY::statusYoutube($token); ?>
-<?php $statusData = $statusResponse['data'] ?>
-<?php $isSyncAgreed = false ?>
+<?php $statusData = $status_token['data'] ?>
+<?php $isSyncAgreed = in_array($statusData['status'], ["syncing", "synced", "queued"]) ?>
 <?php $isRewardClaimed = $statusData['is_reward_claimed'] ?? false ?>
+<?php if (IS_PRODUCTION): ?>
+<?php js_start() ?>
+    if(!localStorage.getItem('status_token')){
+      ga('send', 'event', 'YT Sync', '<?php echo $isSyncAgreed ? "pending" : "queued" ?>', '');
+    }
+<?php js_end() ?>
+<?php endif ?>
+
   <main class="channel-settings">
     <?php echo View::render('acquisition/_youtube_header') ?>
     <section class="section channel pad-top">
@@ -36,7 +43,7 @@
                         </li>
                     </ul>
                 </div>
-                
+
                 <div class="blocks">
                     <div class="block">
                         <p>Your Sync Status<br>
@@ -79,7 +86,7 @@
                         <input type="hidden" name="status_token" id="status_token" value="<?php echo $token?>"/>
                     </div>
                   <?php
-                  if (isset($_GET['error'])): echo "<div>" . "The following error occurred: ". $_GET['error_message']  . " For support please send an email to hello@lbry.io" . "</div>";
+                  if ($error_message): echo "<div>" . "The following error occurred: ". $error_message  . " For support please send an email to hello@lbry.io" . "</div>";
                   endif;?>
                     <div class="block">
                         <label for="channel-name">LBRY Channel ID</label>

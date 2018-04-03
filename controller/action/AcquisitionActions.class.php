@@ -30,7 +30,14 @@ class AcquisitionActions extends Actions
 
   public static function executeYouTube()
   {
-    return ['acquisition/youtube'];
+    if(isset($_GET['error_message'])){
+      $error_message = Request::encodeStringFromUser($_GET['error_message']);
+    }
+
+    return ['acquisition/youtube', [
+        'reward' => LBRY::youtubeReward(),
+        'error_message' => $error_message ?? ''
+    ]];
   }
 
   public static function executeVerify(string $token)
@@ -45,7 +52,19 @@ class AcquisitionActions extends Actions
 
   public static function executeYoutubeStatus(string $token)
   {
-    return ['acquisition/youtube_status', ['token' => $token]];
+    if(isset($_GET['error_message'])){
+      $error_message = Request::encodeStringFromUser($_GET['error_message']);
+    }
+
+    $data = LBRY::statusYoutube($token);
+    if ($data['success'] == false){
+      Controller::redirect('/youtube?error=true&error_message=' . $data['error']);
+    }
+    return ['acquisition/youtube_status', [
+        'token' => $token,
+        'status_token' => $data,
+        'error_message' => $error_message ?? ''
+    ]];
   }
 
   public static function actionYoutubeToken(string $desired_lbry_channel_name)
@@ -55,8 +74,6 @@ class AcquisitionActions extends Actions
 
     if ($desired_lbry_channel_name_is_valid) {
       $token = LBRY::connectYoutube($desired_lbry_channel_name);
-      var_dump($token);
-      var_dump($desired_lbry_channel_name);
       if ($token['success'] == false) {
           Controller::redirect('/youtube?error=true&error_message=' . $token['error']);
       }
@@ -66,8 +83,9 @@ class AcquisitionActions extends Actions
 
     }
   }
-  public static function actionYoutubeEdit($status_token, $channel_name, $email, $sync_consent, $current_value)
+  public static function actionYoutubeEdit($status_token, $channel_name, $email, $sync_consent)
   {
+    $current_value = LBRY::statusYoutube($status_token);
     if($current_value['data']['email'] == $email)
     {
       $status = LBRY::editYoutube($status_token, $channel_name, null, $sync_consent);
@@ -86,6 +104,10 @@ class AcquisitionActions extends Actions
   }
   public static function executeYoutubeEdit(){
     return ['acquisition/youtube_edit'];
+  }
+
+  public static function executeRedirectYoutube(){
+      return ['acquisition/youtube_status_redirect'];
   }
 
   protected static function email_verification($email)

@@ -39,7 +39,7 @@ class Autoloader
 
     $dir = new RecursiveDirectoryIterator(ROOT_DIR, RecursiveDirectoryIterator::SKIP_DOTS);
     $ite = new RecursiveIteratorIterator($dir);
-    $pathIterator = new RegexIterator($ite, '/.*\.class\.php$/', RegexIterator::GET_MATCH);
+    $pathIterator = new RegexIterator($ite, '/.*\.php$/', RegexIterator::GET_MATCH);
     foreach($pathIterator as $paths)
     {
       foreach($paths as $path)
