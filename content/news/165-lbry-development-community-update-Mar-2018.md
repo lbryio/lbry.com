@@ -31,9 +31,8 @@ Considerable progress has been made on the Android app with the discover page no
 
 An alpha build was published to the Google Play Store and notifications have been sent to both our Developer mailing group and our Android waitlist. We believe in the philosophy of “release early, release often,” and it’s working great in this case. We’ve already received a lot of useful feedback, and are looking forward to much more from our passionate community members. That said, please remember that alpha testing isn’t for everyone - the app is very basic and frequently unstable, has bare minimum features, and may turn your phone into a toaster.  
 
-If you’re a developer, sign up on our [Android Alpha landing page](https://lbry.io/android-alpha) to be included in the next round of alpha testing invites!  
+If you’re a developer, sign up on our [Android Alpha landing page](https://lbry.io/android-alpha) to be included in the next round of alpha testing invites! [Google Play Store Link](https://play.google.com/apps/testing/io.lbry.browser) - only available to approved alpha testers, see link above.
 
-[Google Play Store Link](https://play.google.com/apps/testing/io.lbry.browser) (only available to approved alpha testers, see link above)
 ![Playstore](https://spee.ch/d/LBRY-alpha-playstore.jpeg)
 
 ### Search Updates {#search-updates}
