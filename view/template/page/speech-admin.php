@@ -1,5 +1,5 @@
-<?php Response::setMetaDescription(__('description.speech-admin')) ?>
-<?php Response::setMetaTitle(__('title.speech-admin')) ?>
+<?php Response::setMetaDescription(__('Join the battle for free speech on the internet. Your weapon? A keyboard. Your armor? A decentralized content marketplace protocol.')) ?>
+<?php Response::setMetaTitle(__('Fork For Freedom')) ?>
 <?php echo View::render('nav/_header', ['isDark' => true, 'isAbsolute' => true]) ?>
 <main>
   <div class="cover cover-dark cover-center cover-full cover--dark-overlay" style="background-image: url(/img/speech-admin.jpg)">
