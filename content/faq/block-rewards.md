@@ -23,7 +23,7 @@ Eventually 1,000,000,000 LBRY credits will exist. They are awarded on the follow
 
 * The remaining 600,000,000 are mined in 3 stages:
 
-  1. The first stage goes from block 1 to block 5100, and will take roughly 9 days. Every block in this stage has a reward of 1 credit. This
+  1. The first stage goes from block 1 to block 5100 and will take roughly 9 days. Every block in this stage has a reward of 1 credit. This
      is the testing stage, to ensure that there are no glaring problems with the blockchain.
 
   2. The second stage is the ramp-up. It goes from block 5101 to block 55000 (roughly 3 months of mining). During this stage, the block reward

@@ -42,9 +42,9 @@ The Operational Fund is 100m LBC reserved for LBRY, Inc. itself.
 
 LBRY, Inc. reserves the rights to do whatever it wants with these credits at any time, to be deployed in the best interests of LBRY, Inc.
 
-However, no one believes in the LBRY protocol more, or has more incentive for its success, than LBRY, Inc. We believe LBRY can be a world-altering technology and as such our intentions are to minimize the expenditure of these credits until we've achieved that reality.
+However, no one believes in the LBRY protocol more or has more incentive for its success, than LBRY, Inc. We believe LBRY can be a world-altering technology and as such our intentions are to minimize the expenditure of these credits until we've achieved that reality.
 
-Minimal engagement in the market is especially necessary throughout stages of low liquidity, when any action has disproportionate impact.
+Minimal engagement in the market is especially necessary throughout stages of low liquidity when any action has a disproportionate impact.
 
 Should LBRY make placements from this fund, it will seek long-term engagements and commitments that align interests with LBRY, Inc. and minimize market influence.
 

@@ -16,7 +16,7 @@ If you don't have LBRY yet, download it [here](https://lbry.io/get).
 2. Once the application loads, click the `Publish` button in the top right of the screen.
 ![Click the Publish Button](https://spee.ch/de822faa6cda4989f68ec66abe5254bdd1ad031b/1111.jpeg)
 
-3. In the `Channel Name` section click the dropdown and select `New Channel` and  declare the name you would like for your channel. For more details on different channel types, see our write up on [naming](https://lbry.io/faq/naming).
+3. In the `Channel Name` section click the dropdown and select `New Channel` and declare the name you would like for your channel. For more details on different channel types, see our write up on [naming](https://lbry.io/faq/naming).
 ![Click the New Channel Dropdown](https://spee.ch/eb37ca6c6ea9d795bf2fc2a124f52b0084453c40/2222.jpeg)
 
 4. Once your name is selected, there is a `Deposit` section that is below. It requires a minimum bid of 0.0001 LBC (see more on deposits [here](https://lbry.io/faq/naming)). Please ensure that you have enough LBRY credits in your wallet to cover the bid amount.  There is also a small network fee associated with the creation of a channel. 
@@ -33,22 +33,22 @@ If you don't have LBRY yet, download it [here](https://lbry.io/get).
 1. Under the `Content` section click `Choose File`.
 ![Select the Content to Upload](https://spee.ch/7e53708abaab90b89c1e410cb2c3983c79b6b550/Publishing002.png)
 
-2. On your local machine, select the content you would like to upload to LBRY.  LBRY accepts any HTML5 format for streaming video, the full list can be found [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats). This means a web optimized MP4 is the best format. Other file types can also be uploaded, but won't be streamable via the LBRY app.
+2. On your local machine, select the content you would like to upload to LBRY.  LBRY accepts any HTML5 format for streaming video; the full list can be found [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats). This means a web-optimized MP4 is the best format. Other file types can also be uploaded, but won't be streamable via the LBRY app.
 
 
-3. Enter a `Title`, `Thumbnail URL`, and `Description` for your content.  The `Thumbnail URL` is a hyperlink to an image file which will serve as a preview for your content. It can be any image/GIF URL or you can even use [spee.ch](https://www.spee.ch) to host it. The default size is 800x450, but the app will scale up/down. 
+3. Enter a `Title`, `Thumbnail URL`, and `Description` for your content.  The `Thumbnail URL` is a hyperlink to an image file which will serve as a preview for your content. It can be any image/GIF URL, or you can even use [spee.ch](https://www.spee.ch) to host it. The default size is 800x450, but the app will scale up/down. 
 ![Enter File Information](https://spee.ch/d857e3040629145e0f5d70693c02b8016a9d45e6/Publishing003.png)
 
 4. Next, there is a `Language` and `Maturity` which will default to `English` and `All Ages`.  If a change is needed, click the dropdowns and select the appropriate choice. 
 ![Enter Additional Metadata](https://spee.ch/a42fb51e56ab4809002982cea66b7fc44b938776/Publishing004.png)
 
-5. Under the `Access`, first determine if you want to make your video Free or set a price (in USD or LBC) per view. Next, select the appropriate type of license for the content you are publishing.
+5. Under the `Access`, first, determine if you want to make your video Free or set a price (in USD or LBC) per view. Next, select the appropriate type of license for the content you are publishing.
 ![Set Access and License](https://spee.ch/35adbf43f6a8a6cd43fc67d18516ede2f74de86b/Publishing005.png)
 
 6. You have an option to select/create the channel you would like to publish the channel under. If one isn't selected, it will be posted anonymously.
 ![Select Channel](https://spee.ch/d0c7fe044b0237017f0f5af00f79e3880aae201d/Publishing006.png)
 
-7. Type in the URL you want the content to be found under along with a minimum of 0.0001 LBC deposit for the upload (current limit, may change in future). If you are trying to outbid a user friendly/common URL, the system will suggest a minimum bid to take over the content at that vanity URL. There may be a delay for this takeover, check out the `#content` channel on our [Discord chat](https://chat.lbry.io) to see this information (search for your URL). For more details regarding the URL or bid, check out our [naming document](https://lbry.io/faq/naming).
+7. Type in the URL you want the content to be found under along with a minimum of 0.0001 LBC deposit for the upload (current limit, may change in future). If you are trying to outbid a user-friendly/common URL, the system will suggest a minimum bid to take over the content at that vanity URL. There may be a delay for this takeover, check out the `#content` channel on our [Discord chat](https://chat.lbry.io) to see this information (search for your URL). For more details regarding the URL or bid, check out our [naming document](https://lbry.io/faq/naming).
 
 8. Read and agree to the terms of service.
 9. Click `Publish`.
@@ -56,7 +56,7 @@ If you don't have LBRY yet, download it [here](https://lbry.io/get).
 
 ### How do I delete my content and reclaim my deposit? 
 
-1. Click on the folder icon in the top right of the LBRY app. 
+1. Click on the folder icon on the top right of the LBRY app. 
 ![folder icon](https://spee.ch/5/lbryapp-folder-icon.jpeg)
 2. Click on the `Published` tab.
 3. Select the content you want to remove from LBRY 
@@ -70,7 +70,7 @@ If you don't have LBRY yet, download it [here](https://lbry.io/get).
 6. Click `Remove`. If you abandoned your claim, you should see the deposit back in your balance shortly. 
 
 ### How do I edit my existing Published content? 
-1. Click on the folder icon in the top right of the LBRY app. 
+1. Click on the folder icon on the top right of the LBRY app. 
 2. Click on the `Published` tab.
 3. Select the content you want to update.
 4. Click `Edit`.
@@ -91,19 +91,19 @@ Yes, check out LBRY how tipping in LBRY works by going [here](https://lbry.io/fa
 
 ### Can I increase my bid amount?
 
-Yes, this is possible by sending [tips](https://lbry.io/faq/tipping) as a support (additional bids) for your own claim. Since the claim is yours, you can withdraw the tips at your convenience.  To increase your bid, go to the desired claim and click the `Support` option, enter an amount of LBC to add to the claim, and click `Send`. 
+Yes, this is possible by sending [tips](https://lbry.io/faq/tipping) as support (additional bids) for your own claim. Since the claim is yours, you can withdraw the tips at your convenience.  To increase your bid, go to the desired claim and click the `Support` option, enter an amount of LBC to add to the claim, and click `Send`. 
 
 ### How can I tell if someone is downloading my content?
 
-Currently this is only possible if you set a price for your content - you will see transactions in your LBRY wallet as people purchase it. In the future, we will add these types of statistics to LBRY. 
+Currently, this is only possible if you set a price for your content - you will see transactions in your LBRY wallet as people purchase it. In the future, we will add these types of statistics to LBRY. 
 
 ### My video doesn't stream in the app, what's wrong?
 
-The in-app video player's streaming capabilities are limited to MP4 files which are web optimized (metadata is contained at the front of the file). If it's not web optimized, the MP4 will still play in the app, but the entire file will need to be downloaded first. AVI/WMV/MOV files are also not supported within the in-app player. They can be shared/downloaded but will need to be played externally. 
+The in-app video player's streaming capabilities are limited to MP4 files which are web optimized (metadata is contained at the front of the file). If it's not web optimized, the MP4 will still play in the app, but the entire file will need to be downloaded first. AVI/WMV/MOV files are also not supported by the in-app player. They can be shared/downloaded but will need to be played externally. 
 
 ### I shared my URL, but others can't download it. What's up? 
 
-Since LBRY uses a Peer to Peer network, it may require that your PC is accessible through the internet. LBRY also runs servers to assist in content hosting, but this process may fail if your PC cannot send it to us. By default, the sharing port is set to 3333. If your network is properly configured and LBRY is running, a port status check on 3333 should pass on this [port checking tool](https://www.canyouseeme.org). If it fails, you can check if UPNP is enabled on your router or forward port 3333 manually. If you need assistance, check out the [help page](https://lbry.io/faq/how-to-report-bugs) on how to reach us.
+Since LBRY uses a Peer to Peer network, it may require that your PC is accessible through the internet. LBRY also runs servers to assist in content hosting, but this process may fail if your PC cannot send it to us. By default, the sharing port is set to 3333. If your network is properly configured and LBRY is running, a port status check on 3333 should pass on this [port checking tool](https://www.canyouseeme.org). If it fails, you can check if UPnP is enabled on your router or forward port 3333 manually. If you need assistance, check out the [help page](https://lbry.io/faq/how-to-report-bugs) on how to reach us.
 
 ### Where is my Channel and content saved locally?
 
@@ -111,7 +111,7 @@ Channels and content claims are saved to your LBRY Wallet along with your LBRY C
 
 ### How and where can I share my content?
 
-LBRY URLs can be shared to anyone, but they will require the LBRY app in order to view the content. If the content is free and public, it can be retrieved through [spee.ch](https://www.spee.ch) by going to https://spee.ch/<claimname> or https://spee.ch/<@channelname>. You can also share the content on our `#publishers` channel on [Discord](https://chat.lbry.io) where we have a vibrant community with thousands of users. 
+LBRY URLs can be shared with anyone, but they will require the LBRY app in order to view the content. If the content is free and public, it can be retrieved through [spee.ch](https://www.spee.ch) by going to https://spee.ch/<claimname> or https://spee.ch/<@channelname>. You can also share the content on our `#publishers` channel on [Discord](https://chat.lbry.io) where we have a vibrant community with thousands of users. 
 
 ### I'm an advanced user, is there more I can poke around with? 
 

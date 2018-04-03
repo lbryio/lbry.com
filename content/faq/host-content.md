@@ -9,7 +9,7 @@ While the LBRY app is running, it communicates to the network what
 content you're making available.
 
 Think of it like how torrents or any other peer-to-peer (P2P) service 
-works. First you download a file from the hosts that have it available. 
+work. First, you download a file from the hosts that have it available. 
 When the download has finished, you become a host in the network 
 other people can download from. 
 

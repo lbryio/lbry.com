@@ -4,7 +4,7 @@ category: developer
 ---
 
 ## Why use a regtest server
-A regtest server provides for a way to instantly generate blocks so that transactions can be instantaneous, so ultimately no waiting for confirmations from the blockchain. Also, no problem if you accidently corrupt your wallet, since no real funds are lost! Just delete the files and setup a new one.
+A regtest server provides for a way to instantly generate blocks so that transactions can be instantaneous, so ultimately no waiting for confirmations from the blockchain. Also, no problem if you accidentally corrupt your wallet, since no real funds are lost! Delete the files and setup a new one.
 
 ## Setup
 
@@ -38,18 +38,18 @@ discover=0
 
 ### lbryum-server
 
-To install lbryum-server you first need to install the package `leveldb`. After that, download the source from [here](https://github.com/lbryio/lbryum-server/releases), and run the following _not_ inside the environment.
+To install lbryum-server, you first need to install the package `leveldb`. After that, download the source from [here](https://github.com/lbryio/lbryum-server/releases), and run the following _not_ inside the environment.
 ```bash
 cd lbryum-server
 sudo pip2 install -r requirements.txt
 ```
 
-If you're not running debian/*buntu, or a derivative of those, you need to edit the `configure` file a bit. On line 11, remove the `apt-get` line and manually install the required packages. On line 51, change `adduser` to `useradd` and on the same line, change `--disabled-password` to `-p !`.
+If you're not running debian/*buntu or a derivative of those, you need to edit the `configure` file a bit. In line 11, remove the `apt-get` line and manually install the required packages. In line 51, change `adduser` to `useradd` and on the same line, change `--disabled-password` to `-p !`.
 ```bash
 sudo ./configure
 sudo python2 setup.py install
 ```
-The `sudo ./configure` commands creates a new user in the system by the name "lbryum", which is the user through which we'll be the running the server. lbryum-server also need W/R access to `/var/lbryum-server`
+The `sudo ./configure` command creates a new user in the system by the name "lbryum", which is the user through which we'll be the running the server. lbryum-server also need W/R access to `/var/lbryum-server`
 To do that run:
 ```bash
 sudo chown -R lbryum /var/lbryum-server
@@ -69,7 +69,7 @@ type=lbrycrd_regtest
 
 ### lbryum
 
-To install lbryum, first download the source from [here](https://github.com/lbryio/lbryum/releases). To install it, run the following inside the virtual environment.
+To install lbryum, first, download the source from [here](https://github.com/lbryio/lbryum/releases). To install it, run the following inside the virtual environment.
 ```bash
 cd lbryum
 pip2 install -r requirements.txt
@@ -129,7 +129,7 @@ This is to ensure that `lbrynet-daemon` uses the correct wallet.
 To start off, if you've already used LBRY on your machine, you need to backup the wallet by copying the folders `~/.lbrynet` and `~/.lbryum`, then delete them to start from fresh. Run
 `mkdir ~/.lbryum`
 
-Now it should be all set-up, just execute the commands in the following order and the regtest server should be good to go.
+Now it should be all set-up, just execute the commands in the following order, and the regtest server should be good to go.
 
 ### 1) lbrycrd
 

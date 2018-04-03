@@ -28,7 +28,7 @@ documented [here](https://en.bitcoin.it/wiki/Original_Bitcoin_client/API_calls_l
 
 - `USER` and `PASSWORD` can be found in your lbrycrd.conf file.
 - The `method` field can be any of the supported methods like `getbalance` or `getnewaddress`.
-- `9245` is the default port used, but if you chose a custom port for the server, you'll need to use that instead.
+- `9245` is the default port used, but if you chose a custom port for the server, you'd need to use that instead.
 - If the command accepts parameters, they can be passed inside the `params` array.
 
 See Also: [important directories](https://lbry.io/faq/lbry-directories).

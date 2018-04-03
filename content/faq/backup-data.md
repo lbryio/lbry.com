@@ -5,7 +5,7 @@ category: troubleshooting
 
 We have covered LBRY wallet backup procedures in the guide [here](https://lbry.io/faq/how-to-backup-wallet), but the purpose of this guide will be how to backup and/or migrate all your LBRY data which includes your downloads, hosted data, wallet and other settings. To follow this guide effectively, it's a good idea to familiarize yourself with LBRY [working directories](https://lbry.io/faq/lbry-directories), especially the `lbrynet` and `lbryum` folders. ***In the case of Mac OS, the `lbrynet` folder contents are stored inside the `LBRY` folder as detailed on the directories page.*** 
 
-In addition to those two directories, users may also want to copy their LBRY downloads - this directory is normally set to your local Downloads folder but can also be configured via the LBRY app.  To check your LBRY Downloads directory, open the LBRY app and go to Settings - it is listed in the `Download Directory` section.  If you chose not to copy over your Downloads folder, the content can be regenerated from the data in your `lbrynet` folder at a later time via the LBRY app. 
+In addition to those two directories, users may also want to copy their LBRY downloads - this directory is normally set to your local Downloads folder but can also be configured via the LBRY app.  To check your LBRY Downloads directory, open the LBRY app and go to Settings - it is listed in the `Download Directory` section.  If you chose not to copy over your Downloads folder, the content could be regenerated from the data in your `lbrynet` folder at a later time via the LBRY app. 
 
 To summarize, the main directories to consider when backing up or migrating a LBRY installation are as follows:
 ##### - LBRY Wallet - `lbryum`

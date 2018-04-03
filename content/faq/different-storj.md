@@ -2,7 +2,7 @@
 title: How is LBRY different from MaidSafe / Storj?
 category: differences
 ---
-MaidSafe and Storj are attempts to be decentralized platforms that enable many uses, rather than a decentralized protocol designed to serve a singular purpose.
+MaidSafe and Storj are attempting to be decentralized platforms that enable many uses, rather than a decentralized protocol designed to serve a singular purpose.
 
 LBRY is designed to do one thing and only one thing well: the discovery, access, and (optionally) purchase of digital content.
 
