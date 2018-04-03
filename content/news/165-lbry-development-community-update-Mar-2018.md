@@ -111,7 +111,7 @@ The Twitter TipBot bounty was solved internally by the team after open source co
 ![Tipbot](https://spee.ch/d/lbrytipbot.png)
 
 ### LBRY.tech Update
-Initial legwork has begun on our developer/tech resource, lbry.tech. We don’t currently have an ETA on the launch, but it will be released as an early alpha version that includes an alpha draft of the LBRY white paper, all of which will be polished over time as we get feedback from the community. We weren’t joking about “release early, release often”! You can follow progress on our [lbry.tech GitHub repository](https://github.com/lbryio/lbry.tech) for the latest updates. 
+Initial legwork has begun on our developer/tech resource, lbry.tech. We don’t currently have an ETA on the launch, but it will be released as an early alpha version that includes an alpha draft of the LBRY white paper, all of which will be polished over time as we get feedback from the community. We weren’t joking about “release early, release often”! You can follow our progress on the [lbry.tech GitHub repository](https://github.com/lbryio/lbry.tech). 
 
 ### Discord Role Self Assignment and New Member Flow 
 In order to improve the experience for new and existing members of our Discord community, we will be implementing a better system that will allow users to self assign roles based on their activity, purpose and interests. It will also allow more granular controls over which roles have access to particular channels/areas, which will also hopefully improve the overall user experience.
