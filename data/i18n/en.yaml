@@ -27,7 +27,7 @@ description:
   test: WHAT WHAT
   what: Access information and content in ways you never dreamed possible. Earn credits for your unused bandwidth and diskspace.
   guns: Don't let big tech companies take your rights
-  android-app: We're looking for developers to alpha test our Android app - get the details here.
+  android-alpha: We're looking for developers to alpha test our Android app - get the details here.
 download:
   beta: This software is in beta.
   creator: Creator? Skip the Line
@@ -251,7 +251,7 @@ title:
   what: "Art in the Internet Age: An Introduction to LBRY"
   meetup: Have LBRY Join Your Next Meetup!
   guns: LBRY Fights For Free Speech
-  android-app: Be an Android Alpha Tester!
+  android-alpha: Be an Android Alpha Tester!
 roadmap:
   title: LBRY Roadmap
   description: See past and future progress on development of LBRY, the world's first user-controlled digital marketplace.
