@@ -16,7 +16,7 @@ You'll find all this (and a lot more) in LBRY v0.19 - **[get it here](https://lb
 ### Added
   * [Subscriptions](https://github.com/lbryio/lbry-app/issues/715). File and channel pages now show a subscribe button. A new "Subscriptions" tab appears on the homepage shows the most recent content from subscribed channels.
   * [LBC acquisition widget](https://github.com/lbryio/lbry-app/issues/609). Convert other popular cryptos into LBC via a ShapeShift integration.
-  * [Flow](https://flow.org/) static type checking. This is a dev-only feature, but will make development faster, less error prone, and better for newcomers.
+  * [Flow](https://flow.org/) static type checking. This is a dev-only feature but will make development faster, less error-prone, and better for newcomers.
 
 ### Changed
   * The first run process for new users has changed substantially. New users can now easily receive one credit.
@@ -29,7 +29,7 @@ You'll find all this (and a lot more) in LBRY v0.19 - **[get it here](https://lb
   * Windows path to the daemon/CLI executables changed to: C:\Program Files (x86)\LBRY\resources\static\daemon
 
 ### Deprecated
-  * We previous had two separate modals for insufficient credits. These have been combined.
+  * We previously had two separate models for insufficient credits. These have been combined.
   
 ### Fixed
   * Long channel names causing inconsistent thumbnail sizes.

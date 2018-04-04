@@ -1,4 +1,4 @@
----
+﻿---
 author: reilly-smith
 title: 'Clash Cash'
 date: '2018-02-22 00:20:00'
@@ -10,7 +10,7 @@ Are casual mobile games *really* casual?
 
 <video width="100%" controls poster="http://berk.ninja/thumbnails/TW-sWnxiHrs" src="https://spee.ch/37763ba30c3714491816fec88ff208c3fc42ea00/boosted-troops-loot-clash-of-clans.mp4"/></video>
 
-A long time Clash series veteran [@nickatnyte](https://open.lbry.io/%40nickatnyte) (and more at [@nickatnyte2](https://open.lbry.io/%40nickatnyte2)) Nick Nyte and his guests dive deeper into the casual/mobile genre than you ever thought possible, digging out every last bit of strategy there is to glean.
+A longtime Clash series veteran [@nickatnyte](https://open.lbry.io/%40nickatnyte) (and more at [@nickatnyte2](https://open.lbry.io/%40nickatnyte2)) Nick Nyte and his guests dive deeper into the casual/mobile genre than you ever thought possible, digging out every last bit of strategy there is to glean.
 
 He’s also a popular Fortnite streamer if action games are more your style. Either way, Nick’s knowledge and charisma make long streams fly by in an instant.
 

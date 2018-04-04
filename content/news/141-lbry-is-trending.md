@@ -11,7 +11,7 @@ The latest LBRY app, v0.18, is now available! **[Get it here](https://lbry.io/ge
 
 ### Added
 * Trending! The landing page of the app now features content that is surging in popularity relative to past interest.
-* The app now closes to the system tray. This will help improve publish seeding and network performance. Directing the app to quit or exit will close it entirely. (#374)
+* The app now closes to the system tray. This will help to improve publish seeding and network performance. Directing the app to quit or exit will close it entirely. (#374)
 * You can now revoke past publishes to receive your credits. (#581)
 * You can now unlock tips sent to you so you can send them elsewhere or spend them. (#581)
 * Added new window menu options for reloading and help.

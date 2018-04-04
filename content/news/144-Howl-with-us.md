@@ -1,4 +1,4 @@
----
+﻿---
 author: samuel-lbryian
 title: 'Howl With Us'
 date: '2017-11-24 00:20:30'
@@ -10,7 +10,7 @@ cover: ''
 
 LBRY is kicking off #MovieTuesday with the critically acclaimed **Howl**, a biopic that brings Allen Ginsberg’s obscenity trial to surreal life with animated sequences and powerful performances from James Franco, Jon Hamm, and Jeff Daniels. 
 
-Join us on our [Discord #general channel](http://chat.lbry.io/) when we press play at 8PM ET tonight (11/28) to watch along with the LBRY team, provide deep critical exegesis, and maybe heckle a bit. 
+Join us on our [Discord #general channel](http://chat.lbry.io/) when we press play at 8 PM ET tonight (11/28) to watch along with the LBRY team, provide an in-deep critical explanation, and maybe harass a bit. 
 
 Use [this link](https://open.lbry.io/howl-lbry-movie-night) to watch **Howl** in the LBRY app.
 

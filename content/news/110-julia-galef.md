@@ -1,14 +1,14 @@
----
+﻿---
 author: reilly-smith
 title: 'Rationale'
 date: '2017-05-11 00:19:30'
 cover: 'juliagalef-banner3.jpg'
 ---
-Like many internet technologies, the LBRY network was born not only as a response to economic incentives, but as a philosophical and ethical answer to the status quo.
+Like many internet technologies, the LBRY network was born not only as a response to economic incentives but as a philosophical and ethical answer to the status quo.
 
 In our case, the status quo are monolithic content distribution giants.
 
-Every now and then, some high level reflection can be a powerful tool. And there is no one better at that than rationality rock star Julia Galef.
+Now and then, some high-level reflection can be a powerful tool. And there is no one better at that than rationality rock star Julia Galef.
 
 ![Julia Galef](/img/news/juliagalef-inline.jpg)
 

@@ -1,4 +1,4 @@
----
+﻿---
 author: mike-vine
 title: 'Answers to the Big Questions from Our Reddit AMA'
 date: '2016-09-28 00:06:18'
@@ -55,13 +55,13 @@ LBRY is working well as a brand so far. SEO is a top consideration for startup b
 **How does LBRY benefit content creators? Can I make money using LBRY?**
 ----
 
-In our AMA title, we pitched LBRY as a “community-driven” YouTube alternative that could “save the internet.” That’s a lot of big talk, but what does it mean for the people who care most about the changes happening at YouTube – content creators?
+In our AMA title, we pitched LBRY as a “community-driven” YouTube alternative that could “save the internet.” That’s a lot of big talks, but what does it mean for the people who care most about the changes happening at YouTube – content creators?
 
-If you are earning money from your videos on YouTube right now, you are likely familiar with the recent controversies over videos being “de-monetized” for containing content unfriendly to advertisers. It’s no surprise that YouTube caters to advertisers, because those are its ultimate customers.
+If you are earning money from your videos on YouTube right now, you are likely familiar with the recent controversies over videos being “de-monetized” for containing content unfriendly to advertisers. It’s no surprise that YouTube caters to advertisers because those are its ultimate customers.
 
 LBRY is not an ad-driven media service. In fact, it’s not a traditional media service at all. LBRY is an open protocol that allows you to publish your videos to the network at no cost to you and set a price per stream or download. Because LBRY is a protocol and not a corporate store, there is no approval process for content to be listed and no authority that can “de-monetize” your videos. That’s between you and your fans.
 
-With LBRY, pricing is completely at the discretion of the creator and 100% of that price goes to the creator. Compare this to iTunes’ fixed pricing tiers and 30% cut of every sale.
+With LBRY, pricing is completely at the discretion of the creator, and 100% of that price goes to the creator. Compare this to iTunes’ fixed pricing tiers and 30% cut of every sale.
 
 Because LBRY uses digital currency (a la Bitcoin), creators can accept micropayments for every view without worrying about credit card processing fees. Or a studio could use LBRY to distribute a theatrical release to independent theaters and charge thousands of dollars per download. The only constraint on pricing is what your viewers are willing to pay.
 
@@ -77,7 +77,7 @@ Do you watch YouTube? Imagine paying a few cents to eliminate all ads. 100% of t
 
 Do you use BitTorrent? Imagine getting paid to seed files into the network. Because there is a marketplace for these files, you can finally find rare songs and films that can’t support a torrent swarm based on popularity alone.
 
-Do you shop on the iTunes Store? Imagine paying less for songs, TV episodes, and music videos and having 100% of the price directly to the creators.
+Do you shop at the iTunes Store? Imagine paying less for songs, TV episodes, and music videos and having 100% of the price directly to the creators.
 
 LBRY is a digital media library at your fingertips. It can store any kind of content and make it available at low cost on demand. In a few years time, LBRY may become your one-stop-shop for everything digital, from ebooks to video games to movies. One app to rule them all – but still leaving more power in your hands because it is decentralized by design.
 
@@ -85,13 +85,13 @@ LBRY is a digital media library at your fingertips. It can store any kind of con
 **What is LBRY exactly – is it a protocol, an app, a website, a company?**
 ----
 
-LBRY is many components working together. For most users, it will just be a place where they can find great videos, music, ebooks, and more. A vast digital library available on all of your devices.
+LBRY is many components working together. For most users, it will just be a place where they can find great videos, music, ebooks, and more. A vast digital library that is available on all of your devices.
 
 But behind that experience is an ecosystem that can be hard to understand at first – especially because we tend to refer to all the pieces and the system-as-a-whole as “LBRY”. (We’re working on clearing that up.)
 
 It might be easier to start with what LBRY is not: it is not just another corporate media service like YouTube or iTunes or Spotify. It is first and foremost a new *protocol* that allows artists to upload their content to a network of hosts (like BitTorrent) and set a price per stream or download (like iTunes) or give it away for free (like YouTube without ads). What makes this all possible is the blockchain technology developed by the founder of Bitcoin. Do you have to understand any of this to use and enjoy LBRY? No. Does it still matter to users? Yes!
 
-Gmail has built an extremely popular email service on top of the near-universal *SMTP protocol* that everyone uses to exchange emails. Anyone sending email with SMTP can communicate with Gmail addresses, no matter what email platform they use (Yahoo!, AOL, iCloud, etc.). Google can’t interfere with someone emailing from an @yahoo.com address to an @aol.com address – and users are free to switch between services at any time, taking their emails with them. Users have a lot of power in open protocols that is often taken for granted.
+Gmail has built an extremely popular email service on top of the near-universal *SMTP protocol* that everyone uses to exchange emails. Anyone sending an email with SMTP can communicate with Gmail addresses, no matter what email platform they use (Yahoo!, AOL, iCloud, etc.). Google can’t interfere with someone emailing from an @yahoo.com address to an @aol.com address – and users are free to switch between services at any time, taking their emails with them. Users have a lot of power in open protocols that is often taken for granted.
 
 Compare this to a proprietary, centrally controlled service like Facebook Messenger. If you conduct all of your social communications via Messenger, you’re stuck in that environment – you cannot move your messages or contacts over to Google Chat or Skype. And if Facebook changes the way Messenger functions by censoring conversations or sharing your information with advertisers or governments, tough luck.
 
@@ -101,7 +101,7 @@ There is no such risk of top-down corruption with the LBRY protocol. Content upl
 
 Now, the LBRY project is more than just a revolutionary new protocol. It is also a company, *LBRY Inc.*, which is developing a *LBRY app* to allow users to easily interact with the protocol. So it’s as if Google had developed the email protocol, released it to the world for free, and then built Gmail to help people make use of it. Not only is our app completely open-source, but others are welcome to create competing apps that also use the LBRY protocol. For a content creator, your uploaded content will be available to all of these apps at the same time.
 
-Do you see the difference here? YouTube can afford to push around its creators and users because they’ve created tremendous lock-in. LBRY is challenging this model from the ground-up. Everything we’ve built is open-source, decentralized, and belongs to the community using it. LBRY Inc. could go bankrupt tomorrow and the LBRY protocol will live on. Can YouTube say that?
+Do you see the difference here? YouTube can afford to push around its creators and users because they’ve created tremendous lock-in. LBRY is challenging this model from the ground-up. Everything we’ve built is open-source, decentralized, and belongs to the community using it. LBRY Inc. could go bankrupt tomorrow, and the LBRY protocol will live on. Can YouTube say that?
 
 <a name="auction"></a>
 **LBRY’s “auction-based” name system sounds unworkable. Why don’t you just assign names the same way as internet domains?**
@@ -111,19 +111,19 @@ First, it’s important to know that assigning names in a decentralized system i
 
 Let’s look at the internet’s standard domain name system (DNS). DNS is a centralized service run by an organization called ICANN. [There’s actually a bit of controversy going on right now about who should control ICANN](http://www.economist.com/news/leaders/21707538-internet-not-american-whatever-ted-cruz-thinks-road-surfdom), which until now has been under the supervision of the US Department of Commerce. ICANN grants registrars the ability to lease domain names for 1-year terms. Registrars pay enormous fees to participate in this system, and individuals/companies can end up paying substantial fees to maintain a particular domain. That is to say, ICANN is a pretty lucrative racket for those involved.
 
-And the results aren’t even that good! Not only are domain names still very awkward (http://www.THENAMEIWANT.somethingelse), but they are highly vulnerable to squatters. Domain name squatting has become an industry unto itself, with speculators viewing it like owning real estate. Unfortunately, as with real estate, the market is opaque and transaction costs are high. Unlike real estate, the scarcity of ICANN domains is basically artificial, depending on a committee to approve new top-level domains (TLDs) at their whim.
+And the results aren’t even that good! Not only are domain names still very awkward (http://www.THENAMEIWANT.somethingelse), but they are highly vulnerable to squatters. Domain name squatting has become an industry unto itself, with speculators viewing it like owning real estate. Unfortunately, as with real estate, the market is opaque, and transaction costs are high. Unlike real estate, the scarcity of ICANN domains is basically artificial, depending on a committee to approve new top-level domains (TLDs) at their whim.
 
-So we thought, “what if there were a better way?” Consulting with economists, we devised LBRY’s nameclaim system. LBRY names are awarded to the highest bidder. Our team believes that with a system like this, names will be controlled by the people who get the most value out of them – which is almost always the creator of the content. Radiohead would get a lot more value out of lbry://amoonshapedpool than a squatter, pirate, or troll.
+So we thought, “what if there were a better way?” Consulting with economists, we devised LBRY’s name-claim system. LBRY names are awarded to the highest bidder. Our team believes that with a system like this, names will be controlled by the people who get the most value out of them – which is almost always the creator of the content. Radiohead would get a lot more value out of lbry://amoonshapedpool than a squatter, pirate, or troll.
 
-Before jumping to conclusions about the nameclaim system, here are a few key details:
+Before jumping to conclusions about the name-claim system, here are a few key details:
 
-1. **Names aren’t bought, only reserved – no credits are lost, only put on deposit.** If you win the auction for a name, your credits are held with that name until you decide to withdraw them (at any time you wish). You aren’t buying the name from anyone and no one profits off of the transfer of names. It’s just a test of who is willing to deposit the most credits toward a name. The only cost is that you can’t spend the credits on content or cash them out while they are reserving a name.
+1. **Names aren’t bought, only reserved – no credits are lost, only put on deposit.** If you win the auction for a name, your credits are held with that name until you decide to withdraw them (at any time you wish). You aren’t buying the name from anyone, and no one profits off of the transfer of names. It’s just a test of who is willing to deposit the most credits toward a name. The only cost is that you can’t spend the credits on content or cash them out while they are reserving a name.
 
 2. **The longer a name is held, the longer the holder has to counterbid.** You don’t just lose the name immediately if a bigger bidder comes along – especially if you’ve held it for awhile. The time to counterbid scales up to ~1 week.
 
-3. **Other users can pledge credits to support the nameclaim of a creator they like.** If you claim lbry://bestmovieever and your film lives up to the hype, users may show their support by pledging some credits to make sure you hold onto that name.
+3. **Other users can pledge credits to support the name-claim of a creator they like.** If you claim lbry://bestmovieever and your film lives up to the hype, users may show their support by pledging some credits to make sure you hold onto that name.
 
-4. **Names are not like Youtube channels; they’re more like search terms.** Publishers will each get a unique ID that serves as their “channel” and shows all the content they upload. This ID will form permanent links so you can embed your videos on websites and include the link in promotional materials. The bidding system is only meant to get traffic from users trying to “discover” your content through the naming system. Since every comedy video would want to be at lbry://comedy, the nameclaim system allows the name to go to the creator who can make the most revenue off of it.
+4. **Names are not like Youtube channels; they’re more like search terms.** Publishers will each get a unique ID that serves as their “channel” and shows all the content they upload. This ID will form permanent links so you can embed your videos on websites and include the link in promotional materials. The bidding system is only meant to get traffic from users trying to “discover” your content through the naming system. Since every comedy video would want to be at lbry://comedy, the name-claim system allows the name to go to the creator who can make the most revenue off of it.
 
 Our Reddit AMA made clear that this system makes people uncomfortable. No doubt it is unlike anything we've seen before on the net. For creators, it's a tradeoff. You might lose a valuable name, but you also don't have to worry about people squatting on the best names. Squatting has plagued projects like Namecoin and is only (poorly) resolved by ICANN at the cost of much expense and centralization.
 
@@ -131,7 +131,7 @@ Our economic advisor Alex Tabarrok notes:
 
 >“Auctions have many great properties, but the public doesn’t like auctions very much. Although participating in an auction is fun for some; others find it annoying. It requires inputs of time and risk, and no one likes being outbid at the last minute.”
 
-So, the short answer is that we’re aware that this an experiment within an experiment. We’re trying to solve a very hard problem in a novel way. It’s important to note that LBRY doesn't depend on the naming system, but we're committed to giving it a chance.
+So, the short answer is that we’re aware that this an experiment within an experiment. We’re trying to solve a tough problem in a novel way. It’s important to note that LBRY doesn't depend on the naming system, but we're committed to giving it a chance.
 
 <a name="noauction"></a>
 **If I don’t want to deal with name auctions at all, what are my options?**
@@ -139,7 +139,7 @@ So, the short answer is that we’re aware that this an experiment within an exp
 
 We don’t want to see the naming system scare off potential users. And if it fails to work as planned, we don’t want it to take down the whole LBRY project.
 
-Rest assured, we’re implementing permanent URLs that are **always yours**. You will have one link that contains all your LBRY content you can use in promotional materials or share online – just like a Youtube channel URL.
+Rest assured, we’re implementing permanent URLs that are **always yours**. You will have one link that contains all of your LBRY content you can use in promotional materials or share online – just like a Youtube channel URL.
 
 Using this approach, you can bypass the auction system entirely. You could even have a regular domain name, like www.jackscodingclass.com, point to all of your content on LBRY.
 
@@ -155,7 +155,7 @@ Here’s how LBRY Inc. **doesn’t** make money:
 
 - **We do not take a cut of any transactions.** When you buy content on LBRY, 100% of the listed price goes to the publisher. There is also a fee paid to the decentralized network of hosts that store and deliver the content to you. LBRY Inc. doesn’t take any of that unless the company is publishing or hosting content itself. The same rules apply to everyone.
 - **We do not earn profits from auctioning of names**, nor do we benefit from bidding wars over names. Our goal with the naming system is simply to allocate names most efficiently to benefit users.
-- **This is not a “pump and dump” scheme or vaporware.** See my essay [$1.2B Valuation and We Don’t Care](https://lbry.io/news/1.2b-market-cap-we-dont-care). LBRY credits have already experienced a bubble and we paid it no mind. LBRY is real software with a live blockchain and thousands of active users. Our goal is to increase the long-term value of the protocol, which if adopted globally will make our reserve many times more valuable than any short-term bubble. We’ve already invested 10,000 man hours into this project and it will take many more, but we’re patient and focused on the future.
+- **This is not a “pump and dump” scheme or vaporware.** See my essay [$1.2B Valuation and We Don’t Care](https://lbry.io/news/1.2b-market-cap-we-dont-care). LBRY credits have already experienced a bubble, and we paid it no mind. LBRY is real software with a live blockchain and thousands of active users. Our goal is to increase the long-term value of the protocol, which if adopted globally will make our reserve many times more valuable than any short-term bubble. We’ve already invested 10,000 working hours into this project, and it will take many more, but we’re patient and focused on the future.
 
 We are also exploring ways to generate revenue above our credit reserve, including providing value-added services to LBRY users and/or consulting to large content producers who want to harness LBRY. But remember, by design, **we are not able** to singlehandedly change the rules on users in an attempt to “monetize” all of your contributions to the network.
 
@@ -163,7 +163,7 @@ We are also exploring ways to generate revenue above our credit reserve, includi
 **What is LBRY’s development status right now? Plans for the future?**
 ----
 
-LBRY is currently in invite-only beta, with desktop apps for Linux, MacOS, and a pre-release version of Windows. There are approximately 5K active users and hundreds of content creators. The network already hosts big name content like the [feature film *It’s A Disaster*](https://lbry.io/news/launch-a-disaster) and videos from [Adult Swim’s MillionDollarExtreme](https://lbry.io/news/mde-on-lbry). We announce new featured content every Thursday on our [blog](https://lbry.io/news), [Twitter](https://twitter.com/lbryio), and [Facebook](https://www.facebook.com/lbryio).
+LBRY is currently in invite-only beta, with desktop apps for Linux, MacOS, and a pre-release version of Windows. There are approximately 5K active users and hundreds of content creators. The network already hosts big-name content like the [feature film *It’s A Disaster*](https://lbry.io/news/launch-a-disaster) and videos from [Adult Swim’s MillionDollarExtreme](https://lbry.io/news/mde-on-lbry). We announce new featured content every Thursday on our [blog](https://lbry.io/news), [Twitter](https://twitter.com/lbryio), and [Facebook](https://www.facebook.com/lbryio).
 
 The waitlist to get into the beta is ~150K people long. This shocks even us, and we’re racing to get the user experience and backend technologies to a level where we’re comfortable opening the beta to everyone. The target for open beta is this winter. Mushy target, we know, but these things are hard to time.
 
@@ -173,9 +173,9 @@ In the meantime, we could use your encouragement. This is a difficult project th
 **Why should I care about LBRY if I can’t even use it yet?**
 ----
 
-A lot of people won’t care about LBRY until it can deliver them immediate benefits. That’s fair and we understand.
+A lot of people won’t care about LBRY until it can deliver them immediate benefits. That’s fair, and we understand.
 
-The advantage of getting involved right now is the same as following a local band that you’d like to see make it big. You have the opportunity to have very direct contact with our dev team. You can make suggestions and shape the course of LBRY. You can [earn bounties](https://lbry.io/bounty) for helping to build and promote LBRY. You can connect with our truly amazing community of people, like [Javier from Venezuela who says LBRY gave him new hope for life](https://lbry.io/news/day-in-shoes-venezuelan). You can [post your content to the network](https://lbry.io/publish) before it is mainstream and get attention and appreciation from our early adopters – not to mention a possible prize of $1000 in LBC.
+The advantage of getting involved right now is the same as following a local band that you’d like to see that make it big. You have the opportunity to have very direct contact with our dev team. You can make suggestions and shape the course of LBRY. You can [earn bounties](https://lbry.io/bounty) for helping to build and promote LBRY. You can connect with our amazing community of people, like [Javier from Venezuela who says LBRY gave him new hope for life](https://lbry.io/news/day-in-shoes-venezuelan). You can [post your content to the network](https://lbry.io/publish) before it is mainstream and get attention and appreciation from our early adopters – not to mention a possible prize of $1000 in LBC.
 
 Or get involved because it’s rare to get an opportunity to be part of a project that could reshape the fabric of the internet and creative media for years to come.
 

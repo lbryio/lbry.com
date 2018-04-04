@@ -1,10 +1,10 @@
----
+﻿---
 author: reilly-smith
 title: 'Ceci n’est pas une pipe'
 date: '2016-11-17 00:06:00'
 cover: 'coherence-banner.jpg'
 ---
-If you thought your thanksgiving dinner party was about to get weird… you ain’t seen nothing yet. This week we bring you: [*Coherence*](lbry://coherence).
+If you thought your Thanksgiving dinner party was about to get weird… you ain’t seen nothing yet. This week we bring you: [*Coherence*](lbry://coherence).
 
 An ensemble piece. Science fiction. Horror. *Coherence* is a stroke of independent film genius that only graces us once in a blue moon. Or in this case, a blue comet.
 

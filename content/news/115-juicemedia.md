@@ -1,4 +1,4 @@
----
+﻿---
 author: reilly-smith
 title: 'Pass the Juice'
 date: '2017-06-08 00:08:00'
@@ -10,13 +10,13 @@ But when your life doesn’t depend on ratings and ad dollars, all of a sudden, 
 
 ![The Juice Media](/img/news/juicemedia-inline.PNG)
 
-Corporate welfare, crony oil, coral reef decay, and other C-words like Corrupt Politicians and Corrupter McCorruptisons, no sin goes unscathed in the realest news satire on the web. The Juice Media, while covering plenty of news for local Aussies, has probably nailed a world leader in your area with a bad Yelp review at least once.
+Corporate welfare, crony oil, coral reef decay, and other C-words like Corrupt Politicians and Corrupter McCorruptisons, no sin goes unscathed in the most real news satire on the web. The Juice Media, while covering plenty of news for local Aussies, has probably nailed a world leader in your area with a bad Yelp review at least once.
 
 Donate to [their Patreon here](https://www.patreon.com/TheJuiceMedia), and look for your new favorite way to consume current events on LBRY, available soon at:
 
 - lbry://@thejuicemedia
 
-And add you channel to the LBRY queue like Juice Media,  in a single click using this tool:
+And add your channel to the LBRY queue like Juice Media,  in a single click using this tool:
 
 - https://api.lbry.io/yt/connect?type=sync
 

@@ -1,4 +1,4 @@
----
+﻿---
 author: reilly-smith
 title: 'Will the Real Slim Shady Please Sit Down'
 date: '2016-10-06 00:06:00'
@@ -16,7 +16,7 @@ In his first video, [TJ in Berlin](lbry://sporthock-berlin), Trenton “TJ” Ra
 
 ![More sporthocking](/img/news/sporthock-inline2.png)
 
-Inspired by guys freestyling tricks with homemade stools in the German city of Kiel, the Landschutz brothers designed the first Sporthocker prototype in 2006. Today, they own a Sporthocker brand and product design company called [Salzig in Berlin, Germany](http://www.sporthocker.com/en/). They’ve travelled two European tours and hold annual events for the budding sport.
+Inspired by guys freestyling tricks with homemade stools in the German city of Kiel, the Landschutz brothers designed the first Sporthocker prototype in 2006. Today, they own a Sporthocker brand, and product design company called [Salzig in Berlin, Germany](http://www.sporthocker.com/en/). They’ve travelled two European tours and hold annual events for the budding sport.
 
 This is a sport worth checking out. See the tour of Europe today:
 

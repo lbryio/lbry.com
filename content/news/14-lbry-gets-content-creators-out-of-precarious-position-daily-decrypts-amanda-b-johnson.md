@@ -1,4 +1,4 @@
----
+﻿---
 author: samuel-lbryian
 title: "LBRY Gets Content Creators Out of Precarious Position - Daily Decrypt's Amanda B. Johnson"
 date: '2015-10-26 15:10:51'
@@ -24,10 +24,10 @@ These risks are what attracts The Daily Decrypt team to LBRY. The LBRY protocol 
 
 In Bitcoin, if one or a hundred or even a thousand "hosts" go offline, Bitcoin still lives on. And so it would be with LBRY. A loss of LBRY hosts would not spell a loss of LBRY content itself; not spell a loss of content creators' hard-built businesses.
 
-This is what censorship-resistance looks like. As information itself becomes more integral – not only to our livelihoods, but to our lives – the most censorship-resistant tools will emerge as the preferable choice. The Daily Decrypt hopes to be among the first to host our content using such a tool.
+This is what censorship-resistance looks like. As information itself becomes more integral – not only to our livelihoods but our lives – the most censorship-resistant tools will emerge as the preferable choice. The Daily Decrypt hopes to be among the first to host our content using such a tool.
 
 ![Amanda](http://tracesofreality.com/wp-content/uploads/2013/09/amanda-billyrock.jpg)
 
-**Amanda B. Johnson** is host of [The Daily Decrypt](https://www.youtube.com/channel/UCqNCLd2r19wpWWQE6yDLOOQ). She has written on cryptocurrencies for Bitcoin Magazine, CoinTelegraph, Bitcoin.com, and Liberty.me.
+**Amanda B. Johnson** is the host of [The Daily Decrypt](https://www.youtube.com/channel/UCqNCLd2r19wpWWQE6yDLOOQ). She has written on cryptocurrencies for Bitcoin Magazine, CoinTelegraph, Bitcoin.com, and Liberty.me.
 
-*Are you a content creator who is tired of middle men standing between you and your audience? [Sign up](https://lbry.io/get) to be reminded when LBRY launches and we'll see you there!*
+*Are you a content creator who is tired of intermediaries standing between you and your audience? [Sign up](https://lbry.io/get) to be reminded when LBRY launches and we'll see you there!*

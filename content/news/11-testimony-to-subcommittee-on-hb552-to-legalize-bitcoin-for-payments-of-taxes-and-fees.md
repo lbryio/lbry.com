@@ -1,4 +1,4 @@
----
+﻿---
 author: jeremy-kauffman
 title: "Testimony to Subcommittee on NH HB552, To Legalize Bitcoin for Payments of Taxes and Fees"
 date: '2015-09-17 02:49:17'
@@ -24,19 +24,19 @@ Additionally, I’ve answered the 3 questions proposed by Treasurer Ohm.
 
 *1) Should the Treasurer accept commodities for payments? (The IRS has classified bitcoin as a commodity)*
 
-With no offense to Mr. Ohm, no one is asking for him to accept payment in Hard Red Wheat #3. A better way to ask this question is, “Should the Treasurer accept a method of payment that is desired by the people and their representatives, costs the state little money and no risk, and has the potential to bring jobs to the state?”
+With no offense to Mr. Ohm, no one is asking for him to accept payment in Hard Red Wheat #3. A better way to ask this question is, “Should the Treasurer accept a method of payment that is desired by the people and their representatives, costs the state a little money and no risk, and has the potential to bring jobs to the state?”
 
 My answer is a resolute yes.
 
-*2) If so, what commodities should be accepted? Stocks, bonds, gold bars, bitcoins, etc?*
+*2) If so, what commodities should be accepted? Stocks, bonds, gold bars, bitcoins, etc.?*
 
 My answer is inferable from above. The Treasurer should accept any method of payment that is desired by the people and costs the state little money or risk. Jobs are just a bonus.
 
-Also note that Bitcoin is not like the other items mentioned as it is a payment system.
+Also, note that Bitcoin is not like the other items mentioned as it is a payment system.
 
 *3) What are the risks in liquidating the commodity?*
 
-Bitcoin processors offer an ability to convert to dollars instantly. You can be absolutely, 100% guaranteed that you will get the exact dollar amount specified as due by companies backed by hundreds of millions of dollars in venture capital. Bitcoin processors are not dubious operations, they are highly reputable. Practically every major bank in the entire world is pouring millions of dollars into this technology right now.
+Bitcoin processors offer an ability to convert to dollars instantly. You can be absolute, 100% guaranteed that you will get the exact dollar amount specified as due by companies backed by hundreds of millions of dollars in venture capital. Bitcoin processors are not dubious operations; they are highly reputable. Practically every major bank in the entire world is pouring millions of dollars into this technology right now.
 
 Additionally, whichever processor lands the New Hampshire government will be a huge coup for the company. The ability to award this contract alone will offer immediate positive effects.
 

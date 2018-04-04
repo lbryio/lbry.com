@@ -1,4 +1,4 @@
----
+﻿---
 author: samuel-lbryian
 title: 'LBRY’s New Media Advisor: An Artist, A Businessman, A Gentleman'
 date: '2016-09-20 00:06:18'
@@ -19,4 +19,4 @@ Ray isn’t just a businessman; he’s an artist himself. He earned a BS in phot
 
 Ray said he is most excited about how LBRY will benefit artists and content creators:
 
->“LBRY promises to cut out layers upon layers of middlemen so more of the value goes to the creators – the artists - the talent! It's the answer to a problem that just couldn't be solved without this technology.”
+>“LBRY promises to cut out layers upon layers of middlemen, so more of the value goes to the creators – the artists - the talent! It's the answer to a problem that just couldn't be solved without this technology.”

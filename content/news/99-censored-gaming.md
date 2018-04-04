@@ -1,4 +1,4 @@
----
+﻿---
 author: reilly-smith
 title: 'Play No Evil'
 date: '2017-03-09 00:19:00'
@@ -14,9 +14,9 @@ No channel covers this better than Censored Gaming.
 
 ![Censored Gaming](/img/news/censored-inline2.jpg)
 
-Since the dawn of video games and interactive media, what people should and shouldn’t be able to do in a game has remained forever a hot button issue.
+Since the dawn of video games and interactive media, what people should and shouldn’t be able to do in a game has remained a hot-button issue forever.
 
-From 16bit “boobs” measuring a hefty 3 pixels bra size, to the hot coffee mod scandal of Grand Theft Auto: San Andreas, to the different cultural interpretations of meaning between Japanese and American game translations, to the Red Cross owning the IP to pictures of red crosses... no pixel is left unturned in Dan and the Censored Gaming team’s pursuit of shining a light on censorship.
+From 16bit “boobs” measuring a hefty 3 pixels bra size to the hot coffee mod scandal of Grand Theft Auto: San Andreas, to the different cultural interpretations of meaning between Japanese and American game translations, to the Red Cross owning the IP to pictures of red crosses... no pixel is left unturned in Dan and the Censored Gaming team’s pursuit of shining a light on censorship.
 
 Free your voice while being delightfully entertaining. Censored Gaming and LBRY are a match made in 1st Amendment heaven.
 

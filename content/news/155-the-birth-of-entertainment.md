@@ -1,10 +1,10 @@
----
+﻿---
 author: brinck-slattery
 title: 'The Birth Of Entertainment'
 date: '2018-11-17 14:00:00'
 cover: 'muses.jpg'
 ---
-The arts have always been a difficult business. In the 1600s, the arts were so competitive that poets and producers hired professional applauders called [claques](https://en.wikipedia.org/wiki/Claque). Shakespeare’s plays have literally [caused riots](https://culturacolectiva.com/books/history-of-riot-at-the-astor-place-shakespeare/). Managing fans and haters has always been a challenge, and our modern mass media culture has been forged in the birth and death of a thousand fandoms.
+The arts have always been a difficult business. In the 1600s, the arts were so competitive that poets and producers hired professional applauders called [claques](https://en.wikipedia.org/wiki/Claque). Shakespeare’s plays have literally [caused riots](https://culturacolectiva.com/books/history-of-riot-at-the-astor-place-shakespeare/). Managing fans and haters have always been a challenge, and our modern mass media culture has been forged in the birth and death of a thousand fandoms.
 
 While fan culture seems to be an enduring part of the human experience, the production of art and entertainment has radically changed since we started scribbling on cave walls. It’s easy to assume that things have always been the way they are, but people in the past approached entertainment in a very different way than we do today.  
 
@@ -19,14 +19,14 @@ People have been making art for about 27,000 years, for the same reasons they do
 
 ## Greece (The Musical)
 
-The first public performances popped up in ancient Athens, and the cost of these productions led to the first known patronage relationships in the arts. Theater was important to the Athenians, and they had enough wealthy merchants committed to the theater that they could afford to put on serious shows. Every spring at a feast called the Dionysia, playwrights would compete for the favor of the city in what was basically an ancient Sundance.
+The first public performances popped up in ancient Athens, and the cost of these productions led to the first known patronage relationships in the arts. The theater was important to the Athenians, and they had enough wealthy merchants committed to the theater that they could afford to put on serious shows. Every spring at a feast called the Dionysia; playwrights would compete for the favor of the city in what was basically an ancient Sundance.
 
 ![His work is so transgressive](https://spee.ch/2/Aeschylusathens215.jpeg)
 
 <div style="font-size:small; text-align: center">"Don’t forget I’m on a dialogue-writing panel at 3PM with Sophocles"</div>
 <br>
 
-One wealthy Athenian was named the [Choregos](https://en.wikipedia.org/wiki/Choregos) each year, and made responsible for producing the winning play. That included paying for costumes, a director, scenery, props, musicians and actors (except for the flute player and non-chorus actors, who were provided by the state for arcane reasons). And just like today, entertainment was an expensive pursuit - some productions cost ten times as much as a skilled worker earned in a year.
+One wealthy Athenian was named the [Choregos](https://en.wikipedia.org/wiki/Choregos) each year and made responsible for producing the winning play. That included paying for costumes, a director, scenery, props, musicians and actors (except for the flute player and non-chorus actors, who were provided by the state for arcane reasons). And just like today, entertainment was an expensive pursuit - some productions cost ten times as much as a skilled worker earned in a year.
 
 This arrangement created the works of Sophocles, Aeschylus, Euripides, and several other brilliant playwrights who you’ve also forgotten about since college.
 
@@ -42,9 +42,9 @@ Gleeman (in England), Troubadours (in Western Europe) and their equivalents in a
 
 ## Renaissance Persons
 
-Fast forward to the Renaissance - after years of trickling from the countryside to the cities, there were enough people in urban spaces to support ongoing theatre companies, orchestras, and operas. In Italy, [impresarios](https://en.wikipedia.org/wiki/Impresario) took on the cultural (and financial) responsibility of organizing and funding operas where they charged for admission.
+Fast forward to the Renaissance - after years of trickling from the countryside to the cities; there were enough people in urban spaces to support ongoing theatre companies, orchestras, and operas. In Italy, [impresarios](https://en.wikipedia.org/wiki/Impresario) took on the cultural (and financial) responsibility of organizing and funding operas where they charged for admission.
 
-In 1599, Shakespeare’s theater company (the Lord Chamberlain’s Men) built the Globe Theater, an employee-owned enterprise that produced Shakespeare’s plays. Artists turned into businessmen, and they did a good job of it. The Globe made enough money to survive for decades, and was even rebuilt after it caught on fire when a stage cannon backfired.
+In 1599, Shakespeare’s theater company (the Lord Chamberlain’s Men) built the Globe Theater, an employee-owned enterprise that produced Shakespeare’s plays. Artists turned into businessmen, and they did a good job of it. The Globe made enough money to survive for decades and was even rebuilt after it caught on fire when a stage cannon backfired.
 
 ![Shamone!](https://spee.ch/a/globe-theatre.jpeg)
 
@@ -55,7 +55,7 @@ The Renaissance was a literal rebirth for entertainment. Entertainment became "w
 
 In a new way, people were able to seek out other people who created art they enjoyed and then pay them for it.
 
-As we know, this didn’t lead to a DIY opera industry or the disappearance of productions funded largely by a single patron. The technology didn’t exist for artists to connect with their entire audience and distribute their creations. Unless they were extraordinarily wealthy, a fan couldn’t experience a creator’s art unless they were already in the same area. And if they lived in different areas, it’s likely the fan never would have heard of the creator in the first place.
+As we know, this didn’t lead to a DIY opera industry or the disappearance of productions funded largely by a single patron. The technology didn’t exist for artists to connect with their entire audience and distribute their creations. Unless they were extraordinarily wealthy, a fan couldn’t experience a creator’s art unless they were already in the same area. And if they lived in different areas, it’s likely the fan would never have heard of the creator in the first place.
 
 Artists had to find a hybrid system, and straddle the line between finding supporters that they’d have to please (governments, religious officials, wealthy businessmen, etc.) and supporters who just want to get more of the artist’s work but didn’t necessarily have deep pockets.
 

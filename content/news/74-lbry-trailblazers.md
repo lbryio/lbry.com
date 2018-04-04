@@ -1,9 +1,9 @@
----
+﻿---
 author: reilly-smith
 title: 'Shoutout to All You trailblazers'
 date: '2016-10-13 00:06:00'
 ---
-The core innovations of LBRY are built upon a simple idea: connect audience to creator, anywhere on Earth, in one smooth motion.
+The core innovations of LBRY are built upon a simple idea: connect the audience to the creator, anywhere on Earth, in one smooth motion.
 
 Since our July 4th launch, the team has leapt forward again and again toward that goal.
 
@@ -11,7 +11,7 @@ But there’s one key ingredient that makes this train keep chugging along: cont
 
 We have a lot of surprises on the horizon. Even some LBRY exclusives! And publishers like Oscilloscope Pictures are pleased that you loved *It’s a Disaster*, and they want to bring some more gems out of the vault to share.
 
-Today, we’re reflecting on the trail blazed so far. It takes guts to share content dear to your heart in a risky, unproven way. These publishers have help carry LBRY toward its ambitious goal.
+Today, we’re reflecting on the trail blazed so far. It takes guts to share content dear to your heart in a risky, unproven way. These publishers have helped carry LBRY toward its ambitious goal.
 
 We salute them. And then we enjoy them.
 

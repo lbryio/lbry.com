@@ -1,4 +1,4 @@
----
+﻿---
 author: reilly-smith
 title: 'React. Or don't.'
 date: '2017-09-28 00:22:30'
@@ -10,7 +10,7 @@ But we’ve met our Nurd match. This is the most fundamental nerd fight: our bat
 
 ![NurdRage](/img/news/nurdrage-inline.jpg)
 
-[@NurdRage](https://open.lbry.io/%40NurdRage) is one who some may consider the Periodic Table of Elements’ best friend or its worst nightmare. Did you ever wonder how to create [Tritium nuclear batteries](https://open.lbry.io/make-a-tritium-nuclear-battery-or) or build a [DIY Epipen](https://open.lbry.io/make-the-epipencil-diy-alternative-to)? Me neither. Yet, I still couldn’t help but watch each NurdRage video I start to its completion and walk away with a… solidified confidence in the miracles of chemistry.
+[@NurdRage](https://open.lbry.io/%40NurdRage) is one who some may consider the Periodic Table of Elements’ best friend or its worst nightmare. Did you ever wonder how to create [Tritium nuclear batteries](https://open.lbry.io/make-a-tritium-nuclear-battery-or) or build a [DIY Epipen](https://open.lbry.io/make-the-epipencil-diy-alternative-to)? Me neither. I still couldn’t help but watch each NurdRage video I start to its completion and walk away with a… solidified confidence in the miracles of chemistry.
 
 Through the wonders of spee.ch, you can enjoy one of NurdRage’s most important videos below, directly from the LBRY network: how to make the life-saving anti-malarial drug Daraprim.
 

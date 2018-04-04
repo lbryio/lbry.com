@@ -1,4 +1,4 @@
----
+﻿---
 author: samuel-lbryian
 title: 'Information Gatekeepers Make Our Culture Sick'
 date: '2016-04-26 10:06:18'
@@ -14,11 +14,11 @@ Nina Paley is a cartoonist and filmmaker.  Her TED talk on intellectual property
 
 As Nina puts it, culture is a network and art is made up of the information we have received through culture: “It is through this flow that culture stays alive and we stay connected to each other.”
 
-Block the flow and the culture becomes sick. We become disconnected. It is similar to the way clogged arteries lead to a heart attack. Clogging the free flow of information cripples culture.
+Block the flow, and the culture becomes sick. We become disconnected. It is similar to the way clogged arteries leading to a heart attack. Clogging the free flow of information cripples culture.
 
-Nina argues that current intellectual property laws serve as a roadblock to the free flow of ideas. People become so obsessed with what they can or cannot use, they end up self-censoring. The threat of “getting in trouble” dictates our choices about what we can express.
+Nina argues that current intellectual property laws serve as a roadblock to the free flow of ideas. People become so obsessed with what they can or cannot use that they end up self-censoring. The threat of “getting in trouble” dictates our choices about what we can express.
 
->“Whenever we censor our expression, we close a little more and information flows a little less. The less information flows, the more it stagnates. Evolution, innovation and progress stall. This is what we call permission culture.”
+>“Whenever we censor our expression, we close a little more, and information flows a little less. The less information flows, the more it stagnates. Evolution, innovation and progress stall. This is what we call permission culture.”
 
 Nina is talking about gatekeepers. They are primarily big corporations that dictate what information can flow to the public and what can’t.
 

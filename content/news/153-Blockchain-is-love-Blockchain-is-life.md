@@ -1,4 +1,4 @@
----
+﻿---
 author: jeremy-kauffman
 title: 'Blockchain Is Love, Blockchain Is Life'
 date: '2018-01-10 09:45:00'
@@ -11,7 +11,7 @@ Blockchain technology currently has a hype to substance ratio rapidly approachin
 But there's one area where we think it’s plausible, if not likely, that blockchain will improve the world: the development of open standards and protocols, and consequently more user-friendly technology.
 
 # The Status Quo
-In Part 1, we covered how existing tech companies demonstrate active hostility towards users. If haven't read this or are not already convinced of this problem, [start here](https://lbry.io/news/why-do-tech-giants-abuse-their-users).
+In Part 1, we covered how existing tech companies demonstrate active hostility towards users. If you haven't read this or are not already convinced of this problem, [start here](https://lbry.io/news/why-do-tech-giants-abuse-their-users).
 
 To recap:
 ![Important Infographic](https://spee.ch/6/importantdiagram.png)
@@ -26,7 +26,7 @@ Just what do we mean when we say protocol? And how is it different from a platfo
 
 Suppose I wanted to build my own interface for Facebook. Perhaps because I want actual control over what shows up on my news feed, rather than leaving it to Facebook's algorithms. Currently, it would be legally questionable for me to do this, and even it was legal, it would also be legal for Facebook to block my interface from loading "its" data.
 
-But if Facebook was implemented as a protocol, it would be an open standard that anyone could follow. Anyone could write a Facebook view, or a Facebook app. If Facebook, Inc. wanted to start acting hostile towards its users, people would simply stop using the apps released by Facebook, Inc. and instead use ones made by other parties.
+But if Facebook was implemented as a protocol, it would be an open standard that anyone could follow. Anyone could write a Facebook view or a Facebook app. If Facebook, Inc. wanted to start acting hostile towards its users, people would simply stop using the apps released by Facebook, Inc. and instead use ones made by other parties.
 
 To be clear: this is possible today. It's been possible for decades. There's no technological barrier to creating a Facebook Protocol, but barriers of economics and incentives that discourage people from doing so.
 

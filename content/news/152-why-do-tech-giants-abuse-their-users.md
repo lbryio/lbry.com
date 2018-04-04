@@ -1,4 +1,4 @@
----
+﻿---
 author: jeremy-kauffman
 title: 'Why Do Tech Giants Abuse Their Users?'
 date: '2018-01-08 00:00:00'
@@ -6,7 +6,7 @@ cover: "ProtsNotPlats.jpg"
 ---
 _(Protocols Not Platforms - Part 1 of 2)_
 
-Whether it’s purposefully crippling mobile experiences, hard selling upgrades and add-ons, or shuttling users to pre-selected partner companies, every major tech company seems to proactively damage user experience.
+Whether it’s purposefully crippling mobile experiences, hard selling upgrades and add-ons, or shuttling users to pre-selected partner companies, every major tech company seems to proactively damage user-experience.
 
 In a competitive market, this sort of customer abuse shouldn’t happen. But before we get to the why, let's define the problem.  
 
@@ -18,7 +18,7 @@ And it's not just the cable and phone companies that immediately spring to mind 
 
 Even platforms that are ostensibly designed with the user’s control and privacy in mind can end up abusing users when they’re centrally controlled. WhatsApp comes to mind. WhatsApp built a huge global user base claiming to put users above advertisers. Then Facebook bought it. Now users may well have their personal phone numbers and metadata mined for Facebook’s advertising algorithms.
 
-Last week, we asked our users to send over some examples of tech companies treating their customers badly, and [the response](https://www.reddit.com/r/lbry/comments/7nx6v0/can_you_help_us_collect_examples_of_hostile_tech/) was overwhelming. Take a look at these examples from some of the most popular services and companies in use today. This is not meant to be an exhaustive list of companies being actively hostile to users, as the whole list could probably fill its own book.
+Last week, we asked our users to send over some examples of tech companies mistreating their customers, and [the response](https://www.reddit.com/r/lbry/comments/7nx6v0/can_you_help_us_collect_examples_of_hostile_tech/) was overwhelming. Take a look at these examples from some of the most popular services and companies in use today. This is not meant to be an exhaustive list of companies being actively hostile to users, as the whole list could probably fill its own book.
 
 # Tech Giants Hate You: The Proof
 
@@ -49,11 +49,11 @@ Right now, it takes five clicks to view a GIF hosted on a non-Reddit site on mob
 
 <video controls src="https://spee.ch/@hostiletech/redditmobile.gif"></video>
 
-Not because there is anything wrong with the web experience, of course. But forcing people onto mobile means Reddit can collect a lot more information about you. When pushed for an answer, Reddit’s response was [less than impressive](https://www.reddit.com/r/redditmobile/comments/5yjqlp/why_am_i_forced_to_download_the_app_on_android/derkn32/) - they claimed that they were annoying users to test ways to deliver better user experience.
+Not because there is anything wrong with the web-experience, of course. But forcing people onto mobile means Reddit can collect a lot more information about you. When pushed for an answer, Reddit’s response was [less than impressive](https://www.reddit.com/r/redditmobile/comments/5yjqlp/why_am_i_forced_to_download_the_app_on_android/derkn32/) - they claimed that they were annoying users to test ways to deliver better user experience.
 
 ### YouTube
 
-We could talk a lot about how YouTube's treatment of creators, as well as it's pro-censorship policies, constitute hostility.
+We could talk a lot about how YouTube's treatment of creators, as well as its pro-censorship policies, constitute hostility.
 
 But here's an even clearer example:
 
@@ -71,7 +71,7 @@ So the question becomes: why is this possible? Why are large tech companies able
 
 And the answer is these platforms are not nearly as competitive as restaurants. If the pizza place jacks up prices, I go to another pizza place. When Facebook treats me like crap, I complain about it... on Facebook. But not all of our tech experiences are like this!
 
-If we look at other aspects of the internet, it's much more like restaurants than Facebook. And that's because a lot of the tech driving the web is a protocol, not a platform. My browser can’t treat me like crap, because HTTP is an open standard. Anyone else can make a browser, like anyone else can make a restaurant. The same is true for my email client or my torrent client.
+If we look at other aspects of the internet, it's much more like restaurants than Facebook. And that's because a lot of the tech driving the web is a protocol, not a platform. My browser can’t treat me like crap because HTTP is an open standard. Anyone else can make a browser like anyone else can make a restaurant. The same is true for my email client or my torrent client.
 
 The solution to this problem is to build protocols, not platforms. When we build protocols, people can leave. When we build protocols, it's the users, not the middlemen, who retain control.
 

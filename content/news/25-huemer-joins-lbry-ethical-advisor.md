@@ -1,4 +1,4 @@
----
+﻿---
 author: samuel-lbryian
 title: LBRY Blockchain App Can Now Tell Right From Wrong
 date: '2015-12-30 14:59:29'
@@ -16,7 +16,7 @@ We might have our moments of cynicism, but we don’t buy into the ethics-free b
 
 Huemer is a rising star in the world of ethical philosophy, with several books to his name and a [hit TED talk](https://www.youtube.com/watch?v=4JYL5VUe5NQ).
 
-Huemer is professor of ethics at the University of Colorado with a focus on ethical intuitionism. He’s written on a wide range of subjects including philosophical skepticism, the problem of induction, ethical intuitionism, moral realism, free will, and deontological ethics.
+Huemer is a professor of ethics at the University of Colorado with a focus on ethical intuitionism. He’s written on a wide range of subjects including philosophical skepticism, the problem of induction, ethical intuitionism, moral realism, free will, and deontological ethics.
 
 In addition to his clear expertise in putting big words together to sound important, we believe that this background will enable Prof. Huemer to ensure that LBRY does the right things for the right reasons, as we endeavor to develop the first decentralized, open-source, encrypted content distribution network.
 
@@ -30,6 +30,6 @@ Prof. Huemer earned a doctorate in philosophy from Rutgers in 1998. He’s writt
 
 With decentralization at its core, LBRY is designed to be a “trustless system,” without the gatekeepers and middlemen inherent in the way we share information today. But LBRY Inc. will surely remain a guiding authority on the development of the protocol and its mass adoption, and co-founder Mike Vine said he was thrilled to have somebody with Huemer’s credentials to help guide the process:
 
-“Professor Huemer studies a subject few will touch nowadays: ethics. He's known for starting from premises everyone can agree on and arriving at profound conclusions – simply by following a logical train of thought,” Vine said. “If LBRY succeeds, the executive team will face decisions that will affect multitudes of people. I'm glad to have someone on board who can serve as an independent voice if we lose sight of our mission, or start rationalizing short-sighted decisions. Many people will question what use a company has for an Ethical Advisor; the better questions is why every company doesn't have one.”
+“Professor Huemer studies a subject few will touch nowadays: ethics. He's known for starting from premises everyone can agree on and be arriving at profound conclusions – simply by following a logical train of thought,” Vine said. “If LBRY succeeds, the executive team will face decisions that will affect multitudes of people. I'm glad to have someone on board who can serve as an independent voice if we lose sight of our mission, or start rationalizing short-sighted decisions. Many people will question what use a company has for an Ethical Advisor; the better questions is why every company doesn't have one.”
 
 *Want to join Professor Huemer and the rest of the LBRY team? [Become an Alpha Tester and receive 1,000 LBRY credits (LBC)](https://lbry.io/get).*

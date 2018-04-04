@@ -1,4 +1,4 @@
----
+﻿---
 author: reilly-smith
 title: 'Stay Positive'
 date: '2016-12-29 00:03:00'
@@ -16,7 +16,7 @@ Enjoy [*The Little Book of Positive Returns In Negative Rates*](lbry://positiver
 
 Available exclusively at lbry://positivereturnsinnegativerates for 250 LBC ($2.50).
 
->*Life doesn’t come with negative interest rates; life only comes with occasional failure and failure is an event that occurs and can be minimized if we learn from it and (or) if we prepare for what caused our failure.*
+>*Life doesn’t come with negative interest rates; life only comes with occasional failure, and failure is an event that occurs and can be minimized if we learn from it and (or) if we prepare for what caused our failure.*
 
 > -Tim Smith and Steve Park
 
@@ -35,4 +35,4 @@ Here’s to LBRY in 2017 and a happy new year!
 - [*S&M Lawn Care*](lbry://smlawncare)
 - [*Cinema Six*](lbry://cinemasix)
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Do you write novels? Email reilly@lbry.io and we'll help you make publishing outside of Amazon a reality.
+**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Do you write novels? Email reilly@lbry.io, and we'll help you make publishing outside of Amazon a reality.

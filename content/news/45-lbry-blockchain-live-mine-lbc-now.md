@@ -1,4 +1,4 @@
----
+﻿---
 author: samuel-lbryian
 title: 'Come and Get ‘Em! LBRY Credits Now Available to Mine'
 date: '2016-06-29 00:09:00'
@@ -16,7 +16,7 @@ LBRY’s genesis block contains 400 million LBC that are reserved for LBRY devel
 
 The final 60% is waiting for YOU! These remaining LBC don't yet exist and can be mined by anyone. You can see [how much has already been mined here](https://explorer.lbry.io/).
 
-Eventually 1,000,000,000 LBC will exist, according to a defined schedule over 20 years. The schedule decays exponentially, with around 100,000,000 mineable in the first year.
+Eventually, 1,000,000,000 LBC will exist, according to a defined schedule over 20 years. The schedule decays exponentially, with around 100,000,000 mineable in the first year.
 
 **Block Rewards**
 
@@ -34,4 +34,4 @@ Block rewards will remain intentionally low for a short period of time, then inc
 
 [Join our Discord chat](http://chat.lbry.io/) to talk with the team about the technical details.
 
-Also – you don’t have to mine LBC to get involved in LBRY and earn your own credits! Let us know what you can offer – from testing/developing our code to uploading your own original films/songs/books/etc. 
+Also – you don’t have to mine LBC to get involved in LBRY and earn your credits! Let us know what you can offer – from testing/developing our code to uploading your own original films/songs/books/etc. 

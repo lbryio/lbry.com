@@ -1,4 +1,4 @@
----
+﻿---
 author: samuel-lbryian
 title: 'ShapeShift Adds LBRY Credits! Instant Conversion to Bitcoin, Ethereum, and More'
 date: '2016-08-08 00:06:18'
@@ -17,13 +17,13 @@ Following the [July 4th launch](https://lbry.io/news/beta-live-declare-independe
 
 Listing on ShapeShift is expected to bring additional depth and liquidity to LBC. ShapeShift is widely considered the most convenient digital asset exchange, and it also expands the potential of LBRY through its application programming interfaces (APIs). These will allow any developer to integrate LBC into third-party wallets and software platforms that are primarily designed around Bitcoin.
 
-**While this is big news for LBC as a digital asset, it also has bearing on LBRY’s core purpose to enable content creators to connect with their fans.**
+**While this is big news for LBC as a digital asset, it also has a bearing on LBRY’s core purpose to enable content creators to connect with their fans.**
 
-One of LBRY’s hurdles to mainstream acceptance – a barrier the founders have anticipated from the beginning – is making LBC a truly useful method of payment. *You’re a brilliant filmmaker who has just released his feature-length film on LBRY, and it’s a hit! The LBC are flowing into your wallet. Now what do you do with them?*
+One of LBRY’s hurdles to mainstream acceptance – a barrier the founders have anticipated from the beginning – is making LBC a handy method of payment. *You’re a brilliant filmmaker who has just released his feature-length film on LBRY, and it’s a hit! The LBC are flowing into your wallet. Now what do you do with them?*
 
 With ShapeShift, anyone who holds LBC will be able to quickly and securely exchange them for another cryptocurrency, such as Bitcoin. From there, creators can spend them anywhere Bitcoin is accepted – including Overstock, Amazon (via Purse), Gyft, Expedia, and a rapidly increasing number of brick-and-mortar stores.
 
-And that process works in reverse. Content consumers will now be able to easily acquire LBC to make purchases on LBRY.
+And that process works in reverse. Content consumers will now be able to acquire LBC to make purchases on LBRY easily.
 
 >”ShapeShift has dramatically lowered transaction costs between cryptocoins, creating a kind of 'universal translator' that allows people to use specialized coins for particular purposes but enjoy the benefits of Bitcoin's widespread use. It is an important milestone to have LBRY Credits listed there, and we are exploring ways to integrate ShapeShift into the LBRY protocol.” **- Mike Vine, LBRY Evangelist** 
 

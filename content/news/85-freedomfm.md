@@ -1,4 +1,4 @@
----
+﻿---
 author: reilly-smith
 title: 'Freedom.fm'
 date: '2016-12-15 00:15:00'
@@ -13,7 +13,7 @@ We tip our hat to the liberty movement and welcome two of the biggest podcasts t
 ![Freedomain Radio](/img/news/fdr-inline.png)
 **Freedomain Radio**
 
-Stefan Molyneux’s Freedomain Radio has grown from a part-time podcast to a full-fledged, daily radio show with millions of monthly downloads and views. Interviews with leading economists, academics, authors along with hard hitting philosophical analysis of current events make Freedomain Radio the essential counter-culture podcast.
+Stefan Molyneux’s Freedomain Radio has grown from a part-time podcast to a full-fledged, daily radio show with millions of monthly downloads and views. Interviews with leading economists, academics, authors along with a hard-hitting philosophical analysis of current events make Freedomain Radio the essential counter-culture podcast.
 
 ![The Schiff Report](/img/news/schiff-inline.jpg)
 **The Schiff Report**

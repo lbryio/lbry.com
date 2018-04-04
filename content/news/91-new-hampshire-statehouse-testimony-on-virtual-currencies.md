@@ -18,7 +18,7 @@ Today, America is the world leader in information technology. It comprises over 
 
 Currently, New Hampshire has the highest per-capita virtual currency usage of any state in America. States like New York have chosen to enforce burdensome rules regarding virtual currencies, and several companies have moved or closed.
 
-I would urge New Hampshire to take a different path. It is well-poised to be a leader of this industry -- so long as it encourages, rather than encumbers, the ability to do business here.
+I would urge New Hampshire to take a different path. It is well-poised to be a leader in this industry -- so long as it encourages, rather than encumbers, the ability to do business here.
 
 Enacting this legislation would send a signal flare to the entire technology industry that New Hampshire is the best place in the world to work on blockchain technology.
 

@@ -1,4 +1,4 @@
----
+﻿---
 author: samuel-lbryian
 title: Why Doesn’t LBRY Just Use Bitcoin?
 date: '2016-03-17 13:31:10'
@@ -6,7 +6,7 @@ cover: 'why-not-bitcoin2.jpg'
 cover-light: true
 ---
 
-LBRY employs blockchain technology, but doesn’t use Bitcoin itself. Instead, we use our own cryptocurrency, LBRY Credits (LBC).
+LBRY employs blockchain technology but doesn’t use Bitcoin itself. Instead, we use our own cryptocurrency, LBRY Credits (LBC).
 
 Perhaps the most-asked question we receive is: Why have you created LBC, rather than using Bitcoin? Wouldn’t it be simpler to employ an existing cryptocurrency already in wide use around the world, rather than make a whole new one? Aren’t there already way too many cheap Bitcoin knockoffs floating around?
 
@@ -32,13 +32,13 @@ If LBRY starts growing exponentially, we don’t want to worry about contributin
 
 One of the main draws of Bitcoin has always been its relative decentralization of control and independence from existing legal and financial systems. Similarly, using LBC as an “appcoin” gives LBRY some healthy autonomy from Bitcoin while allowing for the technical innovations explained above.
 
-An appcoin, as described by LBRY’s Mike Vine on [Decentral Vancouver’s “#Blocktalk”](http://blog.lbry.io/lbry-app-sneak-peak-big-questions-answered-lbry-on-blocktalk-last-night/) and in [CoinTelegraph](http://cointelegraph.com/news/the-appcoin-revolution-interview-with-mike-vine-of-lbry), is a cryptocurrency that is designed specifically to power an application, with only that application’s precise functions in mind. The purpose of this appcoin is not to compete as a better form of money than Bitcoin, but to function as a special purpose tool in ways Bitcoin cannot. Creating a special tool in the form of a new coin allows us to start fresh, customizing features like the initial allocation and blockchain rules.
+An appcoin, as described by LBRY’s Mike Vine on [Decentral Vancouver’s “#Blocktalk”](http://blog.lbry.io/lbry-app-sneak-peak-big-questions-answered-lbry-on-blocktalk-last-night/) and in [CoinTelegraph](http://cointelegraph.com/news/the-appcoin-revolution-interview-with-mike-vine-of-lbry), is a cryptocurrency that is designed specifically to power an application, with only that application’s precise functions in mind. The purpose of this appcoin is not to compete for a better form of money than Bitcoin, but to function as a special purpose tool in ways Bitcoin cannot. Creating a special tool in the form of a new coin allows us to start fresh, customizing features like the initial allocation and blockchain rules.
 
-In the early days of our protocol, LBRY Inc. will be making a concerted effort to deploy LBC in a non-neutral way. We will be incentivizing early adopters, amazing content publishers, and even nonprofits which share our vision of a free and open internet. We will be retaining a portion to finance continued development of the ecosystem. LBRY Credits will work on behalf of development of the LBRY content distribution network, not the other way around.
+In the early days of our protocol, LBRY Inc. will be making a concerted effort to deploy LBC in a non-neutral way. We will be incentivizing early adopters, amazing content publishers, and even nonprofits which share our vision of a free and open internet. We will be retaining a portion to finance the continued development of the ecosystem. LBRY Credits will work on behalf of development of the LBRY content distribution network, not the other way around.
 
 Bitcoin was created as a grand experiment to demonstrate blockchain technology and liberate the world from legacy banking, but it couldn’t possibly have been designed to be all things to all applications. We believe our appcoin is the best tool to succeed at our mission of putting every film, song, book, and game ever made onto a blockchain – without trying to displace Bitcoin as a global currency.
 
-### Wait! This is also relevant to your interests
+### Wait! This is also relevant to your interests.
 
 Converting from fiat money to cryptocash is hard. But converting between cryptos is super-easy, especially since the launch of [ShapeShift.io](http://www.shapeshift.io/). So LBRYians can earn LBC and quickly convert it to BTC to save or spend. And Bitcoiners can easily convert a bit of their holdings to LBC to get great content on the LBRY network.
 

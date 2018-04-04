@@ -1,4 +1,4 @@
----
+﻿---
 author: reilly-smith
 title: 'Derivative Originality'
 date: '2017-11-10 00:20:30'
@@ -18,7 +18,7 @@ A math whiz, a South African, his South African friend, and a troupe of funny me
 
 ![Derick Watts and the Sunday Blues](/img/news/derick-inline.jpg)
 
-[@DerickWattsAndTheSundayBlues](https://open.lbry.io/%40DerickWattsAndTheSundayBlues) have lent their musical comedy accumen to us. Nic and Gareth are the most popular South African comedy duo on LBRY by a wide margin. They are also the 2nd and 3rd most popular South African comedy duo in the library LBRY.
+[@DerickWattsAndTheSundayBlues](https://open.lbry.io/%40DerickWattsAndTheSundayBlues) have lent their musical comedy acumen to us. Nic and Gareth are the most popular South African comedy duo on LBRY by a wide margin. They are also the 2nd and 3rd most popular South African comedy duo in the library LBRY.
 
 Please support your favorite creators by tipping LBRY credits in-app. And remember to look for the red rocketship icon next to reward-eligible weekly videos.
 

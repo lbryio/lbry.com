@@ -1,4 +1,4 @@
----
+﻿---
 author: reilly-smith
 title: 'It’s a Bird, It’s a Plane, It’s Pub Domain Superman!'
 date: '2016-09-29 00:06:00'
@@ -26,4 +26,4 @@ These are true gems in the hall of film history. Check out the first nine episod
 - [*Volcano*](lbry://superman1940-e8)
 - [*Terror on the Midway*](lbry://superman1940-e9)
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Know some great public domain content to share? Have high quality scans? Email reilly@lbry.io for a trip to the front of the line.
+**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Know some great public domain content to share? Have high-quality scans? Email reilly@lbry.io for a trip to the front of the line.

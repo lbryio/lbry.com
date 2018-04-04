@@ -1,4 +1,4 @@
----
+﻿---
 author: samuel-lbryian
 title: 'BraveNewCoin Compares LBRY to Alexandria: Who Will Be the First to Supplant BitTorrent?'
 date: '2015-12-17 21:55:57'
@@ -16,11 +16,11 @@ But to the point. [BraveNewCoin published the first side-by-side comparison of L
 
 >"LBRY in much the same way you would register a domain name for your website that starts with an 'http://', in LBRY, you would register a name for each piece of content that you want to share, and those start with 'lbry://'.
 
->"The idea is that web browsers will eventually read those links automatically, so that you can simply click on an URL like 'lbry://wonderfullife'  in order to watch the movie 'It's a wonderful life.'"
+>"The idea is that web browsers will eventually read those links automatically so that you can simply click on an URL like 'lbry://wonderfullife'  in order to watch the movie 'It's a wonderful life.'"
 
 There's just one detail BraveNewCoin gets wrong in their conclusion:
 
-> "Both Alexandria and LBRY have their strengths and weaknesses, and perhaps both will find a niche and thrive. Without accepting bitcoins, however, LBRY could have a very hard time convincing users to buy and use an additional currency. Meanwhile, Alexandria has a clear lead in development. No matter which succeeds, we can all look forward to new ways for publishers to distribute content."
+> "Both Alexandria and LBRY have their strengths and weaknesses, and perhaps both will find a niche and thrive. Without accepting bitcoins, however, LBRY could have a tough time convincing users to buy and use an additional currency. Meanwhile, Alexandria has a clear lead in development. No matter which succeeds, we can all look forward to new ways for publishers to distribute content."
 
 The truth is that the LBRY protocol will allow patrons to pay publishers and hosts in BTC, though the default is LBC (LBRY credits). So as far as the patron is concerned, LBRY can run on bitcoin. The only time a user must use LBC is to reserve a name to ​**publish**​ content.
 

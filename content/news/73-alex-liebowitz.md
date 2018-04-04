@@ -1,4 +1,4 @@
----
+﻿---
 author: samuel-lbryian
 title: 'Meet the Least Interesting Guy on the LBRY Team'
 date: '2016-10-10 00:06:18'
@@ -9,7 +9,7 @@ That actually speaks to just how interesting the LBRY team is. Or maybe to Alex 
 
 ![Alex Liebowitz](/img/news/aliebowitz.jpg)
 
-Alex is an economist turned web developer. He studied econ at UMass Amherst, but left with a few incompletes to enter the world of software, where (as he put it) nobody looks at the degree on your resume. Nevertheless, Alex is a self-professed economics nerd. As a result, he’s a perfect fit for the LBRY team.
+Alex is an economist turned web developer. He studied econ at UMass Amherst but left with a few incompletes to enter the world of software, where (as he put it) nobody looks at the degree on your resume. Nevertheless, Alex is a self-professed economics nerd. As a result, he’s a perfect fit for the LBRY team.
 
 Alex brings hands-on software development skills and experience to the table. His experience includes building web and desktop apps for large national corporations. Alex also helps run a large podcasting network. 
 
@@ -23,4 +23,4 @@ Alex puts it like this:
 
 >“LBRY is based upon a profound insight: the problem with peer-to-peer networks is not that they're decentralized; it's not that we need a corporation sitting between creators and consumers deciding who's allowed to put their content online – and taking a hefty cut for the favor. It's that up to now, they've offered no way for creators to get paid, and no way to ensure legitimate content is the most visible and easily accessible on the network. LBRY incorporates an instant and painless payment system that allows artists to charge whatever they want and get 100% of the revenue.”
 
-Alex may not think he’s very interesting, but his technical skills coupled with his business knowledge and understanding of LBRY user needs will serve us well.
+Alex may not think he’s exciting, but his technical skills coupled with his business knowledge and understanding of LBRY user needs will serve us well.

@@ -1,4 +1,4 @@
----
+﻿---
 author: reilly-smith
 title: 'Pls Explain, Thx'
 date: '2017-08-17 00:15:00'
@@ -6,7 +6,7 @@ cover: 'casually-banner.png'
 ---
 You’ve seen a few of his videos floating around the LBRY homepage. But it’s time we formally introduce you. Or at least make a vague attempt, and if you don’t like each other, that’s okay.
 
-A regular on the front page of reddit and one of the funniest channels in existence, it’s a pleasure to introduce the ongoing adventures of…
+A regular on the front page of Reddit and one of the funniest channels in existence, it’s a pleasure to introduce the ongoing adventures of…
 
 ![Casually Explained](/img/news/casually-blog-inline.jpg)
 

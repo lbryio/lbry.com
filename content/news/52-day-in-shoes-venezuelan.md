@@ -1,4 +1,4 @@
----
+﻿---
 author: samuel-lbryian
 title: 'Walking a Day in Venezuelan Shoes'
 date: '2016-07-26 00:09:18'
@@ -14,7 +14,7 @@ At the time Javier joined us, we had enabled LBRY Credit (LBC) tipping on our pu
 
 >”From the deepest corner of my heart, thanks a lot sir. I live in a poor country and I starve everyday. ... I really hope we get a new president this year. I can wait no longer, if hunger or insecurity doesn't kill me, sadness will."
 
-We asked him to tell us his story and that is what follows, with minor edits for clarity. 
+We asked him to tell us his story, and that is what follows, with minor edits for clarity. 
 
 You can help Javier by sending him BTC or LBC:
 
@@ -28,9 +28,9 @@ You can help Javier by sending him BTC or LBC:
 
 **The day starts**
 
-You get up early in the morning, you clean yourself, you say hi to your family, you take your breakfast and you go to work, you meet your work schedule, you go to the supermarket and get some food, you get home, share with your family, maybe watch TV news, and then you rest to get ready for another day of living.
+You get up early in the morning, you clean yourself, you say hi to your family, you take your breakfast, and you go to work, you meet your work schedule, you go to the supermarket and get some food, you get home, share with your family, maybe watch TV news, and then you rest to get ready for another day of living.
 
-I bet this sounds like the day of most of you, because that is the way it should be: You work to get bread to the table. What could defer this short description of the day of an average worker in Venezuela? The answer might take your breath away.
+I bet this sounds like the day of most of you because that is the way it should be: You work to get bread to the table. What could defer this short description of the day of an average worker in Venezuela? The answer might take your breath away.
 
 While it is true that here in Venezuela you have to comply with these general guidelines, the truth is that sometimes it is not that easy.
 
@@ -38,13 +38,13 @@ While it is true that here in Venezuela you have to comply with these general gu
 
 Here’s how your day really looks in modern Venezuela.
 
-You get up, you clean yourself, you say hi to your family. Up to here everything is normal. Then you have to take the first important decision in your day: Should I have breakfast?
+You get up, you clean yourself, you say hi to your family. Up to here, everything is normal. Then you have to take the first important decision in your day: Should I have breakfast?
 
 You get paid monthly $33 VEF (Venezuelan bolivars), which is on average $1.10 US dollars per day. For 1 kg of flour, you must pay $1.4 VEF; for 1Kg of sugar you must pay $1.8; $3 for beans; even for a 2-liter Coke you must pay $1.2. You just can't afford it.
 
 In order to be able to buy some food, you must stand in long lines at the supermarkets for hours (4 on average) under a hot, 40°C sunny day.
 
-You must struggle against insecurity. In these lines people get killed by the hands of their fellow citizens. Under anguish and despair they just fall to madness, because these foods are sold on the black market for 4 times their price. Not to mention the constant threat of motorized criminals that even for a smartphone may take your life.
+You must struggle against insecurity. In these lines, people get killed by the hands of their fellow citizens. Under anguish and despair, they just fall to madness, because these foods are sold on the black market for 4 times their price. Not to mention the constant threat of motorized criminals that even for a smartphone may take your life.
 
 Getting medicines is not easy. Old people die for lack of medicines to treat high tension and cholesterol. Even a painkiller is something that you will rarely see in a pharmacy.
 
@@ -56,7 +56,7 @@ A house? That’s 20 years of salary, and you know, don't spend a single bolivar
 
 **Don't think out loud**
 
-Maybe you feel like expressing yourself about the situation that you are living in, but hey! Don't do it on social networks, because the police might go to your home and take you to jail just because you are talking bad of the government or telling the truth.
+Maybe you feel like expressing yourself about the situation that you are living in, but hey! Don't do it on social networks, because the police might go to your home and take you to jail just because you are talking bad about the government or telling the truth.
 
 **Study. But not for you, for them**
 
@@ -76,7 +76,7 @@ Take note: Saying "no" is forbidden. Missing a meeting is forbidden. Thinking di
 
 How can you survive such a... I don't know what to call it.
 
-You can take my food, you can take my medicines, you can take the peace out of my house.
+You can take my food. You can take my medicines. You can take the peace out of my house.
 
 But there is something that you will never take from me, and this lives in the Blockchain.
 
@@ -84,7 +84,7 @@ I'm talking about cryptocurrencies.
 
 Unlike local currency, cryptocurrencies don't lose their value over time, they reevaluate. This is something that is worth working for.
 
-If I had 1000 VEF yesterday (in local currency, about $1 US dollar), then today it is enough to buy less products than yesterday. (It's true; prices change wildly from one week to the next.)
+If I had 1000 VEF yesterday (in local currency, about $1 US dollar), then today it is enough to buy fewer products than yesterday. (It's true; prices change wildly from one week to the next.)
 
 But if yesterday I had 1 BTC, today I’m able to buy more stuff than yesterday. Magic.
 
@@ -100,9 +100,9 @@ I'm a semi-professional young man (I couldn't finish college for monetary reason
 
 I'm not afraid to express what I’m telling you here. What else could they take from me? Can you call this a life?
 
-My life from now on (and always should) contributes to the open source community (secrets in my eyes are tyranny) and developing cryptocurrency platforms, because they can't take those from me. Like LBC – a coin that not only will allow me earn the foods I need to survive, but also will help me express myself better to this world and at the same time make it a better place.
+My life from now on (and always should) contributes to the open source community (secrets in my eyes are tyranny) and developing cryptocurrency platforms because they can't take those from me. Like LBC – a coin that not only will allow me to earn the foods I need to survive but also will help me express myself better to this world and at the same time make it a better place.
 
-Thanks LBRY team.
+Thanks, LBRY team.
 
 Javier, July 2016
 

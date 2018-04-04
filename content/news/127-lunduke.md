@@ -1,4 +1,4 @@
----
+﻿---
 author: reilly-smith
 title: 'Kernels of Truth'
 date: '2017-08-24 00:22:00'
@@ -12,7 +12,7 @@ Today, we bridge the gap between Linux usage and Linux content. This one’s for
 
 ![Lunduke](/img/news/lunduke-inline.jpg)
 
-As the resident non-tech member of the LBRY team, I can honestly say that I never cared for Linux until I heard Bryan Lunduke ([@Lunduke on LBRY](https://open.lbry.io/%40Lunduke)) sing its praises. The Lunduke Show infuses an energy and passion into the discourse of open software development of which the world could use a lot more.
+As the resident non-tech member of the LBRY team, I can honestly say that I never cared for Linux until I heard Bryan Lunduke ([@Lunduke on LBRY](https://open.lbry.io/%40Lunduke)) sing its praises. The Lunduke Show infuses energy and passion into the discourse of open software development of which the world could use a lot more.
 
 If you check out [lbry://@Lunduke](https://open.lbry.io/%40Lunduke), you’ll catch his weekly talk show [on Thursdays](https://open.lbry.io/ld-HDgKlqRA4hw), fierce political debates such as [Tabs v Spaces](https://open.lbry.io/ld-XoOQEGIL8Ww), and anything else where highly nerdy and highly entertaining intersect.
 

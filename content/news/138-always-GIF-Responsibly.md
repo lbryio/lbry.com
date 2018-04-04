@@ -1,4 +1,4 @@
----
+﻿---
 author: brinck-slattery
 title: 'Always GIF Responsibly: Introducing Spee.ch'
 date: '2017-10-30 00:15:30'
@@ -7,7 +7,7 @@ cover: ''
 <meta property=”og:image” content=”https://spee.ch/4/Untitled-design.png” />
 <img src="https://spee.ch/82056d1c435a35fe584afd11583d5e634f46a6f7/gif-responsibly.gif"/>
 
-## GIFing on the internet is dangerous business.
+## GIFing on the internet is a dangerous business.
 
 Shady sharing sites pull up in unmarked white vans, offering you delicious free hosting for your memes. But once you upload them, your content is abducted, branded, and sent to the corporate meme gulag while some Evil MegaCorp reaps the profits.
 
@@ -23,7 +23,7 @@ Additionally, since [spee.ch](http://spee.ch) is entirely open-source, anyone ca
 <img src="https://spee.ch/ada0ec80dce73d6f1726bbd1354dca888dbb1a1d/Maystastic.jpg"/>
 </p>
 
-[Spee.ch](http://spee.ch) offers human readable URLs, like spee.ch/a/Maystastic.jpg for the above image. This makes your favorite images and videos even easier to share. Spee.ch offers a channel feature as well (check out [our channel here](https://spee.ch/@lbry)), allowing for easy collection sharing.
+[Spee.ch](http://spee.ch) offers human-readable URLs, like spee.ch/a/Maystastic.jpg for the above image. This makes your favorite images and videos even easier to share. Spee.ch offers a channel feature as well (check out [our channel here](https://spee.ch/@lbry)), allowing for easy collection sharing.
 
 So remember kids: stay safe this GIF season. Use [spee.ch](http://spee.ch).
 

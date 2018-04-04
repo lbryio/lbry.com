@@ -1,4 +1,4 @@
----
+﻿---
 author: reilly-smith
 title: 'Movie Soup for the Soul'
 date: '2017-01-19 00:16:00'
@@ -18,9 +18,9 @@ A year after BELLFLOWER, yours truly (read: me) attended Sundance for the first 
 
 ![HELLION](/img/news/sundance-inline.jpg)
 
->Little seven-year old, Petey, falls prey to his older brothers' hellion ways.
+>Little seven-year-old, Petey, falls prey to his older brothers' hellion ways.
 
-This little six minute gem directed by Kat Candler went on to play 40 film festivals and two years later was adapted into a [feature film starring Aaron Paul and Juliette Lewis](http://www.imdb.com/title/tt3186318/). See it at lbry://hellion
+This little six-minute gem directed by Kat Candler went on to play 40 film festivals and two years later was adapted into a [feature film starring Aaron Paul and Juliette Lewis](http://www.imdb.com/title/tt3186318/). See it at lbry://hellion
 
 Without *Hellion* and our [November film *Cinema Six*](https://lbry.io/news/singletree), I would not be here today with LBRY. So here’s to keeping the dream of great indie film alive.
 
