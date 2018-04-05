@@ -17,8 +17,8 @@
   </div>
   <div class="cover cover-light" id="about">
     <div class="content content-light content-readable">
-      <h3>Companies like YouTube are afraid that advertisers will be offended LGBTQ content</h3>
-      <h2>We think their behavior is what's embarrassing</h2>
+      <h2>Companies like YouTube are afraid that advertisers will be offended LGBTQ content</h2>
+      <h3>We think their behavior is what's embarrassing</h3>
       <p>LBRY is a free, open source platform that makes it easy to share your videos (and charge what you want for access to them).</p>
       <p>Our system is decentralized - we care about our users, not advertisers trying to make a buck off of their hard work.</p>
       <h3>This is where you come in.</h3>
