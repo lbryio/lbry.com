@@ -30,6 +30,7 @@
 <div class="text-center"><a href="/get?src=FA" class="btn-primary btn-large">Get LBRY App</a></div>
 
       <p>If you'd like to get information and updates when new LGBTQ content goes live on our network and hear what's happening in the fight for free speech online, sign up for our mailing list below.</p>
+      <p></p>
       <?php echo View::render('mail/_subscribeForm', [
         'tag' => 'LGBTQ',
         'submitLabel' => 'Sign Me Up',
