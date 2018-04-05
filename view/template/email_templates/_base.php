@@ -338,7 +338,7 @@
                   <tr>
                     <td class="aligncenter content-block">
                       <a href="https://lbry.io">LBRY Inc</a>
-                      &bull; 848 Elm St. #310, Manchester, NH 03101
+                      &bull; 834 Elm St., Manchester, NH 03101
                     </td>
                   </tr>
                 </table>
