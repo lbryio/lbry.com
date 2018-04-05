@@ -27,11 +27,10 @@
        <img src="https://spee.ch/5a3e08d52dd2d7cb1c63a480b45dea8b4679cf01/lbryget-gif-mastertest.gif" />
 
 <p>You can <a href="/get?src=FA">download the LBRY app here.</a> If you have any questions or need help, <a href="http://chat.lbry.io">join our Discord community.</a></p>
-<div class="text-center"><a href="/get?src=FA" class="btn-primary btn-large">Get LBRY App</a></div>
+<div class="text-center spacer1"><a href="/get?src=FA" class="btn-primary btn-large">Get LBRY App</a></div>
 
       <p>If you'd like to get information and updates when new LGBTQ content goes live on our network and hear what's happening in the fight for free speech online, sign up for our mailing list below.</p>
-      <p></p>
-      <p></p>
+    
       <?php echo View::render('mail/_subscribeForm', [
         'tag' => 'LGBTQ',
         'submitLabel' => 'Sign Me Up',
