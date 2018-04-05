@@ -1,5 +1,5 @@
 ---
-author: reilly
+author: reilly-smith
 title: 'Hey, mine your own business!'
 date: '2018-04-05 00:20:00'
 cover: 'imineblocks-banner.jpg'
