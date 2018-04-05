@@ -1,5 +1,5 @@
-<?php Response::setMetaDescription(__('YouTube is demonetizing and burying LGBTQ videos - try a platform that/'s proud to have your content')) ?>
-<?php Response::setMetaTitle(__('You/'re Here, You/'re Queer, We want to get used to it')) ?>
+<?php Response::setMetaDescription(__('YouTube is demonetizing and burying LGBTQ videos - try a platform that\'s proud to have your content')) ?>
+<?php Response::setMetaTitle(__('You\'re Here, You\'re Queer, We want to get used to it')) ?>
 <?php echo View::render('nav/_header', ['isDark' => true, 'isAbsolute' => true]) ?>
 <main>
   <div class="cover cover-dark cover-center cover-full cover--dark-overlay" style="background-image: url(/img/LGBTQ.png)">
