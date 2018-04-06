@@ -11,6 +11,8 @@ Tips can be sent via the LBRY app or via the protocol's [`wallet_send`](https://
 
 Sending tips via the LBRY app is easy. Simply go to the page of the content you want to support and click "Support". Next, you'll be prompted for the tip amount in LBRY Credits (LBC). Once you enter a value, click "Send". Mahalo! 
 
+<img src="https://spee.ch/0/click-to-tip.png" width="80%" height="80%">
+
 **Note: This amount will show up in your transaction list and will be deducted from your balance.**
 
 ### How do I redeem my tips?
