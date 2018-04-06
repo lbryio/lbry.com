@@ -4,14 +4,27 @@
 <?php Response::addJsAsset('/js/yt2/FormValidation.js')?>
 <?php Response::addJsAsset('/js/yt2/youtube_status.js') ?>
 <?php Response::addJsAsset('/js/yt2/youtube_video.js')?>
+<?php Response::addJsAsset('//www.googleadservices.com/pagead/conversion_async.js') ?>
 <?php $statusData = $status_token['data'] ?>
 <?php $isSyncAgreed = in_array($statusData['status'], ["syncing", "synced", "queued"]) ?>
 <?php $isRewardClaimed = $statusData['is_reward_claimed'] ?? false ?>
 <?php if (IS_PRODUCTION): ?>
 <?php js_start() ?>
-    if(!localStorage.getItem('status_token')){
+    if(!localStorage.getItem('status_token')) {
       ga('send', 'event', 'YT Sync', '<?php echo $isSyncAgreed ? "pending" : "queued" ?>', '');
       fbq('track', 'Lead');
+
+      window.google_conversion_id = 980489749;
+      window.google_conversion_label = "B0ZpCIuLgV0QlazE0wM";
+      window.google_remarketing_only = false;
+      window.google_conversion_format = "3";
+
+      var opt = new Object();
+      opt.onload_callback = function() { };
+      var conv_handler = window['google_trackConversion'];
+      if (typeof(conv_handler) == 'function') {
+        conv_handler(opt);
+      }
     }
 <?php js_end() ?>
 <?php endif ?>
