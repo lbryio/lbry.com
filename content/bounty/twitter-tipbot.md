@@ -2,7 +2,7 @@
 category: code
 title: Twitter Tip Bot
 award: 300
-status: available
+status: completed
 date: '2018-02-13'
 ---
 
