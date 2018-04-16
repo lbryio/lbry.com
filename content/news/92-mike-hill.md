@@ -1,4 +1,4 @@
----
+﻿---
 author: reilly-smith
 title: 'Masterclass Blast'
 date: '2017-01-26 00:17:00'
@@ -14,7 +14,7 @@ Being in entertainment, one of my favorite examples of this was a great lecture 
 
 And with that, we welcome this lost art and more lectures by Mr. Hill to LBRY.
 
-Mike’s lectures so far range from the lost art of Hollywood blockbusters, to the subtext of Jurassic Park, to design in the entertainment industry for both film and high concept games such as Call of Duty and Killzone.
+Mike’s lectures so far range from the lost art of Hollywood blockbusters to the subtext of Jurassic Park, to design in the entertainment industry for both film and high concept games such as Call of Duty and Killzone.
 
 The Forgotten Art of Blockbuster Cinema is one of my absolute favorite lectures. I hope you enjoy it at lbry://mikehill-blockbuster. Search “Mike Hill” for the rest of the playlist.
 

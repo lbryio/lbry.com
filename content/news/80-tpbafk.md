@@ -1,4 +1,4 @@
----
+﻿---
 author: reilly-smith
 title: 'Political Action via Creation'
 date: '2016-11-10 00:06:00'
@@ -8,7 +8,7 @@ A tidal shift occurred this week in American politics.
 
 At LBRY, we believe in change through creation. The most effective way to criticize is not by speaking, but by creating and doing.
 
-This week’s films elevate their subject matter while bringing new perspective to the issues they raise. Rather than shouting from the soapbox, they let their documentation speak for itself.
+This week’s films elevate their subject matter while bringing a new perspective to the issues they raise. Rather than shouting from the soapbox, they let their documentation speak for itself.
 
 ![TPB AFK: The Pirate Bay Away from Keyboard](/img/news/tpb-inline.jpg)
 

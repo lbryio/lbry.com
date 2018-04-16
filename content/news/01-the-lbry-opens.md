@@ -12,7 +12,7 @@ Before it gets too crowded, some exposition is in order.
 
 For as long as preserved knowledge has existed, people have collected it. And once you start collecting it, well, you'll need some way to keep it in order. LBRY is the next evolution of a desire as ancient as knowledge itself: to organize and access information.
 
-However, if I ask you to imagine a library, you probably do not imagine a private archive of cuneiform tablets. Instead, you imagine a public library. The earliest library of this form was created by [the Junto](http://en.wikipedia.org/wiki/Junto_%28club%29), an 18th century discussion club founded by Benjamin Franklin. Their company sold shares to access their collection materials, and used that money to buy more books. [They still exist today](http://www.librarycompany.org/).
+However, if I ask you to imagine a library, you probably do not imagine a private archive of cuneiform tablets. Instead, you imagine a public library. The earliest library of this form was created by [the Junto](http://en.wikipedia.org/wiki/Junto_%28club%29), an 18th-century discussion club founded by Benjamin Franklin. Their company sold shares to access their collection materials and used that money to buy more books. [They still exist today](http://www.librarycompany.org/).
 
 Franklin's library existed in a time where information was intrinsically scarce. Not only did each book have to be printed, but books faced expensive shipping costs from London.
 

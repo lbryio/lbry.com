@@ -1,4 +1,4 @@
----
+﻿---
 author: reilly-smith
 title: 'Get Lit on Rhymes'
 date: '2017-04-20 00:20:00'
@@ -8,7 +8,7 @@ You might be thinking, “It’s a great day to spend my hard-earned LBC on some
 
 Nah.
 
-You know what gets us lit on 4/20? The first music videos on LBRY, courtesy of *capital* AKA Tyler Moore AKA the realest dude in the Los Angeles music scene.
+You know what gets us lit on 4/20? The first music videos on LBRY, courtesy of *capital* AKA Tyler Moore AKA the most real dude in the Los Angeles music scene.
 
 ![Wasted by capital.](/img/news/capital-inline.png)
 

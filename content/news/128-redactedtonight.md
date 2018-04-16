@@ -1,4 +1,4 @@
----
+﻿---
 author: reilly-smith
 title: 'Real Talk'
 date: '2017-08-31 00:19:00'
@@ -14,9 +14,9 @@ LBRY aims to be a lot of things for many people. But one of its most noble cause
 
 Lee Camp does it all. Comedy, news anchor, in-the-field journalism and vlogs. [@RedactedTonight](https://open.lbry.io/%40RedactedTonight) is like The Daily Show for the next generation, and arguably a marked improvement on the groundwork laid by Comedy Central’s pioneering block of news and satire.
 
-A staple of the RT America television slate, Redacted Tonight has expanded its reach across the web, and is finally available right in your LBRY app.
+A staple of the RT America television slate, Redacted Tonight has expanded its reach across the web and is finally available right in your LBRY app.
 
-From YouTube’s [war on independent media](https://open.lbry.io/rt-PgmzvCCXlBI), to the latest goings-on in [drone warfare](https://open.lbry.io/rt-GAyxoBFXOTQ), [@RedactedTonight](https://open.lbry.io/%40RedactedTonight) on LBRY is the only way to stream the latest world news straight from the source.
+From YouTube’s [war on independent media](https://open.lbry.io/rt-PgmzvCCXlBI) to the latest goings-on in [drone warfare](https://open.lbry.io/rt-GAyxoBFXOTQ), [@RedactedTonight](https://open.lbry.io/%40RedactedTonight) on LBRY is the only way to stream the latest world news straight from the source.
 
 (Literally, there are no middlemen).
 

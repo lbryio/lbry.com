@@ -1,4 +1,4 @@
----
+﻿---
 author: reilly-smith
 title: 'r/JustRolledIntoTheShop'
 date: '2017-04-06 00:12:00'
@@ -8,11 +8,11 @@ They say you don’t need to know how a car works in order to drive it.
 
 We say that's heresy!
 
-It is imperative that you DIY everything about your vehicle, but first watch the latest channel to roll into the LBRY Auto and Repair Emporium so as not to break anything.
+It is imperative that you DIY everything about your vehicle, but first, watch the latest channel to roll into the LBRY Auto and Repair Emporium so as not to break anything.
 
 ![DIY Auto Body and Paint](/img/news/auto-diy-inline.png)
 
-Donnie Smith, host of DIY Auto Body and Paint, has been hosting one of the top DIY car shows on the internet for the last ten years.
+Donnie Smith, the host of DIY Auto Body and Paint, has been hosting one of the top DIY car shows on the internet for the last ten years.
 
 If we ever finish DIY building the LBRY network, we think there might be a future in building cars. Or at least watching Donnie build them for us…
 

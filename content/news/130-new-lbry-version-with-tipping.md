@@ -10,7 +10,7 @@ The latest LBRY app, v0.16, is now available. **[Get it here](https://lbry.io/ge
 ![LBRY Tipping in Action](https://spee.ch/0/lbrytipping.gif)
 
 ### Added
-  * Added a tipping button to send LBRY Credits to a creator. Credits sent in this way come in to the wallets of creators as supporting claims for the content that was tipped.
+  * Added a tipping button to send LBRY Credits to a creator. Credits sent in this way come into the wallets of creators as supporting claims for the content that was tipped.
   * Added an edit button on published content. Significantly improved UX for editing claims (but more to do).
   * Added theme settings option and new Dark theme.
   * Added a new component for rendering dates and times. This component can render the date and time of a block height, as well.

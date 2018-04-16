@@ -1,4 +1,4 @@
----
+﻿---
 author: reilly-smith
 title: 'Storytelling Art 101'
 date: '2016-09-15 00:06:00'
@@ -10,7 +10,7 @@ We’re starting that trend this week with [Character Design Forge, AKA Brookes 
 
 ![Brookes Eggleson](/img/news/brookeseggleston.png)
 
->”Characters aren’t just meant to sell people on an idea. Characters are vessels for feelings and personalities that can connect to your audience. With a well designed character, our brains don’t really understand them to be artificial.” **- Brookes Eggleston**
+>”Characters aren’t just meant to sell people on an idea. Characters are vessels for feelings and personalities that can connect with your audience. With a well-designed character, our brains don’t really understand them to be artificial.” **- Brookes Eggleston**
 
 The best place to start is *[5 Tips for Better Drawing](lbry://drawbetter)*.
 

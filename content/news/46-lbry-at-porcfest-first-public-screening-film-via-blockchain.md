@@ -1,4 +1,4 @@
----
+﻿---
 author: samuel-lbryian
 title: 'History Is Made - First Public Film Screenings via Blockchain at PorcFest XIII'
 date: '2016-06-30 00:09:00'
@@ -8,7 +8,7 @@ Yes, the rumors are true. Last week, a major independent Hollywood film was publ
 
 LBRY took its blockchain out for a test run at [PorcFest XIII](http://porcfest.com/), and we’re delighted to announce it was a resounding success. Even more so because the screening also marked the private reveal of our new and very exciting media partner, the most well-regarded independent film company out there.
 
-The majority of the [LBRY team](https://lbry.io/team) attended PorcFest, which was the perfect event to spread the word of our platform.
+The majority of the [LBRY team](https://lbry.io/team) attended PorcFest, which was the perfect event to spread the word about our platform.
 
 ![Jeremy speaking at PorcFest XIII](/img/lbryatpf.jpg)
 
@@ -22,7 +22,7 @@ In addition to the screening, Jeremy delivered a well-attended talk entitled, �
 
 Want to know more about the excellent films having their blockchain premiere on LBRY? Well, join our mailing list with the form below and keep an eye on your inbox this holiday weekend for a BIG announcement. Got your fireworks ready?
 
-If the suspense is killing you, then go ahead and start mining LBRY credits (LBC) today! Our blockchain is live and LBC can be mined right now via CPU. [Learn more here](https://lbry.io/news/lbry-blockchain-live-mine-lbc-now).
+If the suspense is killing you, then go ahead and start mining LBRY credits (LBC) today! Our blockchain is live, and LBC can be mined right now via CPU. [Learn more here](https://lbry.io/news/lbry-blockchain-live-mine-lbc-now).
 
 **PorcFest Media Mentions:**
 

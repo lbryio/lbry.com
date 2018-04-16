@@ -1,4 +1,4 @@
----
+﻿---
 author: samuel-lbryian
 title: 'You Can Now Publish on LBRY (& Earn $1,000)'
 date: '2016-08-04 00:09:00'
@@ -21,7 +21,7 @@ And now LBRY beta users can do just that…
 
 When you open LBRY, you will also notice 3 areas on the homescreen displaying LBRY’s current featured content. These areas correspond to the LBRY names “One”, “Two”, and “Three” (lbry://one, etc.). Anyone can bid for those names and get your content featured on LBRY’s opening screen!
 
-The true power of LBRY is allowing creators to connect directly to their audience. So what are you waiting for? Go do it!
+The true power of LBRY is allowing creators to connect directly with their audience. So what are you waiting for? Go and do it!
 
 Oh… you don’t have an invite yet? Avoid waiting longer than you have to by [joining the beta waiting list now](https://lbry.io/get). 
 

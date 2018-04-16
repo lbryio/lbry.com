@@ -1,4 +1,4 @@
----
+﻿---
 author: reilly-smith
 title: '...it isn’t free'
 date: '2017-05-11 00:19:30'
@@ -10,7 +10,7 @@ Courtesy of the first amendment, LBRY brings you freedom of speech with a side o
 
 ![Adam Kokesh](/img/news/kokesh-inline.jpg)
 
-US military veteran-turned-liberty activist, there have been fewer more attractive lighting rods in the freedom movement than Mr. Kokesh. From dancing at the Jefferson Memorial, to cocking a shotgun 36 inches left of where he was so supposed to be standing, to off-the-grid living, no one pushes the boundaries in the name of liberty quite like this.
+US military veteran-turned-liberty activist, there have been fewer more attractive lighting rods in the freedom movement than Mr. Kokesh. From dancing at the Jefferson Memorial to cocking a shotgun 36 inches left of where he was so supposed to be standing, to off-the-grid living, no one pushes the boundaries in the name of liberty quite like this.
 
 The chronicles of Kokesh are now documented, boldly and uncensored at:
 

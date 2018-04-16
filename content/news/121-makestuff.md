@@ -1,4 +1,4 @@
----
+﻿---
 author: reilly-smith
 title: 'The Maker’s Mark'
 date: '2017-07-21 00:03:00'
@@ -6,7 +6,7 @@ cover: 'makestuff-banner.PNG'
 ---
 LBRY is all about sharing your creations with the world.
 
-One thing you can’t do (yet!) is share your tangible, physical works. But today is the next best thing. Welcome one of the best DIY channels on the web to LBRY.
+One thing you can’t do (yet!) is sharing your tangible, physical works. But today is the next best thing. Welcome one of the best DIY channels on the web to LBRY.
 
 ![I Like to Make Stuff](/img/news/makestuff-inline.jpg)
 

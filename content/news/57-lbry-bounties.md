@@ -1,10 +1,10 @@
----
+﻿---
 author: samuel-lbryian
 title: 'Be Like Boba Fett – Earn Bounties for Helping LBRY Grow'
 date: '2016-08-18 00:06:18'
 cover: 'boba-fett.png'
 ---
-The [LBRY Bounty Program](https://lbry.io/bounty) is now open to the public. Anyone in the world can now improve the future of the internet and digital content and *earn money at the same time*!
+The [LBRY Bounty Program](https://lbry.io/bounty) is now open to the public. Anyone in the world can now improve the future of the internet and digital content, and *earn money at the same time*!
 
 LBRY has already benefited from significant community contributions, including basic debugging, content testing, publishing improvements... the list goes on and on. It’s now time to formalize our relationship with this awesome community by offering significant LBRY Credit (LBC) rewards for helping LBRY grow.
 

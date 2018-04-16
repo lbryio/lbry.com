@@ -1,4 +1,4 @@
----
+﻿---
 author: jeremy-kauffman
 title: 'Open Beta? New Features? Keep Your Eye on the LBRY Roadmap'
 date: '2016-10-17 00:06:18'
@@ -10,7 +10,7 @@ LBRY is working hard to improve our communication with the public. While the vas
 - Dramatically expanded our [FAQ](https://lbry.io/faq). See [this post](https://lbry.io/news/reddit-ama-answers) and [this one](https://lbry.io/news/what-makes-lbry-different) for the latest additions.
 - Announced new content every Thursday, with a broad [review last week](https://lbry.io/news/lbry-trailblazers).
 
-But LBRY is a ground-breaking technology, so the real (and most asked) question remains – when will it be available to the public? Your wish is our command line. We present to you…
+But LBRY is ground-breaking technology, so the real (and most asked) question remains – when will it be available to the public? Your wish is our command line. We present to you…
 
 ### <p style="text-align: center;">[The LBRY Roadmap](https://lbry.io/roadmap)</p>
 

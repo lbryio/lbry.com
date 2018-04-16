@@ -59,10 +59,10 @@ inside of a larger decentralized platform is guaranteed at a fundamental level t
 or both.
 
 Other crypto-data solutions are about providing reliable and known data-access methods for *publishers* (i.e. they give you a name,
-frequently gibberish, and attempt to promise that data will remain available at that name). LBRY is about creating best experience
+frequently gibberish, and attempt to promise that data will remain available at that name). LBRY is about creating the best experience
 for *consumers*, who care less if names change than if a name gives them the information they desire.
 
-LBRY's reservation-based approach to names means is unlike any other existing solution. We've leveraged Nobel Prize-winning economics
+LBRY's reservation-based approach to names means unlike any other existing solution. We've leveraged Nobel Prize-winning economics
 to create a system in which names are extremely likely to resolve to what user's desire *as well as* be owned by the proper content
 creator. Greater user experience + greater creator experience = WNNNG<sup>1</sup>.
 
@@ -77,7 +77,7 @@ First, for clarity, here is LBRY's naming system as succinctly as possible:
 
 Our instinctual desire to have confident possession of our property makes LBRY's reservation-only name system feel off. However,
 it has strong economic underpinnings. Famed economist Ronald Coase made the insight that as long as property rights are clearly
-defined and there are sufficiently low transaction costs, an efficient outcome will result regardless of the initial allocation
+defined, and there are sufficiently low transaction costs, an efficient outcome will result regardless of the initial allocation
 of property.
 
 First, let's ensure the premises to our theorem hold. In LBRY, property rights could not be more explicit - whoever has committed
@@ -86,12 +86,12 @@ the most credits holds the name. Second, transaction costs are close to zero.
 In the sense of this theorem, the efficient outcome is that the owner of any name will be the entity for whom the name holds the
 most value. When does a name hold the most value? When it maps to content that is most desired by users.
 
-What do users desire when accessing a name? For a name to resolve to the content they envisioned as well as for that content to be
+What do users desire when accessing a name? For a name to resolve to the content, they envisioned as well as for that content to be
 provided by its legitimate creator. The former desire may outstrip the latter, but consumers would clearly rather pay a legitimate
 creator than a non-legitimate creator. Thus, the legitimate content creator has maximal incentive to provide a LBRY name mapping
 to their content.
 
-The end result of LBRY's reservation scheme is two-fold: 1) names will almost always resolve to what user's desire and 2) content
+The end-result of LBRY's reservation scheme is two-fold: 1) names will almost always resolve to what user's desire and 2) content
 creators will economically benefit from publishing content via LBRY.
 
 
@@ -100,7 +100,7 @@ creators will economically benefit from publishing content via LBRY.
 Exposing even a straightforward creation to the public is daunting. LBRY, with several machinating, interlocking parts, is
 straightforward's antipode. In these first days, with our bare shelves, understanding the edifice we are building requires
 the ability to make acute insights. Particularly with LBRY's naming scheme, it veers into the imposing Kingdom of the
-Counter Intuitive.
+Counter-Intuitive.
 
 Despite this, no one said "I don't get it" or "you're crazy". Some people certainly got it faster than others, but everyone saw
 the need and the opportunity. People were excited. While we'll admit our early testing grounds are favorable (tech groups and a

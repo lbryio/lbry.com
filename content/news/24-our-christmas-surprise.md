@@ -1,4 +1,4 @@
----
+﻿---
 author: mike-vine
 title: Our Christmas Surprise!
 date: '2015-12-24 02:27:31'
@@ -10,7 +10,7 @@ We at LBRY have spent the past several months talking up our protocol. It’s th
 
 Today, we reveal the answer.
 
-All of our talk of indie artists and global content distribution was really a red herring. LBRY is actually designed to do one thing and one thing only: play the film *It’s A Wonderful Life*.
+All of our talk of indie artists and global content distribution was really a red herring. LBRY is designed to do one thing and one thing only: play the film *It’s A Wonderful Life*.
 
 We’re actually shocked how many of you didn’t notice this. In all of our promotional materials, only one piece of content is ever accessed. That’s right, *It’s A Wonderful Life*.
 

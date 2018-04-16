@@ -1,4 +1,4 @@
----
+﻿---
 author: samuel-lbryian
 title: LBRY Means Business With Addition of Josh Finer, MBA
 date: '2016-01-06 15:11:11'
@@ -28,9 +28,9 @@ He had thought about joining a crypto-team, but failed to see the right combinat
 
 It wasn’t only the people who caught Josh’s attention. He said the revolutionary potential of the LBRY platform was a major selling point: “LBRY has the potential to both unlock a ton of currently unavailable content, as well as increase the efficiency of content distribution as a whole.”
 
-On top of his technical and business savvy, Josh loves animals. And who doesn’t like a guy who has a soft spot for kittens and puppies, right? In fact, Josh loves animals so much, he founded a successful business to help vets run their practices. Veterinary Payments of America processes millions of dollars in electronic payments for veterinary clinics and hospitals nationwide.
+On top of his technical and business savvy, Josh loves animals. And who doesn’t like a guy who has a soft spot for kittens and puppies, right? In fact, Josh loves animals so much that he founded a successful business to help vets run their practices. Veterinary Payments of America processes millions of dollars in electronic payments for veterinary clinics and hospitals nationwide.
 
-In addition to cofounding Veterinary Payments of America, Josh serves as president for Finer Payments, a more broad-based credit card processing company and Finer Technologies, a boutique Google AdWords Agency and Internet consultancy. He has also been involved in a number of other financial and Internet based companies.
+In addition to cofounding Veterinary Payments of America, Josh serves as president for Finer Payments, a more broad-based credit card processing company and Finer Technologies, a boutique Google AdWords Agency and Internet consultancy. He has also been involved in a number of other financial and Internet-based companies.
 
 Mike Vine, LBRY’s Technology Evangelist, said that he is thrilled to have a professional jack-of-all-trades on the team:
 

@@ -1,4 +1,4 @@
----
+﻿---
 author: samuel-lbryian
 title: 'LBRY Beta Goes Live! A Declaration of Independence from Big Media'
 date: '2016-07-04 00:00:01'
@@ -12,7 +12,7 @@ date: '2016-07-04 00:00:01'
 
 **LBRY is proud to continue this tradition by announcing the beta release of our LBRY app and live blockchain this July 4th.** This time, the old order is Big Media – the major record labels, book publishers, and movie studios that have managed to cling to their fiefdoms despite the potential of the internet to connect independent artists directly to their fans.
 
-It’s expensive to store and serve a bunch of content, so the market is dominated by the likes of Google’s YouTube, Apple’s iTunes, and Amazon’s Kindle Store. By combining several new open-source technologies and key innovations, LBRY is able to cut out the middlemen. The result is a platform that no one controls but everyone can access – just like the internet itself.
+It’s expensive to store and serve a bunch of content, so the market is dominated by the likes of Google’s YouTube, Apple’s iTunes, and Amazon’s Kindle Store. By combining several new open-source technologies and key innovations, LBRY is able to cut out the middlemen. The result is a platform that no one controls, but everyone can access – just like the internet itself.
 
 With LBRY, content creators – be they filmmakers, musicians, writers, or software developers – are empowered to set their own price and release their works to the world with a few clicks of the mouse.  There are no ads, no corporate censors, and LBRY takes no portion of your income. For consumers, it means there is finally an alternative to the big media stores and the murky world of BitTorrent – which doesn’t have a payment system and therefore is run on goodwill.
 

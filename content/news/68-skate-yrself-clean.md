@@ -1,4 +1,4 @@
----
+﻿---
 author: reilly-smith
 title: 'Skate, Relax, Enjoy'
 date: '2016-09-22 00:06:00'
@@ -14,7 +14,7 @@ Part biography, part LCD Soundsystem music video, *SKATE* captures the American 
 
 >”I’d like to be buried with my skates on, definitely. Or laying beside me somewhere, you know, in the casket… put a burger in my hand and my roller skates on and... bury me.” **- Ricky Lee Robinson**
 
-Janna’s six minute short won the Grand Jury Prize at [Florida Film Festival for Best Short Doc](http://articles.orlandosentinel.com/2013-05-01/entertainment/os-florida-film-festival-winners-20130501_1_florida-film-festival-award-winners-audience-award), as well as being selected by [Nashville Film Festival](https://nashvillefilmfestival.org/news/full-short-film-lineup/) and [DOC NYC](http://www.docnyc.net/film/obsessions/).
+Janna’s six-minute short won the Grand Jury Prize at [Florida Film Festival for Best Short Doc](http://articles.orlandosentinel.com/2013-05-01/entertainment/os-florida-film-festival-winners-20130501_1_florida-film-festival-award-winners-audience-award), as well as being selected by [Nashville Film Festival](https://nashvillefilmfestival.org/news/full-short-film-lineup/) and [DOC NYC](http://www.docnyc.net/film/obsessions/).
 
 It can be seen at **[lbry://skateyrselfclean](lbry://skateyrselfclean)** now.
 

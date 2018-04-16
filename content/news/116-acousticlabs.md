@@ -1,4 +1,4 @@
----
+﻿---
 author: reilly-smith
 title: 'Strumming up a Storm'
 date: '2017-06-15 00:08:00'
@@ -6,7 +6,7 @@ cover: 'acoustic-labs-banner.jpg'
 ---
 We’ve already seen the benefits of LBRY [for bands](https://lbry.io/news/matt-sokol) and [solo artists](https://lbry.io/news/whoiscapital).
 
-But there’s so much more to the music world. What if you could not only listen to music, but buy tabs or lessons or film scores for your *own* movie directly on LBRY?
+But there’s so much more to the music world. What if you could not only listen to music but buy tabs or lessons or film scores for your *own* movie directly on LBRY?
 
 ![Acoustic Labs](/img/news/acoustic-labs-inline.jpg)
 

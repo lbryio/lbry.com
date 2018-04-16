@@ -1,4 +1,4 @@
----
+﻿---
 author: samuel-lbryian
 title: 'BitTorrent’s New Streaming Service: Close but No Cigar'
 date: '2016-05-25 00:06:18'
@@ -23,6 +23,6 @@ Notice that first part? “Proprietary and patented…”
 
 LBRY can deliver on similar goals, but our protocol is [free and open-source](https://en.wikipedia.org/wiki/Free_and_open-source_software). 
 
-Open-source software means *you the user* have control. BitTorrent may be a great company, but ultimately it will maintain complete control over its platform. With an open-source service like LBRY, you will be able to make it better and even customize it to meet your own specific needs. And you won’t be paying a middleman or sitting through ads to get your content.
+Open-source software means *you the user* have control. BitTorrent may be a great company, but ultimately it will maintain complete control over its platform. With an open-source service like LBRY, you will be able to make it better and even customize it to meet your own specific needs. And you won’t be paying an intermediary or sitting through ads to get your content.
 
 We not only want to free video, music, and other digital creations from the clutches of “Big Content,” we want to free the user as well.

@@ -1,4 +1,4 @@
----
+﻿---
 author: samuel-lbryian
 title: 'Credit Policy and 3rd Quarter Credit Report'
 date: '2016-10-05 00:06:18'
@@ -28,4 +28,4 @@ The [Third Quarter 2016 Report](https://lbry.io/faq/quarterly-report-3q-2016) is
 - No institutional credits were moved or spent.
 - No anticipated sales from operational reserve until at least the Second Quarter 2017.
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Know some great public domain content to share? Have high quality scans? Email reilly@lbry.io for a trip to the front of the line.
+**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Know some great public domain content to share? Have high-quality scans? Email reilly@lbry.io for a trip to the front of the line.

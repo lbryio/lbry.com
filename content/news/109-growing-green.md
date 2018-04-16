@@ -1,4 +1,4 @@
----
+﻿---
 author: reilly-smith
 title: 'Supergreen'
 date: '2017-05-04 00:19:30'
@@ -6,7 +6,7 @@ cover: 'growgreens-banner.PNG'
 ---
 We’ve been toiling away building LBRY for eighteen months now.
 
-So, we decided it was time to step outside. We’ve never been outside before, but heard it was pretty fun, and this is what we found.
+So, we decided it was time to step outside. We’ve never been outside before but heard it was pretty fun, and this is what we found.
 
 ![Growing Your Greens](/img/news/growgreens-inline2.PNG)
 

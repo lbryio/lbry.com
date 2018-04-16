@@ -22,13 +22,13 @@ The full catalog is over 4 TB and will be synced over the next several days.
 
 Each entry on @UCBerkeley channel is the course video/audio claim page where the content can be streamed (and downloaded locally).  
 
-Feel free to keep exploring the LBRY application and be sure to check out our [FAQ](https://lbry.io/faq). Want to learn more or contribute to LBRY? Come join us on our [Discord chat](https://chat.lbry.io) to follow along with our journey in revolutionizing digital content sharing and monetization.
+Feel free to keep exploring the LBRY application and be sure to check out our [FAQ](https://lbry.io/faq). Want to learn more or contribute to LBRY? Join us on our [Discord chat](https://chat.lbry.io) to follow along with our journey in revolutionizing digital content sharing and monetization.
 
 ### Is This Legal?
 
 Almost certainly.
 
-The vast majority of the lectures are licensed under a [Creative Commons](https://creativecommons.org/licenses/by-nc/4.0/) license that allows attributed, non-commercial redistribution. The price for this content has been set to free and all LBRY metadata attributes it to UC Berkeley.
+The vast majority of the lectures are licensed under a [Creative Commons](https://creativecommons.org/licenses/by-nc/4.0/) license that allows attributed, non-commercial redistribution. The price for this content has been set to free, and all LBRY metadata attributes it to UC Berkeley.
 
 Additionally, we believe that this content is legal under the First Amendment.
 
@@ -38,4 +38,4 @@ While other archive teams have also backed up these lectures using traditional m
 
 LBRY is the first truly free and censorship-resistant way to exchange content. The LBRY protocol provides a completely decentralized network for discovering, distributing, and publishing all types of content and information, from books to movies.
 
-When publishing the lectures to LBRY, the content metadata is written to a public blockchain, making it permanently public and robust to interference. Then, the content data itself is hosted via a peer-to-peer data network that offers economic incentives to ensure the data remains viable. This is superior to centralized or manual hosting, which is vulnerable to technical failure or  other forms of attrition.
+When publishing the lectures to LBRY, the content metadata is written to a public blockchain, making it permanently public and robust to interference. Then, the content data itself is hosted via a peer-to-peer data network that offers economic incentives to ensure the data remains viable. This is superior to centralized or manual hosting, which is vulnerable to technical failure or other forms of attrition.

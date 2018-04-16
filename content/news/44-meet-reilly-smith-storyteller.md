@@ -1,12 +1,12 @@
----
+﻿---
 author: samuel-lbryian
 title: 'LBRY’s Content Curator Is An Indie Kid Who Will Show You What’s Good'
 date: '2016-06-21 00:06:18'
 ---
 
-Peel away the high-tech shell and digital-age innovation and you’ll find that at its core, LBRY is all about something as old as mankind itself - telling stories. 
+Peel away the high-tech shell and digital-age innovation, and you’ll find that at its core, LBRY is all about something as old as humanity itself - telling stories. 
 
-And no one know a good story better than someone who tells them.
+And no one knows a good story better than someone who tells them.
 
 LBRY is excited to announce the addition of Reilly Smith to the team as in-house curator and content liaison.
 

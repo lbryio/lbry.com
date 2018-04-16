@@ -1,4 +1,4 @@
----
+﻿---
 author: samuel-lbryian
 title: 'The Mysterious 100K LBC Transaction: Revealed!'
 date: '2016-07-11 00:06:18'
@@ -9,7 +9,7 @@ Many of you are now paying very close attention to our blockchain to see what we
 
 Well, worry not. This doesn’t represent a nefarious plan to dump a bunch of credits on the market. Rather, it’s the result of a deal with a very well-known name in crypto to add LBRY credits to their platform. The credits are intended to provide liquidity for LBC in this new marketplace, but the terms of the deal also state that none of the credits can be sold into general circulation for a minimum of 3 months from purchase.
 
-So who is this mystery buyer? That part will stay a mystery until the formal announcement. But we think our LBC watchers will be very pleased.
+So who is this mysterious buyer? That part will stay a mystery until the formal announcement. But we think our LBC watchers will be very pleased.
 
 Note that this is the first spend from [LBRY’s operational funds](https://lbry.io/news/lbry-blockchain-live-mine-lbc-now). Going forward, as we strategically spend credits from the operational, charitable, and promotional funds, we will note the transactions and their purpose on the blockchain.
 

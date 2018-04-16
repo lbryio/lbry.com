@@ -1,4 +1,4 @@
----
+﻿---
 author: brinck-slattery
 title: 'How Ads Wrecked Entertainment (And What You Can Do About It)'
 date: '2018-01-16 15:30:00'
@@ -20,7 +20,7 @@ It’s 1948.
 
 For almost a century, newspapers have rented out space on their pages (and in their editorial columns) to corporate advertisers.
 
-Four networks broadcasting prime time schedules (8PM to 11PM) seven days a week on 128 channels along with dozens of 24 hour commercial radio channels means a larger audience than ever for creators. But the price of entry is high. To bridge that gap, companies foot the bill - in exchange for editorial control and commercial breaks.
+Four networks broadcasting prime-time schedules (8 PM to 11 PM) seven days a week on 128 channels along with dozens of 24-hour commercial radio channels means a broader audience than ever for creators. But the price of entry is high. To bridge that gap, companies foot the bill - in exchange for editorial control and commercial breaks.
 
 Instead of paying for entry to a concert or play, consumers buy a device (a radio or TV) that gives them access to a seemingly infinite variety of content - with a catch. In exchange for access to that content, they have to spend their time paying attention to ads from the companies paying for the broadcast.
 
@@ -52,7 +52,7 @@ At first, the internet was a ray of light on the dark horizon, providing creator
 
 But like cable TV, the ad-free paradise of the internet was quickly choked with advertising. When advertisers purchase people’s time and attention on the internet, they’re able to really dig into the details of people’s lives for demographic information and personal details to better target their ads. If TV, radio, and print advertising are a shotgun blast, internet advertising is a hit from a highly trained sniper.
 
-It’s no surprise that all the perverse incentives that infected TV and radio have spread through the internet at breakneck speed. Combined with the powerful behavioral and emotional incentives built into modern [ads and app design](https://www.pastemagazine.com/articles/2017/02/on-the-mind-your-brain-on-social-media.html), marketers are devising ways to actively take your attention away from other tasks.
+It’s no surprise that all the perverse incentives that infected TV and radio have spread through the internet at breakneck speed. Combined with the powerful behavioral and emotional incentives built into modern [ads and app design](https://www.pastemagazine.com/articles/2017/02/on-the-mind-your-brain-on-social-media.html), marketers are devising ways to take your attention away from other tasks actively.
 
 This is why you’re always being tempted to learn this one weird trick for bellyfat that doctors hate. It’s the reason for almost everything wrong with the internet.
 
@@ -61,9 +61,9 @@ This is why you’re always being tempted to learn this one weird trick for bell
 <div style="font-size:small; text-align: center">Dermatologists hate her because she is clearly some sort of life-stealing demon shedding her skin</div>
 <br>
 
-Whatever gets the most clicks wins. More clicks means more eyeballs, more eyeballs means more ad click-throughs, more ad click-throughs mean more revenue for the advertisers.
+Whatever gets the most clicks wins. More clicks mean more eyeballs, more eyeballs mean more ad click-throughs, more ad click-throughs mean more revenue for the advertisers.
 
-A century of ad-supported media crafted to appeal to the largest audience possible has trained us to be passive consumers of entertainment - instead of satisfying our urge to find new things that we’re passionate about, we just look at what’s available with the least amount of effort. Think prime time TV, top 40 radio, and trending videos on YouTube.
+A century of ad-supported media crafted to appeal to the broadest audience possible has trained us to be passive consumers of entertainment - instead of satisfying our urge to find new things that we’re passionate about, we just look at what’s available with the least amount of effort. Think prime time TV, top 40 radio, and trending videos on YouTube.
 
 There’s nothing inherently wrong with things that are popular, and it would be contrarian to double down on the idea that people watch things that they don’t actually like.
 
@@ -96,7 +96,7 @@ There are three steps you can take to help stop this ad-supported death spiral. 
 
 3. Try new content delivery platforms that treat artists (and fans) like people, not commodities.
 
-**Be intentional about the media you consume.** It’s pretty simple. No more channel surfing or endlessly watching YouTube’s auto-suggested videos. Stop on one you like and check out the rest from that creator. Turn the radio off, plug into the [Spotify Artist Explorer](https://artistexplorer.spotify.com/), [Music Suggestions Ninja](https://www.musicsuggestions.ninja/), or [Liveplasma](http://liveplasma.com/), and find something great instead of something ok. Decide that from now on, you’re blazing your own path - if it intersects with something that happens to be popular, ad-supported media, that’s totally fine. Just keep the next step in mind.
+**Be intentional about the media you consume.** It’s pretty simple. No more channel surfing or endlessly watching YouTube’s auto-suggested videos. Stop on one you like and check out the rest from that creator. Turn the radio off, plug into the [Spotify Artist Explorer](https://artistexplorer.spotify.com/), [Music Suggestions Ninja](https://www.musicsuggestions.ninja/), or [Liveplasma](http://liveplasma.com/), and find something great instead of something ok. Decide that from now on; you’re blazing your own path - if it intersects with something that happens to be popular, ad-supported media, that’s totally fine. Just keep the next step in mind.
 
 **Find ways to directly support the creators you like**. It isn’t nearly as difficult as it was even five years ago, but most options have some drawbacks. Platforms like [Patreon](https://www.patreon.com/) and [Bandcamp](https://bandcamp.com/) let fans contribute directly to artists, but they take a cut of the proceeds. Streaming services like [Spotify](https://www.spotify.com/) offer a fantastic catalogue of artists and albums, but artists receive very little for each play of their song.
 

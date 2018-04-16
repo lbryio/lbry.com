@@ -1,4 +1,4 @@
----
+﻿---
 author: samuel-lbryian
 title: 'Kinda Sketchy, Totally Legit'
 date: '2016-08-26 00:06:18'
@@ -16,7 +16,7 @@ When you’re done laughing, watch some of their greats like:
 
 - *[How to Help Non-Sports Fans Enjoy Sports](lbry://smallpenis)* – A new medication to help with those times when your buddies are really into the big game, but you? You just aren't...
 - *[Eminem - Rap God (Unofficial Pug Edition)](lbry://pugrapgod)* – It’s Eminem. In top Pug form.
-- *[True Christmas](lbry://truechristmas)* – Rust and Marty from HBO’s True Detective are in fact Santa and his top Elf, unraveling the mystery of the half eaten cookie plate.
+- *[True Christmas](lbry://truechristmas)* – Rust and Marty from HBO’s True Detective are in fact Santa and his top Elf, unraveling the mystery of the half-eaten cookie plate.
 
 **[Charney Comedy](https://www.facebook.com/charneycomedy/)**
 

@@ -1,4 +1,4 @@
----
+﻿---
 author: samuel-lbryian
 title: 'Digging Into LBRY: Our Inspiration & The Future of Content'
 date: '2015-11-05 21:08:22'
@@ -29,7 +29,7 @@ The greatest reward by far is the feeling that you are on to something absolutel
 
 **Mike Vine:** There isn’t really a system. There are many systems, and some are better than others. Services like Netflix and Hulu helped to break cable’s monopoly on TV content. YouTube allowed anyone to upload original content for a mass audience. But these are still centralized services. They are corporations that offer particular services according to their Terms of Use – or effectively, at their pleasure.
 
-The risks of this came to the fore just last week with <a href="http://techcrunch.com/2015/10/21/an-offer-creators-cant-refuse/" target="_blank">YouTube strong-arming publishers into its new “Red” premium service</a>. Another example from a different industry is a few years back when Facebook starting throttling Page owners’ access to their own followers – many of which they had paid to accumulate. The lesson is that if you’re using a system that has a higher authority, you’re always vulnerable.
+The risks of this came to the fore just last week with <a href="http://techcrunch.com/2015/10/21/an-offer-creators-cant-refuse/" target="_blank">YouTube strong-arming publishers into its new “Red” premium service</a>. Another example from a different industry is a few years back when Facebook was starting throttling Page owners’ access to their own followers – many of which they had paid to accumulate. The lesson is that if you’re using a system that has a higher authority, you’re always vulnerable.
 
 LBRY is an open-source protocol, like the ones that form the backbone of the internet. LBRY Inc. supports the development of the protocol, but it doesn’t control it. With the advent of the blockchain era, I think the internet will fulfill its promise of radically decentralizing the flow of information. We hope LBRY will be a big part of that.
 
@@ -41,7 +41,7 @@ We believe that if we don’t lay down rules for where data should be and who sh
 
 <p style="text-align: center;">**<a href="https://news.bitcoin.com/lbry-decentralized-sharing-platform/" target="_blank">Bitcoin.com</a>: How does this service resemble BitTorrent?**
 
-**Kauffman:** It resembles BitTorrent in the ways that the data is actually transferred. LBRY is driven by a distributed hash table quite similar to the one that BitTorrent uses. It was also inspired by BitTorrent in that BitTorrent is generally a community of people interested in sharing access to information and knowledge. LBRY shares the same goals and extends existing torrents as a way of bootstrapping it’s network.
+**Kauffman:** It resembles BitTorrent in the ways that the data is actually transferred. LBRY is driven by a distributed hash table quite similar to the one that BitTorrent uses. It was also inspired by BitTorrent in that BitTorrent is generally a community of people interested in sharing access to information and knowledge. LBRY shares the same goals and extends existing torrents as a way of bootstrapping its network.
 
 **Vine:** LBRY can actually accept torrent links as key values on the blockchain. So out of the gate, it will function as the world’s easiest torrent client. Instead of sending someone a complicated hyperlink, an independent artist can just say “Go to LBRY and type in hipster shorts to find my films.” But we expect LBRY’s built-in content hosting model to supplement or replace BitTorrent over time because of better incentives for everyone involved.
 
@@ -61,7 +61,7 @@ With LBRY, artists have a turnkey publishing, distribution, and payment platform
 
 **Kauffman:** The “big five” of media (film, video games, TV, music, and books) see over US$2 trillion per year. We think LBRY can play a role in the distribution of all of this. This answer is a verbose “Yes!”
 
-**Vine:** Not only a living, but that mythical unicorn of the working world: a passive income. Instead of Uber, this is more like a ridesharing app where people can fill empty seats in your car for whichever direction you might be headed. But unlike with human travelers, data is not too picky about where it sits or what route it takes to where it’s going.
+**Vine:** Not only a living but that mythical unicorn of the working world: a passive income. Instead of Uber, this is more like a ridesharing app where people can fill empty seats in your car for whichever direction you might be headed. But unlike with human travelers, data is not too picky about where it sits or what route it takes to where it’s going.
 
 So devoting hard drive space or bandwidth to LBRY is like suddenly filling your car on daily commutes with paying customers who keep to themselves and get out where you tell them. It’s a pretty sweet deal.
 

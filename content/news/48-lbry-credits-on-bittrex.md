@@ -1,4 +1,4 @@
----
+﻿---
 author: samuel-lbryian
 title: 'LBRY Credits Listed on First Exchange! Liquidity Ensues!'
 date: '2016-07-06 00:06:18'
@@ -7,7 +7,7 @@ US-based cryptocoin exchange Bittrex has become the first to list LBRY credits (
 
 [![LBC on Bittrex](/img/lbryonbittrex.png)](https://bittrex.com/Market/Index?MarketName=BTC-LBC)
 
-Now before you get too excited, keep in mind that there are very few credits available on the market. Only about 37K (not including the 400M pre-mined credits held by LBRY Inc.). This number will increase dramatically as mining ramps up and LBRY adoption programs are rolled out. Plus new cryptocoins are notoriously volatile in their early days. So there’s no reason to believe that LBC will maintain its current value. Really anything can happen from here. 
+Now before you get too excited, keep in mind that there are very few credits available on the market. Only about 37K (not including the 400M pre-mined credits held by LBRY Inc.). This number will increase dramatically as mining ramps up, and LBRY adoption programs are rolled out. Plus new cryptocoins are notoriously volatile in their early days. So there’s no reason to believe that LBC will maintain its current value. Anything can happen from here. 
 
 But for LBRY, listing on Bittrex is a major milestone in our project. We now have a fully functional beta app, a live cryptocoin that is trading freely on the market, and a growing base of excited miners and users.
 
@@ -15,7 +15,7 @@ But for LBRY, listing on Bittrex is a major milestone in our project. We now hav
 
 ![Bittrex](/img/bittrexlogo.png)
 
-Bittrex is one of the market leading cryptocurrency exchanges, giving its users access to more than 190 cryptocurrencies worldwide. These include both well-established cryptocoins like bitcoin and new entrants like LBRY credits. Investors use Bittrex to quickly and securely exchange between cryptocoins, as well as to transfer into and out of fiat currencies like the US dollar. Founded in 2014, Bittrex is based out of the United States and complies with all US financial law for both domestic and international currency trading. Bittrex’s mission is to “deliver the fastest and most secure trading platform available.”
+Bittrex is one of the market-leading cryptocurrency exchanges, giving its users access to more than 190 cryptocurrencies worldwide. These include both well-established cryptocoins like bitcoin and new entrants like LBRY credits. Investors use Bittrex to quickly and securely exchange between cryptocoins, as well as to transfer into and out of fiat currencies like the US dollar. Founded in 2014, Bittrex is based out of the United States and complies with all US financial law for both domestic and international currency trading. Bittrex’s mission is to “deliver the fastest and most secure trading platform available.”
 
 From Bittrex.com:
 

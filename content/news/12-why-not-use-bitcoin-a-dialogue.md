@@ -1,4 +1,4 @@
----
+﻿---
 author: jimmy-kiselak
 title: Why Not Use Bitcoin? A Dialogue
 date: '2015-09-23 17:57:00'
@@ -11,7 +11,7 @@ One of the most common questions we're asked is, "Why not use Bitcoin?" This pos
 
 Characters: **User**, a potential user of a generic blockchain; **Thin Node**, a partial node for a generic blockchain; and **Full Node**, a complete node for a generic blockchain.
 
-*User enters the view, where Thin Node has been sitting around patiently waiting and consuming virtually no resources. Thin Node does not have a copy of the whole blockchain, because that would eat up resources, and User doesn’t want him doing that. Maybe User doesn’t have 40 gigabytes of space on the device he’s using, or is not interested in wasting bandwidth downloading each new full block that comes across the network. All the User wants to know is what a name resolves to on the blockchain.*
+*User enters the view, where Thin Node has been sitting around patiently waiting and consuming virtually no resources. Thin Node does not have a copy of the whole blockchain, because that would eat up resources, and User doesn’t want him doing that. Maybe User doesn’t have 40 gigabytes of space on the device he’s using or is not interested in wasting bandwidth downloading each new full block that comes across the network. All the User wants to know is what a name resolves to on the blockchain.*
 
 User: Hey Thin Node, would you mind finding some information for me?
 Thin Node: Hey User, glad to see you again. I’d love to help if I can.
@@ -45,7 +45,7 @@ Thin Node: I am worthless. Why was I designed this way?
 ### Dialogue #2
 Characters: **User**, a potential user of LBRY; **Thin Node**, a partial node for LBRY; and **Full Node**, a complete node for LBRY.
 
-*User enters the view, where Thin Node has been sitting around patiently waiting and consuming virtually no resources. Thin Node does not have a copy of the whole blockchain, but instead watches the network to see which chain is the longest. He keeps the latest few hundred block headers, which each consume around 100 bytes of space and therefore at most a few kilobytes per hour of bandwidth. He believes that if a block header has several block headers following it, and he can’t find a longer chain of block headers following any other block header at that height, then it’s safe to assume the network has come to a consensus on the validity of that block header at that height.*
+*User enters the view, where Thin Node has been sitting around patiently waiting and consuming virtually no resources. Thin Node does not have a copy of the whole blockchain but instead watches the network to see which chain is the longest. He keeps the latest few hundred block headers, which each consume around 100 bytes of space and therefore at most a few kilobytes per hour of bandwidth. He believes that if a block header has several block headers following it, and he can’t find a longer chain of block headers following any other block header at that height, then it’s safe to assume the network has come to a consensus on the validity of that block header at that height.*
 
 User: Hey Thin Node, would you mind finding some information for me?
 Thin Node: Hey User, glad to see you again. I’d love to help if I can.
@@ -62,11 +62,11 @@ Thin Node: Ya, I see it.
 Full Node: Great. You’ll use that field shortly to prove my answer to yourself. First, though, what’s the hash of a block header that you have trusted using blockchain consensus?
 Thin Node: It’s *&lt;insert hash&gt;*.
 Full Node: OK, here’s a teeny tiny fraction of all of the data stored in our blockchain. It’s just enough for you to prove to yourself cryptographically that I’m not lying to you, as long as you trust that number you sent me and modern cryptography in general.
-Thin Node: Wow, it all checks out! I’ll let my User know. Thanks Full Node!
+Thin Node: Wow, it all checks out! I’ll let my User know. Thanks, Full Node!
 
 *Exit Full Node.*
 
-Thin Node: Hey User, that was an awesome experience. The answer is <insert 4 kb of data>, and I’m as sure of that as I am that the whole entire blockchain I’m based on is secure. And I verified it quickly and easily, without having to use tons of network resources and storage space!
+Thin Node: Hey User, that was an awesome experience. The answer is <insert 4 kb of data>, and I’m as sure of that as I am that the entire blockchain I’m based on is secure. And I verified it quickly and easily, without having to use tons of network resources and storage space!
 User: That’s awesome, Thin Node! I love you!
 Thin Node: I am awesome. I love you too, User.
 

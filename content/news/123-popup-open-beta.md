@@ -1,4 +1,4 @@
----
+﻿---
 author: jeremy-kauffman
 title: Pop-Up Open Beta
 date: '2017-07-31 13:31:31'
@@ -10,9 +10,9 @@ _Want to avoid icky words and just install LBRY, laugh at things, and earn your 
 
 ### The Journey
 
-In less than a year, over 250,000 people have signed up to put control back in the hands of the content creators and consumers. That’s more people than the population of Samoa (which is totally a place you've probably heard of!). It’s a pretty big deal.
+In less than a year, over 250,000 people have signed up to put control back in the hands of the content creators and consumers. That’s more people than the population of Samoa (which is a place you've probably heard of!). It’s a pretty big deal.
 
-There’s a reason why people have been clamoring to get in. It's the same reason why some of YouTube’s most popular publishers, a surge of gaming channels and independent producers are flooding LBRY. It's because existing methods are fundamentally broken. Giant corporations demand tremendous control and abuse it, rather than fostering choice and freedom. They take half of creators' money just to move bits around, when content consumers could be doing it ourselves.
+There’s a reason why people have been clamoring to get in. It's the same reason why some of YouTube’s most popular publishers, a surge of gaming channels and independent producers are flooding LBRY. It's because existing methods are fundamentally broken. Giant corporations demand tremendous control and abuse it, rather than fostering choice and freedom. They take half of the creators' money just to move bits around when content consumers could be doing it ourselves.
 
 There's also a reason it's taken a long time for us to move to open beta, and why it's likely to be temporary: it turns out fundamentally rebuilding the way we distribute content from the ground up is kind of hard.
 
@@ -26,7 +26,7 @@ As LBRY has gotten more popular...
 
 _April was the first month we sent out large chunks of invites, which immediately broke the network. A+ month, would play again._
 
-But while others have been busy focusing on hype and over-promising (_"Our next-generation web 6.0 blockchain protocol will decentralized Facebook, solve global warming, and put humans on Mars (via smart contacts). Just send 923,217 ether to this address and wait patiently"_), we've been quietly working on something that can be quite beautiful...
+But while others have been busy focusing on hype and over-promising (_"Our next-generation web 6.0 blockchain protocol will decentralize Facebook, solve global warming, and put humans on Mars (via smart contacts). Just send 923,217 ether to this address and wait patiently"_), we've been quietly working on something that can be quite beautiful...
 
 ![GIF of LBRY usage example](https://spee.ch/5e4c0afaed2ad4a5bd01d9a8479cd7fbce82f3e1/iad-lbry.gif)
 
@@ -34,7 +34,7 @@ _Oh-so-sweet end-to-end decentralized digital content discovery, distribution, a
 
 Despite our progress, we are at best a few hops along the lengthy journey to the summit. We've got a long list of issues to tackle and a longer list of creators to educate.
 
-Additionally, we want to make sure that the rewards we offer new users -- usually an amount of LBC worth about $5 - $10 -- end up in the hands of people who want to make the network successful.
+Additionally, we want to make sure that the rewards we offer new users -- usually, an amount of LBC worth about $5 - $10 -- end up in the hands of people who want to make the network successful.
 
 In fact, that's the whole point of this post!
 
@@ -58,7 +58,7 @@ Ready to download? [Get LBRY here](https://lbry.io/get).
 
 ### Invites for your Community
 
-We want to get LBRY credits into the hands of users and communities that support content freedom. If you are part of a community that would find LBRY useful or interesting, we can offer invites to the rewards program for your community that do not require full identity verification. Interested? [Say hello here](mailto:hello@lbry.io).
+We want to get LBRY credits into the hands of users and communities that support content freedom. If you are part of a community that would find LBRY useful or interesting, we can offer invites to the rewards program for your community that does not require full identity verification. Interested? [Say hello here](mailto:hello@lbry.io).
 
 ### One More Bonus
 
