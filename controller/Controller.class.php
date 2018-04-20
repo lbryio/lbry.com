@@ -146,7 +146,7 @@ class Controller
       '/news/meet-the-lbry-founders'        => '/team',
       '/faq/no-auction-options'             => '/faq/naming',
       '/join-list'                          => '/list/subscribe',
-      '/publish'                            => '/youtube',
+      '/publish'                            => '/faq/how-to-publish',
       '/faq/quarterly-report-july-2016'     => '/credit-reports/2016-Q2',
       '/faq/quarterly-report-3q-2016'       => '/credit-reports/2016-Q3',
       '/faq/Q4-credit-report'               => '/credit-reports/2016-Q4',
