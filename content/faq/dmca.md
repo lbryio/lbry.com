@@ -1,14 +1,14 @@
 ---
-title: DMCA take down requests
+title: DMCA takedown requests
 category: other
 ---
 Please see our [Content FAQ](https://lbry.io/faq/content) for an explanation of how the LBRY network handles content and how to report infringing material.
 
-### What is a DMCA request or take down notice?
+### What is a DMCA request or takedown notice?
 
 The Digital Millennium Copyright Act (DMCA) is United States Copyright Law written to protect digital content against illegal use. When an owner finds their content used on the Internet without their permission, they can file a DMCA request with the website, app, or Internet Service Provider illegally hosting their content, asking for it to be removed.
 
-### How does LBRY handle and respond to a DMCA request or take down notice?
+### How does LBRY handle and respond to a DMCA request or takedown notice?
 
 Upon receipt of a DMCA request from the content owner or legal representative, LBRY Inc will use its best judgment to determine validity. We will block access to content deemed infringing in any LBRY Inc. owned applications. LBRY Inc. will also remove any data related to the infringing content from servers within its control. 
 
@@ -16,4 +16,4 @@ Due to the immutable nature of the LBRY blockchain, a record and metadata of the
 
 ### Can I dispute a DMCA complaint?
 
-Yes, you may. We can't give you legal advice, so check with your local attorney or legal group about how to do this. There are also good resources online to learn about DMCA counter-notices. The EFF has published an excellent guide about how to deal with legal issues facing online content creators. If you have done the research or feel the content was blocked in error, [please reach out to us](mailto:help@lbry.io). 
+Yes, you may. We can't give you legal advice, so check with your local attorney or legal group about how to do this. There are also good resources online to learn about DMCA counter-notices. The [EFF has published an excellent guide](https://www.eff.org/issues/intellectual-property/guide-to-youtube-removals) about how to deal with legal issues facing online content creators. If you have done the research or feel the content was blocked in error, [please reach out to us](mailto:help@lbry.io). 
