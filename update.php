@@ -1,4 +1,4 @@
-#!/usr/bin/php7.0
+#!/usr/bin/php
 <?php
 
 include __DIR__.'/bootstrap.php';

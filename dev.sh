@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PHPBIN=php7.0
+PHPBIN=php7.2
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
