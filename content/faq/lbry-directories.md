@@ -7,7 +7,7 @@ Depending on which OS and wallet you use, LBRY files may be stored in several pl
 
 ## Windows
 
-- `C:\Program Files (x86)\LBRY` - LBRY application itself
+- `C:\Program Files\LBRY` [32-bit located in Program Files(x86)] - LBRY application itself
 - `C:\Users\%USER%\AppData\Local\lbry\lbrynet` or `%localappdata%\lbry\lbrynet` - Daemon configuration and encrypted blob files
 - `C:\Users\%USER%\AppData\Local\lbry\lbryum` or `%localappdata%\lbry\lbryum` - Wallet and blockchain headers
 
