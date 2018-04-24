@@ -85,7 +85,7 @@ class Controller
     switch($subDomain) {
       case 'chat':
       case 'slack':
-        return static::redirect('https://discordapp.com/invite/U5aRyN6');
+        return static::redirect('https://discord.gg/Z3bERWA');
     }
   }
 
