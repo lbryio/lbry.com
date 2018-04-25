@@ -133,7 +133,7 @@ We recently reached out to [Isaac Arthur](https://www.youtube.com/channel/UCZFip
 We’ve created a new channel for bounty and task announcements. In addition to announcing new [bounty page listings,](https://lbry.io/bounty) we also occasionally post smaller tasks exclusively in the #bounties channel. These tasks are a great way to get involved with the LBRY project and earn a few LBC. Research, transcription, and content posting are all good examples of small tasks. 
 
 ### Meetups and College Campus Initiatives - Get Involved! {#meetup-update}
-Big shout out to LBRY Ambassador @bounboun on Discord for demonstrating LBRY at various meetups in France, including this one in Strasbourg to over one hundred blockchain enthusiasts. Due to positive response, we now have a French language channel ([#en-français](https://discord.gg/YjYbwhS)) in our Discord. Bienvenue! Come visit and join our community!
+Big shout out to LBRY Ambassador @bounboun on Discord for demonstrating LBRY at various meetups in France, including this one in Strasbourg to over one hundred blockchain enthusiasts. Due to positive response, we now have a French language channel ([#en-français](https://chat.lbry.io)) in our Discord. Bienvenue! Come visit and join our community!
 
 Does free speech matter to you? Would you like to get involved with cutting edge blockchain technology and earn a few cryptocoins in the process? We are [looking for ambassadors](https://lbry.io/meet) to spread the word on college campuses and at live blockchain or video related meetups - if you’d like to bring LBRY to your group, we’ll help you with resources, swag, and LBC for your members!
 
