@@ -72,6 +72,10 @@
       <h2 id="positions">Positions</h2>
       <em>If a position is marked paused, you are still welcome to contact us. For blockchain, protocol, and application engineers, we will be hiring regularly throughout 2018.</em>
       <div>
+        <?php /**
+         * Jobs partial goes here! Previous job markup left below, can be deleted after ticket is finished.
+         */ ?>
+        <?php /*
         <h3 id="blockchain-engineer">Blockchain Engineer <span class="badge badge-primary">Active</span></h3>
         <p>
           This position involves working directly on the LBRY <a href="https://github.com/lbryio/lbrycrd">blockchain</a>, written in C++.
@@ -91,14 +95,7 @@
         </p>
         <p>Competence with security, operating systems, and networks is mandatory. Experience with peer-to-peer technology is beneficial but not required.</p>
 
-        <h3 id="web-developer">Web Developer <span class="badge badge-info">Paused</span></h3>
-        <p>
-          We're seeking someone to manage <a href="https://github.com/lbryio/lbry.io">this very website</a>, as well as other LBRY web properties and projects.
-        </p>
-        <p>
-          This position involves both design and programming elements and is good for someone with a mix of creativity and logic.
-          The LBRY website currently uses a moderate amount of PHP, but you be the product owner and have full control over the implementation.
-        </p>
+*/ ?>
       </div>
       <h2 id="applying">Applying</h2>
       <h4 id="how-to-apply">How To Apply</h4>
