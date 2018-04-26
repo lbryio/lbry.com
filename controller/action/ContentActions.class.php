@@ -398,15 +398,18 @@ class ContentActions extends Actions
 
     $jobs = array();
 
-    foreach(glob(static::VIEW_FOLDER_JOBS . '/*') as $job){
-
+    $jobs = array_filter(glob(static::VIEW_FOLDER_JOBS . '/*'), function($job){
       list($metadata, $jobHTML) = View::parseMarkdown($job);
+    
+      return $metadata['status'] != 'closed';
+    });
 
-      if($metadata['status'] != 'closed')
-      {
-        array_push($jobs, $job);
-      }
-    }
+    usort($jobs, function($job1, $job2){
+      list($metadataA, $jobHTMLA) = View::parseMarkdown($job1);
+      list($metadataB, $jobHTMLB) = View::parseMarkdown($job2);
+      return $metadataA['order'] <=> $metadataB['order'];
+    });
+
     return ['content/join-us', ['jobs' => $jobs]];
   }
   

@@ -74,7 +74,7 @@
       <div>
         <?php foreach($jobs as $job): ?>
           <?php echo View::render('content/_job', ['job' => $job])  ?>
-      <?php endforeach ?>
+        <?php endforeach ?>
       </div>
       <h2 id="applying">Applying</h2>
       <h4 id="how-to-apply">How To Apply</h4>
