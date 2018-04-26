@@ -9,12 +9,14 @@ class ContentActions extends Actions
     SLUG_PRESS = 'press',
     SLUG_BOUNTY = 'bounty',
     SLUG_CREDIT_REPORTS = 'credit-reports',
+    SLUG_JOBS = 'jobs',
 
     URL_NEWS = '/' . self::SLUG_NEWS,
     URL_FAQ = '/' . self::SLUG_FAQ,
     URL_PRESS = '/' . self::SLUG_PRESS,
     URL_BOUNTY = '/' . self::SLUG_BOUNTY,
     URL_CREDIT_REPORTS = '/' . self::SLUG_CREDIT_REPORTS,
+    URL_JOBS = '/' . self::SLUG_JOBS,
 
     CONTENT_DIR = ROOT_DIR . '/content',
 
@@ -22,7 +24,8 @@ class ContentActions extends Actions
     VIEW_FOLDER_FAQ = self::CONTENT_DIR . '/' . self::SLUG_FAQ,
     VIEW_FOLDER_BOUNTY = self::CONTENT_DIR . '/' . self::SLUG_BOUNTY,
     VIEW_FOLDER_PRESS = self::CONTENT_DIR . '/' . self::SLUG_PRESS,
-    VIEW_FOLDER_CREDIT_REPORTS = self::CONTENT_DIR . '/' . self::SLUG_CREDIT_REPORTS;
+    VIEW_FOLDER_CREDIT_REPORTS = self::CONTENT_DIR . '/' . self::SLUG_CREDIT_REPORTS,
+    VIEW_FOLDER_JOBS = self::CONTENT_DIR . '/' . self::SLUG_JOBS;
 
   public static function executeHome(): array
   {
@@ -387,5 +390,32 @@ class ContentActions extends Actions
         'showRssLink' => true
       ]
     ]];
+  }
+
+  public static function executeJobs()
+  {
+    Response::enableHttpCache();
+
+    $jobs = array();
+
+    foreach(glob(static::VIEW_FOLDER_JOBS . '/*') as $job){
+
+      list($metadata, $jobHTML) = View::parseMarkdown($job);
+
+      if($metadata['status'] != 'closed')
+      {
+        array_push($jobs, $job);
+      }
+    }
+    return ['content/join-us', ['jobs' => $jobs]];
+  }
+  
+  public static function prepareJobPartial(array $vars)
+  {
+
+    list($metadata, $jobHTML) = View::parseMarkdown($vars['job']);
+    return $vars + ['metadata' => $metadata, 'jobHTML' => $jobHTML];
+
+
   }
 }

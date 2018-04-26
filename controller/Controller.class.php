@@ -109,6 +109,7 @@ class Controller
 
     $router->get(['/press-kit.zip', 'press-kit'], 'ContentActions::executePressKit');
 
+    $router->get('/join-us', 'ContentActions::executeJobs');
     $router->post('/postcommit', 'OpsActions::executePostCommit');
     $router->post('/log-upload', 'OpsActions::executeLogUpload');
     $router->get(static::CACHE_CLEAR_PATH, 'OpsActions::executeClearCache');
