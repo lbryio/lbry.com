@@ -30,7 +30,8 @@
                     'natalie-mitchell',
                     'reilly-smith',
                     'tom-zarebczan',
-                    'brinck-slattery'] as $bioSlug): ?>
+                    'brinck-slattery',
+                    'rob-smith'] as $bioSlug): ?>
       <div class="spacer2">
         <?php echo View::render('content/_bio', ['person' => $bioSlug]) ?>
       </div>
