@@ -23,3 +23,11 @@ $badge-height: $spacing-vertical * 3/4;
     background-color: $color-info-bg;
   }
 }
+
+h1, h2, h3, h4, h5, h6
+{
+  > .badge
+  {
+    vertical-align: middle;
+  }
+}

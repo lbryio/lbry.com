@@ -70,74 +70,69 @@
 
 
       <h2 id="positions">Positions</h2>
-      <em>If a position is marked paused, you are still welcome to contact us. For blockchain, protocol, and application engineers, we will be hiring regularly throughout 2018.</em>
-      <div>
-        <?php foreach($jobs as $job): ?>
-          <?php echo View::render('content/_job', ['job' => $job])  ?>
-        <?php endforeach ?>
-      </div>
-      <h2 id="applying">Applying</h2>
-      <h4 id="how-to-apply">How To Apply</h4>
-      <p>
-        Contact <a href="mailto:joinus@lbry.io">joinus@lbry.io</a> if interested in a position. Please include the following:
-      </p>
-      <ol>
-        <li>A resume, LinkedIn profile, or other resource that would serve as a work history.</li>
-        <li>A code sample. Preferably a link to a public repository for a project you have built or significantly contributed to.</li>
-        <li>One sentence about why you'd like to work for LBRY.</li>
-      </ol>
+      <?php echo View::render('content/_jobs')  ?>
 
-      <h4 id="process">The Process</h4>
+      <h2 id="applying">Hiring Process</h2>
       <p>
-        We use a 3-step hiring process:
+        Click "Apply" next to any job listed above to begin the process. We use a 3-step hiring process:
       </p>
       <ol>
-        <li>A brief (20-30 minute) non-technical, introductory phone call with either the CEO or CTO.</li>
+        <li>A brief (30 minute max), non-technical, introductory phone call with either the CEO, CTO, or appropriate lead.</li>
         <li>
-          <p>A compensated code contribution (4 hours minimum) on the repository you'd be working on.</p>
+          <p>
+            All technical hires are required to complete compensated code contribution on the repository they'd be working on.
+            Non-technical hires will also be asked to complete a compensated trial task after they apply and complete step 1.
+          </p>
+          <p>
+            Issues tagged "good first issue" are suitable for this purpose, though you are welcome to work on another issue or even something not filed at all.
+          </p>
           <table class="full-table">
             <thead>
               <tr>
-                <th>Project</th>
+                <th>Project(s)</th>
                 <th>Position</th>
                 <th>Issues</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td><a href="https://github.com/lbryio/lbry">lbry</a></td>
-                <td>Protocol Engineer</td>
+                <td class="center"><a href="https://github.com/lbryio/lbrycrd">lbrycrd</a></td>
+                <td class="center">Blockchain Engineer</td>
+                <td class="center"><a href="https://github.com/lbryio/lbrycrd/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">good first issues</a></td>
+              </tr>
+              <tr>
+                <td class="center">
+                  <a href="https://github.com/lbryio/lbry">lbry (daemon)</a><br/>
+                  <a href="https://github.com/lbryio/lbryum">lbryum (wallet)</a>
+                </td class="center">
+                <td class="center">Protocol Engineer</td>
                 <td><a href="https://github.com/lbryio/lbry/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">good first issues</a></td>
               </tr>
               <tr>
-                <td><a href="https://github.com/lbryio/lbry-app">lbry-app</a></td>
-                <td>Application or UX Engineer</td>
-                <td><a href="https://github.com/lbryio/lbry-app/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">good first issues</a></td>
+                <td class="center">
+                  <a href="https://github.com/lbryio/lbry-app">lbry-desktop</a><br/>
+                  <a href="https://github.com/lbryio/lbry-android">lbry-android</a><br/>
+                  <a href="https://github.com/lbryio/spee.ch">spee.ch</a>
+                </td>
+                <td class="center">Lead Application Engineer</td>
+                <td class="center"><a href="https://github.com/lbryio/lbry-app/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">good first issues</a></td>
               </tr>
               <tr>
-                <td><a href="https://github.com/lbryio/lbrycrd">lbrycrd</a></td>
-                <td>Blockchain Engineer</td>
-                <td><a href="https://github.com/lbryio/lbrycrd/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">good first issues</a></td>
-              </tr>
-              <tr>
-                <td><a href="https://github.com/lbryio/lbry.io">lbry.io</a></td>
-                <td>Web Developer</td>
-                <td><a href="https://github.com/lbryio/lbry.io/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">good first issues</a></td>
+                <td class="center"><em>(not public)</em></td>
+                <td class="center">API engineer</td>
+                <td class="center">contact us / apply first</td>
               </tr>
             </tbody>
           </table>
           <p>
-            We ask all potential full-time contributors to take on a potential issue on the project they'd be working on. Issues tagged "good first issue" are suitable for this purpose, though you are welcome to work on another issue or even something not filed at all.
-          </p>
-          <p>
             The issue you choose does not necessarily need to be fully completed, and we don't expect a perfect first contribution. Open a pull request as soon as you'd like any feedback from one of our developers. We compensate at or above market rates for all accepted pull requests.
           </p>
           <p>
-            For questions or problems with a particular issue, please comment directly on the GitHub issue. For setup or environment trouble, open a separate issue. You can also join #dev in <a href="https://chat.lbry.io">our chat</a> to interact with other community members.
+            For questions or problems with a particular issue, please comment directly on the GitHub issue. For setup or environment trouble, open a separate issue or email the contact listed in the project <code>README</code>. You can also join #dev in <a href="https://chat.lbry.io">our chat</a> to interact with other community members.
           </p>
         </li>
         <li>
-          <p>A longer (1-2 hours) meeting with the team members you'd be working directly with, as well as the CEO and/or CTO.</p>
+          <p>A longer meeting with the team members you'd be working directly with, as well as the CEO and/or CTO.</p>
         </li>
       </ol>
       <p>Steps 1 and 2 may be completed in either order (i.e. you're welcome to try contributing before the introductory call).</p>

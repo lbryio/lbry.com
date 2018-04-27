@@ -16,7 +16,6 @@ class ContentActions extends Actions
     URL_PRESS = '/' . self::SLUG_PRESS,
     URL_BOUNTY = '/' . self::SLUG_BOUNTY,
     URL_CREDIT_REPORTS = '/' . self::SLUG_CREDIT_REPORTS,
-    URL_JOBS = '/' . self::SLUG_JOBS,
 
     CONTENT_DIR = ROOT_DIR . '/content',
 
@@ -392,33 +391,21 @@ class ContentActions extends Actions
     ]];
   }
 
-  public static function executeJobs()
+  public static function prepareJobsPartial(array $vars)
   {
-    Response::enableHttpCache();
+    $jobs =
+      array_filter(
+        array_map('View::parseMarkdown', glob(static::VIEW_FOLDER_JOBS . '/*')),
+        function($job) { return $job[0]['status'] !== 'closed'; }
+      );
 
-    $jobs = array();
-
-    $jobs = array_filter(glob(static::VIEW_FOLDER_JOBS . '/*'), function($job){
-      list($metadata, $jobHTML) = View::parseMarkdown($job);
-    
-      return $metadata['status'] != 'closed';
+    usort($jobs, function($jobA, $jobB){
+      if ($jobA[0]['status'] === 'active' xor $jobB[0]['status'] === 'active') {
+        return $jobA[0]['status'] === 'active' ? -1 : 1;
+      }
+      return $jobA[0]['order'] <=> $jobB[0]['order'];
     });
 
-    usort($jobs, function($job1, $job2){
-      list($metadataA, $jobHTMLA) = View::parseMarkdown($job1);
-      list($metadataB, $jobHTMLB) = View::parseMarkdown($job2);
-      return $metadataA['order'] <=> $metadataB['order'];
-    });
-
-    return ['content/join-us', ['jobs' => $jobs]];
-  }
-  
-  public static function prepareJobPartial(array $vars)
-  {
-
-    list($metadata, $jobHTML) = View::parseMarkdown($vars['job']);
-    return $vars + ['metadata' => $metadata, 'jobHTML' => $jobHTML];
-
-
+    return $vars + ['jobs' => $jobs];
   }
 }
