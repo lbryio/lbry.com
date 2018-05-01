@@ -14,6 +14,7 @@ class Response
   const HEADER_CONTENT_DISPOSITION  = 'Content-Disposition';
   const HEADER_CONTENT_TYPE_OPTIONS = 'X-Content-Type-Options';
   const HEADER_CONTENT_ENCODING     = 'Content-Encoding';
+  const HEADER_CROSS_ORIGIN = 'Access-Control-Allow-Origin';
 
   protected static
     $metaDescription = '',

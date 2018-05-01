@@ -4,6 +4,7 @@ class ReportActions extends Actions
 {
   public static function executeDmca()
   {
+    Response::setHeader(Response::HEADER_CROSS_ORIGIN, "*");
     if (!Request::isPost())
     {
       return ['report/dmca'];
