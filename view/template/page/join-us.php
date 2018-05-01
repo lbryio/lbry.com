@@ -139,7 +139,7 @@
 
       <h2 id="referrals">Referrals</h2>
       <p>
-        Know someone who'd be a great fit? Tell them about us, send them a link this page, or show up at their house unexpectedly with a
+        Know someone who'd be a great fit? Tell them about us, send them a link to this page, or show up at their house unexpectedly with a
         box of candy and a persuasive pitch. If we hire them, we'll pay you $5,000. That's what we call a win-win.
       </p>
 
