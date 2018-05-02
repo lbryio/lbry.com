@@ -29,28 +29,18 @@ class DownloadActions extends Actions
   public static function executeGet()
   {
     $osChoices = OS::getAll();
-    $os        = static::guessOs();
 
-    if ($os && isset($osChoices[$os]))
-    {
+    $os = static::guessOS();
+
+    if(isset($os) && isset($osChoices[$os])){
       list($uri, $osTitle, $osIcon, $buttonLabel, $analyticsLabel) = $osChoices[$os];
-      $release = GitHub::getAppRelease();
-      $asset = GitHub::getAppAsset($os);
-      return ['download/get', [
-        'analyticsLabel' => $analyticsLabel,
-        'buttonLabel' => $buttonLabel,
-        'downloadUrl' => $asset ? $asset['browser_download_url'] : null,
-        'isAuto'      => Request::getParam('auto'),
-        'os'          => $os,
-        'osTitle'     => $osTitle,
-        'osIcon'      => $osIcon,
-        'releaseTimestamp' => $release ? strtotime($release['created_at']) : null,
-        'size'        => $asset ? $asset['size'] / ( 1024 * 1024 ) : 0, //bytes -> MB
-        'version'     => $release ? $release['name'] : null,
-      ]];
+      $asset = Github::getAppAsset($os);
+      $param = ['osTitle' => $osTitle, 'osIcon' => $osIcon, 'os' => $os, 'downloadUrl' => $asset ? $asset['browser_download_url'] : null];
+      return ['download/get', $param];
     }
-
-    return ['download/get-no-os'];
+    else{
+      return ['download/get-no-os'];
+    }
   }
 
   public static function prepareListPartial(array $vars)
@@ -112,5 +102,33 @@ class DownloadActions extends Actions
     }
 
     return $email;
+  }
+
+  public static function prepareDownloadButtonPartial(array $vars)
+  {
+    $osChoices = OS::getAll();
+
+    $os = static::guessOS();
+
+    if ($os && isset($osChoices[$os])) {
+          list($uri, $osTitle, $osIcon, $buttonLabel, $analyticsLabel) = $osChoices[$os];
+          $release = Github::getAppRelease();
+          $asset = Github::getAppAsset($os);
+
+          $vars = $vars + [
+              'analyticsLabel' => $analyticsLabel,
+              'buttonLabel' => $buttonLabel,
+              'downloadUrl' => $asset ? $asset['browser_download_url'] : null,
+              'os' => $os,
+              'osTitle' => $osTitle,
+              'osIcon' => $osIcon,
+              'releaseTimestamp' => $release ? strtotime($release['created_at']) : null,
+              'size' => $asset ? $asset['size'] / (1024 * 1024) : 0, //bytes -> MB
+              'version' => $release ? $release['name'] : null,
+              'isAuto' => Request::getParam('auto'),
+          ];
+
+      }
+    return $vars;
   }
 }
