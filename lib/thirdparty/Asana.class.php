@@ -8,54 +8,41 @@ class Asana
   {
     // Use print_r(static::get('/projects')) to get project IDs
 
-    $projects = [
-      158602294500138 => ['LBRY Browser', 'https://github.com/lbryio/lbry-web-ui'],
-      158602294500137 => ['LBRY Data Network', 'https://github.com/lbryio/lbry'],
-      161514803479899 => ['Blockchain and Wallets', 'https://github.com/lbryio/lbrycrd'],
-      136290697597644 => ['Integration and Building', null],
-      158602294500249 => ['Documentation', null],
-      658477315612493 => ['Complete', null],
-      658477315612495 => ['In progress', null]
-    ];
-
+    $roadmapProjectId = 502841492992874;
     $tasks = [];
 
-    $tags = [
-      192699565737944 => 'Open Beta',
-      542803886522122 => 'Upcoming',
-      658477315612491 => ' 2018 ',
-      659021359433311 => ' 2025 '
-    ];
-
-    foreach ($tags as $tagId => $tagLabel)
-    {
-      $taggedTasks = static::get('/tags/' . $tagId . '/tasks', ['completed_since' => 'now'], $cache);
-      foreach ($taggedTasks as $task)
-      {
-        $fullTask  = static::get('/tasks/' . $task['id'], [], $cache);
-        $projectId = $fullTask['memberships'][0]['project']['id'] ?? null;
-        if ($fullTask['name'])
-        {
-          if ($projectId && isset($projects[$projectId]))
-          {
-            list($projectName, $projectUrl) = $projects[$projectId];
-          }
-          else
-          {
-            $projectName = 'Planned';
-            $projectId = null;
-          }
-          $tasks[$tagLabel][] = array_intersect_key($fullTask, ['name' => null]) + [
-              'badge'         => $projectName,
-              'date'          => $fullTask['due_on'] ?? null,
-              'body'          => nl2br($fullTask['notes']),
-              'group'         => $tagLabel,
-              'project_id'    => $projectId,
-              'assignee'      => $fullTask['assignee'] ? ucwords($fullTask['assignee']['name']) : '',
-              'quarter_date'  => 'Q' . static::dateToQuarter($fullTask['due_on']) . ' ' . (string) date('Y', strtotime($fullTask['due_on']))
-            ];
+    $allTasks = array_reduce(
+      static::get('/projects/' . $roadmapProjectId . '/tasks', [], $cache),
+      function($carry, $task) use($cache) {
+        $fullTask =  static::get('/tasks/' . $task['id'], [], $cache);
+        if ($fullTask['name']) {
+          $carry[] = $fullTask;
         }
+        return $carry;
+      },
+      []
+    );
+
+    foreach ($allTasks as $task)
+    {
+      $badge = "Planned";
+      if ($task['completed'])
+      {
+        $badge = "Complete";
       }
+      else if (in_array("In Progress", array_map(function($tag) { return $tag['name']; }, $task['tags'] ?? [])))
+      {
+        $badge = "In Progress";
+      }
+      $taskDueTime = strtotime($task['due_on']);
+      $year = date('Y', $taskDueTime);
+      $tasks[' ' . $year . ' '][] = array_intersect_key($task, ['name' => null]) + [
+          'badge'         => $badge,
+          'date'          => $task['due_on'] ?? null,
+          'body'          => nl2br($task['notes']),
+//          'assignee'      => $fullTask['assignee'] ? ucwords($fullTask['assignee']['name']) : '',
+          'quarter_date'  => 'Q' . static::dateToQuarter($task['due_on']) . ' ' . $year
+        ];
     }
 
     foreach ($tasks as &$groupTasks)

@@ -51,7 +51,7 @@
                   <?php if (isset($item['badge'])): ?>
                     <?php switch($item['badge']): case "Complete": ?>
                     <span class=" badge badge-primary"><?php echo $item['badge'] ?></span><br/>
-                    <?php break; case "In progress":?>
+                    <?php break; case "In Progress":?>
                     <span class="badge badge-info"><?php echo $item['badge']?></span><br/>
                     <?php break; case "Planned": ?>
                     <span class="badge"><?php echo $item['badge']?></span><br/>
