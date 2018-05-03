@@ -14,6 +14,8 @@ class Asana
       161514803479899 => ['Blockchain and Wallets', 'https://github.com/lbryio/lbrycrd'],
       136290697597644 => ['Integration and Building', null],
       158602294500249 => ['Documentation', null],
+      658477315612493 => ['Complete', null],
+      658477315612495 => ['In progress', null]
     ];
 
     $tasks = [];
@@ -21,7 +23,8 @@ class Asana
     $tags = [
       192699565737944 => 'Open Beta',
       542803886522122 => 'Upcoming',
-      542803886522120 => 'Future'
+      658477315612491 => ' 2018 ',
+      659021359433311 => ' 2025 '
     ];
 
     foreach ($tags as $tagId => $tagLabel)
@@ -39,7 +42,7 @@ class Asana
           }
           else
           {
-            $projectName = 'Other';
+            $projectName = 'Planned';
             $projectId = null;
           }
           $tasks[$tagLabel][] = array_intersect_key($fullTask, ['name' => null]) + [
@@ -59,17 +62,9 @@ class Asana
     {
       usort($groupTasks, function ($tA, $tB)
       {
-        if ($tA['group'] != $tB['group'])
-        {
-          return $tA['group'] <= $tB['group'] ? -1 : 1;
-        }
         if ($tA['date'] xor $tB['date'])
         {
           return $tA['date'] ? -1 : 1;
-        }
-        if ($tA['project_id'] xor $tB['project_id'])
-        {
-          return $tA['project_id'] ? -1 : 1;
         }
         return $tA['date'] < $tB['date'] ? -1 : 1;
       });
