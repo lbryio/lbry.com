@@ -49,7 +49,6 @@ download:
   unavailable: LBRY is not yet out on this platform, but will be soon. Enter your email to be notified when it is released.
   verb: Download
   windows: Download for Windows
-  works: "Works with Ubuntu, Debian, or any distro with <code>apt</code> or <code>dpkg</code>."
 email:
   address: Email
   code: Invite Code

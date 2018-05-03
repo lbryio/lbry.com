@@ -14,10 +14,10 @@
         </p>
         <div class="text-center">
           <p>
-              <?php echo View::Render('download/_downloadButton', ['buttonStyle'=>'alt',])?>
-              <div class="meta">
-                Like source code? Go <a href="https://github.com/lbryio/lbry-app" class="link-primary">here</a>.<P><P>
-              </div>
+              <?php echo View::Render('download/_downloadButton', [
+                  'buttonStyle' => 'alt',
+                  'sourceLink' => true
+              ])?>
           </p>
           <div class="meta">
             <img src="https://spee.ch/5a3e08d52dd2d7cb1c63a480b45dea8b4679cf01/lbryget-gif-mastertest.gif" />
