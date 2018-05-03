@@ -4,7 +4,7 @@ category: tipbots
 order: 1
 ---
 
-# LBRY Discord tipbot information
+## LBRY Discord Tipbot Information
 
 Tips, in LBRY Credits (LBC), are an integral part of our community because they allow us to reward community members for their contributions - whether that's for sharing something insightful, providing feedback, completing bounties, testing our various apps or helping promote LBRY's vision and technology. You can earn them, share, or transfer them via simple commands on the Discord server. 
 
