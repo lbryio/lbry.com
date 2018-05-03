@@ -93,7 +93,7 @@ class ContentActions extends Actions
         'publisher'  => 'Publishers and Creators',
         'troubleshooting' => 'Help and Troubleshooting',
         'wallet'     => 'Wallet and Transactions',
-        'tipbots'    => 'LBRY TipBots',
+        'tipbots'    => 'LBRY Tipbots',
         'mining'     => 'Mining LBC',
         'developer'  => 'Developers',
         'differences' => 'What Makes LBRY Different?',
