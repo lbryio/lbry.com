@@ -119,6 +119,7 @@ class DownloadActions extends Actions
           'analyticsLabel' => $analyticsLabel,
           'buttonLabel' => $buttonLabel,
           'downloadUrl' => $asset ? $asset['browser_download_url'] : null,
+          'meta' => true,
           'os' => $os,
           'osTitle' => $osTitle,
           'osIcon' => $osIcon,
