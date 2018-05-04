@@ -49,9 +49,14 @@
                     <span class="roadmap-item-assignee"><?php echo $item['assignee'] ?></span>
                   <?php endif ?>
                   <?php if (isset($item['badge'])): ?>
-                    <span class="badge"><?php echo $item['badge'] ?></span><br/>
-                  <?php endif ?>
-
+                    <?php switch($item['badge']): case "Complete": ?>
+                    <span class=" badge badge-primary"><?php echo $item['badge'] ?></span><br/>
+                    <?php break; case "In Progress":?>
+                    <span class="badge badge-info"><?php echo $item['badge']?></span><br/>
+                    <?php break; case "Planned": ?>
+                    <span class="badge"><?php echo $item['badge']?></span><br/>
+                    <?php break; endswitch;?>
+                    <?php endif ?>
                 </div>
               <?php endif ?>
               <h3 class="roadmap-item-title">
@@ -72,7 +77,7 @@
                 <?php echo $item['body'] ?: '<em class="no-results">No description</em>' ?>
               </div>
             </div>
-          <?php endforeach ?>
+         <?php endforeach ?>
         </div>
       <?php endforeach ?>
       <div class="text-center"><a href="javascript:;" class="link-primary show-all-roadmap-groups">Show Earlier Releases</a></div>

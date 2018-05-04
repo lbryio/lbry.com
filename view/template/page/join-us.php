@@ -1,5 +1,5 @@
-<?php Response::setMetaDescription('Like contributing to digital freedom and making money? Why not both? LBRY is hiring!') ?>
-<?php Response::addMetaImage('https://spee.ch/@lbryteam/everyone.jpg') ?>
+<?php Response::setMetaDescription('Like contributing to digital freedom or making money? Why not both? LBRY is hiring!') ?>
+<?php Response::addMetaImage('https://spee.ch/@lbryteam:6/everyone.jpg') ?>
 <?php echo View::render('nav/_header', ['isDark' => false]) ?>
 <main>
   <section class="post-content">
@@ -13,7 +13,7 @@
         curiosity, you've come to the right place.
       </p>
 
-      <img src="https://spee.ch/@lbryteam:6/everyone.jpg" alt="LBRY Team Photo from November 2017" />
+      <img src="https://spee.ch/@lbryteam:6/everyone-apr-2018.jpg" alt="LBRY Team Photo from April 2018" />
       <div class="meta text-center spacer1">
         Fortunately, photo shoots are not a regular job activity.
       </div>
@@ -139,7 +139,7 @@
 
       <h2 id="referrals">Referrals</h2>
       <p>
-        Know someone who'd be a great fit? Tell them about us, send them a link this page, or show up at their house unexpectedly with a
+        Know someone who'd be a great fit? Tell them about us, send them a link to this page, or show up at their house unexpectedly with a
         box of candy and a persuasive pitch. If we hire them, we'll pay you $5,000. That's what we call a win-win.
       </p>
 

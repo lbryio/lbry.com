@@ -9,6 +9,7 @@ The most likely cause of this error is an old version was running during the ins
 
 ### How to Fix
 
+1. Click `Quit Daemon` in the LBRY app to kill the LBRY network process. 
 1. Restart your PC or ensure that any processes with "lbry" in the name are not running. 
 1. [Download](https://github.com/lbryio/lbry-app/releases) and re-install the latest version of LBRY. 
 1. Start LBRY

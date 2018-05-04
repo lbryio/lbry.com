@@ -49,7 +49,6 @@ download:
   unavailable: LBRY is not yet out on this platform, but will be soon. Enter your email to be notified when it is released.
   verb: Download
   windows: Download for Windows
-  works: "Works with Ubuntu, Debian, or any distro with <code>apt</code> or <code>dpkg</code>."
 email:
   address: Email
   code: Invite Code
@@ -90,6 +89,7 @@ learn:
   rebels: Learn more about the relentless rebels changing the internet.
   team: About The Team
   meetup: LBRY is looking for ambassadors to spread the word to College campuses and Meetup groups worldwide!
+  3d-printing: 3D Printing meets Blockchain
 nav:
   get: Get
   home: Home
@@ -252,6 +252,7 @@ title:
   meetup: Have LBRY Join Your Next Meetup!
   guns: LBRY Fights For Free Speech
   android-alpha: Be an Android Alpha Tester!
+  3d-printing: Print your first file from the Blockchain
 roadmap:
   title: LBRY Roadmap
   description: See past and future progress on development of LBRY, the world's first user-controlled digital marketplace.
