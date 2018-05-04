@@ -1,7 +1,7 @@
 ---
 author: samuel-bryan
 title: 'Development and Community Update April 2018'
-date: '2018-05-04 23:00:00'
+date: '2018-05-04 13:45:00'
 cover: 'coder-tank.jpg'
 ---
 Welcome to our LBRY Development and Community update! In this post we’ll show you what we’ve been up to and review our progress for the month of April. It was a busy month, starting off with the company All-Hands summit, and progress was made on our desktop and Android apps, LBRY Protocol improvements, several community updates, and team growth. For previous updates, please visit [our Company News archive](https://lbry.io/news).
@@ -74,6 +74,9 @@ Based on feedback received when we first mentioned a hard fork, we want to stres
 # Community Happenings {#com-updates}
 If you aren’t part of our Discord community yet, [join us](https://chat.lbry.io) anytime and say hello! Our community allows LBRYians to interact with the team directly and for us to engage users in order to grow the LBRY platform. 
 
+### Upcoming Events
+If you’re in the DC area, make sure to get registered for the [Startup Society Summit](https://www.startupsocieties.com/startup-societies-summit-gmu-2018/) at George Mason University next week (May 9th and 10th). Natalie Mitchell, LBRY’s Director of Talent and Branding, will be speaking on how free market startup cities and blockchain technology can help rebuild Puerto Rico in the aftermath of Hurricane Maria. Stop by and say hello!
+
 ### LBRY is hiring! New Jobs Posted
 The team saw amazing growth in March as 21 team members came together for our second All Hands meetup at LBRY’s home base in Manchester, NH. We’re delighted to announce we’re seeking [even more members to join our crew,](https://lbry.io/join-us) so if you’ve dreamed of working at the front of bleeding edge technology, we have these opportunities available:
 
@@ -123,7 +126,7 @@ The [LBRY Tipbot for Twitter](https://twitter.com/@LBC_TipBot) was tested intern
 
 ![Tipbot](https://spee.ch/b/tipbot-gerbil.jpeg)
 
-### LBRY.tech Update {#lbry-tech}
+### LBRY.tech Update
 We’ve recently hired additional help to shape our lbry.tech technical resource and its design and development is progressing quickly. Developers will be able to interact with a live LBRY daemon directly from the website and access various technical content like documentation on how to contribute, how to develop and other technical resources. Follow along the development on our github repository and check out an early preview below (disregard the poor design, it’s getting a facelift!). Our goal is to launch an early version of this site by the end of May, which will include the long awaited LBRY whitepaper in draft form. 
 
 ![lbry.tech preview](https://spee.ch/d/lbrytech-early-design.jpeg)
@@ -134,9 +137,6 @@ With our Discord community growing and in order to improve the experience for ne
 When you join our Discord, you will first see the #welcome-to-lbry channel and have access to the #general, #help, and #verification areas. If you wish to join other channels that relate to international channels, mining, or trading channels, you will need to use the #role-assign channel to give yourself access to the roles you’re interested in. A full description of the roles along with general info about the LBRY Discord server may be found in channel #welcome-to-lbry. 
 
 ![discord](https://spee.ch/9/welcome-to-lbry.jpeg)
-
-### Favorite Creators Contest in Discord
-After not receiving any response from Issac Arthur, we then reached out to [VetRanch](https://www.youtube.com/user/VetRanch) via multiple channels. This effort also came up empty, and we moved onto the 3rd highest voted favorite creator which was [Philip Defranco](https://www.youtube.com/user/sxephil). We will give Philip a few more days before moving onto the next highest voted channel, which is [Richard Hall](https://www.youtube.com/channel/UCQwCjFkhLbdpsu1xUDm7oGA). A couple community members have volunteered to improve on our messaging, so we’ll give it another honest effort if we continue to be unsuccessful in reaching out to some of the more popular YouTubers! 
 
 ### Meetups and College Campus Initiatives - Get Involved! {#meetup-update}
 ![Hack the Heights](https://spee.ch/6/hackheights.png)
