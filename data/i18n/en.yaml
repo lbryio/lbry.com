@@ -89,6 +89,7 @@ learn:
   rebels: Learn more about the relentless rebels changing the internet.
   team: About The Team
   meetup: LBRY is looking for ambassadors to spread the word to College campuses and Meetup groups worldwide!
+  3d-printing: 3D Printing meets Blockchain
 nav:
   get: Get
   home: Home
@@ -251,6 +252,7 @@ title:
   meetup: Have LBRY Join Your Next Meetup!
   guns: LBRY Fights For Free Speech
   android-alpha: Be an Android Alpha Tester!
+  3d-printing: Print your first file from the Blockchain
 roadmap:
   title: LBRY Roadmap
   description: See past and future progress on development of LBRY, the world's first user-controlled digital marketplace.
