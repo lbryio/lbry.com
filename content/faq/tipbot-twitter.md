@@ -30,16 +30,16 @@ Displays your Twitter LBRY wallet address. Useful if you want to receive LBC's d
 ### Tip
 Want to tip someone? This will send a tip to a chosen username.  
 **Arguments:**  
-`@LBC_TipBot lbryian <username> <amount>`   
+`@LBC_TipBot lbryian tip <username> <amount>`   
 [**Tweet Example:**](https://twitter.com/TomZarebczan/status/991692765036720129)    
-`@LBC_TipBot lbryian @invariantchange 10` 
+`@LBC_TipBot lbryian tip @invariantchange 10` 
 
 ### Withdraw
 Use this to withdraw your balance from your LBRY Twitter wallet to another LBRY wallet such as the wallet in your LBRY app, or to a LBC wallet on an exchange.   
 **Arguments:**   
 `@LBC_TipBot lbryian withdraw <address>`      
 [**Tweet Example:**](https://twitter.com/TrendsPremium/status/991493692669267968)  
-`@LBC_TipBot lbryian bQ8N2xbbityGNyiijaUtZVHkN3KZys2ci`
+`@LBC_TipBot lbryian withdraw bQ8N2xbbityGNyiijaUtZVHkN3KZys2ci`
 
 ### Terms
 Shows the terms and conditions  
