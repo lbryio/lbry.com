@@ -55,16 +55,16 @@ This will privately send your set tip amount to all the users you list in person
 **Example:**  
 `!multitip private @Electron#1111 @Proton#222 10`  
 
-### Role Tips (Currently out of service)
+### Role Tips
 Want to tip a Disocrd role? This will send a tip to your chosen role.  
 **Arguments:**    
-`!tip <role> <amount>`  
+`!roletip <role> <amount>`  
 **Example:**  
-`!tip @LBRY Team 10`  
+`!roletip @LBRY Team 10`  
 
-### Private Role Tips (Currently out of service)
+### Private Role Tips
 Want to tip a Disocrd role privately? This will send a tip to your chosen role in a private message.  
 **Arguments:**  
-`!tip private <role> <amount>`  
+`!roletip private <role> <amount>`  
 **Example:**  
-`!tip private @LBRY Team 10`
+`!roletip private @LBRY Team 10`
