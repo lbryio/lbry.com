@@ -13,7 +13,7 @@
         curiosity, you've come to the right place.
       </p>
 
-      <img src="https://spee.ch/@lbryteam:6/everyone.jpg" alt="LBRY Team Photo from November 2017" />
+      <img src="https://spee.ch/3/DcXL0VV0AAHenW.jpeg" alt="LBRY Team Photo from May 2018" />
       <div class="meta text-center spacer1">
         Fortunately, photo shoots are not a regular job activity.
       </div>
