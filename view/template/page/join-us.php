@@ -1,5 +1,5 @@
 <?php Response::setMetaDescription('Like contributing to digital freedom or making money? Why not both? LBRY is hiring!') ?>
-<?php Response::addMetaImage('https://spee.ch/@lbryteam/everyone.jpg') ?>
+<?php Response::addMetaImage('https://spee.ch/@lbryteam:6/everyone.jpg') ?>
 <?php echo View::render('nav/_header', ['isDark' => false]) ?>
 <main>
   <section class="post-content">
