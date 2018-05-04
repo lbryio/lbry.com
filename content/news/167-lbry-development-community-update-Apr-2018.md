@@ -126,7 +126,7 @@ The [LBRY Tipbot for Twitter](https://twitter.com/@LBC_TipBot) was tested intern
 
 ![Tipbot](https://spee.ch/b/tipbot-gerbil.jpeg)
 
-### LBRY.tech Update
+### LBRY.tech Update {#lbry-tech}
 We’ve recently hired additional help to shape our lbry.tech technical resource and its design and development is progressing quickly. Developers will be able to interact with a live LBRY daemon directly from the website and access various technical content like documentation on how to contribute, how to develop and other technical resources. Follow along the development on our github repository and check out an early preview below (disregard the poor design, it’s getting a facelift!). Our goal is to launch an early version of this site by the end of May, which will include the long awaited LBRY whitepaper in draft form. 
 
 ![lbry.tech preview](https://spee.ch/d/lbrytech-early-design.jpeg)
