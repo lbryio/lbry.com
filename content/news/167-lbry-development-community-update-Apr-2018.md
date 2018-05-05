@@ -1,5 +1,5 @@
 ---
-author: samuel-bryan
+author: samuel-lbryian
 title: 'Development and Community Update April 2018'
 date: '2018-05-04 13:45:00'
 cover: 'coder-tank.jpg'
@@ -17,7 +17,7 @@ All of our code is open source and available on [GitHub](https://github.com/lbry
 
 ### App and Protocol Summary
 Due to travel time for and participation at [LBRY’s All Hands](#all-hands) gathering, development activities were on the lighter side this past month. The app team did release version [0.21.3](https://github.com/lbryio/lbry-app/releases/tag/v0.21.3) which included a minor fix to block content DMCA infringing content. Otherwise, the main focus on the app side has been on testing and bug squashing on the [redesign](#redesign-updates). Part of this effort was spent on separating out the [lbry-redux](https://github.com/lbryio/lbry-redux) code into its own repository so that the the mobile and desktop apps can re-use redux states and functionality. We ran into a few quirks during this process but we were able to get things running smoothly! 
-
+ 
 On the Protocol side of the house, [version 0.20](https://github.com/lbryio/lbry/releases/tag/v0.20.0rc9) is undergoing refactoring and improvements to the way blob announcement is handled and other DHT enhancements around peer availability. We were able to bring the blob announce times from 1 or 2 per second, to 25 per second (our target is 100 per second!). With these changes, our team hopes to improve the consistency of content availability on the network. A fair amount of time was also spent identifying and fixing our reflector servers to ensure that content uploaded by users is passed correctly to our content nodes. Before these changes, certain content would not be reflected properly which resulted in unavailable content if the original uploader was not online. Finally, development efforts on both the client and server side of our [wallet functionality](#wallet) have been progressing nicely. 
 
 ### Content Blocking and DMCA
