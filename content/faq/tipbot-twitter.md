@@ -14,8 +14,8 @@ Use the following commands to make amazing things happen. We recommend creating 
 
 ### Help
 This displays a list of tip commands and how to use them.  
-[**Tweet Example:**](https://twitter.com/TomZarebczan/status/991901394218176512)  
-`!tip help`
+[**Tweet Example:**](https://twitter.com/TomZarebczan/status/991901394218176512)  
+`@LBC_TipBot lbryian help`
 
 ### Balance
 Displays the balance of your Twitter LBRY wallet.   
