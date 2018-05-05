@@ -14,7 +14,7 @@ Use the following commands to make amazing things happen. We recommend creating 
 
 ### Help
 This displays a list of tip commands and how to use them.  
-[**Tweet Example:**](https://twitter.com/TomZarebczan/status/991901394218176512)  
+[**Tweet Example:**](https://twitter.com/TomZarebczan/status/991901394218176512)  
 `@LBC_TipBot lbryian help`
 
 ### Balance
@@ -30,8 +30,8 @@ Displays your Twitter LBRY wallet address. Useful if you want to receive LBC's d
 ### Tip
 Want to tip someone? This will send a tip to a chosen username.  
 **Arguments:**  
-`@LBC_TipBot lbryian tip <username> <amount>`   
-[**Tweet Example:**](https://twitter.com/TomZarebczan/status/991692765036720129)    
+`@LBC_TipBot lbryian tip <username> <amount>`  
+[**Tweet Example:**](https://twitter.com/TomZarebczan/status/991692765036720129)   
 `@LBC_TipBot lbryian tip @invariantchange 10` 
 
 ### Withdraw
