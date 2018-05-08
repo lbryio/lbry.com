@@ -10,7 +10,7 @@ LBRY is first and foremost a new *protocol* that allows anyone to build apps tha
 What makes this all possible is the blockchain technology developed by the creator of Bitcoin. Do you have to understand any of this to use and enjoy LBRY? No. Does it still matter to users? Yes!
 
 ## Why Build A Protocol?
-Building [protocols, not platforms](https://lbry.io/news/blockchain-is-love-blockchain-is-life), is the future of the free, open internet. Almost every tech giant today is a centralized service that sells users’ personal information and attention to advertisers. They spend a lot of money chasing their product (your personal information and time/attention), but at the end of the day, offer it up for free in exchange for access to the platform. 
+Building [protocols, not platforms](https://lbry.io/news/blockchain-is-love-blockchain-is-life), is the future of the free, open internet. Almost every tech giant today is a centralized service that sells users’ personal information and attention to advertisers. They spend a lot of money chasing their product (your personal information and time/attention), but at the end of the day, users (you) offer it up for free in exchange for access to the platform. 
 
 We think users should own their content (and their privacy) instead of handing it over to a corporate giant and their advertising buddies. If you think we’re paranoid, there are dozens of examples of [companies abusing users](https://lbry.io/news/why-do-tech-giants-abuse-their-users) and acting against their interests. It’s not paranoia if they’re actually out to get you.
 
