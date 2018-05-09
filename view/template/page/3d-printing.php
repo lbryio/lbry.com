@@ -28,13 +28,29 @@
 
     </div>
     <body align="center">
-    <h3> Print your first file from the blockchain!</h3>
-    <h4> Open the app & click a sign to download.</h4>
-      <a href="https://open.lbry.io/bitcoinacceptedhere"> <img src="https://spee.ch/9/BitcoinAcceptedHereTransparent.png" alt=Bitcoin-Accepted-Here style="width:500px;"></a>
-      <a href="https://open.lbry.io/EthereumAcceptedHere"> <img src="https://spee.ch/1/EthereumAcceptedHereTransparent.png" alt=Ethereum-Accepted-Here style="width:500px;"></a>
-      <a href="https://open.lbry.io/BitcoinCashacceptedhere"> <img src="https://spee.ch/e/BitcoinCashAcceptedHereTransparent.png" alt=Bitcoin-Cash-Accepted-Here style="width:500px;"></a>
-      <a href="https://open.lbry.io/MoneroAcceptedHere"> <img src="https://spee.ch/1/MoneroAcceptedHereTransparent.png" alt=Monero-Accepted-Here style="width:500px;"></a>
-      <a href="https://open.lbry.io/DashAcceptedHere"> <img src="https://spee.ch/d/DashAcceptedHereTransparent2.png" alt=Dash-Accepted-Here style="width:500px;"></a>
-      <a href="https://open.lbry.io/LBRYCreditsAcceptedHere"> <img src="https://spee.ch/f/LBRY-Credits-Accepted-Here-Transparent.png" alt=Dash-Accepted-Here style="width:500px;"></a>
+    <h3> Open the app & click a sign to download your first file from the blockchain.</h3>
+    <p><strong>Open the app &amp; click a sign to download.</strong></p>
+       <a href="https://open.lbry.io/bitcoinacceptedhere"> <img style="padding:20px;" src="https://spee.ch/e/bitcoin3d.jpeg" alt="Bitcoin Accepted Here" title="Bitcoin Accepted Here" width="500px"></a>
+       <a href="https://open.lbry.io/EthereumAcceptedHere"> <img style="padding:20px;" src="https://spee.ch/e/ethereum3d.jpeg" alt="Ethereum Accepted Here" title="Ethereum Accepted Here" width="500px"></a>
+       <a href="https://open.lbry.io/BitcoinCashacceptedhere"> <img style="padding:20px;" src="https://spee.ch/a/bitcoincash3d.jpeg" alt="Bitcoin-Cash Accepted Here" title="Bitcoin-Cash Accepted Here" width="500px"></a>
+       <a href="https://open.lbry.io/MoneroAcceptedHere"> <img style="padding:20px;" src="https://spee.ch/3/monero3d.jpeg" alt="Monero Accepted Here" title="Monero Accepted Here" width="500px"></a>
+       <a href="https://open.lbry.io/DashAcceptedHere"> <img style="padding:20px;" src="https://spee.ch/5/dassh3d.jpeg" alt="Dash Accepted Here" title="Dash Accepted Here" width="500px"></a>
+       <a href="https://open.lbry.io/LBRYCreditsAcceptedHere"> <img style="padding:20px;" src="https://spee.ch/0/lbry3d.jpeg" alt="LBRY Accepted Here" title="LBRY Accepted Here" width="500px"></a>
+  </div>
+  <div class="content content-light content-readable">
+    <h3>We want to see your first 3D upload!</h3>
+    <p>Send the lbry:// address with your wallet address to <a href="mailto:james@lbry.io" class="link-primary"><span class="btn-label">james@lbry.io</span></a> and receive 10 Library Credits on us.</p>
+    <h3>Looking for more exclusive content?</h3>
+    <p>Enter your email below and we'll send you updates on new releases from content creators like you.</p>
+    <div>
+      <p>Email <a href="mailto:james@lbry.io" class="link-primary"><span class="btn-label">james@lbry.io</span></a> if think you're eligble to be a LBRY exclusive content designer.</p>
+    </div>
+    <?php echo View::render('mail/_subscribeForm', [
+      'tag' => '3d-printing',
+      'submitLabel' => 'Sign me up',
+      'hideDisclaimer' => true,
+      'largeInput' => true,
+      'btnClass' => 'btn-alt btn-large',
+    ]) ?>
   </div>
 </main>
