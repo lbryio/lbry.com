@@ -13,7 +13,7 @@
       <h2>Wanna Earn Crypto For Your 3D Files?</h2>
         <p>Now you can buy and sell files at <strong>any price</strong> or share your files for free &amp; earn <strong>microtips</strong>!</p>
         <p>Like Bitcoin, LBRY (library) uses blockchain technology, enabling you to earn without a bank or 3rd party.</p>
-        <p><img src="https://spee.ch/0/BitcoinMeets3Dprinting.jpeg" alt="Bitcoin-Meets-3D-Printing" height="250"></p>
+        <p><img src="https://spee.ch/0/BitcoinMeets3Dprinting.jpeg" alt="Bitcoin-Meets-3D-Printing" width="667px" height="250"></p>
       <h2>Sounds Futuristic. How Do I Start Earning?</h2>
         <p>You can download the LBRY app <a href="/get?src=FA">here.</a> If you have any questions or need help,join our <a href="http://chat.lbry.io">Discord</a> community.</p>
       <span class="text-center spacer1"><a href="/get?src=FA" class="btn-primary btn-large">DOWNLOAD THE LBRY APP</a></span> </div>
