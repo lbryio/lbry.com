@@ -16,6 +16,9 @@
           </a>
         </div>
       </nav>
+      <div>
+        <a href="/join-us">LBRY is hiring!</a>
+      </div>
     </div>
   </div>
 <?php endif ?>
