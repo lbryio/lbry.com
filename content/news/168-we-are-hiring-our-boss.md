@@ -57,6 +57,7 @@ I (Akinwale) work on the LBRY Android app, which is an interesting combination o
 
 We love Node, React, and all web technologies and we are looking forward to working with someone who shares the same excitement!
 
-<p align="center">
-[https://spee.ch/5/beourboss.png)](https://hire.withgoogle.com/public/jobs/lbryio/view/P_AAAAAADAAADNhIbg93Flmj?trackingTag=joinUs)
-</p>
+<div align="center">
+  [![Alternative image text for screen readers and SEO](http://www.domain.com/image.png)](http://linkdestination.com)
+[![Apply now](https://spee.ch/5/beourboss.png)](https://hire.withgoogle.com/public/jobs/lbryio/view/P_AAAAAADAAADNhIbg93Flmj?trackingTag=joinUs)
+</div>
