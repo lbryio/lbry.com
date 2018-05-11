@@ -119,6 +119,19 @@ class AcquisitionActions extends Actions
     }
   }
 
+  public static function prepareYoutubeErrorMessage($error, $email){
+    // Error code definition
+    $error_definition = [
+        'this email is already in use' => "The email you entered matches the email of an existing user. If " . $email . " is your email, please send a message from this address to help@lbry.io and include your YouTube channel URL.",
+        ];
+
+    if(array_key_exists($error, $error_definition))
+    {
+      $error = $error_definition[$error];
+    }
+
+    return $error;
+  }
   protected static function youtube_channel_verification($youtube_channel_id)
   {
     if (preg_match('/^UC[A-Za-z0-9_-]{22}$/', $youtube_channel_id)) {
@@ -136,4 +149,5 @@ class AcquisitionActions extends Actions
       return false;
     }
   }
+
 }

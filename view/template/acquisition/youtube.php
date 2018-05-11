@@ -42,9 +42,11 @@ Response::setMetaDescription("Put your content on the blockchain, experience tru
   <div class="inner">
 
     <div class="content">
-      <?php
-      if ($error_message): echo "<div>" . "The following error occurred: ". $error_message  . " For support please send an email to hello@lbry.io" . "</div>";
-      endif;?>
+        <?php
+            if ($error_message ?? false):
+                echo View::render('acquisition/_youtube_error', ['error_message' => $error_message]);
+            endif;
+        ?>
       <div class="zigzag"></div>
       <h1>Create on a stable platform. For real this time.</h1>
         <div hidden id="sync-status" class="sync-status">
