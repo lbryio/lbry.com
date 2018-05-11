@@ -6,14 +6,17 @@ cover: 'wooden-letters-banner.jpg'
 ---
 # We're Hiring our Boss
 Hello world, we are three self-taught programmers who are hiring our boss here at LBRY. 
-If you’re just hearing about LBRY for the first time, we’ve built a blockchain-based, peer to peer content streaming protocol, and we’re building a video streaming app to showcase its capabilities. We believe that protocols, not platforms, are the future of the internet, and we want the best people available to help us prove it.
+
 We aren’t writers, but we are three developers who are able to get things done (like writing this post). The purpose of this blog post is to tell you who we are, what we are looking for, and why it would be awesome to be our boss.
+
+If you’re just hearing about LBRY for the first time, it is an open-source, blockchain-based, decentralized digital media protocol. We're the team that builds applications to showcase its capabilities.
+
 ## Who we are
-<main class="column-fluid">
+<div class="column-fluid">
 <div class="span3"><img src="https://spee.ch/1/Sean2.jpeg" style="padding: 0 12px 24px 0" alt="Sean Yesmunt"></div><div class="span9"><p>I'm <a href="http://seanyesmunt.com"> Sean,</a> I joined LBRY in November to work on the LBRY desktop app after making a few small contributions on my own. Before that I was working with React and Node on Walmart.com for 1.5 years after teaching myself to code. I am very interested in user experience, and creating simple apps that are easy to use.</p></div>
 <div class="span3"><img align="left" style="padding: 0 12px 24px 0" src="https://spee.ch/c/Bill2.jpeg" alt="Bill Bittner"></div><div class="span9"><p>I’m <a href="https://github.com/billbitt"> Bill.</a>  I found out about LBRY while exploring blockchain applications and was quickly hooked by the vibrant dev community that had already sprung up around their alpha build.  I love building web apps and exploring new technologies, so it wasn’t long before I jumped in and starting to building on top of the LBRY network.</p></div>
 <div class="span3"><img align="left" style="padding: 0 12px 24px 0" src="https://spee.ch/7/Akin2.jpeg" alt="Akinwale Ariwodola"></div><div class="span9"><p>I’m <a href="https://github.com/akinwale"> Akinwale.</a> I discovered LBRY when my interest in cryptocurrencies got rekindled in early 2017 and I was looking for a coin to mine. I found the project really exciting which led to my decision to start contributing to the desktop app. One thing led to another, and I eventually started working on getting the Android version up and running.</p></div>
-</main>
+</div>
 ## What we're looking for
 As self-taught developers, we are able to complete and implement features, but we would really like mentorship in the planning and decision making before we start coding. In other words, we are confident in our cutting skills, and are looking for a seasoned veteran who can to help us measure twice. Someone who can tell us, "These are the best practices and this is the reason why."
 If you’re wondering what we’re wondering about, these are some of our recent discussion topics:
