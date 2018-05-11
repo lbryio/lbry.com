@@ -133,40 +133,11 @@ class Controller
 
     $router->post('/set-culture', 'i18nActions::setCulture');
 
-    $permanentRedirects = [
-      '/lbry-osx-latest.dmg'                => '/get',
-      '/lbry-linux-latest.deb'              => '/get',
-      '/dl/lbry_setup.sh'                   => '/get',
-      '/art'                                => '/what',
-      '/why'                                => '/learn',
-      '/feedback'                           => '/learn',
-      '/joinus'                             => '/join-us',
-      '/faq/when-referral-payouts'          => '/faq/referrals',
-      '/faq/why-care-about-lbry'            => '/get',
-      '/news/meet-the-lbry-founders'        => '/team',
-      '/faq/no-auction-options'             => '/faq/naming',
-      '/join-list'                          => '/list/subscribe',
-      '/publish'                            => '/faq/how-to-publish',
-      '/faq/quarterly-report-july-2016'     => '/credit-reports/2016-Q2',
-      '/faq/quarterly-report-3q-2016'       => '/credit-reports/2016-Q3',
-      '/faq/Q4-credit-report'               => '/credit-reports/2016-Q4',
-      '/faq/Q1-17-CreditReport'             => '/credit-reports/2017-Q1',
-      '/faq/how-to-report-bugs'             => '/faq/support',
-      '/faq/make-money'                     => '/faq/earn-income',
-    ];
+    $permanentRedirectsPath = ROOT_DIR . '/data/redirect/permanent.yaml';
+    $tempRedirectsPath = ROOT_DIR . '/data/redirect/temporary.yaml';
 
-    $tempRedirects = [
-      '/apple-touch-icon.png' => '/img/fav/apple-touch-icon.png',
-      '/LBRY-deck.pdf'        => 'https://www.dropbox.com/s/0xj4vgucsbi8rtv/lbry-deck.pdf?dl=1',
-      '/deck.pdf'             => 'https://www.dropbox.com/s/0xj4vgucsbi8rtv/lbry-deck.pdf?dl=1',
-      '/pln.pdf'              => 'https://www.dropbox.com/s/uevjrwnyr672clj/lbry-pln.pdf?dl=1',
-      '/plan.pdf'             => 'https://www.dropbox.com/s/uevjrwnyr672clj/lbry-pln.pdf?dl=1',
-      '/api'                  => 'https://lbryio.github.io/lbry',
-      '/api-help'             => 'https://lbryio.github.io/lbry',
-      '/security'             => '/faq/security',
-      '/live'                 => 'https://www.youtube.com/watch?v=WM60vLOCRps', //'https://www.youtube.com/channel/UCXAcp3dJuPqeUekOacsuyaQ',
-    ];
-
+    $permanentRedirects = SpyC::YAMLLoadString(file_get_contents($permanentRedirectsPath));
+    $tempRedirects = SpyC::YAMLLoadString(file_get_contents($tempRedirectsPath));
 
     foreach ([307 => $tempRedirects, 301 => $permanentRedirects] as $code => $redirects)
     {
