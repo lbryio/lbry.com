@@ -32,9 +32,13 @@ If you’re wondering what we’re wondering about, these are some of our recent
 
 ## Why being our boss would be awesome
 We are working on the intersection of blockchain and web technologies, and that’s a pretty cool thing. Being on the forefront of this space is ripe with new challenges, but working on problems that not many people have worked on before is what gets us excited to continue to learn and build.  
+
 I (Sean) work on the LBRY Electron app, which is built for macOS, linux, and windows. It starts up the LBRY daemon and interacts with it locally, as well as an API server that handles authentication and rewards. This app is a showcase for what can be done on the LBRY blockchain and we will continue to build features as the the functionality becomes available. We get a lot of community contributions which is also very cool.
+
 Bill (me) works on the spee.ch web app, which is a portal for users to upload and retrieve content from the LBRY network from the browser. Initially conceived as a simple imgur alternative on the blockchain, the project has grown immensely both in how, and how much, it is used.  As the user base has grown from a handful of visits to hundreds of thousands of requests per day, we have embarked on a journey to build out a multi-site ecosystem where developers can create their own spee.ch-like websites using a common code base.
+
 I (Akinwale) work on the LBRY Android app, which is an interesting combination of technologies: React Native (the frontend), Python (the LBRY daemon) and Java (for access to the native platform API). It is similar in functionality to the Electron app with shared code across platforms, and we’d love to be able to present virtually the same experience to the user for both platforms.
+
 We love Node, React, and all web technologies and we are looking forward to working with someone who shares the same excitement!
 <div class="spacer2 text-center">
 <a class="btn-primary btn-large" href="https://hire.withgoogle.com/public/jobs/lbryio/view/P_AAAAAADAAADNhIbg93Flmj?trackingTag=joinUs">Apply To Be Our Boss</a>
