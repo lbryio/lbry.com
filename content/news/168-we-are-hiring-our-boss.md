@@ -1,7 +1,7 @@
 ---
-author: brinck-slattery
+author: Samuel-Bryan
 title: 'We\'re Hiring Our Boss'
-date: '2018-05-10 18:00:00'
+date: '2018-05-11 10:00:00'
 cover: 'wooden-letters-banner.jpg'
 ---
 # We're Hiring our Boss
