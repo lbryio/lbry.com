@@ -1,5 +1,5 @@
 ---
-author: samuel-bryan
+author: samuel-lbryian
 title: 'We\'re Hiring Our Boss'
 date: '2018-05-11 10:00:00'
 cover: 'wooden-letters-banner.jpg'
