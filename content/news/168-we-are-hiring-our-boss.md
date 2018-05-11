@@ -17,6 +17,7 @@ We aren’t writers, but we are three developers who are able to get things done
 ## What we're looking for
 As self-taught developers, we are able to complete and implement features, but we would really like mentorship in the planning and decision making before we start coding. In other words, we are confident in our cutting skills, and are looking for a seasoned veteran who can to help us measure twice. Someone who can tell us, "These are the best practices and this is the reason why."
 If you’re wondering what we’re wondering about, these are some of our recent discussion topics:
+
 * App architecture (How data flows)
 * React performance
 * React Native performance
@@ -28,6 +29,7 @@ If you’re wondering what we’re wondering about, these are some of our recent
 * Authentication
 * Devops (CI/CD)
 * Load handling and scalability
+
 ## Why being our boss would be awesome
 We are working on the intersection of blockchain and web technologies, and that’s a pretty cool thing. Being on the forefront of this space is ripe with new challenges, but working on problems that not many people have worked on before is what gets us excited to continue to learn and build.  
 I (Sean) work on the LBRY Electron app, which is built for macOS, linux, and windows. It starts up the LBRY daemon and interacts with it locally, as well as an API server that handles authentication and rewards. This app is a showcase for what can be done on the LBRY blockchain and we will continue to build features as the the functionality becomes available. We get a lot of community contributions which is also very cool.
