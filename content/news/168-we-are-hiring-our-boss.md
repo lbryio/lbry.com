@@ -9,7 +9,7 @@ Hello world, we are three self-taught programmers who are hiring our boss here a
 
 We aren’t writers, but we are three developers who are able to get things done (like writing this post). The purpose of this blog post is to tell you who we are, what we are looking for, and why it would be awesome to be our boss.
 
-If you’re just hearing about LBRY for the first time, it is an open-source, blockchain-based, decentralized digital media protocol. We're the team that builds applications to showcase its capabilities.
+If you’re just hearing about LBRY for the first time, it is an open-source, blockchain-based, decentralized digital media protocol. We're the team that builds applications that use the protocol. That is, we build the ways most people interact with and use LBRY.
 
 ## Who we are
 <div class="column-fluid">
