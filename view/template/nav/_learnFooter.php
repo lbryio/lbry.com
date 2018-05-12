@@ -25,7 +25,7 @@
         <h3><?php echo __('publish.keepl') ?></h3>
         <ul>
           <?php if (Request::getRelativeUri() != '/what'): ?>
-            <li>Read "<a href="/what" class="link-primary">Art in the Internet Age</a>", an introductory essay.</li>
+            <li>Read "<a href="/what" class="link-primary">Art in the Internet Age</a>", an introductory essay</li>
           <?php endif ?>
           <?php if (Request::getRelativeUri() != '/team'): ?>
             <li>Find out about <a href="/team" class="link-primary">the team behind LBRY</a></li>
