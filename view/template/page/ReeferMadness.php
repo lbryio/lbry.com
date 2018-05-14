@@ -8,7 +8,7 @@
         YouTube Has Reefer Madness
       </h1>
       <h3 class="cover-item--outline">
-        YouTube has deleted thousands of cannabis-related videos. Have you had enough?
+        YouTube is erasing thousands of cannabis-related videos. Have you had enough?
       </h3>
     </div>
   </div>
