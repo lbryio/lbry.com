@@ -15,7 +15,7 @@
   <div class="cover cover-light" id="about">
     <div class="content content-light content-readable">
       <h3>YouTube is purging drug-related content.</h3>
-      <p>Over the past few months, YouTube has been <a href="https://www.leafly.com/news/industry/youtube-continues-its-cannabis-purge-and-nobody-knows-why">quietly deleting</a> thousands of cannabis-related channels. Their vague content rules demand that drug use be “contextualized” (a term without any real definition), which means they get to pick and choose who’s allowed to talk about drugs.</p>
+      <p>Over the past few months, YouTube has been <a href="https://www.leafly.com/news/industry/youtube-continues-its-cannabis-purge-and-nobody-knows-why">quietly deleting</a> hundreds of cannabis-related channels. Their vague content rules demand that drug use be “contextualized” (a term without any real definition), which means they get to pick and choose who’s allowed to talk about drugs.</p>
       <p>It’s no surprise that the channels that are disappearing aren’t exactly household names - a psychonaut with a small audience or budding cannabis chef won’t get the benefit of the doubt that Doug Benson or Vice will. </p>
       <p>As long as YouTube depends on revenue from advertisers, you can expect to see more and more of these periodic spasms of censorship.</p>
       <h3>We can do better.</h3>
