@@ -17,7 +17,7 @@ Displays the balance of your Reddit LBRY wallet. Performed via Reddit messaging.
 **Example:**  
 `balance`  
 **Request:**  
-[Request Withdraw](https://reddit.com/message/compose?to=lbryian&subject=Balance&message=balance)
+[Request Balance](https://reddit.com/message/compose?to=lbryian&subject=Balance&message=balance)
 
 ### Deposit
 Displays your Reddit LBRY wallet address. Useful if you want to receive LBC's directly to your wallet. Performed via Reddit messaging.     
