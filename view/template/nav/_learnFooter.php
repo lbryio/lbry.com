@@ -18,14 +18,14 @@
           <li>Join us on <a href="https://twitter.com/lbryio" target="_blank" class="link-primary"><span class="btn-label">Twitter</span><span class="icon icon-twitter"></span></a>
             <a href="https://facebook.com/lbryio" target="_blank" class="link-primary"><span class="btn-label">Facebook</span><span class="icon icon-facebook"></span></a>
             <a href="https://reddit.com/r/lbry" target="_blank" class="link-primary"><span class="btn-label">Reddit</span><span class="icon icon-reddit"></span></a>
-            <a href="https://chat.lbry.io" target="_blank" class="link-primary"><span class="btn-label">Discord</span><span class="icon-comments icon-fw"></span></a>.</li>
+            <a href="https://chat.lbry.io" target="_blank" class="link-primary"><span class="btn-label">Discord</span><span class="icon-comments icon-fw"></span></a></li>
         </ul>
       </div>
       <div class="span6">
         <h3><?php echo __('publish.keepl') ?></h3>
         <ul>
           <?php if (Request::getRelativeUri() != '/what'): ?>
-            <li>Read "<a href="/what" class="link-primary">Art in the Internet Age</a>", an introductory essay.</li>
+            <li>Read "<a href="/what" class="link-primary">Art in the Internet Age</a>", an introductory essay</li>
           <?php endif ?>
           <?php if (Request::getRelativeUri() != '/team'): ?>
             <li>Find out about <a href="/team" class="link-primary">the team behind LBRY</a></li>
