@@ -23,7 +23,7 @@
       <p>Ready to get off the YouTube merry go round? Use the link below to join our YouTube Partner Program and mirror your videos to LBRY. </p>
     </div>
     <div class="spacer2 text-center">
-<a class="btn-primary btn-large" href="https://lbry.io/YouTube">Join our Partner Program</a>
+<a class="btn-primary btn-large" href="https://lbry.io/youtube">Join our Partner Program</a>
 </div>
   </div>
 </main>
