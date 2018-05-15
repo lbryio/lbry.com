@@ -1,5 +1,6 @@
 <?php Response::setMetaDescription(__('YouTube has Reefer Madness')) ?>
 <?php Response::setMetaTitle(__('YT is censoring cannabis-related videos. LBRY won\'t.')) ?>
+<?php Response::addMetaImage('https://spee.ch/2/YT-Madness.png') ?>
 <?php echo View::render('nav/_header', ['isDark' => true, 'isAbsolute' => true]) ?>
 <main>
   <div class="cover cover-dark cover-center cover-full cover--dark-overlay" style="background-image: url(/img/greens_mini.jpg)">
