@@ -153,6 +153,53 @@ class Controller
       '/faq/Q1-17-CreditReport'             => '/credit-reports/2017-Q1',
       '/faq/how-to-report-bugs'             => '/faq/support',
       '/faq/make-money'                     => '/faq/earn-income',
+
+//     New Redirects
+      
+      '/news/$1.2b-market-cap-we-dont-care' => '/news/1.2b-market-cap-we-dont-care',      
+      '/news/lbry-promo-video-raw-footage'  => '/news',																		
+      '/developer-program'                  => '/news',																	
+      '/news/page/2'                        => '/news',																																	
+      '/youtube/sync'                       => '/faq/youtube',																		
+      '/nothing-here'                       => '/news',														
+      '/news/www.maidsafe.com'              => '/faq/different-storj',															
+      '/news/www.porcfest.com'              => '/news/lbry-at-porcfest-first-public-screening-film-via-blockchain',																		
+      '/news/author/jeremy/page/2'          => '/team',																	
+      '/news/every-major-tech-company-hates-you' => '/news',																		
+      '/navframe?selectedItem=/news'        => '/news',																																	
+      '/news/author/jack-robison'           => '/team',																	
+      '/news/mysterious-'                   => '/news/mysterious-100k-lbc-revealed',																			
+      '/news/author/sam'                    => '/team',														
+      '/navframe?selectedItem=/news?selectedItem=/news' => '/news',																		
+      '/news/author/samuel'                 => '/team',																	
+      '/news/author/sam/page/3'             => '/team',																	
+      '/news/author/sam/page/2'             => '/team',																			
+      '/news/team'                          => '/team',															
+      '/get.How+to+Create+an+Identity+LBRY+TutorialsFollow' => '/faq/identity-requirements',																	
+      '/what-is-lbry'                       => '/faq/what-is-lbry',																	
+      '/getFree'                            => '/news/free-lbry-credits-come-and-get-em',																	
+      '/news/tag/freedom-of-information'    => '/news/crypto-freedom',																																	
+      '/news/ios'                           => '/ios',																		
+      '/news/page/5'                        => '/news',																			
+      '/news/author/jimmy-kiselak'          => '/team',																		
+      '/FLO'                                => '/news',																
+      '/news/what'                          => '/what',																		
+      '/news/tag/team'                      => '/team',																	
+      '/news/tag/events'                    => '/roadmap',																	
+      '/news/windows'                       => '/news/lbry-windows',																	
+      '/news/boom'                          => '/news/boombust',																		
+      '/news/get'                           => '/get',																		
+      '/There'                              => '/news',														
+      '/youtube/cdSSo'                      => '/news',
+      
+//    The following redirects require regEx's to work. I am unsure how these would work in this function.
+
+//    '/news/news'                          => '/news',
+//    'https://lbry.io/chat'                => 'https://chat.lbry.io',
+//    '/slack'                              => 'https://chat.lbry.io',      
+//    '/participate'                        => 'https://chat.lbry.io',
+//    '/feedback'                           => 'https://chat.lbry.io',          
+      
     ];
 
     $tempRedirects = [
@@ -168,7 +215,7 @@ class Controller
     ];
 
 
-    foreach ([307 => $tempRedirects, 301 => $permanentRedirects] as $code => $redirects)
+    foreach ([302 => $tempRedirects, 301 => $permanentRedirects] as $code => $redirects)
     {
       foreach ($redirects as $src => $target)
       {
