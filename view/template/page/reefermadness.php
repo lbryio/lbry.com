@@ -1,5 +1,5 @@
 <?php Response::setMetaDescription(__('YouTube has Reefer Madness')) ?>
-<?php Response::setMetaTitle(__('YT is censoring cannabis-related videos. LBRY won\'t.')) ?>
+<?php Response::setMetaTitle(__('YouTube is censoring cannabis-related videos. LBRY won\'t.')) ?>
 <?php Response::addMetaImage('https://spee.ch/2/YT-Madness.png') ?>
 <?php echo View::render('nav/_header', ['isDark' => true, 'isAbsolute' => true]) ?>
 <main>
@@ -12,6 +12,9 @@
         YouTube is erasing thousands of cannabis-related videos. Have you had enough?
       </h3>
     </div>
+    <div class="spacer2 text-center">
+<a class="btn-primary btn-large" href="https://lbry.io/youtube">Join our YouTube Partner Program</a>
+</div>
   </div>
   <div class="cover cover-light" id="about">
     <div class="content content-light content-readable">
