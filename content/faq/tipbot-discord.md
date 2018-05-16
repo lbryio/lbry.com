@@ -13,22 +13,26 @@ It is important to note that the LBC stored as a result of a tip is tied to your
 Use the following commands to make amazing things happen. We recommend running them in the `#bot-sandbox` channel, unless you are tipping someone! 
 
 ### Help
-This displays a list of tip commands and how to use them.  
-**Example:**  
-`!tip help`
+This displays a list of tip commands and how to use them. 
+![Tip Help](https://spee.ch/9/tiphelp.png) & ![Tips](https://spee.ch/2/tips.png)
+**Example:**  
+`!tip help` or `!tips`
 
 ### Balance
 Displays the balance of your Discord LBRY wallet.  
+![Balance](https://spee.ch/c/tip-balance.png)
 **Example:**  
 `!tip balance`
 
 ### Deposit
-Displays your Discord LBRY wallet address. Useful if you want to receive LBC's directly to your Discord wallet.    
+Displays your Discord LBRY wallet address. Useful if you want to receive LBC's directly to your Discord wallet.
+![deposit](https://spee.ch/7/deposit.png)
 **Example:**  
 `!tip deposit`
 
 ### Withdraw
 Use this to withdraw a chosen amount from your LBRY Discord wallet to another LBRY wallet such as the wallet in your LBRY app, Coinomi or to a LBC wallet on an exchange.  
+![withdraw](https://spee.ch/f/withdraw.png)
 **Arguments:**   
 `!tip withdraw <address> <amount>`  
 **Example:**  
@@ -43,6 +47,7 @@ Want to tip someone privately in a personal message? This will send a tip to you
 
 ### Multi Tips
 This will send your set tip amount to all the users you list.  
+![Multitip](https://spee.ch/a/multitip.png) 
 **Arguments:**  
 `!multitip <usernames> <amount>`  
 **Example:**  
@@ -57,6 +62,7 @@ This will privately send your set tip amount to all the users you list in person
 
 ### Role Tips
 Want to tip a Disocrd role? This will send a tip to your chosen role.  
+![roletip](https://spee.ch/2/roletip.png)
 **Arguments:**    
 `!roletip <role> <amount>`  
 **Example:**  
