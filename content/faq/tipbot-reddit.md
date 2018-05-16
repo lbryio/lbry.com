@@ -45,7 +45,7 @@ USD: `$5 u/lbryian`
 
 **Note**: Only USD and LBC are currently supported.
 
-### Glid
+### Gild
 Want to gild a post? This will command will gild the post you are replying to.  
 **Examples:**    
 `gild u/lbryian`  
