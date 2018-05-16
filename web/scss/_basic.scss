@@ -131,13 +131,14 @@ a:hover img
 .btn-primary, .btn-alt, .btn-link
 {
   cursor: pointer;
-  display: inline-block;
+  display: inherit;
   height: $spacing-vertical * 1.5;
-  line-height: $spacing-vertical * 1.5;
-  padding: 0 15px;
+  line-height: 1.2em;
+  padding: 5px 15px;
   text-decoration: none;
   border: 0 none;
   text-align: center;
+  vertical-align: inherit;
   > .icon + .btn-label
   {
     margin-left: 8px;
