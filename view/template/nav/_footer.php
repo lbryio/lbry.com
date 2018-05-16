@@ -19,6 +19,9 @@
       <div>
         <a href="/join-us">LBRY is hiring!</a>
       </div>
+      <div>
+        <a href="https://shop.lbry.io">LBRY Shop</a>
+      </div>
     </div>
   </div>
 <?php endif ?>
