@@ -1,6 +1,6 @@
 ---
 name: Brinck Slattery
-role: Director of Marketing
+role: Director of Communications
 email: brinck@lbry.io
 twitter: LazerLotus777
 github: Feanor78
