@@ -1,9 +1,9 @@
 <?php Response::setMetaDescription(__('YouTube has cold feet when it comes to sex ed')) ?>
 <?php Response::setMetaTitle(__('YouTube is censoring sexual education and wellness videos. LBRY won\'t.')) ?>
-<?php Response::addMetaImage('https://lbry.io/img/sexed2.jpg') ?>
+<?php Response::addMetaImage('https://lbry.io/img/venus.jpg') ?>
 <?php echo View::render('nav/_header', ['isDark' => true, 'isAbsolute' => true]) ?>
 <main>
-  <div class="cover cover-dark cover-center cover-full cover--dark-overlay" style="background-image: url(/img/sexed2.jpg)">
+  <div class="cover cover-dark cover-center cover-full cover--dark-overlay" style="background-image: url(/img/darkvenus.jpg)">
     <div class="content content-dark text-center">
       <h1 class="cover-title cover-title-tile cover-item--outline">
         YouTube is Afraid To Talk About Sex
