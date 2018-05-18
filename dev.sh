@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 PHPBIN=php7.2
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
