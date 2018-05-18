@@ -16,7 +16,7 @@
     </div>
   </div>
   <div class="cover cover-light" id="about">
-    <div class="content content-light content-readable">
+    <div class="content post-content content-readable">
       <h3>You'd like us to stop being vaguely provocative and just explain?</h3>
       <p>Fine.</p>
       <p>spee.ch is a free, open-source web portal for LBRY content. It both publishes content to the LBRY network and serves data from the LBRY network, but it does it over the web for improved usability.</p>
