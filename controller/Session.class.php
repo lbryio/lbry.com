@@ -10,7 +10,8 @@ class Session
         KEY_DEVELOPER_RETURN_URL_SUCCESS = 'developer_return_url_success',
         KEY_GITHUB_ACCESS_TOKEN = 'github_access_token',
         KEY_LIST_SUB_ERROR = 'list_error',
-        KEY_USER_CULTURE = 'user_culture';
+        KEY_USER_CULTURE = 'user_culture',
+        KEY_YOUTUBE_TEMPLATE = 'youtube_landing_template';
 
     const NAMESPACE_DEFAULT = 'default',
         NAMESPACE_FLASH = 'flash',
