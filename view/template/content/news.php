@@ -10,7 +10,7 @@
     </div>
   </div>
   <section class="content content-readable spacer2">
-    <?php foreach($posts as $post): ?>
+    <?php foreach ($posts as $post): ?>
       <div class="spacer1">
         <h3><a href="<?php echo $post->getRelativeUrl() ?>" class="link-primary"><?php echo $post->getTitle() ?></a></h3>
         <div class="meta clearfix" title="<?php echo $post->getDate()->format('F jS, Y') ?>">

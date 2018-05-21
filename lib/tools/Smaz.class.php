@@ -13,14 +13,14 @@
  */
 class Smaz
 {
-  const CODEBOOK_DEFAULT = 'default';
-  const CODEBOOK_EMAIL   = 'email';
+    const CODEBOOK_DEFAULT = 'default';
+    const CODEBOOK_EMAIL   = 'email';
 
-  const VERBATIM_CHAR = 254;
-  const VERBATIM_STR  = 255;
+    const VERBATIM_CHAR = 254;
+    const VERBATIM_STR  = 255;
 
-  protected static $encodeBooks = [];
-  protected static $decodeBooks = [
+    protected static $encodeBooks = [];
+    protected static $decodeBooks = [
     self::CODEBOOK_DEFAULT => [
       " ", "the", "e", "t", "a", "of", "o", "and", "i", "n", "s", "e ", "r", " th",
       " t", "in", "he", "th", "h", "he ", "to", "\r\n", "l", "s ", "d", " a", "an",
@@ -67,145 +67,123 @@ class Smaz
     ]
   ];
 
-  protected static function getEncodeBook($codebook)
-  {
-    if (!isset(static::$encodeBooks[$codebook]))
+    protected static function getEncodeBook($codebook)
     {
-      static::$encodeBooks[$codebook] = array_flip(static::getDecodeBook($codebook));
+        if (!isset(static::$encodeBooks[$codebook])) {
+            static::$encodeBooks[$codebook] = array_flip(static::getDecodeBook($codebook));
+        }
+        return static::$encodeBooks[$codebook];
     }
-    return static::$encodeBooks[$codebook];
-  }
 
-  protected static function getDecodeBook($codebook)
-  {
-    if (!static::$decodeBooks[$codebook])
+    protected static function getDecodeBook($codebook)
     {
-      throw new Exception('decodebook ' . $codebook . ' does not exist');
+        if (!static::$decodeBooks[$codebook]) {
+            throw new Exception('decodebook ' . $codebook . ' does not exist');
+        }
+        if (count(static::$decodeBooks[$codebook]) > static::VERBATIM_CHAR) {
+            throw new Exception('decodebook ' . $codebook . ' must be at most ' . static::VERBATIM_CHAR . 'entries');
+        }
+        return static::$decodeBooks[$codebook];
     }
-    if (count(static::$decodeBooks[$codebook]) > static::VERBATIM_CHAR)
+
+
+    /**
+     * @param string $str
+     * @param string $codebook
+     *
+     * @return string
+     */
+    public static function encode($str, $codebook = self::CODEBOOK_DEFAULT)
     {
-      throw new Exception('decodebook ' . $codebook . ' must be at most ' . static::VERBATIM_CHAR . 'entries');
-    }
-    return static::$decodeBooks[$codebook];
-  }
+        $encodeBook = static::getEncodeBook($codebook);
 
+        $inLen      = strlen($str);
+        $inIdx      = 0;
+        $output     = '';
+        $verbatim   = '';
+        $maxItemLen = max(array_map('strlen', array_keys($encodeBook)));
 
-  /**
-   * @param string $str
-   * @param string $codebook
-   *
-   * @return string
-   */
-  public static function encode($str, $codebook = self::CODEBOOK_DEFAULT)
-  {
-    $encodeBook = static::getEncodeBook($codebook);
+        while ($inIdx < $inLen) {
+            $encode = false;
 
-    $inLen      = strlen($str);
-    $inIdx      = 0;
-    $output     = '';
-    $verbatim   = '';
-    $maxItemLen = max(array_map('strlen', array_keys($encodeBook)));
-
-    while ($inIdx < $inLen)
-    {
-      $encode = false;
-
-      for ($j = min($maxItemLen, $inLen - $inIdx); $j > 0; $j--)
-      {
-        $code = isset($encodeBook[substr($str, $inIdx, $j)]) ? $encodeBook[substr($str, $inIdx, $j)] : null;
-        if ($code !== null)
-        {
+            for ($j = min($maxItemLen, $inLen - $inIdx); $j > 0; $j--) {
+                $code = isset($encodeBook[substr($str, $inIdx, $j)]) ? $encodeBook[substr($str, $inIdx, $j)] : null;
+                if ($code !== null) {
 //          echo substr($str, $inIdx, $j) . " = $code\n";
-          if (strlen($verbatim))
-          {
-            $output .= static::flushVerbatim($verbatim);
-            $verbatim = '';
-          }
-          $output .= chr($code);
-          $inIdx += $j;
-          $encode = true;
-          break;
-        }
-      }
+                    if (strlen($verbatim)) {
+                        $output .= static::flushVerbatim($verbatim);
+                        $verbatim = '';
+                    }
+                    $output .= chr($code);
+                    $inIdx += $j;
+                    $encode = true;
+                    break;
+                }
+            }
 
-      if (!$encode)
-      {
+            if (!$encode) {
 //        echo "VERBATIM\n";
-        $verbatim .= $str[$inIdx];
-        $inIdx++;
-        if (strlen($verbatim) == 255) // any longer, and we can't represent the length as a single char
-        {
-          $output .= static::flushVerbatim($verbatim);
-          $verbatim = '';
+                $verbatim .= $str[$inIdx];
+                $inIdx++;
+                if (strlen($verbatim) == 255) { // any longer, and we can't represent the length as a single char
+                    $output .= static::flushVerbatim($verbatim);
+                    $verbatim = '';
+                }
+            }
         }
-      }
+
+        if (strlen($verbatim)) {
+            $output .= static::flushVerbatim($verbatim);
+        }
+        return $output;
     }
 
-    if (strlen($verbatim))
+    /**
+     * @param string $str
+     * @param string $codebook
+     *
+     * @return string
+     */
+    public static function decode($str, $codebook = self::CODEBOOK_DEFAULT)
     {
-      $output .= static::flushVerbatim($verbatim);
+        $decodeBook = static::getDecodeBook($codebook);
+
+        $output = '';
+        $i      = 0;
+
+        while ($i < strlen($str)) {
+            $code = ord($str[$i]);
+            if ($code == static::VERBATIM_CHAR) {
+                $output .= $str[$i + 1];
+                $i += 2;
+            } elseif ($code == static::VERBATIM_STR) {
+                $len = ord($str[$i + 1]);
+                $output .= substr($str, $i + 2, $len);
+                $i += 2 + $len;
+            } elseif (!isset($decodeBook[$code])) {
+                return null; // decode error. throw exception?
+            } else {
+                $output .= $decodeBook[$code];
+                $i++;
+            }
+        }
+        return $output;
     }
-    return $output;
-  }
 
-  /**
-   * @param string $str
-   * @param string $codebook
-   *
-   * @return string
-   */
-  public static function decode($str, $codebook = self::CODEBOOK_DEFAULT)
-  {
-    $decodeBook = static::getDecodeBook($codebook);
-
-    $output = '';
-    $i      = 0;
-
-    while ($i < strlen($str))
+    protected static function flushVerbatim($verbatim)
     {
-      $code = ord($str[$i]);
-      if ($code == static::VERBATIM_CHAR)
-      {
-        $output .= $str[$i + 1];
-        $i += 2;
-      }
-      elseif ($code == static::VERBATIM_STR)
-      {
-        $len = ord($str[$i + 1]);
-        $output .= substr($str, $i + 2, $len);
-        $i += 2 + $len;
-      }
-      elseif (!isset($decodeBook[$code]))
-      {
-        return null; // decode error. throw exception?
-      }
-      else
-      {
-        $output .= $decodeBook[$code];
-        $i++;
-      }
-    }
-    return $output;
-  }
+        $output = '';
+        if (!strlen($verbatim)) {
+            return $output;
+        }
 
-  protected static function flushVerbatim($verbatim)
-  {
-    $output = '';
-    if (!strlen($verbatim))
-    {
-      return $output;
+        if (strlen($verbatim) > 1) {
+            $output .= chr(static::VERBATIM_STR);
+            $output .= chr(strlen($verbatim));
+        } else {
+            $output .= chr(static::VERBATIM_CHAR);
+        }
+        $output .= $verbatim;
+        return $output;
     }
-
-    if (strlen($verbatim) > 1)
-    {
-      $output .= chr(static::VERBATIM_STR);
-      $output .= chr(strlen($verbatim));
-    }
-    else
-    {
-      $output .= chr(static::VERBATIM_CHAR);
-    }
-    $output .= $verbatim;
-    return $output;
-  }
 }

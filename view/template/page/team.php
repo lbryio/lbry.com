@@ -17,20 +17,20 @@
       <a href="/join-us" class="link-primary">See our hiring page</a>.
     </div>
     <h2>Leadership</h2>
-    <?php foreach(['jeremy-kauffman', 'alex-grintsvayg'] as $bioSlug): ?>
+    <?php foreach (['jeremy-kauffman', 'alex-grintsvayg'] as $bioSlug): ?>
       <div class="spacer2">
         <?php echo View::render('content/_bio', ['person' => $bioSlug]) ?>
       </div>
     <?php endforeach ?>
     <h2>Technical</h2>
-    <?php foreach([ 'kay-kurokawa', 'jack-robison', 'lex-berezhny',
+    <?php foreach ([ 'kay-kurokawa', 'jack-robison', 'lex-berezhny',
                     'akinwale-ariwodola', 'sean-yesmunt', 'liam-cardenas', 'bill-bittner', 'amit-tulshyan', 'igor-gassmann'] as $bioSlug): ?>
       <div class="spacer2">
         <?php echo View::render('content/_bio', ['person' => $bioSlug]) ?>
       </div>
     <?php endforeach ?>
     <h2>Business</h2>
-    <?php foreach(['josh-finer',
+    <?php foreach (['josh-finer',
                     'natalie-mitchell',
                     'reilly-smith',
                     'tom-zarebczan',
@@ -41,7 +41,7 @@
       </div>
     <?php endforeach ?>
     <h2>{{page.team.advisory}}</h2>
-    <?php foreach(['alex-tabarrok', 'ray-carballada', 'stephan-kinsella', 'michael-huemer'] as $bioSlug): ?>
+    <?php foreach (['alex-tabarrok', 'ray-carballada', 'stephan-kinsella', 'michael-huemer'] as $bioSlug): ?>
       <div class="spacer2">
         <?php echo View::render('content/_bio', ['person' => $bioSlug]) ?>
       </div>

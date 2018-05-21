@@ -4,7 +4,7 @@
   <?php $buckets = array_fill(0, 3, []) ?>
   <?php $columns = 2 ?>
   <?php $index = 0 ?>
-  <?php foreach($osChoices as $osChoice): ?>
+  <?php foreach ($osChoices as $osChoice): ?>
     <?php ob_start() ?>
     <?php list($url, $title, $icon) = $osChoice ?>
     <h4>
@@ -14,7 +14,7 @@
     </h4>
     <?php $buckets[floor($index++ / $columns)][] = ob_get_clean() ?>
   <?php endforeach ?>
-  <?php foreach(array_filter($buckets) as $bucketRow): ?>
+  <?php foreach (array_filter($buckets) as $bucketRow): ?>
     <div class="row-fluid-always">
       <div class="span6"><?php echo implode('</div><div class="span6">', $bucketRow) ?></div>
     </div>

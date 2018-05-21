@@ -8,7 +8,7 @@
       <?php if (isset($email)): ?>
         <a href="mailto:<?php echo $email ?>" class="link-primary"><span class="icon icon-envelope"></span></a>
       <?php endif ?>
-      <?php if (isset ($github)): ?>
+      <?php if (isset($github)): ?>
         <a href="https://github.com/<?php echo $github ?>" class="link-primary"><span class="icon icon-github"></span></a>
       <?php endif ?>
       <?php if (isset($twitter)): ?>

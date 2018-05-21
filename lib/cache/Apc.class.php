@@ -8,8 +8,8 @@
  */
 class Apc
 {
-  public static function isEnabled()
-  {
-    return extension_loaded('apc') && ini_get('apc.enabled');
-  }
+    public static function isEnabled()
+    {
+        return extension_loaded('apc') && ini_get('apc.enabled');
+    }
 }

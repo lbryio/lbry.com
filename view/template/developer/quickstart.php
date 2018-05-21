@@ -11,7 +11,7 @@
           <div class="meta"><a href="/quickstart" class="link-primary">Quickstart Home</a></div>
           <h1>Quickstart</h1>
         </div>
-        <?php foreach(array_filter(array_keys($stepLabels)) as $step): ?>
+        <?php foreach (array_filter(array_keys($stepLabels)) as $step): ?>
           <section>
             <div class="content content-dark">
               <?php echo View::render('developer/_quickstart' . ucfirst($step)) ?>
@@ -24,7 +24,7 @@
         </div>
         <ol class="quickstart__progress-bar">
           <?php $stepCounter = 0 ?>
-          <?php foreach($stepLabels as $step => $stepLabel): ?>
+          <?php foreach ($stepLabels as $step => $stepLabel): ?>
             <li class="<?php echo $currentStep == $step ? 'active' : '' ?> <?php echo ++$stepCounter <= $stepNum ? 'completed' : '' ?>">
               <a href="/quickstart<?php echo $step ? '/' . $step : '' ?>"><?php echo $stepLabel ?></a>
             </li>

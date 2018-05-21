@@ -6,7 +6,7 @@
     <description>{{rss.description}}</description>
     <generator>https://github.com/lbryio/lbry.io</generator>
     <language>{{rss.lang}}</language>
-    <?php //<lastBuildDate>Sat, 07 Sep 2002 09:42:31 GMT</lastBuildDate> ?>
+    <?php //<lastBuildDate>Sat, 07 Sep 2002 09:42:31 GMT</lastBuildDate>?>
     <atom:link href="<?php echo Request::getHostAndProto() . ContentActions::URL_NEWS . '/' . ContentActions::SLUG_RSS ?>" rel="self" type="application/rss+xml" />
     <?php foreach ($posts as $post): ?>
     <item>

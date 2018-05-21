@@ -7,10 +7,9 @@ $options = getopt('f');
 $force = isset($options['f']); // update even if no NEEDS_UPDATE file exists
 
 $needsUpdateFile = ROOT_DIR . '/data/writeable/NEEDS_UPDATE';
-if (!$force && !file_exists($needsUpdateFile))
-{
-  echo "No update necessary\n";
-  return;
+if (!$force && !file_exists($needsUpdateFile)) {
+    echo "No update necessary\n";
+    return;
 }
 
 @unlink($needsUpdateFile);

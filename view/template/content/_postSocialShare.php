@@ -14,7 +14,7 @@
   <a href="http://www.tumblr.com/share?v=3&u=<?php echo $url ?>&t=<?php echo $title ?>&s=" target="_blank" title="Post to Tumblr">
     <span class="icon-fw icon-tumblr"></span>
   </a>
-  <a href="mailto:?subject=<?php echo urlencode('LBRY: ') . $title ?>&body=<?php echo $url . urlencode("\n\n" . $post->getContentText(50,true)) ?>"
+  <a href="mailto:?subject=<?php echo urlencode('LBRY: ') . $title ?>&body=<?php echo $url . urlencode("\n\n" . $post->getContentText(50, true)) ?>"
      title="Email a Friend">
     <span class="icon-fw icon-envelope"></span>
   </a>

@@ -20,7 +20,7 @@
 
     <h3 id="images">{{press.logos}}</h3>
     <div class="column-fluid">
-      <?php foreach(glob(ROOT_DIR . '/web/img/press/*') as $imgPath): ?>
+      <?php foreach (glob(ROOT_DIR . '/web/img/press/*') as $imgPath): ?>
         <div class="span6">
           <div style="margin: 10px">
             <?php $imgUrl = str_replace(ROOT_DIR . '/web', '', $imgPath) ?>
@@ -32,7 +32,7 @@
     </div>
 
     <h3>{{press.team}}</h3>
-    <?php foreach(['jeremy-kauffman', 'josh-finer', 'alex-grintsvayg', 'jack-robison'] as $person): ?>
+    <?php foreach (['jeremy-kauffman', 'josh-finer', 'alex-grintsvayg', 'jack-robison'] as $person): ?>
       <?php list($metadata, $bioHtml) = View::parseMarkdown('bio/' . $person . '.md') ?>
       <section class="row-fluid">
         <div class="span3">
@@ -59,7 +59,7 @@
       </section>
     <?php endforeach ?>
     <h3>{{press.advisory}}</h3>
-    <?php foreach(['alex-tabarrok', 'ray-carballada', 'stephan-kinsella', 'michael-huemer'] as $person): ?>
+    <?php foreach (['alex-tabarrok', 'ray-carballada', 'stephan-kinsella', 'michael-huemer'] as $person): ?>
       <?php list($metadata, $bioHtml) = View::parseMarkdown('bio/' . $person . '.md') ?>
       <section class="row-fluid">
         <div class="span3">

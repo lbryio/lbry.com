@@ -13,7 +13,7 @@
         <title><?php echo $title ?></title>
 
         <link href='https://fonts.googleapis.com/css?family=Raleway:500,500italic,700' rel='stylesheet' type='text/css'>
-        <?php foreach(Response::getCssAssets() as $src): ?>
+        <?php foreach (Response::getCssAssets() as $src): ?>
           <link rel="stylesheet" type="text/css" href="<?php echo $src?>">
         <?php endforeach ?>
         <link rel="apple-touch-icon" sizes="60x60" href="/img/fav/apple-touch-icon-60x60.png">
@@ -27,7 +27,7 @@
         <link rel="icon" type="image/png" href="/img/fav/android-chrome-192x192.png" sizes="192x192">
         <link rel="icon" type="image/png" href="/img/fav/favicon-16x16.png" sizes="16x16">
         <link rel="manifest" href="/img/fav/manifest.json">
-        <?php if(isset($showRssLink) && $showRssLink): ?>
+        <?php if (isset($showRssLink) && $showRssLink): ?>
           <link rel="alternate" type="application/rss+xml" title="LBRY News" href="<?php echo ContentActions::URL_NEWS . '/' . ContentActions::SLUG_RSS ?>" />
         <?php endif ?>
 
@@ -46,7 +46,7 @@
         <meta property="og:type" content="article" />
         <meta property="og:description" content="<?php echo Response::getMetaDescription() ?>"/>
         <meta property="og:site_name" content="LBRY" />
-        <?php foreach(Response::getMetaImages() as $image): ?>
+        <?php foreach (Response::getMetaImages() as $image): ?>
           <meta property="og:image" content="<?php echo $image ?>" />
         <?php endforeach ?>
 
@@ -62,7 +62,7 @@
           <script id="facebook-jssdk" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=1477813539180850"></script>
           <script id="twitter-oct" src="https://platform.twitter.com/oct.js"></script>
           <script id="twitter-wjs" src="https://platform.twitter.com/widgets.js"></script>
-          <?php foreach(Response::getJsAssets() as $src): ?>
+          <?php foreach (Response::getJsAssets() as $src): ?>
             <script src="<?php echo $src ?>"></script>
           <?php endforeach ?>
           <?php echo View::render('layout/_analytics') ?>

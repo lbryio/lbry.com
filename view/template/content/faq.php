@@ -18,10 +18,10 @@
       $('#faq-filter-form').change(function() { $(this).submit(); });
     <?php js_end() ?>
 
-    <?php foreach($postGroups as $category => $posts): ?>
+    <?php foreach ($postGroups as $category => $posts): ?>
       <?php if (count($posts)): ?>
         <h2><?php echo $categories[$category] ?></h2>
-        <?php foreach($posts as $post): ?>
+        <?php foreach ($posts as $post): ?>
           <div class="spacer1">
             <a href="<?php echo $post->getRelativeUrl() ?>" class="link-primary"><?php echo $post->getTitle() ?></a>
           </div>

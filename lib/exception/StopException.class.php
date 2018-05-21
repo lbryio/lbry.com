@@ -2,5 +2,4 @@
 
 class StopException extends Exception
 {
-  
 }

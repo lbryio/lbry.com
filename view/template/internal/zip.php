@@ -1,1 +1,1 @@
-<?php echo file_get_contents($zipPath) ?>
+<?php echo file_get_contents($zipPath);

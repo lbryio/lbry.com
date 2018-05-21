@@ -15,7 +15,7 @@
         </tr>
       </thead>
 
-      <?php foreach($posts as $post): ?>
+      <?php foreach ($posts as $post): ?>
         <tr>
           <td><?php echo strtoupper($post->getSlug()) ?></td>
           <td><a href="<?php echo $post->getRelativeUrl() ?>" class="link-primary">Report</a></td>
