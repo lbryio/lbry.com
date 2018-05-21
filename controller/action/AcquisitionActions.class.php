@@ -24,22 +24,31 @@ class AcquisitionActions extends Actions
         Mailgun::sendYouTubeWarmLead(['email' => $email]);
 
         Session::setFlash('success', 'Thanks! We\'ll be in touch. The good kind of touch.');
-      }
-      
-  public static function executeYouTube(string $version = '')
-  {
-    if(isset($_GET['error_message'])){
-      $error_message = Request::encodeStringFromUser($_GET['error_message']);
+
+        return Controller::redirect(Request::getReferrer(), 303);
     }
+      
+    public static function executeYouTube(string $version = '')
+    {
+        if (isset($_GET['error_message'])) {
+            $error_message = Request::encodeStringFromUser($_GET['error_message']);
+        }
 
-    $baseTemplate = 'acquisition/youtube';
-    $versionedTemplate = $baseTemplate . '-' . $version;
-    $template = $version && View::exists($versionedTemplate) ? $versionedTemplate : $baseTemplate;
+        $baseTemplate = 'acquisition/youtube';
+        $versionedTemplate = $baseTemplate . '-' . $version;
+        $template = $version && View::exists($versionedTemplate) ? $versionedTemplate : $baseTemplate;
 
-    //since multiple URLs come into this page, we need to save the URL the user came in with and send them back to it
-    //in addition to storing here, all redirections to /youtube need to be updated to send back to the URL we capture here
+        if ($version && View::exists($versionedTemplate)) {
+            Session::set(SESSION::KEY_YOUTUBE_TEMPLATE, $template);
+        }
 
-    return [$template, [
+        $template = Session::get(SESSION::KEY_YOUTUBE_TEMPLATE) ?? $template;
+        if (!View::exists($template)) {
+            Session::unsetKey(SESSION::KEY_YOUTUBE_TEMPLATE);
+            $template = $baseTemplate;
+        }
+
+        return [$template, [
         'reward' => LBRY::youtubeReward(),
         'error_message' => $error_message ?? ''
     ]];
