@@ -7,7 +7,11 @@ order: 3
 ## LBRY Twitter Tipbot Information
 
 Tips, in LBRY Credits (LBC), are an integral part of our community because they allow us to reward members for their contributions - whether that's for sharing something insightful, providing feedback, testing our various apps or helping promote LBRY's vision and technology. You can earn them, share, or transfer them via simple Tweets which include tagging the tipbot Twitter account and writing the magic word: lbryian + command. Check out [this thread as an example](https://twitter.com/TomZarebczan/status/991901394218176512).
-It is important to note that the LBC stored as a result of a tip is tied to your Twitter account username and are stored on [LBRY's wallet server](https://twitter.com/LBRYio/status/616333374878281728). It is your responsibility to withdraw the tips to your LBRY App or other wallet like Coinomi. If you plan on storing LBC on Twitter, it is a good idea to enable Two Factor Authentication (2FA) on your account. LBRY takes no responsibility for lost funds due to negligence 
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">LBRY&#39;s doors are locked, but gaze through the glass and one behold&#39;s the hazy form of a proof-of-concept <a href="http://t.co/93ViBCx72g">pic.twitter.com/93ViBCx72g</a></p>&mdash; LBRY (@LBRYio) <a href="https://twitter.com/LBRYio/status/616333374878281728">July 1, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+It is important to note that the LBC stored as a result of a tip is tied to your Twitter account username and are stored on LBRY's wallet server. It is your responsibility to withdraw the tips to your LBRY App or other wallet like Coinomi. If you plan on storing LBC on Twitter, it is a good idea to enable Two Factor Authentication (2FA) on your account. LBRY takes no responsibility for lost funds due to negligence 
 
 Use the following commands to make amazing things happen. We recommend creating a new Tweet and starting out with tagging the [@LBC_TipBot](https://twitter.com/LBC_TipBot), followed by the magic lbryian keyword and then the desired command. If the tipbot account is already tagged in a thread, only the lbryian keyword + command are required.
 
