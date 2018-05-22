@@ -8,6 +8,9 @@
   </div>
 <?php endforeach ?>
 <div class="control-item no-label-desktop">
+  <a href="https://shop.lbry.io" target="_blank"><span class="btn-label">LBRY Shop</span> <span class="icon-fw icon-shopping-cart"></span></a>
+</div>
+<div class="control-item no-label-desktop">
   <a href="https://twitter.com/lbryio" target="_blank"><span class="btn-label">Twitter</span> <span class="icon-fw icon-twitter"></span></a>
 </div>
 <div class="control-item no-label-desktop">
