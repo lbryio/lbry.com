@@ -39,6 +39,9 @@
         <div class="spacer1">
           <a href="/credit-reports" class="link-primary">Credit Reports</a>
         </div>
+        <div class="spacer1">
+          <a href="https://shop.lbry.io" class="link-primary">LBRY Merchandise Shop</a>
+        </div>
       </div>
     </div>
   </div>
@@ -51,7 +54,6 @@
       </div>
     </div>
   </div>
-
   <div class="span4">
     <div class="cover cover-dark cover-dark-grad">
       <div class="content content-dark content-tile">
@@ -61,7 +63,6 @@
         <?php echo View::render('mail/_contact-us') ?>
       </div>
     </div>
-  </div>
-      
+  </div>     
        </main>
 <?php echo View::render('nav/_footer') ?>
