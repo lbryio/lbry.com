@@ -1,7 +1,7 @@
 ---
 title: Lead Designer
 order: 5
-status: active
+status: paused
 url: https://hire.withgoogle.com/public/jobs/lbryio/view/P_AAAAAADAAADDIkS8VwCnPN?trackingTag=joinUs
 ---
 Like designing things? Great, because this position involves designing all the things.
