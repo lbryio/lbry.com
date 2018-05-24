@@ -2,6 +2,7 @@
 name: Mark Beamer
 role: Elastic Search and Database Developer
 email: mark@lbry.io
+github: tiger5226
 ---
 
 Mark Beamer is an inveterate entrepreneur. Ever since he founded his first company (Beamer Lawn Service) at 16, he's pursued new and interesting business ideas. 
