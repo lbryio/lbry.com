@@ -15,6 +15,7 @@ By default, data from the LBRY blockchain is basically a raw dump of data in a c
   In addition to extracting this data, you’d have to run this command several hundred thousand times to get the same data returned by a single command below.
   </div>
 
+
 Since it is raw and compressed, it is difficult to express the richer formats contained within the data. As such, most blockchains have specifically designed methods of extracting the raw data. 
 
 In the case of LBRY, Chainquery is both the easiest and most feature-rich method of doing that to date.
