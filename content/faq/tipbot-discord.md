@@ -13,14 +13,15 @@ It is important to note that the LBC stored as a result of a tip is tied to your
 Use the following commands to make amazing things happen. We recommend running them in the `#bot-sandbox` channel, unless you are tipping someone! 
 
 ### Help
-This displays a list of tip commands and how to use them. 
-![Tip Help](https://spee.ch/9/tiphelp.png) ![Tips](https://spee.ch/2/tips.png)
+This displays a list of tip commands and how to use them.  
+![Tip Help](https://spee.ch/9/tiphelp.png) 
+![Tips](https://spee.ch/2/tips.png)   
 **Example:**  
 `!tip help` or `!tips`
 
 ### Balance
-Displays the balance of your Discord LBRY wallet.  
-**Example:**  
+Displays the balance of your Discord LBRY wallet.   
+**Example:**   
 `!tip balance`
 
 ### Deposit
