@@ -15,6 +15,6 @@
       <h3 class="cover-subtitle cover-title-flat">Hollywood films, college lessons, amazing streamers and more are on the first media network ruled by <em>you</em>.</h3>
     </div>
     <div class="spacer2 text-center">
-    <?php echo View::render('download/_downloadButton', ['buttonStyle' => 'primary',])?>
+    <?php echo View::render('download/_downloadButton', ['buttonStyle' => 'primary','meta' => false,])?>
   </div>
 </main>
