@@ -1,46 +1,48 @@
 ---
 author: mark-beamer
-title: 'What is Chain Query'
+title: 'What is Chainquery'
 date: '2018-05-24 14:00:00'
 cover: 'database2.jpg'
 ---
 
-### Chain Query is a tool that makes data in the LBRY blockchain significantly more presentable and more usable. 
+### Chainquery is a tool that makes data in the LBRY blockchain significantly more presentable and more usable. 
 
 By default, data from the LBRY blockchain is basically a raw dump of data in a compressed format:
 
 ![Raw Data](https://spee.ch/@lbry/lbrycliexample.png)
 
-Caption: In addition to extracting this data, you’d have to run this command several hundred thousand times to get the same data returned by a single command below.
+<div class="meta">
+  In addition to extracting this data, you’d have to run this command several hundred thousand times to get the same data returned by a single command below.
+  </div>
 
 Since it is raw and compressed, it is difficult to express the richer formats contained within the data. As such, most blockchains have specifically designed methods of extracting the raw data. 
 
-In the case of LBRY, Chain Query is both the easiest and most feature-rich method of doing that to date.
+In the case of LBRY, Chainquery is both the easiest and most feature-rich method of doing that to date.
 
-# What does Chain Query do?
+# What does Chainquery do?
 
-Chain Query takes all the raw data in the blockchain, decompresses and extracts it, and stores it in a relational database, all in real-time. This allows the rich features of SQL to be applied to live blockchain data.
+Chainquery takes all the raw data in the blockchain, decompresses and extracts it, and stores it in a relational database, all in real-time. This allows the rich features of SQL to be applied to live blockchain data.
 
-This is all rather abstract, so let’s look at an example. Suppose we wanted to determine the 10 LBRY URLs with the largest number of staked credits. Without Chain Query, this would require making direct calls to the LBRY blockchain API, iterating over each claim, and storing the 10 largest. In addition to being non-trivial to write, it would also be quite slow.
+This is all rather abstract, so let’s look at an example. Suppose we wanted to determine the 10 LBRY URLs with the largest number of staked credits. Without Chainquery, this would require making direct calls to the LBRY blockchain API, iterating over each claim, and storing the 10 largest. In addition to being non-trivial to write, it would also be quite slow.
 
-With Chain Query, it’s about a hundred characters of performant SQL:
+With Chainquery, it’s about a hundred characters of performant SQL:
 
 ![Top Channels](https://spee.ch/@lbry/topchannels.png)
 
-Virtually any application that is interested in displaying or operating off of data stored in the LBRY blockchain can benefit from Chain Query.
+Virtually any application that is interested in displaying or operating off of data stored in the LBRY blockchain can benefit from Chainquery.
 
-You can see the full schema for Chain Query [here](https://github.com/lbryio/chainquery/blob/master/db/chainquery_schema.sql).
+You can see the full schema for Chainquery [here](https://github.com/lbryio/chainquery/blob/master/db/chainquery_schema.sql).
 
-# Why is Chain Query exciting?
+# Why is Chainquery exciting?
 
-Chain Query is exciting, anyone in the world interested in building on top of LBRY, as well as internal LBRY team members, can do so much, much more efficiently. 
-LBRY team members will be able to save significant time when working on any features that depend at any point on blockchain data. No longer do we have to develop complex data handling or transformations for a new feature that works around the specific formats coming out of the blockchain. We can now “Chain Query it”. Indeed, Chain Query will see internal use in at least four projects: search, explorer, rewards, and spee.ch!
+Chainquery is exciting, anyone in the world interested in building on top of LBRY, as well as internal LBRY team members, can do so much, much more efficiently. 
+LBRY team members will be able to save significant time when working on any features that depend at any point on blockchain data. No longer do we have to develop complex data handling or transformations for a new feature that works around the specific formats coming out of the blockchain. We can now “Chainquery it”. Indeed, Chainquery will see internal use in at least four projects: search, explorer, rewards, and spee.ch!
 
-For our community and users, they will now be able to see these elegant features faster. They will also no longer be encumbered by the raw and compressed format of the blockchain. So if I am a user and I want to build something on top of LBRY, I can now run my own instance of Chain Query and get the blockchain information in the format I want with a simple SQL query. 
+For our community and users, they will now be able to see these elegant features faster. They will also no longer be encumbered by the raw and compressed format of the blockchain. So if I am a user and I want to build something on top of LBRY, I can now run my own instance of Chainquery and get the blockchain information in the format I want with a simple SQL query. 
 
-# How do I use Chain Query?
+# How do I use Chainquery?
 
-Most LBRY users do not need to use Chain Query directly and instead will simply benefit from the increased engineering capabilities and performance it allows us internally.
+Most LBRY users do not need to use Chainquery directly and instead will simply benefit from the increased engineering capabilities and performance it allows us internally.
 
 However, if you’re interested in using it directly or poking around with the data, all of our code is open-source and available on GitHub. Detailed setup instructions are inside of the repository. 
 
