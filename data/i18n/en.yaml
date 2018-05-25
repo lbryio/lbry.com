@@ -90,6 +90,7 @@ learn:
   team: About The Team
   meetup: LBRY is looking for ambassadors to spread the word to College campuses and Meetup groups worldwide!
   3d-printing: 3D Printing meets Blockchain
+  3d-contest: Get paid for uploading to LBRY
 nav:
   get: Get
   home: Home
@@ -253,6 +254,7 @@ title:
   guns: LBRY Fights For Free Speech
   android-alpha: Be an Android Alpha Tester!
   3d-printing: Print your first file from the Blockchain
+  3d-contest: Win $100 for a Chess Design
 roadmap:
   title: LBRY Roadmap
   description: See past and future progress on development of LBRY, the world's first user-controlled digital marketplace.
