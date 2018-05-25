@@ -20,9 +20,9 @@
 
   <section class="post-content">
     <div class="content">
+       <?php echo View::render('content/_postSocialShare', ['post' => $post]) ?>
       <?php echo $post->getContentHtml() ?>
     </div>
-    <?php echo View::render('content/_postSocialShare', ['post' => $post]) ?>
     <?php echo View::render('content/_postNav', ['post' => $post]) ?>
     </section>
     
