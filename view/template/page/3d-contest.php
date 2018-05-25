@@ -31,8 +31,8 @@
     <body align="center">
     <h3><strong>Open the app &amp; click a set to download.</strong></h3>
     <h3><strong>GET PAID</strong> to upload <strong>AND/OR</strong> print!</h3>
-       <a href="https://open.lbry.io/cryptocurrencychess"> <img style="padding:20px;" src="https://spee.ch/e/Grey-Genius-Chess.jpeg" alt="Grey Genius Chess Set" title="Grey Genius Chess Set" width="500px"></a>
-       <a href="https://open.lbry.io/cryptocurrencychessnonmineable"> <img style="padding:20px;" src="https://spee.ch/0/White-Genius-Chess.jpeg" alt="White Genius Chess Set" title="White Genius Chess Set" width="500px"></a>
+       <a href="https://open.lbry.io/geniuschess"> <img style="padding:20px;" src="https://spee.ch/e/Grey-Genius-Chess.jpeg" alt="Grey Genius Chess Set" title="Grey Genius Chess Set" width="500px"></a>
+       <a href="https://open.lbry.io/geniuschess"> <img style="padding:20px;" src="https://spee.ch/0/White-Genius-Chess.jpeg" alt="White Genius Chess Set" title="White Genius Chess Set" width="500px"></a>
        <div>
          <h4>Genius Chess Sets with Lightbulb Pawns</h4>
          <p>Set A (Gray): Socrates King, Aristotle Queen, Goethe Bishops, Plato Knights, Edison Rooks</p>
