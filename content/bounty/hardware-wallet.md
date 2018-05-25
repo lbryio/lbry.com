@@ -1,7 +1,7 @@
 ---
 category: code
 title: Hardware Wallet Integration
-award: 750+
+award: 750
 status: available
 date: '2018-05-25'
 ---
