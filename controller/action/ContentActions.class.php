@@ -278,12 +278,12 @@ class ContentActions extends Actions
         foreach (glob(ROOT_DIR . '/web/img/press/*') as $productImgPath) {
             $imgPathTokens = explode('/', $productImgPath);
             $imgName       = $imgPathTokens[count($imgPathTokens) - 1];
-            $zip->addFile($productImgPath, '/logo_and_product/' . $imgName);
+            $zip->addFile($productImgPath, 'logo_and_product/' . $imgName);
         }
 
         foreach (glob(ContentActions::CONTENT_DIR . '/bio/*.md') as $bioPath) {
             list($metadata, $bioHtml) = View::parseMarkdown($bioPath);
-            $zip->addFile($bioPath, '/team_bios/' . $metadata['name'] . ' - ' . $metadata['role'] . '.txt');
+            $zip->addFile($bioPath, 'team_bios/' . $metadata['name'] . ' - ' . $metadata['role'] . '.txt');
         }
 
         /*
