@@ -6,7 +6,7 @@ status: complete
 date: '2017-09-07'
 ---
 
-Our [404 page](https://lbry.io/nothing-here) is very bland. We'd like something that's more 
+Our 404 page is very bland. We'd like something that's more 
  
 - **helpful** - tell the user what happened, and give them some things to do next
 - **pretty** - we spent very little time on the one we have
