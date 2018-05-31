@@ -87,7 +87,7 @@ section
 .spacer2 { margin-bottom: $spacing-vertical * 2; }
 .text-center { text-align: center; }
 .text-right { text-align: right; }
-.meta { font-size: 0.8em; }
+.meta { font-size: $font-size-meta; }
 .clear { clear: both; }
 .align-left { float: left; }
 .align-right { float: right; }

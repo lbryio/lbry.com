@@ -118,6 +118,17 @@
     line-height: 1.1;
     color: $color-meta-light;
   }
+  img + em /*img + em = caption*/
+  {
+    display: block;
+    text-align: center;
+    color: $color-meta-light;
+    font-size: $font-size-meta;
+    margin-top: $spacing-vertical / 4;
+    margin-left: $spacing-vertical / 2;
+    margin-right: $spacing-vertical / 2;
+    margin-bottom: $spacing-vertical;
+  }
 }
 .post-content table, table.post-content-table
 {

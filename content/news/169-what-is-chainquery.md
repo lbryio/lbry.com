@@ -10,12 +10,8 @@ cover: 'database2.jpg'
 By default, data from the LBRY blockchain is basically a raw dump of data in a compressed format:
 
 ![Raw Data](https://spee.ch/@lbry/lbrycliexample.png)
+*In addition to extracting this data, you’d have to run several hundred thousand commands to get the same data returned by a single command below.*
 
-<div class="meta">
-  In addition to extracting this data, you’d have to run several hundred thousand commands to get the same data returned by a single command below.
-  </div>
-<p>
-</p>
 Since blockhain data is raw, compressed, and not accessibly structured, most blockchains have specifically designed methods to create more usable forms of the data. 
 
 In the case of LBRY, Chainquery is both the easiest and most feature-rich method of doing that to date.
