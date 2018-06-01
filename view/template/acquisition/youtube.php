@@ -112,7 +112,7 @@ Response::addMetaImage(Request::getHostAndProto() . '/img/lbry-partner.png');
   <div class="inner">
     <div class="content">
       <h1>Migrating to LBRY</h1>
-      <p>We will automatically mirror your existing YouTube channel to the LBRY Network.</p>
+      <p>We will automatically mirror your most recent 1,000 YouTube videos to your channel on the LBRY Network.</p>
       <div class="steps">
         <div class="path">
           <div class="journey"></div>
