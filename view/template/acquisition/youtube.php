@@ -8,6 +8,7 @@ Response::addJsAsset('/js/yt2/SyncStatus.js');
 Response::addJsAsset('/js/yt2/youtube_video.js');
 Response::setMetaTitle("LBRY YouTube Partner Program");
 Response::setMetaDescription("Put your content on the blockchain, experience true content freedom, and earn rewards.");
+Response::addMetaImage(Request::getHostAndProto() . '/img/lbry-partner.png');
 ?>
 <main>
   <?php echo View::render('acquisition/_youtube_header') ?>
