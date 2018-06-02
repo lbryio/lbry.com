@@ -1,0 +1,31 @@
+---
+author: alex-grintsvayg
+title: 'Hard Fork on July 9th, 2018'
+date: '2018-05-29 07:00:00'
+---
+
+## What's Changing
+
+LBRY is announcing a hard fork to extend how long claims are valid before they expire. 
+Currently, claims expire after about 1.5 years unless they are updated. After the fork takes effect, claims will expire after 10 years.
+Existing claims that have not expired will have their expiration extended to 10 years.
+Any claims that expire before the fork takes effect will stay expired. We will republish them manually to preserve access to that content.
+
+Only claim expiration is changing. The reward schedule, token distribution, hash algorithms, etc. are all staying the same.
+
+The fork will take effect at block 400155, which will occur on July 9th, 2018 at around noon EST.
+
+## What You Should Do
+
+For most people, nothing needs to be done. The fork will take effect transparently and won't change your experience of LBRY.
+
+**If you are running a full node or mining pool, upgrade to the latest version of lbrycrd as soon as possible**.
+Pre-built binaries areavailable on [the releases page](https://github.com/lbryio/lbrycrd/releases). You will need version 0.12.2.0 or higher.
+
+We will post updates about this fork to this page. If you want to be notified of news about this fork and future forks, please join the [fork mailing list](/forklist).
+
+## Fork Details
+
+The fork is explained in detail in [this pull request](https://github.com/lbryio/lbrycrd/pull/137), including the relevant code.
+Please review the details and the code if you are able to.
+We pay significant bounties for any bugs found in blockchain code, especially fork-related code. Email grin@lbry.io if you wish to discuss  
