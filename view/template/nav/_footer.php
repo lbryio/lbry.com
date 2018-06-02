@@ -1,3 +1,6 @@
+<head>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
 <?php if (!defined('FOOTER_RENDERED')): ?>
   <?php define('FOOTER_RENDERED', true) ?>
   <div class="footer">
@@ -12,6 +15,7 @@
         <?php echo View::render('nav/_globalItems') ?>
         <div class="control-item no-label-desktop">
         <a href="https://shop.lbry.io" target="_blank"><span class="btn-label">LBRY Shop</span> <span class="icon-fw icon-shopping-cart"></span></a>
+        <a href="https://t.me/lbryofficial" target="_blank"><span class="btn-label">Telegram</span> <i class="fab fa-telegram"></i></a>
          </div>
         <div class="control-item">
           <a href="https://en.wikipedia.org/wiki/Free_Speech_Flag" class="footer-img-link">
