@@ -28,7 +28,7 @@ First let’s look at Monero’s hash rate before and after the hard fork. In th
 <div style="caption">
 Green: Monero hash rate, Black: Monero Original hash rate
 
-Source:[ Blkdat.com](http://blkdat.com/?filter=XMR/XMO&block&coin=XMO&datatype=hash_rate&interval=hour/?block&coin=XMR&datatype=hash_rate&interval=hour&min=1516875244349680&max=1527099900789280) 
+Source:<a href="http://blkdat.com/?filter=XMR/XMO&block&coin=XMO&datatype=hash_rate&interval=hour/?block&coin=XMR&datatype=hash_rate&interval=hour&min=1516875244349680&max=1527099900789280">Blkdat.com</a>
 </div>
 One possible interpretation of this graph is that the total Bitmain ASIC hashrate is around 500 Megahash/sec. This matches up with the amount that seemed to drop off from Monero post-fork, and also matches up with the amount that remained on the Monero Original chain post-fork. However, we can’t say this with certainty that the above interpretation is correct since it is impossible to associate hashrate to a specific type of miner.
 
@@ -58,7 +58,7 @@ Other users may not even be aware that the Monero network has hard forked and ma
 <div style="caption">
 Green: number of transactions on Monero, Black: number of transactions on Monero Original
 
-Source:[ Blkdat.com](http://blkdat.com/?filter=XMR/XMO&block&coin=XMO&datatype=num_tx&interval=hour/?block&coin=XMR&datatype=num_tx&interval=hour&min=1520661447696413.8&max=1526824702996909.8)
+Source:<a href="http://blkdat.com/?filter=XMR/XMO&block&coin=XMO&datatype=num_tx&interval=hour/?block&coin=XMR&datatype=num_tx&interval=hour&min=1520661447696413.8&max=1526824702996909.8">Blkdat.com</a>
 </div>
 ## Conclusions
 
