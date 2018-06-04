@@ -7,8 +7,7 @@
       <div class="row-fluid">
         <div class="span9">
           <h1>{{dmca.header}}</h1>
-          <br>
-
+<br>
           <?php echo View::render('nav/_flashes') ?>
 
           <form action="<?php echo Request::getRelativeUri() ?>" method="POST">
@@ -50,7 +49,9 @@
 
             <input type="submit" value="{{dmca.form_submit}}" class="btn-primary">
           </form>
-
+          <div class="meta">
+      To learn more about reporting infringing or illegal content and DMCA producedures, please see our <a href="/faq/dmca" class="link-primary" >DMCA article.</a>.
+    </div>
         </div>
       </div>
     </div>
