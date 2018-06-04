@@ -30,6 +30,7 @@ Green: Monero hash rate, Black: Monero Original hash rate
 
 Source:<a href="http://blkdat.com/?filter=XMR/XMO&block&coin=XMO&datatype=hash_rate&interval=hour/?block&coin=XMR&datatype=hash_rate&interval=hour&min=1516875244349680&max=1527099900789280">Blkdat.com</a>
 </div>
+
 One possible interpretation of this graph is that the total Bitmain ASIC hashrate is around 500 Megahash/sec. This matches up with the amount that seemed to drop off from Monero post-fork, and also matches up with the amount that remained on the Monero Original chain post-fork. However, we can’t say this with certainty that the above interpretation is correct since it is impossible to associate hashrate to a specific type of miner.
 
 Regardless of what the total hashrate of Bitmain’s ASIC miners is, losing almost 50% of the hashrate post fork should be a concern for Monero. The recent 51%[ attack of Bitcoin Gold](https://www.ccn.com/bitcoin-gold-hit-by-double-spend-attack-exchanges-lose-millions/) illustrates the very real connection that exists between hash rate and security. 
