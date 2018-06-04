@@ -20,7 +20,7 @@ The fork will take effect at block 400155, which will occur on July 9th, 2018 at
 For most people, nothing needs to be done. The fork will take effect transparently and won't change your experience of LBRY.
 
 **If you are running a full node or mining pool, upgrade to the latest version of lbrycrd as soon as possible**.
-Pre-built binaries areavailable on [the releases page](https://github.com/lbryio/lbrycrd/releases). You will need version 0.12.2.0 or higher.
+Pre-built binaries are available on [the releases page](https://github.com/lbryio/lbrycrd/releases). You will need version 0.12.2.0 or higher.
 
 We will post updates about this fork to this page. If you want to be notified of news about this fork and future forks, please join the [fork mailing list](/forklist).
 
