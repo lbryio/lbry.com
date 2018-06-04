@@ -19,4 +19,4 @@ LBRY Inc., makes no guarantee your content will be hosted on the network. The pe
 
 ### What do I do if I see content that’s illegal or infringing in the LBRY App?
 
-Please read our [DMCA FAQ] for more information on reporting infringing content.
+Please read our [DMCA FAQ](https://lbry.io/faq/dmca) for more information on reporting infringing content.
