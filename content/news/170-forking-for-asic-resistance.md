@@ -24,7 +24,7 @@ First let’s look at Monero’s hash rate before and after the hard fork. In th
 
 *Note that according to GPU miners that I’ve talked to, the pre-fork and post-fork Monero POW algorithm is equivalent in computational difficulty thus the hash rate before and after the fork should be comparable.  
 
-![Monero hash rates](https://lbry.io/web/img/monero_hash.png)
+![Monero hash rates](https://lbry.io/img/monero_hash.png)
 <div style="caption">
 Green: Monero hash rate, Black: Monero Original hash rate
 
@@ -54,7 +54,7 @@ About 1000 users total have downloaded either Monero Original or Monero 0 binari
 
 Other users may not even be aware that the Monero network has hard forked and may be transacting on the old network unaware of what is happening. It is impossible to tell whether the transactions happening on the Monero Original chain are intentional or accidental but the below graph shows that there is still small amount of transactions occurring on the Monero Original chain (note that the Monero Original chain is traded on hitbtc.com so the transactions below could all be intentional). 
 
-![Monero transaction rates](lbry.io/web/img/monero_trans.png)
+![Monero transaction rates](https://lbry.io/img/monero_trans.png)
 <div style="caption">
 Green: number of transactions on Monero, Black: number of transactions on Monero Original
 
