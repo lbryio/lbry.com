@@ -52,10 +52,10 @@ download:
 email:
   address: Email
   code: Invite Code
-  confirm_email_body: Please confirm your subscription to LBRY updates by clicking the link below.
+  confirm_email_body: Please confirm your subscription by clicking the link below.
   confirm_email_button: Confirm Subscription
   confirm_email_subject: Confirm Your Subscription to LBRY
-  confirm_success: Great success! Welcome to LBRY.
+  confirm_success: You are subscribed. Thanks!
   confirm_unsubscribe: You are unsubscribed.
   disclaimer: You will receive 1-2 messages a month, only from LBRY Inc. and only about LBRY. You can easily unsubscribe at any time.
   go: Go
