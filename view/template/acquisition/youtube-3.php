@@ -43,7 +43,7 @@ Response::setMetaDescription("Put your content on the blockchain, experience tru
     <div class="content">
       <div class="zigzag"></div>
       <h1>Sync &amp; Earn Crypto</h1>
-      <p>LBRY offers a single-click sync process<br>for existing YouTubers</p>
+      LBRY offers a single-click sync process<br>for existing YouTubers
         <form class="form" id="sync" method="post" action="http://api.lbry.io/yt/connect">
             <div class="form-inner">
               <div class="block">
