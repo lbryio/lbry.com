@@ -8,6 +8,7 @@ Response::addJsAsset('/js/yt2/SyncStatus.js');
 Response::addJsAsset('/js/yt2/youtube_video.js');
 Response::setMetaTitle("LBRY YouTube Partner Program");
 Response::setMetaDescription("Put your content on the blockchain, experience true content freedom, and earn rewards.");
+Response::addMetaImage(Request::getHostAndProto() . '/img/lbry-partner.png');
 ?>
 <main>
   <?php echo View::render('acquisition/_youtube_header') ?>
@@ -38,39 +39,36 @@ Response::setMetaDescription("Put your content on the blockchain, experience tru
     <div class="button">Claim Your LBRY Channel</div>
   </div>
 </section>
-<section class="sync section">
+<section class="claim section">
   <div class="inner">
+
     <div class="content">
+      <?php
+      if ($error_message): echo "<div>" . "The following error occurred: ". $error_message  . " For support please send an email to hello@lbry.io" . "</div>";
+      endif;?>
       <div class="zigzag"></div>
-      <h1>Sync &amp; Earn Crypto</h1>
-      <p>LBRY offers a single-click sync process<br>for existing YouTubers<p>
-        <form class="form" id="sync" method="post" action="http://api.lbry.io/yt/connect">
-            <div class="form-inner">
-              <div class="block">
-                <div class="center">
-                  <input type="text" hidden name="type" value="sync"/>
-                  <input id="immediate-sync" name="immediate_sync" type="checkbox" value="true"/>
-                  <label for="immediate-sync">I want to sync my content.</label></div>
-                </div>
-              </div>
-              <div class="block">
-                <div class="center">
-                  <input type="submit" value="Sync Now"/>
-                </div>
-              </div>
-            </div>
-        </form>
+      <h1>Create on a stable platform. For real this time.</h1>
+        <div hidden id="sync-status" class="sync-status">
 
-
-
-
+        </div>
+      <form id="youtube_claim" method="post" action="/youtube/token">
+        <div class="form-inner" >
+          <div class="block">
+            <input id="lbry_channel_name" type="text" name="desired_lbry_channel_name" placeholder="Enter your channel name" />
+            <label>@</label>
+            <div hidden id="lbry_error" class="error">LBRY channel name is not valid or blank</div>
+          </div>
+      </form>
+        <div class="block">
+            <input type="submit" value="Claim now" onClick="return submitDetailsForm()"/>
+        </div>
       <div class="meta">
-        By syncing, you agree to mirror your content to the LBRY network for 1 year, and acknowledge <a href="/faq/youtube-terms">these terms</a>.
+        This will verify you are an active YouTuber, then instructions and your welcome credits will be emailed to you.
+        <a href="/faq/youtube">Learn more</a>.
       </div>
     </div>
   </div>
 </section>
-
 <section class="join section">
   <div class="inner">
     <div class="content">
@@ -114,7 +112,7 @@ Response::setMetaDescription("Put your content on the blockchain, experience tru
   <div class="inner">
     <div class="content">
       <h1>Migrating to LBRY</h1>
-      <p>We will automatically mirror your existing YouTube channel to the LBRY Network.</p>
+      <p>We will automatically mirror your most recent 1,000 YouTube videos to your channel on the LBRY Network.</p>
       <div class="steps">
         <div class="path">
           <div class="journey"></div>
@@ -135,6 +133,7 @@ Response::setMetaDescription("Put your content on the blockchain, experience tru
     </div>
   </div>
 </section>
+
 <section class="rewards section">
   <div class="inner">
     <div class="content">
