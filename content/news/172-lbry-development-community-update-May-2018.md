@@ -130,7 +130,7 @@ You can also get paid to print out our featured Cryptocurrency Chess Set and/or 
 
 Want to keep in touch regarding future 3D printing updates, [subscribe here](https://lbry.io/3d-printing)! 
 
-### LBRY.tech Update
+### LBRY.tech Update {#lbry-tech}
 The LBRY tech resource website underwent a huge facelift in terms of design as well as content. You can follow along with progress on our [GitHub repository](https://github.com/lbryio/lbry.tech). Next steps before launch include finishing up the Build section, determining a single API documentation resource across our projects and moving technical documentation from lbry.io and other GitHub locations. 
 
 ![lbrytech preview1](https://spee.ch/5/lbrytech-preview1.jpeg)
