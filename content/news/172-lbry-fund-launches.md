@@ -18,7 +18,7 @@ LBRY Inc., creators of the LBRY media sharing system and LBC utility token, toda
 
 "The LBRY Fund is designed to empower people around the world to contribute to the adoption and use of the LBRY Protocol," said Julie Sigwart, LBRY Community Director. “Proposals can be submitted for any project that promotes the use of the LBRY project. Some project examples could include coding, marketing, meetups, or graphics and media creation.” 
 
-The first grant recipient will be LBRY-C, a decentralized community organization of LBRY fans and developers. LBRY-C will receive 100,000 LBC over three months for their planned outreach efforts. They’ll also receive performance bonuses and the potential for ongoing funding based on the results of their project.
+The first grant recipient will be LBRY-C, a decentralized community organization of LBRY fans and developers. LBRY-C will receive 100,000 LBC over three months for their planned community and outreach efforts. 
 
 "It's great to have the opportunity to receive funding from the LBRY Fund, so that we can  develop applications, build a stronger community, and work on securing the integrity of the LBRY protocol." said Torgeir Flø, LBRY-C. 
 
