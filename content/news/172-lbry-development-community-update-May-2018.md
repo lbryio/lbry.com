@@ -48,7 +48,7 @@ A local Manchester, NH contributor, Travis, added the ability to autoplay free a
 ![autoplay](https://spee.ch/0/lbry-autoplay-redesign.jpeg)
 
 ### View on Web Button {#view-web}
-Travis has also added a View on Web button which is shown on channel pages as well as content pages for certain media types (videos/images/gifs). This button will open up the content on [spee.ch](https://spee.ch) so it can be easily shared via the web. The button on the channel pages will lead to the channel page on speech, such as [@TheRubinReport](https://lbry.io/@TheRubinReport). 
+Travis has also added a View on Web button which is shown on channel pages as well as content pages for certain media types (videos/images/gifs). This button will open up the content on [spee.ch](https://spee.ch) so it can be easily shared via the web. The button on the channel pages will lead to the channel page on speech, such as [@TheRubinReport](https://spee.ch/@TheRubinReport). 
 
 ![view on web](https://spee.ch/0/view-on-web.jpeg)
 
