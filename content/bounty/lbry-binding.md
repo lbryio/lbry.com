@@ -15,3 +15,8 @@ Completing this bounty involves creating a simple library to make it as easy as 
 An example of a binding can be found in the [php-api](https://github.com/lbryio/php-api) repo.
 
 A binding can typically be written using cURL in less than 100 lines of code.
+
+If you are pursuing this effort, please [email us](mailto:hello@lbry.io) to so we can update this bounty with the current progress. 
+
+Bounty Status:
+Ruby - Under Review
