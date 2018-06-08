@@ -1,7 +1,6 @@
 <?php Response::setMetaDescription(__('description.3d-contest')) ?>
 <?php Response::setMetaTitle(__('title.3d-contest')) ?>
-<?php Response::addMetaImage('https://lbry.io/img/Gold-Crypto-Chess2.jpeg
-') ?>
+<?php Response::addMetaImage('https://lbry.io/img/Gold-Crypto-Chess2.jpeg') ?>
 <?php echo View::render('nav/_header', ['isDark' => true, 'isAbsolute' => true]) ?>
 
 <main>
