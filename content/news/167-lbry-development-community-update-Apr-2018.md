@@ -140,6 +140,7 @@ When you join our Discord, you will first see the #welcome-to-lbry channel and h
 
 ### Meetups and College Campus Initiatives - Get Involved! {#meetup-update}
 ![Hack the Heights](https://spee.ch/6/hackheights.png)
+
 Natalie Mitchell was delighted to attend Boston College’s second *Hack the Heights* hackathon event on behalf of LBRY. Students from all Boston area Colleges came together to rapidly “hack” together creative projects and compete for prizes. 
 
 LBRY is proud to be working with local colleges to encourage students to become in blockchain projects: through computer programming, business of blockchain, and creative design. Babson College is using LBRY as a case study in their Blockchain and Cryptocurrency class, and LBRY actively provides internships for local college students.
