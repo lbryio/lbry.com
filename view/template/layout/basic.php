@@ -54,6 +54,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
         <base target="_parent" />
+
+        <?php echo View::render('layout/_analytics_head') ?>
     </head>
     <body>
       <?php echo $content ?>
@@ -66,7 +68,7 @@
           <?php foreach (Response::getJsAssets() as $src): ?>
             <script src="<?php echo $src ?>"></script>
           <?php endforeach ?>
-          <?php echo View::render('layout/_analytics') ?>
+          <?php echo View::render('layout/_analytics_footer') ?>
           <?php $js = Response::getJsCalls() ?>
           <?php if ($js): ?>
             <script><?php echo implode("\n", $js) ?></script>
