@@ -8,7 +8,7 @@ The financial cycles, bubbles, and economies of scale: they’re the mythical st
 
 And depending on who you ask, the story isn’t always the same.
 
-<video width="100%" controls poster="http://berk.ninja/thumbnails/Hnj6AQvbSls" src="https://spee.ch/8de45bc0aaa44da550b37c1e593c6fb69c34461e/disrupting-media-platforms.mp4"/></video>
+<video width="100%" controls poster="https://berk.ninja/thumbnails/Hnj6AQvbSls" src="https://spee.ch/8de45bc0aaa44da550b37c1e593c6fb69c34461e/disrupting-media-platforms.mp4"/></video>
 
 On the heel’s of the television debut of LBRY, [Boom Bust](https://open.lbry.io/%40BoomBust) joins [Redacted Tonight](https://open.lbry.io/%40RedactedTonight) as the second RT America show to land on LBRY for your post-broadcast pleasure.
 
