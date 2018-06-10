@@ -10,7 +10,7 @@ But I’m just a camper and couldn’t solo mid to save my life, so what do I kn
 
 Introducing the *first* French-speaking channel to LBRY and the first LoL streamer…
 
-<video width="100%" controls poster="http://berk.ninja/thumbnails/uyo8s7hE9xY" src="https://spee.ch/9ac8454a292304d8b6e2309fc6698b354a436cc6/nono-adc-master-best-of-1.mp4"/></video>
+<video width="100%" controls poster="https://berk.ninja/thumbnails/uyo8s7hE9xY" src="https://spee.ch/9ac8454a292304d8b6e2309fc6698b354a436cc6/nono-adc-master-best-of-1.mp4"/></video>
 
 Nono, a Season 1 LCS (League Championship Series) player in EU, shows some of his games, his e-sport events and Summoner's tips to a French-speaking audience, right here on LBRY at [lbry://@Nono](https://open.lbry.io/%40Nono) or  spee.ch/@Nono.
 
