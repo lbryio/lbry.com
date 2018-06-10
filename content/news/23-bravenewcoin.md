@@ -6,11 +6,11 @@ date: '2015-12-17 21:55:57'
 
 If you haven't heard, LBRY has a little competition – Alexandria, "The People's Library". Now don't get us wrong; LBRY welcomes competition! In fact, we're enthusiastic supporters of anyone who wants to put more power in the hands of individuals by building more effective markets for information. Heck, we even engaged in some innocent crypto-flirting with Alexandria this week:
 
-<p style="text-align: center;"><img src="http://i.imgur.com/KFfWju3.png" alt="LBRY & Alexandria crypto-flirt on Twitter"></p>
+<p style="text-align: center;"><img src="https://i.imgur.com/KFfWju3.png" alt="LBRY & Alexandria crypto-flirt on Twitter"></p>
 
 Perhaps our biggest critique of Alexandria is their waste of money in buying all those vowels ;).
 
-But to the point. [BraveNewCoin published the first side-by-side comparison of LBRY and Alexandria this week](http://bravenewcoin.com/news/alexandria-vs-lbry-which-will-be-the-file-sharing-application-of-the-next-generation/). The article is thorough and fair, highlighting what we believe to be one of LBRY's strongest asset:
+But to the point. [BraveNewCoin published the first side-by-side comparison of LBRY and Alexandria this week](https://bravenewcoin.com/news/alexandria-vs-lbry-which-will-be-the-file-sharing-application-of-the-next-generation/). The article is thorough and fair, highlighting what we believe to be one of LBRY's strongest asset:
 
 >"Perhaps the most interesting difference is the naming system, which works a lot like the internet's Domain Naming System (DNS).
 
