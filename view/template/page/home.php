@@ -18,3 +18,4 @@
     <?php echo View::render('download/_downloadButton', ['buttonStyle' => 'primary','meta' => false,])?>
   </div>
 </main>
+    <?php echo View::render('nav/_footer') ?>
