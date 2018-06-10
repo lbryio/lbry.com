@@ -4,12 +4,12 @@ title: 'Digging Into LBRY: Our Inspiration & The Future of Content'
 date: '2015-11-05 21:08:22'
 ---
 
-In the past week, LBRY was featured in two major Bitcoin publications – CoinTelegraph <a href="http://cointelegraph.com/news/115518/lbry-the-lovechild-of-bitcoin-bittorrent-storj" target="_blank">LBRY: The Lovechild of Bitcoin, BitTorrent & Storj</a> and Bitcoin.com <a href="https://news.bitcoin.com/lbry-decentralized-sharing-platform/" target="_blank">LBRY: The Decentralized Sharing Platform</a>. Both articles are lengthy interviews with our team. We've excerpted some of our favorite questions below.
+In the past week, LBRY was featured in two major Bitcoin publications – CoinTelegraph <a href="https://cointelegraph.com/news/115518/lbry-the-lovechild-of-bitcoin-bittorrent-storj" target="_blank">LBRY: The Lovechild of Bitcoin, BitTorrent & Storj</a> and Bitcoin.com <a href="https://news.bitcoin.com/lbry-decentralized-sharing-platform/" target="_blank">LBRY: The Decentralized Sharing Platform</a>. Both articles are lengthy interviews with our team. We've excerpted some of our favorite questions below.
 
-<p style="text-align: center;"><img src="http://i.imgur.com/cVOaKZK.jpg" alt="Digital content at your fingertips"></p>
+<p style="text-align: center;"><img src="https://i.imgur.com/cVOaKZK.jpg" alt="Digital content at your fingertips"></p>
 <p style="text-align: center;">
 
-<p style="text-align: center;">**<a href="http://cointelegraph.com/news/115518/lbry-the-lovechild-of-bitcoin-bittorrent-storj" target="_blank">CoinTelegraph</a>: What was the inspiration for LBRY?**
+<p style="text-align: center;">**<a href="https://cointelegraph.com/news/115518/lbry-the-lovechild-of-bitcoin-bittorrent-storj" target="_blank">CoinTelegraph</a>: What was the inspiration for LBRY?**
 
 **Jeremy Kauffman:** LBRY was inspired by a number of things. It was clearly inspired by Bitcoin – seeing the power of the blockchain in reaching consensus without a central authority. It was also inspired by BitTorrent, which is an absolutely brilliant protocol with an unfortunately flawed incentive structure.
 
@@ -19,7 +19,7 @@ It was inspired by the love of markets and an appreciation for how they facilita
 
 It is inspired by the fact that there has got to be a better way to find, buy, and sell something as simple as a number.
 
-<p style="text-align: center;">**<a href="http://cointelegraph.com/news/115518/lbry-the-lovechild-of-bitcoin-bittorrent-storj" target="_blank">CoinTelegraph</a>: What has been the biggest challenge in development? What about the greatest reward?**
+<p style="text-align: center;">**<a href="https://cointelegraph.com/news/115518/lbry-the-lovechild-of-bitcoin-bittorrent-storj" target="_blank">CoinTelegraph</a>: What has been the biggest challenge in development? What about the greatest reward?**
 
 **Kauffman:** One unique difficulty in developing a blockchain-based protocol/application is the difficulty in revising it. Great products are typically created through iteration. But by design, it’s nearly impossible to revise a cryptocurrency once it’s in the wild. To mitigate this, we’re trying to roll out LBRY slowly, as well as have several of its aspects be conventions rather than core properties.
 
@@ -29,11 +29,11 @@ The greatest reward by far is the feeling that you are on to something absolutel
 
 **Mike Vine:** There isn’t really a system. There are many systems, and some are better than others. Services like Netflix and Hulu helped to break cable’s monopoly on TV content. YouTube allowed anyone to upload original content for a mass audience. But these are still centralized services. They are corporations that offer particular services according to their Terms of Use – or effectively, at their pleasure.
 
-The risks of this came to the fore just last week with <a href="http://techcrunch.com/2015/10/21/an-offer-creators-cant-refuse/" target="_blank">YouTube strong-arming publishers into its new “Red” premium service</a>. Another example from a different industry is a few years back when Facebook was starting throttling Page owners’ access to their own followers – many of which they had paid to accumulate. The lesson is that if you’re using a system that has a higher authority, you’re always vulnerable.
+The risks of this came to the fore just last week with <a href="https://techcrunch.com/2015/10/21/an-offer-creators-cant-refuse/" target="_blank">YouTube strong-arming publishers into its new “Red” premium service</a>. Another example from a different industry is a few years back when Facebook was starting throttling Page owners’ access to their own followers – many of which they had paid to accumulate. The lesson is that if you’re using a system that has a higher authority, you’re always vulnerable.
 
 LBRY is an open-source protocol, like the ones that form the backbone of the internet. LBRY Inc. supports the development of the protocol, but it doesn’t control it. With the advent of the blockchain era, I think the internet will fulfill its promise of radically decentralizing the flow of information. We hope LBRY will be a big part of that.
 
-<p style="text-align: center;">**<a href="http://cointelegraph.com/news/115518/lbry-the-lovechild-of-bitcoin-bittorrent-storj" target="_blank">CoinTelegraph</a>: The IPFS is probably the most similar concept to LBRY right now. Why do you think that incorporating a native blockchain with user payments is superior to IPFS's approach?**
+<p style="text-align: center;">**<a href="https://cointelegraph.com/news/115518/lbry-the-lovechild-of-bitcoin-bittorrent-storj" target="_blank">CoinTelegraph</a>: The IPFS is probably the most similar concept to LBRY right now. Why do you think that incorporating a native blockchain with user payments is superior to IPFS's approach?**
 
 **Jimmy Kiselak:** LBRY is about distributing data fast, and to do that it needs to be able to handle the fact that not all data is alike. IPFS relies on the same sort of planned sharing incentives as BitTorrent.
 
@@ -45,7 +45,7 @@ We believe that if we don’t lay down rules for where data should be and who sh
 
 **Vine:** LBRY can actually accept torrent links as key values on the blockchain. So out of the gate, it will function as the world’s easiest torrent client. Instead of sending someone a complicated hyperlink, an independent artist can just say “Go to LBRY and type in hipster shorts to find my films.” But we expect LBRY’s built-in content hosting model to supplement or replace BitTorrent over time because of better incentives for everyone involved.
 
-<p style="text-align: center;">**<a href="http://cointelegraph.com/news/115518/lbry-the-lovechild-of-bitcoin-bittorrent-storj" target="_blank">CoinTelegraph</a>: Which use-case in particular do you believe would be LBRY's "killer app"? Listeners looking for new music? Indie cultists looking for obscure French films? Something else?**
+<p style="text-align: center;">**<a href="https://cointelegraph.com/news/115518/lbry-the-lovechild-of-bitcoin-bittorrent-storj" target="_blank">CoinTelegraph</a>: Which use-case in particular do you believe would be LBRY's "killer app"? Listeners looking for new music? Indie cultists looking for obscure French films? Something else?**
 
 **Kauffman:** We’re hesitant to speculate. LBRY is designed to gracefully extend BitTorrent, so at a minimum we expect LBRY to be a better BitTorrent client.
 
@@ -57,7 +57,7 @@ LBRY’s hosts are motivated by what price people are paying for a given piece o
 
 With LBRY, artists have a turnkey publishing, distribution, and payment platform – all encapsulated in a neat little LBRY name like lbry://hipstershorts. Over time, LBRY’s killer app will be its lower cost and greater reach than centralized media.
 
-<p style="text-align: center;">**<a href="http://cointelegraph.com/news/115518/lbry-the-lovechild-of-bitcoin-bittorrent-storj" target="_blank">CoinTelegraph</a>: Do you envision content distributors, hosts, or miners being able to make a living by their LBRY work?**
+<p style="text-align: center;">**<a href="https://cointelegraph.com/news/115518/lbry-the-lovechild-of-bitcoin-bittorrent-storj" target="_blank">CoinTelegraph</a>: Do you envision content distributors, hosts, or miners being able to make a living by their LBRY work?**
 
 **Kauffman:** The “big five” of media (film, video games, TV, music, and books) see over US$2 trillion per year. We think LBRY can play a role in the distribution of all of this. This answer is a verbose “Yes!”
 
@@ -65,5 +65,5 @@ With LBRY, artists have a turnkey publishing, distribution, and payment platform
 
 So devoting hard drive space or bandwidth to LBRY is like suddenly filling your car on daily commutes with paying customers who keep to themselves and get out where you tell them. It’s a pretty sweet deal.
 
-<p style="text-align: center;">**<a href="http://cointelegraph.com/news/115518/lbry-the-lovechild-of-bitcoin-bittorrent-storj" target="_blank">Read the full CoinTelegraph interview here.</a>
+<p style="text-align: center;">**<a href="https://cointelegraph.com/news/115518/lbry-the-lovechild-of-bitcoin-bittorrent-storj" target="_blank">Read the full CoinTelegraph interview here.</a>
 <a href="https://news.bitcoin.com/lbry-decentralized-sharing-platform/" target="_blank">Read the full Bitcoin.com interview here.</a>**
