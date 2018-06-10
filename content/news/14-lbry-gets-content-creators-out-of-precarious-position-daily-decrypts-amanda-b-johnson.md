@@ -26,7 +26,7 @@ In Bitcoin, if one or a hundred or even a thousand "hosts" go offline, Bitcoin s
 
 This is what censorship-resistance looks like. As information itself becomes more integral – not only to our livelihoods but our lives – the most censorship-resistant tools will emerge as the preferable choice. The Daily Decrypt hopes to be among the first to host our content using such a tool.
 
-![Amanda](http://tracesofreality.com/wp-content/uploads/2013/09/amanda-billyrock.jpg)
+![Amanda](https://tracesofreality.com/wp-content/uploads/2013/09/amanda-billyrock.jpg)
 
 **Amanda B. Johnson** is the host of [The Daily Decrypt](https://www.youtube.com/channel/UCqNCLd2r19wpWWQE6yDLOOQ). She has written on cryptocurrencies for Bitcoin Magazine, CoinTelegraph, Bitcoin.com, and Liberty.me.
 
