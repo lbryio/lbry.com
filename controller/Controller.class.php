@@ -54,7 +54,7 @@ class Controller
             $dispatcher = new Routing\Dispatcher($router->getData());
             return $dispatcher->dispatch($method, $uri);
         } catch (\Routing\HttpRouteNotFoundException $e) {
-            return NavActions::execute404();
+            return static::doLowerUriRedirectOr404($uri, $router);
         } catch (\Routing\HttpMethodNotAllowedException $e) {
             Response::setStatus(405);
             Response::setHeader('Allow', implode(', ', $e->getAllowedMethods()));
@@ -102,13 +102,13 @@ class Controller
 
         $router->any('/dmca', 'ReportActions::executeDmca');
 
-    $router->any('/youtube/sub', 'AcquisitionActions::executeYouTubeSub');
-    $router->post('/youtube/edit', 'AcquisitionActions::executeYoutubeEdit');
-    $router->post('/youtube/token', 'AcquisitionActions::executeYoutubeToken');
-    $router->any('/youtube/status/{token}', 'AcquisitionActions::executeYoutubeStatus');
-    $router->any('/youtube/status', 'AcquisitionActions::executeRedirectYoutube');
-    $router->any('/youtube', 'AcquisitionActions::executeYouTube');
-    $router->get('/youtube/{version}', 'AcquisitionActions::executeYouTube');
+        $router->any('/youtube/sub', 'AcquisitionActions::executeYouTubeSub');
+        $router->post('/youtube/edit', 'AcquisitionActions::executeYoutubeEdit');
+        $router->post('/youtube/token', 'AcquisitionActions::executeYoutubeToken');
+        $router->any('/youtube/status/{token}', 'AcquisitionActions::executeYoutubeStatus');
+        $router->any('/youtube/status', 'AcquisitionActions::executeRedirectYoutube');
+        $router->any('/youtube', 'AcquisitionActions::executeYouTube');
+        $router->get('/youtube/{version}', 'AcquisitionActions::executeYouTube');
 
         $router->get('/verify/{token}', 'AcquisitionActions::executeVerify');
 
@@ -148,11 +148,22 @@ class Controller
                 Response::enableHttpCache();
                 return ['page/' . $slug, []];
             } else {
-                return NavActions::execute404();
+                return static::doLowerUriRedirectOr404($slug);
             }
         });
 
         return $router;
+    }
+
+    protected static function doLowerUriRedirectOr404($uri, $router = null)
+    {
+        $lowerUri = strtolower($uri);
+        if ($uri !== $lowerUri) {
+            if (View::exists('page/' . $lowerUri) || isset($router) && $router.hasroute($lowerUri)) {
+                return static::redirect($lowerUri, 308);
+            }
+        }
+        return NavActions::execute404();
     }
 
     public static function redirect($url, $statusCode = 302)
