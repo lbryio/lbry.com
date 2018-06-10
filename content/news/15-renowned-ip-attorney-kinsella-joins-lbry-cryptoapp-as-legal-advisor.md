@@ -8,7 +8,7 @@ LBRY Inc., the startup behind a new blockchain-based content distribution platfo
 
 Stephan Kinsella has joined the executive team of LBRY Inc. as Legal Advisor, helping the company navigate the complex US and international copyright laws as they seek to radically upend the media industry.
 
-![Stephan Kinsella](http://i.imgur.com/oKoXXO2.jpg?1)
+![Stephan Kinsella](https://i.imgur.com/oKoXXO2.jpg?1)
 
 *<p style="text-align: center;">Stephan Kinsella, J.D. LL.M., Author and IP Attorney</p>*
 
