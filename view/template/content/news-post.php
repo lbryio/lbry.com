@@ -12,7 +12,7 @@
         <?php echo $post->getAuthorName() ?>
         <?php echo $post->hasAuthor() && $post->hasDate() ? '&bull;' : '' ?>
         <?php if ($post->hasDate()): ?>
-          <span title="<?php echo $post->getDate()->format('F jS, Y') ?>"><?php echo $post->getDate()->format('M j') ?></span>
+          <span title="<?php echo $post->getDate()->format('F jS, Y') ?>"><?php echo $post->getDate()->format('M j Y') ?></span>
         <?php endif ?>
       </div>
     </div>
