@@ -1,0 +1,152 @@
+.navigation {
+  top: 0; left: 0;
+
+  padding-right: env(safe-area-inset-right);
+  padding-left: env(safe-area-inset-left);
+  position: fixed;
+  transition: all 0.2s;
+  width: 100%;
+  z-index: 10;
+
+  &:not(.scrolled) {
+    .navigation__item {
+      &:not(.logo):not(:last-of-type) {
+        color: $coco;
+      }
+
+      &.logo {
+        background-image: url("../media/svg/logo--white.svg");
+
+        &::after {
+          background-image: url("../media/svg/text-logo--white.svg");
+        }
+      }
+    }
+  }
+
+  &.scrolled {
+    background-color: $coco;
+    box-shadow: 0 1px 5px rgba($onyx, 0.1);
+
+    .navigation__item {
+      &.logo {
+        background-image: url("../media/svg/logo.svg");
+
+        &::after {
+          background-image: url("../media/svg/text-logo.svg");
+        }
+      }
+    }
+  }
+}
+
+.navigation-wrap {
+  float: right;
+  position: relative;
+  text-align: right;
+  width: calc(100% - 4rem);
+
+  &::after {
+    @include clearfix;
+  }
+
+  @media (max-width: 700px) {
+    overflow: auto;
+    overflow-scrolling: touch;
+    white-space: nowrap;
+    width: 100%;
+
+    &::before {
+      width: 2rem; height: 4rem;
+      top: 0; right: 0;
+
+      background-image: linear-gradient(90deg, rgba($coco, 0), $coco 50%, $coco); // iOS Safari cannot handle `transparent`
+      content: "";
+      position: fixed;
+      z-index: 2;
+    }
+  }
+}
+
+.navigation__item {
+  @media (max-width: 700px) {
+    display: inline-block;
+    transform: translate3d(0, 0, 0);
+    transition: opacity 0.2s 0.2s ease, transform 0.4s 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+    vertical-align: top;
+
+    &:last-of-type {
+      margin-right: 3rem;
+    }
+  }
+
+  &:not(.logo) {
+    font-weight: 600;
+    line-height: 5rem;
+  }
+
+  &:not(.logo):not(:last-of-type) {
+    font-size: 1rem;
+    transition: color 0.2s;
+
+    &:hover {
+      color: $original;
+    }
+  }
+
+  &:not(.logo):not(.menu) {
+    &:not(:last-of-type) {
+      margin-right: 1rem;
+    }
+  }
+
+  &:not(:last-of-type) {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+
+  &.logo {
+    @include hide-text;
+    width: 4rem; height: 4rem;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 3rem;
+    flex: 1;
+    float: left;
+    position: relative;
+    top: 0.5rem;
+    z-index: 1;
+
+    &::after {
+      width: 5rem; height: 100%;
+      top: 0; left: 4rem;
+
+      background-position: left center;
+      background-repeat: no-repeat;
+      background-size: 4rem;
+      content: "";
+      position: absolute;
+    }
+  }
+
+  &:last-of-type {
+    border-radius: 3rem;
+    color: $coco;
+    font-size: 0.8rem;
+    padding: 0.65rem 1rem;
+    transition: background-color 0.2s;
+
+    &:not(:hover) {
+      background-color: $onyx;
+    }
+
+    &:hover {
+      background-color: $original;
+    }
+  }
+
+  &.menu {
+    display: none;
+  }
+}

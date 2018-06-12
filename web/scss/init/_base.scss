@@ -1,0 +1,152 @@
+html {
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0; padding: 0;
+
+  box-sizing: inherit;
+  outline: 0 !important;
+}
+
+a,
+area,
+button,
+[role="button"],
+input,
+label,
+select,
+summary,
+textarea { // Remove touch delay on supported devices
+  touch-action: manipulation;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+*[readonly] {
+  cursor: not-allowed;
+}
+
+textarea {
+  &[disabled] {
+    resize: none;
+  }
+
+  &:not[disabled] {
+    resize: vertical;
+  }
+}
+
+button {
+  &:not(:disabled) {
+    cursor: pointer;
+  }
+
+  &:active {
+    top: 2px;
+  }
+}
+
+button,
+input,
+select,
+textarea {
+  border: none;
+  border-radius: 0;
+  font-family: inherit;
+  font-size: inherit;
+
+  -moz-appearance: none;
+  -webkit-appearance: none;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+input,
+select,
+textarea {
+  background-color: transparent;
+}
+
+input[type=submit] {
+  cursor: pointer;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+iframe {
+  border: 0;
+}
+
+img {
+  font-size: 0;
+  max-width: 100%;
+
+  &::after {
+    width: 100%; height: 100%;
+    top: -100%; left: 0;
+
+    background-color: $coco;
+    background-image: url("../media/images/missing.png");
+    background-size: cover;
+    box-shadow: 0 0 1px 0 rgba($onyx, 0.3);
+    content: "";
+    display: block;
+    position: relative;
+  }
+}
+
+
+
+@media print {
+  // Intelligent print styles
+  pre, blockquote { border: 1px solid #999 !important; page-break-inside: avoid !important; }
+  tr, img { page-break-inside: avoid !important; }
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm !important; }
+  p, h2, h3 { orphans: 3 !important; widows: 3 !important; }
+  h2, h3 { page-break-after: avoid !important; }
+  thead { display: table-header-group !important; }
+
+  // Faster, more stable printing
+  * { background: transparent !important; color: black !important; text-shadow: none !important; filter: none !important; }
+
+  // Show hypertext data for links and abbreviations
+  p a[href]::after { content: " (" attr(href) ")" !important; }
+  p abbr[title]::after { content: " (" attr(title) ")" !important; }
+  p a[href^="javascript:"]::after, p a[href^="#"]::after { content: "" !important; }
+  p a, p abbr { word-wrap: break-word !important; text-decoration: underline !important; }
+}
+
+
+
+input::-moz-focus-inner,
+button::-moz-focus-inner {
+  display: none;
+}
+
+// Get rid of yellow autofill background
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px $coco inset !important;
+
+  &:focus {
+    outline: none;
+  }
+}

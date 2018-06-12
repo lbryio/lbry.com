@@ -1,0 +1,77 @@
+.footer {
+  background-color: $onyx;
+  color: rgba($coco, 0.15);
+  font-size: 1rem;
+  padding-right: env(safe-area-inset-right);
+  padding-left: env(safe-area-inset-left);
+  position: relative;
+
+  @media (max-width: 980px) {
+    &::before {
+      width: 3rem; height: 100%;
+      bottom: 0; right: 0;
+
+      background-image: linear-gradient(90deg, rgba($onyx, 0), $onyx 50%, $onyx); // iOS Safari cannot handle `transparent`
+      content: "";
+      position: absolute;
+      z-index: 2;
+    }
+  }
+
+  > div:first-of-type {
+    @media (max-width: 980px) {
+      overflow: auto;
+      overflow-scrolling: touch;
+      white-space: nowrap;
+      width: 100%;
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    @media (min-width: 981px) {
+      align-items: stretch;
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    li {
+      padding-right: 0.5rem;
+      padding-left: 0.5rem;
+      vertical-align: bottom;
+
+      @media (max-width: 980px) {
+        display: inline-block;
+        transform: translate3d(0, 0, 0);
+        transition: opacity 0.2s 0.2s ease, transform 0.4s 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+
+        &:last-of-type {
+          margin-right: 3rem;
+        }
+      }
+
+      &:first-of-type {
+        flex: 1;
+      }
+
+      &:last-of-type {
+        cursor: default;
+      }
+    }
+  }
+
+  a {
+    transition: color 0.2s;
+
+    &:not(:hover) {
+      color: $coco;
+    }
+
+    &:hover {
+      color: $original;
+    }
+  }
+}

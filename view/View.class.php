@@ -127,8 +127,8 @@ class View
             $scssCompiler->setLineNumberStyle(Leafo\ScssPhp\Compiler::LINE_COMMENTS);
         }
 
-        $all_css = $scssCompiler->compile(file_get_contents(self::SCSS_DIR . '/all.scss'));
-        file_put_contents(self::CSS_DIR . '/all.css', $all_css);
+        $style_css = $scssCompiler->compile(file_get_contents(self::SCSS_DIR . '/style.scss'));
+        file_put_contents(self::CSS_DIR . '/style.css', $style_css);
 
         $youtube_css = $scssCompiler->compile(file_get_contents(self::SCSS_DIR . '/youtube.scss'));
         file_put_contents(self::CSS_DIR . '/youtube.css', $youtube_css);

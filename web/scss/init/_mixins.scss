@@ -1,0 +1,72 @@
+@mixin center {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+}
+
+
+
+@mixin font-sans {
+  font-family: Metropolis, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+@mixin font-serif {
+  font-family: Georgia, serif;
+}
+
+@mixin font-mono {
+  font-family: "Courier New", monospace;
+}
+
+
+
+@mixin clearfix {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+@mixin hide-text {
+  border: 0;
+  color: transparent;
+  font: 0/0 a;
+  text-shadow: none;
+}
+
+@mixin ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin selection($background, $foreground) {
+  ::selection {
+    background-color: $background;
+    color: $foreground;
+  }
+
+  ::-moz-selection {
+    background-color: $background;
+    color: $foreground;
+  }
+}
+
+
+
+@mixin no-user-select {
+  user-select: none;
+
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+
+
+.clear {
+  @include clearfix;
+}
+
+.hide-text {
+  @include hide-text;
+}

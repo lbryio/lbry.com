@@ -20,12 +20,12 @@ class Response
     protected static $metaTitle = '';
     protected static $jsCalls = [];
     protected static $assets = [
-    'js'  => [
-      '/js/jquery-3.3.1.min.js',
-      '/js/global.js'
-    ],
-    'css' => ['/css/all.css']
-  ];
+      'js'  => [
+        '/js/jquery-3.3.1.min.js',
+        '/js/global.js'
+      ],
+      'css' => ['/css/style.css']
+    ];
     protected static $headers = [];
     protected static $headersSent = false;
     protected static $content = '';

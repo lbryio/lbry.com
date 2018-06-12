@@ -1,29 +1,49 @@
-<?php if (!defined('HEADER_RENDERED')): ?>
-  <?php define('HEADER_RENDERED', 1) ?>
-  <?php extract([
-      'isDark' => false,
-      'isAbsolute' => false,
-      'isLogoOnly' => false,
-      'isBordered' => true
-  ], EXTR_SKIP) ?>
-  <div class="header <?php echo $isAbsolute ? 'header-absolute' : '' ?> <?php echo $isDark ? 'header-dark' : 'header-light' ?> <?php echo !$isBordered ? 'header-noborder' : '' ?>">
-    <div class="header-content">
-      <a href="/" class="primary-logo">
-        <img src="<?php echo $isDark ? View::imagePath('lbry-white.svg') : View::imagePath('lbry-dark.svg') ?>" alt="LBRY" />
-      </a>
-      <?php if (!$isLogoOnly): ?>
-        <div class="mobile header-navigation-mobile">
-          <a href="javascript:;" data-action="toggle-class" data-for=".header" data-class="header-open">
-            <span class="icon icon-bars"></span>
-            <span class="icon icon-close"></span>
-          </a>
-        </div>
-        <div class="fullscreen header-navigation-fullscreen">
-          <nav class="control-group">
-            <?php echo View::render('nav/_globalItems') ?>
-          </nav>
-        </div>
-      <?php endif ?>
+<nav class="navigation">
+  <div class="inner-wrap">
+    <a class="navigation__item logo" href="/">LBRY</a>
+
+    <div class="navigation-wrap">
+      <?php echo View::render("nav/_globalItems") ?>
     </div>
+
+    <a class="navigation__item menu" href="#">Menu</a>
   </div>
-<?php endif ?>
+</nav>
+
+<script>
+  const toggleNavigationBackground = debounce(() => {
+    const nav = document.getElementsByClassName("navigation")[0];
+
+    switch (true) {
+      case window.pageYOffset >= 151:
+        nav.classList.add("scrolled");
+        break;
+
+      case window.pageYOffset <= 150:
+        nav.classList.remove("scrolled");
+        break;
+    }
+  }, 50);
+
+  window.addEventListener("scroll", toggleNavigationBackground);
+
+  function debounce(func, wait, immediate) {
+  	let timeout;
+
+  	return function () {
+  		const context = this;
+      const args = arguments;
+
+  		const later = () => {
+  			timeout = null;
+  			if (!immediate) func.apply(context, args);
+  		};
+
+  		const callNow = immediate && !timeout;
+  		clearTimeout(timeout);
+
+  		timeout = setTimeout(later, wait);
+  		if (callNow) func.apply(context, args);
+  	};
+  };
+</script>

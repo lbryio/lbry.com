@@ -1,0 +1,68 @@
+html,
+body {
+  width: 100%; height: 100%;
+}
+
+body {
+  @include font-sans;
+  min-width: 320px; min-height: 100vh;
+
+  color: $onyx;
+  font-size: 12px;
+  overflow-x: hidden;
+  position: relative;
+  z-index: 0;
+}
+
+::selection {
+  background-color: $original;
+  color: rgba($coco, 0.95);
+}
+
+main {
+  flex: 1;
+  // padding-top: 4rem; // navigation has a line-height 4rem
+}
+
+/*
+em {
+  @include font-serif;
+  font-size: 90%;
+  letter-spacing: 0.05rem;
+}
+*/
+
+.inner-wrap {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1000px;
+
+  @media (max-width: 900px) {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
+  &:after {
+    @include clearfix;
+  }
+}
+
+.center {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+noscript {
+  top: 0; left: 0;
+
+  background-color: $cherry;
+  color: $coco;
+  font-weight: 600;
+  line-height: 1.33;
+  padding: 1rem;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  z-index: 50;
+}
