@@ -14,7 +14,7 @@ You can get all the details in the copy of our press release below. We can’t b
 
 Manchester, NH - 6/6/18
 
-LBRY Inc., creators of the LBRY media sharing system and LBC utility token, today announced the launch of [LBRY.fund](https://lbry.fund/). The 200 million LBC in the fund (worth $36.4 million at time of publication) will be distributed to applicants making innovative contributions to the overall ecosystem.. 
+LBRY Inc., creators of the LBRY media sharing system and LBC utility token, today announced the launch of [LBRY.fund](https://lbry.fund/). The 200 million LBC in the fund (worth $36.4 million at time of publication) will be distributed to applicants making innovative contributions to the overall ecosystem. 
 
 "The LBRY Fund is designed to empower people around the world to contribute to the adoption and use of the LBRY Protocol," said Julie Sigwart, LBRY Community Director. “Proposals can be submitted for any project that promotes the use of the LBRY project. Some project examples could include coding, marketing, meetups, or graphics and media creation.” 
 
