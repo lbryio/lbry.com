@@ -6,24 +6,48 @@
   <section class="home__hero">
     <div class="inner-wrap">
       <aside class="home__hero__content">
-        <div>
-          <h1>Content Freedom</h1>
+        <h1>Content Freedom</h1>
 
-          <p>LBRY is a free, open, and community-run digital marketplace. You own your data. You control the network. Indeed, you <em>are</em> the network.</p>
+        <p>LBRY is a free, open, and community-run digital marketplace. You own your data. You control the network. Indeed, you <em>are</em> the network.</p>
 
-          <a href="#" class="home__hero__content__cta watch" title="Watch our video">Watch video</a>
-        </div>
+        <a href="#" class="home__hero__content__cta watch" title="Watch our video">Watch video</a>
       </aside>
     </div>
   </section>
 
-  <section>
+  <section class="home__what">
     <div class="inner-wrap">
-      <h2>A People's Marketplace</h2>
+      <h2>Art in the Digital Age</h2>
+      <p>LBRY differs from the status quo in three big ways:</p>
 
-      <p>LBRY is the first digital marketplace to be controlled by the market’s participants rather than a corporation or other 3rd-party. It is the most open, fair, and efficient marketplace for digital goods ever created, with an incentive design encouraging it to become the most complete.</p>
+      <ul>
+        <li>
+          <figure>
+            <img src="http://static.simpledesktops.com/uploads/desktops/2017/02/28/GeoShapes_2880x1800.png" alt="first image in this section"/>
+          </figure>
 
-      <p>At the highest level, LBRY does something extraordinarily simple. LBRY creates an association between a unique name and a piece of digital content, such as a movie, book, or game. This is similar to the domain name system that you are most likely using to access this very post.</p>
+          <strong>Coupled payment and access</strong>
+          If desired, the person who publishes to <code>lbry://wonderfullife</code> can charge a fee to users that view the content.
+        </li>
+
+        <li>
+          <figure>
+            <img src="http://static.simpledesktops.com/uploads/desktops/2016/08/28/Wind-Vector-resize.png" alt="first image in this section"/>
+          </figure>
+
+          <strong>Decentralized and distributed</strong>
+          Content published to LBRY is not specific to one computer or network, making LBRY robust to failure and disruption.
+        </li>
+
+        <li>
+          <figure>
+            <img src="http://static.simpledesktops.com/uploads/desktops/2015/08/20/Sunset_by_Banned.png" alt="first image in this section"/>
+          </figure>
+
+          <strong>Community controlled</strong>
+          No party other than the publisher (including us) can unilaterally remove or block content on the LBRY network.
+        </li>
+      </ul>
     </div>
   </section>
 

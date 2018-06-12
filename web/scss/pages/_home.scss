@@ -1,26 +1,21 @@
 .home {
 }
 
+
+
 .home__hero {
+  @include center;
+  width: 100%; height: 100vh;
+
   background-color: $onyx;
   background-image: url("../media/img/wall-d.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
-
-  > div:first-of-type {
-    height: 100%;
-    position: relative;
-  }
 }
 
 .home__hero__content {
-  @include center;
-  width: 100%; height: 100%;
-
   color: $coco;
-  position: relative;
   text-align: center;
   text-shadow: 0 1px 1px rgba($onyx, 0.3);
   z-index: 1;
@@ -88,5 +83,84 @@
 
     position: absolute;
     width: 125px;
+  }
+}
+
+
+
+.home__what {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+
+  h2, p {
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.25rem;
+    line-height: 1.33;
+    margin-bottom: 3rem;
+  }
+
+  ul {
+    list-style-type: none;
+
+    &::after {
+      @include clearfix;
+    }
+
+    li {
+      float: left;
+      font-size: 0.8rem;
+      line-height: 1.5;
+      padding-right: 1rem;
+      padding-left: 1rem;
+      text-align: center;
+      width: 33.333333%;
+
+      strong {
+        display: block;
+        font-size: 1.25rem;
+        margin-bottom: 0.25rem;
+      }
+
+      &:not(:first-of-type) {
+        position: relative;
+
+        &::after {
+          width: 100%; height: 1px;
+          top: 100px; left: -50%; // images are 200px tall
+
+          background-image: linear-gradient(to right, $onyx 10%, rgba($coco, 0) 0%);
+          background-position: top;
+          background-size: 10px 1px;
+          background-repeat: repeat-x;
+          content: "";
+          position: absolute;
+          z-index: -1;
+        }
+      }
+    }
+
+    figure {
+      width: 200px; height: 200px;
+
+      background-color: $coco;
+      margin-right: auto;
+      margin-left: auto;
+
+      img {
+        width: 100%; height: 100%;
+
+        clip-path: polygon(50% 10%, 85% 30%, 85% 75%, 50% 95%, 15% 75%, 15% 30%);
+        object-fit: cover;
+        object-position: center;
+      }
+    }
   }
 }
