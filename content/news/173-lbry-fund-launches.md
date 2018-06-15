@@ -4,11 +4,11 @@ title: 'LBRY.fund is Live'
 date: '2018-06-14 12:00:00'
 cover: 'gradient.png'
 ---
-We are very excited to announce the launch of [LBRY.fund](lbry.fund), a new site that gives LBRY developers and community members the opportunity to apply for grants from a pool of 200 million LBC to help them pursue independent projects.
+We are very excited to announce the launch of [LBRY.fund](https://lbry.fund/), a new site that gives LBRY developers and community members the opportunity to apply for grants from a pool of 200 million LBC to help them pursue independent projects.
 
 ![LBRY.fund home page](https://spee.ch/7/lbryfund.png)
 
-You can get all the details in the copy of our press release below. We can’t build LBRY without the LBRY community, and we can’t wait to see what you come up with in your grant applications!
+You can get all the details in the copy of our press release below. We can’t build LBRY without the LBRY Community, and we can’t wait to see what you come up with in your grant applications!
 
 ## LBRY Inc. Announces Launch of LBRY.fund, Awards First Community Grant to LBRY-C
 
