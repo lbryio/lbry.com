@@ -1,7 +1,7 @@
 ---
 title: Project Manager
 order: 3
-status: active
+status: closed
 location: remote
 url: https://hire.withgoogle.com/public/jobs/lbryio/view/P_AAAAAADAAADDIQ-YUHEtOA?trackingTag=joinUs
 ---
