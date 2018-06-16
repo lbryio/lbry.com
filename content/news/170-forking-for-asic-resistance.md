@@ -8,7 +8,7 @@ cover: 'ASICS.jpg'
 
 Designing ASIC resistant proof-of-work blockchains, and particularly hard-forking to achieve such ASIC-resistance is a contentious new issue in the cryptocurrency space. ASIC chips are custom manufactured computing devices designed specifically for a particular blockchain or hashing algorithm. As such, they are far more efficient at mining than commodity hardware such as CPUs or GPUs. 
 
-Forking to prevent such resistance, referred to as an AAHF (Anti-ASIC Hard Fork) for the rest of this article, changes the mining algorithm on a blockchain so that ASICs tailored to the old algorithm can no longer mine effectively. AAHF aren’t just theory. Recently Monero[ executed one](https://cointelegraph.com/news/monero-hard-fork-appears-successful-as-devs-shun-bitmains-asic-miners) and[ Zcash](https://forum.z.cash/t/let-s-talk-about-asic-mining/27353/459) is pondering whether to do the same. At [LBRY](https://lbry.io), we’ve received requests to hard fork due to the release of a[ Baikal miner](https://www.baikalminer.com/product10.php) appearing on the market (the miner is likely a FPGA machine, not an ASIC, however). 
+Forking to prevent such resistance, referred to as an AAHF (Anti-ASIC Hard Fork) for the rest of this article, changes the mining algorithm on a blockchain so that ASICs tailored to the old algorithm can no longer mine effectively. AAHFs aren’t just theory. Recently Monero[ executed one](https://cointelegraph.com/news/monero-hard-fork-appears-successful-as-devs-shun-bitmains-asic-miners) and[ Zcash](https://forum.z.cash/t/let-s-talk-about-asic-mining/27353/459) is pondering whether to do the same. At [LBRY](https://lbry.io), we’ve received requests to hard fork due to the release of a[ Baikal miner](https://www.baikalminer.com/product10.php) appearing on the market (the miner is likely a FPGA machine, not an ASIC, however). 
 
 This article is a case study on the recent Monero AAHF. The Monero hard fork that occurred on April 6th was interesting in that it:
 
@@ -20,7 +20,7 @@ The goals of this article is to look at verifiable data instead of speculating a
 
 ## Effects on Hashrate
 
-First let’s look at Monero’s hash rate before and after the hard fork. In the below graph, you can see the hashrate for Monero in green. The black line is the hashrate for the the various alt-coin splinter projects that took over Monero’s old chain after the hard fork (from henceforth called Monero Original)*. 
+First, let’s look at Monero’s hash rate before and after the hard fork. In the below graph, you can see the hashrate for Monero in green. The black line is the hashrate for the the various alt-coin splinter projects that took over Monero’s old chain after the hard fork (from henceforth called Monero Original)*. 
 
 *Note that according to GPU miners that I’ve talked to, the pre-fork and post-fork Monero POW algorithm is equivalent in computational difficulty thus the hash rate before and after the fork should be comparable.  
 
@@ -53,7 +53,7 @@ Software upgrades by nature are attack vectors. Some users will end up downloadi
 
 About 1000 users total have downloaded either Monero Original or Monero 0 binaries and have presumably used them. I’m not suggesting that these binaries are malware but they are unsigned binaries from anonymous developers. Needless to say, there are significant risks involved in running such software. It is worth considering whether it is worth exposing users to such attack vectors when hard forking. 
 
-Other users may not even be aware that the Monero network has hard forked and may be transacting on the old network unaware of what is happening. It is impossible to tell whether the transactions happening on the Monero Original chain are intentional or accidental but the below graph shows that there is still small amount of transactions occurring on the Monero Original chain (note that the Monero Original chain is traded on hitbtc.com so the transactions below could all be intentional). 
+Other users may not even be aware that the Monero network has hard forked and may be transacting on the old network unaware of what is happening. It is impossible to tell whether the transactions happening on the Monero Original chain are intentional or accidental but the below graph shows that there is still a small amount of transactions occurring on the Monero Original chain (note that the Monero Original chain is traded on hitbtc.com so the transactions below could all be intentional). 
 
 ![Monero transaction rates](https://lbry.io/img/monero_trans.png)
 <div style="caption">
@@ -69,5 +69,5 @@ The first concern is that the AAHF may have been unnecessary in the first place 
 
 The second concern is that the AAHF created attack vectors that could be exploited against its users. The lowered hash rate can be used to 51% attack the chain, and the software update necessary for the hard fork may have left users on the wrong chain or exposed them to malware.
 
-It remains to be seen how these concerns will work out for Monero in the future. So far, things has gone smoothly as the Monero price has been stable and there has been no noticeable network disruption for the user. The market for the most part has deemed this AAHF to be a success. However, this AAHF is likely just the opening battle in a war to determine who gets to control the Monero network. Bitmain, and other ASIC manufacturer, will not be undeterred if there is money to be made. The next time this battle is fought, these concerns are going to be revisited again.
+It remains to be seen how these concerns will work out for Monero in the future. So far, things has gone smoothly as the Monero price has been stable and there have been no noticeable network disruptions for the users. The market for the most part has deemed this AAHF to be a success. However, this AAHF is likely just the opening battle in a war to determine who gets to control the Monero network. Bitmain, and other ASIC manufacturers, will not be undeterred if there is money to be made. The next time this battle is fought, these concerns are going to be revisited again.
 
