@@ -112,7 +112,7 @@ New patriotic and free speech inspired designs have been added to our shop, in t
 
 ![Satoshi Jefferson t-shirt](https://spee.ch/c/jefferson.png) 
 
-### LBRY T-shirt design contest
+**LBRY T-shirt design contest**
 Calling graphic designers! We are hosting a t-shirt design contest for the LBRY Merchandise Shop. Use your imagination to design LBRY logowear or another creative concept illustrating your vision of LBRY. First and second place winners will respectively get $100 and $50 in LBC plus $25 in credit to use in the LBRY Shop! [You can find the details here.](https://lbry.io/shirt-contest)
 
 ### YouTube Sync Updates {#youtube-updates}
