@@ -12,9 +12,9 @@ Many transaction types also have details associated with them such as the claim/
 | **Spends** | LBC is sent to another address or used to purchase content.<br/>Also, revoked content/claimed tips show as Spends<sup>1</sup>
 | **Receives** | LBC received at wallet address, an incoming content payment or LBRY Reward
 | **Publishes** | LBC claim associated with content publication.<br/>Claims can be revoked via trash button<sup>2</sup>
-| **Channels** | LBC claim associated with Channel creation.<br/>Channels claims can be revoked via trash button
+| **Channels** | LBC claim associated with Channel creation.<br/>Channel claims can be revoked via trash button
 | **Tips** | Tips sent or received. Received tips can be claimed via unlock button
-| **Supports** | Claim support sent or received. Supports claims can be revoked via trash button
+| **Supports** | Claim support sent or received. Support claims can be revoked via trash button
 | **Updates** | Update to previously published content<sup>3</sup>. Updated claims can be revoked via trash button
 
 <sup>1</sup> The amount shown in the transaction list only reflects the revoke/claim fee paid. See transaction details for the amount that is returned to your wallet. 
