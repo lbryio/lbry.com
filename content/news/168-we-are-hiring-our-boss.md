@@ -14,7 +14,7 @@ If you’re just hearing about LBRY for the first time, it is an open-source, bl
 ## Who we are
 <div class="column-fluid">
 <div class="span3"><img src="https://spee.ch/1/Sean2.jpeg" style="padding: 0 12px 24px 0" alt="Sean Yesmunt"></div><div class="span9"><p>I'm <a href="http://seanyesmunt.com"> Sean,</a> I joined LBRY in November to work on the LBRY desktop app after making a few small contributions on my own. Before that I was working with React and Node on Walmart.com for 1.5 years after teaching myself to code. I am very interested in user experience, and creating simple apps that are easy to use.</p></div>
-<div class="span3"><img align="left" style="padding: 0 12px 24px 0" src="https://spee.ch/c/Bill2.jpeg" alt="Bill Bittner"></div><div class="span9"><p>I’m <a href="https://github.com/billbitt"> Bill.</a>  I found out about LBRY while exploring blockchain applications and was quickly hooked by the vibrant dev community that had already sprung up around their alpha build.  I love building web apps and exploring new technologies, so it wasn’t long before I jumped in and starting to building on top of the LBRY network.</p></div>
+<div class="span3"><img align="left" style="padding: 0 12px 24px 0" src="https://spee.ch/c/Bill2.jpeg" alt="Bill Bittner"></div><div class="span9"><p>I’m <a href="https://github.com/billbitt"> Bill.</a>  I found out about LBRY while exploring blockchain applications and was quickly hooked by the vibrant dev community that had already sprung up around their alpha build.  I love building web apps and exploring new technologies, so it wasn’t long before I jumped in and started to build on top of the LBRY network.</p></div>
 <div class="span3"><img align="left" style="padding: 0 12px 24px 0" src="https://spee.ch/7/Akin2.jpeg" alt="Akinwale Ariwodola"></div><div class="span9"><p>I’m <a href="https://github.com/akinwale"> Akinwale.</a> I discovered LBRY when my interest in cryptocurrencies got rekindled in early 2017 and I was looking for a coin to mine. I found the project really exciting which led to my decision to start contributing to the desktop app. One thing led to another, and I eventually started working on getting the Android version up and running.</p></div>
 </div>
 ## What we're looking for
@@ -27,7 +27,7 @@ If you’re wondering what we’re wondering about, these are some of our recent
 * Electron performance
 * How to model the data. What should the application state look like?
 * Efficient styling rules and patterns
-* Knowledge about javascript packaging
+* Knowledge about JavaScript packaging
 * Testing (What is worth testing)
 * Authentication
 * Devops (CI/CD)

@@ -37,7 +37,7 @@
       <div class="text-center meta spacer1">
         <img src="/img/lbry-ui.png"/>
         <div class="content-inset">
-          A user searches and prepares to stream and the film <em>It’s a Wonderful Life</em>, located at <a href="lbry://wonderfullife">lbry://wonderfullife</a>, via a completely decentralized network. Try it out for yourself at <a href="/get">lbry.io/get</a>.
+          A user searches for and prepares to stream the film <em>It’s a Wonderful Life</em>, located at <a href="lbry://wonderfullife">lbry://wonderfullife</a>, via a completely decentralized network. Try it out for yourself at <a href="/get">lbry.io/get</a>.
         </div>
       </div>
 
