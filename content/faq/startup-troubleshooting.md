@@ -32,7 +32,7 @@ First and foremost, please ensure you are on the [latest version](https://lbry.i
 ### Known startup issues and workarounds
 #### Stuck at blockchain sync {#sync}
 If you are stuck on the blockchain sync step or it shows a block count that doesn't decrease, you may need to clear your blockchain cache. To do so, Shut LBRY down completely by closing it from the system tray(check for running LBRY/lbrynet-daemon processes), delete the `blockchain_headers` file in the [lbryum folder](https://lbry.io/faq/lbry-directories) and then start LBRY again.
-#### Linux auth_token requirements
+#### Linux auth_token requirements {#auth}
 Currently, LBRY requires an authorization token to be generated using the [keytar](https://github.com/atom/node-keytar) libraries. Please ensure libsecret and keytar are installed. On some distributions, LBRY won't run unless gnome-keyring is also installed/operational. See [GitHub issue](https://github.com/lbryio/lbry-app/issues/386) for more information. If you get a GLIBCXX_3.4.2 error, please see [this issue](https://github.com/lbryio/lbry-app/issues/423#issuecomment-327519486).
 #### Windows user path has non-ASCII characters
 Currently, the LBRY app may fail to start because it does not support non-ASCII / non-English letters in the c:\Users\<username> directory where it tries to create your LBRY wallet, downloads and application data. As a workaround, you can manually set these directories in the `daemon_settings.yml` file within the [lbrynet folder](https://lbry.io/faq/lbry-directories). If this file does not exist in your [lbrynet folder](https://lbry.io/faq/lbry-directories), you can create one, or you can use [this sample](https://goo.gl/opybNE).
