@@ -4,7 +4,7 @@ title: 'Hey, mine your own business!'
 date: '2018-04-05 00:20:00'
 cover: 'imineblocks-banner.jpg'
 ---
-What was once the subject of niche crypto-anarchist communities vis-a-vis Bitcoin has now grown into a worldwide virtual homesteading: mining.
+What was once the subject of niche crypto-anarchist communities vis-à-vis Bitcoin has now grown into a worldwide virtual homesteading: mining.
 
 If you find a nascent project you like in crypto, chances are you can mine it. But what is the first step to mining?
 
