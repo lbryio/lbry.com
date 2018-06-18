@@ -5,7 +5,7 @@ date: '2018-04-03 18:00:00'
 cover: 'droid1.jpg'
 ---
 
-Back in December, we published the [first ever LBRY Development and Community update](https://lbry.io/news/lbry-development-community-update-1) and followed up with another for [January 2018](https://lbry.io/news/lbry-development-community-update-jan-2018) and [February 2018](https://lbry.io/news/lbry-development-community-update-feb-2018) - be sure to check them all out if you missed it! We will continue these updates at the beginning of each month to keep each and every LBRYian up to date on our quest to revolutionize content discovery, sharing and monetization! 
+Back in December, we published the [first ever LBRY Development and Community update](https://lbry.io/news/lbry-development-community-update-1) and followed up with another for [January 2018](https://lbry.io/news/lbry-development-community-update-jan-2018) and [February 2018](https://lbry.io/news/lbry-development-community-update-feb-2018) - be sure to check them all out if you missed it! We will continue posting these updates at the beginning of each month to keep each and every LBRYian up to date on our quest to revolutionize content discovery, sharing and monetization! 
 
 If you haven’t already, please take a moment to read our [Looking Back and Moving Forward: LBRY in 2017/2018](https://lbry.io/news/lbry-in-2017-2018) blog post and check out our [roadmap](https://lbry.io/roadmap). 
 
@@ -14,12 +14,12 @@ To skip the tech stuff and see what’s happened and what’s next in the LBRY c
 [Skip to **Community Happenings**](#com-updates)
 
 # Development Updates {#dev-updates}
-All of our code is open source and available on [GitHub](https://github.com/lbryio). Are you a dev and want to find out more? Check out our [general contributing guide](https://lbry.io/faq/contributing) and our LBRY App specific contributing [document](https://github.com/lbryio/lbry-app/blob/master/CONTRIBUTING.md). Please be patient with us while we improve our technical documentation. Our plan is to create a technical reference site which will be developer focused at https://lbry.tech, which is not live yet, but you can check out our  progress on [GitHub](https://github.com/lbryio/lbry.tech).
+All of our code is open source and available on [GitHub](https://github.com/lbryio). Are you a dev and want to find out more? Check out our [general contributing guide](https://lbry.io/faq/contributing) and our LBRY App specific contributing [document](https://github.com/lbryio/lbry-app/blob/master/CONTRIBUTING.md). Please be patient with us while we improve our technical documentation. Our plan is to create a technical reference site which will be developer focused at https://LBRY.tech, which is not live yet, but you can check out our  progress on [GitHub](https://github.com/lbryio/lbry.tech).
 
 ### App and Protocol Summary
 We know it's been a long wait, but we're very happy with our latest app release. And the wait will be worth it when you experience the improved LBRY daemon - it's the first major protocol update since last November, and it's a big step in the right direction. You can read about specific enhancements in the changelogs ([0.19.0](https://github.com/lbryio/lbry/releases/tag/v0.19.0) and [0.19.1](https://github.com/lbryio/lbry/releases/tag/v0.19.1)) but in general we’ve noticed improvements in network availability and streaming speed (time from when play is clicked to when the download starts). 
 
-On top of that, it brought some much needed bug fixes, wallet encryption capabilities, ability to redownload content on updated claims and updating claims with large LBC deposits (now it uses the current bid, previously you had to have the balance in your wallet to cover it). The next steps for the protocol are to significantly improve network data announcement times, speed up startup times and rewrite of client/server side wallet functionality. 
+On top of that, it brought some much needed bug fixes, wallet encryption capabilities, ability to redownload content on updated claims and updating claims with large LBC deposits (now it uses the current bid, previously you had to have the balance in your wallet to cover it). The next steps for the protocol are to significantly improve network data announcement times, speed up startup times and rewrite client/server side wallet functionality. 
 
 
 On the app side, the main feature was subscription enhancements which enabled in-app notifications (including alerts for new content on channels that users are subscribed to) and auto download for channels that users subscribe to. The update also improves search results (see section below for details), allows YouTubers to earn [Sync Rewards](https://lbry.io/youtube), saves the app state when closing to tray, and lets users export transactions to CSV. Bug fixes included correct sorting of published content, allowing lbry:// links to be opened when the app was closed on OSX and fixing them on Linux, fixing night mode start time and bringing Windows notifications back into a working state. 
@@ -47,7 +47,7 @@ The LBRY app redesign has been merged into the master branch and is available to
 ![App-preview](https://spee.ch/c/app-preview.jpeg)
 
 ### Subscription Next Steps
-Channel subscriptions give users a reason to return to the LBRY app on a daily or weekly basis, so we will continue to focus development effort in this area. The next steps include global and per subscribed content auto download settings, notification badges, saving subscription data to LBRY’s API server for syncing across installations/devices and providing emails when new content is available. We also plan to experiment with several different rewards structure to incentivize use of subscription features.   
+Channel subscriptions give users a reason to return to the LBRY app on a daily or weekly basis, so we will continue to focus development effort in this area. The next steps include global and per subscription content auto download settings, notification badges, saving subscription data to LBRY’s API server for syncing across installations/devices and providing emails when new content is available. We also plan to experiment with several different rewards structure to incentivize use of subscription features.   
 
 ### Cool App Features in the Pipeline {#features-update}
 Check out the below pull requests to get a sense of a few exciting features coming to the LBRY app.
@@ -64,9 +64,9 @@ Over the past few weeks, we’ve been converting the code base of spee.ch so tha
 In terms of spee.ch site performance, the publishing function has been running without a hitch over the last 2 weeks after the team implemented a few patches to deal with wallet issues. Currently, publishes take about 15-20 seconds but we are hoping to get that number close to 5 seconds with additional refactoring and enhancements to the publishing process.  
 
 ### Protocol - Wallet Server and Client Development Efforts
-We’ve found that elements of the LBRY wallet (LBRYum) and LBRY wallet server (LBRYum-server) are causing bottlenecks with claim resolution and publishing - two functions that are widely used throughout the LBRY app experience. Claim resolution occurs between the client and server to make sure that claim data is read correctly from the blockchain. Publishing is the process by which a claim id is generated and broadcast to the network - something the spee.ch server has been struggling with since there is lots of publishing activity. 
+We’ve found that elements of the LBRY wallet (LBRYum) and LBRY wallet server (LBRYum-server) are causing bottlenecks with claim resolution and publishing - two functions that are widely used throughout the LBRY app experience. Claim resolution occurs between the client and server to make sure that claim data is read correctly from the blockchain. Publishing is the process by which a claim ID is generated and broadcast to the network - something the spee.ch server has been struggling with since there is lots of publishing activity. 
 
-In order to fix the client issue, the lbryum framework is being re-written into the LBRY daemon with performance and stability in mind. On the server side, we are migrating away from the Electrum code base and into [ElectrumX](https://github.com/kyuupichan/electrumx) which will bring numerous performance and stability enhancements. There is significant development and testing to be done in both areas and we believe this will result in a much better App and protocol experience. 
+In order to fix the client issue, the LBRYum framework is being re-written into the LBRY daemon with performance and stability in mind. On the server side, we are migrating away from the Electrum code base and into [ElectrumX](https://github.com/kyuupichan/electrumx) which will bring numerous performance and stability enhancements. There is significant development and testing to be done in both areas and we believe this will result in a much better App and protocol experience. 
 
 ### Blockchain - Preparing for a Hardfork
 There are two major changes/fixes to the LBRY blockchain in the pipeline that will require a hard fork of the network. Neither of these changes are controversial - both will improve the functionality of the blockchain. Our goal is to announce these at the end of April and allow for another month or two before the hardfork code will activate so that exchanges, miners and other services have time to update.
@@ -83,7 +83,7 @@ The Q1 coming to a close, we wanted to provide an update on our [roadmap objecti
 The [YouTube Sync partner program is live and getting feedback from testers, see additional information below](#youtube-updates). 
 The Meetup program has also been launched on our [Meet](https://lbry.io/meet) and [College](https://lbry.io/college) landing pages, see [below for more information](#meetup-update). 
 
-Significant progress has been made on the white paper and a first draft is very close to being shared publicly. It will be released as a navigational document, in an in-progress state, on our new lbry.tech (not live yet) developer resource site and we’ll be asking the community for their feedback.
+Significant progress has been made on the white paper and a first draft is very close to being shared publicly. It will be released as a navigational document, in an in-progress state, on our new LBRY.tech (not live yet) developer resource site and we’ll be asking the community for their feedback.
 
 Wallet encryption has been implemented on the daemon but is not yet available in the LBRY app. If you want to use this feature ASAP, check out the [CLI](https://lbryio.github.io/lbry/cli/#wallet_encrypt) documentation - the wallet will need to be [unlocked](https://lbryio.github.io/lbry/cli/#wallet_unlock) manually before app startup. Feel free to reach out on Discord with any questions!  
 
@@ -91,27 +91,27 @@ The UI redesign was recently merged on our lbry-app repo and we should have a re
 
 And last but not least, the Search algorithm has undergone a number of optimizations (see [search update above](#search-updates)) which have added up to much better search results - give it a shot and let us know what you think! There's still a lot more work to do here when categories and tags come online, and we need your feedback!
 
-A quick check-in on Q2 items shows that we are ahead of schedule with Android alpha being launched and progress being made on lbry.tech . Also, the ability to share free content on HTML websites via the new spee.ch sharing feature is mentioned in the [features update above](#features-update). 
+A quick check-in on Q2 items shows that we are ahead of schedule with Android alpha being launched and progress being made on LBRY.tech . Also, the ability to share free content on HTML websites via the new spee.ch sharing feature is mentioned in the [features update above](#features-update). 
 
 ### LBRY Merchandise Store
-Come visit our newly upgraded merchandise store! Following the launch in February, we’ve moved our swag shop to a new, easy to remember URL: [https://shop.lbry.io](https://shop.lbry.io). New t-shirt designs and products are frequently added, so please be sure to stop by! We’re very excited to offer some fresh items designed by our new marketing intern James Biller - if you like what you see, give him a shout out on [Twitter](https://twitter.com/BillerJames)!
+Come visit our newly upgraded merchandise store! Following the launch in February, we’ve moved our swag shop to a new, easy to remember URL: [https://shop.LBRY.io](https://shop.lbry.io). New t-shirt designs and products are frequently added, so please be sure to stop by! We’re very excited to offer some fresh items designed by our new marketing intern James Biller - if you like what you see, give him a shout out on [Twitter](https://twitter.com/BillerJames)!
 
-Help us grow our community and get the word out about LBRY: We will tip LBC if you tag us (@LBRYio) on Twitter or Facebook with a picture of you rocking LBRY swag. Please upload to spee.ch and share the post on Discord or Reddit to claim your reward. Thanks for your support in spreading LBRY love!
+Help us grow our community and get the word out about LBRY: We will tip LBC if you tag us (@LBRYio) on Twitter or Facebook with a picture of you rocking LBRY swag. Please upload it to spee.ch and share the post on Discord or Reddit to claim your reward. Thanks for your support in spreading LBRY love!
 
-### Youtube Sync Update {#youtube-updates}
+### YouTube Sync Update {#youtube-updates}
 We've re-launched our [Youtube Sync](https://lbry.io/youtube) campaign under a new design, process and Rewards system that allows YouTubers, who meet our subscriber requirements, to sync their content to LBRY within a few clicks. Once the creator is queued, they can claim their sync Reward in the LBRY app by signing in with the same email as their sync status page. The program launched as a pilot with our internal Discord community/targeted YouTubers and will continue expanding to a full fledged outreach on Social media and other direct targeting. The LBC rewards mentioned below are a first trial run and may increase depending on feedback. 
 
-The most common issue creators run into, especially those who have used the LBRY app prior to going through the sync process, is that their YouTube channel email is mismatched with the LBRY app email. This will require a manual fix my emailing [our Helpdesk](mailto:help@lbry.io) at the moment, but we hope to straighten this out automatically in the coming weeks. Having trouble or want to find out more? First make sure to check out our [FAQ page](https://lbry.io/faq/youtube) or you can email [Reilly](mailto:reilly@lbry.io) with any specific sync questions that aren’t covered. 
+The most common issue creators run into, especially those who have used the LBRY app prior to going through the sync process, is that their YouTube channel email is mismatched with the LBRY app email. This will require a manual fix by emailing [our Helpdesk](mailto:help@lbry.io) at the moment, but we hope to straighten this out automatically in the coming weeks. Having trouble or want to find out more? First make sure to check out our [FAQ page](https://lbry.io/faq/youtube) or you can email [Reilly](mailto:reilly@lbry.io) with any specific sync questions that aren’t covered. 
 
-![Youtube Rewards](https://spee.ch/b/youtube-program.png)
+![YouTube Rewards](https://spee.ch/b/youtube-program.png)
 
 ### Twitter LBC Tip Bot
 The Twitter TipBot bounty was solved internally by the team after open source code was discovered that provided 90% of the functionality we were looking for. With a few modifications, we set up a test server and were able to send tips! The TipBot is now being migrated to an official LBRY server which will allow it to be used all across Twitter world to tip LBC - users, creators, fans, and even projects with similar missions! Stay tuned on our Discord server and [@LBC_TipBot](https://twitter.com/@LBC_TipBot) for updates. 
 
-![Tipbot](https://spee.ch/d/lbrytipbot.png)
+![TipBot](https://spee.ch/d/lbrytipbot.png)
 
 ### LBRY.tech Update
-Initial legwork has begun on our developer/tech resource, lbry.tech. We don’t currently have an ETA on the launch, but it will be released as an early alpha version that includes an alpha draft of the LBRY white paper, all of which will be polished over time as we get feedback from the community. We weren’t joking about “release early, release often”! You can follow our progress on the [lbry.tech GitHub repository](https://github.com/lbryio/lbry.tech). 
+Initial legwork has begun on our developer/tech resource, LBRY.tech. We don’t currently have an ETA on the launch, but it will be released as an early alpha version that includes an alpha draft of the LBRY white paper, all of which will be polished over time as we get feedback from the community. We weren’t joking about “release early, release often”! You can follow our progress on the [LBRY.tech GitHub repository](https://github.com/lbryio/lbry.tech). 
 
 ### Discord Role Self Assignment and New Member Flow 
 In order to improve the experience for new and existing members of our Discord community, we will be implementing a better system that will allow users to self assign roles based on their activity, purpose and interests. It will also allow more granular controls over which roles have access to particular channels/areas, which will also hopefully improve the overall user experience.

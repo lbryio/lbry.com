@@ -12,7 +12,7 @@ By default, data from the LBRY blockchain is basically a raw dump of data in a c
 ![Raw Data](https://spee.ch/@lbry/lbrycliexample.png)
 *In addition to extracting this data, you’d have to run several hundred thousand commands to get the same data returned by a single command below.*
 
-Since blockhain data is raw, compressed, and not accessibly structured, most blockchains have specifically designed methods to create more usable forms of the data. 
+Since blockchain data is raw, compressed, and not accessibly structured, most blockchains have specifically designed methods to create more usable forms of the data. 
 
 In the case of LBRY, Chainquery is both the easiest and most feature-rich method of doing that to date.
 
@@ -46,7 +46,7 @@ Most LBRY users do not need to use Chainquery directly and instead will simply b
 
 However, if you’re interested in using it directly or poking around with the data, all of our code is open-source and available on GitHub. Detailed setup instructions are inside of the repository. 
 
-Additionally, at least for now, we’ve provided a public, readonly MySQL server you can connect to. This is a generic sql api that is accessible from an http GET and returns JSON data. You can even use it in your browser!
+Additionally, at least for now, we’ve provided a public, readonly MySQL server you can connect to. This is a generic SQL API that is accessible from an HTTP GET and returns JSON data. You can even use it in your browser!
 
 Get the latest block information:
 
