@@ -5,7 +5,7 @@ date: '2018-05-04 13:45:00'
 cover: 'coder-tank.jpg'
 category: community-update
 ---
-Welcome to our LBRY Development and Community update! In this post we’ll show you what we’ve been up to and review our progress for the month of April. It was a busy month, starting off with the company All-Hands summit, and progress was made on our desktop and Android apps, LBRY Protocol improvements, several community updates, and team growth. For previous updates, please visit [our Company News archive](https://lbry.io/news). To read all of our updates, please visit [our Development and Community Update archive](https://lbry.io/news/category/community-update).
+Welcome to our LBRY Development and Community update! In this post we’ll show you what we’ve been up to and review our progress for the month of April. It was a busy month, starting off with the company All-Hands summit, and progress was made on our desktop and Android apps, LBRY Protocol improvements, several community updates, and team growth. To read all of our updates, please visit [our Development and Community Update archive](https://lbry.io/news/category/community-update).
 
 If you haven’t already, please take a moment to read our [Looking Back and Moving Forward: LBRY in 2017/2018](https://lbry.io/news/lbry-in-2017-2018) blog post and check out our [roadmap](https://lbry.io/roadmap). 
 
