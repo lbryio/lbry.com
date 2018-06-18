@@ -6,7 +6,7 @@ category: community-update
 ---
 <center><img src="https://spee.ch/53640dcec6744ce9da9b326fe44f9d6e7572be83/LBRYteam.jpg"/></center>
 <br>
-The LBRY community spoke, and we listened! This is the first of many posts that will keep the community up-to-date on project development and what’s going on in the LBRY community. To read our previous updates, please visit [our Development and Community Update archive](https://lbry.io/news/category/community-update).
+The LBRY community spoke, and we listened! This is the first of many posts that will keep the community up-to-date on project development and what’s going on in the LBRY community. To read all of our updates, please visit [our Development and Community Update archive](https://lbry.io/news/category/community-update).
 
 To skip the tech stuff and see what’s happened and what’s next in the LBRY community, click the link below. Otherwise, read on!
 
