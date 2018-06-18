@@ -6,7 +6,10 @@
   <div class="cover cover-dark cover-center cover-full cover--dark-overlay" style="background-image: url(https://spee.ch/d/tshirt-banner-2-02.jpeg)">
     <div class="content content-dark text-center">
       <h1 class="cover-title cover-title-tile cover-item--outline">
-        T-shirt Design Contest
+        Calling all design champions!
+        <div>
+          LBRY is looking to reward you with $100 in cryptocurrency.
+        </div>
       </h1>
       <h3 class="cover-item--outline">
       </h3>
@@ -18,7 +21,7 @@
   <div class="cover cover-light" id="about">
     <div class="content content-light content-readable">
       <h3>Are you a graphic designer?</h3>
-      <h4>Impress us with a t-shirt design & earn $100 in cryptocurrency.</h4>
+      <h4>Impress us with a t-shirt design & earn $100 in Library Credits, LBRY's native cryptocurrency.</h4>
       <h3>
         <img src="https://spee.ch/a/Tshirt-design-deadline-02.jpeg" alt=3D-Chess-Contest-Image style="width:650px;">
       <h3>I'm game. How do I enter?</h3>
@@ -31,7 +34,7 @@
     <h3>Want to keep updated on future contests?</h3>
     <p>Enter your email below and we'll send you updates on new contests.</p>
     <?php echo View::render('mail/_subscribeForm', [
-      'tag' => '3d-contest',
+      'tag' => 'shirt-contest',
       'submitLabel' => 'Sign me up',
       'hideDisclaimer' => true,
       'largeInput' => true,
