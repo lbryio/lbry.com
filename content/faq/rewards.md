@@ -18,6 +18,7 @@ In order to be eligible for LBRY Rewards, users must have a [verified account](h
 | **Many Views** | 5 LBC | A one-time award for watching several videos on LBRY
 | **First Publish** | 5 LBC | A one-time award for publishing your first piece of content to LBRY
 | **Weekly LBRYCast** | 2 LBC | A weekly award for checking out featured content on LBRY. This content is marked with the red rocket logo and announced via email
+| **Welcome Back** | 3 LBC | Return to the LBRY app 24-48 hours following your first use of the app. This reward will self destruct after that time span.
 | **Referral** | 3 LBC | LBRY users can refer their friends via an email invitation and get rewarded when those users are verified. This reward is limited to one redemption at this time. For more information on referrals, click [here](https://lbry.io/faq/referrals)
 
 Rewards are added to the LBC wallet balance as they are completed. All the rewards can be listed by clicking on the tab marked "REWARDS" inside the LBC wallet, and they are also marked in the [transaction history](https://lbry.io/faq/transaction-types).  Rewards redemption is tied to your account, but the credits themselves are stored in your wallet which is required to be [backed up](https://lbry.io/faq/how-to-backup-wallet) periodically.
