@@ -3,7 +3,16 @@
     <a class="navigation__item logo" href="/">LBRY</a>
 
     <div class="navigation-wrap">
-      <?php echo View::render("nav/_globalItems") ?>
+      <?php foreach ([
+        "/learn" => __("nav.learn"),
+        "/team" => __("Team"),
+        "/news" => __("News"),
+        "/get" => __("Get the App")
+      ] as $url => $label) { ?>
+        <a class="navigation__item<?php echo Request::getRelativeUri() === $url ? ' active' : ''?>" href="<?php echo $url ?>">
+          <?php echo $label ?>
+        </a>
+      <?php } ?>
     </div>
 
     <a class="navigation__item menu" href="#">Menu</a>
@@ -28,22 +37,22 @@
   window.addEventListener("scroll", toggleNavigationBackground);
 
   function debounce(func, wait, immediate) {
-  	let timeout;
+    let timeout;
 
-  	return function () {
-  		const context = this;
+    return function () {
+      const context = this;
       const args = arguments;
 
-  		const later = () => {
-  			timeout = null;
-  			if (!immediate) func.apply(context, args);
-  		};
+      const later = () => {
+        timeout = null;
+        if (!immediate) func.apply(context, args);
+      };
 
-  		const callNow = immediate && !timeout;
-  		clearTimeout(timeout);
+      const callNow = immediate && !timeout;
+      clearTimeout(timeout);
 
-  		timeout = setTimeout(later, wait);
-  		if (callNow) func.apply(context, args);
-  	};
+      timeout = setTimeout(later, wait);
+      if (callNow) func.apply(context, args);
+    };
   };
 </script>

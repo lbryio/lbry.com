@@ -21,16 +21,11 @@ body {
 
 main {
   flex: 1;
+  margin-bottom: 330px; // footer is 330px tall
+  position: relative;
+  z-index: 1;
   // padding-top: 4rem; // navigation has a line-height 4rem
 }
-
-/*
-em {
-  @include font-serif;
-  font-size: 90%;
-  letter-spacing: 0.05rem;
-}
-*/
 
 .inner-wrap {
   margin-right: auto;

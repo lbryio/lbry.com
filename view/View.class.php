@@ -15,7 +15,7 @@ class View
     const LAYOUT_PARAMS = '_layout_params';
 
     const WEB_DIR  = ROOT_DIR . '/web';
-    const SCSS_DIR = self::WEB_DIR . '/scss';
+    const SCSS_DIR = self::WEB_DIR . '/sass';
     const CSS_DIR  = self::WEB_DIR . '/css';
     const JS_DIR   = self::WEB_DIR . '/js';
 

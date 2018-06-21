@@ -4,21 +4,46 @@
 
 
 .home__hero {
-  @include center;
+  // @include center;
   width: 100%; height: 100vh;
 
   background-color: $onyx;
-  background-image: url("../media/img/wall-d.jpg");
+  // background-color: $coco;
+  background-image: url("../media/img/wall-a.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 10rem;
+  position: relative;
+
+  &::after {
+    width: 100%; height: 50%;
+    bottom: 0; left: 0;
+
+    background-image: url("../media/svg/wave.svg");
+    background-position: center bottom -2px;
+    background-repeat: no-repeat;
+    background-size: 1000%;
+    content: "";
+    position: absolute;
+    // z-index: 10;
+  }
+
+  > div:first-of-type {
+    height: 100%;
+    position: relative;
+  }
 }
 
 .home__hero__content {
   color: $coco;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 800px;
+  position: relative;
   text-align: center;
   text-shadow: 0 1px 1px rgba($onyx, 0.3);
-  z-index: 1;
+  z-index: 2;
 
   h1 {
     font-size: 3rem;
@@ -28,7 +53,7 @@
   p {
     font-size: 1.5rem;
     line-height: 1.33;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
   }
 }
 
@@ -37,29 +62,47 @@
   font-size: 1rem;
   position: relative;
 
-  &::before {
-    width: 4rem; height: 4rem;
-    margin: 0 auto 1rem; padding-left: 0.5rem;
-    top: -2rem; left: 0;
-
-    border-radius: 50%;
-    content: "▶︎";
-    display: block;
-    font-family: monospace;
-    font-size: 2rem;
-    line-height: 4.5rem;
-    text-align: center;
+  &.download {
+    border-radius: 3rem;
+    padding: 0.75rem 1.25rem;
     transition: all 0.2s;
+
+    &:not(:hover) {
+      background-color: $coco;
+      color: $onyx;
+    }
+
+    &:hover {
+      background-color: $original;
+      color: $coco;
+    }
   }
 
-  &:not(:hover)::before {
-    background-color: $coco;
-    color: $onyx;
-  }
+  &.watch {
+    &::before {
+      width: 4rem; height: 4rem;
+      margin: 0 auto 1rem; padding-left: 0.5rem;
+      top: -2rem; left: 0;
 
-  &:hover::before {
-    background-color: $original;
-    color: $coco;
+      border-radius: 50%;
+      content: "▶︎";
+      display: block;
+      font-family: monospace;
+      font-size: 2rem;
+      line-height: 4.5rem;
+      text-align: center;
+      transition: all 0.2s;
+    }
+
+    &:not(:hover)::before {
+      background-color: $coco;
+      color: $onyx;
+    }
+
+    &:hover::before {
+      background-color: $original;
+      color: $coco;
+    }
   }
 }
 
@@ -68,18 +111,19 @@
   bottom: 5rem; left: 0;
 
   position: absolute;
+  z-index: 1;
 }
 
 .home__hero__device {
   &.desktop {
-    bottom: 0; right: 0;
+    bottom: 0; right: calc(50% - (700px / 2));
 
     position: absolute;
     width: 700px;
   }
 
   &.mobile {
-    bottom: 3rem; right: 2rem;
+    bottom: 3rem; right: calc(75% - (125px / 2));
 
     position: absolute;
     width: 125px;
