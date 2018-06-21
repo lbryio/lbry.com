@@ -3,8 +3,9 @@ author: samuel-lbryian
 title: 'Development and Community Update May 2018'
 date: '2018-06-07 12:00:00'
 cover: 'lbryopoly-min.jpg'
+category: community-update
 ---
-Welcome to our LBRY Development and Community update! In this post we’ll show you what we’ve been up to and review our progress for the month of May. This month we made progress on our desktop app redesign and Android app alpha, LBRY Protocol improvements (work in progress), LBRY tech resource website, and several community initiatives. Scroll down to learn about new rewards coming to the app as well as a couple contests for you to earn up to $300 USD in LBRY credits. For previous updates, please visit [our Company News archive](https://lbry.io/news).
+Welcome to our LBRY Development and Community update! In this post we’ll show you what we’ve been up to and review our progress for the month of May. This month we made progress on our desktop app redesign and Android app alpha, LBRY Protocol improvements (work in progress), LBRY tech resource website, and several community initiatives. Scroll down to learn about new rewards coming to the app as well as a couple contests for you to earn up to $300 USD in LBRY credits. To read all of our updates, please visit [our Development and Community Update archive](https://lbry.io/news/category/community-update).
 
 If you want to see what we have planned for LBRY, check out our [roadmap](https://lbry.io/roadmap). 
 
