@@ -18,7 +18,9 @@
           <li>Join us on <a href="https://twitter.com/lbryio" target="_blank" class="link-primary"><span class="btn-label">Twitter</span><span class="icon icon-twitter"></span></a>
             <a href="https://facebook.com/lbryio" target="_blank" class="link-primary"><span class="btn-label">Facebook</span><span class="icon icon-facebook"></span></a>
             <a href="https://reddit.com/r/lbry" target="_blank" class="link-primary"><span class="btn-label">Reddit</span><span class="icon icon-reddit"></span></a>
-            <a href="https://chat.lbry.io" target="_blank" class="link-primary"><span class="btn-label">Discord</span><span class="icon-comments icon-fw"></span></a></li>
+            <a href="https://chat.lbry.io" target="_blank" class="link-primary"><span class="btn-label">Discord</span><span class="icon-comments icon-fw"></span></a>
+            <a href="https://t.me/lbryofficial" target="_blank" class="link-primary"><span class="btn-label">Telegram</span><span class="fab fa-telegram icon-fw"></span></a> 
+       Or Explore Our <a href="https://shop.lbry.io" target="_blank" class="link-primary"><span class="btn-label">LBRY Shop</span><span class="icon-fw icon-shopping-cart"></span></a></li>        
         </ul>
       </div>
       <div class="span6">
