@@ -20,3 +20,8 @@ or via cli command
 Another way to change the port permanently is to append the below line to the `daemon_settings.yml` in the `lbrynet` [directory](https://lbry.io/faq/lbry-directories). If it doesn't exist, create a new file named `daemon_settings.yml` and append:
 
     peer_port: 3334
+    
+Sample daemon_settings.yml (may vary by OS):   
+
+    {download_directory: c:\users\lbry,
+    peer:port: 3334}
