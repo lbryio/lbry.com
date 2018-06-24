@@ -109,7 +109,7 @@ The spee.ch codebase has been released so you can create your own fully customiz
 LBRY provided a live streamed technical event to work with people interested in installing Spee.ch multisite, and even provided testing servers! The event was well attended, and by the end of the session, participants had launched their own spee.ch server and learned to customize the interface. 
 
 ### LBRY Merchandise Shop
-New patriotic and free speech inspired designs have been added to our shop, in time for Independence day.
+New patriotic and free speech inspired designs have been added to [our shop](https://shop.lbry.io), in time for Independence day.
 
 ![Satoshi Jefferson t-shirt](https://spee.ch/c/jefferson.png) 
 
