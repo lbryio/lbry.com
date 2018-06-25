@@ -1,6 +1,13 @@
+---
+author: samuel-lbryian
+title: 'A is for Austen'
+date: '2018-06-25 17:00:00'
+cover: 'NEED COVER'
+---
+
 # Introduction to LBRY Austen 1
 
-Each LBRY app redesign will be named alphabetically after writers who’ve put work into the LiBraRY of classics and will have a post (like this one) discussing two things: 
+Each LBRY app redesign[IS THIS TRUE? or MAJOR/MINOR VERSION?] will be named alphabetically after writers who’ve put work into the LiBraRY of classics and will have a post (like this one) discussing two things: 
 
 1. LBRY’s connection of the writer "A Is For Austen, B Is For B___, etc." 
 
