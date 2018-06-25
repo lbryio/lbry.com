@@ -2,7 +2,7 @@
 author: samuel-lbryian
 title: 'A is for Austen'
 date: '2018-06-25 17:00:00'
-cover: 'NEED COVER'
+cover: 'austen-min.jpg'
 ---
 
 # Introduction to LBRY Austen 1
