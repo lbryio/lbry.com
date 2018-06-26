@@ -64,7 +64,7 @@ Searching in LBRY is as easy as typing your search term(s) into the address bar 
 ![Search](https://spee.ch/2/search.jpeg)
 
 Clicking the Enter key will skip the search function and go directly to the URL typed - this is only helpful if you know the exact URL you are trying to view. We are still in the process of optimizing the search results; please bear with us if you are having trouble finding something! 
-![Search](https://spee.ch/a/searh-2.jpeg)
+![Search](https://spee.ch/b/searh-2a.jpeg)
 
 ### How can I subscribe and view my favorite channels?
 If you navigate to a channel, or click on your favorite video, (LBRY URLs with an @ symbol in the front) click on subscribe right below the video and channel name.
