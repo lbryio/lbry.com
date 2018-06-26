@@ -24,6 +24,9 @@
         <img src="https://spee.ch/6/3D-chess-awards-Submission-DEadlinre.jpeg" alt=3D-Chess-Contest-Image style="width:650px;">
       <h3>I'm game. How do I enter?</h3>
       <div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/eIsD6fQdfKU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+      <div>
       <p>Upload your chess set design (use a zip folder for multiple files) in either STL or OBJ format to the LBRY (library) network. Once finished, email the lbry:// address (automatically recieve $5 in Library Credits for your first upload) to <a href="mailto:james@lbry.io" class="link-primary"><span class="btn-label">james@lbry.io</span></a> by July 4th.<p>
       </div>
       <p>You can <a href="/get?src=FA">download the LBRY app here.</a> If you have any questions or need help, <a href="http://chat.lbry.io">join our Discord community.</a></p>
