@@ -27,7 +27,7 @@ Another useful button that we’ve added is the "View on Web" button which enabl
 
 ### 3. Autoplay Option
 
-We realized that most people don’t come to LBRY just to watch one video, which is why we added the option to automatically keep the content rolling. Once you finish watching a video on a channel, the next video on that channel will now play next, automatically!
+We have now added an option to autoplay free and downloaded media. The default toggle setting is set to "off" but you can enable it in the Content Settings.
 
 ### 4. QR Code on Send & Receive Page
 
