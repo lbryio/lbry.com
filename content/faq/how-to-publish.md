@@ -111,6 +111,9 @@ If you don't have LBRY yet, download it [here](https://lbry.io/get).
 ### Can someone tip me for my content? 
 Yes, check out LBRY how tipping in LBRY works by going [here](https://lbry.io/faq/tipping). 
 
+### Can I increase my bid amount?
+Yes, the claim can be edited to increase the bid amount.  Go into your published claim and click Edit. Then on the bid screen, enter your desired bid. Confirm everything else is correct and click Edit. An update will be created with your new LBC bid for this claim. 
+
 ### How can I tell if someone is downloading my content?
 
 Currently, this is only possible if you set a price for your content - you will see transactions in your LBRY wallet as people purchase it. In the future, we will add these types of statistics to LBRY. 
