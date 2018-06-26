@@ -20,8 +20,11 @@ When you sync your channel, you are also eligible to receive LBRY Credits in our
 - Download the LBRY App at https://lbry.io/get
 - Run the LBRY App (this can take a while on your first start up)
 - Make sure the email saved in the application matches the email address on your [Sync Status Page](https://lbry.io/youtube/status)
-- Click the Bank icon in the upper righthand corner
-- Navigate to the Rewards section of your wallet
+- Click on the wallet tab on the LBRY App `1`
+![wallet](https://spee.ch/2/rewardsa.jpeg)
+
+- Navigate to the `Rewards` section of your wallet `2`
+![reward](https://spee.ch/5/rewardsww.jpeg)
 - Scroll to the "YouTube Reward" claim button
 - If you met a particular subscriber threshold, you should receive the appropriate amount of credits.
 
