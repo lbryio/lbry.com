@@ -71,7 +71,7 @@ Austen once said, *"What is right to be done cannot be done too soon."*
 
 Decentralizing content to provide controversial ideas with the freedom to flourish is the right thing to do, and it's never too soon to do it. 
 
-Help us build centralized platform that provides creators with true freedom - download LBRY Austen today! 
+Help us build the decentralized platform that provides creators with true freedom - download LBRY Austen today! 
 
 [Download LBRY Austen Here](https://lbry.io/get?auto=1)
 
