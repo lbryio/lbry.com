@@ -6,6 +6,11 @@ category: troubleshooting
 In certain cases, we may ask you to send us your log file(s).  The current log file is titled `lbrynet.log` (or just `lbrynet` if you have file extensions hidden) and is archived each time the files reaches 2MB. Older log files are copied to `lbrynet.log.<#>`. Typically only the lbrynet.log file is required, but we may ask for the others depending on the situation.  Since each Operating System has its own set of working directories, use the below guide in order to locate the log file(s).
 
  **lbrynet.log files may contain your IP address. While sharing this is not inherently dangerous, if you desire maximum privacy, please mask it before posting to public websites.**
+ 
+ You will be able to open the log folder from the Help tab in the LPBRY app.
+ From the LBRY App, click on help, you will see all the help options, click on "Open Log Folder"
+ ![log](https://spee.ch/a/helps.jpeg)
+ The folder will be highlighted and so just double click to open and here you will see "lbrynet.log"
 
 ## Windows
 1. Open File Explorer (Keyboard shortcut: Window Key + E)
