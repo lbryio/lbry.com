@@ -38,27 +38,27 @@ If you don't have LBRY yet, download it [here](https://lbry.io/get).
 
 ![Set Price](https://spee.ch/4/5-choose-a-price2.png)
 
-7. You have an option to select/create the channel you would like to publish the content under. If one isn't selected, it will be posted anonymously.
+8. You have an option to select/create the channel you would like to publish the content under. If one isn't selected, it will be posted anonymously.
 
 ![Select Channel](https://spee.ch/4/channel22.png)
 
-8. Type in the URL you want the content to be found under along with a minimum of 0.0001 LBC deposit for the upload (current limit, may change in future). If you are trying to outbid a user-friendly/common URL, the system will suggest a minimum bid to take over the content at that vanity URL. There may be a delay for this takeover, check out the `#content` channel on our [Discord chat](https://chat.lbry.io) to see this information (search for your URL). For more details regarding the URL or bid, check out our [naming document](https://lbry.io/faq/naming).
+9. Type in the URL you want the content to be found under along with a minimum of 0.0001 LBC deposit for the upload (current limit, may change in future). If you are trying to outbid a user-friendly/common URL, the system will suggest a minimum bid to take over the content at that vanity URL. There may be a delay for this takeover, check out the `#content` channel on our [Discord chat](https://chat.lbry.io) to see this information (search for your URL). For more details regarding the URL or bid, check out our [naming document](https://lbry.io/faq/naming).
 
 ![video url and deposit](https://staging.spee.ch/6/8content-urlf.jpeg)
 
 
-9. Next, there is a `Maturity`, `Language`  and `License` which will default to `English`, `All Ages` and `None` respectively .  If a change is needed, click the dropdowns and select the appropriate choice. Please check the Mature Audience Only option if content is NSFW
+10. Next, there is a `Maturity`, `Language`  and `License` which will default to `English`, `All Ages` and `None` respectively .  If a change is needed, click the dropdowns and select the appropriate choice. Please check the Mature Audience Only option if content is NSFW
 
 ![Enter Additional Metadata](https://spee.ch/c/7-license-2-and-publish.jpeg)
 
 
 
-10. Read and agree to the terms of service.
+11. Read and agree to the terms of service.
 
-11. Click `Publish`.
+12. Click `Publish`.
 ![Hit Publish](https://spee.ch/2/publish.jpeg)
 
-12. The file will process in the background and will be added to the LBRY Blockchain. Larger files will take longer to upload, please leave LBRY running while your content is in the "pending confirmation" mode(currently, this page will not automatically refresh).  You can continue using LBRY while the upload completes.
+13. The file will process in the background and will be added to the LBRY Blockchain. Larger files will take longer to upload, please leave LBRY running while your content is in the "pending confirmation" mode(currently, this page will not automatically refresh).  You can continue using LBRY while the upload completes.
 
 
 
