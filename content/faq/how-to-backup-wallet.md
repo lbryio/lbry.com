@@ -13,7 +13,7 @@ Click on the Wallet tab to expand then click `Backup` numbered `1`.
 ![backup](https://spee.ch/f/backup.jpeg)
 after clicking on backup, you will see a link for `Backup`, open the location of the link in your local machine and make a copy of the files stored in that location. If this link is grayed out, it usually means you don't have any credits (see section below on how to manually find the wallet). 
 
-When you click `Backup`, you will be shown the location of your `lbryum` directory that contains the wallet file.  Navigate to this directory via your file explorer to locate your wallet. You can either choose to backup this whole directory, the wallets directory inside it or the `default_wallet` file itself inside the wallets directory. 
+When you click `Backup`, you will be shown the location of your `lbryum` directory that contains the wallet file(numbered `2`).  Navigate to this directory via your file explorer to locate your wallet. You can either choose to backup this whole directory, the wallets directory inside it or the `default_wallet` file itself inside the wallets directory. 
 
 ## How do I backup my wallet?
 
