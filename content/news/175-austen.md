@@ -11,6 +11,8 @@ We're very excited to announce the launch of the newest version of our app, Aust
 
 LBRY Austen is loaded with new features and an entirely redesigned look to improve user experience in the app. As you may have noticed, this app version has a name instead of a number - from now on, each major upgrade of the LBRY app will be named alphabetically after writers and thinkers who’ve helped shape this incredible modern world where we're able to build a truly decentralized, peer to peer content network.
 
+![LBRY app gif](https://spee.ch/7/lbry-redesign-full.gif)
+
 ## About The Austen Release
 
 LBRY Austen is packed with new features and a totally overhauled design. Here are the details:
