@@ -8,28 +8,32 @@ The ability to convert your cryptoassets into LBRY Credits (LBC) is available di
 *Note: ShapeShift is unavailable in New York and Washington (and possibly surrounding areas based on IP geolocation). You will see an `HTTP status code: 403` error if this happens. Please see [ShapeShift](https://shapeshift.io) for more information.* 	 
 
 ## Convert Crypto to LBC
-1. Open the LBRY app, access the Wallet (bank icon next to the Publish button) and click on **Get Credits**
+1. Open the LBRY app, Click on the Wallet tab to expand. Click on **Get Credits**
+![credit](https://spee.ch/f/credit.jpeg)
 
-2. In the **Convert Crypto to LBC** section, choose from BTC, BCH, DASH, ETH, LTC or XMR to convert into LBC
-<img src="https://spee.ch/3/convertcrypto1.JPG" width="80%" height="80%">
+2. In the **Convert Crypto to LBC** section, choose from BCH, BTC, DASH, ETH, LTC or XMR to convert into LBC
+![credits](https://spee.ch/3/rew.png)
 
 3. Review the given rate of exchange and min/max amount. ShapeShift charges a small [fee](https://info.shapeshift.io/about) for the transaction
 4. Enter the return address for the cryptoasset in case something were to go wrong with the process (if the address is not provided, you'll need to contact ShapeShift about your refund). 
-<img src="https://spee.ch/7/convertcrypto2.JPG" width="80%" height="80%">
+![credits](https://spee.ch/d/creditk.jpeg)
 
-5. Click **Begin Conversion**  to start your request. You will now be presented with the deposit address for your conversion.
-<img src="https://spee.ch/c/convertcrypto3.JPG" width="80%" height="80%">
+5. Click **Begin Conversion**  to start your request.
+![beginconversion](https://spee.ch/d/reww.png)
 
-6. Using your crypto wallet, send any amount between the min and max to the deposit address specified. Click **VIEW THE STATUS ON SHAPESHIFT.IO** to track in real-time. You can also bookmark this transaction for your records. We are not currently storing any information about the transaction after it confirms and you receive the LBC in your wallet.
+6.You will now be presented with the deposit address for your conversion.
+![depositaddress](https://spee.ch/7/depo.jpeg)
+
+7. Using your crypto wallet, send any amount between the min and max to the deposit address specified. Click **VIEW THE STATUS ON SHAPESHIFT.IO** to track in real-time. You can also bookmark this transaction for your records. We are not currently storing any information about the transaction after it confirms and you receive the LBC in your wallet.
 <img src="https://spee.ch/4/convertcrypto4.JPG" width="80%" height="80%">
 
-7. Once your transaction is confirmed, you will be presented with the completion screen. Click **Done** to start a new conversion. 
+8. Once your transaction is confirmed, you will be presented with the completion screen. Click **Done** to start a new conversion. 
 <img src="https://spee.ch/2/convertcrypto5.JPG" width="80%" height="80%">
 
-8. Verify that LBC has been received on the **History** tab.
-<img src="https://spee.ch/8/convertcrypto6.JPG" width="80%" height="80%">
+9. Verify that LBC has been received on the **Transaction** tab under wallet. It should be updated in the transaction history.
+<img src="https://spee.ch/0ddc51936dcbfe7d0df36ab703217cae04118e16/verif.jpeg"/>
 
-9. Thanks for acquiring some LBC! 
+10. Thanks for acquiring some LBC! 
 
 ### I need help with my conversion, who can I reach out to?
 
