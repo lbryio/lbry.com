@@ -4,7 +4,7 @@ category: publisher
 order: 1
 ---
 
-LBRY is a free, open, and community-driven digital marketplace which enables content sharing, monetization, discovery and consumption. Publishing in LBRY is the process by which you share your content on the network - you set the price per view (can be free too) which is paid directly to you. This process involves making a "claim" in the LBRY Blockchain which will be used to retrieve the content via a URL. Content can either be published anonymously or to a particular channel/identity which will group content together at a single location. Both channels and claims require a deposit(bid) of LBRY Credits (LBC) in order to reserve their location on the LBRY network. This deposit will be deducted from your balance as long as the claim is active. See our [naming](https://lbry.io/faq/naming) and [transaction](https://lbry.io/faq/transaction-types) documentation for more information about claims, bids and transactions. 
+LBRY is a free, open, and community-driven digital marketplace which enables content sharing, monetization, discovery and consumption. Publishing in LBRY is the process of sharing your content on the network. You set the price per view (can be free too) which is paid directly to you. This process involves making a "claim" in the LBRY blockchain which will be used to retrieve the content via a URL. Content can either be published anonymously or to a particular channel/identity which groups content in a single location. Both channels and claims require a deposit (bid) of LBRY Credits (LBC) in order to reserve their location on the LBRY network. This deposit will be deducted from your balance as long as the claim is active. See our [naming](https://lbry.io/faq/naming) and [transaction](https://lbry.io/faq/transaction-types) documentation for more information about claims, bids and transactions. 
 
 Want to get your content featured on the Discover page? Check out [Community top bids](https://lbry.io/faq/community-top-bid).
 
@@ -19,22 +19,21 @@ If you don't have LBRY yet, download it [here](https://lbry.io/get).
 
 ![Select the Content to Upload](https://spee.ch/5/choose-file-and-others.jpeg)
 
-3. On your local machine, select the content you would like to upload to LBRY.  LBRY accepts any HTML5 format for streaming video; the full list can be found [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats). This means a web-optimized MP4 is the best format. Other file types can also be uploaded, but won't be streamable via the LBRY app.
+3. On your local machine, select the content you wish to upload to LBRY.  LBRY accepts any HTML5 format for streaming video; the full list can be found [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats). This means a web-optimized MP4 is the best format. Other file types can also be uploaded, but won't be streamable via the LBRY app.
 
-4. Enter a `Title`, and `Description` for your content.
+4. Enter a `Title` and `Description` for your content.
 
 ![Enter File Information](https://spee.ch/2/311-choose-file-and-others.jpeg)
 
-5. Choose a `Thumbnail`or `Thumbnail URL` for your content. The `Thumbnail URL` is a hyperlink to an image file which will serve as a preview for your content. It can be any image/GIF URL, or you can even use [spee.ch](https://www.spee.ch) to host it. The default size is 800x450, but the app will scale up/down. Images uploaded directly from your local machine as `Thumbnail` will be uploaded to [spee.ch](https://www.spee.ch)
+5. Choose a `Thumbnail`or `Thumbnail URL` for your content. The `Thumbnail URL` is a hyperlink to an image file which will serve as a preview for your content. It can be any image/GIF URL, or you can use [spee.ch](https://www.spee.ch) to host it. The default size is 800x450, but the app will scale up/down. Images uploaded directly from your local machine as `Thumbnail` will be uploaded to [spee.ch](https://www.spee.ch).
 
 ![Select the Content to Upload](https://spee.ch/6/5thumbnail.jpeg)
 
-6. Please make sure to check the option for mature audiences only if your `Thumbnail`is NSFW otherwise just click on Upload
+6. Please make sure to check the option for mature audiences only if your `Thumbnail`is NSFW. Otherwise just click on Upload.
 
 ![Select the Content to Upload](https://spee.ch/6/4-thumbnail44.jpeg)
 
-
-7. Under the `Price`, first, determine if you want to make your content Free or set a price (in USD or LBC) per view.
+7. Under the `Price`, first, determine if you want to make your content free or set a price (in USD or LBC) per view.
 
 ![Set Price](https://spee.ch/4/5-choose-a-price2.png)
 
@@ -42,29 +41,27 @@ If you don't have LBRY yet, download it [here](https://lbry.io/get).
 
 ![Select Channel](https://spee.ch/4/channel22.png)
 
-9. Type in the URL you want the content to be found under along with a minimum of 0.0001 LBC deposit for the upload (current limit, may change in future). If you are trying to outbid a user-friendly/common URL, the system will suggest a minimum bid to take over the content at that vanity URL. There may be a delay for this takeover, check out the `#content` channel on our [Discord chat](https://chat.lbry.io) to see this information (search for your URL). For more details regarding the URL or bid, check out our [naming document](https://lbry.io/faq/naming).
+9. Type in the URL you want the content to be found under along with a minimum of 0.0001 LBC deposit for the upload (current limit, may change in the future). If you are trying to outbid a user-friendly/common URL, the system will suggest a minimum bid to take over the content at that vanity URL. There may be a delay for this takeover. Check out the `#content` channel on our [Discord chat](https://chat.lbry.io) to see this information (search for your URL). For more details regarding the URL or bid, check out our [naming document](https://lbry.io/faq/naming).
 
 ![video url and deposit](https://staging.spee.ch/6/8content-urlf.jpeg)
 
-
-10. Next, there is a `Maturity`, `Language`  and `License` which will default to `English`, `All Ages` and `None` respectively .  If a change is needed, click the dropdowns and select the appropriate choice. Please check the Mature Audience Only option if content is NSFW
+10. Next, there is a `Maturity`, `Language`,  and `License` which will default to `English`, `All Ages`, and `None` respectively .  If a change is needed, click the dropdowns and select the appropriate choice. Please check the Mature Audience Only option if content is NSFW
 
 ![Enter Additional Metadata](https://spee.ch/c/7-license-2-and-publish.jpeg)
-
-
 
 11. Read and agree to the terms of service.
 
 12. Click `Publish`.
 ![Hit Publish](https://spee.ch/2/publish.jpeg)
 
-13. The file will process in the background and will be added to the LBRY Blockchain. Larger files will take longer to upload, please leave LBRY running while your content is in the "pending confirmation" mode(currently, this page will not automatically refresh).  You can continue using LBRY while the upload completes.
+13. The file will process in the background and will be added to the LBRY Blockchain. Larger files will take longer to upload. Please leave LBRY running while your content is in the "pending confirmation" mode. Currently, this page will not automatically refresh. You can continue to use LBRY while the upload completes.
 
 
 
 ### How do I create a Channel?
 
 1. Open the LBRY app.
+
 2. Once the application loads, click the `Publish` button in the top right of the screen.
 ![Click the Publish Button](https://spee.ch/0/1-click-publish.jpeg)
 
@@ -78,14 +75,18 @@ If you don't have LBRY yet, download it [here](https://lbry.io/get).
 ![Create the Channel](https://spee.ch/a/create-channel.jpeg)
 
 ### How do I delete my content and reclaim my deposit? 
+
 1. Click My LBRY on the left side of the LBRY app. 
 ![My LBRY](https://spee.ch/7/Mylbry.jpeg)
+
 2. Click on the `Publishes` tab.
+
 3. Select the content you want to remove from LBRY 
 ![Content](https://spee.ch/c/contents.jpeg)
 
 4. Click `Remove`. If you don't see the remove button, try downloading the content locally again. 
 ![remove](https://spee.ch/4/delete.jpeg)
+
 5. There will be two options. `Abandon the claim for this URI` and `Delete this file from my computer`. Select the option that applies.  Abandoning your claim will release the LBC back into your wallet (99% of the time you want to select this). 
 ![abandon-delete box](https://spee.ch/1/abandon1.jpeg)
 
@@ -105,6 +106,7 @@ If you don't have LBRY yet, download it [here](https://lbry.io/get).
 ![edit](https://spee.ch/c/edit.jpeg)
 
 5. You can now edit your claim information. No need to re-select the file if it's the same one. 
+
 6. When you are done, re-confirm that you agree to the terms of service and click `Edit`.
 ![agreeedit](https://spee.ch/b/agree.jpeg)
 
