@@ -10,3 +10,7 @@
 <div class="spacer1">
   <a href="https://reddit.com/r/lbry" target="_blank" class="link-primary"><span class="icon-reddit icon-fw"></span><span class="btn-label">Reddit</span></a>
 </div>
+<div class="spacer1">
+  <a href="https://t.me/lbryofficial" target="_blank" class="link-primary"><span class="fab fa-telegram icon-fw"></span><span class="btn-label">Telegram</span></a> 
+</div>
+
