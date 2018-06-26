@@ -1,6 +1,6 @@
 ---
 author: sean-yesmunt
-title: 'INSERT TITLE HERE'
+title: 'LBRY Austen: A Developers Perspective'
 date: '2018-06-25 17:00:00'
 cover: 'redesign.png'
 ---
