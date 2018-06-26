@@ -31,7 +31,7 @@ The ability to convert your cryptoassets into LBRY Credits (LBC) is available di
 <img src="https://spee.ch/2/convertcrypto5.JPG" width="80%" height="80%">
 
 9. Verify that LBC has been received on the **Transaction** tab under wallet. It should be updated in the transaction history.
-<img src="https://spee.ch/0ddc51936dcbfe7d0df36ab703217cae04118e16/verif.jpeg"/>
+<img src="https://staging.spee.ch/0edaef7efc7a1ee6f51ec0ec4767cdf30b1b6916/verifr.jpeg"/>
 
 10. Thanks for acquiring some LBC! 
 
