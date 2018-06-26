@@ -39,7 +39,7 @@ We believe that creators should be able to monetize all of their work, no matter
 
 Building a decentralized platform that provides creators with true freedom cannot be done too soon. 
 
-Download LBRY Austen Here: 
+[Download LBRY Austen Here](https://lbry.io/get?auto=1)
 
 **About The Austen Release**
 
