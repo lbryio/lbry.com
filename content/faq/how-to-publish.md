@@ -44,7 +44,7 @@ If you don't have LBRY yet, download it [here](https://lbry.io/get).
 
 8. Type in the URL you want the content to be found under along with a minimum of 0.0001 LBC deposit for the upload (current limit, may change in future). If you are trying to outbid a user-friendly/common URL, the system will suggest a minimum bid to take over the content at that vanity URL. There may be a delay for this takeover, check out the `#content` channel on our [Discord chat](https://chat.lbry.io) to see this information (search for your URL). For more details regarding the URL or bid, check out our [naming document](https://lbry.io/faq/naming).
 
-![video url and deposit](https://spee.ch/7/8content-url.jpeg)
+![video url and deposit](https://staging.spee.ch/6/8content-urlf.jpeg)
 
 
 9. Next, there is a `Maturity`, `Language`  and `License` which will default to `English`, `All Ages` and `None` respectively .  If a change is needed, click the dropdowns and select the appropriate choice. Please check the Mature Audience Only option if content is NSFW
