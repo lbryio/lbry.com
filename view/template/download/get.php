@@ -17,7 +17,7 @@
               'buttonStyle' => 'alt',
               'sourceLink' => true
           ])?>
-          <img src="https://spee.ch/5a3e08d52dd2d7cb1c63a480b45dea8b4679cf01/lbryget-gif-mastertest.gif" />
+          <img src="https://spee.ch/7/lbry-redesign-preview.gif" />
         </div>
       <?php else: ?>
         <p>{{download.unavailable}}</p>
