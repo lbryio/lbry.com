@@ -23,6 +23,6 @@ When you receive a tip, the credits will come into your wallet, and you can see 
 
 To have these credits show in your balance, they must be unlocked via the wallet Overview/History page. This is done by clicking the unlock icon next to `Tip` and then confirming your action on the following screen. Once the transaction is finalized, the icon will disappear. 
 
-Unlock tip: <img src="https://spee.ch/e/tipping1.JPG" width="80%" height="80%">
+Unlock tip: <img src="https://spee.ch/ecb5cc281afb865856a79dd68e73e098320246b5/1tip.jpeg"/>
 
-Confirmation box:<img src="https://spee.ch/f/tipping2.JPG" width="60%" height="60%">
+Confirmation box:<img src="https://spee.ch/8f024aed3c261704c5ce5784337009947456384a/2tip2.jpeg"/>
