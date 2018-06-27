@@ -27,9 +27,9 @@ If you don't have LBRY yet, download it [here](https://lbry.io/get).
 
 5. Choose a `Thumbnail`or `Thumbnail URL` for your content. The `Thumbnail URL` is a hyperlink to an image file which will serve as a preview for your content. It can be any image/GIF URL, or you can use [spee.ch](https://www.spee.ch) to host it. The default size is 800x450, but the app will scale up/down. Images uploaded directly from your local machine as `Thumbnail` will be uploaded to [spee.ch](https://www.spee.ch).
 
-![Select the Content to Upload](https://spee.ch/6/5thumbnail.jpeg)
+![Choose the Thumbnail Image](https://spee.ch/6/5thumbnail.jpeg)
 
-6. Please make sure to check the option for mature audiences only if your `Thumbnail`is NSFW. Otherwise just click on Upload.
+6. Please make sure to check the option for mature audiences if your `Thumbnail`is NSFW. Otherwise just click on Upload.
 
 ![Select the Content to Upload](https://spee.ch/6/4-thumbnail44.jpeg)
 
@@ -39,20 +39,20 @@ If you don't have LBRY yet, download it [here](https://lbry.io/get).
 
 8. You have an option to select/create the channel you would like to publish the content under. If one isn't selected, it will be posted anonymously.
 
-![Select Channel](https://spee.ch/4/channel22.png)
+![Select Channel or Anonymous](https://spee.ch/4/channel22.png)
 
 9. Type in the URL you want the content to be found under along with a minimum of 0.0001 LBC deposit for the upload (current limit, may change in the future). If you are trying to outbid a user-friendly/common URL, the system will suggest a minimum bid to take over the content at that vanity URL. There may be a delay for this takeover. Check out the `#content` channel on our [Discord chat](https://chat.lbry.io) to see this information (search for your URL). For more details regarding the URL or bid, check out our [naming document](https://lbry.io/faq/naming).
 
-![video url and deposit](https://staging.spee.ch/6/8content-urlf.jpeg)
+![Video URL and Deposit](https://staging.spee.ch/6/8content-urlf.jpeg)
 
-10. Next, there is a `Maturity`, `Language`,  and `License` which will default to `English`, `All Ages`, and `None` respectively .  If a change is needed, click the dropdowns and select the appropriate choice. Please check the Mature Audience Only option if content is NSFW
+10. Next, there are selections for `Maturity`, `Language`,  and `License.` The default values are set as follows: Maturity being unchecked, which means the content is safe for all audiences, Language is set to `English`, and the License is set to `None`.  If a change is needed, click the dropdowns and select the appropriate choice. Please check the `Mature audience only` option if content is NSFW.
 
 ![Enter Additional Metadata](https://spee.ch/c/7-license-2-and-publish.jpeg)
 
 11. Read and agree to the terms of service.
 
 12. Click `Publish`.
-![Hit Publish](https://spee.ch/2/publish.jpeg)
+![Click Publish](https://spee.ch/2/publish.jpeg)
 
 13. The file will process in the background and will be added to the LBRY Blockchain. Larger files will take longer to upload. Please leave LBRY running while your content is in the "pending confirmation" mode. Currently, this page will not automatically refresh. You can continue to use LBRY while the upload completes.
 
@@ -99,16 +99,17 @@ If you don't have LBRY yet, download it [here](https://lbry.io/get).
 ![My LBRY](https://spee.ch/7/Mylbry.jpeg)
 
 2. Click on the `Publishes` tab.
+
 3. Select the content you want to update.
 ![Content](https://spee.ch/c/contents.jpeg)
 
 4. Click `Edit`.
-![edit](https://spee.ch/c/edit.jpeg)
+![Edit](https://spee.ch/c/edit.jpeg)
 
 5. You can now edit your claim information. No need to re-select the file if it's the same one. 
 
 6. When you are done, re-confirm that you agree to the terms of service and click `Edit`.
-![agreeedit](https://spee.ch/b/agree.jpeg)
+![Agree Edit](https://spee.ch/b/agree.jpeg)
 
 ### Can someone tip me for my content? 
 Yes, check out LBRY how tipping in LBRY works by going [here](https://lbry.io/faq/tipping). 
