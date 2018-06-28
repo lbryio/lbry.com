@@ -21,7 +21,7 @@ If you don't have LBRY yet, download it [here](https://lbry.io/get).
 3. On your local machine, select the content you wish to upload to LBRY.  LBRY accepts any HTML5 format for streaming video; the full list can be found [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats). This means a web-optimized MP4 is the best format. Other file types can also be uploaded, but won't be streamable via the LBRY app.
 
 4. Enter a `Title` and `Description` for your content.
-![Enter File Information](https://spee.ch/2/311-choose-file-and-others.jpeg)
+![choose a file](https://spee.ch/2/311-choose-file-and-others.jpeg)
 
 5. Choose a `Thumbnail`or `Thumbnail URL` for your content. The `Thumbnail URL` is a hyperlink to an image file which will serve as a preview for your content. It can be any image/GIF URL, or you can use [spee.ch](https://www.spee.ch) to host it. The default size is 800x450, but the app will scale up/down. Images uploaded directly from your local machine as `Thumbnail` will be uploaded to [spee.ch](https://www.spee.ch).
 ![Choose the Thumbnail Image](https://spee.ch/6/5thumbnail.jpeg)
