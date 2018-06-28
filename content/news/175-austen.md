@@ -65,7 +65,7 @@ Austen’s literature was controversial in 19th century England - as a woman in 
 
 They were banned. If YouTube existed at the time, they would have helped, but in this case the censorship came from parents of unmarried women, worried that her novels would turn their daughters into insane hussies. Fortunately for us, the generations since her novels' publication have seen the value in her work and removed it from the censorship bonfire.
 
-Jane Austen’s father George believed in education for all of his children. Pushing back against the status quo, his daughters were encouraged to explore his library and immerse themselves on the great works. This early education and respect led Austen to become one of the most well-known novelists in history.
+Jane Austen’s father George believed in education for all of his children. Pushing back against the status quo, his daughters were encouraged to explore his library and immerse themselves in the great works. This early education and respect led Austen to become one of the most well-known novelists in history.
 
 Austen once said, *"What is right to be done cannot be done too soon."* 
 
