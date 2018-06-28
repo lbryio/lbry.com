@@ -2,7 +2,7 @@
 
 The [lbry.io](https://lbry.io) website. This website uses barebones PHP along with Javascript and SCSS.
 
-![lbry.io screenshot](https://staging.spee.ch/d/new.png)
+![lbry.io screenshot](https://spee.ch/b/new.png)
 
 ## Installation
 
