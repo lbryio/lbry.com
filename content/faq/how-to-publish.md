@@ -16,37 +16,29 @@ If you don't have LBRY yet, download it [here](https://lbry.io/get).
 ![Select Choose File](https://spee.ch/0/1-click-publish.jpeg)
 
 2. Under the `Content` section click `Choose File`.
-
 ![Select the Content to Upload](https://spee.ch/5/choose-file-and-others.jpeg)
 
 3. On your local machine, select the content you wish to upload to LBRY.  LBRY accepts any HTML5 format for streaming video; the full list can be found [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats). This means a web-optimized MP4 is the best format. Other file types can also be uploaded, but won't be streamable via the LBRY app.
 
 4. Enter a `Title` and `Description` for your content.
-
 ![Enter File Information](https://spee.ch/2/311-choose-file-and-others.jpeg)
 
 5. Choose a `Thumbnail`or `Thumbnail URL` for your content. The `Thumbnail URL` is a hyperlink to an image file which will serve as a preview for your content. It can be any image/GIF URL, or you can use [spee.ch](https://www.spee.ch) to host it. The default size is 800x450, but the app will scale up/down. Images uploaded directly from your local machine as `Thumbnail` will be uploaded to [spee.ch](https://www.spee.ch).
-
 ![Choose the Thumbnail Image](https://spee.ch/6/5thumbnail.jpeg)
 
 6. Please make sure to check the option for mature audiences if your `Thumbnail`is NSFW. Otherwise just click on Upload.
-
 ![Select the Content to Upload](https://spee.ch/6/4-thumbnail44.jpeg)
 
 7. Under the `Price`, first, determine if you want to make your content free or set a price (in USD or LBC) per view.
-
 ![Set Price](https://spee.ch/4/5-choose-a-price2.png)
 
 8. You have an option to select/create the channel you would like to publish the content under. If one isn't selected, it will be posted anonymously.
-
 ![Select Channel or Anonymous](https://spee.ch/4/channel22.png)
 
 9. Type in the URL you want the content to be found under along with a minimum of 0.0001 LBC deposit for the upload (current limit, may change in the future). If you are trying to outbid a user-friendly/common URL, the system will suggest a minimum bid to take over the content at that vanity URL. There may be a delay for this takeover. Check out the `#content` channel on our [Discord chat](https://chat.lbry.io) to see this information (search for your URL). For more details regarding the URL or bid, check out our [naming document](https://lbry.io/faq/naming).
-
 ![Video URL and Deposit](https://staging.spee.ch/6/8content-urlf.jpeg)
 
 10. Next, there are selections for `Maturity`, `Language`,  and `License.` The default values are set as follows: Maturity being unchecked, which means the content is safe for all audiences, Language is set to `English`, and the License is set to `None`.  If a change is needed, click the dropdowns and select the appropriate choice. Please check the `Mature audience only` option if content is NSFW.
-
 ![Enter Additional Metadata](https://spee.ch/c/7-license-2-and-publish.jpeg)
 
 11. Read and agree to the terms of service.
@@ -92,7 +84,7 @@ If you don't have LBRY yet, download it [here](https://lbry.io/get).
 
 **Warning: Deleting content is permanent. Please make sure this is what you want to do before confirming the deletion.**
 
-6. Click `Remove` numbered as `2`. If you abandoned your claim, you should see the deposit back in your balance shortly. 
+Click `Remove` numbered as `2`. If you abandoned your claim, you should see the deposit back in your balance shortly. 
 
 ### How do I edit my existing Published content? 
 1. Click on My LBRY the left side of the LBRY app.
