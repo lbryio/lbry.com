@@ -39,7 +39,7 @@ If you don't have LBRY yet, download it [here](https://lbry.io/get).
 ![Video URL and Deposit](https://staging.spee.ch/6/8content-urlf.jpeg)
 
 10. Next, there are selections for `Maturity`, `Language`,  and `License.` The default values are set as follows: Maturity being unchecked, which means the content is safe for all audiences, Language is set to `English`, and the License is set to `None`.  If a change is needed, click the dropdowns and select the appropriate choice. Please check the `Mature audience only` option if content is NSFW.
-![Enter Additional Metadata](https://spee.ch/c/7-license-2-and-publish.jpeg)
+![publish](https://spee.ch/c/7-license-2-and-publish.jpeg)
 
 11. Read and agree to the terms of service.
 
