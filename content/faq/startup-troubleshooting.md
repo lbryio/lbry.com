@@ -17,7 +17,7 @@ LBRY operates on a couple of different ports, and if there are conflicts/firewal
 - Port 50001 - LBRY wallet connections happen over port 50001. LBRY may fail to start if this port is blocked by a firewall or network rules. 
 
 ### This is my first time running LBRY, and it won't start
-- Port 3333 already in use. This issue would reveal itself in the log file. You can see how to change this port [here](https://lbry.io/faq/how-to-change-port). If the port is properly forwarding correctly, you are able to successfully see port 3333 Open on this [port checker tool](https://www.canyouseeme.org). 
+- Port 3333 already in use. This issue would reveal itself in the log file. You can see how to change this port [here](https://lbry.io/faq/how-to-change-port). If the port is properly forwarding correctly, you are able to successfully see port 3333 Open on this [port checker tool](http://www.canyouseeme.org). 
 - Port 50001 wallet connection fails. This issue would reveal itself in the log file. Typical things to check would be firewall/security settings that may block this connection. 
 - On Linux, LBRY may fail to start(home page won't load, missing authentication token in Help) because of missing authentication capability. Please see [GitHub issue](https://github.com/lbryio/lbry-app/issues/386) or possible workaround below.
 - On Windows, LBRY may fail to start because of non-ASCII characters in your Windows username. Check your c:\users\<username> path to see if there are any such characters. Please see [GitHub issue](https://github.com/lbryio/lbry/issues/794) or workaround below.
