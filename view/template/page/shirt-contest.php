@@ -23,10 +23,10 @@
       <h3>Are you a graphic designer?</h3>
       <h4>Impress us with a t-shirt design & earn $100 in Library Credits, LBRY's native cryptocurrency.</h4>
       <h3>
-        <img src="https://spee.ch/a/Tshirt-design-deadline-02.jpeg" alt=3D-Chess-Contest-Image style="width:650px;">
+        <img src="https://spee.ch/3/Tshirt-design-deadline-02-01.jpeg" alt=3D-Chess-Contest-Image style="width:650px;">
       <h3>I'm game. How do I enter?</h3>
       <div>
-      <p>Make a creative design that encompasses the freedom of speech/censorship free message of LBRY. Once you finish your design email it to <a href="mailto:james@lbry.io" class="link-primary"><span class="btn-label">james@lbry.io</span></a> by July 4th.<p>
+      <p>Make a creative design that encompasses the freedom of speech/censorship free message of LBRY. Once you finish your design email it to <a href="mailto:james@lbry.io" class="link-primary"><span class="btn-label">james@lbry.io</span></a> by July 31st.<p>
       </div>
       <h4>Also checkout our <a href="https://lbry.io/3d-contest" class="link-primary"><span class="btn-label">3D Chess Set Design Contest</span></a></h4>
     <body align="center">

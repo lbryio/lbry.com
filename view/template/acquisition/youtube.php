@@ -211,11 +211,11 @@ Response::addMetaImage(Request::getHostAndProto() . '/img/lbry-partner.png');
       <h1>Tell me more.</h1>
       <p>We have a guy that elaborates on things. Apply directly to the forehead.</p>
       <div class="v-card">
-        <div class="photo"><img src="/img/youtube/reilly-smith@2x.png"></div>
+        <div class="photo"><img src="https://spee.ch/7/rob-smith1.png"></div>
         <div class="text">
-          <h3>Reilly Smith</h3>
-          <p>Head of Content</p>
-          <a href="mailto:reilly@lbry.io?subject=YouTube+Freedom">Contact</a>
+          <h3>Rob Smith</h3>
+          <p>Head of Product Growth</p>
+          <a href="mailto:rob@lbry.io?subject=YouTube+Freedom">Contact</a>
         </div>
       </div>
     </div>
