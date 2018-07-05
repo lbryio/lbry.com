@@ -20,13 +20,12 @@
 
   <section class="post-content">
     <div class="content">
+       <?php echo View::render('content/_postSocialShare', ['post' => $post]) ?>
       <?php echo $post->getContentHtml() ?>
     </div>
     <?php echo View::render('content/_postNav', ['post' => $post]) ?>
-    <?php echo View::render('content/_postSocialShare', ['post' => $post]) ?>
-  </section>
-
-
+    </section>
+    
   <?php if ($post->hasAuthor()): ?>
     <?php echo View::render('content/_postAuthor', ['post' => $post]) ?>
   <?php endif ?>

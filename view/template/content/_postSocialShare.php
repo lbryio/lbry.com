@@ -1,5 +1,8 @@
 <?php $url = urlencode(Request::getHostAndProto() . $post->getRelativeUrl()) ?>
 <?php $title = urlencode($post->getTitle()) ?>
+<div class="badge">
+<?php echo "Share this Article" ?>
+</div>
 <div class="social-share-buttons">
   <a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo $url ?>&t=<?php echo $title ?>" title="Share on Facebook" target="_blank">
     <span class="icon-fw icon-facebook"></span>
