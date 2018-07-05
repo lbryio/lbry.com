@@ -6,7 +6,7 @@ To run this project, you'll need to have either PHP7 or Docker installed, and be
 
 ## Running Locally
 
-- Install PHP7
+- Install [PHP7](http://php.net/downloads.php)
 - Checkout the project
 - Run `./dev.sh` from the project root
 - Access [localhost:8000](http://localhost:8000) in your browser
