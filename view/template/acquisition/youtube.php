@@ -210,7 +210,7 @@ Response::setMetaDescription("Put your content on the blockchain, experience tru
       <h1>Tell me more.</h1>
       <p>We have a guy that elaborates on things. Apply directly to the forehead.</p>
       <div class="v-card">
-        <div class="photo"><img src=https://spee.ch/7/rob-smith1.png></div>
+        <div class="photo"><img src="https://spee.ch/7/rob-smith1.png"></div>
         <div class="text">
           <h3>Rob Smith</h3>
           <p>Head of Product Growth</p>
