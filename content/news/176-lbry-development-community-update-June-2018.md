@@ -65,7 +65,7 @@ We are currently experimenting with a more dynamic LBRY Explore page with [@Cryp
 ### Easier way to find your wallet, Open Directory Button!  
 We currently have a [GitHub PR](https://github.com/lbryio/lbry-app/pull/1638) in progress by a community member which will add a Open Wallet Directory button to the wallet backup page. This will make it easier for users to locate their wallet file. The change also includes an easy copy button to copy/paste the wallet directory. 
 
-![Button](https://spee.ch/e/wallet-backup-button.jpeg)
+![Button](https://spee.ch/e/wallet-backup-button.jpg)
 
 ### LBRY for Android Update
 The recent updates to LBRY for Android Alpha include the addition of a welcome page on startup, ability to view channels, a separate trending page, and blockchain sync status on startup. Behind the scenes, ongoing work includes the derivation of a unique device ID for authentication to our API server in order to support things like rewards and wallet syncing. Initial work as also begin on moving rewards logic to a common area so it can be shared with the desktop app.  Want to give alpha testing a shot? [Sign up here](https://lbry.io/android-alpha)! 
