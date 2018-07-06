@@ -1,7 +1,7 @@
 ---
 author: samuel-lbryian
 title: 'Development and Community Update June 2018'
-date: '2018-07-06 23:00:00'
+date: '2018-07-06 16:00:00'
 cover: 'fireworks.jpg'
 category: community-update
 ---
