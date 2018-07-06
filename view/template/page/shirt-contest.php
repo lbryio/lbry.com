@@ -1,5 +1,6 @@
 <?php Response::setMetaDescription(__('description.shirt-contest')) ?>
 <?php Response::setMetaTitle(__('title.shirt-contest')) ?>
+<?php Response::addMetaImage('https://spee.ch/d/tshirt-banner-2-02.jpeg') ?>
 <?php echo View::render('nav/_header', ['isDark' => true, 'isAbsolute' => true]) ?>
 
 <main>
