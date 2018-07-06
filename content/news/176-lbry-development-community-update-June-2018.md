@@ -1,8 +1,8 @@
 ---
-author: samuel-bryan
+author: samuel-lbryian
 title: 'Development and Community Update June 2018'
 date: '2018-07-06 23:00:00'
-cover: ‘fireworks.jpg'
+cover: 'fireworks.jpg'
 category: community-update
 ---
 Welcome to the June 2018 LBRY Development and Community update! In this post we’ll show you what we’ve been up to and review our progress for the month of June. This month we launched the [LBRY app redesign](#summary), made enhancements to the LBRY protocol, continued to move forward with our Android app alpha testing, and began several new community initiatives, including the [debut of the lbry.fund, created to fund projects promoting or using the LBRY protocol.](#lbry-fund) 
