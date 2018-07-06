@@ -5,7 +5,7 @@ date: '2018-07-06 23:00:00'
 cover: ‘fireworks.jpg'
 category: community-update
 ---
-Welcome to the June 2018 LBRY Development and Community update! In this post we’ll show you what we’ve been up to and review our progress for the month of June. This month we launched the [LBRY app redesign](#redesign-updates), made enhancements to the LBRY protocol, continued to move forward with our Android app alpha testing, and began several new community initiatives, including the [debut of the lbry.fund, created to fund projects promoting or using the LBRY protocol.](#lbry-fund) 
+Welcome to the June 2018 LBRY Development and Community update! In this post we’ll show you what we’ve been up to and review our progress for the month of June. This month we launched the [LBRY app redesign](#summary), made enhancements to the LBRY protocol, continued to move forward with our Android app alpha testing, and began several new community initiatives, including the [debut of the lbry.fund, created to fund projects promoting or using the LBRY protocol.](#lbry-fund) 
 
 Scroll down to learn about new [rewards updates](#reward) as well as a couple contests where you can earn up to $300 USD in LBRY credits. To read all of our previous updates, please visit our [Development and Community Update archive](https://lbry.io/news/category/community-update).
 
@@ -32,7 +32,7 @@ To skip the tech stuff, see what’s happened and what’s next in the LBRY comm
 
 # Development Updates {#dev-updates}
 
-### App and Protocol Summary
+### App and Protocol Summary {#summary}
 We are extremely excited to announce that the LBRY app redesign, codename Austen, was launched on June 26th! You can read [our blog post](https://lbry.io/news/austen) which details the most important updates in the new app and introduces the LBRY app naming system. Full release notes can be found on our [GitHub page](https://github.com/lbryio/lbry-app/releases/tag/v0.22.0) 
 
 For a deeper perspective of this process from the eyes of our lead developer Sean, check our his [blog post here](https://lbry.io/news/lbry-desktop-redesign). 
