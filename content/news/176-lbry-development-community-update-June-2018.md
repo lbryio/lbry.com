@@ -44,23 +44,23 @@ On the protocol side of the house, we released [version 0.20](https://github.com
 ### New Rewards {#reward}
 To celebrate LBRY’s second birthday and the redesign launch, we’re DOUBLING all in-app rewards for new users as well as existing ones that haven’t claimed rewards (this included the weekly LBRYCast also too)! Returning users (those we have earned LBRY rewards prior to the redesign launch) will also receive a 50 LBC reward when they upgrade to LBRY Austen. New app users can now claim over 40 LBC in rewards by completing tasks in the app, check out our [rewards page](https://lbry.io/faq/rewards) for the latest details and amounts. In the coming weeks, we will introducing tiered rewards, stay tuned!
 
-![redesign](https://spee.ch/0/redesign-reward.jpeg)
+![redesign](https://spee.ch/0/redesign-reward.jpg)
 
 ### File Renderer enhancements and 3D/PDF Support!
 Community member [btzr](https://github.com/btzr-io) has been working on two PRs that greatly improve the LBRY app’s ability to support additional file types. First, the [File Renderer PR](https://github.com/lbryio/lbry-app/pull/1576) refactors the current code which will allow passing certain file types to different viewer types (i.e. if it’s a PDF, use a PDF viewer). To showcase this feature, he’s also added a [3D file viewer](https://github.com/lbryio/lbry-app/pull/1558) which currently supports previewing of STL files in-app! This will also be expanded to OBJ files in the future. 
 
-![3D](https://spee.ch/b/3d-support.jpeg)
+![3D](https://spee.ch/b/3d-support.jpg)
 ![PDF](https://spee.ch/3/pdf-support.gif)
 
 ### Search Result Setting 
 A big limitation in previous LBRY versions was related to search results - it would only return 10. With the recent improvements in protocol speed, we’ve added a configurable setting on the search page. Users can now control how many results are returned from their searches. Next up in terms of search improvements will be additional filters like searching inside channels and narrowing down file types. 
 
-![search](https://spee.ch/d/search-results.jpeg)
+![search](https://spee.ch/d/search-results.jpg)
 
 ### Channels on Homepage, with CryptoCandor! 
 We are currently experimenting with a more dynamic LBRY Explore page with [@CryptoCandor’s](https://open.lbry.io/@CryptoCandor) channel which is updated as soon as she uploads new content. This is different from our previous approach where the rest of the homepage is static LBRY URLs as opposed to a specific channel. Once we improve [the UX around this experience](https://github.com/lbryio/lbry-app/issues/1717), we will be adding more channels to use this scheme.  
 
-![Candor](https://spee.ch/2/cryptocandor-channel.jpeg)
+![Candor](https://spee.ch/2/cryptocandor-channel.jpg)
 
 ### Easier way to find your wallet, Open Directory Button!  
 We currently have a [GitHub PR](https://github.com/lbryio/lbry-app/pull/1638) in progress by a community member which will add a Open Wallet Directory button to the wallet backup page. This will make it easier for users to locate their wallet file. The change also includes an easy copy button to copy/paste the wallet directory. 
@@ -77,12 +77,12 @@ We’ve gone back to the basics with spee.ch and began re-focusing on core compo
 
 Interested in running your own spee.ch server or clone? Check out the [quick start guide](https://github.com/lbryio/www.spee.ch/blob/master/quickstart.md) and GitHub repository at [lbryio/www.spee.ch](https://github.com/lbryio/www.spee.ch).
 
-![speech publish time](https://spee.ch/4/speech-timing.jpeg)
+![speech publish time](https://spee.ch/4/speech-timing.jpg)
 
 ### Protocol - Improved Speed {#speed}
 [Version 0.20.2](https://github.com/lbryio/lbry-app/releases/tag/v0.22.0) of the protocol greatly improved the LBRY app experience by speeding up resolve calls throughout the app. Resolve calls are used anytime the app needs information about a channel or claim, such as when the homepage is loaded or when you go into a channel. These changes brought the initial homepage load from about a minute down to 4 seconds!! This significantly improves the first run experience for new users as well as the channel browsing speeds. The fix was a combination of optimizing SQL queries along with adapting a faster cryptographic library which sped up verification of data. We hope this is one of many places that can still be further optimized in the LBRY ecosystem.
 
-![speed](https://spee.ch/a/protocol-timing.jpeg)
+![speed](https://spee.ch/a/protocol-timing.jpg)
 
 ### Protocol - LBRY Reflector Hosting {#reflector}
 As some of you may be aware, LBRY Inc helps with the hosting of content that’s published to LBRY. Currently we employ a single server which accepts the data and forwards it to multiple content hosts. Over time, and especially with larger volumes of uploads coming from the YouTube Sync program, we’ve realized this solution won’t cut it anymore. Our engineers are working on a new process which would host all the blob files on a single Amazon S3 data storage server and multiple satellite nodes that would be responsible for announcing the content via the LBRY P2P protocol. This should allow for a larger throughput and less maintenance since all the data will be in a single place.
@@ -92,7 +92,7 @@ On the server side, our 2 ElectrumX servers (lbryumx1.lbry.io and lbryumx2.lbry.
 
 On the client side, we’ve begun testing the wallet migration process from the old style wallet to the new one. The old wallet included all transaction data in the default_wallet data file which was inefficient. The new wallet will store only seed and channel information in the default_wallet file, which a SQL database will store all transaction and claim information. Left on the todo list is signing claims with channel certificates and double checking that all the current API commands are implemented. In the next couple of weeks we should have a test version for the community to try out. We are excited to see improvement in publishing times, especially on larger wallets, like spee.ch’s, with this update! 
 
-![SQL Wallet](https://spee.ch/1/wallet-sql.jpeg)
+![SQL Wallet](https://spee.ch/1/wallet-sql.jpg)
 
 ### Blockchain - Hard fork Update - ALL SYSTEMS GO!
 LBRY will undergo a [hard fork on 7/9/18](https://lbry.io/news/hf1807), which is just a few days from the time of this blog post. There won’t be any noticeable changes for most users, but miners and exchanges will need to make sure they are running [version 0.12.2.0 of the LBRYcrd full blockchain wallet ](https://github.com/lbryio/lbrycrd/releases/tag/v0.12.2.0) to ensure they are on the most up to date chain. We’ve done our due diligence to reach out to known exchanges, miners and other service providers (i.e. Coinomi/Changelly/ShapeShift) informing them of the update.
@@ -136,7 +136,7 @@ New patriotic and free speech inspired designs have been added to our shop as we
 ### LBRY.tech Update {#lbry-tech}
 LBRY.tech is in the middle of a major overhaul - when we’re done, it will be easier to use and more accessible to developers who want to learn about LBRY. You can follow along with progress on our [GitHub repository](https://github.com/lbryio/lbry.tech). Next steps before launch include determining a single API documentation resource across our projects.  We’ve recently added a [glossary with LBRY/Blockchain related terms](https://lbry.tech/glossary.html) and moved [several technical documents](https://github.com/lbryio/lbry.tech/tree/master/content/resources) over to the lbry.tech repositoy. The 2nd step of the tour, which allows for developers to publish a meme on the blockchain, has been completed. 
 
-![lbrytech publish](https://spee.ch/9/lbry-tech-publish.jpeg)
+![lbrytech publish](https://spee.ch/9/lbry-tech-publish.jpg)
 
 # Want to develop on the LBRY protocol?
 All of our code is open source and available on [GitHub](https://github.com/lbryio). Are you a developer and want to find out more? Check out our [general contributing guide](https://lbry.io/faq/contributing) and our LBRY App specific contributing [document](https://github.com/lbryio/lbry-app/blob/master/CONTRIBUTING.md). Please be patient with us while we improve our technical documentation. In the next few weeks we’ll be releasing [lbry.tech](#lbry-tech), a technical reference / guide website which will be developer and contributor focused to drive more apps and services on top of LBRY.
