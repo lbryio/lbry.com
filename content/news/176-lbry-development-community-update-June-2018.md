@@ -39,7 +39,7 @@ For a deeper perspective of this process from the eyes of our lead developer Sea
 
 On the protocol side of the house, we released [version 0.20](https://github.com/lbryio/lbry/releases/tag/v0.20.2) along with the redesign launch that included a tuned DHT implementation in order to increase consistency and availability of P2P data. Once more peers came online, we discovered and fixed a number of issues which should make the overall network run smoother - these are included with the latest app patch and [daemon version 0.20.3](https://github.com/lbryio/lbry/releases/tag/v0.20.3). In our benchmarks, we are at or just above 95% availability when downloading well seeded content from the homepage. We’ve identified a few more issues when multiple downloads are performed simultaneously and are currently looking for a solution. 
 
-![redesign](https://spee.ch/7/lbry-redesign-full.gif)
+![redesign](https://spee.ch/7/lbry-redesign-full.jpg)
 
 ### New Rewards {#reward}
 To celebrate LBRY’s second birthday and the redesign launch, we’re DOUBLING all in-app rewards for new users as well as existing ones that haven’t claimed rewards (this included the weekly LBRYCast also too)! Returning users (those we have earned LBRY rewards prior to the redesign launch) will also receive a 50 LBC reward when they upgrade to LBRY Austen. New app users can now claim over 40 LBC in rewards by completing tasks in the app, check out our [rewards page](https://lbry.io/faq/rewards) for the latest details and amounts. In the coming weeks, we will introducing tiered rewards, stay tuned!
@@ -50,6 +50,7 @@ To celebrate LBRY’s second birthday and the redesign launch, we’re DOUBLING 
 Community member [btzr](https://github.com/btzr-io) has been working on two PRs that greatly improve the LBRY app’s ability to support additional file types. First, the [File Renderer PR](https://github.com/lbryio/lbry-app/pull/1576) refactors the current code which will allow passing certain file types to different viewer types (i.e. if it’s a PDF, use a PDF viewer). To showcase this feature, he’s also added a [3D file viewer](https://github.com/lbryio/lbry-app/pull/1558) which currently supports previewing of STL files in-app! This will also be expanded to OBJ files in the future. 
 
 ![3D](https://spee.ch/b/3d-support.jpg)
+
 ![PDF](https://spee.ch/3/pdf-support.gif)
 
 ### Search Result Setting 
@@ -70,7 +71,7 @@ We currently have a [GitHub PR](https://github.com/lbryio/lbry-app/pull/1638) in
 ### LBRY for Android Update
 The recent updates to LBRY for Android Alpha include the addition of a welcome page on startup, ability to view channels, a separate trending page, and blockchain sync status on startup. Behind the scenes, ongoing work includes the derivation of a unique device ID for authentication to our API server in order to support things like rewards and wallet syncing. Initial work as also begin on moving rewards logic to a common area so it can be shared with the desktop app.  Want to give alpha testing a shot? [Sign up here](https://lbry.io/android-alpha)! 
 
-![Android Sync](https://spee.ch/8/android-lbry-sync.png)
+![Android Sync](https://spee.ch/8/android-lbry-sync.jpg)
 
 ### spee.ch Update
 We’ve gone back to the basics with spee.ch and began re-focusing on core components such as social sharing and knocking out existing bugs. A recent change to channel pages fixes the sorting order to match what’s in the LBRY app. We’ve also spent some time debugging why publishing on the spee.ch server is taking longer than expected (average of 20-30 seconds). Our findings show that the new LBRY wallet will help speed this up so we are looking forward to that being released! Finally, we had to impose some API limits and other spam preventative measures… thank you, spammers, for keeping us on our toes! 
