@@ -93,7 +93,7 @@ On the server side, our 2 ElectrumX servers (lbryumx1.lbry.io and lbryumx2.lbry.
 
 On the client side, we’ve begun testing the wallet migration process from the old style wallet to the new one. The old wallet included all transaction data in the default_wallet data file which was inefficient. The new wallet will store only seed and channel information in the default_wallet file, which a SQL database will store all transaction and claim information. Left on the todo list is signing claims with channel certificates and double checking that all the current API commands are implemented. In the next couple of weeks we should have a test version for the community to try out. We are excited to see improvement in publishing times, especially on larger wallets, like spee.ch’s, with this update! 
 
-![SQL Wallet](https://spee.ch/1/wallet-sql.jpg)
+![SQL Wallet](https://spee.ch/1/wallet-sql.gif)
 
 ### Blockchain - Hard fork Update - ALL SYSTEMS GO!
 LBRY will undergo a [hard fork on 7/9/18](https://lbry.io/news/hf1807), which is just a few days from the time of this blog post. There won’t be any noticeable changes for most users, but miners and exchanges will need to make sure they are running [version 0.12.2.0 of the LBRYcrd full blockchain wallet ](https://github.com/lbryio/lbrycrd/releases/tag/v0.12.2.0) to ensure they are on the most up to date chain. We’ve done our due diligence to reach out to known exchanges, miners and other service providers (i.e. Coinomi/Changelly/ShapeShift) informing them of the update.
