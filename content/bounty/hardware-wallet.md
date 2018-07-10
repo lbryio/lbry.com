@@ -11,3 +11,9 @@ Since LBRY is a fork of Bitcoin Core, integrating into existing hardware wallet 
 The Trezor integration is a bit more involved and thus includes a 30% bonus on top of the stated bounty amount. 
 - [Ledger GitHub](https://github.com/LedgerHQ/ledger-nano-s) - Ledger Nano GitHub respository with guidelines on how to develop. This will involve setting up their SDK and creating a Chrome app. 
 - [Trezor GitHub](https://github.com/trezor) - Please see Trezor's [developer guide](https://doc.satoshilabs.com/trezor-tech/) for more information on integrations. 
+
+Status:
+Ledger - In Progress: 
+https://github.com/LedgerHQ/ledger-live-common/pull/49
+https://github.com/LedgerHQ/blue-app-btc/pull/47
+https://github.com/LedgerHQ/lib-ledger-core/pull/24
