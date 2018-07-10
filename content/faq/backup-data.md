@@ -33,6 +33,8 @@ To summarize, the main directories to consider when backing up or migrating a LB
 
 *\*Please note: Do not run two instances of LBRY from the same wallet, this is unsupported*
 
+*\*If you get startup errors after this procedure: check if the `daemon_settings.yml` file from the `lbrynet` folder points to the correct LBRY file download directory. If it does not, edit the file with correct file path and restart the app. You can view and edit this file with any text editor. *
+
 ### I'm in need of some assistance, can you help?
 
 Of course, we are always here to help! Check out our [help page](https://lbry.io/faq/how-to-report-bugs) on how to reach us.  If you are having trouble starting LBRY after migration, sending us your [log file](https://lbry.io/faq/how-to-find-lbry-log-file) will expedite the resolution. 
