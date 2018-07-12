@@ -112,6 +112,8 @@ June was an exciting month as we released our LBRY.fund program to fund projects
 We’ve had great response and progress on the LBRY Protocol site on Stack Exchange, but in order for the community to move onto the Commitment phase, we need more folks to help vote for example questions and then commit to use the site. Please give us a hand:
 [View the LBRY Stack Exchange site here](https://area51.stackexchange.com/proposals/118455/lbry-protocol)
 
+<a href="https://area51.stackexchange.com/proposals/118455/lbry-protocol-digital-content-distribution"><img src="https://area51.stackexchange.com/ads/proposal/118455.png" width="300" height="250" alt="Stack Exchange Q&A site proposal: LBRY Protocol - Digital Content Distribution" /></a>
+
 ### LBRY is hiring! New Jobs Posted
 [Come join team Content Freedom!](https://lbry.io/join-us) We have the following positions open: Blockchain Engineer, Protocol Engineer, and API Engineer. We’d love for you to join us, or if you have a friend you think would be interested, we pay a $5,000 bounty if we hire them. 
 
