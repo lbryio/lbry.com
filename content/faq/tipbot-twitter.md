@@ -20,15 +20,26 @@ This displays a list of tip commands and how to use them.
 [**Tweet Example:**](https://twitter.com/TomZarebczan/status/1015245364490833920)  
 `@LBC_TipBot help`
 
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Call commands with: <a href="https://twitter.com/LBC_TipBot?ref_src=twsrc%5Etfw">@LBC_TipBot</a> + <br>help - Shows this command.<br>balance - Get your balance.<br>deposit - Get address for your deposits.<br>withdraw ADDRESS AMOUNT - Withdraw AMOUNT credits to ADDRESS.<br>tip USER AMOUNT - Tip USER AMOUNT.<br>terms - Sends the TOS.</p>&mdash; LBC_TipBot (@LBC_TipBot) <a href="https://twitter.com/LBC_TipBot/status/1017502447298736128?ref_src=twsrc%5Etfw">July 12, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 ### Balance
 Displays the balance of your Twitter LBRY wallet.   
 [**Tweet Example:**](https://twitter.com/TomZarebczan/status/1015244426841677826)   
-`@LBC_TipBot balance`   
+`@LBC_TipBot balance`
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">You have 0 LBC.</p>&mdash; LBC_TipBot (@LBC_TipBot) <a href="https://twitter.com/LBC_TipBot/status/1017503489159618560?ref_src=twsrc%5Etfw">July 12, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 ### Deposit
 Displays your Twitter LBRY wallet address. Useful if you want to receive LBC's directly to your wallet.   
 [**Tweet Example:**](https://twitter.com/TomZarebczan/status/1015244855247888384)   
 `@LBC_TipBot deposit`   
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Your deposit address is bQ7k7EeA8s2ENR5LDcd7V91JjgNZxyQL93.</p>&mdash; LBC_TipBot (@LBC_TipBot) <a href="https://twitter.com/LBC_TipBot/status/1017503717082271747?ref_src=twsrc%5Etfw">July 12, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### Tip
 Want to tip someone? This will send a tip to a chosen username.  
@@ -37,6 +48,9 @@ Want to tip someone? This will send a tip to a chosen username.
 [**Tweet Example:**](https://twitter.com/TomZarebczan/status/1015245926691205120)
 `@LBC_TipBot tip @TrendsPremium 10` 
 
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Tipped <a href="https://twitter.com/TrendsPremium?ref_src=twsrc%5Etfw">@TrendsPremium</a> 10 LBC! <br>Transaction: <a href="https://t.co/lumfDoMzGI">https://t.co/lumfDoMzGI</a> <br>See <a href="https://t.co/s9GAsGJ07Y">https://t.co/s9GAsGJ07Y</a> for more information.</p>&mdash; LBC_TipBot (@LBC_TipBot) <a href="https://twitter.com/LBC_TipBot/status/1015245928406474752?ref_src=twsrc%5Etfw">July 6, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ### Withdraw
 Use this to withdraw your balance from your LBRY Twitter wallet to another LBRY wallet such as the wallet in your LBRY app, or to a LBC wallet on an exchange.   
 **Arguments:**   
@@ -44,9 +58,16 @@ Use this to withdraw your balance from your LBRY Twitter wallet to another LBRY 
 [**Tweet Example:**](https://twitter.com/TrendsPremium/status/1015251227599364096)  
 `@LBC_TipBot withdraw bP8P5Dr9d3XcH5ibSsjeDYFU8vMWR8HHe3 5`
 
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">You withdrew 5 LBC to bP8P5Dr9d3XcH5ibSsjeDYFU8vMWR8HHe3. <a href="https://t.co/pS2LzNR8Iw">https://t.co/pS2LzNR8Iw</a></p>&mdash; LBC_TipBot (@LBC_TipBot) <a href="https://twitter.com/LBC_TipBot/status/1015251229151191040?ref_src=twsrc%5Etfw">July 6, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 ### Terms
 Shows the terms and conditions  
 [**Example:**](https://twitter.com/TomZarebczan/status/989748476811530240)   
 `@LBC_TipBot terms`
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">There are no fees to use LBC_TipBot, with the exception of 0.0001 LBC fee on withdrawals.<br>In no event shall LBC_TipBot be responsible in the event of lost, stolen or misdirected funds.  <br>Msg_ID:(stgo8)</p>&mdash; LBC_TipBot (@LBC_TipBot) <a href="https://twitter.com/LBC_TipBot/status/989748478027841536?ref_src=twsrc%5Etfw">April 27, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Note: Make sure you keep your commands on one line. If they are on multiple lines, the command will not work.
