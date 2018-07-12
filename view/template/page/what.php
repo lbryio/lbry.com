@@ -225,7 +225,7 @@
 
       <p>If LBRY succeeds, we will enter a world that is even more creative, connected, and conservatory. We will waste less and we make more. We will create a world where a teenager in Kenya and a reality star in Los Angeles use the same tool to search the same network and have access to the same results -- a world where information, knowledge, and imagination know no borders. </p>
 
-      <p>Build our dream with us! Download LBRY at <a class="link-primary" href="/get">here</a>.</p>
+      <p>Build our dream with us! <a class="link-primary" href="/get">Download LBRY</a>.</p>
     </section>
   </div>
   <?php echo View::render('nav/_learnFooter') ?>
