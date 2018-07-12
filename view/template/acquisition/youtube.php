@@ -63,7 +63,7 @@ Response::addMetaImage(Request::getHostAndProto() . '/img/lbry-partner.png');
             <input type="submit" value="Claim now" onClick="return submitDetailsForm()"/>
         </div>
       <div class="meta">
-        This will verify you are an active YouTuber, then instructions and your welcome credits will be emailed to you.
+        This will verify you are an active YouTuber. Once verified instructions about how to claim credits, and technical details about your channel, will be emailed to you.
         <a href="/faq/youtube">Learn more</a>.
       </div>
     </div>
