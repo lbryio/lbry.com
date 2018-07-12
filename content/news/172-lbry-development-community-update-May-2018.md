@@ -89,7 +89,6 @@ Please check out the newly proposed LBRY Protocol site on Stack Exchange, and he
 
 <a href="https://area51.stackexchange.com/proposals/118455/lbry-protocol-digital-content-distribution"><img src="https://area51.stackexchange.com/ads/proposal/118455.png" width="300" height="250" alt="Stack Exchange Q&A site proposal: LBRY Protocol - Digital Content Distribution" /></a>
 
-<img src="https://spee.ch/c27a3b913c4f284deff9794fe2d33b562b74232d/stackexchange-sreenshot.png"/>
 
 ### Education Donations
 At LBRY, we believe in the importance of quality education, and think that every child should have the opportunity to pursue the type of education that fits them best and allows them to succeed. We’re proud to announce that we’ve donated $2,500 in funding to the [Children’s Scholarship Fund of New Hampshire](https://nh.scholarshipfund.org/), a non-profit organization that provides scholarships to empower low-income New Hampshire families to choose the schools that best fit their children’s needs, regardless of their income or zip code.
