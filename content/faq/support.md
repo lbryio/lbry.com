@@ -9,7 +9,7 @@ For live help, you can join [our chat](https://chat.lbry.io) and post in the #he
 
 ## Help via Email
 
-You can also [email LBRY](mailto:help@lbry.io) with questions or issues. LBRY log files will help us better understand the issue you are experiencing, you can learn how to [find them here](https://lbry.io/faq/how-to-find-lbry-log-file) and attach with your email. 
+You can also [email LBRY](mailto:help@lbry.io) with questions or issues. LBRY log files will help us better understand the issue you are experiencing, you can learn how to [find them here](https://lbry.io/faq/how-to-find-lbry-log-file) and attach with your email.
 
 ### Reporting Issues
 
@@ -20,6 +20,4 @@ To report an issue, you can do one of the following:
 1. Go to the "Help" page of the app and then click the "Submit a Bug Report" button.
 ![help](https://spee.ch/8/Fix-broken.png)
 
-1. If you're a developer or otherwise technical and want to interact with LBRY developers directly, you're welcome to open an issue directly on GitHub. Please try to open network or protocol related issues [here](https://github.com/lbryio/lbry/issues) and interface, usability, and other application related issues [here](https://github.com/lbryio/lbry-app/issues). The penalty for getting this wrong is a mild shaming. We would appreciate a quick search to see if similar issues already exist, as well. 
-
-
+1. If you're a developer or otherwise technical and want to interact with LBRY developers directly, you're welcome to open an issue directly on GitHub. Please try to open network or protocol related issues [here](https://github.com/lbryio/lbry/issues) and interface, usability, and other application related issues [here](https://github.com/lbryio/lbry-desktop/issues). The penalty for getting this wrong is a mild shaming. We would appreciate a quick search to see if similar issues already exist, as well.

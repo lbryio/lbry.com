@@ -110,12 +110,12 @@
               </tr>
               <tr>
                 <td class="center">
-                  <a href="https://github.com/lbryio/lbry-app">lbry-desktop</a><br/>
+                  <a href="https://github.com/lbryio/lbry-desktop">lbry-desktop</a><br/>
                   <a href="https://github.com/lbryio/lbry-android">lbry-android</a><br/>
                   <a href="https://github.com/lbryio/spee.ch">spee.ch</a>
                 </td>
                 <td class="center">Lead Application Engineer</td>
-                <td class="center"><a href="https://github.com/lbryio/lbry-app/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">good first issues</a></td>
+                <td class="center"><a href="https://github.com/lbryio/lbry-desktop/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">good first issues</a></td>
               </tr>
               <tr>
                 <td class="center"><em>(not public)</em></td>

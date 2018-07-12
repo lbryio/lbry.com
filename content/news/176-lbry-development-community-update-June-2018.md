@@ -33,7 +33,7 @@ To skip the tech stuff, see what’s happened and what’s next in the LBRY comm
 # Development Updates {#dev-updates}
 
 ### App and Protocol Summary {#summary}
-We are extremely excited to announce that the LBRY app redesign, codename Austen, was launched on June 26th! You can read [our blog post](https://lbry.io/news/austen) which details the most important updates in the new app and introduces the LBRY app naming system. Full release notes can be found on our [GitHub page](https://github.com/lbryio/lbry-app/releases/tag/v0.22.0) 
+We are extremely excited to announce that the LBRY app redesign, codename Austen, was launched on June 26th! You can read [our blog post](https://lbry.io/news/austen) which details the most important updates in the new app and introduces the LBRY app naming system. Full release notes can be found on our [GitHub page](https://github.com/lbryio/lbry-desktop/releases/tag/v0.22.0) 
 
 For a deeper perspective of this process from the eyes of our lead developer Sean, check our his [blog post here](https://lbry.io/news/lbry-desktop-redesign). 
 
@@ -47,7 +47,7 @@ To celebrate LBRY’s second birthday and the redesign launch, we’re DOUBLING 
 ![redesign](https://spee.ch/0/redesign-reward.jpg)
 
 ### File Renderer enhancements and 3D/PDF Support!
-Community member [btzr](https://github.com/btzr-io) has been working on two PRs that greatly improve the LBRY app’s ability to support additional file types. First, the [File Renderer PR](https://github.com/lbryio/lbry-app/pull/1576) refactors the current code which will allow passing certain file types to different viewer types (i.e. if it’s a PDF, use a PDF viewer). To showcase this feature, he’s also added a [3D file viewer](https://github.com/lbryio/lbry-app/pull/1558) which currently supports previewing of STL files in-app! This will also be expanded to OBJ files in the future. 
+Community member [btzr](https://github.com/btzr-io) has been working on two PRs that greatly improve the LBRY app’s ability to support additional file types. First, the [File Renderer PR](https://github.com/lbryio/lbry-desktop/pull/1576) refactors the current code which will allow passing certain file types to different viewer types (i.e. if it’s a PDF, use a PDF viewer). To showcase this feature, he’s also added a [3D file viewer](https://github.com/lbryio/lbry-desktop/pull/1558) which currently supports previewing of STL files in-app! This will also be expanded to OBJ files in the future. 
 
 ![3D](https://spee.ch/b/3d-support.jpg)
 
@@ -59,12 +59,12 @@ A big limitation in previous LBRY versions was related to search results - it wo
 ![search](https://spee.ch/d/search-results.jpg)
 
 ### Channels on Homepage, with CryptoCandor! 
-We are currently experimenting with a more dynamic LBRY Explore page with [@CryptoCandor’s](https://open.lbry.io/@CryptoCandor) channel which is updated as soon as she uploads new content. This is different from our previous approach where the rest of the homepage is static LBRY URLs as opposed to a specific channel. Once we improve [the UX around this experience](https://github.com/lbryio/lbry-app/issues/1717), we will be adding more channels to use this scheme.  
+We are currently experimenting with a more dynamic LBRY Explore page with [@CryptoCandor’s](https://open.lbry.io/@CryptoCandor) channel which is updated as soon as she uploads new content. This is different from our previous approach where the rest of the homepage is static LBRY URLs as opposed to a specific channel. Once we improve [the UX around this experience](https://github.com/lbryio/lbry-desktop/issues/1717), we will be adding more channels to use this scheme.  
 
 ![Candor](https://spee.ch/2/cryptocandor-channel.jpg)
 
 ### Easier way to find your wallet, Open Directory Button!  
-We currently have a [GitHub PR](https://github.com/lbryio/lbry-app/pull/1638) in progress by a community member which will add a Open Wallet Directory button to the wallet backup page. This will make it easier for users to locate their wallet file. The change also includes an easy copy button to copy/paste the wallet directory. 
+We currently have a [GitHub PR](https://github.com/lbryio/lbry-desktop/pull/1638) in progress by a community member which will add a Open Wallet Directory button to the wallet backup page. This will make it easier for users to locate their wallet file. The change also includes an easy copy button to copy/paste the wallet directory. 
 
 ![Button](https://spee.ch/e/wallet-backup-button.jpg)
 
@@ -81,7 +81,7 @@ Interested in running your own spee.ch server or clone? Check out the [quick sta
 ![speech publish time](https://spee.ch/4/speech-timing.jpg)
 
 ### Protocol - Improved Speed {#speed}
-[Version 0.20.2](https://github.com/lbryio/lbry-app/releases/tag/v0.22.0) of the protocol greatly improved the LBRY app experience by speeding up resolve calls throughout the app. Resolve calls are used anytime the app needs information about a channel or claim, such as when the homepage is loaded or when you go into a channel. These changes brought the initial homepage load from about a minute down to 4 seconds!! This significantly improves the first run experience for new users as well as the channel browsing speeds. The fix was a combination of optimizing SQL queries along with adapting a faster cryptographic library which sped up verification of data. We hope this is one of many places that can still be further optimized in the LBRY ecosystem.
+[Version 0.20.2](https://github.com/lbryio/lbry-desktop/releases/tag/v0.22.0) of the protocol greatly improved the LBRY app experience by speeding up resolve calls throughout the app. Resolve calls are used anytime the app needs information about a channel or claim, such as when the homepage is loaded or when you go into a channel. These changes brought the initial homepage load from about a minute down to 4 seconds!! This significantly improves the first run experience for new users as well as the channel browsing speeds. The fix was a combination of optimizing SQL queries along with adapting a faster cryptographic library which sped up verification of data. We hope this is one of many places that can still be further optimized in the LBRY ecosystem.
 
 ![speed](https://spee.ch/a/protocol-timing.jpg)
 
@@ -140,7 +140,7 @@ LBRY.tech is in the middle of a major overhaul - when we’re done, it will be e
 ![lbrytech publish](https://spee.ch/9/lbry-tech-publish.jpg)
 
 # Want to develop on the LBRY protocol?
-All of our code is open source and available on [GitHub](https://github.com/lbryio). Are you a developer and want to find out more? Check out our [general contributing guide](https://lbry.io/faq/contributing) and our LBRY App specific contributing [document](https://github.com/lbryio/lbry-app/blob/master/CONTRIBUTING.md). Please be patient with us while we improve our technical documentation. In the next few weeks we’ll be releasing [lbry.tech](#lbry-tech), a technical reference / guide website which will be developer and contributor focused to drive more apps and services on top of LBRY.
+All of our code is open source and available on [GitHub](https://github.com/lbryio). Are you a developer and want to find out more? Check out our [general contributing guide](https://lbry.io/faq/contributing) and our LBRY App specific contributing [document](https://github.com/lbryio/lbry-desktop/blob/master/CONTRIBUTING.md). Please be patient with us while we improve our technical documentation. In the next few weeks we’ll be releasing [lbry.tech](#lbry-tech), a technical reference / guide website which will be developer and contributor focused to drive more apps and services on top of LBRY.
 
 [Back to **Development Updates**](#dev-updates)
 

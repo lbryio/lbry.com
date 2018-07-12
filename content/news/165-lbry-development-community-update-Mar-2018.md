@@ -15,7 +15,7 @@ To skip the tech stuff and see what’s happened and what’s next in the LBRY c
 [Skip to **Community Happenings**](#com-updates)
 
 # Development Updates {#dev-updates}
-All of our code is open source and available on [GitHub](https://github.com/lbryio). Are you a dev and want to find out more? Check out our [general contributing guide](https://lbry.io/faq/contributing) and our LBRY App specific contributing [document](https://github.com/lbryio/lbry-app/blob/master/CONTRIBUTING.md). Please be patient with us while we improve our technical documentation. Our plan is to create a technical reference site which will be developer focused at https://LBRY.tech, which is not live yet, but you can check out our  progress on [GitHub](https://github.com/lbryio/lbry.tech).
+All of our code is open source and available on [GitHub](https://github.com/lbryio). Are you a dev and want to find out more? Check out our [general contributing guide](https://lbry.io/faq/contributing) and our LBRY App specific contributing [document](https://github.com/lbryio/lbry-desktop/blob/master/CONTRIBUTING.md). Please be patient with us while we improve our technical documentation. Our plan is to create a technical reference site which will be developer focused at https://LBRY.tech, which is not live yet, but you can check out our  progress on [GitHub](https://github.com/lbryio/lbry.tech).
 
 ### App and Protocol Summary
 We know it's been a long wait, but we're very happy with our latest app release. And the wait will be worth it when you experience the improved LBRY daemon - it's the first major protocol update since last November, and it's a big step in the right direction. You can read about specific enhancements in the changelogs ([0.19.0](https://github.com/lbryio/lbry/releases/tag/v0.19.0) and [0.19.1](https://github.com/lbryio/lbry/releases/tag/v0.19.1)) but in general we’ve noticed improvements in network availability and streaming speed (time from when play is clicked to when the download starts). 
@@ -43,7 +43,7 @@ Other enhancements include improved results with partial search terms and a bett
 If you run into search issues while testing the app or not happy with search results, give us some feedback on [GitHub](https://github.com/lbryio/lighthouse/issues)!
  
 ### App Redesign {#redesign-updates}
-The LBRY app redesign has been merged into the master branch and is available to [run from source](https://github.com/lbryio/lbry-app) for those interested in checking out an early preview. We have identified a number of issues which block a release candidate from being built yet and they are marked with a [redesign label](https://github.com/lbryio/lbry-app/issues?q=is%3Aissue+is%3Aopen+label%3Aredesign) on the issues page. Before submitting any new design related issues, be sure to review those first. We are extremely excited and eager to get the redesign into the hands of community members, stay tuned! 
+The LBRY app redesign has been merged into the master branch and is available to [run from source](https://github.com/lbryio/lbry-desktop) for those interested in checking out an early preview. We have identified a number of issues which block a release candidate from being built yet and they are marked with a [redesign label](https://github.com/lbryio/lbry-desktop/issues?q=is%3Aissue+is%3Aopen+label%3Aredesign) on the issues page. Before submitting any new design related issues, be sure to review those first. We are extremely excited and eager to get the redesign into the hands of community members, stay tuned! 
 
 ![App-preview](https://spee.ch/c/app-preview.jpeg)
 
@@ -53,11 +53,11 @@ Channel subscriptions give users a reason to return to the LBRY app on a daily o
 ### Cool App Features in the Pipeline {#features-update}
 Check out the below pull requests to get a sense of a few exciting features coming to the LBRY app.
 
-[Spee.ch URL Links](https://github.com/lbryio/lbry-app/pull/1222) - This will allow creators and consumers to quickly share a https://spee.ch URL for content or channels they find in the LBRY app. This will be available for free content that’s an image/video/GIF and for all channels. 
+[Spee.ch URL Links](https://github.com/lbryio/lbry-desktop/pull/1222) - This will allow creators and consumers to quickly share a https://spee.ch URL for content or channels they find in the LBRY app. This will be available for free content that’s an image/video/GIF and for all channels. 
 
-[Ability to update thumbnail to spee.ch from Publish screen](https://github.com/lbryio/lbry-app/pull/1248) - A common frustration among publishers is having to upload their thumbnails on spee.ch separately or using another website to do so. With this enhancement, the LBRY app will allow direct thumbnail uploading to spee.ch which will significantly increase the publisher experience. 
+[Ability to update thumbnail to spee.ch from Publish screen](https://github.com/lbryio/lbry-desktop/pull/1248) - A common frustration among publishers is having to upload their thumbnails on spee.ch separately or using another website to do so. With this enhancement, the LBRY app will allow direct thumbnail uploading to spee.ch which will significantly increase the publisher experience. 
 
-[Auto Updating channels on the LBRY Discover page](https://github.com/lbryio/lbry-app/pull/1267) - Currently the LBRY discover page is fairly static besides the trending and community sections (or when we update the page with featured content). This change will allow us to specify a channel name instead of specific claims to include on the Discover page. The main benefit is that the Discover page will dynamically update when new content is posted to those channels! 
+[Auto Updating channels on the LBRY Discover page](https://github.com/lbryio/lbry-desktop/pull/1267) - Currently the LBRY discover page is fairly static besides the trending and community sections (or when we update the page with featured content). This change will allow us to specify a channel name instead of specific claims to include on the Discover page. The main benefit is that the Discover page will dynamically update when new content is posted to those channels! 
 
 ### spee.ch Update
 Over the past few weeks, we’ve been converting the code base of spee.ch so that it can be imported and customized in a variety of applications. Keep an eye out for an announcement soon which will fully explain how you can use the spee.ch code base to implement your own content hosting web app that uses the LBRY network! Want to get a headstart? Check out the [spee.ch server section below](#speech-host) and subscribe to our [speech admin mailing list](https://lbry.io/speech-admin) to be notified when we schedule a live Google Hangouts demo which will walk through the process of setting up your own portal. 
@@ -88,7 +88,7 @@ Significant progress has been made on the white paper and a first draft is very 
 
 Wallet encryption has been implemented on the daemon but is not yet available in the LBRY app. If you want to use this feature ASAP, check out the [CLI](https://lbryio.github.io/lbry/cli/#wallet_encrypt) documentation - the wallet will need to be [unlocked](https://lbryio.github.io/lbry/cli/#wallet_unlock) manually before app startup. Feel free to reach out on Discord with any questions!  
 
-The UI redesign was recently merged on our lbry-app repo and we should have a release candidate to share with early testers this/next week. See [App Redesign development update above](#redesign-updates).
+The UI redesign was recently merged on our lbry-desktop repo and we should have a release candidate to share with early testers this/next week. See [App Redesign development update above](#redesign-updates).
 
 And last but not least, the Search algorithm has undergone a number of optimizations (see [search update above](#search-updates)) which have added up to much better search results - give it a shot and let us know what you think! There's still a lot more work to do here when categories and tags come online, and we need your feedback!
 

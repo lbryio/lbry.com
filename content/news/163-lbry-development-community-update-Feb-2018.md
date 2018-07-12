@@ -16,7 +16,7 @@ To skip the tech stuff and see what’s happened and what’s next in the LBRY c
 [Skip to **Community Happenings**](#com-updates)
 
 # Development Updates {#dev-updates}
-All of our code is open source and available on [GitHub](https://github.com/lbryio). Are you a dev and want to find out more? Check out our [general contributing guide](https://lbry.io/faq/contributing) and our LBRY App specific contributing [document](https://github.com/lbryio/lbry-app/blob/master/CONTRIBUTING.md). Please be patient with us while we improve our technical documentation. Our plan is to create a technical reference site which will be developer focused at https://lbry.tech which will also include a StackExchange like a forum for Q&A/troubleshooting. 
+All of our code is open source and available on [GitHub](https://github.com/lbryio). Are you a dev and want to find out more? Check out our [general contributing guide](https://lbry.io/faq/contributing) and our LBRY App specific contributing [document](https://github.com/lbryio/lbry-desktop/blob/master/CONTRIBUTING.md). Please be patient with us while we improve our technical documentation. Our plan is to create a technical reference site which will be developer focused at https://lbry.tech which will also include a StackExchange like a forum for Q&A/troubleshooting. 
 
 ### App and Protocol Summary
 As you may know from our previous updates, the LBRY app is undergoing a redesign which is taking up a large chunk of the team’s time but the app team is aiming to release a patch to version 0.20 which brings a few bug fixes, an updated LBRY protocol version and possibly a new feature or two (spee.ch thumbnail uploads from within the app, automated subscription downloads). 
@@ -30,14 +30,14 @@ After this round of protocol enhancements, the team will be focusing on improvin
 Stay tuned for an updated version of the LBRY app next week! In the meantime, you can download the current version [here](https://lbry.io/get?auto=1) if you don’t have it installed already!
 
 ### App Redesign
-The LBRY App redesign continues to make great progress you can follow along on [GitHub](https://github.com/lbryio/lbry-app/issues/848) for the latest status and updates. The latest focus has been on refactoring the inner workings of the Publish page into a more optimized version using the React framework. We also have a community member, @btzr, who is helping out in migrating the dark theme into the new design. 
+The LBRY App redesign continues to make great progress you can follow along on [GitHub](https://github.com/lbryio/lbry-desktop/issues/848) for the latest status and updates. The latest focus has been on refactoring the inner workings of the Publish page into a more optimized version using the React framework. We also have a community member, @btzr, who is helping out in migrating the dark theme into the new design. 
 
 Want to explore a web-based prototype of the new LBRY app design? Head over to [https://design.lbry.io](https://design.lbry.io) to get a preview of what’s to come. This page works best on a Desktop but may display correctly in landscape mode on mobile. *Please note: some of the design features like notifications and commenting are still experimental and most likely will not roll out with the first iteration of the re-design as they require additional support from the protocol to work properly.*
 
 ![App redesign early preview](https://spee.ch/1/app-redesign-preview.jpeg)
 
 ### Subscription Enhancements in Progress
-A new round of enhancements to the Subscription feature is being developed. The goal is to increase interactivity, engagement and notification for users who subscribe to channels on LBRY. This will include an option to automatically download new content as it is added to a channel as well as notification features within the app and email. Have questions or comments, drop us a line on the [GitHub issue](https://github.com/lbryio/lbry-app/issues/994). 
+A new round of enhancements to the Subscription feature is being developed. The goal is to increase interactivity, engagement and notification for users who subscribe to channels on LBRY. This will include an option to automatically download new content as it is added to a channel as well as notification features within the app and email. Have questions or comments, drop us a line on the [GitHub issue](https://github.com/lbryio/lbry-desktop/issues/994). 
 
 ### LBRY Mobile for Android
 LBRY recently worked with a user interface designer who came up with a very nice and simple design prototype, check out the video below for a preview. The process of incorporating this prototype into React Native code is underway. To solve delays deploying the app changes, we had to come up with a way to build the UI and daemon separately, such that the React Native app can be reloaded without having to rebuild the daemon each time (slow!). This enables testing the UI changes relatively quickly against any stable or development build of the daemon. There is a good chance that we will have a basic working mobile Android app in a few weeks!
