@@ -64,10 +64,10 @@ Use this to withdraw your balance from your LBRY Twitter wallet to another LBRY 
 
 ### Terms
 Shows the terms and conditions  
-[**Example:**](https://twitter.com/TomZarebczan/status/989748476811530240)   
+[**Example:**](https://twitter.com/TomZarebczan/status/1015245044415156225)   
 `@LBC_TipBot terms`
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">There are no fees to use LBC_TipBot, with the exception of 0.0001 LBC fee on withdrawals.<br>In no event shall LBC_TipBot be responsible in the event of lost, stolen or misdirected funds.  <br>Msg_ID:(stgo8)</p>&mdash; LBC_TipBot (@LBC_TipBot) <a href="https://twitter.com/LBC_TipBot/status/989748478027841536?ref_src=twsrc%5Etfw">April 27, 2018</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">There are no fees to use this bot except the automatic daemon fee. <br>Under no circumstances shall LBRY Inc. be held responsible for lost, stolen or misdirected funds.</p>&mdash; LBC_TipBot (@LBC_TipBot) <a href="https://twitter.com/LBC_TipBot/status/1015245045740388352?ref_src=twsrc%5Etfw">July 6, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Note: Make sure you keep your commands on one line. If they are on multiple lines, the command will not work.
