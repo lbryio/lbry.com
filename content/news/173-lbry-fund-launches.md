@@ -20,6 +20,10 @@ LBRY Inc., creators of the LBRY media sharing system and LBC utility token, toda
 
 The first grant recipient will be LBRY-C, a decentralized community organization of LBRY fans and developers. LBRY-C will receive 100,000 LBC over three months for their planned community and outreach efforts. 
 
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Thinking of a new implementation for the LBRY protocol? Let us help you build it - we&#39;re awarding <a href="https://twitter.com/hashtag/grants?src=hash&amp;ref_src=twsrc%5Etfw">#grants</a> to support developers, engineers, marketers, and anyone else who wants to do something new and exciting with LBRY. Visit <a href="https://t.co/6hefigVmB3">https://t.co/6hefigVmB3</a> to apply. <a href="https://t.co/8PDfS4CzgN">pic.twitter.com/8PDfS4CzgN</a></p>&mdash; LBRY (we never give away ETH) (@LBRYio) <a href="https://twitter.com/LBRYio/status/1007724955226857474?ref_src=twsrc%5Etfw">June 15, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 "It's great to have the opportunity to receive funding from the LBRY Fund, so that we can develop applications, build a stronger community, and work on securing the integrity of the LBRY protocol." said Torgeir Flø, LBRY-C. 
 
 Interested groups and individuals can apply for grant funding at [LBRY.fund](https://lbry.fund). Developers, content creators, marketers, and anyone who thinks they have something unique and compelling to offer are all welcome. The LBRY.fund grant program will accept applications on a rolling basis, and there is no deadline for application.
