@@ -114,8 +114,6 @@ We’ve had great response and progress on the LBRY Protocol site on Stack Excha
 
 <a href="https://area51.stackexchange.com/proposals/118455/lbry-protocol-digital-content-distribution"><img src="https://area51.stackexchange.com/ads/proposal/118455.png" width="300" height="250" alt="Stack Exchange Q&A site proposal: LBRY Protocol - Digital Content Distribution" /></a>
 
-<img src="https://spee.ch/c27a3b913c4f284deff9794fe2d33b562b74232d/stackexchange-sreenshot.png"/>
-
 ### LBRY is hiring! New Jobs Posted
 [Come join team Content Freedom!](https://lbry.io/join-us) We have the following positions open: Blockchain Engineer, Protocol Engineer, and API Engineer. We’d love for you to join us, or if you have a friend you think would be interested, we pay a $5,000 bounty if we hire them. 
 
