@@ -27,6 +27,7 @@ First and foremost, please ensure you are on the [latest version](https://lbry.i
 
 - On Windows, if you get stuck on the "Starting daemon" green screen, the lbrynet-daemon file may be missing. The workaround is to rerun the [latest](https://lbry.io/get) LBRY installation file and try again.
 - On older MAC installations, you may run into an issue with the daemon shutting down immediately. Please see [this GitHub issue](https://github.com/lbryio/lbry-app/issues/291) for troubleshooting. 
+- On older Linux/Mac installs you may see `Cannot read property 'match' of undefined`, install the [latest version](https://lbry.io/get) to fix this. 
 - Other typical startup troubleshooting would be to ensure that LBRY or lbrynet-daemon is not already running in the background. If the processes cannot be killed, a restart of your computer may be required.
 
 ### Known startup issues and workarounds
