@@ -25,7 +25,7 @@ class Github
     public static function getAppRelease($cache = true)
     {
         try {
-            return static::get('/repos/lbryio/lbry-app/releases/latest', [], $cache);
+            return static::get('/repos/lbryio/lbry-desktop/releases/latest', [], $cache);
         } catch (Exception $e) {
         }
 
@@ -48,7 +48,7 @@ class Github
     public static function getAppPrereleaseDownloadUrl($os, $cache = true)
     {
         try {
-            $releases = static::get('/repos/lbryio/lbry-app/releases', [], $cache);
+            $releases = static::get('/repos/lbryio/lbry-desktop/releases', [], $cache);
             if (count($releases)) {
                 $asset = static::findReleaseAssetForOs($releases[0], $os);
                 return $asset ? $asset['browser_download_url'] : null;
@@ -103,7 +103,7 @@ class Github
         $sets        = [];
         $allReleases = [];
 
-        $projects = ['lbry' => 'LBRY Protocol', 'lbry-app' => 'LBRY App'];
+        $projects = ['lbry' => 'LBRY Protocol', 'lbry-desktop' => 'LBRY App'];
 
         foreach ($projects as $project => $projectLabel) {
             $page = 1;

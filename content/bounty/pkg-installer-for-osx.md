@@ -3,7 +3,7 @@ category: osx
 title: PKG Installer for OS X
 award: 1500
 status: complete
-pr: https://github.com/lbryio/lbry-app/pull/99
+pr: https://github.com/lbryio/lbry-desktop/pull/99
 date: '2016-07-01'
 ---
 

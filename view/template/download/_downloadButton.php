@@ -27,11 +27,11 @@
     <?php if ($os === OS::OS_LINUX): ?>
       <div class="meta">
         Works with Ubuntu, Debian, or any distro with <code>apt</code> or <code>dpkg</code>.
-        For other Linux flavors, <a href="https://github.com/lbryio/lbry-app" class="link-primary">see the source</a>.
+        For other Linux flavors, <a href="https://github.com/lbryio/lbry-desktop" class="link-primary">see the source</a>.
       </div>
     <?php elseif ($sourceLink): ?>
       <div class="meta">
-        Like source code? Go <a href="https://github.com/lbryio/lbry-app" class="link-primary">here</a>.<P><P>
+        Like source code? Go <a href="https://github.com/lbryio/lbry-desktop" class="link-primary">here</a>.<P><P>
       </div>
     <?php endif ?>
   <?php endif ?>

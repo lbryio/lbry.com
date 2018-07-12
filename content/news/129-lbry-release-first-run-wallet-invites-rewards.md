@@ -7,7 +7,7 @@ The latest LBRY app, v0.15 and the first update since open beta, is now availabl
 
 ## Release Notes
 
-The release notes are below. These notes are copied from the [GitHub releases page](https://github.com/lbryio/lbry-app/releases), which is the official source of release notes.
+The release notes are below. These notes are copied from the [GitHub releases page](https://github.com/lbryio/lbry-desktop/releases), which is the official source of release notes.
 
 For immediate notification of releases, you can watch the project on GitHub.
 
