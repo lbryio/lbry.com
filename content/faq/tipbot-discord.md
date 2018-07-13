@@ -14,10 +14,10 @@ Use the following commands to make amazing things happen. We recommend running t
 
 ### Help
 This displays a list of tip commands and how to use them.  
-![Tip Help](https://spee.ch/9/tiphelp.png) 
-![Tips](https://spee.ch/2/tips.png)   
 **Example:**  
 `!tip help` or `!tips`
+
+![Tips](https://spee.ch/b/tipbot-discord.png) 
 
 ### Balance
 Displays the balance of your Discord LBRY wallet.   
