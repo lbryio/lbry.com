@@ -17,7 +17,7 @@ This displays a list of tip commands and how to use them.
 **Example:**  
 `!tip help` or `!tips`
 
-![Tips](https://spee.ch/b/tipbot-discord.png) 
+![Tips](https://spee.ch/0/update-screenshot.jpeg) 
 
 ### Balance
 Displays the balance of your Discord LBRY wallet.   
