@@ -27,7 +27,7 @@
     <?php if ($os === OS::OS_LINUX): ?>
       <div class="meta">
         Works with Ubuntu, Debian, or any distro with <code>apt</code> or <code>dpkg</code>.
-        For other Linux flavors, <a href="https://github.com/lbryio/lbry-desktop" class="link-primary">see the source</a>.
+        For other Linux flavors including Arch and Flatpak support or compiling from source, <a href="https://github.com/lbryio/lbry-desktop#install" class="link-primary">see our GitHub install page</a>.
       </div>
     <?php elseif ($sourceLink): ?>
       <div class="meta">
