@@ -32,7 +32,9 @@ Use this to withdraw your balance from your LBRY Reddit wallet to another LBRY w
 **Arguments:**  
 `withdraw <address> <amount>`  
 **Request:**  
-[Request Withdraw](https://reddit.com/message/compose?to=lbryian&subject=Withdraw&message=withdraw%20%3Camount%3E%20%3Caddress)
+[Request Withdraw](https://reddit.com/message/compose?to=lbryian&subject=Withdraw&message=withdraw%20%3Camount%3E%20%3Caddress)   
+**Example:**    
+`withdraw bLXasdadsa32432soas2sadsa 10`
 
 ### Tip
 Want to tip someone? This will send a tip to a chosen username from within a replying comment.  
