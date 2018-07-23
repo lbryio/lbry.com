@@ -20,4 +20,6 @@ If you are pursuing this effort, please [email us](mailto:hello@lbry.io) so we c
 
 Bounty Status:   
 Ruby - Completed  
-Lua - In Progress
+Lua - In Progress   
+Java - In Review   
+Javascript - Claimed
