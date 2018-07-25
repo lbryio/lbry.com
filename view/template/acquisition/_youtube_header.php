@@ -1,7 +1,7 @@
 <header class="header">
   <div class="inner">
     <div class="left">
-      <div class="logo"></div>
+      <div class="logo"><a href="https://lbry.io/" target="_blank">Home</a></div>
       <a href="https://lbry.io/get" target="_blank">Get</a>
       <a href="https://lbry.io/learn" target="_blank">Learn</a>
     </div>
