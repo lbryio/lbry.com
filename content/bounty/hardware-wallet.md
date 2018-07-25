@@ -14,6 +14,5 @@ The Trezor integration is a bit more involved and thus includes a 30% bonus on t
 
 Status:
 Ledger - In Progress: 
-https://github.com/LedgerHQ/ledger-live-common/pull/49
-https://github.com/LedgerHQ/blue-app-btc/pull/47
-https://github.com/LedgerHQ/lib-ledger-core/pull/24
+- https://github.com/LedgerHQ/blue-app-btc/pull/47
+- https://github.com/LedgerHQ/lib-ledger-core/pull/24
