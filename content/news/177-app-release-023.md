@@ -24,6 +24,8 @@ We’ve included a new feature for publishers in this update as well! Now you ca
 
 We’ve also made some changes to the app to make it more family-friendly for people who have not chosen to view NSFW content. This means the Community Bid section will not be shown unless you choose to view NSFW content in the app since we don’t [control the content posted there](https://lbry.io/faq/community-top-bid). Also, previews of NSFW videos will not show up at all on channel pages, subscriptions or search results. If you’re just here for the hentai, everything’s still available - you just have to make it clear that you want to see it.
 
+![content settings](https://spee.ch/4/content-settings)
+
 ### Faster than a speeding bullet
 
 Our developers have been spending a lot of time and effort on speeding up the in-app experience. The tweaks to channel caching and navigation between channels/claims in this update will show just what a great job they’ve done, significantly reducing load times in-app.
