@@ -15,7 +15,10 @@
         </div>
         <div class="control-item no-label-desktop">
         <a href="https://t.me/lbryofficial" target="_blank"><span class="btn-label">Telegram</span> <i class="fab fa-telegram"></i></a>
-         </div>
+        </div>
+        <div class="control-item no-label-desktop">
+        <a href="https://www.instagram.com/lbryio/" target="_blank"><span class="btn-label">Instagram</span> <i class="fab fa-instagram"></i></a>
+        </div>
         <div class="control-item">
           <a href="https://en.wikipedia.org/wiki/Free_Speech_Flag" class="footer-img-link">
             <img src="/img/Free-speech-flag.svg" alt="Free Speech Flag" height="30"/>
