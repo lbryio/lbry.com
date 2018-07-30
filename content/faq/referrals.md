@@ -35,4 +35,4 @@ Currently, during the referral reward testing phase, there is a limit of 1 redem
 
 If you want to waste your time to receive no reward, be our guest. We will be monitoring the system closely and going to significant lengths to only let legitimate users in.
 
-Rather than spending the time attempting to cheat and failing, we suggest you do productive work to earn LBRY credits. Join our [Discord chat](http://chat.lbry.io) and message Josh (@finer9) or Jeremy (@kauffj) for opportunities.
+Rather than spending the time attempting to cheat and failing, we suggest you do productive work to earn LBRY credits. Join our [Discord chat](http://chat.lbry.io) and message or email [Josh](mailto:josh@lbry.io) (@finer9) or [Jeremy](mailto:jeremy@lbry.io) (@kauffj) for opportunities.
