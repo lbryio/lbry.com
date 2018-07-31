@@ -4,7 +4,7 @@ category: getstarted
 ---
 
 To provide a rich user experience and to [distribute](https://lbry.io/faq/credit-policy) LBRY Credits (LBC) into the hands of new and returning users, LBRY created a Rewards system where credits are earned by completing tasks throughout the application. Rewards are given to promote application testing, learning certain in-app skills, building the LBRY economy through purchasing and publishing content, and as a small "thank you" gift for being part of a revolutionary digital media platform. For qualified users, Rewards are issued automatically by the LBRY app into each users' [LBRY wallet](https://lbry.io/faq/how-to-backup-wallet).
-![rewards](https://spee.ch/6/NTAfJXw---Imgur)
+![rewards](https://spee.ch/6/NTAfJXw---Imgur) ![rewards2](https://spee.ch/8/ScreenShot2018-07-31at35429PM)
 
 ### Verification requirements
 
@@ -20,6 +20,7 @@ In order to be eligible for LBRY Rewards, users must have a [verified account](h
 | **First Publish** | 10 LBC | A one-time award for publishing your first piece of content to LBRY
 | **Weekly LBRYCast** | 4 LBC | A weekly award for checking out featured content on LBRY. This content is marked with the red rocket logo and announced via email
 | **Welcome Back** | 6 LBC | Return to the LBRY app 24-48 hours following your first use of the app. This reward will self destruct after that time span.
+| **Sub Sandwich** | 1 LBC | Earn Rewards For Subscribing to channel.
 | **Referral** | 3 LBC | LBRY users can refer their friends via an email invitation and get rewarded when those users are verified. This reward is limited to one redemption at this time. For more information on referrals, click [here](https://lbry.io/faq/referrals)
 
 Rewards are added to the LBC wallet balance as they are completed. All the rewards can be listed by clicking on the tab marked "REWARDS" inside the LBC wallet, and they are also marked in the [transaction history](https://lbry.io/faq/transaction-types).  Rewards redemption is tied to your account, but the credits themselves are stored in your wallet which is required to be [backed up](https://lbry.io/faq/how-to-backup-wallet) periodically.
