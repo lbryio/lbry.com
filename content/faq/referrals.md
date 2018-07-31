@@ -5,6 +5,8 @@ category: getstarted
 
 You can earn credits for referring others to use LBRY. In the latest version of the LBRY app, you can now view the status of your referrals and invite new users to LBRY. The Invites area can be found by going to your wallet (bank icon in the top right of the LBRY app) and then clicking Invites from the top menu. In the Invite History section, you will see all your referrals along with their status (whether it is claimable or not). You also have the ability to invite new users to LBRY via the "Invite a Friend" section.  
 
+*Note: Referral redemptions are currently limited to 1*
+
 ### How many credits do I get and how do I see how many credits I've earned?
 
 New invites sent via the LBRY app are eligible for a 3 LBC reward amount. 
@@ -35,4 +37,4 @@ Currently, during the referral reward testing phase, there is a limit of 1 redem
 
 If you want to waste your time to receive no reward, be our guest. We will be monitoring the system closely and going to significant lengths to only let legitimate users in.
 
-Rather than spending the time attempting to cheat and failing, we suggest you do productive work to earn LBRY credits. Join our [Discord chat](http://chat.lbry.io) and message Josh (@finer9) or Jeremy (@kauffj) for opportunities.
+Rather than spending the time attempting to cheat and failing, we suggest you do productive work to earn LBRY credits. Join our [Discord chat](http://chat.lbry.io) and message or email [Tom](mailto:tom@lbry.io) (@jiggytom) or [Julie](mailto:julie@lbry.io) (@jsigwart) for opportunities.
