@@ -20,4 +20,4 @@ From YouTube’s [war on independent media](https://open.lbry.io/rt-PgmzvCCXlBI)
 
 (Literally, there are no middlemen).
 
-**[Download LBRY today](https://lbry.io/get)**. Is your favorite channel not on LBRY? Help us feature what you want to see! Email reilly@lbry.io to make it happen. Or sync your own channel at: https://api.lbry.io/yt/connect?type=sync
+**[Download LBRY today](https://lbry.io/get)**. Is your favorite channel not on LBRY? Help us feature what you want to see! Email reilly@lbry.io to make it happen. Or sync your own channel at: https://lbry.io/youtube
