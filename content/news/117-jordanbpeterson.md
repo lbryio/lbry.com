@@ -26,4 +26,4 @@ Check out some of the [best lectures on LBRY](https://open.lbry.io/%40JordanBPet
 
 You can learn more about Dr. Peterson, and [order his newest book](https://jordanbpeterson.com/12-rules-for-life/), here on his [website](https://jordanbpeterson.com/).
 
-**Not on LBRY yet?** [Download it here](https://lbry.io/get). Know the meaning of life? Email reilly@lbry.io because he’s desperate to know. Or sync your channel at: https://api.lbry.io/yt/connect?type=sync
+**Not on LBRY yet?** [Download it here](https://lbry.io/get). Know the meaning of life? Email reilly@lbry.io because he’s desperate to know. Or sync your channel at: https://lbry.io/youtube
