@@ -18,6 +18,6 @@ Donate to [their Patreon here](https://www.patreon.com/TheJuiceMedia), and look 
 
 And add your channel to the LBRY queue like Juice Media,  in a single click using this tool:
 
-- https://api.lbry.io/yt/connect?type=sync
+- https://lbry.io/youtube
 
 **Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Rapper, newscaster or Both? Email reilly@lbry.io to spit the facts.
