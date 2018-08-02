@@ -18,4 +18,4 @@ Bob shows you just how fun building cool things that you *actually* want to make
 
 Bob, LBRY. LBRYians, Bob.
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Building something grand? Email reilly@lbry.io with further instructions. Or sync your channel at: https://api.lbry.io/yt/connect?type=sync
+**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Building something grand? Email reilly@lbry.io with further instructions. Or sync your channel at: https://lbry.io/youtube
