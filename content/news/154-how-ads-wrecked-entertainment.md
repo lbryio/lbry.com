@@ -108,4 +108,4 @@ If you follow even one of these steps, you’re already making the world better 
 
 **WARNING: SHAMELESS SELF-PROMOTION AHEAD**
 
-At [LBRY](https://lbry.io/), we’re betting on the idea that patron-supported art will be more satisfying to its intended audience and offer greater and more sustainable rewards to creators. If you want to help us build one of those uncharted territories for creators who are looking for a different way to share their work, [download our app](http://lbry.io/get) and let us know what you think.
+At [LBRY](https://lbry.io/), we’re betting on the idea that patron-supported art will be more satisfying to its intended audience and offer greater and more sustainable rewards to creators. If you want to help us build one of those uncharted territories for creators who are looking for a different way to share their work, [download our app](https://lbry.io/get) and let us know what you think.

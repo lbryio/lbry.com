@@ -16,4 +16,4 @@ The internet is for everyone, from timid lurkers to blustery blowhards. At LBRY,
 
 ### **(202) 596-7587**
 
-And while you’re at it, do your part to end Net Banality: [download the LBRY app](http://lbry.io/get) and upload some interesting content! 
+And while you’re at it, do your part to end Net Banality: [download the LBRY app](https://lbry.io/get) and upload some interesting content! 
