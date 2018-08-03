@@ -16,9 +16,9 @@ In order to be eligible for LBRY Rewards, users must have a [verified account](h
 | **Your First Nickel** | 6 LBC | A one-time welcome gift to learn basics of the application, wallet and if you want to buy some paid content
 | **Go for a Stream** | 4 LBC | Awarded for streaming your very first video on LBRY
 | **Channel Surfing** | 6 LBC | A one-time award for creating a Channel on LBRY via the Publish screen
+| **First Publish** | 10 LBC | A one-time award for publishing your first piece of content to LBRY
 | **Many Views** | 2- ???? LBC | A multi-level award for watching videos on LBRY. See descriptions in-app for levels/details!
 | **Sub Sandwich** | 1 -2 LBC | A multi-level reward for subscribing to channels.
-| **First Publish** | 10 LBC | A one-time award for publishing your first piece of content to LBRY
 | **Weekly LBRYCast** | 4 LBC | A weekly award for checking out featured content on LBRY. This content is marked with the red rocket logo and announced via email
 | **Welcome Back** | 6 LBC | Return to the LBRY app 24-48 hours following your first use of the app. This reward will self destruct after that time span.
 | **Referral** | 3 LBC | LBRY users can refer their friends via an email invitation and get rewarded when those users are verified. This reward is limited to one redemption at this time. For more information on referrals, click [here](https://lbry.io/faq/referrals)
