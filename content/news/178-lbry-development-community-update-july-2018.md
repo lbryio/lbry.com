@@ -43,7 +43,7 @@ To skip the tech stuff, see what’s happened and what’s next in the LBRY comm
 ### App and Protocol Summary
 After releasing our redesigned LBRY Desktop app at the end of June, the app team has been hard at work adding additional features and squashing bugs. In our [June update](https://lbry.io/news/lbry-development-community-update-june-2018) we previewed 3D viewing and PDF support, both of which were implemented in version 0.23.0 along with changes to how we handle mature content on the Explore page, channel caching, and thumbnail preview - continue below to check out the changes or read the [release blog post](https://lbry.io/news/app-release-023).
 
-[Version 0.23.1](https://github.com/lbryio/lbry-app/releases/tag/v0.23.1), a minor patch to re-enable ShapeShift integration, was released just over a week after after ShapeShift fixed a wallet issue on their end. Version 0.24.0 is just around the corner with features including -- at a minimum, the first version of wallet encryption in-app, recommended content on file pages, a document viewer, browsing history and improving the search experience. Keep reading below for a preview! 
+[Version 0.23.1](https://github.com/lbryio/lbry-app/releases/tag/v0.23.1), a minor patch to re-enable ShapeShift integration, was released just over a week ago - after ShapeShift fixed a wallet issue on their end. Version 0.24.0 is just around the corner with features including -- at a minimum, the first version of wallet encryption in-app, recommended content on file pages, a document viewer, browsing history and improving the search experience. Keep reading below for a preview! 
 
 On the protocol side of the house, we shipped [version 0.20.4](https://github.com/lbryio/lbry/releases/tag/v0.20.4) along with the latest app release. This version brings more stability and CPU usage improvements, especially when running the daemon for extended periods of time. The protocol team has prioritized startup speed/status, blob mirroring support and other DHT performance improvements in 0.21.0. You can read the latest list of changes in the [release notes for the latest Release Candidate](https://github.com/lbryio/lbry/releases/) and further down in the [Protocol update section](#protocol).
 
@@ -131,6 +131,8 @@ We are still continuing a lot of the behind the scenes work to integrate our mob
 
 We should have a much smoother version ready for testing with the 0.21 Protocol in a couple weeks so stay tuned and [sign up](https://lbry.io/android-alpha) to become an alpha tester if you haven’t already!
 
+![welcome screen](https://spee.ch/6fb914c11530370bb2ee671e8c9792c7dbd8d854/lbry-android-welcome.png)
+
 ### spee.ch Update
 We’ve been testing the new wallet integration on our staging spee.ch server and it’s almost ready for prime time. With this update, we expect spee.ch publishing times to go down considerably - hopefully down to just a few seconds from 30s+. In other news, thumbnail publishing from the LBRY app revealed some issues with different URL types and their previews which were addressed recently. If you are sharing a spee.ch link on social media, you should use the first URL provided (without an extension) but if you are embedding it in a post, you’ll want the full path with the file extension. We’ve also improved the way certain content displays on the spee.ch page, especially around images/scaling. 
 
@@ -148,7 +150,7 @@ If you aren’t part of our Discord community yet, [join us](https://chat.lbry.i
 This quarter we moved no credits from cold storage. We spent 738,027 total community credits on line items detailed in the Q2 report. No operational credits were moved to markets. No institutional credits were moved or spent. We anticipate comparable or larger total outlays in Q3 2018. Operational spending may increase, but not significantly, and community spending is likely to be higher. We will continue to incentivize new users and other beneficial behavior, which is likely to involve 300,000 to 1,500,000+ LBC. LBRY is also likely to form it’s first institutional partnership, with spending anticipated to be around 500,000 LBC. [Read the details here.](https://lbry.io/credit-reports/2018-q2)
 
 ### Roadmap Check-in
-Things are fairly quiet on the [roadmap](https://lbry.io/roadmap) front. We’ve moved the `Wallet Encryption in the LBRY App` goal to In Progress as it’s almost ready to be released, see [above](#encrypt) for the update. Large amounts of progress have been made on [YouTube Sync automation](#youtube-updates) as well as [Wallet improvements](#wallet) - both of which we hope to check off as complete by the end of this month. 
+Things are fairly quiet on the [roadmap](https://lbry.io/roadmap) front. We’ve moved the `Wallet Encryption in the LBRY App` goal to `In Progress` as it’s almost ready to be released, see [above](#encrypt) for the update. Large amounts of progress have been made on [YouTube Sync automation](#youtube-updates) as well as [Wallet improvements](#wallet) - both of which we hope to check off as complete by the end of this month. 
 
 ### LBRY.fund Awards New Community Grants {#lbry-fund}
 The LBRY.fund had an amazing month in July, and we’re proud to fund some familiar and some new faces in the LBRY community. 
