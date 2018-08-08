@@ -22,6 +22,15 @@
 <div class="control-item no-label-desktop">
   <a href="https://github.com/lbryio" target="_blank"><span class="btn-label">GitHub</span><span class="icon-github icon-fw"></span></a>
 </div>
+<div class="control-item no-label-desktop">
+<a href="https://t.me/lbryofficial" target="_blank"><span class="btn-label">Telegram</span> <i class="fab fa-telegram"></i></a>
+</div>
+<div class="control-item no-label-desktop">
+<a href="https://www.instagram.com/lbryio/" target="_blank"><span class="btn-label">Instagram</span> <i class="fab fa-instagram"></i></a>
+</div>
+<div class="control-item no-label-desktop">
+<a href="https://shop.lbry.io" target="_blank"><span class="btn-label">LBRY Shop</span> <span class="icon-fw icon-shopping-cart"></span></a>
+</div>
 <?php /*
 <div class="control-item no-label-desktop">
   <form action="/set-culture" method="POST">
