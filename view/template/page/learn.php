@@ -42,6 +42,9 @@
         <div class="spacer1">
           <a href="https://shop.lbry.io" class="link-primary">LBRY Merchandise Shop</a>
         </div>
+        <div class="spacer1">
+          <a href="https://lbry.community" class="link-primary" target="_blank">LBRY Community</a> (external site)
+        </div>
       </div>
     </div>
   </div>
