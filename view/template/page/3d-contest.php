@@ -18,17 +18,11 @@
   </div>
   <div class="cover cover-light" id="about">
     <div class="content content-light content-readable">
-      <h3>Are you a 3D designer?</h3>
-      <h4>Upload a chess set design and earn $5 in cryptocurrency just for entering. Spark our imagination and win up to $100 in cryptocurrency!</h4>
-      <h3>
-        <img src="https://spee.ch/a/3D-chess-awards-Update-01.jpeg" alt=3D-Chess-Contest-Image style="width:650px;">
-      <h3>I'm game. How do I enter?</h3>
-      <div>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/eIsD6fQdfKU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    </div>
-      <div>
-      <p>Upload your chess set design (use a zip folder for multiple files) in either STL or OBJ format to the LBRY (library) network. Once finished, email the lbry:// address (automatically recieve $5 in Library Credits for your first upload) to <a href="mailto:james@lbry.io" class="link-primary"><span class="btn-label">james@lbry.io</span></a> by July 31st.<p>
-      </div>
+      <h1>This contest has ended.</h1>
+      <h2> Download the winning designs below!</h2>
+      <a href="https://open.lbry.io/gregsintricatechessa"><img src=https://spee.ch/a/Screen-Shot-2018-08-01-at-120254-PM style="width:750px;"></a>
+      <a href="https://open.lbry.io/gregsintricatechessb"><img src=https://spee.ch/7/Screen-Shot-2018-08-01-at-120352-PM style="width:750px;"></a>
+      <a href="https://open.lbry.io/zeycussabstractchess"><img src=https://spee.ch/b/Screen-Shot-2018-08-01-at-121025-PM style="width:750px;"></a>
       <p>You can <a href="/get?src=FA">download the LBRY app here.</a> If you have any questions or need help, <a href="http://chat.lbry.io">join our Discord community.</a></p>
 <div class="text-center spacer1"><a href="/get?src=FA" class="btn-primary btn-large">Get LBRY App</a></div>
     <body align="center">

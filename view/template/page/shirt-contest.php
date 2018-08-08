@@ -8,9 +8,6 @@
     <div class="content content-dark text-center">
       <h1 class="cover-title cover-title-tile cover-item--outline">
         Calling all design champions!
-        <div>
-          LBRY is looking to reward you with $100 in cryptocurrency.
-        </div>
       </h1>
       <h3 class="cover-item--outline">
       </h3>
@@ -19,17 +16,10 @@
       </div>
     </div>
   </div>
+  <h2>This contest has ended.</h2>
+  <h2> Purchase the winning designs <a href="https://shop.lbry.io">in our shop!</a> (New designs coming soon)</h2>
   <div class="cover cover-light" id="about">
     <div class="content content-light content-readable">
-      <h3>Are you a graphic designer?</h3>
-      <h4>Impress us with a t-shirt design & earn $100 in Library Credits, LBRY's native cryptocurrency.</h4>
-      <h3>
-        <img src="https://spee.ch/3/Tshirt-design-deadline-02-01.jpeg" alt=3D-Chess-Contest-Image style="width:650px;">
-      <h3>I'm game. How do I enter?</h3>
-      <div>
-      <p>Make a creative design that encompasses the freedom of speech/censorship free message of LBRY. Once you finish your design email it to <a href="mailto:james@lbry.io" class="link-primary"><span class="btn-label">james@lbry.io</span></a> by July 31st.<p>
-      </div>
-      <h4>Also checkout our <a href="https://lbry.io/3d-contest" class="link-primary"><span class="btn-label">3D Chess Set Design Contest</span></a></h4>
     <body align="center">
   <div class="content content-light content-readable">
     <h3>Want to keep updated on future contests?</h3>
