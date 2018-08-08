@@ -1,5 +1,5 @@
 ---
-author: samuel-bryan
+author: samuel-lbryan
 title: 'Development and Community Update July 2018'
 date: '2018-08-08 08:08:08'
 cover: 'lex-amit.jpg'
