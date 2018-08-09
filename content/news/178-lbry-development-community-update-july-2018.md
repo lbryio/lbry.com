@@ -1,8 +1,9 @@
 ---
-author: samuel-lbryan
+author: samuel-lbryian
 title: 'Development and Community Update July 2018'
 date: '2018-08-08 08:08:08'
 cover: 'lex-amit.jpg'
+category: community-update
 ---
 Welcome to the July 2018 LBRY Development and Community update! In this post we’ll show you what we’ve been up to and review our progress for the month of July. We had a very busy month - new releases on the Protocol, new features in the LBRY app, project grants via the LBRY.fund, and wallet encryption progress are among the highlights.
 
