@@ -95,7 +95,7 @@ We’ve recently identified a number of subscription-related bugs and inconsiste
 ### Document Viewer
 Community member [btzr](https://github.com/btzr-io) comes through again with another awesome addition to the LBRY app - a document viewer for files like docx, markdown, HTML, txt, csv, json and formatting for over 100 coding languages like javascript, xml and python. These file types will also automatically open the document viewer if you have them downloaded. This also means there’s less and less of a reliance on the most prominent file viewer, render-media, in the LBRY app so we can slowly focus on replacing it with a more versatile video player. 
 
-![document viewer](https://spee.ch/c3dc01f3e7445bb91062b097e43963e07e45bb8e/doc-viewer.jpeg)
+![document viewer](https://spee.ch/31248a3319f26e4a1a2844f6048b05c390255152/colors.png)
 
 ### Browsing History
 Wouldn’t it be nice to know which content you’ve visited while exploring the LBRY app? Good news! A browsing history feature is currently a [work in progress](https://github.com/lbryio/lbry-desktop/pull/1846) by community member [Travis,](https://github.com/daovist) which will store each file you’ve visited, and whether it was actually played/opened. We’ll be changing the tile view to a more detailed list view in order to improve the display of this type of information. You’ll have the ability to clear items one by one and also with a clear all button. Check out an early preview below! 
