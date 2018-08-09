@@ -24,23 +24,23 @@
       <div class="content content-light content-tile">
         <h3>{{learn.explore}}</h3>
         <div class="spacer1">
-          <a href="/news" class="link-primary">Latest News</a>
+          <a href="/news" class="link-primary"><i class="fa fa-newspaper icon-fw"></i><span class="btn-label">Latest News</span></a>
         </div>
         <div class="spacer1">
-          <a href="/faq" class="link-primary">{{page.faq.header}}</a>
+          <a href="/faq" class="link-primary"><span class="fa fa-question icon-fw"></span><span class="btn-label">{{page.faq.header}}</span></a>
           (<a href="/faq/what-is-lbry" class="link-primary">What is LBRY?</a>)
         </div>
         <div class="spacer1">
-          <a href="http://explorer.lbry.io" class="link-primary">Blockchain Explorer</a>
+          <a href="http://explorer.lbry.io" class="link-primary"><span class="fa fa-globe icon-fw"></span><span class="btn-label">Blockchain Explorer</span></a>
         </div>
         <div class="spacer1">
-          <a href="/team" class="link-primary">About the Team</a>
+          <a href="/team" class="link-primary"><span class="fa fa-users icon-fw"></span><span class="btn-label">About the Team</span></a>
         </div>
         <div class="spacer1">
-          <a href="/credit-reports" class="link-primary">Credit Reports</a>
+          <a href="/credit-reports" class="link-primary"><span class="fa fa-university icon-fw"></span><span class="btn-label">Credit Reports</span></a>
         </div>
         <div class="spacer1">
-          <a href="https://shop.lbry.io" class="link-primary">LBRY Merchandise Shop</a>
+          <a href="https://shop.lbry.io" class="link-primary"><span class="fa fa-shopping-bag icon-fw"></span><span class="btn-label">LBRY Merchandise Shop</span></a>
         </div>
       </div>
     </div>
