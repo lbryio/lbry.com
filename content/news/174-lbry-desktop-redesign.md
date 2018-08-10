@@ -10,6 +10,8 @@ About 4 months ago a user by the name of @nizuka told us he had been working on 
 
 This happened shortly after I had joined LBRY full time. My main task since I started has been working with Nicolas to implement this new design. Initially we had a few brainstorming meetings to discuss what we could improve on his initial demo. He began coming back with some killer mockups and the project was officially underway. Once we were happy with the design, Nicolas created a web demo to share to the community.
 
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Flbryio%2Fposts%2F2050368121946614&width=500" width="500" height="510" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+
 While all of this was happening, I had started working on some of the initial refactoring inside our app. There were a few React components that had tons of internal state and it was making it tough to add new features and reproduce bugs. The publish page was one of the worst offenders. We have moved most of this logic into redux and which has allowed us to do some cool things such as remembering where you were in the publish process if you leave the screen, and it has made it a lot easier to prefill the publish form if you are editing claims. We plan to re-work the UX for publishing, and this was a needed first step. 
 
 Another piece we wanted to improve was our CSS architecture. The app is now (mostly) conforming to BEM naming patterns, which has made it really easy to ensure styles are the same for similar components across the app. 
