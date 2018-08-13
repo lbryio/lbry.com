@@ -51,6 +51,10 @@
         <h3>For Developers</h3>
         <p>LBRY is 100% open source in the <a class="link-primary" href="https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar">Bazaar tradition</a>.</p>
         <?php echo View::render('social/_listDev') ?>
+        <h3>For Youtubers</h3>
+        <div class="spacer1">
+          <a href="https://lbry.io/youtube" class="link-primary"><i class="fa fa-sync icon-fw"></i><span class="btn-label">Youtube Partner Program</span></a>
+        </div>
       </div>
     </div>
   </div>
