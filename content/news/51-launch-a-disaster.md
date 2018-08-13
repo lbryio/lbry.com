@@ -1,4 +1,4 @@
-﻿---
+---
 author: samuel-lbryian
 title: 'LBRY Launch A Disaster'
 date: '2016-07-20 00:06:18'
@@ -17,7 +17,7 @@ A groundbreaking content distribution platform is useless without great content.
 
 The film stars David Cross (*Arrested Development, Mr. Show*), Julia Stiles (*The Bourne Ultimatum, Dexter*), and was produced by some of Hollywood’s brightest rising talent. The setting for this dark comedy is a regular Sunday brunch attended by four couples. The gathering is filled with the tension, and awkwardness audiences have grown to love in Cross’ performances. The strained brunch goes even further off the rails when a deadly chemical attack occurs in the nearby city, apparently dooming the attendees to an unpleasant death.
 
-*It’s a Disaster* is [Certified Fresh on Rotten Tomatoes](https://www.rottentomatoes.com/m/its_a_disaster/). It won [3 film festival awards](http://www.imdb.com/title/tt1995341/awards?ref_=tt_awd) when it was released, including Best Feature at both the Edmonton International and the New Orleans Film Festivals. Jim Emerson reviewed it for [RogerEbert.com](http://www.rogerebert.com/reviews/its-a-disaster-2013), giving it a solid recommendation:
+*It’s a Disaster* is [Certified Fresh on Rotten Tomatoes](https://www.rottentomatoes.com/m/its_a_disaster/). It won [3 film festival awards](https://www.imdb.com/title/tt1995341/awards?ref_=tt_awd) when it was released, including Best Feature at both the Edmonton International and the New Orleans Film Festivals. Jim Emerson reviewed it for [RogerEbert.com](https://www.rogerebert.com/reviews/its-a-disaster-2013), giving it a solid recommendation:
 
 >“The movie’s funniest touches are quiet flashes of character, expertly timed and nimbly played by a deft ensemble. *It’s a Disaster* is consistently funny, but you wince more often than you laugh out loud. It’s like a Christopher Guest improvisational farce with the volume turned down to 5.”
 
@@ -29,7 +29,7 @@ Reilly said he hoped exposing users to Oscilloscope Labs would “lead viewers d
 
 >”*It’s a Disaster* is the quintessential indie comedy with something for everyone. We couldn’t have been luckier – this film is the perfect way to celebrate the launch of LBRY.”
 
-If you are a LBRY beta user and haven’t watched *It’s a Disaster* yet, [check it out](lbry://itsadisaster). We think you’ll enjoy the film. And the more people who watch and love *It’s a Disaster*, the more great movies LBRY will get in the future. 
+If you are a LBRY beta user and haven’t watched *It’s a Disaster* yet, [check it out](https://open.lbry.io/itsadisaster). We think you’ll enjoy the film. And the more people who watch and love *It’s a Disaster*, the more great movies LBRY will get in the future. 
 
 
 
