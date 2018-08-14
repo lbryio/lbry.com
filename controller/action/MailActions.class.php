@@ -59,4 +59,10 @@ class MailActions extends Actions
         $response = LBRY::unsubscribe($decodedEmail);
         return ['mail/unsubscribe', ['error' => $response['error']]];
     }
+
+    public static function editEmailSettings(string $token)
+    {
+        $response = LBRY::emailStatus($token);
+        return ['mail/settings',['data' => $response['data'],'error' => $response['error']]];
+    }
 }
