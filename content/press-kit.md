@@ -1,8 +1,3 @@
-### Press & Media Inquiries
-
-Brinck Slattery<br/>
-[brinck@lbry.io](mailto:brinck@lbry.io)
-
 ### Company Profile
 
 LBRY’s goal: Every film, song, book & game ever made – accessible anywhere.
