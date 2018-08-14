@@ -15,8 +15,35 @@
     <a href="/press-kit.zip" class="btn-primary"><span class="icon icon-download"></span><span class="btn-label">{{press.zip}}</span></a>
     </div>
     <p>{{press.includes}}</p>
-
-    <?php echo  View::render('press-kit.md') ?>
+    <h3>{{press.media}}</h3>
+    <?php foreach (['Brinck-Slattery'] as $person): ?>
+      <?php list($metadata, $bioHtml) = View::parseMarkdown('bio/' . $person . '.md') ?>
+      <section class="row-fluid">
+        <div class="span3">
+          <img src="https://spee.ch/@lbryteam:6/<?php echo $person ?>.jpg" alt="<?php echo $metadata['name'] ?>"/>
+        </div>
+        <div class="span9">
+          <h4>
+            <?php echo $metadata['name'] ?>
+            <?php if (isset($metadata['email'])): ?>
+              <a href="mailto:<?php echo $metadata['email'] ?>" class="link-primary"><span class="icon icon-envelope"></span></a>
+           <?php endif ?>        
+           <?php if (isset($metadata['github'])): ?>
+              <a href="https://github.com/<?php echo $metadata['github'] ?>" class="link-primary"><span class="icon icon-github"></span></a>
+          <?php endif ?> 
+          <?php if (isset($metadata['twitter'])): ?>
+              <a href="https://www.twitter.com/<?php echo $metadata['twitter'] ?>" class="link-primary"><span class="icon icon-twitter"></span></a>
+          <?php endif ?>
+          </h4>
+          <div class="meta spacer1"><?php echo $metadata['role'] ?></div>
+          <div class="markdown">
+            <?php echo $bioHtml ?>
+          </div>
+        </div>
+      </section>
+    <?php endforeach ?>
+        <?php echo  View::render('press-kit.md') ?>
+        </div>
 
     <h3 id="images">{{press.logos}}</h3>
     <div class="column-fluid">
