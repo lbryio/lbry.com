@@ -1,4 +1,4 @@
-﻿---
+---
 author: reilly-smith
 title: 'Nono LoL'
 date: '2017-11-24 00:20:30'
@@ -12,7 +12,7 @@ Introducing the *first* French-speaking channel to LBRY and the first LoL stream
 
 <video width="100%" controls poster="https://berk.ninja/thumbnails/uyo8s7hE9xY" src="https://spee.ch/9ac8454a292304d8b6e2309fc6698b354a436cc6/nono-adc-master-best-of-1.mp4"/></video>
 
-Nono, a Season 1 LCS (League Championship Series) player in EU, shows some of his games, his e-sport events and Summoner's tips to a French-speaking audience, right here on LBRY at [lbry://@Nono](https://open.lbry.io/%40Nono) or  spee.ch/@Nono.
+Nono, a Season 1 LCS (League Championship Series) player in EU, shows some of his games, his e-sport events and Summoner's tips to a French-speaking audience, right here on LBRY at [lbry://@Nono](https://open.lbry.io/%40Nono) or  [spee.ch/@Nono](spee.ch/@Nono).
 
 *Nono ex-joueur LCS, joueur de LoL au haut niveau depuis longtemps, propose ses conseils pour s'améliorer ! Autant rendre l’expérience que j'ai acquis sur le jeu, profitable à tous.*
 
