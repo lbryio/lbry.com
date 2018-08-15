@@ -89,7 +89,7 @@ Me losing a game of Animal Tower (not on the blockchain).
 
 I think me going to download the game in the iOS store and having a successful experience (or unsuccessful considering I was pretty bad at it) demonstrates that most games probably won’t have much of a reason to be on the blockchain unless there’s value in having a decentralized ledger for the gaming experience.
 
-[https://youtu.be/Tyqw42dCLuQ](https://youtu.be/Tyqw42dCLuQ)
+![PotCoin Page](https://spee.ch/d08289202108536390d5731c720d883a2c33f265/potcoin-page.png)
 
 Red flags:
 
@@ -113,7 +113,7 @@ Even High Times doesn’t respect PotCoin enough to let in in on their IPO while
 
 ![PotCoin Tweet](https://staging.spee.ch/bc12ceb5eaa47e1ae348a711b29a3f4ca0a37f53/potion-hightimes.png)
 
-Maybe High Times doesn’t want to associate itself with Dennis Rodman, who was sponsored by PotCoin on his trip to Singapore (note the PotCoin shirt) for the North Korea summit this year and a trip to North Korea last year.
+Maybe High Times doesn’t want to associate itself with Dennis Rodman, who was sponsored by PotCoin [on his trip to Singapore](https://www.youtube.com/watch?v=TI5KULypIdw) (note the PotCoin shirt) for the North Korea summit this year and a trip to North Korea last year.
 
 [![Dennis Rodman Sponsored by PotCoin on Trip to North Korea](https://www.youtube.com/watch?v=TI5KULypIdw.jpg)](https://www.youtube.com/watch?v=TI5KULypIdw)
 
@@ -153,7 +153,7 @@ We’re so anti-hype at LBRY that it’s almost a fault. We don’t even use the
 
 This is because we see the value of LBRY transcending the hype around blockchain. Our mantra isn’t "HODL" (Hold), but “BUIDL” (Build).
 
-The problems that we’re solving are explained in this essay written in an [essay here](https://lbry.io/what).
+The problems that we’re solving are explained in this [essay](https://lbry.io/what).
 
 "LBRY is the first digital marketplace to be controlled by the market’s participants rather than a corporation or other 3rd-party. It is the most open, fair, and efficient marketplace for digital goods ever created, with an incentive design encouraging it to become the most complete."
 
