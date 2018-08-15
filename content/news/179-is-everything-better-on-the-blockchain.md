@@ -37,7 +37,7 @@ There are a number of telling signs from the home page of each coin’s respecti
 
 1. All Sports ($SOC)
 
-![image alt text](image_0.png)
+![All Sports Coin](https://staging.spee.ch/d389f79f88b7008508f71f4964e9b5f858ad91c0/soc-coin.png)
 
 Red flags:
 
@@ -63,7 +63,7 @@ The creators of SOC seem to take for granted that the sports industry needs its 
 
 [https://pb.game.com/o_1c3n3fk8v1pgjsdgorsgnonvmm.mp4](https://pb.game.com/o_1c3n3fk8v1pgjsdgorsgnonvmm.mp4)
 
-![image alt text](image_1.png)
+![Game.com](https://staging.spee.ch/9fdb30146b3a78c6dffdb78edc95f16c29b38743/game-coin.png)
 
 Red flags:
 
@@ -79,13 +79,13 @@ The video attempts to combine cringe-worthy stock music and nebulous imagery to 
 
 If you browse through the site more you’ll end up finding a couple of games: ‘Battle Pets’ and ‘love.pet’. I was actually able to find a version of ‘Battle Pets’ called AnimalTower in the iOS store. Thing is, it has absolutely no relation to blockchain from what I can tell. 
 
-![image alt text](image_2.png)
+![Animal Wars](https://staging.spee.ch/c22fae94e884eaf37a5b958d71d7e7e762e24c14/animal-wars.png)
 
-When you click on the "Start Game" on the link from Game.com’s site you get an error message in Chinese: ![image alt text](image_3.png)
+When you click on the "Start Game" on the link from Game.com’s site you get an error message in Chinese: ![Chinese Error Message](https://staging.spee.ch/4ccaacf663871c29e9266a912795cded5a6f480b/chinese-error.png)
 
 I have to give them credit for having a subtle backdrop of animals from the game in the background, but would have liked to see the game open and see a wallet of some sort so that I understand how cryptocurrency relates to the game.
 
-![image alt text](image_4.png)
+![Animal Tower](https://staging.spee.ch/665668ecf71fa8e676df7e17e6956550ce4a3cc0/animal-tower.png)
 
 Me losing a game of Animal Tower (not on the blockchain).
 
@@ -113,11 +113,11 @@ PotCoin fails to mention why it’s the solution to the world of legal marijuana
 
 Even High Times doesn’t respect PotCoin enough to let in in on their IPO while they DO accept Bitcoin and Ethereum. Tweeting at High Times that they need to accept PotCoin but not providing any reasons why it’s better than Bitcoin or Ethereum is pretty unconvincing…
 
-[https://twitter.com/PotCoin/status/1025194978954436613](https://twitter.com/PotCoin/status/1025194978954436613)
+![PotCoin Tweet](https://staging.spee.ch/bc12ceb5eaa47e1ae348a711b29a3f4ca0a37f53/potion-hightimes.png)
 
 Maybe High Times doesn’t want to associate itself with Dennis Rodman, who was sponsored by PotCoin on his trip to Singapore (note the PotCoin shirt) for the North Korea summit this year and a trip to North Korea last year.
 
-[https://www.youtube.com/watch?v=TI5KULypIdw](https://www.youtube.com/watch?v=TI5KULypIdw)
+[![Dennis Rodman Sponsored by PotCoin on Trip to North Korea](https://www.youtube.com/watch?v=TI5KULypIdw.jpg)](https://www.youtube.com/watch?v=TI5KULypIdw)
 
 PotCoin website also claims to be a banking solution for the cannabis industry (not true) despite also claiming to be transferable without banks (true).
 
@@ -153,7 +153,7 @@ If you’re looking to speculate on projects, don’t fall for projects that are
 
 We’re so anti-hype at LBRY that it’s almost a fault. We don’t even use the word "blockchain" or “cryptocurrency” on our homepage, [lbry.io](https://lbry.io).
 
-This is because we see the value of LBRY transcending the hype around blockchain. Our mantra isn’t "HODL", but “BUIDL” (Build).
+This is because we see the value of LBRY transcending the hype around blockchain. Our mantra isn’t "HODL" (Hold), but “BUIDL” (Build).
 
 The problems that we’re solving are explained in this essay written in an [essay here](https://lbry.io/what).
 
