@@ -61,8 +61,6 @@ If there was one solution they might’ve been offering it would be the a decent
 
 The creators of SOC seem to take for granted that the sports industry needs its own blockchain, and that having a couple of famous soccer player faces on the front page of the website will surely be a way to draw speculators to invest in their token. This is the sport of pump and dump, and you have to be a bad sport to play it.
 
-[https://pb.game.com/o_1c3n3fk8v1pgjsdgorsgnonvmm.mp4](https://pb.game.com/o_1c3n3fk8v1pgjsdgorsgnonvmm.mp4)
-
 ![Game.com](https://staging.spee.ch/9fdb30146b3a78c6dffdb78edc95f16c29b38743/game-coin.png)
 
 Red flags:
@@ -73,7 +71,7 @@ Red flags:
 
 3. Game.com flashes the fact that it is "Game.com" above all else
 
-The biggest thing Game.com has going for it seems to be that it’s Game**_.com_**
+The biggest thing Game.com has going for it seems to be that it’s Game **_.com_**
 
 The video attempts to combine cringe-worthy stock music and nebulous imagery to create a buy-in for Game.com’s overwhelmingly vague mission of "creating a global gaming and entertainment platform for blockchain digital currencies."
 
