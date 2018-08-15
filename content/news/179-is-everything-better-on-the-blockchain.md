@@ -5,7 +5,7 @@ date: '2018-08-15 08:08:08'
 cover: 'lex-amit.jpg'
 category: blog
 ---
-It’s 2018 and everyone’s scrambling to be "on the blockchain".
+It’s 2018 and everyone’s scrambling to be the first to put something "on the blockchain".
 
 A few strange examples include the following:
 
@@ -35,7 +35,7 @@ Note that these coins were picked randomly and that there are MANY more cryptocu
 
 There are a number of telling signs from the home page of each coin’s respective website that these projects are attempting to cash in on the hype of blockchain. I’ll cover 3 red flags for each site and analyze the "value" of their project.
 
-1. All Sports ($SOC)
+## Are sports better on the blockchain?
 
 ![All Sports Coin](https://staging.spee.ch/d389f79f88b7008508f71f4964e9b5f858ad91c0/soc-coin.png)
 
@@ -60,6 +60,8 @@ It seems that the white paper fabricates some solutions to problems that don’t
 If there was one solution they might’ve been offering it would be the a decentralized sports prediction market. The thing is, there’s already a blockchain project, [Augur](https://www.augur.net), tackling the core issue of betting/prediction markets as a whole. At this point in time it seems far more likely to take off than SOC. Unsurprisingly, the site does not mention any advantages it has over Augur.
 
 The creators of SOC seem to take for granted that the sports industry needs its own blockchain, and that having a couple of famous soccer player faces on the front page of the website will surely be a way to draw speculators to invest in their token. This is the sport of pump and dump, and you have to be a bad sport to play it.
+
+## Is gaming better on the blockchain?
 
 ![Game.com](https://staging.spee.ch/9fdb30146b3a78c6dffdb78edc95f16c29b38743/game-coin.png)
 
@@ -88,6 +90,8 @@ I have to give them credit for having a subtle backdrop of animals from the game
 Me losing a game of Animal Tower (not on the blockchain).
 
 I think me going to download the game in the iOS store and having a successful experience (or unsuccessful considering I was pretty bad at it) demonstrates that most games probably won’t have much of a reason to be on the blockchain unless there’s value in having a decentralized ledger for the gaming experience.
+
+## Is marijuana better on the blockchain?
 
 ![PotCoin Page](https://spee.ch/d08289202108536390d5731c720d883a2c33f265/potcoin-page.png)
 
