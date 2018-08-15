@@ -113,11 +113,9 @@ Even High Times doesn’t respect PotCoin enough to let in in on their IPO while
 
 ![PotCoin Tweet](https://staging.spee.ch/bc12ceb5eaa47e1ae348a711b29a3f4ca0a37f53/potion-hightimes.png)
 
-Maybe High Times doesn’t want to associate itself with Dennis Rodman, who was sponsored by PotCoin [on his trip to Singapore](https://www.youtube.com/watch?v=TI5KULypIdw) (note the PotCoin shirt) for the North Korea summit this year and a trip to North Korea last year.
+Maybe High Times doesn’t want to associate itself with Dennis Rodman, who was sponsored by PotCoin [on his trip to Singapore(note the PotCoin shirt) for the North Korea summit this year](https://www.youtube.com/watch?v=TI5KULypIdw) and a trip to North Korea last year. 
 
-[![Dennis Rodman Sponsored by PotCoin on Trip to North Korea](https://www.youtube.com/watch?v=TI5KULypIdw.jpg)](https://www.youtube.com/watch?v=TI5KULypIdw)
-
-PotCoin website also claims to be a banking solution for the cannabis industry (not true) despite also claiming to be transferable without banks (true).
+PotCoin's website also claims to be a banking solution for the cannabis industry (not true) despite also claiming to be transferable without banks (true).
 
 "PotCoin is a…  ...banking solution for the $100 billion global legal marijuana industry."
 
