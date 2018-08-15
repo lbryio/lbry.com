@@ -1,4 +1,4 @@
-﻿---
+---
 author: reilly-smith
 title: 'Clash Cash'
 date: '2018-02-22 00:20:00'
