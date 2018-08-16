@@ -1,4 +1,4 @@
-﻿---
+---
 author: reilly-smith
 title: 'React. Or don't.'
 date: '2017-09-28 00:22:30'
@@ -20,4 +20,4 @@ Donate LBRY Credits directly to the videos you like using the integrated tipjar 
 
 Or become a Patreon donor here: https://www.patreon.com/NurdRage
 
-**[Download LBRY today](https://lbry.io/get)**. Is your favorite channel not on LBRY? Help us feature what you want to see! Email reilly@lbry.io to make it happen. Or sync your own channel at: https://lbry.io/youtube
+**[Download LBRY today](https://lbry.io/get)**. Is your favorite channel not on LBRY? Help us feature what you want to see! Email [reilly@lbry.io](mailto:reilly@lbry.io) to make it happen. Or sync your own channel at: https://lbry.io/youtube
