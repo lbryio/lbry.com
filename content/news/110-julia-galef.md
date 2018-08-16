@@ -18,7 +18,7 @@ One of the most critical minds of our day, Julia co-founded the non-profit Cente
 
 Her vlog lectures, covering paradoxes, beliefs, morality, and everything under the philosophical sun, can be found on LBRY at:
 
-https://open.lbry.io/@JuliaGalef
+[lbry://@JuliaGalef](https://open.lbry.io/@JuliaGalef)
 
 (The Rationally Speaking podcast series will also be available @JuliaGalef--as well as other podcasts--when LBRY introduces its native audio player.)
 
