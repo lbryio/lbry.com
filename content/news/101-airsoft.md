@@ -1,4 +1,4 @@
-﻿---
+---
 author: reilly-smith
 title: 'Pew Pew Bang Bang'
 date: '2017-03-16 00:18:00'
@@ -20,4 +20,4 @@ Amped also publishes countless reviews of gear for your squadron, available [on 
 
 Be a hero and join the Amped team on LBRY by syncing your channel today with https://lbry.io/youtube
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Have a burning desire to put your content more places? Email reilly@lbry.io for a ride on the wild side of publishing.
+**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Have a burning desire to put your content more places? Email [reilly@lbry.io](mailto:reilly@lbry.io) for a ride on the wild side of publishing.
