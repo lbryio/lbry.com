@@ -16,7 +16,7 @@ Mr. Mayer’s content is available in both Deutsch and English. A mix of vlogs, 
 
 LBRY’s first 3D printing and DIY electronics channel can be found at:
 
-**https://open.lbry.io/@MAYERMAKES**
+[**lbry://@MAYERMAKES**](https://open.lbry.io/@MAYERMAKES)
 
 
 You can meet Clemens in person on May 6th and 7th at the [Munich Maker Festival](http://make-munich.de/). Maybe he’ll have some free LBRY Credits to give away…
