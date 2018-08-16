@@ -1,4 +1,4 @@
-﻿---
+---
 author: samuel-lbryian
 title: 'Howl With Us'
 date: '2017-11-24 00:20:30'
@@ -18,4 +18,4 @@ Use [this link](https://open.lbry.io/howl-lbry-movie-night) to watch **Howl** in
 See you at the movies!
 
 
-**[Download LBRY today](https://lbry.io/get)**. Is your favorite channel or creator not on LBRY? Help us feature what you want to see! Email reilly@lbry.io to make it happen. Or sync your own channel at: https://lbry.io/youtube
+**[Download LBRY today](https://lbry.io/get)**. Is your favorite channel or creator not on LBRY? Help us feature what you want to see! Email [reilly@lbry.io](mailto:reilly@lbry.io) to make it happen. Or sync your own channel at: https://lbry.io/youtube
