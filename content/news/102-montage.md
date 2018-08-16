@@ -1,4 +1,4 @@
-﻿---
+---
 author: reilly-smith
 title: 'Ragequit the NoobTube'
 date: '2017-03-23 00:16:00'
@@ -25,4 +25,4 @@ What does this seemingly gibberish string of words have to do with “Gaming?”
 
 gg no re.
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Have a stream feed you want to add to LBRY? Email reilly@lbry.io to rage quit YouTube in style.
+**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Have a stream feed you want to add to LBRY? Email [reilly@lbry.io](mailto:reilly@lbry.io) to rage quit YouTube in style.
