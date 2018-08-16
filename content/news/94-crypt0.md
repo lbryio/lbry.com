@@ -14,4 +14,4 @@ Crypt0 joins Chris Coney’s Cryptoverse and Trevon James as the third show with
 
 You can also find his work at www.crypt0snews.com.
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Sync your crypto vlog channel today with this handy tool at https://lbry.io/youtube or email reilly@lbry.io.
+**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Sync your crypto vlog channel today with this handy tool at https://lbry.io/youtube or email [reilly@lbry.io](mailto:reilly@lbry.io).
