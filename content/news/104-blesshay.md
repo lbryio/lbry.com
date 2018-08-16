@@ -18,4 +18,4 @@ Add your channel on LBRY with Simon using our YouTube-LBRY API sync tool here: h
 
 Or better yet, develop your own game and become the first interactive title published on LBRY.
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Have a feed you want to add to LBRY? Email reilly@lbry.io to rage quit YouTube in style.
+**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Have a feed you want to add to LBRY? Email [reilly@lbry.io](mailto:reilly@lbry.io) to rage quit YouTube in style.
