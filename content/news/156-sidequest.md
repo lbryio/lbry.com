@@ -1,4 +1,4 @@
-﻿---
+---
 author: reilly-smith
 title: 'Choose your own adventure'
 date: '2018-01-25 00:20:00'
@@ -16,4 +16,4 @@ Between Colin’s Last Stand and Sidequest, one of the most iconic games reviewe
 
 Subscribe to @Sidequest or follow him [via Spee.ch](https://spee.ch/@Sidequest).
 
-**[Download LBRY today](https://lbry.io/get)**. Is your favorite channel not on LBRY? Help us feature what you want to see! Email reilly@lbry.io to make it happen. Or sync your own channel at: https://lbry.io/youtube
+**[Download LBRY today](https://lbry.io/get)**. Is your favorite channel not on LBRY? Help us feature what you want to see! Email [reilly@lbry.io](mailto:reilly@lbry.io) to make it happen. Or sync your own channel at: https://lbry.io/youtube
