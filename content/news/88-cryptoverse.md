@@ -21,14 +21,14 @@ Both Chris and Trevon were LBRY early adopters. It’s still pretty early; you o
 Sync your YouTube channel today with this handy tool: https://lbry.io/youtube
 
 **Check out the LBRY film playlist**
-- [*Coherence*](lbry://coherence)
-- [*It’s A Disaster*](lbry://itsadisaster)
-- [*Bellflower*](lbry://bellfower)
-- [*Jingle Bell Rocks!*](lbry://jinglebellrocks)
-- [*Rare Exports: A Christmas Tale*](lbry://rareexports)
-- [*The Internet’s Own Boy*](lbry://theinternetsownboy)
-- [*TPB AFK: The Pirate Bay Away from Keyboard*](lbry://tpbafk)
-- [*S&M Lawn Care*](lbry://smlawncare)
-- [*Cinema Six*](lbry://cinemasix)
+- [*Coherence*](https://open.lbry.io/coherence)
+- [*It’s A Disaster*](https://open.lbry.io/itsadisaster)
+- [*Bellflower*](https://open.lbry.io/bellfower)
+- [*Jingle Bell Rocks!*](https://open.lbry.io/jinglebellrocks)
+- [*Rare Exports: A Christmas Tale*](https://open.lbry.io/rareexports)
+- [*The Internet’s Own Boy*](https://open.lbry.io/theinternetsownboy)
+- [*TPB AFK: The Pirate Bay Away from Keyboard*](https://open.lbry.io/tpbafk)
+- [*S&M Lawn Care*](https://open.lbry.io/smlawncare)
+- [*Cinema Six*](https://open.lbry.io/cinemasix)
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Email reilly@lbry.io to join.
+**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Email [reilly@lbry.io](mailto:reilly@lbry.io) to join.
