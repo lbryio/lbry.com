@@ -14,4 +14,4 @@ STEAL THIS SHOW is presented by [TorrentFreak](https://torrentfreak.com/).
 
 You can help [support the show on Patreon](https://www.patreon.com/stealthisshow) and start listening on LBRY today.
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Have a great podcast looking for more listeners? Email reilly@lbry.io to join.
+**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Have a great podcast looking for more listeners? Email [reilly@lbry.io](mailto:reilly@lbry.io) to join.
