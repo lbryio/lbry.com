@@ -15,7 +15,7 @@ Acoustic Labs, otherwise known as composer GC Johnson, publishes a variety of mu
 GC has scored many films and multiple Netflix series. And he has some of the most epic fingerpicking videos online. (The ronroco versions are my personal favorite).
 
 Check him out soon on LBRY at:
-- https://open.lbry.io/@AcousticLabs
+- [lbry://@AcousticLabs](https://open.lbry.io/@AcousticLabs)
 
 If you're sick of Bandcamp or Spotify, LBRY could be your new outlet.
 
