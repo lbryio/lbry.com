@@ -1,4 +1,4 @@
-﻿---
+---
 author: reilly-smith
 title: 'Get Lit on Rhymes'
 date: '2017-04-20 00:20:00'
@@ -31,4 +31,4 @@ And keep up with his latest goings-on:
 
 *Today was a good day...*
 
-**Not on LBRY yet?** [Download here](https://lbry.io/get). Musician looking for a way to avoid being shafted by The Man? Email reilly@lbry.io to actually make money on your music.
+**Not on LBRY yet?** [Download here](https://lbry.io/get). Musician looking for a way to avoid being shafted by The Man? Email [reilly@lbry.io](mailto:reilly@lbry.io) to actually make money on your music.
