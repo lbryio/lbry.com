@@ -14,7 +14,7 @@ First out the gate: if you’re feeling nostalgic for [Los Santos](http://gta.wi
 
 lbry://gtasoc
 
-And in the LBRY sequel to HeckBender’s *Pug Rap God* (https://open.lbry.io/pugrapgod), AnimalRobot steps up the rap god game with his mad masterpiece, *Rick and Morty + Rap God*. You’ve never heard Rick spit like this before.
+And in the LBRY sequel to HeckBender’s *Pug Rap God* (lbry://pugrapgod), AnimalRobot steps up the rap god game with his mad masterpiece, *Rick and Morty + Rap God*. You’ve never heard Rick spit like this before.
 
 ![Rick and Morty vs. Eminem](/img/news/rick.png)
 
