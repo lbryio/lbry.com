@@ -1,4 +1,4 @@
-﻿---
+---
 author: reilly-smith
 title: 'The Stand'
 date: '2018-03-01 00:20:00'
@@ -14,4 +14,4 @@ The prolific [Colin Moriarty](https://open.lbry.io/%40ColinsLastStand) (CLS, Sid
 
 Become a subscriber to [Colin’s Patreon here](https://www.patreon.com/colinslaststand/posts).
 
-**[Download LBRY today](https://lbry.io/get)**. Is your favorite channel not on LBRY? Help us feature what you want to see! Email reilly@lbry.io to make it happen. Or sync your own channel at: https://lbry.io/youtube
+**[Download LBRY today](https://lbry.io/get)**. Is your favorite channel not on LBRY? Help us feature what you want to see! Email [reilly@lbry.io](mailto:reilly@lbry.io) to make it happen. Or sync your own channel at: https://lbry.io/youtube
