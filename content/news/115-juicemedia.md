@@ -14,7 +14,7 @@ Corporate welfare, crony oil, coral reef decay, and other C-words like Corrupt P
 
 Donate to [their Patreon here](https://www.patreon.com/TheJuiceMedia), and look for your new favorite way to consume current events on LBRY, available soon at:
 
-- https://open.lbry.io/@thejuicemedia
+- [lbry://@thejuicemedia](https://open.lbry.io/@thejuicemedia)
 
 And add your channel to the LBRY queue like Juice Media,  in a single click using this tool:
 
