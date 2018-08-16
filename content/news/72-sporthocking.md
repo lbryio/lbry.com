@@ -1,4 +1,4 @@
-﻿---
+---
 author: reilly-smith
 title: 'Will the Real Slim Shady Please Sit Down'
 date: '2016-10-06 00:06:00'
@@ -12,7 +12,7 @@ Hocker is the German word for stool. So Sporthocker literally means SportStool.
 
 ![Sporthocking](/img/news/sporthock-inline1.png)
 
-In his first video, [TJ in Berlin](lbry://sporthock-berlin), Trenton “TJ” Rawdon shows us various tricks and moves taken from disciplines such as juggling, breakdancing, board sports and acrobatics.
+In his first video, [TJ in Berlin](https://open.lbry.io/sporthock-berlin), Trenton “TJ” Rawdon shows us various tricks and moves taken from disciplines such as juggling, breakdancing, board sports and acrobatics.
 
 ![More sporthocking](/img/news/sporthock-inline2.png)
 
@@ -20,9 +20,9 @@ Inspired by guys freestyling tricks with homemade stools in the German city of K
 
 This is a sport worth checking out. See the tour of Europe today:
 
-- [*Hock Tour Madrid*](lbry://sporthock-madrid)
-- [*Hock Tour Rome*](lbry://sporthock-rome)
-- [*Hock Tour Paris*](lbry://sporthock-paris)
-- [*Hock Tour Rotterdam*](lbry://sporthock-rotterdam)
+- [*Hock Tour Madrid*](https://open.lbry.io/sporthock-madrid)
+- [*Hock Tour Rome*](https://open.lbry.io/sporthock-rome)
+- [*Hock Tour Paris*](https://open.lbry.io/sporthock-paris)
+- [*Hock Tour Rotterdam*](https://open.lbry.io/sporthock-rotterdam)
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Want to share your niche with the world? Email reilly@lbry.io for a trip to the front of the line.
+**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Want to share your niche with the world? Email [reilly@lbry.io](mailto:reilly@lbry.io) for a trip to the front of the line.
