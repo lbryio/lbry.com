@@ -44,4 +44,10 @@ This will configure your directories to the folders below, or you can create/edi
 lbryum_wallet_dir: 'c:\lbry\lbryum',
 download_directory: 'c:\lbry\Downloads'}
 ```
-After you are done inserting/editing the `daemon_settings.yml` configuration file, try rerunning LBRY. The settings file has to stay in the original location, and LBRY will create the new folders/data in the specified directories. `lbrynet`/`lbryum` folders should be copied there if you are migrating from a previous install. If you still receive this warning after completing the above steps, please [reach out to us](https://lbry.io/faq/how-to-report-bugs) for additional support. 
+Some Operating Systems may have this format:
+```
+data_dir: c:\lbry\lbrynet
+lbryum_wallet_dir: 'c:\lbry\lbryum
+download_directory: 'c:\lbry\Downloads
+```
+After you are done inserting/editing the `daemon_settings.yml` configuration file, try re-running LBRY. The settings file has to stay in the original location, and LBRY will create the new folders/data in the specified directories. `lbrynet`/`lbryum` folders should be copied there if you are migrating from a previous install. If you still receive this warning after completing the above steps, please [reach out to us](https://lbry.io/faq/how-to-report-bugs) for additional support. 
