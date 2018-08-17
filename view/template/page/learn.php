@@ -39,6 +39,11 @@
         <div class="spacer1">
           <a href="/credit-reports" class="link-primary"><span class="fa fa-university icon-fw"></span><span class="btn-label">Credit Reports</span></a>
         </div>
+        <h3>Our Office</h3> 
+        <div class="spacer1">
+          <a href="https://goo.gl/maps/cQfUTYHuBST2" class="link-primary"><i class="fa fa-map-marker icon-fw"></i><span class="btn-label">834 Elm Street
+Manchester, NH 03101</span></a>
+        </div>
       </div>
     </div>
   </div>
