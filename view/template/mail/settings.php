@@ -7,10 +7,7 @@
         <div class="row-fluid">
             <div class="span9">
                 <h1>{{page.email_settings}}</h1>
-                <?php if ($error ?? false): ?>
-                    <div class="notice notice-error spacer1"><?php echo $error ?></div>
-                <?php endif ?>
-                <?php echo View::render('mail/_settingsForm',['status' => $data ?? '/']) ?>
+                <?php echo View::render('mail/_settingsForm', ['status' => $status, 'error' => $error, 'token' => $token]) ?>
             </div>
             <div class="span3">
                 <h3>{{social.also}}</h3>
@@ -19,4 +16,4 @@
         </div>
     </div>
 </main>
-<?php echo View::render('nav/_footer', ['showLearnFooter' => $learnFooter ?? false]) ?>
+<?php echo View::render('nav/_footer', ['showLearnFooter' => false]) ?>

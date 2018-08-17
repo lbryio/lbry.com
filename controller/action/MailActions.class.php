@@ -63,6 +63,10 @@ class MailActions extends Actions
     public static function editEmailSettings(string $token)
     {
         $response = LBRY::emailStatus($token);
-        return ['mail/settings',['data' => $response['data'],'error' => $response['error']]];
+        return ['mail/settings', [
+          'status' => $response['data'] ?? '/',
+          'token' => $token,
+          'error' => $response['error'] ?? false
+        ]];
     }
 }
