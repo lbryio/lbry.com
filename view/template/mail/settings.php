@@ -1,6 +1,7 @@
 <?php Response::setMetaTitle(__('title.join')) ?>
 <?php Response::setMetaDescription(__('description.join')) ?>
 <?php echo View::render('nav/_header', ['isDark' => false]) ?>
+<?php Response::addJsAsset('/js/emailSettings.js') ?>
 <main>
     <div class="content">
         <div class="row-fluid">
@@ -9,7 +10,7 @@
                 <?php if ($error ?? false): ?>
                     <div class="notice notice-error spacer1"><?php echo $error ?></div>
                 <?php endif ?>
-                <?php echo View::render('mail/_settingsForm',['returnUrl' => $nextUrl ?? '/']) ?>
+                <?php echo View::render('mail/_settingsForm',['status' => $data ?? '/']) ?>
             </div>
             <div class="span3">
                 <h3>{{social.also}}</h3>
