@@ -39,17 +39,20 @@
         <div class="spacer1">
           <a href="/credit-reports" class="link-primary"><span class="fa fa-university icon-fw"></span><span class="btn-label">Credit Reports</span></a>
         </div>
-        <div class="spacer1">
-          <a href="https://shop.lbry.io" class="link-primary"><span class="fa fa-shopping-bag icon-fw"></span><span class="btn-label">LBRY Merchandise Shop</span></a>
-        </div>
       </div>
     </div>
   </div>
   <div class="span4">
     <div class="cover cover-light-alt cover-light-alt-grad">
       <div class="content content-light content-tile">
+        <h3>For Creators</h3>
+        <div class="spacer1">
+          <a href="https://lbry.io/youtube" class="link-primary"><i class="fa fa-sync icon-fw"></i><span class="btn-label">Youtube Partner Program</span></a>
+        </div>
+        <div class="spacer1">
+          <a href="/faq?category=publisher" class="link-primary"><span class="icon-question icon-fw"></span><span class="btn-label">Publisher FAQ</span></a>
+        </div>
         <h3>For Developers</h3>
-        <p>LBRY is 100% open source in the <a class="link-primary" href="https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar">Bazaar tradition</a>.</p>
         <?php echo View::render('social/_listDev') ?>
       </div>
     </div>
