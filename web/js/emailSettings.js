@@ -1,10 +1,16 @@
-lbry.emailSettingsForm = function (emailState) {
+lbry.emailSettingsForm = function (formSelector, emailState, userAuthToken) {
     var
+        form = $(formSelector),
         state = JSON.parse(emailState),
         emails = state.emails,
         tags = state.tags,
-        emailTable = $('#email_table'),
-        tagTable = $('#tag_table');
+        emailSection = form.find('.email-section'),
+        tagSection = form.find('.tag-section'),
+        emailTable = emailSection.find('table'),
+        tagTable = tagSection.find('table'),
+        hasError = false,
+        isEmailSubmitPending = false,
+        isTagSubmitPending = false;
 
     $.each(emails, function(email, enabled = false){
         console.log('email: ',email, ' enabled: ',enabled)
@@ -23,30 +29,63 @@ lbry.emailSettingsForm = function (emailState) {
         tagTable.append($rowTag).append($labelCell).append($checkBoxCell);
     });
 
-    $('#email_form').submit(function(e) {
+    function showSuccess() {
+        if (!isEmailSubmitPending && !isTagSubmitPending && !hasError)
+        {
+            form.find('.notice-success').show();
+        }
+    }
+
+    //cleverness could eliminate some mild DRY violations below
+    form.submit(function(e) {
+        //remove below obv
+        // return false;
+
         e.preventDefault();
+
+        form.find('.notice').hide();
+        hasError = false;
+        isEmailSubmitPending = true;
+        isTagSubmitPending = true;
+
+        //do email edit
+        var url = 'http://localhost:8080/user/email/edit?auth_token=' + userAuthToken,
+            //Did not test below but should be close to this, it may need to be scrubbed and/or modified.
+            formData = emailSection.find(':input').serialize();
+
+
+        fetch(url, {
+            method: "POST",
+            body: formData
+        }).then(function(value) {
+            isEmailSubmitPending = false;
+            showSuccess();
+        }).catch(function(value) {
+            isEmailSubmitPending = false;
+            hasError = true;
+            var error = "get actual error message from value";
+            emailSection.find('.notice-error').html(error).show();
+        });
+
+        //do tag edit
+        var url = 'http://localhost:8080/user/fix/me?auth_token=' + userAuthToken,
+            //Did not test below but should be close to this, it may need to be scrubbed and/or modified.
+            formData = tagSection.find(':input').serialize();
+
+
+        fetch(url, {
+            method: "POST",
+            body: formData
+        }).then(function(value) {
+            isTagSubmitPending = false;
+            showSuccess();
+        }).catch(function(value) {
+            isTagSubmitPending = false;
+            hasError = true;
+            var error = "get actual error message from value";
+            tagSection.find('.notice-error').html(error).show();
+        });
     });
-    $('#tag_form').submit(function(e) {
-        e.preventDefault();
-    });
 
-
-}
-
-lbry.applyEmailEdit = function () {
-    console.log("applied email settings")
-
-    //How do I call PHP api with the proper arguments from here?
-    //Then how do I go to the page again triggering a refresh or show an error?
-    //Need to get the token here as well to call the API
-
-    /*let url = 'http://localhost:8080/user/email/edit?auth_token='+token+'&'
-    fetch('http://localhost:8080/user/email/edit?').then(value => {
-        console.log(value.json())
-
-    });*/
-}
-
-lbry.applyTagEdit = function () {
-    console.log("applied tag settings")
+    form.show();
 }
