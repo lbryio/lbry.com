@@ -14,4 +14,4 @@ Learning the ins and outs of the PoW algorithms for your favorite coin is essent
 
 Subscribe to @imineblocks in the LBRY App or follow him [via Spee.ch](https://spee.ch/@imineblocks).
 
-**[Download LBRY today](https://lbry.io/get)**. Is your favorite channel not on LBRY? Help us feature what you want to see! Email reilly@lbry.io to make it happen. Or sync your own channel at: https://lbry.io/youtube
+**[Download LBRY today](https://lbry.io/get)**. Is your favorite channel not on LBRY? Help us feature what you want to see! Email [reilly@lbry.io](mailto:reilly@lbry.io) to make it happen. Or sync your own channel at: https://lbry.io/youtube

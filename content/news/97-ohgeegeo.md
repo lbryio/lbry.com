@@ -27,4 +27,4 @@ Games so hot, his rig overheats because it can’t run them.
 
 I (Reilly) will also be doing a new stream with OhGeeGeo as he learns to master Rocket League starting mid-March!
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Monetize your stream archives by syncing your channel with https://lbry.io/youtube or email reilly@lbry.io to learn more.
+**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Monetize your stream archives by syncing your channel with https://lbry.io/youtube or email [reilly@lbry.io](mailto:reilly@lbry.io) to learn more.

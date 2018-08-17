@@ -18,4 +18,4 @@ Nono, a Season 1 LCS (League Championship Series) player in EU, shows some of hi
 
 It’s high time that LBRY supported the most popular game on the planet. Please support your favorite streamers by tipping LBC in-app via the Support button. Because you can’t win a match without good supports. Did I mention we need a Healer?
 
-**[Download LBRY today](https://lbry.io/get)**. Is your favorite channel not on LBRY? Help us feature what you want to see! Email reilly@lbry.io to make it happen. Or sync your own channel at: https://lbry.io/youtube
+**[Download LBRY today](https://lbry.io/get)**. Is your favorite channel not on LBRY? Help us feature what you want to see! Email [reilly@lbry.io](mailto:reilly@lbry.io) to make it happen. Or sync your own channel at: https://lbry.io/youtube

@@ -24,4 +24,4 @@ Hundreds of historical archives are now available on LBRY, including:
 
 The project was started by the late Michael Hart in 1971 with the digitization of the US Declaration of Independence. Make a donation [to Project Gutenberg here](https://www.gutenberg.org/wiki/Gutenberg:Project_Gutenberg_Needs_Your_Donation), and enjoy thousands of books now available on LBRY.
 
-**Not on LBRY yet?** [Download here](https://lbry.io/get). Have a big library bounty to claim? Email reilly@lbry.io and take all the glory.
+**Not on LBRY yet?** [Download here](https://lbry.io/get). Have a big library bounty to claim? Email [reilly@lbry.io](mailto:reilly@lbry.io) and take all the glory.

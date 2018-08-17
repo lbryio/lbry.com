@@ -1,4 +1,4 @@
-﻿---
+---
 author: reilly-smith
 title: 'farting in our direction'
 date: '2017-10-19 00:22:30'
@@ -21,4 +21,4 @@ Skeptical? Fear not. Proof!
 
 Please support John Cleese’s channel by tipping LBRY credits in-app to your favorite content.
 
-**[Download LBRY today](https://lbry.io/get)**. Is your favorite channel not on LBRY? Help us feature what you want to see! Email reilly@lbry.io to make it happen. Or sync your own channel at: https://lbry.io/youtube
+**[Download LBRY today](https://lbry.io/get)**. Is your favorite channel not on LBRY? Help us feature what you want to see! Email [reilly@lbry.io](mailto:reilly@lbry.io) to make it happen. Or sync your own channel at: https://lbry.io/youtube

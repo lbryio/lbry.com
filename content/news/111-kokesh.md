@@ -1,4 +1,4 @@
-﻿---
+---
 author: reilly-smith
 title: '...it isn’t free'
 date: '2017-05-11 00:19:30'
@@ -18,4 +18,4 @@ lbry://@AdamKokesh
 
 Have a message to share? Follow Adam’s lead and sync your YouTube channel with the LBRY sync API: https://lbry.io/youtube
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Feel like breaking the chains of YouTube? Email reilly@lbry.io to experience what liberty is really about.
+**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Feel like breaking the chains of YouTube? Email [reilly@lbry.io](mailto:reilly@lbry.io) to experience what liberty is really about.

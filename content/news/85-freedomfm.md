@@ -1,4 +1,4 @@
-﻿---
+---
 author: reilly-smith
 title: 'Freedom.fm'
 date: '2016-12-15 00:15:00'
@@ -21,13 +21,13 @@ Stefan Molyneux’s Freedomain Radio has grown from a part-time podcast to a ful
 Known for his [bold predictions](https://www.youtube.com/watch?v=LfascZSTU4o) of the 2008 financial crisis coming true and subsequent market corrections – CNBC even [admitted it after the fact!](https://www.youtube.com/watch?v=5sie11QXI_Q) – Peter Schiff is a successful financial advisor and radio host outside the traditional Wall Street beltway. Author of several books, including my personal favorite, “The Little Book of Bull Moves in Bear Markets”, his financial opines will seldom tow the party line.
 
 **After the brain food, cozy up with the LBRY film playlist during the holidays!**
-- [*Jingle Bell Rocks!*](lbry://jinglebellrocks)
-- [*The Internet’s Own Boy*](lbry://theinternetsownboy)
-- [*Coherence*](lbry://coherence)
-- [*It’s A Disaster*](lbry://itsadisaster)
-- [*Bellflower*](lbry://bellfower)
-- [*TPB AFK: The Pirate Bay Away from Keyboard*](lbry://tpbafk)
-- [*S&M Lawn Care*](lbry://smlawncare)
-- [*Cinema Six*](lbry://cinemasix)
+- [*Jingle Bell Rocks!*](https://open.lbry.io/jinglebellrocks)
+- [*The Internet’s Own Boy*](https://open.lbry.io/theinternetsownboy)
+- [*Coherence*](https://open.lbry.io/coherence)
+- [*It’s A Disaster*](https://open.lbry.io/itsadisaster)
+- [*Bellflower*](https://open.lbry.io/bellfower)
+- [*TPB AFK: The Pirate Bay Away from Keyboard*](https://open.lbry.io/tpbafk)
+- [*S&M Lawn Care*](https://open.lbry.io/smlawncare)
+- [*Cinema Six*](https://open.lbry.io/cinemasix)
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Have a podcast to publish? Email reilly@lbry.io to get your show in the queue.
+**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Have a podcast to publish? Email [reilly@lbry.io](mailto:reilly@lbry.io) to get your show in the queue.

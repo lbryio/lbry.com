@@ -6,7 +6,7 @@ cover: 'bellflower-banner.jpg'
 ---
 When we say LBRY challenges the Netflix and iTunes of the world, we don’t mean it lightly.
 
-That journey began when [Oscilloscope Laboratories](http://www.oscilloscope.net/) took the LBRY leap of faith with its darkly comic [*It’s A Disaster*](lbry://itsadisaster), starring David Cross and Julia Stiles. You’ve been streaming it almost daily since our July 4th launch.
+That journey began when [Oscilloscope Laboratories](http://www.oscilloscope.net/) took the LBRY leap of faith with its darkly comic [*It’s A Disaster*](https://open.lbry.io/itsadisaster), starring David Cross and Julia Stiles. You’ve been streaming it almost daily since our July 4th launch.
 
 Today, Oscilloscope builds on that foundation.
 
@@ -26,4 +26,4 @@ Each month through 2016, a new Oscilloscope film will land on LBRY. Next month, 
 
 Oscilloscope has released academy award nominated films such as [*Embrace of the Serpent*](https://www.rottentomatoes.com/m/embrace_of_the_serpent/) and Banksy’s documentary [*Exit Through the Gift Shop*](https://www.rottentomatoes.com/m/exit_through_the_gift_shop/), off-beat indies like James Franco’s [*Howl*](https://www.rottentomatoes.com/m/1211483-howl) and new cult favorites like [*Girl Asleep*](https://www.rottentomatoes.com/m/girl_asleep_2016) and [*The Fits*](https://www.rottentomatoes.com/m/the_fits_2016).
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Do you make great movies? Email reilly@lbry.io for some red carpet treatment, LBRY style.
+**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Do you make great movies? Email [reilly@lbry.io](mailto:reilly@lbry.io) for some red carpet treatment, LBRY style.

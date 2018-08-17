@@ -14,8 +14,8 @@ Brian Fabian Crain, Sebastien Couture and Meher Roy of Epicenter TV host some of
 
 Founders, engineers, venture capitalists, and academics from Fred Ersham, Roger Ver, Peter Rizun, Vitalik Buterin, Gavin Andresen, Emin Gün Sirer… you won't want to miss a single interview, now available on LBRY in their entirety at:
 
-- [lbry://@Epicenter](lbry://@Epicenter)
+- [lbry://@Epicenter](https://open.lbry.io/@Epicenter)
 
 There *is* one person they haven’t interviewed yet, but the name is escaping me...
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Wanna drop some crypto knowledge? Email reilly@lbry.io to make us all crypto rich.
+**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Wanna drop some crypto knowledge? Email [reilly@lbry.io](mailto:reilly@lbry.io) to make us all crypto rich.

@@ -1,4 +1,4 @@
-﻿---
+---
 author: reilly-smith
 title: 'Listen Up'
 date: '2016-12-01 00:06:00'
@@ -20,4 +20,4 @@ Jay, Leah and Earl give a rare insight into the world of rising standup comics. 
 Katie and Will keep the candid going and add a dash of deep analysis: from why Game of Thrones is a bad show, the history of James Bond, to the structure of storytelling… if you watch it, they beg to differ.
 
 
->**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Have a podcast you love? Email reilly@lbry.io, and we’ll get it on LBRY.
+>**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Have a podcast you love? Email [reilly@lbry.io](mailto:reilly@lbry.io), and we’ll get it on LBRY.

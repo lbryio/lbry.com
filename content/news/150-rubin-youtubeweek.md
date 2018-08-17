@@ -15,4 +15,4 @@ We’ve partnered with The Rubin Report to bring you YouTube Week, a series of i
 This special series includes interviews with the Twitter-banned Bunty King; opiner of all the things Some Black Guy; skeptic extraordinaire Jaclyn Glenn; up-and-coming Aussie comedian Neel Kolhatkar; and parody rapper Rucka Rucka.
 Tip your favorite interviews with LBRY Credits and let us know who you want on LBRY next.
 
-**[Download LBRY today](https://lbry.io/get)**. Is your favorite channel not on LBRY? Help us feature what you want to see! Email reilly@lbry.io to make it happen. Or sync your own channel at: https://lbry.io/youtube
+**[Download LBRY today](https://lbry.io/get)**. Is your favorite channel not on LBRY? Help us feature what you want to see! Email [reilly@lbry.io](mailto:reilly@lbry.io) to make it happen. Or sync your own channel at: https://lbry.io/youtube

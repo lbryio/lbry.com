@@ -1,4 +1,4 @@
-﻿---
+---
 author: reilly-smith
 title: 'Real Particles Ride Waves'
 date: '2017-10-05 00:20:30'
@@ -19,4 +19,4 @@ Donate LBRY Credits directly to the best MinutePhysics videos using the integrat
 
 And become a Patreon donor here: https://www.patreon.com/minutephysics
 
-**[Download LBRY today](https://lbry.io/get)**. Is your favorite channel not on LBRY? Help us feature what you want to see! Email reilly@lbry.io to make it happen. Or sync your own channel at: https://lbry.io/youtube
+**[Download LBRY today](https://lbry.io/get)**. Is your favorite channel not on LBRY? Help us feature what you want to see! Email [reilly@lbry.io](mailto:reilly@lbry.io) to make it happen. Or sync your own channel at: https://lbry.io/youtube
