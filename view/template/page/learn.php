@@ -54,6 +54,10 @@
         </div>
         <h3>For Developers</h3>
         <?php echo View::render('social/_listDev') ?>
+        <h3>For Youtubers</h3>
+        <div class="spacer1">
+          <a href="https://lbry.io/youtube" class="link-primary"><i class="fa fa-sync icon-fw"></i><span class="btn-label">Youtube Partner Program</span></a>
+        </div>
       </div>
     </div>
   </div>
