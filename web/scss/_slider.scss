@@ -1,0 +1,71 @@
+$checked-color: #006148;
+$unchecked-color: #888;
+
+.slider-checkbox {
+  position: relative;
+  input {
+    margin: 0px;
+    margin-top: 1px;
+    cursor: pointer;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    background: red;
+    width: 40px;
+    height: 20px;
+    &:checked + .label {
+      &:before {
+        background-color: $checked-color;
+        content: "\f00c";
+        padding-left: 6px;
+      }
+      &:after {
+        left: 21px;
+      }
+    }
+  }
+  .label {
+    position: relative;
+    padding-left: 46px;
+    &:before, &:after {
+      position: absolute;
+      -webkit-border-radius: 0px;
+      -moz-border-radius: 0px;
+      border-radius: 0px;
+      transition: background-color 0.3s, left 0.3s;
+    }
+    &:before {
+      content: "\f00d";
+      color: #fff;
+      box-sizing: border-box;
+      font-family: 'FontAwesome', sans-serif;
+      padding-left: 23px;
+      font-size: 12px;
+      line-height: 20px;
+      background-color: $unchecked-color;
+      left: 0px;
+      top: 0px;
+      height: 20px;
+      width: 40px;
+      -webkit-border-radius: 0px;
+      -moz-border-radius: 0px;
+      border-radius: 0px;
+    }
+    &:after {
+      content: "";
+      letter-spacing: 20px;
+      background: #fff;
+      left: 1px;
+      top: 1px;
+      height: 18px;
+      width: 18px;
+    }
+  }
+}
