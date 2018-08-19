@@ -17,9 +17,9 @@
     <table></table>
   </div>
   <div class="tag-section">
-    <div class="notice notice-error hide"></div>
     <h2>Tags</h2>
     <h4>Any particular interests?</h4>
+    <div class="notice notice-error hide"></div>
     <table id="tag_table"></table>
     <div>
       <input type="submit" value="Save" class="btn-primary">
