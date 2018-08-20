@@ -1,8 +1,8 @@
 ---
 author: samuel-lbryian
 title: 'Is Everything Better On The Blockchain?'
-date: '2018-08-15 08:08:08'
-cover: 'lex-amit.jpg'
+date: '2018-08-20 08:08:08'
+cover: 'Is Every Thing Better-01.png'
 category: blog
 ---
 It’s 2018 and everyone’s scrambling to be the first to put something "on the blockchain".
