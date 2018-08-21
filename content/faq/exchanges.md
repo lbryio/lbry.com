@@ -13,7 +13,6 @@ We are listed on several exchanges. You can buy or sell LBRY Credits at one of t
 - [BitSquare](https://bitsquare.io/)
 - [Coinspot](https://www.coinspot.com.au/buy/lbc)
 - [Trade by Trade](https://app.tradebytrade.com/exchange-one)
-- [Trade Satoshi](https://tradesatoshi.com/Exchange/?market=LBC_BTC)
 
 ### Instant Exchanges
 - [Shapeshift](https://shapeshift.io)
