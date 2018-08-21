@@ -24,14 +24,13 @@
     <?php endforeach ?>
     <h2>Technical</h2>
     <?php foreach ([ 'kay-kurokawa', 'jack-robison', 'lex-berezhny',
-                    'akinwale-ariwodola', 'sean-yesmunt', 'bill-bittner', 'amit-tulshyan', 'mark-beamer'] as $bioSlug): ?>
+                    'akinwale-ariwodola', 'sean-yesmunt', , 'amit-tulshyan', 'mark-beamer'] as $bioSlug): ?>
       <div class="spacer2">
         <?php echo View::render('content/_bio', ['person' => $bioSlug]) ?>
       </div>
     <?php endforeach ?>
     <h2>Business</h2>
     <?php foreach (['josh-finer',
-                    'reilly-smith',
                     'tom-zarebczan',
                     'brinck-slattery',
                     'rob-smith'] as $bioSlug): ?>
