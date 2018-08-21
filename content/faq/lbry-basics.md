@@ -15,7 +15,7 @@ Emails are collected to authenticate and [uniquely identify](https://lbry.io/faq
 If you ever need to change your LBRY email address or sign out, please see [this guide](https://lbry.io/faq/how-to-change-email). If you sign into a new email and need to transfer your verification status, you'll need to [reach out to us](mailto:help@lbryio) in order to link your accounts. Please do not verify again to obtain rewards on a 2nd account; your Rewards account may be disabled for abuse.
 
 ### What if I want to run LBRY on multiple computers or different Windows accounts?
-If you want to run the LBRY app on multiple PCs or on other platforms like Android, you can sign in with the same email on all devices. Each installation will still have it's separate wallet and download data (as mentioned above). Any rewards earned will be sent locally to the wallet where they are claimed. 
+If you want to run the LBRY app on multiple PCs or on other platforms like Android, you can sign in with the same email on all devices. Each installation will still have its separate wallet and download data (as mentioned above). Any rewards earned will be sent locally to the wallet where they are claimed. In the future, our goal to enable an opt-in wallet syncing service across devices. 
 
 ### What are LBRY Rewards? {#rewards}
 [LBRY Rewards](https://lbry.io/faq/rewards) are used to distribute LBRY Credits(LBC) to new and existing users by allowing them to explore app functions and complete tasks which generate LBC as an award. In order to be eligible for Rewards, you need to [verify your identity](https://lbry.io/faq/identity-requirements) which uniquely identifies you as an LBRY user.
