@@ -9,13 +9,13 @@ The LBRY App allows you to view free and paid content, upload your digital media
 The purpose of this FAQ is to answer questions about some of the basic functionality available in the LBRY App. Please see our [other FAQ entries](https://lbry.io/faq) for additional information.
 
 ### What is the purpose of having my email connected to LBRY?
-Emails are collected to authenticate and [uniquely identify](https://lbry.io/faq/identity-requirements) users so that they can be eligible for [LBRY Rewards](#rewards) and to stay up to date on the latest LBRY happenings. No other data is stored with your email login. All other data, including your [wallet](#wallet), [downloads](#data) and published content are stored locally on your computer. You can find your connected email by going to Settings (gear icon in the top right) > Help > Connected email. 
+Emails are collected to authenticate and [uniquely identify](https://lbry.io/faq/identity-requirements) users so that they can be eligible for [LBRY Rewards](#rewards), sync subscription data and to stay up to date on the latest LBRY happenings. No other data is stored with your email login. All other data, including your [wallet](#wallet), [downloads](#data) and published content are stored locally on your computer. You can find your connected email by going to Settings (gear icon in the top right) > Help > Connected email. 
 
 ### How do I change my LBRY connected email?
 If you ever need to change your LBRY email address or sign out, please see [this guide](https://lbry.io/faq/how-to-change-email). If you sign into a new email and need to transfer your verification status, you'll need to [reach out to us](mailto:help@lbryio) in order to link your accounts. Please do not verify again to obtain rewards on a 2nd account; your Rewards account may be disabled for abuse.
 
 ### What if I want to run LBRY on multiple computers or different Windows accounts?
-If you want to run the LBRY app on multiple PCs or Windows users, you can either choose not to sign in on the other computers/accounts or use a different email address for each. These additional accounts will not be eligible for LBRY Rewards as they are only allowed on a one account per household basis. If you log into a 2nd PC with the same email, the original PC will be signed out. Changing accounts back and forth on the same PC/user account will cause them to be merged.  
+If you want to run the LBRY app on multiple PCs or on other platforms like Android, you can sign in with the same email on all devices. Each installation will still have it's separate wallet and download data (as mentioned above). Any rewards earned will be sent locally to the wallet where they are claimed. 
 
 ### What are LBRY Rewards? {#rewards}
 [LBRY Rewards](https://lbry.io/faq/rewards) are used to distribute LBRY Credits(LBC) to new and existing users by allowing them to explore app functions and complete tasks which generate LBC as an award. In order to be eligible for Rewards, you need to [verify your identity](https://lbry.io/faq/identity-requirements) which uniquely identifies you as an LBRY user.
