@@ -21,10 +21,8 @@ lbry.emailSettingsForm = function (formSelector, tags, userAuthToken) {
         isEmailSubmitPending = true;
         isTagSubmitPending = true;
 
-        console.log("Run Email Edit");
         var url = 'https://api.lbry.io/user/email/edit?auth_token=' + userAuthToken
         $.param($.map(emailSection.find("input"), function(element) {
-            console.log("email: ",element.value," is_enabled: ",element.checked);
             url = url + "&email="+element.value+"&enabled="+element.checked.toString();
             fetch(url).then(function(value) { return value.json()}).then(jsonResponse => {
                 isEmailSubmitPending = false;
@@ -42,7 +40,6 @@ lbry.emailSettingsForm = function (formSelector, tags, userAuthToken) {
         }));
 
         //do tag edit
-        console.log("Run Tag Edit");
         var url = 'https://api.lbry.io/user/tag/edit?auth_token=' + userAuthToken
         var addTags =  new Array(),
             removeTags = new Array();
@@ -58,7 +55,6 @@ lbry.emailSettingsForm = function (formSelector, tags, userAuthToken) {
         });
 
         var hasChanges = addTags[0] || removeTags[0]
-        console.log("AddTags: ",addTags,"RemoveTags: ",removeTags)
         var addTagsParam = addTags[0]
         for (var i = 1; i < addTags.length; i++) {
             hasChanges = true
@@ -79,7 +75,6 @@ lbry.emailSettingsForm = function (formSelector, tags, userAuthToken) {
         if (hasChanges){
             fetch(url).then(response => { return response.json() }).then(jsonResponse =>{
                 isTagSubmitPending = false;
-                console.log("Success: ",jsonResponse)
                 if (jsonResponse.success){
                     showSuccess();
                 }else {
