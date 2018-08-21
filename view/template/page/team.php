@@ -7,7 +7,7 @@
     <div class="hero-content-wrapper">
       <div class="hero-content text-center">
         <h1 class="cover-title">{{page.team.header}}</h1>
-        <h2 class="cover-subtitle">Team work makes the dream work.</h2>
+        <h2 class="cover-subtitle">Teamwork makes the dream work.</h2>
       </div>
     </div>
   </div>
