@@ -16,7 +16,7 @@
   <a href="/roadmap" class="link-primary"><span class="icon-road icon-fw"></span><span class="btn-label">Roadmap</span></a>
 </div>
 <div class="spacer1">
-  <a href="/faq?category=developer" class="link-primary"><span class="icon-question icon-fw"></span><span class="btn-label">Developers FAQ</span></a>
+  <a href="/faq/contributing class="link-primary"><span class="icon-question icon-fw"></span><span class="btn-label">How To Contribute</span></a>
 </div>
 <div class="spacer1">
   <a href="https://chat.lbry.io" target="_blank" class="link-primary"><span class="icon-comments icon-fw"></span><span class="btn-label">Discord (#dev channel)</span></a>
