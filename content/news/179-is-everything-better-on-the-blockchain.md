@@ -2,7 +2,7 @@
 author: samuel-lbryian
 title: 'Is Everything Better On The Blockchain?'
 date: '2018-08-20 08:08:08'
-cover: 'noun_Blockchain_1500174_000000.svg'
+cover: 'Growing-Blockchain.png'
 category: blog
 ---
 It’s 2018 and everyone’s scrambling to be the first to put something "on the blockchain".
