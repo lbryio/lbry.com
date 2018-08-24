@@ -30,11 +30,7 @@
       </div>
     <?php endforeach ?>
     <h2>Business</h2>
-<<<<<<< HEAD
-    <?php foreach(['josh-finer',
-=======
     <?php foreach (['josh-finer',
->>>>>>> master
                     'tom-zarebczan',
                     'brinck-slattery',
                     'rob-smith',
