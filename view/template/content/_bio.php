@@ -3,7 +3,7 @@
     <img src="<?php echo $imgSrc ?>" alt="<?php echo $name ?>"/>
   </div>
   <div class="span8">
-    <h4>
+    <h4 id="<?php echo str_replace(' ', '-', strtolower($name)) ?>">
       <?php echo $name ?>
       <?php if (isset($email)): ?>
         <a href="mailto:<?php echo $email ?>" class="link-primary"><span class="icon icon-envelope"></span></a>
