@@ -8,7 +8,7 @@ date: '2017-07-22'
 
 The LBRY app currently does not update itself automatically, however electron does support this feature.
 
-To complete this bounty, [lbry-app](https://github.com/lbryio/lbry-app) must be modified as follows:
+To complete this bounty, [lbry-desktop](https://github.com/lbryio/lbry-desktop) must be modified as follows:
 
 - Detect when a new latest release is available, download it and prompt the user with a "Restart LBRY" / "I'll do it later" dialog to have the update take effect.
 - Parse the changelog for the latest release, if it contains `Security` items carry out the update automatically without presenting the "I'll do it later" option.

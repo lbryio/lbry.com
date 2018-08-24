@@ -12,7 +12,7 @@ Songwriter Steve Taylor painted a grim picture of our modern day ethical landsca
 
 We might have our moments of cynicism, but we don’t buy into the ethics-free business model prevalent in the world today. That’s why we are excited to announce the addition of Professor Michael Huemer as Ethical Advisor to LBRY Inc.
 
-<p style="text-align: center;"><img src="http://i.imgur.com/VlXnnM6.png" alt="Michael Huemer joins LBRY as Ethical Advisor"></p>
+<p style="text-align: center;"><img src="https://i.imgur.com/VlXnnM6.png" alt="Michael Huemer joins LBRY as Ethical Advisor"></p>
 
 Huemer is a rising star in the world of ethical philosophy, with several books to his name and a [hit TED talk](https://www.youtube.com/watch?v=4JYL5VUe5NQ).
 

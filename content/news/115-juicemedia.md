@@ -1,4 +1,4 @@
-﻿---
+---
 author: reilly-smith
 title: 'Pass the Juice'
 date: '2017-06-08 00:08:00'
@@ -14,10 +14,10 @@ Corporate welfare, crony oil, coral reef decay, and other C-words like Corrupt P
 
 Donate to [their Patreon here](https://www.patreon.com/TheJuiceMedia), and look for your new favorite way to consume current events on LBRY, available soon at:
 
-- lbry://@thejuicemedia
+- [lbry://@thejuicemedia](https://open.lbry.io/@thejuicemedia)
 
 And add your channel to the LBRY queue like Juice Media,  in a single click using this tool:
 
-- https://api.lbry.io/yt/connect?type=sync
+- https://lbry.io/youtube
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Rapper, newscaster or Both? Email reilly@lbry.io to spit the facts.
+**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Rapper, newscaster or Both? Email [reilly@lbry.io](mailto:reilly@lbry.io) to spit the facts.

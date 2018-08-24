@@ -1,4 +1,4 @@
-<?php foreach([
+<?php foreach ([
     '/get' => __('nav.get'),
     '/learn' => __('nav.learn'),
     '/news' => __("News")

@@ -22,7 +22,7 @@ class RouteParser
    *
    * Finally we look for an optional '?' which is used to signify an optional route.
    */
-  const VARIABLE_REGEX =
+    const VARIABLE_REGEX =
     "~\{
     \s* ([a-zA-Z0-9_]*) \s*
     (?:
@@ -30,185 +30,176 @@ class RouteParser
     )?
 \}\??~x";
 
-  /**
-   * The default parameter character restriction (One or more characters that is not a '/').
-   */
-  const DEFAULT_DISPATCH_REGEX = '[^/]+';
+    /**
+     * The default parameter character restriction (One or more characters that is not a '/').
+     */
+    const DEFAULT_DISPATCH_REGEX = '[^/]+';
 
-  private $parts;
+    private $parts;
 
-  private $reverseParts;
+    private $reverseParts;
 
-  private $partsCounter;
+    private $partsCounter;
 
-  private $variables;
+    private $variables;
 
-  private $regexOffset;
+    private $regexOffset;
 
-  /**
-   * Handy parameter type restrictions.
-   *
-   * @var array
-   */
-  private $regexShortcuts = [
+    /**
+     * Handy parameter type restrictions.
+     *
+     * @var array
+     */
+    private $regexShortcuts = [
     ':i}' => ':[0-9]+}',
     ':a}' => ':[0-9A-Za-z]+}',
     ':h}' => ':[0-9A-Fa-f]+}',
     ':c}' => ':[a-zA-Z0-9+_\-\.]+}'
   ];
 
-  /**
-   * Parse a route returning the correct data format to pass to the dispatch engine.
-   *
-   * @param $route
-   *
-   * @return array
-   */
-  public function parse($route)
-  {
-    $this->reset();
-
-    $route = strtr($route, $this->regexShortcuts);
-
-    if (!$matches = $this->extractVariableRouteParts($route))
+    /**
+     * Parse a route returning the correct data format to pass to the dispatch engine.
+     *
+     * @param $route
+     *
+     * @return array
+     */
+    public function parse($route)
     {
-      $reverse = [
+        $this->reset();
+
+        $route = strtr($route, $this->regexShortcuts);
+
+        if (!$matches = $this->extractVariableRouteParts($route)) {
+            $reverse = [
         'variable' => false,
         'value'    => $route
       ];
 
-      return [[$route], [$reverse]];
-    }
+            return [[$route], [$reverse]];
+        }
 
-    foreach ($matches as $set)
-    {
+        foreach ($matches as $set) {
+            $this->staticParts($route, $set[0][1]);
 
-      $this->staticParts($route, $set[0][1]);
+            $this->validateVariable($set[1][0]);
 
-      $this->validateVariable($set[1][0]);
+            $regexPart = (isset($set[2]) ? trim($set[2][0]) : self::DEFAULT_DISPATCH_REGEX);
 
-      $regexPart = (isset($set[2]) ? trim($set[2][0]) : self::DEFAULT_DISPATCH_REGEX);
+            $this->regexOffset = $set[0][1] + strlen($set[0][0]);
 
-      $this->regexOffset = $set[0][1] + strlen($set[0][0]);
+            $match = '(' . $regexPart . ')';
 
-      $match = '(' . $regexPart . ')';
+            $isOptional = substr($set[0][0], -1) === '?';
 
-      $isOptional = substr($set[0][0], -1) === '?';
+            if ($isOptional) {
+                $match = $this->makeOptional($match);
+            }
 
-      if ($isOptional)
-      {
-        $match = $this->makeOptional($match);
-      }
-
-      $this->reverseParts[$this->partsCounter] = [
+            $this->reverseParts[$this->partsCounter] = [
         'variable' => true,
         'optional' => $isOptional,
         'name'     => $set[1][0]
       ];
 
-      $this->parts[$this->partsCounter++] = $match;
+            $this->parts[$this->partsCounter++] = $match;
+        }
+
+        $this->staticParts($route, strlen($route));
+
+        return [[implode('', $this->parts), $this->variables], array_values($this->reverseParts)];
     }
 
-    $this->staticParts($route, strlen($route));
-
-    return [[implode('', $this->parts), $this->variables], array_values($this->reverseParts)];
-  }
-
-  /**
-   * Reset the parser ready for the next route.
-   */
-  private function reset()
-  {
-    $this->parts = [];
-
-    $this->reverseParts = [];
-
-    $this->partsCounter = 0;
-
-    $this->variables = [];
-
-    $this->regexOffset = 0;
-  }
-
-  /**
-   * Return any variable route portions from the given route.
-   *
-   * @param $route
-   *
-   * @return mixed
-   */
-  private function extractVariableRouteParts($route)
-  {
-    if (preg_match_all(self::VARIABLE_REGEX, $route, $matches, PREG_OFFSET_CAPTURE | PREG_SET_ORDER))
+    /**
+     * Reset the parser ready for the next route.
+     */
+    private function reset()
     {
-      return $matches;
+        $this->parts = [];
+
+        $this->reverseParts = [];
+
+        $this->partsCounter = 0;
+
+        $this->variables = [];
+
+        $this->regexOffset = 0;
     }
-  }
 
-  /**
-   * @param $route
-   * @param $nextOffset
-   */
-  private function staticParts($route, $nextOffset)
-  {
-    $static = preg_split('~(/)~u', substr($route, $this->regexOffset, $nextOffset - $this->regexOffset), 0, PREG_SPLIT_DELIM_CAPTURE);
-
-    foreach ($static as $staticPart)
+    /**
+     * Return any variable route portions from the given route.
+     *
+     * @param $route
+     *
+     * @return mixed
+     */
+    private function extractVariableRouteParts($route)
     {
-      if ($staticPart)
-      {
-        $quotedPart = $this->quote($staticPart);
+        if (preg_match_all(self::VARIABLE_REGEX, $route, $matches, PREG_OFFSET_CAPTURE | PREG_SET_ORDER)) {
+            return $matches;
+        }
+    }
 
-        $this->parts[$this->partsCounter] = $quotedPart;
+    /**
+     * @param $route
+     * @param $nextOffset
+     */
+    private function staticParts($route, $nextOffset)
+    {
+        $static = preg_split('~(/)~u', substr($route, $this->regexOffset, $nextOffset - $this->regexOffset), 0, PREG_SPLIT_DELIM_CAPTURE);
 
-        $this->reverseParts[$this->partsCounter] = [
+        foreach ($static as $staticPart) {
+            if ($staticPart) {
+                $quotedPart = $this->quote($staticPart);
+
+                $this->parts[$this->partsCounter] = $quotedPart;
+
+                $this->reverseParts[$this->partsCounter] = [
           'variable' => false,
           'value'    => $staticPart
         ];
 
-        $this->partsCounter++;
-      }
+                $this->partsCounter++;
+            }
+        }
     }
-  }
 
-  /**
-   * @param $varName
-   */
-  private function validateVariable($varName)
-  {
-    if (isset($this->variables[$varName]))
+    /**
+     * @param $varName
+     */
+    private function validateVariable($varName)
     {
-      throw new BadRouteException("Cannot use the same placeholder '$varName' twice");
+        if (isset($this->variables[$varName])) {
+            throw new BadRouteException("Cannot use the same placeholder '$varName' twice");
+        }
+
+        $this->variables[$varName] = $varName;
     }
 
-    $this->variables[$varName] = $varName;
-  }
-
-  /**
-   * @param $match
-   *
-   * @return string
-   */
-  private function makeOptional($match)
-  {
-    $previous = $this->partsCounter - 1;
-
-    if (isset($this->parts[$previous]) && $this->parts[$previous] === '/')
+    /**
+     * @param $match
+     *
+     * @return string
+     */
+    private function makeOptional($match)
     {
-      $this->partsCounter--;
-      $match = '(?:/' . $match . ')';
+        $previous = $this->partsCounter - 1;
+
+        if (isset($this->parts[$previous]) && $this->parts[$previous] === '/') {
+            $this->partsCounter--;
+            $match = '(?:/' . $match . ')';
+        }
+
+        return $match . '?';
     }
 
-    return $match . '?';
-  }
-
-  /**
-   * @param $part
-   *
-   * @return string
-   */
-  private function quote($part)
-  {
-    return preg_quote($part, '~');
-  }
+    /**
+     * @param $part
+     *
+     * @return string
+     */
+    private function quote($part)
+    {
+        return preg_quote($part, '~');
+    }
 }

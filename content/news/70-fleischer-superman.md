@@ -1,4 +1,4 @@
-﻿---
+---
 author: reilly-smith
 title: 'It’s a Bird, It’s a Plane, It’s Pub Domain Superman!'
 date: '2016-09-29 00:06:00'
@@ -16,14 +16,14 @@ We’re kicking off a trend of LBRY being the number one place to find top publi
 
 These are true gems in the hall of film history. Check out the first nine episodes today:
 
-- [*Superman* (a.k.a. *The Mad Scientist*)](lbry://superman1940-e1)
-- [*The Mechanical Monsters*](lbry://superman1940-e2)
-- [*Billion Dollar Limited*](lbry://superman1940-e3)
-- [*The Arctic Giant*](lbry://superman1940-e4)
-- [*The Bulleteers*](lbry://superman1940-e5)
-- [*The Magnetic Telescope*](lbry://superman1940-e6)
-- [*Electric Earthquake*](lbry://superman1940-e7)
-- [*Volcano*](lbry://superman1940-e8)
-- [*Terror on the Midway*](lbry://superman1940-e9)
+- [*Superman* (a.k.a. *The Mad Scientist*)](https://open.lbry.io/superman1940-e1)
+- [*The Mechanical Monsters*](https://open.lbry.io/superman1940-e2)
+- [*Billion Dollar Limited*](https://open.lbry.io/superman1940-e3)
+- [*The Arctic Giant*](https://open.lbry.io/superman1940-e4)
+- [*The Bulleteers*](https://open.lbry.io/superman1940-e5)
+- [*The Magnetic Telescope*](https://open.lbry.io/superman1940-e6)
+- [*Electric Earthquake*](https://open.lbry.io/superman1940-e7)
+- [*Volcano*](https://open.lbry.io/superman1940-e8)
+- [*Terror on the Midway*](https://open.lbry.io/superman1940-e9)
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Know some great public domain content to share? Have high-quality scans? Email reilly@lbry.io for a trip to the front of the line.
+**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Know some great public domain content to share? Have high-quality scans? Email [reilly@lbry.io](mailto:reilly@lbry.io) for a trip to the front of the line.

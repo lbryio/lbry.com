@@ -1,4 +1,4 @@
-﻿---
+---
 author: reilly-smith
 title: 'Masterclass Blast'
 date: '2017-01-26 00:17:00'
@@ -18,4 +18,4 @@ Mike’s lectures so far range from the lost art of Hollywood blockbusters to th
 
 The Forgotten Art of Blockbuster Cinema is one of my absolute favorite lectures. I hope you enjoy it at lbry://mikehill-blockbuster. Search “Mike Hill” for the rest of the playlist.
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Have amazing lectures and educational content to share with the world? Email reilly@lbry.io for true enlightenment.
+**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Have amazing lectures and educational content to share with the world? Email https://open.lbry.io/ for true enlightenment.

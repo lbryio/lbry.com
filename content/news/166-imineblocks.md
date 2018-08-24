@@ -4,7 +4,7 @@ title: 'Hey, mine your own business!'
 date: '2018-04-05 00:20:00'
 cover: 'imineblocks-banner.jpg'
 ---
-What was once the subject of niche crypto-anarchist communities vis-a-vis Bitcoin has now grown into a worldwide virtual homesteading: mining.
+What was once the subject of niche crypto-anarchist communities vis-à-vis Bitcoin has now grown into a worldwide virtual homesteading: mining.
 
 If you find a nascent project you like in crypto, chances are you can mine it. But what is the first step to mining?
 
@@ -14,4 +14,4 @@ Learning the ins and outs of the PoW algorithms for your favorite coin is essent
 
 Subscribe to @imineblocks in the LBRY App or follow him [via Spee.ch](https://spee.ch/@imineblocks).
 
-**[Download LBRY today](https://lbry.io/get)**. Is your favorite channel not on LBRY? Help us feature what you want to see! Email reilly@lbry.io to make it happen. Or sync your own channel at: https://lbry.io/youtube
+**[Download LBRY today](https://lbry.io/get)**. Is your favorite channel not on LBRY? Help us feature what you want to see! Email [reilly@lbry.io](mailto:reilly@lbry.io) to make it happen. Or sync your own channel at: https://lbry.io/youtube

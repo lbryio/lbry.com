@@ -63,7 +63,7 @@ function validateEmail(email) {
 }
 
 function validateLBRYName(lbry_channel_name){
-    var re = /^[@A-Za-z0-9_-]*$/g;
+    var re = /^[@A-Za-z0-9-]*$/g;
     return re.test(lbry_channel_name);
 }
 

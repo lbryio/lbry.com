@@ -62,7 +62,7 @@
 
 
 <h3>Try the UI</h3>
-<p>LBRY comes with a fully-featured UI so that normal people can use it too. You can download it <a href="https://github.com/lbryio/lbry-app/releases" class="link-primary">here</a>.</p>
+<p>LBRY comes with a fully-featured UI so that normal people can use it too. You can download it <a href="https://github.com/lbryio/lbry-desktop/releases" class="link-primary">here</a>.</p>
 <h3 id="community">You Did It! What's Next?</h3>
 <p>
   Start building something awesome! LBRY works as a discovery and distribution backend for everything from films to CAD files.

@@ -8,6 +8,7 @@ Response::addJsAsset('/js/yt2/SyncStatus.js');
 Response::addJsAsset('/js/yt2/youtube_video.js');
 Response::setMetaTitle("LBRY YouTube Partner Program");
 Response::setMetaDescription("Put your content on the blockchain, experience true content freedom, and earn rewards.");
+Response::addMetaImage(Request::getHostAndProto() . '/img/lbry-partner.png');
 ?>
 <main>
   <?php echo View::render('acquisition/_youtube_header') ?>
@@ -62,7 +63,7 @@ Response::setMetaDescription("Put your content on the blockchain, experience tru
             <input type="submit" value="Claim now" onClick="return submitDetailsForm()"/>
         </div>
       <div class="meta">
-        This will verify you are an active YouTuber, then instructions and your welcome credits will be emailed to you.
+        This will verify you are an active YouTuber. Once verified instructions about how to claim credits, and technical details about your channel, will be emailed to you.
         <a href="/faq/youtube">Learn more</a>.
       </div>
     </div>
@@ -77,7 +78,7 @@ Response::setMetaDescription("Put your content on the blockchain, experience tru
         <div class="box">
             <div class="image" target="_blank">
                 <div id="play-video1" class="to-play" onclick="playVideo('video1')"><span></span></div>
-                    <video id="video1" width="100%" poster="/img/youtube/01@2x.jpg" src="https://spee.ch/1ac47b8b3def40a25850dc726a09ce23d09e7009/ever-wonder-how-bitcoin-and-other.mp4" style="cursor: pointer" onclick="this.paused ? this.play() : this.pause();"/></video>
+                    <video id="video1" width="100%" poster="/img/youtube/01@2x.jpg" src="https://spee.ch/1ac47b8b3def40a25850dc726a09ce23d09e7009/ever-wonder-how-bitcoin-and-other.mp4" style="cursor: pointer" onclick="function(){this.paused ? this.play() : this.pause()}"/></video>
             </div>
 
           <div class="text">
@@ -87,7 +88,7 @@ Response::setMetaDescription("Put your content on the blockchain, experience tru
         <div class="box">
             <div class="image" target="_blank">
                 <div id="play-video2" class="to-play" onclick="playVideo('video2')"><span></span></div>
-              <video id="video2" width="100%" poster="/img/youtube/02@2x.jpg" src="https://spee.ch/3c96f32de285db6c04e80bd6f5fad573250541e9/casually-successful.mp4" style="cursor: pointer" onclick="this.paused ? this.play() : this.pause();" /></video>
+              <video id="video2" width="100%" poster="/img/youtube/02@2x.jpg" src="https://spee.ch/3c96f32de285db6c04e80bd6f5fad573250541e9/casually-successful.mp4" style="cursor: pointer" onclick="function(){this.paused ? this.play() : this.pause()}" /></video>
             </div>
 
           <div class="text">
@@ -97,7 +98,7 @@ Response::setMetaDescription("Put your content on the blockchain, experience tru
         <div class="box">
           <div class="image"  target="_blank">
               <div id="play-video3" class="to-play" onclick="playVideo('video3')"><span></span></div>
-              <video id="video3" width="100%" poster="/img/youtube/03@2x.jpg" src="https://spee.ch/8958c5d573d71f5c2d0c1bfdf752737ce39744cb/the-historical-elements-of-wolfenstein.mp4" style="cursor: pointer" onclick="this.paused ? this.play() : this.pause();"></video>
+              <video id="video3" width="100%" poster="/img/youtube/03@2x.jpg" src="https://spee.ch/8958c5d573d71f5c2d0c1bfdf752737ce39744cb/the-historical-elements-of-wolfenstein.mp4" style="cursor: pointer" onclick="function(){this.paused ? this.play() : this.pause()}"></video>
           </div>
           <div class="text">
             <p>@ColinsLastStand</p>
@@ -111,7 +112,7 @@ Response::setMetaDescription("Put your content on the blockchain, experience tru
   <div class="inner">
     <div class="content">
       <h1>Migrating to LBRY</h1>
-      <p>We will automatically mirror your existing YouTube channel to the LBRY Network.</p>
+      <p>We will automatically mirror your most recent 1,000 YouTube videos to your channel on the LBRY Network.</p>
       <div class="steps">
         <div class="path">
           <div class="journey"></div>
@@ -138,7 +139,7 @@ Response::setMetaDescription("Put your content on the blockchain, experience tru
       <div class="zigzag"></div>
       <h1>Sync &amp; Earn</h1>
       <p>LBRY offers a single-click sync process<br>for existing YouTubers</p>
-        <form class="form" id="sync" method="post" action="http://api.lbry.io/yt/connect">
+        <form class="form" id="sync" method="post" action="https://lbry.io/youtube">
             <div class="form-inner">
               <div class="block">
                 <div class="center">
@@ -210,11 +211,11 @@ Response::setMetaDescription("Put your content on the blockchain, experience tru
       <h1>Tell me more.</h1>
       <p>We have a guy that elaborates on things. Apply directly to the forehead.</p>
       <div class="v-card">
-        <div class="photo"><img src="/img/youtube/reilly-smith@2x.png"></div>
+        <div class="photo"><img src="https://spee.ch/7/rob-smith1.png"></div>
         <div class="text">
-          <h3>Reilly Smith</h3>
-          <p>Head of Content</p>
-          <a href="mailto:reilly@lbry.io?subject=YouTube+Freedom">Contact</a>
+          <h3>Rob Smith</h3>
+          <p>Head of Product Growth</p>
+          <a href="mailto:rob@lbry.io?subject=YouTube+Freedom">Contact</a>
         </div>
       </div>
     </div>

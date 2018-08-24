@@ -24,20 +24,20 @@
       <div class="content content-light content-tile">
         <h3>{{learn.explore}}</h3>
         <div class="spacer1">
-          <a href="/news" class="link-primary">Latest News</a>
+          <a href="/news" class="link-primary"><i class="fa fa-newspaper icon-fw"></i><span class="btn-label">Latest News</span></a>
         </div>
         <div class="spacer1">
-          <a href="/faq" class="link-primary">{{page.faq.header}}</a>
+          <a href="/faq" class="link-primary"><span class="fa fa-question icon-fw"></span><span class="btn-label">{{page.faq.header}}</span></a>
           (<a href="/faq/what-is-lbry" class="link-primary">What is LBRY?</a>)
         </div>
         <div class="spacer1">
-          <a href="http://explorer.lbry.io" class="link-primary">Blockchain Explorer</a>
+          <a href="http://explorer.lbry.io" class="link-primary"><span class="fa fa-globe icon-fw"></span><span class="btn-label">Blockchain Explorer</span></a>
         </div>
         <div class="spacer1">
-          <a href="/team" class="link-primary">About the Team</a>
+          <a href="/team" class="link-primary"><span class="fa fa-users icon-fw"></span><span class="btn-label">About the Team</span></a>
         </div>
         <div class="spacer1">
-          <a href="/credit-reports" class="link-primary">Credit Reports</a>
+          <a href="/credit-reports" class="link-primary"><span class="fa fa-university icon-fw"></span><span class="btn-label">Credit Reports</span></a>
         </div>
       </div>
     </div>
@@ -45,13 +45,18 @@
   <div class="span4">
     <div class="cover cover-light-alt cover-light-alt-grad">
       <div class="content content-light content-tile">
+        <h3>For Creators</h3>
+        <div class="spacer1">
+          <a href="https://lbry.io/youtube" class="link-primary"><i class="fa fa-sync icon-fw"></i><span class="btn-label">Youtube Partner Program</span></a>
+        </div>
+        <div class="spacer1">
+          <a href="/faq?category=publisher" class="link-primary"><span class="icon-question icon-fw"></span><span class="btn-label">Publisher FAQ</span></a>
+        </div>
         <h3>For Developers</h3>
-        <p>LBRY is 100% open source in the <a class="link-primary" href="https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar">Bazaar tradition</a>.</p>
         <?php echo View::render('social/_listDev') ?>
       </div>
     </div>
   </div>
-
   <div class="span4">
     <div class="cover cover-dark cover-dark-grad">
       <div class="content content-dark content-tile">
@@ -61,7 +66,6 @@
         <?php echo View::render('mail/_contact-us') ?>
       </div>
     </div>
-  </div>
-      
+  </div>     
        </main>
 <?php echo View::render('nav/_footer') ?>

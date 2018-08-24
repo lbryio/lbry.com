@@ -1,4 +1,4 @@
-﻿---
+---
 author: reilly-smith
 title: 'Supergreen'
 date: '2017-05-04 00:19:30'
@@ -16,8 +16,8 @@ But he’s moving onto greener pastures right here on LBRY.
 
 If you’ve been looking to build your own garden and don’t know where to start, this is bar none the best place on the internet to learn from the master. John Kohler’s gardening adventures and tips can soon be found at:
 
-- lbry://@GrowingYourGreens
+- [lbry://@GrowingYourGreens](https://open.lbry.io/@GrowingYourGreens)
 
 Don’t stay outside long, though. You’ll miss LBRY too much.
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Have some tips and tricks of your own craft to share? Email reilly@lbry.io to **spread** your **knowledge** faster than Tai Lopez in a Lambo.
+**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Have some tips and tricks of your own craft to share? Email [reilly@lbry.io](mailto:reilly@lbry.io) to **spread** your **knowledge** faster than Tai Lopez in a Lambo.

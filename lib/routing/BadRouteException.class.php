@@ -2,4 +2,6 @@
 
 namespace Routing;
 
-class RouterBadRouteException extends \LogicException {}
+class RouterBadRouteException extends \LogicException
+{
+}

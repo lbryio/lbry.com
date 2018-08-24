@@ -1,7 +1,8 @@
 ---
 title: Project Manager
 order: 3
-status: active
+status: closed
+location: remote (global)
 url: https://hire.withgoogle.com/public/jobs/lbryio/view/P_AAAAAADAAADDIQ-YUHEtOA?trackingTag=joinUs
 ---
 Being a project manager at LBRY requires skillful facilitation and coaching of a menagerie of full-time engineers and community contributors. It demands the ability to break down big goals into practical plans and keep track of a wide variety of tasks and small details.

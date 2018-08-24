@@ -16,4 +16,4 @@ Join us on Tuesday 12/12 at 8 PM EST to watch along, comment, and spread good ti
 
 You can watch the movie [in-app with this link](https://open.lbry.io/rare-exports-movienight), or [on Spee.ch with this link](https://spee.ch/rare-exports-movienight).
 
-And remember, the greatest gift of all the warm feeling you get in the cockles of your heart when you tell a friend to [download LBRY](http://lbry.io/get).
+And remember, the greatest gift of all the warm feeling you get in the cockles of your heart when you tell a friend to [download LBRY](https://lbry.io/get).

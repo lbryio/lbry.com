@@ -1,4 +1,4 @@
-﻿---
+---
 author: reilly-smith
 title: 'Skate, Relax, Enjoy'
 date: '2016-09-22 00:06:00'
@@ -16,6 +16,6 @@ Part biography, part LCD Soundsystem music video, *SKATE* captures the American 
 
 Janna’s six-minute short won the Grand Jury Prize at [Florida Film Festival for Best Short Doc](http://articles.orlandosentinel.com/2013-05-01/entertainment/os-florida-film-festival-winners-20130501_1_florida-film-festival-award-winners-audience-award), as well as being selected by [Nashville Film Festival](https://nashvillefilmfestival.org/news/full-short-film-lineup/) and [DOC NYC](http://www.docnyc.net/film/obsessions/).
 
-It can be seen at **[lbry://skateyrselfclean](lbry://skateyrselfclean)** now.
+It can be seen at **[lbry://skateyrselfclean](https://open.lbry.io/skateyrselfclean)** now.
 
 **Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Or if you’re a creator, skip our wait list for a chance to earn $1,000 in LBRY Credits. [Learn more here](https://lbry.io/publish).

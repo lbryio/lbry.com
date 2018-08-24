@@ -6,7 +6,7 @@ status: available
 date: '2018-03-20'
 ---
 
-This bounty is to create a utility that can bulk upload a series of videos to LBRY.
+This bounty is to create a utility that can bulk upload a series of videos to LBRY. A LBRY term intern started implementing this in https://github.com/filipnyquist/lbrysync - this can be used as a base to fill in the rest of the required features. 
 
 This utility is for semi-technical users who have a large amount of content they want to sync. A good example use case would be the videos from a conference.
 

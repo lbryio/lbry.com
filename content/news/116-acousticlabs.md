@@ -1,4 +1,4 @@
-﻿---
+---
 author: reilly-smith
 title: 'Strumming up a Storm'
 date: '2017-06-15 00:08:00'
@@ -15,8 +15,8 @@ Acoustic Labs, otherwise known as composer GC Johnson, publishes a variety of mu
 GC has scored many films and multiple Netflix series. And he has some of the most epic fingerpicking videos online. (The ronroco versions are my personal favorite).
 
 Check him out soon on LBRY at:
-- lbry://@AcousticLabs
+- [lbry://@AcousticLabs](https://open.lbry.io/@AcousticLabs)
 
 If you're sick of Bandcamp or Spotify, LBRY could be your new outlet.
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Have tabs for sale or girls to impress with your strumming? Email reilly@lbry.io to be super cool. Or sync your channel at: https://api.lbry.io/yt/connect?type=sync
+**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Have tabs for sale or girls to impress with your strumming? Email [reilly@lbry.io](mailto:reilly@lbry.io) to be super cool. Or sync your channel at: https://lbry.io/youtube

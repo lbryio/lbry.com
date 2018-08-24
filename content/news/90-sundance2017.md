@@ -1,4 +1,4 @@
-﻿---
+---
 author: reilly-smith
 title: 'Movie Soup for the Soul'
 date: '2017-01-19 00:16:00'
@@ -24,4 +24,4 @@ This little six-minute gem directed by Kat Candler went on to play 40 film festi
 
 Without *Hellion* and our [November film *Cinema Six*](https://lbry.io/news/singletree), I would not be here today with LBRY. So here’s to keeping the dream of great indie film alive.
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Or if you’re a creator, skip the wait and email reilly@lbry.io.
+**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Or if you’re a creator, skip the wait and email [reilly@lbry.io](mailto:reilly@lbry.io).

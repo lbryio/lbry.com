@@ -1,6 +1,7 @@
 ---
 title: Web Developer
 order: 10
+location: remote (global)
 status: closed
 ---
 We're seeking someone to manage [this very website](https://github.com/lbryio/lbry.io), as well as other LBRY web properties and projects.

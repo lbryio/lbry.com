@@ -1,4 +1,4 @@
-﻿---
+---
 author: reilly-smith
 title: 'Kernels of Truth'
 date: '2017-08-24 00:22:00'
@@ -18,4 +18,4 @@ If you check out [lbry://@Lunduke](https://open.lbry.io/%40Lunduke), you’ll ca
 
 Please support [his patreon](https://www.patreon.com/bryanlunduke) or beg him for a LBRY address so you can tip him that sweet, sweet LBC.
 
-**[Download LBRY today](https://lbry.io/get)**. Is your favorite channel not on LBRY? Help us feature what you want to see! Email reilly@lbry.io to make it happen. Or sync your own channel at: https://api.lbry.io/yt/connect?type=sync
+**[Download LBRY today](https://lbry.io/get)**. Is your favorite channel not on LBRY? Help us feature what you want to see! Email [reilly@lbry.io](mailto:reilly@lbry.io) to make it happen. Or sync your own channel at: https://lbry.io/youtube

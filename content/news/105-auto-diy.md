@@ -1,4 +1,4 @@
-﻿---
+---
 author: reilly-smith
 title: 'r/JustRolledIntoTheShop'
 date: '2017-04-06 00:12:00'
@@ -21,7 +21,7 @@ If we ever finish DIY building the LBRY network, we think there might be a futur
 
 We agree, Mr. Smith.
 
-DIY Auto Body and Paint joined LBRY via the YouTube-LBRY API tool: https://api.lbry.io/yt/connect?type=sync
+DIY Auto Body and Paint joined LBRY via the YouTube-LBRY API tool: https://lbry.io/youtube
 Find more of Donnie’s work and courses at: http://www.collisionblast.com/
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Want to share your DIY madness? Email reilly@lbry.io to spread your knowledge. And maybe humblebrag, too.
+**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Want to share your DIY madness? Email [reilly@lbry.io](mailto:reilly@lbry.io) to spread your knowledge. And maybe humblebrag, too.

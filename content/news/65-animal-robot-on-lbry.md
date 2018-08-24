@@ -22,10 +22,10 @@ lbry://rickandmortyrapgod
 
 AnimalRobot spins all night, every night on LBRY:
 
-- *[The Blow Up: Blackalicious vs. Mr. Fox](lbry://theblowup)* – Wes Anderson + Blackalicious = Profit???
-- *[Hypnotize: Notorious B.I.G. vs. Earl Sinclair](lbry://hypnotize)* – The dad joke of a dinosaur channels his best Biggie impression.
-- *[Dopeman: Redman vs. Homer Simpson](lbry://dopeman)* – Homer lends Redman a hand in selling his latest album to remixed results.
-- *[Rap God: Eminem vs. Rick and Morty](lbry://rickandmortyrapgod)* – Rap God pt. 2
-- *[Straight Outta Compton: A Los Santos Story](lbry://gtasoc)* – Franklin and friends take to Los Santos with their own take on NWA’s legendary hit, Straight Outta Compton
+- *[The Blow Up: Blackalicious vs. Mr. Fox](https://open.lbry.io/theblowup)* – Wes Anderson + Blackalicious = Profit???
+- *[Hypnotize: Notorious B.I.G. vs. Earl Sinclair](https://open.lbry.io/hypnotize)* – The dad joke of a dinosaur channels his best Biggie impression.
+- *[Dopeman: Redman vs. Homer Simpson](https://open.lbry.io/dopeman)* – Homer lends Redman a hand in selling his latest album to remixed results.
+- *[Rap God: Eminem vs. Rick and Morty](https://open.lbry.io/rickandmortyrapgod)* – Rap God pt. 2
+- *[Straight Outta Compton: A Los Santos Story](https://open.lbry.io/gtasoc)* – Franklin and friends take to Los Santos with their own take on NWA’s legendary hit, Straight Outta Compton
 
 **Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Just can’t wait? If you’re a creator, skip our waiting list line for a chance to earn $1,000 in LBRY Credits at the same time. [Learn more here](https://lbry.io/publish).

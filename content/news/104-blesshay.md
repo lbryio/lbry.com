@@ -14,8 +14,8 @@ In the meantime, become the jack-of-all game dev trades at your own pace.
 
 Bless Hay Gaming is comprised of one Denmark native, Simon. Whether it’s programming, art design, or animation, Bless Hay shows you the basics of game development with a focus on 2D and sidescroller styles.
 
-Add your channel on LBRY with Simon using our YouTube-LBRY API sync tool here: https://api.lbry.io/yt/connect?type=sync
+Add your channel on LBRY with Simon using our YouTube-LBRY API sync tool here: https://lbry.io/youtube
 
 Or better yet, develop your own game and become the first interactive title published on LBRY.
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Have a feed you want to add to LBRY? Email reilly@lbry.io to rage quit YouTube in style.
+**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Have a feed you want to add to LBRY? Email [reilly@lbry.io](mailto:reilly@lbry.io) to rage quit YouTube in style.

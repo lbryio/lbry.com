@@ -2,7 +2,7 @@
 category: daemon
 title: Add Support for HTTP
 award: 3000
-status: available
+status: completed
 date: '2016-11-01'
 ---
 

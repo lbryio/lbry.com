@@ -2,4 +2,6 @@
 
 namespace Routing;
 
-class HttpException extends \Exception {}
+class HttpException extends \Exception
+{
+}

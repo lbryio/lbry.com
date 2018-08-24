@@ -18,4 +18,4 @@ Start following his coverage of Sweden’s crime issues at lbry://timcast-sweden
 
 Tim Pool’s work has been syndicated by NBC, Al Jazeera, VICE, Fusion TV, RT and Time.
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Have news you want to share uncensored on LBRY? Email reilly@lbry.io to get to the bottom of the story.
+**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Have news you want to share uncensored on LBRY? Email [reilly@lbry.io](mailto:reilly@lbry.io) to get to the bottom of the story.

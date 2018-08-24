@@ -2,34 +2,29 @@
 
 class Gzip
 {
-  public static function compressFile($source, $level = 1)
-  {
-    $compressedPath  = $source . '.gz';
-    $mode  = 'wb' . $level;
-
-    $fpOut = gzopen($compressedPath, $mode);
-    if (!$fpOut)
+    public static function compressFile($source, $level = 1)
     {
-      return false;
-    }
+        $compressedPath  = $source . '.gz';
+        $mode  = 'wb' . $level;
 
-    $fpIn = fopen($source, 'rb');
-    $error = false;
-    if ($fpIn)
-    {
-      while (!feof($fpIn))
-      {
-        gzwrite($fpOut, fread($fpIn, 1024 * 512));
-      }
-      fclose($fpIn);
-    }
-    else
-    {
-      $error = true;
-    }
+        $fpOut = gzopen($compressedPath, $mode);
+        if (!$fpOut) {
+            return false;
+        }
 
-    gzclose($fpOut);
+        $fpIn = fopen($source, 'rb');
+        $error = false;
+        if ($fpIn) {
+            while (!feof($fpIn)) {
+                gzwrite($fpOut, fread($fpIn, 1024 * 512));
+            }
+            fclose($fpIn);
+        } else {
+            $error = true;
+        }
 
-    return $error ? false : $compressedPath;
-  }
+        gzclose($fpOut);
+
+        return $error ? false : $compressedPath;
+    }
 }

@@ -7,7 +7,7 @@ pr: https://github.com/lbryio/lbry-web-ui/pull/23
 date: '2016-07-01'
 ---
 
-Add a basic wallet interface to the LBRY Browser [`lbry-app`](https://github.com/lbryio/lbry-app).
+Add a basic wallet interface to the LBRY Browser [`lbry-desktop`](https://github.com/lbryio/lbry-desktop).
 
 The interface must support:
 

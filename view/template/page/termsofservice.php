@@ -5,7 +5,7 @@
 <main>
   <div class="content">
     <h1>Terms of Service</h1>
-    <p><strong>This page is a stub. A full acknowledgement is coming before public launch.</strong></p>
+    <p><strong>This page is a stub. A full acknowledgement is coming soon.</strong></p>
     <p>In the interim, by publishing to LBRY, you affirm and acknowledge that:</p>
     <ul>
       <li>You have the right to publish what you are publishing.</li>

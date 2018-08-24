@@ -2,13 +2,18 @@
 title: How do I back up my LBRY wallet?
 category: wallet
 ---
-The LBRY application relies on blockchain technology and the LBRY Credits (LBC) cryptocurrency in order to participate in the network. These LBC are stored in a wallet (data file on your PC) which is generated on each user's PC when they install LBRY. Think of your credits as digital cash on your PC. It is important to understand that the wallet is not stored on any LBRY servers and as such, users are responsible for its safeguarding and making sure a backup (copy of the wallet file) is available in the event that it is lost. Wallets should be backed up periodically to ensure the most up to date information is available.     
+The LBRY application relies on blockchain technology and the LBRY Credits (LBC) cryptocurrency in order to participate in the network. These LBC are stored in a wallet (data file on your PC) which is generated with each LBRY installation (think of your credits as digital cash on your PC). A wallet contains your funds, channel data, and claims (any uploads). It is important to understand that the wallet is not stored on any LBRY servers and as such, users are responsible for its safeguarding and making sure a backup (copy of the wallet file) is available in the event that it is lost. Wallets should be backed up periodically to ensure the most up to date information is available.     
 
 ## How do I find my wallet?
 
-The easiest way to find the location of your LBRY wallet is via the [LBRY app](https://lbry.io/get).  Open LBRY and then go to your wallet (bank icon in the top right of the screen). In the Balance section, you will see a link for `Backup`, click this. If this link is grayed out, it usually means you don't have any credits (see section below on how to manually find the wallet). 
+The easiest way to find the location of your LBRY wallet is via the [LBRY app](https://lbry.io/get).  Open LBRY and on the left side, you should see an option for wallet.
+![wallet](https://spee.ch/d/wallet.jpeg)
 
-When you click `Backup`, you will be shown the location of your `lbryum` directory that contains the wallet file.  Navigate to this directory via your file explorer to locate your wallet. You can either choose to backup this whole directory, the wallets directory inside it or the `default_wallet` file itself inside the wallets directory. 
+Click on the Wallet tab to expand then click `Backup` numbered `1`.
+![backup](https://spee.ch/f/backup.jpeg)
+after clicking on backup, you will see a link for `Backup`, open the location of the link in your local machine and make a copy of the files stored in that location. If this link is grayed out, it usually means you don't have any credits (see section below on how to manually find the wallet). 
+
+When you click `Backup`, you will be shown the location of your `lbryum` directory that contains the wallet file(numbered `2`).  Navigate to this directory via your file explorer to locate your wallet. You can either choose to backup this whole directory, the wallets directory inside it or the `default_wallet` file itself inside the wallets directory. 
 
 ## How do I backup my wallet?
 

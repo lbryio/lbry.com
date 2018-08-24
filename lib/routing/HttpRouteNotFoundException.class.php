@@ -2,5 +2,6 @@
 
 namespace Routing;
 
-class HttpRouteNotFoundException extends HttpException {}
-
+class HttpRouteNotFoundException extends HttpException
+{
+}

@@ -9,7 +9,7 @@ In recent versions of LBRY, the lbrynet-cli tool is no longer included with the 
 
 ## Windows
 1. Open a **Command Prompt** application window
-1. Type `cd "C:\Program Files (x86)\LBRY\resources\static\daemon"` and click Enter
+1. Type `cd "C:\Program Files\LBRY\resources\static\daemon"` ([32-bit located in Program Files(x86)]) and click Enter
 1. Type `lbrynet-cli status` and click **Enter**. This will return the LBRYnet status data
 1. See examples below or [LBRY CLI documentation](https://lbryio.github.io/lbry/cli/) for additional commands
 

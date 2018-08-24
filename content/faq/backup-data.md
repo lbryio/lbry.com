@@ -31,7 +31,9 @@ To summarize, the main directories to consider when backing up or migrating a LB
 6. Sign back into LBRY via your Email by going to the wallet (bank icon in the top right) and then accessing the Rewards tab
 7. Verify wallet balance, Downloads, Published files and Rewards eligibility
 
-*\*Please note: Do not run two instances of LBRY from the same wallet, this is unsupported*
+*\*Note 1: Do not run two instances of LBRY from the same wallet, this is unsupported*
+
+*\*Note 2: If you get startup errors after this procedure: check if the `daemon_settings.yml` file from the `lbrynet` folder points to the correct LBRY file download directory. If it does not, edit the file with correct file path and restart the app. You can view and edit this file with any text editor.*
 
 ### I'm in need of some assistance, can you help?
 

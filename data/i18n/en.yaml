@@ -49,14 +49,13 @@ download:
   unavailable: LBRY is not yet out on this platform, but will be soon. Enter your email to be notified when it is released.
   verb: Download
   windows: Download for Windows
-  works: "Works with Ubuntu, Debian, or any distro with <code>apt</code> or <code>dpkg</code>."
 email:
   address: Email
   code: Invite Code
-  confirm_email_body: Please confirm your subscription to LBRY updates by clicking the link below.
+  confirm_email_body: Please confirm your subscription by clicking the link below.
   confirm_email_button: Confirm Subscription
   confirm_email_subject: Confirm Your Subscription to LBRY
-  confirm_success: Great success! Welcome to LBRY.
+  confirm_success: You are subscribed. Thanks!
   confirm_unsubscribe: You are unsubscribed.
   disclaimer: You will receive 1-2 messages a month, only from LBRY Inc. and only about LBRY. You can easily unsubscribe at any time.
   go: Go
@@ -90,6 +89,9 @@ learn:
   rebels: Learn more about the relentless rebels changing the internet.
   team: About The Team
   meetup: LBRY is looking for ambassadors to spread the word to College campuses and Meetup groups worldwide!
+  3d-printing: 3D Printing meets Blockchain
+  3d-contest: Get paid for uploading to LBRY
+  shirt-contest: Win Library Credits with a shirt design
 nav:
   get: Get
   home: Home
@@ -113,6 +115,7 @@ page:
     header: Frequently Asked Questions
   funnier: One day this will be funnier but today is not that day.
   join: Join Email List
+  email_settings: Email Preferences
   unsubscribe: Unsubscribe
   refer:
     count0: Don't fret, we still like you.
@@ -200,7 +203,7 @@ press:
   used: Any information or media on this page or in our kit can be re-used or otherwise published without attribution.
   zip: Download ZIP
 publish:
-  abundance: Experience digital abundance.
+  abundance: Experience digital abundance
   allow: Allowance for us to promote availability of your content.
   control: Complete Creator Control
   credits: Receive $1,000 worth of LBRY credits to hold, use or sell.
@@ -252,6 +255,9 @@ title:
   meetup: Have LBRY Join Your Next Meetup!
   guns: LBRY Fights For Free Speech
   android-alpha: Be an Android Alpha Tester!
+  3d-printing: Print your first file from the Blockchain
+  3d-contest: Win $100 for a Chess Design
+  shirt-contest: Win $100 for a Shirt Design
 roadmap:
   title: LBRY Roadmap
   description: See past and future progress on development of LBRY, the world's first user-controlled digital marketplace.

@@ -6,9 +6,9 @@ date: '2015-12-02 19:04:36'
 
 Hundreds of classic films remain locked away in musty movie studio vaults, just waiting for somebody to make them available to the public.
 
-<p style="text-align: center;"><img src="http://i.imgur.com/Au1b610.jpg" alt="The Wild Party, featuring Clara Bow"></p>
+<p style="text-align: center;"><img src="https://i.imgur.com/Au1b610.jpg" alt="The Wild Party, featuring Clara Bow"></p>
 
-Movie history experts estimate some 700 films from the 1930s and 40s are sequestered in the vaults of Universal Pictures alone. As the LA Times points out in a recent article, [a lot of people would love to have access to these classics](http://www.latimes.com/business/hiltzik/la-fi-hiltzik-20151025-column.html):
+Movie history experts estimate some 700 films from the 1930s and 40s are sequestered in the vaults of Universal Pictures alone. As the LA Times points out in a recent article, [a lot of people would love to have access to these classics](https://www.latimes.com/business/hiltzik/la-fi-hiltzik-20151025-column.html):
 
 >“Will McKinley, a New York film writer, is dying to get his hands on a copy of ‘Alias Nick Beal,’ a 1949 film noir starring Ray Milland as a satanic gangster. For classic film blogger Nora Fiore, the Grail might be ‘The Wild Party’ (1929), the first talkie to star 1920's ‘It’ girl Clara Bow, directed by the pioneering female director Dorothy Arzner. Film critic Leonard Maltin says he'd like to score a viewing of ‘Hotel Haywire,’ a 1937 screwball comedy written by the great comic director Preston Sturges.”
 

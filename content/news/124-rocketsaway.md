@@ -29,11 +29,11 @@ As you can tell from [several](https://lbry.io/news/slav) [previous](https://lbr
 
 @Recollection is a sister channel to @1791L / @AmericanLampoon with top notch music curation. From Nosaj Thing samples to Stranger Thing remixes, if you like mashups of cinematic soundscapes and chillwave remixes, this is the channel for you. Some of my favorites include:
 
-- [Glocque - Slitted](lbry://rec-KFTZC3z4s-0)
-- [Nosaj Thing - Aquarium](lbry://rec-KKMHHwCwZLU)
-- [Max Richter - On The Nature Of Daylight (Euterpia Remix)](lbry://rec-7OG5Zb1s8Gc)
-- [Thomas Bergersen - Final Frontier](lbry://rec-wL1MDPW-HSk)
+- [Glocque - Slitted](https://open.lbry.io/rec-KFTZC3z4s-0)
+- [Nosaj Thing - Aquarium](https://open.lbry.io/rec-KKMHHwCwZLU)
+- [Max Richter - On The Nature Of Daylight (Euterpia Remix)](https://open.lbry.io/rec-7OG5Zb1s8Gc)
+- [Thomas Bergersen - Final Frontier](https://open.lbry.io/rec-wL1MDPW-HSk)
 
 Check it out. Smash that Watch button. Listen to the illest (re)collection of sounds on LBRY.
 
-**[Download LBRY today](https://lbry.io/get)**. Is your favorite channel not on LBRY? They’re eligible for $250 LBC. Help us feature what you want to see! Email reilly@lbry.io to make it happen. Or sync your own channel at: https://api.lbry.io/yt/connect?type=sync
+**[Download LBRY today](https://lbry.io/get)**. Is your favorite channel not on LBRY? They’re eligible for $250 LBC. Help us feature what you want to see! Email [reilly@lbry.io](mailto:reilly@lbry.io) to make it happen. Or sync your own channel at: https://lbry.io/youtube

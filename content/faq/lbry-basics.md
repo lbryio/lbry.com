@@ -9,13 +9,13 @@ The LBRY App allows you to view free and paid content, upload your digital media
 The purpose of this FAQ is to answer questions about some of the basic functionality available in the LBRY App. Please see our [other FAQ entries](https://lbry.io/faq) for additional information.
 
 ### What is the purpose of having my email connected to LBRY?
-Emails are collected to authenticate and [uniquely identify](https://lbry.io/faq/identity-requirements) users so that they can be eligible for [LBRY Rewards](#rewards) and to stay up to date on the latest LBRY happenings. No other data is stored with your email login. All other data, including your [wallet](#wallet), [downloads](#data) and published content are stored locally on your computer. You can find your connected email by going to Settings (gear icon in the top right) > Help > Connected email. 
+Emails are collected to authenticate and [uniquely identify](https://lbry.io/faq/identity-requirements) users so that they can be eligible for [LBRY Rewards](#rewards), sync subscription data and to stay up to date on the latest LBRY happenings. No other data is stored with your email login. All other data, including your [wallet](#wallet), [downloads](#data) and published content are stored locally on your computer. You can find your connected email by going to Settings (gear icon in the top right) > Help > Connected email. 
 
 ### How do I change my LBRY connected email?
 If you ever need to change your LBRY email address or sign out, please see [this guide](https://lbry.io/faq/how-to-change-email). If you sign into a new email and need to transfer your verification status, you'll need to [reach out to us](mailto:help@lbryio) in order to link your accounts. Please do not verify again to obtain rewards on a 2nd account; your Rewards account may be disabled for abuse.
 
 ### What if I want to run LBRY on multiple computers or different Windows accounts?
-If you want to run the LBRY app on multiple PCs or Windows users, you can either choose not to sign in on the other computers/accounts or use a different email address for each. These additional accounts will not be eligible for LBRY Rewards as they are only allowed on a one account per household basis. If you log into a 2nd PC with the same email, the original PC will be signed out. Changing accounts back and forth on the same PC/user account will cause them to be merged.  
+If you want to run the LBRY app on multiple PCs or on other platforms like Android, you can sign in with the same email on all devices. Each installation will still have its separate wallet and download data (as mentioned above). Any rewards earned will be sent locally to the wallet where they are claimed. In the future, our goal to enable an opt-in wallet syncing service across devices. 
 
 ### What are LBRY Rewards? {#rewards}
 [LBRY Rewards](https://lbry.io/faq/rewards) are used to distribute LBRY Credits(LBC) to new and existing users by allowing them to explore app functions and complete tasks which generate LBC as an award. In order to be eligible for Rewards, you need to [verify your identity](https://lbry.io/faq/identity-requirements) which uniquely identifies you as an LBRY user.
@@ -23,14 +23,18 @@ If you want to run the LBRY app on multiple PCs or Windows users, you can either
 ### What is a wallet and how do I find it? {#wallet}
 A wallet is a secure, digital wallet used to store, send and receive cryptocurrencies like LBRY Credits(LBC). The LBRY App comes with its own wallet and is stored locally on your computer and nowhere else! **It is critical that you [backup your wallet data](https://lbry.io/faq/how-to-backup-wallet) in case you lose access to your PC or need to [migrate](https://lbry.io/faq/backup-data) to a new one.**
 
-In the app, you can find your wallet in the top-right hand corner, next to the bank icon. Clicking it will bring you to the wallet overview page which shows your balance, available Rewards and recent transactions.
-![Find wallet](https://spee.ch/6f82ff233910eebeb0f32f69710bd98c6a6bcb2a/walletaccess.png)
+To find your wallet in the LBRY App, click on wallet on the left side of the App. Clicking it will bring you to the wallet overview page which shows your balance, available Rewards and recent transactions.
+![Find wallet](https://spee.ch/4/wallet2.jpeg)
 
 The LBRY wallet is different from other cryptocurrencies because it also stores your shared content's metadata in the form of [claims](https://lbry.io/faq/naming) when using the [publishing features]((https://lbry.io/faq/how-to-publish). Claim related [wallet transactions](https://lbry.io/faq/transaction-types) ensure that the blockchain uniquely identifies your content and the payment/tips can be routed appropriately. 
 
 ### Where do I find my LBC wallet address?
-You can find your address by first clicking on the bank icon in the top right, then navigating to the Send/Receive tab. Your wallet holds multiple receiving addresses, and new ones can be generated by clicking "Get New Address". Your wallet balance is the sum total of all the LBC available in each of your addresses. 
-![Find address](https://spee.ch/6fff389043fadcf16ade8b0b8f6125834652e1c2/walletaddress.png)
+You can find your address by first clicking on Wallet on the leftside of the LBRY APP.
+![wallet](https://spee.ch/4/wallet21.jpeg)
+
+then navigating to the Send/Receive tab.
+![wallet](https://spee.ch/0/snr.jpeg)
+Your wallet holds multiple receiving addresses, and new ones can be generated by clicking "Get New Address". Your wallet balance is the sum total of all the LBC available in each of your addresses. 
 
 ### Where can I get more LBRY Credits?
 The LBRY App is also integrated with [ShapeShift](https://lbry.io/faq/shapeshift) on the Get Credits tab of the wallet which allows you to convert cryptocurrencies into LBC or you can also [trade for LBC on exchanges](https://lbry.io/faq/exchanges).
@@ -45,21 +49,30 @@ LBRY is a decentralized peer to peer protocol, meaning there are no big servers 
 Please refer to our [publishing guide](https://lbry.io/faq/how-to-publish) as a reference to assist you through the publishing process. 
 
 ### Where can I see my Downloaded and Published items?
-Click the folder icon next to the Publish button to view downloaded files. Click the Published tab to view your published content. 
+Click My LBRY on the left side of the LBRY App, then click downloads to view downloaded files.
+![download](https://spee.ch/8/downloads.jpeg)
+
+Click the Published tab to view your published content.
+![published](https://spee.ch/9/pub.jpeg)
 
 ### How do I know if I'm sharing content and helping the LBRY network properly?
 The easiest way to confirm that you are sharing correctly is to determine if the port used for seeding, 3333, is open to the rest of the LBRY network. To do so, type 3333 into [this port checking tool](http://www.canyouseeme.org) and check the result. It if shows Open, you are all set. If it shows closed, you may need to check your router settings for UPnP options (set to enable) or forward ports 3333 TCP and 4444 UDP to your local computer running LBRY. Firewall and NAT settings may also affect the availability of this port. 
 
 ### How can I search for content on LBRY?
-Searching in LBRY is as easy as typing your search term(s) into the address bar at the top and waiting for the results to return (**don't click Enter!**). Clicking the Enter key will skip the search function and go directly to the URL typed - this is only helpful if you know the exact URL you are trying to view. We are still in the process of optimizing the search results; please bear with us if you are having trouble finding something! 
-![Search](https://spee.ch/f/search-faq.png)
+Searching in LBRY is as easy as typing your search term(s) into the address bar at the top and waiting for the results to return (**don't click Enter!**).
+![Search](https://spee.ch/2/search.jpeg)
+
+Clicking the Enter key will skip the search function and go directly to the URL typed (if it's valid) - this is only helpful if you know the exact URL you are trying to view. We are still in the process of optimizing the search results; please bear with us if you are having trouble finding something! 
+![Search](https://spee.ch/b/searh-2a.jpeg)
 
 ### How can I subscribe and view my favorite channels?
-If you navigate to a channel page (LBRY URLs with an @ symbol in the front), you will see a **Subscribe @** button that manages your subscription. To view all your subscribed channels on one page, click the Subscriptions tab from the home page or the **@** symbol next to the LBRY address bar. 
-![Subscriptions](https://spee.ch/5/subs-faq.png)
+If you navigate to a channel, or click on your favorite video, (LBRY URLs with an @ symbol in the front) click on subscribe right below the video and channel name.
+![subscribe](https://spee.ch/1/sub.jpeg)
+you will see a **@ Subscription** tap right under explore that manages your subscriptions. To view all your subscribed channels on one page, click the Subscriptions tab from the home page. 
+![Subscriptions](https://spee.ch/6/subs.jpeg)
 
 ### Content consistently fails to stream or download, what can I do?
-Please see our [streaming guide](https://lbry.io/faq/unable-to-stream) if you consistently cannot download or stream content on LBRY.
+Please see our [streaming guide](https://lbry.io/faq/unable-to-stream) if you consistently cannot download or stream content on LBRY. If you are having intermittent issues with download failures, try closing LBRY completely and downloading again. Some files on the network may just not be available for various reasons - we'll work on filtering these out in the future. 
 
 ### Some files don't open in the LBRY app, what's going on?
 Currently, the LBRY in-app player supports MP4 videos, mp3s, images, GIFs, HTML and text files. Even though it doesn't support other formats within the app, the files can be externally opened by clicking the **Open** button or navigating to the file by clicking the **Downloaded to** file path on the content page. 

@@ -26,7 +26,7 @@
         <div class="form-row align-left">
           <label>Status</label>
           <select name="status">
-            <?php foreach($statuses as $statusVal => $statusLabel): ?>
+            <?php foreach ($statuses as $statusVal => $statusLabel): ?>
               <option value="<?php echo $statusVal ?>" <?php echo $selectedStatus == $statusVal ? 'selected="selected"' : '' ?>><?php echo $statusLabel ?></option>
             <?php endforeach ?>
           </select>
@@ -41,12 +41,12 @@
     <?php if (count($bounties)): ?>
       <div class="row-fluid">
         <?php $index = 0 ?>
-        <?php foreach($bounties as $post): ?>
+        <?php foreach ($bounties as $post): ?>
           <?php $metadata = $post->getMetadata() ?>
           <div class="span4">
             <a class="bounty-tile" href="<?php echo $post->getRelativeUrl() ?>">
               <div class="text-center spacer-half"><span class="icon-mega
-                <?php switch($metadata['category']) {
+                <?php switch ($metadata['category']) {
                    case 'android': echo 'icon-android'; break;
                    case 'osx':
                    case 'ios':
