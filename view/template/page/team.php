@@ -27,11 +27,10 @@
     <?php endforeach ?>
     <h2>Business</h2>
     <?php foreach(['josh-finer',
-                    'natalie-mitchell',
-                    'reilly-smith',
                     'tom-zarebczan',
                     'brinck-slattery',
-                    'rob-smith'] as $bioSlug): ?>
+                    'rob-smith',
+                    'james-biller'] as $bioSlug): ?>
       <div class="spacer2">
         <?php echo View::render('content/_bio', ['person' => $bioSlug]) ?>
       </div>
