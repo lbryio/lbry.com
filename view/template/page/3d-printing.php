@@ -20,11 +20,12 @@
       <h3>Want to earn rewards for 3D printing nifty items?</h3>
       <p>Scroll down, pick an object to print, then post a picture tagging us on social media (Facebook, Twitter or Instagram) and we'll pay you for each print that you share.</p>
       <h4>How do I start getting paid?</h4>
-      <p><a href="/get?src=FA">Download the LBRY App here</a> to download these files.<a href="https://youtu.be/nyaWL1a8i_A"> Click here for a short video</a> on how to get paid.<p>
+      <p><a href="/get?src=FA" class="link-primary">Download the LBRY App here</a> to download these files.<a href="https://youtu.be/nyaWL1a8i_A" class="link-primary"> Click here for a short video</a> on how to get paid.<p>
+      <iframe width="640" height="360" src="https://www.youtube.com/embed/nyaWL1a8i_A" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <div class="text-center spacer1"><a href="/get?src=FA" class="btn-primary btn-large">Get LBRY App</a></div>
         </div>
         <h4>How do rewards work?</h4>
-<p>You can earn one reward per 24 hour period by posting a picture of your exlcusive LBRY print with your wallet address to social and tagging our account.</p>
+<p>You can earn one reward per 24 hour period by posting a picture of your exclusive LBRY print with your wallet address to social and tagging our account.</p>
     <body align="center">
     <h3><strong>Open the app &amp; click an object to download.</strong></h3>
        <a href="https://open.lbry.io/socratesnightlight"> <img style="padding:20px;" src="https://spee.ch/6/socrates-nightlight" alt="Socrates Nightlight" title="Socrates Nighlight" width="500px"></a>
@@ -34,14 +35,14 @@
        <a href="https://open.lbry.io/teslanightlight"> <img style="padding:20px;" src="https://spee.ch/6/testa-nightlight" alt="Tesla Nightlight" title="Tesla Nighlight" width="500px"></a>
        <a href="https://open.lbry.io/edisonnightlight"> <img style="padding:20px;" src="https://spee.ch/4/edison-nightlight" alt="Edison Nightlight" title="Edison Nighlight" width="500px"></a>
        <a href="https://open.lbry.io/einsteinnightlight"> <img style="padding:20px;" src="https://spee.ch/f/Einstein-Nightlight" alt="Einstein Nightlight" title="Einstein Nighlight" width="500px"></a>
-       <a href="https://open.lbry.io/geniuschessa"> <img style="padding:20px;" src="https://staging.spee.ch/4/Screen-Shot-2018-08-11-at-11254-PM" alt="Genius Chess A" title="Genius Chess A" width="500px"></a>
-       <a href="https://open.lbry.io/geniuschessb"> <img style="padding:20px;" src="https://staging.spee.ch/0/Screen-Shot-2018-08-11-at-11219-PM" alt="Genius Chess B" title="Genius Chess B" width="500px"></a>
-       <a href="https://open.lbry.io/gregsintricatechessa"> <img style="padding:20px;" src="https://staging.spee.ch/4/Gregs-Chess-A-Clickable" alt="Greg's Intricate Chess A" title="Greg's Intricate Chess B" width="500px"></a>
-       <a href="https://open.lbry.io/gregsintricatechessb"> <img style="padding:20px;" src="https://staging.spee.ch/1/Gregs-Chess-B-Clickable" alt="Greg's Intricate Chess B" title="Greg's Intricate Chess B" width="500px"></a>
-       <a href="https://open.lbry.io/ww2chessallies"> <img style="padding:20px;" src="https://staging.spee.ch/c/allies2" alt="WW2 Chess Allies" title="WW2 Chess Allies" width="500px"></a>
+       <a href="https://open.lbry.io/geniuschessa"> <img style="padding:20px;" src="https://spee.ch/3/Screen-Shot-2018-08-11-at-11254-PM" alt="Genius Chess A" title="Genius Chess A" width="500px"></a>
+       <a href="https://open.lbry.io/geniuschessb"> <img style="padding:20px;" src="https://spee.ch/8/Screen-Shot-2018-08-11-at-11219-PM" alt="Genius Chess B" title="Genius Chess B" width="500px"></a>
+       <a href="https://open.lbry.io/gregsintricatechessa"> <img style="padding:20px;" src="https://spee.ch/e/Gregs-Chess-A-Clickable" alt="Greg's Intricate Chess A" title="Greg's Intricate Chess B" width="500px"></a>
+       <a href="https://open.lbry.io/gregsintricatechessb"> <img style="padding:20px;" src="https://spee.ch/0/Gregs-Chess-B-Clickable" alt="Greg's Intricate Chess B" title="Greg's Intricate Chess B" width="500px"></a>
+       <a href="https://open.lbry.io/ww2chessallies"> <img style="padding:20px;" src="https://spee.ch/f/allies2" alt="WW2 Chess Allies" title="WW2 Chess Allies" width="500px"></a>
        <a href="https://open.lbry.io/ww2chessaxis"> <img style="padding:20px;" src="https://spee.ch/4/axis" alt="WW2 Chess Axis" title="WW2 Chess Axis" width="500px"></a>
        <a href="https://open.lbry.io/BoardA"> <img style="padding:20px;" src="https://spee.ch/6/Chess-Board-A-Clickable" alt="Chess Board A" title="Chess Board A" width="500px"></a>
-       <a href="https://open.lbry.io/BoardB"> <img style="padding:20px;" src="https://staging.spee.ch/6/Chess-Board-B-Clickable" alt="Chess Board B" title="Chess Board B" width="500px"></a>
+       <a href="https://open.lbry.io/BoardB"> <img style="padding:20px;" src="https://spee.ch/d/Chess-Board-B-Clickable" alt="Chess Board B" title="Chess Board B" width="500px"></a>
        <a href="https://open.lbry.io/cryptocurrencychess"> <img style="padding:20px;" src="https://spee.ch/6/Crypto-Chess-Nonmineable" alt="Cryptocurrency Chess (Non-mineable)" title="Cryptocurrency Chess (Non-mineable)" width="500px"></a>
        <a href="https://open.lbry.io/cryptocurrencychessnonmineable"> <img style="padding:20px;" src="https://spee.ch/6/Crypto-Chess-Clickable" alt="Cryptocurrency Chess (Mineable)" title="Cryptocurrency Chess (Mineable)" width="500px"></a>
        <a href="https://open.lbry.io/zeycussabstractchess"> <img style="padding:20px;" src="https://spee.ch/8/Abstract-Chess-Clickable" alt="Abstract Chess" title="Abstract Chess" width="500px"></a>
