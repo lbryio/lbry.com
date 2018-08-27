@@ -27,6 +27,11 @@
 <p>You can earn one reward per 24 hour period by posting a picture of your exlcusive LBRY print with your wallet address to social and tagging our account.</p>
     <body align="center">
     <h3><strong>Open the app &amp; click an object to download.</strong></h3>
+       <a href="https://open.lbry.io/toothtoothbrushholder"> <img style="padding:20px;" src="https://spee.ch/9/Tooth-Toothbrush-Holder" alt="Tooth Toothbrush Holder" title="Tooth Toothbrush Holder" width="500px"></a>
+       <a href="https://open.lbry.io/libraryiconbookend"> <img style="padding:20px;" src="https://spee.ch/6/Library-Icon-Bookend" alt="Library Icon Bookend" title="Library Icon Bookend" width="500px"></a>
+       <a href="https://open.lbry.io/monerokeychain"> <img style="padding:20px;" src="https://spee.ch/3/Monero-Keyring-" alt="Monero Keychain" title="Monero Keychain" width="500px"></a>
+       <a href="https://open.lbry.io/ethereumkeychain"> <img style="padding:20px;" src="https://spee.ch/4/Ethereum-Keyring" alt="Ethereum Keychain" title="Ethereum Keychain" width="500px"></a>
+       <a href="https://open.lbry.io/bitcoinkeychain"> <img style="padding:20px;" src="https://spee.ch/c/Bitcoin-Keyring" alt="Bitcoin Keychain" title="Bitcoin Keychain" width="500px"></a>
        <a href="https://open.lbry.io/socratesnightlight"> <img style="padding:20px;" src="https://spee.ch/6/socrates-nightlight" alt="Socrates Nightlight" title="Socrates Nighlight" width="500px"></a>
        <a href="https://open.lbry.io/aristotlenightlight"> <img style="padding:20px;" src="https://spee.ch/d/aristotle-nightlight" alt="Aristotle Nightlight" title="Aristotle Buddha Nighlight" width="500px"></a>
        <a href="https://open.lbry.io/davincibuddhanightlight"> <img style="padding:20px;" src="https://spee.ch/3/da-vinci-buddha-nightlight" alt="da Vinci Buddha Nightlight" title="da Vinci Buddha Nighlight" width="500px"></a>
