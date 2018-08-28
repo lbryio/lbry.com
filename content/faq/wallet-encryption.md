@@ -27,7 +27,6 @@ Encryption is enabled through the Settings page of the LBRY app. Click the toggl
 3. Fill the Encryption Form with your own password and type `I understand` on the below of the `Enter "I understand"` section, and then click the `Encrypt Wallet` button to encrypting your wallet.
 ![Set password](https://spee.ch/b/set-password.png)
 
-
 ## What about backups I made before encrypting my wallet?
 
 These backups are still valid and give full access to your wallet. If you have a secure backup of your encrypted wallet, it is recommended that they are deleted to prevent access by others. Deletion is at your own risk and implies you have a working encrypted backup.
