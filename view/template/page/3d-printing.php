@@ -28,6 +28,7 @@
 <p>You can earn one reward per 24 hour period by posting a picture of your exclusive LBRY print with your wallet address to social and tagging our account.</p>
     <body align="center">
     <h3><strong>Open the app &amp; click an object to download.</strong></h3>
+       <a href="https://open.lbry.io/thethinkerbookends"> <img style="padding:20px;" src="https://spee.ch/e/The-Thinker-Bookends" alt="The Thinker Bookends" title="The Thinker Bookends" width="500px"></a>
        <a href="https://open.lbry.io/toothtoothbrushholder"> <img style="padding:20px;" src="https://spee.ch/9/Tooth-Toothbrush-Holder" alt="Tooth Toothbrush Holder" title="Tooth Toothbrush Holder" width="500px"></a>
        <a href="https://open.lbry.io/libraryiconbookend"> <img style="padding:20px;" src="https://spee.ch/6/Library-Icon-Bookend" alt="Library Icon Bookend" title="Library Icon Bookend" width="500px"></a>
        <a href="https://open.lbry.io/monerokeychain"> <img style="padding:20px;" src="https://spee.ch/3/Monero-Keyring-" alt="Monero Keychain" title="Monero Keychain" width="500px"></a>
