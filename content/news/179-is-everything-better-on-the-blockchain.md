@@ -37,7 +37,7 @@ There are a number of telling signs from the home page of each coin’s respecti
 
 ## Are sports better on the blockchain?
 
-![All Sports Coin](https://spee.ch/2/soc-coin.png)
+![All Sports Coin](https://spee.ch/d389f79f88b7008508f71f4964e9b5f858ad91c0/soc-coin.png)
 
 Red flags:
 
@@ -63,7 +63,7 @@ The creators of SOC seem to take for granted that the sports industry needs its 
 
 ## Is gaming better on the blockchain?
 
-![Game.com](https://spee.ch/e/game-coin.png)
+![Game.com](https://spee.ch/9fdb30146b3a78c6dffdb78edc95f16c29b38743/game-coin.png)
 
 Red flags:
 
@@ -79,13 +79,13 @@ The video attempts to combine cringe-worthy stock music and nebulous imagery to 
 
 If you browse through the site more you’ll end up finding a couple of games: ‘Battle Pets’ and ‘love.pet’. I was actually able to find a version of ‘Battle Pets’ called AnimalTower in the iOS store. Thing is, it has absolutely no relation to blockchain from what I can tell. 
 
-![Animal Wars](https://spee.ch/0/animal-wars.png)
+![Animal Wars](https://spee.ch/c22fae94e884eaf37a5b958d71d7e7e762e24c14/animal-wars.png)
 
-When you click on the "Start Game" on the link from Game.com’s site you get an error message in Chinese: ![Chinese Error Message](https://spee.ch/4d/chinese-error.png)
+When you click on the "Start Game" on the link from Game.com’s site you get an error message in Chinese: ![Chinese Error Message](https://spee.ch/4ccaacf663871c29e9266a912795cded5a6f480b/chinese-error.png)
 
 I have to give them credit for having a subtle backdrop of animals from the game in the background, but would have liked to see the game open and see a wallet of some sort so that I understand how cryptocurrency relates to the game.
 
-![Animal Tower](https://spee.ch/5/animal-tower.png)
+![Animal Tower](https://spee.ch/665668ecf71fa8e676df7e17e6956550ce4a3cc0/animal-tower.png)
 
 Me losing a game of Animal Tower (not on the blockchain).
 
@@ -115,7 +115,7 @@ PotCoin fails to mention why it’s the solution to the world of legal marijuana
 
 Even High Times doesn’t respect PotCoin enough to let in in on their IPO while they DO accept Bitcoin and Ethereum. Tweeting at High Times that they need to accept PotCoin but not providing any reasons why it’s better than Bitcoin or Ethereum is pretty unconvincing…
 
-![PotCoin Tweet](https://spee.ch/4/potion-hightimes.png)
+![PotCoin Tweet](https://spee.ch/bc12ceb5eaa47e1ae348a711b29a3f4ca0a37f53/potion-hightimes.png)
 
 Maybe High Times doesn’t want to associate itself with Dennis Rodman, who was sponsored by PotCoin [on his trip to Singapore(note the PotCoin shirt) for the North Korea summit this year](https://www.youtube.com/watch?v=TI5KULypIdw) and a trip to North Korea last year. 
 
@@ -162,4 +162,3 @@ The problems that we’re solving are explained in this [essay](https://lbry.io/
 We see our blockchain as solving the problem of phenomena like the infamous "adpocalypse" of YouTube, where big corporations decide who gets paid and who doesn’t, regardless of whose content is truly in demand and worth monetization.
 
 We think that the best way for creators to make money is by being by paid by the consumers of their content directly, without a third party- which *does* require a blockchain. 
-
