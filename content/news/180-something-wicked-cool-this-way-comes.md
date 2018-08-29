@@ -16,7 +16,7 @@ LBRY Bradbury comes with some major feature upgrades, including:
 
 ![rewards](https://spee.ch/34dee02a49fefd7301307f4b95948a0cd8ae7990/rewards-sub-download.jpeg)
 
-* **Wallet encryption.** Users can now [encrypt their wallets](https://www.google.com/url?q=https://lbry.io/faq/wallet-encryption) to enhance security.
+* **Wallet encryption.** Users can now [encrypt their wallets](https://lbry.io/faq/wallet-encryption) to enhance security.
 
 * **Subscriptions and auto download settings for subscriptions.** Subscriptions have been reworked - go to the "subscriptions" page in your app to check it out! When you subscribe to a channel on LBRY, the newest content from that channel will now download automatically when the app starts up so you can watch it right away. You can also turn this feature off in your settings or on the subscriptions page.
 
