@@ -6,26 +6,28 @@ cover: 'Bradbury.jpg'
 ---
 LBRY is faster, more reliable, and easier to use than ever with the release of our newest version, Bradbury! Our developers have been working hard on improving the stability of the LBRY protocol and the user experience in our app, and this update delivers in a big way. If it’s been a while since you opened up the LBRY app, now is the time to [get the latest version](https://lbry.io/get) and give it another try.
 
-https://spee.ch/2c249b33d9f6564acb4555d5fe4e97f5901e4657/lbry-bradbury.gif
+![LBRY Bradbury](https://spee.ch/2c249b33d9f6564acb4555d5fe4e97f5901e4657/lbry-bradbury.gif)
 ## What’s in the box?
 LBRY Bradbury comes with some major feature upgrades, including:
 
 * **Improved search and suggested content.** Our navigation bar now defaults to a (significantly improved) search rather than assuming that you’re putting in a claim location. In addition to the improved search, the LBRY app now suggests other content you might enjoy based on what you’re watching.
 
+* **Multi-level rewards.** You can now dive much deeper into LBRY's reward system, with new cumulative and multi-level rewards in-app. Keep watching videos, publishing content, and tipping creators to discover all the new rewards!
+
 * **Wallet encryption.** Users can now [encrypt their wallets](https://www.google.com/url?q=https://lbry.io/faq/wallet-encryption) to enhance security.
 
-* **Auto download settings for subscriptions.** When you subscribe to a channel on LBRY, the newest content from that channel will now download automatically when the app starts up so you can watch it right away. You can also turn this feature off in your settings or on the subscriptions page.
+* **Subscriptions and auto download settings for subscriptions.** Subscriptions have been reworked - go to the "subscriptions" page in your app to check it out! When you subscribe to a channel on LBRY, the newest content from that channel will now download automatically when the app starts up so you can watch it right away. You can also turn this feature off in your settings or on the subscriptions page.
 
-https://spee.ch/ea67ed430188092d70af405d05425dd97288124f/subscriptions-page.jpeg
+![subscriptions](https://spee.ch/ea67ed430188092d70af405d05425dd97288124f/subscriptions-page.jpeg)
 
-* **A total daemon overhaul.** LBRY’s new daemon (the program that allows the app to communicate with other computers on the LBRY network) has been completely revamped, which means much faster load times on content in the LBRY app.
+* **A total daemon overhaul.** LBRY’s upgraded daemon (the program that allows the app to communicate with other computers on the LBRY network) has been completely revamped, which means much faster load times on content in the LBRY app.
 * **Thumbnail previews.** When you choose a thumbnail picture for a video you’ve uploaded to LBRY, you will now be able to see a preview of what the thumbnail looks like. Users will also notice significant improvements to the upload speed once they’ve decided on their thumbnail preview.
 
-https://spee.ch/64d74fe70b627fff863d54b6204ee9ff7fb91baf/thumb-preview.jpeg
+![thumbnails](https://spee.ch/64d74fe70b627fff863d54b6204ee9ff7fb91baf/thumb-preview.jpeg)
 
 * **Improved content previews.** We’ve reworked the way the LBRY app displays content (particularly .txt, .html, .docx, .pdf, and other human-readable file formats) previews for a better user experience.
 
-https://spee.ch/b78059549b8059d42dab5e8dce14cf46581e37fa/pdf-preview.jpeg
+![pdf-preview](https://spee.ch/b78059549b8059d42dab5e8dce14cf46581e37fa/pdf-preview.jpeg)
 
 * **Improved adult content filters.** If you don’t want to see adult content, you don’t have to - with our new NSFW settings, adult content in the “community bids” section is now hidden by default, and search will now filter out adult content unless you have chosen to display it in your app settings.
 * **New 3D file viewer.** All our 3D printing fanatics can now view previews of 3D objects right in the LBRY app.
