@@ -21,6 +21,7 @@ LBRY Bradbury comes with some major feature upgrades, including:
 ![subscriptions](https://spee.ch/ea67ed430188092d70af405d05425dd97288124f/subscriptions-page.jpeg)
 
 * **A total daemon overhaul.** LBRY’s upgraded daemon (the program that allows the app to communicate with other computers on the LBRY network) has been completely revamped, which means much faster load times on content in the LBRY app.
+
 * **Thumbnail previews.** When you choose a thumbnail picture for a video you’ve uploaded to LBRY, you will now be able to see a preview of what the thumbnail looks like. Users will also notice significant improvements to the upload speed once they’ve decided on their thumbnail preview.
 
 ![thumbnails](https://spee.ch/64d74fe70b627fff863d54b6204ee9ff7fb91baf/thumb-preview.jpeg)
@@ -30,15 +31,14 @@ LBRY Bradbury comes with some major feature upgrades, including:
 ![pdf-preview](https://spee.ch/b78059549b8059d42dab5e8dce14cf46581e37fa/pdf-preview.jpeg)
 
 * **Improved adult content filters.** If you don’t want to see adult content, you don’t have to - with our new NSFW settings, adult content in the “community bids” section is now hidden by default, and search will now filter out adult content unless you have chosen to display it in your app settings.
+
 * **New 3D file viewer.** All our 3D printing fanatics can now view previews of 3D objects right in the LBRY app.
 
-You can read all the in-depth details on the [new features in Bradbury here](https://github.com/lbryio/lbry-desktop/blob/master/CHANGELOG.md). We can talk all day about how much better the LBRY experience is, but the only way to really understand is to [download the app](https://lbry.io/get) and try it out!
+You can read all the in-depth details on the [new features in Bradbury here](https://github.com/lbryio/lbry-desktop/releases/tag/v0.24.0). We can talk all day about how much better the LBRY experience is, but the only way to really understand is to [download the app](https://lbry.io/get) and try it out!
 
 ## Why Bradbury?
 
-![Ray Bradbury](https://spee.ch/6/BradburyWide)
-
-Ray Bradbury was a pioneering American writer whose books and short stories brought scifi, a genre that was previously confined to pulp fiction and B movies, to a mainstream audience. With work like The Martian Chronicles, Fahrenheit 451, Dandelion Wine, he’s earned his place in the pantheon of speculative fiction. Bradbury was also an unstoppable autodidact who had little use for schools and formal learning - in his words: 
+Ray Bradbury was a pioneering American writer whose work brought scifi, a genre that was previously confined to pulp fiction and B movies, to a mainstream audience. With work like The Martian Chronicles, Fahrenheit 451, Dandelion Wine, he’s earned his place in the pantheon of speculative fiction. Bradbury was also an unstoppable autodidact who had little use for schools and formal learning - in his words: 
 
 “Libraries raised me. I don't believe in colleges and universities. I believe in libraries because most students don't have any money. When I graduated from high school, it was during the Depression and we had no money. I couldn't go to college, so I went to the library three days a week for 10 years.”
 
