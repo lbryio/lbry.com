@@ -36,9 +36,10 @@ You can read all the in-depth details on the [new features in Bradbury here](htt
 
 ## Why Bradbury?
 
-Ray Bradbury was a pioneering American writer whose work brought scifi, a genre that was previously confined to pulp fiction and B movies, to a mainstream audience. With work like The Martian Chronicles, Fahrenheit 451, Dandelion Wine, he’s earned his place in the pantheon of speculative fiction. Bradbury was also an unstoppable autodidact who had little use for schools and formal learning - in his words, 
+Ray Bradbury was a pioneering American writer whose work brought scifi, a genre that was previously confined to pulp fiction and B movies, to a mainstream audience. With work like The Martian Chronicles, Fahrenheit 451, Dandelion Wine, he’s earned his place in the pantheon of speculative fiction. Bradbury was also an unstoppable autodidact who had little use for schools and formal learning - in his words: 
 
 “Libraries raised me. I don't believe in colleges and universities. I believe in libraries because most students don't have any money. When I graduated from high school, it was during the Depression and we had no money. I couldn't go to college, so I went to the library three days a week for 10 years.”
+
 Any of these achievements would be good enough reason to honor him, but there’s one story that really seals the deal. Bradbury was a constant advocate for creator control of the media they created. He believed that artistic work should be owned by the person who made it, not watered down or interpreted into oblivion. One time, he visited a UCLA class to talk about Fahrenheit 451, and was shocked when the students disagreed with him when he explained the book was about the seductive lure of television and the dumbing down of mass culture, not censorship. Instead of acquiescing and backing down, he told the students to “f--- off” and left.
 
 So let’s hear it for the cantankerous, irascible, ingenious creators who bring wonderful things into the world. And let’s let them keep the profits.
