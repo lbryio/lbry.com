@@ -16,7 +16,7 @@ LBRY Bradbury comes with some major feature upgrades, including:
 
 ![rewards](https://spee.ch/34dee02a49fefd7301307f4b95948a0cd8ae7990/rewards-sub-download.jpeg)
 
-* **Wallet encryption.** Users can now [encrypt their wallets](https://www.google.com/url?q=https://lbry.io/faq/wallet-encryption) to enhance security.
+* **Wallet encryption.** Users can now [encrypt their wallets](https://lbry.io/faq/wallet-encryption) to enhance security.
 
 * **Subscriptions and auto download settings for subscriptions.** Subscriptions have been reworked - go to the "subscriptions" page in your app to check it out! When you subscribe to a channel on LBRY, the newest content from that channel will now download automatically when the app starts up so you can watch it right away. You can also turn this feature off in your settings or on the subscriptions page.
 
@@ -41,7 +41,7 @@ You can read all the in-depth details on the [new features in Bradbury here](htt
 ## Why Bradbury?
 ![Ray Bradbury](https://spee.ch/604a76fefad6fbebaf14d7926f62324ff46de3c5/BradburyWide.jpeg)
 
-Ray Bradbury was a pioneering American writer whose work brought scifi, a genre that was previously confined to pulp fiction and B movies, to a mainstream audience. With work like The Martian Chronicles, Fahrenheit 451, Dandelion Wine, he’s earned his place in the pantheon of speculative fiction. Bradbury was also an unstoppable autodidact who had little use for schools and formal learning - in his words: 
+Ray Bradbury was a pioneering American writer whose work brought Sci-Fi, a genre that was previously confined to pulp fiction and B movies, to a mainstream audience. With work like The Martian Chronicles, Fahrenheit 451, Dandelion Wine, he’s earned his place in the pantheon of speculative fiction. Bradbury was also an unstoppable autodidact who had little use for schools and formal learning - in his words: 
 
 “Libraries raised me. I don't believe in colleges and universities. I believe in libraries because most students don't have any money. When I graduated from high school, it was during the Depression and we had no money. I couldn't go to college, so I went to the library three days a week for 10 years.”
 
