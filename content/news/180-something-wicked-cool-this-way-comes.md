@@ -36,6 +36,8 @@ You can read all the in-depth details on the [new features in Bradbury here](htt
 
 ## Why Bradbury?
 
+![Ray Bradbury](https://spee.ch/6/BradburyWide)
+
 Ray Bradbury was a pioneering American writer whose work brought scifi, a genre that was previously confined to pulp fiction and B movies, to a mainstream audience. With work like The Martian Chronicles, Fahrenheit 451, Dandelion Wine, he’s earned his place in the pantheon of speculative fiction. Bradbury was also an unstoppable autodidact who had little use for schools and formal learning - in his words: 
 
 “Libraries raised me. I don't believe in colleges and universities. I believe in libraries because most students don't have any money. When I graduated from high school, it was during the Depression and we had no money. I couldn't go to college, so I went to the library three days a week for 10 years.”
