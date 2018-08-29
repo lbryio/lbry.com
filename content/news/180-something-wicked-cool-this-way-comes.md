@@ -14,6 +14,8 @@ LBRY Bradbury comes with some major feature upgrades, including:
 
 * **Multi-level rewards.** You can now dive much deeper into LBRY's reward system, with new cumulative and multi-level rewards in-app. Keep watching videos, publishing content, and tipping creators to discover all the new rewards!
 
+![rewards](https://spee.ch/34dee02a49fefd7301307f4b95948a0cd8ae7990/rewards-sub-download.jpeg)
+
 * **Wallet encryption.** Users can now [encrypt their wallets](https://www.google.com/url?q=https://lbry.io/faq/wallet-encryption) to enhance security.
 
 * **Subscriptions and auto download settings for subscriptions.** Subscriptions have been reworked - go to the "subscriptions" page in your app to check it out! When you subscribe to a channel on LBRY, the newest content from that channel will now download automatically when the app starts up so you can watch it right away. You can also turn this feature off in your settings or on the subscriptions page.
@@ -26,7 +28,7 @@ LBRY Bradbury comes with some major feature upgrades, including:
 
 ![thumbnails](https://spee.ch/64d74fe70b627fff863d54b6204ee9ff7fb91baf/thumb-preview.jpeg)
 
-* **Improved content previews.** We’ve reworked the way the LBRY app displays content (particularly .txt, .html, .docx, .pdf, and other human-readable file formats) previews for a better user experience.
+* **Improved content previews.** We’ve reworked the way the LBRY app displays content (particularly .txt, .html, .docx, .pdf, and other human-readable file formats) previews for a better user experience. This also includes code formatting in source files for languages like [Javascript (.js), Python (.py) and many more](https://codemirror.net/mode/).  
 
 ![pdf-preview](https://spee.ch/b78059549b8059d42dab5e8dce14cf46581e37fa/pdf-preview.jpeg)
 
