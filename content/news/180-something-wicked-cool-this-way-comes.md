@@ -37,6 +37,7 @@ LBRY Bradbury comes with some major feature upgrades, including:
 You can read all the in-depth details on the [new features in Bradbury here](https://github.com/lbryio/lbry-desktop/releases/tag/v0.24.0). We can talk all day about how much better the LBRY experience is, but the only way to really understand is to [download the app](https://lbry.io/get) and try it out!
 
 ## Why Bradbury?
+![Ray Bradbury](https://spee.ch/604a76fefad6fbebaf14d7926f62324ff46de3c5/BradburyWide.jpeg)
 
 Ray Bradbury was a pioneering American writer whose work brought scifi, a genre that was previously confined to pulp fiction and B movies, to a mainstream audience. With work like The Martian Chronicles, Fahrenheit 451, Dandelion Wine, he’s earned his place in the pantheon of speculative fiction. Bradbury was also an unstoppable autodidact who had little use for schools and formal learning - in his words: 
 
