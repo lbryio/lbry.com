@@ -4,6 +4,9 @@ title: 'Something Wicked Cool This Way Comes'
 date: '2018-08-29 17:00:00'
 cover: 'Bradbury.jpg'
 ---
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The all new LBRY Bradbury is live! Wallet encryption, improved subscriptions, and better search are now available in the LBRY app - download it today or upgrade in-app! <br>Get the details here: <a href="https://t.co/oa1DLoR350">https://t.co/oa1DLoR350</a><br>Download here: <a href="https://t.co/dwhnZqsn5n">https://t.co/dwhnZqsn5n</a> <a href="https://twitter.com/hashtag/newrelease?src=hash&amp;ref_src=twsrc%5Etfw">#newrelease</a> <a href="https://twitter.com/hashtag/blockchain?src=hash&amp;ref_src=twsrc%5Etfw">#blockchain</a> <a href="https://t.co/6F7xVki06H">pic.twitter.com/6F7xVki06H</a></p>&mdash; LBRY (we never give away ETH) (@LBRYio) <a href="https://twitter.com/LBRYio/status/1034894356552003590?ref_src=twsrc%5Etfw">August 29, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 LBRY is faster, more reliable, and easier to use than ever with the release of our newest version, Bradbury! Our developers have been working hard on improving the stability of the LBRY protocol and the user experience in our app, and this update delivers in a big way. If it’s been a while since you opened up the LBRY app, now is the time to [get the latest version](https://lbry.io/get) and give it another try.
 
 ![LBRY Bradbury](https://spee.ch/2c249b33d9f6564acb4555d5fe4e97f5901e4657/lbry-bradbury.gif)
