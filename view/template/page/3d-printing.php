@@ -28,6 +28,10 @@
 <p>You can earn one reward per 24 hour period by posting a picture of your exclusive LBRY print with your wallet address to social and tagging our account.</p>
     <body align="center">
     <h3><strong>Open the app &amp; click an object to download.</strong></h3>
+       <a href="https://open.lbry.io/usakeychain"> <img style="padding:20px;" src="https://spee.ch/d/USA-Keychain" alt="USA Keychain" title="USA Keychain" width="500px"></a>
+       <a href="https://open.lbry.io/trumpelephant"> <img style="padding:20px;" src="https://spee.ch/7/Trump-Elephant" alt="Trump Elephant" title="Trump Elephant" width="500px"></a>
+       <a href="https://open.lbry.io/obamadonkey"> <img style="padding:20px;" src="https://spee.ch/c/Obama-Donkey" alt="Obama Donkey" title="Obama Donkey" width="500px"></a>
+       <a href="https://open.lbry.io/brainpowerbookendshelf"> <img style="padding:20px;" src="https://spee.ch/d/brainpower-bookendshelf" alt="Brainpower Bookendshelf" title="Brainpower Bookendshelf" width="500px"></a>
        <a href="https://open.lbry.io/thethinkerbookends"> <img style="padding:20px;" src="https://spee.ch/e/The-Thinker-Bookends" alt="The Thinker Bookends" title="The Thinker Bookends" width="500px"></a>
        <a href="https://open.lbry.io/toothtoothbrushholder"> <img style="padding:20px;" src="https://spee.ch/9/Tooth-Toothbrush-Holder" alt="Tooth Toothbrush Holder" title="Tooth Toothbrush Holder" width="500px"></a>
        <a href="https://open.lbry.io/libraryiconbookend"> <img style="padding:20px;" src="https://spee.ch/6/Library-Icon-Bookend" alt="Library Icon Bookend" title="Library Icon Bookend" width="500px"></a>
