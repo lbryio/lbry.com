@@ -31,6 +31,9 @@
           (<a href="/faq/what-is-lbry" class="link-primary">What is LBRY?</a>)
         </div>
         <div class="spacer1">
+          <a href="http://lbry.fund" class="link-primary"><span class="fas fa-dollar-sign"></span><span class="btn-label">LBRY Community Fund</span></a>
+        </div>
+        <div class="spacer1">
           <a href="http://explorer.lbry.io" class="link-primary"><span class="fa fa-globe icon-fw"></span><span class="btn-label">Blockchain Explorer</span></a>
         </div>
         <div class="spacer1">
@@ -51,6 +54,9 @@
         </div>
         <div class="spacer1">
           <a href="/faq?category=publisher" class="link-primary"><span class="icon-question icon-fw"></span><span class="btn-label">Publisher FAQ</span></a>
+        </div>
+        <div class="spacer1">
+          <a href="https://lbry.io/3d-printing#about" class="link-primary"><span class="fas fa-fill"></<span class="btn-label">3D Printing Program</span></a>
         </div>
         <h3>For Developers</h3>
         <?php echo View::render('social/_listDev') ?>
