@@ -88,7 +88,7 @@ If you're a writer, designer, or communicator, you can also contribute to LBRY.
 
 If you want to update or edit existing written copy, it likely exists in either [lbry.io](https://github.com/lbryio/lbry.io) (the website) or [lbry-desktop](https://github.com/lbryio/lbry-desktop) (the browser). Try searching the respective repo for a string (in quotes) related to the copy that you want to adjust. You can likely figure out how to edit text via the GitHub interface. If not, you can point out issues to [Tom](mailto:tom@lbry.io).
 
-If you want to contribute new written copy, such as a blog post or other content, please contact [Jeremy](mailto:jeremy@lbry.io), or join or [chat](https://chat.lbry.io) and post a message in #general.
+If you want to contribute new written copy, such as a blog post or other content, please contact [Jeremy](mailto:jeremy@lbry.io), or join our [chat](https://chat.lbry.io) and post a message in #general.
 
 ### Designing {#designing}
 
