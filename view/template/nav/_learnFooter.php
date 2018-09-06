@@ -21,7 +21,9 @@
             <a href="https://chat.lbry.io" target="_blank" class="link-primary"><span class="btn-label">Discord</span><span class="icon-comments icon-fw"></span></a>
 	    <a href="https://www.instagram.com/lbryio/" target="_blank" class="link-primary"><span class="btn-label">Instagram</span><span class="fab fa-instagram icon-fw"></span></a>
             <a href="https://t.me/lbryofficial" target="_blank" class="link-primary"><span class="btn-label">Telegram</span><span class="fab fa-telegram icon-fw"></span></a> 
-       or explore our <a href="https://shop.lbry.io" target="_blank" class="link-primary"><span class="btn-label">LBRY Shop</span><span class="icon-fw icon-shopping-cart"></span></a></li>        
+       or explore our <a href="https://shop.lbry.io" target="_blank" class="link-primary"><span class="btn-label">LBRY Shop</span><span class="icon-fw icon-shopping-cart"></span></a></li> 
+       <a href="https://lbry.fund/" target="_blank" class="link-primary"><span class="btn-label">LBRY Community Fund</span><span class="fas fa-hand-holding-usd icon-fw"></span></a></li>
+       <a href="https://lbry.io/3d-printing" target="_blank" class="link-primary"><span class="btn-label">3D Printing Program</span><span class="icon-fw icon-cube"></span></a></li>       
         </ul>
       </div>
       <div class="span6">
