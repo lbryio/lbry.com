@@ -1,5 +1,5 @@
 ---
-author: samuel-lbryian
+author: james-biller
 title: 'Is Everything Better On The Blockchain?'
 date: '2018-08-20 08:08:08'
 cover: 'Growing-Blockchain.png'
