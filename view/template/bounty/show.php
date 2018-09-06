@@ -32,11 +32,11 @@
         </div>
       <h4>Bounty Questions?</h4>
         <div class="spacer1">
-          <a href="/faq/bounties" class="btn btn-alt"><span class="icon-question icon-fw"></span><span class="btn-label">Read the FAQ</span></a>
+          <a href="/faq/bounties" class="link-primary"><span class="icon-question icon-fw"></span>Read the FAQ</a>
         </div>
         <h4>Want Live Help?</h4>
         <div class="spacer1">
-          <a href="http://chat.lbry.io" class="btn btn-alt"><span class="icon-comments icon-fw"></span><span class="btn-label">Join Our Chat</span></a>
+          <a href="http://chat.lbry.io" class="link-primary"><span class="icon-comments icon-fw"></span>Join Our Chat/a>
         </div>
       <?php endif ?>
     </section>
