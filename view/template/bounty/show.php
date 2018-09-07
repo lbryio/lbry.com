@@ -30,13 +30,13 @@
         <div class="spacer1">
           <a href="mailto:bounty@lbry.io?subject=<?php echo $metadata['title'] ?>" class="btn btn-alt">Claim Bounty</a>
         </div>
-        <h4>Bounty Questions?</h4>
+      <h4>Bounty Questions?</h4>
         <div class="spacer1">
-          <a href="/faq/bounties">Read the FAQ</a>
+          <a href="/faq/bounties" class="link-primary"><span class="icon-question icon-fw"></span>Read the FAQ</a>
         </div>
         <h4>Want Live Help?</h4>
         <div class="spacer1">
-          <a href="http://chat.lbry.io" class="link-primary">Join Our Chat</a>
+          <a href="http://chat.lbry.io" class="link-primary"><span class="icon-comments icon-fw"></span>Join Our Chat/a>
         </div>
       <?php endif ?>
     </section>
