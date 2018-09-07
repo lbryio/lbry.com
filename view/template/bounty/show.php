@@ -36,7 +36,7 @@
         </div>
         <h4>Want Live Help?</h4>
         <div class="spacer1">
-          <a href="http://chat.lbry.io" class="link-primary"><span class="icon-comments icon-fw"></span>Join Our Chat/a>
+          <a href="http://chat.lbry.io" class="link-primary"><span class="icon-comments icon-fw"></span>Join Our Chat</a>
         </div>
       <?php endif ?>
     </section>
