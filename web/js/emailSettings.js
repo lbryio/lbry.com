@@ -20,24 +20,24 @@ lbry.emailSettingsForm = function (formSelector, tags, userAuthToken) {
         hasError = false;
         isEmailSubmitPending = true;
         isTagSubmitPending = true;
-
-        var url = 'https://api.lbry.io/user/email/edit?auth_token=' + userAuthToken
-        $.param($.map(emailSection.find("input"), function(element) {
+        var promiseMap = $.map(emailSection.find("input"), function(element) {
+            var url = 'https://api.lbry.io/user/email/edit?auth_token=' + userAuthToken
             url = url + "&email="+element.value+"&enabled="+element.checked.toString();
-            fetch(url).then(function(value) { return value.json()}).then(jsonResponse => {
+            return fetch(url).then(function(value) { return value.json()})
+
+        });
+        //Call api for each email a user will have linked - polyfill needed for IE for Promise.all
+        Promise.all(promiseMap)
+            .then(function(apiValues) {
                 isEmailSubmitPending = false;
-                if (!jsonResponse.success){
-                    hasError = true
-                    emailSection.find('.notice-error').html(jsonResponse.error).show();
-                }
                 showSuccess();
-            }).catch(function(value) {
+            })
+            .catch(function(value) {
                 isEmailSubmitPending = false;
                 hasError = true;
                 var error = "get actual error message from value";
                 emailSection.find('.notice-error').html(error).show();
             });
-        }));
 
         //do tag edit
         var url = 'https://api.lbry.io/user/tag/edit?auth_token=' + userAuthToken
