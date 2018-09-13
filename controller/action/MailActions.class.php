@@ -74,7 +74,7 @@ class MailActions extends Actions
 
     public static function prepareSettingsFormPartial(array $vars)
     {
-      return $vars + [
+        return $vars + [
         'tagMetadata' => [
            '3d-printing' => [
               'label' => '3D Printing',
@@ -103,6 +103,14 @@ class MailActions extends Actions
           'ios' => [
             'label' => 'iPhone',
             'description' => 'Be an iOS alpha tester, earn LBC, and receive notification when the app goes live!'
+          ],
+          'reward' => [
+            'label' => 'Rewards',
+            'description' => 'Receive emails about the latest rewards that are available to LBRY users.'
+          ],
+          'subscription' => [
+            'label' => 'Subscriptions',
+            'description' => 'Stay up to date on the latest content from your favorite creators.'
           ],
          ]
       ];
