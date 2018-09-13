@@ -2,6 +2,7 @@
 /FLO: /news
 /There: /news
 /art: /what
+/credit-reports/2016-Q2: /credit-reports/2016-q2
 /developer-program: /news
 /dl/lbry_setup.sh: /get
 /faq/Q1-17-CreditReport: /credit-reports/2017-Q1
@@ -21,6 +22,7 @@
 /lbry-osx-latest.dmg: /get
 /navframe?selectedItem=/news: /news
 /news/$1.2b-market-cap-we-dont-care: /news/1.2b-market-cap-we-dont-care
+/news/author/jeremy: /team
 /news/author/jeremy/2: /team
 /news/author/jimmy-kiselak: /team
 /news/author/sam/page/2: /team
@@ -30,8 +32,13 @@
 /news/every-major-tech-company-hates-you: /news
 /news/get: /get
 /news/ios: /ios
+/news/lbry.io: /news
 /news/lbry-promo-video-raw-footage: /news
+/news/news/lbry-app-sneak-peak-big-questions-answered-lbry-on-blocktalk-last-night: /news/lbry-app-sneak-peak-big-questions-answered-lbry-on-blocktalk-last-night
 /news/meet-the-lbry-founders: /team
+/navframe?selectedItem=/news?selectedItem=/news: /news
+/news/news/meet-the-lbry-founders: /news/meet-the-lbry-founders
+/news/news/ultimate-wizard-meet-alex-grin: /news/ultimate-wizard-meet-alex-grin
 /news/page/2: /news
 /news/page/5: /news
 /news/tag/events: /roadmap
@@ -43,7 +50,9 @@
 /news/www.maidsafe.com: /news
 /news/www.porcfest.com: /news/lbry-at-porcfest-first-public-screening-film-via-blockchain
 /nothing-here: /news
+/participate: /faq/contributing
 /publish: /youtube
+/slack: https://chat.lbry.io
 /what-is-lbry: /faq/what-is-lbry
 /youtube/cdSSo: /news
 /youtube/sync: /faq/youtube
