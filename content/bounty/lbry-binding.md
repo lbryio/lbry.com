@@ -24,3 +24,4 @@ Lua - Completed
 Java - Completed  
 Javascript - Completed   
 Rust - Started/Claimed
+C++ - Claimed
