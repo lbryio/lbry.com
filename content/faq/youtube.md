@@ -25,7 +25,7 @@ The sync process stores your wallet in a secure location, as you may not have th
 - Download the LBRY App at https://lbry.io/get
 - Run the LBRY App (this can take a while on your first start up)
 - Make sure the email saved in the application matches the email address on your [Sync Status Page](https://lbry.io/youtube/status)
-- Click on the wallet tab on the LBRY App `1`
+- Click on the `Wallet` tab on the LBRY App `1`
 ![wallet](https://spee.ch/2/rewardsa.jpeg)
 
 - Navigate to the `Rewards` section of your wallet `2`
