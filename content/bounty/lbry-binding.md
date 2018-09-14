@@ -23,5 +23,6 @@ Ruby - Completed
 Lua - Completed  
 Java - Completed  
 Javascript - Completed   
-Rust - Started/Claimed
-C++ - Claimed
+Rust - Started/Claimed   
+C++ - Claimed  
+Python - Claimed
