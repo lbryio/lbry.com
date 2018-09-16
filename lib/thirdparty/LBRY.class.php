@@ -32,7 +32,8 @@ class LBRY
 
     public static function emailStatus($token)
     {
-        return Curl::post(static::getApiUrl('/user/email/status'),['auth_token' => $token], ['json_response' => true]);
+        list($status, $headers, $body) = Curl::doCurl(Curl::POST, static::getApiUrl('/user/email/status'),['auth_token' => $token], ['json_response' => true]);
+        return array($status,$headers,$body);
     }
 
     public static function applyTags($type, $token, $tags)

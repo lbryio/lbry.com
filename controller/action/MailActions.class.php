@@ -62,7 +62,11 @@ class MailActions extends Actions
 
     public static function editEmailSettings(string $token)
     {
-        $response = LBRY::emailStatus($token);
+        list($status, $headers, $response) = LBRY::emailStatus($token);
+        if( $status == 403){
+            //Catch 403 to return elegant error message.
+            $response['error'] = "This email link is invalid. If you clicked this from an older email it may have been expired for security purposes. Please email help@lbry.io for a valid one.";
+        }
         $responseData = $response['data'] ?? [];
         return ['mail/settings', [
           'emails' => $responseData['emails'] ?? [],
