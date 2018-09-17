@@ -16,7 +16,6 @@
         <?php echo View::render('download/_downloadButton', [
             'buttonLabel' => "Try the App",
             'buttonStyle' => 'primary',
-            'meta' => false,
         ])?>
       </div>
       <div class="meta cover-item--outline">
@@ -36,7 +35,6 @@
         <?php echo View::render('download/_downloadButton', [
           'buttonLabel' => "Download LBRY",
           'buttonStyle' => 'alt',
-          'meta' => false
         ])?>
       </div>
     </div>

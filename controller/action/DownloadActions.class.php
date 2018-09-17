@@ -2,6 +2,9 @@
 
 class DownloadActions extends Actions
 {
+    //bad, fix me!
+    const ANDROID_STORE_URL = 'https://play.google.com/store/apps/details?id=io.lbry.browser';
+
     public static function executeGetAppRedirect(string $ext)
     {
         return Controller::redirect(GitHub::getAppDownloadUrl(OS::getOsForExtension($ext)) ?: '/get', 302);
@@ -25,17 +28,42 @@ class DownloadActions extends Actions
         return Controller::redirect($uri ?: '/quickstart', 302);
     }
 
+    /*
+     * this is a quick fix to add android, prob not proper design
+     */
+    public static function getGetTemplateParams($os)
+    {
+      $osChoices = OS::getAll();
+      list($uri, $osTitle, $osIcon) = $osChoices[$os];
+      $params = [
+        'osTitle' => $osTitle,
+        'osIcon' => $osIcon,
+        'osScreenshotSrc' => 'https://spee.ch/@lbry:3f/lbry-redesign-preview.gif',
+        'os' => $os
+      ];
+
+      if ($os === OS::OS_ANDROID)
+      {
+        $params['downloadUrl'] = static::ANDROID_STORE_URL;
+//        $params['osScreenshotSrc'] = 'https://spee.ch/@lbry:3f/newurl.png';
+      }
+      else
+      {
+        $asset = Github::getAppAsset($os);
+        $params['downloadUrl'] = $asset ? $asset['browser_download_url'] : null;
+      }
+
+      return $params;
+    }
+
     public static function executeGet()
     {
         $osChoices = OS::getAll();
 
         $os = static::guessOS();
 
-        if (isset($os) && isset($osChoices[$os])) {
-            list($uri, $osTitle, $osIcon, $buttonLabel, $analyticsLabel) = $osChoices[$os];
-            $asset = Github::getAppAsset($os);
-            $param = ['osTitle' => $osTitle, 'osIcon' => $osIcon, 'os' => $os, 'downloadUrl' => $asset ? $asset['browser_download_url'] : null];
-            return ['download/get', $param];
+        if (isset($os) && isset($osChoices[$os]) && !Request::getParam('showall')) {
+            return ['download/get', static::getGetTemplateParams($os)];
         } else {
             return ['download/get-no-os'];
         }
@@ -101,25 +129,55 @@ class DownloadActions extends Actions
 
         if ($os && isset($osChoices[$os])) {
             list($uri, $osTitle, $osIcon, $buttonLabel, $analyticsLabel) = $osChoices[$os];
-            $release = Github::getAppRelease();
-            $asset = Github::getAppAsset($os);
 
-            $vars += [
-          'analyticsLabel' => $analyticsLabel,
-          'buttonLabel' => $buttonLabel,
-          'downloadUrl' => $asset ? $asset['browser_download_url'] : null,
-          'meta' => true,
-          'os' => $os,
-          'osTitle' => $osTitle,
-          'osIcon' => $osIcon,
-          'releaseTimestamp' => $release ? strtotime($release['created_at']) : null,
-          'size' => $asset ? $asset['size'] / (1024 * 1024) : 0, //bytes -> MB
-          'sourceLink' => false,
-          'version' => $release ? $release['name'] : null,
-          'isAuto' => Request::getParam('auto'),
-      ];
+            if ($os !== OS::OS_ANDROID) {
+              $asset = Github::getAppAsset($os);
+            } else {
+              $asset = ['browser_download_url' => static::ANDROID_STORE_URL];
+            }
+
+          $vars += [
+            'analyticsLabel' => $analyticsLabel,
+            'buttonLabel' => $buttonLabel,
+            'downloadUrl' => $asset ? $asset['browser_download_url'] : null,
+            'os' => $os,
+            'isAuto' => Request::getParam('auto'),
+          ];
         }
 
         return $vars;
     }
+
+
+  public static function prepareMetaPartial(array $vars)
+  {
+    $osChoices = OS::getAll();
+
+    $os = static::guessOS();
+
+    if ($os && isset($osChoices[$os])) {
+      list($uri, $osTitle, $osIcon, $buttonLabel, $analyticsLabel) = $osChoices[$os];
+
+      if ($os !== OS::OS_ANDROID) {
+        $release = Github::getAppRelease();
+        $asset = Github::getAppAsset($os);
+      } else {
+        $asset = ['browser_download_url' => static::ANDROID_STORE_URL, 'size' => 0];
+        $release = [];
+      }
+
+      $vars += [
+        'os' => $os,
+        'osTitle' => $osTitle,
+        'osIcon' => $osIcon,
+        'releaseTimestamp' => $release ? strtotime($release['created_at']) : null,
+        'size' => $asset ? $asset['size'] / (1024 * 1024) : 0, //bytes -> MB
+        'sourceLink' => false,
+        'version' => $release ? $release['name'] : null,
+        'isAuto' => Request::getParam('auto'),
+      ];
+    }
+
+    return $vars;
+  }
 }

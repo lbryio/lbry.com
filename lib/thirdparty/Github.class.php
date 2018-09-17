@@ -8,6 +8,10 @@ class Github
             throw new DomainException('Unknown OS');
         }
 
+        if (!isset($release['assets'])) {
+            throw new Exception('Release array missing assets - possible GitHub auth failure, auth limit, and/or inspect releases array');
+        }
+
         foreach ($release['assets'] as $asset) {
             $ext = substr($asset['name'], -4);
             if (
