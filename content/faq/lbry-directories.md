@@ -30,3 +30,7 @@ Depending on which OS and wallet you use, LBRY files may be stored in several pl
 - `~/.lbrycrd` - Location for [lbrycrdd](https://lbry.io/faq/standalone-wallet) full blockchain data (separate install)
 
 *\*If you originally installed v0.14 and below, the lbrynet and lbryum directories will be `~/.lbrynet` / `~/.lbryum`*
+
+## Android 
+- `~/.check file manager->Internal storage->android/data->scroll down to->io.lbry.browser/files/lbrynet
+- `~/.check file manager->Internal storage->android/data->scroll down to->io.lbry.browser/files/lbryum
