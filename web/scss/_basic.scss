@@ -147,6 +147,18 @@ a:hover img
 {
   @include anchor($color-primary);
 }
+
+/*please kill this*/
+.btn--google-play
+{
+  $height-btn-google-play: 46px;
+  height: $height-btn-google-play;
+  line-height: $height-btn-google-play;
+  padding: 0 30px;
+  display: inline-block;
+  > img { max-height: $height-btn-google-play; display: inline !important; }
+}
+
 .btn-large
 {
   height: $spacing-vertical * 2;

@@ -13,11 +13,18 @@
         <p>
         </p>
         <div class="text-center">
-          <?php echo View::Render('download/_downloadButton', [
-              'buttonStyle' => 'alt',
-              'sourceLink' => true
-          ])?>
-          <img src="https://spee.ch/7/lbry-redesign-preview.gif" />
+          <?php $metaHtml = $os !== OS::OS_ANDROID ? View::Render('download/_meta') : false ?>
+          <div class="<?php echo $metaHtml ? 'spacer-half' : 'spacer1' ?>">
+            <?php echo View::Render('download/_downloadButton', [
+                'buttonStyle' => 'alt'
+            ])?>
+          </div>
+          <?php if ($metaHtml): ?>
+            <div class="spacer1">
+              <?php echo $metaHtml ?>
+            </div>
+          <?php endif ?>
+          <img src="<?php echo $osScreenshotSrc ?>" />
         </div>
       <?php else: ?>
         <p>{{download.unavailable}}</p>

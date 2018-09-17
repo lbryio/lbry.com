@@ -10,7 +10,6 @@
   </div>
   <div class="span6">
     <?php echo View::render('download/_social', [
-      'cssClasses' => $socialCssClasses
     ]) ?>
   </div>
 </main>

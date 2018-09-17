@@ -14,7 +14,11 @@
       <h3 class="cover-subtitle cover-title-flat">You own your data. You control the network. Indeed, you <em>are</em> the network.</h3>
       <h3 class="cover-subtitle cover-title-flat">Hollywood films, college lessons, amazing streamers and more are on the first media network ruled by <em>you</em>.</h3>
     </div>
-    <div class="spacer2 text-center">
-    <?php echo View::render('download/_downloadButton', ['buttonStyle' => 'primary','meta' => false,])?>
+    <div class="spacer-half text-center">
+      <?php echo View::render('download/_downloadButton', ['buttonStyle' => 'primary'])?>
+    </div>
+    <div class="meta text-center">
+      <a href="/get?showall=1" class="link-primary">show all systems</a>
+    </div>
   </div>
 </main>
