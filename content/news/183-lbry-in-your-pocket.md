@@ -9,7 +9,7 @@ We’re extremely excited to announce the release of our Android app! We’ve mo
 
 ![Android screenshots](https://spee.ch/6c6c719169d032c7dec843edc137895b055765d1/LBRY-Android.png)
 
-**CAUTION!**
+# **CAUTION!**
 
 ![Caution sign](https://spee.ch/4b9cd628a7247c4e709f15e1771f22b8467bc545/caution.jpeg)
 
