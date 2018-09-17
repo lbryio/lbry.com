@@ -88,11 +88,11 @@ Clicking it will open a side bar and click on wallet.This will open the wallet p
 
 transactions.
 
-![Find wallet](https://spee.ch/584373c857bd00c2ba966bcfd1e321fce1dcd188/rewards1.jpg)
+![Find wallet](https://spee.ch/b3535b68750ad69c48566cb028c67d323d1fdeb9/walli.jpg)
  ### Balance
-![balance](https://spee.ch/453014d3c3c3b9f507fc80c8e9c9bceb57acc32d/wallet2.jpg)
+![balance](https://spee.ch/e7f125b643e30f8bac2d8c4657bc14874a60e25e/WALLETADD1.jpg)
  ### Recent Transactions
-![Recent tx](https://spee.ch/20d45445b9d161f0727a82cba0e7350e1267e17f/recent-tx.jpg)
+![Recent tx](https://spee.ch/daa89fcca6411ad2505cdc6e092fcaf4f22f4802/recent1.jpg)
 
 
 
