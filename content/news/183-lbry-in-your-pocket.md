@@ -5,9 +5,9 @@ date: '2018-09-17 15:00:00'
 cover: 'blog_whyandroid.png'
 ---
 
-We’re extremely excited to announce the release of our Android app! We’ve moved the project into “open beta” status, which means that while there’s still a lot of work to do, you can [install the app on your device now](https://play.google.com/apps/testing/io.lbry.browser) and access the LBRY content network!
+We’re extremely excited to announce the release of our Android app! We’ve moved the project into “open beta” status, which means that while there’s still a lot of work to do, you can [install the app on your device now](https://play.google.com/store/apps/details?id=io.lbry.browser) and access the LBRY content network!
 
-![Android screenshots](https://spee.ch/6c6c719169d032c7dec843edc137895b055765d1/LBRY-Android.png)
+![Android screenshots](https://github.com/lbryio/lbry.io/blob/master/web/img/LBRY-Android.png)
 
 CAUTION!
 
@@ -36,4 +36,4 @@ In the meantime, please unleash hell on this app! We need it to be forged and ho
 
 ![Picture of Akinwale](https://spee.ch/@lbryteam:6/akinwale-ariwodola.jpg)
 
-[Use this link](https://play.google.com/apps/testing/io.lbry.browser) to download LBRY for Android, and let us know what you think!
+[Use this link](https://play.google.com/store/apps/details?id=io.lbry.browser) to download LBRY for Android, and let us know what you think!
