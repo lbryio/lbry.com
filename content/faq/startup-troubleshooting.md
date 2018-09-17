@@ -17,11 +17,11 @@ LBRY operates on a couple of different ports, and if there are conflicts/firewal
 - Port 50001 - LBRY wallet connections happen over port 50001. LBRY may fail to start if this port is blocked by a firewall or network rules. 
 
 ### This is my first time running LBRY, and it won't start
-- Run LBRY.exe with CMD. Navigate to the installation path eg. `C:\Program Files\LBRY` for x64 and `C:\Program Files (x86)\LBRY` for x86.and type `LBRY.exe` and hit enter for the app to launch (*This is when the app does not show up but appears in the task manager*)
 - Port 3333 already in use. This issue would reveal itself in the log file. You can see how to change this port [here](https://lbry.io/faq/how-to-change-port). If the port is properly forwarding correctly, you are able to successfully see port 3333 Open on this [port checker tool](http://www.canyouseeme.org). 
 - Port 50001 wallet connection fails. This issue would reveal itself in the log file. Typical things to check would be firewall/security settings that may block this connection. 
 - On Linux, LBRY may fail to start(home page won't load, missing authentication token in Help) because of missing authentication capability. Please see [GitHub issue](https://github.com/lbryio/lbry-desktop/issues/386) or possible workaround below.
 - On Windows, LBRY may fail to start because of non-ASCII characters in your Windows username. Check your c:\users\<username> path to see if there are any such characters. Please see [GitHub issue](https://github.com/lbryio/lbry/issues/794) or workaround below.
+- If don't see the LBRY app starting up at all, run LBRY.exe with command prompt to further debug the problem. Navigate to the installation path eg. `C:\Program Files\LBRY` for x64 and `C:\Program Files (x86)\LBRY` for x86, type `LBRY.exe` and hit enter for the app to launch. This will show any errors the app has starting up. If you need assistance fixing them, please [reach out to us](https://lbry.io/faq/support).
 
 ### LBRY used to work previously, but now it won't start
 First and foremost, please ensure you are on the [latest version](https://lbry.io/get) of LBRY. Reinstalling the latest version may alleviate some start-up issues. Before installing, either make sure no LBRY/lbrynet processes or simply reboot your computer. 
