@@ -7,7 +7,7 @@ cover: 'blog_whyandroid.png'
 
 We’re extremely excited to announce the release of our Android app! We’ve moved the project into “open beta” status, which means that while there’s still a lot of work to do, you can [install the app on your device now](https://play.google.com/apps/testing/io.lbry.browser) and access the LBRY content network!
 
-![Android screenshots](https://github.com/lbryio/lbry.io/blob/master/web/img/LBRY-Android.png)
+![Android screenshots](https://spee.ch/6c6c719169d032c7dec843edc137895b055765d1/LBRY-Android.png)
 
 CAUTION!
 
