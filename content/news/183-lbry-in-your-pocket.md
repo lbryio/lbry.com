@@ -9,7 +9,7 @@ We’re extremely excited to announce the release of our Android app! We’ve mo
 
 You can sign in with your existing LBRY connected email now (see Help>Connected email in the LBRY Desktop app) to start earning rewards on mobile, including an exclusive Android Beta reward! Currently, only your rewards status and emails will be synced (which means your wallet won't be!). We'll be introducing additional syncing features as the app and our system matures. 
 
-![Android screenshots](https://github.com/lbryio/lbry.io/blob/master/web/img/LBRY-Android.png)
+![Android screenshots](https://github.com/lbryio/lbry.io/blob/master/web/img/LBRY-Android.png?raw=true)
 
 # **CAUTION!**
 
