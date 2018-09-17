@@ -17,7 +17,7 @@ Many transaction types also have details associated with them such as the claim/
 | **Supports** | Claim support sent or received. Support claims can be revoked via trash button
 | **Updates** | Update to previously published content<sup>3</sup>. Updated claims can be revoked via trash button
 
-<sup>1</sup> The amount shown in the transaction list only reflects the revoke/claim fee paid. See transaction details for the amount that is returned to your wallet. 
+<sup>1</sup> The amount shown in the transaction list only reflects the revoke/claim fee paid. See transaction details on the transaction menu on the wallet section in your LBRY App for the amount that is returned to your wallet. 
 
 <sup>2</sup> If revoke icon is not available, the claim may have already been revoked, or there may be an update to the claim (which can be revoked).
 
