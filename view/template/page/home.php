@@ -18,7 +18,7 @@
       <?php echo View::render('download/_downloadButton', ['buttonStyle' => 'primary'])?>
     </div>
     <div class="meta text-center">
-      <a href="/get?showall=1" class="link-primary">show all systems</a>
+      <a href="/get?showall=1" class="link-primary">show all platforms</a>
     </div>
   </div>
 </main>
