@@ -5,9 +5,11 @@ date: '2018-09-17 15:00:00'
 cover: 'blog_whyandroid.png'
 ---
 
-We’re extremely excited to announce the release of our Android app! We’ve moved the project into “open beta” status, which means that while there’s still a lot of work to do, you can [install the app on your device now](https://play.google.com/apps/testing/io.lbry.browser) and access the LBRY content network!
+We’re extremely excited to announce the release of our Android app! We’ve moved the project into “open beta” status, which means that while there’s still a lot of work to do, you can [install the app on your device now](https://play.google.com/apps/testing/io.lbry.browser) and access the LBRY content network! 
 
-![Android screenshots](https://spee.ch/6c6c719169d032c7dec843edc137895b055765d1/LBRY-Android.png)
+You can sign in with your existing LBRY connected email now (see Help>Connected email in the LBRY Desktop app) to start earning rewards on mobile, including an exclusive Android Beta reward! Currently, only your rewards status and emails will be synced - we'll be introducing additional syncing features as the app matures. 
+
+![Android screenshots](https://github.com/lbryio/lbry.io/blob/master/web/img/LBRY-Android.png)
 
 # **CAUTION!**
 
@@ -34,6 +36,6 @@ Ultimately, we want to offer a seamless transition between mobile and desktop, b
 
 In the meantime, please unleash hell on this app! We need it to be forged and honed in the hot fires of your criticism and bug reports. But don’t be too mean - you don’t want to make Akinwale sad, do you?
 
-![Picture of Akinwale](https://spee.ch/@lbryteam:6/akinwale-ariwodola.jpg)
+![Picture of Akinwale](https://spee.ch/a2ea609caaf5548f126685adc22ce6f3a5b8b3eb/akinwale-ariwodola-blog.jpeg)
 
 [Use this link](https://play.google.com/apps/testing/io.lbry.browser) to download LBRY for Android, and let us know what you think!
