@@ -28,6 +28,6 @@ Clearing out this token will allow you to change your email or reset your privat
 *Before proceeding, please make sure to backup your wallet if there are funds in it*
 1. Go to phone settings
 1. Select Apps/Applications
-1. Scroll till you find LBRY Browser
-1. Click on it and select storage. Click `Clear data`. 
-1. Launch the LBRY app. It should ask for your new email.
+1. Scroll down to find `LBRY Browser`
+1. Click on it and select storage. Click `Clear data`
+1. Launch the LBRY app. It should ask for your new email
