@@ -54,12 +54,10 @@ to your phone or need to [migrate](https://lbry.io/faq/backup-data) to a new one
 
 
 To find your wallet in the LBRY Android App, click on the 3 horizontal bars at the upper left side of the App next to `Discovery`. Clicking on it will open a side bar and then click on wallet. This will open the wallet page which shows your balance and recent transactions.
-
 ![Find wallet](https://spee.ch/b3535b68750ad69c48566cb028c67d323d1fdeb9/walli.jpg)
- ### Balance
+### Balance
 ![balance](https://spee.ch/e7f125b643e30f8bac2d8c4657bc14874a60e25e/WALLETADD1.jpg)
- ### Recent Transactions
+### Recent Transactions
 ![Recent tx](https://spee.ch/daa89fcca6411ad2505cdc6e092fcaf4f22f4802/recent1.jpg)
-
 The LBRY wallet is different from other cryptocurrencies because it also stores your shared content's metadata in the 
-
+in the form of [claims](https://lbry.io/faq/naming) when using the [publishing features]((https://lbry.io/faq/how-to-publish). Claim related [wallet transactions](https://lbry.io/faq/transaction-types) ensure that the blockchain uniquely identifies your content and the payment/tips can be routed appropriately.
