@@ -22,3 +22,12 @@ Clearing out this token will allow you to change your email or reset your privat
 1. Go to **Passwords and Keys**
 1. Select the **Login** folder
 1. Find **LBRY/auth_token** and right click > Delete to remove it
+
+## Android
+*(Exact steps may differ slightly)*
+*Before proceeding, please make sure to backup your wallet if there are funds in it*
+1. Go to phone settings
+1. Select Apps/Applications
+1. Scroll down to find `LBRY Browser`
+1. Click on it and select storage. Click `Clear data`
+1. Launch the LBRY app. It should ask for your new email
