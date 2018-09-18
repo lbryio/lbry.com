@@ -30,3 +30,8 @@ In certain cases, we may ask you to send us your log file(s).  The current log f
 1. Navigate to your home directory. Ensure hidden files and folders are shown if using a graphical file explorer.
 2. Navigate to the `.local/share/lbry/lbrynet` folder (or `~/.lbrynet` if you originally installed v0.14 or earlier).
 3. Here you will see the `lbrynet.log` file and any archives. 
+
+## Android *(Exact steps may differ slightly)* 
+1. Launch your favorite file explorer
+2. Navigate to `Internal storage\android\data\io.lbry.browser->files\lbrynet`
+3. Here you will see the `lbrynet.log` file and any archives. 
