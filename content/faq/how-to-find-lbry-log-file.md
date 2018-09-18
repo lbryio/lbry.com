@@ -32,6 +32,6 @@ In certain cases, we may ask you to send us your log file(s).  The current log f
 3. Here you will see the `lbrynet.log` file and any archives. 
 
 ## Android *(Exact steps may differ slightly)* 
-1. launch your favorite file explorer
-2. Navigate to `Internal storage->android->data->`scroll down to->`io.lbry.browser->files->lbrynet`
-3. Open the lbrynet folder and there, you'll find the `lbrynet.log` file
+1. Launch your favorite file explorer
+2. Navigate to `Internal storage\android\data\io.lbry.browser->files\lbrynet`
+3. Here you will see the `lbrynet.log` file and any archives. 
