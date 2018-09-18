@@ -32,5 +32,6 @@ Depending on which OS and wallet you use, LBRY files may be stored in several pl
 *\*If you originally installed v0.14 and below, the lbrynet and lbryum directories will be `~/.lbrynet` / `~/.lbryum`*
 
 ## Android 
-- `~/.check file manager->Internal storage->android/data->scroll down to->io.lbry.browser/files/lbrynet
-- `~/.check file manager->Internal storage->android/data->scroll down to->io.lbry.browser/files/lbryum
+ *use file manager to navigate to the path below*
+- `Internal storage->android/data->scroll down to->io.lbry.browser/files/lbrynet` - app data
+- `Internal storage/android/data/io.lbry.browser/files/lbryum` -Wallet and blockchain headers
