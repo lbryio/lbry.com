@@ -33,5 +33,5 @@ Depending on which OS and wallet you use, LBRY files may be stored in several pl
 
 ## Android 
  *use file manager to navigate to the path below*
-- `Internal storage->android/data->scroll down to->io.lbry.browser/files/lbrynet` - app data
+- `Internal storage/android/data/io.lbry.browser/files/lbrynet` - app data
 - `Internal storage/android/data/io.lbry.browser/files/lbryum` -Wallet and blockchain headers
