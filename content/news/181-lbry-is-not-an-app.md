@@ -2,7 +2,7 @@
 author: sean-yesmunt
 title: 'LBRY Is Not An App'
 date: ''
-cover: '.png'
+cover: 'iphone.jpg'
 ---
 
 ## LBRY Is Not An App
