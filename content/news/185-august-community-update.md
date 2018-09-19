@@ -20,10 +20,10 @@ To read all of our previous updates, please visit our [Development and Community
 If you want to see a condensed view of what we have completed recently and what’s planned for LBRY, check out our [roadmap](https://lbry.io/roadmap). 
 
 # LBRY for Android launches!
-We’ve passed a major milestone on our [roadmap](https://lbry.io/roadmap) with the release of the LBRY mobile app to open beta! Read the details about the release in our [blog post](https://lbry.io/news/lbry-in-your-pocket). [Get the app for Android on the Playstore.](https://play.google.com/store/apps/details?id=io.lbry.browser) 
+We’ve passed a major milestone on our [roadmap](https://lbry.io/roadmap) with the release of the LBRY mobile app to open beta! [Get the app for Android here.](https://play.google.com/store/apps/details?id=io.lbry.browser) For more details about other accomplishments, scroll down for full [roadmap update.](#roadmap)
 
 # Community Happenings {#com-updates}
-If you aren’t part of our Discord community yet, [join us](https://chat.lbry.io) anytime and say hello! Our community allows LBRYians to interact with the team directly and for us to engage users in order to grow the LBRY platform. Also follow us on [Twitter](https://twitter.com/lbryio), [Facebook](https://facebook.com/lbryio), [Reddit](https://www.reddit.com/r/lbry), [Instagram](https://www.instagram.com/lbryio), and [Telegram](https://t.me/lbryofficial).
+If you aren’t part of our Discord community yet, [join us](https://chat.lbry.io) anytime and say hello! Our community allows LBRYians to interact with the team directly and for us to engage users in order to grow the LBRY platform. Also follow us on [Twitter](https://twitter.com/lbryio), [Facebook](https://facebook.com/lbryio), [Reddit](https://www.reddit.com/r/lbry), [Instagram](https://www.instagram.com/lbryio), and [Telegram](https://www.instagram.com/lbryio/).
 
 ### Events {#events}
 
@@ -70,7 +70,7 @@ We’ve passed a major milestone on our [roadmap](https://lbry.io/roadmap) with 
 [Come join team Content Freedom!](https://lbry.io/join-us) We have the following positions open: Blockchain Engineer, Protocol Engineer, and API Engineer. We’d love for you to join us, or if you have a friend you think would be interested, we pay a $5,000 bounty if we hire them. 
 
 ### Youtube Sync Updates {#youtube-updates}
-During the past month a lot of work was put in Youtube Sync to increase performance. After dealing with issues related to the quality of the streams and the tracking of our content we achieved another milestone by publishing another 100k videos. We are now close to 200k videos published through our YouTube sync program. 
+During the past month a lot of work was put in Youtube Sync to increase performance. After dealing with issues related to the quality of the streams and the tracking of our content we achieved another milestone by publishing another 100k videos. We are now close to 200k videos published through our YouTube synch program. 
 
 The current queue will add an additional 132k videos and 1500 channels.
 The system is now automatically syncing new channels and keeping all the previously synced channels up to date with the content posted on YouTube. Within 24 hours of publishing to youtube, a content creator will find their video on LBRY as well.
