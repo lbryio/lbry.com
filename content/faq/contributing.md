@@ -112,6 +112,6 @@ Both `lbry` and `lbry-desktop` go through regular release cycles where new versi
 
 For any repos, you want to be a tester on, "Watch" the repo on GitHub. You will receive an email with release notes whenever a release candidate is out.
 
-If you're feeling moderately hard-core, you can also test `master` builds via [releases.lbry.io](http://releases.lbry.io/). If you're feeling super hard-core, you can compile `master` yourself, via the README.md or INSTALL.md in the associated repo.
+If you're feeling moderately hard-core, you can also test `master` builds via [build.lbry.io](http://build.lbry.io/). If you're feeling super hard-core, you can compile `master` yourself, via the README.md or INSTALL.md in the associated repo.
 
 **Note that you are using release candidates and especially master builds at your own risk. Back up your wallet first.**
