@@ -8,7 +8,7 @@ Welcome to the August/September 2018 LBRY Community update! Beginning this month
 
 The next Development report will be posted towards the end of the month. Now, on with the show! Here’s what we’ve been up to in August and early September. 
 
-#In This Update:
+# In This Update:
 * LBRY for Android launches!
 * [Events](#events) - Hackathons in India and USA
 * [LBRY.fund](#lbry-fund)
@@ -24,7 +24,7 @@ We’ve passed a major milestone on our [roadmap](https://lbry.io/roadmap) with 
 # Community Happenings {#com-updates}
 If you aren’t part of our Discord community yet, [join us](https://chat.lbry.io) anytime and say hello! Our community allows LBRYians to interact with the team directly and for us to engage users in order to grow the LBRY platform. Also follow us on [Twitter](https://twitter.com/lbryio), [Facebook](https://facebook.com/lbryio), [Reddit](https://www.reddit.com/r/lbry), [Instagram](https://www.instagram.com/lbryio), and [Telegram](https://www.instagram.com/lbryio/).
 
-###Events{#events}
+### Events{#events}
 
 #### TBA in October, Jhalandhar, India
 Lovely Professional University, hosted its first LBRY meetup on September 15, an introduction to LBRY for all user levels. LPU will be holding a larger LBRY/blockchain event mid-October. For more information, Contact Clement Gerber at ceogerber@gmail.com or by phone at 7982297653. 
