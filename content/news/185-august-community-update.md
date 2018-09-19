@@ -70,7 +70,7 @@ We’ve passed a major milestone on our [roadmap](https://lbry.io/roadmap) with 
 [Come join team Content Freedom!](https://lbry.io/join-us) We have the following positions open: Blockchain Engineer, Protocol Engineer, and API Engineer. We’d love for you to join us, or if you have a friend you think would be interested, we pay a $5,000 bounty if we hire them. 
 
 ### Youtube Sync Updates {#youtube-updates}
-During the past month a lot of work was put in Youtube Sync to increase performance. After dealing with issues related to the quality of the streams and the tracking of our content we achieved another milestone by publishing another 100k videos. We are now close to 200k videos published through our YouTube synch program. 
+During the past month a lot of work was put in Youtube Sync to increase performance. After dealing with issues related to the quality of the streams and the tracking of our content we achieved another milestone by publishing another 100k videos. We are now close to 200k videos published through our YouTube sync program. 
 
 The current queue will add an additional 132k videos and 1500 channels.
 The system is now automatically syncing new channels and keeping all the previously synced channels up to date with the content posted on YouTube. Within 24 hours of publishing to youtube, a content creator will find their video on LBRY as well.
