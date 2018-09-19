@@ -13,6 +13,7 @@ The next Development report will be posted towards the end of the month. Now, on
 * [Events](#events) - Hackathons in India and USA
 * [LBRY.fund](#lbry-fund)
 * [Roadmap](#roadmap)
+* [YouTube Sync Update](#youtube-updates)
 
 To read all of our previous updates, please visit our [Development and Community Update archive](https://lbry.io/news/category/community-update).
 
@@ -24,7 +25,7 @@ We’ve passed a major milestone on our [roadmap](https://lbry.io/roadmap) with 
 # Community Happenings {#com-updates}
 If you aren’t part of our Discord community yet, [join us](https://chat.lbry.io) anytime and say hello! Our community allows LBRYians to interact with the team directly and for us to engage users in order to grow the LBRY platform. Also follow us on [Twitter](https://twitter.com/lbryio), [Facebook](https://facebook.com/lbryio), [Reddit](https://www.reddit.com/r/lbry), [Instagram](https://www.instagram.com/lbryio), and [Telegram](https://www.instagram.com/lbryio/).
 
-### Events{#events}
+### Events {#events}
 
 #### TBA in October, Jhalandhar, India
 Lovely Professional University, hosted its first LBRY meetup on September 15, an introduction to LBRY for all user levels. LPU will be holding a larger LBRY/blockchain event mid-October. For more information, Contact Clement Gerber at ceogerber@gmail.com or by phone at 7982297653. 
@@ -39,7 +40,7 @@ LBRY is proud to be a Platinum sponsor of the VIT DevFest Hackathon in Vellore, 
 #### October 19-20, UNH Hackathon:
 LBRY is partnering with the University of New Hampshire to present a hackathon for UNH students this fall! Prizes range up to $1000 worth of LBC. The hackathon is open to all UNH students and is designed to inspire students  [Register here.](https://www.unh.edu/ecenter/hackathons)
 
-### LBRY.fund Community Grants and Updates{#lbry-fund}
+### LBRY.fund Community Grants and Updates {#lbry-fund}
 The [LBRY.fund](https://lbry.fund) is a pool of LBC Credits set aside for promoting community development on the LBRY protocol. The fund is open to anybody, and you can submit requests for your ideas using, developing, or promoting use of the LBRY protocol, We’re proud to share some of the projects we’ve funded. 
 
 #### FONK World:
@@ -62,7 +63,7 @@ Do you have an idea for a project using or promoting the LBRY Protocol? We may p
 ![LBRY.fund](https://spee.ch/2/lbry-fund.png)
 
 
-### Roadmap Check-in{#roadmap}
+### Roadmap Check-in {#roadmap}
 We’ve passed a major milestone on our [roadmap](https://lbry.io/roadmap) with the release of the LBRY mobile app to open beta! We’ve also implemented wallet encryption inside the LBRY Desktop app and significantly improved content hosting - two more items checked off the list. We’ll most likely need to shuffle around some of the other scheduled items based on new priorities and current workload, so stay tuned for an update in next month’s community report. 
 
 ### LBRY is hiring! 
