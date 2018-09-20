@@ -9,7 +9,7 @@ Welcome to the August/September 2018 LBRY Community update! Beginning this month
 The next Development report will be posted towards the end of the month. Now, on with the show! Here’s what we’ve been up to in August and early September. 
 
 # In This Update:
-* LBRY for Android launches!
+* [LBRY for Android](#lbry-android) launches!
 * [Events](#events) - Hackathons in India and USA
 * [LBRY.fund](#lbry-fund)
 * [Roadmap](#roadmap)
@@ -19,7 +19,7 @@ To read all of our previous updates, please visit our [Development and Community
 
 If you want to see a condensed view of what we have completed recently and what’s planned for LBRY, check out our [roadmap](https://lbry.io/roadmap). 
 
-# LBRY for Android launches!
+# LBRY for Android launches! {#lbry-android}
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">LBRY on Android is LIVE in open beta! Click the link for details and the install page! <a href="https://t.co/c0OLGDdBHH">https://t.co/c0OLGDdBHH</a> <a href="https://twitter.com/hashtag/AndroidDev?src=hash&amp;ref_src=twsrc%5Etfw">#AndroidDev</a> <a href="https://twitter.com/hashtag/MobileApp?src=hash&amp;ref_src=twsrc%5Etfw">#MobileApp</a> <a href="https://twitter.com/hashtag/streaming?src=hash&amp;ref_src=twsrc%5Etfw">#streaming</a> <a href="https://t.co/AJeiqWJKiS">pic.twitter.com/AJeiqWJKiS</a></p>&mdash; LBRY (we never give away ETH) (@LBRYio) <a href="https://twitter.com/LBRYio/status/1042399927345860608?ref_src=twsrc%5Etfw">September 19, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
