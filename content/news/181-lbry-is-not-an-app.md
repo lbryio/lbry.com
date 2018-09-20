@@ -17,4 +17,4 @@ If you wanted to, you could build an app entirely devoted to creating and sharin
 
 
 Note:
-If you want to read more about the LBRY api, or are interested in building your own app on top of LBRY, checkout our new site [https://lbry.tech](https://lbry.tech).
+If you want to read more about the LBRY API, or are interested in building your own app on top of LBRY, checkout our new site [https://lbry.tech](https://lbry.tech).
