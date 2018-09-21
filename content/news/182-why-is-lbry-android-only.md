@@ -8,7 +8,7 @@ cover: 'blog_whyandroid.png'
 <blockquote class="twitter-tweet" data-lang="en"><p lang="und" dir="ltr"><a href="https://twitter.com/hashtag/areyoureadyforthisjelly?src=hash&amp;ref_src=twsrc%5Etfw">#areyoureadyforthisjelly</a> <a href="https://t.co/urXNtw1IQk">pic.twitter.com/urXNtw1IQk</a></p>&mdash; LBRY (we never give away ETH) (@LBRYio) <a href="https://twitter.com/LBRYio/status/1039532032781635586?ref_src=twsrc%5Etfw">September 11, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-In case you've missed it, we're launching the LBRY Beta on Android next Monday.
+In case you've missed it, we're launching the [LBRY Beta](https://lbry.io/get?auto=1) on Android next Monday.
 
 We believe information should be freely accessible by everyone. We want everyone to be able to access the content they care about without middlemen. 
 
@@ -26,7 +26,7 @@ There is only Android.
 
 We want LBRY to be in the hands of people who are advanced users, people who have technologically sophisticated taste, and people who are willing to help build the type of future that the Android platform has at its core.
 
-By downloading the LBRY Beta you will be using an app that, at times, crashes. At times it will load slowly. 
+By downloading the [LBRY Beta](https://lbry.io/get?auto=1) you will be using an app that, at times, crashes. At times it will load slowly. 
 
 You will also be fueling a new paradigm in technology and power.
 
