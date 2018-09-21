@@ -6,7 +6,7 @@ class LBRY
     public static function getApiUrl($endpoint)
     {
         if (!strlen(Config::get(Config::LBRY_API_SERVER)) > 0) {
-            throw new Exception("API server URL is missing from `/data/config.php`");
+            throw new Exception("API server URL is missing from configuration");
         }
 
         return Config::get(Config::LBRY_API_SERVER) . $endpoint;

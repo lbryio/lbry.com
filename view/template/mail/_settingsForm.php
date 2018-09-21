@@ -7,13 +7,45 @@
   Javascript is required to securely send your unsubscribe information. Email <a href="mailto:help@lbry.io" class="link-primary">help@lbry.io</a> for manual unsubscription.
 </noscript>
 <form id="<?php echo $formId ?>" novalidate style="display: none">
-  <?php if ($error): ?>
-    <div class="notice notice-error spacer1"><?php echo $error ?></div>
-  <?php endif ?>
-  <div class="notice notice-success hide">Your email preferences have been updated.</div>
+  <div style="min-height: 48px">
+    <?php if ($error): ?>
+      <div class="notice notice-error spacer1"><?php echo $error ?></div>
+    <?php endif ?>
+    <div class="notice notice-success hide">Your email preferences have been updated.</div>
+  </div>
+
+
+  <section class="email-section">
+    <h4><?php echo count($emails ) > 1 ? 'Receiving Addresses' : 'Do You Want To Receive Mail?' ?></h4>
+    <?php if (count($emails) > 1): ?>
+      <div class="meta spacer1">Uncheck all boxes if you want to receive no future messages.</div>
+    <?php endif ?>
+    <div class="notice notice-error hide spacer1"></div>
+    <?php $emailIndex = 0 ?>
+    <table>
+      <?php foreach($emails as $email => $enabled): ?>
+        <?php $emailId = 'email_' . (++$emailIndex) ?>
+        <tr>
+          <td>
+            <div class="spacer-half">
+              <label for="<?php echo $emailId ?>"><?php echo $email ?></label>
+            </div>
+          </td>
+          <td>
+            <div class="spacer-half" style="padding-left: 5px">
+              <span class="slider-checkbox">
+                <input id="<?php echo $emailId ?>" type="checkbox" <?php echo $enabled ? 'checked' : '' ?>  value="<?php echo urlencode($email) ?>" />
+                <label class="label"></label>
+              </span>
+            </div>
+          </td>
+        </tr>
+      <?php endforeach ?>
+    </table>
+  </section>
 
   <section class="tag-section spacer1">
-    <h4>Fine-tune your newsletter</h4>
+    <h4>Fine-tune your Mail</h4>
     <div class="notice notice-error hide"></div>
 
     <div class="row-fluid spacer1">
@@ -46,36 +78,4 @@
       <?php endforeach ?>
     </div>
   </section>
-
-  <section class="email-section">
-    <h4>Quick Unsubscribe</h4>
-    <div class="notice notice-error hide spacer1"></div>
-    <?php $emailIndex = 0 ?>
-    <table>
-      <?php foreach($emails as $email => $enabled): ?>
-        <?php $emailId = 'email_' . (++$emailIndex) ?>
-        <tr>
-          <td>
-            <div class="spacer-half">
-              <label for="<?php echo $emailId ?>"><?php echo $email ?></label>
-            </div>
-          </td>
-          <td>
-            <div class="spacer-half" style="padding-left: 5px">
-              <span class="slider-checkbox">
-                <input id="<?php echo $emailId ?>" type="checkbox" <?php echo $enabled ? 'checked' : '' ?>  value="<?php echo urlencode($email) ?>" />
-                <label class="label"></label>
-              </span>
-            </div>
-          </td>
-        </tr>
-      <?php endforeach ?>
-    </table>
-
-    <div class="meta">If you toggle "off" and hit "Save", you will be removed from all of our mailing lists.</div>
-  </section>
-
-  <div>
-    <input type="submit" value="Save" class="btn-primary">
-  </div>
 </form>
