@@ -19,7 +19,7 @@ The source code, and not this file, is the only true definition of the block rew
 
 Eventually 1,083,202,000<sup>1</sup> LBRY credits will exist.   
 
-<sup>1</sup>This value was updated from 1B (which was a nice round number for a FAQ) on 09/21/2018 after running the source code referenced above with the goal of increasing accuracy and transparency. As the heading states above, the [code is the source](https://www.onlinegdb.com/r1NQOiyYQ) and not the value on a page.
+<sup>1</sup>This value was [updated from 1B](https://github.com/lbryio/lbry.io/commit/4b4a8401d8ada40203d2bfb232066f42c4ac7a84) (which was a nice round number for a FAQ) on 09/21/2018 with the goal of increasing accuracy and transparency. [View the calculation here to verify](https://www.onlinegdb.com/r1NQOiyYQ) the source code referenced above. 
 
 They are awarded on the following schedule:
 
