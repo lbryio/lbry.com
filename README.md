@@ -38,3 +38,7 @@ The primary contact for this project is [Jeremy Kauffman](https://github.com/kau
 
 - [https://lbry.io](https://lbry.io) - The live LBRY website
 - [https://chat.lbry.io](https://chat.lbry.io) - A chat room for the LBRY community
+- [Contact us](mailto:hello@lbry.io) - LBRY Support mail
+- [https://twitter.com/@lbryio](https://twitter.com/@lbryio) - LBRY Twitter Page
+- [https://www.facebook.com/lbryio/](https://www.facebook.com/lbryio/) - LBRY Facebook Page
+- [https://reddit.com/r/lbry](https://reddit.com/r/lbry) - LBRY Reddit Page
