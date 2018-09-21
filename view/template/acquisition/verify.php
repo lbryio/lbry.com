@@ -47,7 +47,7 @@
         <p>Now click the magic link below to verify your identity in the LBRY app...</p>
         <br/>
         <a class="btn-primary btn-large spacer1" onclick="location.href=magicLink">Magic Link</a>
-        <p><i>Does the magic link not work? Not on the same device as the LBRY app? Paste this (very long) piece of text into the verification screen of the app to confirm your identity.</i></p>
+        <p><i>When prompted, open the link with with LBRY Browser on Android or LBRY on Desktop. Does the magic link not work? Not on the same device as the LBRY app? Paste this (very long) piece of text into the verification screen of the app to confirm your identity.</i></p>
         <code class="multiline-code" id="magic-link-text"></code>
       </div>
     </div>
