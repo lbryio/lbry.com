@@ -3,48 +3,36 @@ lbry.emailSettingsForm = function (formSelector, tags, userAuthToken) {
         form = $(formSelector),
         emailSection = form.find('.email-section'),
         tagSection = form.find('.tag-section'),
-        hasError = false,
-        isEmailSubmitPending = false,
-        tagMap = new Map(),
-        isTagSubmitPending = false;
+        tagMap = new Map();
 
     $.each(tags, function(tag, enabled){
         tagMap[tag] = enabled;
     });
 
-    form.find(':input').change(submitForm);
+    emailSection.find(':input').change(submitEmail);
+    tagSection.find(':input').change(submitTags);
 
-    function submitForm() {
+    function submitEmail(e) {
+        var element = e.target,
+            url = 'https://api.lbry.io/user/email/edit?auth_token=' + userAuthToken
+                    + "&email=" + element.value + "&enabled=" + element.checked.toString();
 
-        form.find('.notice').hide();
-        hasError = false;
-        isEmailSubmitPending = true;
-        isTagSubmitPending = true;
-        var promiseMap = $.map(emailSection.find("input"), function (element) {
-            var url = 'https://api.lbry.io/user/email/edit?auth_token=' + userAuthToken
-            url = url + "&email=" + element.value + "&enabled=" + element.checked.toString();
-            return fetch(url).then(function (value) {
-                return value.json()
-            })
-
+        emailSection.find('.notice').hide();
+        fetch(url).then(function (value) {
+            var apiValues = value.json();
+            emailSection.find('.notice-success').show()
+        })
+        .catch(function (value) {
+            var error = "Something went wrong saving your email";
+            emailSection.find('.notice-error').html(error).show();
         });
-        //Call api for each email a user will have linked - polyfill needed for IE for Promise.all
-        Promise.all(promiseMap)
-            .then(function (apiValues) {
-                isEmailSubmitPending = false;
-                showSuccess();
-            })
-            .catch(function (value) {
-                isEmailSubmitPending = false;
-                hasError = true;
-                var error = "get actual error message from value";
-                emailSection.find('.notice-error').html(error).show();
-            });
+    }
 
-        //do tag edit
-        var url = 'https://api.lbry.io/user/tag/edit?auth_token=' + userAuthToken
-        var addTags = new Array(),
-            removeTags = new Array();
+    function submitTags() {
+        tagSection.find('.notice').hide();
+        var url = 'https://api.lbry.io/user/tag/edit?auth_token=' + userAuthToken,
+            addTags = [],
+            removeTags = [];
 
         tagSection.find('input').each(function () {
             var tagName = this.value
@@ -68,39 +56,27 @@ lbry.emailSettingsForm = function (formSelector, tags, userAuthToken) {
             removeTagsParam = removeTagsParam + "," + removeTags[i];
         }
         if (addTagsParam && addTagsParam.length > 0) {
-            url = url + "&add=" + addTagsParam
+            url += "&add=" + addTagsParam
         }
         if (removeTagsParam && removeTagsParam.length > 0) {
-            url = url + "&remove=" + removeTagsParam
+            url += "&remove=" + removeTagsParam
         }
 
         if (hasChanges) {
-            fetch(url).then(response => {return response.json()}
-        ).
-            then(jsonResponse => {
-                isTagSubmitPending = false;
-            if (jsonResponse.success) {
-                showSuccess();
-            } else {
-                hasError = true;
-                tagSection.find('.notice-error').html(jsonResponse.error).show();
-            }
-        }).
-            catch(function (value) {
-                isTagSubmitPending = false;
-                hasError = true;
-                tagSection.find('.notice-error').html(value.error).show();
-            });
-        } else {
-            isTagSubmitPending = false;
-        }
-    }
-
-    function showSuccess() {
-        if (!isEmailSubmitPending && !isTagSubmitPending && !hasError)
-        {
-            form.find('.notice-success').show()
-                // .get(0).scrollIntoView();
+            fetch(url)
+                .then(function (response) {
+                    return response.json()
+                })
+                .then(function (jsonResponse) {
+                    if (jsonResponse.success) {
+                        tagSection.find('.notice-success').show()
+                    } else {
+                        tagSection.find('.notice-error').html(jsonResponse.error).show();
+                    }
+                })
+                .catch(function (value) {
+                    tagSection.find('.notice-error').html(value.error).show();
+                });
         }
     }
 
