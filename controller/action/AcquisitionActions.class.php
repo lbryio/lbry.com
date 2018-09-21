@@ -27,7 +27,7 @@ class AcquisitionActions extends Actions
 
         return Controller::redirect(Request::getReferrer(), 303);
     }
-      
+
     public static function executeYouTube(string $version = '')
     {
         if (isset($_GET['error_message'])) {
@@ -49,9 +49,9 @@ class AcquisitionActions extends Actions
         }
 
         return [$template, [
-        'reward' => LBRY::youtubeReward(),
-        'error_message' => $error_message ?? ''
-    ]];
+            'reward' => LBRY::youtubeReward(),
+            'error_message' => $error_message ?? ''
+        ]];
     }
 
     public static function executeVerify(string $token)
@@ -75,10 +75,10 @@ class AcquisitionActions extends Actions
             Controller::redirect('/youtube?error=true&error_message=' . $data['error']);
         }
         return ['acquisition/youtube_status', [
-        'token' => $token,
-        'status_token' => $data,
-        'error_message' => $error_message ?? ''
-    ]];
+            'token' => $token,
+            'status_token' => $data,
+            'error_message' => $error_message ?? ''
+        ]];
     }
 
     public static function actionYoutubeToken(string $desired_lbry_channel_name)
@@ -94,21 +94,20 @@ class AcquisitionActions extends Actions
             }
         }
     }
-    public static function actionYoutubeEdit($status_token, $channel_name, $email, $sync_consent)
+
+    public static function actionYoutubeEdit($status_token, $channel_name, $email, $sync_consent, $fee_amount, $fee_address, $fee_currency, $free)
     {
         $current_value = LBRY::statusYoutube($status_token);
-        if ($current_value['data']['email'] == $email) {
-            $status = LBRY::editYoutube($status_token, $channel_name, null, $sync_consent);
-        } else {
-            $status = LBRY::editYoutube($status_token, $channel_name, $email, $sync_consent);
-        }
+        $email = ($current_value['data']['email'] == $email) ? null : $email;
+        $status = LBRY::editYoutube($status_token, $channel_name, $email, $sync_consent, $fee_amount, $fee_address, $fee_currency, $free);
 
         if ($status['success'] == false) {
-            Controller::redirect("/youtube/status/". $status_token . "?error=true&error_message=" . $status['error']);
+            Controller::redirect("/youtube/status/" . $status_token . "?error=true&error_message=" . $status['error']);
         } else {
             Controller::redirect("/youtube/status/" . $status_token);
         }
     }
+
     public static function executeYoutubeEdit()
     {
         return ['acquisition/youtube_edit'];

@@ -1,6 +1,16 @@
 var is_first_time = true;
 
-function submitEditForm(){
+function displayFees() {
+    if ($('#fee-checkbox').is(":checked")) {
+        $('#fee-settings').removeAttr("hidden");
+        $('.required-fields').attr('required','required');
+    } else {
+        $('.required-fields').removeAttr('required');
+        $('#fee-settings').attr("hidden", "true");
+    }
+}
+
+function submitEditForm() {
     $("#youtube_settings").submit(function (event) {
 
         // get value from id
@@ -12,21 +22,21 @@ function submitEditForm(){
         $('#email-error').hide();
 
         // If the channel name is invalid or blank stop the post request
-        if(!validateLBRYName(lbry_channel_name) || lbry_channel_name === ''){
+        if (!validateLBRYName(lbry_channel_name) || lbry_channel_name === '') {
             $('#lbry_channel_name').addClass('error_form');
             $('#channel-name-error').show();
             event.preventDefault();
         }
 
-        if(!validateEmail(email) || email === ''){
+        if (!validateEmail(email) || email === '') {
             $('#email').addClass('error_form');
             $('#email-error').show();
             event.preventDefault();
         }
-        else if(!validateEmailIsNotGooglePlus(email)){
+        else if (!validateEmailIsNotGooglePlus(email)) {
 
             $('#email').addClass('error_form');
-            if(is_first_time){
+            if (is_first_time) {
                 $('#email').addClass('error_form');
                 $('#email-google-plus-error').show();
                 is_first_time = false;
@@ -49,7 +59,7 @@ function submitDetailsForm() {
         $('#lbry_error').hide();
 
         // If the lbry name is invalid or blank stop the post request
-        if(!validateLBRYName(lbry_channel_name) || lbry_channel_name === '') {
+        if (!validateLBRYName(lbry_channel_name) || lbry_channel_name === '') {
             $('#lbry_channel_name').addClass('error_form');
             $('#lbry_error').show();
             event.preventDefault();
@@ -62,17 +72,17 @@ function validateEmail(email) {
     return re.test(email);
 }
 
-function validateLBRYName(lbry_channel_name){
+function validateLBRYName(lbry_channel_name) {
     var re = /^[@A-Za-z0-9-]*$/g;
     return re.test(lbry_channel_name);
 }
 
-function validateYoutubeChannelUrl(youtube_channel_url){
+function validateYoutubeChannelUrl(youtube_channel_url) {
     var re = /^UC[A-Za-z0-9_-]{22}$/;
     return re.test(youtube_channel_url);
 }
 
-function validateEmailIsNotGooglePlus(email){
+function validateEmailIsNotGooglePlus(email) {
     var re = /^[A-Za-z0-9._%+-]+@(?!plusgoogle.com)[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/;
     return re.test(email);
 }

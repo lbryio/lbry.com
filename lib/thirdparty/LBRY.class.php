@@ -11,34 +11,34 @@ class LBRY
     public static function getLBCtoUSDRate()
     {
         $response = CurlWithCache::get(static::getApiUrl('/lbc/exchange_rate'), [], [
-      'cache' => 3600, //one hour
-      'json_response' => true
-    ]);
+            'cache' => 3600, //one hour
+            'json_response' => true
+        ]);
         return $response['data']['lbc_usd'] ?? 0;
     }
 
     public static function subscribe($email, $tag = null)
     {
         return Curl::post(static::getApiUrl('/list/subscribe'), array_filter([
-      'email' => $email,
-      'tag' => $tag,
-    ]), ['json_response' => true]);
+            'email' => $email,
+            'tag' => $tag,
+        ]), ['json_response' => true]);
     }
 
-    public static function editEmailSettings($token, $email, $isPrimary =null, $isEnabled = null)
+    public static function editEmailSettings($token, $email, $isPrimary = null, $isEnabled = null)
     {
-        return Curl::post(static::getApiUrl('/user/email/edit'),['auth_token' => $token],['email' => $email],['is_primary' => $isPrimary],['is_enabled' => $isEnabled]);
+        return Curl::post(static::getApiUrl('/user/email/edit'), ['auth_token' => $token], ['email' => $email], ['is_primary' => $isPrimary], ['is_enabled' => $isEnabled]);
     }
 
     public static function emailStatus($token)
     {
-        list($status, $headers, $body) = Curl::doCurl(Curl::POST, static::getApiUrl('/user/email/status'),['auth_token' => $token], ['json_response' => true]);
-        return array($status,$headers,$body);
+        list($status, $headers, $body) = Curl::doCurl(Curl::POST, static::getApiUrl('/user/email/status'), ['auth_token' => $token], ['json_response' => true]);
+        return array($status, $headers, $body);
     }
 
     public static function applyTags($type, $token, $tags)
     {
-        return Curl::post(static::getApiUrl('/user/tag/edit'),['auth_token' => $token],[$type => $tags]);
+        return Curl::post(static::getApiUrl('/user/tag/edit'), ['auth_token' => $token], [$type => $tags]);
     }
 
     public static function unsubscribe($email)
@@ -63,12 +63,17 @@ class LBRY
         return CurlWithCache::post(static::getApiUrl('/yt/rewards'), [], ['cache' => 3600, 'json_response' => true]);
     }
 
-    public static function editYouTube($status_token, $channel_name, $email, $sync_consent)
+    public static function editYouTube($status_token, $channel_name, $email, $sync_consent, $fee_amount, $fee_address, $fee_currency, $free)
     {
-        if ($email == null) {
-            return Curl::post(static::getApiUrl("/yt/update"), ['status_token' => $status_token, 'new_preferred_channel' => $channel_name, 'sync_consent' => $sync_consent], ['json_response' => true]);
-        } else {
-            return Curl::post(static::getApiUrl("/yt/update"), ['status_token' => $status_token, 'new_email' => $email, 'new_preferred_channel' => $channel_name, 'sync_consent' => $sync_consent], ['json_response' => true]);
-        }
+        return Curl::post(static::getApiUrl("/yt/update"), [
+            'status_token' => $status_token,
+            'new_email' => $email,
+            'new_preferred_channel' => $channel_name,
+            'sync_consent' => $sync_consent,
+            'fee_amount' => $fee_amount,
+            'fee_address' => $fee_address,
+            'fee_currency' => $fee_currency,
+            'free' => $free,
+        ], ['json_response' => true]);
     }
 }
