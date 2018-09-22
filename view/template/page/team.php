@@ -3,7 +3,7 @@
 <?php Response::setMetaDescription('description.team') ?>
 <?php echo View::render('nav/_header', ['isDark' => false]) ?>
 <main>
-  <div class="hero hero-quote hero-img spacer1" style="background-image: url(https://spee.ch/@lbryteam/everyone-banner2.jpg)">
+  <div class="hero hero-quote hero-img spacer1" style="background-image: url(https://spee.ch/3cb82a81e95c147686dbf90e9983640939461c53/everyone-banner3.jpg)">
     <div class="hero-content-wrapper">
       <div class="hero-content text-center">
         <h1 class="cover-title">{{page.team.header}}</h1>
