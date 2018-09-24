@@ -23,7 +23,7 @@ In order to be eligible for LBRY Rewards, users must have a verified account via
 | **Welcome Back** | 6 LBC | Return to the LBRY app 24-48 hours following your first use of the app. This reward will self destruct after that time span.
 | **Referral** | 3 LBC | LBRY users can refer their friends via an email invitation and get rewarded when those users are verified. This reward is limited to one redemption at this time. For more information on referrals, click [here](https://lbry.io/faq/referrals)
 
-Rewards are added to the LBC wallet balance as they are completed. All the rewards can be listed by clicking on the tab marked "REWARDS" inside the LBC wallet, and they are also marked in the [transaction history](https://lbry.io/faq/transaction-types).  Rewards redemption is tied to your account, but the credits themselves are stored in your wallet which is required to be [backed up](https://lbry.io/faq/how-to-backup-wallet) periodically.
+Rewards are added to the LBC wallet balance as they are completed. All the rewards can be listed by clicking on the tab marked **REWARDS** inside the LBC wallet, and they are also marked in the [transaction history](https://lbry.io/faq/transaction-types).  Rewards redemption is tied to your account, but the credits themselves are stored in your wallet which is required to be [backed up](https://lbry.io/faq/how-to-backup-wallet) periodically.
 
 If you are new to Publishing, check out [our guide](https://lbry.io/faq/how-to-publish).
 
