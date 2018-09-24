@@ -17,3 +17,5 @@ Hints:
 - Use actual block times from https://explorer.lbry.io (or (Chainquery)[https://github.com/lbryio/chainquery) if it's avialable) for historical data
 
 Bonus: Overlay with circulating supply information from CoinMarketCap.com 
+
+Status: In Progress - https://github.com/marcdeb1/lbry-supply-chart
