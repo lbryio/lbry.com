@@ -1,5 +1,5 @@
 <?php NavActions::setNavUri('/learn') ?>
-<?php Response::addMetaImage('https://spee.ch/@lbryteam/everyone.jpg') ?>
+<?php Response::addMetaImage('https://spee.ch/@lbryteam/everyone-banner2.jpg') ?>
 <?php Response::setMetaDescription('description.team') ?>
 <?php echo View::render('nav/_header', ['isDark' => false]) ?>
 <main>
