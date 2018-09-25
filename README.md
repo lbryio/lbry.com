@@ -1,5 +1,7 @@
 # lbry.io
 
+[![Join the chat at https://gitter.im/lbryio/lbry.io](https://badges.gitter.im/lbryio/lbry.io.svg)](https://gitter.im/lbryio/lbry.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 The [lbry.io](https://lbry.io) website. This website uses barebones PHP along with Javascript and SCSS.
 
 ![lbry.io screenshot](https://spee.ch/b/new.png)
