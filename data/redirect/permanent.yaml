@@ -7,6 +7,7 @@
 /dl/lbry_setup.sh: /get
 /faq/Q1-17-CreditReport: /credit-reports/2017-Q1
 /faq/Q4-credit-report: /credit-reports/2016-Q4
+/faq/api-help: /faq/how-to-cli
 /faq/contributing: https://lbry.tech/contribute
 /faq/make-money: /faq/earn-income
 /faq/no-auction-options: /faq/naming
