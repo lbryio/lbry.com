@@ -10,7 +10,7 @@ The leaves are starting to fall, and that means it’s time for Hackoberfest! Th
 Open source is (literally) part of our DNA here at LBRY, and we’re always happy when we get an opportunity to support our fellow open source projects. Throughout the month of October, our developers will be hosting informational sessions, meetups, and coding projects to introduce other programmers to the world of open source software and start making contributions immediately. 
 
 Additionally, we’re using this month to:
-* Do an alpha launch of lbry.tech
+* Do an alpha launch of [lbry.tech](https://lbry.tech)
 * Revitalize our technical community, including a new forum
 * Offer sweet rewards to contributors new and old
 * Give back to other open-source projects
@@ -19,7 +19,7 @@ Additionally, we’re using this month to:
 
 A full schedule of events is below. As videos get published, this post will be updated with links.
 
-However, you don’t need to wait! Our [contributor guide](https://lbry.tech/contribute) and lbry.tech are ready for you to get started today. You can also [join us on Discord](https://chat.lbry.io) or [our forum](https://discourse.lbry.io) to interact with other developers and ask questions.
+However, you don’t need to wait! Our [contributor guide](https://lbry.tech/contribute) and [lbry.tech](https://lbry.tech) are ready for you to get started today. You can also [join us on Discord](https://chat.lbry.io) or [our forum](https://discourse.lbry.io) to interact with other developers and ask questions.
 
 ### The Rewards
 
