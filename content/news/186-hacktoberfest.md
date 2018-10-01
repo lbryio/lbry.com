@@ -33,6 +33,7 @@ A Lamborghini Aventador S for anyone who submits 800,000 accepted PRs.
 
 #### 10/3
 An Introduction to the LBRY SDK
+
 Jack Robinson - Protocol Developer
 
 #### 10/6 - 10/7
@@ -40,6 +41,7 @@ Vellore India Hackathon
 
 #### 10/10
 Developing the LBRY App
+
 Sean Yesmunt - Applications Engineer
 
 #### 10/17
@@ -52,7 +54,9 @@ University of New Hampshire Hackathon!
 
 #### 10/24
 Developing the LBRY Blockchain
+
 Brannon King - Blockchain Team Lead
+
 If you haven’t yet downloaded the [LBRY app](https://lbry.io/get) and [LBRY for Android](https://play.google.com/store/apps/details?id=io.lbry.browser&ah=IM6eaiKc3weXB9nBHq2zxUrx8F8), what are you waiting for? Get in touch if you have any questions - we’re look forward to spending some time with our developer community this month!
 
 ### Can I start now?
