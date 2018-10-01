@@ -3,6 +3,8 @@ title: How do I see the list of API functions I can call, and how do I call them
 category: developer
 ---
 
+**This FAQ is subsumed by specific read-mes and lbry.tech**
+
 ## The LBRY API
 
 The best way to learn how to use the LBRY API is to go through our [quickstart](https://lbry.io/quickstart).
