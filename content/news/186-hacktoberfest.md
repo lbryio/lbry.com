@@ -44,6 +44,7 @@ Sean Yesmunt - Applications Engineer
 
 #### 10/17
 Developing the LBRY Android App
+
 Akinwale Ariwodola - Lead Mobile Developer
 
 #### 10/19 - 10/20
