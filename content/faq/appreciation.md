@@ -19,4 +19,4 @@ If you don't have an address, download [LBRY](https://lbry.io/get) to create one
 
 ## I haven't contributed yet. How can I help?
 
-We've compiled a [contributing guide](https://lbry.tech/contributing) which is a good place to start if you are interested in making LBRY great! 
+We've compiled a [contributing guide](https://lbry.tech/contribute) which is a good place to start if you are interested in making LBRY great! 
