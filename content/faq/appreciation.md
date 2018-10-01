@@ -1,5 +1,5 @@
 ---
-title: Credits for Contributing
+title: Appreciation for Contributing
 category: other
 ---
 
@@ -7,9 +7,9 @@ If you've been linked or directed to this page, it's most likely because we've n
 
 Public contributions are crucial for the development and continued success of the LBRY application and network. Whether it's a good suggestion, a code submission, a thorough bug report or just raising awareness of LBRY, each strengthens the community and network.
 
-Providing you with a tip, in LBRY Credits (LBC), is our recognition and appreciation for your time and effort. This bonus is completely optional and can be redeemed at your discretion. 
+Providing you with LBRY Credits (LBC) is our recognition and appreciation for your time and effort. This bonus is completely optional and can be redeemed at your discretion. 
 
-## How do I redeem my tip?
+## What's next?
 
 You already completed the hard part, so we'll try to make this as easy as possible.
 
@@ -19,4 +19,4 @@ If you don't have an address, download [LBRY](https://lbry.io/get) to create one
 
 ## I haven't contributed yet. How can I help?
 
-We've compiled a [contributing guide](https://lbry.io/faq/contributing) which is a good place to start if you are interested in making LBRY great! 
+We've compiled a [contributing guide](https://lbry.tech/contributing) which is a good place to start if you are interested in making LBRY great! 
