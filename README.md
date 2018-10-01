@@ -24,7 +24,7 @@ This project is MIT licensed. For the full license, see [LICENSE](LICENSE).
 
 ## Contributing
 
-Contributions to this project are welcome, encouraged, and compensated. For more details, see [CONTRIBUTING](https://lbry.io/faq/contributing).
+Contributions to this project are welcome, encouraged, and compensated. For more details, see [CONTRIBUTING](https://lbry.tech/contribute).
 
 ## Security
 
