@@ -55,7 +55,7 @@ University of New Hampshire Hackathon!
 #### 10/24
 Developing the LBRY Blockchain
 
-Brannon King - Blockchain Team Lead
+Brannon King - LBRY Blockchain Team
 
 If you haven’t yet downloaded the [LBRY app](https://lbry.io/get) and [LBRY for Android](https://play.google.com/store/apps/details?id=io.lbry.browser&ah=IM6eaiKc3weXB9nBHq2zxUrx8F8), what are you waiting for? Get in touch if you have any questions - we’re look forward to spending some time with our developer community this month!
 
