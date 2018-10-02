@@ -2,9 +2,11 @@
 author: jeremy-kauffman
 title: 5 Questions About LBRY
 date: '2015-07-01 13:09:20'
+published: true
 ---
 
 As I recently traveled across Europe, and ultimately to [PorcFest](http://www.porcfest.com), I took time to talk to talk to entrepreneurs, technologists, and libertarians about [LBRY](https://lbry.io).
+
 For the mutualistic education of myself and others, below are the questions and answers to five frequently asked questions.
 
 ## Five Questions
