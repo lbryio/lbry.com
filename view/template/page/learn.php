@@ -42,6 +42,9 @@
         <div class="spacer1">
           <a href="/credit-reports" class="link-primary"><span class="fa fa-university icon-fw"></span><span class="btn-label">Credit Reports</span></a>
         </div>
+        <div class="spacer1">
+          <a href="https://lbry.tech" class="link-primary"><span class="fas fa-cogs icon-fw"></span><span class="btn-label">LBRY.Tech</span></a>
+        </div>
       </div>
     </div>
   </div>
