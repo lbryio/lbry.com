@@ -3,6 +3,7 @@ author: samuel-lbryian
 title: 'Community Update August/September 2018'
 date: '2018-09-19 13:00:00'
 cover: 'india-meetup-sm.jpg'
+category: community-update
 ---
 Welcome to the August/September 2018 LBRY Community update! Beginning this month, we’re breaking the Development and Community updates into two separate articles because they were becoming too long. 
 
