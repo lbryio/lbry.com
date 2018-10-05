@@ -12,7 +12,7 @@ We want to make it as easy as possible to interact with LBRY in every programmin
 
 Completing this bounty involves creating a simple library to make it as easy as possible to interact with the LBRY protocol in a language we do not already have a binding for. Ideally, this this also include the LBRYcrd api, see php example below for details.
 
-An example of a binding can be found in the [php-api](https://github.com/lbryio/php-api) repo.
+An example of a binding can be found in the [php-api](https://github.com/lbryio/php-api) repo and the entire listing can be found on [lbry.tech](https://lbry.tech/resources/api-wrappers).
 
 A binding can typically be written using cURL in less than 100 lines of code. The repo should be well documented for the wrapper language, have install/setup instructions and tests. 
 
@@ -24,5 +24,5 @@ Lua - Completed
 Java - Completed  
 Javascript - Completed   
 Rust - Started/Claimed   
-C++ - Claimed  
-Python - Claimed
+C++ - Completed  
+Python - Completed
