@@ -126,7 +126,7 @@ A community member recently completed a bounty that called for the creation of a
 
 ![supply](https://spee.ch/a9c91e284809def8dcad3d506f6653fbd0fa5f45/lbry-supply-chart.jpg)
 
-### Blockchain - Maintenance Release and Proof of Purchase Exploration {#blockchain}
+### Blockchain - Maintenance Release and Proof of Purchase Exploration {#Blockchain}
 The blockchain team released [patch version 0.12.2.2](https://github.com/lbryio/lbrycrd/releases/tag/v0.12.2.2) of the full blockchain client to address a few bugs found during testing. There’s no immediate need to update if you are not experiencing any issues. Otherwise, the team has been deep in exploration about how content purchases have been and are presently performed on the LBRY blockchain using the traditional Pay-To-Public-Key-Hash (P2PKH) mechanism. Essentially, this means that money (and nothing else) is sent to an address -- imagine receiving a letter in the mail with nothing but cash in the envelope. The user's wallet knows what content was purchased at the time, and can request that content from the network. However, the lack of information on the seller's end is unfortunate. And should the user lose their local wallet's record, their content purchases would be lost as well. In addition, the blockchain network can handle hundreds of transactions per second but not thousands.
 
 We are looking to address this problem and have had many discussions on the topic. Specifically, we are looking for a solution that includes these requirements:
