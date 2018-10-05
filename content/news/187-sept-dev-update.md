@@ -44,7 +44,7 @@ You’ll also notice a revamped [Playground](https://lbry.tech/playground) secti
 
 ![lbrytech publish](https://spee.ch/884fb7b2d49b01f7bc52eb94e7b0e31b822fe5a0/tech-playground-publish.jpg)
 
-### LBRY for Android Update - LBRY Browser goes OPEN BETA! {lbry-android}
+### LBRY for Android Update - LBRY Browser goes OPEN BETA! {#lbry-android}
 We’re super excited to announce that we [launched our LBRY Browser for Android](https://lbry.io/news/lbry-in-your-pocket) mid September as an Open Beta on the [Google Play Store](https://play.google.com/apps/testing/io.lbry.browser). This release comes with the basics - ability to login with your current email, earn rewards including a special early adopter bonus for Android users, browse the Discover and trending pages, searching, a basic standalone wallet and ability to view/download videos, images and static HTML content. It’s important to note that your wallet will not be in sync with any other installs. Also, it should not be used to store larger amounts of funds because there’s no way easy way to backup (see [manual method](https://lbry.io/faq/how-to-backup-wallet)) and it gets cleared on uninstall. We’ll be focusing on getting features like subscriptions, wallet encryption and backup, publishing and history in future releases. Thanks for being an early tester and give us your feedback on the #lbry-android channel on [Discord](https://chat.lbry.io)
 
 ![android](https://github.com/lbryio/lbry.io/blob/master/web/img/LBRY-Android.png?raw=true)
