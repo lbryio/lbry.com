@@ -1,4 +1,4 @@
-<?php Response::setMetaDescription(__('description.meetup')) ?>
+e<?php Response::setMetaDescription(__('description.meetup')) ?>
 <?php Response::setMetaTitle(__('title.meetup')) ?>
 <?php echo View::render('nav/_header', ['isDark' => true, 'isAbsolute' => true]) ?>
 <main>
