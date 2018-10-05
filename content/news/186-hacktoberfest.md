@@ -36,7 +36,7 @@ An Introduction to the LBRY SDK
 
 <video width="100%" controls poster="https://spee.ch/2018-10-04-17-13-54-017046806.png" src="https://spee.ch/967f99344308f1e90f0620d91b6c93e4dfb240e0/lbrynet-dev-setup.mp4"/></video>
 
-Jack Robinson - Protocol Developer
+Jack Robison - Protocol Developer
 
 #### 10/6 - 10/7
 Vellore India Hackathon
