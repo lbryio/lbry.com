@@ -56,7 +56,7 @@ Publish something to [spee.ch](https://spee.ch) recently and notice it was light
 
 We are also working on facelift for content pages on spee.ch, check it out below! 
 
-![preview](https://spee.ch/9c2a5c482afae53807050069c5284d435a0d2c4c/speech-preview.jpg)
+![preview](https://spee.ch/75eecc4f1e8353693d3e236d326e8dcd4b1977aa/speech-preview-new.jpg)
 
 Interested in running your own spee.ch server or clone? Check out the [quick start guide](https://github.com/lbryio/spee.ch/blob/readme-update/fullstart.md) and [GitHub repository](https://github.com/lbryio/spee.ch).
 
