@@ -1,7 +1,7 @@
 ---
 author: tom-zarebczan
 title: 'Development Update Aug/Sept 2018'
-date: '2018-10-05 16:00:00'
+date: '2018-10-05 15:00:00'
 cover: 'hacktoberfest-cover.jpg'
 category: community-update
 ---
