@@ -2,7 +2,7 @@
 category: code
 title: Mining Inflation Chart
 award: 300
-status: available
+status: completed
 date: '2018-05-25'
 ---
 
@@ -18,4 +18,4 @@ Hints:
 
 Bonus: Overlay with circulating supply information from CoinMarketCap.com 
 
-Status: In Progress - https://github.com/marcdeb1/lbry-supply-chart
+Status: Completed - https://github.com/marcdeb1/lbry-supply-chart
