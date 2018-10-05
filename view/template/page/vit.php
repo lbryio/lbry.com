@@ -2,7 +2,7 @@
 <?php Response::setMetaTitle(__('title.meetup')) ?>
 <?php echo View::render('nav/_header', ['isDark' => true, 'isAbsolute' => true]) ?>
 <main>
-  <div class="cover cover-dark cover-center cover-full cover--dark-overlay" style="background-image: url(/img/table2.jpg)">
+  <div class="cover cover-dark cover-center cover-full cover--dark-overlay" style="background-image: url(/img/devfest.jpg)">
     <div class="content content-dark text-center">
       <h1 class="cover-title cover-title-tile cover-item--outline">
         LBRY Welcomes Devfest
