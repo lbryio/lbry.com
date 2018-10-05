@@ -249,4 +249,7 @@ video {
   width: 100%;
   max-width: 800px;
   height: auto;
+  [src] {
+    cursor: pointer;
+  }
 }
