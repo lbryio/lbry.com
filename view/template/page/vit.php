@@ -1,5 +1,5 @@
-<?php Response::setMetaDescription(__('description.meetup')) ?>
-<?php Response::setMetaTitle(__('title.meetup')) ?>
+<?php Response::setMetaDescription(__('LBRY is proud to sponsor VIT Vellore\'s DSC Devfest 2018')) ?>
+<?php Response::setMetaTitle(__('LBRY Welcomes VIT Hackathon Participants')) ?>
 <?php echo View::render('nav/_header', ['isDark' => true, 'isAbsolute' => true]) ?>
 <main>
   <div class="cover cover-dark cover-center cover-full cover--dark-overlay" style="background-image: url(/img/devfest.jpg)">
