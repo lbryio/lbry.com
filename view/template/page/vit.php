@@ -16,8 +16,8 @@
   </div>
   <div class="cover cover-light" id="about">
     <div class="content content-light content-readable">
-      <h3>Enter your email address to receive LBRY updates, news, and information for India LBRYians!</h3>
-      <p>LBRY is proud to sponsor this year's Devfest Hackathon, and we're excited to work with VIT's Developer Student Clubs. As an open source project, our development and future relies on our communities around the world, and we're delighted to our community growing in India. Please enter your email below and we'll give you instructions to redeem the LBC as mentioned by our team.</p>
+      <h3>Enter your email address to receive LBRY updates, news, and information for India's LBRYians!</h3>
+      <p>LBRY is proud to sponsor this year's Devfest Hackathon, and we're excited to work with VIT's Developer Student Clubs. As an open source project, our development and future relies on our communities around the world, and we're delighted to see our community growing in India. Please enter your email below and we'll give you instructions to redeem the LBC as mentioned by our team.</p>
       <?php echo View::render('mail/_subscribeForm', [
         'tag' => 'vit',
         'submitLabel' => 'Sign me up',
