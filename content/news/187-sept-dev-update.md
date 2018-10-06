@@ -5,7 +5,7 @@ date: '2018-10-05 15:00:00'
 cover: 'hacktoberfest-cover.jpg'
 category: community-update
 ---
-Welcome to the September 2018 LBRY Development update! As you may have read in our [Aug/Sept Community update](https://lbry.io/news/august-community-update), we are splitting up our monthly reports into two - one in the middle of the month for community updates and one at the begging/end of the month for development. In this post we’ll show you what we’ve been up to and review our progress for the months of August and September - sit tight, there’s lots to talk about below!  
+Welcome to the September 2018 LBRY Development update! As you may have read in our [Aug/Sept Community update](https://lbry.io/news/august-community-update), we are splitting up our monthly reports into two - one in the middle of the month for community updates and one at the beginning/end of the month for development. In this post we’ll show you what we’ve been up to and review our progress for the months of August and September - sit tight, there’s lots to talk about below!  
 
 To read all of our previous updates, please visit our [Development and Community Update archive](https://lbry.io/news/category/community-update).
 
