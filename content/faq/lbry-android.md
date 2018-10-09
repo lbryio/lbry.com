@@ -2,7 +2,7 @@
 
 title: LBRY Android App Basics
 category: getstarted
-order: 1
+order: 2
 
 ---
 
