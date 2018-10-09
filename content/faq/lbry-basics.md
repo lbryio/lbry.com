@@ -26,7 +26,7 @@ A wallet is a secure, digital wallet used to store, send and receive cryptocurre
 To find your wallet in the LBRY App, click on wallet on the left side of the App. Clicking it will bring you to the wallet overview page which shows your balance, available Rewards and recent transactions.
 ![Find wallet](https://spee.ch/4/wallet2.jpeg)
 
-The LBRY wallet is different from other cryptocurrencies because it also stores your shared content's metadata in the form of [claims](https://lbry.io/faq/naming) when using the [publishing features]((https://lbry.io/faq/how-to-publish). Claim related [wallet transactions](https://lbry.io/faq/transaction-types) ensure that the blockchain uniquely identifies your content and the payment/tips can be routed appropriately. 
+The LBRY wallet is different from other cryptocurrencies because it also stores your shared content's metadata in the form of [claims](https://lbry.io/faq/naming) when using the [publishing features](https://lbry.io/faq/how-to-publish). Claim related [wallet transactions](https://lbry.io/faq/transaction-types) ensure that the blockchain uniquely identifies your content and the payment/tips can be routed appropriately. 
 
 ### Where do I find my LBC wallet address?
 You can find your address by first clicking on Wallet on the leftside of the LBRY APP.
