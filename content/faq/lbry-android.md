@@ -12,7 +12,7 @@ The app runs on top of the [LBRY protocol](https://lbry.io/faq/what-is-lbry) whi
 
 The purpose of this FAQ is to answer questions about some of the basic functionality available in the LBRY Android App. Please see our [other FAQ entries](https://lbry.io/faq) for additional information.
 
-### What Is The Purpose Of Having My Email Connected To LBRY?
+### Why Does LBRY Want My Email Address?
 
 Emails are collected to authenticate and [uniquely identify](https://lbry.io/faq/phone) users so that they can be eligible for [LBRY Rewards](#rewards), sync subscription data and to stay up to date on the latest LBRY happenings.
 
@@ -38,7 +38,7 @@ In order to be eligible for Rewards, you need to verify your identity [phone num
 
 ### What Is a Wallet And How Do I Find It? {#wallet}
 
-A wallet is a secure digital wallet used to store, send and receive cryptocurrencies like LBRY Credits (LBC). 
+A wallet is a secure digital file used to store, send and receive cryptocurrencies like LBRY Credits (LBC). 
 The LBRY Android App comes with its own wallet and is stored locally on your phone and nowhere else!
 
 **It is critical that you [backup your wallet data](https://lbry.io/faq/how-to-backup-wallet#android) in case you lose access to your phone or need to [migrate](https://lbry.io/faq/backup-data) to a new one.**
@@ -56,7 +56,7 @@ Scroll down in the Wallet menu to find recent transactions, or click `View All` 
 
 ![Recent tx](https://spee.ch/daa89fcca6411ad2505cdc6e092fcaf4f22f4802/recent1.jpg)
 
-The LBRY wallet is different from other cryptocurrencies because it also stores your shared content's metadata in the in the form of [claims](https://lbry.io/faq/naming) when using the [publishing features](https://lbry.io/faq/how-to-publish).
+The LBRY wallet is different from other wallets - it also stores your shared content's metadata in the in the form of [claims](https://lbry.io/faq/naming) when using the [publishing features](https://lbry.io/faq/how-to-publish).
 
 Claim related [wallet transactions](https://lbry.io/faq/transaction-types) ensure that the blockchain uniquely identifies your content and the payment/tips can be routed appropriately.
 
@@ -115,6 +115,6 @@ Now you will be able to keep your media playing in the background without leavin
 
 ### How To Stop The LBRY Service From Running In The Background {#stoplbryservice}
 
-You might have noticed that the LBRY icon may be showing in your notifications with the status, `LBRY service is running in the background`. This is a good thing because it keeps the app up-to-date with the blockchain and helps the app load contents faster as it arrives. In the future, you'll be able to support the LBRY network and earn hosting rewards, but for now, the hosting features are disabled.
+You might have noticed that the LBRY icon may be showing in your notifications with the status, `LBRY service is running in the background`. We keep the app open in the background to stay up-to-date with the blockchain, which helps the app load contents faster as it arrives. In the future, you'll be able to support the LBRY network and earn hosting rewards, but for now, the hosting features are disabled.
 
 However, if you do not want the LBRY service to be running in the background, you can disable this just by going into the settings page and like above, you just need to tap `Keep the daemon background service running after closing the app` - this will change the status of that option from green to grey. Now close the LBRY app by clicking back multiple times or swipe the app to close - the notification icon should disappear.
