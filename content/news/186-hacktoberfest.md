@@ -51,6 +51,8 @@ Vellore India Hackathon
 #### 10/10
 Developing the LBRY App
 
+<video width="100%" controls poster="https://spee.ch/0eb2871ab94eff326092a09d3cef3d92a8a17328/LekYu2Oh72ZapeHJVtWJ4xVx.png" src="https://spee.ch/7da73fc508ffc4ff8b2711e3c3950110430b0c5f/LBRYAppDesign.mp4"/></video>
+
 Sean Yesmunt - Applications Engineer
 
 #### 10/17
