@@ -6,7 +6,7 @@ order: 2
 
 ---
 
-The LBRY Android App allows you to view free and paid content, upload your digital media for free or at a set price, tip your favourite creators, send/receive LBRY Credits (LBC) and earn credits through LBRY Rewards.
+The LBRY Browser for Android allows you to view free and paid content via the Explore and Trending sections, search for content on LBRY,  send/receive LBRY Credits (LBC) and earn credits through LBRY Rewards.
 
 The app runs on top of the [LBRY protocol](https://lbry.io/faq/what-is-lbry) which is a peer-to-peer (P2P), decentralized file sharing and payment network secured by blockchain technology. 
 
@@ -14,13 +14,13 @@ The purpose of this FAQ is to answer questions about some of the basic functiona
 
 ### What Is The Purpose Of Having My Email Connected To LBRY?
 
-Emails are collected to authenticate and [uniquely identify](https://lbry.io/faq/identity-requirements) users so that they can be eligible for [LBRY Rewards](#rewards), sync subscription data and to stay up to date on the latest LBRY happenings.
+Emails are collected to authenticate and [uniquely identify](https://lbry.io/faq/phone) users so that they can be eligible for [LBRY Rewards](#rewards), sync subscription data and to stay up to date on the latest LBRY happenings.
 
-No other data is stored with your email login. All other data, including your [wallet](#wallet), [downloads](#data) and published content are stored locally on your computer.
+No other data is stored with your email login. All other data, including your [wallet](#wallet), [downloads](#data) and published content are stored [locally on your device](https//lbry.io/faq/lbry-directories#android).
 
 ### How Do I Change My LBRY Connected Email?
 
-If you ever need to change your LBRY Android App email address or sign out, please see [this guide](https://lbry.io/faq/how-to-change-email).
+If you ever need to change your LBRY Android App email address or sign out, please see [this guide](https://lbry.io/faq/how-to-change-email#android).
 
 If you sign into a new email and need to transfer your verification status, you'll need to [reach out to us](mailto:help@lbryio) in order to link your accounts. Please do not verify again to obtain rewards on a 2nd account; your Rewards account may be disabled for abuse.
 
@@ -34,24 +34,25 @@ Any rewards earned will be sent locally to the wallet where they are claimed. In
 
 [LBRY Rewards](https://lbry.io/faq/rewards) are used to distribute LBRY Credits(LBC) to new and existing users by allowing them to explore app functions and complete tasks which generate LBC as an award.
 
-In order to be eligible for Rewards, you need to [verify your identity](https://lbry.io/faq/identity-requirements) which uniquely identifies you as an LBRY user.
+In order to be eligible for Rewards, you need to verify your identity [phone number](https://lbry.io/faq/phone) or [chat](https://chat.lbry.io) which uniquely identifies you as an LBRY user.
 
 ### What Is a Wallet And How Do I Find It? {#wallet}
 
 A wallet is a secure digital wallet used to store, send and receive cryptocurrencies like LBRY Credits (LBC). 
 The LBRY Android App comes with its own wallet and is stored locally on your phone and nowhere else!
 
-**It is critical that you [backup your wallet data](https://lbry.io/faq/how-to-backup-wallet) in case you lose access to your phone or need to [migrate](https://lbry.io/faq/backup-data) to a new one.**
+**It is critical that you [backup your wallet data](https://lbry.io/faq/how-to-backup-wallet#android) in case you lose access to your phone or need to [migrate](https://lbry.io/faq/backup-data) to a new one.**
 
-To find your wallet in the LBRY Android app, click on the 3 horizontal bars at the upper left side of the app next to `Discovery`. Clicking on it will open a sidebar and then click on Wallet. This will open the Wallet page which shows your balance and recent transactions.
+To find your wallet in the LBRY Android app, click on the 3 horizontal bars at the upper left side of the app next to `Discovery`. Clicking on it will open a sidebar and then click on Wallet. This will open the Wallet page which shows your wallet address, balance and recent transactions.
 
 ![Find wallet](https://spee.ch/b3535b68750ad69c48566cb028c67d323d1fdeb9/walli.jpg)
 
-### Balance
+### Where Do I Find my LBC Wallet Address
 
 ![balance](https://spee.ch/e7f125b643e30f8bac2d8c4657bc14874a60e25e/WALLETADD1.jpg)
 
-### Recent Transactions
+### Where Do I Find my Recent Transactions
+Scroll down in the Wallet menu to find recent transactions, or click `View All` to see anything older than 7 days. 
 
 ![Recent tx](https://spee.ch/daa89fcca6411ad2505cdc6e092fcaf4f22f4802/recent1.jpg)
 
@@ -65,8 +66,7 @@ Claim related [wallet transactions](https://lbry.io/faq/transaction-types) ensur
 
 ![bagdeicon](https://spee.ch/4176685c4fd51d31f623430d6ac17e9949ecab39/badge.jpg)
 
-2. After clicking on the video to play/download, swipe the edge of your phone screen from left to right to draw the app menu.
-3. Click on Rewards and you will see the LBRY cast reward on the first. Tap the round circle to claim your reward. 
+2. After clicking on the video to play/download, the reward should be claimed automatically. If not, go into the Menu > Rewards and you will see the LBRY cast reward on the first. Tap the round circle to claim your reward. 
 
 ![walleticon](https://spee.ch/beceef63dbf682cd1ed1ebdbee9b1845de10959b/swipe.gif)
 
@@ -90,7 +90,7 @@ storage the contents have consumed:
 
 ![MyLBRY Contents](https://spee.ch/8e067e5f5e65b97e77f9dc2f526f2a3196ec88ad/mylin.jpg)
 
-3. Tap the content you would like to delete and then once it's open, you should see a bin icon.
+3. Tap the content you would like to delete and then once it's open, you should see a trash can icon.
 
 ![bin](https://spee.ch/424e2150c7d03231c966634ba6307b019b6654e6/delete.jpg)
 
@@ -98,17 +98,15 @@ Click on the bin icon and confirm deletion if you still want to delete the conte
 
 ![delete](https://spee.ch/7411547d0aea6da1b0c765151c4ffd0e30b2c9fd/delete1.jpg)
 
-Right after the content is deleted, you should see the same content showing on the app screen, if you click on it, it will start the download again, unless you want to redownload the content. 
-To delete the other contents, please follow the same steps until you delete all the contents you do not need on your phone.
+Right after the content is deleted, you should see the same content showing on the app screen, if you click on it, it will start the download again.
+To delete additional content, please follow the same steps until you delete all the contents you do not need on your phone. We'll be improving this to allow for easier deletion multiple content at the same time. 
 
 ### Enable Background Media Playback. {#backgroundmediaplayback}
 
-When playing anything on the LBRY android app, it will stop playing when you minimise the app or switch to another application.
-If you still want your video or audio to continue playing in the background, you will need to enable that in the app settings
+When playing anything on the LBRY android app, it will stop playing when you minimize the app or switch to another application. Since we aren't YouTube and won't make you pay for subscription to enable background media playback, you can enable this feature in the app settings.
 
-1. Swipe your phone screen to the right to reveal the menu.
-2. Select settings 
-3. Tap enable background media player, this will change the status of that option from grey to green
+1. Swipe your phone screen to the right to reveal the menu, select Settings.
+2. Tap the `Enable background media playback` toggle on the right hand side, this will change the status of that option from grey to green
 
 ![settings](https://spee.ch/6169bbad4908bee2378f09a7ea048b981a79ebe5/enable.jpg)
 
@@ -117,6 +115,6 @@ Now you will be able to keep your media playing in the background without leavin
 
 ### How To Stop The LBRY Service From Running In The Background {#stoplbryservice}
 
-You might have noticed that the LBRY icon may be showing in your notifications with the status, `LBRY service is running in the background`. This is a good thing because it keeps the app up-to-date with the blockchain and helps the app load contents faster as it arrives. This is also another way of supporting the LBRY network.
+You might have noticed that the LBRY icon may be showing in your notifications with the status, `LBRY service is running in the background`. This is a good thing because it keeps the app up-to-date with the blockchain and helps the app load contents faster as it arrives. In the future, you'll be able to support the LBRY network and earn hosting rewards, but for now, the hosting features are disabled.
 
-However, if you do not want the LBRY service to be running in the background, you can disable this just by going into the setting and like above, you just need to tap `keep the daemon working after closing the app` this will change the status of that option from green to grey. Close the LBRY app from the background and the notification icon should disappear.
+However, if you do not want the LBRY service to be running in the background, you can disable this just by going into the settings page and like above, you just need to tap `Keep the daemon background service running after closing the app` - this will change the status of that option from green to grey. Now close the LBRY app by clicking back multiple times or swipe the app to close - the notification icon should disappear.
