@@ -42,6 +42,10 @@ An Introduction to the LBRY SDK
 Jack Robison - Protocol Developer
 
 #### 10/6 - 10/7
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">A lot is happening at the <a href="https://twitter.com/hashtag/devfest?src=hash&amp;ref_src=twsrc%5Etfw">#devfest</a> <a href="https://twitter.com/hashtag/vitvellore?src=hash&amp;ref_src=twsrc%5Etfw">#vitvellore</a> <a href="https://twitter.com/hashtag/hackathon?src=hash&amp;ref_src=twsrc%5Etfw">#hackathon</a> <a href="https://twitter.com/LBRYio?ref_src=twsrc%5Etfw">@LBRYio</a> <a href="https://twitter.com/itsmedn7?ref_src=twsrc%5Etfw">@itsmedn7</a> <a href="https://twitter.com/search?q=%24lbc&amp;src=ctag&amp;ref_src=twsrc%5Etfw">$lbc</a> <a href="https://twitter.com/hashtag/lbry?src=hash&amp;ref_src=twsrc%5Etfw">#lbry</a> <a href="https://twitter.com/hashtag/lbryians?src=hash&amp;ref_src=twsrc%5Etfw">#lbryians</a> <a href="https://t.co/ZQqiC1Oevi">pic.twitter.com/ZQqiC1Oevi</a></p>&mdash; Premium_Trends (Clement) (@Premium_Trends) <a href="https://twitter.com/Premium_Trends/status/1048573008124698629?ref_src=twsrc%5Etfw">October 6, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 Vellore India Hackathon
 
 #### 10/10
