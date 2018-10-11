@@ -75,7 +75,7 @@ On the SDK side of the house, we released [version 0.21](https://github.com/lbry
 ### Reward Codes {#reward}
 We’ll be launching a new way to spread LBC love by way of reward codes that are redeemable in app. This will be yet another powerful marketing tool we can use to get LBC in the hands of supporters without having their LBC addresses - we can give them out at conferences or even mail them out to YouTube creators! The next app version will include a way to redeem these codes from the Rewards screen and we’ll be dropping these randomly on Discord/Twitter and Reddit - so be on the look out when it goes live! 
 
-As a bonus for early adopters (if you redeemed one on Discord recently, please leave these for others!), here’s a code that allows 3 uses - gotta be quick!: `septdevreportbonus`  Hint - either run from source or [check out the API call](https://github.com/lbryio/lbry-desktop/issues/1886): 
+As a bonus for early adopters (if you redeemed one on Discord recently, please leave these for others!), here’s a code that allows 3 uses - gotta be quick!: `septdevreportbonus`  Hint - either run from source or [check out the API call](https://github.com/lbryio/lbry-desktop/issues/1886). *Update: codes have been redeemed, congrats to those that figured it out!* 
 
 ![reward codes](https://spee.ch/ffc5952b97a27f2f1c66e84ff37cafb28b613c10/custom-reward-code.jpg)
 
