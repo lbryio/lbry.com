@@ -115,3 +115,30 @@ $(document).ready(function() {
   //   })
   // });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  if (
+    document.referrer.includes("http://localhost:8080") ||
+    document.referrer.includes("https://lbry.tech")
+  ) {
+    const html = `
+      <section class="alert" id="tech-greeting">
+        <div class="inner-wrap">
+          <p><strong>Welcome to the consumer side of LBRY!</strong> You've had fun delving into the tech, we hope.</p>
+          <br><br>
+          <p>Here by accident? Come back to <a href="${document.referrer}">the techno scene</a>.</p>
+
+          <button id="close-alert">×</button>
+        </div>
+      </section>
+    `;
+
+    document.querySelector("body").insertAdjacentHTML("afterend", html);
+
+    document.getElementById("close-alert").onclick = () => {
+      document.getElementById("tech-greeting").style.display = "none";
+    };
+  }
+});
+
+
