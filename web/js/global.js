@@ -124,7 +124,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const html = `
       <section class="alert" id="tech-greeting">
         <div class="inner-wrap">
-          <p><strong>Welcome to the less-technical side of LBRY!</strong> You've had fun delving into the code, we hope.</p>
+          <p><strong>Welcome to the consumer side of LBRY!</strong> You've had fun delving into the tech, we hope.</p>
           <br><br>
           <p>Here by accident? Come back to <a href="${document.referrer}">the techno scene</a>.</p>
 
