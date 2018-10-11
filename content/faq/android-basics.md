@@ -74,7 +74,7 @@ To claim any other reward, you just have to click on the round circle next to th
 
 ![claimreward](https://spee.ch/d706d5965b7befa4b1de02e71739ff5c948071c0/claim.jpg)
 
-To check whether your wallet is updated, you need to swipe your screen to show the menu bar, click on Wallet and you will see your overall updated balance. Check ![How to Backup Your Wallet](https://lbry.io/faq/how-to-backup-wallet)
+To check whether your wallet is updated, you need to swipe your screen to show the menu bar, click on Wallet and you will see your overall updated balance. Check [How to Backup Your Wallet](https://lbry.io/faq/how-to-backup-wallet)
 
 ### How To Delete Downloaded Contents On LBRY Android App. {#deletecontents}
 
