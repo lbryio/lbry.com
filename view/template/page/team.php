@@ -33,8 +33,7 @@
     <?php foreach (['josh-finer',
                     'tom-zarebczan',
                     'brinck-slattery',
-                    'rob-smith',
-                    'james-biller'] as $bioSlug): ?>
+                    'rob-smith'] as $bioSlug): ?>
       <div class="spacer2">
         <?php echo View::render('content/_bio', ['person' => $bioSlug]) ?>
       </div>
