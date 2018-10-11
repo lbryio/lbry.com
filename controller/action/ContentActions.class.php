@@ -151,16 +151,6 @@ class ContentActions extends Actions
     ]];
     }
 
-    public static function executePress(string $slug = null): array
-    {
-        Response::enableHttpCache();
-        try {
-            $post = Post::load(static::SLUG_PRESS . '/' . ltrim($slug, '/'));
-        } catch (PostNotFoundException $e) {
-            return NavActions::execute404();
-        }
-        return ['content/press-post', ['post' => $post]];
-    }
 
     protected static function convertBountyAmount($amount)
     {
@@ -252,39 +242,22 @@ class ContentActions extends Actions
 
     public static function executePressKit(): array
     {
-        $zipFileName = 'lbry-press-kit-' . date('Y-m-d') . '.zip';
-        $zipPath     = tempnam('/tmp', $zipFileName);
-
-        $zip = new ZipArchive();
-        $zip->open($zipPath, ZipArchive::OVERWRITE);
-
-//    $pageHtml = View::render('page/press-kit', ['showHeader' => false]);
-//    $html = <<<EOD
-        //<!DOCTYPE html>
-        //<html>
-//    <head prefix="og: http://ogp.me/ns#">
-//        <title>LBRY Press Kit</title>
-//        <link href='https://fonts.googleapis.com/css?family=Raleway:300,300italic,400,400italic,700' rel='stylesheet' type='text/css'>
-//        <link href="https://lbry.io/css/all.css" rel="stylesheet" type="text/css" media="screen,print" />
-//    </head>
-//    <body>
-//      $pageHtml
-//    </body>
-        //</html>
-        //EOD;
+//        $zipFileName = 'lbry-press-kit-' . date('Y-m-d') . '.zip';
+//        $zipPath     = tempnam('/tmp', $zipFileName);
 //
-//    $zip->addFromString('press.html', $html);
-
-        foreach (glob(ROOT_DIR . '/web/img/press/*') as $productImgPath) {
-            $imgPathTokens = explode('/', $productImgPath);
-            $imgName       = $imgPathTokens[count($imgPathTokens) - 1];
-            $zip->addFile($productImgPath, 'logo_and_product/' . $imgName);
-        }
-
-        foreach (glob(ContentActions::CONTENT_DIR . '/bio/*.md') as $bioPath) {
-            list($metadata, $bioHtml) = View::parseMarkdown($bioPath);
-            $zip->addFile($bioPath, 'team_bios/' . $metadata['name'] . ' - ' . $metadata['role'] . '.txt');
-        }
+//        $zip = new ZipArchive();
+//        $zip->open($zipPath, ZipArchive::OVERWRITE);
+//
+//        foreach (glob(ROOT_DIR . '/web/img/press/*') as $productImgPath) {
+//            $imgPathTokens = explode('/', $productImgPath);
+//            $imgName       = $imgPathTokens[count($imgPathTokens) - 1];
+//            $zip->addFile($productImgPath, 'logo_and_product/' . $imgName);
+//        }
+//
+//        foreach (glob(ContentActions::CONTENT_DIR . '/bio/*.md') as $bioPath) {
+//            list($metadata, $bioHtml) = View::parseMarkdown($bioPath);
+//            $zip->addFile($bioPath, 'team_bios/' . $metadata['name'] . ' - ' . $metadata['role'] . '.txt');
+//        }
 
         /*
          * team bio images are no longer included in press kit now that they've moved to spee.ch
@@ -300,16 +273,16 @@ class ContentActions extends Actions
 //      $zip->addFile($bioImgPath, '/team_photos/' . $imgName);
 //    }
 
-
-        $zip->close();
-
-        Response::enableHttpCache();
-        Response::setDownloadHttpHeaders($zipFileName, 'application/zip', filesize($zipPath));
-
-        return ['internal/zip', [
-      '_no_layout' => true,
-      'zipPath'    => $zipPath
-    ]];
+//
+//        $zip->close();
+//
+//        Response::enableHttpCache();
+//        Response::setDownloadHttpHeaders($zipFileName, 'application/zip', filesize($zipPath));
+//
+//        return ['internal/zip', [
+//      '_no_layout' => true,
+//      'zipPath'    => $zipPath
+//    ]];
     }
 
     public static function prepareBioPartial(array $vars): array
