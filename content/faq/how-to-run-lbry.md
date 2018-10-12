@@ -1,6 +1,6 @@
 ---
 title: How do I run LBRY from the command line?
-category: setup
+category: powerusers
 ---
 This guide will allow you to run the LBRY daemon which connects to the LBRY network. You can run the daemon separately in this fashion without having to start the LBRY app. If the LBRY app is started, it will utilize the running daemon. 
 
