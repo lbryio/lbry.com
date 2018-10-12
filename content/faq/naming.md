@@ -1,7 +1,7 @@
 ﻿---
 title: How does LBRY naming work? Why don’t you just assign names the same way as internet domains?
 category: LBRY 101
-order: 5
+order: 4
 ---
 
 ### The Problem
