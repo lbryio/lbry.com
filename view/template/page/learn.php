@@ -34,6 +34,9 @@
           <a href="http://explorer.lbry.io" class="link-primary"><span class="fa fa-globe icon-fw"></span><span class="btn-label">Blockchain Explorer</span></a>
         </div>
         <div class="spacer1">
+          <a href="/roadmap" class="link-primary"><span class="icon-road icon-fw"></span><span class="btn-label">Roadmap</span></a>
+        </div>
+        <div class="spacer1">
           <a href="https://lbry.fund" class="link-primary"><span class="fas fa-hand-holding-usd icon-fw"></span><span class="btn-label">LBRY Community Fund</span></a>
         </div>
         <div class="spacer1">
