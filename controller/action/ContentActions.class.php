@@ -84,13 +84,12 @@ class ContentActions extends Actions
             $allCategories    = [
         'LBRY 101'   => 'Intro to LBRY',
         'getstarted' => 'Getting Started',
-        'setup'      => 'Installing and Running LBRY',
         'publisher'  => 'Publishers and Creators',
         'troubleshooting' => 'Help and Troubleshooting',
+        'powerusers'      => 'LBRY for Power Users',       
         'wallet'     => 'Wallet and Transactions',
         'tipbots'    => 'LBRY Tipbots',
         'mining'     => 'Mining LBC',
-        'developer'  => 'Developers',
         'differences' => 'What Makes LBRY Different?',
         'other'      => 'Other Questions',
       ] + Post::collectMetadata($allPosts, 'category');
