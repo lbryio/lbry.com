@@ -1,6 +1,6 @@
 ---
 title: How to change default daemon peer port?
-category: setup
+category: powerusers
 ---
 
 If you see the error message `couldn't bind to port 3333`, it is likely that another process is already bound to that port. You will need to change the port before starting the daemon. The port number should not matter as long as it is available and not blocked by your ISP.
