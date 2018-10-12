@@ -1,6 +1,6 @@
 ---
 title: Where are all the behind the scenes files?
-category: setup
+category: powerusers
 ---
 
 Depending on which OS and wallet you use, LBRY files may be stored in several places.
