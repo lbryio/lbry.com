@@ -1,4 +1,5 @@
 .home {
+  margin-bottom: 35rem;
 }
 
 
@@ -36,21 +37,22 @@
 }
 
 .home__hero__content {
-  color: $coco;
   margin-right: auto;
   margin-left: auto;
   max-width: 800px;
   position: relative;
   text-align: center;
-  text-shadow: 0 1px 1px rgba($onyx, 0.3);
   z-index: 2;
 
   h1 {
-    font-size: 3rem;
+    color: rgba($coco, .8);
+    font-size: 5rem;
     margin-bottom: 2rem;
+    font-weight: bold;
   }
 
   p {
+    color: $coco;
     font-size: 1.5rem;
     line-height: 1.33;
     margin-bottom: 2rem;
@@ -63,18 +65,14 @@
   position: relative;
 
   &.download {
-    border-radius: 3rem;
+    border-radius: 5px;
     padding: 0.75rem 1.25rem;
-    transition: all 0.2s;
-
-    &:not(:hover) {
-      background-color: $coco;
-      color: $onyx;
-    }
-
+    transition: all 0.2s ease;
+    background-color: rgba($onyx, .5);
+    color: $coco;
+   
     &:hover {
-      background-color: $original;
-      color: $coco;
+      transform: translateY(-2px);
     }
   }
 
@@ -109,22 +107,21 @@
 .home__hero__devices {
   width: 100%; height: 100%;
   bottom: 5rem; left: 0;
-
   position: absolute;
   z-index: 1;
 }
 
 .home__hero__device {
   &.desktop {
-    bottom: 0; right: calc(50% - (700px / 2));
-
-    position: absolute;
     width: 700px;
+    right: calc(50% - (700px / 2));
+    top: 120%;
+    position: absolute;
   }
 
   &.mobile {
-    bottom: 3rem; right: calc(75% - (125px / 2));
-
+    right: calc(75% - (125px / 2));
+    top: 135%;
     position: absolute;
     width: 125px;
   }
