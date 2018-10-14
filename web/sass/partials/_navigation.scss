@@ -131,19 +131,15 @@
   }
 
   &:last-of-type {
-    border-radius: 3rem;
+    border-radius: 5px;
     color: $coco;
     font-size: 0.8rem;
     padding: 0.65rem 1rem;
     transition: background-color 0.2s;
+    background-color: #130f40;
 
-    &:not(:hover) {
-      background-color: $onyx;
-    }
-
-    &:hover {
-      background-color: $original;
-    }
+    // &:not(:hover) {
+    // }
   }
 
   &.menu {
