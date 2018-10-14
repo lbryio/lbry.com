@@ -1,5 +1,5 @@
-<?php Response::setMetaDescription(__('description.meetup')) ?>
-<?php Response::setMetaTitle(__('title.meetup')) ?>
+<?php Response::setMetaDescription(__('Welcome to LBRY, LPU students.')) ?>
+<?php Response::setMetaTitle(__('LBRY Welcomes LPU')) ?>
 <?php echo View::render('nav/_header', ['isDark' => true, 'isAbsolute' => true]) ?>
 <main>
   <div class="cover cover-dark cover-center cover-full cover--dark-overlay" style="background-image: url(/img/table2.jpg)">
@@ -18,7 +18,7 @@
   <div class="cover cover-light" id="about">
     <div class="content content-light content-readable">
       <h3>LBRY is a free, open, and community-run digital marketplace.</h3>
-      <p>Please sign up to learn more about LBRY, get free LBC, and see how you can use and develop on the LBRy protocol.</p>
+      <p>Please sign up to learn more about LBRY, get free LBC, and see how you can use and develop on the LBRY protocol. You may download the LBRY app <a href="https://lbry.io/get">here.</a></p>
       <p>Enter your email below and we'll tell you more.</p>
       <?php echo View::render('mail/_subscribeForm', [
         'tag' => 'lpu',
