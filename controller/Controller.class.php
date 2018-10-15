@@ -90,8 +90,6 @@ class Controller
         $router->get('/quickstart/{step}?', 'DeveloperActions::executeQuickstart');
         $router->get('/quickstart/github/callback', 'DeveloperActions::executeQuickstartGithubCallback');
 
-        $router->get(['/press-kit.zip', 'press-kit'], 'ContentActions::executePressKit');
-
         $router->post('/postcommit', 'OpsActions::executePostCommit');
         $router->post('/log-upload', 'OpsActions::executeLogUpload');
         $router->get(static::CACHE_CLEAR_PATH, 'OpsActions::executeClearCache');
@@ -99,17 +97,17 @@ class Controller
         $router->any('/list/subscribe', 'MailActions::executeSubscribe');
         $router->any('/list/subscribed', 'MailActions::executeSubscribed');
         $router->get('/list/unsubscribe/{email}', 'MailActions::executeUnsubscribe');
-        $router->any('/list/edit/{token}','MailActions::editEmailSettings');
+        $router->any('/list/edit/{token}', 'MailActions::editEmailSettings');
 
         $router->any('/dmca', 'ReportActions::executeDmca');
 
-    $router->any('/youtube/sub', 'AcquisitionActions::executeYouTubeSub');
-    $router->post('/youtube/edit', 'AcquisitionActions::executeYoutubeEdit');
-    $router->post('/youtube/token', 'AcquisitionActions::executeYoutubeToken');
-    $router->any('/youtube/status/{token}', 'AcquisitionActions::executeYoutubeStatus');
-    $router->any('/youtube/status', 'AcquisitionActions::executeRedirectYoutube');
-    $router->any('/youtube', 'AcquisitionActions::executeYouTube');
-    $router->get('/youtube/{version}', 'AcquisitionActions::executeYouTube');
+        $router->any('/youtube/sub', 'AcquisitionActions::executeYouTubeSub');
+        $router->post('/youtube/edit', 'AcquisitionActions::executeYoutubeEdit');
+        $router->post('/youtube/token', 'AcquisitionActions::executeYoutubeToken');
+        $router->any('/youtube/status/{token}', 'AcquisitionActions::executeYoutubeStatus');
+        $router->any('/youtube/status', 'AcquisitionActions::executeRedirectYoutube');
+        $router->any('/youtube', 'AcquisitionActions::executeYouTube');
+        $router->get('/youtube/{version}', 'AcquisitionActions::executeYouTube');
 
         $router->get('/verify/{token}', 'AcquisitionActions::executeVerify');
 
