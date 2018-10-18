@@ -4,7 +4,7 @@ category: publisher
 order: 1
 ---
 
-LBRY is a free, open, and community-driven digital marketplace which enables content sharing, monetization, discovery and consumption. Publishing in LBRY is the process of sharing your content on the network. You set the price per view (can be free too) which is paid directly to you. This process involves making a "claim" in the LBRY blockchain which will be used to retrieve the content via a URL. Content can either be published anonymously or to a particular channel/identity which groups content in a single location. Both channels and claims require a deposit (bid) of LBRY Credits (LBC) in order to reserve their location on the LBRY network. This deposit will be deducted from your balance as long as the claim is active. See our [naming](https://lbry.io/faq/naming) and [transaction](https://lbry.io/faq/transaction-types) documentation for more information about claims, bids and transactions. 
+LBRY is a free, open, and community-driven digital marketplace that enables content sharing, monetization, discovery and consumption. Publishing in LBRY is the process of sharing your content on the network. You have the ability to set the price per view (can be free too) which is paid directly to you. This process involves making a "claim" in the LBRY blockchain which will be used to retrieve the content via a URL. Content can either be published anonymously or to a particular channel/identity which groups content in a single location. Both channels and claims require a deposit (bid) of LBRY Credits (LBC) in order to reserve their location on the LBRY network. This deposit will be deducted from your balance as long as the claim is active. See our [naming](https://lbry.io/faq/naming) and [transaction](https://lbry.io/faq/transaction-types) documentation for more information about claims, bids and transactions. 
 
 Want to get your content featured on the Discover page? Check out [Community top bids](https://lbry.io/faq/community-top-bid).
 
@@ -15,30 +15,30 @@ If you don't have LBRY yet, download it [here](https://lbry.io/get).
 1. Click the `Publish` button in the top right of the screen.
 ![Select Choose File](https://spee.ch/0/1-click-publish.jpeg)
 
-2. Under the `Content` section click `Choose File`.
+2. Under the `Content` section, click `Choose File`.
 ![Select the Content to Upload](https://spee.ch/5/choose-file-and-others.jpeg)
 
-3. On your local machine, select the content you wish to upload to LBRY.  LBRY accepts any HTML5 format for streaming video; the full list can be found [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats). This means a web-optimized MP4 is the best format. Other file types can also be uploaded, but won't be streamable via the LBRY app.
+3. On your local machine, select the content you wish to upload to LBRY. LBRY accepts any HTML5 format for video streaming; the full list can be found [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats). This means a web-optimized MP4 file is the best format. Other file types can also be uploaded, but won't be streamable via the LBRY app.
 
 4. Enter a `Title` and `Description` for your content.
 ![choose a file](https://spee.ch/2/311-choose-file-and-others.jpeg)
 
-5. Choose a `Thumbnail`or `Thumbnail URL` for your content. The `Thumbnail URL` is a hyperlink to an image file which will serve as a preview for your content. It can be any image/GIF URL, or you can use [spee.ch](https://www.spee.ch) to host it. The default size is 800x450, but the app will scale up/down. Images uploaded directly from your local machine as `Thumbnail` will be uploaded to [spee.ch](https://www.spee.ch).
+5. Choose a `Thumbnail`or `Thumbnail URL` for your content. The `Thumbnail URL` is a hyperlink to an image file which will serve as a preview for your content. It can be any image/GIF URL, or you can use [spee.ch](https://www.spee.ch) to host it. The default pixel size is 800x450, but the app will scale it up/down. Images uploaded directly from your local machine as `Thumbnail` will be uploaded to [spee.ch](https://www.spee.ch).
 ![Choose the Thumbnail Image](https://spee.ch/6/5thumbnail.jpeg)
 
-6. Please make sure to check the option for mature audiences if your `Thumbnail`is NSFW. Otherwise just click on Upload.
+6. Please make sure to check the option for mature audiences if your `Thumbnail`is categorized as NSFW (Not Safe For Work). Otherwise just click "Upload".
 ![Select the Content to Upload](https://spee.ch/6/4-thumbnail44.jpeg)
 
 7. Under the `Price`, first, determine if you want to make your content free or set a price (in USD or LBC) per view.
 ![Set Price](https://spee.ch/4/5-choose-a-price2.png)
 
-8. You have an option to select/create the channel you would like to publish the content under. If one isn't selected, it will be posted anonymously.
+8. You have the option to select/create the channel you would like to publish the content under. If one isn't selected, it will be posted anonymously.
 ![Select Channel or Anonymous](https://spee.ch/4/channel22.png)
 
-9. Type in the URL you want the content to be found under along with a minimum of 0.0001 LBC deposit for the upload (current limit, may change in the future). If you are trying to outbid a user-friendly/common URL, the system will suggest a minimum bid to take over the content at that vanity URL. There may be a delay for this takeover. Check out the `#content` channel on our [Discord chat](https://chat.lbry.io) to see this information (search for your URL). For more details regarding the URL or bid, check out our [naming document](https://lbry.io/faq/naming).
+9. Type in the URL you want the content to be found under, along with a minimum of 0.0001 LBC deposit for the upload (current limit, may change in the future). If you are trying to outbid a user-friendly/common URL, the system will suggest a minimum bid to take over the content at that vanity URL. There may be a delay for this takeover. Check out the `#content` channel on our [Discord chat](https://chat.lbry.io) to see this information (search for your URL). For more details regarding the URL or bid, check out our [naming document](https://lbry.io/faq/naming).
 ![Video URL and Deposit](https://spee.ch/e/8content-urlf.jpeg)
 
-10. Next, there are selections for `Maturity`, `Language`,  and `License.` The default values are set as follows: Maturity being unchecked, which means the content is safe for all audiences, Language is set to `English`, and the License is set to `None`.  If a change is needed, click the dropdowns and select the appropriate choice. Please check the `Mature audience only` option if content is NSFW.
+10. Next, there are selections for `Maturity`, `Language`,  and `License.` The default values are set as follows: Maturity being unchecked, which means the content is safe for all audiences, Language is set to `English`, and the License is set to `None`.  If a change is needed, click the dropdown menus and select the appropriate choice. Please check the `Mature audience only` option if your content is NSFW.
 ![publish](https://spee.ch/c/7-license-2-and-publish.jpeg)
 
 11. Read and agree to the terms of service.
@@ -46,7 +46,7 @@ If you don't have LBRY yet, download it [here](https://lbry.io/get).
 12. Click `Publish`.
 ![Click Publish](https://spee.ch/2/publish.jpeg)
 
-13. The file will process in the background and will be added to the LBRY Blockchain. Larger files will take longer to upload. Please leave LBRY running while your content is in the "pending confirmation" mode. Currently, this page will not automatically refresh. You can continue to use LBRY while the upload completes.
+13. The file will process in the background and will be added to the LBRY Blockchain. Larger files will take longer to upload depending on your network speed. Please leave LBRY running while your content is in the "pending confirmation" mode. Currently, this page will not automatically refresh. You can continue to use LBRY while the upload completes.
 
 
 
@@ -57,7 +57,7 @@ If you don't have LBRY yet, download it [here](https://lbry.io/get).
 2. Once the application loads, click the `Publish` button in the top right of the screen.
 ![Click the Publish Button](https://spee.ch/0/1-click-publish.jpeg)
 
-3. Select a source file and then in the `Channel Name` section click the dropdown and select `New Channel` and declare the name you would like for your channel. For more details on different channel types, see our write up on [naming](https://lbry.io/faq/naming).
+3. Select a source file and then in the `Channel Name` section, click on the dropdown menu and select `New Channel` and then declare the name you would like for your channel. For more details on different channel types, see our write up on [naming](https://lbry.io/faq/naming).
 ![Click the New Channel Dropdown](https://spee.ch/a/create-channel.jpeg)
 
 4. Once your name is selected, there is a `Deposit` section that is below numbered `3`. It requires a minimum bid of 0.0001 LBC (see more on deposits [here](https://lbry.io/faq/naming)). Please ensure that you have enough LBRY credits in your wallet to cover the bid amount.  There is also a small network fee associated with the creation of a channel. 
@@ -90,7 +90,7 @@ Click `Remove` numbered as `2`. If you abandoned your claim, you should see the 
 1. Click on My LBRY the left side of the LBRY app.
 ![My LBRY](https://spee.ch/7/Mylbry.jpeg)
 
-2. Click on the `Publishes` tab.
+2. Click on the `Publish` tab.
 
 3. Select the content you want to update.
 ![Content](https://spee.ch/c/contents.jpeg)
@@ -104,7 +104,7 @@ Click `Remove` numbered as `2`. If you abandoned your claim, you should see the 
 ![Agree Edit](https://spee.ch/b/agree.jpeg)
 
 ### Can someone tip me for my content? 
-Yes, check out LBRY how tipping in LBRY works by going [here](https://lbry.io/faq/tipping). 
+Yes, check out how tipping in LBRY works by going [here](https://lbry.io/faq/tipping). 
 
 ### Can I increase my bid amount?
 Yes, the claim can be edited to increase the bid amount.  Go into your published claim and click Edit. Then on the bid screen, enter your desired bid. Confirm everything else is correct and click Edit. An update will be created with your new LBC bid for this claim. 
@@ -115,11 +115,11 @@ Currently, this is only possible if you set a price for your content - you will 
 
 ### My video doesn't stream in the app, what's wrong?
 
-The in-app video player's streaming capabilities are limited to MP4 files which are web optimized (metadata is contained at the front of the file). If it's not web optimized, the MP4 will still play in the app, but the entire file will need to be downloaded first. AVI/WMV/MOV files are also not supported by the in-app player. They can be shared/downloaded but will need to be played externally. 
+The in-app video player's streaming capabilities are limited to MP4 files which are web-optimized (metadata is contained at the front of the file). If it's not web-optimized, the MP4 file will still play in the app, but the entire file will need to be downloaded first. AVI/WMV/MOV file formats are also not supported by the in-app player. They can be shared/downloaded but will need to be played externally. 
 
-### I shared my URL, but others can't download it. What's up? 
+### I shared my URL, but others can't download it. What's going on? 
 
-Since LBRY uses a Peer to Peer network, it may require that your PC is accessible through the internet. LBRY also runs servers to assist in content hosting, but this process may fail if your PC cannot send it to us. By default, the sharing port is set to 3333. If your network is properly configured and LBRY is running, a port status check on 3333 should pass on this [port checking tool](http://www.canyouseeme.org). If it fails, you can check if UPnP is enabled on your router or forward port 3333 manually. If you need assistance, check out the [help page](https://lbry.io/faq/how-to-report-bugs) on how to reach us.
+Since LBRY is a Peer-to-Peer network, it requires that your device is accessible to the internet. LBRY also runs servers to assist in content hosting, but this process may fail if your device cannot send it to us. By default, the TCP sharing port is set to 3333. If your network is properly configured and LBRY is running, a port status check on TCP Port 3333 should pass on this [port checking tool](http://www.canyouseeme.org). If it fails, you can check if UPnP is enabled on your router or forward TCP port 3333 manually. If you need assistance, check out the [help page](https://lbry.io/faq/how-to-report-bugs) on how to reach us.
 
 ### Where is my Channel and content saved locally?
 
