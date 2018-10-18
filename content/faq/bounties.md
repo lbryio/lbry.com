@@ -3,7 +3,7 @@ title: How does the Bounty Program work?
 category: other
 ---
 
-You can earn LBRY Credits for completing tasks as part of the LBRY Bounty Program.
+You can earn LBRY Credits (LBC) for completing tasks as part of the LBRY Bounty Program.
 
 ### What bounties are available?
 
@@ -15,12 +15,12 @@ To claim a bounty, please email [bounty@lbry.io](mailto:bounty@lbry.io). Please 
 
 ### How do I get compensated?
 
-People who complete bounties are awarded LBRY credits. These credits will be transferred to a wallet address of your choice and are yours with no restrictions to do as you like.
+People who complete bounties are rewarded LBRY credits (LBC). These credits will be transferred to an LBRY wallet address of your choice and is yours with no restrictions to do as you like.
 
-### I have questions about a specific bounty or want assistance in completing a bounty.
+### I have questions about a specific bounty or seek assistance in completing a bounty.
 
 The best place to get real-time help is our [Discord chat](https://chat.lbry.io). You can also email our bounty team [bounty@lbry.io](mailto:bounty@lbry.io).
 
 ### I want to complete a bounty that is not listed.
 
-Send an email to our bounty team at [bounty@lbry.io](mailto:bounty@lbry.io).
+Please send an email to our bounty team at [bounty@lbry.io](mailto:bounty@lbry.io).
