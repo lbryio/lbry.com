@@ -23,6 +23,7 @@
 /joinus: /join-us
 /lbry-linux-latest.deb: /get
 /lbry-osx-latest.dmg: /get
+/list: /list/subscribe
 /navframe?selectedItem=/news: /news
 /news/$1.2b-market-cap-we-dont-care: /news/1.2b-market-cap-we-dont-care
 /news/author/jeremy: /team
