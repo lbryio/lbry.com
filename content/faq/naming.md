@@ -8,11 +8,11 @@ order: 4
 
 Before talking about how names (URLs) in LBRY work, it's important to understand the problem. What is a naming system and why do we have one?
 
-Names exist so that we can map a human readable and understandable word or term to a more difficult to remember number or ID. In the traditional domain system, names map to numerical IP addresses. In LBRY, names map to a unique, permanent ID representing a piece of digital content and/or a publisher identity.
+Names exist so that we can map a human readable and understandable word or term to a more difficult to remember number or ID. In the traditional DNS (domain name system), names are mapped to a numerical IP address. In LBRY, names are mapped to a unique, permanent ID representing a piece of digital content and/or a publisher identity.
 
-Designing a naming system that works well and fairly assigns names is quite hard! Consider the domain system you are likely using to access this document. Notice that you are reading this page on lbry.io, rather than lbry.com. Is this because lbry.com is providing some productive service? No! It is because a squatter holds it, simply looking to extort money from those who would do something useful or creative.
+Designing a naming system that works well and fairly assigns names is quite hard! Consider the domain system you are likely using to access this document. Notice that you are reading this page on lbry.io, rather than lbry.com. Is it because lbry.com is providing some unique service? No! It is because a squatter is in possession of it, simply looking to auction the domain name to the highest bidder in demand.
 
-The traditional system has several other flaws. It is centralized and a mechanism of censorship, as holders do not have true ownership of their domain, only the top-level provider. Top-level domains (like .io) are also arbitrary and largely illogical (if designing the domain system again, would we really want to add an arbitrary ".com" to the most prestigious URL for a given keyword? does LBRY have anything to do with the *I*ndian *O*cean?). Finally, in addition to incentivizing bad behavior, the flat-fee structure of domains prevents the good behavior from those who are priced out.
+The traditional system has several other flaws. It is centralized and a mechanism of censorship, as holders do not have true ownership of their domain, only the top-level provider. Top-level domains (like .io) are also arbitrary and largely illogical (if designing the domain name system again, would we really want to add an arbitrary ".com" to the most prestigious URL for a given keyword? does LBRY have anything to do with the *I*ndian *O*cean?). Finally, in addition to incentivizing bad behavior, the flat-fee structure of domains prevents the good behavior from those who are priced out.
 
 We wanted a system that:
 
@@ -30,7 +30,7 @@ First and foremost **it is absolutely possible to own and control a URL forever*
 In LBRY, a URL entry is called a _claim_. For simplicity, a claim can be considered to consist of:
 
 - The name (a string of characters chosen by the creator)
-- A number of credits
+- The number of credits
 - Additional data related to the content and/or publisher identity
 
 Claims in LBRY are non-consumptive. When you designate a number of credits in a claim, nothing is lost or destroyed beyond the relatively minimal transaction fee. At any time, the credits allocated to a claim can be used for another purpose, recovered, or sent somewhere else. When this happens, the claim is no longer considered valid.
@@ -46,7 +46,7 @@ LBRY supports several types of URL resolution:
 
 ### Takeaways
 
-1. **Names aren’t bought, only reserved – no credits are lost, only put on deposit.** If you win the auction for a name, your credits are held with that name until you decide to withdraw them (at any time you wish). You aren’t buying the name from anyone, and no one profits off of the transfer of names. It’s just a test of who is willing to deposit the most credits toward a name. The only cost is that you can’t spend the credits on content or cash them out while they are reserving a name.
+1. **Names aren’t bought, only reserved – no credits are lost, only put on deposit.** If you win the auction for a name, your credits are held with that name until you decide to withdraw them (at any time you wish). You aren’t buying the name from anyone, and no one profits off of the transfer of names. It’s just a test of who is willing to deposit the most credits toward a name. The only downside is that you can’t spend the credits on content or withdraw them while they are in reserve.
 
 2. **The longer a community name is held, the longer it sticks.** Community-controlled URLs don't change instantly if more credits are designated – especially if you’ve held it for awhile. For every month a name is controlled, 1 day is added to the waiting period, for a maximum of 7 days (after 7 months). 
 
