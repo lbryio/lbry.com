@@ -15,7 +15,7 @@ To claim a bounty, please email [bounty@lbry.io](mailto:bounty@lbry.io). Please 
 
 ### How do I get compensated?
 
-People who complete bounties are rewarded LBRY credits (LBC). These credits will be transferred to an LBRY wallet address of your choice and is yours with no restrictions to do as you like.
+People who complete bounties are rewarded LBRY credits (LBC). These credits will be transferred to an LBRY wallet address of your choice and are yours, with no restrictions to do as you like.
 
 ### I have questions about a specific bounty or seek assistance in completing a bounty.
 
