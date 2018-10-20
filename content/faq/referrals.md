@@ -23,7 +23,7 @@ You will not receive rewards for each referral until those users join and use LB
 
 ### What is the criteria for a claimable referral?
 
-A claimable referral has the same definition as a Rewards eligible or Verified LBRY user. This means the referred user must have logged into the LBRY app and verified their account.  Users who've redeemed rewards prior to the LBRY Open Beta (on 8/1/2017) were automatically "grandfathered" as verified users. Post-LBRY Open Beta verification options can be seen [here](https://lbry.io/faq/identity-requirements). 
+A claimable referral has the same definition as a Rewards eligible or Verified LBRY user. This means the referred user must have logged into the LBRY app and verified their account.  Users who've redeemed rewards prior to the LBRY Open Beta (on 8/1/2017) were automatically "grandfathered" as verified users. The current verification options can be seen [here](https://lbry.io/faq/identity-requirements). 
 
 LBRY users who abuse either the Referral or Rewards system will not be eligible for referral redemption. If you have specific questions about individual referrals which are not claimable, please reach out to the [helpdesk](mailto:help@lbry.io) with details. 
 
