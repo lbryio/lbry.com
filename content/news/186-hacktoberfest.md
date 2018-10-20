@@ -63,6 +63,10 @@ Developing the LBRY Android App
 Akinwale Ariwodola - Lead Mobile Developer
 
 #### 10/19 - 10/20
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Kicking off Hackathon: Blockchain with <a href="https://twitter.com/LBRYio?ref_src=twsrc%5Etfw">@LBRYio</a> CEO Jeremy Kauffman and <a href="https://twitter.com/UNHCrypto?ref_src=twsrc%5Etfw">@UNHCrypto</a> at the <a href="https://twitter.com/hashtag/UNHECenter?src=hash&amp;ref_src=twsrc%5Etfw">#UNHECenter</a>! <a href="https://t.co/qOIeWcbh5P">pic.twitter.com/qOIeWcbh5P</a></p>&mdash; UNH ECenter (@UNHECenter) <a href="https://twitter.com/UNHECenter/status/1053395944279027717?ref_src=twsrc%5Etfw">October 19, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 University of New Hampshire Hackathon!
 
 #### 10/24
