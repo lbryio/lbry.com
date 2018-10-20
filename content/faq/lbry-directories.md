@@ -15,7 +15,7 @@ Depending on which OS and wallet you use, LBRY files may be stored in several pl
 
 ## MacOS
 
-- `~/Library/Application Support/LBRY` - LBRY application, daemon configuration,logs and encrypted blob files
+- `~/Library/Application Support/LBRY` - LBRY application, daemon configuration, logs and encrypted blob files
 - `~/.lbryum` - Wallet and blockchain data
 - `~/.lbrycrd` - Location for [lbrycrdd](https://lbry.io/faq/standalone-wallet) full blockchain data (separate install)
 

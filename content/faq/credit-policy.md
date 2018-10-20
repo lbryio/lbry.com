@@ -13,9 +13,9 @@ The initial 400m credits are broken down as follows:
 
 | Name | Amount | Purpose | Wallet (Initial) | Wallet (Current) |
 | ---- | ------ | ---------------- | -------- | -------- |
-| Community | 200m |  Reward early adopters, new users, and community contributions. | [link](https://explorer.lbry.io/address/rRmURzvpHTysU4xUSp9CXeosBTbYfKs7n5) | [link](https://explorer.lbry.io/address/rFLUohPG4tP3gZHYoyhvADCtrDMiaYb7Qd) |
+| Community | 200m | Rewards to early adopters, new users, and community contributions. | [link](https://explorer.lbry.io/address/rRmURzvpHTysU4xUSp9CXeosBTbYfKs7n5) | [link](https://explorer.lbry.io/address/rFLUohPG4tP3gZHYoyhvADCtrDMiaYb7Qd) |
 | Operational | 100m | To allow LBRY, Inc. to function and profit. | [link](https://explorer.lbry.io/address/rTZF9RvfkLJ6hwCwERwFd7dppRMeddKjpe) |[link](https://explorer.lbry.io/address/r9PGXsejVJb9ZfMf3QVdDEJCzxkd9JLxzL) |
-| Institutional | 100m |  For strategic partnerships or assistance with charities, non-profits, or other institutions. | [link](https://explorer.lbry.io/address/rVRMmGLZenVXpT1NwYMGcnwFc642kEgWTV) | [link](https://explorer.lbry.io/address/r9srwX7DEN7Mex3a8oR1mKSqQmLBizoJvi) |
+| Institutional | 100m | For strategic partnerships or assistance with charities, non-profits, or other institutions. | [link](https://explorer.lbry.io/address/rVRMmGLZenVXpT1NwYMGcnwFc642kEgWTV) | [link](https://explorer.lbry.io/address/r9srwX7DEN7Mex3a8oR1mKSqQmLBizoJvi) |
 
 ## Quarterly Reports
 
@@ -42,7 +42,7 @@ The Operational Fund is 100m LBC reserved for LBRY, Inc. itself.
 
 LBRY, Inc. reserves the rights to do whatever it wants with these credits at any time, to be deployed in the best interests of LBRY, Inc.
 
-However, no one believes in the LBRY protocol more or has more incentive for its success, than LBRY, Inc. We believe LBRY can be a world-altering technology and as such our intentions are to minimize the expenditure of these credits until we've achieved that reality.
+However, no one believes in the LBRY protocol more or has more incentive for its success, than LBRY, Inc. We believe LBRY can be a world-altering technology and as such, our intentions are to minimize the expenditure of these credits until we've achieved that goal.
 
 Minimal engagement in the market is especially necessary throughout stages of low liquidity when any action has a disproportionate impact.
 
@@ -54,7 +54,7 @@ The Institutional Fund is 100m LBC reserved for the formation of institutional p
 
 Sample usages of this fund include:
 
-- Loaning or giving to non-profit or educational publishers to maintain a namespace or make content available
+- Loaning or donating to non-profit or educational publishers to maintain a namespace or make content available
 - Partnering with charities or other non-governmental organizations with similar interests to LBRY
 - Granting to organizations in need
 - Establishing separate entities related to LBRY Inc. (e.g. a non-profit to manage the protocol)

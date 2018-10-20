@@ -7,13 +7,13 @@ category: other
 
 LBRY controls [millions of credits](https://lbry.io/faq/credit-policy) that it wants to get into the hands of content creators and content consumers.
 
-Unfortunately, when running a rewards program, people will abuse it.
+Unfortunately, when running a rewards program, people may abuse it.
 
-This and only this is the reason we require a credit card to participate in the [rewards](https://lbry.io/faq/rewards) program. We wish we could tell you were a real person without this step, but no other solution we've tried thus far has worked well. This is the fastest and easiest method to verify your identity, otherwise, please see below. 
+This and only this, is the reason we require a credit card to participate in the [rewards](https://lbry.io/faq/rewards) program. We wish we could tell you were a real person without this step, but no other solution we've tried thus far has worked well. This is the fastest and easiest method to verify your identity, otherwise, please see below.
 
 **To be clear, no money will be charged to your card now or ever.** There is no fine print, and there is no trick.
 
-(*Some providers may see a $1 charge appear temporarily. This is only an authorization, no actual money will ever be charged.*)
+(*Some providers may see a $1 charge appear temporarily. This is only an authorization hold, no actual money will ever be charged or posted to your card.*)
 
 Your card information is submitted directly to [Stripe](https://stripe.com), one of the largest credit card processors in the world.
 

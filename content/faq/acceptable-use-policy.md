@@ -3,7 +3,7 @@ title: Acceptable Use Policy
 category: other
 ---
 
-If you've read [Art in the Internet Age,](https://lbry.io/what) you know that LBRY believes we are in a post-scarcity age in terms of the reproduction of content. There are two things that are still scarce; good quality content, and good reputations. We take respecting the rights of creators very seriously, and we expect the same when it comes to our good name. Here is how we go about protecting that.
+If you've read [Art in the Internet Age,](https://lbry.io/what) you know that LBRY believes we are in a post-scarcity age in terms of the reproduction of content. There are two things that are still scarce; good quality content, and good reputations. We take respecting the rights of creators very seriously, and we expect the same when it comes to our brand name. Here is how we go about protecting that.
 
 Our trademarks include our name, LBRY, and our official logo, which are owned by LBRY, Inc, a Delaware Corporation. We encourage the use of LBRY's trademarked name and official logo while maintaining control of them in order to thwart vandalism, theft, and any future misconduct that offends the collective sensibility of LBRY users creates legal hazards or otherwise inhibits the free expression and open transactions we prize.
 
@@ -15,13 +15,13 @@ Our trademarks include our name, LBRY, and our official logo, which are owned by
 
 ### Obtain Your License
 
-If you are producing video or other content for LBRY, if you've downloaded our client, you've got a license to use the LBRY name and official logo on your blog or website where you promote your work. That's all there is to it, just stick to the fair use rules if you're sampling or otherwise using copyright content from somewhere else.
+If you are producing video or other content for LBRY or if you've downloaded our client, you've got a license to use the LBRY name and official logo on your blog or website where you promote your work. That's all there is to it, just stick to the fair use rules if you're sampling or otherwise using copyright content from somewhere else.
 
 If you are a developer, you will need to complete the verification process before you use the LBRY name and official logo to promote your service or site. The creation of fraudulent sites that appear official is a common problem for blockchain projects. This happened to LBRY early in its history, and this process exists to reduce the potential for another such event.
 
 ### Examples Of Acceptable Uses
 
-   * Create brand new content. Entertain, educate, get famous, or change the world.
+   * Create brand new content. Entertain, educate, become famous, or change the world.
    * Build a service based on LBRY. Help make the internet a better, freer place!
    * Staying within the bounds of Fair Use, sample, derive, criticize, or otherwise use someone else's copyright work to make something new.
 
@@ -29,7 +29,7 @@ If you are a developer, you will need to complete the verification process befor
 
    * Creating any service that uses LBRY and presenting it as an official product, such as an online wallet.
    * Presenting yourself or implying that you are a representative or agent of LBRY, Inc.
-   * Using LBRY in the title or name of your business in a way that could be construed as being a product of LBRY, Inc. 
+   * Using LBRY in the title or name of your business in a way that could be construed as being a product of LBRY, Inc.
    * Uploading someone else's copyrighted work without their permission, either for free or attempting to profit.
    * Uploading content that is itself a crime.
 

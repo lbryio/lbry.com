@@ -16,4 +16,4 @@ Participants in this program will:
 - Receive additional credits to share with their group
 - Communicate regularly with LBRY team members
 
-This bounty is not open to anyone. Please contact [Jeremy](mailto:jeremy@lbry.io) and let him know what community you would like to introduce LBRY to.
+This bounty is not open to just anyone. Please contact [Jeremy](mailto:jeremy@lbry.io) and let him know what community you would like to introduce LBRY to.
