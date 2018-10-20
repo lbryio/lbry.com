@@ -10,7 +10,7 @@ Another common cause of this issue is the lack of access to UDP port 4444. LBRY 
 
 ### How to manually set the DHT (Content Network) port
 
-1. Shutdown LBRY and lbrynet-daemon (check running processes on Task Manager.)
+1. Shutdown LBRY and lbrynet-daemon (check running processes using Task Manager on Windows or Activity Monitor on Mac OS.)
 2. Go to your [lbrynet folder](https://lbry.io/faq/lbry-directories).
 3. If you have a `daemon_settings.yml` file, add this line to it at the end (44444 is an example, can be changed): `dht_node_port: 44444`.
 4. If you don't have the `daemon_settings.yml` file, you can create one or download/copy [this sample](https://goo.gl/a5uJq5) into the `lbrynet` folder.
