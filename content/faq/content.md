@@ -7,7 +7,8 @@ This guide provides answers to questions regarding what you may upload to the LB
 
 ### What content can I legally upload to LBRY?
 
-You may upload content you created or own that does not infringe on the rights of others, is not illegal, or other content you have permission to upload. This includes Public Domain content, Creative Commons or Open Source content shared according to the license requirements, and Copyrighted content where you have permission from the owner.
+You may upload legal content that you own or have obtained permission to use, as long as it does not infringe on the rights of others.
+This includes Public Domain content, Creative Commons or Open Source content shared according to the license requirements, and Copyrighted content where you have permission from the owner.
 
 ### Because LBRY is decentralized, doesn't this mean the content can’t be removed?
 
