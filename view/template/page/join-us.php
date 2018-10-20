@@ -74,7 +74,7 @@
 
       <h2 id="applying">Hiring Process</h2>
       <p>
-        Click "Apply" next to any job listed above to begin the process. We use a 3-step hiring process:
+        Click "Apply" below any job listed above to begin the process. We use a 3-step hiring process:
       </p>
       <ol>
         <li>A brief (30 minute max), non-technical, introductory phone call with either the CEO, CTO, or appropriate lead.</li>
