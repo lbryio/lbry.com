@@ -12,19 +12,19 @@
   <div class="content content-readable">
     <section>
       <h2 id="introduction">Introduction</h2>
-      <p>In 34,000 B.C., there were cave paintings. And that’s it. When you came home from a sweltering August day of foraging along the Vézère river, the only form of non-live art or entertainment available was something like the above buffalo.</p>
+      <p>In 34,000 B.C., there were cave paintings, and that’s it. When you came home from a sweltering August day of foraging along the Vézère river, the only form of non-live art or entertainment available was something like the above buffalo.</p>
 
-      <p>Today, we live in a world of near infinite choices. This is true not just for art but for all kinds of things (like potato chips). Since the era of cave art, humanity has incessantly and progressively trended towards interconnected, more efficient, and increasingly transparent markets. This undercurrent of connectedness and openness has affected everything human beings produce.</p>
+      <p>Today, we live in a world of near infinite choices. This is true not just for art, but for all kinds of things (like potato chips). Since the era of cave art, humanity has incessantly and progressively trended towards interconnected, more efficient, and increasingly transparent markets. This undercurrent of connectedness and openness has affected everything human beings produce.</p>
 
       <p>Nerds like us like to speculate about the end-game of this trend with others on the internet. What will society be like when we have a "Star Trek"-like capacity to instantly and freely replicate anything that exists? The term for this society is <em>post-scarcity</em><sup><a href="#note-post-scarcity" class="link-primary" >1</a></sup>.</p>
 
-      <p>Generally, post-scarcity is regarded as fantastical; something that will never happen in our lifetimes. Except for one area: digital goods.</p>
+      <p>Generally, post-scarcity is regarded as fantastical; something that will never happen in our lifetime. Except for one area: digital goods.</p>
 
-      <p>Art in the internet age is infinitely reproducible and easily shared. This is a sea change from any prior time in history. Previously, vinyl records captured audio in physical grooves; tapes captured data on magnetic strips; compact disks held digital files read by lasers—in each of these cases physical, medium-specific hardware is required to both produce and recover the bits of data that made up the digital content. </p>
+      <p>Art in the internet age is infinitely reproducible and easily shared. This is a sea change from any prior time in history. Previously, vinyl records captured audio in physical grooves; tapes captured data on magnetic strips; compact disks held digital files read by lasers — in each of these cases physical, medium-specific hardware is required to both produce and recover the bits of data that made up the digital content. </p>
 
       <p>Today art is just data, a string of 1s and 0s, a <em>number</em>, and we no longer need any specialized hardware to decode and enjoy digital content. We use the same technological methods to access a personal photograph a single time as we do to watch a blockbuster on Netflix.</p>
 
-      <p>This is a big step forward from the past. As production costs fall to zero, choices go up. Digital distributors provide virtually every song, film, photo or book for purchase and download to any internet enabled device. Technology has decreased the cost of production, too -- it has never been easier for aspirant artists to achieve a following through self-publishing.</p>
+      <p>This is a big step forward from the past. As production costs fall to zero, choices go up. Digital distributors provide virtually every song, film, photo or book for purchase and download to any internet enabled device. Technology has decreased the cost of production, too - it has never been easier for aspirant artists to achieve a following through self-publishing.</p>
 
       <p>The digitization of art has added a lot of value to both content creators and consumers, reducing costs and increasing choice. This transition is still in its infancy. With LBRY, we’re going to make it a little more mature.</p>
       <footer id="note-post-scarcity"><sup>1</sup> Note that post-scarcity does not eliminate the need to create <em>new</em> goods, it just eliminates or reduces the costs of <em>duplicating</em> goods to nothing. As long as people desire goods that did not previously exist, there will always be a market demand for creation, even in a post-scarcity world.</footer>
@@ -37,7 +37,7 @@
       <div class="text-center meta spacer1">
         <img src="https://spee.ch/7/home-demo.gif"/>
         <div class="content-inset">
-          A user searches for and prepares to stream the film <em>It’s a Wonderful Life</em>, located at <a href="lbry://wonderfullife">lbry://wonderfullife</a>, via a completely decentralized network. Try it out for yourself at <a class="link-primary" href="/get">lbry.io/get</a>.
+          A user searches for and prepares to stream the film <em>Rhapsody</em>, located at <a href="lbry://rhapsody-film#e1029aaa08bef8e9225efcbfb94a895e9bbdc8ea">lbry://rhapsody-film#e1029aaa08bef8e9225efcbfb94a895e9bbdc8ea</a>, via a completely decentralized network. Try it out for yourself at <a class="link-primary" href="/get">lbry.io/get</a>.
         </div>
       </div>
 
@@ -46,7 +46,7 @@
       <p>LBRY differs from the status quo in three big ways:</p>
 
       <ol>
-        <li><strong>Coupled payment and access</strong>. If desired, the person who publishes to <a href="lbry://wonderfullife">lbry://wonderfullife</a> can charge a fee to users that view the content. </li>
+        <li><strong>Coupled payment and access</strong>. If desired, the person who publishes to <a href="lbry://rhapsody-film#e1029aaa08bef8e9225efcbfb94a895e9bbdc8ea">lbry://rhapsody-film#e1029aaa08bef8e9225efcbfb94a895e9bbdc8ea</a> can charge a fee to users that view the content. </li>
         <li><strong>Decentralized and distributed</strong>. Content published to LBRY is not specific to one computer or network, making LBRY robust to failure and disruption.</li>
         <li><strong>Community controlled</strong>. No party other than the publisher (including us) can unilaterally remove or block content on the LBRY network.<sup><a class="link-primary" href="#note-community-controlled">2</a></sup></li>
       </ol>
@@ -90,7 +90,7 @@
       <h4>Part A: The LBRY Blockchain</h4>
       <p>A <em>blockchain</em>, or <em>distributed ledger</em> is the key innovation behind the Bitcoin network. Blockchains solved the very complicated technological problem of having a bunch of distributed, disparate entities all agree on a rivalrous state of affairs (like how much money they owe each other).</p>
 
-      <p>Like Bitcoin, the LBRY blockchain maintains balances -- in this case, balances of <em>LBC</em>, LBRY’s unit of credit. More importantly, the LBRY blockchain also provides a decentralized lookup and metadata storage system. The LBRY blockchain supports a specific set of commands that allows anyone to bid (in LBC) to control a LBRY <em>name</em>, which is a lot like a domain name. Whoever controls a name gets to describe what it contains, what it costs to access, who to pay, and where to find it. These names are sold in a continuous running auction. We will talk more about this system a little later on.</p>
+      <p>Like Bitcoin, the LBRY blockchain maintains balances -- in this case, balances of <em>LBC</em>, LBRY’s cryptocurrency and unit of credit. More importantly, the LBRY blockchain also provides a decentralized lookup and metadata storage system. The LBRY blockchain supports a specific set of commands that allows anyone to bid (in LBC) to control a LBRY <em>name</em>, which is a lot like a domain name. Whoever controls a name gets to describe what it contains, what it costs to access, who to pay, and where to find it. These names are sold in a continuous running auction. We will talk more about this system a little later on.</p>
 
       <p>If you’re a programmer, you might recognize the LBRY blockchain as a <em>key-value store</em>. Each key, or name, corresponds to a value, or a metadata entry. Whichever party (or parties) bids the most LBC, gets to control the metadata returned by a key lookup.</p>
 
@@ -238,7 +238,7 @@
     <h4>Part A: The LBRY Blockchain</h4>
     <p>A <em>blockchain</em>, or <em>distributed ledger</em> is the key innovation behind the Bitcoin network. Blockchains solved the very complicated technological problem of having a bunch of distributed, disparate entities all agree on a rivalrous state of affairs (like how much money they owe each other).</p>
 
-    <p>Like Bitcoin, the LBRY blockchain maintain balances -- in this case, balances of <em>LBC</em>, LBRY’s unit of credit. More importantly, the LBRY blockchain also provides a decentralized lookup and metadata storage system. The LBRY blockchain supports a specific set of commands that allows anyone to bid (in LBC) to control a LBRY <em>name</em>, which is a lot like a domain name. Whoever controls a name gets to describe what it contains, what it costs to access, who to pay, and where to find it. These names are sold in a continuous running auction. We will talk more about this system a little later on.</p>
+    <p>Like Bitcoin, the LBRY blockchain maintain balances -- in this case, balances of <em>LBC</em>, LBRY’s cryptocurrency and unit of credit. More importantly, the LBRY blockchain also provides a decentralized lookup and metadata storage system. The LBRY blockchain supports a specific set of commands that allows anyone to bid (in LBC) to control a LBRY <em>name</em>, which is a lot like a domain name. Whoever controls a name gets to describe what it contains, what it costs to access, who to pay, and where to find it. These names are sold in a continuous running auction. We will talk more about this system a little later on.</p>
 
     <p>If you’re a programmer, you might recognize the LBRY blockchain as a <em>key-value store</em>. Each key, or name, corresponds to a value, or a metadata entry. Whichever party or parties bid the most LBC gets to control the metadata returned by a key lookup.</p>
 
