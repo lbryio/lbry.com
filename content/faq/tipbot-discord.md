@@ -20,17 +20,17 @@ This displays a list of tip commands and how to use them.
 ![Tips](https://spee.ch/0/update-screenshot.jpeg)
 
 ### Balance
-Displays the balance of your Discord LBRY wallet.   
+Displays the balance of your Discord LBC wallet.   
 **Example:**   
 `!tip balance`
 
 ### Deposit
-Displays your Discord LBRY wallet address. Useful if you want to receive LBCs directly to your Discord wallet.
+Displays your Discord LBC wallet address. Useful if you want to receive LBCs directly to your Discord wallet.
 **Example:**  
 `!tip deposit`
 
 ### Withdraw
-Use this to withdraw a chosen amount from your LBRY Discord wallet to another LBRY wallet such as the wallet in your LBRY app, Coinomi or to an LBRY wallet on an exchange.  
+Use this to withdraw a chosen amount from your LBC Discord wallet to another LBC wallet such as the wallet in your LBRY app, Coinomi or to an LBC wallet on an exchange.  
 **Arguments:**   
 `!tip withdraw <address> <amount>`  
 **Example:**  
