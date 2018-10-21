@@ -20,7 +20,7 @@ The goals of this article is to look at verifiable data instead of speculating a
 
 ## Effects on Hashrate
 
-First, let’s look at Monero’s hash rate before and after the hard fork. In the below graph, you can see the hashrate for Monero in green. The black line is the hashrate for the the various alt-coin splinter projects that took over Monero’s old chain after the hard fork (from henceforth called Monero Original)*. 
+First, let’s look at Monero’s hash rate before and after the hard fork. In the below graph, you can see the hashrate for Monero in green. The black line is the hashrate for the various alt-coin splinter projects that took over Monero’s old chain after the hard fork (from henceforth called Monero Original)*. 
 
 *Note that according to GPU miners that I’ve talked to, the pre-fork and post-fork Monero POW algorithm is equivalent in computational difficulty thus the hash rate before and after the fork should be comparable.  
 
