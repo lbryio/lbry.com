@@ -27,9 +27,12 @@ However, you don’t need to wait! Our [contributor guide](https://lbry.tech/con
 ### The Rewards
 
 In addition to being more generous with LBC rewards this month, we’re offering the following:
-* 500 LBC for anyone who submits an accepted PR, regardless of whether you’ve submitted one before. This is separate from normal rewards for difficulty/effort/value.
+* 500 LBC for anyone who submits their first accepted PR in October, regardless of whether you’ve submitted one before. This is separate from normal rewards for difficulty/effort/value.
 * A sweet T-shirt for anyone who submits 3 PRs.
 * A Lamborghini Aventador S for anyone who submits 800,000 accepted PRs.
+
+*Note: Typically these include actual coding PRs (Hacktoberfest), not text edits. Exceptions will be made for early contributes.*
+
 
 ### The Schedule
 
