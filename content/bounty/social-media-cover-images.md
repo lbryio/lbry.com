@@ -13,5 +13,5 @@ The current background images on our [Twitter](https://twitter.com/lbryio) and [
 Candidate replacements could be either a photo or a graphic design. Either way, the image should:
 
 - Connote what LBRY is about: openness and fun
-- Be unique to LBRY or otherwise not in significant use
+- Be unique to LBRY or otherwise not be in significant use
 - Suitable for white or LBRY green (#155B4A) text on top

@@ -20,4 +20,4 @@ sources: {
 }
 ```
 
-The `sources` field is designed to be extended and support resolution to multiple protocols. To complete this the LBRY daemon must be modified to read `http` as a source key and use this key to access the data via HTTP (or HTTPS) when present,
+The `sources` field is designed to be extended and support resolution to multiple protocols. To complete this the LBRY daemon must be modified to read `http` as a source key and use this key to access the data via HTTP (or HTTPS) when present.
