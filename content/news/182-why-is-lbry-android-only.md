@@ -14,7 +14,7 @@ We believe information should be freely accessible by everyone. We want everyone
 
 We want you to be able to do it how you prefer to - and that is overwhelmingly on mobile devices.
 
-A big piece of executing on this mission is through building software that is open source. We deploy the LBRY software on [Github](https://github.com/lbryio) publicly, the LBRY website code can be seen (and changes made) by you on [Github](https://github.com/lbryio/lbry.io), and we are happy to have the best user community the internet has ever seen!
+A big piece of executing on this mission is through building software that is open source. We deploy the LBRY software on [GitHub](https://github.com/lbryio) publicly, the LBRY website code can be seen (and changes made) by you on [GitHub](https://github.com/lbryio/lbry.io), and we are happy to have the best user community the internet has ever seen!
 
 Which is all a long winded way of saying we specifically chose Android because it is inherently more open in nature. Go crack your Android phone, its fine. You probably already have. Why wouldn't you? It is your phone. You own it.
 

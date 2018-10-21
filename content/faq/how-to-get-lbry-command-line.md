@@ -3,7 +3,7 @@ title: How do I get LBRY for development?
 category: powerusers
 ---
 
-The LBRY project sources are hosted on [Github](https://github.com/lbryio).
+The LBRY project sources are hosted on [GitHub](https://github.com/lbryio).
 
 To install LBRY from source, you'll need the [lbry](https://github.com/lbryio/lbry) repository for the LBRY SDK and [lbry-desktop](https://github.com/lbryio/lbry-desktop) repository for the Desktop application. Further documentation is available in the respective repositories' READMEs and contributing documentation. 
 
