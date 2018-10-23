@@ -858,7 +858,7 @@ class S3
 	{
 		$rest = new S3Request('PUT', $bucket, '', self::$endpoint);
 
-		if( empty($bucket) || empty($location) ) {
+		if (empty($bucket) || empty($location)) {
 			self::__triggerError("S3::setBucketRedirect({$bucket}, {$location}): Empty parameter.", __FILE__, __LINE__);
 			return false;
 		}
@@ -876,10 +876,10 @@ class S3
 		$rest->setHeader('Content-Type', 'application/xml');
 		$rest = $rest->getResponse();
 
-		if ($rest->error === false && $rest->code !== 200)
-			$rest->error = array('code' => $rest->code, 'message' => 'Unexpected HTTP status');
-		if ($rest->error !== false)
-		{
+		if ($rest->error === false && $rest->code !== 200) {
+		    $rest->error = array('code' => $rest->code, 'message' => 'Unexpected HTTP status');
+		}
+		if ($rest->error !== false) {
 			self::__triggerError(sprintf("S3::setBucketRedirect({$bucket}, {$location}): [%s] %s",
 			$rest->error['code'], $rest->error['message']), __FILE__, __LINE__);
 			return false;

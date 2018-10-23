@@ -35,7 +35,7 @@ class OpsActions extends Actions
             }
 
             $rawPost = file_get_contents('php://input');
-            $secret  = Config::get(Config::GITHUB_KEY);
+            $secret = Config::get(Config::GITHUB_KEY);
             if ($hash !== hash_hmac($algo, $rawPost, $secret)) {
                 return NavActions::execute400(['error' => 'Hash does not match.']);
             }
