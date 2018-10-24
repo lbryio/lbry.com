@@ -75,6 +75,8 @@ University of New Hampshire Hackathon!
 #### 10/24
 Developing the LBRY Blockchain
 
+<video width="100%" controls poster="https://spee.ch/bb19de2e4d52699541f59b5a0c9f8284c65859cd/Un9H5xmnkKDDjk7yFYZ04Uv7.png" src="https://spee.ch/5803b66dca7707584b36fe6b644f278fc39d1adf/intro-to-LBRYcrd.mp4"/></video>
+
 Brannon King - LBRY Blockchain Team
 
 If you haven’t yet downloaded the [LBRY app](https://lbry.io/get) and [LBRY for Android](https://play.google.com/store/apps/details?id=io.lbry.browser&ah=IM6eaiKc3weXB9nBHq2zxUrx8F8), what are you waiting for? Get in touch if you have any questions - we’re look forward to spending some time with our developer community this month!
