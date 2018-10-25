@@ -70,7 +70,7 @@ class Session
 
     protected static function initFlashes()
     {
-        foreach (static::getNamespace(static::NAMESPACE_FLASH) as $key => $val) {
+        foreach (static::getNamespace(static::NAMESPACE_FLASH) as $key) {
             static::set($key, true, static::NAMESPACE_FLASH_REMOVE);
         }
 
