@@ -7,7 +7,7 @@ class DeveloperActions extends Actions
 
     public static function executeQuickstart(string $step = null)
     {
-        $stepLabels  = [
+        $stepLabels = [
       ''        => 'Home',
       'install' => 'Installation',
       'api'     => 'The API',

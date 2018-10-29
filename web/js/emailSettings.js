@@ -5,7 +5,7 @@ lbry.emailSettingsForm = function (formSelector, tags, userAuthToken) {
         tagSection = form.find('.tag-section'),
         tagMap = new Map();
 
-    $.each(tags, function(tag, enabled){
+    $.each(tags, function(tag, enabled) {
         tagMap[tag] = enabled;
     });
 
@@ -14,7 +14,7 @@ lbry.emailSettingsForm = function (formSelector, tags, userAuthToken) {
 
     function submitEmail(e) {
         var element = e.target,
-            url = 'https://api.lbry.io/user/email/edit?auth_token=' + userAuthToken
+            url = 'https://api.lbry.io/user_email/edit?auth_token=' + userAuthToken
                     + "&email=" + element.value + "&enabled=" + element.checked.toString();
 
         emailSection.find('.notice').hide();
@@ -30,7 +30,7 @@ lbry.emailSettingsForm = function (formSelector, tags, userAuthToken) {
 
     function submitTags() {
         tagSection.find('.notice').hide();
-        var url = 'https://api.lbry.io/user/tag/edit?auth_token=' + userAuthToken,
+        var url = 'https://api.lbry.io/user_tag/edit?auth_token=' + userAuthToken,
             addTags = [],
             removeTags = [];
 

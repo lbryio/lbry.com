@@ -27,9 +27,12 @@ However, you don’t need to wait! Our [contributor guide](https://lbry.tech/con
 ### The Rewards
 
 In addition to being more generous with LBC rewards this month, we’re offering the following:
-* 500 LBC for anyone who submits an accepted PR, regardless of whether you’ve submitted one before. This is separate from normal rewards for difficulty/effort/value.
+* 500 LBC for anyone who submits their first accepted PR in October, regardless of whether you’ve submitted one before. This is separate from normal rewards for difficulty/effort/value.
 * A sweet T-shirt for anyone who submits 3 PRs.
 * A Lamborghini Aventador S for anyone who submits 800,000 accepted PRs.
+
+*Note: Typically these include actual coding PRs (Hacktoberfest), not text edits. Exceptions will be made for early contributes.*
+
 
 ### The Schedule
 
@@ -63,10 +66,16 @@ Developing the LBRY Android App
 Akinwale Ariwodola - Lead Mobile Developer
 
 #### 10/19 - 10/20
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Kicking off Hackathon: Blockchain with <a href="https://twitter.com/LBRYio?ref_src=twsrc%5Etfw">@LBRYio</a> CEO Jeremy Kauffman and <a href="https://twitter.com/UNHCrypto?ref_src=twsrc%5Etfw">@UNHCrypto</a> at the <a href="https://twitter.com/hashtag/UNHECenter?src=hash&amp;ref_src=twsrc%5Etfw">#UNHECenter</a>! <a href="https://t.co/qOIeWcbh5P">pic.twitter.com/qOIeWcbh5P</a></p>&mdash; UNH ECenter (@UNHECenter) <a href="https://twitter.com/UNHECenter/status/1053395944279027717?ref_src=twsrc%5Etfw">October 19, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 University of New Hampshire Hackathon!
 
 #### 10/24
 Developing the LBRY Blockchain
+
+<video width="100%" controls poster="https://spee.ch/bb19de2e4d52699541f59b5a0c9f8284c65859cd/Un9H5xmnkKDDjk7yFYZ04Uv7.png" src="https://spee.ch/5803b66dca7707584b36fe6b644f278fc39d1adf/intro-to-LBRYcrd.mp4"/></video>
 
 Brannon King - LBRY Blockchain Team
 

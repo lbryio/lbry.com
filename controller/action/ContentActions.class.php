@@ -81,7 +81,7 @@ class ContentActions extends Actions
         if (!$slug) {
             $allPosts = Post::find(static::VIEW_FOLDER_FAQ, Post::SORT_ORD_ASC);
 
-            $allCategories    = [
+            $allCategories = [
         'LBRY 101'   => 'Intro to LBRY',
         'getstarted' => 'Getting Started',
         'publisher'  => 'Publishers and Creators',

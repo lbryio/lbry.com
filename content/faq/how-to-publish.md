@@ -38,7 +38,8 @@ If you don't have LBRY yet, download it [here](https://lbry.io/get).
 9. Type in the URL you want the content to be found under, along with a minimum of 0.0001 LBC deposit for the upload (current limit, may change in the future). If you are trying to outbid a user-friendly/common URL, the system will suggest a minimum bid to take over the content at that vanity URL. There may be a delay for this takeover. Check out the `#content` channel on our [Discord chat](https://chat.lbry.io) to see this information (search for your URL). For more details regarding the URL or bid, check out our [naming document](https://lbry.io/faq/naming).
 ![Video URL and Deposit](https://spee.ch/e/8content-urlf.jpeg)
 
-10. Next, there are selections for `Maturity`, `Language`,  and `License.` The default values are set as follows: Maturity being unchecked, which means the content is safe for all audiences, Language is set to `English`, and the License is set to `None`.  If a change is needed, click the dropdown menus and select the appropriate choice. Please check the `Mature audience only` option if your content is NSFW.
+10. Next, there are selections for `Maturity`, `Language`,  and `License`. The default values are set as follows: Maturity being unchecked, which means the content is safe for all audiences, Language is set to `English`, and the License is set to `None`.  If a change is needed, click the dropdown menus and select the appropriate choice. Please check the `Mature audience only` option if your content is NSFW.
+
 ![publish](https://spee.ch/c/7-license-2-and-publish.jpeg)
 
 11. Read and agree to the terms of service.
@@ -47,8 +48,6 @@ If you don't have LBRY yet, download it [here](https://lbry.io/get).
 ![Click Publish](https://spee.ch/2/publish.jpeg)
 
 13. The file will process in the background and will be added to the LBRY Blockchain. Larger files will take longer to upload depending on your network speed. Please leave LBRY running while your content is in the "pending confirmation" mode. Currently, this page will not automatically refresh. You can continue to use LBRY while the upload completes.
-
-
 
 ### How do I create a Channel?
 

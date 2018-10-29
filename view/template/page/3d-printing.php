@@ -25,7 +25,7 @@
         <div class="text-center spacer1"><a href="/get?src=FA" class="btn-primary btn-large">Get LBRY App</a></div>
         </div>
         <h4>How do rewards work?</h4>
-<p>You can earn one reward per 24 hour period by posting a picture of your exclusive LBRY print with your wallet address to social and tagging our account.</p>
+<p>You can earn one reward per 24 hour period by posting a picture of your exclusive LBRY print with your LBC wallet address to social media and tagging our account.</p>
     <body align="center">
     <h3><strong>Open the app &amp; click an object to download.</strong></h3>
        <a href="https://open.lbry.io/usakeychain"> <img style="padding:20px;" src="https://spee.ch/d/USA-Keychain" alt="USA Keychain" title="USA Keychain" width="500px"></a>
@@ -60,7 +60,7 @@
   </div>
   <div class="content content-light content-readable">
     <h3>We want to see your first 3D upload!</h3>
-    <p>Send the lbry:// address and your wallet address to <a href="mailto:james@lbry.io" class="link-primary"><span class="btn-label">james@lbry.io</span></a> <strong>to receive 10 Library Credits on us.</strong></p>
+    <p>Send the lbry:// address and your LBC wallet address to <a href="mailto:james@lbry.io" class="link-primary"><span class="btn-label">james@lbry.io</span></a> <strong>to receive 10 Library Credits on us.</strong></p>
     <h3>Looking for more exclusive content?</h3>
     <p>Enter your email below and we'll send you updates on new releases from the best content creators.</p>
     <div>

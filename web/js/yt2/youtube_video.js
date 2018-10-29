@@ -1,5 +1,5 @@
 
-function playVideo(id){
+function playVideo(id) {
     var myVideo = document.getElementById(id);
 
     myVideo.play();

@@ -198,7 +198,7 @@ Do you have an idea for a project using or promoting the LBRY Protocol? We may p
 ![LBRY.fund](https://spee.ch/2/lbry-fund.png)
 
 ### LBRY Stack Exchange Community Enters Commitment Phase!
-The Stack Exchange LBRY Protocol site grew last month, and has now entered the Commitment phase! The real work begins now: we need 200 people to commit to use our Stacke Exchange site, and 100 of them must be active participants on other Stack Exchange forums (have 200+ reputation). Please give us a hand:
+The Stack Exchange LBRY Protocol site grew last month, and has now entered the Commitment phase! The real work begins now: we need 200 people to commit to use our Stack Exchange site, and 100 of them must be active participants on other Stack Exchange forums (have 200+ reputation). Please give us a hand:
 [View the LBRY Stack Exchange site here](https://area51.stackexchange.com/proposals/118455/lbry-protocol)
 <a href="https://area51.stackexchange.com/proposals/118455/lbry?"><img src="https://area51.stackexchange.com/ads/proposal/118455.png" width="300" height="250" alt="Stack Exchange Q&A site proposal: LBRY" /></a>
 

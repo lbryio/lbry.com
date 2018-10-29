@@ -53,7 +53,7 @@
       <div class="content content-light content-tile">
         <h3>For Creators</h3>
         <div class="spacer1">
-          <a href="https://lbry.io/youtube" class="link-primary"><i class="fa fa-sync icon-fw"></i><span class="btn-label">Youtube Partner Program</span></a>
+          <a href="https://lbry.io/youtube" class="link-primary"><i class="fa fa-sync icon-fw"></i><span class="btn-label">YouTube Partner Program</span></a>
         </div>
         <div class="spacer1">
           <a href="/faq?category=publisher" class="link-primary"><span class="icon-question icon-fw"></span><span class="btn-label">Publisher FAQ</span></a>

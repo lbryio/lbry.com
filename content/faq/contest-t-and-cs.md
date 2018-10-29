@@ -5,8 +5,8 @@ category: other
 
 * Multiple entries are allowed and encouraged.
 * In the event of competition with multiple prizes, one person may only win one prize, excluding a grand prize.
-* The promoter is LBRY whose registered office is located at 834 Elm Street, Manchester, NH 03101 USA.
-* Employees of LBRY, their family members, or anyone else connected in any way with the competition or helping to set up the competition shall not be permitted to enter competitions.
+* The promoter is LBRY whose registered office is at 99 Hanover Street, Manchester, NH 03101 USA.
+* Employees of LBRY or their family members or anyone else connected in any way with the competition or helping to set up the competition shall not be permitted to enter competitions.
 * There is no entry fee and no purchase necessary to enter competitions.
 * Route to entry for the competition and details of how to enter are [available on our blog](https://lbry.io/news).
 * Closing date for entries will be specified in the blog post. After this date, no further entries to the competition will be permitted. If not stated, all times are from 12:01 am to 11:59 pm Eastern Time.
