@@ -23,13 +23,12 @@ If you want to run the LBRY app on multiple PCs or on other platforms like Andro
 ### What is a wallet and how do I find it? {#wallet}
 A wallet is a secure, digital wallet used to store, send and receive cryptocurrencies like LBRY Credits(LBC). The LBRY app comes with it's own wallet and is stored locally on your device and nowhere else! **It is critical that you [backup your wallet data](https://lbry.io/faq/how-to-backup-wallet) in case you lose access to your PC or need to [migrate](https://lbry.io/faq/backup-data) to a new one.**
 
-To find your wallet in the LBRY App, click on wallet on the left side of the App. Clicking it will bring you to the wallet overview page which shows your balance, available Rewards and recent transactions.
-![Find wallet](https://spee.ch/4/wallet2.jpeg)
+To find your wallet in the LBRY App, click on `Wallet` on the left side of the App. Clicking it will bring you to the wallet overview page which shows your balance, available Rewards and recent transactions.
 
 The LBRY wallet is different from other cryptocurrencies because it also stores your shared content's metadata in the form of [claims](https://lbry.io/faq/naming) when using the [publishing features](https://lbry.io/faq/how-to-publish). Claim related [wallet transactions](https://lbry.io/faq/transaction-types) ensure that the blockchain uniquely identifies your content and the payment/tips can be routed appropriately. 
 
 ### Where do I find my LBC wallet address?
-You can find your wallet address by first clicking on "Wallet" on the left side of the LBRY app.
+You can find your wallet address by first clicking on `Wallet` on the left side of the LBRY app.
 ![wallet](https://spee.ch/4/wallet21.jpeg)
 
 then navigating to the Send/Receive tab.
