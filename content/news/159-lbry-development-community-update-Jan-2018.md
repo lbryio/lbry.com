@@ -62,7 +62,7 @@ If you aren’t part of our Discord community yet, [join us](https://chat.lbry.i
 LBRY’s Content Creator and Director of Growth and Branding attended the Sundance film festival at the end of January - be on the lookout for a video recap of the event!
 
 ### lbry.io Website
-The LBRY website was updated with the latest [team information](https://lbry.io/team) which includes updated bios, new team members and Twitter/Github profile links. The updated YouTube sync page is still in progress as we finalize some of the backend changes needed to support it.    
+The LBRY website was updated with the latest [team information](https://lbry.io/team) which includes updated bios, new team members and Twitter/GitHub profile links. The updated YouTube sync page is still in progress as we finalize some of the backend changes needed to support it.    
 
 ### LBRY Roadmap
 The LBRY business team worked alongside the tech team to provide the community with a [roadmap of enhancements, features and new undertakings for 2018](https://lbry.io/roadmap). We hope this provides project supporters a transparent insight into what LBRY plans to accomplish in the mid to long-term future. Have any feedback; we’d love to hear it in the #ideas-and-feedback channel on [Discord](https://chat.lbry.io). 
