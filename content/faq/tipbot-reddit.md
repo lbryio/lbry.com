@@ -9,7 +9,7 @@ order: 2
 Tips, in LBRY Credits (LBC), are an integral part of our community because they allow us to reward members for their contributions - whether that's for sharing something insightful, providing feedback, completing bounties, testing our various apps or helping promote LBRY's vision and technology. You can earn them, share, or transfer them via simple [commands on Reddit](https://np.reddit.com/r/lbry/wiki/tipbot).  
 ![Reddit-tip](https://spee.ch/1/reddit-tip.png)
 
-It is important to note that the LBC stored as a result of a tip is tied to your Reddit account and are stored on LBRY's wallet server. It is your responsibility to withdraw the tips to your LBRY App or other wallet like Coinomi. If you plan on storing LBC on Reddit, it is a good idea to enable Two Factor Authentication (2FA) on your account. LBRY takes no responsibility for lost funds due to negligence 
+It is important to note that the LBC stored as a result of a tip is tied to your Reddit account and are stored on LBRY's wallet server. It is your responsibility to withdraw the tips to your LBRY App or other wallet like Coinomi. If you plan on storing LBC on Reddit, it is a good idea to enable Two Factor Authentication (2FA) on your account. LBRY takes no responsibility for lost funds due to negligence.
 
 Use the following commands to make amazing things happen.
 
@@ -28,7 +28,7 @@ Displays your Reddit LBRY wallet address. Useful if you want to receive LBC's di
 [Request Wallet Address](https://www.reddit.com/message/compose?to=lbryian&subject=Deposit&message=deposit)
 
 ### Withdraw
-Use this to withdraw your balance from your LBRY Reddit wallet to another LBRY wallet such as the wallet in your LBRY app, or to a LBC wallet on an exchange. Performed via Reddit messaging.  
+Use this to withdraw your balance from your LBRY Reddit wallet to another LBRY wallet such as the wallet in your LBRY app, or to an LBRY exchange wallet. Performed via Reddit messaging.  
 **Arguments:**  
 `withdraw <address> <amount>`  
 **Request:**  

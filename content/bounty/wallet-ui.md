@@ -13,4 +13,4 @@ The interface must support:
 
 - Generating a new wallet address.
 - Sending a variable number of credits to a specified address from the active wallet.
-- Displaying an address to receive credits
+- Displaying an address to receive credits.
