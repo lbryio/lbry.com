@@ -5,7 +5,7 @@ lbry.emailSettingsForm = function (formSelector, tags, userAuthToken) {
         tagSection = form.find('.tag-section'),
         tagMap = new Map();
 
-    $.each(tags, function(tag, enabled){
+    $.each(tags, function(tag, enabled) {
         tagMap[tag] = enabled;
     });
 

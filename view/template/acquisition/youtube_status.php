@@ -10,7 +10,7 @@
 <?php $isRewardClaimed = $statusData['is_reward_claimed'] ?? false ?>
 <?php if (IS_PRODUCTION): ?>
 <?php js_start() ?>
-    if(!localStorage.getItem('status_token')) {
+    if (!localStorage.getItem('status_token')) {
       ga('send', 'event', 'YT Sync', '<?php echo $isSyncAgreed ? "pending" : "queued" ?>', '');
       fbq('track', 'Lead');
 

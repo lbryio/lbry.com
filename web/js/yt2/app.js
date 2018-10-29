@@ -64,7 +64,7 @@ App.prototype._onReadyStateChange = function(e) {
             var response = JSON.parse(this._xhr.responseText);
             var price = parseFloat(response[0].price_usd);
             var lines = Array.prototype.slice.call(document.getElementsByClassName('line'),0);
-                lines.forEach(function(line){
+                lines.forEach(function(line) {
                     var subscriber = line.getElementsByTagName('p')[0];
                     var monthly = line.getElementsByTagName('p')[1];
                     var amount = line.getElementsByTagName('p')[2];
@@ -106,7 +106,7 @@ App.prototype._goToTop = function() {
 
 App.prototype._onTick = function() {
     // Header animation
-    this._points.forEach(function(point,i){
+    this._points.forEach(function(point,i) {
         var line = this._lines[i];
         var path = line.getElement();
         var index = parseFloat(path.getAttribute('data-from'));
@@ -154,7 +154,7 @@ App.prototype._onTick = function() {
 
         TweenLite.set(this._journey,{width:this._percent+'%'});
 
-        this._steps.forEach(function(step){
+        this._steps.forEach(function(step) {
             var enableAt = parseFloat(step.getAttribute('data-enable'));
             if (this._percent > enableAt) {
                 if (step.className.indexOf('enabled') !== -1) {
@@ -167,7 +167,7 @@ App.prototype._onTick = function() {
             }
         },this);
     } else {
-        this._steps.forEach(function(step){
+        this._steps.forEach(function(step) {
             if (step.className.indexOf('enabled') === -1) {
                 step.className += ' enabled';
             }
@@ -176,7 +176,7 @@ App.prototype._onTick = function() {
 };
 
 App.prototype._onResize = function() {
-    this._points.forEach(function(point,i){
+    this._points.forEach(function(point,i) {
         point.resetOrigin();
     },this);
     this._start = this._how.offsetTop - this._how.scrollTop - window.innerHeight / 2 - this._offset;
