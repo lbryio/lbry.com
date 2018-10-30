@@ -5,7 +5,7 @@ date: '2018-10-30 15:10:00'
 cover: 'YTerror.jpg'
 ---
 
-With more and more stories of [censorship on Youtube](https://motherboard.vice.com/en_us/article/59jgka/a-brief-history-of-youtube-censorship) coming out ever day, both viewers and creators are scrambling to find a YouTube alternative that won’t take down their content, remove creators’ ability to make money off their work, and disappear popular creators, leaving fans in the lurch.
+With more and more stories of [censorship on YouTube](https://motherboard.vice.com/en_us/article/59jgka/a-brief-history-of-youtube-censorship) coming out ever day, both viewers and creators are scrambling to find a YouTube alternative that won’t take down their content, remove creators’ ability to make money off their work, and disappear popular creators, leaving fans in the lurch.
 
 But finding the right YouTube alternative can be a real challenge. There are hundreds (if not thousands) of video sharing sites out there, and it can be difficult to tell one from the other, let alone figure out whether they’re likely to turn to censorship or steal your personal information on behalf of advertisers (like YouTube and other popular social platforms).
 
@@ -23,4 +23,4 @@ Feeling as confused as this stock photo lady? Before looking for your next YouTu
 
 3. **Make sure they let you keep your content.** Sort of an addendum to “read the fine print” - depending on the terms and conditions that a YouTube alternative adopts, they may claim ownership or the right to re-use your content for their own purposes without attribution or compensation. When you pick your YouTube alternative, make sure that it allows you to re-download your own videos and maintain ownership of them.
 
-There’s one YouTube alternative that checks all these boxes, and then some - LBRY. LBRY is a decentralized, peer to peer content network that lets creators own their creations, and lets fans compensate creators directly for their work without any ads or middlemen. [Download it today](https://lbry.io/get)!
+There’s one YouTube alternative that checks all these boxes, and then some - LBRY. LBRY is a decentralized, peer to peer content network that lets creators own their creations, and lets fans compensate creators directly for their work without any ads or middleman. [Download it today](https://lbry.io/get)!
