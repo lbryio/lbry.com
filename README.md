@@ -1,5 +1,6 @@
 # lbry.io
 
+[![MIT licensed](https://img.shields.io/dub/l/vibe-d.svg?style=flat)](https://github.com/lbryio/lbry.io/blob/master/LICENSE)
 [![chat on Discord](https://img.shields.io/discord/362322208485277697.svg?logo=discord)](https://chat.lbry.io) 
 
 The [lbry.io](https://lbry.io) website. This website uses barebones PHP along with Javascript and SCSS.
