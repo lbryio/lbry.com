@@ -23,4 +23,4 @@ Feeling as confused as this stock photo lady? Before looking for your next YouTu
 
 3. **Make sure they let you keep your content.** Sort of an addendum to “read the fine print” - depending on the terms and conditions that a YouTube alternative adopts, they may claim ownership or the right to re-use your content for their own purposes without attribution or compensation. When you pick your YouTube alternative, make sure that it allows you to re-download your own videos and maintain ownership of them.
 
-There’s one YouTube alternative that checks all these boxes, and then some - LBRY. LBRY is a decentralized, peer to peer content network that lets creators own their creations, and lets fans compensate creators directly for their work without any ads or middleman. [Download it today](https://lbry.io/get)!
+There’s one YouTube alternative that checks all these boxes, and then some - LBRY. LBRY is a decentralized, peer to peer content network that lets creators own their creations, and lets fans compensate creators directly for their work without any ads or middlemen. [Download it today](https://lbry.io/get)!
