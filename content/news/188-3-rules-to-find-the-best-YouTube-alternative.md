@@ -5,9 +5,9 @@ date: '2018-10-30 15:10:00'
 cover: 'YTerror.jpg'
 ---
 
-With more and more stories of [censorship on Youtube](https://motherboard.vice.com/en_us/article/59jgka/a-brief-history-of-youtube-censorship) coming out ever day, both viewers and creators are scrambling to find a YouTube alternative that won’t take down their content, remove creators’ ability to make money off their work, and dissapear popular creators, leaving fans in the lurch.
+With more and more stories of [censorship on Youtube](https://motherboard.vice.com/en_us/article/59jgka/a-brief-history-of-youtube-censorship) coming out ever day, both viewers and creators are scrambling to find a YouTube alternative that won’t take down their content, remove creators’ ability to make money off their work, and disappear popular creators, leaving fans in the lurch.
 
-But finding the right YouTube alternative can be a real challenge. There are hundreds (if not thousands) of video sharing sites out there, and it can be difficult to tell one from the other, let alone figure out whether they’re likely to turn to censorship or steal your personal information on behalf of advertisers, like YouTube and other popular social platforms.
+But finding the right YouTube alternative can be a real challenge. There are hundreds (if not thousands) of video sharing sites out there, and it can be difficult to tell one from the other, let alone figure out whether they’re likely to turn to censorship or steal your personal information on behalf of advertisers (like YouTube and other popular social platforms).
 
 ![](https://spee.ch/0791c1adf4ee21117134dc0258bf35ad831a8b2c/confused.jpg)
 
