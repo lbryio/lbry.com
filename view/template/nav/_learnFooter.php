@@ -19,13 +19,12 @@
             <a href="https://facebook.com/lbryio" target="_blank" class="link-primary"><span class="btn-label">Facebook</span><span class="icon icon-facebook"></span></a>
             <a href="https://chat.lbry.io" target="_blank" class="link-primary"><span class="btn-label">Discord</span><span class="icon-comments icon-fw"></span></a>
             <a href="https://reddit.com/r/lbry" target="_blank" class="link-primary"><span class="btn-label">Reddit</span><span class="icon-fw icon-reddit"></span></a> 
-            <a href="https://discourse.lbry.io/" target="_blank" class="link-primary"><span class="btn-label">LBRY Tech Forum</span><span class="icon-fw icon-comments-o"></span></a> 
-	          <a href="https://www.instagram.com/lbryio/" target="_blank" class="link-primary"><span class="btn-label">Instagram</span><span class="fab fa-instagram icon-fw"></span></a>
+	    <a href="https://www.instagram.com/lbryio/" target="_blank" class="link-primary"><span class="btn-label">Instagram</span><span class="fab fa-instagram icon-fw"></span></a>
             <a href="https://t.me/lbryofficial" target="_blank" class="link-primary"><span class="btn-label">Telegram</span><span class="fab fa-telegram icon-fw"></span></a> 
           <li>Explore our <a href="https://shop.lbry.io" target="_blank" class="link-primary"><span class="btn-label">LBRY Shop</span><span class="icon-fw icon-shopping-cart"></span></a>
        <a href="https://lbry.fund/" target="_blank" class="link-primary"><span class="btn-label">LBRY Community Fund</span><span class="fas fa-hand-holding-usd icon-fw"></span></a>
        <a href="https://lbry.io/3d-printing" target="_blank" class="link-primary"><span class="btn-label">3D Printing Program</span><span class="icon-fw icon-cube"></span></a>
-       <a href="https://lbry.tech" target="_blank" class="link-primary"><span class="btn-label">lbry.tech</span><span class="icon-fw icon-gear"></span></a>
+       <a href="https://lbry.tech" target="_blank" class="link-primary"><span class="btn-label">LBRY Technical Resources</span><span class="icon-fw icon-gear"></span></a>
              </ul>
       </div>
       <div class="span6">
