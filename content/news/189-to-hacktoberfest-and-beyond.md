@@ -11,7 +11,7 @@ As Hacktoberfest draws to a close, we couldn’t be happier with how it turned o
 
 The fun doesn’t have to stop just because October is over - if you’re inspired to contribute to the LBRY project, you can get started right away at [LBRY.tech](https://LBRY.tech).
 
-Did you make any submissions to LBRY during the past month? Make sure send us an email at Hello@lbry.io to receive your official LBRY Hacktoberfest World Tour shirt!
+Did you make any submissions to LBRY during the past month? Make sure send us an email at [Hello@lbry.io](mailto:hello@lbry.io) to receive your official LBRY Hacktoberfest World Tour shirt!
 
 If you missed any of our developer videos, you can watch them all below. Thanks to our community for helping us build a new, decentralized internet - we can’t do this without you!
 
