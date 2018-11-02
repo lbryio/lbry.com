@@ -3,6 +3,7 @@ author: samuel-lbryian
 title: 'Community Update October 2018'
 date: '2018-11-01 13:00:00'
 cover: 'unh-jeremy.jpg'
+category: community-update
 ---
 Welcome to the September/October 2018 LBRY Community update! 
 
@@ -21,7 +22,7 @@ To read all of our previous updates, please visit our [Development and Community
 If you want to see a condensed view of what we have completed recently and what’s planned for LBRY, check out our [roadmap](https://lbry.io/roadmap). 
 
 # Community Happenings {#com-updates}
-If you aren’t part of our Discord community yet, [join us](https://chat.lbry.io) anytime and say hello! Our community allows LBRYians to interact with the team directly and for us to engage users and grow the LBRY platform. If you don't already, follow us on [Twitter](https://twitter.com/lbryio), [Facebook](https://facebook.com/lbryio), [Reddit](https://www.reddit.com/r/lbry), [Instagram](https://www.instagram.com/lbryio), and [Telegram](https://www.instagram.com/lbryio/).
+If you aren’t part of our Discord community yet, [join us](https://chat.lbry.io) anytime and say hello! Our community allows LBRYians to interact with the team directly and for us to engage users and grow the LBRY platform. If you don't already, follow us on [Twitter](https://twitter.com/lbryio), [Facebook](https://facebook.com/lbryio), [Reddit](https://www.reddit.com/r/lbry), [Instagram](https://www.instagram.com/lbryio), and [Telegram](https://t.me/lbryofficial).
 
 ### LBRY.fund Featured Community Grants and Updates{#lbry-fund}
 The [LBRY.fund](https://lbry.fund) is a pool of LBC Credits set aside for promoting community development on the LBRY protocol. The fund is open to anybody, and you can submit requests for your ideas using, developing, or promoting use of the LBRY protocol, We’re proud to share some of the projects we’ve funded. 
@@ -48,7 +49,7 @@ As Hacktoberfest draws to a close, we couldn’t be happier with how it turned o
 
 [Read more about Hacktoberfest activities,](https://lbry.io/news/to-hacktoberfest-and-beyond) and watch new videos from our developers introducing the LBRY SDK and how to develop for LBRY protocol and apps.
 
-If you made any submissions to LBRY during the past month, make sure send us an email at hello@lbry.io to receive your official LBRY Hacktoberfest World Tour shirt!
+If you made any submissions to LBRY during the past month, make sure send us an email at [hello@lbry.io](mailto:hello@lbry.io) to receive your official LBRY Hacktoberfest World Tour shirt!
 
 ![LBRY Hacktoberfest t-shirt](https://spee.ch/4/hacktoberfest-t.jpg)
 
@@ -63,12 +64,12 @@ There are two large next steps for this program. First, we need to update all cr
 ###Events {#events}
 
 #### November 10, LPU LBRY/Blockchain Meetup - Jhalandhar, India
-Lovely Professional University is hosting a LBRY/blockchain event, introducing LBRY to novice users and developers. For more information, Contact Clement Gerber at ceogerber@gmail.com or by phone at 7982297653. 
+Lovely Professional University is hosting a LBRY/blockchain event, introducing LBRY to novice users and developers. For more information, Contact Clement Gerber at [ceogerber@gmail.com](mailto:ceogerber@gmail.com) or by phone at [7982297653](tel:7982297653). 
 
 ![Clement at LPU](https://spee.ch/e/clement-india.jpg)
 
 #### December 15, LBRY/Blockchain Meetup - Bangalore, India
-LBRY will be hosting a meetup with the Bangalore Blockchain Application group. We'll introduce LBRY to blockchain enthusiasts in Bangalore. New user and developers will learn about how to begin building on LBRY and potentially receive funding with a  grant from lbry.fund. For more information, Contact Clement Gerber at ceogerber@gmail.com or by phone at 7982297653.
+LBRY will be hosting a meetup with the Bangalore Blockchain Application group. We'll introduce LBRY to blockchain enthusiasts in Bangalore. New user and developers will learn about how to begin building on LBRY and potentially receive funding with a  grant from lbry.fund. For more information, Contact Clement Gerber at [ceogerber@gmail.com](mailto:ceogerber@gmail.com) or by phone at [7982297653](tel:7982297653). 
 
 #### February 22-23, HackYSU 2019 - Youngstown, Ohio
 LBRY is proud to sponsor HackYSU 2019 this year. This is Youngstown State University's fourth annual hackathon, an event where students are invited from all over the United States tech belt onto the YSU campus to learn, create, and network with each other for a weekend. [More information.](http://hackysu.com/)
