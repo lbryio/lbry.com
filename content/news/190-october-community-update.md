@@ -37,7 +37,7 @@ You can find the source code on Github: [https://github.com/btzr-io/jelly-beats]
 ![Jelly Beats Player](https://spee.ch/1/jellybeats.jpg)
 
 #### Cryptopuzzle with Lucas Abduch 
-If you've seen videos on the [@juggling channel,}(lbry://@juggling) you've witnessed Lucas Abduch's impressive and creative videos.
+If you've seen videos on the [@juggling channel](lbry://@juggling) you've witnessed Lucas Abduch's impressive and creative videos.
 
 Coming soon, Lucas will unveil a special LBRY based cryptopuzzle where you can win $2500 in LBRY Credits -- but only if you're the first to solve the puzzle! 
 
