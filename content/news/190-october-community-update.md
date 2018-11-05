@@ -13,7 +13,7 @@ Welcome to the September/October 2018 LBRY Community update!
 	* Cryptopuzzle: you can win up to $2,500
 * [Hacktoberfest](#hacktoberfest)
 * [Roadmap](#roadmap)
-* [YouTube Sync Update](#youtube-updates)
+* [YouTube Sync Update](#YouTube-updates)
 * [Upcoming Events](#events) 
 * [Recent Events](#recent)
 
@@ -45,6 +45,9 @@ Coming soon, Lucas will unveil a special LBRY based cryptopuzzle where you can w
 ![Lucas](https://spee.ch/c/lucas.jpg)Do you have an idea for a project using or promoting the LBRY Protocol? We want to fund you so you can create your vision! [Visit the LBRY.fund for details.](https://lbry.fund)   
 
 ### Hacktoberfest {#hacktoberfest}
+
+<video width="100%" controls poster="https://spee.ch/@thumbnails:e7b0620f6e5a56031cbfc8b9373b02d6ed63c39c/Hacktoberfest-thumb.png" src="https://spee.ch/9bb73cecc938907424c1705339751e21eea559a5/Hacktoberfest.mp4"/></video>
+
 As Hacktoberfest draws to a close, we couldn’t be happier with how it turned out! Thanks so much to all the contributors who made this month so awesome! We had over 40 unique contributors submit 115 pull requests on LBRY’s repos alone, and developers from our staff worked on a number of thorny issues for other open source projects.
 
 [Read more about Hacktoberfest activities,](https://lbry.io/news/to-hacktoberfest-and-beyond) and watch new videos from our developers introducing the LBRY SDK and how to develop for LBRY protocol and apps.
@@ -56,8 +59,8 @@ If you made any submissions to LBRY during the past month, make sure send us an 
 ### Roadmap Check-in {#roadmap}
 We’ve got a few small updates on on our [roadmap](https://lbry.io/roadmap) before the team revamps a new one for late 2018/2019. In October, the [lbry.tech](https://lbry.tech) technical resource website went live as part of Hacktoberfest, so this delayed Q2 item has been marked complete. With the official release of the 0.30 LBRY protocol completed, the new wallet client is now marked as complete (it will be included in the next app in early November). YouTube sync automation has also been completed as we are now syncing new and existing channels that come in through the [Sync Partner Program](https://lbry.io/youtube). The last step, outside of the actual sync process, is to support sending this synced content to the creators’ wallets, which was added to the roadmap under “YouTube Sync Channel Transfer” and to be completed in Q4. Stayed tuned for the next update for the 2019 roadmap revamp! 
 
-### Youtube Sync Updates {#youtube-updates}
-In October, we finally caught up with the YouTube sync queue. Over 300K videos have been published through the program! The system automatically syncs new channels and keeps previously synced channels up to date with new content posted on YouTube. Within 24 hours of publishing to youtube, a content creator’s video will be synced on LBRY as well.
+### YouTube Sync Updates {#YouTube-updates}
+In October, we finally caught up with the YouTube sync queue. Over 300K videos have been published through the [program](https://lbry.io/youtube)! The system automatically syncs new channels and keeps previously synced channels up to date with new content posted on YouTube. Within 24 hours of publishing to youtube, a content creator’s video will be synced on LBRY as well.
 
 There are two large next steps for this program. First, we need to update all creators’ videos with published timestamps in order to match what’s on YouTube. This will happen once the LBRY protocol is updated to support this new datapoint (within the next couple months). Second, we need to develop an easy process by which YouTubers will claim their channel and content through the LBRY app, and have it appear in their wallet/My Publishes area so they have full control to edit/delete or post new content exclusively to LBRY.  The sync will continue even after sending over this content. 
 
