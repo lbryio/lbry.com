@@ -1,4 +1,4 @@
-﻿---
+---
 author: samuel-lbryian
 title: LBRY Means Business With Addition of Josh Finer, MBA
 date: '2016-01-06 15:11:11'
@@ -12,7 +12,7 @@ We’re excited to announce that Josh Finer will be “that guy” on the LBRY t
 
 Finer’s official title is Chief Growth Officer, but we just think of him as Mr. Problem Solver.
 
-<p style="text-align: center;"><img src="https://i.imgur.com/EJxY422.jpg" alt="LBRY's Chief Growth Officer, Josh Finer"></p>
+<p style="text-align: center;"><img src="https://spee.ch/@move:b/EJxY422.jpg" alt="LBRY's Chief Growth Officer, Josh Finer"></p>
 
 Josh is as comfortable in the suit-and-tie world of business and finance as he is in the nerdy world of computers and coding. As he put it, “Walking the line between technical and business issues is my pastime.”
 
