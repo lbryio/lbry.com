@@ -1,4 +1,4 @@
-﻿---
+---
 author: samuel-lbryian
 title: 'Free LBRY Credits: Come and Get ‘Em!'
 date: '2015-11-24 19:43:59'
@@ -7,7 +7,7 @@ date: '2015-11-24 19:43:59'
 We are fast approaching the deadline to earn free LBRY credits (LBC) by being an alpha tester of the LBRY protocol. That’s right – we’re giving away 1,000 LBC to anyone who just **tries** to install LBRY, then completes our survey. [Get it here](https://lbry.io/get) and be the first on your block with LBC.
 
 A warm shoutout to Amanda Johnson, who reminded her viewers of this opportunity in the most recent regular episode of [The Daily Decrypt](https://www.youtube.com/channel/UCqNCLd2r19wpWWQE6yDLOOQ/featured).
-<p style="text-align: center;"><img src="https://i.imgur.com/rH04oCZ.png" alt="The Daily Decrypt plugs LBRY"></p>
+<p style="text-align: center;"><img src="https://spee.ch/@move:b/rH04oCZ.png" alt="The Daily Decrypt plugs LBRY"></p>
 Here’s what she had to say:
 > "LBRY is an alpha stage protocol right now, which would make content viewable on URIs [Uniform Resource Identifier] which are not HTTP, but rather LBRY-specific URIs. Basically, combining the functionality of BitTorrent with the incentives of Bitcoin and the file storage capabilities of STRJ. They’re looking for people to try to download and use their alpha software, which has to be done from the command line. If you’re comfortable with that and you’re willing just to download it and tell them how it felt for you, they’ll give you 1,000 LBRY tokens. You just fill out a survey once you’ve completed the download process, send it back to them, and you get the bits."
 
