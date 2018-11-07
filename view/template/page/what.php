@@ -100,7 +100,7 @@
 <span class="code-bash__kw">wonderfullife</span> : {
   <span class="code-bash__kw">title</span>: "It’s a Wonderful Life",
   <span class="code-bash__kw">description</span>: "An angel helps a compassionate but despairingly frustrated businessman by showing what life would have been like if he never existed.",
-  <span class="code-bash__kw">thumbnail</span>: "http://i.imgur.com/MW45x88.jpg",
+  <span class="code-bash__kw">thumbnail</span>: "https://spee.ch/@move:b/MW45x88.jpg",
   <span class="code-bash__kw">license</span>: "public domain",
   <span class="code-bash__kw">price</span>: 0, <span class="code-bash__comment">//free!</span>
   <span class="code-bash__kw">publisher</span>: "A Fan Of George Bailey", <span class="code-bash__comment">//simplification</span>
