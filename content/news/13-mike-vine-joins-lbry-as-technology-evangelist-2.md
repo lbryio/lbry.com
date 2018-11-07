@@ -1,4 +1,4 @@
-﻿---
+---
 author: mike-vine
 title: Mike Vine Joins LBRY as Technology Evangelist
 date: '2015-10-22 15:55:07'
@@ -6,7 +6,7 @@ date: '2015-10-22 15:55:07'
 
 *Manchester NH (October 22, 2015)* - LBRY Inc., creator of a new blockchain-based content distribution platform, announced Mike Vine has signed on as the first addition to its executive team. As LBRY’s Technology Evangelist, Vine will be charged with explaining the value proposition of what looks to be among the first-released of a new generation of “cryptoapps” based on Bitcoin’s blockchain architecture.
 
-![Mike Vine](http://i.imgur.com/SY0Th7W.jpg?1)
+![Mike Vine](https://spee.ch/@move:b/SY0Th7W.jpg)
 
 Vine has been involved in the world of Bitcoin since 2011 when a writer at his media agency Centinel Consulting taught him about the emerging digital currency. After going “down the rabbit hole,” as Bitcoiners are fond of describing their initial infatuation with the technology, Vine bought his first bits through the first prototype Lamassu Bitcoin ATM at the New Hampshire Liberty Forum in 2012. Since then, he has watched friends become millionaires – but more importantly to him, also witnessed the big influence they’ve had in enabling individual freedom. Vine would go on to organize PorcFest X, a massive libertarian festival which at the time set the record for largest face-to-face Bitcoin marketplace in the world.
 
