@@ -1,4 +1,4 @@
-﻿---
+---
 author: samuel-lbryian
 title: 'BraveNewCoin Compares LBRY to Alexandria: Who Will Be the First to Supplant BitTorrent?'
 date: '2015-12-17 21:55:57'
@@ -6,7 +6,7 @@ date: '2015-12-17 21:55:57'
 
 If you haven't heard, LBRY has a little competition – Alexandria, "The People's Library". Now don't get us wrong; LBRY welcomes competition! In fact, we're enthusiastic supporters of anyone who wants to put more power in the hands of individuals by building more effective markets for information. Heck, we even engaged in some innocent crypto-flirting with Alexandria this week:
 
-<p style="text-align: center;"><img src="https://i.imgur.com/KFfWju3.png" alt="LBRY & Alexandria crypto-flirt on Twitter"></p>
+<p style="text-align: center;"><img src="https://spee.ch/@move:b/KFfWju3.png" alt="LBRY & Alexandria crypto-flirt on Twitter"></p>
 
 Perhaps our biggest critique of Alexandria is their waste of money in buying all those vowels ;).
 
