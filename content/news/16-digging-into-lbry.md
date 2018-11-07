@@ -1,4 +1,4 @@
-﻿---
+---
 author: samuel-lbryian
 title: 'Digging Into LBRY: Our Inspiration & The Future of Content'
 date: '2015-11-05 21:08:22'
@@ -6,7 +6,7 @@ date: '2015-11-05 21:08:22'
 
 In the past week, LBRY was featured in two major Bitcoin publications – CoinTelegraph <a href="https://cointelegraph.com/news/115518/lbry-the-lovechild-of-bitcoin-bittorrent-storj" target="_blank">LBRY: The Lovechild of Bitcoin, BitTorrent & Storj</a> and Bitcoin.com <a href="https://news.bitcoin.com/lbry-decentralized-sharing-platform/" target="_blank">LBRY: The Decentralized Sharing Platform</a>. Both articles are lengthy interviews with our team. We've excerpted some of our favorite questions below.
 
-<p style="text-align: center;"><img src="https://i.imgur.com/cVOaKZK.jpg" alt="Digital content at your fingertips"></p>
+<p style="text-align: center;"><img src="https://spee.ch/@move:b/cVOaKZK.jpg" alt="Digital content at your fingertips"></p>
 <p style="text-align: center;">
 
 <p style="text-align: center;">**<a href="https://cointelegraph.com/news/115518/lbry-the-lovechild-of-bitcoin-bittorrent-storj" target="_blank">CoinTelegraph</a>: What was the inspiration for LBRY?**
