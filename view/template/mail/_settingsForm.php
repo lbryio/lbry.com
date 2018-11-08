@@ -48,6 +48,7 @@
       <div class="row-fluid spacer1">
         <?php $tagIndex = 0 ?>
         <?php foreach ($tags as $tag => $enabled): ?>
+          <?php if (!isset($tagMetadata[$tag])) { continue; }  //fix/kill this ?>
         <?php $tagId = 'tag_' . (++$tagIndex) ?>
         <div class="span6">
           <div class="row-fluid">
