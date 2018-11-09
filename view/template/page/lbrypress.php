@@ -5,15 +5,12 @@
   <div class="cover cover-dark cover-center cover-full cover--dark-overlay" style="background-image: url(/img/blog-covers/censorship.jpg)">
     <div class="content content-dark text-center">
       <h1 class="cover-title cover-title-tile cover-item--outline">
-        Shouldn’t YOU own YOUR content?
+        Independent Hosting for Independent Media
       </h1>
       <div class="spacer2">
         <h3 class="cover-item--outline">
-          Lorem Ipsum Blah Blah
+          Don't leave your fate in the hands of Silicon Valley
         </h3>
-      </div>
-      <div class="spacer1">
-        <a href="#about" class="btn-primary btn-large">Yes, tell me how!</a>
       </div>
     </div>
   </div>
