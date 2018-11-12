@@ -32,7 +32,7 @@
           <div class="content content-light">
             <h3>For Journalists</h3>
             
-            <img src="https://spee.ch/9/typewritersmall.jpg">
+            <img src="https://spee.ch/d/typewritermedium.undefined">
             
             <p>We want to help independent media make the move to a decentralized future, which is why we support individuals and outlets doing this invaluable work through LBRY.fund, a grant program to help people take full advantage of the new technology that LBRY has created.</p>
 
