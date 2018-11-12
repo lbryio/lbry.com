@@ -34,6 +34,7 @@
             
             <img src="https://spee.ch/d/typewritermedium.undefined">
             
+            <p></p>
             <p>We want to help independent media make the move to a decentralized future, which is why we support individuals and outlets doing this invaluable work through LBRY.fund, a grant program to help people take full advantage of the new technology that LBRY has created.</p>
 
             <p>For more information on our grant programs, head to <a class="link-primary" href="https://lbry.fund">LBRY.fund.</a> Click the button below and fill out the form, and we'll have a team member contact you to set up your own LBRYPress ASAP.</p>
