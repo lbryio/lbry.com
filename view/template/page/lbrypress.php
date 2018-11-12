@@ -33,8 +33,9 @@
             <h3>For Journalists</h3>
             <p>We want to help independent media make the move to a decentralized future, which is why we support individuals and outlets doing this invaluable work through LBRY.fund, a grant program to help people take full advantage of the new technology that LBRY has created.</p>
 
-            <p>For more information on our grant programs, head to <a class="link-primary" href="https://lbry.fund">LBRY.fund.</a></p>
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScJhAdxAWJuaEiuJMHdEbUVWqIkjw34QAuDvmmMu9PafOgdxA/viewform" style="height: 800px"></iframe>
+            <p>For more information on our grant programs, head to <a class="link-primary" href="https://lbry.fund">LBRY.fund.</a> Click the button below and fill out the form, and we'll have a team member contact you to set up your own LBRYPress ASAP.</p>
+            
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScJhAdxAWJuaEiuJMHdEbUVWqIkjw34QAuDvmmMu9PafOgdxA/viewform" class="btn-primary btn-large">Get your custom LBRYPress</a>
           </div>
         </div>
       </div>
@@ -46,7 +47,7 @@
             <div class="spacer1">
               <img src="http://via.placeholder.com/600">
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas hendrerit porttitor semper. Phasellus congue tempor faucibus. Sed fermentum quis urna consectetur pulvinar. Nulla justo lacus, rhoncus commodo sodales sagittis, aliquam sed nisi. Donec porttitor eget neque nec volutpat.</p>
+            <p>You can dig into the code, take a look at some examples of other customizations, and get acquainted with how all of these parts work with the LBRY network - just click the button below.</p>
             <p><a href="https://github.com/lbryio/spee.ch" class="btn btn-alt">Start Here</a></p>
           </div>
         </div>
