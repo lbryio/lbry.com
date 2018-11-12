@@ -16,13 +16,15 @@
   </div>
   <div id="about">
     <div class="content content-light content-readable">
-      <h2>Independent Media, Meet LBRY Press (fix)</h2>
+      <h2>Take your fate (and your content) into your own hands.</h2>
 
-      <p>Independent media does the work that the mainstream media refuses to do, providing in-depth coverage of issues that matter but might not be sexy enough to sell ads and garner clicks. And for their hard work, they’ve been slandered, mocked, demonetized, and disappeared from social media platforms.</p>
+      <p>Independent media does the work that the mainstream media refuses to do, providing in-depth coverage of issues that matter but might not be sexy enough to sell ads. And for their hard work, they’ve been slandered, mocked, demonetized, and disappeared from social media platforms.</p>
 
+      <p>It’s time for a decentralized alternative to the status quo.</p>
+      
       <p>We believe that quality independent media matters. That’s why we’ve been working with independent media organizations who lost their pages in the recent Facebook purge to develop LBRYPress, a simple way for you to keep your content safe, no matter what Mark Zuckerberg thinks of you. And we think you’re really going to like what we came up with.</p>
 
-      <p>LBRYPress means you can truly own your content, and that independent media no longer need to rely on Big Tech to get the word out. This tool isn’t just for social media - even if you publish primarily on your own website, chances are that your centralized hosting service can pull the plug any time. It’s time for a decentralized alternative to the status quo.</p>
+      <p>LBRYPress means you can truly own your content, and that independent media no longer need to rely on Big Tech to get the word out. This tool isn’t just for outlets that focus on social media - anyone with a WordPress site can instantly back up all their content with LBRYPress. </p>
     </div>
     <div class="column-fluid spacer2">
       <div class="span6">
