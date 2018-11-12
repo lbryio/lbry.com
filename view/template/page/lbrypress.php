@@ -1,5 +1,5 @@
 <?php Response::setMetaDescription(__('description.meetup')) ?>
-<?php Response::setMetaTitle(__('Shouldn’t YOU own YOUR content?')) ?>
+<?php Response::setMetaTitle(__('Independent Hosting for Independent Media')) ?>
 <?php echo View::render('nav/_header', ['isDark' => true, 'isAbsolute' => true]) ?>
 <main>
   <div class="cover cover-dark cover-center cover-full cover--dark-overlay" style="background-image: url(/img/blog-covers/censorship.jpg)">
