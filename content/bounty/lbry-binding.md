@@ -25,4 +25,5 @@ Java - Completed
 Javascript - Completed   
 Rust - Started/Claimed   
 C++ - Completed  
-Python - Completed
+Python - Completed   
+Dart - Completed
