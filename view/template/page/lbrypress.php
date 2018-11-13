@@ -49,7 +49,7 @@
             <h3>For Geeks</h3>
             <p>You can have your own self-hosted spee.ch instance up and running in under an hour.</p>
             <div class="spacer1">
-              <img src="http://via.placeholder.com/600">
+              <img src="https://spee.ch/f/speechinstall.undefined">
             </div>
             <p>You can dig into the code, take a look at some examples of other customizations, and get acquainted with how all of these parts work with the LBRY network - just click the button below.</p>
             <p><a href="https://github.com/lbryio/spee.ch" class="btn btn-alt">Start Here</a></p>
