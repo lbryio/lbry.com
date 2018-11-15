@@ -5,7 +5,7 @@
   <div class="cover cover-dark cover-center cover-full cover--dark-overlay" style="background-image: url(/img/clement-vit.jpg)">
     <div class="content content-dark text-center">
       <h1 class="cover-title cover-title-tile cover-item--outline">
-        LBRY Welcomes Chandigahr University Students
+        LBRY Welcomes Chandigarh University Students
       </h1>
       <h3 class="cover-item--outline">We're excited to share about LBRY with you!
       </h3>
