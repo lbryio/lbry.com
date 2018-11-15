@@ -3,7 +3,7 @@ title: How do I use the LBRY Command Line Interface (CLI) tool?
 category: powerusers
 ---
 
-In addition to the JSON commands available in the [LBRY API Quickstart Guide](https://lbry.io/quickstart/api) as a method to interact with the LBRY protocol, there is another way through the command line tools (CLI). This will allow you to run any available commands from the [LBRY CLI documentation](https://lbryio.github.io/lbry/cli/). You must be running the LBRY app or daemon in order to interact with the protocol.
+As a power user, you may want to run your own commands against the LBRY SDK. This guide explains how to run any available commands from the [LBRY SDK documentation](https://lbry.tech/api/sdk). You must be running the LBRY app or daemon in order to interact with the protocol.
 
 In recent versions of LBRY, the lbrynet-cli tool is no longer included with the App and must be downloaded/copied into the appropriate folder (see below). [Download](https://github.com/lbryio/lbry/releases) the version that matches your Settings > Help > `Daemon` version number. 
 
