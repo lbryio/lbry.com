@@ -1,5 +1,5 @@
-<?php Response::setMetaDescription(__('LBRY Welcomes VIT Vellore\'s E-Cell HackerTech 2018')) ?>
-<?php Response::setMetaTitle(__('LBRY Welcomes VIT Hackathon Participants')) ?>
+<?php Response::setMetaDescription(__('LBRY Welcomes Chandigarh University Students')) ?>
+<?php Response::setMetaTitle(__('LBRY Welcomes Chandigarh University Students')) ?>
 <?php echo View::render('nav/_header', ['isDark' => true, 'isAbsolute' => true]) ?>
 <main>
   <div class="cover cover-dark cover-center cover-full cover--dark-overlay" style="background-image: url(/img/clement-vit.jpg)">
