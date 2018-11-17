@@ -54,6 +54,6 @@ Reddit is truly an Ohanian company.
 
 I've neglected to mention the second half of the title. It's an old joke, made by many. Let's go with the SMBC version:
 
-![SMBC 2011 November 12th](http://www.smbc-comics.com/comics/20111112.gif)
+![SMBC 2011 November 12th](https://spee.ch/@Memes:26/20111112.gif)
 
 I hope someone has a generator hooked to Aaron Swartz right now.
