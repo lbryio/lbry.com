@@ -16,7 +16,7 @@ On March 29th, from 6-9PM EST (or later), you'll be able to heckle and watch LBR
 
 During the stream, members of the LBRY development team will be in our [chatroom](https://chat.lbry.io) answering questions and discussing LBRY.
 
-If you want a reminder, make sure to [join our Discord chat](https://chat.lbry.io) or [complete the quickstart guide](https://lbry.io/quickstart).
+If you want a reminder, make sure to [join our Discord chat](https://chat.lbry.io) or [complete the quickstart guide](https://lbry.tech/playground).
 
 ## Trending on GitHub
 
@@ -26,9 +26,9 @@ Last week, LBRY opened up its API to anyone with a GitHub account, to a fantasti
 
 LBRY has been a trending repo on GitHub for almost a full week. Nearly 2,000 developers are now following the LBRY project.
 
-Anyone with a GitHub account can immediately try out the LBRY API and by using our [quickstart guide](https://lbry.io/quickstart).
+Anyone with a GitHub account can immediately try out the LBRY API and by using our [quickstart guide](https://lbry.tech/playground).
 
-Additionally, we've created a new resource page [documenting the LBRY API](https://lbryio.github.io/lbry/).
+Additionally, we've created a new resource page [LBRY SDK documentation](https://lbry.tech/api/sdk).
 
 ## Major Press Coverage
 
