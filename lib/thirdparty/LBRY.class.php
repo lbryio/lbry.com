@@ -75,4 +75,9 @@ class LBRY
             return Curl::post(static::getApiUrl("/yt/update"), ['status_token' => $status_token, 'new_email' => $email, 'new_preferred_channel' => $channel_name, 'sync_consent' => $sync_consent], ['json_response' => true]);
         }
     }
+
+    public static function logWebVisitor($site, $visitorID, $IPAddress)
+    {
+        return Curl::post(static::getApiUrl("/visitor/new"), ['site' => $site, 'visitor_id' => $visitorID, 'ip_address' => $IPAddress], ['json_response' => true]);
+    }
 }

@@ -11,13 +11,15 @@ class Session
 
     const NAMESPACE_DEFAULT = 'default',
         NAMESPACE_FLASH = 'flash',
-        NAMESPACE_FLASH_REMOVE = 'flash_remove';
+        NAMESPACE_FLASH_REMOVE = 'flash_remove',
+        USER_ID = 'user_id';
 
     public static function init()
     {
         ini_set('session.cookie_secure', IS_PRODUCTION); // send cookie over ssl only
-    ini_set('session.cookie_httponly', true); // no js access to cookies
-    session_start();
+        ini_set('session.cookie_httponly', true); // no js access to cookies
+        session_start();
+
 
         if (!static::get('secure_and_httponly_set')) {
             session_regenerate_id(); // ensure that old cookies get new settings
@@ -30,6 +32,9 @@ class Session
             session_unset();
             static::setNamespace(static::NAMESPACE_DEFAULT, $oldSession);
         }
+
+        $response = LBRY::logWebVisitor('lbry.io', $_SESSION[static::USER_ID], $_SERVER['REMOTE_ADDR']);
+        $_SESSION[static::USER_ID] = $response['data']['visitor_id'];
 
         static::initFlashes();
     }
