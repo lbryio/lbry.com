@@ -16,7 +16,7 @@ We are listed on several exchanges. You can buy or sell LBRY Credits at one of t
 - [Trade by Trade](https://app.tradebytrade.com/exchange-one)
 
 ### Instant Exchanges
-- [Shapeshift](https://shapeshift.io)
+- [Shapeshift](https://shapeshift.io) (Requires free membership account now)
 - [Changelly](https://changelly.com/exchange/BTC/LBC/1)
 - [ChangeNow](https://changenow.io/exchange?amount=1&from=btc&to=lbc)
 - [Simple Swap](https://www.simpleswap.io/)
