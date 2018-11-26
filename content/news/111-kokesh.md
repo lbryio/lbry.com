@@ -14,7 +14,7 @@ US military veteran-turned-liberty activist, there have been fewer more attracti
 
 The chronicles of Kokesh are now documented, boldly and uncensored at:
 
-lbry://@AdamKokesh
+[lbry://@AdamKokesh](https://open.lbry.io/@AdamKokesh)
 
 Have a message to share? Follow Adam’s lead and sync your YouTube channel with the LBRY sync API: https://lbry.io/youtube
 
