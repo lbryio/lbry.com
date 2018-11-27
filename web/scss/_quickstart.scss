@@ -1,0 +1,99 @@
+@import "global";
+
+.quickstart
+{
+  max-width: 860px;
+}
+
+.quickstart__table
+{
+  margin: 0 auto $spacing-vertical;
+  td, th
+  {
+    border-right: 1px dotted #eee;
+    padding: 4px 20px;
+    &:last-child
+    {
+      border-right: 0 none;
+    }
+  }
+}
+
+.quickstart__section
+{
+  margin-bottom: $spacing-vertical * 3;
+}
+
+.quickstart__claim-form
+{
+  margin: $spacing-vertical * 2 0;
+  input[type="text"] { width: 100%; }
+}
+
+.quickstart__progress-bar
+{
+  margin: $spacing-vertical * 3 80px;
+  background: #ddd;
+  display: flex;
+  height: 16px;
+  list-style: none;
+  padding: 0;
+  position: relative;
+
+  > li {
+    flex: auto;
+    list-style: none;
+    position: relative;
+
+    &:first-child {
+      max-width: 0;
+
+      > a {
+        // arbitrary values
+        // since % won't work
+        right: -30px;
+        width: 60px;
+      }
+    }
+
+    &:before {
+      background: #ddd;
+      border-radius: 50%;
+      content: "";
+      display: block;
+      height: 24px;
+      right: -12px;
+      position: absolute;
+      top: -4px;
+      width: 24px;
+    }
+  }
+  a {
+    cursor: pointer;
+    color: #ccc;
+    padding: 4px 0;
+    position: absolute;
+    right: -25%;
+    text-align: center;
+    text-decoration: underline;
+    top: -36px;
+    width: 50%;
+  }
+  $color-indicator: #777;
+  .completed {
+    background: lighten($color-indicator, 10%);
+
+    &:before {
+      background: lighten($color-indicator, 10%);
+    }
+  }
+  .active {
+    a { font-weight: bold; }
+    background: lighten($color-indicator, 10%);
+
+    &:before {
+      background: lighten($color-indicator, 16%);
+      box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+    }
+  }
+}
