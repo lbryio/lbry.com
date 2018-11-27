@@ -26,7 +26,6 @@ class DownloadActions extends Actions
                 }
         return Controller::redirect($uri, 302);
     }
-        }
 
     /*
      * this is a quick fix to add android, prob not proper design
