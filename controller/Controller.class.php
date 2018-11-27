@@ -86,10 +86,6 @@ class Controller
         }
         $router->get('/roadmap', 'ContentActions::executeRoadmap');
 
-        $router->post('/quickstart/auth', 'DeveloperActions::executeQuickstartAuth');
-        $router->get('/quickstart/{step}?', 'DeveloperActions::executeQuickstart');
-        $router->get('/quickstart/github/callback', 'DeveloperActions::executeQuickstartGithubCallback');
-
         $router->post('/postcommit', 'OpsActions::executePostCommit');
         $router->post('/log-upload', 'OpsActions::executeLogUpload');
         $router->get(static::CACHE_CLEAR_PATH, 'OpsActions::executeClearCache');
