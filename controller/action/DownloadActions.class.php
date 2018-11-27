@@ -23,10 +23,10 @@ class DownloadActions extends Actions
 
         if (isset($oses[$os])) {
             $uri = GitHub::getDaemonDownloadUrl($os);
-        }
-
-        return Controller::redirect($uri ?: '/quickstart', 302);
+                }
+        return Controller::redirect($uri, 302);
     }
+        }
 
     /*
      * this is a quick fix to add android, prob not proper design
