@@ -1,6 +1,4 @@
--- 
-/FLO: /news
-/There: /news
+--
 /art: /what
 /credit-reports/2016-Q2: /credit-reports/2016-q2
 /developer-program: /news
@@ -8,15 +6,35 @@
 /faq/Q1-17-CreditReport: /credit-reports/2017-Q1
 /faq/Q4-credit-report: /credit-reports/2016-Q4
 /faq/api-help: /faq/how-to-cli
+/faq/claimtrie-implementation: https://lbry.tech/resources/lbry-claimtrie
 /faq/contributing: https://lbry.tech/contribute
+/faq/how-to-encrypt-wallet: https://lbry.tech/resources/encrypt-lbrycrd
+/faq/how-to-report-bugs: /faq/support
 /faq/make-money: /faq/earn-income
 /faq/no-auction-options: /faq/naming
+/faq/proof-algorithm: https://lbry.tech/resources/pow
 /faq/quarterly-report-3q-2016: /credit-reports/2016-Q3
 /faq/quarterly-report-july-2016: /credit-reports/2016-Q2
+/faq/regtest-setup-guide: https://lbry.tech/resources/regtest-setup
 /faq/tips: /faq/appreciation
 /faq/when-referral-payouts: /faq/referrals
 /faq/why-care-about-lbry: /get
 /feedback: /learn
+/FLO: /news
+/get/lbry.exe : /releases/lbry-desktop.exe
+/get/lbry.msi : /releases/lbry-desktop.exe
+/get/lbry.dmg : /releases/lbry-desktop.dmg
+/get/lbry.pkg : /releases/lbry-desktop.dmg
+/get/lbry.deb : /releases/lbry-desktop.deb
+/get/lbry.pre.exe : /releases/pre/lbry-desktop.exe
+/get/lbry.pre.msi : /releases/pre/lbry-desktop.exe
+/get/lbry.pre.dmg : /releases/pre/lbry-desktop.dmg
+/get/lbry.pre.pkg : /releases/pre/lbry-desktop.dmg
+/get/lbry.pre.deb : /releases/pre/lbry-desktop.deb
+/get/lbrynet.linux.zip: /releases/lbry.deb
+/get/lbrynet.windows.zip: /releases/lbry.exe
+/get/lbrynet.macos.zip: /releases/lbry.pkg
+/get/lbrynet.osx.zip: /releases/lbry.pkg
 /get.How+to+Create+an+Identity+LBRY+TutorialsFollow: /faq/identity-requirements
 /getFree: /news/free-lbry-credits-come-and-get-em
 /join-list: /list/subscribe
@@ -25,9 +43,10 @@
 /lbry-osx-latest.dmg: /get
 /list: /list/subscribe
 /navframe?selectedItem=/news: /news
+/navframe?selectedItem=/news?selectedItem=/news: /news
 /news/$1.2b-market-cap-we-dont-care: /news/1.2b-market-cap-we-dont-care
-/news/author/jeremy: /team
 /news/author/jeremy/2: /team
+/news/author/jeremy: /team
 /news/author/jimmy-kiselak: /team
 /news/author/sam/page/2: /team
 /news/author/sam/page/3: /team
@@ -36,11 +55,10 @@
 /news/every-major-tech-company-hates-you: /news
 /news/get: /get
 /news/ios: /ios
-/news/lbry.io: /news
 /news/lbry-promo-video-raw-footage: /news
-/news/news/lbry-app-sneak-peak-big-questions-answered-lbry-on-blocktalk-last-night: /news/lbry-app-sneak-peak-big-questions-answered-lbry-on-blocktalk-last-night
+/news/lbry.io: /news
 /news/meet-the-lbry-founders: /team
-/navframe?selectedItem=/news?selectedItem=/news: /news
+/news/news/lbry-app-sneak-peak-big-questions-answered-lbry-on-blocktalk-last-night: /news/lbry-app-sneak-peak-big-questions-answered-lbry-on-blocktalk-last-night
 /news/news/meet-the-lbry-founders: /news/meet-the-lbry-founders
 /news/news/ultimate-wizard-meet-alex-grin: /news/ultimate-wizard-meet-alex-grin
 /news/page/2: /news
@@ -54,16 +72,12 @@
 /news/www.maidsafe.com: /news
 /news/www.porcfest.com: /news/lbry-at-porcfest-first-public-screening-film-via-blockchain
 /nothing-here: /news
-/press-kit.zip: /press-kit
 /participate: /faq/contributing
+/press-kit.zip: /press-kit
 /publish: /youtube
 /quickstart: https://lbry.tech/playground
 /slack: https://chat.lbry.io
+/There: /news
 /what-is-lbry: /faq/what-is-lbry
 /youtube/cdSSo: /news
 /youtube/sync: /faq/youtube
-/faq/how-to-report-bugs: /faq/support
-/faq/how-to-encrypt-wallet: https://lbry.tech/resources/encrypt-lbrycrd
-/faq/proof-algorithm: https://lbry.tech/resources/pow
-/faq/regtest-setup-guide: https://lbry.tech/resources/regtest-setup
-/faq/claimtrie-implementation: https://lbry.tech/resources/lbry-claimtrie

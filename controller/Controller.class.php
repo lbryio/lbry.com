@@ -126,9 +126,8 @@ class Controller
             }
         }
 
-        $router->any('/get/lbry.pre.{ext:c}', 'DownloadActions::executeGetAppPrereleaseRedirect');
-        $router->any('/get/lbry.{ext:c}', 'DownloadActions::executeGetAppRedirect');
-        $router->any('/get/lbrynet.{os:c}.zip', 'DownloadActions::executeGetDaemonRedirect');
+        $router->get('/releases/{repo:c}.{ext:c}', 'DownloadActions::executeDownloadReleaseAsset');
+        $router->get('/releases/pre/{repo:c}.{ext:c}', 'DownloadActions::executeDownloadPrereleaseAsset');
 
         $router->get([ContentActions::URL_NEWS . '/{slug:c}?', 'news'], 'ContentActions::executeNews');
         $router->get([ContentActions::URL_FAQ . '/{slug:c}?', 'faq'], 'ContentActions::executeFaq');

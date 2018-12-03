@@ -5,26 +5,14 @@ class DownloadActions extends Actions
     //bad, fix me!
     const ANDROID_STORE_URL = 'https://play.google.com/store/apps/details?id=io.lbry.browser';
 
-    public static function executeGetAppRedirect(string $ext)
+    public static function executeDownloadPrereleaseAsset(string $repo, string $ext)
     {
-        return Controller::redirect(GitHub::getAppDownloadUrl(OS::getOsForExtension($ext)) ?: '/get', 302);
+        return static::executeDownloadReleaseAsset($repo, $ext, true);
     }
 
-    public static function executeGetAppPrereleaseRedirect(string $ext)
+    public static function executeDownloadReleaseAsset(string $repo, string $ext, bool $allowPrerelease = false)
     {
-        return Controller::redirect(GitHub::getAppPrereleaseDownloadUrl(OS::getOsForExtension($ext)) ?: '/get', 302);
-    }
-
-
-    public static function executeGetDaemonRedirect(string $os)
-    {
-        $uri  = null;
-        $oses = Os::getAll();
-
-        if (isset($oses[$os])) {
-            $uri = GitHub::getDaemonDownloadUrl($os);
-        }
-        return Controller::redirect($uri, 302);
+        return Controller::redirect(GitHub::getRepoReleaseUrl($repo, OS::getOsForExtension($ext), $allowPrerelease) ?: '/get', 302);
     }
 
     /*
@@ -48,7 +36,7 @@ class DownloadActions extends Actions
       }
       else
       {
-        $asset = Github::getAppAsset($os);
+        $asset = Github::getRepoAsset(GitHub::REPO_LBRY_DESKTOP, $os);
         $params['downloadUrl'] = $asset ? $asset['browser_download_url'] : null;
       }
 
@@ -130,7 +118,7 @@ class DownloadActions extends Actions
             list($uri, $osTitle, $osIcon, $buttonLabel, $analyticsLabel) = $osChoices[$os];
 
             if ($os !== OS::OS_ANDROID) {
-              $asset = Github::getAppAsset($os);
+              $asset = Github::getRepoAsset(GitHub::REPO_LBRY_DESKTOP, $os);
             } else {
               $asset = ['browser_download_url' => static::ANDROID_STORE_URL];
             }
@@ -158,8 +146,8 @@ class DownloadActions extends Actions
       list($uri, $osTitle, $osIcon, $buttonLabel, $analyticsLabel) = $osChoices[$os];
 
       if ($os !== OS::OS_ANDROID) {
-        $release = Github::getAppRelease();
-        $asset = Github::getAppAsset($os);
+        $release = Github::getRepoRelease(GitHub::REPO_LBRY_DESKTOP, false);
+        $asset = Github::getRepoAsset(GitHub::REPO_LBRY_DESKTOP, $os);
       } else {
         $asset = ['browser_download_url' => static::ANDROID_STORE_URL, 'size' => 0];
         $release = [];
