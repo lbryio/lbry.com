@@ -95,6 +95,11 @@ class Github
     public static function get($endpoint, array $params = [], $cache = true)
     {
         $twoHoursInSeconds = 7200;
+        if (Config::get(Config::GITHUB_APP_CLIENT_ID) && Config::get(Config::GITHUB_APP_CLIENT_SECRET))
+        {
+            $params['client_id'] = Config::get(Config::GITHUB_APP_CLIENT_ID);
+            $params['client_secret'] = Config::Get(Config::GITHUB_APP_CLIENT_SECRET);
+        }
         return CurlWithCache::get(
         'https://api.github.com' . $endpoint . '?' . http_build_query($params),
         [],

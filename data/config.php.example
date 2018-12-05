@@ -2,8 +2,8 @@
 
 $config = [];
 // $config[Config::GITHUB_KEY] = '';
-// $config[Config::GITHUB_DEVELOPER_CREDITS_CLIENT_ID] = '';
-// $config[Config::GITHUB_DEVELOPER_CREDITS_CLIENT_SECRET] = '';
+// $config[Config::GITHUB_APP_CLIENT_ID] = ''; //optional, increases API rate limit
+// $config[Config::GITHUB_APP_CLIENT_SECRET] = '';
 // $config[Config::LBRY_API_SERVER] = '';
 // $config[Config::MAILCHIMP_KEY] = '';
 // $config[Config::ASANA_KEY] = '';
