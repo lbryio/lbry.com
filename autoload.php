@@ -24,7 +24,7 @@ class Autoloader
     {
         $key = 'lbry-classes-5';
         if (ini_get('apc.enabled') && !$reload) {
-            $classes = apc_fetch($key, $success);
+            $classes = apcu_fetch($key, $success);
             if ($success) {
                 static::$classes = $classes;
                 return;
@@ -43,7 +43,7 @@ class Autoloader
         }
 
         if (ini_get('apc.enabled')) {
-            apc_store($key, static::$classes);
+            apcu_store($key, static::$classes);
         }
     }
 
