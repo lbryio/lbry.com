@@ -1,6 +1,6 @@
 ---
 author: brinck-slattery
-title: 'What To Look For In A Spotify ALternative'
+title: 'What To Look For In a Spotify Alternative'
 date: '2018-12-07 15:00:00'
 cover: 'headphones.jpg'
 ---
