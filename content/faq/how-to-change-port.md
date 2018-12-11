@@ -25,6 +25,6 @@ Once the daemon is running, you can change the port permanently by using the fol
 
 or via cli command
 
-    lbrynet-cli settings_set --peer_port 3334
+    lbrynet settings_set --peer_port 3334
 
 
