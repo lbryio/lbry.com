@@ -35,6 +35,10 @@ The easiest way to find the location of your LBRY Android wallet is via the [And
 1. Open your favorite file manager, navigate to `Internal storage/android/data/io.lbry.browser/files/lbryum/wallets`
 2. Copy the default_wallet to any other location on your device, i.e. your SD card or another directory on the Internal Storage
 
+## Wallet migration with 0.30 SDK release {#migration}
+
+If you have run one of the latest Desktop or Android releases, you'll notice a file named `old_lbryum_wallet_1` in your wallets folder. This is a backup prior to the migration to the new wallet that's part of the 0.30 LBRY SDK release. This can be backed up for safekeeping or discarded if your current wallet is showing the right balance, claims and channels. 
+
 ## How do I restore my wallet? {#restore}
 
 The process of restoring a previously backed up wallet is fairly simple. After installing LBRY, you would find the location of your wallet (see section above on finding the wallet) and replace the newly generated wallet with your backup copy (LBRY needs to be completely shut down when you do so). Before replacing the existing `default_wallet`, please confirm there are no credits inside of it by opening the LBRY app and checking the balance in the top right next to the bank icon - this should read 0 if the wallet is empty. Once the backed up `default_wallet` file is in place, start LBRY, and your balance should now be updated. 
