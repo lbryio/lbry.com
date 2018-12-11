@@ -21,6 +21,7 @@ So what’s in this goodie bag of a release? You can [read all the details in th
 * **A brand new “history” page.** In the “My LBRY” menu you can now view your watch history to revisit and share old favorites.
 * **More ways to share LBRY content.** In the past, it’s been a bit of a pain to share something from LBRY on the web. With new sharing options, it’s easier than ever.
 * **Want to see commenting on LBRY?** Help us gauge interest in commenting by clicking the option at the bottom of any content page! You’ll be added to our notification waitlist. 
+* **Minor design updates** You'll notice a few cosmetic/styling changes as our app evolves, let us know what you think! 
 
 Most of all, you should see significant increases in load speed and reliability across the entire LBRY network.
 
