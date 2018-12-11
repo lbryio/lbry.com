@@ -1,8 +1,8 @@
 ---
 author: brinck-slattery
-title: 'C is For Clarke’'
+title: 'C is For Clarke'
 date: '2018-12-11 15:00:00'
-cover: Clarke.jpg'
+cover: 'Clarke.jpg'
 ---
 
 It may be a bit early in the season, but we have a big holiday gift for all our loyal LBRYians! We’re pleased to announce the release of LBRY Clarke, the newest (and best ever) version of the LBRY app. Our team’s first priority has been improving the reliability, stability, and speed of the LBRY network, and Clarke delivers an odyssey of upgrades on those fronts for both our desktop and Android apps (Android update expected in the coming days). 
