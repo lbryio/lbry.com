@@ -15,7 +15,7 @@ While Spotify isn’t the worst when it comes to per-stream revenue for artists 
 
 Do you want to start giving the artists you love more support? Read on to find out exactly what to look for in your next Spotify alternative.
 
-![a stereo](https://lbryio/lbry.io/blob/master/web/img/stereo.jpg)
+![a stereo](https://lbry.io/img/stereo.jpg)
 
 ## Features To Look For in a Spotify Alternative
 
@@ -39,7 +39,7 @@ This might seem like a no-brainer, but it pays to know whether you can listen to
 
 Some Spotify alternative platforms allow users to send additional funds to artists and support them on a one-time or ongoing subscription basis. If you really want to go above and beyond in support of the artists you love, this feature is nice icing on the cake.
 
-![a concert](https://lbryio/lbry.io/blob/master/web/img/concert.jpg)
+![a concert](https://lbry.io/img/concert.jpg)
 
 ## Spotify Alternatives You Just Might Love
 
