@@ -14,7 +14,7 @@ class CurlWithCache extends Curl
 
         $cacheKey = $cacheEnabled ? md5($url . $method . serialize($options) . serialize($params)) : null;
         if ($cacheAllowed && $cacheKey) {
-            $cachedData = apc_fetch($cacheKey);
+            $cachedData = apcu_fetch($cacheKey);
             if ($cachedData) {
                 return $cachedData;
             }
@@ -24,9 +24,9 @@ class CurlWithCache extends Curl
 
         if ($cacheEnabled) {
             if ($cacheAllowed) {
-                apc_store($cacheKey, $response, $cacheTimeout);
+                apcu_store($cacheKey, $response, $cacheTimeout);
             } else {
-                apc_delete($cacheKey);
+                apcu_delete($cacheKey);
             }
         }
 

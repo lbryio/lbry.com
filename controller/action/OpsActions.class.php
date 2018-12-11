@@ -4,13 +4,11 @@ class OpsActions extends Actions
 {
     public static function executeClearCache(): array
     {
-        if (!ini_get('apc.enabled') || !function_exists('apc_clear_cache')) {
+        if (!Apc::isEnabled()) {
             return View::renderJson(['success' => false, 'error' => 'Cache not enabled']);
         }
 
-        apc_clear_cache();
-        apc_clear_cache('user');
-        apc_clear_cache('opcode');
+        apcu_clear_cache();
 
         return View::renderJson(['success' => true]);
     }
