@@ -10,6 +10,6 @@ class Apc
 {
     public static function isEnabled()
     {
-        return extension_loaded('apc') && ini_get('apc.enabled');
+        return extension_loaded('apcu') && ini_get('apcu.enabled');
     }
 }
