@@ -17,38 +17,25 @@ LBRY operates on a couple of different ports, and if there are conflicts/firewal
 - Port 50001 - LBRY wallet connections happen over port 50001. LBRY may fail to start if this port is blocked by a firewall or network rules.
 
 ### This is my first time running LBRY, and it won't start
-- If don't see the LBRY app starting up at all, run LBRY.exe with CMD (command prompt) to further debug the problem. Navigate to the installation path e.g. `C:\Program Files\LBRY` for x64 and `C:\Program Files (x86)\LBRY` for x86, type `LBRY.exe` and hit enter for the app to launch. This will show any errors the app has starting up. The most common issue [is related to incorrect Windows environment variables](https://superuser.com/questions/1178674/wmic-is-not-recognized-as-an-internal-or-external-command-operable-program-or/1178758).
+- If don't see the LBRY app starting up at all on Windows, run LBRY.exe with CMD (command prompt) to further debug the problem. Navigate to the installation path e.g. `C:\Program Files\LBRY` for x64 and `C:\Program Files (x86)\LBRY` for x86, type `LBRY.exe` and hit enter for the app to launch. This will show any errors the app has starting up. The most common issue [is related to incorrect Windows environment variables](https://superuser.com/questions/1178674/wmic-is-not-recognized-as-an-internal-or-external-command-operable-program-or/1178758).
 - Port 3333 already in use. This issue would reveal itself in the log file. You can see how to change this port [here](https://lbry.io/faq/how-to-change-port). If the port is properly forwarding, you are able to successfully see port 3333 open on this [port checker tool](http://www.canyouseeme.org).
 - Port 50001 wallet connection fails. This issue would reveal itself in the log file. Typical things to check would be firewall/security settings that may block this connection.
 - On Linux, LBRY may fail to start (home page won't load or missing authentication token in Help) because of missing authentication capability. Please see [GitHub issue](https://github.com/lbryio/lbry-desktop/issues/386) or a possible workaround below.
-- On Windows, LBRY may fail to start because of non-ASCII characters in your Windows username. Check your C:\users\<username> path to see if there are any such characters. Please see [GitHub issue](https://github.com/lbryio/lbry/issues/794) or workaround below.
+- On Mac, LBRY may fail to start if your MacOS version is too old - only 10.12.4 (Sierra) and higher supported. 
 
 ### LBRY used to work previously, but now it won't start
 First and foremost, please ensure you are on the [latest version](https://lbry.io/get) of LBRY. Reinstalling the latest version may alleviate some start-up issues. Before installing, either make sure there are no running LBRY/lbrynet processes or simply reboot your computer.
 
+- Try clearing your your blockchain data and headers in the [lbryum/lbc_mainnet folder](https://lbry.io/faq/lbry-directories)
 - On Windows, if you get stuck on the green "Starting daemon" screen, the lbrynet-daemon file may be missing. The workaround is to re-run the [latest](https://lbry.io/get) LBRY installation file and try again.
 - On older MAC installations, you may run into an issue with the daemon shutting down immediately. Please see [this GitHub issue](https://github.com/lbryio/lbry-desktop/issues/291) for troubleshooting.
 - On older Linux/Mac installs you may see `Cannot read property 'match' of undefined`. Install the [latest version](https://lbry.io/get) to fix this.
 - Other typical startup troubleshooting would be to ensure that the LBRY app or the lbrynet-daemon process is not already running in the background. If the processes cannot be killed, a restart of your computer may be required.
 
 ### Known startup issues and workarounds
-#### Stuck at blockchain sync {#sync}
-If you are stuck on the blockchain sync step or it shows a block count that doesn't decrease, you may need to clear your blockchain cache. To do so, Shut LBRY down completely by closing it from the system tray (check for running LBRY/lbrynet-daemon processes), delete the `blockchain_headers` file in the [lbryum folder](https://lbry.io/faq/lbry-directories) and then start LBRY again.
+#### Stuck at blockchain sync or wallet issues {#sync}
+If you are stuck on the blockchain sync step or it shows a block count that doesn't decrease, you may need to clear your blockchain headers and/or synced data. To do so, Shut LBRY down completely by closing it from the system tray (check for running LBRY/lbrynet-daemon processes), delete the `headers` and `blockchain.db` files in the [lbryum/lbc_mainnet folder](https://lbry.io/faq/lbry-directories) and then start LBRY again.
+
 #### Linux auth_token requirements {#auth}
 Currently, LBRY requires an authorization token to be generated using the [keytar](https://github.com/atom/node-keytar) libraries. Please ensure libsecret and keytar are installed. On some distributions, LBRY won't run unless gnome-keyring is also installed/operational. See [GitHub issue](https://github.com/lbryio/lbry-desktop/issues/386) for more information. If you get a GLIBCXX_3.4.2 error, please see [this issue](https://github.com/lbryio/lbry-desktop/issues/423#issuecomment-327519486).
-#### Windows user path has non-ASCII characters
-Currently, the LBRY app may fail to start because it does not support non-ASCII / non-English letters in the C:\Users\<username> directory where it tries to create your LBRY wallet, downloads and application data. As a workaround, you can manually set these directories in the `daemon_settings.yml` file within the [lbrynet folder](https://lbry.io/faq/lbry-directories). If this file does not exist in your [lbrynet folder](https://lbry.io/faq/lbry-directories), you can create one, or you can use [this sample](https://goo.gl/opybNE).
 
-This will configure your directories to the folders below, or you can create/edit the file to configure your own paths (but again, don't use any folders with non-ASCII letters):
-```
-{data_dir: 'c:\lbry\lbrynet',
-lbryum_wallet_dir: 'c:\lbry\lbryum',
-download_directory: 'c:\lbry\Downloads'}
-```
-Some Operating Systems may have this format:
-```
-data_dir: 'c:\lbry\lbrynet'
-lbryum_wallet_dir: 'c:\lbry\lbryum'
-download_directory: 'c:\lbry\Downloads'
-```
-After you are done inserting/editing the `daemon_settings.yml` configuration file, try re-running LBRY. The settings file has to stay in the original location, and LBRY will create the new folders/data in the specified directories. `lbrynet`/`lbryum` folders should be copied there if you are migrating from a previous installation. If you still receive this warning after completing the above steps, please [reach out to us](https://lbry.io/faq/how-to-report-bugs) for additional support.
