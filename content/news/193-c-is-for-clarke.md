@@ -16,7 +16,7 @@ We’ve overhauled the LBRY SDK (the program that allows computers to communicat
 So what’s in this goodie bag of a release? You can [read all the details in this doc](https://github.com/lbryio/lbry-desktop/releases/tag/v0.26.0), but here are the highlights:
 
 * **New custom reward codes for users.** Be on the lookout for contests and promotions for your opportunity to earn rewards! Reading this post and recently upgraded? Here’s one for the first 100 users to claim: `clarke-blogpost` 
-* **Major improvements to subscriptions.** We’re making sure that you see the newest content from your favorite creators as soon as it’s available with new notifications and systems to alert you to fresh content. A weekly email digest with new content from subscribed channels is also launching soon! 
+* **Major improvements to subscriptions.** Meet YRBL the Gerbil - he'll suggest some awesome channels to check out on LBRY! We’re also making sure that you see the newest content from your favorite creators as soon as it’s available with new notifications to alert you to fresh content. A weekly email digest with new content from subscribed channels is also launching soon! 
 * **Content tiles now show posting age.** No more wondering how old the video that you’re about to watch is - the explore page now displays how long ago videos were posted.
 * **A brand new “history” page.** In the “My LBRY” menu you can now view your watch history to revisit and share old favorites.
 * **More ways to share LBRY content.** In the past, it’s been a bit of a pain to share something from LBRY on the web. With new sharing options, it’s easier than ever.
