@@ -5,6 +5,9 @@ date: '2018-12-11 15:00:00'
 cover: 'space.jpg'
 ---
 
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The new LBRY is LIVE and faster than ever! Get all the details and find out how to redeem reward code &quot;clarke-twitter&quot; at the first link, and open your app to upgrade now! <br>New version details➡️ <a href="https://t.co/q1biOimkbd">https://t.co/q1biOimkbd</a><br>Don&#39;t have the app? Get it here➡️ <a href="https://t.co/vaEVyyR2lX">https://t.co/vaEVyyR2lX</a> <a href="https://t.co/4QMle1INIA">pic.twitter.com/4QMle1INIA</a></p>&mdash; LBRY (we never give away ETH) (@LBRYio) <a href="https://twitter.com/LBRYio/status/1072600527983296512?ref_src=twsrc%5Etfw">December 11, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 It may be a bit early in the season, but we have a big holiday gift for all our loyal LBRYians! We’re pleased to announce the release of LBRY Clarke, the newest (and best ever) version of the LBRY app. Our team’s first priority has been improving the reliability, stability, and speed of the LBRY network, and Clarke delivers an odyssey of upgrades on those fronts for both our desktop and Android apps (Android update expected in the coming days). 
 
 We’ve overhauled the LBRY SDK (the program that allows computers to communicate with one another on our decentralized network), and it’s never been this fast! These improvements will boost load speeds considerably across the LBRY ecosystem. During this upgrade, your wallet is also migrated to a new format and old version is [backed up safely](https://lbry.io/faq/how-to-backup-wallet#migration).
