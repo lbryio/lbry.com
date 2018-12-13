@@ -37,6 +37,9 @@ Arthur C. Clarke arguably created modern science fiction. Obsessed with explorat
 
 And he didn’t just leave his mark in the real world - as a pioneering science fiction author, Clarke brought the ideas of space travel and hard science to an eager audience of laymen. The author of “2001: A Space Odyssey” inspired Stanley Kubrick to create one of the most enduring visions of human frailty and potential ever put to film. Without Clarke, technology like LBRY wouldn’t be possible, and without his imagination, the world would be a bit less full of wonder.
 
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The new LBRY is LIVE and faster than ever! Get all the details and find out how to redeem reward code &quot;clarke-twitter&quot; at the first link, and open your app to upgrade now! <br>New version details➡️ <a href="https://t.co/q1biOimkbd">https://t.co/q1biOimkbd</a><br>Don&#39;t have the app? Get it here➡️ <a href="https://t.co/vaEVyyR2lX">https://t.co/vaEVyyR2lX</a> <a href="https://t.co/4QMle1INIA">pic.twitter.com/4QMle1INIA</a></p>&mdash; LBRY (we never give away ETH) (@LBRYio) <a href="https://twitter.com/LBRYio/status/1072600527983296512?ref_src=twsrc%5Etfw">December 11, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## Ready to Step Into The Future?
 
 [Download the LBRY app](https://lbry.io/get) today, and if you have any questions, let us know on [Twitter](https://www.twitter.com/lbryio)! 
