@@ -12,7 +12,7 @@ To be clear when I use the word "team" I am referencing the community along with
 
 In fact, community member Chris45 summed 2018 up very well on Twitter.
 
-![chris45](https://spee.ch/3/bc-chris45tweet)
+![chris45](https://spee.ch/3/bc-chris45tweet.jpg)
 
 Thanks for the great summary, and the memes!
 
