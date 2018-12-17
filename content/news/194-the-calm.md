@@ -22,7 +22,7 @@ I mention this as a way of saying thanks. It is that time of year after all.
 
 At the root of this whole thing is the idea of empowering the individual.
 
-Without everyone in the community this little blockchain marketplace project would be nothing. It is your project as much as it is anyone's else, and that is just the way we want it.
+Without everyone in the community, this little blockchain marketplace project would be nothing. It is your project as much as it is anyone's else, and that is just the way we want it.
 
 [Be sure to follow us on Twitter](https://twitter.com/lbryio), as the 12 Days Of Devmas are going on. We're giving out LBC everyday to celebrate! You'll want to have participated come next year, as there are going to be more ways to use LBC on the LBRY network than ever before.
 
