@@ -8,7 +8,7 @@ cover: 'bc-calm.jpg'
 
 It has been a big year for the LBRY team.
 
-To be clear when I use the word "team" I am referencing the community along with the company. Whether it is retweeting or commenting on Twitter, sharing a new meme with Julie and Tom, or uploading content onto the network, you know that this organization is defined by its community.
+To be clear when I use the word "team," I am referencing the community along with the company. Whether it is retweeting or commenting on Twitter, sharing a new meme with Julie and Tom, or uploading content onto the network, you know that this organization is defined by its community.
 
 In fact, community member Chris45 summed 2018 up very well on Twitter.
 
