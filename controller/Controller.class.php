@@ -106,6 +106,7 @@ class Controller
         $router->get('/youtube/{version}', 'AcquisitionActions::executeYouTube');
 
         $router->get('/verify/{token}', 'AcquisitionActions::executeVerify');
+        $router->get('/verify', 'AcquisitionActions::executeAutoVerify');
 
 
         $router->get('/news/category/{category}', 'ContentActions::executePostCategoryFilter');
