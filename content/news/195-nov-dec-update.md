@@ -1,11 +1,11 @@
 ---
 author: tom-zarebczan
-title: 'Development Update for October/November 2018'
+title: 'Development Update for November/December 2018'
 date: '2018-12-18 17:00:00'
 cover: 'holiday-bc.jpg'
 category: community-update
 ---
-Welcome to the October/November 2018 LBRY Development update! In this post we’ll show you what we’ve been up to and review our progress since our [last update in October](https://lbry.io/news/sept-dev-update) - sit tight, there’s lots to talk about below including big releases from the SDK and App teams! 
+Welcome to the November/December 2018 LBRY Development update! In this post we’ll show you what we’ve been up to and review our progress since our [last update in October](https://lbry.io/news/sept-dev-update) - sit tight, there’s lots to talk about below including big releases from the SDK and App teams! 
 
 If you haven’t heard yet, we are running a [12 Days of DevMas campaign on Twitter](https://twitter.com/LBRYio) by rewarding our app users with free LBC! Also as a special bonus for readers of this update, enjoy some LBC via this code (while supplies last!): `dev-update-nov-tzbc`
 
@@ -42,9 +42,9 @@ You may have noticed a facelift in the Clarke release, but another is already in
 ![redesign progress](https://spee.ch/@lbry:3f/redesign-progress-2.jpg)
 
 ### LBRY for Android Updates {#android}
-Along with LBRY Clarke, we released a LBRY for Android update, which is available through the (Playstore](https://play.google.com/store/apps/details?id=io.lbry.browser) or via [APK](http://build.lbry.io/android/latest.apk). 
+Along with LBRY Clarke, we released a LBRY for Android update, which is available through the [Playstore](https://play.google.com/store/apps/details?id=io.lbry.browser) or via [APK](http://build.lbry.io/android/latest.apk). 
 
-Please remember, if you previously installed the APK version, you’ll need to uninstal itl for the Play store version to work. Make sure to [backup your wallet](https://lbry.io/faq/how-to-backup-wallet))! This version supports the latest LBRY SDK which means faster startup, download speeds, and upgraded wallet. It also includes 2 new features: the ability to tip and redeem reward codes! 
+Please remember, if you previously installed the APK version, you’ll need to uninstall it for the Play store version to work. Make sure to [backup your wallet](https://lbry.io/faq/how-to-backup-wallet)! This version supports the latest LBRY SDK which means faster startup, download speeds, and upgraded wallet. It also includes 2 new features: the ability to tip and redeem reward codes! 
 
 ![Android](https://spee.ch/@lbry:3f/android-reward-code.jpg)
 
