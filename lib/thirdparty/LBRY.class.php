@@ -78,6 +78,9 @@ class LBRY
 
     public static function logWebVisitor($site, $visitorID, $IPAddress)
     {
-        return Curl::post(static::getApiUrl("/visitor/new"), ['site' => $site, 'visitor_id' => $visitorID, 'ip_address' => $IPAddress], ['json_response' => true]);
+        if (IS_PRODUCTION)
+        {
+            return Curl::post(static::getApiUrl("/visitor/new"), ['site' => $site, 'visitor_id' => $visitorID, 'ip_address' => $IPAddress], ['json_response' => true]);
+        }
     }
 }

@@ -12,7 +12,8 @@ class Session
     const NAMESPACE_DEFAULT = 'default',
         NAMESPACE_FLASH = 'flash',
         NAMESPACE_FLASH_REMOVE = 'flash_remove',
-        USER_ID = 'user_id';
+        USER_ID = 'user_id',
+        SITE_ID = 'lbry.io';
 
     public static function init()
     {
@@ -33,8 +34,15 @@ class Session
             static::setNamespace(static::NAMESPACE_DEFAULT, $oldSession);
         }
 
-        $response = LBRY::logWebVisitor('lbry.io', $_SESSION[static::USER_ID], $_SERVER['REMOTE_ADDR']);
-        $_SESSION[static::USER_ID] = $response['data']['visitor_id'];
+        $site_visitor_id = key_exists(static::USER_ID,$_SESSION) ? $_SESSION[static::USER_ID] : '';
+        $response = LBRY::logWebVisitor(static::SITE_ID, $site_visitor_id,  $_SERVER['REMOTE_ADDR']);
+        if (key_exists('data',$response) && key_exists('visitor_id',$response['data']))
+        {
+            $_SESSION[static::USER_ID] = $response['data']['visitor_id'];
+        }else{
+            $_SESSION[static::USER_ID] = '';
+        }
+
 
         static::initFlashes();
     }

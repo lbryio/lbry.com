@@ -16,8 +16,6 @@
    fbq('init', '1618717031725766',{uid: '<?php echo $_SESSION[Session::USER_ID] ?>'}));
    fbq('track', '<?php echo Response::getFacebookPixelAnalyticsType() ?>');
 
-    <?php LBRY::logWebVisitor('lbry.io', $_SESSION[Session::USER_ID], $_SERVER['REMOTE_ADDR'])?>
-
   </script>
 <?php else: ?>
   <script>
