@@ -34,9 +34,9 @@ class Session
             static::setNamespace(static::NAMESPACE_DEFAULT, $oldSession);
         }
 
-        Response::addPostRenderCallback(function(){
+        Response::addPostRenderCallback(function () {
             $site_visitor_id = key_exists(static::USER_ID, $_SESSION) ? $_SESSION[static::USER_ID] : '';
-            $response = LBRY::logWebVisitor(static::SITE_ID, $site_visitor_id, $_SERVER['REMOTE_ADDR']);
+            $response = LBRY::logWebVisitor(static::SITE_ID, $site_visitor_id, static::getOriginalIp());
             if (!is_null($response)
                 && key_exists('data', $response)
                 && key_exists('visitor_id', $response['data'])) {
@@ -110,5 +110,10 @@ class Session
     public function persistFlashes()
     {
         static::unsetNamespace(static::NAMESPACE_FLASH_REMOVE);
+    }
+
+    public static function getOriginalIp()
+    {
+        return $_SERVER['HTTP_X_FORWARDED_FOR'] ?? $_SERVER['REMOTE_ADDR'] ?? null;
     }
 }
