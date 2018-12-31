@@ -11,13 +11,16 @@ class Session
 
     const NAMESPACE_DEFAULT = 'default',
         NAMESPACE_FLASH = 'flash',
-        NAMESPACE_FLASH_REMOVE = 'flash_remove';
+        NAMESPACE_FLASH_REMOVE = 'flash_remove',
+        USER_ID = 'user_id',
+        SITE_ID = 'lbry.io';
 
     public static function init()
     {
         ini_set('session.cookie_secure', IS_PRODUCTION); // send cookie over ssl only
-    ini_set('session.cookie_httponly', true); // no js access to cookies
-    session_start();
+        ini_set('session.cookie_httponly', true); // no js access to cookies
+        session_start();
+
 
         if (!static::get('secure_and_httponly_set')) {
             session_regenerate_id(); // ensure that old cookies get new settings
@@ -30,6 +33,18 @@ class Session
             session_unset();
             static::setNamespace(static::NAMESPACE_DEFAULT, $oldSession);
         }
+
+        Response::addPostRenderCallback(function(){
+            $site_visitor_id = key_exists(static::USER_ID, $_SESSION) ? $_SESSION[static::USER_ID] : '';
+            $response = LBRY::logWebVisitor(static::SITE_ID, $site_visitor_id, $_SERVER['REMOTE_ADDR']);
+            if (!is_null($response)
+                && key_exists('data', $response)
+                && key_exists('visitor_id', $response['data'])) {
+                $_SESSION[static::USER_ID] = $response['data']['visitor_id'];
+            } else {
+                $_SESSION[static::USER_ID] = '';
+            }
+        });
 
         static::initFlashes();
     }

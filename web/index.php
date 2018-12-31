@@ -28,6 +28,8 @@ try {
         View::compileCss();
     }
     Controller::dispatch(Request::getRoutingUri());
+    flush();
+    Response::invokePostRenderCallbacks();
 } catch (Throwable $e) {
     if (IS_PRODUCTION) {
         Slack::sendErrorIfProd($e);

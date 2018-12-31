@@ -35,6 +35,8 @@ class Response
     protected static $metaImages = [];
     protected static $facebookAnalyticsType = "PageView";
 
+    private static $PostRenderCallbacks = array();
+
     public static function setMetaDescription($description)
     {
         static::$metaDescription = $description;
@@ -367,6 +369,19 @@ class Response
       },
       strtr(ucfirst(strtolower($name)), '_', '-')
     );
+    }
+
+    public static function addPostRenderCallback( $cb )
+    {
+        array_push(static::$PostRenderCallbacks, $cb);
+    }
+
+    public static function invokePostRenderCallbacks()
+    {
+        foreach(static::$PostRenderCallbacks as &$cb )
+        {
+            $cb();
+        }
     }
 
 
