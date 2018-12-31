@@ -36,7 +36,7 @@ class Session
 
         Response::addPostRenderCallback(function () {
             $site_visitor_id = key_exists(static::USER_ID, $_SESSION) ? $_SESSION[static::USER_ID] : '';
-            $response = LBRY::logWebVisitor(static::SITE_ID, $site_visitor_id, static::getOriginalIp());
+            $response = LBRY::logWebVisitor(static::SITE_ID, $site_visitor_id, static::getClientIP());
             if (!is_null($response)
                 && key_exists('data', $response)
                 && key_exists('visitor_id', $response['data'])) {
@@ -112,8 +112,42 @@ class Session
         static::unsetNamespace(static::NAMESPACE_FLASH_REMOVE);
     }
 
-    public static function getOriginalIp()
+    public static function getClientIP()
     {
-        return $_SERVER['HTTP_X_FORWARDED_FOR'] ?? $_SERVER['REMOTE_ADDR'] ?? null;
+        // Nothing to do without any reliable information
+        if (!isset($_SERVER['REMOTE_ADDR'])) {
+            return null;
+        }
+
+        // Header that is used by the trusted proxy to refer to
+        // the original IP
+        $proxyHeader = "HTTP_X_FORWARDED_FOR";
+
+        // List of all the proxies that are known to handle 'proxy_header'
+        // in known, safe manner
+        $trustedProxies = array("127.0.0.1");
+
+        if (in_array($_SERVER['REMOTE_ADDR'], $trustedProxies)) {
+
+            // Get IP of the client behind trusted proxy
+            if (array_key_exists($proxyHeader, $_SERVER)) {
+
+                // Header can contain multiple IP-s of proxies that are passed through.
+                // Only the IP added by the last proxy (last IP in the list) can be trusted.
+                $clientIP = trim(end(explode(",", $_SERVER[$proxyHeader])));
+
+                // Validate just in case
+                if (filter_var($clientIP, FILTER_VALIDATE_IP)) {
+                    return $clientIP;
+                } else {
+                    // Validation failed - beat the guy who configured the proxy or
+                    // the guy who created the trusted proxy list?
+                    // TODO: some error handling to notify about the need of punishment
+                }
+            }
+        }
+
+        // In all other cases, REMOTE_ADDR is the ONLY IP we can trust.
+        return $_SERVER['REMOTE_ADDR'];
     }
 }
