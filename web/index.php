@@ -28,6 +28,7 @@ try {
         View::compileCss();
     }
     Controller::dispatch(Request::getRoutingUri());
+    ob_flush();
     flush();
     Response::invokePostRenderCallbacks();
 } catch (Throwable $e) {
