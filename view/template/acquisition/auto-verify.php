@@ -8,11 +8,12 @@
     <link rel="icon" href="images/favicon.ico">
     <script src='https://www.google.com/recaptcha/api.js?' async defer></script>
     <script type="text/javascript">
-        const ENDPOINT = 'https://api.lbry.io/user_email/confirm_v2'
+        const ENDPOINT = 'https://api.lbry.io/user_email/confirm'
 
-        var verifyUser = function(email, verification_token, recaptcha) {
-            const url = `${ENDPOINT}?email=${email}&verification_token=${verification_token+"x"}&recaptcha=${recaptcha}`;
+        var verifyUser = function(temporary_auth_token, email, verification_token, recaptcha) {
+            const url = `${ENDPOINT}?auth_token=${temporary_auth_token}&email=${email}&verification_token=${verification_token}&recaptcha=${recaptcha}`;
             fetch(url)
+                .then(response => response.json())
                 .then((response) => {
                     if (response.error) {
                         throw Error(response.error)
@@ -31,11 +32,12 @@
 
         var verifyCallback = function(response) {
             const urlParams = new URLSearchParams(window.location.search);
+            const temporary_auth_token = urlParams.get('auth_token');
             const email = urlParams.get('email')
             const verification_token = urlParams.get('verification_token');
             // In the future we will have an `origin` query, to smartly redirect (or tell users they are verified)
             // eg. if origin == "android" and device == "android" open the app, else say "your android app is verified"
-            verifyUser(email, verification_token, response);
+            verifyUser(temporary_auth_token, email, verification_token, response);
 
             document.getElementById("captcha-block").style.display = "none";
             document.getElementById("verify").style.display = "block";
@@ -64,7 +66,8 @@
         <p style="margin-top: 10px">There was an error. Contact help@lbry.io if this keeps happening.</p>
     </div>
     <div style="display: none; margin-top: 10px;" id="verify-success">
-        <p>Success! Your email is now verified in the app</p>
+        <p class="spacer1">Success! Your email is now verified.</p>
+        <a class="btn-primary btn-large" href="lbry://?verify">Go Back To The App</a>
     </div>
 </div>
 </body>
