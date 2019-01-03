@@ -43,6 +43,10 @@ If you have run one of the latest Desktop or Android releases, you'll notice a f
 
 The process of restoring a previously backed up wallet is fairly simple. After installing LBRY, you would find the location of your wallet (see section above on finding the wallet) and replace the newly generated wallet with your backup copy (LBRY needs to be completely shut down when you do so). Before replacing the existing `default_wallet`, please confirm there are no credits inside of it by opening the LBRY app and checking the balance in the top right next to the bank icon - this should read 0 if the wallet is empty. Once the backed up `default_wallet` file is in place, start LBRY, and your balance should now be updated. 
 
+## Can I use the same wallet on mulitple PCs / installations?
+
+As of LBRY SDK 0.30 (December 2018), you can copy the default_wallet file to multiple installations and have them synced. The only thing that won't sync at the moment is channels that are created after the file is copied (the file would need to be copied again to access the channels). 
+
 ## I need help with backup or recovery, who can I reach out to?
 
 We are always here to help - check out our [help page](https://lbry.io/faq/support) on how to reach us.
