@@ -1,6 +1,6 @@
 ---
 author: brinck-slattery
-title: 'What Is Thingiverse?”'
+title: 'What Is Thingiverse?'
 date: '2019-01-03 12:00:00'
 cover: 'thingiverse.jpg'
 ---
