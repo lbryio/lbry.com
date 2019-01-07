@@ -27,7 +27,7 @@ class AcquisitionActions extends Actions
 
         return Controller::redirect(Request::getReferrer(), 303);
     }
-      
+
     public static function executeYouTube(string $version = '')
     {
         if (isset($_GET['error_message'])) {
@@ -57,6 +57,11 @@ class AcquisitionActions extends Actions
     public static function executeVerify(string $token)
     {
         return ['acquisition/verify', ['token' => $token]];
+    }
+
+    public static function executeAutoVerify()
+    {
+        return ['acquisition/auto-verify'];
     }
 
     public static function executeYoutubeToken()
