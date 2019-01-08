@@ -11,7 +11,8 @@
         const ENDPOINT = 'https://api.lbry.io/user_email/confirm'
 
         var verifyUser = function(temporary_auth_token, email, verification_token, recaptcha) {
-            const url = `${ENDPOINT}?auth_token=${temporary_auth_token}&email=${email}&verification_token=${verification_token}&recaptcha=${recaptcha}`;
+
+            const url = `${ENDPOINT}?auth_token=${temporary_auth_token}&email=${encodeURIComponent(email)}&verification_token=${verification_token}&recaptcha=${recaptcha}`;
             fetch(url)
                 .then(response => response.json())
                 .then((response) => {
