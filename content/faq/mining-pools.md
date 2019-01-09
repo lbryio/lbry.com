@@ -14,5 +14,7 @@ However, some pools are in a partnership with the independent community initiati
 - [SuprNova](https://lbry.suprnova.cc/index.php?page=gettingstarted)
 - [CoinMine](https://www2.coinmine.pl/lbc/index.php?page=gettingstarted)
 - [NiceHash](https://www.nicehash.com/marketplace/lbry)
+- [AHashPool](https://www.ahashpool.com/)
+- [Power Mining Pool](https://www.powermining.pw/)
 
 The current breakdown of mining hash rates can be found on [Mining Pool Stats](https://miningpoolstats.stream/lbry)
