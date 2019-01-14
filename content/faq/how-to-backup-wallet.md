@@ -48,7 +48,7 @@ The process of restoring a previously backed up wallet is fairly simple. After i
 
 ## Can I use the same wallet on mulitple PCs / installations?
 
-As of LBRY SDK 0.30 (December 2018), you can copy the default_wallet file to multiple installations and have them synced. The only thing that won't sync at the moment is channels that are created after the file is copied (the file would need to be copied again to access the channels). 
+As of LBRY SDK 0.30 (December 2018), you can copy the default_wallet file to multiple installations and have them synced. You can even do so between PC + Android, as long as the wallet is not encrypted (Android does not support encryption yet). The only thing that won't sync at the moment is channels that are created after the file is copied (the file would need to be copied again to access the channels). 
 
 ## I need help with backup or recovery, who can I reach out to?
 
