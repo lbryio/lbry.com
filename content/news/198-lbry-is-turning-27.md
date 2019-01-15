@@ -8,6 +8,6 @@ We’ve made some tweaks under the hood in LBRY v0.27.0, and we think you’re g
 
 ![gif](https://spee.ch/@lbry:3f/0270-app-gif.gif)
 
-Upgrade now in-app or [download the newest version of LBRY](https://lbry.io/get) - if you’re one of the first 100 on board, you can use reward code “027-upgrade-xasdweg” for a little token of our gratitude.
+Upgrade now in-app or [download the newest version of LBRY](https://lbry.io/get) - if you’re one of the first 100 on board, you can use reward code `027-upgrade-xasdweg` for a little token of our gratitude.
 
 We need you to build the new, decentralized internet - if you have any questions about this release or anything else, ask us on [Discord](chat.lbry.io) or [Twitter](https://twitter.com/lbryio).
