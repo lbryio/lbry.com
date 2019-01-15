@@ -6,7 +6,7 @@
     <h1 class="cover-title cover-title-flat text-center">Content Freedom</h1>
   </div>
   <div class="cover home__media">
-    <a href="/get"><img alt="Picture of LBRY Browser" src="https://spee.ch/7/home-demo.gif" /></a>
+    <a href="/get"><img alt="Picture of LBRY Browser" src="https://spee.ch/@lbry:3f/0270-app-gif.gif" /></a>
   </div>
   <div class="cover cover-light content content-light content-wide home__copy">
     <div class="spacer2">
