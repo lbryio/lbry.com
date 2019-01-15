@@ -2,7 +2,7 @@
 author: brinck-slattery
 title: 'LBRY is turning 0.27.0'
 date: '2019-1-15 15:00:00'
-cover: bosch.jpg'
+cover: 'bosch.jpg'
 ---
 We’ve made some tweaks under the hood in LBRY v0.27.0, and we think you’re going to like the results - along with a faster, more stable network courtesy of [LBRY SDK 0.30.4](https://github.com/lbryio/lbry/releases/tag/v0.30.4), v0.27.0 includes a number of minor bug fixes and streamlines email verification. You can get all the gritty details [here](https://github.com/lbryio/lbry-desktop/releases/tag/v0.27.0).
 
