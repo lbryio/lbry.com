@@ -35,7 +35,8 @@ class Session
         }
 
         Response::addPostRenderCallback(function () {
-            $site_visitor_id = key_exists(static::USER_ID, $_SESSION) ? $_SESSION[static::USER_ID] : '';
+            $ga_cid = filter_input(INPUT_COOKIE, 'ga_cid');
+            $site_visitor_id = key_exists(static::USER_ID, $_SESSION) ? $_SESSION[static::USER_ID] : $ga_cid;
             $response = LBRY::logWebVisitor(static::SITE_ID, $site_visitor_id, static::getClientIP());
             if (!is_null($response)
                 && key_exists('data', $response)
