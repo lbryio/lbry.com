@@ -29,7 +29,7 @@ If you have already installed the app, go send an invite to a few friends. There
 
 The more you use the app and the deeper you go into the community, the better chance we all have of winning.
 
-[If you like to hang out on Discord, there are a lot of people doing that.](https://discordapp.com/invite/YjYbwhS)
+[If you like to hang out on Discord, there are a lot of people doing that.](https://chat.lbry.io)
 
 [Are you into Reddit? Close to 5,000 LBRYians are over there, hanging out.](https://www.reddit.com/r/lbry/)
 
