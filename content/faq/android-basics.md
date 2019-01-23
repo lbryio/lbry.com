@@ -20,7 +20,7 @@ No other data is stored with your email login. All other data, including your [w
 
 ### How Do I Change My LBRY Connected Email?
 
-If you ever need to change your LBRY Android App email address or sign out, please see [this guide](https://lbry.io/faq/how-to-change-email#android).
+If you ever need to change your LBRY Android App email address or sign out, please see [this guide](https://lbry.io/faq/how-to-change-email#android). Clearing data or uninstalling leads to a loss of wallet currently, please [backup your wallet data](https://lbry.io/faq/how-to-backup-wallet#android).
 
 If you sign into a new email and need to transfer your verification status, you'll need to [reach out to us](mailto:help@lbryio) in order to link your accounts. Please do not verify again to obtain rewards on a 2nd account; your Rewards account may be disabled for abuse.
 
