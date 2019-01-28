@@ -92,6 +92,20 @@ class Github
     );
     }
 
+    public static function listRoadmapItems($cache = true)
+    {
+        //below should be replaced with internal-issues and 2019 once it works
+        return array_reduce(static::get('/repos/lbryio/lbry.io/issues?label=consider%20soon'), function($issues, $issue) {
+            return array_merge($issues, [[
+                'name' => $issue['title'],
+                'badge' => 'foo', //fix
+                'date' => '2019-12-31', //fix
+                'quarter_date' => 'Q2 2019', //fix
+                'body' => $issue['body_html']
+            ]]);
+        }, []);
+    }
+
     public static function listRoadmapChangesets($cache = true)
     {
         $sets        = [];

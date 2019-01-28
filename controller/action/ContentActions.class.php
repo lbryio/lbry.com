@@ -246,11 +246,11 @@ class ContentActions extends Actions
             }
         }
 
-        $items = array_merge(Asana::listRoadmapTasks($cache), $githubItems);
+        $items = array_merge(['2019' => Github::listRoadmapItems($cache)], $githubItems);
         return ['content/roadmap', [
-      'projectMaxVersions' => $projectMaxVersions,
-      'items' => $items
-    ]];
+          'projectMaxVersions' => $projectMaxVersions,
+          'items' => $items
+        ]];
     }
 
     public static function executePressKit(): array
