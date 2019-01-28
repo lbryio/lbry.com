@@ -11,7 +11,6 @@ class Config
     const GITHUB_APP_CLIENT_SECRET = "github_app_client_secret";
     const LBRY_API_SERVER = "lbry_api_server";
     const MAILCHIMP_KEY = "mailchimp_key";
-    const ASANA_KEY = "asana_key";
     const AWS_LOG_ACCESS_KEY = "aws_log_access_key";
     const AWS_LOG_SECRET_KEY = "aws_log_secret_key";
     const MAILGUN_API_KEY = "mailgun_api_key";

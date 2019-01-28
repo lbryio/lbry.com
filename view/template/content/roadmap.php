@@ -14,16 +14,6 @@
       </div>
     </div>
   </div>
-  <div class="content content-light spacer2">
-    <h4>Roadmap Notes</h4>
-    <p>
-      Our roadmap pulls change notes directly from our Git repo via <a href="https://github.com/lbryio/lbry" class="link-primary">GitHub</a>.
-      Ongoing, Upcoming and Future items are pulled directly from our internal project management system (<a href="https://asana.com" class="link-primary">Asana</a>).
-    </p>
-    <p>
-      This roadmap only outlines past and anticipated technical changes, it does not cover other initiatives. Development was fast and furious among a small group prior to 0.6, and release notes are sparse.
-    </p>
-  </div>
   <div style="max-width: 800px; margin: 0 auto">
     <div class="roadmap-container" id="project-roadmap">
       <?php foreach ($items as $group => $groupItems): ?>
@@ -43,11 +33,8 @@
           <?php foreach ($groupItems as $item): ?>
             <?php ++$index ?>
             <div class="roadmap-item" <?php echo $index != 1 && isset($firstItem['sort_key']) ? 'style="display: none"' : '' ?>>
-              <?php if (isset($item['badge']) || isset($item['assignee'])): ?>
+              <?php if (isset($item['badge'])): ?>
                 <div>
-                  <?php if (isset($item['assignee'])): ?>
-                    <span class="roadmap-item-assignee"><?php echo $item['assignee'] ?></span>
-                  <?php endif ?>
                   <?php if (isset($item['badge'])): ?>
                     <?php switch ($item['badge']): case "Complete": ?>
                     <span class=" badge badge-primary"><?php echo $item['badge'] ?></span><br/>
