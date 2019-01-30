@@ -8,7 +8,8 @@
     <link rel="icon" href="images/favicon.ico">
     <script src='https://www.google.com/recaptcha/api.js?' async defer></script>
     <script type="text/javascript">
-        const ENDPOINT = 'https://api.lbry.io/user_email/confirm'
+
+        const ENDPOINT = '<?php echo LBRY::getApiUrl('/user_email/confirm')?>'
 
         var verifyUser = function(temporary_auth_token, email, verification_token, recaptcha) {
 
