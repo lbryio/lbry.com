@@ -2,11 +2,11 @@
 author: brinck-slattery
 title: ‘Our Android Is Getting Smarter'
 date: '2019-1-31 15:00:00'
-cover: JULIE-REPLACE.jpg'
+cover: 'blog_whyandroid.png'
 ---
 If you haven’t tried LBRY on Android yet, now’s the time to do it! This newest version brings enhanced content notifications, suggested content after you watch a video, and some other under-the-hood fixes.
 
-![gif](https://spee.ch/@lbry:3f/0270-app-gif.gif) ←JULIE REPLACE WITH SOCIAL GRAPHIC
+![Android update](https://spee.ch/@lbrynews:0/Android-update.jpg)
 
 We need your feedback to get LBRY for Android ready for prime time - [head to this link](https://play.google.com/store/apps/details?id=io.lbry.browser) on your mobile device to try it out, and let us know what you think on [Discord](https://chat.lbry.io) or [Twitter](https://www.twitter.com/lbryio)! 
 
