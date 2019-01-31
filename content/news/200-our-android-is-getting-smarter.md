@@ -1,6 +1,6 @@
 ---
 author: brinck-slattery
-title: ‘Our Android Is Getting Smarter'
+title: Our Android Is Getting Smarter
 date: '2019-1-31 15:00:00'
 cover: 'blog_whyandroid.png'
 ---
