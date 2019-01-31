@@ -1,6 +1,6 @@
 ---
 name: Reilly Smith
-role: Community Manager
+role: Former Community Manager
 email: reilly@lbry.io
 ---
 Reilly holds a BA in Film and Media Studies from the University of Oklahoma and consequently has spent a significant amount of time washing dishes.
