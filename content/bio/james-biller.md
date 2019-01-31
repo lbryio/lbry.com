@@ -1,6 +1,6 @@
 ---
 name: James Biller
-role: Marketing Intern
+role: Former Marketing Intern
 email: james@lbry.io
 twitter: billerjames
 github: jamesbiller
