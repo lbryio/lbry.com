@@ -1,12 +1,11 @@
 ---
 name: Rob Smith
-role: Product Growth and Marketing
+role: VP of Growth
 email: rob@lbry.io
 twitter: robdoes
 github: robvsmith
 ---
-Rob arrived at LBRY via a blockchain conference in where he met some of the team and got to talking about startups, games, and user experience.
 
-His focus is to ensure users get a top notch experience with the LBRY app, both from the product itself and through helpful communication.
+Rob focuses on ensuring users get a top notch experience with LBRY, from the earliest brand engagement to running the app and follow up communications.
 
-Rob loves learning new technology, creating immersive experiences, drumming, and cartooning.
+Rob loves creating immersive experiences through technology and art.
