@@ -79,6 +79,11 @@ class Controller
 
         $router->get(['/', 'home'], 'ContentActions::executeHome');
 
+        //
+        $router->get('/org', 'ContentActions::executeOrg');
+        $router->get('/tv', 'ContentActions::executeTv');
+        //
+
         $router->get(['/get', 'get'], 'DownloadActions::executeGet');
         $router->get(['/getrubin', 'getrubin'], 'DownloadActions::executeGet');
         foreach (array_keys(OS::getAll()) as $os) {

@@ -32,6 +32,20 @@ class ContentActions extends Actions
         return ['page/home'];
     }
 
+    //
+    public static function executeOrg(): array
+    {
+        Response::enableHttpCache();
+        return ['page/org'];
+    }
+
+    public static function executeTv(): array
+    {
+        Response::enableHttpCache();
+        return ['page/tv'];
+    }
+    //
+
     public static function executeNews(string $slug = null): array
     {
         Response::enableHttpCache();
