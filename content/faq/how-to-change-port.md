@@ -12,7 +12,7 @@ The most user friendly way to change the port permanently is to append the below
 Sample daemon_settings.yml (may vary by OS):   
 
     {download_directory: c:\users\lbry,
-    peer:port: 3334}
+    peer_port: 3334}
 
 ## Other Methods  
 To change the port once during runtime, set the LBRY_PEER_PORT env variable. Here's one way to do this:
