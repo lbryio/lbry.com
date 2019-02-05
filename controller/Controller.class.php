@@ -77,12 +77,15 @@ class Controller
             return static::redirect('https://discord.gg/Z3bERWA');
         }
 
+        /*
+         * this is kind of a hack? unsure, so it probably is
+         */
         $hostName = $_SERVER['HTTP_HOST'];
         if ($hostName && in_array($hostName, ['lbry.org', 'lbry.tv'])) {
-            if ($uri !== '/') {
+            if ($uri !== '/' && substr($uri, 0, 5) !== '/list') { //especially this line
                 return static::redirect('/');
             }
-            switch($hostName) {
+            switch ($hostName) {
                 case 'lbry.org':
                     return ContentActions::executeOrg();
                 case 'lbry.tv':
