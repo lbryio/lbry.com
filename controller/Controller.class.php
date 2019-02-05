@@ -82,14 +82,15 @@ class Controller
          */
         $hostName = $_SERVER['HTTP_HOST'];
         if ($hostName && in_array($hostName, ['lbry.org', 'lbry.tv'])) {
-            if ($uri !== '/' && substr($uri, 0, 5) !== '/list') { //especially this line
+            if ($uri === '/') {
+                switch ($hostName) {
+                    case 'lbry.org':
+                        return ContentActions::executeOrg();
+                    case 'lbry.tv':
+                        return ContentActions::executeTv();
+                }
+            } elseif (substr($uri, 0, 5) !== '/list') { //especially this line
                 return static::redirect('/');
-            }
-            switch ($hostName) {
-                case 'lbry.org':
-                    return ContentActions::executeOrg();
-                case 'lbry.tv':
-                    return ContentActions::executeTv();
             }
         }
     }
