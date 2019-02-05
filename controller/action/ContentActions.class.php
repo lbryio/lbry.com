@@ -29,14 +29,6 @@ class ContentActions extends Actions
     public static function executeHome(): array
     {
         Response::enableHttpCache();
-
-        $serverName = Request::getServerName();
-        if ($serverName === 'lbry.org') {
-            return static::executeOrg();
-        } else if ($serverName === 'lbry.tv') {
-            return static::executeTv();
-        }
-
         return ['page/home'];
     }
 

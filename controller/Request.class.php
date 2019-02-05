@@ -121,11 +121,6 @@ class Request
         return static::getHeader('HTTPS') || strtolower(static::getHttpHeader('X_FORWARDED_PROTO')) == 'https';
     }
 
-    public static function getServerName(): string
-    {
-        return static::getHeader('SERVER_NAME');
-    }
-
     public static function getReferrer(string $fallback = '/')
     {
         return Request::getHttpHeader('Referer', $fallback);

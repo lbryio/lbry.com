@@ -49,7 +49,12 @@ class Controller
     public static function execute($method, $uri)
     {
         $router = static::getRouterWithRoutes();
-        static::performSubdomainRedirects();
+
+        $domainResult = static::performDomainRouting($uri);
+        if ($domainResult) {
+            return $domainResult;
+        }
+
         try {
             $dispatcher = new Routing\Dispatcher($router->getData());
             return $dispatcher->dispatch($method, $uri);
@@ -62,15 +67,28 @@ class Controller
         }
     }
 
-    protected static function performSubdomainRedirects()
+    protected static function performDomainRouting($uri)
     {
         $subDomain = Request::getSubDomain();
 
         switch ($subDomain) {
-      case 'chat':
-      case 'slack':
-        return static::redirect('https://discord.gg/Z3bERWA');
-    }
+          case 'chat':
+          case 'slack':
+            return static::redirect('https://discord.gg/Z3bERWA');
+        }
+
+        $hostName = $_SERVER['HTTP_HOST'];
+        if ($hostName && in_array($hostName, ['lbry.org', 'lbry.tv'])) {
+            if ($uri !== '/') {
+                return static::redirect('/');
+            }
+            switch($hostName) {
+                case 'lbry.org':
+                    return ContentActions::executeOrg();
+                case 'lbry.tv':
+                    return ContentActions::executeTv();
+            }
+        }
     }
 
     protected static function getRouterWithRoutes(): \Routing\RouteCollector
