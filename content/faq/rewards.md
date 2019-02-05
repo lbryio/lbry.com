@@ -32,6 +32,7 @@ If you are new to Publishing, check out [our guide](https://lbry.io/faq/how-to-p
 ### Custom reward codes {#reward-code}
 
 Custom reward codes can be claimed via the [Rewards](https://open.lbry.io/?rewards) page in the LBRY app. You may have been given a reward code via email, social media or you stumbled upon it somewhere - whichever way, you can claim it for LBC today! It's simple, just hit `Enter Code`, type it in and press `Redeem`. 
+![rewards](https://spee.ch/7/rewardcode.png)
 
 
 If you have any questions or problems with receiving the Rewards, feel free to [reach out to us](https://lbry.io/faq/support).
