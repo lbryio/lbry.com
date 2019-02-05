@@ -80,30 +80,46 @@ class Github
     public static function get($endpoint, array $params = [], $cache = true)
     {
         $twoHoursInSeconds = 7200;
-        if (Config::get(Config::GITHUB_APP_CLIENT_ID) && Config::get(Config::GITHUB_APP_CLIENT_SECRET))
+        $headers = ['Accept: application/vnd.github.v3.html+json'];
+//        if (Config::get(Config::GITHUB_APP_CLIENT_ID) && Config::get(Config::GITHUB_APP_CLIENT_SECRET))
+//        {
+//            $params['client_id'] = Config::get(Config::GITHUB_APP_CLIENT_ID);
+//            $params['client_secret'] = Config::Get(Config::GITHUB_APP_CLIENT_SECRET);
+//        }
+        if (Config::get(Config::GITHUB_PERSONAL_AUTH_TOKEN))
         {
-            $params['client_id'] = Config::get(Config::GITHUB_APP_CLIENT_ID);
-            $params['client_secret'] = Config::Get(Config::GITHUB_APP_CLIENT_SECRET);
+            $headers[] =  'Authorization: token ' . Config::get(Config::GITHUB_PERSONAL_AUTH_TOKEN);
         }
+
         return CurlWithCache::get(
         'https://api.github.com' . $endpoint . '?' . http_build_query($params),
         [],
-      ['headers' => ['Accept: application/vnd.github.v3.html+json'],'user_agent' => 'LBRY', 'json_response' => true, 'cache' => $cache === true ? $twoHoursInSeconds : $cache]
+      ['headers' => $headers, 'user_agent' => 'LBRY', 'json_response' => true, 'cache' => $cache === true ? $twoHoursInSeconds : $cache]
     );
     }
 
     public static function listRoadmapItems($cache = true)
     {
-        //below should be replaced with internal-issues and 2019 once it works
-        return array_reduce(static::get('/repos/lbryio/lbry.io/issues?label=consider%20soon'), function($issues, $issue) {
+//        echo '<pre>';
+//        print_r(static::get('/repos/lbryio/internal-issues/issues?labels=2019&filter=all'));
+//        die('a');
+        $issues = array_reduce(static::get('/repos/lbryio/internal-issues/issues?labels=2019&filter=all'), function($issues, $issue) {
             return array_merge($issues, [[
                 'name' => $issue['title'],
-                'badge' => 'foo', //fix
-                'date' => '2019-12-31', //fix
-                'quarter_date' => 'Q2 2019', //fix
+                'quarter_date' => array_reduce($issue['labels'], function($carry, $label) {
+                    if ($carry) { return $carry; }
+                    return $label['name'][0] === 'Q' ? $label['name'] . ' 2019' : '';
+                }, ''),
                 'body' => $issue['body_html']
             ]]);
         }, []);
+        usort($issues, function($a, $b) {
+            if ($a['quarter_date'] === $b['quarter_date']) {
+                return $a['name'] < $b['name'] ? -1 : 1;
+            }
+           return $a['quarter_date'] < $b['quarter_date'] ? -1 : 1;
+        });
+        return $issues;
     }
 
     public static function listRoadmapChangesets($cache = true)

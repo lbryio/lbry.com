@@ -234,21 +234,26 @@ class ContentActions extends Actions
     public static function executeRoadmap()
     {
         $cache = !Request::getParam('nocache');
-        $githubItems = Github::listRoadmapChangesets($cache);
-        $projectMaxVersions = [];
-        foreach ($githubItems as $group => $items) {
-            if ($items) {
-                $firstItem = reset($items);
-                $project = $firstItem['project'];
-                if (!isset($projectMaxVersions[$project]) || $firstItem['sort_key'] > $projectMaxVersions[$project]) {
-                    $projectMaxVersions[$project] = $firstItem['sort_key'];
-                }
-            }
-        }
 
-        $items = array_merge(['2019' => Github::listRoadmapItems($cache)], $githubItems);
+        /*
+         * below will include past changes on the roadmap, considering dropping entirely
+         */
+
+//        $githubItems = Github::listRoadmapChangesets($cache);
+//        $projectMaxVersions = [];
+//        foreach ($githubItems as $group => $items) {
+//            if ($items) {
+//                $firstItem = reset($items);
+//                $project = $firstItem['project'];
+//                if (!isset($projectMaxVersions[$project]) || $firstItem['sort_key'] > $projectMaxVersions[$project]) {
+//                    $projectMaxVersions[$project] = $firstItem['sort_key'];
+//                }
+//            }
+//        }
+
+        $items = ['2019' => Github::listRoadmapItems($cache)]; // + $githubItems;
         return ['content/roadmap', [
-          'projectMaxVersions' => $projectMaxVersions,
+          'projectMaxVersions' => [],
           'items' => $items
         ]];
     }
