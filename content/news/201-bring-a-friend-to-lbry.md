@@ -1,6 +1,6 @@
 ---
 author: brinck-slattery
-title: ‘Bring a Friend to LBRY!'
+title: Bring a Friend to LBRY!
 date: '2019-2-5 15:00:00'
 cover: ‘opensourcegames.jpg'
 ---
