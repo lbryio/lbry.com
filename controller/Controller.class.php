@@ -89,7 +89,7 @@ class Controller
                     case 'lbry.tv':
                         return ContentActions::executeTv();
                 }
-            } elseif (substr($uri, 0, 5) !== '/list') { //especially this line
+            } else {
                 return static::redirect('/');
             }
         }
