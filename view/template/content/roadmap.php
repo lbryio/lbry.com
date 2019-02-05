@@ -10,20 +10,22 @@
     <div class="hero-content-wrapper">
       <div class="hero-content text-center">
         <h1 class="cover-title">{{roadmap.title}}</h1>
-        <h2 class="cover-subtitle">Past successes and future plans for the journey into the land of dragons.</h2>
+        <h2 class="cover-subtitle">Future plans for the journey into the land of dragons.</h2>
       </div>
     </div>
   </div>
   <div style="max-width: 800px; margin: 0 auto">
+    <p>Our top priorities, definitions of success, and target completion dates for key initiatives in <?php echo date('Y') ?> are outlined below.</p>
     <div class="roadmap-container" id="project-roadmap">
       <?php foreach ($items as $group => $groupItems): ?>
         <?php $firstItem = reset($groupItems) ?>
         <?php $isOpen = !isset($firstItem['project']) || !isset($firstItem['sort_key']) || $firstItem['sort_key'] === $projectMaxVersions[$firstItem['project']] ?>
+      <?php /*
         <h2 class="roadmap-group-title" <?php echo !$isOpen ? 'style="display: none"' : '' ?>">
           <span class="roadmap-group-title-label">
             <?php echo $group ?> <?php echo isset($firstItem['sort_key']) && $firstItem['sort_key'] === $projectMaxVersions[$firstItem['project']] ? '(latest)' : '' ?>
           </span>
-        </h2>
+        </h2> */ ?>
         <div class="roadmap-group <?php echo !$isOpen ? 'roadmap-group-closed' : '' ?>">
           <?php $maxItems = isset($firstItem['sort_key']) ? 1 : count($groupItems) ?>
           <?php $index = 0 ?>
@@ -60,14 +62,16 @@
                 <?php echo $item['date'] ? date('m-d-Y', strtotime($item['date'])) : '' ?>
                   <?php endif ?>
               </div>
-              <div class="roadmap-item-content markdown">
+              <div class="roadmap-item-content content markdown">
                 <?php echo $item['body'] ?: '<em class="no-results">No description</em>' ?>
               </div>
             </div>
          <?php endforeach ?>
         </div>
       <?php endforeach ?>
+        <?php /*
       <div class="text-center"><a href="javascript:;" class="link-primary show-all-roadmap-groups">Show Earlier Releases</a></div>
+ */ ?>
     </div>
   </div>
   <?php echo View::render('nav/_learnFooter') ?>

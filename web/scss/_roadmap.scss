@@ -117,6 +117,17 @@ $title-spur: 8 * $width-roadmap;
 {
   font-size: 0.9em;
   margin: 10px;
+  /* Paul, when you rebase on master and see this, these are temp rules I added to help the roadmap look only like lukewarm garbage rather than hot garbage*/
+  h3 {
+    font-size: $font-size-h4 !important;
+    margin-top: $spacing-vertical * 0.5 !important;
+  }
+  ul {
+    margin-left: 30px !important;
+  }
+  ul > li + li {
+    margin-top: $spacing-vertical * 0.25;
+  }
 }
 .roadmap-item-content a{@include anchor($color-primary);}
 .roadmap-item-assignee
