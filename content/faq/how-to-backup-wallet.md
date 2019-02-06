@@ -8,16 +8,15 @@ The LBRY application relies on blockchain technology and the LBRY Credits (LBC) 
 
 ## How do I find my wallet in the LBRY Desktop App?
 
-The easiest way to find the location of your LBRY wallet is via the [LBRY app](https://lbry.io/get).  Open LBRY and on the left side, you should see a sidebar menu called "wallet".
-![wallet](https://spee.ch/d/wallet.jpeg)
-
-Click on the Wallet tab to expand then click `Backup` numbered `1`.
-![backup](https://spee.ch/f/backup.jpeg)
-after clicking on backup, you will see a link for `Backup`, open the location of the link in your local machine and make a copy of the files stored in that location. If this link is grayed out, it usually means you don't have any credits (see section below on how to manually find the wallet).
-
-When you click `Backup`, you will be shown the location of your `lbryum` directory that contains the wallet file(numbered `2`).  Navigate to this directory via your file explorer to locate your wallet. You can either choose to backup this whole directory, the wallets directory inside it or the `default_wallet` file itself inside the wallets directory.
+The easiest way to find the location of your LBRY wallet is via the [LBRY app](https://lbry.io/get).  Open LBRY and on the left side, you should see a sidebar menu called "Wallet".
+![wallet](https://spee.ch/@clement:e/lbcwallet2.png)
 
 ## How do I backup my LBRY Desktop App wallet?
+Click on the Wallet tab to expand then click `Backup`.
+![backup](https://spee.ch/@clement:e/backup.png)
+after clicking on backup, you will see a link for `Backup`, open the location of the link in your local machine and make a copy of the files stored in that location. If this link is grayed out, it usually means you don't have any credits (see section below on how to manually find the wallet).
+
+When you click `Backup`, you will be shown the location of your `lbryum` directory that contains the wallet file.  Navigate to this directory via your file explorer to locate your wallet. You can either choose to backup this whole directory, the wallets directory inside it or the `default_wallet` file itself inside the wallets directory.
 
 Wallets should be copied securely to one or more locations which only you have control over. Anyone with access to the wallet file could potentially have access to your LBRY Credits. Backing up is the process by which you copy the wallet files from your PC to another secure location. We recommend using Flash Drives/USBs or other external media which is kept in your possession. It is recommended to copy the wallet to more than one backup location for redundancy, especially if you are storing larger amounts of credits.
 
