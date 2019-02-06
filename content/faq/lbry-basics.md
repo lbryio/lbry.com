@@ -53,7 +53,8 @@ They can all be found on the leftside of the LBRY app. Click `1` for Downloads t
 The easiest way to confirm that you are sharing correctly is to determine if the port used for seeding (3333) is open to the rest of the LBRY network. To do so, type 3333 into [this port checking tool](http://www.canyouseeme.org) and check the result. It if shows "open", you are all set. If it shows "closed", you may need to check your router settings for UPnP options (set to enable) or forward TCP port 3333 and UDP Port 4444 to your local computer running the LBRY app. Firewall and NAT settings may also affect the availability of these ports. 
 
 ### How can I search for content on LBRY?
-Searching in LBRY is as easy as typing your search term(s) into the address bar at the top and waiting for the results to return (**don't click Enter!**).
+Searching in LBRY is as easy as typing your search term(s) into the address bar at the top and waiting for the results to return.
+When you press enter, you will be given both the direct url and search results
 ![Search](https://spee.ch/@clement:e/search-on-lbry.png)
 
 Clicking the Enter key will skip the search function and go directly to the URL typed (if it's valid) - this is only helpful if you know the exact URL you are trying to view. We are still in the process of optimizing the search results; please bear with us if you are having trouble finding something! 
