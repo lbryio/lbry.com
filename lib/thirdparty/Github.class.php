@@ -100,10 +100,11 @@ class Github
 
     public static function listRoadmapItems($cache = true)
     {
-//        echo '<pre>';
-//        print_r(static::get('/repos/lbryio/internal-issues/issues?labels=2019&filter=all'));
-//        die('a');
-        $issues = array_reduce(static::get('/repos/lbryio/internal-issues/issues?labels=2019&filter=all'), function($issues, $issue) {
+        $apiResponse = IS_PRODUCTION ?
+            static::get('/repos/lbryio/internal-issues/issues?labels=2019&filter=all') :
+            include ROOT_DIR . '/data/dummy/githubroadmap.php';
+
+        $issues = array_reduce($apiResponse, function($issues, $issue) {
             return array_merge($issues, [[
                 'name' => $issue['title'],
                 'quarter_date' => array_reduce($issue['labels'], function($carry, $label) {
