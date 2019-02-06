@@ -6,8 +6,10 @@
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-60403362-1', 'auto');
+    ga('create', 'UA-60403362-1', 'auto', {'allowLinker': true});
     ga('require', 'GTM-NT8579P');
+    ga('require', 'linker');
+    ga('linker:autoLink', '<?php echo $_SERVER['HTTP_HOST'] ?>');
     ga('set', 'userId', '<?php echo $_SESSION[Session::USER_ID] ?>');
     ga('send', 'pageview');
     // put the Google Analytics Client ID into a cookie, so that it will be available to PHP
