@@ -13,94 +13,84 @@ If you don't have LBRY yet, download it [here](https://lbry.io/get).
 ### How do I Publish content?
 
 1. Click the `Publish` button in the top right of the screen.
-![Select Choose File](https://spee.ch/0/1-click-publish.jpeg)
+![Click the Publish Button](https://spee.ch/@clement:e/publish-to-lbry.png)
 
 2. Under the `Content` section, click `Choose File`.
-![Select the Content to Upload](https://spee.ch/5/choose-file-and-others.jpeg)
+![Select the Content to Upload](https://spee.ch/@clement:e/choosefile-for-lbry.png)
 
 3. On your local machine, select the content you wish to upload to LBRY. LBRY accepts any HTML5 format for video streaming; the full list can be found [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats). This means a web-optimized MP4 file is the best format. Other file types can also be uploaded, but won't be streamable via the LBRY app.
 
 4. Enter a `Title` and `Description` for your content.
-![choose a file](https://spee.ch/2/311-choose-file-and-others.jpeg)
+![choose title](https://spee.ch/@clement:e/title-description.png)
 
 5. Choose a `Thumbnail` or `Thumbnail URL` for your content. The `Thumbnail URL` is a hyperlink to an image file which will serve as a preview for your content. It can be any image/GIF URL, or you can use [spee.ch](https://www.spee.ch) to host it. The default pixel size is 800x450, but the app will scale it up/down. Images uploaded directly from your local machine as `Thumbnail` will be uploaded to [spee.ch](https://www.spee.ch).
-![Choose the Thumbnail Image](https://spee.ch/6/5thumbnail.jpeg)
+![Choose the Thumbnail Image](https://spee.ch/@clement:e/thumbnail2.png)
 
 6. Please make sure to check the option for mature audiences if your `Thumbnail` is categorized as NSFW (Not Safe For Work). Otherwise just click "Upload".
-![Select the Content to Upload](https://spee.ch/6/4-thumbnail44.jpeg)
 
 7. Under the `Price`, first, determine if you want to make your content free or set a price (in USD or LBC) per view.
-![Set Price](https://spee.ch/4/5-choose-a-price2.png)
+![Set Price](https://spee.ch/@clement:e/price.png)
 
-8. You have the option to select/create the channel you would like to publish the content under. If one isn't selected, it will be posted anonymously.
-![Select Channel or Anonymous](https://spee.ch/4/channel22.png)
+8. You have the option to select/create the channel you would like to publish the content under. If no channel is selected, it will be posted anonymously.
+![Select Channel or Anonymous](https://spee.ch/@clement:e/channel-choice.png)
 
 9. Type in the URL you want the content to be found under, along with a minimum of 0.0001 LBC deposit for the upload (current limit, may change in the future). If you are trying to outbid a user-friendly/common URL, the system will suggest a minimum bid to take over the content at that vanity URL. There may be a delay for this takeover. Check out the `#content` channel on our [Discord chat](https://chat.lbry.io) to see this information (search for your URL). For more details regarding the URL or bid, check out our [naming document](https://lbry.io/faq/naming).
-![Video URL and Deposit](https://spee.ch/e/8content-urlf.jpeg)
+![Video URL and Deposit](https://spee.ch/@clement:e/naming-channel.png)
 
 10. Next, there are selections for `Maturity`, `Language`,  and `License`. The default values are set as follows: Maturity being unchecked, which means the content is safe for all audiences, Language is set to `English`, and the License is set to `None`.  If a change is needed, click the dropdown menus and select the appropriate choice. Please check the `Mature audience only` option if your content is NSFW.
 
-![publish](https://spee.ch/c/7-license-2-and-publish.jpeg)
+![publish](https://spee.ch/@clement:e/final-publish-checks.png)
 
-11. Read and agree to the terms of service.
+*please review our terms of service before publishing [terms of service](https://lbry.io/termsofservice)
 
-12. Click `Publish`.
-![Click Publish](https://spee.ch/2/publish.jpeg)
+Click `Publish`.
 
-13. The file will process in the background and will be added to the LBRY Blockchain. Larger files will take longer to upload depending on your network speed. Please leave LBRY running while your content is in the "pending confirmation" mode. Currently, this page will not automatically refresh. You can continue to use LBRY while the upload completes.
+
+The file will process in the background and will be added to the LBRY Blockchain. Larger files will take longer to upload depending on your network speed. Please leave LBRY running while your content is in the "pending confirmation" mode. This page will automatically refresh and you will be notified when the publish is completed. You can continue to use LBRY while the upload completes.
 
 ### How do I create a Channel?
 
 1. Open the LBRY app.
 
 2. Once the application loads, click the `Publish` button in the top right of the screen.
-![Click the Publish Button](https://spee.ch/0/1-click-publish.jpeg)
+![Click the Publish Button](https://spee.ch/@clement:e/publish-to-lbry.png)
 
 3. Select a source file and then in the `Channel Name` section, click on the dropdown menu and select `New Channel` and then declare the name you would like for your channel. For more details on different channel types, see our write up on [naming](https://lbry.io/faq/naming).
-![Click the New Channel Dropdown](https://spee.ch/a/create-channel.jpeg)
 
-4. Once your name is selected, there is a `Deposit` section that is below numbered `3`. It requires a minimum bid of 0.0001 LBC (see more on deposits [here](https://lbry.io/faq/naming)). Please ensure that you have enough LBRY credits in your wallet to cover the bid amount.  There is also a small network fee associated with the creation of a channel.
-![Set the Deposit](https://spee.ch/a/create-channel.jpeg)
+4. Once your name is selected, there is a `Deposit` section that is below. It requires a minimum bid of 0.0001 LBC (see more on deposits [here](https://lbry.io/faq/naming)). Please ensure that you have enough LBRY credits in your wallet to cover the bid amount.  There is also a small network fee associated with the creation of a channel.
+![Set the Deposit](https://spee.ch/@clement:e/channel-create.png)
 
-5. Click `Create Channel` `numbered 4` once you have entered your bid amount. You now own `lbry://@channelnameyoubidon#Claim_ID` and `lbry://@channelnameyoubidon` (the vanity name without a claim id) if you are the highest bidder.
-![Create the Channel](https://spee.ch/a/create-channel.jpeg)
+5. Click `Create Channel` once you have entered your bid amount. You now own `lbry://@channelnameyoubidon#Claim_ID` and `lbry://@channelnameyoubidon` (the vanity name without a claim id) if you are the highest bidder.
 
 ### How do I delete my content and reclaim my deposit?
+ 
+1. Click on the `Publishes` tab from the leftside of the app.
 
-1. Click My LBRY on the left side of the LBRY app.
-![My LBRY](https://spee.ch/7/Mylbry.jpeg)
+2. Select the content you want to remove from LBRY
+![Content](https://spee.ch/@clement:e/remove-item.png)
 
-2. Click on the `Publishes` tab.
+3. Click on the `Delete` icon. If the delete icon does not respond, try downloading the content locally and try again.
+![delet](https://spee.ch/@clement:e/delete-item.png)
 
-3. Select the content you want to remove from LBRY
-![Content](https://spee.ch/c/contents.jpeg)
-
-4. Click `Remove`. If you don't see the remove button, try downloading the content locally again.
-![remove](https://spee.ch/4/delete.jpeg)
-
-5. There will be two options. `Abandon the claim for this URI` and `Delete this file from my computer`. Select the option that applies.  Abandoning your claim will release the LBC back into your wallet (99% of the time you want to select this).
-![abandon-delete box](https://spee.ch/1/abandon1.jpeg)
+4. There will be two options. `Delete this file from my computer` and `Abandon the claim for this URI`. Select the option that applies.  Abandoning your claim will release the LBC back into your wallet (99% of the time you want to select this).
+![abandon-delete box](https://spee.ch/@clement:e/choose.png)
 
 **Warning: Deleting content is permanent. Please make sure this is what you want to do before confirming the deletion.**
 
-Click `Remove` numbered as `2`. If you abandoned your claim, you should see the deposit back in your balance shortly.
+Click `Remove`. If you abandoned your claim, you should see the deposit back in your balance shortly.
 
 ### How do I edit my existing Published content?
-1. Click on My LBRY the left side of the LBRY app.
-![My LBRY](https://spee.ch/7/Mylbry.jpeg)
+1. Click on the `Publishes` tab from the leftside of the app.
 
-2. Click on the `Publish` tab.
+2. Select the content you want to update.
+![Content](https://spee.ch/@clement:e/content-update.png)
 
-3. Select the content you want to update.
-![Content](https://spee.ch/c/contents.jpeg)
+3. Click `Edit`.
+![Edit](https://spee.ch/@clement:e/cedit.png)
 
-4. Click `Edit`.
-![Edit](https://spee.ch/c/edit.jpeg)
+4. You can now edit your claim information. No need to re-select the file if it's the same one or has the same url.
 
-5. You can now edit your claim information. No need to re-select the file if it's the same one.
-
-6. When you are done, re-confirm that you agree to the terms of service and click `Edit`.
-![Agree Edit](https://spee.ch/b/agree.jpeg)
+5. When you are done, click `Edit`.
 
 ### Can someone tip me for my content?
 Yes, check out how tipping in LBRY works by going [here](https://lbry.io/faq/tipping).
