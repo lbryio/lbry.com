@@ -4,7 +4,7 @@ category: getstarted
 ---
 
 To provide a rich user experience and to [distribute](https://lbry.io/faq/credit-policy) LBRY Credits (LBC) into the hands of new and returning users, LBRY created a Rewards system where credits are earned by completing tasks throughout the application. Rewards are given to promote application testing, learning certain in-app skills, building the LBRY economy through purchasing and publishing content, and as a small "thank you" gift for being part of a revolutionary digital media platform. For qualified users, Rewards are issued automatically by the LBRY app into each users' [LBRY wallet](https://lbry.io/faq/how-to-backup-wallet). **Note: There is a limit of 3 Reward redemptions per day**. 
-![rewards2](https://spee.ch/ca693e3a6ba9e5ff78274ddace3b1ae6886b6505/rewards-8-2-2018.jpeg)
+![rewards2](https://spee.ch/@clement:e/new-rewards.png)
 
 ### Verification requirements
 
@@ -32,7 +32,7 @@ If you are new to Publishing, check out [our guide](https://lbry.io/faq/how-to-p
 ### Custom reward codes {#reward-code}
 
 Custom reward codes can be claimed via the [Rewards](https://open.lbry.io/?rewards) page in the LBRY app. You may have been given a reward code via email, social media or you stumbled upon it somewhere - whichever way, you can claim it for LBC today! It's simple, just hit `Enter Code`, type it in and press `Redeem`. 
-![rewards](https://spee.ch/7/rewardcode.png)
+![rewards](https://spee.ch/@clement:e/rewards.png)
 
 
 If you have any questions or problems with receiving the Rewards, feel free to [reach out to us](https://lbry.io/faq/support).
