@@ -10,7 +10,12 @@
        data-analytics-label="<?php echo $analyticsLabel ?>"
     ><?php echo $buttonLabel ?></a>
   <?php else: ?>
-    <a href="<?php echo $downloadUrl ?>" class="btn--google-play">
+    <a href="<?php echo $downloadUrl ?>" class="btn--google-play"
+       data-facebook-track="1"
+       data-analytics-category="Sign Up"
+       data-analytics-action="Download"
+       data-analytics-label="<?php echo $analyticsLabel ?>"
+       >
       <img alt="<?php echo $buttonLabel ?>" src="https://play.google.com/intl/en_us/badges/images/badge_new.png"/>
     </a>
   <?php endif ?>
