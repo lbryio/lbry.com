@@ -9,6 +9,6 @@
       'submitLabel' => 'Sign Me Up',
     ]) ?>
 
-    <p>Go back to <strong><a href="/">lbry.io</a></strong></p>
+    <p>Go back to <strong><a href="https://lbry.io">lbry.io</a></strong></p>
   </section>
 </main>
