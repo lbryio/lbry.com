@@ -13,6 +13,7 @@ The current breakdown of mining hash rates can be found on [Mining Pool Stats](h
 ## New Pools! Help Distribute Hash!!
 - [AHashPool](https://www.ahashpool.com/)
 - [Power Mining Pool](https://www.powermining.pw/)
+- [Zerg Pool](https://zergpool.com/)
 
 ## Established Pools
 - [LBRY Community Pool](http://lbrypool.com) <- Support the LBRY community with this pool!  
