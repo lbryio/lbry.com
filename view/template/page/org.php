@@ -1,7 +1,7 @@
 <main class="soon">
   <section>
     <h1><strong>lbry.org</strong> is coming soon</h1>
-    <p>Sign up for updates and get notified as soon as we launch!</p>
+    <p>Sign up to connect with community leaders and get your page!</p>
 
     <?php echo View::render('mail/_subscribeForm', [
       'tag' => 'lbryorg',
