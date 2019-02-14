@@ -9,7 +9,7 @@ category: community-update
 
 If you aren’t part of our Discord community yet, [join us](https://chat.lbry.io) anytime and say hello! Our community allows LBRYians to interact with the team directly and for us to engage users and grow the LBRY platform. If you don't already, follow us on [Twitter](https://twitter.com/lbryio), [Facebook](https://facebook.com/lbryio), [Reddit](https://www.reddit.com/r/lbry), [Instagram](https://www.instagram.com/lbryio), and [Telegram](https://www.instagram.com/lbryio/).
 
-## In This Update:
+## In This Update
 * [2018 Review and 2019 Roadmap](#roadmap)
 * [LBRY.tech](#LBRY.tech)
 * [Highlighted LBRY.fund Projects](#lbry-fund)
@@ -23,14 +23,14 @@ Jeremy Kaufmann, our CEO, [penned a retrospective on 2018, and announced our goa
 
 2018 was filled with great accomplishments for LBRY, and Jeremy's blog summarizes these wins, including: protocol performance, new features, our YouTube partnership program, Android app beta, huge increase in content, lbry.fund debut, lbry.tech soft launch, major press coverage, and social growth.
 
-#### 2019 focus areas include:
+#### 2019 Focus Areas
 
 * **User Engagement:** LBRY in your browser: Plans are in place to bring the full LBRY desktop app experience to the web! Making LBRY easier to access will boost user engagement. Content discovery is also important: we want users to be able to find relevant LBRY content easily in the desktop app, on the web, and in search engines.
 * **Win Creators:** We want to show our creators lots of love by introducing new tools to track, build a fanbase, and better monetize content. We're also working to make it easy to use and spend your LBC.
 * **Build Community:** YOU are our most amazing asset! We're introducing better documentation and tools for using and developing with LBRY. To this end, we're launching lbry.tech, and later this year, lbry.org, which will enable our LBRY Swarm to grow.  
 * **Technical Improvements:**  We saw great download speed and failure rate improvements in 2018, and this remains a top priority in 2019. We're also planning to take LBRY to the next level technically, creating better tools for a more robust marketplace, and laying the groundwork for future ease of scaling.
 
-#### Our Roadmap has been updated for 2019 goals including:
+#### Roadmap Updated for 2019
 
 * **Android 1.0 app release:** We want to move from our functional beta into a robust 1.0 release.
 * **User commenting in the LBRY app:** This is a big step towards making LBRY-based applications more socially interactive.
@@ -69,7 +69,7 @@ The fund is open to anybody, and you can submit requests for your ideas using, d
 
 #### Here are the latest awards and project updates:
 
-#### New Projects:
+#### New Projects
 We're pleased to be awarding new grants to:
 
 * **Atlanta Bitcoin Embassy:** Ongoing LBRY meetups and events in Atlanta, Georgia. See [Events](#events) for more details.
@@ -77,7 +77,7 @@ We're pleased to be awarding new grants to:
 * **International Youth Conference Technology Workshop:** in Jaipur, India. See [Events.](#events)
 * **Matt Sokol YouTube Sponsorship:** Matt will be talking about blockchain on his [Quixotic Flux.](https://www.youtube.com/channel/UCNol-hC1WmwS2sIyl5wshvQ?reload=9)
 
-#### Jelly Beats Update: 
+#### Jelly Beats Update
 We featured Jelly Beats in our last community update, and we're super excited to see new progress on this app.
 
 Veteran LBRY contributors Baltazar Gomez and Roman Przybyła are creating a streaming music player based on the LBRY protocol. You can now favorite your favorite music, and playlists are coming soon. Looking great, guys!
