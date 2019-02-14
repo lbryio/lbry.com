@@ -82,12 +82,12 @@ We featured Jelly Beats in our last community update, and we're super excited to
 
 Veteran LBRY contributors Baltazar Gomez and Roman Przybyła are creating a streaming music player based on the LBRY protocol. You can now favorite your favorite music, and playlists are coming soon. Looking great, guys!
 
-You can find the source code on Github: [https://github.com/btzr-io/jelly-beats](https://github.com/btzr-io/jelly-beats)
+You can download an Alpha version from their [GitHub Releases page](https://github.com/btzr-io/jelly-beats/releases) - this will require you to be running the LBRY SDK or LBRY app before it’s started. You can also find the source code on Github: [https://github.com/btzr-io/jelly-beats](https://github.com/btzr-io/jelly-beats)
 
 ![Jelly Beats Player](https://spee.ch/c/beatsfavorites.png)
 
 
-###Events {#events}
+### Events {#events}
 
 ### United States
 
