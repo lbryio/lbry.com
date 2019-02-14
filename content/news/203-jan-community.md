@@ -18,7 +18,7 @@ If you aren’t part of our Discord community yet, [join us](https://chat.lbry.i
 
 To read all of our previous updates, please visit our [Development and Community Update archive](https://lbry.io/news/category/community-update). 
 
-### 2019 Review and Roadmap Check-in {#roadmap}
+### 2018 Year Review and Roadmap Check-in {#roadmap}
 Jeremy Kaufmann, our CEO, [penned a retrospective on 2018, and announced our goals for 2019.](https://lbry.io/news/lbry-in-2018-2019) We’re super excited about the new updates to our Roadmap, which also relies on **YOU** to help us revolutionize the content world!
 
 2018 was filled with great accomplishments for LBRY, and Jeremy's blog summarizes these wins, including: protocol performance, new features, our YouTube partnership program, Android app beta, huge increase in content, lbry.fund debut, lbry.tech soft launch, major press coverage, and social growth.
