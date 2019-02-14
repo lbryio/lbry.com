@@ -147,9 +147,6 @@ Are you a developer and want to find out more? Start with [LBRY.tech](https://lb
 
 Check out our [contributing guide](https://lbry.tech/contribute) and our LBRY App specific contributing [document](https://github.com/lbryio/lbry-app/blob/master/CONTRIBUTING.md) if you just want to dive right into the code.
 
-### LBRY is hiring! 
-[Come join team Content Freedom!](https://lbry.io/join-us) We have the following positions open: Blockchain Engineer, Protocol Engineer, and API Engineer. We’d love for you to join us, or if you have a friend you think would be interested, we pay a $5,000 bounty if we hire them. 
-
 [Back to **Development Updates**](#dev-updates)
 
 Thanks for supporting LBRY - stay tuned for more news and updates! And if you haven’t downloaded the [LBRY app](https://lbry.io/get?auto=1) yet, what are you waiting for?
