@@ -19,11 +19,11 @@ If you aren’t part of our Discord community yet, [join us](https://chat.lbry.i
 To read all of our previous updates, please visit our [Development and Community Update archive](https://lbry.io/news/category/community-update). 
 
 ### 2019 Review and Roadmap Check-in {#roadmap}
-Jeremy Kaufmann, our CEO, penned a retrospective on 2018, and announced our goals for 2019. We’re super excited about the new updates to our Roadmap, which also relies on YOU to help us revolutionize the content world!
+Jeremy Kaufmann, our CEO, [penned a retrospective on 2018, and announced our goals for 2019.](https://lbry.io/news/lbry-in-2018-2019) We’re super excited about the new updates to our Roadmap, which also relies on YOU to help us revolutionize the content world!
 
-[2018 was filled with great accomplishments for LBRY,](https://lbry.io/roadmap) and Jeremy's blog summarizes these wins, including: protocol performance, new features, our YouTube partnership program, Android app beta, huge increase in content, lbry.fund debut, lbry.tech soft launch, major press coverage, and social growth.
+2018 was filled with great accomplishments for LBRY, and Jeremy's blog summarizes these wins, including: protocol performance, new features, our YouTube partnership program, Android app beta, huge increase in content, lbry.fund debut, lbry.tech soft launch, major press coverage, and social growth.
 
-#### Highlights include:
+#### 2019 Highlights include:
 
 * **User Engagement:** LBRY in your browser: Plans are in place to bring the full LBRY desktop app experience to the web! Making LBRY easier to access will boost user engagement. Content discovery is also important: we want users to be able to find relevant LBRY content easily in the desktop app, on the web, and in search engines.
 * **Win Creators:** We want to show our creators lots of love by introducing new tools to track, build a fanbase, and better monetize content. We're also working to make it easy to use and spend your LBC.
