@@ -99,7 +99,7 @@ LBRY is proud to sponsor HackYSU 2019 this year. This is Youngstown State Univer
 Shawn Kameneh, LBRY Lead Application Engineer, will be on hand at the hackathon! [More information.](http://hackysu.com/)
 
 #### Coming in March in Atlanta, Georgia 
-![Atlanta Bitcoin Embassy](https://spee.ch/@lbrynews:0/atlantabitcoin.png)
+![Atlanta Bitcoin Embassy](https://spee.ch/@lbrynews:0/atlantabitcoin1.png)
 
 The Atlanta Bitcoin Embassy is the central hub for all networking, training, and community adoption of blockchain tech in
 Atlanta. We're partnering with them to introduce LBRY to high school students through senior citizens in the Atlanta area through meetups, swag giveaways, and more. If you're anywhere near the Atlanta metro area, [explore their website, and find out more about their events with LBRY.](https://atlbitcoinembassy.org)
@@ -146,8 +146,6 @@ Amit Tulshyan and Clement Gerber from LBRY gave a presentation to the [Bangalore
 Are you a developer and want to find out more? Start with [LBRY.tech](https://lbry.tech)! It's a great place to learn about the LBRY project and how all the pieces work together. All of our code is open source and available on [GitHub](https://github.com/lbryio). 
 
 Check out our [contributing guide](https://lbry.tech/contribute) and our LBRY App specific contributing [document](https://github.com/lbryio/lbry-app/blob/master/CONTRIBUTING.md) if you just want to dive right into the code.
-
-[Back to **Development Updates**](#dev-updates)
 
 Thanks for supporting LBRY - stay tuned for more news and updates! And if you haven’t downloaded the [LBRY app](https://lbry.io/get?auto=1) yet, what are you waiting for?
 
