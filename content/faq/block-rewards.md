@@ -36,3 +36,7 @@ They are awarded on the following schedule:
 * Block rewards ramp up slowly because we want to ensure that users are given some time to get LBRY up and running, and to avoid unfairly benefiting the earliest users.
 
 * To see the current block reward, visit the [LBRY Blockchain Explorer](https://explorer.lbry.io) and explore the latest block details.
+
+## Where can I see this visually?
+The [Stats page on the Explorer](https://explorer.lbry.io/stats) has this information, including inflation rates and emission schedule. It can be exported to CSV. 
+
