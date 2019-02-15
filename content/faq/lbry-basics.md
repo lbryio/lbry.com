@@ -15,13 +15,13 @@ Emails are collected to authenticate and [uniquely identify](https://lbry.io/faq
 If you ever need to change your LBRY email address or sign out, please see [this guide](https://lbry.io/faq/how-to-change-email). If you sign into a new email and need to transfer your verification status, you'll need to [reach out to us](mailto:help@lbryio) in order to link your accounts. Please do not verify again to obtain rewards on a 2nd account; your rewards account may be disabled for abuse.
 
 ### What if I want to run LBRY on multiple computers or different Windows accounts?
-If you want to run the LBRY app on multiple PCs or on other platforms like Android, you can sign in with the same email on all devices. Each installation will still have it's own separate wallet file and download data (as mentioned above). Any rewards earned will be sent locally to the wallet where they are claimed. In the future, it is our goal to enable an opt-in wallet syncing service across all of your devices. 
+If you want to run the LBRY app on multiple PCs or on other platforms like Android, you can sign in with the same email on all devices. Each installation will still have its own separate wallet file and download data (as mentioned above). Any rewards earned will be sent locally to the wallet where they are claimed. In the future, it is our goal to enable an opt-in wallet syncing service across all of your devices. 
 
 ### What are LBRY Rewards? {#rewards}
 [LBRY Rewards](https://lbry.io/faq/rewards) are used to distribute LBRY Credits (LBC) to new and existing users by allowing them to explore app functions and complete tasks which generate LBC as a reward. In order to be eligible for rewards, you need to [verify your identity](https://lbry.io/faq/identity-requirements) which uniquely identifies you as an LBRY user.
 
 ### What is a wallet and how do I find it? {#wallet}
-A wallet is a secure, digital wallet used to store, send and receive cryptocurrencies like LBRY Credits(LBC). The LBRY app comes with it's own wallet and is stored locally on your device and nowhere else! **It is critical that you [backup your wallet data](https://lbry.io/faq/how-to-backup-wallet) in case you lose access to your PC or need to [migrate](https://lbry.io/faq/backup-data) to a new one.**
+A wallet is a secure, digital wallet used to store, send and receive cryptocurrencies like LBRY Credits(LBC). The LBRY app comes with its own wallet and is stored locally on your device and nowhere else! **It is critical that you [backup your wallet data](https://lbry.io/faq/how-to-backup-wallet) in case you lose access to your PC or need to [migrate](https://lbry.io/faq/backup-data) to a new one.**
 
 To find your wallet in the LBRY App, click on `Wallet` on the left side of the App. Clicking it will bring you to the wallet overview page which shows your balance, available Rewards and recent transactions.
 
