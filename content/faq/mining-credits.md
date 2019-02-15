@@ -12,7 +12,7 @@ For GPU mining, please see our list of [pools](https://lbry.io/faq/mining-pools)
 
 For CPU mining, LBRY binaries are out for OS X, Windows, and Ubuntu. Others may try compiling from source.
 
-You can download the latest binaries [here](https://github.com/lbryio/lbrycrd/releases/latest)
+You can download the latest binaries [here](https://github.com/lbryio/lbrycrd/releases/latest).
 
 ## CPU Mining on Ubuntu
 

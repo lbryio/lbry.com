@@ -32,7 +32,7 @@ Any rewards earned will be sent locally to the wallet where they are claimed. In
 
 ### What Are LBRY Rewards? {#rewards}
 
-[LBRY Rewards](https://lbry.io/faq/rewards) are used to distribute LBRY Credits(LBC) to new and existing users by allowing them to explore app functions and complete tasks which generate LBC as an award.
+[LBRY Rewards](https://lbry.io/faq/rewards) are used to distribute LBRY Credits (LBC) to new and existing users by allowing them to explore app functions and complete tasks which generate LBC as an award.
 
 In order to be eligible for Rewards, you need to verify your identity [phone number](https://lbry.io/faq/phone) or [chat](https://chat.lbry.io) which uniquely identifies you as an LBRY user.
 
@@ -47,22 +47,22 @@ To find your wallet in the LBRY Android app, click on the 3 horizontal bars at t
 
 ![Find wallet](https://spee.ch/b3535b68750ad69c48566cb028c67d323d1fdeb9/walli.jpg)
 
-### Where Do I Find my LBC Wallet Address
+### Where Do I Find My LBC Wallet Address?
 
 ![balance](https://spee.ch/e7f125b643e30f8bac2d8c4657bc14874a60e25e/WALLETADD1.jpg)
 
-### Where Do I Find my Recent Transactions
+### Where Do I Find My Recent Transactions?
 Scroll down in the Wallet menu to find recent transactions, or click `View All` to see anything older than 7 days. 
 
 ![Recent tx](https://spee.ch/daa89fcca6411ad2505cdc6e092fcaf4f22f4802/recent1.jpg)
 
-The LBRY wallet is different from other wallets - it also stores your shared content's metadata in the in the form of [claims](https://lbry.io/faq/naming) when using the [publishing features](https://lbry.io/faq/how-to-publish).
+The LBRY wallet is different from other wallets - it also stores your shared content's metadata in the form of [claims](https://lbry.io/faq/naming) when using the [publishing features](https://lbry.io/faq/how-to-publish).
 
 Claim related [wallet transactions](https://lbry.io/faq/transaction-types) ensure that the blockchain uniquely identifies your content and the payment/tips can be routed appropriately.
 
-### How Do I Claim Weekly LBRYcast Rewards in The Android App. {#lbrycastrewards}
+### How Do I Claim Weekly LBRYcast Rewards In The Android App? {#lbrycastrewards}
 
-1. One the Discover page, Play/Download any of the first 10 videos with the badge icon on it.
+1. On the Discover page, Play/Download any of the first 10 videos with the badge icon on it.
 
 ![bagdeicon](https://spee.ch/4176685c4fd51d31f623430d6ac17e9949ecab39/badge.jpg)
 
@@ -76,7 +76,7 @@ To claim any other reward, you just have to click on the round circle next to th
 
 To check whether your wallet is updated, you need to swipe your screen to show the menu bar, click on Wallet and you will see your overall updated balance. Check [How to Backup Your Wallet](https://lbry.io/faq/how-to-backup-wallet)
 
-### How To Delete Downloaded Contents On LBRY Android App. {#deletecontents}
+### How Do I Delete Downloaded Content In The LBRY Android App? {#deletecontents}
 
 To delete any content downloaded, you first need to open the content.
 To find where the Downloaded contents are:
@@ -94,27 +94,27 @@ storage the contents have consumed:
 
 ![bin](https://spee.ch/424e2150c7d03231c966634ba6307b019b6654e6/delete.jpg)
 
-Click on the bin icon and confirm deletion if you still want to delete the content
+Click on the bin icon and confirm deletion if you still want to delete the content.
 
 ![delete](https://spee.ch/7411547d0aea6da1b0c765151c4ffd0e30b2c9fd/delete1.jpg)
 
 Right after the content is deleted, you should see the same content showing on the app screen, if you click on it, it will start the download again.
 To delete additional content, please follow the same steps until you delete all the contents you do not need on your phone. We'll be improving this to allow for easier deletion multiple content at the same time. 
 
-### Enable Background Media Playback. {#backgroundmediaplayback}
+### How Do I Enable Background Media Playback? {#backgroundmediaplayback}
 
 When playing anything on the LBRY android app, it will stop playing when you minimize the app or switch to another application. Since we aren't YouTube and won't make you pay for subscription to enable background media playback, you can enable this feature in the app settings.
 
 1. Swipe your phone screen to the right to reveal the menu, select Settings.
-2. Tap the `Enable background media playback` toggle on the right hand side, this will change the status of that option from grey to green
+2. Tap the `Enable background media playback` toggle on the right hand side, this will change the status of that option from grey to green.
 
 ![settings](https://spee.ch/6169bbad4908bee2378f09a7ea048b981a79ebe5/enable.jpg)
 
 Now you will be able to keep your media playing in the background without leaving the app open.
 *To disable this feature, please tap the option to enable background media player to change the status from green to grey.*
 
-### How To Stop The LBRY Service From Running In The Background {#stoplbryservice}
+### How Do I Stop The LBRY Service From Running In The Background? {#stoplbryservice}
 
-You might have noticed that the LBRY icon may be showing in your notifications with the status, `LBRY service is running in the background`. We keep the app open in the background to stay up-to-date with the blockchain, which helps the app load contents faster as it arrives. In the future, you'll be able to support the LBRY network and earn hosting rewards, but for now, the hosting features are disabled.
+You might have noticed the LBRY icon in your notifications with the status, `LBRY service is running in the background`. We keep the app open in the background to stay up-to-date with the blockchain, which helps the app load contents faster as it arrives. In the future, you'll be able to support the LBRY network and earn hosting rewards, but for now, the hosting features are disabled.
 
-However, if you do not want the LBRY service to be running in the background, you can disable this just by going into the settings page and like above, you just need to tap `Keep the daemon background service running after closing the app` - this will change the status of that option from green to grey. Now close the LBRY app by clicking back multiple times or swipe the app to close - the notification icon should disappear.
+However, if you do not want the LBRY service to be running in the background, you can disable this in the settings page by tapping `Keep the daemon background service running after closing the app` - this will change the status of that option from green to grey. Now close the LBRY app by clicking back multiple times or swipe the app to close - the notification icon should disappear.

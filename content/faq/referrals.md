@@ -10,13 +10,13 @@ You can earn LBRY Credits (LBC) for referring others to use LBRY. In the latest 
 
 ### How many LBRY Credits do I earn and how do I see how many credits I've earned?
 
-New invites sent via the LBRY app are eligible for a 20 LBC reward amount. 
+New invites sent via the LBRY app are eligible for a 20 LBC reward.
 
 ### When do I get my rewards?
 
 If you have claimable rewards, you will see a claim button with the total reward amount on the page. You will not receive rewards for each referral until those users join and use LBRY themselves (see below section regarding claimable referrals). This is to combat referral fraud and abuse.
 
-### What is the criteria for a claimable referral?
+### What are the criteria for a claimable referral?
 
 A claimable referral has the same definition as a Rewards eligible or Verified LBRY user. This means the referred user must have logged into the LBRY app and verified their account.
 
