@@ -7,8 +7,7 @@ class Github
     public static function isAssetForOs(array $asset, string $os)
     {
         $ext = pathinfo($asset['name'], PATHINFO_EXTENSION);
-        switch($os)
-        {
+        switch ($os) {
             case OS::OS_LINUX:
                 return
                     in_array($ext, ['deb']) ||
@@ -19,7 +18,7 @@ class Github
                     in_array($ext, ['dmg', 'pkg']) ||
                     in_array($asset['content_type'], ['application/x-diskcopy', 'application/x-apple-diskimage']) ||
                     stripos($asset['name'], 'darwin') !== false ||
-                    stripos($asset['name'], 'macos') !== false;
+                    stripos($asset['name'], 'mac') !== false;
             case OS::OS_WINDOWS:
                 return
                     in_array($ext, ['exe', 'msi']) ||
@@ -86,8 +85,7 @@ class Github
 //            $params['client_id'] = Config::get(Config::GITHUB_APP_CLIENT_ID);
 //            $params['client_secret'] = Config::Get(Config::GITHUB_APP_CLIENT_SECRET);
 //        }
-        if (Config::get(Config::GITHUB_PERSONAL_AUTH_TOKEN))
-        {
+        if (Config::get(Config::GITHUB_PERSONAL_AUTH_TOKEN)) {
             $headers[] =  'Authorization: token ' . Config::get(Config::GITHUB_PERSONAL_AUTH_TOKEN);
         }
 
@@ -104,21 +102,23 @@ class Github
             static::get('/repos/lbryio/internal-issues/issues?labels=2019&filter=all') :
             include ROOT_DIR . '/data/dummy/githubroadmap.php';
 
-        $issues = array_reduce($apiResponse, function($issues, $issue) {
+        $issues = array_reduce($apiResponse, function ($issues, $issue) {
             return array_merge($issues, [[
                 'name' => $issue['title'],
-                'quarter_date' => array_reduce($issue['labels'], function($carry, $label) {
-                    if ($carry) { return $carry; }
+                'quarter_date' => array_reduce($issue['labels'], function ($carry, $label) {
+                    if ($carry) {
+                        return $carry;
+                    }
                     return $label['name'][0] === 'Q' ? $label['name'] . ' 2019' : '';
                 }, ''),
                 'body' => $issue['body_html']
             ]]);
         }, []);
-        usort($issues, function($a, $b) {
+        usort($issues, function ($a, $b) {
             if ($a['quarter_date'] === $b['quarter_date']) {
                 return $a['name'] < $b['name'] ? -1 : 1;
             }
-           return $a['quarter_date'] < $b['quarter_date'] ? -1 : 1;
+            return $a['quarter_date'] < $b['quarter_date'] ? -1 : 1;
         });
         return $issues;
     }
