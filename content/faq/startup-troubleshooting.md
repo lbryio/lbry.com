@@ -27,7 +27,7 @@ LBRY operates on a couple of different ports, and if there are conflicts/firewal
 ### LBRY used to work previously, but now it won't start
 First and foremost, please ensure you are on the [latest version](https://lbry.io/get) of LBRY. Reinstalling the latest version may alleviate some start-up issues. Before installing, either make sure there are no running LBRY/lbrynet processes or simply reboot your computer.
 
-- Try clearing your your blockchain data and headers in the [lbryum/lbc_mainnet folder](https://lbry.io/faq/lbry-directories)
+- Try clearing your blockchain data and headers in the [lbryum/lbc_mainnet folder](https://lbry.io/faq/lbry-directories)
 - On Windows, if you get stuck on the green "Starting daemon" screen, the lbrynet-daemon file may be missing. The workaround is to re-run the [latest](https://lbry.io/get) LBRY installation file and try again.
 - On Windows 7, if you can't get the app to start, you may need to apply [this Windows patch](https://www.microsoft.com/en-us/download/confirmation.aspx?id=49093&fbclid=IwAR2Gl1Qay34-_NnHpOSZm0VqMC9CQFish4vYXf4AQQ01cnJeE9ZDHdmInv0).
 - On older MAC installations, you may run into an issue with the daemon shutting down immediately. Please see [this GitHub issue](https://github.com/lbryio/lbry-desktop/issues/291) for troubleshooting.
