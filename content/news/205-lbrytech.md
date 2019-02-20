@@ -41,7 +41,7 @@ Here are some of the things you can find on lbry.tech:
 
 - [SDK APIs](https://lbry.tech/api/sdk) and [Blockchain APIs](https://lbry.tech/api/blockchain) - Formerly on lbry.io, these useful resources have been updated and redesigned.
 
-- [Builders's Guide](https://lbry.tech/build) - A new resource specifically for those who want to build their own app or utility rather than contribute to LBRY, Inc. projects.
+- [Builders's Guide](https://lbry.tech/build) - A new resource specifically for those who want to build their own app or utility using the LBRY protocol, rather than contribute to LBRY Inc. projects.
 
 - [Developer Reward Program](https://lbry.tech/developer-reward) (not live yet) - A new reward program specifically for developers to help them get started learning, contributing, or building with LBRY.
 
