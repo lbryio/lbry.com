@@ -7,7 +7,7 @@ date: '2019-02-20 10:00:00'
 🎶 🎶 🎶
 _Hello..._
 _Allow me to introduce myself... My name is, lbry.tech_
-_It's so nice to meet you...It's been a long time... Sorry it to so long..._
+_It's so nice to meet you...It's been a long time... Sorry it took so long..._
 _My name is, lbry.tech... We never meant to leave you...  without documentation_
 🎶 🎶 🎶
 
