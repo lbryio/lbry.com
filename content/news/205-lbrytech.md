@@ -31,7 +31,7 @@ One company was brave enough - bold enough - to create a true technical resource
 
 Here are some of the things you can find on lbry.tech:
 
-- [LBRY Protocol Specification](https://lbry.tech/spec) - A comprehensive, thorough documentation of _exactly_ what LBRY is and how it works. We've called this a spec rather than a whitepaper because that's what it is. It's not a theoretical description of a system, but a detailed description of a system in production usage.
+- [LBRY Protocol Specification](https://lbry.tech/spec) - A comprehensive, thorough documentation of _exactly_ what LBRY is and how it works. We've called this a spec rather than a whitepaper because that's what it is. It's not a theoretical proposal, but a detailed description of a system in production usage.
 
 - [LBRY Overview](https://lbry.tech/overview) - An introduction and interactive overview of LBRY specifically for technical users.
 
