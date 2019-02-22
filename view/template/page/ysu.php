@@ -2,7 +2,7 @@
 <?php Response::setMetaTitle(__('LBRY Welcomes Chandigarh University Students')) ?>
 <?php echo View::render('nav/_header', ['isDark' => true, 'isAbsolute' => true]) ?>
 <main>
-  <div class="cover cover-dark cover-center cover-full cover--dark-overlay" style="background-image: url(/img/hackysu1.jpg)">
+  <div class="cover cover-dark cover-center cover-full cover--dark-overlay" style="background-image: url(/img/hackysu2.jpg)">
     <div class="content content-dark text-center">
       <h1 class="cover-title cover-title-tile cover-item--outline">
         LBRY Welcomes HackYSU Students
