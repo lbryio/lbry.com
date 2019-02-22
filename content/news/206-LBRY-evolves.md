@@ -1,6 +1,6 @@
 ---
 author: brinck-slattery
-title: ‘LBRY Evolves'
+title: LBRY Evolves
 date: '2019-2-21 15:00:00'
 cover: evolve.jpg'
 ---
