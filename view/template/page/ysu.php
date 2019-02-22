@@ -1,5 +1,5 @@
 <?php Response::setMetaDescription(__('LBRY Welcomes Youngstown State University Students')) ?>
-<?php Response::setMetaTitle(__('LBRY Welcomes Chandigarh University Students')) ?>
+<?php Response::setMetaTitle(__('LBRY Welcomes Youngstown State University Students')) ?>
 <?php echo View::render('nav/_header', ['isDark' => true, 'isAbsolute' => true]) ?>
 <main>
   <div class="cover cover-dark cover-center cover-full cover--dark-overlay" style="background-image: url(/img/hackysu2.jpg)">
