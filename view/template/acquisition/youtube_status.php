@@ -6,8 +6,8 @@
 <?php Response::addJsAsset('/js/yt2/youtube_video.js')?>
 <?php Response::addJsAsset('//www.googleadservices.com/pagead/conversion_async.js') ?>
 <?php $statusData = $status_token['data'] ?>
-<?php $isSyncAgreed = in_array($statusData['status'], ["syncing", "synced", "queued"]) ?>
-<?php $isRewardClaimed = $statusData['is_reward_claimed'] ?? false ?>
+<?php $isSyncAgreed = in_array($statusData['status'], ["syncing", "synced", "queued","failed","finalized"]) ?>
+<?php $isRewardClaimed = $statusData['redeemed_reward']>0?>
 <?php if (IS_PRODUCTION): ?>
 <?php js_start() ?>
     if (!localStorage.getItem('status_token')) {
@@ -113,9 +113,11 @@
                         <div hidden id="email-error" class="error">Email is invalid or blank</div>
                         <div hidden id="email-google-plus-error" class="error">Are you sure you want to use this email</div>
                     </div>
-                    <label for="sync-consent" class="block full">
-                        <input name="sync_consent" id="sync-consent" type="checkbox" <?php if ($statusData['status'] == 'queued'): echo "checked"; endif;?> <?php if ($statusData['status'] == 'syncing' || $statusData['status'] == 'synced'): echo "disabled "; echo "checked"; endif; ?>>I want to sync my content to the LBRY network and agree to <a href="/faq/youtube-terms">these terms</a>.
-                        <div hidden id="sync-consent-error" class="error">In order to continue, you must agree to sync.</div>
+                    <p <?php echo $statusData['has_verified_email']?"hidden":""?> class="block full error">You need to verify your email before continuing!</p>
+                    <label for="sync-consent" class="block full" <?php echo !$statusData['has_verified_email']?"hidden":""?>>
+                        <input name="sync_consent" id="sync-consent" type="checkbox"
+                            <?php echo $isSyncAgreed? "checked": ""?> <?php echo (($statusData['status'] == 'pending' || $statusData['status'] == 'queued') && !$statusData['transferred'])? "": "disabled "; ?>>I want to sync my content to the LBRY network and agree to <a href="/faq/youtube-terms">these terms</a>.
+                        <p hidden id="sync-consent-error" class="error">In order to continue, you must agree to sync.</p>
                     </label>
                     <div class="block">
                         <button type="submit" onClick="return submitEditForm()">Save Changes</button>
