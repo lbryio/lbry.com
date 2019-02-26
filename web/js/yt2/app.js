@@ -12,10 +12,10 @@ function App(api,parameters) {
 }
 
 App.prototype._onLoad = function() {
-    // Hero button 
+    // Hero button
     this._button = document.getElementsByClassName('hero')[0].getElementsByClassName('button')[0];
 
-    // To top button 
+    // To top button
     this._toTop = document.getElementsByClassName('to-top')[0];
     this._isVisible = false;
 
@@ -54,39 +54,42 @@ App.prototype._onLoad = function() {
 App.prototype._getDataFromCoinMarketCap = function(e) {
     this._xhr = new XMLHttpRequest();
     this._xhr.addEventListener('readystatechange',this._onReadyStateChange.bind(this),false);
-    this._xhr.open('GET','https://api.coinmarketcap.com/v1/ticker/library-credit/');
+    this._xhr.open('GET','https://api.lbry.io/lbc/exchange_rate');
     this._xhr.send();
 };
 
 App.prototype._onReadyStateChange = function(e) {
-    if (this._xhr.readyState == 4) {
-        if (this._xhr.status == 200) {
-            var response = JSON.parse(this._xhr.responseText);
-            var price = parseFloat(response[0].price_usd);
-            var lines = Array.prototype.slice.call(document.getElementsByClassName('line'),0);
-                lines.forEach(function(line) {
-                    var subscriber = line.getElementsByTagName('p')[0];
-                    var monthly = line.getElementsByTagName('p')[1];
-                    var amount = line.getElementsByTagName('p')[2];
-                    var total = parseFloat(monthly.innerHTML.replace(new RegExp(',','g'),'')) * price;
-                    amount.innerHTML = this._addCommas(total.toFixed(2))+' <i>USD</i>';
-                },this);
-            document.getElementsByClassName('current-value')[0].innerHTML = "("+price.toFixed(4)+" USD)";
+    if (this._xhr.readyState === 4) {
+        if (this._xhr.status === 200) {
+            const response = JSON.parse(this._xhr.responseText);
+            const lines = Array.prototype.slice.call(document.getElementsByClassName('line'),0);
+            const price = parseFloat(response.data.lbc_usd);
+
+            lines.forEach(function(line) {
+                const subscriber = line.getElementsByTagName('p')[0];
+                const monthly = line.getElementsByTagName('p')[1];
+                const amount = line.getElementsByTagName('p')[2];
+                const total = parseFloat(monthly.innerHTML.replace(new RegExp(',', 'g'), '')) * price;
+
+                amount.innerHTML = this._addCommas(total.toFixed(2)) + ' <i>USD</i>';
+            },this);
+
+            document.getElementsByClassName('current-value')[0].innerHTML = "(" + price.toFixed(4) + " USD)";
         }
     }
 };
 
 App.prototype._addCommas = function(nStr) {
-        nStr += '';
-        var x = nStr.split('.');
-        var x1 = x[0];
-        var x2 = x.length > 1 ? '.' + x[1] : '';
-        var rgx = /(\d+)(\d{3})/;
-        while (rgx.test(x1)) {
-            x1 = x1.replace(rgx, '$1' + ',' + '$2');
-        }
-        return x1 + x2;
-    };
+    nStr += '';
+    var x = nStr.split('.');
+    var x1 = x[0];
+    var x2 = x.length > 1 ? '.' + x[1] : '';
+    var rgx = /(\d+)(\d{3})/;
+    while (rgx.test(x1)) {
+        x1 = x1.replace(rgx, '$1' + ',' + '$2');
+    }
+    return x1 + x2;
+};
 
 App.prototype._bindEvents = function() {
     var click = 'ontouchstart' in document ? 'touchstart':'click';
@@ -172,7 +175,7 @@ App.prototype._onTick = function() {
                 step.className += ' enabled';
             }
         },this);
-    } 
+    }
 };
 
 App.prototype._onResize = function() {
@@ -239,8 +242,6 @@ Line.prototype.getElement = function() {
 Line.prototype.draw = function(from,to) {
     this._elem.setAttribute('d','M '+from.x+','+from.y+' L '+to.x+','+to.y);
 };
-
-
 
 
 
