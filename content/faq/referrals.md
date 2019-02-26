@@ -25,6 +25,9 @@ A claimable referral has the same definition as a Rewards eligible or Verified L
 
 LBRY users who abuse either the Referral or Rewards system will not be eligible for referral redemption. If you have specific questions about individual referrals which are not claimable, please reach out to the [helpdesk](mailto:help@lbry.io) with details. 
 
+### What is the difference between Accepted and Claimable?
+Accepted means the user has signed into LBRY. Claimable means they have verified their account.
+
 ### Is there a limit to the credits I can earn?
 
 If you expect to refer more than 50-100 people, please discuss it with us on [Discord chat](http://chat.lbry.io) or email [us](mailto:josh@lbry.io).
