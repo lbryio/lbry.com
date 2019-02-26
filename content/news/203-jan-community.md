@@ -1,7 +1,7 @@
 ---
 author: samuel-lbryian
 title: 'Community Update January/February 2019'
-date: '2019-02-07 13:00:00'
+date: '2019-02-13 13:00:00'
 cover: 'bangalore.jpg'
 category: community-update
 ---
