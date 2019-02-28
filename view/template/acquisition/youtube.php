@@ -133,38 +133,6 @@ Response::addMetaImage(Request::getHostAndProto() . '/img/lbry-partner.png');
     </div>
   </div>
 </section>
-<section class="sync section">
-  <div class="inner">
-    <div class="content">
-      <div class="zigzag"></div>
-      <h1>Sync &amp; Earn</h1>
-      <p>LBRY offers a single-click sync process<br>for existing YouTubers</p>
-        <form class="form" id="sync" method="post" action="https://lbry.io/youtube">
-            <div class="form-inner">
-              <div class="block">
-                <div class="center">
-                  <input type="text" hidden name="type" value="sync"/>
-                  <input id="immediate-sync" name="immediate_sync" type="checkbox" value="true"/>
-                  <label for="immediate-sync">I want to sync my content.</label></div>
-                </div>
-              </div>
-              <div class="block">
-                <div class="center">
-                  <input type="submit" value="Sync Now"/>
-                </div>
-              </div>
-            </div>
-        </form>
-
-
-
-
-      <div class="meta">
-        By syncing, you agree to mirror your content to the LBRY network for 1 year, and acknowledge <a href="/faq/youtube-terms">these terms</a>.
-      </div>
-    </div>
-  </div>
-</section>
 <section class="rewards section">
   <div class="inner">
     <div class="content">
