@@ -4,7 +4,7 @@
     <div class="content">
       <h1>LBRY Warrant Canary</h1>
       <p>
-        Through January 1st, 2019, LBRY has received:
+        Through March 1st, 2019, LBRY has received:
       </p>
       <ul>
         <li>Zero National Security Letters</li>
