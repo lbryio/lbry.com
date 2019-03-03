@@ -235,26 +235,8 @@ class ContentActions extends Actions
     {
         $cache = !Request::getParam('nocache');
 
-        /*
-         * below will include past changes on the roadmap, considering dropping entirely
-         */
-
-//        $githubItems = Github::listRoadmapChangesets($cache);
-//        $projectMaxVersions = [];
-//        foreach ($githubItems as $group => $items) {
-//            if ($items) {
-//                $firstItem = reset($items);
-//                $project = $firstItem['project'];
-//                if (!isset($projectMaxVersions[$project]) || $firstItem['sort_key'] > $projectMaxVersions[$project]) {
-//                    $projectMaxVersions[$project] = $firstItem['sort_key'];
-//                }
-//            }
-//        }
-
-        $items = ['2019' => Github::listRoadmapItems($cache)]; // + $githubItems;
         return ['content/roadmap', [
-          'projectMaxVersions' => [],
-          'items' => $items
+          'items' => Github::listRoadmapItems($cache)
         ]];
     }
 
