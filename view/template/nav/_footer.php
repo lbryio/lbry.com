@@ -22,6 +22,9 @@
         <div class="control-item no-label-desktop">
         <a href="https://shop.lbry.io" target="_blank"><span class="btn-label">LBRY Shop</span> <span class="icon-fw icon-shopping-cart"></span></a>
         </div>
+        <div class="control-item no-label-desktop">
+         <a href="https://bitcointalk.org/index.php?topic=5116826.0" target="_blank"><span class="btn-label">Bitcointalk</span><i class="fab fa-btc"></i></a>
+        </div>
         <div class="control-item">
           <a href="https://en.wikipedia.org/wiki/Free_Speech_Flag" class="footer-img-link">
             <img src="/img/Free-speech-flag.svg" alt="Free Speech Flag" height="30"/>
