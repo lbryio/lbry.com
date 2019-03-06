@@ -40,7 +40,7 @@
 
             <?php echo View::render('form/_formRow', [
               'field'    => 'identifier',
-              'value'    => $values['identifier'] ?? null,
+              'value'    => $values['identifier'] ?? (isset($_GET["claim_id"]) ? htmlspecialchars($_GET["claim_id"]): null) ?? null,
               'error'    => $errors['identifier'] ?? null,
               'label'    => __('dmca.form_labels.identifier'),
               'help'     => __('dmca.form_help.identifier'),
