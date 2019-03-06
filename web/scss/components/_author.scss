@@ -1,0 +1,22 @@
+.person-bio {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  .inner-wrap {
+    display: flex;
+  }
+
+  .bio {
+    flex: 1;
+    padding-top: 1rem;
+    padding-left: 2rem;
+  }
+
+  img {
+    max-width: 250px;
+  }
+
+  &.--author {
+    background-color: rgba($lbry-teal-1, 0.3);
+  }
+}

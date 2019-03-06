@@ -8,11 +8,11 @@ cover: 'Hacktoberfest.jpg'
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">What are you doing for <a href="https://twitter.com/hashtag/Hacktoberfest?src=hash&amp;ref_src=twsrc%5Etfw">#Hacktoberfest</a>? Check out our first <a href="https://twitter.com/hashtag/dev?src=hash&amp;ref_src=twsrc%5Etfw">#dev</a> video of the month, and join the fun - details here ➡️ <a href="https://t.co/Z22zShYg31">https://t.co/Z22zShYg31</a> <a href="https://t.co/bzOQ6Jvmpp">pic.twitter.com/bzOQ6Jvmpp</a></p>&mdash; LBRY (we never give away ETH) (@LBRYio) <a href="https://twitter.com/LBRYio/status/1048247988949319681?ref_src=twsrc%5Etfw">October 5, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-The leaves are starting to fall, and that means it’s time for Hackoberfest! Thanks to [DigitalOcean’s hard work](https://hacktoberfest.digitalocean.com/), newbies and seasoned open source developers alike have a unique opportunity to solve new and challenging problems and bugs all through the month of October (and earn [some recognition and a free t-shirt](https://hacktoberfest.digitalocean.com/details) in the process).
+The leaves are starting to fall, and that means it's time for Hackoberfest! Thanks to [DigitalOcean's hard work](https://hacktoberfest.digitalocean.com), newbies and seasoned open source developers alike have a unique opportunity to solve new and challenging problems and bugs all through the month of October (and earn [some recognition and a free t-shirt](https://hacktoberfest.digitalocean.com/details) in the process).
 
-Open source is (literally) part of our DNA here at LBRY, and we’re always happy when we get an opportunity to support our fellow open source projects. Throughout the month of October, our developers will be hosting informational sessions, meetups, and coding projects to introduce other programmers to the world of open source software and start making contributions immediately. 
+Open source is (literally) part of our DNA here at LBRY, and we're always happy when we get an opportunity to support our fellow open source projects. Throughout the month of October, our developers will be hosting informational sessions, meetups, and coding projects to introduce other programmers to the world of open source software and start making contributions immediately.
 
-Additionally, we’re using this month to:
+Additionally, we're using this month to:
 * Do an alpha launch of [lbry.tech](https://lbry.tech)
 * Revitalize our technical community, including a new forum
 * Offer sweet rewards to contributors new and old
@@ -22,20 +22,18 @@ Additionally, we’re using this month to:
 
 A full schedule of events is below. As videos get published, this post will be updated with links.
 
-However, you don’t need to wait! Our [contributor guide](https://lbry.tech/contribute) and [lbry.tech](https://lbry.tech) are ready for you to get started today. You can also [join us on Discord](https://chat.lbry.io) or [our forum](https://discourse.lbry.io) to interact with other developers and ask questions.
+However, you don't need to wait! Our [contributor guide](https://lbry.tech/contribute) and [lbry.tech](https://lbry.tech) are ready for you to get started today. You can also [join us on Discord](https://chat.lbry.io) or [our forum](https://discourse.lbry.io) to interact with other developers and ask questions.
 
 ### The Rewards
 
-In addition to being more generous with LBC rewards this month, we’re offering the following:
-* 500 LBC for anyone who submits their first accepted PR in October, regardless of whether you’ve submitted one before. This is separate from normal rewards for difficulty/effort/value.
+In addition to being more generous with LBC rewards this month, we're offering the following:
+* 500 LBC for anyone who submits their first accepted PR in October, regardless of whether you've submitted one before. This is separate from normal rewards for difficulty/effort/value.
 * A sweet T-shirt for anyone who submits 3 PRs.
 * A Lamborghini Aventador S for anyone who submits 800,000 accepted PRs.
 
 *Note: Typically these include actual coding PRs (Hacktoberfest), not text edits. Exceptions will be made for early contributes.*
 
-
 ### The Schedule
-
 
 #### 10/3
 An Introduction to the LBRY SDK
@@ -79,7 +77,7 @@ Developing the LBRY Blockchain
 
 Brannon King - LBRY Blockchain Team
 
-If you haven’t yet downloaded the [LBRY app](https://lbry.io/get) and [LBRY for Android](https://play.google.com/store/apps/details?id=io.lbry.browser&ah=IM6eaiKc3weXB9nBHq2zxUrx8F8), what are you waiting for? Get in touch if you have any questions - we’re look forward to spending some time with our developer community this month!
+If you haven't yet downloaded the [LBRY app](https://lbry.io/get) and [LBRY for Android](https://play.google.com/store/apps/details?id=io.lbry.browser&ah=IM6eaiKc3weXB9nBHq2zxUrx8F8), what are you waiting for? Get in touch if you have any questions - we're look forward to spending some time with our developer community this month!
 
 ### Can I start now?
 

@@ -78,6 +78,9 @@ class Github
 
     public static function get($endpoint, array $params = [], $cache = true)
     {
+        // return null; # for local development, this line allows for iterative development without hitting the GitHub API
+        # disable above line for production
+
         $twoHoursInSeconds = 7200;
         $headers = ['Accept: application/vnd.github.v3.html+json'];
         if (Config::get(Config::GITHUB_PERSONAL_AUTH_TOKEN)) {

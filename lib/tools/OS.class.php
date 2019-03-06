@@ -11,6 +11,25 @@ class OS
     OS_OSX = 'osx',
     OS_WINDOWS = 'windows';
 
+    public static function OS_DETAIL($os) {
+      switch($os) {
+        case 'android':
+          return ['/android', 'Android', 'icon-android', false, false];
+
+        case 'ios':
+          return ['/ios', 'iOS', 'icon-mobile', false, false];
+
+        case 'linux':
+          return ['/linux', 'Linux', 'icon-linux', __("Download .deb"), "Linux"];
+
+        case 'osx':
+          return ['/osx', 'macOS', 'icon-apple', __("Download for macOS"), "OSX"];
+
+        case 'windows':
+          return ['/windows', 'Windows', 'icon-windows', __("Download for Windows"), "Windows"];
+      }
+    }
+
     public static function getAll()
     {
         //url, English name, icon class, partial name

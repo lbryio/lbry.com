@@ -40,6 +40,7 @@ download:
   email2:  and the code you received via email to receive your credits.
   email3: If you received a printed code and it does not work after you download, check your email for a different code.
   for-os: LBRY for %os%
+  for-os2: Download for %os%
   github: Or, view the source and compile instructions on
   osx: Arrival is expected by July 5.
   osx2: Download for macOS
@@ -101,7 +102,7 @@ news:
   # It is worth noting other languages use different date formats.
   author: Author
   desk: The Front Desk
-  musings: News and musings from the LBRY team.
+  musings: News and musings from the LBRY team
   next: Next
   prev: Previous
 page:

@@ -1,45 +1,50 @@
 <?php Response::setMetaDescription('See upcoming LBRY projects and earn bounties for completing or assisting.') ?>
 <?php NavActions::setNavUri('/learn') ?>
-<?php echo View::render('nav/_header', ['isDark' => false]) ?>
-<main>
-  <div class="hero hero-quote hero-img hero-img-short spacer1" style="background-image: url(/img/gold-piles.jpg)">
-    <div class="hero-content-wrapper">
-      <div class="hero-content text-center">
-        <h1 class="cover-title">LBRY Bounties</h1>
-        <h2 class="cover-subtitle">Earn money for building a better internet.</h2>
-      </div>
+
+<main class="ancillary">
+  <section class="hero" style="background-image: url(/img/gold-piles.jpg)">
+    <div class="inner-wrap">
+      <h1 class="cover-title">LBRY Bounties</h1>
+      <h2 class="cover-subtitle">Earn money for building a better internet.</h2>
     </div>
-  </div>
-  <section class="content content-light">
-    <h3>Bounties</h3>
-    <p>Complete challenges and earn LBRY Credits. <a class="link-primary" href="/faq/bounties">Learn more</a>.</p>
-    <form method="get" action="/bounty" id="bounty-filter-form">
-      <div class="clearfix">
-        <div class="form-row align-left" style="margin-right: 10px">
-          <label>Category</label>
-          <?php echo View::render('form/_select', [
-              'name' => 'category',
-              'choices' => $categories,
-              'selected' => $selectedCategory
-          ]) ?>
-        </div>
-        <div class="form-row align-left">
-          <label>Status</label>
-          <select name="status">
-            <?php foreach ($statuses as $statusVal => $statusLabel): ?>
-              <option value="<?php echo $statusVal ?>" <?php echo $selectedStatus == $statusVal ? 'selected="selected"' : '' ?>><?php echo $statusLabel ?></option>
-            <?php endforeach ?>
-          </select>
-        </div>
-      </div>
-    </form>
-    <?php js_start() ?>
-      $('#bounty-filter-form').change(function() { $(this).submit(); });
-    <?php js_end() ?>
   </section>
-  <section class="content content-light">
-    <?php if (count($bounties)): ?>
-      <div class="row-fluid">
+
+  <section>
+    <div class="inner-wrap">
+      <h3>Bounties</h3>
+      <p>Complete challenges and earn LBRY Credits. <a class="link-primary" href="/faq/bounties">Learn more</a>.</p>
+      <form method="get" action="/bounty" id="bounty-filter-form">
+        <div class="clearfix">
+          <div class="form-row align-left" style="margin-right: 10px">
+            <label>Category</label>
+            <?php echo View::render('form/_select', [
+                'name' => 'category',
+                'choices' => $categories,
+                'selected' => $selectedCategory
+            ]) ?>
+          </div>
+          <div class="form-row align-left">
+            <label>Status</label>
+            <select name="status">
+              <?php foreach ($statuses as $statusVal => $statusLabel): ?>
+                <option value="<?php echo $statusVal ?>" <?php echo $selectedStatus == $statusVal ? 'selected="selected"' : '' ?>><?php echo $statusLabel ?></option>
+              <?php endforeach ?>
+            </select>
+          </div>
+        </div>
+      </form>
+      <?php js_start() ?>
+        $('#bounty-filter-form').change(function() { $(this).submit(); });
+      <?php js_end() ?>
+    </div>
+  </section>
+
+    </div>
+  </section>
+
+  <section>
+    <div class="inner-wrap">
+      <?php if (count($bounties)): ?>
         <?php $index = 0 ?>
         <?php foreach ($bounties as $post): ?>
           <?php $metadata = $post->getMetadata() ?>
@@ -69,10 +74,9 @@
             </div><div class="row-fluid">
           <?php endif ?>
         <?php endforeach ?>
-      </div>
-    <?php else: ?>
-      <p><em class="no-results">{{bounty.list.noresults}}</em></p>
-    <?php endif ?>
+      <?php else: ?>
+        <p><em class="no-results">{{bounty.list.noresults}}</em></p>
+      <?php endif ?>
+    </div>
   </section>
 </main>
-<?php echo View::render('nav/_footer') ?>

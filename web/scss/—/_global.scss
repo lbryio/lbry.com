@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+$spacing-vertical: 24px;
+
+$color-primary: #155b4a;
+$color-light-alt: hsl(hue($color-primary), 15, 85);
+$color-text-dark: black;
+$color-money: #216c2a;
+$color-meta-light: #505050;
+$color-meta-lighter: #999;
+$color-meta-dark: #ddd;
+$color-content-light: #333;
+$color-content-dark: #e8e8e8;
+$color-info-bg: #3a779d;
+
+$font-size: 16px;
+$line-height: $font-size * 1.5;
+
+$width-mobile-max: 799px;
+$width-laptop-min: 800px;
+$width-laptop-max: 1599px;
+$width-desktop-min: 1600px;
+
+$max-content-width: 1000px;
+$max-text-width: 660px;
+$max-post-content-width: 800px;
+
+$font-header: "Raleway", sans-serif;
+$font-body: "Raleway", sans-serif;
+$font-mono: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, monospace, serif;
+
+$font-size-h1: 2.4rem;
+$font-size-h2: 2.0rem;
+$font-size-h3: 1.75rem;
+$font-size-h4: 1.4rem;
+$font-size-meta: 0.8rem;
+
+$content-side-padding: 15px;
+
+$success_bg: #dff0d8;
+$success_border: #d6e9c6;
+$success_text: #468847;
+
+$warning_bg: #fff6bf;
+$warning_border: #f89406;
+$warning_text: #514721;
+
+$error_bg: #f2dede;
+$error_border: #eed3d7;
+$error_text: #b94a48;
+
+$info_bg: #d9edf7;
+$info_border: #bce8f1;
+$info_text: #3a87ad;
+
+
+
+@mixin anchor($color) {
+  color: $color;
+  text-decoration: underline;
+
+  [class*="icon-"] {
+    &:first-child {
+      padding-right: 8px;
+    }
+
+    &:last-child {
+      padding-left: 8px;
+    }
+  }
+}
+
+@mixin clearfix {
+  &::before, &::after {
+    content: " ";
+    display: table;
+  }
+
+  &::after {
+    clear: both;
+  }
+}
+
+@mixin absolute-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+@mixin offscreen {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+@mixin user-select($value) {
+  user-select: $value;
+  -moz-user-select: $value;
+  -webkit-user-select: $value;
+}
+
+@mixin transition($transition-property, $transition-time, $method) {
+  transition: $transition-property $transition-time $method;
+}

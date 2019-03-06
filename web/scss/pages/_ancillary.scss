@@ -1,0 +1,140 @@
+.ancillary {
+  blockquote,
+  iframe,
+  ol,
+  p,
+  ul {
+    margin-bottom: 1.25rem;
+  }
+
+  ol,
+  p,
+  ul {
+    line-height: 1.55;
+
+    img {
+      display: flex;
+      max-height: 50vh;
+
+      + em {
+        display: block;
+        font-size: 0.8rem;
+        font-style: italic;
+        line-height: 1.33;
+        margin-right: auto;
+        margin-left: auto;
+        padding-top: 1rem;
+        text-align: center;
+        width: 80%;
+      }
+    }
+
+    code {
+      background-color: $lbry-black;
+      color: $lbry-white;
+      display: initial;
+      font-size: 0.8rem;
+      padding: 0.2rem 0.5rem;
+      position: relative;
+      top: -0.2rem;
+    }
+  }
+
+  ol,
+  ul {
+    list-style-position: outside;
+    padding-left: 0.15rem;
+
+    li {
+      list-style-position: inherit;
+
+      p {
+        display: inline;
+      }
+    }
+  }
+
+  ol {
+    > li {
+      list-style-position: inside;
+    }
+  }
+
+  ul {
+    padding-left: 1.3rem;
+
+    &:not(.news-items) {
+      list-style-type: disc;
+    }
+  }
+
+  p {
+    img {
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+
+  iframe {
+    min-height: 500px;
+    width: 100%;
+  }
+
+  blockquote {
+    border-left: 0.5rem solid $lbry-teal-5;
+    padding: 1rem 0 1rem 1.5rem;
+  }
+
+  a {
+    &:not([class^=button--]) {
+      transition: color 0.2s;
+
+      &:not(:hover) {
+        color: $lbry-teal-5;
+      }
+
+      &:hover {
+        color: $lbry-teal-3;
+      }
+    }
+
+    &[class^=button--] {
+      font-size: 1rem;
+    }
+  }
+
+  figure {
+    margin-bottom: 2rem; padding-top: 1rem;
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    img {
+      width: 100%; height: 100%;
+      min-width: 12rem; min-height: 12rem;
+
+      margin-bottom: 1rem;
+      max-height: 25rem;
+      object-fit: contain;
+    }
+  }
+
+  figcaption {
+    font-size: 0.8rem;
+    font-style: italic;
+    line-height: 1.33;
+    text-align: center;
+    width: 80%;
+  }
+
+  footer {
+    font-size: 0.8rem;
+    line-height: 1.33;
+  }
+
+  table {
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+  }
+}

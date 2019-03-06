@@ -7,13 +7,13 @@ cover: 'Hacktoverfest.jpg'
 
 <video width="100%" controls poster="https://spee.ch/@thumbnails:e7b0620f6e5a56031cbfc8b9373b02d6ed63c39c/Hacktoberfest-thumb.png" src="https://spee.ch/9bb73cecc938907424c1705339751e21eea559a5/Hacktoberfest.mp4"/></video>
 
-As Hacktoberfest draws to a close, we couldn’t be happier with how it turned out - thanks so much to all the contributors who made this month so awesome! We had over 40 unique contributors submit 115 pull requests on LBRY’s repos alone, and developers from our staff worked on a number of thorny issues for other open source projects.
+As Hacktoberfest draws to a close, we couldn't be happier with how it turned out - thanks so much to all the contributors who made this month so awesome! We had over 40 unique contributors submit 115 pull requests on LBRY's repos alone, and developers from our staff worked on a number of thorny issues for other open source projects.
 
-The fun doesn’t have to stop just because October is over - if you’re inspired to contribute to the LBRY project, you can get started right away at [LBRY.tech](https://LBRY.tech).
+The fun doesn't have to stop just because October is over - if you're inspired to contribute to the LBRY project, you can get started right away at [LBRY.tech](https://LBRY.tech).
 
 Did you make any submissions to LBRY during the past month? Make sure send us an email at [Hello@lbry.io](mailto:hello@lbry.io) to receive your official LBRY Hacktoberfest World Tour shirt!
 
-If you missed any of our developer videos, you can watch them all below. Thanks to our community for helping us build a new, decentralized internet - we can’t do this without you!
+If you missed any of our developer videos, you can watch them all below. Thanks to our community for helping us build a new, decentralized internet - we can't do this without you!
 
 ## Hacktoberfest Developer Videos
 
@@ -41,4 +41,4 @@ Akinwale Ariwodola - Lead Mobile Developer
 
 Brannon King - LBRY Blockchain Team
 
-And if you’ve gotten this far somehow without downloading the LBRY app, what are you waiting for? [Click here to try it now](https://lbry.io/get)!
+And if you've gotten this far somehow without downloading the LBRY app, what are you waiting for? [Click here to try it now](https://lbry.io/get)!

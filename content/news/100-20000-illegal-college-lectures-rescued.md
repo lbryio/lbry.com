@@ -4,6 +4,7 @@ title: '20,000 World-class University Lectures Made Illegal, So We Irrevocably M
 date: '2017-03-15 00:09:00'
 cover: 'berkeley-banner.jpg'
 ---
+
 *Updated on 12/27/2017 with the latest access instructions.*
 
 Today, the University of California at Berkeley has deleted 20,000 college lectures from its YouTube channel. Berkeley removed the videos because of a lawsuit brought by two students from another university under the Americans with Disabilities Act.
@@ -20,7 +21,7 @@ The full catalog is over 4 TB and will be synced over the next several days.
 2. Start the LBRY app and wait for the app to finish loading.
 3. Click [lbry://@UCBerkeley](https://open.lbry.io/%40UCBerkeley) to access the UCBerkeley channel, or simply type `@UCBerkeley` into the search bar on top and hit enter.
 
-Each entry on @UCBerkeley channel is the course video/audio claim page where the content can be streamed (and downloaded locally).  
+Each entry on @UCBerkeley channel is the course video/audio claim page where the content can be streamed (and downloaded locally).
 
 Feel free to keep exploring the LBRY application and be sure to check out our [FAQ](https://lbry.io/faq). Want to learn more or contribute to LBRY? Join us on our [Discord chat](https://chat.lbry.io) to follow along with our journey in revolutionizing digital content sharing and monetization.
 
@@ -28,7 +29,7 @@ Feel free to keep exploring the LBRY application and be sure to check out our [F
 
 Almost certainly.
 
-The vast majority of the lectures are licensed under a [Creative Commons](https://creativecommons.org/licenses/by-nc/4.0/) license that allows attributed, non-commercial redistribution. The price for this content has been set to free, and all LBRY metadata attributes it to UC Berkeley.
+The vast majority of the lectures are licensed under a [Creative Commons](https://creativecommons.org/licenses/by-nc/4.0) license that allows attributed, non-commercial redistribution. The price for this content has been set to free, and all LBRY metadata attributes it to UC Berkeley.
 
 Additionally, we believe that this content is legal under the First Amendment.
 

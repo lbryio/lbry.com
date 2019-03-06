@@ -4,11 +4,12 @@ title: 'Blockchain Is Love, Blockchain Is Life'
 date: '2018-01-10 09:45:00'
 cover: 'Sunrise1.jpg'
 ---
+
 _(Protocols Not Platforms - Part 2 of 2)_
 
 Blockchain technology currently has a hype to substance ratio rapidly approaching infinity. And as a team of people who are skeptical of 90+% of proposed blockchain uses, we're hesitant to contribute to that (_ed.: wait until you see what I changed the title to_).
 
-But there's one area where we think it’s plausible, if not likely, that blockchain will improve the world: the development of open standards and protocols, and consequently more user-friendly technology.
+But there's one area where we think it's plausible, if not likely, that blockchain will improve the world: the development of open standards and protocols, and consequently more user-friendly technology.
 
 # The Status Quo
 In Part 1, we covered how existing tech companies demonstrate active hostility towards users. If you haven't read this or are not already convinced of this problem, [start here](https://lbry.io/news/why-do-tech-giants-abuse-their-users).
@@ -41,12 +42,12 @@ This token has value in proportion to the usage and success of the network.
 
 **This is a revolution in the incentives around protocol creation.**
 
-It means that the people who discover and utilize a new protocol or network when it’s just getting off the ground can reap substantial value by being there first. This solves the incentive problems around being a first-mover and softens the pain of using a service that probably won't be as feature-rich or slick as established competitors’ options. It provides a source of funding for the development of the protocol. The creators can use the token to pay for the salaries and equipment required to get it started.
+It means that the people who discover and utilize a new protocol or network when it's just getting off the ground can reap substantial value by being there first. This solves the incentive problems around being a first-mover and softens the pain of using a service that probably won't be as feature-rich or slick as established competitors' options. It provides a source of funding for the development of the protocol. The creators can use the token to pay for the salaries and equipment required to get it started.
 
 It also aligns incentives: the developers have incentive to make the protocol maximally successful. If they take actions that users dislike, the service can be forked, and anyone can create a new version.
 
 ![A Wild Protocol Appears](https://spee.ch/9/a-wild-protocol-appears.jpeg)
 
-For the first time ever, it’s economically feasible for companies to compete to create the best technology instead of capture and then abuse their users. That’s why we’re building LBRY, and it’s why we’re open source. Anyone who’s inspired to help us create a free, open internet is welcome to build apps on our protocol, or fork our project and strike out on their own if they think they can do it better than us. Real competition instead of a market in name only.
+For the first time ever, it's economically feasible for companies to compete to create the best technology instead of capture and then abuse their users. That's why we're building LBRY, and it's why we're open source. Anyone who's inspired to help us create a free, open internet is welcome to build apps on our protocol, or fork our project and strike out on their own if they think they can do it better than us. Real competition instead of a market in name only.
 
-Want to join us? You can start by [downloading the LBRY app](https://lbry.io/get), trying it out, and letting us know if you have any questions or suggestions to improve it. You can also [join our chat](https://chat.lbry.io/) or consider a [more committed relationship](https://lbry.io/join-us). Together, we can build a better, freer internet.
+Want to join us? You can start by [downloading the LBRY app](https://lbry.io/get), trying it out, and letting us know if you have any questions or suggestions to improve it. You can also [join our chat](https://chat.lbry.io) or consider a [more committed relationship](https://lbry.io/join-us). Together, we can build a better, freer internet.

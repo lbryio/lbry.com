@@ -1,14 +1,12 @@
 ---
-
 title: LBRY Android App Basics
 category: getstarted
 order: 2
-
 ---
 
 The LBRY Browser for Android allows you to view free and paid content via the Explore and Trending sections, search for content on LBRY,  send/receive LBRY Credits (LBC) and earn credits through LBRY Rewards.
 
-The app runs on top of the [LBRY protocol](https://lbry.io/faq/what-is-lbry) which is a peer-to-peer (P2P), decentralized file sharing and payment network secured by blockchain technology. 
+The app runs on top of the [LBRY protocol](https://lbry.io/faq/what-is-lbry) which is a peer-to-peer (P2P), decentralized file sharing and payment network secured by blockchain technology.
 
 The purpose of this FAQ is to answer questions about some of the basic functionality available in the LBRY Android App. Please see our [other FAQ entries](https://lbry.io/faq) for additional information.
 
@@ -28,7 +26,7 @@ If you sign into a new email and need to transfer your verification status, you'
 
 If you want to run the LBRY app on multiple PCs or on other platforms like Android, you can sign in with the same email on all devices. Each installation will still have its separate wallet and download data (as mentioned above).
 
-Any rewards earned will be sent locally to the wallet where they are claimed. In the future, our goal to enable an opt-in wallet syncing service across devices. 
+Any rewards earned will be sent locally to the wallet where they are claimed. In the future, our goal to enable an opt-in wallet syncing service across devices.
 
 ### What Are LBRY Rewards? {#rewards}
 
@@ -38,7 +36,7 @@ In order to be eligible for Rewards, you need to verify your identity [phone num
 
 ### What Is a Wallet And How Do I Find It? {#wallet}
 
-A wallet is a secure digital file used to store, send and receive cryptocurrencies like LBRY Credits (LBC). 
+A wallet is a secure digital file used to store, send and receive cryptocurrencies like LBRY Credits (LBC).
 The LBRY Android App comes with its own wallet and is stored locally on your phone and nowhere else!
 
 **It is critical that you [backup your wallet data](https://lbry.io/faq/how-to-backup-wallet#android) in case you lose access to your phone or need to [migrate](https://lbry.io/faq/backup-data) to a new one.**
@@ -51,8 +49,8 @@ To find your wallet in the LBRY Android app, click on the 3 horizontal bars at t
 
 ![balance](https://spee.ch/e7f125b643e30f8bac2d8c4657bc14874a60e25e/WALLETADD1.jpg)
 
-### Where Do I Find My Recent Transactions?
-Scroll down in the Wallet menu to find recent transactions, or click `View All` to see anything older than 7 days. 
+### Where Do I Find my Recent Transactions
+Scroll down in the Wallet menu to find recent transactions, or click `View All` to see anything older than 7 days.
 
 ![Recent tx](https://spee.ch/daa89fcca6411ad2505cdc6e092fcaf4f22f4802/recent1.jpg)
 
@@ -66,7 +64,7 @@ Claim related [wallet transactions](https://lbry.io/faq/transaction-types) ensur
 
 ![bagdeicon](https://spee.ch/4176685c4fd51d31f623430d6ac17e9949ecab39/badge.jpg)
 
-2. After clicking on the video to play/download, the reward should be claimed automatically. If not, go into the Menu > Rewards and you will see the LBRY cast reward on the first. Tap the round circle to claim your reward. 
+2. After clicking on the video to play/download, the reward should be claimed automatically. If not, go into the Menu > Rewards and you will see the LBRY cast reward on the first. Tap the round circle to claim your reward.
 
 ![walleticon](https://spee.ch/beceef63dbf682cd1ed1ebdbee9b1845de10959b/swipe.gif)
 
@@ -99,7 +97,8 @@ Click on the bin icon and confirm deletion if you still want to delete the conte
 ![delete](https://spee.ch/7411547d0aea6da1b0c765151c4ffd0e30b2c9fd/delete1.jpg)
 
 Right after the content is deleted, you should see the same content showing on the app screen, if you click on it, it will start the download again.
-To delete additional content, please follow the same steps until you delete all the contents you do not need on your phone. We'll be improving this to allow for easier deletion multiple content at the same time. 
+
+To delete additional content, please follow the same steps until you delete all the contents you do not need on your phone. We'll be improving this to allow for easier deletion multiple content at the same time.
 
 ### How Do I Enable Background Media Playback? {#backgroundmediaplayback}
 

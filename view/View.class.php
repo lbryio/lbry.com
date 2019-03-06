@@ -15,6 +15,8 @@ class View
     const LAYOUT_PARAMS = '_layout_params';
 
     const WEB_DIR  = ROOT_DIR . '/web';
+    const COMPONENTS_DIR = self::WEB_DIR . '/components/sass';
+    const COLORS_DIR = self::WEB_DIR . '/scss/color';
     const SCSS_DIR = self::WEB_DIR . '/scss';
     const CSS_DIR  = self::WEB_DIR . '/css';
     const JS_DIR   = self::WEB_DIR . '/js';
@@ -117,7 +119,7 @@ class View
     {
         $scssCompiler = new \Leafo\ScssPhp\Compiler();
 
-        $scssCompiler->setImportPaths([self::SCSS_DIR]);
+        $scssCompiler->setImportPaths([self::COMPONENTS_DIR, self::COLORS_DIR, self::SCSS_DIR]);
 
         $compress = true;
         if ($compress) {

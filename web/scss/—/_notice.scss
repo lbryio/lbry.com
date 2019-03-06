@@ -1,0 +1,54 @@
+@mixin notice($text_color, $bg_color, $border_color) {
+  // color: $text_color;
+  // background-color: $bg_color;
+  // border-color: $border_color;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    // color: darken($text_color, 10%) !important; // fuck this
+    // margin-bottom: $spacing-vertical;
+  }
+
+  a[href] {
+    // color: $text_color;
+
+    &:hover {
+      // color: lighten($text_color, 10);
+    }
+  }
+
+  .meta {
+    // color: lighten($text_color, 15%) !important;
+  }
+}
+
+.notice {
+  padding: 10px 20px;
+  border: 1px solid black;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+
+  a[href] {
+    text-decoration: underline;
+  }
+
+  > p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.notice-success {
+  // @include notice($success_text, $success_bg, $success_border);
+}
+
+.notice-error {
+  // @include notice($error_text, $error_bg, $error_border);
+}
+
+.notice-info {
+  // @include notice($info_text, $info_bg, $info_border);
+}

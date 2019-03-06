@@ -1,0 +1,27 @@
+.hero {
+  background-color: $lbry-teal-5;
+  background-size: cover;
+  color: $lbry-white;
+  text-align: center;
+  text-shadow: 0 0 0.2rem rgba($lbry-black, 0.7);
+
+  > .inner-wrap {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+  }
+
+  &:not(.hero--half-height) {
+    height: 500px;
+  }
+
+  &.hero--half-height {
+    height: 250px;
+  }
+
+  &.hero--news {
+    background-position: center;
+  }
+}

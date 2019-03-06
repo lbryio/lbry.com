@@ -3,7 +3,8 @@ author: samuel-lbryian
 title: 'LBRY v0.18 is Trending Towards Greatness'
 date: '2017-11-13 14:25:00'
 ---
-The latest LBRY app, v0.18, is now available! **[Get it here](https://lbry.io/get)**.
+
+The latest LBRY app, v0.18, is now available! [**Get it here**](https://lbry.io/get).
 
 ### Release Notes
 

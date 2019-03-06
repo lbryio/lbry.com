@@ -22,7 +22,7 @@ To enter the environment, run:
 
 ### lbrycrd
 
-You need to download a build of `lbrycrd` from [here](https://github.com/lbryio/lbrycrd/releases/), no installation required. To configure `lbrycrd` you need to create a file at `~/.lbrycrd/lbrycrd.conf`,
+You need to download a build of `lbrycrd` from [here](https://github.com/lbryio/lbrycrd/releases), no installation required. To configure `lbrycrd` you need to create a file at `~/.lbrycrd/lbrycrd.conf`,
 containing the following.
 ```ini
 rpcuser=test
