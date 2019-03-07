@@ -86,7 +86,7 @@
   }
 
   a {
-    &:not([class^=button--]) {
+    &:not([class^=button]) {
       transition: color 0.2s;
 
       &:not(:hover) {
