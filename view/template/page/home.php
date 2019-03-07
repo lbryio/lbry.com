@@ -28,7 +28,6 @@
 
   <section class="home__hype">
     <div class="inner-wrap">
-      <h2>Hello LBRY</h2>
       <p>See previews of the LBRY UI and the great content available now on LBRY.</p>
       <?php echo View::render('download/_videoIntro') ?>
     </div>

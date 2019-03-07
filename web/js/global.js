@@ -128,7 +128,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <br><br>
           <p>Here by accident? Come back to <a href="${document.referrer}">the techno scene</a>.</p>
 
-          <button id="close-alert">×</button>
+          <button id="close-alert">&times;</button>
         </div>
       </section>
     `;

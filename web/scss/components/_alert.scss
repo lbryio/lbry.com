@@ -1,9 +1,8 @@
 .alert {
+  @include font-sans;
   bottom: 0; left: 0;
 
-  background-color: #d2d227;
   cursor: default;
-  font-family: "Raleway", sans-serif;
   line-height: 1.33;
   padding-top: 3rem;
   padding-right: env(safe-area-inset-right);
@@ -13,6 +12,17 @@
   text-align: left;
   width: 100%;
   z-index: 30;
+
+  &::after {
+    top: 0; left: 0;
+    bottom: 0; right: 0;
+
+    background-color: var(--lbry-yellow-1);
+    content: "";
+    opacity: 0.9;
+    position: absolute;
+    z-index: -1;
+  }
 
   > div:first-of-type {
     position: relative;

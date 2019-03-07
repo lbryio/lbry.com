@@ -49,6 +49,14 @@
   }
 }
 
+.home__hype {
+  border-bottom: 1px solid $lbry-gray-1;
+  font-size: 1.25rem;
+  line-height: 1.33;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
 .home__preview {
   @include center;
   height: 500px;

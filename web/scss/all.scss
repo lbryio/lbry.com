@@ -5,14 +5,15 @@
 @import "../components/sass/init/mixins";
 @import "../components/sass/init/variables";
 
-@import "partials/footer";
-@import "partials/header";
-
+@import "components/alert";
 @import "components/author";
 @import "components/code";
+@import "components/footer";
+@import "components/header";
 @import "components/hero";
 @import "components/icons";
 @import "components/post";
+@import "components/video";
 
 @import "pages/ancillary";
 @import "pages/home";
