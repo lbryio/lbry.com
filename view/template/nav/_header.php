@@ -51,13 +51,6 @@
               </drawer-child>
 
               <drawer-child>
-                <a href="">
-                  <strong>Tour</strong>
-                  <span>Do you want to learn how to publish content to the LBRY network?</span>
-                </a>
-              </drawer-child>
-
-              <drawer-child>
                 <a href="/news">
                   <strong>News</strong>
                   <span>The latest happenings with the LBRY team and community</span>
