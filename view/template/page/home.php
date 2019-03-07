@@ -28,7 +28,7 @@
 
   <section class="home__hype">
     <div class="inner-wrap">
-      <p>See previews of the LBRY UI and the great content available now on LBRY.</p>
+      <p>See previews of the LBRY app and the great content available now on LBRY.</p>
       <?php echo View::render('download/_videoIntro') ?>
     </div>
   </section>
