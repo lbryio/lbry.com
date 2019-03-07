@@ -3,8 +3,8 @@
 <?php Response::setMetaDescription('description.team') ?>
 
 <main class="ancillary">
-  <section class="hero">
-    <div class="inner-wrap">
+  <section class="hero hero--half-height">
+    <div class="inner-wrap inner-wrap--hero">
       <h1>Terms of Service</h1>
     </div>
   </section>

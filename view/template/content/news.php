@@ -1,8 +1,8 @@
 <?php Response::setMetaDescription(__('description.news')) ?>
 
 <main class="news ancillary">
-  <section class="hero hero--news" style="background-image: url(/img/teamcropped.jpg); background-position: center 15%;">
-    <div class="inner-wrap">
+  <section class="hero hero--news" style="background-image: url(/img/bangalore.jpg); background-position: center 15%;">
+    <div class="inner-wrap inner-wrap--hero">
       <h1>{{news.desk}}</h1>
       <h2>{{news.musings}}</h2>
     </div>

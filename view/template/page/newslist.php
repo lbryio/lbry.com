@@ -2,8 +2,8 @@
 <?php Response::setMetaTitle(__('title.join')) ?>
 
 <main class="ancillary">
-  <section class="hero">
-    <div class="inner-wrap">
+  <section class="hero hero--half-height">
+    <div class="inner-wrap inner-wrap--hero">
       <h1>Join Our List for LBRY Updates</h1>
     </div>
   </section>

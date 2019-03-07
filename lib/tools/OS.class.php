@@ -14,19 +14,54 @@ class OS
     public static function OS_DETAIL($os) {
       switch($os) {
         case 'android':
-          return ['/android', 'Android', 'icon-android', false, false];
+          return [
+            '/android',
+            'Android',
+            'icon-android',
+            false,
+            false,
+            "<span class='icon-android icon-fw'></span> Android"
+          ];
 
         case 'ios':
-          return ['/ios', 'iOS', 'icon-mobile', false, false];
+          return [
+            '/ios',
+            'iOS',
+            'icon-mobile',
+            false,
+            false,
+            "<span class='icon-mobile icon-fw'></span> iOS"
+          ];
 
         case 'linux':
-          return ['/linux', 'Linux', 'icon-linux', __("Download .deb"), "Linux"];
+          return [
+            '/linux',
+            'Linux',
+            'icon-linux',
+            __("Download .deb"),
+            "Linux",
+            "<span class='icon-linux icon-fw'></span> Linux"
+          ];
 
         case 'osx':
-          return ['/osx', 'macOS', 'icon-apple', __("Download for macOS"), "OSX"];
+          return [
+            '/osx',
+            'macOS',
+            'icon-apple',
+            __("Download for macOS"),
+            "OSX",
+            "<span class='icon-apple icon-fw'></span> macOS"
+          ];
 
         case 'windows':
-          return ['/windows', 'Windows', 'icon-windows', __("Download for Windows"), "Windows"];
+          return [
+            '/windows',
+            'Windows',
+            'icon-windows',
+            __("Download for Windows"),
+            "Windows",
+            "<span class='icon-windows icon-fw'></span> Windows"
+          ];
       }
     }
 

@@ -2,7 +2,7 @@
 
 <main class="ancillary">
   <section class="hero hero--half-height">
-    <div class="inner-wrap">
+    <div class="inner-wrap inner-wrap--hero">
       <h1>{{page.faq.header}}</h1>
     </div>
   </section>
@@ -19,7 +19,12 @@
       </form>
 
       <?php js_start() ?>
-        $('#faq-filter-form').change(function() { $(this).submit(); });
+        if (window.location.href.includes("/faq?category"))
+          document.querySelector("select").insertAdjacentHTML("afterbegin", "<option value='back-to-faq'>Back to FAQ</option>");
+
+        document.getElementById("faq-filter-form").addEventListener("change", function() {
+          this.submit();
+        });
       <?php js_end() ?>
 
       <?php foreach ($postGroups as $category => $posts): ?>

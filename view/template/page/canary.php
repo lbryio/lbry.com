@@ -1,8 +1,8 @@
 <?php Response::setMetaDescription('LBRY\'s warrant canary page') ?>
 
 <main class="ancillary">
-  <section class="hero">
-    <div class="inner-wrap">
+  <section class="hero hero--half-height">
+    <div class="inner-wrap inner-wrap--hero">
       <h1>LBRY Warrant Canary</h1>
     </div>
   </section>

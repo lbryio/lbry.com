@@ -2,7 +2,7 @@
 
 <main class="ancillary">
   <section class="hero hero--half-height">
-    <div class="inner-wrap">
+    <div class="inner-wrap inner-wrap--hero">
       <h1>{{page.unsubscribe}}</h1>
     </div>
   </section>

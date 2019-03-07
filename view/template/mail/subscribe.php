@@ -2,7 +2,7 @@
 <?php Response::setMetaDescription(__('description.join')) ?>
 
 <main class="ancillary">
-  <section class="hero hero--half-height">
+  <section class="hero hero--plain">
     <div class="inner-wrap">
       <h1>{{page.join}}</h1>
     </div>

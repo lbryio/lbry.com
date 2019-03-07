@@ -3,8 +3,10 @@
 <?php NavActions::setNavUri('/news') ?>
 
 <main class="news ancillary">
-  <section class="hero hero--news"<?php echo $post->getCover() ? ' style="background-image: url(\'/img/blog-covers/' . $post->getCover() . '\')"' : ''?>>
-    <div class="inner-wrap">
+  <section
+    class="hero hero--news<?php echo $post->getCover() ? '' : ' hero--half-height'?>"<?php echo $post->getCover() ? ' style="background-image: url(\'/img/blog-covers/' . $post->getCover() . '\')"' : ''?>
+  >
+    <div class="inner-wrap inner-wrap--hero">
       <h1><?php echo htmlentities($post->getTitle()) ?></h1>
       <h2>
         <?php echo $post->getAuthorName() ?>

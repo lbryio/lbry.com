@@ -70,7 +70,12 @@ h3 {
  --> HEADER
 --------------------------- */
 
-header {
+.header,
+.footer {
+  display: none;
+}
+
+.header-yt {
   position: absolute;
   top: 40px;
   left: 0;
@@ -103,7 +108,7 @@ header {
     float: left;
     width: 126px;
     height: 100%;
-    background-image: url("../img/youtube/lbry@2x.png") 0 50% no-repeat;
+    background: url("../img/youtube/lbry@2x.png") 0 50% no-repeat;
     background-size: 126px;
     margin: 0 40px 0 0;
   }

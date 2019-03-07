@@ -12,8 +12,11 @@
 
     <ul>
       <li>Download LBRY</li>
-      <li><a href="/get#desktop" title="Get LBRY's desktop apps">Desktop</a></li>
-      <li><a href="/get#mobile" title="Get LBRY's mobile app">Mobile</a></li>
+      <li><a href="/android" title="Get LBRY on Android">Android</a></li>
+      <li><a href="/linux" title="Get LBRY on Linux">Linux</a></li>
+      <li><a href="/ios" title="Get LBRY on iOS">iOS</a></li>
+      <li><a href="/macos" title="Get LBRY macOS">macOS</a></li>
+      <li><a href="/windows" title="Get LBRY on Windows">Windows</a></li>
     </ul>
 
     <ul>

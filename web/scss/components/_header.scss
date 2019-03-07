@@ -1,8 +1,8 @@
 .header {
   top: 0; left: 0;
 
-  background-color: $lbry-white;
-  border-bottom: 1px solid $lbry-gray-1;
+  background-color: var(--lbry-white);
+  border-bottom: 1px solid var(--lbry-gray-1);
   font-size: 1rem;
   position: fixed;
   width: 100%;
@@ -55,8 +55,19 @@ drawer-child {
     }
   }
 
+  &.drawer--no-border {
+    &:hover {
+      border-color: transparent;
+    }
+  }
+
   .icon {
     margin-right: 1rem;
+    transition: color 0.2s;
+
+    &:hover {
+      color: var(--lbry-teal-4);
+    }
   }
 }
 

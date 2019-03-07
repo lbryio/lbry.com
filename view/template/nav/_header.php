@@ -40,7 +40,7 @@
                 </a>
               </drawer-child>
 
-              <drawer-child>
+              <drawer-child class="drawer--no-border">
                 <div>
                   <strong>Social</strong>
                   <span>

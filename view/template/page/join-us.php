@@ -3,7 +3,7 @@
 
 <main class="ancillary">
   <section class="hero hero--half-height">
-    <div class="inner-wrap">
+    <div class="inner-wrap inner-wrap--hero">
       <h1>Join Team Content Freedom</h1>
     </div>
   </section>

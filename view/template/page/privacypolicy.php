@@ -2,8 +2,8 @@
 <?php Response::setMetaDescription('LBRY Inc. Privacy Policy') ?>
 
 <main class="ancillary">
-  <section class="hero">
-    <div class="inner-wrap">
+  <section class="hero hereo--half-height">
+    <div class="inner-wrap inner-wrap--hero">
       <h1>LBRY Inc. Privacy Policy</h1>
 
       <style>

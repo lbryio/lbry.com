@@ -1,4 +1,4 @@
-<header class="header">
+<header class="header-yt">
   <div class="inner">
     <div class="left">
       <div class="logo"></div>
