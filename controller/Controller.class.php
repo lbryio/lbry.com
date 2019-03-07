@@ -59,7 +59,7 @@ class Controller
             $dispatcher = new Routing\Dispatcher($router->getData());
             return $dispatcher->dispatch($method, $uri);
         } catch (\Routing\HttpRouteNotFoundException $e) {
-            return NavActions::execute404();
+            return static::doLowerUriRedirectOr404($uri);
         } catch (\Routing\HttpMethodNotAllowedException $e) {
             Response::setStatus(405);
             Response::setHeader('Allow', implode(', ', $e->getAllowedMethods()));
@@ -163,7 +163,7 @@ class Controller
                 Response::enableHttpCache();
                 return ['page/' . $slug, []];
             } else {
-                return NavActions::execute404();
+                return static::doLowerUriRedirectOr404($slug);
             }
         });
 
@@ -196,6 +196,31 @@ class Controller
     {
         while ($fn = array_shift(static::$queuedFunctions)) {
             call_user_func($fn);
+        }
+    }
+
+    protected static function doLowerUriRedirectOr404($uri)
+    {
+        $router = static::getRouterWithRoutes();
+        // $lowerUri = strtolower($uri);
+        $lowerUri = '/news/lbry-evolves';
+        if ($uri !== $lowerUri) {
+            if (View::exists('page/' . $lowerUri) || static::checkForRoute($lowerUri, $router)) {
+                return static::redirect($lowerUri, 308);
+            }
+        }
+        return NavActions::execute404();
+    }
+
+    protected static function checkForRoute($uri, $router)
+    {
+        $routerData = $router->getData();
+        if (in_array($uri, $routerData->getStaticRoutes())) {
+            return true;
+        } elseif (in_array($uri, $routerData->getVariableRoutes())) {
+            return true;
+        } else {
+            return false;
         }
     }
 }
