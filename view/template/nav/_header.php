@@ -22,47 +22,49 @@
               <drawer-child>
                 <a href="/get">
                   <strong>Use LBRY</strong>
-                  <span>Get the most out of LBRY</span>
+                  <span>Download LBRY for your computer or phone</span>
                 </a>
               </drawer-child>
 
               <drawer-child>
                 <a href="/faq">
-                  <strong>FAQ</strong>
+                  <strong>Frequently Asked Questions</strong>
                   <span>Got questions? We might have answers!</span>
                 </a>
               </drawer-child>
-
+              
               <drawer-child>
-                <a href="">
-                  <strong>Blockchain Explorer</strong>
-                  <span>The history of LBRY's blockchain</span>
+                <a href="/news">
+                  <strong>News</strong>
+                  <span>The latest from the LBRY team and community</span>
                 </a>
-              </drawer-child>
-
+              </drawer-child> 
+              
               <drawer-child class="drawer--no-border">
                 <div>
                   <strong>Social</strong>
                   <span>
                     <a href="https://www.facebook.com/lbryio"><span class="icon icon-facebook-official"></span></a>
                     <a href="https://twitter.com/lbryio"><span class="icon icon-twitter"></span></a>
+                    <a href="https://reddit.com/r/lbry"><span class="icon icon-reddit"></span></a>
                   </span>
                 </div>
-              </drawer-child>
-
-              <drawer-child>
-                <a href="/news">
-                  <strong>News</strong>
-                  <span>The latest happenings with the LBRY team and community</span>
-                </a>
-              </drawer-child>
-
+              </drawer-child>    
+              
               <drawer-child>
                 <a href="">
                   <strong>Chat</strong>
-                  <span>Chat with other LBRY users and LBRY team members</span>
+                  <span>Talk with LBRY fans and team members, immediately!</span>
+                </a>
+              </drawer-child>              
+
+              <drawer-child>
+                <a href="">
+                  <strong>Blockchain Explorer</strong>
+                  <span>Lookup and verify transactions on the LBRY blockchain</span>
                 </a>
               </drawer-child>
+
             </drawer-children>
           </drawer-wrap>
         </drawer-section>
@@ -75,24 +77,32 @@
 
           <drawer-wrap>
             <drawer-children>
+              
+              <drawer-child>
+                <a href="https://lbry.io/get">
+                  <strong>Publish to LBRY</strong>
+                  <span>Make your content available to everyone using LBRY</span>
+                </a>
+              </drawer-child>
+              
               <drawer-child>
                 <a href="/youtube">
                   <strong>YouTube Partner Program</strong>
-                  <span>Bring all your content to LBRY with just a few clicks</span>
+                  <span>Sync your content instantly and start earning</span>
                 </a>
               </drawer-child>
 
               <drawer-child>
-                <a href="">
-                  <strong>Creator FAQ</strong>
-                  <span>Like the FAQ, but for Creators</span>
+                <a href="https://lbry.io/faq?category=publisher">
+                  <strong>Creator Questions</strong>
+                  <span>Frequently asked questions and answers for creators</span>
                 </a>
               </drawer-child>
 
               <drawer-child>
                 <a href="https://lbry.fund">
-                  <strong>Fund a Project</strong>
-                  <span>How to to get some LBC for your latest idea or project</span>
+                  <strong>lbry.fund Content Funding</strong>
+                  <span>Get support for your latest creation</span>
                 </a>
               </drawer-child>
             </drawer-children>
@@ -109,8 +119,8 @@
             <drawer-children>
               <drawer-child>
                 <a href="/team">
-                  <strong>Team / About</strong>
-                  <span>Meet the people building LBRY and find out why they're doing it</span>
+                  <strong>The Team</strong>
+                  <span>Meet the people building LBRY and why they're doing it</span>
                 </a>
               </drawer-child>
 
@@ -131,7 +141,7 @@
               <drawer-child>
                 <a href="/credit-reports">
                   <strong>Credit Reports</strong>
-                  <span>Four times a year we share the current state of LBRY, Inc.'s balance sheet</span>
+                  <span>Quarterly reports on the state and usage of LBRY's funds</span>
                 </a>
               </drawer-child>
             </drawer-children>
