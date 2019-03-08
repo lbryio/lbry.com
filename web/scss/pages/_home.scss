@@ -121,7 +121,7 @@
   h3 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    padding-top: 2.5rem;
+    padding-top: 3rem;
     position: relative;
 
     &::before {
@@ -146,7 +146,7 @@
 .home__site--org {
   h3 {
     &::before {
-      background-image: url("../img/emoji-love.png");
+      background-image: url("../img/emoji-wire-globe.png");
     }
   }
 }
@@ -154,7 +154,7 @@
 .home__site--tech {
   h3 {
     &::before {
-      background-image: url("../img/emoji-cool.png");
+      background-image: url("../img/emoji-gear.png");
     }
   }
 }

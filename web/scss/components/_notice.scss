@@ -1,7 +1,7 @@
 @mixin notice($text_color, $bg_color, $border_color) {
-  // color: $text_color;
-  // background-color: $bg_color;
-  // border-color: $border_color;
+  background-color: $bg_color;
+  border-color: $border_color;
+  color: $text_color;
 
   h1,
   h2,
@@ -14,7 +14,7 @@
   }
 
   a[href] {
-    // color: $text_color;
+    color: $text_color;
 
     &:hover {
       // color: lighten($text_color, 10);
@@ -27,10 +27,10 @@
 }
 
 .notice {
-  padding: 10px 20px;
-  border: 1px solid black;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-  border-radius: 5px;
+  border: 1px solid var(--lbry-gray-1);
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 0.75rem;
 
   a[href] {
     text-decoration: underline;
@@ -42,13 +42,13 @@
 }
 
 .notice-success {
-  // @include notice($success_text, $success_bg, $success_border);
+  @include notice(var(--lbry-black), var(--lbry-teal-1), var(--lbry-teal-4));
 }
 
 .notice-error {
-  // @include notice($error_text, $error_bg, $error_border);
+  @include notice(var(--lbry-white), var(--lbry-red-4), var(--lbry-red-5));
 }
 
 .notice-info {
-  // @include notice($info_text, $info_bg, $info_border);
+  @include notice(var(--lbry-black), var(--lbry-yellow-1), var(--lbry-yellow-4));
 }
