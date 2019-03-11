@@ -1,7 +1,7 @@
 .footer {
   width: 100%; height: 330px;
 
-  background-color: $lbry-black;
+  background-color: var(--lbry-black);
   color: rgba($lbry-white, 0.5);
   font-size: 1rem;
   padding-top: 2rem;
@@ -85,11 +85,11 @@
     transition: color 0.2s;
 
     &:not(:hover) {
-      color: $lbry-white;
+      color: var(--lbry-white);
     }
 
     &:hover {
-      color: $lbry-teal-3;
+      color: var(--lbry-teal-3);
     }
   }
 }

@@ -1,6 +1,6 @@
 pre {
   background-color: mix($lbry-violet-5, $lbry-black, 20%);
-  color: $lbry-white;
+  color: var(--lbry-white);
   font-size: 1rem;
   line-height: 1.33;
   margin-bottom: 2rem;
@@ -26,18 +26,18 @@ pre {
   &.boolean,
   &.null,
   &.url {
-    color: $lbry-blue-1;
+    color: var(--lbry-blue-1);
   }
 
   &.integer {
-    color: $lbry-orange-2;
+    color: var(--lbry-orange-2);
   }
 
   &.prompt {
-    color: $lbry-violet-2;
+    color: var(--lbry-violet-2);
   }
 
   &.string {
-    color: $lbry-yellow-2;
+    color: var(--lbry-yellow-2);
   }
 }

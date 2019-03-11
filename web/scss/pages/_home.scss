@@ -8,7 +8,7 @@
 .home__callout {
   background-image: linear-gradient(to right, $lbry-teal-2, $lbry-cyan-3 100%);
   background-size: cover;
-  color: $lbry-white;
+  color: var(--lbry-white);
   font-size: 2rem;
   font-weight: 300;
   padding-top: 2rem;
@@ -50,7 +50,7 @@
 }
 
 .home__hype {
-  border-bottom: 1px solid $lbry-gray-1;
+  border-bottom: 1px solid var(--lbry-gray-1);
   font-size: 1.25rem;
   line-height: 1.33;
   padding-bottom: 2rem;
@@ -97,7 +97,7 @@
 }
 
 .home__sites {
-  background-color: $lbry-white;
+  background-color: var(--lbry-white);
   font-size: 1rem;
   padding-top: 2rem;
   text-align: center;
@@ -113,7 +113,7 @@
     width: 1px; height: 100%;
     top: 0; right: 0;
 
-    background-color: $lbry-gray-1;
+    background-color: var(--lbry-gray-1);
     content: "";
     position: absolute;
   }
