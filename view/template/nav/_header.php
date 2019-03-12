@@ -40,7 +40,7 @@
                 </a>
               </drawer-child>
 
-              <drawer-child class="drawer--no-border">
+              <drawer-child class="drawer--no-border drawer--social">
                 <div>
                   <strong>Social</strong>
                   <span>
@@ -177,6 +177,15 @@
           </drawer-wrap>
         </drawer-section>
       </drawer-navigation>
+
+      <a href="#" class="header__toggle" id="menuToggle">Menu</a>
+
+      <?php js_start() ?>
+        document.getElementById("menuToggle").addEventListener("click", event => {
+          event.preventDefault();
+          document.querySelector("drawer-navigation").classList.toggle("active");
+        });
+      <?php js_end() ?>
 
       <span class="header__download">
         <?php echo View::render('download/_downloadButton', ['buttonStyle' => 'primary'])?>

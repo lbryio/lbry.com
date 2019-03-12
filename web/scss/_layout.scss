@@ -12,6 +12,7 @@ body {
   @include font-sans;
   display: flex;
   flex-direction: column;
+  min-width: 320px;
 }
 
 
@@ -154,13 +155,13 @@ strong {
   }
 
   @media (min-width: 901px) {
-    padding-right: 1rem;
-    padding-left: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
   }
 
   @media (max-width: 900px) {
-    padding-right: 2rem;
-    padding-left: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
 
   &::after {

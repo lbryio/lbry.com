@@ -1,7 +1,9 @@
 .home__hero,
 .home__sites {
   .inner-wrap {
-    display: flex;
+    @media (min-width: 901px) {
+      display: flex;
+    }
   }
 }
 
@@ -9,14 +11,24 @@
   background-image: linear-gradient(to right, $lbry-teal-2, $lbry-cyan-3 100%);
   background-size: cover;
   color: var(--lbry-white);
-  font-size: 2rem;
   font-weight: 300;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding: 2rem;
   text-align: center;
 
   p {
     line-height: 1.55;
+  }
+
+  @media (min-width: 1251px) {
+    font-size: 2rem;
+  }
+
+  @media (min-width: 1001px) and (max-width: 1250px) {
+    font-size: 1.5rem;
+  }
+
+  @media (max-width: 1000px) {
+    font-size: 1.25rem;
   }
 }
 
@@ -59,33 +71,43 @@
 
 .home__preview {
   @include center;
-  height: 500px;
   position: relative;
 
-  &::before,
-  &::after {
-    width: 100%; height: 100%;
-    top: 0; left: 0;
+  @media (min-width: 901px) {
+    height: 500px;
 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    content: "";
-    position: absolute;
+    &::before,
+    &::after {
+      width: 100%; height: 100%;
+      top: 0; left: 0;
+
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      content: "";
+      position: absolute;
+    }
+
+    &::before {
+      background-image: url("../img/hero-cta--front.png");
+      z-index: 1;
+    }
+
+    &::after {
+      background-image: url("../img/hero-cta--back.png");
+      z-index: -1;
+    }
   }
 
-  &::before {
-    background-image: url("../img/hero-cta--front.png");
-    z-index: 1;
-  }
-
-  &::after {
-    background-image: url("../img/hero-cta--back.png");
-    z-index: -1;
+  @media (max-width: 900px) {
+    padding-top: 1.5rem;
+    width: 100%;
   }
 
   a {
-    top: -2rem; left: -1rem;
+    @media (min-width: 901px) {
+      top: -2rem; left: -1rem;
+    }
 
     position: relative;
     width: 450px;
@@ -107,15 +129,9 @@
   padding-right: 3rem;
   padding-left: 3rem;
   position: relative;
-  width: 50%;
 
-  &:first-of-type::after {
-    width: 1px; height: 100%;
-    top: 0; right: 0;
-
-    background-color: var(--lbry-gray-1);
-    content: "";
-    position: absolute;
+  @media (min-width: 901px) {
+    width: 50%;
   }
 
   h3 {
@@ -144,6 +160,10 @@
 }
 
 .home__site--org {
+  @media (max-width: 900px) {
+    padding-top: 4rem;
+  }
+
   h3 {
     &::before {
       background-image: url("../img/emoji-wire-globe.png");
@@ -152,6 +172,26 @@
 }
 
 .home__site--tech {
+  @media (max-width: 900px) {
+    padding-bottom: 5rem;
+  }
+
+  &::after {
+    background-color: var(--lbry-gray-1);
+    content: "";
+    position: absolute;
+
+    @media (min-width: 901px) {
+      width: 1px; height: 100%;
+      top: 0; right: 0;
+    }
+
+    @media (max-width: 900px) {
+      width: 100%; height: 1px;
+      bottom: 0; left: 0;
+    }
+  }
+
   h3 {
     &::before {
       background-image: url("../img/emoji-gear.png");

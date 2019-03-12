@@ -16,19 +16,49 @@
 .header__download {
   display: inline-flex;
   height: 5rem;
+
+  @media (max-width: 950px) {
+    display: none;
+  }
+}
+
+.header__logo,
+.header__toggle {
+  @media (max-width: 950px) {
+    background-color: var(--lbry-white);
+    z-index: 11;
+  }
 }
 
 .header__logo {
   @include hide-text;
-  width: 8rem; height: 5rem;
 
   background-image: url("../img/text-logo.svg");
-  background-position: 3rem center;
   background-repeat: no-repeat;
   background-size: 5rem;
   display: block;
-  margin-right: 2.5rem;
+  height: 5rem;
   position: relative;
+
+  @media (min-width: 951px) {
+    background-position: 3rem center;
+    margin-right: 2.5rem;
+    width: 8rem;
+  }
+
+  @media (max-width: 950px) {
+    background-position: 4rem center;
+    padding-left: 1rem;
+    width: 100%;
+  }
+
+  @media (min-width: 901px) and (max-width: 950px) {
+    left: -2rem;
+  }
+
+  @media (max-width: 900px) {
+    left: -1rem;
+  }
 
   &::before {
     width: 3rem; height: inherit;
@@ -42,16 +72,66 @@
   }
 }
 
+.header__toggle {
+  line-height: 5rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  position: absolute;
+  right: 0;
+}
+
 
 
 drawer-children {
-  @extend .inner-wrap;
+  @media (min-width: 951px) {
+    @extend .inner-wrap;
+  }
+
+  @media (max-width: 950px) {
+    display: initial;
+    padding: 0 !important; // Necessary to override the 901px min-width styling of .inner-wrap
+  }
 }
 
 drawer-child {
   @include breakpoint-max(800) {
     &:not([full-width]) {
       width: 100%;
+    }
+  }
+
+  @media (max-width: 950px) {
+    border: none;
+    display: block;
+    margin-bottom: 0.5rem;
+    padding: 0;
+    width: 100%;
+
+    &:not([full-width]) {
+      width: inherit;
+    }
+
+    &:not(.drawer--social) {
+      span {
+        display: none;
+      }
+    }
+
+    &.drawer--social {
+      > div > span {
+        display: inline-flex;
+        margin-left: 1rem;
+        padding: 0;
+      }
+
+      a span {
+        padding: 0;
+      }
+    }
+
+    &:hover {
+      border: inherit;
+      padding: inherit;
     }
   }
 
@@ -73,14 +153,74 @@ drawer-child {
 
 drawer-navigation {
   position: initial;
+
+  @media (max-width: 950px) {
+    top: 0; left: 0;
+
+    background-color: var(--lbry-gray-1);
+    flex-direction: column;
+    height: auto;
+    padding-bottom: 1.5rem;
+    position: absolute;
+    transition: transform 0.2s;
+
+    &:not(.active) {
+      transform: translateY(-100%);
+    }
+
+    &.active {
+      transform: translateY(5rem);
+    }
+  }
+}
+
+drawer-navigation-helper {
+  @media (max-width: 950px) {
+    display: none;
+  }
 }
 
 drawer-section {
-  height: calc(5rem + 1px);
+  @media (min-width: 951px) {
+    height: calc(5rem + 1px);
+  }
+
+  @media (max-width: 950px) {
+    &:not(:hover) {
+      drawer-wrap {
+        display: block;
+      }
+    }
+  }
 }
 
 drawer-title {
+  @media (max-width: 950px) {
+    font-size: 1.25rem;
+    font-weight: 200;
+    height: initial;
+
+    &::after {
+      display: none;
+    }
+  }
+
   &::after {
     bottom: 0;
+  }
+}
+
+drawer-wrap {
+  @media (max-width: 950px) {
+    top: initial; left: initial;
+
+    background-color: initial;
+    border: none;
+    padding: 0;
+    position: relative;
+
+    &::after {
+      display: none;
+    }
   }
 }

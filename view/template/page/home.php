@@ -15,7 +15,7 @@
 
       <figure class="home__preview">
         <a href="/get">
-          <img alt="Picture of LBRY Browser" src="https://spee.ch/7/home-demo.gif"/>
+          <img alt="Picture of LBRY Browser" src="https://spee.ch/@lbry:3f/Lbry-preview.gif"/>
         </a>
       </figure>
     </div>
