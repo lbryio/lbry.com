@@ -38,13 +38,13 @@
       <aside class="home__site home__site--tech">
         <h3>LBRY.tech</h3>
         <p>Do you have ideas for new features? Do you want to play around with the code for LBRY?</p>
-        <a href="https://lbry.tech" class="button--inverse">Come play at LBRY.tech</a>
+        <a href="https://lbry.tech" class="button button--inverse">Come play at LBRY.tech</a>
       </aside>
 
       <aside class="home__site home__site--org">
         <h3>LBRY.org</h3>
         <p>Do you have an awesome idea that could use some help? Want to connect with like-minded users?</p>
-        <a href="https://lbry.org" class="button--inverse">Join the party at LBRY.org</a>
+        <a href="https://lbry.org" class="button button--inverse">Join the party at LBRY.org</a>
       </aside>
     </div>
   </section>

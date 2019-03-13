@@ -9,7 +9,7 @@ The free flow of ideas is vital for a healthy, functioning society. When the flo
 
 Nina Paley is a cartoonist and filmmaker.  Her TED talk on intellectual property vividly captures the importance of maintaining a free flow of information and ideas.
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/XO9FKQAxWZc" frameborder="0" allowfullscreen></iframe></p>
+<iframe src="https://www.youtube.com/embed/XO9FKQAxWZc" allowfullscreen></iframe>
 
 >"We are information transmitters. Information enters through our senses, like our eyes and ears, and it exits through our expressions, like our voices, our writings, our drawings. And all of this information going through us creates a living phenomenon called culture. In order for culture to stay alive, we have to be open – transmitting and receiving information."
 

@@ -13,6 +13,7 @@ body {
   display: flex;
   flex-direction: column;
   min-width: 320px;
+  word-wrap: anywhere;
 }
 
 
@@ -30,19 +31,56 @@ h5 {
 }
 
 h1 {
-  font-size: 3rem;
+  @media (min-width: 951px) {
+    font-size: 3rem;
+  }
+
+  @media (max-width: 950px) {
+    font-size: 2rem;
+
+    + h2 { // this styles the <h2>
+      padding-top: 0.5rem;
+    }
+  }
 }
 
 h2 {
-  font-size: 2rem;
+  @media (min-width: 951px) {
+    font-size: 2rem;
+  }
+
+  @media (max-width: 950px) {
+    font-size: 1.5rem;
+
+    + h3 { // this styles the <h3>
+      padding-top: 0.5rem;
+    }
+  }
 }
 
 h3 {
-  font-size: 1.5rem;
+  @media (min-width: 951px) {
+    font-size: 1.5rem;
+  }
+
+  @media (max-width: 950px) {
+    font-size: 1.15rem;
+
+    + p { // this styles the <p>
+      padding-top: 0.5rem;
+    }
+  }
 }
 
 h4 {
-  font-size: 1.25rem;
+  @media (min-width: 951px) {
+    font-size: 1.25rem;
+  }
+
+  @media (max-width: 950px) {
+    font-size: 1rem;
+  }
+
   margin-bottom: 1rem;
 }
 

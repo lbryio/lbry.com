@@ -1,9 +1,6 @@
 .ancillary {
   blockquote,
-  iframe,
-  ol,
-  p,
-  ul {
+  iframe {
     margin-bottom: 1.25rem;
   }
 
@@ -62,6 +59,12 @@
   }
 
   ul {
+    + ol,
+    + p,
+    + ul {
+      padding-top: 1.25rem;
+    }
+
     &:not(.download-cards) {
       padding-left: 1.3rem;
     }
@@ -72,6 +75,21 @@
   }
 
   p {
+    + blockquote,
+    + hr,
+    + iframe,
+    + img {
+      margin-top: 1.25rem;
+    }
+
+    + h2,
+    + h3,
+    + ol,
+    + p,
+    + ul {
+      padding-top: 1.25rem;
+    }
+
     img {
       margin-right: auto;
       margin-left: auto;
@@ -84,8 +102,22 @@
   }
 
   blockquote {
-    border-left: 0.5rem solid var(--lbry-teal-5);
-    padding: 1rem 0 1rem 1.5rem;
+    padding: 1rem 0 1rem 2rem;
+    position: relative;
+
+    &::before {
+      width: 0.5rem; height: 100%;
+      top: 0; left: 0;
+
+      background-image: linear-gradient(250deg, var(--lbry-teal-2), var(--lbry-blue-3) 100%);
+      content: "";
+      position: absolute;
+    }
+
+    // TODO: Rewrite all blockquotes in the blog posts
+    // p {
+    //   margin-bottom: 1.25rem;
+    // }
   }
 
   a {

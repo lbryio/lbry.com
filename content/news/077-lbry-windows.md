@@ -16,7 +16,7 @@ LBRY is currently compatible with Windows 7 and higher. That's 90% of the deskto
 
 Check out this short demo video:
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/iWY3iUHkhHM" frameborder="0" allowfullscreen></iframe></p>
+<iframe src="https://www.youtube.com/embed/iWY3iUHkhHM" allowfullscreen></iframe>
 
 - 0:05 – **Discover:** LBRY's home content discovery screen. Content on the left is featured and updated by LBRY. Content on the right comes directly from community bids.
 - 0:11 – Streaming a video.

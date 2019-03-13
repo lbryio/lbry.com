@@ -8,7 +8,7 @@ The LBRY team spoke with the guys at [Decentral Vancouver](http://decentralvanco
 
 The most notable part of the thorough interview was a live demo of the latest LBRY browser app, which is where the video below begins. Our new user interface is damn pretty.
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/StVUjT9wMow?rel=0" frameborder="0" allowfullscreen></iframe></p>
+<iframe src="https://www.youtube.com/embed/StVUjT9wMow?rel=0" allowfullscreen></iframe>
 
 Other highlights from the conversation include:
 

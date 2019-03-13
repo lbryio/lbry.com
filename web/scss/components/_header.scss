@@ -24,8 +24,9 @@
 
 .header__logo,
 .header__toggle {
+  background-color: var(--lbry-white);
+
   @media (max-width: 950px) {
-    background-color: var(--lbry-white);
     z-index: 11;
   }
 }
@@ -78,6 +79,10 @@
   padding-left: 2rem;
   position: absolute;
   right: 0;
+
+  @media (min-width: 951px) {
+    display: none;
+  }
 }
 
 
