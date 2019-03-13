@@ -65,7 +65,7 @@
     </div>
     <div style="display: none; margin-top: 10px;" id="verify-error">
         <code id="verify-error-text"></code>
-        <p style="margin-top: 10px">There was an error. Contact help@lbry.io if this keeps happening.</p>
+        <p style="margin-top: 10px">There was an error. Please make sure you are clicking the latest verification email and try again. Contact help@lbry.io if this keeps happening.</p>
     </div>
     <div style="display: none; margin-top: 10px;" id="verify-success">
         <p class="spacer1">Success! Your email is now verified.</p>
