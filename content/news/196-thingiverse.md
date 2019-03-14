@@ -3,6 +3,7 @@ author: brinck-slattery
 title: 'What Is Thingiverse?'
 date: '2019-01-03 12:00:00'
 cover: 'thingiverse.jpg'
+category: content
 ---
 
 It seems like a new digital marketplace pops up every day, and it can get hard to keep track of all the new projects for all your favorite kinds of content. Markets like [Bandcamp](https://bandcamp.com) allow bands and musicians to sell their music directly to listeners, photo clearinghouses like [BigStock](https://www.bigstockphoto.com/) let photographers earn cash from sales of their photos and videos, and labor markets like [Seamless](https://www.seamless.com), Uber, and [Postmates](https://postmates.com) let people turn their free time and underused vehicles into a second source of income.
