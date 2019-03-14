@@ -1,5 +1,5 @@
 <section class="person-bio" id="<?php echo str_replace(' ', '-', strtolower($name)) ?>">
-  <div class="inner-wrap">
+  <div class="inner-wrap inner-wrap--team">
     <figure class="author">
       <img src="<?php echo $imgSrc ?>" alt="Photo of <?php echo $name ?>"/>
 

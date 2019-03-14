@@ -254,6 +254,14 @@ video {
     }
   }
 
+  &.inner-wrap--team {
+    display: flex;
+
+    @media (max-width: 700px) {
+      flex-direction: column;
+    }
+  }
+
   @media (min-width: 901px) {
     padding-right: 2rem;
     padding-left: 2rem;
