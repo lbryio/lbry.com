@@ -3,6 +3,7 @@ author: brinck-slattery
 title: Our Android Is Getting Smarter
 date: '2019-1-31 15:00:00'
 cover: 'blog_whyandroid.png'
+category: update
 ---
 If you haven’t tried LBRY on Android yet, now’s the time to do it! This newest version brings enhanced content notifications, suggested content after you watch a video, and some other under-the-hood fixes.
 
