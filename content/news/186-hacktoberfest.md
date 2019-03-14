@@ -3,6 +3,7 @@ author: brinck-slattery
 title: 'Hacktoberfest!'
 date: '2018-10-01 15:10:00'
 cover: 'Hacktoberfest.jpg'
+category: users
 ---
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">What are you doing for <a href="https://twitter.com/hashtag/Hacktoberfest?src=hash&amp;ref_src=twsrc%5Etfw">#Hacktoberfest</a>? Check out our first <a href="https://twitter.com/hashtag/dev?src=hash&amp;ref_src=twsrc%5Etfw">#dev</a> video of the month, and join the fun - details here ➡️ <a href="https://t.co/Z22zShYg31">https://t.co/Z22zShYg31</a> <a href="https://t.co/bzOQ6Jvmpp">pic.twitter.com/bzOQ6Jvmpp</a></p>&mdash; LBRY (we never give away ETH) (@LBRYio) <a href="https://twitter.com/LBRYio/status/1048247988949319681?ref_src=twsrc%5Etfw">October 5, 2018</a></blockquote>
