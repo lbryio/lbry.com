@@ -3,6 +3,7 @@ author: reilly-smith
 title: 'The Stand'
 date: '2018-03-01 00:20:00'
 cover: 'cls-banner-2.jpg'
+category: content
 ---
 This week, I’d like to reintroduce one of my personalities on LBRY.
 
