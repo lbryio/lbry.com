@@ -21,15 +21,15 @@
             <drawer-children>
               <drawer-child>
                 <a href="/get">
-                  <strong>Use LBRY</strong>
-                  <span>Download LBRY for your computer or phone</span>
+                  <strong>Get LBRY</strong>
+                  <span>Use LBRY on your computer or phone</span>
                 </a>
               </drawer-child>
 
               <drawer-child>
                 <a href="/faq">
                   <strong>Frequently Asked Questions</strong>
-                  <span>Got questions? We might have answers!</span>
+                  <span>Got questions? We probably have answers!</span>
                 </a>
               </drawer-child>
               
@@ -54,7 +54,7 @@
               <drawer-child>
                 <a href="">
                   <strong>Chat</strong>
-                  <span>Talk with LBRY fans and team members, immediately!</span>
+                  <span>Talk with LBRY fans and team members, right now</span>
                 </a>
               </drawer-child>              
 
@@ -141,7 +141,7 @@
               <drawer-child>
                 <a href="/credit-reports">
                   <strong>Credit Reports</strong>
-                  <span>Quarterly reports on the state and usage of LBRY's funds</span>
+                  <span>Quarterly reports on LBRY's funds</span>
                 </a>
               </drawer-child>
             </drawer-children>
@@ -159,28 +159,28 @@
               <drawer-child>
                 <a href="https://lbry.tech">
                   <strong>LBRY.tech</strong>
-                  <span>Find out how the heck all of this works</span>
+                  <span>Find a technical overview, specification, APIs, and more</span>
                 </a>
               </drawer-child>
+
+            <drawer-child>
+                <a href="https://forum.lbry.tech/spec">
+                    <strong>The Spec</strong>
+                    <span>Read a formal technical description of how LBRY works</span>
+                </a>
+            </drawer-child>
 
               <drawer-child>
                 <a href="https://github.com/lbryio">
                   <strong>GitHub</strong>
-                  <span>The LBRY code is open source, check out the repos</span>
+                  <span>All LBRY code is public and open-source</span>
                 </a>
               </drawer-child>
 
               <drawer-child>
                 <a href="https://lbry.tech/contribute">
                   <strong>Contributor's Guide</strong>
-                  <span>Tips and guidelines for being a contributor to the LBRY projects</span>
-                </a>
-              </drawer-child>
-
-              <drawer-child>
-                <a href="https://forum.lbry.tech">
-                  <strong>Forum</strong>
-                  <span>If you have a question for the LBRY, Inc. development team, post it here</span>
+                  <span>Become a contributor to the LBRY project</span>
                 </a>
               </drawer-child>
             </drawer-children>
