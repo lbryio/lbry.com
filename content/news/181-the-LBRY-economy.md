@@ -3,6 +3,7 @@ author: james-biller
 title: 'The LBRY Economy'
 date: '2018-09-06 12:00:00'
 cover: 'econwallpaper.jpg'
+category: content
 ---
 
 
