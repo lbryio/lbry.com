@@ -1,7 +1,7 @@
 # lbry.io
 
 [![MIT licensed](https://img.shields.io/dub/l/vibe-d.svg?style=flat)](https://github.com/lbryio/lbry.io/blob/master/LICENSE)
-[![chat on Discord](https://img.shields.io/discord/362322208485277697.svg?logo=discord)](https://chat.lbry.io) 
+[![chat on Discord](https://img.shields.io/discord/362322208485277697.svg?logo=discord)](https://chat.lbry.io)
 
 The [lbry.io](https://lbry.io) website. This website uses barebones PHP along with Javascript and SCSS.
 
@@ -15,11 +15,11 @@ Please see [INSTALL](INSTALL.md) for comprehensive, easy-to-follow instructions 
 
 Unless you are planning to contribute to the lbry.io website, this project serves little independent purpose.
 
-To access a local copy of lbry.io, follow [INSTALL](INSTALL.md) and then access `localhost:8000` in your browser. This will allow you to make changes to the website, test locally and then submit pull requests. 
+To access a local copy of lbry.io, follow [INSTALL](INSTALL.md) and then access `localhost:8000` in your browser. This will allow you to make changes to the website, test locally and then submit pull requests.
 
 ## Running from Source
 
-Please see [INSTALL](INSTALL.md) for details on how to run from source. 
+Please see [INSTALL](INSTALL.md) for details on how to run from source.
 
 ## License
 
@@ -43,6 +43,6 @@ The primary contact for this project is [Jeremy Kauffman](https://github.com/kau
 - [Discord Chat](https://chat.lbry.io) - A chat room for the LBRYians
 - [Email us](mailto:hello@lbry.io) - LBRY Support email
 - [Twitter](https://twitter.com/@lbryio) - LBRY Twitter page
-- [Facebook](https://www.facebook.com/lbryio/) - LBRY Facebook page
+- [Facebook](https://www.facebook.com/lbryio) - LBRY Facebook page
 - [Reddit](https://reddit.com/r/lbry) - LBRY Reddit page
 - [Telegram](https://t.me/lbryofficial) - Telegram group

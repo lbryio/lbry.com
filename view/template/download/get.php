@@ -50,7 +50,6 @@
   <section>
     <div class="inner-wrap">
       <?php echo View::render('download/_list', ['excludeOs' => $os]) ?>
-      <!--/ <?php echo View::render('download/_social') ?> /-->
     </div>
   </section>
 </main>

@@ -1,9 +1,6 @@
 .ancillary {
   blockquote,
-  iframe,
-  ol,
-  p,
-  ul {
+  iframe {
     margin-bottom: 1.25rem;
   }
 
@@ -30,8 +27,8 @@
     }
 
     code {
-      background-color: $lbry-black;
-      color: $lbry-white;
+      background-color: var(--lbry-black);
+      color: var(--lbry-white);
       display: initial;
       font-size: 0.8rem;
       padding: 0.2rem 0.5rem;
@@ -43,7 +40,6 @@
   ol,
   ul {
     list-style-position: outside;
-    padding-left: 0.15rem;
 
     li {
       list-style-position: inherit;
@@ -55,20 +51,45 @@
   }
 
   ol {
+    padding-left: 0.15rem;
+
     > li {
       list-style-position: inside;
     }
   }
 
   ul {
-    padding-left: 1.3rem;
+    + ol,
+    + p,
+    + ul {
+      padding-top: 1.25rem;
+    }
 
-    &:not(.news-items) {
+    &:not(.download-cards) {
+      padding-left: 1.3rem;
+    }
+
+    &:not(.download-cards):not(.news-items) {
       list-style-type: disc;
     }
   }
 
   p {
+    + blockquote,
+    + hr,
+    + iframe,
+    + img {
+      margin-top: 1.25rem;
+    }
+
+    + h2,
+    + h3,
+    + ol,
+    + p,
+    + ul {
+      padding-top: 1.25rem;
+    }
+
     img {
       margin-right: auto;
       margin-left: auto;
@@ -81,8 +102,22 @@
   }
 
   blockquote {
-    border-left: 0.5rem solid $lbry-teal-5;
-    padding: 1rem 0 1rem 1.5rem;
+    padding: 1rem 0 1rem 2rem;
+    position: relative;
+
+    &::before {
+      width: 0.5rem; height: 100%;
+      top: 0; left: 0;
+
+      background-image: linear-gradient(250deg, var(--lbry-teal-2), var(--lbry-blue-3) 100%);
+      content: "";
+      position: absolute;
+    }
+
+    // TODO: Rewrite all blockquotes in the blog posts
+    // p {
+    //   margin-bottom: 1.25rem;
+    // }
   }
 
   a {
@@ -90,11 +125,11 @@
       transition: color 0.2s;
 
       &:not(:hover) {
-        color: $lbry-teal-5;
+        color: var(--lbry-teal-5);
       }
 
       &:hover {
-        color: $lbry-teal-3;
+        color: var(--lbry-teal-3);
       }
     }
 

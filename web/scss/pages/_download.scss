@@ -1,0 +1,40 @@
+.download-cards {
+  padding-top: 1rem;
+}
+
+.download-card {
+  width: 10rem;
+
+  border: 1px solid var(--lbry-gray-1);
+  display: inline-flex;
+  list-style-type: none;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+
+  a,
+  span {
+    display: block;
+  }
+
+  a {
+    width: 100%;
+  }
+
+  span {
+    font-size: 2rem;
+    margin: 0 auto 1rem;
+    position: relative;
+    width: 100%;
+
+    // &::after {
+    //   width: 100%; height: 1px;
+    //   top: 1.55rem; left: 0;
+
+    //   background-color: $lbry-gray-1;
+    //   content: "";
+    //   position: absolute;
+    //   z-index: -1;
+    // }
+  }
+}

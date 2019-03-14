@@ -8,7 +8,7 @@ Marc Clair interviewed LBRY founder and CEO Jeremy Kauffman on the [Lions of Lib
 
 > "We think of [the LBRY protocol] as one box that is going to let you search and find any piece of media or information that has ever been created or that anyone wants to publish to the network. That can be music, movies, books, video games, any piece of static digital content... We think it is going to be a far better way to access, discover, and pay for these things than any system we have today."
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/9LavXUvcQfw?rel=0" frameborder="0" allowfullscreen></iframe></p>
+<iframe src="https://www.youtube.com/embed/9LavXUvcQfw?rel=0" allowfullscreen></iframe>
 
 Kauffman also didn't shy away from the tough questions Clair asked concerning questionable content on LBRY, the use of the Nobel Prize-winning Coase Theorem to design LBRY's naming system, and who the real losers are if LBRY succeeds.
 

@@ -1,5 +1,5 @@
 <footer class="footer">
-  <div class="inner-wrap">
+  <div class="inner-wrap inner-wrap--footer-top">
     <ul>
       <li>Company</li>
       <li><a href="/what" title="">About</a></li>
@@ -37,7 +37,7 @@
 
   <hr/>
 
-  <div class="inner-wrap">
+  <div class="inner-wrap inner-wrap--footer-bottom">
     <ul>
       <li class="free-speech"><a href="https://en.wikipedia.org/wiki/Free_Speech_Flag" title="">Free Speech Flag</a></li>
       <li><a href="#" id="elevator" title="Scroll to the top of the page">Back to top</a></li>
