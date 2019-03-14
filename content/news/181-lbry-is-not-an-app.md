@@ -3,6 +3,7 @@ author: sean-yesmunt
 title: 'LBRY Is Not An App'
 date: '2018-09-20 12:0:00'
 cover: 'iphone.jpg'
+category: technical
 ---
 
 ## LBRY Is Not An App
