@@ -3,6 +3,7 @@ author: brinck-slattery
 title: 'LBRY and the Anti-Media Team Up To Stop Censorship'
 date: '2018-12-05 15:00:00'
 cover: 'censorship.jpg'
+category: content
 ---
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">LBRY and <a href="https://twitter.com/spee_ch?ref_src=twsrc%5Etfw">@spee_ch</a> are teaming up with the <a href="https://twitter.com/hashtag/AntiMedia?src=hash&amp;ref_src=twsrc%5Etfw">#AntiMedia</a> to protect independent outlets with LBRYPress! No more relying on <a href="https://twitter.com/hashtag/SiliconValley?src=hash&amp;ref_src=twsrc%5Etfw">#SiliconValley</a> to host your content - get your own custom install here <a href="https://t.co/niz1SEUGMK">https://t.co/niz1SEUGMK</a><a href="https://twitter.com/hashtag/FreeSpeech?src=hash&amp;ref_src=twsrc%5Etfw">#FreeSpeech</a> <a href="https://twitter.com/hashtag/censorship?src=hash&amp;ref_src=twsrc%5Etfw">#censorship</a> <a href="https://t.co/6v7lMNjhXn">pic.twitter.com/6v7lMNjhXn</a></p>&mdash; LBRY (we never give away ETH) (@LBRYio) <a href="https://twitter.com/LBRYio/status/1070416016247808001?ref_src=twsrc%5Etfw">December 5, 2018</a></blockquote>
