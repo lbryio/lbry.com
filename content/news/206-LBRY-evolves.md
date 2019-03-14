@@ -3,6 +3,7 @@ author: brinck-slattery
 title: 'LBRY Evolves: Introducing LBRY Darwin'
 date: '2019-2-21 15:00:00'
 cover: 'evolve.jpg'
+category: 'update'
 ---
 LBRY has come a long way since its inception, and we’re working harder than ever to thrive in the niche this environment has provided for us. In honor of the power of natural selection, we’ve named this release “Darwin.”
 
