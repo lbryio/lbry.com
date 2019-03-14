@@ -3,6 +3,7 @@ author: brinck-slattery
 title: 'If you still haven't found what you're searching for...'
 date: '2018-03-22 15:45:00'
 cover: 'wooden-letters-banner.jpg'
+category: update
 ---
 ## Hello LBRYians! 
 
