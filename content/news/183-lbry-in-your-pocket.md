@@ -3,6 +3,7 @@ author: brinck-slattery
 title: 'LBRY In Your Pocket'
 date: '2018-09-17 15:00:00'
 cover: 'blog_whyandroid.png'
+category: update
 ---
 
 We’re extremely excited to announce the release of our Android app! We’ve moved the project into “open beta” status, which means that while there’s still a lot of work to do, you can [install the app on your device now](https://play.google.com/apps/testing/io.lbry.browser) and access the LBRY content network! 
