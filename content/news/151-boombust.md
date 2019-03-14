@@ -3,6 +3,7 @@ author: reilly-smith
 title: 'The Boom Bust Boom'
 date: '2017-12-21 00:20:00'
 cover: 'boombust-banner.jpg'
+category: content
 ---
 The financial cycles, bubbles, and economies of scale: they’re the mythical stories of our time. Massive movements of people and capital, rising and falling, can be charted through analysis of the technicals and fundamentals of a given economy, and the lives of people flowing between them.
 
