@@ -3,6 +3,7 @@ author: brinck-slattery
 title: 'Something Wicked Cool This Way Comes'
 date: '2018-08-29 17:00:00'
 cover: 'Bradbury.jpg'
+category: update
 ---
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The all new LBRY Bradbury is live! Wallet encryption, improved subscriptions, and better search are now available in the LBRY app - download it today or upgrade in-app! <br>Get the details here: <a href="https://t.co/oa1DLoR350">https://t.co/oa1DLoR350</a><br>Download here: <a href="https://t.co/dwhnZqsn5n">https://t.co/dwhnZqsn5n</a> <a href="https://twitter.com/hashtag/newrelease?src=hash&amp;ref_src=twsrc%5Etfw">#newrelease</a> <a href="https://twitter.com/hashtag/blockchain?src=hash&amp;ref_src=twsrc%5Etfw">#blockchain</a> <a href="https://t.co/6F7xVki06H">pic.twitter.com/6F7xVki06H</a></p>&mdash; LBRY (we never give away ETH) (@LBRYio) <a href="https://twitter.com/LBRYio/status/1034894356552003590?ref_src=twsrc%5Etfw">August 29, 2018</a></blockquote>
