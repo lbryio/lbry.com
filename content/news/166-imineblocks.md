@@ -3,6 +3,7 @@ author: reilly-smith
 title: 'Hey, mine your own business!'
 date: '2018-04-05 00:20:00'
 cover: 'imineblocks-banner.jpg'
+category: content
 ---
 What was once the subject of niche crypto-anarchist communities vis-à-vis Bitcoin has now grown into a worldwide virtual homesteading: mining.
 
