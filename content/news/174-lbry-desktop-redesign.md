@@ -3,6 +3,7 @@ author: sean-yesmunt
 title: 'LBRY Austen: A Developers Perspective'
 date: '2018-06-25 17:00:00'
 cover: 'redesign.png'
+category: technical
 ---
 About 4 months ago a user by the name of @nizuka told us he had been working on a redesign for our desktop app and posted a link to a demo he made in one of our Slack channels (RIP LBRY slack, checkout our [Discord](https://chat.lbry.io/)). This wasn’t solicited and I’m not sure we had any immediate plans for a redesign at that time, but It was awesome. I think pretty much right away, everyone knew we should start working towards a new app design.
 
