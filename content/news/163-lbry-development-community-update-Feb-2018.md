@@ -43,7 +43,7 @@ A new round of enhancements to the Subscription feature is being developed. The 
 ### LBRY Mobile for Android
 LBRY recently worked with a user interface designer who came up with a very nice and simple design prototype, check out the video below for a preview. The process of incorporating this prototype into React Native code is underway. To solve delays deploying the app changes, we had to come up with a way to build the UI and daemon separately, such that the React Native app can be reloaded without having to rebuild the daemon each time (slow!). This enables testing the UI changes relatively quickly against any stable or development build of the daemon. There is a good chance that we will have a basic working mobile Android app in a few weeks!
 
-<video width="100%" controls src="https://spee.ch/b/android-prototype.mp4"/></video>
+<video controls src="https://spee.ch/b/android-prototype.mp4"/></video>
 
 ### spee.ch Update
 Spee.ch is now using React! As spee.ch began to grow, we soon realized that in order to provide a robust front-end experience we would need more flexibility in the way we build that experience. With that goal in mind, we spent the past few weeks converting the front end code from static handlebars templates to a full-fledged React app. This will allow us to do a lot more with efficiently reusing components, building more robust tools for users, and hopefully makes the code base more accessible to community developers who are already using the popular React framework. As part of this transition, we also converted some of the back end code to perform server-side rendering and updated the API endpoints.

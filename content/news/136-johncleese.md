@@ -18,7 +18,8 @@ The legend, the myth, the tall man: [@JohnCleese](https://open.lbry.io/%40JohnCl
 You can see John on tour right now [across the United States](http://www.montypython.com/news_jchg2017/422).
 
 Skeptical? Fear not. Proof!
-<video width="100%" controls src="https://spee.ch/86131eb2e741d127b5484a8b4e47a566a9e025ad/jc-c3NF349aEHM.mp4"/></video>
+
+<video controls src="https://spee.ch/86131eb2e741d127b5484a8b4e47a566a9e025ad/jc-c3NF349aEHM.mp4"/></video>
 
 Please support John Cleese's channel by tipping LBRY credits in-app to your favorite content.
 

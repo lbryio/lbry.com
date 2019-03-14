@@ -126,6 +126,7 @@ This will also give us the ability to better identify and communicate with group
 LBRY is looking for users or communities that are interested in hosting a spee.ch like website or even a web portal into their own LBRY content (think of this as your own local YouTube page!). We would be more than happy to walk you through the process which would include customization and tweaking it to your liking! Does this sound interesting to you or maybe someone you know? Sign up on or share our [spee.ch admin mailing list](https://lbry.io/speech-admin) to be notified when LBRY will host a Google Play demo session of getting a server setup.
 
 We are also looking for communities, subreddits and websites that could make use of spee.ch's image sharing features. This includes researching plugins to applications like Wordpress that would make such an integration easier for users. If you know any that might benefit, drop us a line on Discord.
+
 [![speech](https://spee.ch/b/speech-fork.jpeg)](https://lbry.io/speech-admin)
 
 ### Favorite Creators Contest in Discord

@@ -4,7 +4,7 @@ title: 'LBRY Credits Listed on First Exchange! Liquidity Ensues!'
 date: '2016-07-06 00:06:18'
 ---
 
-US-based cryptocoin exchange Bittrex has become the first to list LBRY credits (LBC) for trade to/from Bitcoin. In the first day of trading, LBC went from no established value to roughly 50¢ each! Taking into account all the LBC in existence, this would put LBC's market cap at roughly $200 million – higher than Dash, MaidSafeCoin, Dogecoin (wow!)[^1], and on par with Litecoin. Amazingly, some 1/3 of all outstanding credits were traded on the first day. [Visit the LBC Bittrex page here](https://www.bittrex.com/Market/Index?MarketName=BTC-LBC).
+US-based cryptocoin exchange Bittrex has become the first to list LBRY credits (LBC) for trade to/from Bitcoin. In the first day of trading, LBC went from no established value to roughly 50¢ each! Taking into account all the LBC in existence, this would put LBC's market cap at roughly $200 million – higher than Dash, MaidSafeCoin, Dogecoin (wow!), and on par with Litecoin. Amazingly, some 1/3 of all outstanding credits were traded on the first day. [Visit the LBC Bittrex page here](https://www.bittrex.com/Market/Index?MarketName=BTC-LBC).
 
 [![LBC on Bittrex](/img/lbryonbittrex.png)](https://bittrex.com/Market/Index?MarketName=BTC-LBC)
 
@@ -27,5 +27,3 @@ From Bittrex.com:
 Are you ready to start using LBRY and earning credits? [Click here](https://lbry.io/get) to sign up for our beta waitlist. We will be sending out batches of invite codes over the next few weeks as we carefully scale up the network. Beta users get 200 credits just for trying out the app!
 
 If you're interested in publishing original content to the network, [email LBRY Curator Reilly Smith](mailto:reilly@lbry.io), and you may be able to jump the queue!
-
-[^1]: Coinmarketcap.com

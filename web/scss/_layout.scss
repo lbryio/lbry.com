@@ -37,10 +37,6 @@ h1 {
 
   @media (max-width: 950px) {
     font-size: 2rem;
-
-    + h2 { // this styles the <h2>
-      padding-top: 0.5rem;
-    }
   }
 }
 
@@ -51,10 +47,6 @@ h2 {
 
   @media (max-width: 950px) {
     font-size: 1.5rem;
-
-    + h3 { // this styles the <h3>
-      padding-top: 0.5rem;
-    }
   }
 }
 
@@ -65,10 +57,6 @@ h3 {
 
   @media (max-width: 950px) {
     font-size: 1.15rem;
-
-    + p { // this styles the <p>
-      padding-top: 0.5rem;
-    }
   }
 }
 
@@ -137,6 +125,11 @@ small {
 
 strong {
   font-weight: 700;
+}
+
+iframe,
+video {
+  width: 100%;
 }
 
 

@@ -17,10 +17,15 @@ This is a verbose, haughty way of saying I try to think for the long-term, not f
 
 Yet here I am, running a company where people ask me to do the opposite every single day:
 
-<div class="spacer1">
-<blockquote class="twitter-tweet" data-lang="en" data-conversation="none"><p lang="en" dir="ltr"><a href="https://twitter.com/LBRYio">@LBRYio</a> Did you purposely plan to get everyone REKT who have/had faith in you?...</p>&mdash; Jamie (@JTKDGB) <a href="https://twitter.com/JTKDGB/status/793092411467726852">October 31, 2016</a></blockquote>
-<blockquote class="twitter-tweet" data-lang="en" data-conversation="none"><p lang="en" dir="ltr"><a href="https://twitter.com/LBRYio">@LBRYio</a> The first question is why the price of LBRY coins fall several times in the past.</p>&mdash; shuai sun (@shuaisun54) <a href="https://twitter.com/shuaisun54/status/793385272817750016">November 1, 2016</a></blockquote>
-</div>
+> [@LBRYio](https://twitter.com/LBRYio) Did you purposely plan to get everyone REKT who have/had faith in you?...
+>
+> — Jamie (@JTKDGB) [October 31, 2016](https://twitter.com/JTKDGB/status/793092411467726852)
+
+<br/>
+
+> [@LBRYio](https://twitter.com/LBRYio) The first question is why the price of LBRY coins fall several times in the past.
+>
+> — shuai sun (@shuaisun54) [November 1, 2016](https://twitter.com/shuaisun54/status/793385272817750016)
 
 So I've written this post as a canonical answer to questions about the price of LBC, as well as to give some insight into the way we think about things here at LBRY.
 

@@ -23,8 +23,9 @@ If you want to see a condensed view of what we have completed recently and what'
 
 # LBRY for Android launches! {#lbry-android}
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">LBRY on Android is LIVE in open beta! Click the link for details and the install page! <a href="https://t.co/c0OLGDdBHH">https://t.co/c0OLGDdBHH</a> <a href="https://twitter.com/hashtag/AndroidDev?src=hash&amp;ref_src=twsrc%5Etfw">#AndroidDev</a> <a href="https://twitter.com/hashtag/MobileApp?src=hash&amp;ref_src=twsrc%5Etfw">#MobileApp</a> <a href="https://twitter.com/hashtag/streaming?src=hash&amp;ref_src=twsrc%5Etfw">#streaming</a> <a href="https://t.co/AJeiqWJKiS">pic.twitter.com/AJeiqWJKiS</a></p>&mdash; LBRY (we never give away ETH) (@LBRYio) <a href="https://twitter.com/LBRYio/status/1042399927345860608?ref_src=twsrc%5Etfw">September 19, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+> LBRY on Android is LIVE in open beta! Click the link for details and the install page! [https://t.co/c0OLGDdBHH](https://t.co/c0OLGDdBHH) [#AndroidDev](https://twitter.com/hashtag/AndroidDev) [#MobileApp](https://twitter.com/hashtag/MobileApp) [#streaming](https://twitter.com/hashtag/streaming) [pic.twitter.com/AJeiqWJKiS](https://t.co/AJeiqWJKiS)
+>
+> — LBRY (we never give away ETH) (@LBRYio) [September 19, 2018](https://twitter.com/LBRYio/status/1042399927345860608)
 
 We've passed a major milestone on our [roadmap](https://lbry.io/roadmap) with the release of the LBRY mobile app to open beta! [Get the app for Android here.](https://play.google.com/store/apps/details?id=io.lbry.browser) For more details about other accomplishments, scroll down for full [roadmap update.](#roadmap)
 
@@ -36,12 +37,13 @@ If you aren't part of our Discord community yet, [join us](https://chat.lbry.io)
 #### TBA in October, Jhalandhar, India
 Lovely Professional University, hosted its first LBRY meetup on September 15, an introduction to LBRY for all user levels. LPU will be holding a larger LBRY/blockchain event mid-October. For more information, Contact Clement Gerber at ceogerber@gmail.com or by phone at 7982297653.
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">We made it, our <a href="https://twitter.com/LBRYio?ref_src=twsrc%5Etfw">@LBRYio</a> meetup happened and we had quite a number of people showing interest in <a href="https://twitter.com/hashtag/LBRY?src=hash&amp;ref_src=twsrc%5Etfw">#LBRY</a> <a href="https://t.co/T3gV3PtKAS">https://t.co/T3gV3PtKAS</a> . Join the movement today, download the lbry app today. <a href="https://t.co/XgQpkdY6Hk">https://t.co/XgQpkdY6Hk</a> and join 1000s of <a href="https://twitter.com/hashtag/LBRYians?src=hash&amp;ref_src=twsrc%5Etfw">#LBRYians</a> <a href="https://twitter.com/cryptobeaut?ref_src=twsrc%5Etfw">@cryptobeaut</a> <a href="https://twitter.com/1Ghini?ref_src=twsrc%5Etfw">@1Ghini</a></p>&mdash; Premium_Trends (Clement) (@Premium_Trends) <a href="https://twitter.com/Premium_Trends/status/1041060144694480896?ref_src=twsrc%5Etfw">September 15, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+> We made it, our [@LBRYio](https://twitter.com/LBRYio) meetup happened and we had quite a number of people showing interest in [#LBRY](https://twitter.com/hashtag/LBRY) [https://t.co/T3gV3PtKAS](https://t.co/T3gV3PtKAS). Join the movement today, download the lbry app today. [https://t.co/XgQpkdY6Hk](https://t.co/XgQpkdY6Hk) and join 1000s of [#LBRYians](https://twitter.com/hashtag/LBRYians) [@cryptobeaut](https://twitter.com/cryptobeaut) [@1Ghini](https://twitter.com/1Ghini)
+>
+> — Premium_Trends (Clement) (@Premium_Trends) [September 15, 2018](https://twitter.com/Premium_Trends/status/1041060144694480896)
 
 **LBRY MEETUP FEEDBACK VIDEO**
 
-<video width="100%" controls poster="https://spee.ch/99c907db5a0fdae11cd5430774614b972bfa73eb/LB3TrLkLovPfGbh89NfhvTm0.JPG" src="https://spee.ch/f9938280f71d90186467260c905932c24fc395d3/lbry-meetup-feedback.mp4"/></video>
+<video controls poster="https://spee.ch/99c907db5a0fdae11cd5430774614b972bfa73eb/LB3TrLkLovPfGbh89NfhvTm0.JPG" src="https://spee.ch/f9938280f71d90186467260c905932c24fc395d3/lbry-meetup-feedback.mp4"/></video>
 
 ![Clement at LPU](https://spee.ch/e/clement-india)
 
@@ -55,8 +57,9 @@ LBRY is partnering with the University of New Hampshire to present a hackathon f
 
 ### LBRY.fund Community Grants and Updates {#lbry-fund}
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Got an idea to make LBRY better or get it in front of more people? We want to make your concept a reality! Head to <a href="https://t.co/N3OxykJexx">https://t.co/N3OxykJexx</a>, apply for a <a href="https://twitter.com/hashtag/grant?src=hash&amp;ref_src=twsrc%5Etfw">#grant</a> today <a href="https://twitter.com/hashtag/blockchain?src=hash&amp;ref_src=twsrc%5Etfw">#blockchain</a> <a href="https://twitter.com/hashtag/crypto?src=hash&amp;ref_src=twsrc%5Etfw">#crypto</a> <a href="https://t.co/AeEnupX1MY">pic.twitter.com/AeEnupX1MY</a></p>&mdash; LBRY (we never give away ETH) (@LBRYio) <a href="https://twitter.com/LBRYio/status/1042514209026834433?ref_src=twsrc%5Etfw">September 19, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+> Got an idea to make LBRY better or get it in front of more people? We want to make your concept a reality! Head to [https://t.co/N3OxykJexx](https://t.co/N3OxykJexx), apply for a [#grant](https://twitter.com/hashtag/grant) today [#blockchain](https://twitter.com/hashtag/blockchain) [#crypto](https://twitter.com/hashtag/crypto) [pic.twitter.com/AeEnupX1MY](https://t.co/AeEnupX1MY)
+>
+> — LBRY (we never give away ETH) (@LBRYio) [September 19, 2018](https://twitter.com/LBRYio/status/1042514209026834433)
 
 The [LBRY.fund](https://lbry.fund) is a pool of LBC Credits set aside for promoting community development on the LBRY protocol. The fund is open to anybody, and you can submit requests for your ideas using, developing, or promoting use of the LBRY protocol, We're proud to share some of the projects we've funded.
 
@@ -87,8 +90,11 @@ We've passed a major milestone on our [roadmap](https://lbry.io/roadmap) with th
 
 ### Youtube Sync Updates {#youtube-updates}
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">More than 150,000 videos have been uploaded to LBRY in the past month - if you&#39;re not on the only <a href="https://twitter.com/hashtag/decentralized?src=hash&amp;ref_src=twsrc%5Etfw">#decentralized</a>, <a href="https://twitter.com/hashtag/freespeech?src=hash&amp;ref_src=twsrc%5Etfw">#freespeech</a> network yet, what are you waiting for?<br/><br/>Download the all new LBRY Bradbury here <a href="https://t.co/CiwE5rRIZu">https://t.co/CiwE5rRIZu</a><br/>Sync your videos here <a href="https://t.co/lJtMV8KI3M">https://t.co/lJtMV8KI3M</a> <a href="https://t.co/KlqkXAuUUX">pic.twitter.com/KlqkXAuUUX</a></p>&mdash; LBRY (we never give away ETH) (@LBRYio) <a href="https://twitter.com/LBRYio/status/1042431169055399936?ref_src=twsrc%5Etfw">September 19, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+> More than 150,000 videos have been uploaded to LBRY in the past month - if you're not on the only [#decentralized](https://twitter.com/hashtag/decentralized), [#freespeech](https://twitter.com/hashtag/freespeech) network yet, what are you waiting for?<br/><br/>
+> Download the all new LBRY Bradbury here [https://t.co/CiwE5rRIZu](https://t.co/CiwE5rRIZu)<br/>
+> Sync your videos here [https://t.co/lJtMV8KI3M](https://t.co/lJtMV8KI3M) [pic.twitter.com/KlqkXAuUUX](https://t.co/KlqkXAuUUX)
+>
+> — LBRY (we never give away ETH) (@LBRYio) [September 19, 2018](https://twitter.com/LBRYio/status/1042431169055399936)
 
 During the past month a lot of work was put in Youtube Sync to increase performance. After dealing with issues related to the quality of the streams and the tracking of our content we achieved another milestone by publishing another 100k videos. We are now close to 200k videos published through our YouTube synch program.
 

@@ -18,10 +18,10 @@ Mr. Moore's tunes are a new personal favorite of mine. His freshman EP, *Winning
 Two videos, directed by Angelino filmmaker Johnny Sikma, can be found at:
 
 "Wasted"
-- lbry://@capital/wasted
+- `lbry://@capital/wasted`
 
 "Pillsbury Boy"
-- lbry://@capital/pillsburyboy
+- `lbry://@capital/pillsburyboy`
 
 (That's right. LBRY has channels now. But the only way to try 'em out before May is to hangout with us on [Discord chat](http://chat.lbry.io). Claim your @name on the revamped Publish page, manage each channel, and what content belongs where.)
 

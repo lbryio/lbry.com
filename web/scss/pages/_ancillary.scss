@@ -4,6 +4,40 @@
     margin-bottom: 1.25rem;
   }
 
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  ol,
+  p,
+  ul {
+    + blockquote,
+    + .button,
+    + hr,
+    + iframe,
+    + img,
+    + pre,
+    + video {
+      margin-top: 1.25rem;
+    }
+
+    + h1,
+    + h2,
+    + h3,
+    + h4,
+    + h5,
+    + ol,
+    + p,
+    + ul {
+      padding-top: 1.25rem;
+    }
+
+    + .button {
+      display: inline-block;
+    }
+  }
+
   ol,
   p,
   ul {
@@ -31,9 +65,10 @@
       color: var(--lbry-white);
       display: initial;
       font-size: 0.8rem;
+      font-style: normal;
       padding: 0.2rem 0.5rem;
       position: relative;
-      top: -0.2rem;
+      top: -0.1rem;
     }
   }
 
@@ -59,12 +94,6 @@
   }
 
   ul {
-    + ol,
-    + p,
-    + ul {
-      padding-top: 1.25rem;
-    }
-
     &:not(.download-cards) {
       padding-left: 1.3rem;
     }
@@ -74,20 +103,15 @@
     }
   }
 
-  p {
-    + blockquote,
-    + hr,
-    + iframe,
-    + img {
-      margin-top: 1.25rem;
+  > p {
+    > br {
+      display: none;
     }
+  }
 
-    + h2,
-    + h3,
-    + ol,
-    + p,
-    + ul {
-      padding-top: 1.25rem;
+  p {
+    &:empty {
+      display: none;
     }
 
     img {
@@ -171,5 +195,11 @@
   table {
     margin-bottom: 1rem;
     padding-top: 1rem;
+  }
+
+  video {
+    + p {
+      margin-top: 1.25rem;
+    }
   }
 }

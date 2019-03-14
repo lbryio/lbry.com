@@ -64,4 +64,4 @@ We want to get LBRY credits into the hands of users and communities that support
 
 We're also going to drop this sweet hype video here, made by the wonderful J.J. Epic of [NeoCash Radio](http://neocashradio.com).
 
-<video width="100%" controls poster="https://spee.ch/850029cd898c982812fbdd83d22c1d5e32ad3ac9/lbryhypeposter.png" src="https://spee.ch/65913d27e8a5723f539447bd3cb27279b357f4d4/hellolbry.mp4"/></video>
+<video controls poster="https://spee.ch/850029cd898c982812fbdd83d22c1d5e32ad3ac9/lbryhypeposter.png" src="https://spee.ch/65913d27e8a5723f539447bd3cb27279b357f4d4/hellolbry.mp4"/></video>

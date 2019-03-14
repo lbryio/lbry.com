@@ -48,7 +48,7 @@ Coming soon, Lucas will unveil a special LBRY based cryptopuzzle where you can w
 
 ### Hacktoberfest {#hacktoberfest}
 
-<video width="100%" controls poster="https://spee.ch/@thumbnails:e7b0620f6e5a56031cbfc8b9373b02d6ed63c39c/Hacktoberfest-thumb.png" src="https://spee.ch/9bb73cecc938907424c1705339751e21eea559a5/Hacktoberfest.mp4"/></video>
+<video controls poster="https://spee.ch/@thumbnails:e7b0620f6e5a56031cbfc8b9373b02d6ed63c39c/Hacktoberfest-thumb.png" src="https://spee.ch/9bb73cecc938907424c1705339751e21eea559a5/Hacktoberfest.mp4"/></video>
 
 As Hacktoberfest draws to a close, we couldn't be happier with how it turned out! Thanks so much to all the contributors who made this month so awesome! We had over 40 unique contributors submit 115 pull requests on LBRY's repos alone, and developers from our staff worked on a number of thorny issues for other open source projects.
 
@@ -66,7 +66,7 @@ In October, we finally caught up with the YouTube sync queue. Over 300K videos h
 
 There are two large next steps for this program. First, we need to update all creators' videos with published timestamps in order to match what's on YouTube. This will happen once the LBRY protocol is updated to support this new datapoint (within the next couple months). Second, we need to develop an easy process by which YouTubers will claim their channel and content through the LBRY app, and have it appear in their wallet/My Publishes area so they have full control to edit/delete or post new content exclusively to LBRY.  The sync will continue even after sending over this content.
 
-###Events {#events}
+### Events {#events}
 
 #### November 10, LPU LBRY/Blockchain Meetup - Jhalandhar, India
 Lovely Professional University is hosting a LBRY/blockchain event, introducing LBRY to novice users and developers. For more information, Contact Clement Gerber at [ceogerber@gmail.com](mailto:ceogerber@gmail.com) or by phone at [7982297653](tel:7982297653).
@@ -86,10 +86,12 @@ LBRY is proud to sponsor HackYSU 2019 this year. This is Youngstown State Univer
 #### UNH Hackathon:
 LBRY awarded over $4000 in prizes during the University of New Hampshire's hackathon for students! CEO Jeremy Kauffman was on hand to encourage participants to create solutions to problem statements by using the LBRY protocol.
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Kicking off Hackathon: Blockchain with <a href="https://twitter.com/LBRYio?ref_src=twsrc%5Etfw">@LBRYio</a> CEO Jeremy Kauffman and <a href="https://twitter.com/UNHCrypto?ref_src=twsrc%5Etfw">@UNHCrypto</a> at the <a href="https://twitter.com/hashtag/UNHECenter?src=hash&amp;ref_src=twsrc%5Etfw">#UNHECenter</a>! <a href="https://t.co/qOIeWcbh5P">pic.twitter.com/qOIeWcbh5P</a></p>&mdash; UNH ECenter (@UNHECenter) <a href="https://twitter.com/UNHECenter/status/1053395944279027717?ref_src=twsrc%5Etfw">October 19, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+> Kicking off Hackathon: Blockchain with [@LBRYio](https://twitter.com/LBRYio) CEO Jeremy Kauffman and [@UNHCrypto](https://twitter.com/UNHCrypto) at the [#UNHECenter](https://twitter.com/hashtag/UNHECenter)! [pic.twitter.com/qOIeWcbh5P](https://t.co/qOIeWcbh5P)
+>
+> — UNH ECenter (@UNHECenter) [October 19, 2018](https://twitter.com/UNHECenter/status/1053395944279027717)
 
 ![Jeremy with UNH Students](https://spee.ch/b/jeremy-unh.jpg)
+
 ![UNH Students Present plan](https://spee.ch/2/unh-hack.jpg)
 
 

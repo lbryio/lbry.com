@@ -5,8 +5,9 @@ date: '2018-09-12 12:00:00'
 cover: 'blog_whyandroid.png'
 ---
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="und" dir="ltr"><a href="https://twitter.com/hashtag/areyoureadyforthisjelly?src=hash&amp;ref_src=twsrc%5Etfw">#areyoureadyforthisjelly</a> <a href="https://t.co/urXNtw1IQk">pic.twitter.com/urXNtw1IQk</a></p>&mdash; LBRY (we never give away ETH) (@LBRYio) <a href="https://twitter.com/LBRYio/status/1039532032781635586?ref_src=twsrc%5Etfw">September 11, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+> [#areyoureadyforthisjelly](https://twitter.com/hashtag/areyoureadyforthisjelly) [pic.twitter.com/urXNtw1IQk](https://t.co/urXNtw1IQk)
+>
+> — LBRY (we never give away ETH) (@LBRYio) [September 11, 2018](https://twitter.com/LBRYio/status/1039532032781635586)
 
 In case you've missed it, we're launching the [LBRY Beta](https://lbry.io/get?auto=1) on Android next Monday.
 

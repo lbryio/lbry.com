@@ -5,12 +5,16 @@ date: '2018-08-29 17:00:00'
 cover: 'Bradbury.jpg'
 ---
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The all new LBRY Bradbury is live! Wallet encryption, improved subscriptions, and better search are now available in the LBRY app - download it today or upgrade in-app! <br/>Get the details here: <a href="https://t.co/oa1DLoR350">https://t.co/oa1DLoR350</a><br/>Download here: <a href="https://t.co/dwhnZqsn5n">https://t.co/dwhnZqsn5n</a> <a href="https://twitter.com/hashtag/newrelease?src=hash&amp;ref_src=twsrc%5Etfw">#newrelease</a> <a href="https://twitter.com/hashtag/blockchain?src=hash&amp;ref_src=twsrc%5Etfw">#blockchain</a> <a href="https://t.co/6F7xVki06H">pic.twitter.com/6F7xVki06H</a></p>&mdash; LBRY (we never give away ETH) (@LBRYio) <a href="https://twitter.com/LBRYio/status/1034894356552003590?ref_src=twsrc%5Etfw">August 29, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+> The all new LBRY Bradbury is live! Wallet encryption, improved subscriptions, and better search are now available in the LBRY app - download it today or upgrade in-app!<br/>
+> Get the details here: [https://t.co/oa1DLoR350](https://t.co/oa1DLoR350)<br/>
+> Download here: [https://t.co/dwhnZqsn5n](https://t.co/dwhnZqsn5n) [#newrelease](https://twitter.com/hashtag/newrelease) [#blockchain](https://twitter.com/hashtag/blockchain) [pic.twitter.com/6F7xVki06H](https://t.co/6F7xVki06H)
+>
+> — LBRY (we never give away ETH) (@LBRYio) [August 29, 2018](https://twitter.com/LBRYio/status/1034894356552003590)
 
 LBRY is faster, more reliable, and easier to use than ever with the release of our newest version, Bradbury! Our developers have been working hard on improving the stability of the LBRY protocol and the user experience in our app, and this update delivers in a big way. If it's been a while since you opened up the LBRY app, now is the time to [get the latest version](https://lbry.io/get) and give it another try.
 
 ![LBRY Bradbury](https://spee.ch/2c249b33d9f6564acb4555d5fe4e97f5901e4657/lbry-bradbury.gif)
+
 ## What's in the box?
 LBRY Bradbury comes with some major feature upgrades, including:
 
@@ -45,7 +49,7 @@ You can read all the in-depth details on the [new features in Bradbury here](htt
 ## Why Bradbury?
 ![Ray Bradbury](https://spee.ch/604a76fefad6fbebaf14d7926f62324ff46de3c5/BradburyWide.jpeg)
 
-Ray Bradbury was a pioneering American writer whose books and short stories brought Sci-Fi, a genre that was previously confined to pulp fiction and B movies, to a mainstream audience. With work like The Martian Chronicles, Fahrenheit 451, and Dandelion Wine, he's earned his place in the pantheon of speculative fiction. Bradbury was also an unstoppable autodidact who had little use for schools and formal learning - in his words: 
+Ray Bradbury was a pioneering American writer whose books and short stories brought Sci-Fi, a genre that was previously confined to pulp fiction and B movies, to a mainstream audience. With work like The Martian Chronicles, Fahrenheit 451, and Dandelion Wine, he's earned his place in the pantheon of speculative fiction. Bradbury was also an unstoppable autodidact who had little use for schools and formal learning - in his words:
 
 "Libraries raised me. I don't believe in colleges and universities. I believe in libraries because most students don't have any money. When I graduated from high school, it was during the Depression and we had no money. I couldn't go to college, so I went to the library three days a week for 10 years."
 

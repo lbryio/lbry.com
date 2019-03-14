@@ -9,7 +9,7 @@ This week, we have a very special engagement on LBRYcast.
 
 YouTube has had its ups and downs. Recently, those downs have been pretty substantial, and along with Patreon's uncertain relationship with creators off and on throughout 2017, creators have been pining for more sustainable (and reliable) solutions.
 
-<video width="100%" controls poster="https://s3.amazonaws.com/files.lbry.io/thumbnails/Some+Black+Guy+YTW.png" src="https://spee.ch/dc5575faa7ceacb14c8ba021212d710b9a6ef0fa/youtubeweek-someblackguy.mp4"/></video>
+<video controls poster="https://s3.amazonaws.com/files.lbry.io/thumbnails/Some+Black+Guy+YTW.png" src="https://spee.ch/dc5575faa7ceacb14c8ba021212d710b9a6ef0fa/youtubeweek-someblackguy.mp4"/></video>
 
 We've partnered with The Rubin Report to bring you YouTube Week, a series of interviews with some of the most promising creators, new and established, on YouTube. They share their stories, struggles and opinions on what it means to be an independent content creator today.
 

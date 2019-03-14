@@ -24,7 +24,6 @@ His live performances and catalog of studio recordings will keep you coming back
 
 This indie rock outfit of more than a decade brings their soaring crescendos and brilliant vocals to LBRY. It's a familiar indie rock sound packed with an emotional punch. Search "Singleton" and keep an eye on their albums and music videos. From their official biography:
 
-
 > "Being in the avant-garde of Ukrainian indie music since 2004, Singleton has an extensive touring experience, with numerous shows in Ukraine, Russia, Belarus and Germany."
 
 **Want to share your jams on LBRY?** [Get an invite here](https://lbry.io/get). Or if you can't wait, skip our waiting list for a chance to earn $1,000 in LBRY Credits at the same time. [Learn more here](https://lbry.io/publish).

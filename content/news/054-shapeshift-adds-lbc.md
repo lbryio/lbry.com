@@ -12,7 +12,7 @@ As of today, LBRY Credits (LBC) are now available for exchange with other digita
 
 ShapeShift founder and CEO [Erik Voorhees](https://en.wikipedia.org/wiki/Erik_Voorhees) commented on the announcement:
 
->"The world is improved by the existence of LBRY – an innovative method of content dissemination – and we're honored to add it to ShapeShift. I've been watching the LBRY project for months, and am thrilled to make it instantly available for trading with all other leading digital assets."
+> "The world is improved by the existence of LBRY – an innovative method of content dissemination – and we're honored to add it to ShapeShift. I've been watching the LBRY project for months, and am thrilled to make it instantly available for trading with all other leading digital assets."
 
 Following the [July 4th launch](https://lbry.io/news/beta-live-declare-independence-big-media) of LBRY's beta and live blockchain, LBRY Credits have been listed on both the well-known [Bittrex](https://www.bittrex.com/Market/Index?MarketName=BTC-LBC) and [Poloniex](https://poloniex.com/exchange#btc_lbc) exchanges. This gave cryptocoin markets global access to LBC. As a result, the appcoin's value has gone from essentially nothing to today's trading price of about US$0.26. On top of that, the hashrate of the LBRY blockchain grew by 693,000% in the first 10 days after the launch of beta, and another 2X since then – to about 1.7 TH/s today.
 
@@ -26,7 +26,7 @@ With ShapeShift, anyone who holds LBC will be able to quickly and securely excha
 
 And that process works in reverse. Content consumers will now be able to acquire LBC to make purchases on LBRY easily.
 
->"ShapeShift has dramatically lowered transaction costs between cryptocoins, creating a kind of 'universal translator' that allows people to use specialized coins for particular purposes but enjoy the benefits of Bitcoin's widespread use. It is an important milestone to have LBRY Credits listed there, and we are exploring ways to integrate ShapeShift into the LBRY protocol." **- Mike Vine, LBRY Evangelist**
+> "ShapeShift has dramatically lowered transaction costs between cryptocoins, creating a kind of 'universal translator' that allows people to use specialized coins for particular purposes but enjoy the benefits of Bitcoin's widespread use. It is an important milestone to have LBRY Credits listed there, and we are exploring ways to integrate ShapeShift into the LBRY protocol." **- Mike Vine, LBRY Evangelist**
 
 **About ShapeShift**
 

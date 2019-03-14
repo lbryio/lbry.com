@@ -129,8 +129,15 @@ We've had to scale back on YouTube sync publishing so that our [content hosting 
 ### Twitter TipBot Update
 Our [Twitter Tipbot](https://twitter.com/@LBC_Tipbot) received a small revamp which fixes a number of bugs we were running into. It can now be called without having to use the `lbryian` keyword. See the latest commands on [our FAQ page](https://lbry.io/faq/tipbot-twitter)!
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Call commands with: <a href="https://twitter.com/LBC_TipBot?ref_src=twsrc%5Etfw">@LBC_TipBot</a> + <br/>help - Shows this command.<br/>balance - Get your balance.<br/>deposit - Get address for your deposits.<br/>withdraw ADDRESS AMOUNT - Withdraw AMOUNT credits to ADDRESS.<br/>tip USER AMOUNT - Tip USER AMOUNT.<br/>terms - Sends the TOS.</p>&mdash; LBC_TipBot (@LBC_TipBot) <a href="https://twitter.com/LBC_TipBot/status/1015264401836765184?ref_src=twsrc%5Etfw">July 6, 2018</a></blockquote> 
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+> Call commands with: [@LBC_TipBot](https://twitter.com/LBC_TipBot)<br/>
+> help - Shows this command.<br/>
+> balance - Get your balance.<br/>
+> deposit - Get address for your deposits.<br/>
+> withdraw ADDRESS AMOUNT - Withdraw AMOUNT credits to ADDRESS.<br/>
+> tip USER AMOUNT - Tip USER AMOUNT.<br/>
+> terms - Sends the TOS.<br/>
+>
+> — LBC_TipBot (@LBC_TipBot) [July 6, 2018](https://twitter.com/LBC_TipBot/status/1015264401836765184)
 
 ### LBRY Merchandise Shop
 New patriotic and free speech inspired designs have been added to our shop as well as [tank tops for the summer](https://shop.lbry.io/collections/mens-unisex/products/lbry-logo-tank-top) - check out the entire offering at our [merchandise shop](https://shop.lbry.io)!

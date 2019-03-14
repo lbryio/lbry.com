@@ -9,7 +9,7 @@ Analysis is a dish best served intelligently.
 
 You've seen his channel [@ColinsLastStand](https://open.lbry.io/%40ColinsLastStand) make its way to LBRY. But more recently, Mr. Moriarty has returned to his roots: the games industry. This is [@Sidequest](https://open.lbry.io/%40Sidequest)
 
-<video width="100%" controls poster="https://berk.ninja/thumbnails/LTST62VsVag" src="https://spee.ch/105c776e2eba084c3381b9c8c33a3103fdcfd46d/how-nintendo-switch-dominated-2017-and.mp4"/></video>
+<video controls poster="https://berk.ninja/thumbnails/LTST62VsVag" src="https://spee.ch/105c776e2eba084c3381b9c8c33a3103fdcfd46d/how-nintendo-switch-dominated-2017-and.mp4"/></video>
 
 After a long stint as one of the independent staple voices at IGN.com, and later joining his former comrades at Kinda Funny Games, Colin Moriarty has again reinvented his quest to speak his mind about his favorite things. On the heels of his interview last year with [@TheRubinReport](https://open.lbry.io/%40TheRubinReport) to boot!
 

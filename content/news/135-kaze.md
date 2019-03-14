@@ -14,7 +14,8 @@ One of the most persistent and fascinating art-remix communities is the mod comm
 [@KazeEmanuar](https://open.lbry.io/%40KazeEmanuar), recently featured on [IGN](https://open.lbry.io/@IGNonLBRY) for his [Super Mario 64 Online mod](http://www.ign.com/articles/2017/09/13/fan-made-super-mario-64-brings-online-play), has made a habit of taking arguably the most revolutionary game of the most iconic franchise in history and fusing it to the modern day, in all its blocky glory.
 
 Words don't do this madman justice. Feast your eyes on Super Mario 64 graphed onto the Legend of Zelda: Ocarina of Time overworld.
-<video width="100%" controls src="https://spee.ch/6a0eb0bd494c4715697623bda13c4f824c19b792/zelda-mario-64-crossover-hyrule-field.mp4"/></video>
+
+<video controls src="https://spee.ch/6a0eb0bd494c4715697623bda13c4f824c19b792/zelda-mario-64-crossover-hyrule-field.mp4"/></video>
 
 Recently, Nintendo had Kaze's Patreon and many videos deleted. **Please support his videos by donating LBRY credits to your favorite clips.**
 

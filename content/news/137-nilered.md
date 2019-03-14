@@ -18,7 +18,8 @@ Rounding out the top five science channels on LBRY is perhaps the most legendary
 [@NileRed](https://open.lbry.io/%40NileRed) (also available on spee.ch at https://spee.ch/@NileRed) is a regular Reddit front page sensation. Don't believe me? As /u/deeexz [two years ago](https://www.reddit.com/r/chemistry/comments/3lgk8f/my_absolute_favourite_chemistryrelated_channel_on/?st=j98pwzbq&sh=a9b568e6) said, "My absolute favourite chemistry-related channel on YouTube." And now, NileRed has nearly a quarter of a million subscribers. So, we should all be thanking deeexz.
 
 Get lit on chemistry via spee.ch:
-<video width="100%" controls poster="https://berk.ninja/thumbnails/5ZrfNAHDjWU" src="https://spee.ch/1fe933b8c0709dcc035ec4df73e3b0f63ba5d112/red-phosphorus-from-matchboxes.mp4"/></video>
+
+<video controls poster="https://berk.ninja/thumbnails/5ZrfNAHDjWU" src="https://spee.ch/1fe933b8c0709dcc035ec4df73e3b0f63ba5d112/red-phosphorus-from-matchboxes.mp4"/></video>
 
 Please support NileRed by tipping LBRY credits in-app to your favorite chemical reactions. And also because tipping is a pretty, pretty, prettttty cool.
 

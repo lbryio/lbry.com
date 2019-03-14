@@ -16,8 +16,11 @@ If you want to see a condensed view of what we have completed recently and what'
 
 ## UPDATE - LBRY Community Contests
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The Video Contest &amp; Networking Bounty has officially started!<br/>A total prize pool of 7000 LBC.<br/>Visit <a href="https://t.co/16RZh3L2LH">https://t.co/16RZh3L2LH</a><br/>Good luck creating videos!<a href="https://twitter.com/hashtag/LBRY?src=hash&amp;ref_src=twsrc%5Etfw">#LBRY</a> <a href="https://twitter.com/search?q=%24LBC&amp;src=ctag&amp;ref_src=twsrc%5Etfw">$LBC</a> <a href="https://twitter.com/LBRYio?ref_src=twsrc%5Etfw">@LBRYio</a></p>&mdash; LBRY Community (@LBRYCommunity) <a href="https://twitter.com/LBRYCommunity/status/1024023211778998272?ref_src=twsrc%5Etfw">July 30, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+> The Video Contest &amp; Networking Bounty has officially started!<br/>A total prize pool of 7000 LBC.<br/>
+> Visit [https://t.co/16RZh3L2LH](https://t.co/16RZh3L2LH)<br/>
+> Good luck creating videos! [#LBRY](https://twitter.com/hashtag/LBRY) [$LBC](https://twitter.com/search?q=%24LBC) [@LBRYio](https://twitter.com/LBRYio)
+>
+> — LBRY Community (@LBRYCommunity) [July 30, 2018](https://twitter.com/LBRYCommunity/status/1024023211778998272)
 
 We have winners in our t-shirt and 3D chess set contests! We are also excited to announce new Video and Networking contests hosted by our community partners, LBRY-C!
 
@@ -146,8 +149,9 @@ Interested in running your own spee.ch server or clone? Check out the [quick sta
 ### Blockchain - Hard Fork Success!
 LBRY went through a successful [hard fork on 7/9/18](https://lbry.io/news/hf1807). It was not until a few days after that we were able to confirm that consensus was maintained by miners after the upgrade. Exchanges and other services handled the update fairly well also, but we did run into a hiccup or two with some nodes needing to be re-indexed (which we provided instructions for in the blog post). There already is another [hard fork upgrade](https://github.com/lbryio/lbrycrd/pull/159) related to case sensitivity on claims/channels in the queue and we are determining the best timing to execute it.
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Our hard fork is complete! Claims now last 10 years instead of 1.5, meaning that you can count on finding the content you uploaded to LBRY now and years from now. Check the link for more details. <a href="https://t.co/RDJsOxfL0S">https://t.co/RDJsOxfL0S</a> <a href="https://twitter.com/hashtag/hardfork?src=hash&amp;ref_src=twsrc%5Etfw">#hardfork</a> <a href="https://twitter.com/hashtag/blockchain?src=hash&amp;ref_src=twsrc%5Etfw">#blockchain</a></p>&mdash; LBRY (we never give away ETH) (@LBRYio) <a href="https://twitter.com/LBRYio/status/1017063979364048897?ref_src=twsrc%5Etfw">July 11, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+> Our hard fork is complete! Claims now last 10 years instead of 1.5, meaning that you can count on finding the content you uploaded to LBRY now and years from now. Check the link for more details. [https://t.co/RDJsOxfL0S](https://t.co/RDJsOxfL0S) [#hardfork](https://twitter.com/hashtag/hardfork) [#blockchain](https://twitter.com/hashtag/blockchain)
+>
+> — LBRY (we never give away ETH) (@LBRYio) [July 11, 2018](https://twitter.com/LBRYio/status/1017063979364048897)
 
 The next priorities for the Blockchain team include cleaning up the claimtrie code base in order to increase maintainability and to provide a smoother transition to upstream changes from Bitcoin. These changes include features like SegWit and HD Addresses which were enabled on later versions of Bitcoin. Segwit is especially important since it would allow us to run Lighting Network, which is a 2nd layer scaling solution for microtransactions and a perfect use case for data payments on the P2P network.
 
@@ -169,8 +173,9 @@ CryptoCandor, one of LBRY's featured content creators, brings us a full review a
 
 ![CryptoCandor](https://spee.ch/ef8cb7be92327f2af7b16917847fdcbfedf0692f/cryptocandor-lbry.jpg)
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">We&#39;re excited to announce that <a href="https://twitter.com/CryptoCandor?ref_src=twsrc%5Etfw">@CryptoCandor</a>&#39;s <a href="https://t.co/6hefigVmB3">https://t.co/6hefigVmB3</a> project has been approved! Do you have an idea for a new way to use or promote LBRY? Make it reality with our grant program at <a href="https://t.co/6hefigVmB3">https://t.co/6hefigVmB3</a> - head over and apply today! <a href="https://t.co/97csq98oGI">pic.twitter.com/97csq98oGI</a></p>&mdash; LBRY (we never give away ETH) (@LBRYio) <a href="https://twitter.com/LBRYio/status/1016779857647239169?ref_src=twsrc%5Etfw">July 10, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+> We're excited to announce that [@CryptoCandor](https://twitter.com/CryptoCandor)'s [https://t.co/6hefigVmB3](https://t.co/6hefigVmB3) project has been approved! Do you have an idea for a new way to use or promote LBRY? Make it reality with our grant program at [https://t.co/6hefigVmB3](https://t.co/6hefigVmB3) - head over and apply today! [pic.twitter.com/97csq98oGI](https://t.co/97csq98oGI)
+>
+> — LBRY (we never give away ETH) (@LBRYio) [July 10, 2018](https://twitter.com/LBRYio/status/1016779857647239169)
 
 
 #### FONK World:
@@ -178,8 +183,9 @@ David Heath and Mike Little are teaming up to create an animated humorous video 
 
 ![FONK World](https://spee.ch/36c08e0463b8247c8a53990f9634c4ad473cc9d1/fonk-lbry-sm.jpg)
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">FONK is funded! If you have an idea to improve LBRY, build something new on LBRY, or tell the world about our <a href="https://twitter.com/hashtag/decentralized?src=hash&amp;ref_src=twsrc%5Etfw">#decentralized</a>, peer to peer network, apply for a grant today at <a href="https://t.co/6hefigVmB3">https://t.co/6hefigVmB3</a>! <a href="https://t.co/wqfF0eHCmE">pic.twitter.com/wqfF0eHCmE</a></p>&mdash; LBRY (we never give away ETH) (@LBRYio) <a href="https://twitter.com/LBRYio/status/1022945228137881606?ref_src=twsrc%5Etfw">July 27, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+> FONK is funded! If you have an idea to improve LBRY, build something new on LBRY, or tell the world about our [#decentralized](https://twitter.com/hashtag/decentralized), peer to peer network, apply for a grant today at [https://t.co/6hefigVmB3](https://t.co/6hefigVmB3)! [pic.twitter.com/wqfF0eHCmE](https://t.co/wqfF0eHCmE)
+>
+> — LBRY (we never give away ETH) (@LBRYio) [July 27, 2018](https://twitter.com/LBRYio/status/1022945228137881606)
 
 #### LBRY Pi TV:
 [Discord](https://chat.lbry.io) user Madiator2011 is creating a plug and play device to view LBRY video content on television. At its core, the device uses a Raspberry Pi computer to stream LBRY videos. You can watch the progress and follow along by visiting [the LBRY Pi Website](https://lbrypi.com).
@@ -190,8 +196,9 @@ LBRY is partnering with the University of New Hampshire to present a hackathon f
 #### Matt Sokol Development Grant:
 Musician and LBRY contributor Matt Sokol approached us with a unique LBRY.fund request: he asked us to fund him to work on a special project using a custom [Spee.ch Multisite](https://github.com/lbryio/spee.ch) installation to host beautifully typeset classical books. We said yes! If you'd like to hear some of Matt's music, you can find it on the LBRY app: [lbry://@heymattsokol.](https://open.lbry.io/@heymattsokol)
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/Mathrock?src=hash&amp;ref_src=twsrc%5Etfw">#Mathrock</a>, <a href="https://twitter.com/hashtag/chiptune?src=hash&amp;ref_src=twsrc%5Etfw">#chiptune</a>, and <a href="https://twitter.com/hashtag/blockchain?src=hash&amp;ref_src=twsrc%5Etfw">#blockchain</a> are three great tastes that taste great together - we can&#39;t wait to see what <a href="https://twitter.com/heymattsokol?ref_src=twsrc%5Etfw">@heymattsokol</a> comes up with now that his project is funded! <a href="https://t.co/ySjeWEnXd6">pic.twitter.com/ySjeWEnXd6</a></p>&mdash; LBRY (we never give away ETH) (@LBRYio) <a href="https://twitter.com/LBRYio/status/1019596298658426885?ref_src=twsrc%5Etfw">July 18, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+> [#Mathrock](https://twitter.com/hashtag/Mathrock), [#chiptune](https://twitter.com/hashtag/chiptune), and [#blockchain](https://twitter.com/hashtag/blockchain) are three great tastes that taste great together - we can't wait to see what [@heymattsokol](https://twitter.com/heymattsokol) comes up with now that his project is funded! [pic.twitter.com/ySjeWEnXd6](https://t.co/ySjeWEnXd6)
+>
+> — LBRY (we never give away ETH) (@LBRYio) [July 18, 2018](https://twitter.com/LBRYio/status/1019596298658426885)
 
 Do you have an idea for a project using or promoting the LBRY Protocol? We may pay you to create your vision. [Visit the LBRY.fund for details](https://lbry.fund).
 
@@ -200,7 +207,10 @@ Do you have an idea for a project using or promoting the LBRY Protocol? We may p
 ### LBRY Stack Exchange Community Enters Commitment Phase!
 The Stack Exchange LBRY Protocol site grew last month, and has now entered the Commitment phase! The real work begins now: we need 200 people to commit to use our Stack Exchange site, and 100 of them must be active participants on other Stack Exchange forums (have 200+ reputation). Please give us a hand:
 [View the LBRY Stack Exchange site here](https://area51.stackexchange.com/proposals/118455/lbry-protocol)
-<a href="https://area51.stackexchange.com/proposals/118455/lbry?"><img src="https://area51.stackexchange.com/ads/proposal/118455.png" width="300" height="250" alt="Stack Exchange Q&A site proposal: LBRY" /></a>
+
+<a href="https://area51.stackexchange.com/proposals/118455/lbry?">
+  <img src="https://area51.stackexchange.com/ads/proposal/118455.png" width="300" height="250" alt="Stack Exchange Q&A site proposal: LBRY"/>
+</a>
 
 ### LBRY is hiring!
 [Come join team Content Freedom!](https://lbry.io/join-us) We have the following positions open: Blockchain Engineer, Protocol Engineer, and API Engineer. We'd love for you to join us, or if you have a friend you think would be interested, we pay a $5,000 bounty if we hire them.

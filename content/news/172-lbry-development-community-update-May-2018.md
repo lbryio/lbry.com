@@ -56,6 +56,7 @@ Travis has also added a View on Web button which is shown on channel pages as we
 
 ### LBRY for Android Update
 LBRY for Android underwent a product review with management recently and a number of [issues were identified](https://github.com/lbryio/lbry-android/issues?q=is%3Aissue+label%3A"product+review"). The latest updates to the alpha include a search function, ability to open other file types like images, html and text and, opening of lbry:// URLS via hyperlinks. Want to give alpha testing a shot? [Sign up here](https://lbry.io/android-alpha)!
+
 ![Android Search](https://spee.ch/0/Lbry-android-search.jpeg)
 
 ### spee.ch Update
@@ -141,6 +142,7 @@ Want to keep in touch regarding future 3D printing updates, [subscribe here](htt
 The LBRY tech resource website underwent a huge facelift in terms of design as well as content. You can follow along with progress on our [GitHub repository](https://github.com/lbryio/lbry.tech). Next steps before launch include finishing up the Build section, determining a single API documentation resource across our projects and moving technical documentation from lbry.io and other GitHub locations.
 
 ![lbrytech preview1](https://spee.ch/5/lbrytech-preview1.jpeg)
+
 ![lbrytech preview2](https://spee.ch/7/lbrytech-preview2.jpeg)
 
 [Back to **Development Updates**](#dev-updates)

@@ -15,7 +15,7 @@ But we've met our Nurd match. This is the most fundamental nerd fight: our battl
 
 Through the wonders of spee.ch, you can enjoy one of NurdRage's most important videos below, directly from the LBRY network: how to make the life-saving anti-malarial drug Daraprim.
 
-<video width="100%" controls src="https://spee.ch/fb613b913694d12441ef10f40d16eb1904aa4347/the-final-steps-of-making-pyrimethamine.mp4"/></video>
+<video controls src="https://spee.ch/fb613b913694d12441ef10f40d16eb1904aa4347/the-final-steps-of-making-pyrimethamine.mp4"/></video>
 
 Donate LBRY Credits directly to the videos you like using the integrated tipjar button.
 

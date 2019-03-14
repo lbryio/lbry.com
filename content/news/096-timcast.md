@@ -15,7 +15,7 @@ Enter @Timcast with independent journalist Tim Pool.
 
 Tim has been bringing uncensored, raw coverage of news from the frontlines for six years, and he's only just getting started. He is the quintessential independent journalist, unfunded by corporate news outlets or special interests. You can donate [to his Patreon here](https://www.patreon.com/timcast) and his current [investigation in Sweden here](https://www.gofundme.com/lastnightinsweden).
 
-Start following his coverage of Sweden's crime issues at lbry://timcast-sweden-day1 -- and each day afterward as Tim uncovers the truth about Swedish crime and immigration.
+Start following his coverage of Sweden's crime issues at `lbry://timcast-sweden-day1` -- and each day afterward as Tim uncovers the truth about Swedish crime and immigration.
 
 Tim Pool's work has been syndicated by NBC, Al Jazeera, VICE, Fusion TV, RT and Time.
 

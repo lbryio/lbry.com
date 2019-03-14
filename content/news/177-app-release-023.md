@@ -9,8 +9,9 @@ cover: 'lbryopoly-min.jpg'
 
 We heard your feedback, and we think you'll love the new LBRY v0.23! View all the changes in this version on our [release notes](https://github.com/lbryio/lbry-desktop/releases/tag/v0.23.0). This release also includes an updated [LBRY Protocol](https://github.com/lbryio/lbry/releases/tag/v0.20.4) which will help with download avialability and result in less false positives on Antivirus software since it is now digitally signed!
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">LBRY v0.23 is live! Check out our new 3D file previews, revamped settings for NSFW videos, and newly added emoji in descriptions - get all the details in this post! <a href="https://t.co/DEj4y9jfwl">https://t.co/DEj4y9jfwl</a> <a href="https://t.co/t2xrS2Kd2Z">pic.twitter.com/t2xrS2Kd2Z</a></p>&mdash; LBRY (we never give away ETH) (@LBRYio) <a href="https://twitter.com/LBRYio/status/1022188758970654722?ref_src=twsrc%5Etfw">July 25, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+> LBRY v0.23 is live! Check out our new 3D file previews, revamped settings for NSFW videos, and newly added emoji in descriptions - get all the details in this post! [https://t.co/DEj4y9jfwl](https://t.co/DEj4y9jfwl) [pic.twitter.com/t2xrS2Kd2Z](https://t.co/t2xrS2Kd2Z)
+>
+> — LBRY (we never give away ETH) (@LBRYio) [July 25, 2018](https://twitter.com/LBRYio/status/1022188758970654722)
 
 
 ### More than just video

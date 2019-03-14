@@ -9,7 +9,7 @@ The cryptocurrency industry as a whole, whether we like to admit it or not, is R
 
 Engaging that scrutiny is something we improve upon all the time. Especially in the most important area of all: improving the communication of ideas that define crypto.
 
-<video width="100%" controls poster="https://spee.ch/f2ba960389bdbe207da50a92e0806188ae87446f/What-is-Bitcoin.png" src="https://spee.ch/b56ff87d0e07341aecd35376c959f76d582101e1/whatisbitcoin.mp4"/></video>
+<video controls poster="https://spee.ch/f2ba960389bdbe207da50a92e0806188ae87446f/What-is-Bitcoin.png" src="https://spee.ch/b56ff87d0e07341aecd35376c959f76d582101e1/whatisbitcoin.mp4"/></video>
 
 Chronos Crypto ([lbry://@chronos](https://open.lbry.io/%40chronos)) is *easily* one of the most concise and informative crypto shows. From the simplest introductions (What is Bitcoin?) to [understanding forks](https://open.lbry.io/fork#c67fd5f39ab3db9fa9c2660692a4fce21dd743d7) or using desktop wallets [like Electrum](https://open.lbry.io/gettingstartedwithelectrum#d2403438d37b8501268e4fb982ad8c1ef55430b0), Chronos breaks down all you need to know to master cryptocurrency in digestible chunks.
 
