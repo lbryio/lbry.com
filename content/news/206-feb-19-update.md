@@ -94,7 +94,7 @@ Cross device syncing, especially related to wallets, has been a hot topic around
 
 ![wallet structure](https://spee.ch/5/wallet-db.jpeg)
 
-### Commenting on LBRY Update {#comments)}
+### Commenting on LBRY Update {#comments}
 With the help of two community members, we’ve been progressing on an API design to support commenting on LBRY. The original goal was to provide a centralized service to store comments while we iterated on the user experience and researched longer term on blockchain solutions. We’ve made some progress on this solution but it still lacks the ability to sign comments with an identity and verify them on the server side. The problem with a centralized service that provides free commenting is that it’s susceptible to spam and sybil attacks. Putting comments on the blockchain is a natural deterrent to this since it requires transaction fees to be paid. But a blockchain solution also comes with it’s own pitfalls such as requiring LBC to comment, possibly waiting for block confirmations, increased transaction activity on the network, and not having the ability to fully delete a comment once it has been made. After some back and forth between these two solutions, we’ll be regrouping to see if it makes sense to proceed with the interim solution or go full blockchain! 
 
 ### Blockchain Upcoming Upgrade (Hardfork) and Progress {#blockchain}
