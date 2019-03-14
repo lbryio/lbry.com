@@ -3,6 +3,7 @@ author: mark-beamer
 title: 'What is Chainquery'
 date: '2018-05-24 14:20:00'
 cover: 'database2.jpg'
+category: technical
 ---
 
 ### Chainquery makes LBRY blockchain data significantly more accessible and useable
