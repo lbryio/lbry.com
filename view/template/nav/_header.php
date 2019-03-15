@@ -192,7 +192,17 @@
       <?php js_start() ?>
         document.getElementById("menuToggle").addEventListener("click", event => {
           event.preventDefault();
-          document.querySelector("drawer-navigation").classList.toggle("active");
+
+          const body = document.querySelector("body");
+          const navigation = document.querySelector("drawer-navigation");
+
+          navigation.classList.toggle("active");
+
+          // Get rid of double scrollbars
+          if (navigation.classList.contains("active"))
+            body.style["overflow-y"] = "hidden";
+          else
+            body.style["overflow-y"] = "auto";
         });
       <?php js_end() ?>
 
