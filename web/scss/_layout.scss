@@ -31,6 +31,12 @@ h5 {
 }
 
 h1 {
+  + h2 {
+    .hero & { // padding is not desired in the hero
+      padding-top: 0;
+    }
+  }
+
   @media (min-width: 951px) {
     font-size: 3rem;
   }
