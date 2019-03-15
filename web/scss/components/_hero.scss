@@ -20,11 +20,23 @@
   }
 
   &:not(.hero--half-height):not(.hero--plain) {
-    height: 500px;
+    @media (min-width: 951px) {
+      height: 500px;
+    }
+
+    @media (max-width: 950px) {
+      height: 250px;
+    }
   }
 
   &.hero--half-height {
-    height: 250px;
+    @media (min-width: 951px) {
+      height: 250px;
+    }
+
+    @media (max-width: 950px) {
+      height: 150px;
+    }
   }
 
   &.hero--news {
