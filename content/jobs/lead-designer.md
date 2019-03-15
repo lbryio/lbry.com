@@ -1,7 +1,7 @@
 ---
 title: Lead Designer
 order: 5
-status: paused
+status: closed
 location: remote (global)
 url: https://hire.withgoogle.com/public/jobs/lbryio/view/P_AAAAAADAAADDIkS8VwCnPN?trackingTag=joinUs
 ---
