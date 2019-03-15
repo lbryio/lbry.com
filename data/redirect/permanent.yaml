@@ -8,6 +8,7 @@
 
 # External
 /slack:                         https://chat.lbry.io
+/speech-admin:                  https://github.com/lbryio/spee.ch
 /bounty:                        https://lbry.tech/contribute
 /faq/contributing:              https://lbry.tech/contribute
 /participate:                   https://lbry.tech/contribute
@@ -78,6 +79,15 @@
 /get/lbry.pre.pkg:        /releases/pre/lbry-desktop.dmg
 /get/lbry.pre.exe:        /releases/pre/lbry-desktop.exe
 /get/lbry.pre.msi:        /releases/pre/lbry-desktop.exe
+
+# Root
+/3d-contest:    /
+/LGBTQ:         /
+/pewpewpew:     /
+/reefermadness: /
+/rubin:         /
+/sexed:         /
+/shirt-contest: /
 
 # Team
 /news/author/jeremy:          /team

@@ -105,6 +105,12 @@ drawer-child {
     }
   }
 
+  &.drawer--social {
+    &:hover {
+      padding-left: var(--spacing-s);
+    }
+  }
+
   @media (max-width: 950px) {
     border: none;
     display: block;

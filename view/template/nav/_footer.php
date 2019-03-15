@@ -2,12 +2,12 @@
   <div class="inner-wrap inner-wrap--footer-top">
     <ul>
       <li>Company</li>
-      <li><a href="/what" title="">About</a></li>
-      <li><a href="/news" title="">Blog</a></li>
-      <li class="hiring"><a href="/join-us" title="">Jobs</a></li>
-      <li><a href="/roadmap" title="">Roadmap</a></li>
-      <li><a href="https://shop.lbry.io" title="">Shop</a></li>
-      <li><a href="/team" title="">Team</a></li>
+      <li><a href="/what" title="Wonder what LBRY is about? Find out here!">About</a></li>
+      <li><a href="/news" title="The latest news from LBRY HQ">Blog</a></li>
+      <li class="hiring"><a href="/join-us" title="Our team is always looking for awesome folks to learn from">Jobs</a></li>
+      <li><a href="/roadmap" title="Where are we going? Good thing we have a map!">Roadmap</a></li>
+      <li><a href="https://shop.lbry.io" title="LBRY swag for purchase">Shop</a></li>
+      <li><a href="/team" title="The people who bring LBRY to YOU">Team</a></li>
     </ul>
 
     <ul>
@@ -30,7 +30,8 @@
 
     <ul>
       <li>Support</li>
-      <li><a href="mailto:hello@lbry.io" title="Send us an email!">hello@lbry.io</a></li>
+      <li><a href="mailto:hello@lbry.io" title="Send us an email!">hello@lbry.com</a></li>
+      <li><a href="/contact" title="Send us an email!">Contact</a></li>
       <li><a href="/faq" title="Frequently Asked Questions about LBRY">FAQ</a></li>
     </ul>
   </div>

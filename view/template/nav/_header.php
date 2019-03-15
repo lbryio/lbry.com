@@ -32,13 +32,13 @@
                   <span>Got questions? We probably have answers!</span>
                 </a>
               </drawer-child>
-              
+
               <drawer-child>
                 <a href="/news">
                   <strong>News</strong>
                   <span>The latest from the LBRY team and community</span>
                 </a>
-              </drawer-child> 
+              </drawer-child>
 
               <drawer-child class="drawer--no-border drawer--social">
                 <div>
@@ -49,14 +49,14 @@
                     <a href="https://reddit.com/r/lbry"><span class="icon icon-reddit"></span></a>
                   </span>
                 </div>
-              </drawer-child>    
-              
+              </drawer-child>
+
               <drawer-child>
                 <a href="">
                   <strong>Chat</strong>
                   <span>Talk with LBRY fans and team members, right now</span>
                 </a>
-              </drawer-child>              
+              </drawer-child>
 
               <drawer-child>
                 <a href="">
@@ -77,14 +77,13 @@
 
           <drawer-wrap>
             <drawer-children>
-              
               <drawer-child>
                 <a href="https://lbry.io/get">
                   <strong>Publish to LBRY</strong>
                   <span>Make your content available to everyone using LBRY</span>
                 </a>
               </drawer-child>
-              
+
               <drawer-child>
                 <a href="/youtube">
                   <strong>YouTube Partner Program</strong>
@@ -132,7 +131,7 @@
               </drawer-child>
 
               <drawer-child>
-                <a href="">
+                <a href="/contact">
                   <strong>Contact</strong>
                   <span>Have a question or want to connect with the LBRY, Inc. team?</span>
                 </a>

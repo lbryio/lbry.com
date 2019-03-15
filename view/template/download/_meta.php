@@ -1,8 +1,6 @@
 <small class="meta">
-  Version <?php echo $version ?>,
-  <?php echo number_format($size, 1) ?> MB,
-  built on <?php echo date('F d', $releaseTimestamp) ?>
-  at <?php echo date('g:i:s A', $releaseTimestamp) ?> UTC
+  Version <?php echo $version ?>
+
   <br/>
 
   <?php if ($os === OS::OS_LINUX): ?>

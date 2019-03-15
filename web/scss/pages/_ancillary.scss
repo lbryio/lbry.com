@@ -202,4 +202,11 @@
       margin-top: 1.25rem;
     }
   }
+
+  .button {
+    + h2,
+    + h3 { // join-us page
+      padding-top: 3.25rem;
+    }
+  }
 }

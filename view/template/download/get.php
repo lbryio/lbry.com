@@ -21,14 +21,16 @@
         <?php echo View::Render('download/_downloadButton', [
           'buttonStyle' => 'primary'
         ])?>
+
+        <br/><br/>
+
+        <?php if ($metaHtml): ?>
+        <?php echo $metaHtml ?>
+        <?php endif ?>
       </div>
 
       <figure>
         <img src="<?php echo $osScreenshotSrc ?>" alt="Screenshot of LBRY"/>
-
-        <?php if ($metaHtml): ?>
-        <figcaption><?php echo $metaHtml ?></figcaption>
-        <?php endif ?>
       </figure>
 
       <?php else: ?>

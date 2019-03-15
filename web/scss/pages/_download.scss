@@ -1,5 +1,8 @@
 .download-cards {
-  padding-top: 1rem;
+  @media (min-width: 601px) and (max-width: 950px) {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .download-card {
@@ -8,9 +11,14 @@
   border: 1px solid var(--lbry-gray-1);
   display: inline-flex;
   list-style-type: none;
+  min-width: 125px;
   padding-top: 1rem;
   padding-bottom: 1rem;
   text-align: center;
+
+  @media (max-width: 600px) {
+    margin-bottom: 1rem;
+  }
 
   a,
   span {
