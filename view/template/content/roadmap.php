@@ -2,7 +2,7 @@
 
 <main class="ancillary">
   <section class="hero hero--half-height" style="background-image: url(/img/here-be-dragons.jpg); background-position: center;">
-    <div class="inner-wrap">
+    <div class="inner-wrap inner-wrap--hero">
       <h1>{{roadmap.title}}</h1>
       <h2>Future plans for the journey into the land of dragons</h2>
     </div>

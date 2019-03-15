@@ -3,7 +3,7 @@
 
 <main class="ancillary">
   <section class="hero" style="background-image: url(/img/clement-vit.jpg)">
-    <div class="inner-wrap">
+    <div class="inner-wrap inner-wrap--hero">
       <h1>LBRY Welcomes E-Cell HackerTech 2018 Participants</h1>
       <h3>We're excited to meet the next generation of problem solvers!</h3>
     </div>

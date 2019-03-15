@@ -3,7 +3,7 @@
 
 <main class="ancillary">
   <section class="hero" style="background-image: url(/img/table2.jpg)">
-    <div class="inner-wrap">
+    <div class="inner-wrap inner-wrap--hero">
       <h1>LBRY Welcomes You To The Bangalore Blockchain Application Development Meetup</h1>
       <h3>We're excited to share about LBRY with you!</h3>
     </div>

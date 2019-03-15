@@ -100,12 +100,15 @@ img {
 main {
   background-color: var(--lbry-white);
   flex: 1;
-  padding-top: 5rem;
-  position: relative;
-  z-index: 1;
 
-  &:not(.ancillary) {
+  &:not(.ancillary):not(.soon) {
     padding-bottom: 3rem;
+  }
+
+  &:not(.soon) {
+    padding-top: 5rem;
+    position: relative;
+    z-index: 1;
   }
 }
 

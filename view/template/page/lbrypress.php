@@ -3,7 +3,7 @@
 
 <main class="ancillary">
   <section class="hero" style="background-image: url(/img/blog-covers/censorship.jpg)">
-    <div class="inner-wrap">
+    <div class="inner-wrap inner-wrap--hero">
       <h1>Independent Hosting for Independent Media</h1>
       <h3>Don't leave your fate in the hands of Silicon Valley</h3>
     </div>
