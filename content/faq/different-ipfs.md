@@ -2,6 +2,7 @@
 title: How is LBRY different from IPFS / BitTorrent?
 category: differences
 ---
+
 IPFS and BitTorrent are wonderful technologies from which LBRY has drawn a lot of inspiration. However, they both suffer from the same flaws:
 
 - Lack of discovery. BitTorrent and IPFS provide decentralized ways to access a unique piece of data or information, but they do not provide an overall catalog that lists all of the available data or information to consume.

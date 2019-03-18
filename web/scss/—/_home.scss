@@ -1,0 +1,49 @@
+// $height: calc(100vh - 156px);
+
+@media(min-width: 1200px) and (min-height: 600px) {
+  .home {
+    > div.cover {
+      max-width: 50%;
+      min-width: 50%;
+      margin-top: 0 !important;
+    }
+
+    .home__title,
+    .home__copy {
+      float: left;
+    }
+
+    .home__title {
+      padding-bottom: 0 !important;
+    }
+
+    .home__copy {
+      padding-top: 0 !important;
+    }
+
+    .home__media {
+      float: right;
+      // @include absolute-center;
+      // height: $height;
+    }
+
+    // @include clearfix;
+  }
+}
+
+.home__media {
+  text-align: center;
+
+  > img {
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+    max-height: 100%;
+  }
+}
+
+.home__copy {
+  > div {
+    // max-width: $max-text-width;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

@@ -1,0 +1,33 @@
+// $badge-height: $spacing-vertical * 3/4;
+
+.badge {
+  display: inline-block;
+  padding: 0 4px;
+  // font-size: $badge-height * 0.7;
+  // line-height: $badge-height;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  white-space: nowrap;
+  border-radius: 3px;
+  background-color: #999;
+
+  &.badge-primary {
+    // background-color: $color-primary;
+  }
+
+  &.badge-info {
+    // background-color: $color-info-bg;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  > .badge {
+    vertical-align: middle;
+  }
+}

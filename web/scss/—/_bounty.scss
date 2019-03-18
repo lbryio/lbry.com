@@ -1,0 +1,14 @@
+.bounty-tile {
+  display: block;
+  // margin: 0 10px $spacing-vertical;
+  padding: 10px;
+  background-color: #eee;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.bounty-award-complete {
+  text-decoration: line-through;
+}

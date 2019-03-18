@@ -6,8 +6,7 @@ status: complete
 date: '2016-07-01'
 ---
 
-There are a large number of open content sources. Everything from public domain movies on [Internet Archive](https://archive.org/details/movies)
-to books from [Project Gutenberg](https://www.gutenberg.org/).
+There are a large number of open content sources. Everything from public domain movies on [Internet Archive](https://archive.org/details/movies) to books from [Project Gutenberg](https://www.gutenberg.org).
 
 This project is to programmatically index, download, and port this content to the LBRY network.
 

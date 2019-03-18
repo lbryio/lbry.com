@@ -2,6 +2,7 @@
 title: How do I mine LBRY credits?
 category: mining
 ---
+
 Library Credits (LBC) are mined over a 20-year Proof of Work period.
 Block rewards increase every 100 blocks by 1LBC, peak at 500, and decline slowly.
 

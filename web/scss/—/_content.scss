@@ -1,0 +1,223 @@
+.content {
+  margin-left: auto;
+  margin-right: auto;
+
+  &:not(.content-wide) {
+    // max-width: $max-content-width; // we have more padding than desirable so numbers from ol can exceed container
+  }
+
+  &.content-stretch {
+    max-width: none;
+  }
+
+  &.content-tile {
+    // max-width: $max-text-width;
+  }
+
+  &.content-readable {
+    // max-width: $max-text-width + 200;
+  }
+
+  // padding-left: $content-side-padding;
+  // padding-right: $content-side-padding;
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    &:not(:first-child) {
+      // margin-top: $spacing-vertical * 1.5;
+    }
+  }
+
+  .meta {
+    + h1,
+    + h2,
+    + h3,
+    + h4 {
+      // margin-top: $spacing-vertical * 0.5;
+    }
+  }
+
+  &.content-dark {
+    // color: $color-content-dark;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: white;
+    }
+
+    .link-primary {
+      // color: $color-light-alt;
+    }
+
+    .meta {
+      // color: $color-meta-dark;
+    }
+  }
+
+  &:not(.content-dark),
+  &.content-light {
+    // color: $color-content-light;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      // color: $color-text-dark;
+    }
+
+    .meta {
+      // color: $color-meta-light;
+    }
+
+    .link-primary {
+      // color: $color-primary;
+    }
+
+    blockquote {
+      padding-left: 40px;
+      border-left: solid 8px #f2f2f2;
+    }
+  }
+
+  p,
+  twitterwidget {
+    // margin-bottom: $spacing-vertical;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  p.pflow {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  footer {
+    font-size: 0.9rem;
+    font-style: italic;
+
+    em {
+      font-style: normal;
+    }
+  }
+
+  ul,
+  ol {
+    > li {
+      // max-width: $max-text-width;
+      margin-left: auto;
+      margin-right: auto;
+
+      + li {
+        // margin-top: $spacing-vertical;
+      }
+
+      > ul > li,
+      > ol > li {
+        // margin-top: $spacing-vertical / 2;
+      }
+    }
+
+    &.no-style {
+      list-style: none;
+
+      > li {
+        list-style: none;
+      }
+    }
+
+    ul,
+    ol {
+      // margin-top: $spacing-vertical / 2;
+      // margin-left: $spacing-vertical;
+    }
+  }
+
+  ul {
+    // margin-bottom: $spacing-vertical * 1.5;
+
+    &:last-child {
+      // margin-bottom: $spacing-vertical / 2;
+    }
+  }
+
+  ol {
+    // margin-bottom: $spacing-vertical * 1.5;
+
+    &:last-child {
+      // margin-bottom: $spacing-vertical / 2;
+    }
+
+    padding-left: 2rem;
+    counter-reset: li-counter;
+
+    > li {
+      position: relative;
+      padding-left: 1rem;
+      list-style: none;
+      min-height: 2rem;
+      border-left: 1px solid rgba(160,160,160,0.5);
+
+      &::before {
+        position: absolute;
+        top: -0.35rem;
+        left: -1rem;
+        width: 0.8rem;
+        font-size: 2rem;
+        text-align: right;
+        opacity: 0.5;
+        content: counter(li-counter);
+        counter-increment: li-counter;
+      }
+
+      ol {
+        > li {
+          border-left-style: dashed;
+          font-size: 0.9rem;
+          min-height: 1rem;
+
+          &::before {
+            content: counter(li-counter, lower-alpha);
+            top: -0.15rem;
+            font-size: 1.4rem;
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  iframe { // added for FAQ
+    width: 100%;
+    height: 500px;
+    // margin-bottom: $spacing-vertical * 2;
+  }
+}
+
+.content-inset {
+  // margin-left: $spacing-vertical;
+  // margin-right: $spacing-vertical;
+}
+
+main > .content {
+  // margin-top: $spacing-vertical;
+}
+
+// @media(max-width: $max-text-width + 30) {
+//   .content ol {
+//     margin-left: 30px; // on small screens there is no space for numbers to exceed container
+//   }
+// }

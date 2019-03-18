@@ -1,0 +1,102 @@
+[class*="icon-"] {
+  box-sizing: content-box;
+  display: inline-block;
+  font-family: FontAwesome, "Font Awesome 5 Brands";
+  font-size: inherit;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  speak: none;
+  text-align: center;
+  text-rendering: auto;
+  text-transform: none;
+  transform: translate(0, 0);
+
+  &.icon-fw {
+    text-align: center;
+    width: 1.6rem;
+  }
+}
+
+.icon-mega {
+  font-size: 200px;
+  line-height: 1;
+}
+
+.icon-in-circle {
+  width: 150px; height: 150px;
+
+  border-radius: 50%;
+  font-size: 100px;
+  line-height: 150px;
+  margin: 0 auto;
+
+  // hack fixes for weird icon placement on youtube page
+  .icon-cubes {
+    top: -5px; left: 5px;
+    position: relative;
+  }
+
+  .icon-code {
+    position: relative;
+    top: -5px;
+  }
+}
+
+// Icons we actually use
+
+.icon-android::before {
+  content: "\f17b";
+}
+
+.icon-apple::before {
+  content: "\f179";
+}
+
+.icon-envelope::before {
+  content: "\f0e0";
+}
+
+.icon-facebook-official::before {
+  content: "\f39e";
+}
+
+.icon-facebook-square::before {
+  content: "\f082";
+}
+
+.icon-github::before {
+  content: "\f09b";
+}
+
+.icon-linux::before {
+  content: "\f17c";
+}
+
+.icon-mobile::before {
+  content: "\f10b";
+}
+
+.icon-reddit::before {
+  content: "\f1a1";
+}
+
+.icon-reddit-square::before {
+  content: "\f1a2";
+}
+
+.icon-telegram::before {
+  content: "\f3fe";
+}
+
+.icon-twitter::before {
+  content: "\f099";
+}
+
+.icon-twitter-square::before {
+  content: "\f081";
+}
+
+.icon-windows::before {
+  content: "\f17a";
+}

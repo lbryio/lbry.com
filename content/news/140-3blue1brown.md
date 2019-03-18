@@ -4,6 +4,7 @@ title: 'Derivative Originality'
 date: '2017-11-10 00:20:30'
 cover: '3blue-banner-2.jpg'
 ---
+
 And now for something completely different: three new channels in one fell swoop.
 
 A math whiz, a South African, his South African friend, and a troupe of funny men walk into a library...
@@ -14,7 +15,7 @@ A math whiz, a South African, his South African friend, and a troupe of funny me
 
 ![Door Monster](/img/news/doormonster-inline.jpg)
 
-[@DoorMonster](https://open.lbry.io/%40DoorMonster) are [LBRY Discord](https://chat.lbry.io) regulars and a prolific sketch comedy brigade. The only thing funnier than a DoorMonster sketch is how long it’s taking you to open the LBRY app and watch every single video they’ve produced...
+[@DoorMonster](https://open.lbry.io/%40DoorMonster) are [LBRY Discord](https://chat.lbry.io) regulars and a prolific sketch comedy brigade. The only thing funnier than a DoorMonster sketch is how long it's taking you to open the LBRY app and watch every single video they've produced...
 
 ![Derick Watts and the Sunday Blues](/img/news/derick-inline.jpg)
 
@@ -22,4 +23,4 @@ A math whiz, a South African, his South African friend, and a troupe of funny me
 
 Please support your favorite creators by tipping LBRY credits in-app. And remember to look for the red rocketship icon next to reward-eligible weekly videos.
 
-**[Download LBRY today](https://lbry.io/get)**. Is your favorite channel not on LBRY? Help us feature what you want to see! Email [reilly@lbry.io](mailto:reilly@lbry.io) to make it happen. Or sync your own channel at: https://lbry.io/youtube
+[**Download LBRY today**](https://lbry.io/get). Is your favorite channel not on LBRY? Help us feature what you want to see! Email [reilly@lbry.io](mailto:reilly@lbry.io) to make it happen. Or sync your own channel at: https://lbry.io/youtube

@@ -14,16 +14,16 @@ Completing this bounty involves creating a simple library to make it as easy as 
 
 An example of a binding can be found in the [php-api](https://github.com/lbryio/php-api) repo and the entire listing can be found on [lbry.tech](https://lbry.tech/resources/api-wrappers).
 
-A binding can typically be written using cURL in less than 100 lines of code. The repo should be well documented for the wrapper language and have install/setup instructions and tests. 
+A binding can typically be written using cURL in less than 100 lines of code. The repo should be well documented for the wrapper language and have install/setup instructions and tests.
 
-If you are pursuing this effort, please [email us](mailto:hello@lbry.io) so we can update this bounty with the current progress. 
+If you are pursuing this effort, please [email us](mailto:hello@lbry.io) so we can update this bounty with the current progress.
 
-Bounty Status:   
-Ruby - Completed  
-Lua - Completed  
-Java - Completed  
-Javascript - Completed   
-Rust - Started/Claimed   
-C++ - Completed  
-Python - Completed   
+Bounty Status:
+Ruby - Completed
+Lua - Completed
+Java - Completed
+Javascript - Completed
+Rust - Started/Claimed
+C++ - Completed
+Python - Completed
 Dart - Completed

@@ -1,0 +1,36 @@
+@mixin notice($text_color, $bg_color, $border_color) {
+  background-color: $bg_color;
+  border-color: $border_color;
+  color: $text_color;
+
+  [href] {
+    color: $text_color;
+  }
+}
+
+.notice {
+  border: 1px solid var(--lbry-gray-1);
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 0.75rem;
+
+  [href] {
+    text-decoration: underline;
+  }
+
+  > p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.notice-success {
+  @include notice(var(--lbry-black), var(--lbry-teal-1), var(--lbry-teal-4));
+}
+
+.notice-error {
+  @include notice(var(--lbry-white), var(--lbry-red-4), var(--lbry-red-5));
+}
+
+.notice-info {
+  @include notice(var(--lbry-black), var(--lbry-yellow-1), var(--lbry-yellow-4));
+}

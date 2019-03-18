@@ -1,7 +1,8 @@
---- 
-/LBRY-deck.pdf: "https://www.dropbox.com/s/0xj4vgucsbi8rtv/lbry-deck.pdf?dl=1"
+---
 /api: "https://lbry.tech/api/sdk"
 /api-help: "https://lbry.tech/api/sdk"
 /apple-touch-icon.png: /img/fav/apple-touch-icon.png
 /deck.pdf: "https://www.dropbox.com/s/0xj4vgucsbi8rtv/lbry-deck.pdf?dl=1"
+/join-us: /
+/LBRY-deck.pdf: "https://www.dropbox.com/s/0xj4vgucsbi8rtv/lbry-deck.pdf?dl=1"
 /security: /faq/security

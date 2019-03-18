@@ -1,0 +1,159 @@
+.hero {
+  position: relative;
+  color: white;
+  // padding-top: $spacing-vertical;
+  // padding-bottom: $spacing-vertical;
+  // font-family: $font-header;
+
+  blockquote {
+    border-left: 10px solid rgba(180, 180, 180, 0.3);
+    padding: 0 15px;
+    font-size: 1.8rem;
+
+    &.blockquote-large {
+      max-width: 600px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 2.2rem;
+    }
+
+    + cite {
+      // margin-top: $spacing-vertical;
+    }
+  }
+
+  cite {
+    color: #ddd;
+    display: block;
+    text-align: right;
+    font-style: italic;
+
+    em {
+      font-style: normal;
+    }
+
+    &::before {
+      color: #aaa;
+      content: "— ";
+    }
+  }
+
+  a[href] {
+    text-decoration: underline;
+  }
+
+  .meta {
+    color: #ddd;
+  }
+
+  h4 [class*="icon-"] {
+    margin-left: 5px;
+    vertical-align: top;
+  } // shitty rule alert
+}
+
+.hero-pattern {
+  background: black url(/img/dark.png) repeat top left scroll;
+}
+
+.hero-img {
+  // padding-top: $spacing-vertical;
+  // padding-bottom: $spacing-vertical;
+  background: black url(/img/dark.png) no-repeat top center fixed;
+  min-height: 420px;
+  background-size: cover;
+
+  &.hero-img-short {
+    min-height: 200px;
+  }
+
+  &::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    content: " ";
+    display: block;
+    top: 0;
+    left: 0;
+  }
+}
+
+.hero-quote {
+  display: table;
+  width: 100%;
+
+  .hero-content-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  p {
+    // margin-bottom: $spacing-vertical * 1.5;
+  }
+}
+
+.hero-content {
+  z-index: 1;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  // max-width: $max-content-width;
+  // padding prevents going to edges on mobile
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+// @media (max-width: $width-mobile-max) {
+//   .hero {
+//     background-attachment: scroll;
+//     background-position: center center;
+//   }
+
+//   .hero-tile {
+//     margin-bottom: $spacing-vertical * 1.5;
+//   }
+// }
+
+.hero-tile-row + .hero-tile-row {
+  // margin-top: $spacing-vertical * 1.5;
+}
+
+.hero-tile {
+  img {
+    display: block;
+    margin: 0 auto;
+    // margin-bottom: $spacing-vertical * .5;
+  }
+
+  .icon-mega {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    // color: desaturate(lighten($color-primary, 40), 30);
+    color: #7ebeae; // above was not working?
+    text-shadow: 0 0 6px rgba(0,0,0,0.8);
+  }
+
+  h3 {
+    font-size: 1.35rem;
+    // margin-bottom: $spacing-vertical * .5;
+    font-weight: bold;
+    text-align: center;
+    // margin-top: $spacing-vertical * .5;
+  }
+}
+
+.hero-title {
+  font-weight: bold;
+  font-size: 2.2rem;
+  // margin-bottom: $spacing-vertical * 2;
+}
+
+.hero-title-small {
+  font-weight: bold;
+  font-size: 1.6rem;
+  // margin-bottom: $spacing-vertical;
+}

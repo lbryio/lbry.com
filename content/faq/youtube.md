@@ -18,17 +18,15 @@ There is a size limit per video of 2GB. There is a total count limit of your mos
 
 When you sync your channel, you are also eligible to receive LBRY Credits in our Partner Program based on your subscriber count. Receiving these credits is subject to a one-year agreement. The exact agreement you make when you sync can be seen [here](https://lbry.io/faq/youtube-terms). The current rewards for syncing can be seen on the [sync page](https://lbry.io/youtube).
 
-The sync process stores your wallet in a secure location, as you may not have the LBRY app installed already. If you are comfortable with [swapping out wallet files](https://lbry.io/faq/how-to-backup-wallet), we can work with you to transfer your synced wallet as part of a manual process. Typically, we recommend waiting until we an automated solution for transferring this data to you via the app. Please reach out to [help@lbry.io](mailto:help@lbry.io) if you have any questions about this process. 
+The sync process stores your wallet in a secure location, as you may not have the LBRY app installed already. If you are comfortable with [swapping out wallet files](https://lbry.io/faq/how-to-backup-wallet), we can work with you to transfer your synced wallet as part of a manual process. Typically, we recommend waiting until we an automated solution for transferring this data to you via the app. Please reach out to [help@lbry.io](mailto:help@lbry.io) if you have any questions about this process.
 
 **How to Receive Your LBRY Credits**
 
 - Download the LBRY App at https://lbry.io/get
-- Run the LBRY App 
+- Run the LBRY App
 - Make sure the email saved in the application matches the email address on your [Sync Status Page](https://lbry.io/youtube/status) ([email us](mailto:hello@lbry.io) if it does not)
-- Click on the `Wallet` tab on the LBRY App `1`
-![wallet](https://spee.ch/2/rewardsa.jpeg)
-- Navigate to the `Rewards` section of your wallet `2`
-![reward](https://spee.ch/5/rewardsww.jpeg)
+- Click on the `Wallet` tab on the LBRY App `1` ![wallet](https://spee.ch/2/rewardsa.jpeg)
+- Navigate to the `Rewards` section of your wallet `2` ![reward](https://spee.ch/5/rewardsww.jpeg)
 - Scroll to the "YouTube Reward" claim button
 - If you met a particular subscriber threshold (minimum 1K subs), you should receive the appropriate amount of credits.
 
