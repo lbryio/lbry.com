@@ -1,0 +1,13 @@
+.post-navigation {
+  border-top: 1px solid var(--lbry-gray-1);
+  display: flex;
+  font-size: 1rem;
+  justify-content: space-between;
+  line-height: 1.55;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+
+  a {
+    max-width: 48%;
+  }
+}

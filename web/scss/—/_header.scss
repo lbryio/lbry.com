@@ -1,0 +1,178 @@
+// $color-nav-border-light: #ddd;
+// $color-nav-border-dark: #ddd;
+
+.header {
+  padding: 15px 0;
+  // @include clearfix;
+  position: relative;
+  z-index: 1;
+
+  .icon-close {
+    display: none;
+  }
+}
+
+.header-absolute {
+  width: 100%;
+  position: absolute;
+}
+
+.header-scroll {
+  z-index: 2;
+  position: fixed;
+}
+
+.header-open {
+  .icon-close {
+    display: inline-block;
+  }
+
+  .icon-bars {
+    display: none;
+  }
+
+  .header-navigation-fullscreen {
+    display: block;
+  }
+}
+
+.header-content {
+  margin-left: auto;
+  margin-right: auto;
+  // max-width: $max-text-width;
+}
+
+.header-dark {
+  color: white;
+  background: rgba(0,0,0,0.7);
+
+  .logo-dark {
+    display: none;
+  }
+}
+
+.header-light {
+  // color: $color-text-dark;
+  // border-bottom: 1px $color-nav-border-light solid;
+  background-color: white;
+
+  .logo-light {
+    display: none;
+  }
+}
+
+.header-noborder {
+  border-bottom: 0 none;
+}
+
+.primary-logo {
+  line-height: 0;
+  float: left;
+
+  img {
+    // height: $spacing-vertical * 2;
+  }
+}
+
+.header-navigation-mobile,
+.header-navigation-fullscreen,
+.footer-standard {
+  a {
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &.nav-active {
+      font-weight: bold;
+    }
+  }
+}
+
+// @media (max-width: $width-mobile-max) {
+//   .primary-logo {
+//     margin-left: 10px; // just so it is never flush
+//   }
+
+//   .header-navigation-mobile {
+//     float: right;
+//     margin-right: 10px; // so it is never flush
+//     font-size: 1.4rem;
+//     margin-top: 3px; // align with text in logo
+//   }
+
+//   .header-dark.header-open {
+//     background: rgba(0,0,0,0.7);
+//     border-bottom: 1px solid rgba(128,128,128,0.7);
+//   }
+
+//   .header-light.header-open {
+//     background: rgba(255,255,255,0.7);
+//   }
+
+//   .header-navigation-fullscreen {
+//     clear: both;
+//     padding-left: 5px;
+//     padding-right: 5px;
+//     padding-top: $spacing-vertical / 2; /*margin would be better here but floats*/
+
+//     .control-item {
+//       margin-left: 15px;
+//     }
+//   }
+
+//   .header-navigation-fullscreen .control-item {
+//     display: block;
+//     margin-bottom: $spacing-vertical * .5;
+
+//     &:last-child {
+//       margin-bottom: 0;
+//     }
+//   }
+// }
+
+// @media (min-width: $width-laptop-min) {
+//   .header-navigation-fullscreen {
+//     float: right;
+//     margin-right: 3px;
+//     margin-left: 20px;
+//     padding-top: 10px;
+//   }
+// }
+
+.footer-standard {
+  text-align: center;
+  font-size: 0.8rem;
+  // line-height: $spacing-vertical * 2;
+  // padding: $spacing-vertical / 2 0;
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.footer-standard--light {
+  // color: $color-content-light;
+  // border-top: 1px $color-nav-border-light solid;
+  // border-bottom: 1px $color-nav-border-light solid;
+}
+
+.footer-noborder {
+  border-top: 0 none;
+  border-bottom: 0 none;
+}
+
+.footer-standard--dark {
+  // color: $color-content-dark;
+}
+
+.footer-img-link {
+  display: inline-block;
+  // height: $spacing-vertical * 1.5;
+  vertical-align: middle;
+
+  img {
+    // height: $spacing-vertical * 1.5;
+  }
+}

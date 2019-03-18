@@ -3,7 +3,7 @@ title: How do I perform a clean installation of LBRY while preserving important 
 category: troubleshooting
 ---
 
-Under certain circumstances, particularly if you've tested earlier beta versions, it may be recommended that you perform a clean installation of LBRY.  This generally involves uninstalling the current LBRY application, removing various directories/files and then reinstalling the latest version of LBRY. Different operating systems use different folder locations, and [this post on directories](https://lbry.io/faq/lbry-directories) will help if you cannot locate the right files or folders.  
+Under certain circumstances, particularly if you've tested earlier beta versions, it may be recommended that you perform a clean installation of LBRY.  This generally involves uninstalling the current LBRY application, removing various directories/files and then reinstalling the latest version of LBRY. Different operating systems use different folder locations, and [this post on directories](https://lbry.io/faq/lbry-directories) will help if you cannot locate the right files or folders.
 
 After uninstalling LBRY, the working directories are left intact so that the application can be easily reinstalled without losing your application data and wallet file. Application data is in the lbrynet folder (LBRY folder for Mac), and it includes various database and configuration files. Wallet and blockchain data is in the lbryum folder. Typically, you will want to save your wallet and a handful of configuration/database files when performing a clean installation in order to keep your important data intact.
 
@@ -14,7 +14,7 @@ Note: after a clean install, you may be prompted again for your email. This is n
 2. Uninstall the LBRY application by accessing "Add or Remove Programs" via the Control Panel.
 3. Type `%appdata%` into an Explorer window to find the working directories.
 4. Delete the entire LBRY folder.
-5. If you are performing a clean installation, delete the "lbryum" and "lbrynet" folders also **(!!THIS WILL DELETE YOUR WALLET FILE AND DATA!!)** then skip to step 8. 
+5. If you are performing a clean installation, delete the "lbryum" and "lbrynet" folders also **(!!THIS WILL DELETE YOUR WALLET FILE AND DATA!!)** then skip to step 8.
 6. Navigate to the "lbryum" folder and delete the `blockchain_headers` file.
 7. Navigate to the "lbrynet" folder and delete all items while leaving the following:
  1. `blobfiles folder` - stores encrypted downloaded files which are used for hosting.
@@ -40,7 +40,7 @@ Note: after a clean install, you may be prompted again for your email. This is n
 9. Launch LBRY by starting it from the Applications folder.  You can add it to your dock for easier access.  If you kept your data and wallet file, your balance and content should be reflected.
 
 ## Ubuntu / Linux
-*(Exact steps may vary per distro)* 
+*(Exact steps may vary per distro)*
 1. Reboot your PC (this is to ensure that no LBRY processes are running).
 2. Uninstall the LBRY application by going to terminal and typing: sudo apt-get remove lbry. Y to confirm *(Ubuntu specific command)*.
 3. Open the File browser and navigate to the Home directory. Press Ctrl-H to view hidden files and folders.

@@ -19,7 +19,7 @@ category: other
 * The winner will be notified either via social media or email within 5 days of the closing date. If the winner cannot be contacted or does not claim the prize within 48 hours of notification, we reserve the right to withdraw the prize from the winner and pick a replacement winner.
 * All winners must be at least 18 years of age.
 * The promoter will notify the winner when and where the prize can be collected. All prizes will be sent at the end of the competition. For competitions that run multiple stages, the prize will be sent at the end of the final stage.
-* The promoter’s decision in respect of all matters to do with the competition will be final and no correspondence will be entered into.
+* The promoter's decision in respect of all matters to do with the competition will be final and no correspondence will be entered into.
 * The competition and these terms and conditions will be governed by US law, and any disputes will be subject to the exclusive jurisdiction of the courts of the State of New Hampshire.
 * The winner agrees to the use of his/her name, image, comments or any other information provided in any publicity material.
 * This promotion is in no way sponsored, endorsed or administered by, or associated with, Facebook, Twitter or any other Social Network. You are providing your information to LBRY and not to any other party.

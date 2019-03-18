@@ -4,9 +4,10 @@ title: 'Pass the Juice'
 date: '2017-06-08 00:08:00'
 cover: 'juicemedia-banner.PNG'
 ---
+
 Mainstream news can be agonizingly dry at best and dishonest at worst.
 
-But when your life doesn’t depend on ratings and ad dollars, all of a sudden, news gets real again. So real that you can rap it. Or at least this is how I’ve been informed they watch news Down Under.
+But when your life doesn't depend on ratings and ad dollars, all of a sudden, news gets real again. So real that you can rap it. Or at least this is how I've been informed they watch news Down Under.
 
 ![The Juice Media](/img/news/juicemedia-inline.PNG)
 

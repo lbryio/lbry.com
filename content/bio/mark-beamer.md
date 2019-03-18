@@ -5,9 +5,9 @@ email: mark@lbry.io
 github: tiger5226
 ---
 
-Mark Beamer is an inveterate entrepreneur. Ever since he founded his first company (Beamer Lawn Service) at 16, he's pursued new and interesting business ideas. 
+Mark Beamer is an inveterate entrepreneur. Ever since he founded his first company (Beamer Lawn Service) at 16, he's pursued new and interesting business ideas.
 
-While running his first computer business, Mark discovered the joys of coding - especially the joys of using coding to eliminate annoying tasks with automation. 
+While running his first computer business, Mark discovered the joys of coding - especially the joys of using coding to eliminate annoying tasks with automation.
 
 His continued passion for software led him to close the business after 4 years and pursue a BS in computational science and mathematics.
 

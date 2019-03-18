@@ -5,7 +5,7 @@
     "ext-curl": "*",
     "ext-mbstring": "*",
     "ext-xml": "*",
-    "leafo/scssphp": "0.7.4",
+    "leafo/scssphp": "0.7.6",
     "erusev/parsedown": "^1.6",
     "erusev/parsedown-extra": "^0.7.1",
     "pelago/emogrifier": "^2.0",

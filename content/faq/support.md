@@ -19,7 +19,7 @@ To report an issue, you can do one of the following:
 
 <script>!function(e,o,n){window.HSCW=o,window.HS=n,n.beacon=n.beacon||{};var t=n.beacon;t.userConfig={},t.readyQueue=[],t.config=function(e){this.userConfig=e},t.ready=function(e){this.readyQueue.push(e)},o.config={docs:{enabled:!1,baseUrl:""},contact:{enabled:!0,formId:"8cb33eba-c927-11e8-ab20-0ee9bb0328ce"}};var r=e.getElementsByTagName("script")[0],c=e.createElement("script");c.type="text/javascript",c.async=!0,c.src="https://djtflbt20bdde.cloudfront.net/",r.parentNode.insertBefore(c,r)}(document,window.HSCW||{},window.HS||{});</script>
 
-1. Go to the "Help" page of the app and then click the "Submit a Bug Report" button.
+2. Go to the "Help" page of the app and then click the "Submit a Bug Report" button.
 ![help](https://spee.ch/8/Fix-broken.png)
 
-1. If you're a developer or otherwise technical and want to interact with LBRY developers directly, you're welcome to open an issue directly on GitHub. Please try to open network or protocol related issues [here](https://github.com/lbryio/lbry/issues) and interface, usability, and other application related issues [here](https://github.com/lbryio/lbry-desktop/issues). The penalty for getting this wrong is a mild shaming. We would appreciate a quick search to see if similar issues already exist, as well.
+3. If you're a developer or otherwise technical and want to interact with LBRY developers directly, you're welcome to open an issue directly on GitHub. Please try to open network or protocol related issues [here](https://github.com/lbryio/lbry/issues) and interface, usability, and other application related issues [here](https://github.com/lbryio/lbry-desktop/issues). The penalty for getting this wrong is a mild shaming. We would appreciate a quick search to see if similar issues already exist, as well.

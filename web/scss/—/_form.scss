@@ -1,0 +1,144 @@
+// $input-width: 300px;
+
+
+input {
+  -webkit-appearance: none;
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: checkbox;
+}
+
+input[type="radio"] {
+  -webkit-appearance: radio;
+}
+
+form {
+  // margin-bottom: $line-height;
+}
+
+form.form-inset {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #eee;
+  // padding: $spacing-vertical;
+  max-width: 600px;
+}
+
+label[for],
+.label-radio {
+  cursor: pointer;
+}
+
+.form-row {
+  // margin-bottom: $spacing-vertical;
+
+  > label {
+    font-size: 85%;
+    opacity: 0.9;
+    font-weight: bold;
+  }
+
+  &.error {
+    .form-error {
+      // color: $error_text;
+      font-size: 85%;
+    }
+
+    input {
+      // background-color: $error_bg;
+      // border-color: $error_border;
+    }
+  }
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 5px;
+  vertical-align: text-top;
+}
+
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="date"] {
+  display: inherit;
+  padding: 5px;
+  margin: 5px 0;
+  // height: $line-height * 1.5;
+  // width: $input-width;
+  vertical-align: middle;
+
+  &.input-large {
+    // height: $line-height * 2.5;
+    // line-height: $line-height * 1.4;
+    font-size: 1.4rem;
+    width: 100%;
+    // max-width: $max-text-width;
+  }
+}
+
+textarea {
+  height: auto;
+  min-height: 60px;
+}
+
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+select[multiple],
+select[size],
+input[type="date"] {
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s linear;
+
+  &[readonly] {
+    background-color: #bbb;
+  }
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="date"]:focus {
+  // border-color: $color-primary;
+  outline: 0;
+  box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+}
+
+input[type="submit"][disabled] {
+  cursor: auto;
+}
+
+.mail-submit,
+.invite-submit {
+  input {
+    margin-right: 10px;
+  }
+
+  input,
+  .btn-primary {
+    // margin-bottom: $spacing-vertical / 2;
+    vertical-align: bottom;
+  }
+}

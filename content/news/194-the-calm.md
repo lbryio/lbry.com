@@ -5,7 +5,8 @@ date: '2018-12-17 8:00:00'
 cover: 'bc-calm.jpg'
 category: users
 ---
-#Community
+
+# Community
 
 It has been a big year for the LBRY team.
 
@@ -17,7 +18,7 @@ In fact, community member Chris45 summed 2018 up very well on Twitter.
 
 Thanks for the great summary, and the memes!
 
-##Gratitude
+## Gratitude
 
 I mention this as a way of saying thanks. It is that time of year after all.
 
@@ -27,6 +28,6 @@ Without everyone in the community, this little blockchain marketplace project wo
 
 [Be sure to follow us on Twitter](https://twitter.com/lbryio), as the 12 Days Of Devmas are going on. We're giving out LBC everyday to celebrate! You'll want to have participated come next year, as there are going to be more ways to use LBC on the LBRY network than ever before.
 
-###A New Year
+### A New Year
 
 Let's enjoy this calm before the storm, there is still a lot to do to save the internet.

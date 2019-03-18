@@ -17,7 +17,7 @@ The source code, and not this file, is the only true definition of the block rew
 
 ## Mining Reward Schedule
 
-Eventually 1,083,202,000<sup>1</sup> LBRY credits will exist.   
+Eventually 1,083,202,000<sup>1</sup> LBRY credits will exist.
 
 <sup>1</sup>This value was [updated from 1B](https://github.com/lbryio/lbry.io/commit/4b4a8401d8ada40203d2bfb232066f42c4ac7a84) (which was a nice round number for a FAQ) on 09/21/2018 with the goal of increasing accuracy and transparency. [View the calculation here to verify](https://www.onlinegdb.com/r1NQOiyYQ) the source code referenced above.
 
