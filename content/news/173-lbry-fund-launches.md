@@ -3,6 +3,7 @@ author: brinck-slattery
 title: 'LBRY.fund is Live'
 date: '2018-06-14 12:00:00'
 cover: 'gradient.png'
+category: content
 ---
 
 We are very excited to announce the launch of [LBRY.fund](https://lbry.fund), a new site that gives LBRY developers and community members the opportunity to apply for grants from a pool of 200 million LBC to help them pursue independent projects.

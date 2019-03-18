@@ -3,6 +3,7 @@ author: jeremy-kauffman
 title: 'Why Do Tech Giants Abuse Their Users?'
 date: '2018-01-08 00:00:00'
 cover: "ProtsNotPlats.jpg"
+category: technical
 ---
 
 _(Protocols Not Platforms - Part 1 of 2)_

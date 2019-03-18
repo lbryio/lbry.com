@@ -3,6 +3,7 @@ author: brinck-slattery
 title: 'To Hacktoberfest and Beyond!'
 date: '2018-11-01 14:10:00'
 cover: 'Hacktoverfest.jpg'
+category: users
 ---
 
 <video controls poster="https://spee.ch/@thumbnails:e7b0620f6e5a56031cbfc8b9373b02d6ed63c39c/Hacktoberfest-thumb.png" src="https://spee.ch/9bb73cecc938907424c1705339751e21eea559a5/Hacktoberfest.mp4"/></video>

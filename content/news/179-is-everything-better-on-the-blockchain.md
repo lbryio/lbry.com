@@ -3,7 +3,7 @@ author: james-biller
 title: 'Is Everything Better On The Blockchain?'
 date: '2018-08-20 08:08:08'
 cover: 'Growing-Blockchain.png'
-category: blog
+category: content
 ---
 
 It's 2018 and everyone's scrambling to be the first to put something "on the blockchain".

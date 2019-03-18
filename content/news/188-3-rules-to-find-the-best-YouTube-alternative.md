@@ -3,6 +3,7 @@ author: brinck-slattery
 title: '3 Rules To Find The Best YouTube Alternative'
 date: '2018-10-30 15:10:00'
 cover: 'YTerror.jpg'
+category: content
 ---
 
 With more and more stories of [censorship on YouTube](https://motherboard.vice.com/en_us/article/59jgka/a-brief-history-of-youtube-censorship) coming out ever day, both viewers and creators are scrambling to find a YouTube alternative that won't take down their content, remove creators' ability to make money off their work, and disappear popular creators, leaving fans in the lurch.

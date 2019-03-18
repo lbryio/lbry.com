@@ -3,6 +3,7 @@ author: reilly-smith
 title: 'Clash Cash'
 date: '2018-02-22 00:20:00'
 cover: 'nickatnyte-banner.jpg'
+category: content
 ---
 
 Are casual mobile games *really* casual?

@@ -3,6 +3,7 @@ author: jeremy-kauffman
 title: 'Blockchain Is Love, Blockchain Is Life'
 date: '2018-01-10 09:45:00'
 cover: 'Sunrise1.jpg'
+category: technical
 ---
 
 _(Protocols Not Platforms - Part 2 of 2)_

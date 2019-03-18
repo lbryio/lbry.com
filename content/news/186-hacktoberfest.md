@@ -3,6 +3,7 @@ author: brinck-slattery
 title: 'Hacktoberfest!'
 date: '2018-10-01 15:10:00'
 cover: 'Hacktoberfest.jpg'
+category: users
 ---
 
 > What are you doing for [#Hacktoberfest](https://twitter.com/hashtag/Hacktoberfest)? Check out our first [#dev](https://twitter.com/hashtag/dev) video of the month, and join the fun - details here ➡️ [https://t.co/Z22zShYg31](https://t.co/Z22zShYg31) [pic.twitter.com/bzOQ6Jvmpp](https://t.co/bzOQ6Jvmpp)

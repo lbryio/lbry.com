@@ -3,6 +3,7 @@ author: brinck-slattery
 title: 'LBRY Desktop App Has Leveled Up'
 date: '2018-07-25 13:00:00'
 cover: 'lbryopoly-min.jpg'
+category: update
 ---
 
 # LBRY v0.23 is live!

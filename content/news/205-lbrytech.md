@@ -2,6 +2,7 @@
 author: jeremy-kauffman
 title: Introducing lbry.tech and the LBRY Spec
 date: '2019-02-20 10:00:00'
+category: technical
 ---
 
 🎶 🎶 🎶

@@ -3,6 +3,7 @@ author: brinck-slattery
 title: 'Something Wicked Cool This Way Comes'
 date: '2018-08-29 17:00:00'
 cover: 'Bradbury.jpg'
+category: update
 ---
 
 > The all new LBRY Bradbury is live! Wallet encryption, improved subscriptions, and better search are now available in the LBRY app - download it today or upgrade in-app!<br/>

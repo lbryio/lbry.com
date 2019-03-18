@@ -3,6 +3,7 @@ author: brinck-slattery
 title: 'LBRY and the Anti-Media Team Up To Stop Censorship'
 date: '2018-12-05 15:00:00'
 cover: 'censorship.jpg'
+category: content
 ---
 
 > LBRY and [@spee_ch](https://twitter.com/spee_ch) are teaming up with the [#AntiMedia](https://twitter.com/hashtag/AntiMedia) to protect independent outlets with LBRYPress! No more relying on [#SiliconValley](https://twitter.com/hashtag/SiliconValley) to host your content - get your own custom install here [https://t.co/niz1SEUGMK](https://t.co/niz1SEUGMK) [#FreeSpeech](https://twitter.com/hashtag/FreeSpeech) [#censorship](https://twitter.com/hashtag/censorship) [pic.twitter.com/6v7lMNjhXn](https://t.co/6v7lMNjhXn)

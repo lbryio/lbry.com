@@ -3,6 +3,7 @@ author: brinck-slattery
 title: 'How Ads Wrecked Entertainment (And What You Can Do About It)'
 date: '2018-01-16 15:30:00'
 cover: 'Draper2.jpg'
+category: content
 ---
 
 YouTube stars like Logan Paul have made careers out of [being awful, obnoxious human beings](http://nymag.com/selectall/2018/01/logan-paul-suicide-forest-video-youtube.html). 79% of Americans think that their fellow Americans [pay too much attention to celebrity news](http://www.rasmussenreports.com/public_content/lifestyle/general_lifestyle/november_2017/americans_see_too_much_celebrity_news), and only 20% think [celebrities are good role models](http://www.rasmussenreports.com/public_content/lifestyle/general_lifestyle/january_2017/few_see_hollywood_celebs_as_good_role_models), but we keep hearing about the same people over and over again.

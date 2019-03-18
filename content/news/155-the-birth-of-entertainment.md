@@ -3,6 +3,7 @@ author: brinck-slattery
 title: 'The Birth Of Entertainment'
 date: '2020-11-17 14:00:00'
 cover: 'muses.jpg'
+category: content
 ---
 
 The arts have always been a difficult business. In the 1600s, the arts were so competitive that poets and producers hired professional applauders called [claques](https://en.wikipedia.org/wiki/Claque). Shakespeare's plays have literally [caused riots](https://culturacolectiva.com/books/history-of-riot-at-the-astor-place-shakespeare). Managing fans and haters have always been a challenge, and our modern mass media culture has been forged in the birth and death of a thousand fandoms.

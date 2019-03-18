@@ -3,6 +3,7 @@ author: brinck-slattery
 title: 'What To Look For In a Spotify Alternative'
 date: '2018-12-07 15:00:00'
 cover: 'headphones.jpg'
+category: content
 ---
 
 Spotify has become the premier option for music lovers who want their music on the go. The days of huge, meticulously organized MP3 libraries are long gone, and streaming has beaten actually owning albums hands down. With over 80 million subscribers, Spotify isn't about to stop growing - but their success has come at a price for artists.

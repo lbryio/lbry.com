@@ -3,6 +3,7 @@ author: rob-smith
 title: 'Why Is LBRY Mobile Only On Android?'
 date: '2018-09-12 12:00:00'
 cover: 'blog_whyandroid.png'
+category: users
 ---
 
 > [#areyoureadyforthisjelly](https://twitter.com/hashtag/areyoureadyforthisjelly) [pic.twitter.com/urXNtw1IQk](https://t.co/urXNtw1IQk)

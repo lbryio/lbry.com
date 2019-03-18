@@ -3,6 +3,7 @@ author: reilly-smith
 title: 'Choose your own adventure'
 date: '2018-01-25 00:20:00'
 cover: 'cls-banner-2.jpg'
+category: content
 ---
 
 Analysis is a dish best served intelligently.
