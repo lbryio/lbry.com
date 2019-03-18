@@ -163,7 +163,7 @@
               </drawer-child>
 
             <drawer-child>
-                <a href="https://forum.lbry.tech/spec">
+                <a href="https://lbry.tech/spec">
                     <strong>The Spec</strong>
                     <span>Read a formal technical description of how LBRY works</span>
                 </a>
