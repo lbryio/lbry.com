@@ -182,6 +182,20 @@
                   <span>Become a contributor to the LBRY project</span>
                 </a>
               </drawer-child>
+              
+              <drawer-child>
+                <a href="https://lbry.tech/developer-program">
+                  <strong>Developer Program</strong>
+                  <span>Complementary LBRY Credits for developers</span>
+                </a>
+              </drawer-child>
+              
+              <drawer-child>
+                <a href="https://forum.lbry.tech/">
+                  <strong>Developer Forum</strong>
+                  <span>Discuss all the technical things!</span>
+                </a>
+              </drawer-child>
             </drawer-children>
           </drawer-wrap>
         </drawer-section>
