@@ -5,12 +5,13 @@
 <main class="ancillary">
   <section class="hero hero--half-height">
     <div class="inner-wrap inner-wrap--hero">
-      <h1><?php echo htmlentities($post->getTitle()) ?></h1>
+      <h1>Frequently Asked Questions</h1>
     </div>
   </section>
 
   <section>
     <div class="inner-wrap">
+      <h2><?php echo htmlentities($post->getTitle()) ?></h2>
       <p><a href="/faq">« {{page.faq.back}}</a></p>
       <?php echo $post->getContentHtml() ?>
     </div>
