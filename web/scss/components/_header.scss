@@ -199,6 +199,10 @@ drawer-navigation {
 }
 
 drawer-navigation-helper {
+  border-right: 10rem solid transparent;
+  border-left: 13rem solid transparent;
+  left: -10rem;
+
   @media (max-width: 950px) {
     display: none;
   }
