@@ -23,7 +23,7 @@ Two videos, directed by Angelino filmmaker Johnny Sikma, can be found at:
 "Pillsbury Boy"
 - `lbry://@capital/pillsburyboy`
 
-(That's right. LBRY has channels now. But the only way to try 'em out before May is to hangout with us on [Discord chat](http://chat.lbry.io). Claim your @name on the revamped Publish page, manage each channel, and what content belongs where.)
+(That's right. LBRY has channels now. But the only way to try 'em out before May is to hangout with us on [Discord chat](http://chat.lbry.com). Claim your @name on the revamped Publish page, manage each channel, and what content belongs where.)
 
 And keep up with his latest goings-on:
 - http://www.instagram.com/whoiscapital
@@ -32,4 +32,4 @@ And keep up with his latest goings-on:
 
 *Today was a good day...*
 
-**Not on LBRY yet?** [Download here](https://lbry.io/get). Musician looking for a way to avoid being shafted by The Man? Email [reilly@lbry.io](mailto:reilly@lbry.io) to actually make money on your music.
+**Not on LBRY yet?** [Download here](/get). Musician looking for a way to avoid being shafted by The Man? Email [reilly@lbry.com](mailto:reilly@lbry.com) to actually make money on your music.

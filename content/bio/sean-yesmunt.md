@@ -1,7 +1,7 @@
 ---
 name: Sean Yesmunt
 role: App Developer
-email: sean@lbry.io
+email: sean@lbry.com
 twitter: seanyesmunt
 github: seanyesmunt
 ---

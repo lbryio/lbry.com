@@ -13,7 +13,7 @@ Blockchain technology currently has a hype to substance ratio rapidly approachin
 But there's one area where we think it's plausible, if not likely, that blockchain will improve the world: the development of open standards and protocols, and consequently more user-friendly technology.
 
 # The Status Quo
-In Part 1, we covered how existing tech companies demonstrate active hostility towards users. If you haven't read this or are not already convinced of this problem, [start here](https://lbry.io/news/why-do-tech-giants-abuse-their-users).
+In Part 1, we covered how existing tech companies demonstrate active hostility towards users. If you haven't read this or are not already convinced of this problem, [start here](/news/why-do-tech-giants-abuse-their-users).
 
 To recap:
 ![Important Infographic](https://spee.ch/6/importantdiagram.png)
@@ -51,4 +51,4 @@ It also aligns incentives: the developers have incentive to make the protocol ma
 
 For the first time ever, it's economically feasible for companies to compete to create the best technology instead of capture and then abuse their users. That's why we're building LBRY, and it's why we're open source. Anyone who's inspired to help us create a free, open internet is welcome to build apps on our protocol, or fork our project and strike out on their own if they think they can do it better than us. Real competition instead of a market in name only.
 
-Want to join us? You can start by [downloading the LBRY app](https://lbry.io/get), trying it out, and letting us know if you have any questions or suggestions to improve it. You can also [join our chat](https://chat.lbry.io) or consider a [more committed relationship](https://lbry.io/join-us). Together, we can build a better, freer internet.
+Want to join us? You can start by [downloading the LBRY app](/get), trying it out, and letting us know if you have any questions or suggestions to improve it. You can also [join our chat](https://chat.lbry.com) or consider a [more committed relationship](/join-us). Together, we can build a better, freer internet.

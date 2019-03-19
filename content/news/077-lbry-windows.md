@@ -29,4 +29,4 @@ LBRY is a content-sharing and publishing platform that is decentralized and cont
 
 LBRY is an open-source protocol, as opposed to a centralized service, so there is no entity to take a "cut" of transactions or change the terms in an attempt to monetize the product. It's like a new extension of the internet for delivering all media – films, ebooks, songs, and apps – from creators directly to consumers with radical efficiency.
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Know some great public domain content to share? Have high-quality scans? Email [reilly@lbry.io](mailto:reilly@lbry.io)for a trip to the front of the line.
+**Not on LBRY yet?** [Get an invite here](/get). Know some great public domain content to share? Have high-quality scans? Email [reilly@lbry.com](mailto:reilly@lbry.com)for a trip to the front of the line.

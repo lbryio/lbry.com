@@ -1,7 +1,7 @@
 ---
 name: Alex Liebowitz
 role: App Developer
-email: aliebowitz@lbry.io
+email: aliebowitz@lbry.com
 ---
 
 Alex is responsible for the LBRY browsing application. An economist turned web developer, Alex joins an assortment of polymaths at LBRY.

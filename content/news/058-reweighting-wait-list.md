@@ -4,7 +4,7 @@ title: 'LBRY Re-Weighting Massive Beta Waiting List'
 date: '2016-08-22 00:06:18'
 ---
 
-The waiting list to download the LBRY beta is *well over 100,000 strong!* If you [join our Discord chat](http://chat.lbry.io) (the best place to stay on top of updates and get questions answered), one of the top inquiries is:
+The waiting list to download the LBRY beta is *well over 100,000 strong!* If you [join our Discord chat](http://chat.lbry.com) (the best place to stay on top of updates and get questions answered), one of the top inquiries is:
 
 **When will I get my beta invite code?**
 
@@ -20,8 +20,8 @@ To that end, we have changed the way we weight those on the waiting list. Previo
 
 Many of you have been waiting for a long while. We halted new invites for about a month after closed beta launch to work a key feature: publishing tools.
 
-Since [publishing went live](https://lbry.io/news/publish-tools-live-earn-1000-dollars) in the first week of August, we have added about 2,000 new beta users using this updated waiting list. Going forward, we intend to add approximately 500 beta users a week.
+Since [publishing went live](/news/publish-tools-live-earn-1000-dollars) in the first week of August, we have added about 2,000 new beta users using this updated waiting list. Going forward, we intend to add approximately 500 beta users a week.
 
 So if you're still champing at the bit, then hang tight!
 
-Remember – you can potentially jump the waiting list (and earn $1,000 in LBC) if you are a content creator interested in uploading quality digital media to LBRY. [Learn more about this opportunity here](https://lbry.io/publish).
+Remember – you can potentially jump the waiting list (and earn $1,000 in LBC) if you are a content creator interested in uploading quality digital media to LBRY. [Learn more about this opportunity here](/publish).

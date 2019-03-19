@@ -1,7 +1,7 @@
 ---
 name: Reilly Smith
 role: Former Director of Content
-email: reilly@lbry.io
+email: reilly@lbry.com
 twitter: reillysmith
 github: reillysmith
 ---

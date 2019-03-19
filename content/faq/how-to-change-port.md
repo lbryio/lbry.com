@@ -5,7 +5,7 @@ category: powerusers
 
 If you see the error message `couldn't bind to port 3333`, it is likely that another process is already bound to that port. You will need to change the port before starting the daemon. The port number should not matter as long as it is available and not blocked by your ISP.
 
-The most user friendly way to change the port permanently is to append the below line to the `daemon_settings.yml` in the `lbrynet` [directory](https://lbry.io/faq/lbry-directories). If it doesn't exist, create a new file named `daemon_settings.yml` and append:
+The most user friendly way to change the port permanently is to append the below line to the `daemon_settings.yml` in the `lbrynet` [directory](/faq/lbry-directories). If it doesn't exist, create a new file named `daemon_settings.yml` and append:
 
     peer_port: 3334
 

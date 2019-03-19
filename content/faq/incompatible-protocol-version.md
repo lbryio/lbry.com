@@ -15,4 +15,4 @@ The most likely cause of this error is an old version was running during the ins
 3. [Download](https://github.com/lbryio/lbry-desktop/releases) and re-install the latest version of LBRY
 4. Start LBRY
 
-If you still receive this warning after completing the above steps, please [reach out to us](https://lbry.io/faq/how-to-report-bugs) for additional support.
+If you still receive this warning after completing the above steps, please [reach out to us](/faq/how-to-report-bugs) for additional support.

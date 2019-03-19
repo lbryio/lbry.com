@@ -1,7 +1,7 @@
 ---
 name: Igor Gassmann
 role: App Developer Intern
-email: igor@lbry.io
+email: igor@lbry.com
 twitter: i_gassmann
 github: IGassmann
 ---

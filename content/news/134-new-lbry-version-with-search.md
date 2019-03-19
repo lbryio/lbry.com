@@ -4,7 +4,7 @@ title: 'LBRY v0.17 Has What You've Been Searching For'
 date: '2017-10-12 16:00:00'
 ---
 
-The latest LBRY app, v0.17, is now available. [**Get it here**](https://lbry.io/get).
+The latest LBRY app, v0.17, is now available. [**Get it here**](/get).
 
 ### Release Notes
 

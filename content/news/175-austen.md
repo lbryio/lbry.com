@@ -74,4 +74,4 @@ Decentralizing content to provide controversial ideas with the freedom to flouri
 
 Help us build the decentralized platform that provides creators with true freedom - download LBRY Austen today!
 
-[Download LBRY Austen Here](https://lbry.io/get?auto=1)
+[Download LBRY Austen Here](/get?auto=1)

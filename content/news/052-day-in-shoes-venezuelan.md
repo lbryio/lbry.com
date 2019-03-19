@@ -5,7 +5,7 @@ date: '2016-07-26 00:09:18'
 cover: 'venezuela.jpg'
 ---
 
-Javier, a young Venezuelan and cryptocurrency advocate, joined [LBRY's public chat](http://chat.lbry.io) earlier this month to get access to our beta and learn more about LBRY's vision.
+Javier, a young Venezuelan and cryptocurrency advocate, joined [LBRY's public chat](http://chat.lbry.com) earlier this month to get access to our beta and learn more about LBRY's vision.
 
 He shared with us a brief look into his life in Venezuela, where a socialist government has mismanaged the economy to the point of destruction. The local currency, the Venezuelan bolivar, is forecast to experience [1,600% inflation next year](http://blogs.wsj.com/economics/2016/07/18/venezuelas-inflation-is-set-to-top-1600-next-year). Inflation will reach almost 500% this year.
 

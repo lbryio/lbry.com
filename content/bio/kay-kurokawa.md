@@ -1,7 +1,7 @@
 ---
 name: Kay Kurokawa
 role: Protocol Developer
-email: kay@lbry.io
+email: kay@lbry.com
 twitter: kaykurokawa
 github: kaykurokawa
 ---

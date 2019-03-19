@@ -8,7 +8,7 @@ We've heard two requests from our community over and over again: make it easier 
 
 With that in mind, the newest LBRY update should be a crowd-pleaser! Channel subscriptions are live, and we've integrated [ShapeShift](https://shapeshift.io) to allow users to easily convert popular cryptos into LBC without leaving the app.
 
-You'll find all this (and a lot more) in LBRY v0.19 - [**get it here**](https://lbry.io/get) and check out the full release notes below.
+You'll find all this (and a lot more) in LBRY v0.19 - [**get it here**](/get) and check out the full release notes below.
 
 ![LBRY Search Tool In Action](https://spee.ch/e/subscriptions.gif)
 

@@ -1,7 +1,7 @@
 ---
 name: Bill Bittner
 role: Former App Developer
-email: bill@lbry.io
+email: bill@lbry.com
 twitter: billbitt2000
 github: billbitt
 ---

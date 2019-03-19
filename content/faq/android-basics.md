@@ -6,19 +6,19 @@ order: 2
 
 The LBRY Browser for Android allows you to view free and paid content via the Explore and Trending sections, search for content on LBRY,  send/receive LBRY Credits (LBC) and earn credits through LBRY Rewards.
 
-The app runs on top of the [LBRY protocol](https://lbry.io/faq/what-is-lbry) which is a peer-to-peer (P2P), decentralized file sharing and payment network secured by blockchain technology.
+The app runs on top of the [LBRY protocol](/faq/what-is-lbry) which is a peer-to-peer (P2P), decentralized file sharing and payment network secured by blockchain technology.
 
-The purpose of this FAQ is to answer questions about some of the basic functionality available in the LBRY Android App. Please see our [other FAQ entries](https://lbry.io/faq) for additional information.
+The purpose of this FAQ is to answer questions about some of the basic functionality available in the LBRY Android App. Please see our [other FAQ entries](/faq) for additional information.
 
 ### Why Does LBRY Want My Email Address?
 
-Emails are collected to authenticate and [uniquely identify](https://lbry.io/faq/phone) users so that they can be eligible for [LBRY Rewards](#rewards), sync subscription data and to stay up to date on the latest LBRY happenings.
+Emails are collected to authenticate and [uniquely identify](/faq/phone) users so that they can be eligible for [LBRY Rewards](#rewards), sync subscription data and to stay up to date on the latest LBRY happenings.
 
-No other data is stored with your email login. All other data, including your [wallet](#wallet), [downloads](#data) and published content are stored [locally on your device](https//lbry.io/faq/lbry-directories#android).
+No other data is stored with your email login. All other data, including your [wallet](#wallet), [downloads](#data) and published content are stored [locally on your device](/faq/lbry-directories#android).
 
 ### How Do I Change My LBRY Connected Email?
 
-If you ever need to change your LBRY Android App email address or sign out, please see [this guide](https://lbry.io/faq/how-to-change-email#android). Clearing data or uninstalling leads to a loss of wallet currently, please [backup your wallet data](https://lbry.io/faq/how-to-backup-wallet#android).
+If you ever need to change your LBRY Android App email address or sign out, please see [this guide](/faq/how-to-change-email#android). Clearing data or uninstalling leads to a loss of wallet currently, please [backup your wallet data](/faq/how-to-backup-wallet#android).
 
 If you sign into a new email and need to transfer your verification status, you'll need to [reach out to us](mailto:help@lbryio) in order to link your accounts. Please do not verify again to obtain rewards on a 2nd account; your Rewards account may be disabled for abuse.
 
@@ -30,16 +30,16 @@ Any rewards earned will be sent locally to the wallet where they are claimed. In
 
 ### What Are LBRY Rewards? {#rewards}
 
-[LBRY Rewards](https://lbry.io/faq/rewards) are used to distribute LBRY Credits (LBC) to new and existing users by allowing them to explore app functions and complete tasks which generate LBC as an award.
+[LBRY Rewards](/faq/rewards) are used to distribute LBRY Credits (LBC) to new and existing users by allowing them to explore app functions and complete tasks which generate LBC as an award.
 
-In order to be eligible for Rewards, you need to verify your identity [phone number](https://lbry.io/faq/phone) or [chat](https://chat.lbry.io) which uniquely identifies you as an LBRY user.
+In order to be eligible for Rewards, you need to verify your identity [phone number](/faq/phone) or [chat](https://chat.lbry.com) which uniquely identifies you as an LBRY user.
 
 ### What Is a Wallet And How Do I Find It? {#wallet}
 
 A wallet is a secure digital file used to store, send and receive cryptocurrencies like LBRY Credits (LBC).
 The LBRY Android App comes with its own wallet and is stored locally on your phone and nowhere else!
 
-**It is critical that you [backup your wallet data](https://lbry.io/faq/how-to-backup-wallet#android) in case you lose access to your phone or need to [migrate](https://lbry.io/faq/backup-data) to a new one.**
+**It is critical that you [backup your wallet data](/faq/how-to-backup-wallet#android) in case you lose access to your phone or need to [migrate](/faq/backup-data) to a new one.**
 
 To find your wallet in the LBRY Android app, click on the 3 horizontal bars at the upper left side of the app next to `Discovery`. Clicking on it will open a sidebar and then click on Wallet. This will open the Wallet page which shows your wallet address, balance and recent transactions.
 
@@ -54,9 +54,9 @@ Scroll down in the Wallet menu to find recent transactions, or click `View All` 
 
 ![Recent tx](https://spee.ch/daa89fcca6411ad2505cdc6e092fcaf4f22f4802/recent1.jpg)
 
-The LBRY wallet is different from other wallets - it also stores your shared content's metadata in the form of [claims](https://lbry.io/faq/naming) when using the [publishing features](https://lbry.io/faq/how-to-publish).
+The LBRY wallet is different from other wallets - it also stores your shared content's metadata in the form of [claims](/faq/naming) when using the [publishing features](/faq/how-to-publish).
 
-Claim related [wallet transactions](https://lbry.io/faq/transaction-types) ensure that the blockchain uniquely identifies your content and the payment/tips can be routed appropriately.
+Claim related [wallet transactions](/faq/transaction-types) ensure that the blockchain uniquely identifies your content and the payment/tips can be routed appropriately.
 
 ### How Do I Claim Weekly LBRYcast Rewards In The Android App? {#lbrycastrewards}
 
@@ -72,7 +72,7 @@ To claim any other reward, you just have to click on the round circle next to th
 
 ![claimreward](https://spee.ch/d706d5965b7befa4b1de02e71739ff5c948071c0/claim.jpg)
 
-To check whether your wallet is updated, you need to swipe your screen to show the menu bar, click on Wallet and you will see your overall updated balance. Check [How to Backup Your Wallet](https://lbry.io/faq/how-to-backup-wallet)
+To check whether your wallet is updated, you need to swipe your screen to show the menu bar, click on Wallet and you will see your overall updated balance. Check [How to Backup Your Wallet](/faq/how-to-backup-wallet)
 
 ### How Do I Delete Downloaded Content In The LBRY Android App? {#deletecontents}
 

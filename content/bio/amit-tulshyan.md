@@ -1,7 +1,7 @@
 ---
 name: Amit Tulshyan
 role: Protocol Developer Intern
-email: hackrush@lbry.io
+email: hackrush@lbry.com
 twitter: amittulshyan
 github: hackrush01
 ---

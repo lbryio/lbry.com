@@ -5,7 +5,7 @@ date: '2015-07-01 13:09:20'
 published: true
 ---
 
-As I recently traveled across Europe, and ultimately to [PorcFest](http://www.porcfest.com), I took time to talk to talk to entrepreneurs, technologists, and libertarians about [LBRY](https://lbry.io).
+As I recently traveled across Europe, and ultimately to [PorcFest](http://www.porcfest.com), I took time to talk to talk to entrepreneurs, technologists, and libertarians about [LBRY](https://lbry.com).
 
 For the mutualistic education of myself and others, below are the questions and answers to five frequently asked questions.
 
@@ -19,7 +19,7 @@ As we recently Tweeted, we're extremely close to releasing a POC client:
 >
 > — LBRY (@LBRYio) [July 1, 2015](https://twitter.com/LBRYio/status/616333374878281728)
 
-To make sure you hear as soon as it is available, [join our mailing list](https://lbry.io/list/subscribe) or [follow us](https://twitter.com/lbryio) on Twitter.
+To make sure you hear as soon as it is available, [join our mailing list](/list/subscribe) or [follow us](https://twitter.com/lbryio) on Twitter.
 
 
 ### 2. What happens if someone uploads infringing content to LBRY?

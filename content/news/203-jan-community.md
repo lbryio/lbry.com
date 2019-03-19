@@ -7,7 +7,7 @@ category: community-update
 ---
 # Welcome to the January/February 2019 LBRY Community update! 
 
-If you aren’t part of our Discord community yet, [join us](https://chat.lbry.io) anytime and say hello! Our community allows LBRYians to interact with the team directly and for us to engage users and grow the LBRY platform. If you don't already, follow us on [Twitter](https://twitter.com/lbryio), [Facebook](https://facebook.com/lbryio), [Reddit](https://www.reddit.com/r/lbry), [Instagram](https://www.instagram.com/lbryio), and [Telegram](https://www.instagram.com/lbryio/).
+If you aren’t part of our Discord community yet, [join us](https://chat.lbry.com) anytime and say hello! Our community allows LBRYians to interact with the team directly and for us to engage users and grow the LBRY platform. If you don't already, follow us on [Twitter](https://twitter.com/lbryio), [Facebook](https://facebook.com/lbryio), [Reddit](https://www.reddit.com/r/lbry), [Instagram](https://www.instagram.com/lbryio), and [Telegram](https://www.instagram.com/lbryio/).
 
 ## In This Update
 * [2018 Review and 2019 Roadmap](#roadmap)
@@ -16,10 +16,10 @@ If you aren’t part of our Discord community yet, [join us](https://chat.lbry.i
 * [Upcoming Events](#events) 
 * [Recent Events](#recent)
 
-To read all of our previous updates, please visit our [Development and Community Update archive](https://lbry.io/news/category/community-update). 
+To read all of our previous updates, please visit our [Development and Community Update archive](/news/category/community-update). 
 
 ### 2018 Year Review and Roadmap Check-in {#roadmap}
-Jeremy Kaufmann, our CEO, [penned a retrospective on 2018, and announced our goals for 2019.](https://lbry.io/news/lbry-in-2018-2019) We’re super excited about the new updates to our Roadmap, which also relies on **YOU** to help us revolutionize the content world!
+Jeremy Kaufmann, our CEO, [penned a retrospective on 2018, and announced our goals for 2019.](/news/lbry-in-2018-2019) We’re super excited about the new updates to our Roadmap, which also relies on **YOU** to help us revolutionize the content world!
 
 2018 was filled with great accomplishments for LBRY, and Jeremy's blog summarizes these wins, including: protocol performance, new features, our YouTube partnership program, Android app beta, huge increase in content, lbry.fund debut, lbry.tech soft launch, major press coverage, and social growth.
 
@@ -50,7 +50,7 @@ Jeremy Kaufmann, our CEO, [penned a retrospective on 2018, and announced our goa
 * **Internationalization:** Add local language support to our web properties and applications.
 * **Robust Data Market:** Improve incentive for participation in the LBRY network and host data.
 
-You can check out the full details on our [Roadmap.](https://lbry.io/roadmap)
+You can check out the full details on our [Roadmap.](/roadmap)
 
 ![LBRY.tech](https://spee.ch/@lbrynews:0/lbrytech.png)
 ### LBRY.tech {#LBRY.tech}
@@ -136,7 +136,7 @@ We love working with the students at VIT, and we've been blown away by their ent
 
 #### Bangalore Blockchain Application Development Meetup
 
-Amit Tulshyan and Clement Gerber from LBRY gave a presentation to the [Bangalore Blockchain Application Group.](https://www.meetup.com/Bangalore-Blockchain-Application-Development/) For information on future Meetups in India or to invite LBRY to speak at your meetup, email Clement at clement @ lbry.io or submit a request through [LBRY.fund.](https://lbry.fund)
+Amit Tulshyan and Clement Gerber from LBRY gave a presentation to the [Bangalore Blockchain Application Group.](https://www.meetup.com/Bangalore-Blockchain-Application-Development/) For information on future Meetups in India or to invite LBRY to speak at your meetup, email Clement at clement @ lbry.com or submit a request through [LBRY.fund.](https://lbry.fund)
 
 ![Clement and Amit](https://spee.ch/@lbrynews:0/clementamit.jpg)
 
@@ -147,5 +147,5 @@ Are you a developer and want to find out more? Start with [LBRY.tech](https://lb
 
 Check out our [contributing guide](https://lbry.tech/contribute) and our LBRY App specific contributing [document](https://github.com/lbryio/lbry-app/blob/master/CONTRIBUTING.md) if you just want to dive right into the code.
 
-Thanks for supporting LBRY - stay tuned for more news and updates! And if you haven’t downloaded the [LBRY app](https://lbry.io/get?auto=1) yet, what are you waiting for?
+Thanks for supporting LBRY - stay tuned for more news and updates! And if you haven’t downloaded the [LBRY app](/get?auto=1) yet, what are you waiting for?
 

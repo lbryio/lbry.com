@@ -22,7 +22,7 @@ To run this project, you'll need to have either PHP7 or Docker installed, and be
 
 ## Verifying Install
 
-If `localhost:8000` returns the lbry.io website, it's running correctly.
+If `localhost:8000` returns the lbry.com website, it's running correctly.
 
 ## Additional Notes
 

@@ -22,4 +22,4 @@ To support and complete this important project, we've made resources from our In
 For all the details, [read our press release](https://www.prweb.com/releases/after_the_social_media_purge_the_anti_media_is_fighting_back_with_lbry/prweb15969711.htm)!
 
 ## Want your own custom installation of LBRYPress?
-Members of the independent media who are interested in installing LBRYPress can [go to this page](https://lbry.io/lbrypress) to schedule the installation. Tech-savvy readers and developers can [view the technical documentation and code here](https://github.com/lbryio/spee.ch).
+Members of the independent media who are interested in installing LBRYPress can [go to this page](/lbrypress) to schedule the installation. Tech-savvy readers and developers can [view the technical documentation and code here](https://github.com/lbryio/spee.ch).

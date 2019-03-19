@@ -15,7 +15,7 @@ Rounding out the top five science channels on LBRY is perhaps the most legendary
 
 ![NileRed](/img/news/nilered-inline.jpg)
 
-[@NileRed](https://open.lbry.io/%40NileRed) (also available on spee.ch at https://spee.ch/@NileRed) is a regular Reddit front page sensation. Don't believe me? As /u/deeexz [two years ago](https://www.reddit.com/r/chemistry/comments/3lgk8f/my_absolute_favourite_chemistryrelated_channel_on/?st=j98pwzbq&sh=a9b568e6) said, "My absolute favourite chemistry-related channel on YouTube." And now, NileRed has nearly a quarter of a million subscribers. So, we should all be thanking deeexz.
+[@NileRed](https://open.lbry.com/%40NileRed) (also available on spee.ch at https://spee.ch/@NileRed) is a regular Reddit front page sensation. Don't believe me? As /u/deeexz [two years ago](https://www.reddit.com/r/chemistry/comments/3lgk8f/my_absolute_favourite_chemistryrelated_channel_on/?st=j98pwzbq&sh=a9b568e6) said, "My absolute favourite chemistry-related channel on YouTube." And now, NileRed has nearly a quarter of a million subscribers. So, we should all be thanking deeexz.
 
 Get lit on chemistry via spee.ch:
 
@@ -23,4 +23,4 @@ Get lit on chemistry via spee.ch:
 
 Please support NileRed by tipping LBRY credits in-app to your favorite chemical reactions. And also because tipping is a pretty, pretty, prettttty cool.
 
-[**Download LBRY today**](https://lbry.io/get). Is your favorite channel not on LBRY? Help us feature what you want to see! Email [reilly@lbry.io](mailto:reilly@lbry.io) to make it happen. Or sync your own channel at: https://lbry.io/youtube
+[**Download LBRY today**](/get). Is your favorite channel not on LBRY? Help us feature what you want to see! Email [reilly@lbry.com](mailto:reilly@lbry.com) to make it happen. Or sync your own channel at: /youtube

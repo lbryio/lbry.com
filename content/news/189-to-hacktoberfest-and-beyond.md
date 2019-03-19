@@ -12,7 +12,7 @@ As Hacktoberfest draws to a close, we couldn't be happier with how it turned out
 
 The fun doesn't have to stop just because October is over - if you're inspired to contribute to the LBRY project, you can get started right away at [LBRY.tech](https://LBRY.tech).
 
-Did you make any submissions to LBRY during the past month? Make sure send us an email at [Hello@lbry.io](mailto:hello@lbry.io) to receive your official LBRY Hacktoberfest World Tour shirt!
+Did you make any submissions to LBRY during the past month? Make sure send us an email at [Hello@lbry.com](mailto:hello@lbry.com) to receive your official LBRY Hacktoberfest World Tour shirt!
 
 If you missed any of our developer videos, you can watch them all below. Thanks to our community for helping us build a new, decentralized internet - we can't do this without you!
 
@@ -42,4 +42,4 @@ Akinwale Ariwodola - Lead Mobile Developer
 
 Brannon King - LBRY Blockchain Team
 
-And if you've gotten this far somehow without downloading the LBRY app, what are you waiting for? [Click here to try it now](https://lbry.io/get)!
+And if you've gotten this far somehow without downloading the LBRY app, what are you waiting for? [Click here to try it now](/get)!

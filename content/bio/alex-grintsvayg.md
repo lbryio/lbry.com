@@ -1,7 +1,7 @@
 ---
 name: Alex Grintsvayg
 role: Founder, Chief Technical Officer
-email: grin@lbry.io
+email: grin@lbry.com
 twitter: lyoshenka
 github: lyoshenka
 ---

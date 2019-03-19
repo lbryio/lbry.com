@@ -6,7 +6,7 @@ cover: 'redesign.png'
 category: technical
 ---
 
-About 4 months ago a user by the name of @nizuka told us he had been working on a redesign for our desktop app and posted a link to a demo he made in one of our Slack channels (RIP LBRY Slack, checkout our [Discord](https://chat.lbry.io)). This wasn't solicited and I'm not sure we had any immediate plans for a redesign at that time, but It was awesome. I think pretty much right away, everyone knew we should start working towards a new app design.
+About 4 months ago a user by the name of @nizuka told us he had been working on a redesign for our desktop app and posted a link to a demo he made in one of our Slack channels (RIP LBRY Slack, checkout our [Discord](https://chat.lbry.com)). This wasn't solicited and I'm not sure we had any immediate plans for a redesign at that time, but It was awesome. I think pretty much right away, everyone knew we should start working towards a new app design.
 
 ![Redesign first draft](https://spee.ch/f/redesign-rough-draft.png)
 
@@ -31,4 +31,4 @@ Here are a few photos to see some of the changes we've made.
 
 This redesign has been a large project with tons of help from LBRY team members and several community members. We had many code contributions from the community and a lot of help with early testing. The first release is far from our final design, but we see it as a good first step. We would rather release early and release often. Is there something about the redesign that you don't like? Have you run into any issues? Please let us know! We will even pay you with some LBC if you are interested in fixing the issue. We love community feedback and contributions, that is how this entire redesign project got started. :)
 
-[Download LBRY Austen Here](https://lbry.io/get?auto=1)
+[Download LBRY Austen Here](/get?auto=1)

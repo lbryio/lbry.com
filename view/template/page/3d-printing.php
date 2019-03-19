@@ -35,119 +35,119 @@
 
       <h3>Open the app &amp; click an object to download</h3>
 
-      <a href="https://open.lbry.io/usakeychain">
+      <a href="https://open.lbry.com/usakeychain">
         <img style="padding:20px;" src="https://spee.ch/d/USA-Keychain" alt="USA Keychain" title="USA Keychain" width="500px"/>
       </a>
 
-      <a href="https://open.lbry.io/trumpelephant">
+      <a href="https://open.lbry.com/trumpelephant">
         <img style="padding:20px;" src="https://spee.ch/7/Trump-Elephant" alt="Trump Elephant" title="Trump Elephant" width="500px"/>
       </a>
 
-      <a href="https://open.lbry.io/obamadonkey">
+      <a href="https://open.lbry.com/obamadonkey">
         <img style="padding:20px;" src="https://spee.ch/c/Obama-Donkey" alt="Obama Donkey" title="Obama Donkey" width="500px"/>
       </a>
 
-      <a href="https://open.lbry.io/brainpowerbookendshelf">
+      <a href="https://open.lbry.com/brainpowerbookendshelf">
         <img style="padding:20px;" src="https://spee.ch/d/brainpower-bookendshelf" alt="Brainpower Bookendshelf" title="Brainpower Bookendshelf" width="500px"/>
       </a>
 
-      <a href="https://open.lbry.io/thethinkerbookends">
+      <a href="https://open.lbry.com/thethinkerbookends">
         <img style="padding:20px;" src="https://spee.ch/e/The-Thinker-Bookends" alt="The Thinker Bookends" title="The Thinker Bookends" width="500px"/>
       </a>
 
-      <a href="https://open.lbry.io/toothtoothbrushholder">
+      <a href="https://open.lbry.com/toothtoothbrushholder">
         <img style="padding:20px;" src="https://spee.ch/9/Tooth-Toothbrush-Holder" alt="Tooth Toothbrush Holder" title="Tooth Toothbrush Holder" width="500px"/>
       </a>
 
-      <a href="https://open.lbry.io/libraryiconbookend">
+      <a href="https://open.lbry.com/libraryiconbookend">
         <img style="padding:20px;" src="https://spee.ch/6/Library-Icon-Bookend" alt="Library Icon Bookend" title="Library Icon Bookend" width="500px"/>
       </a>
 
-      <a href="https://open.lbry.io/monerokeychain">
+      <a href="https://open.lbry.com/monerokeychain">
         <img style="padding:20px;" src="https://spee.ch/3/Monero-Keyring-" alt="Monero Keychain" title="Monero Keychain" width="500px"/>
       </a>
 
-      <a href="https://open.lbry.io/ethereumkeychain">
+      <a href="https://open.lbry.com/ethereumkeychain">
         <img style="padding:20px;" src="https://spee.ch/4/Ethereum-Keyring" alt="Ethereum Keychain" title="Ethereum Keychain" width="500px"/>
       </a>
 
-      <a href="https://open.lbry.io/bitcoinkeychain">
+      <a href="https://open.lbry.com/bitcoinkeychain">
         <img style="padding:20px;" src="https://spee.ch/c/Bitcoin-Keyring" alt="Bitcoin Keychain" title="Bitcoin Keychain" width="500px"/>
       </a>
 
-      <a href="https://open.lbry.io/socratesnightlight">
+      <a href="https://open.lbry.com/socratesnightlight">
         <img style="padding:20px;" src="https://spee.ch/6/socrates-nightlight" alt="Socrates Nightlight" title="Socrates Nighlight" width="500px"/>
       </a>
 
-      <a href="https://open.lbry.io/aristotlenightlight">
+      <a href="https://open.lbry.com/aristotlenightlight">
         <img style="padding:20px;" src="https://spee.ch/d/aristotle-nightlight" alt="Aristotle Nightlight" title="Aristotle Buddha Nighlight" width="500px"/>
       </a>
 
-      <a href="https://open.lbry.io/davincibuddhanightlight">
+      <a href="https://open.lbry.com/davincibuddhanightlight">
         <img style="padding:20px;" src="https://spee.ch/3/da-vinci-buddha-nightlight" alt="da Vinci Buddha Nightlight" title="da Vinci Buddha Nighlight" width="500px"/>
       </a>
 
-      <a href="https://open.lbry.io/theeinlightenedone">
+      <a href="https://open.lbry.com/theeinlightenedone">
         <img style="padding:20px;" src="https://spee.ch/c/einstein-buddha-nightlight" alt="Einstein Buddha Nightlight" title="Einstein Buddha Nighlight" width="500px"/>
       </a>
 
-      <a href="https://open.lbry.io/teslanightlight">
+      <a href="https://open.lbry.com/teslanightlight">
         <img style="padding:20px;" src="https://spee.ch/6/testa-nightlight" alt="Tesla Nightlight" title="Tesla Nighlight" width="500px"/>
       </a>
 
-      <a href="https://open.lbry.io/edisonnightlight">
+      <a href="https://open.lbry.com/edisonnightlight">
         <img style="padding:20px;" src="https://spee.ch/4/edison-nightlight" alt="Edison Nightlight" title="Edison Nighlight" width="500px"/>
       </a>
 
-      <a href="https://open.lbry.io/einsteinnightlight">
+      <a href="https://open.lbry.com/einsteinnightlight">
         <img style="padding:20px;" src="https://spee.ch/f/Einstein-Nightlight" alt="Einstein Nightlight" title="Einstein Nighlight" width="500px"/>
       </a>
 
-      <a href="https://open.lbry.io/geniuschessa">
+      <a href="https://open.lbry.com/geniuschessa">
         <img style="padding:20px;" src="https://spee.ch/3/Screen-Shot-2018-08-11-at-11254-PM" alt="Genius Chess A" title="Genius Chess A" width="500px"/>
       </a>
 
-      <a href="https://open.lbry.io/geniuschessb">
+      <a href="https://open.lbry.com/geniuschessb">
         <img style="padding:20px;" src="https://spee.ch/8/Screen-Shot-2018-08-11-at-11219-PM" alt="Genius Chess B" title="Genius Chess B" width="500px"/>
       </a>
 
-      <a href="https://open.lbry.io/gregsintricatechessa">
+      <a href="https://open.lbry.com/gregsintricatechessa">
         <img style="padding:20px;" src="https://spee.ch/e/Gregs-Chess-A-Clickable" alt="Greg's Intricate Chess A" title="Greg's Intricate Chess B" width="500px"/>
       </a>
 
-      <a href="https://open.lbry.io/gregsintricatechessb">
+      <a href="https://open.lbry.com/gregsintricatechessb">
         <img style="padding:20px;" src="https://spee.ch/0/Gregs-Chess-B-Clickable" alt="Greg's Intricate Chess B" title="Greg's Intricate Chess B" width="500px"/>
       </a>
 
-      <a href="https://open.lbry.io/ww2chessallies">
+      <a href="https://open.lbry.com/ww2chessallies">
         <img style="padding:20px;" src="https://spee.ch/f/allies2" alt="WW2 Chess Allies" title="WW2 Chess Allies" width="500px"/>
       </a>
 
-      <a href="https://open.lbry.io/ww2chessaxis">
+      <a href="https://open.lbry.com/ww2chessaxis">
         <img style="padding:20px;" src="https://spee.ch/4/axis" alt="WW2 Chess Axis" title="WW2 Chess Axis" width="500px"/>
       </a>
 
-      <a href="https://open.lbry.io/BoardA">
+      <a href="https://open.lbry.com/BoardA">
         <img style="padding:20px;" src="https://spee.ch/6/Chess-Board-A-Clickable" alt="Chess Board A" title="Chess Board A" width="500px"/>
       </a>
 
-      <a href="https://open.lbry.io/BoardB">
+      <a href="https://open.lbry.com/BoardB">
         <img style="padding:20px;" src="https://spee.ch/d/Chess-Board-B-Clickable" alt="Chess Board B" title="Chess Board B" width="500px"/>
       </a>
 
-      <a href="https://open.lbry.io/cryptocurrencychess">
+      <a href="https://open.lbry.com/cryptocurrencychess">
         <img style="padding:20px;" src="https://spee.ch/6/Crypto-Chess-Nonmineable" alt="Cryptocurrency Chess (Non-mineable)" title="Cryptocurrency Chess (Non-mineable)" width="500px"/>
       </a>
 
-      <a href="https://open.lbry.io/cryptocurrencychessnonmineable">
+      <a href="https://open.lbry.com/cryptocurrencychessnonmineable">
         <img style="padding:20px;" src="https://spee.ch/6/Crypto-Chess-Clickable" alt="Cryptocurrency Chess (Mineable)" title="Cryptocurrency Chess (Mineable)" width="500px"/>
       </a>
 
-      <a href="https://open.lbry.io/zeycussabstractchess">
+      <a href="https://open.lbry.com/zeycussabstractchess">
         <img style="padding:20px;" src="https://spee.ch/8/Abstract-Chess-Clickable" alt="Abstract Chess" title="Abstract Chess" width="500px"/>
       </a>
 
-      <a href="https://open.lbry.io/zeycussrussianchess">
+      <a href="https://open.lbry.com/zeycussrussianchess">
         <img style="padding:20px;" src="https://spee.ch/9/Russian-chess" alt="Russian Chess" title="Russian Chess" width="500px"/>
       </a>
     </div>
@@ -157,14 +157,14 @@
     <div class="inner-wrap">
       <h3>We want to see your first 3D upload!</h3>
       <p>
-        Send the <code>lbry://</code> address and your LBC wallet address to <a href="mailto:james@lbry.io" class="link-primary"><span class="btn-label">james@lbry.io</span></a> <strong>to receive 10 Library Credits on us</strong>.
+        Send the <code>lbry://</code> address and your LBC wallet address to <a href="mailto:james@lbry.com" class="link-primary"><span class="btn-label">james@lbry.com</span></a> <strong>to receive 10 Library Credits on us</strong>.
       </p>
 
       <h3>Looking for more exclusive content?</h3>
       <p>Enter your email below and we'll send you updates on new releases from the best content creators.</p>
 
       <div>
-        <p>Email <a href="mailto:james@lbry.io" class="link-primary"><span class="btn-label">james@lbry.io</span></a> if you think you've got what it takes to be a LBRY designer.</p>
+        <p>Email <a href="mailto:james@lbry.com" class="link-primary"><span class="btn-label">james@lbry.com</span></a> if you think you've got what it takes to be a LBRY designer.</p>
       </div>
 
       <?php echo View::render('mail/_subscribeForm', [

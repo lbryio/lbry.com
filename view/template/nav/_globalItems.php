@@ -17,7 +17,7 @@
   <a href="https://reddit.com/r/lbry"><span class="btn-label">Reddit</span> <span class="icon-fw icon-reddit"></span> </a>
 </div>
 <div class="control-item no-label-desktop">
-  <a href="https://chat.lbry.io"><span class="btn-label">Discord</span><span class="icon-fw icon-comments"></span></a>
+  <a href="https://chat.lbry.com"><span class="btn-label">Discord</span><span class="icon-fw icon-comments"></span></a>
 </div>
 <div class="control-item no-label-desktop">
   <a href="https://github.com/lbryio"><span class="btn-label">GitHub</span><span class="icon-github icon-fw"></span></a>

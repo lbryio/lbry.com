@@ -8,7 +8,7 @@ category: update
 
 It may be a bit early in the season, but we have a big holiday gift for all our loyal LBRYians! We're pleased to announce the release of LBRY Clarke, the newest (and best ever) version of the LBRY app. Our team's first priority has been improving the reliability, stability, and speed of the LBRY network, and Clarke delivers an odyssey of upgrades on those fronts for both our desktop and Android apps.
 
-We've overhauled the LBRY SDK (the program that allows computers to communicate with one another on our decentralized network), and it's never been this fast! These improvements will boost load speeds considerably across the LBRY ecosystem. During this upgrade, your wallet is also migrated to a new format and old version is [backed up safely](https://lbry.io/faq/how-to-backup-wallet#migration).
+We've overhauled the LBRY SDK (the program that allows computers to communicate with one another on our decentralized network), and it's never been this fast! These improvements will boost load speeds considerably across the LBRY ecosystem. During this upgrade, your wallet is also migrated to a new format and old version is [backed up safely](/faq/how-to-backup-wallet#migration).
 
 ## A Galaxy of New Features on Desktop and Android
 
@@ -46,4 +46,4 @@ And he didn't just leave his mark in the real world - as a pioneering science fi
 
 ## Ready to Step Into The Future?
 
-[Download the LBRY app](https://lbry.io/get) today, and if you have any questions, let us know on [Twitter](https://www.twitter.com/lbryio)!
+[Download the LBRY app](/get) today, and if you have any questions, let us know on [Twitter](https://www.twitter.com/lbryio)!

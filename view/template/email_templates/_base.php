@@ -337,7 +337,7 @@
                 <?php endif ?>
                 <tr>
                   <td class="aligncenter content-block">
-                    <a href="https://lbry.io">LBRY Inc</a>
+                    <a href="https://lbry.com">LBRY Inc</a>
                     &bull; 99 Hanover St, Manchester, NH 03101
                   </td>
                 </tr>

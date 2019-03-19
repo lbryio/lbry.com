@@ -4,9 +4,9 @@ title: 'Answers to the Big Questions from Our Reddit AMA'
 date: '2016-09-28 00:06:18'
 ---
 
-A few weeks ago, in conjunction with announcing a [$500,000 funding round](https://lbry.io/news/500k-vc-funds-pillar), we hit #2 on Reddit's front page with [our first AMA](https://www.reddit.com/r/IAmA/comments/50tyub/were_the_nerds_behind_lbry_a_decentralized).
+A few weeks ago, in conjunction with announcing a [$500,000 funding round](/news/500k-vc-funds-pillar), we hit #2 on Reddit's front page with [our first AMA](https://www.reddit.com/r/IAmA/comments/50tyub/were_the_nerds_behind_lbry_a_decentralized).
 
-While tens of thousands joined [our beta](https://lbry.io/get), including hundreds of YouTube channels, our first major wave of attention outside of blockchain circles has taught us some hard lessons:
+While tens of thousands joined [our beta](/get), including hundreds of YouTube channels, our first major wave of attention outside of blockchain circles has taught us some hard lessons:
 
 1. LBRY is hard to understand at first.
 2. We are not that great at explaining it.
@@ -144,7 +144,7 @@ Rest assured, we're implementing permanent URLs that are **always yours**. You w
 
 Using this approach, you can bypass the auction system entirely. You could even have a regular domain name, like www.jackscodingclass.com, point to all of your content on LBRY.
 
-More details on this update will be released shortly. [Subscribe to our mailing list](https://lbry.io/get) to stay up to date.
+More details on this update will be released shortly. [Subscribe to our mailing list](/get) to stay up to date.
 
 <a name="lbryinc"></a>
 **How does the company behind LBRY make money?**
@@ -156,7 +156,7 @@ Here's how LBRY Inc. **doesn't** make money:
 
 - **We do not take a cut of any transactions.** When you buy content on LBRY, 100% of the listed price goes to the publisher. There is also a fee paid to the decentralized network of hosts that store and deliver the content to you. LBRY Inc. doesn't take any of that unless the company is publishing or hosting content itself. The same rules apply to everyone.
 - **We do not earn profits from auctioning of names**, nor do we benefit from bidding wars over names. Our goal with the naming system is simply to allocate names most efficiently to benefit users.
-- **This is not a "pump and dump" scheme or vaporware.** See my essay [$1.2B Valuation and We Don't Care](https://lbry.io/news/1.2b-market-cap-we-dont-care). LBRY credits have already experienced a bubble, and we paid it no mind. LBRY is real software with a live blockchain and thousands of active users. Our goal is to increase the long-term value of the protocol, which if adopted globally will make our reserve many times more valuable than any short-term bubble. We've already invested 10,000 working hours into this project, and it will take many more, but we're patient and focused on the future.
+- **This is not a "pump and dump" scheme or vaporware.** See my essay [$1.2B Valuation and We Don't Care](/news/1.2b-market-cap-we-dont-care). LBRY credits have already experienced a bubble, and we paid it no mind. LBRY is real software with a live blockchain and thousands of active users. Our goal is to increase the long-term value of the protocol, which if adopted globally will make our reserve many times more valuable than any short-term bubble. We've already invested 10,000 working hours into this project, and it will take many more, but we're patient and focused on the future.
 
 We are also exploring ways to generate revenue above our credit reserve, including providing value-added services to LBRY users and/or consulting to large content producers who want to harness LBRY. But remember, by design, **we are not able** to singlehandedly change the rules on users in an attempt to "monetize" all of your contributions to the network.
 
@@ -164,11 +164,11 @@ We are also exploring ways to generate revenue above our credit reserve, includi
 **What is LBRY's development status right now? Plans for the future?**
 ----
 
-LBRY is currently in invite-only beta, with desktop apps for Linux, MacOS, and a pre-release version of Windows. There are approximately 5K active users and hundreds of content creators. The network already hosts big-name content like the [feature film *It's A Disaster*](https://lbry.io/news/launch-a-disaster) and videos from [Adult Swim's MillionDollarExtreme](https://lbry.io/news/mde-on-lbry). We announce new featured content every Thursday on our [blog](https://lbry.io/news), [Twitter](https://twitter.com/lbryio), and [Facebook](https://www.facebook.com/lbryio).
+LBRY is currently in invite-only beta, with desktop apps for Linux, MacOS, and a pre-release version of Windows. There are approximately 5K active users and hundreds of content creators. The network already hosts big-name content like the [feature film *It's A Disaster*](/news/launch-a-disaster) and videos from [Adult Swim's MillionDollarExtreme](/news/mde-on-lbry). We announce new featured content every Thursday on our [blog](/news), [Twitter](https://twitter.com/lbryio), and [Facebook](https://www.facebook.com/lbryio).
 
 The waitlist to get into the beta is about 150K people long. This shocks even us, and we're racing to get the user experience and backend technologies to a level where we're comfortable opening the beta to everyone. The target for open beta is this winter. Mushy target, we know, but these things are hard to time.
 
-In the meantime, we could use your encouragement. This is a difficult project that cannot succeed without people demonstrating they want an alternative to Silicon Valley megacorp media services. So [join the beta](https://lbry.io/get), [share our blog posts](https://lbry.io/news), and [join our subreddit `/r/lbry`](https://www.reddit.com/r/lbry). Your excitement is like Red Bull to our weary coders!
+In the meantime, we could use your encouragement. This is a difficult project that cannot succeed without people demonstrating they want an alternative to Silicon Valley megacorp media services. So [join the beta](/get), [share our blog posts](/news), and [join our subreddit `/r/lbry`](https://www.reddit.com/r/lbry). Your excitement is like Red Bull to our weary coders!
 
 <a name="whycare"></a>
 **Why should I care about LBRY if I can't even use it yet?**
@@ -176,10 +176,10 @@ In the meantime, we could use your encouragement. This is a difficult project th
 
 A lot of people won't care about LBRY until it can deliver them immediate benefits. That's fair, and we understand.
 
-The advantage of getting involved right now is the same as following a local band that you'd like to see that make it big. You have the opportunity to have very direct contact with our dev team. You can make suggestions and shape the course of LBRY. You can [earn bounties](https://lbry.io/bounty) for helping to build and promote LBRY. You can connect with our amazing community of people, like [Javier from Venezuela who says LBRY gave him new hope for life](https://lbry.io/news/day-in-shoes-venezuelan). You can [post your content to the network](https://lbry.io/publish) before it is mainstream and get attention and appreciation from our early adopters – not to mention a possible prize of $1000 in LBC.
+The advantage of getting involved right now is the same as following a local band that you'd like to see that make it big. You have the opportunity to have very direct contact with our dev team. You can make suggestions and shape the course of LBRY. You can [earn bounties](/bounty) for helping to build and promote LBRY. You can connect with our amazing community of people, like [Javier from Venezuela who says LBRY gave him new hope for life](/news/day-in-shoes-venezuelan). You can [post your content to the network](/publish) before it is mainstream and get attention and appreciation from our early adopters – not to mention a possible prize of $1000 in LBC.
 
 Or get involved because it's rare to get an opportunity to be part of a project that could reshape the fabric of the internet and creative media for years to come.
 
 *Did this FAQ address your concerns? Still think we're full of it? Sound off at [`/r/lbry`](https://www.reddit.com/r/lbry). Thank you for taking the time to learn about LBRY!*
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Just can't wait? If you're a creator, skip our waiting list line for a chance to earn $1,000 in LBRY Credits at the same time. [Learn more here](https://lbry.io/publish).
+**Not on LBRY yet?** [Get an invite here](/get). Just can't wait? If you're a creator, skip our waiting list line for a chance to earn $1,000 in LBRY Credits at the same time. [Learn more here](/publish).

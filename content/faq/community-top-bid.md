@@ -14,7 +14,7 @@ Anyone can share their content with the rest of the LBRY community by issuing a 
 
 Note that when claiming one of these URLs, no LBC is ever lost or destroyed (absent a very small transaction fee).
 
-For more details on how naming works, please see: [Naming](https://lbry.io/faq/naming)
+For more details on how naming works, please see: [Naming](/faq/naming)
 
 ### How do I publish to the Community Top Bids area?
 

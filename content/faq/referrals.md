@@ -25,7 +25,7 @@ After a user clicks, installs and registers their email with LBRY, it may take u
 
 A claimable referral has the same definition as a Rewards eligible or Verified LBRY user. This means the referred user must have logged into the LBRY app and verified their account.
 
-LBRY users who abuse either the Referral or Rewards system will not be eligible for referral redemption. If you have specific questions about individual referrals which are not claimable, please reach out to the [helpdesk](mailto:help@lbry.io) with details.
+LBRY users who abuse either the Referral or Rewards system will not be eligible for referral redemption. If you have specific questions about individual referrals which are not claimable, please reach out to the [helpdesk](mailto:help@lbry.com) with details.
 
 ### What is the difference between Accepted and Claimable?
 
@@ -33,7 +33,7 @@ Accepted means the user has signed into LBRY. Claimable means they have verified
 
 ### Is there a limit to the credits I can earn?
 
-If you expect to refer more than 50-100 people, please discuss it with us on [Discord chat](http://chat.lbry.io) or email [us](mailto:josh@lbry.io).
+If you expect to refer more than 50-100 people, please discuss it with us on [Discord chat](http://chat.lbry.com) or email [us](mailto:josh@lbry.com).
 
 Currently, there is a limit of 10 redemptions per account.
 
@@ -41,4 +41,4 @@ Currently, there is a limit of 10 redemptions per account.
 
 If you want to waste your time to receive no reward, be our guest. We will be monitoring the system closely and will be going to significant lengths to only allow legitimate users to join.
 
-Rather than spending the time attempting to cheat and failing, we suggest you do productive work to earn LBRY credits. Join our [Discord chat](http://chat.lbry.io) and message or email [Tom](mailto:tom@lbry.io) (@jiggytom) or [Julie](mailto:julie@lbry.io) (@jsigwart) for opportunities.
+Rather than spending the time attempting to cheat and failing, we suggest you do productive work to earn LBRY credits. Join our [Discord chat](http://chat.lbry.com) and message or email [Tom](mailto:tom@lbry.com) (@jiggytom) or [Julie](mailto:julie@lbry.com) (@jsigwart) for opportunities.

@@ -10,7 +10,7 @@ Before talking about how names (URLs) in LBRY work, it's important to understand
 
 Names exist so that we can map a human readable and understandable word or term to a more difficult to remember number or ID. In the traditional DNS (domain name system), names are mapped to a numerical IP address. In LBRY, names are mapped to a unique, permanent ID representing a piece of digital content and/or a publisher identity.
 
-Designing a naming system that works well and fairly assigns names is quite hard! Consider the domain system you are likely using to access this document. Notice that you are reading this page on lbry.io, rather than lbry.com. Is it because lbry.com is providing some unique service? No! It is because a squatter was in possession of it, simply looking to auction the domain name to the highest bidder in demand. We had to negotiate for months (and pay lots of $$$) to get in possesion of the lbry.com domain and we don't want LBRY users to go through a similar experience...we'd rather leave it up to incentives and fixed protocol rules.  
+Designing a naming system that works well and fairly assigns names is quite hard! Consider the domain system you are likely using to access this document. Notice that you are reading this page on lbry.com, rather than lbry.com. Is it because lbry.com is providing some unique service? No! It is because a squatter was in possession of it, simply looking to auction the domain name to the highest bidder in demand. We had to negotiate for months (and pay lots of $$$) to get in possesion of the lbry.com domain and we don't want LBRY users to go through a similar experience...we'd rather leave it up to incentives and fixed protocol rules.  
 
 The traditional system has several other flaws. It is centralized and a mechanism of censorship, as holders do not have true ownership of their domain, only the top-level provider. Top-level domains (like .io) are also arbitrary and largely illogical (if designing the domain name system again, would we really want to add an arbitrary ".com" to the most prestigious URL for a given keyword? does LBRY have anything to do with the *I*ndian *O*cean?). Finally, in addition to incentivizing bad behavior, the flat-fee structure of domains prevents the good behavior from those who are priced out.
 
@@ -54,7 +54,7 @@ LBRY supports several types of URL resolution:
 
 4. **Names are more like search terms.** When a user searches the LBRY network, or a recommendation engine suggests content, all valid claims are considered. Not having the community URL for your content does not mean no one will see it. Many different pieces of content under the same name can be displayed when users look for content on the network.
 
-For more details on claims, please see https://lbry.io/faq/claimtrie-implementation
+For more details on claims, please see /faq/claimtrie-implementation
 
 ### Experimentation
 

@@ -1,7 +1,7 @@
 ---
 name: Jimmy Kiselak
 role: Founder, Core Developer
-email: jimmy@lbry.io
+email: jimmy@lbry.com
 ---
 
 Jimmy is the second comp science/physics graduate from Rensselaer. After, he found himself mired in government bureaucracy, spending too much time to get too little done.

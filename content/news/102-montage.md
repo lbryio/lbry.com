@@ -9,7 +9,7 @@ itshappening.jpg
 
 At least something's happening. And that something is a surge of new channels joining LBRY as they flee the clutches of YouTube.
 
-We made our own statue of liberty. She's planted firmly at https://lbry.io/youtube, and she welcomes all comers to the promised land of LBRY. Automatically. Without lifting a right trigger finger--or in most cases some WASD + left click.
+We made our own statue of liberty. She's planted firmly at /youtube, and she welcomes all comers to the promised land of LBRY. Automatically. Without lifting a right trigger finger--or in most cases some WASD + left click.
 
 ![Montage of Gamers](/img/news/montage-inline.png)
 
@@ -24,4 +24,4 @@ What does this seemingly gibberish string of words have to do with "Gaming?" The
 - Smite
 - Roblox
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Have a stream feed you want to add to LBRY? Email [reilly@lbry.io](mailto:reilly@lbry.io) to rage quit YouTube in style.
+**Not on LBRY yet?** [Get an invite here](/get). Have a stream feed you want to add to LBRY? Email [reilly@lbry.com](mailto:reilly@lbry.com) to rage quit YouTube in style.

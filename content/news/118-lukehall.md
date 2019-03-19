@@ -20,4 +20,4 @@ Please do yourselves the honor, and get your indie electronica on at:
 <a href='lbry://@iamlukehall'>@iamlukehall</a>
 <a href='lbry://pieceofmind-mp3bundle'>pieceofmind-mp3bundle</a>
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Can you make sick beats? Email [reilly@lbry.io](mailto:reilly@lbry.io) because he's still listening to the same things he did at university eight years ago. Or sync your channel at: https://lbry.io/youtube
+**Not on LBRY yet?** [Get an invite here](/get). Can you make sick beats? Email [reilly@lbry.com](mailto:reilly@lbry.com) because he's still listening to the same things he did at university eight years ago. Or sync your channel at: /youtube

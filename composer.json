@@ -1,5 +1,5 @@
 {
-  "name": "lbry/lbry.io",
+  "name": "lbry/lbry.com",
   "require": {
     "php": ">=7.0",
     "ext-curl": "*",

@@ -5,7 +5,7 @@ category: getstarted
 
 LBRY allows you to tip and support your favorite creators.
 
-Tips can be sent via the LBRY app or via the protocol's [`wallet_send`](https://lbry.io/api#wallet_send) command (with an associated claim id). These credits are automatically stored as associated with the content owners' claim, which helps the claim perform better in search results and be the winning [vanity name claims](https://lbry.io/faq/naming).
+Tips can be sent via the LBRY app or via the protocol's [`wallet_send`](/api#wallet_send) command (with an associated claim id). These credits are automatically stored as associated with the content owners' claim, which helps the claim perform better in search results and be the winning [vanity name claims](/faq/naming).
 
 ### How do I send a tip?
 

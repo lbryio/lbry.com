@@ -25,6 +25,6 @@ Additionally, since [spee.ch](http://spee.ch) is entirely open-source, anyone ca
 
 So remember kids: stay safe this GIF season. Use [spee.ch](http://spee.ch).
 
-Interested in earning some LBC for using spee.ch? Check out [this sweet announcement](https://lbry.io/news/memesafe).
+Interested in earning some LBC for using spee.ch? Check out [this sweet announcement](/news/memesafe).
 
 And don't forget, any content you publish via the LBRY app with a price of zero is available via [spee.ch](http://spee.ch).

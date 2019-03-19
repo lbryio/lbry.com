@@ -1,6 +1,6 @@
 ---
 category: design
-title: Nice 404 Page for lbry.io
+title: Nice 404 Page for lbry.com
 award: 250
 status: complete
 date: '2017-09-07'

@@ -24,7 +24,7 @@ Additionally, we're using this month to:
 
 A full schedule of events is below. As videos get published, this post will be updated with links.
 
-However, you don't need to wait! Our [contributor guide](https://lbry.tech/contribute) and [lbry.tech](https://lbry.tech) are ready for you to get started today. You can also [join us on Discord](https://chat.lbry.io) or [our forum](https://discourse.lbry.io) to interact with other developers and ask questions.
+However, you don't need to wait! Our [contributor guide](https://lbry.tech/contribute) and [lbry.tech](https://lbry.tech) are ready for you to get started today. You can also [join us on Discord](https://chat.lbry.com) or [our forum](https://discourse.lbry.com) to interact with other developers and ask questions.
 
 ### The Rewards
 
@@ -81,7 +81,7 @@ Developing the LBRY Blockchain
 
 Brannon King - LBRY Blockchain Team
 
-If you haven't yet downloaded the [LBRY app](https://lbry.io/get) and [LBRY for Android](https://play.google.com/store/apps/details?id=io.lbry.browser&ah=IM6eaiKc3weXB9nBHq2zxUrx8F8), what are you waiting for? Get in touch if you have any questions - we're look forward to spending some time with our developer community this month!
+If you haven't yet downloaded the [LBRY app](/get) and [LBRY for Android](https://play.google.com/store/apps/details?id=io.lbry.browser&ah=IM6eaiKc3weXB9nBHq2zxUrx8F8), what are you waiting for? Get in touch if you have any questions - we're look forward to spending some time with our developer community this month!
 
 ### Can I start now?
 

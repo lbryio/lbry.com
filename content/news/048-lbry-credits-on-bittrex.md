@@ -24,6 +24,6 @@ From Bittrex.com:
 
 **Join the Fun!**
 
-Are you ready to start using LBRY and earning credits? [Click here](https://lbry.io/get) to sign up for our beta waitlist. We will be sending out batches of invite codes over the next few weeks as we carefully scale up the network. Beta users get 200 credits just for trying out the app!
+Are you ready to start using LBRY and earning credits? [Click here](/get) to sign up for our beta waitlist. We will be sending out batches of invite codes over the next few weeks as we carefully scale up the network. Beta users get 200 credits just for trying out the app!
 
-If you're interested in publishing original content to the network, [email LBRY Curator Reilly Smith](mailto:reilly@lbry.io), and you may be able to jump the queue!
+If you're interested in publishing original content to the network, [email LBRY Curator Reilly Smith](mailto:reilly@lbry.com), and you may be able to jump the queue!

@@ -6,16 +6,16 @@ cover: 'lbryopoly-min.jpg'
 category: community-update
 ---
 
-Welcome to our LBRY Development and Community update! In this post we'll show you what we've been up to and review our progress for the month of May. This month we made progress on our desktop app redesign and Android app alpha, LBRY Protocol improvements (work in progress), LBRY tech resource website, and several community initiatives. Scroll down to learn about new rewards coming to the app as well as a couple contests for you to earn up to $300 USD in LBRY credits. To read all of our updates, please visit [our Development and Community Update archive](https://lbry.io/news/category/community-update).
+Welcome to our LBRY Development and Community update! In this post we'll show you what we've been up to and review our progress for the month of May. This month we made progress on our desktop app redesign and Android app alpha, LBRY Protocol improvements (work in progress), LBRY tech resource website, and several community initiatives. Scroll down to learn about new rewards coming to the app as well as a couple contests for you to earn up to $300 USD in LBRY credits. To read all of our updates, please visit [our Development and Community Update archive](/news/category/community-update).
 
-If you want to see what we have planned for LBRY, check out our [roadmap](https://lbry.io/roadmap).
+If you want to see what we have planned for LBRY, check out our [roadmap](/roadmap).
 
 To skip the tech stuff, see what's happened and what's next in the LBRY community, click the link below. Otherwise, read on!
 
 [Skip to **Community Happenings**](#com-updates)
 
 # Development Updates {#dev-updates}
-All of our code is open source and available on [GitHub](https://github.com/lbryio). Are you a developer and want to find out more? Check out our [general contributing guide](https://lbry.io/faq/contributing) and our LBRY App specific contributing [document](https://github.com/lbryio/lbry-desktop/blob/master/CONTRIBUTING.md). Please be patient with us while we improve our technical documentation. In June, we'll be releasing [LBRY.tech](#lbry-tech), a technical reference / guide website which will be developer and contributor focused to drive more apps and services on top of LBRY.
+All of our code is open source and available on [GitHub](https://github.com/lbryio). Are you a developer and want to find out more? Check out our [general contributing guide](/faq/contributing) and our LBRY App specific contributing [document](https://github.com/lbryio/lbry-desktop/blob/master/CONTRIBUTING.md). Please be patient with us while we improve our technical documentation. In June, we'll be releasing [LBRY.tech](#lbry-tech), a technical reference / guide website which will be developer and contributor focused to drive more apps and services on top of LBRY.
 
 ### App and Protocol Summary
 The app team released a few patches on the pre-redesign version of the desktop app, you can find all the release notes on our [GitHub release page](https://github.com/lbryio/lbry-desktop/releases). The fixes/features in these patches allow us to rename the lbry-desktop repo to lbry-desktop, send emails with a link to open LBRY to various pages like the Rewards section of the app, prevent errors when opening invalid URLs, give us the ability to roll out new rewards like [Welcome Back to LBRY](#wb-reward), and provide a long-awaited daemon upgrade to [0.19.3](https://github.com/lbryio/lbry/releases/tag/v0.19.3) which enables faster blockchain sync. On the app redesign side of the fence, we've progressed to a 2nd round of community testing and are close to a final release, [read more below](#redesign-updates).
@@ -30,7 +30,7 @@ Our goal is to release the app redesign by the end of June, barring the discover
 ![redesign](https://spee.ch/7/redesign-update-May-2018.jpeg)
 
 ### Welcome Back Reward {#wb-reward}
-If you are eligible for [LBRY Rewards](https://lbry.io/faq/rewards), you may have noticed a new reward pop up, as well as an email notification! We've deployed a new, time sensitive reward that must be claimed within 48 hours for existing LBRY app users. New users who sign up for LBRY will also be eligible for this reward automatically (to be turned on ASAP!) if they revisit the LBRY app a day after claiming their first reward.
+If you are eligible for [LBRY Rewards](/faq/rewards), you may have noticed a new reward pop up, as well as an email notification! We've deployed a new, time sensitive reward that must be claimed within 48 hours for existing LBRY app users. New users who sign up for LBRY will also be eligible for this reward automatically (to be turned on ASAP!) if they revisit the LBRY app a day after claiming their first reward.
 
 ![welcome back](https://spee.ch/7/welcome-back2.jpeg)
 
@@ -55,7 +55,7 @@ Travis has also added a View on Web button which is shown on channel pages as we
 ![view on web](https://spee.ch/0/view-on-web.jpeg)
 
 ### LBRY for Android Update
-LBRY for Android underwent a product review with management recently and a number of [issues were identified](https://github.com/lbryio/lbry-android/issues?q=is%3Aissue+label%3A"product+review"). The latest updates to the alpha include a search function, ability to open other file types like images, html and text and, opening of lbry:// URLS via hyperlinks. Want to give alpha testing a shot? [Sign up here](https://lbry.io/android-alpha)!
+LBRY for Android underwent a product review with management recently and a number of [issues were identified](https://github.com/lbryio/lbry-android/issues?q=is%3Aissue+label%3A"product+review"). The latest updates to the alpha include a search function, ability to open other file types like images, html and text and, opening of lbry:// URLS via hyperlinks. Want to give alpha testing a shot? [Sign up here](/android-alpha)!
 
 ![Android Search](https://spee.ch/0/Lbry-android-search.jpeg)
 
@@ -73,17 +73,17 @@ LBRY's Daemon is our silent, unsung hero - and we're taking big steps in refacto
 Down the road, this will offer many benefits such as running only the components which services require and not others. One example would be an implementation that needs to only act as a seed server - you can just run the lbrynet-daemon with the DHT component and turn off others. By employing this technique, you could run multiple instances by using less system resources overall. Another example might be a service that only needs the wallet to run - one would enable that functionality and turn off data sharing features.
 
 ### Chainquery SQL Databasing on the Blockchain
-Chainquery is here! The need for Chainquery originally came along when we noticed we relied on the same type of blockchain data across many projects/services at LBRY and thus the project was born! While this new feature will be invisible to most users, it gives people developing apps on the LBRY protocol a powerful new set of tools to work with our blockchain.  If you want to dive into the details, take a look at [our blog post](https://lbry.io/news/what-is-chainquery).
+Chainquery is here! The need for Chainquery originally came along when we noticed we relied on the same type of blockchain data across many projects/services at LBRY and thus the project was born! While this new feature will be invisible to most users, it gives people developing apps on the LBRY protocol a powerful new set of tools to work with our blockchain.  If you want to dive into the details, take a look at [our blog post](/news/what-is-chainquery).
 
 At LBRY, we are in the process of integrating Chainquery into our internal services. The first service to integrate with Chainquery was our [Lighthouse search](https://github.com/lbryio/lighthouse) which occurred a few weeks ago. Previous to this,  Lighthouse relied on its own database, which had some flaws when keeping up with claim updates. By relying on Chainquery for current blockchain data, Lighthouse now has the most up to date claim and channel information when presenting search results. The next couple projects to integrate Chainquery will most likely be spee.ch and our internal API service which provides authentication, analytics and rewards.
 
 ![chainquery](https://spee.ch/@lbry/topchannels.png)
 
 ### Blockchain - Hard fork Update
-LBRY will undergo a hard fork on 7/9/18. There won't be any noticeable changes for most users, but miners and exchanges will need to make sure they are running [version 0.12.2.0 of the LBRYcrd full blockchain wallet ](https://github.com/lbryio/lbrycrd/releases/tag/v0.12.2.0) to ensure they are on the most up to date chain. Read [this blog post](https://lbry.io/news/hf1807) for the whole story.
+LBRY will undergo a hard fork on 7/9/18. There won't be any noticeable changes for most users, but miners and exchanges will need to make sure they are running [version 0.12.2.0 of the LBRYcrd full blockchain wallet ](https://github.com/lbryio/lbrycrd/releases/tag/v0.12.2.0) to ensure they are on the most up to date chain. Read [this blog post](/news/hf1807) for the whole story.
 
 # Community Happenings {#com-updates}
-If you aren't part of our Discord community yet, [join us](https://chat.lbry.io) anytime and say hello! Our community allows LBRYians to interact with the team directly and for us to engage users in order to grow the LBRY platform. Also follow us on [Twitter](https://twitter.com/lbryio), [Facebook](https://facebook.com/lbryio), and also on [Reddit.](https://www.reddit.com/r/lbry)
+If you aren't part of our Discord community yet, [join us](https://chat.lbry.com) anytime and say hello! Our community allows LBRYians to interact with the team directly and for us to engage users in order to grow the LBRY platform. Also follow us on [Twitter](https://twitter.com/lbryio), [Facebook](https://facebook.com/lbryio), and also on [Reddit.](https://www.reddit.com/r/lbry)
 
 ### Help Create the Stack Exchange Community for LBRY
 Please check out the newly proposed LBRY Protocol site on Stack Exchange, and help get it to the next step. Example questions and up votes are needed!
@@ -104,7 +104,7 @@ We're excited to announce our first grant from The LBRY Fund is going to the LBR
 Going through the process with LBRY-C has made us realize the need for a structured method for other individuals and organizations to request community and institutional funds. We are creating a program to provide a streamlined process in the near future.
 
 ### LBRY is hiring! New Jobs Posted
-[Come join team Content Freedom!](https://lbry.io/join-us) We have the following positions open: Blockchain Engineer, Lead Application Engineer, Project Manager, Protocol Engineer, and API Engineer. We'd love for you to join us, or if you have a friend you think would be interested, we pay a $5,000 bounty if we hire them.
+[Come join team Content Freedom!](/join-us) We have the following positions open: Blockchain Engineer, Lead Application Engineer, Project Manager, Protocol Engineer, and API Engineer. We'd love for you to join us, or if you have a friend you think would be interested, we pay a $5,000 bounty if we hire them.
 
 ### Roadmap Check-in
 Since our last update, we've completed the spee.ch Multisite roadmap task and the others have not changed at the moment. By next month's update, we hope to complete the UI Redesign, sharing of free content on the web (via the [View on Web button](#view-web), the LBRY tech resource website, and the release of the white paper. A good amount of progress has been made on YouTube Sync automation but we will keep this pending until we can close the entire feedback loop of the process.
@@ -115,31 +115,31 @@ The spee.ch codebase has been released so you can create your own fully customiz
 LBRY provided a live streamed technical event to work with people interested in installing Spee.ch multisite, and even provided testing servers! The event was well attended, and by the end of the session, participants had launched their own spee.ch server and learned to customize the interface.
 
 ### LBRY Merchandise Shop
-New patriotic and free speech inspired designs have been added to [our shop](https://shop.lbry.io), in time for Independence day.
+New patriotic and free speech inspired designs have been added to [our shop](https://shop.lbry.com), in time for Independence day.
 
 ![Satoshi Jefferson t-shirt](https://spee.ch/c/jefferson.png)
 
 **LBRY T-shirt design contest**
-Calling graphic designers! We are hosting a t-shirt design contest for the LBRY Merchandise Shop. Use your imagination to design LBRY logowear or another creative concept illustrating your vision of LBRY. First and second place winners will respectively get $100 and $50 in LBC plus $25 in credit to use in the LBRY Shop! [You can find the details here.](https://lbry.io/shirt-contest)
+Calling graphic designers! We are hosting a t-shirt design contest for the LBRY Merchandise Shop. Use your imagination to design LBRY logowear or another creative concept illustrating your vision of LBRY. First and second place winners will respectively get $100 and $50 in LBC plus $25 in credit to use in the LBRY Shop! [You can find the details here.](/shirt-contest)
 
 ### YouTube Sync Updates {#youtube-updates}
-Since we initiated our new YouTube Sync program, we've mirrored more than 500,000 videos to LBRY's decentralized content network! If your favorite creator hasn't joined the party yet, send them [this link](https://lbry.io/youtube) and tell them to get on it!
+Since we initiated our new YouTube Sync program, we've mirrored more than 500,000 videos to LBRY's decentralized content network! If your favorite creator hasn't joined the party yet, send them [this link](/youtube) and tell them to get on it!
 
 Our developers are hard at work fully automating this process. We are able to sync new channels as they come in and provide updates to YouTubers via email when their videos are queued and finally synced. Although we still run through the occasional hiccup, the process is almost flawless!
 
 We do still have a backlog to sync through, so those YouTubers will be getting their completion emails as soon as we are caught up. The final step of this process will be handing over control of the channel and claims to the YouTubers. We are still working out the details on how to complete this as there are two distinct options - handing over control of the wallet or sending the claims/channels to their wallet.
 
 ### 3D Printing Community on LBRY
-We are now accepting design submissions for our [Chess Set Design contest](https://lbry.io/3d-contest)! Winners will receive $150 in LBC; $100 for Grand Prize, $50 Runner-up.
+We are now accepting design submissions for our [Chess Set Design contest](/3d-contest)! Winners will receive $150 in LBC; $100 for Grand Prize, $50 Runner-up.
 
-Earn $5 in LBC just for uploading your chess set to the LBRY network. Email the lbry:// address to [james@lbry.io](mailto:james@lbry.io) to enter and claim your reward! Winners will be decided by Tom, Julie, and James. We're looking for a set designed with originality and/or craftsmanship!
+Earn $5 in LBC just for uploading your chess set to the LBRY network. Email the lbry:// address to [james@lbry.com](mailto:james@lbry.com) to enter and claim your reward! Winners will be decided by Tom, Julie, and James. We're looking for a set designed with originality and/or craftsmanship!
 
 You can also get paid to print out our featured Cryptocurrency Chess Set and/or Genius Chess Set by simply posting a picture of it to social media and tagging LBRY! Details at the bottom of the contest page.
 
-Want to keep in touch regarding future 3D printing updates, [subscribe here](https://lbry.io/3d-printing)!
+Want to keep in touch regarding future 3D printing updates, [subscribe here](/3d-printing)!
 
 ### LBRY.tech Update {#lbry-tech}
-The LBRY tech resource website underwent a huge facelift in terms of design as well as content. You can follow along with progress on our [GitHub repository](https://github.com/lbryio/lbry.tech). Next steps before launch include finishing up the Build section, determining a single API documentation resource across our projects and moving technical documentation from lbry.io and other GitHub locations.
+The LBRY tech resource website underwent a huge facelift in terms of design as well as content. You can follow along with progress on our [GitHub repository](https://github.com/lbryio/lbry.tech). Next steps before launch include finishing up the Build section, determining a single API documentation resource across our projects and moving technical documentation from lbry.com and other GitHub locations.
 
 ![lbrytech preview1](https://spee.ch/5/lbrytech-preview1.jpeg)
 
@@ -147,4 +147,4 @@ The LBRY tech resource website underwent a huge facelift in terms of design as w
 
 [Back to **Development Updates**](#dev-updates)
 
-Thanks for supporting LBRY - stay tuned for more news and updates! And if you haven't downloaded the [LBRY app](https://lbry.io/get?auto=1) yet, what are you waiting for?
+Thanks for supporting LBRY - stay tuned for more news and updates! And if you haven't downloaded the [LBRY app](/get?auto=1) yet, what are you waiting for?

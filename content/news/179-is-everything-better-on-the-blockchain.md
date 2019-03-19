@@ -146,11 +146,11 @@ If you're looking to speculate on projects, don't fall for projects that aren't 
 
 ## Outro: Is content really better on the blockchain?
 
-We're so anti-hype at LBRY that it's almost a fault. We don't even use the word "blockchain" or "cryptocurrency" on our homepage, [lbry.io](https://lbry.io).
+We're so anti-hype at LBRY that it's almost a fault. We don't even use the word "blockchain" or "cryptocurrency" on our homepage, [lbry.com](https://lbry.com).
 
 This is because we see the value of LBRY transcending the hype around blockchain. Our mantra isn't "HODL" (Hold), but "BUIDL" (Build).
 
-The problems that we're solving are explained in this [essay](https://lbry.io/what).
+The problems that we're solving are explained in this [essay](/what).
 
 "LBRY is the first digital marketplace to be controlled by the market's participants rather than a corporation or other 3rd-party. It is the most open, fair, and efficient marketplace for digital goods ever created, with an incentive design encouraging it to become the most complete."
 

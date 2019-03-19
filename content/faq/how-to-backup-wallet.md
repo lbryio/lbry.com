@@ -9,7 +9,7 @@ The LBRY application relies on blockchain technology and the LBRY Credits (LBC) 
 
 ## How do I find my wallet in the LBRY Desktop App?
 
-The easiest way to find the location of your LBRY wallet is via the [LBRY app](https://lbry.io/get).  Open LBRY and on the left side, you should see a sidebar menu called "Wallet".
+The easiest way to find the location of your LBRY wallet is via the [LBRY app](/get).  Open LBRY and on the left side, you should see a sidebar menu called "Wallet".
 ![wallet](https://spee.ch/@clement:e/lbcwallet2.png)
 
 ## How do I backup my LBRY Desktop App wallet?
@@ -25,7 +25,7 @@ We will continue to make this process easier for users in the future through the
 
 ## How do I find my wallet if I don't have LBRY open?
 
-The LBRY wallet can be found manually by navigating to the [lbryum directory](https://lbry.io/faq/lbry-directories). The `default_wallet` file is inside the wallet's folder.
+The LBRY wallet can be found manually by navigating to the [lbryum directory](/faq/lbry-directories). The `default_wallet` file is inside the wallet's folder.
 
 ## How do I find my wallet in the LBRY Android app?
 
@@ -52,4 +52,4 @@ As of LBRY SDK 0.30 (December 2018), you can copy the default_wallet file to mul
 
 ## I need help with backup or recovery, who can I reach out to?
 
-We are always here to help - check out our [help page](https://lbry.io/faq/support) on how to reach us.
+We are always here to help - check out our [help page](/faq/support) on how to reach us.

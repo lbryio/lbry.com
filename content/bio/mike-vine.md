@@ -1,7 +1,7 @@
 ---
 name: Mike Vine
 role: .
-email: hello@lbry.io
+email: hello@lbry.com
 ---
 
 Mike was one of the early team members of LBRY.

@@ -12,7 +12,7 @@ Content publishers can now use a new feature called Reflector to upload files to
 
 ![UI Screenshot](/img/news/lbryuiupgrade.png)
 
-LBRY [publishing tools came online](https://lbry.io/news/publish-tools-live-earn-1000-dollars) in the first week of August, but we found a significant number of people still had trouble publishing. Reflector fixes these problems with a more robust form of publishing.
+LBRY [publishing tools came online](/news/publish-tools-live-earn-1000-dollars) in the first week of August, but we found a significant number of people still had trouble publishing. Reflector fixes these problems with a more robust form of publishing.
 
 <p style="text-align: center;">
   <strong>Reflector Publishing Tools</strong>
@@ -24,4 +24,4 @@ Basically, Reflector ensures content is copied by other hosts before the data is
 
 This feature is intended as a workaround for network and firewall issues.
 
-If you have further questions, [please join LBRY's public chat](http://chat.lbry.io).
+If you have further questions, [please join LBRY's public chat](http://chat.lbry.com).

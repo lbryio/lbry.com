@@ -5,7 +5,7 @@
 
     <?php echo View::render('mail/_subscribeForm', [
       'tag' => 'lbryorg',
-      'forceUrl' => 'https://lbry.io',
+      'forceUrl' => 'https://lbry.com',
       'submitLabel' => 'Sign Me Up',
     ]) ?>
 

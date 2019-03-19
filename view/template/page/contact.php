@@ -14,7 +14,7 @@
       <p>We're available on a number of social networks</p>
 
       <ul>
-        <li><a href="https://chat.lbry.io" title="LBRY's Discord channel">Discord</a></li>
+        <li><a href="https://chat.lbry.com" title="LBRY's Discord channel">Discord</a></li>
         <li><a href="https://twitter.com/lbryio" title="LBRY's Twitter page">Twitter</a></li>
         <li><a href="https://reddit.com/r/lbry" title="LBRY's subreddit">Reddit</a></li>
         <li><a href="https://facebook.com/lbryio" title="LBRY's Facebook page">Facebook</a></li>

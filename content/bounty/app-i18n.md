@@ -15,4 +15,4 @@ To complete this bounty, [lbry-desktop](https://github.com/lbryio/lbry-desktop) 
 - Load and perform translation based on language settings
 - Existing component text and messaging must be wrapped in translation calls
 
-It is probably a good idea to consult with our development team on [Discord chat](https://chat.lbry.io) or via [email](mailto:hello@lbry.io) before completing this bounty in its entirety.
+It is probably a good idea to consult with our development team on [Discord chat](https://chat.lbry.com) or via [email](mailto:hello@lbry.com) before completing this bounty in its entirety.

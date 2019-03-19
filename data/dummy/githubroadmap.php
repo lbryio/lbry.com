@@ -609,7 +609,7 @@ return array (
 <ol>
 <li>&lt; 5% failure rate in Q1 2019, &lt; 2% failure rate in Q2, &lt; 0.5% failure rate Q3+.</li>
 <li>&lt; 2s average start time for broadband, well-networked countries, &lt;4s average start time globally.</li>
-<li>&lt; 3s average end-to-end start time from clicking an open.lbry.io link to stream start regardless of platform and state of application.</li>
+<li>&lt; 3s average end-to-end start time from clicking an open.lbry.com link to stream start regardless of platform and state of application.</li>
 <li>&lt; 50ms average resolution time (to metadata) for URLs.</li>
 </ol>',
         ),

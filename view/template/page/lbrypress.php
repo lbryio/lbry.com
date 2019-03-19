@@ -55,7 +55,7 @@
   <section>
     <div class="inner-wrap">
       <h3>More Questions?</h3>
-      <p>We're here to help. Say hi at <a href="mailto:hello@lbry.io" class="link-primary">hello@lbry.io</a> - and thanks for keeping journalism alive!</p>
+      <p>We're here to help. Say hi at <a href="mailto:hello@lbry.com" class="link-primary">hello@lbry.com</a> - and thanks for keeping journalism alive!</p>
     </div>
   </section>
 </main>

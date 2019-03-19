@@ -9,7 +9,7 @@ cover: 'ASICS.jpg'
 
 Designing ASIC resistant proof-of-work blockchains, and particularly hard-forking to achieve such ASIC-resistance is a contentious new issue in the cryptocurrency space. ASIC chips are custom manufactured computing devices designed specifically for a particular blockchain or hashing algorithm. As such, they are far more efficient at mining than commodity hardware such as CPUs or GPUs.
 
-Forking to prevent such resistance, referred to as an AAHF (Anti-ASIC Hard Fork) for the rest of this article, changes the mining algorithm on a blockchain so that ASICs tailored to the old algorithm can no longer mine effectively. AAHFs aren't just theory. Recently Monero[ executed one](https://cointelegraph.com/news/monero-hard-fork-appears-successful-as-devs-shun-bitmains-asic-miners) and[ Zcash](https://forum.z.cash/t/let-s-talk-about-asic-mining/27353/459) is pondering whether to do the same. At [LBRY](https://lbry.io), we've received requests to hard fork due to the release of a[ Baikal miner](https://www.baikalminer.com/product10.php) appearing on the market (the miner is likely a FPGA machine, not an ASIC, however).
+Forking to prevent such resistance, referred to as an AAHF (Anti-ASIC Hard Fork) for the rest of this article, changes the mining algorithm on a blockchain so that ASICs tailored to the old algorithm can no longer mine effectively. AAHFs aren't just theory. Recently Monero[ executed one](https://cointelegraph.com/news/monero-hard-fork-appears-successful-as-devs-shun-bitmains-asic-miners) and[ Zcash](https://forum.z.cash/t/let-s-talk-about-asic-mining/27353/459) is pondering whether to do the same. At [LBRY](https://lbry.com), we've received requests to hard fork due to the release of a[ Baikal miner](https://www.baikalminer.com/product10.php) appearing on the market (the miner is likely a FPGA machine, not an ASIC, however).
 
 This article is a case study on the recent Monero AAHF. The Monero hard fork that occurred on April 6th was interesting in that it:
 
@@ -25,7 +25,7 @@ First, let's look at Monero's hash rate before and after the hard fork. In the b
 
 *Note that according to GPU miners that I've talked to, the pre-fork and post-fork Monero POW algorithm is equivalent in computational difficulty thus the hash rate before and after the fork should be comparable.*
 
-![Monero hash rates](https://lbry.io/img/monero_hash.png)
+![Monero hash rates](/img/monero_hash.png)
 
 <small style="display: block; text-align: center;">
   Green: Monero hash rate<br/>
@@ -56,7 +56,7 @@ About 1000 users total have downloaded either Monero Original or Monero 0 binari
 
 Other users may not even be aware that the Monero network has hard forked and may be transacting on the old network unaware of what is happening. It is impossible to tell whether the transactions happening on the Monero Original chain are intentional or accidental but the below graph shows that there is still a small amount of transactions occurring on the Monero Original chain (note that the Monero Original chain is traded on hitbtc.com so the transactions below could all be intentional).
 
-![Monero transaction rates](https://lbry.io/img/monero_trans.png)
+![Monero transaction rates](/img/monero_trans.png)
 
 <small style="display: block; text-align: center;">
   Green: number of transactions on Monero<br/>

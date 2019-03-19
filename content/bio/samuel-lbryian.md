@@ -1,7 +1,7 @@
 ---
 name: Samuel Bryan
 role: Pen Name
-email: hello@lbry.io
+email: hello@lbry.com
 twitter: lbryio
 github: lbryio
 ---

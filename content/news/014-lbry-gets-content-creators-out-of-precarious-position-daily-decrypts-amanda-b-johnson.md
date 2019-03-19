@@ -30,4 +30,4 @@ This is what censorship-resistance looks like. As information itself becomes mor
 
 **Amanda B. Johnson** is the host of [The Daily Decrypt](https://www.youtube.com/channel/UCqNCLd2r19wpWWQE6yDLOOQ). She has written on cryptocurrencies for Bitcoin Magazine, CoinTelegraph, Bitcoin.com, and Liberty.me.
 
-*Are you a content creator who is tired of intermediaries standing between you and your audience? [Sign up](https://lbry.io/get) to be reminded when LBRY launches and we'll see you there!*
+*Are you a content creator who is tired of intermediaries standing between you and your audience? [Sign up](/get) to be reminded when LBRY launches and we'll see you there!*
