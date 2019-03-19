@@ -37,6 +37,6 @@ If you are a developer, you will need to complete the verification process befor
 
 As a statement of principle, you are encouraged to associate your project, product, service, domain, or company name with LBRY, so long as you're a credit to the community.
 
-You should not do anything that causes confusion regarding roles. You can describe your company as “Top Shelf Consulting, providers of LBRY development,” but not “The LBRY Development Group.” Registering a domain that could be mistaken for part of LBRY's infrastructure would also be inappropriate.
+You should not do anything that causes confusion regarding roles. You can describe your company as "Top Shelf Consulting, providers of LBRY development," but not "The LBRY Development Group." Registering a domain that could be mistaken for part of LBRY's infrastructure would also be inappropriate.
 
 If you are not sure if your use is within bounds or not, please [come talk with us](https://chat.lbry.io) about it. We know we can only envision some of the innovation that will happen on the LBRY network and would hate to miss a great opportunity for confusion in this area.

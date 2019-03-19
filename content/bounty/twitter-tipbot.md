@@ -6,7 +6,7 @@ status: completed
 date: '2018-02-13'
 ---
 
-This bounty is to create a tipbot that can be used to send/receive LBRY Credits(LBC) on Twitter.  
+This bounty is to create a tipbot that can be used to send/receive LBRY Credits(LBC) on Twitter.
 
 References to other LBRY tipbots:
 [Reddit tipbot](https://github.com/lbryio/lbry-social-tipbot)

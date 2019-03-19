@@ -5,20 +5,20 @@ category: wallet
 
 ## Using lbrynet (the usual way)
 
-To get your current, unused address 
+To get your current, unused address
 
     lbrynet-cli wallet_unused_address
 
-To create a new address 
+To create a new address
 
     lbrynet-cli wallet_new_address
 
 To list all addresses in your wallet
 
     lbrynet-cli wallet_list
-    
-To get your balance 
-    
+
+To get your balance
+
     lbrynet-cli wallet_balance
 
 ## Using lbrycrd (the old way)

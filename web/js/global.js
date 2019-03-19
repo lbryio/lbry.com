@@ -116,6 +116,15 @@ $(document).ready(function() {
   // });
 });
 
+// Automatically open external links in new tabs
+document.querySelectorAll("a[href]").forEach(link => {
+  if (link.href.indexOf(location.hostname) === -1) {
+    link.rel = "noopener noreferrer";
+    link.target = "_blank";
+  }
+});
+
+// Greet visitors from .tech
 document.addEventListener("DOMContentLoaded", () => {
   if (
     document.referrer.includes("http://localhost:8080") ||
@@ -128,7 +137,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <br><br>
           <p>Here by accident? Come back to <a href="${document.referrer}">the techno scene</a>.</p>
 
-          <button id="close-alert">×</button>
+          <button id="close-alert">&times;</button>
         </div>
       </section>
     `;

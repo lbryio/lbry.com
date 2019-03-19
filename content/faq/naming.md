@@ -1,5 +1,5 @@
 ﻿---
-title: How does LBRY naming work? Why don’t you just assign names the same way as internet domains?
+title: How does LBRY naming work? Why don't you just assign names the same way as internet domains?
 category: LBRY 101
 order: 4
 ---
@@ -21,7 +21,7 @@ We wanted a system that:
 - Allows multiple pieces of content to be located at a single keyword while keeping URLs as short and memorable as possible.
 - Prevents squatters from extorting creators.
 
-After meaningful consultation with creators, consumers, economists, computer scientists, and more, we devised LBRY’s naming system.
+After meaningful consultation with creators, consumers, economists, computer scientists, and more, we devised LBRY's naming system.
 
 ### How LBRY Does Naming
 
@@ -46,9 +46,9 @@ LBRY supports several types of URL resolution:
 
 ### Takeaways
 
-1. **Names aren’t bought, only reserved – no credits are lost, only put on deposit.** If you win the auction for a name, your credits are held with that name until you decide to withdraw them (at any time you wish). You aren’t buying the name from anyone, and no one profits off of the transfer of names. It’s just a test of who is willing to deposit the most credits toward a name. The only downside is that you can’t spend the credits on content or withdraw them while they are in reserve.
+1. **Names aren't bought, only reserved – no credits are lost, only put on deposit.** If you win the auction for a name, your credits are held with that name until you decide to withdraw them (at any time you wish). You aren't buying the name from anyone, and no one profits off of the transfer of names. It's just a test of who is willing to deposit the most credits toward a name. The only downside is that you can't spend the credits on content or withdraw them while they are in reserve.
 
-2. **The longer a community name is held, the longer it sticks.** Community-controlled URLs don't change instantly if more credits are designated – especially if you’ve held it for awhile. For every month a name is controlled, 1 day is added to the waiting period, for a maximum of 7 days (after 7 months). 
+2. **The longer a community name is held, the longer it sticks.** Community-controlled URLs don't change instantly if more credits are designated – especially if you've held it for awhile. For every month a name is controlled, 1 day is added to the waiting period, for a maximum of 7 days (after 7 months).
 
 3. **Everyone has a say.** If you claim lbry://bestmovieever and your film lives up to the hype, user tips and purchases are a strong force keeping your content there. If the community feels a URL resolution is incorrect, they can band together to change it anytime. This is a powerful force keeping bad actors at bay that has already proved useful.
 
@@ -58,8 +58,8 @@ For more details on claims, please see https://lbry.io/faq/claimtrie-implementat
 
 ### Experimentation
 
-Whether you're in love with this design or not, you'd likely agree it's unlike anything we've seen before. 
+Whether you're in love with this design or not, you'd likely agree it's unlike anything we've seen before.
 
-The bottom line is that LBRY is dedicated to providing true content freedom. We want to provide the world's best method for creators and consumers to share and monetize digital content without intermediaries. We happen to think this is a superior method to the alternatives, but we're also not dogmatic about it. 
+The bottom line is that LBRY is dedicated to providing true content freedom. We want to provide the world's best method for creators and consumers to share and monetize digital content without intermediaries. We happen to think this is a superior method to the alternatives, but we're also not dogmatic about it.
 
-We’re trying to solve a very hard problem in a novel way, and we're committed to giving this system a chance. 100,000 pieces of content in, it has worked seamlessly. But if we ever saw this system harming rather than helping, we wouldn't hesitate to change it.
+We're trying to solve a very hard problem in a novel way, and we're committed to giving this system a chance. 100,000 pieces of content in, it has worked seamlessly. But if we ever saw this system harming rather than helping, we wouldn't hesitate to change it.

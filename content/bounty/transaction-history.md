@@ -10,7 +10,6 @@ date: '2016-07-01'
 Add a screen showing transaction history on the LBRY Browser [`lbry-web-ui`](https://github.com/lbryio/lbry-web-ui).
 
 The screen must:
-
 - Display past outgoing and incoming transactions
 - Link to the LBRY [block explorer](https://explorer.lbry.io) for transactions
 

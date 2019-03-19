@@ -1,22 +1,27 @@
-@import "global";
-@import "reset";
-@import "grid";
-@import "icons";
-@import "alert";
-@import "notice";
-@import "badge";
-@import "basic";
-@import "form";
-@import "content";
-@import "cover";
-@import "hero";
-@import "header";
-@import "sale";
-@import "code";
-@import "blog";
-@import "bounty";
-@import "roadmap";
-@import "social";
-@import "home";
-@import "slider";
-@import "soon";
+@charset "utf-8";
+
+@import "color/lbry-color";
+
+@import "../components/sass/init/mixins";
+@import "../components/sass/init/variables";
+
+@import "components/alert";
+@import "components/author";
+@import "components/code";
+@import "components/footer";
+@import "components/form";
+@import "components/header";
+@import "components/hero";
+@import "components/icons";
+@import "components/notice";
+@import "components/post";
+@import "components/video";
+
+@import "pages/ancillary";
+@import "pages/download";
+@import "pages/home";
+@import "pages/news";
+@import "pages/roadmap";
+@import "pages/soon";
+
+@import "layout";
