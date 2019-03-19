@@ -35,7 +35,7 @@ We take security seriously. Please contact [security@lbry.com](mailto:security@l
 
 ## Contact
 
-The primary contact for this project is [Jeremy Kauffman](https://github.com/kauffj) (jeremy@lbry.com).
+The primary contact for this project is [Paul Anthony Webb](https://github.com/NetOperatorWibby) (paul+github@lbry.com).
 
 ## Additional Info and Links
 
