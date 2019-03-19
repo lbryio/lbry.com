@@ -18,5 +18,5 @@ fi
 $DIR/hooks/install.sh
 
 $PHPBIN composer.phar install
-$PHPBIN git submodule update --init
+git submodule update --init
 $PHPBIN --server localhost:8000 --docroot "$DIR/web" "$DIR/web/index.php"
