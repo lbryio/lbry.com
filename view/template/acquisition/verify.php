@@ -32,7 +32,7 @@
     <div id="captcha-block">
       <p>Click the captcha to continue...</p>
       <br/>
-      <div class="g-recaptcha" data-sitekey="6LcG_z0UAAAAAKBPDBhiJU_jI9cRNRiJwcUHq95u" data-callback="verifyCallback" data-expired-callback="expiredCallback"></div>
+      <div class="g-recaptcha" data-sitekey="6LePsJgUAAAAAFTuWOKRLnyoNKhm0HA4C3elrFMG" data-callback="verifyCallback" data-expired-callback="expiredCallback"></div>
     </div>
     <div style="  display: none; margin-top: 10px;" id="success">
       <p>Now click the magic link below to verify your identity in app...</p>
