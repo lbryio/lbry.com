@@ -193,19 +193,26 @@
       <a href="#" class="header__toggle" id="menuToggle">Menu</a>
 
       <?php js_start() ?>
+        if (window.innerWidth < 951) {
+          console.log("yep");
+        }
+
         document.getElementById("menuToggle").addEventListener("click", event => {
           event.preventDefault();
 
-          const body = document.querySelector("body");
-          const navigation = document.querySelector("drawer-navigation");
+          if (window.innerWidth < 951) {
+            console.log("yep");
+            const body = document.querySelector("body");
+            const navigation = document.querySelector("drawer-navigation");
 
-          navigation.classList.toggle("active");
+            navigation.classList.toggle("active");
 
-          // Get rid of double scrollbars
-          if (navigation.classList.contains("active"))
-            body.style["overflow-y"] = "hidden";
-          else
-            body.style["overflow-y"] = "auto";
+            // Get rid of double scrollbars
+            if (navigation.classList.contains("active"))
+              body.style["overflow-y"] = "hidden";
+            else
+              body.style["overflow-y"] = "initial";
+          }
         });
       <?php js_end() ?>
 

@@ -246,6 +246,13 @@ drawer-title {
 }
 
 drawer-wrap {
+  &::after {
+    // TODO: Update component with this code
+    // and remove `width` and `height`
+    left: 0; bottom: 0; right: 0;
+    position: fixed;
+  }
+
   @media (max-width: 950px) {
     top: initial; left: initial;
 
