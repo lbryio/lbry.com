@@ -21,8 +21,8 @@ Here is the top evidence cited:
 
 Let's keep in mind this is a network that has no problem with sketches that [portray gamers as losers with small penises](https://www.youtube.com/watch?v=A21wxZKiao8) or "[fuck the Jews](https://www.youtube.com/watch?v=UghYCVZAjbM)" being part of a sketch. This is not ABC Family - it's cable comedy that airs at midnight.
 
-At LBRY, we're proud to have [MDE's content available](https://lbry.io/news/mde-on-lbry). Not because we necessarily support what they say, but because we think that censorship and political correctness is disgusting.
+At LBRY, we're proud to have [MDE's content available](/news/mde-on-lbry). Not because we necessarily support what they say, but because we think that censorship and political correctness is disgusting.
 
 The great thing about publishing content on LBRY is that no one -- including us -- can remove it.
 
-If you support the ability for creators and consumers to be directly connected without interference from those who like to whine and prattle, please [check out LBRY](https://lbry.io/get).
+If you support the ability for creators and consumers to be directly connected without interference from those who like to whine and prattle, please [check out LBRY](/get).

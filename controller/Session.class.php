@@ -13,7 +13,7 @@ class Session
         NAMESPACE_FLASH = 'flash',
         NAMESPACE_FLASH_REMOVE = 'flash_remove',
         USER_ID = 'user_id',
-        SITE_ID = 'lbry.io';
+        SITE_ID = 'lbry.com';
 
     public static function init()
     {

@@ -13,10 +13,10 @@ Today, we bridge the gap between Linux usage and Linux content. This one's for t
 
 ![Lunduke](/img/news/lunduke-inline.jpg)
 
-As the resident non-tech member of the LBRY team, I can honestly say that I never cared for Linux until I heard Bryan Lunduke ([@Lunduke on LBRY](https://open.lbry.io/%40Lunduke)) sing its praises. The Lunduke Show infuses energy and passion into the discourse of open software development of which the world could use a lot more.
+As the resident non-tech member of the LBRY team, I can honestly say that I never cared for Linux until I heard Bryan Lunduke ([@Lunduke on LBRY](https://open.lbry.com/%40Lunduke)) sing its praises. The Lunduke Show infuses energy and passion into the discourse of open software development of which the world could use a lot more.
 
-If you check out [lbry://@Lunduke](https://open.lbry.io/%40Lunduke), you'll catch his weekly talk show [on Thursdays](https://open.lbry.io/ld-HDgKlqRA4hw), fierce political debates such as [Tabs v Spaces](https://open.lbry.io/ld-XoOQEGIL8Ww), and anything else where highly nerdy and highly entertaining intersect.
+If you check out [lbry://@Lunduke](https://open.lbry.com/%40Lunduke), you'll catch his weekly talk show [on Thursdays](https://open.lbry.com/ld-HDgKlqRA4hw), fierce political debates such as [Tabs v Spaces](https://open.lbry.com/ld-XoOQEGIL8Ww), and anything else where highly nerdy and highly entertaining intersect.
 
 Please support [his patreon](https://www.patreon.com/bryanlunduke) or beg him for a LBRY address so you can tip him that sweet, sweet LBC.
 
-[**Download LBRY today**](https://lbry.io/get). Is your favorite channel not on LBRY? Help us feature what you want to see! Email [reilly@lbry.io](mailto:reilly@lbry.io) to make it happen. Or sync your own channel at: https://lbry.io/youtube
+[**Download LBRY today**](/get). Is your favorite channel not on LBRY? Help us feature what you want to see! Email [reilly@lbry.com](mailto:reilly@lbry.com) to make it happen. Or sync your own channel at: /youtube

@@ -26,4 +26,4 @@ This indie rock outfit of more than a decade brings their soaring crescendos and
 
 > "Being in the avant-garde of Ukrainian indie music since 2004, Singleton has an extensive touring experience, with numerous shows in Ukraine, Russia, Belarus and Germany."
 
-**Want to share your jams on LBRY?** [Get an invite here](https://lbry.io/get). Or if you can't wait, skip our waiting list for a chance to earn $1,000 in LBRY Credits at the same time. [Learn more here](https://lbry.io/publish).
+**Want to share your jams on LBRY?** [Get an invite here](/get). Or if you can't wait, skip our waiting list for a chance to earn $1,000 in LBRY Credits at the same time. [Learn more here](/publish).

@@ -12,7 +12,7 @@ category: update
 >
 > — LBRY (we never give away ETH) (@LBRYio) [August 29, 2018](https://twitter.com/LBRYio/status/1034894356552003590)
 
-LBRY is faster, more reliable, and easier to use than ever with the release of our newest version, Bradbury! Our developers have been working hard on improving the stability of the LBRY protocol and the user experience in our app, and this update delivers in a big way. If it's been a while since you opened up the LBRY app, now is the time to [get the latest version](https://lbry.io/get) and give it another try.
+LBRY is faster, more reliable, and easier to use than ever with the release of our newest version, Bradbury! Our developers have been working hard on improving the stability of the LBRY protocol and the user experience in our app, and this update delivers in a big way. If it's been a while since you opened up the LBRY app, now is the time to [get the latest version](/get) and give it another try.
 
 ![LBRY Bradbury](https://spee.ch/2c249b33d9f6564acb4555d5fe4e97f5901e4657/lbry-bradbury.gif)
 
@@ -25,7 +25,7 @@ LBRY Bradbury comes with some major feature upgrades, including:
 
 ![rewards](https://spee.ch/34dee02a49fefd7301307f4b95948a0cd8ae7990/rewards-sub-download.jpeg)
 
-* **Wallet encryption.** Users can now [encrypt their wallets](https://lbry.io/faq/wallet-encryption) to enhance security.
+* **Wallet encryption.** Users can now [encrypt their wallets](/faq/wallet-encryption) to enhance security.
 
 * **Subscriptions and auto download settings for subscriptions.** Subscriptions have been reworked - go to the "subscriptions" page in your app to check it out! When you subscribe to a channel on LBRY, the newest content from that channel will now download automatically when the app starts up so you can watch it right away. You can also turn this feature off in your settings or on the subscriptions page.
 
@@ -45,7 +45,7 @@ LBRY Bradbury comes with some major feature upgrades, including:
 
 * **New 3D file viewer.** All our 3D printing fanatics can now view previews of 3D objects right in the LBRY app.
 
-You can read all the in-depth details on the [new features in Bradbury here](https://github.com/lbryio/lbry-desktop/releases/tag/v0.24.0). We can talk all day about how much better the LBRY experience is, but the only way to really understand is to [download the app](https://lbry.io/get) and try it out!
+You can read all the in-depth details on the [new features in Bradbury here](https://github.com/lbryio/lbry-desktop/releases/tag/v0.24.0). We can talk all day about how much better the LBRY experience is, but the only way to really understand is to [download the app](/get) and try it out!
 
 ## Why Bradbury?
 ![Ray Bradbury](https://spee.ch/604a76fefad6fbebaf14d7926f62324ff46de3c5/BradburyWide.jpeg)
@@ -58,4 +58,4 @@ Any of these achievements would be good enough reason to honor him, but there's 
 
 So let's hear it for the cantankerous, irascible, ingenious creators who bring wonderful things into the world. And let's let them keep the profits.
 
-[Try LBRY Bradbury today](https://lbry.io/get) and start supporting your favorite creators directly.
+[Try LBRY Bradbury today](/get) and start supporting your favorite creators directly.

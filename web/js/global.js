@@ -1,5 +1,5 @@
 window.lbry = {};
-//document.domain = 'lbry.io';
+//document.domain = 'lbry.com';
 
 jQuery.fn.extend({
   jFor: function() {

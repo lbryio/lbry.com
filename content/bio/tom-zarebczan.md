@@ -1,7 +1,7 @@
 ---
 name: Tom Zarebczan
 role: Community Support and Engagement
-email: tom@lbry.io
+email: tom@lbry.com
 twitter: TomZarebczan
 github : tzarebczan
 ---

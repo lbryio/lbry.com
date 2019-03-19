@@ -16,7 +16,7 @@ While Spotify isn't the worst when it comes to per-stream revenue for artists (t
 
 Do you want to start giving the artists you love more support? Read on to find out exactly what to look for in your next Spotify alternative.
 
-![a stereo](https://lbry.io/img/stereo.jpg)
+![a stereo](/img/stereo.jpg)
 
 ## Features To Look For in a Spotify Alternative
 
@@ -40,7 +40,7 @@ This might seem like a no-brainer, but it pays to know whether you can listen to
 
 Some Spotify alternative platforms allow users to send additional funds to artists and support them on a one-time or ongoing subscription basis. If you really want to go above and beyond in support of the artists you love, this feature is nice icing on the cake.
 
-![a concert](https://lbry.io/img/concert.jpg)
+![a concert](/img/concert.jpg)
 
 ## Spotify Alternatives You Just Might Love
 
@@ -59,6 +59,6 @@ Now that you've got a bit of background on the features to look out for in your 
 [Last.fm](https://www.last.fm) is another breath of fresh air - their "scrobbling" system that first became popular in the days of Winamp delivers stellar recommendations based on your listening history. You can plug the service into a number of Spotify alternatives and start getting recommendations right away.
 
 ### LBRY
-[LBRY](https://lbry.io/get) is a new entry into the world of Spotify alternatives. Instead of putting a centralized service in charge of hosting, curating, and delivering music to users, LBRY lets creators upload their work to a decentralized network where listeners can download it for free or purchase it, depending on the settings the creator wants. While services like Spotify and YouTube Music take the vast majority of revenue per stream and leave the artist with a pittance, LBRY removes the middleman and lets fans support artists directly.
+[LBRY](/get) is a new entry into the world of Spotify alternatives. Instead of putting a centralized service in charge of hosting, curating, and delivering music to users, LBRY lets creators upload their work to a decentralized network where listeners can download it for free or purchase it, depending on the settings the creator wants. While services like Spotify and YouTube Music take the vast majority of revenue per stream and leave the artist with a pittance, LBRY removes the middleman and lets fans support artists directly.
 
 Do you have a favorite Spotify alternative that we missed in this list? Tell us about it [on Twitter](https://twitter.com/LBRYio)!

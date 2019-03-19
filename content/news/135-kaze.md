@@ -11,7 +11,7 @@ One of the most persistent and fascinating art-remix communities is the mod comm
 
 ![KazeEmanuar](/img/news/kaze-inline.jpg)
 
-[@KazeEmanuar](https://open.lbry.io/%40KazeEmanuar), recently featured on [IGN](https://open.lbry.io/@IGNonLBRY) for his [Super Mario 64 Online mod](http://www.ign.com/articles/2017/09/13/fan-made-super-mario-64-brings-online-play), has made a habit of taking arguably the most revolutionary game of the most iconic franchise in history and fusing it to the modern day, in all its blocky glory.
+[@KazeEmanuar](https://open.lbry.com/%40KazeEmanuar), recently featured on [IGN](https://open.lbry.com/@IGNonLBRY) for his [Super Mario 64 Online mod](http://www.ign.com/articles/2017/09/13/fan-made-super-mario-64-brings-online-play), has made a habit of taking arguably the most revolutionary game of the most iconic franchise in history and fusing it to the modern day, in all its blocky glory.
 
 Words don't do this madman justice. Feast your eyes on Super Mario 64 graphed onto the Legend of Zelda: Ocarina of Time overworld.
 
@@ -21,4 +21,4 @@ Recently, Nintendo had Kaze's Patreon and many videos deleted. **Please support 
 
 Check out his work and guides here: https://sites.google.com/site/kazemario64/
 
-[**Download LBRY today**](https://lbry.io/get). Is your favorite channel not on LBRY? Help us feature what you want to see! Email [reilly@lbry.io](mailto:reilly@lbry.io) to make it happen. Or sync your own channel at: https://lbry.io/youtube
+[**Download LBRY today**](/get). Is your favorite channel not on LBRY? Help us feature what you want to see! Email [reilly@lbry.com](mailto:reilly@lbry.com) to make it happen. Or sync your own channel at: /youtube

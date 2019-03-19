@@ -207,7 +207,7 @@
           Manchester, New Hampshire 03101<br/>
 
           United States<br/>
-          hello@lbry.io
+          hello@lbry.com
         <p>
       </blockquote>
 

@@ -44,7 +44,7 @@ Response::addMetaImage(Request::getHostAndProto() . '/img/lbry-partner.png');
 
     <div class="content">
       <?php
-      if ($error_message): echo "<div>" . "The following error occurred: ". $error_message  . " For support please send an email to hello@lbry.io" . "</div>";
+      if ($error_message): echo "<div>" . "The following error occurred: ". $error_message  . " For support please send an email to hello@lbry.com" . "</div>";
       endif;?>
       <div class="zigzag"></div>
       <h1>Create on a stable platform. For real this time.</h1>
@@ -183,7 +183,7 @@ Response::addMetaImage(Request::getHostAndProto() . '/img/lbry-partner.png');
         <div class="text">
           <h3>Rob Smith</h3>
           <p>Head of Product Growth</p>
-          <a href="mailto:rob@lbry.io?subject=YouTube+Freedom">Contact</a>
+          <a href="mailto:rob@lbry.com?subject=YouTube+Freedom">Contact</a>
         </div>
       </div>
     </div>

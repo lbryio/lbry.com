@@ -29,4 +29,4 @@ You choose you. You choose your rights. You choose your favorite content.
 
 This is a revolt, and people have already started. They are shutting off their Facebook account, or they are parking their Twitter permanently. They are using ProtonMail instead of Gmail.  They are sharing content on Spee.ch.
 
-[They are using LBRY.](https://lbry.io/get)
+[They are using LBRY.](/get)

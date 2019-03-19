@@ -11,7 +11,7 @@ Add a screen showing transaction history on the LBRY Browser [`lbry-web-ui`](htt
 
 The screen must:
 - Display past outgoing and incoming transactions
-- Link to the LBRY [block explorer](https://explorer.lbry.io) for transactions
+- Link to the LBRY [block explorer](https://explorer.lbry.com) for transactions
 
 The LBRY daemon already supports an API call, `get_transaction_history`, to retrieve transaction history. While running LBRY, type the following in your browser console:
 

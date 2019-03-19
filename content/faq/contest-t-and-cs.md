@@ -8,7 +8,7 @@ category: other
 * The promoter is LBRY whose registered office is at 99 Hanover Street, Manchester, NH 03101 USA.
 * Employees of LBRY or their family members or anyone else connected in any way with the competition or helping to set up the competition shall not be permitted to enter competitions.
 * There is no entry fee and no purchase necessary to enter competitions.
-* Route to entry for the competition and details of how to enter are [available on our blog](https://lbry.io/news).
+* Route to entry for the competition and details of how to enter are [available on our blog](/news).
 * Closing date for entries will be specified in the blog post. After this date, no further entries to the competition will be permitted. If not stated, all times are from 12:01 am to 11:59 pm Eastern Time.
 * No responsibility can be accepted for entries not received for whatever reason.
 * The promoter reserves the right to cancel or amend the competition and these terms and conditions without notice. Any changes will be made via our blog.

@@ -15,4 +15,4 @@ To complete this bounty, [lbry-desktop](https://github.com/lbryio/lbry-desktop) 
 - When an update begins store an update-history tracking file detailing what the version being updated is, what version it is being updated to, and when the update happened.
 - Upon starting the app after an update, alert the user that the update was successful (and note if it contained security updates), and update the history file to indicate that the update was successful.
 
-It is probably a good idea to consult with our development team on [Discord chat](https://chat.lbry.io) or via email before completing this bounty in its entirety.
+It is probably a good idea to consult with our development team on [Discord chat](https://chat.lbry.com) or via email before completing this bounty in its entirety.

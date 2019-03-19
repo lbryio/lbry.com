@@ -4,7 +4,7 @@
 <?php js_end() ?>
 
 <noscript>
-  Javascript is required to securely send your unsubscribe information. Email <a href="mailto:help@lbry.io" class="link-primary">help@lbry.io</a> for manual unsubscription.
+  Javascript is required to securely send your unsubscribe information. Email <a href="mailto:help@lbry.com" class="link-primary">help@lbry.com</a> for manual unsubscription.
 </noscript>
 
 <?php if ($error): ?>

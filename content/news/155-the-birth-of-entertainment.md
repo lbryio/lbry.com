@@ -61,4 +61,4 @@ As we know, this didn't lead to a DIY opera industry or the disappearance of pro
 
 Artists had to find a hybrid system, and straddle the line between finding supporters that they'd have to please (governments, religious officials, wealthy businessmen, etc.) and supporters who just want to get more of the artist's work but didn't necessarily have deep pockets.
 
-The creative world stayed in this limbo until the introduction of commercial radio and ad-supported content, which you can read more about in [this post](https://lbry.io/news/how-ads-wrecked-entertainment).
+The creative world stayed in this limbo until the introduction of commercial radio and ad-supported content, which you can read more about in [this post](/news/how-ads-wrecked-entertainment).

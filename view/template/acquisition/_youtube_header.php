@@ -2,8 +2,8 @@
   <div class="inner">
     <div class="left">
       <div class="logo"></div>
-      <a href="https://lbry.io/get">Get</a>
-      <a href="https://lbry.io/learn">Learn</a>
+      <a href="/get">Get</a>
+      <a href="/learn">Learn</a>
     </div>
     <div class="right">
       <a href="https://github.com/lbryio" class="github"></a>

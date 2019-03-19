@@ -6,19 +6,19 @@ cover: 'wooden-letters-banner.jpg'
 category: community-update
 ---
 
-In December, we published the [first ever LBRY Development and Community update](https://lbry.io/news/lbry-development-community-update-1), and we will continue this series at the end of each month to keep each and every LBRYian up to date on our quest to revolutionize content discovery, sharing and monetization! To read all of our updates, please visit [our Development and Community Update archive](https://lbry.io/news/category/community-update).
+In December, we published the [first ever LBRY Development and Community update](/news/lbry-development-community-update-1), and we will continue this series at the end of each month to keep each and every LBRYian up to date on our quest to revolutionize content discovery, sharing and monetization! To read all of our updates, please visit [our Development and Community Update archive](/news/category/community-update).
 
-Please take a moment to read our [Looking Back and Moving Forward: LBRY in 2017/2018](https://lbry.io/news/lbry-in-2017-2018) blog post!
+Please take a moment to read our [Looking Back and Moving Forward: LBRY in 2017/2018](/news/lbry-in-2017-2018) blog post!
 
 To skip the tech stuff and see what's happened and what's next in the LBRY community, click the link below. Otherwise, read on!
 
 [Skip to **Community Happenings**](#com-updates)
 
 # Development Updates {#dev-updates}
-All of our code is open source and available on [GitHub](https://github.com/lbryio). Are you a dev and want to find out more? Check out our [general contributing guide](https://lbry.io/faq/contributing) and our LBRY App specific contributing [document](https://github.com/lbryio/lbry-desktop/blob/master/CONTRIBUTING.md).
+All of our code is open source and available on [GitHub](https://github.com/lbryio). Are you a dev and want to find out more? Check out our [general contributing guide](/faq/contributing) and our LBRY App specific contributing [document](https://github.com/lbryio/lbry-desktop/blob/master/CONTRIBUTING.md).
 
 ### App and Protocol Quick Summary
-As you may know from our previous update, the LBRY App is undergoing a redesign which is taking up a large chunk of the team's time, but we still managed to ship multiple patch releases to version 0.19 that enabled users to continue enjoying the main functions of the LBRY app. We also finished off January with [version 0.20](https://github.com/lbryio/lbry-desktop/releases/tag/v0.20.0) which enables a more streamlined LBRY app update process, phone number verification for [LBRY Rewards](https://lbry.io/faq/rewards) that makes it easier for new users to earn some LBC, added automated dark theme mode, patched a security hole introduced by [Electron](https://electronjs.org/blog/protocol-handler-fix) and a bit of code refactoring. On the protocol side, we ran into a showstopper related to how files are handled and were forced to go back to the drawing board to re-engineer a better solution. Our protocol devs also had to deal with growing pains on [spee.ch](https://spee.ch) which continues to uncover invaluable insights into scaling the LBRY as it's the biggest user of the protocol to date!
+As you may know from our previous update, the LBRY App is undergoing a redesign which is taking up a large chunk of the team's time, but we still managed to ship multiple patch releases to version 0.19 that enabled users to continue enjoying the main functions of the LBRY app. We also finished off January with [version 0.20](https://github.com/lbryio/lbry-desktop/releases/tag/v0.20.0) which enables a more streamlined LBRY app update process, phone number verification for [LBRY Rewards](/faq/rewards) that makes it easier for new users to earn some LBC, added automated dark theme mode, patched a security hole introduced by [Electron](https://electronjs.org/blog/protocol-handler-fix) and a bit of code refactoring. On the protocol side, we ran into a showstopper related to how files are handled and were forced to go back to the drawing board to re-engineer a better solution. Our protocol devs also had to deal with growing pains on [spee.ch](https://spee.ch) which continues to uncover invaluable insights into scaling the LBRY as it's the biggest user of the protocol to date!
 
 ### Documentation, Organization and Development Processes
 A considerable amount of effort went into documenting an app side [contributing process](https://github.com/lbryio/lbry-desktop/blob/master/CONTRIBUTING.md) along with [tagging and organization](https://github.com/lbryio/lbry/wiki/Labels) of GitHub issues which required a careful review of all outstanding issues across multiple repositories. The result was a clearer and more organized depiction of what's on the plate for our developers to work on but it also provides a more welcoming environment for contributors and potential LBRY developers to get started.
@@ -40,7 +40,7 @@ There has been a decent amount of progress on the LBRY mobile app with the daemo
 
 
 ### lbry.tech Initial Project Scope
-Our recent [hiring efforts](https://lbry.io/join-us) exposed a weakness in LBRY's documentation which cannot be overlooked any longer if we want more contributors and other services using the LBRY protocol. lbry.tech will be created as a resource specifically for technical visitors which are either completely new users (let's catch their initial interest!) and to existing users looking for access to a technical resource. The project is currently in the planning and exploration phase, stay tuned for more updates on [GitHub](https://github.com/lbryio/lbry.tech)!
+Our recent [hiring efforts](/join-us) exposed a weakness in LBRY's documentation which cannot be overlooked any longer if we want more contributors and other services using the LBRY protocol. lbry.tech will be created as a resource specifically for technical visitors which are either completely new users (let's catch their initial interest!) and to existing users looking for access to a technical resource. The project is currently in the planning and exploration phase, stay tuned for more updates on [GitHub](https://github.com/lbryio/lbry.tech)!
 
 ### LBRY Whitepaper
 A LBRY whitepaper is in the works which will formally document the LBRY ecosystem and protocol specifications. Its creation had been put off for a while since most agree that whitepapers are marketing gimmicks for projects without a product, but as LBRY continues to get more attention, having one will allow us to link a single technical resource into how LBRY functions as opposed to directing users to FAQ posts or other articles.
@@ -54,19 +54,19 @@ LBRY wallet encryption has been enabled in the latest versions of the daemon (no
 Unfortunately, when you try to give away free internet currency, some people will stop at nothing to abuse the system, and as such, we will continue to evolve in order to ramp up defences. We have instituted a new policy that disallows rewards when a VPN/proxy connection is detected and also limit rewards to 1 per household now (previously 1 per person). The 1 LBC email verification reward was removed in a version 19 patch because it was easily abusable. Our wish would be to spend this valuable time on developing the app instead, but we also have to be good stewards of LBRY credits that we give out.
 
 ### New LBRY Rewards Verification Method - SMS
-In order to provide a more seamless new user experience, version 0.20 of the LBRY app allows users to earn [LBRY rewards](https://lbry.io/faq/rewards) by verifying their phone number over SMS. We will monitor usage and potential abuse over the coming days in order to build a ruleset that minimizes rewards abuse. We also hope that many legitimate users will opt for this method versus our current manual verification which is time-consuming for both them and ourselves!
+In order to provide a more seamless new user experience, version 0.20 of the LBRY app allows users to earn [LBRY rewards](/faq/rewards) by verifying their phone number over SMS. We will monitor usage and potential abuse over the coming days in order to build a ruleset that minimizes rewards abuse. We also hope that many legitimate users will opt for this method versus our current manual verification which is time-consuming for both them and ourselves!
 
 # Community Happenings {#com-updates}
-If you aren't part of our Discord community yet, [join us](https://chat.lbry.io) anytime and say hello! Our community allows LBRYians to interact with the team directly and for us to engage users in order to grow the LBRY platform.
+If you aren't part of our Discord community yet, [join us](https://chat.lbry.com) anytime and say hello! Our community allows LBRYians to interact with the team directly and for us to engage users in order to grow the LBRY platform.
 
 ### LBRY at Sundance Film Festival
 LBRY's Content Creator and Director of Growth and Branding attended the Sundance film festival at the end of January - be on the lookout for a video recap of the event!
 
-### lbry.io Website
-The LBRY website was updated with the latest [team information](https://lbry.io/team) which includes updated bios, new team members and Twitter/GitHub profile links. The updated YouTube sync page is still in progress as we finalize some of the backend changes needed to support it.
+### lbry.com Website
+The LBRY website was updated with the latest [team information](/team) which includes updated bios, new team members and Twitter/GitHub profile links. The updated YouTube sync page is still in progress as we finalize some of the backend changes needed to support it.
 
 ### LBRY Roadmap
-The LBRY business team worked alongside the tech team to provide the community with a [roadmap of enhancements, features and new undertakings for 2018](https://lbry.io/roadmap). We hope this provides project supporters a transparent insight into what LBRY plans to accomplish in the mid to long-term future. Have any feedback; we'd love to hear it in the #ideas-and-feedback channel on [Discord](https://chat.lbry.io).
+The LBRY business team worked alongside the tech team to provide the community with a [roadmap of enhancements, features and new undertakings for 2018](/roadmap). We hope this provides project supporters a transparent insight into what LBRY plans to accomplish in the mid to long-term future. Have any feedback; we'd love to hear it in the #ideas-and-feedback channel on [Discord](https://chat.lbry.com).
 
 ### Santatoshi LBC Tipping over the Holiday Season
 Our Discord server is armed with the almighty LBRY tipbot which allows us to reward our community members for their suggestions, feedback and other contributions. Over the holiday season, Santatoshi paid a visit on numerous occasions tipping LBC to innocent bystanders. To top things off on Christmas Day, Santa made it rain LBC with amounts up to 500 LBC to our most active community members. Over 12K LBC was given away!
@@ -74,10 +74,10 @@ Our Discord server is armed with the almighty LBRY tipbot which allows us to rew
 ![Tipping in Discord](https://spee.ch/3/santa-discord.png)
 
 ### Favorite Creators Contest in Discord
-Head over to our #favoritecreators channel on [Discord](https://chat.lbry.io) where we ask our community to share their favorite content creators and have others upvote the entries with the goal of getting them on LBRY. We'll offer the creator 10K LBC to post (or mirror) their content. If we can't get in touch, we'll go to the next top voted one. We don't have a hard limit on subscribers/content type (I'd say at least 50K subs?), but we reserve the right to disqualify/pass if warranted. This will run until the end of February.
+Head over to our #favoritecreators channel on [Discord](https://chat.lbry.com) where we ask our community to share their favorite content creators and have others upvote the entries with the goal of getting them on LBRY. We'll offer the creator 10K LBC to post (or mirror) their content. If we can't get in touch, we'll go to the next top voted one. We don't have a hard limit on subscribers/content type (I'd say at least 50K subs?), but we reserve the right to disqualify/pass if warranted. This will run until the end of February.
 
 ### Meetups and College Campus Initiatives
-Although we are still finalizing our programs for both meetups and college initiatives, we'd love to hear from your if you are interested in learning more! Please join us on the respective #meetup / #campus channels in [Discord](https//chat.lbry.io). Please keep reading below for updates from several pilot programs.
+Although we are still finalizing our programs for both meetups and college initiatives, we'd love to hear from your if you are interested in learning more! Please join us on the respective #meetup / #campus channels in [Discord](https//chat.lbry.com). Please keep reading below for updates from several pilot programs.
 
 Last year we had a community member named Adrian, from Poland, reach out to us in order to raise awareness to LBRY in his circles which include a [famous choir](http://en.cantoresminores.pl) and two universities - check out [this photo](https://spee.ch/d/adrian-lbry.jpeg) of him in action! He's interested in more collaboration again this year, and we are in the process of working out the details. Next, we have bounboun from Discord who gave a [presentation](https://docs.google.com/presentation/d/1CvpdVm3YON0VP4PeZESLAc3ThwaWWI7NONN3NCZeTHo/edit#slide=id.g3293f0e87a_0_81) on January 30th during a gaming conference in France, and he'll also be talking about LBRY at a [french meetup on March 14 ](https://www.meetup.com/fr-FR/Crypto-Alsace) which had over 200 guests previously!
 
@@ -89,6 +89,6 @@ Professor [Steven Gordon](http://www.babson.edu/Academics/faculty/profiles/Pages
 ### lbry.community Initiatives
 [lbry.community](https://lbry.community/about) is a completely independent, community-run effort to help spread awareness to the importance of the LBRY protocol. We are thrilled at what they have been able to accomplish to date and are extremely excited that they are able to share a vision for LBRY which takes a unique, user-focused approach compared to LBRY's internal one. Recently, the community website went through a redesign which they promoted alongside various contests which included either visual and written requirements as well as simpler [reddit/Twitter initiatives (you can still enter until Feb 6!)](https://lbry.community/category/open-contests). The contest entry period ended with [19 video submissions](https://lbry.community/jan-competition-videos) and [11 written articles](https://lbry.community/contests), a truly impressive turnout! Contest voting ends on Feb 6, stay tuned for the results!
 
-If you are interested in helping out, please reach out to @rouse on [Discord](https://chat.lbry.io).
+If you are interested in helping out, please reach out to @rouse on [Discord](https://chat.lbry.com).
 
 [Back to **Development Updates**](#dev-updates)

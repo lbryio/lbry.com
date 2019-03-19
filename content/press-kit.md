@@ -1,7 +1,7 @@
 ### Press & Media Inquiries
 
 Brinck Slattery<br/>
-[brinck@lbry.io](mailto:brinck@lbry.io)
+[brinck@lbry.com](mailto:brinck@lbry.com)
 
 ### Company Profile
 
@@ -17,13 +17,13 @@ On July 29th, 2017 the Pop-up Open Beta Was Announced.
 ### FAQ
 
 - [LBRY in 100 Seconds (Video)](https://www.youtube.com/watch?v=DjouYBEkQPY)
-- [How Does LBRY Work, Exactly?](https://lbry.io/news/introducing-lbry-the-bitcoin-of-content)
-- [Why Doesn't LBRY Just Use Bitcoin?](https://lbry.io/news/why-doesnt-lbry-just-use-bitcoin)
-- [More F.A.Q's](https://lbry.io/faq)
+- [How Does LBRY Work, Exactly?](/news/introducing-lbry-the-bitcoin-of-content)
+- [Why Doesn't LBRY Just Use Bitcoin?](/news/why-doesnt-lbry-just-use-bitcoin)
+- [More F.A.Q's](/faq)
 
 ### Official Press Releases
 
-- [LBRY Announces $500K Raise to Build the First Community-Controlled YouTube Alternative](https://lbry.io/press/500k-fundraising-round-pillar-vc.md), **September 7, 2016**
+- [LBRY Announces $500K Raise to Build the First Community-Controlled YouTube Alternative](/press/500k-fundraising-round-pillar-vc.md), **September 7, 2016**
 
 ### Media Mentions
 
@@ -36,9 +36,9 @@ On July 29th, 2017 the Pop-up Open Beta Was Announced.
 
 ### Contact & Social Media
 
-- Website: [https://lbry.io/](https://lbry.io)
+- Website: [https://lbry.com](https://lbry.com)
 - Facebook: [https://www.facebook.com/lbryio](https://www.facebook.com/lbryio)
 - Twitter: [https://twitter.com/lbryio](https://twitter.com/lbryio)
 - Reddit: [https://www.reddit.com/r/lbry](https://www.reddit.com/r/lbry)
-- Mailing List: [https://lbry.io/join-list](https://lbry.io/join-list) - **Sign up to follow along as we build LBRY**
-- Discord Chat: [https://chat.lbry.io](https://chat.lbry.io) - **Get your questions answered and become a LBRYian**
+- Mailing List: [/join-list](/join-list) - **Sign up to follow along as we build LBRY**
+- Discord Chat: [https://chat.lbry.com](https://chat.lbry.com) - **Get your questions answered and become a LBRYian**

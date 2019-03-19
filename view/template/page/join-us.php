@@ -95,7 +95,7 @@
 
           <p>The issue you choose does not necessarily need to be fully completed, and we don't expect a perfect first contribution. Open a pull request as soon as you'd like any feedback from one of our developers. We compensate at or above market rates for all accepted pull requests.</p>
 
-          <p>For questions or problems with a particular issue, please comment directly on the GitHub issue. For setup or environment trouble, open a separate issue or email the contact listed in the project <code>README</code>. You can also join <code>#dev</code> in <a href="https://chat.lbry.io">our chat</a> to interact with other community members.</p>
+          <p>For questions or problems with a particular issue, please comment directly on the GitHub issue. For setup or environment trouble, open a separate issue or email the contact listed in the project <code>README</code>. You can also join <code>#dev</code> in <a href="https://chat.lbry.com">our chat</a> to interact with other community members.</p>
         </li>
         <li>A longer meeting with the team members you'd be working directly with, as well as the CEO and/or CTO.</li>
       </ol>
@@ -106,7 +106,7 @@
       <p>Know someone who'd be a great fit? Tell them about us, send them a link to this page, or show up at their house unexpectedly with a box of candy and a persuasive pitch. If we hire them, we'll pay you $5,000. That's what we call a win-win.</p>
 
       <h2 id="other-work">Other Work</h2>
-      <p>Interested in contributing but not ready for commitment? We have a <a href="/faq/contributing">guide for contributors</a> to help you find other ways to get involved. If none of that suits your fancy, join our <a href="https://chat.lbry.io">Discord chat</a> and we'll help you find something you'll love.</p>
+      <p>Interested in contributing but not ready for commitment? We have a <a href="/faq/contributing">guide for contributors</a> to help you find other ways to get involved. If none of that suits your fancy, join our <a href="https://chat.lbry.com">Discord chat</a> and we'll help you find something you'll love.</p>
     </div>
   </section>
 </main>

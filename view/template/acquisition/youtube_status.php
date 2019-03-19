@@ -123,7 +123,7 @@
                         <input type="hidden" name="status_token" id="status_token" value="<?php echo $token ?>"/>
                     </div>
                     <?php
-                    if ($error_message): echo "<div>" . "The following error occurred: " . $error_message . " For support please send an email to hello@lbry.io" . "</div>";
+                    if ($error_message): echo "<div>" . "The following error occurred: " . $error_message . " For support please send an email to hello@lbry.com" . "</div>";
                     endif; ?>
                     <div class="block">
                         <label for="channel-name">LBRY Channel ID</label>

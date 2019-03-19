@@ -1,11 +1,11 @@
-# lbry.io
+# lbry.com
 
-[![MIT licensed](https://img.shields.io/dub/l/vibe-d.svg?style=flat)](https://github.com/lbryio/lbry.io/blob/master/LICENSE)
-[![chat on Discord](https://img.shields.io/discord/362322208485277697.svg?logo=discord)](https://chat.lbry.io)
+[![MIT licensed](https://img.shields.io/dub/l/vibe-d.svg?style=flat)](https://github.com/lbryio/lbry.com/blob/master/LICENSE)
+[![chat on Discord](https://img.shields.io/discord/362322208485277697.svg?logo=discord)](https://chat.lbry.com)
 
-The [lbry.io](https://lbry.io) website. This website uses barebones PHP along with Javascript and SCSS.
+The [lbry.com](https://lbry.com) website. This website uses barebones PHP along with Javascript and SCSS.
 
-![lbry.io screenshot](https://spee.ch/b/new.png)
+![lbry.com screenshot](https://spee.ch/b/new.png)
 
 ## Installation
 
@@ -13,9 +13,9 @@ Please see [INSTALL](INSTALL.md) for comprehensive, easy-to-follow instructions 
 
 ## Usage
 
-Unless you are planning to contribute to the lbry.io website, this project serves little independent purpose.
+Unless you are planning to contribute to the lbry.com website, this project serves little independent purpose.
 
-To access a local copy of lbry.io, follow [INSTALL](INSTALL.md) and then access `localhost:8000` in your browser. This will allow you to make changes to the website, test locally and then submit pull requests.
+To access a local copy of lbry.com, follow [INSTALL](INSTALL.md) and then access `localhost:8000` in your browser. This will allow you to make changes to the website, test locally and then submit pull requests.
 
 ## Running from Source
 
@@ -31,17 +31,17 @@ Contributions to this project are welcome, encouraged, and compensated. For more
 
 ## Security
 
-We take security seriously. Please contact [security@lbry.io](mailto:security@lbry.io) regarding any security issues. Our PGP key is [here](https://keybase.io/lbry/key.asc) if you need it.
+We take security seriously. Please contact [security@lbry.com](mailto:security@lbry.com) regarding any security issues. Our PGP key is [here](https://keybase.io/lbry/key.asc) if you need it.
 
 ## Contact
 
-The primary contact for this project is [Jeremy Kauffman](https://github.com/kauffj) (jeremy@lbry.io).
+The primary contact for this project is [Jeremy Kauffman](https://github.com/kauffj) (jeremy@lbry.com).
 
 ## Additional Info and Links
 
-- [https://lbry.io](https://lbry.io) - The live LBRY website
-- [Discord Chat](https://chat.lbry.io) - A chat room for the LBRYians
-- [Email us](mailto:hello@lbry.io) - LBRY Support email
+- [https://lbry.com](https://lbry.com) - The live LBRY website
+- [Discord Chat](https://chat.lbry.com) - A chat room for the LBRYians
+- [Email us](mailto:hello@lbry.com) - LBRY Support email
 - [Twitter](https://twitter.com/@lbryio) - LBRY Twitter page
 - [Facebook](https://www.facebook.com/lbryio) - LBRY Facebook page
 - [Reddit](https://reddit.com/r/lbry) - LBRY Reddit page

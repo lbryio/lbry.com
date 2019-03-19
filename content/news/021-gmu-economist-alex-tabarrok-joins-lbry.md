@@ -22,4 +22,4 @@ Tabarrok's deep understanding of how markets function and his ability to apply t
 
 > Markets were operating for thousands of years before their principles were well understood. Today, we are using those principles to code new markets with the potential to unlock vast sources of wealth.
 
-Interested in speaking with Tabarrok for news or tech publication? <a href="mailto:mike@lbry.io">Please email Mike Vine</a>, LBRY's Technology Evangelist, to schedule an interview.
+Interested in speaking with Tabarrok for news or tech publication? <a href="mailto:mike@lbry.com">Please email Mike Vine</a>, LBRY's Technology Evangelist, to schedule an interview.

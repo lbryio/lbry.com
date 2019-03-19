@@ -29,7 +29,7 @@ We've included a new feature for publishers in this update as well! Now you can 
 
 ### Safer for work than ever (unless you don't want it to be)
 
-We've also made some changes to the app to make it more family-friendly for people who have not chosen to view NSFW content. This means the Community Bid section will not be shown unless you choose to view NSFW content in the app since we don't [control the content posted there](https://lbry.io/faq/community-top-bid). Also, previews of NSFW videos will not show up at all on channel pages, subscriptions or search results. If you're just here for the hentai, everything's still available - you just have to make it clear that you want to see it.
+We've also made some changes to the app to make it more family-friendly for people who have not chosen to view NSFW content. This means the Community Bid section will not be shown unless you choose to view NSFW content in the app since we don't [control the content posted there](/faq/community-top-bid). Also, previews of NSFW videos will not show up at all on channel pages, subscriptions or search results. If you're just here for the hentai, everything's still available - you just have to make it clear that you want to see it.
 
 ![content settings](https://spee.ch/49727978e4ae0d60a8127056da46905f12b0ee7a/content-settings.jpeg)
 
@@ -45,4 +45,4 @@ There are a number of other changes in this update as well, including:
 - Emoji text support has been enabled in claim descriptions
 - Auto update no longer leaves setup files behind
 
-Your app will prompt you to download the upgrade next time you open it, or you can just [download the newest version directly](https://lbry.io/get?auto=1).
+Your app will prompt you to download the upgrade next time you open it, or you can just [download the newest version directly](/get?auto=1).

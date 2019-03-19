@@ -1,7 +1,7 @@
 ---
 name: Rob Smith
 role: VP of Growth
-email: rob@lbry.io
+email: rob@lbry.com
 twitter: robdoes
 github: robvsmith
 ---

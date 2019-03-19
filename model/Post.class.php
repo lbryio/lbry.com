@@ -380,6 +380,6 @@ class Post
 
     public function getGithubEditUrl()
     {
-        return 'https://github.com/lbryio/lbry.io/tree/master' . str_replace(ROOT_DIR, '', $this->path);
+        return 'https://github.com/lbryio/lbry.com/tree/master' . str_replace(ROOT_DIR, '', $this->path);
     }
 }

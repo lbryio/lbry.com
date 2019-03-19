@@ -9,9 +9,9 @@ fi
 # Installing git hook
 $DIR/hooks/install.sh
 
-docker run --rm -it --name "dev.lbry.io" \
-  -v "$DIR:/usr/src/lbry.io" \
-  -w "/usr/src/lbry.io" \
+docker run --rm -it --name "dev.lbry.com" \
+  -v "$DIR:/usr/src/lbry.com" \
+  -w "/usr/src/lbry.com" \
   -p "127.0.0.1:8000:8000" \
   -u "$(id -u):$(id -g)" \
   php:7-alpine \

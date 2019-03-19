@@ -1,7 +1,7 @@
 ---
 name: Jack Robison
 role: Founder, Protocol Developer
-email: jack@lbry.io
+email: jack@lbry.com
 github: jackrobison
 ---
 

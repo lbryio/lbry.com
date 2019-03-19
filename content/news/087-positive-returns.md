@@ -36,4 +36,4 @@ Here's to LBRY in 2017 and a happy new year!
 - [*S&M Lawn Care*](lbry://smlawncare)
 - [*Cinema Six*](lbry://cinemasix)
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Do you write novels? Email [reilly@lbry.io](mailto:reilly@lbry.io), and we'll help you make publishing outside of Amazon a reality.
+**Not on LBRY yet?** [Get an invite here](/get). Do you write novels? Email [reilly@lbry.com](mailto:reilly@lbry.com), and we'll help you make publishing outside of Amazon a reality.

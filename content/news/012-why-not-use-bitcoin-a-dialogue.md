@@ -77,4 +77,4 @@ Thin Node: I am awesome. I love you too, User.
 
 LBRY is best thought of as an application or a protocol, not a cryptocurrency. As such, it requires a blockchain designed specifically to solve the problems that LBRY faces.
 
-If you found this interesting and would like to check out LBRY, go to [lbry.io/get](https://lbry.io/get).
+If you found this interesting and would like to check out LBRY, go to [lbry.com/get](/get).

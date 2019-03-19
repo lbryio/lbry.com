@@ -12,10 +12,10 @@ Well, worry not. This doesn't represent a nefarious plan to dump a bunch of cred
 
 So who is this mysterious buyer? That part will stay a mystery until the formal announcement. But we think our LBC watchers will be very pleased.
 
-Note that this is the first spend from [LBRY's operational funds](https://lbry.io/news/lbry-blockchain-live-mine-lbc-now). Going forward, as we strategically spend credits from the operational, charitable, and promotional funds, we will note the transactions and their purpose on the blockchain.
+Note that this is the first spend from [LBRY's operational funds](/news/lbry-blockchain-live-mine-lbc-now). Going forward, as we strategically spend credits from the operational, charitable, and promotional funds, we will note the transactions and their purpose on the blockchain.
 
 <p style="text-align: center;">
-  <a href="https://lbry.io/get"><strong>Join the Waitlist for Early Access</strong></a>
+  <a href="/get"><strong>Join the Waitlist for Early Access</strong></a>
 </p>
 
-LBRY is a key component of Web 3.0, a new internet infrastructure that is secure, open-source, and natively decentralized. The company is self-financed and has assembled a [stellar team](https://lbry.io/team) of creatives and technologists.
+LBRY is a key component of Web 3.0, a new internet infrastructure that is secure, open-source, and natively decentralized. The company is self-financed and has assembled a [stellar team](/team) of creatives and technologists.

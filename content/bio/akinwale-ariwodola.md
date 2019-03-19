@@ -1,7 +1,7 @@
 ---
 name: Akinwale Ariwodola
 role: Mobile Developer
-email: akinwale@lbry.io
+email: akinwale@lbry.com
 twitter: akinwale
 github: akinwale
 ---

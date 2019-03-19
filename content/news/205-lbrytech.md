@@ -40,7 +40,7 @@ Here are some of the things you can find on lbry.tech:
 
 - [Contributor's Guide](https://lbry.tech/contribute) - Everything a would-be contributor needs to know to contribute to LBRY. Whether you're a front-end developer, a low-level micro-optimizer, or something in between, there's a way to help out.
 
-- [SDK APIs](https://lbry.tech/api/sdk) and [Blockchain APIs](https://lbry.tech/api/blockchain) - Formerly on lbry.io, these useful resources have been updated and redesigned.
+- [SDK APIs](https://lbry.tech/api/sdk) and [Blockchain APIs](https://lbry.tech/api/blockchain) - Formerly on lbry.com, these useful resources have been updated and redesigned.
 
 - [Builders's Guide](https://lbry.tech/build) - A new resource specifically for those who want to build their own app or utility using the LBRY protocol, rather than contribute to LBRY Inc. projects.
 

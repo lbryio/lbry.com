@@ -6,7 +6,7 @@ status: complete
 date: '2016-07-01'
 ---
 
-LBRY currently maintains and runs a block explorer at [explorer.lbry.io](https://explorer.lbry.io).
+LBRY currently maintains and runs a block explorer at [explorer.lbry.com](https://explorer.lbry.com).
 
 This explorer is a fork of Iquidus Explorer and is [on GitHub](https://github.com/lbryio/lbry-explorer).
 

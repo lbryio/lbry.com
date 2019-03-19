@@ -6,23 +6,23 @@ cover: 'droid1.jpg'
 category: community-update
 ---
 
-Back in December, we published the [first ever LBRY Development and Community update](https://lbry.io/news/lbry-development-community-update-1) and followed up with another for [January 2018](https://lbry.io/news/lbry-development-community-update-jan-2018) and [February 2018](https://lbry.io/news/lbry-development-community-update-feb-2018) - be sure to check them all out if you missed it! We will continue posting these updates at the beginning of each month to keep each and every LBRYian up to date on our quest to revolutionize content discovery, sharing and monetization! To read all of our updates, please visit [our Development and Community Update archive](https://lbry.io/news/category/community-update).
+Back in December, we published the [first ever LBRY Development and Community update](/news/lbry-development-community-update-1) and followed up with another for [January 2018](/news/lbry-development-community-update-jan-2018) and [February 2018](/news/lbry-development-community-update-feb-2018) - be sure to check them all out if you missed it! We will continue posting these updates at the beginning of each month to keep each and every LBRYian up to date on our quest to revolutionize content discovery, sharing and monetization! To read all of our updates, please visit [our Development and Community Update archive](/news/category/community-update).
 
-If you haven't already, please take a moment to read our [Looking Back and Moving Forward: LBRY in 2017/2018](https://lbry.io/news/lbry-in-2017-2018) blog post and check out our [roadmap](https://lbry.io/roadmap).
+If you haven't already, please take a moment to read our [Looking Back and Moving Forward: LBRY in 2017/2018](/news/lbry-in-2017-2018) blog post and check out our [roadmap](/roadmap).
 
 To skip the tech stuff and see what's happened and what's next in the LBRY community, click the link below. Otherwise, read on!
 
 [Skip to **Community Happenings**](#com-updates)
 
 # Development Updates {#dev-updates}
-All of our code is open source and available on [GitHub](https://github.com/lbryio). Are you a dev and want to find out more? Check out our [general contributing guide](https://lbry.io/faq/contributing) and our LBRY App specific contributing [document](https://github.com/lbryio/lbry-desktop/blob/master/CONTRIBUTING.md). Please be patient with us while we improve our technical documentation. Our plan is to create a technical reference site which will be developer focused at https://LBRY.tech, which is not live yet, but you can check out our  progress on [GitHub](https://github.com/lbryio/lbry.tech).
+All of our code is open source and available on [GitHub](https://github.com/lbryio). Are you a dev and want to find out more? Check out our [general contributing guide](/faq/contributing) and our LBRY App specific contributing [document](https://github.com/lbryio/lbry-desktop/blob/master/CONTRIBUTING.md). Please be patient with us while we improve our technical documentation. Our plan is to create a technical reference site which will be developer focused at https://LBRY.tech, which is not live yet, but you can check out our  progress on [GitHub](https://github.com/lbryio/lbry.tech).
 
 ### App and Protocol Summary
 We know it's been a long wait, but we're very happy with our latest app release. And the wait will be worth it when you experience the improved LBRY daemon - it's the first major protocol update since last November, and it's a big step in the right direction. You can read about specific enhancements in the changelogs ([0.19.0](https://github.com/lbryio/lbry/releases/tag/v0.19.0) and [0.19.1](https://github.com/lbryio/lbry/releases/tag/v0.19.1)) but in general we've noticed improvements in network availability and streaming speed (time from when play is clicked to when the download starts).
 
 On top of that, it brought some much needed bug fixes, wallet encryption capabilities, ability to redownload content on updated claims and updating claims with large LBC deposits (now it uses the current bid, previously you had to have the balance in your wallet to cover it). The next steps for the protocol are to significantly improve network data announcement times, speed up startup times and rewrite client/server side wallet functionality.
 
-On the app side, the main feature was subscription enhancements which enabled in-app notifications (including alerts for new content on channels that users are subscribed to) and auto download for channels that users subscribe to. The update also improves search results (see section below for details), allows YouTubers to earn [Sync Rewards](https://lbry.io/youtube), saves the app state when closing to tray, and lets users export transactions to CSV. Bug fixes included correct sorting of published content, allowing lbry:// links to be opened when the app was closed on OSX and fixing them on Linux, fixing night mode start time and bringing Windows notifications back into a working state.
+On the app side, the main feature was subscription enhancements which enabled in-app notifications (including alerts for new content on channels that users are subscribed to) and auto download for channels that users subscribe to. The update also improves search results (see section below for details), allows YouTubers to earn [Sync Rewards](/youtube), saves the app state when closing to tray, and lets users export transactions to CSV. Bug fixes included correct sorting of published content, allowing lbry:// links to be opened when the app was closed on OSX and fixing them on Linux, fixing night mode start time and bringing Windows notifications back into a working state.
 
 ![Subscriptions](https://spee.ch/f/subs-app-drk.png)
 
@@ -31,7 +31,7 @@ Considerable progress has been made on the Android app with the discover page no
 
 An alpha build was published to the Google Play Store and notifications have been sent to both our Developer mailing group and our Android waitlist. We believe in the philosophy of "release early, release often," and it's working great in this case. We've already received a lot of useful feedback, and are looking forward to much more from our passionate community members. That said, please remember that alpha testing isn't for everyone - the app is very basic and frequently unstable, has bare minimum features, and may turn your phone into a toaster.
 
-If you're a developer, sign up on our [Android Alpha landing page](https://lbry.io/android-alpha) to be included in the next round of alpha testing invites! [Google Play Store Link](https://play.google.com/apps/testing/io.lbry.browser) - only available to approved alpha testers, see link above.
+If you're a developer, sign up on our [Android Alpha landing page](/android-alpha) to be included in the next round of alpha testing invites! [Google Play Store Link](https://play.google.com/apps/testing/io.lbry.browser) - only available to approved alpha testers, see link above.
 
 [![Playstore](https://spee.ch/d/LBRY-alpha-playstore.jpeg)](https://play.google.com/apps/testing/io.lbry.browser)
 
@@ -59,7 +59,7 @@ Check out the below pull requests to get a sense of a few exciting features comi
 [Auto Updating channels on the LBRY Discover page](https://github.com/lbryio/lbry-desktop/pull/1267) - Currently the LBRY discover page is fairly static besides the trending and community sections (or when we update the page with featured content). This change will allow us to specify a channel name instead of specific claims to include on the Discover page. The main benefit is that the Discover page will dynamically update when new content is posted to those channels!
 
 ### spee.ch Update
-Over the past few weeks, we've been converting the code base of spee.ch so that it can be imported and customized in a variety of applications. Keep an eye out for an announcement soon which will fully explain how you can use the spee.ch code base to implement your own content hosting web app that uses the LBRY network! Want to get a headstart? Check out the [spee.ch server section below](#speech-host) and subscribe to our [speech admin mailing list](https://lbry.io/speech-admin) to be notified when we schedule a live Google Hangouts demo which will walk through the process of setting up your own portal.
+Over the past few weeks, we've been converting the code base of spee.ch so that it can be imported and customized in a variety of applications. Keep an eye out for an announcement soon which will fully explain how you can use the spee.ch code base to implement your own content hosting web app that uses the LBRY network! Want to get a headstart? Check out the [spee.ch server section below](#speech-host) and subscribe to our [speech admin mailing list](/speech-admin) to be notified when we schedule a live Google Hangouts demo which will walk through the process of setting up your own portal.
 
 In terms of spee.ch site performance, the publishing function has been running without a hitch over the last 2 weeks after the team implemented a few patches to deal with wallet issues. Currently, publishes take about 15-20 seconds but we are hoping to get that number close to 5 seconds with additional refactoring and enhancements to the publishing process.
 
@@ -76,14 +76,14 @@ The first deals with how [case sensitivity is treated](https://github.com/lbryio
 The next change deals with [claim expiration](https://github.com/lbryio/lbrycrd/pull/112). When the original LBRY blockchain was launched, we thought it was a good idea for claims to expire after some amount of time (currently at 1.5 years) but after we gave it additional thought and based on feedback we've received, we want to remove the claim expiration completely. This significantly reduces administrative overhead on the blockchain, otherwise, expired claims would need to be renewed every 1.5 years which can be troublesome in certain situations (i.e. wallet isn't always online, wallet was lost). If you have a really early LBRY claim that has expired, LBRY will renew them automatically and can send them to you upon your request - feel free to reach out to us at via [email](mailto:help@lbryio).
 
 # Community Happenings {#com-updates}
-If you aren't part of our Discord community yet, [join us](https://chat.lbry.io) anytime and say hello! Our community allows LBRYians to interact with the team directly and for us to engage users in order to grow the LBRY platform.
+If you aren't part of our Discord community yet, [join us](https://chat.lbry.com) anytime and say hello! Our community allows LBRYians to interact with the team directly and for us to engage users in order to grow the LBRY platform.
 
 ### Roadmap Check-in
-The Q1 coming to a close, we wanted to provide an update on our [roadmap objectives](https://lbry.io/roadmap).
+The Q1 coming to a close, we wanted to provide an update on our [roadmap objectives](/roadmap).
 
 The [YouTube Sync partner program is live and getting feedback from testers, see additional information below](#youtube-updates).
 
-The Meetup program has also been launched on our [Meet](https://lbry.io/meet) and [College](https://lbry.io/college) landing pages, see [below for more information](#meetup-update).
+The Meetup program has also been launched on our [Meet](/meet) and [College](/college) landing pages, see [below for more information](#meetup-update).
 
 Significant progress has been made on the white paper and a first draft is very close to being shared publicly. It will be released as a navigational document, in an in-progress state, on our new LBRY.tech (not live yet) developer resource site and we'll be asking the community for their feedback.
 
@@ -96,14 +96,14 @@ And last but not least, the Search algorithm has undergone a number of optimizat
 A quick check-in on Q2 items shows that we are ahead of schedule with Android alpha being launched and progress being made on LBRY.tech. Also, the ability to share free content on HTML websites via the new spee.ch sharing feature is mentioned in the [features update above](#features-update).
 
 ### LBRY Merchandise Store
-Come visit our newly upgraded merchandise store! Following the launch in February, we've moved our swag shop to a new, easy to remember URL: [https://shop.LBRY.io](https://shop.lbry.io). New t-shirt designs and products are frequently added, so please be sure to stop by! We're very excited to offer some fresh items designed by our new marketing intern James Biller - if you like what you see, give him a shout out on [Twitter](https://twitter.com/BillerJames)!
+Come visit our newly upgraded merchandise store! Following the launch in February, we've moved our swag shop to a new, easy to remember URL: [https://shop.LBRY.io](https://shop.lbry.com). New t-shirt designs and products are frequently added, so please be sure to stop by! We're very excited to offer some fresh items designed by our new marketing intern James Biller - if you like what you see, give him a shout out on [Twitter](https://twitter.com/BillerJames)!
 
 Help us grow our community and get the word out about LBRY: We will tip LBC if you tag us (@LBRYio) on Twitter or Facebook with a picture of you rocking LBRY swag. Please upload it to spee.ch and share the post on Discord or Reddit to claim your reward. Thanks for your support in spreading LBRY love!
 
 ### YouTube Sync Update {#youtube-updates}
-We've re-launched our [Youtube Sync](https://lbry.io/youtube) campaign under a new design, process and Rewards system that allows YouTubers, who meet our subscriber requirements, to sync their content to LBRY within a few clicks. Once the creator is queued, they can claim their sync Reward in the LBRY app by signing in with the same email as their sync status page. The program launched as a pilot with our internal Discord community/targeted YouTubers and will continue expanding to a full fledged outreach on Social media and other direct targeting. The LBC rewards mentioned below are a first trial run and may increase depending on feedback.
+We've re-launched our [Youtube Sync](/youtube) campaign under a new design, process and Rewards system that allows YouTubers, who meet our subscriber requirements, to sync their content to LBRY within a few clicks. Once the creator is queued, they can claim their sync Reward in the LBRY app by signing in with the same email as their sync status page. The program launched as a pilot with our internal Discord community/targeted YouTubers and will continue expanding to a full fledged outreach on Social media and other direct targeting. The LBC rewards mentioned below are a first trial run and may increase depending on feedback.
 
-The most common issue creators run into, especially those who have used the LBRY app prior to going through the sync process, is that their YouTube channel email is mismatched with the LBRY app email. This will require a manual fix by emailing [our Helpdesk](mailto:help@lbry.io) at the moment, but we hope to straighten this out automatically in the coming weeks. Having trouble or want to find out more? First make sure to check out our [FAQ page](https://lbry.io/faq/youtube) or you can email [Reilly](mailto:reilly@lbry.io) with any specific sync questions that aren't covered.
+The most common issue creators run into, especially those who have used the LBRY app prior to going through the sync process, is that their YouTube channel email is mismatched with the LBRY app email. This will require a manual fix by emailing [our Helpdesk](mailto:help@lbry.com) at the moment, but we hope to straighten this out automatically in the coming weeks. Having trouble or want to find out more? First make sure to check out our [FAQ page](/faq/youtube) or you can email [Reilly](mailto:reilly@lbry.com) with any specific sync questions that aren't covered.
 
 ![YouTube Rewards](https://spee.ch/b/youtube-program.png)
 
@@ -123,22 +123,22 @@ For example, a new user will join with access to the #general, #help and #verifi
 This will also give us the ability to better identify and communicate with groups of users on a particular topic - now we can go into the mining channel and do an @here announcement which will only be sent to users in that channel, whereas right now that includes everyone on the server!
 
 ### Want to Run a Spee.ch Clone or Web Server Hosting LBRY Content? {#speech-host}
-LBRY is looking for users or communities that are interested in hosting a spee.ch like website or even a web portal into their own LBRY content (think of this as your own local YouTube page!). We would be more than happy to walk you through the process which would include customization and tweaking it to your liking! Does this sound interesting to you or maybe someone you know? Sign up on or share our [spee.ch admin mailing list](https://lbry.io/speech-admin) to be notified when LBRY will host a Google Play demo session of getting a server setup.
+LBRY is looking for users or communities that are interested in hosting a spee.ch like website or even a web portal into their own LBRY content (think of this as your own local YouTube page!). We would be more than happy to walk you through the process which would include customization and tweaking it to your liking! Does this sound interesting to you or maybe someone you know? Sign up on or share our [spee.ch admin mailing list](/speech-admin) to be notified when LBRY will host a Google Play demo session of getting a server setup.
 
 We are also looking for communities, subreddits and websites that could make use of spee.ch's image sharing features. This includes researching plugins to applications like Wordpress that would make such an integration easier for users. If you know any that might benefit, drop us a line on Discord.
 
-[![speech](https://spee.ch/b/speech-fork.jpeg)](https://lbry.io/speech-admin)
+[![speech](https://spee.ch/b/speech-fork.jpeg)](/speech-admin)
 
 ### Favorite Creators Contest in Discord
 We recently reached out to [Isaac Arthur](https://www.youtube.com/channel/UCZFipeZtQM5CKUjx6grh54g), with a 10K LBC bounty (plus YouTube rewards at 5K LBC), as he was the most up-voted in our Favorite Creators contest on Discord. We will give Mr. Arthur a few days to respond and then try reaching out a 2nd time and final time. If we don't hear back, we'll move onto the 2nd most voted channel which is [VetRanch](https://www.youtube.com/user/VetRanch).
 
 ### New Bounties Channel in Discord
-We've created a new channel for bounty and task announcements. In addition to announcing new [bounty page listings,](https://lbry.io/bounty) we also occasionally post smaller tasks exclusively in the #bounties channel. These tasks are a great way to get involved with the LBRY project and earn a few LBC. Research, transcription, and content posting are all good examples of small tasks.
+We've created a new channel for bounty and task announcements. In addition to announcing new [bounty page listings,](/bounty) we also occasionally post smaller tasks exclusively in the #bounties channel. These tasks are a great way to get involved with the LBRY project and earn a few LBC. Research, transcription, and content posting are all good examples of small tasks.
 
 ### Meetups and College Campus Initiatives - Get Involved! {#meetup-update}
-Big shout out to LBRY Ambassador @bounboun on Discord for demonstrating LBRY at various meetups in France, including this one in Strasbourg to over one hundred blockchain enthusiasts. Due to positive response, we now have a French language channel ([#en-français](https://chat.lbry.io)) in our Discord. Bienvenue! Come visit and join our community!
+Big shout out to LBRY Ambassador @bounboun on Discord for demonstrating LBRY at various meetups in France, including this one in Strasbourg to over one hundred blockchain enthusiasts. Due to positive response, we now have a French language channel ([#en-français](https://chat.lbry.com)) in our Discord. Bienvenue! Come visit and join our community!
 
-Does free speech matter to you? Would you like to get involved with cutting edge blockchain technology and earn a few cryptocoins in the process? We are [looking for ambassadors](https://lbry.io/meet) to spread the word on college campuses and at live blockchain or video related meetups - if you'd like to bring LBRY to your group, we'll help you with resources, swag, and LBC for your members!
+Does free speech matter to you? Would you like to get involved with cutting edge blockchain technology and earn a few cryptocoins in the process? We are [looking for ambassadors](/meet) to spread the word on college campuses and at live blockchain or video related meetups - if you'd like to bring LBRY to your group, we'll help you with resources, swag, and LBC for your members!
 
 ![Crypto Alsace Meetup in Strasbourg, France](https://spee.ch/1/MeetUpAlsaCryptoLBRY1.jpeg)
 
@@ -152,4 +152,4 @@ Some of our developers are working on blog posts based on their experiences work
 
 [Back to **Development Updates**](#dev-updates)
 
-Thanks for supporting LBRY - stay tuned for more news and updates! And if you haven't downloaded the [LBRY app](https://lbry.io/get?auto=1) yet, what are you waiting for?
+Thanks for supporting LBRY - stay tuned for more news and updates! And if you haven't downloaded the [LBRY app](/get?auto=1) yet, what are you waiting for?

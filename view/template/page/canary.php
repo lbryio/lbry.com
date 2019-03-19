@@ -19,7 +19,7 @@
 
       <p>The date on this page will be updated every 3 months.</p>
 
-      <p>You can view the source code and revision history of this page <a href="https://github.com/lbryio/lbry.io/commits/master/view/template/page/canary.php" class="link-primary">here</a>.</p>
+      <p>You can view the source code and revision history of this page <a href="https://github.com/lbryio/lbry.com/commits/master/view/template/page/canary.php" class="link-primary">here</a>.</p>
 
       <p>To receive an automated update when this file changes, try <a href="http://www.changedetection.com/" class="link-primary">changedetection.com</a>.</p>
     </div>

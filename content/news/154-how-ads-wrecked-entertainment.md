@@ -18,7 +18,7 @@ How did we get here? How can people who are so widely disliked remain at the cen
 
 # The Day The Ad Men Came
 
-**NOTE:** For a quick overview of the history of entertainment from the Stone Age to the Victorian Age, [read this](https://lbry.io/news/the-birth-of-entertainment).
+**NOTE:** For a quick overview of the history of entertainment from the Stone Age to the Victorian Age, [read this](/news/the-birth-of-entertainment).
 
 It's 1948.
 
@@ -120,4 +120,4 @@ If you follow even one of these steps, you're already making the world better fo
 
 **WARNING: SHAMELESS SELF-PROMOTION AHEAD**
 
-At [LBRY](https://lbry.io), we're betting on the idea that patron-supported art will be more satisfying to its intended audience and offer greater and more sustainable rewards to creators. If you want to help us build one of those uncharted territories for creators who are looking for a different way to share their work, [download our app](https://lbry.io/get) and let us know what you think.
+At [LBRY](https://lbry.com), we're betting on the idea that patron-supported art will be more satisfying to its intended audience and offer greater and more sustainable rewards to creators. If you want to help us build one of those uncharted territories for creators who are looking for a different way to share their work, [download our app](/get) and let us know what you think.

@@ -1,7 +1,7 @@
 ---
 name: Liam Cardenas
 role: App Developer
-email: liam@lbry.io
+email: liam@lbry.com
 twitter: ljcio
 github: liamcardenas
 ---

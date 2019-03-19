@@ -4,7 +4,7 @@ title: Jack Robison Escaped 60 Years in Prison; Now He's Revolutionizing the Int
 date: '2015-12-31 17:10:59'
 ---
 
-Today, we officially announce the addition of Jack Robison to the [LBRY team](https://lbry.io/team) as Core Developer. Jack has been working on the project for some time, and we thought it was about time to recognize his growing role.
+Today, we officially announce the addition of Jack Robison to the [LBRY team](/team) as Core Developer. Jack has been working on the project for some time, and we thought it was about time to recognize his growing role.
 
 <p style="text-align: center;"><img src="https://spee.ch/@lbryteam:6/jack-robison.jpg" alt="Jack Robison, LBRY Core Developer"></p>
 

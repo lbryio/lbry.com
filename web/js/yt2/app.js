@@ -54,7 +54,7 @@ App.prototype._onLoad = function() {
 App.prototype._getDataFromCoinMarketCap = function(e) {
     this._xhr = new XMLHttpRequest();
     this._xhr.addEventListener('readystatechange',this._onReadyStateChange.bind(this),false);
-    this._xhr.open('GET','https://api.lbry.io/lbc/exchange_rate');
+    this._xhr.open('GET','https://api.lbry.com/lbc/exchange_rate');
     this._xhr.send();
 };
 

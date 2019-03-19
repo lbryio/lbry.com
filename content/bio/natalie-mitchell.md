@@ -1,7 +1,7 @@
 ---
 name: Natalie Mitchell
 role: Former Director of Growth and Branding
-email: natalie@lbry.io
+email: natalie@lbry.com
 twitter: blockchainbandi
 github: blckchnprncss
 ---

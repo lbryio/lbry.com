@@ -72,6 +72,6 @@ In other words, where and how you do business is up to you, not YouTube and its 
 
 The LBRY Economy draws upon true demand for content, rather than conflating the demands of advertisers with that of consumers. Direct support of content creators from their fans is best for both creators and their fans.
 
-So, what are you waiting for? [Download the LBRY App here](https://lbry.io/get) today and take back control.
+So, what are you waiting for? [Download the LBRY App here](/get) today and take back control.
 
-Know a YouTuber who's starting out or already has a large following? Let them know about [our YouTube sync program](https://lbry.io/youtube) where they can earn just for agreeing to make their channel available on LBRY.
+Know a YouTuber who's starting out or already has a large following? Let them know about [our YouTube sync program](/youtube) where they can earn just for agreeing to make their channel available on LBRY.

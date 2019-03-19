@@ -5,7 +5,7 @@ date: '2017-10-30 00:15:32'
 cover: ''
 ---
 
-[Spee.ch](http://spee.ch), the only safe way to share your memes and GIFs, [is live today](https://lbry.io/news/always-gif-responsibly)! The meme dream can turn into a nightmare when centralized services take your content - that's why we're rewarding Spee.ch users who #MemeSafe!
+[Spee.ch](http://spee.ch), the only safe way to share your memes and GIFs, [is live today](/news/always-gif-responsibly)! The meme dream can turn into a nightmare when centralized services take your content - that's why we're rewarding Spee.ch users who #MemeSafe!
 
 ### There are two ways to join the party:
 
@@ -25,4 +25,4 @@ cover: ''
 
 That's it! No purchase necessary. The deadline for entries is 11:59 PM PT on Sunday, November 5, 2017. If you are a winner on Twitter, we will DM you to get your wallet address and send your rewards.
 
-Finally, in case you are a government agent tasked with the legal enforcement of contents and/or just like fine print, here are our [giveaway terms and conditions](https://lbry.io/faq/contest-t-and-cs).
+Finally, in case you are a government agent tasked with the legal enforcement of contents and/or just like fine print, here are our [giveaway terms and conditions](/faq/contest-t-and-cs).

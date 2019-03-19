@@ -1,5 +1,5 @@
 <div class="spacer1">
-  <a href="https://chat.lbry.io" class="link-primary">
+  <a href="https://chat.lbry.com" class="link-primary">
     <span class="icon-comments icon-fw"></span>
     <span class="btn-label">Discord Chat</span>
   </a>

@@ -4,7 +4,7 @@ title: As Reddit Burns, It Powers The World
 date: '2015-06-11 11:34:52'
 ---
 
-As part of a company, [LBRY](https://lbry.io), that cares passionately about the freedom of information (in both the beer and information sense), I find myself incapable of keeping my mouth shut about what's going on at [reddit.com](http://reddit.com).
+As part of a company, [LBRY](https://lbry.com), that cares passionately about the freedom of information (in both the beer and information sense), I find myself incapable of keeping my mouth shut about what's going on at [reddit.com](http://reddit.com).
 
 Yesterday, reddit.com [announced](https://www.reddit.com/r/announcements/comments/39bpam/removing_harassing_subreddits) that they were banning five communities on the grounds of harassment.
 
@@ -14,7 +14,7 @@ Today, these are the top 10 posts on /r/all:
 
 Perhaps my favorite internet moment ever has been given the indecently bland Wikipedia title of [AACS encryption key controversy](http://en.wikipedia.org/wiki/AACS_encryption_key_controversy). For the kids, non-nerds, and amnesiac nerds, a synopsis: the movie industry subpoenaed Digg to remove any references to the number **09 F9 11 02 9D 74 E3 5B D8 41 56 C5 63 56 88 C0** on the grounds that the number could be used to decrypt DVDs. Digg complied. Users revolted. The front page of Digg looked a lot like /r/all, except full of hexadecimal digits instead of fat people and swastikas.
 
-Watching the everyman rebel against censorship and control brought tears to my eyes. It was an absolute inspiration. Astute eyes can find a tiny free speech flag in [our footer ](https://lbry.io/why).
+Watching the everyman rebel against censorship and control brought tears to my eyes. It was an absolute inspiration. Astute eyes can find a tiny free speech flag in [our footer ](/why).
 
 Calling Ellen Pao a Nazi and posting pictures of fat people has not made me cry.
 

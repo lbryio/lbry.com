@@ -65,9 +65,9 @@ page:
     you:
       header: Você
       title: Desenvolvedor, <i>Designer</i>, Economista, Marqueteiro, Investidor, ???
-      parag1: Você acredita que facilitar o acesso à informação promoveria o desenvolvimento humano? Você quer entrar para um núcleo de pessoas brilhantes obcecadas por arrasar sistemas obsoletos? <a href="mailto:jeremy@lbry.io" class="link-primary">Diga oi.</a>
+      parag1: Você acredita que facilitar o acesso à informação promoveria o desenvolvimento humano? Você quer entrar para um núcleo de pessoas brilhantes obcecadas por arrasar sistemas obsoletos? <a href="mailto:jeremy@lbry.com" class="link-primary">Diga oi.</a>
       advheader: Conselheiro Técnico ou de MídiaA
-      advtext: O LBRY busca um conselheiro técnico extremamente experiente ou um consultor com uma trajetória robusta em mídia e editoração. Se você é essa pessoa, ou se tem uma sugestão, <a href="mailto:jeremy@lbry.io?subject=Advisor" class="link-primary">escreva para a gente</a>.
+      advtext: O LBRY busca um conselheiro técnico extremamente experiente ou um consultor com uma trajetória robusta em mídia e editoração. Se você é essa pessoa, ou se tem uma sugestão, <a href="mailto:jeremy@lbry.com?subject=Advisor" class="link-primary">escreva para a gente</a>.
     advisory: Time de Conselheiros
     alex:
       title: Conselheiro Econômico

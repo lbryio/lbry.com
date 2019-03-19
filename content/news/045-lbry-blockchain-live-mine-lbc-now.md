@@ -4,7 +4,7 @@ title: 'Come and Get 'Em! LBRY Credits Now Available to Mine'
 date: '2016-06-29 00:09:00'
 ---
 
-Guess what? The LBRY blockchain is now LIVE, and anyone can begin mining LBRY credits (LBC)! At this point, LBC are only mineable by CPU on OS X and Ubuntu. You can get started here: [How do I mine LBRY credits?](https://lbry.io/faq/mining-credits)
+Guess what? The LBRY blockchain is now LIVE, and anyone can begin mining LBRY credits (LBC)! At this point, LBC are only mineable by CPU on OS X and Ubuntu. You can get started here: [How do I mine LBRY credits?](/faq/mining-credits)
 
 **Genesis Block**
 
@@ -14,7 +14,7 @@ LBRY's genesis block contains 400 million LBC that are reserved for LBRY develop
 * 20% for adoption programs. We'll be giving out lots of bonus credits, especially in the early days of LBRY, in order to encourage participation. We will also look to award credits broadly, ensuring the marketplace is egalitarian.
 * 10% for LBRY, for operational costs as well as profit.
 
-The final 60% is waiting for YOU! These remaining LBC don't yet exist and can be mined by anyone. You can see [how much has already been mined here](https://explorer.lbry.io).
+The final 60% is waiting for YOU! These remaining LBC don't yet exist and can be mined by anyone. You can see [how much has already been mined here](https://explorer.lbry.com).
 
 Eventually, 1,000,000,000 LBC will exist, according to a defined schedule over 20 years. The schedule decays exponentially, with around 100,000,000 mineable in the first year.
 
@@ -29,6 +29,6 @@ Block rewards will remain intentionally low for a short period of time, then inc
 
 **Questions?**
 
-[Join our Discord chat](http://chat.lbry.io) to talk with the team about the technical details.
+[Join our Discord chat](http://chat.lbry.com) to talk with the team about the technical details.
 
 Also – you don't have to mine LBC to get involved in LBRY and earn your credits! Let us know what you can offer – from testing/developing our code to uploading your own original films/songs/books/etc.

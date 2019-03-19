@@ -30,4 +30,4 @@ The first grant recipient will be LBRY-C, a decentralized community organization
 
 Interested groups and individuals can apply for grant funding at [LBRY.fund](https://lbry.fund). Developers, content creators, marketers, and anyone who thinks they have something unique and compelling to offer are all welcome. The LBRY.fund grant program will accept applications on a rolling basis, and there is no deadline for application.
 
-LBRY Inc. is the creator of the LBRY protocol, a blockchain-based, peer to peer method for devices to communicate and discover verified versions of any kind of digital media, anywhere in the world. They've also built the [LBRY app](https://lbry.io/get), a desktop viewer for content on the LBRY network, as the first implementation of their new protocol.
+LBRY Inc. is the creator of the LBRY protocol, a blockchain-based, peer to peer method for devices to communicate and discover verified versions of any kind of digital media, anywhere in the world. They've also built the [LBRY app](/get), a desktop viewer for content on the LBRY network, as the first implementation of their new protocol.

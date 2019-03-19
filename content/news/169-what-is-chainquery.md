@@ -51,8 +51,8 @@ Additionally, at least for now, we've provided a public, readonly MySQL server y
 
 Get the latest block information:
 
-[https://chainquery.lbry.io/api/sql?query=SELECT * FROM block ORDER BY height DESC LIMIT 1](https://chainquery.lbry.io/api/sql?query=SELECT%20*%20FROM%20block%20ORDER%20BY%20height%20DESC%20LIMIT%201)
+[https://chainquery.lbry.com/api/sql?query=SELECT * FROM block ORDER BY height DESC LIMIT 1](https://chainquery.lbry.com/api/sql?query=SELECT%20*%20FROM%20block%20ORDER%20BY%20height%20DESC%20LIMIT%201)
 
 Get all claims and their details for the name "lbry":
 
-[https://chainquery.lbry.io/api/sql?query=SELECT * FROM claim WHERE name = "lbry"](https://chainquery.lbry.io/api/sql?query=SELECT%20*%20FROM%20claim%20WHERE%20name%20=%20%27lbry%27)
+[https://chainquery.lbry.com/api/sql?query=SELECT * FROM claim WHERE name = "lbry"](https://chainquery.lbry.com/api/sql?query=SELECT%20*%20FROM%20claim%20WHERE%20name%20=%20%27lbry%27)

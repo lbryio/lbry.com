@@ -6,7 +6,7 @@ date: '2017-07-31 13:31:31'
 
 ## Starting immediately, anyone can watch awesome stuff on LBRY and earn free rewards.
 
-_Want to avoid icky words and just install LBRY, laugh at things, and earn your magic internet credits? [Go here](https://lbry.io/get)._
+_Want to avoid icky words and just install LBRY, laugh at things, and earn your magic internet credits? [Go here](/get)._
 
 ### The Journey
 
@@ -42,7 +42,7 @@ In fact, that's the whole point of this post!
 
 Starting today, anyone that downloads and runs the LBRY browser can access the great content already on the network and earn LBRY credits for doing so.
 
-The LBRY browser runs on all major desktop operating systems. To get it, go [here](https://lbry.io/get).
+The LBRY browser runs on all major desktop operating systems. To get it, go [here](/get).
 
 So, why aren't we shouting a bit more about this?
 
@@ -54,11 +54,11 @@ After joining the beta, you'll also receive a weekly email, mentioning the great
 
 _Open beta users can access weekly featured content and earn rewards._
 
-Ready to download? [Get LBRY here](https://lbry.io/get).
+Ready to download? [Get LBRY here](/get).
 
 ### Invites for your Community
 
-We want to get LBRY credits into the hands of users and communities that support content freedom. If you are part of a community that would find LBRY useful or interesting, we can offer invites to the rewards program for your community that does not require full identity verification. Interested? [Say hello here](mailto:hello@lbry.io).
+We want to get LBRY credits into the hands of users and communities that support content freedom. If you are part of a community that would find LBRY useful or interesting, we can offer invites to the rewards program for your community that does not require full identity verification. Interested? [Say hello here](mailto:hello@lbry.com).
 
 ### One More Bonus
 

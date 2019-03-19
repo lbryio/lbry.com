@@ -4,7 +4,7 @@ title: 'Latest LBRY App Adds New First Run, Wallet, Invites, Rewards and More'
 date: '2017-08-31 15:19:00'
 ---
 
-The latest LBRY app, v0.15 and the first update since open beta, is now available. [**Get it here**](https://lbry.io/get).
+The latest LBRY app, v0.15 and the first update since open beta, is now available. [**Get it here**](/get).
 
 ## Release Notes
 

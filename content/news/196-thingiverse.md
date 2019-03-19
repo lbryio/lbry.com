@@ -26,4 +26,4 @@ One thing you won’t find on Thingiverse is any designs for weapons or firearms
 
 ## Are There Other Options For 3D Printing Enthusiasts?
 
- If Thingiverse’s policies rub you the wrong way, you can always post and find 3D printable files on the world’s only truly decentralized digital marketplace, LBRY! [Download the app now](http://lbry.io/get) and give it a try.
+ If Thingiverse’s policies rub you the wrong way, you can always post and find 3D printable files on the world’s only truly decentralized digital marketplace, LBRY! [Download the app now](http://lbry.com/get) and give it a try.

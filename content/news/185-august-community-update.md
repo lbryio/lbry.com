@@ -17,9 +17,9 @@ The next Development report will be posted towards the end of the month. Now, on
 * [Roadmap](#roadmap)
 * [YouTube Sync Update](#youtube-updates)
 
-To read all of our previous updates, please visit our [Development and Community Update archive](https://lbry.io/news/category/community-update).
+To read all of our previous updates, please visit our [Development and Community Update archive](/news/category/community-update).
 
-If you want to see a condensed view of what we have completed recently and what's planned for LBRY, check out our [roadmap](https://lbry.io/roadmap).
+If you want to see a condensed view of what we have completed recently and what's planned for LBRY, check out our [roadmap](/roadmap).
 
 # LBRY for Android launches! {#lbry-android}
 
@@ -27,10 +27,10 @@ If you want to see a condensed view of what we have completed recently and what'
 >
 > — LBRY (we never give away ETH) (@LBRYio) [September 19, 2018](https://twitter.com/LBRYio/status/1042399927345860608)
 
-We've passed a major milestone on our [roadmap](https://lbry.io/roadmap) with the release of the LBRY mobile app to open beta! [Get the app for Android here.](https://play.google.com/store/apps/details?id=io.lbry.browser) For more details about other accomplishments, scroll down for full [roadmap update.](#roadmap)
+We've passed a major milestone on our [roadmap](/roadmap) with the release of the LBRY mobile app to open beta! [Get the app for Android here.](https://play.google.com/store/apps/details?id=io.lbry.browser) For more details about other accomplishments, scroll down for full [roadmap update.](#roadmap)
 
 # Community Happenings {#com-updates}
-If you aren't part of our Discord community yet, [join us](https://chat.lbry.io) anytime and say hello! Our community allows LBRYians to interact with the team directly and for us to engage users in order to grow the LBRY platform. Also follow us on [Twitter](https://twitter.com/lbryio), [Facebook](https://facebook.com/lbryio), [Reddit](https://www.reddit.com/r/lbry), [Instagram](https://www.instagram.com/lbryio), and [Telegram](https://t.me/lbryofficial).
+If you aren't part of our Discord community yet, [join us](https://chat.lbry.com) anytime and say hello! Our community allows LBRYians to interact with the team directly and for us to engage users in order to grow the LBRY platform. Also follow us on [Twitter](https://twitter.com/lbryio), [Facebook](https://facebook.com/lbryio), [Reddit](https://www.reddit.com/r/lbry), [Instagram](https://www.instagram.com/lbryio), and [Telegram](https://t.me/lbryofficial).
 
 ### Events {#events}
 
@@ -69,24 +69,24 @@ Our friends David Heath and Mike Little have been hard at work putting the final
 ![FONK World](https://spee.ch/b/fonk)
 
 #### LBRY Pi TV:
-While our Dev team has been focused on bringing LBRY to small screens, [Discord](https://chat.lbry.io) user Madiator2011 has been working a plug and play device to view LBRY video content on television. At its core, the device uses a Raspberry Pi computer to stream LBRY videos. You can download the most recent version of [LBRY Pi TV here.](https://lbrypi.com/downloads).
+While our Dev team has been focused on bringing LBRY to small screens, [Discord](https://chat.lbry.com) user Madiator2011 has been working a plug and play device to view LBRY video content on television. At its core, the device uses a Raspberry Pi computer to stream LBRY videos. You can download the most recent version of [LBRY Pi TV here.](https://lbrypi.com/downloads).
 
 ![LBRYPi.com and device](https://spee.ch/d/lbrypi-com)
 
 ![CryptoCandor on TV](https://spee.ch/3/LBRYPi-tv)
 
 #### Matt Sokol's _The Book Boutique_
-Musician and LBRY contributor Matt Sokol approached us with a unique LBRY.fund request: he asked us to fund him to work on a special project using a custom [Spee.ch Multisite](https://github.com/lbryio/spee.ch) installation to host beautifully typeset classical books. The first book he is working on is the classic, _Siddhartha._ Meanwhile, if you'd like to hear some of Matt's music, you can find it on the LBRY app: [lbry://@heymattsokol.](https://open.lbry.io/@heymattsokol)
+Musician and LBRY contributor Matt Sokol approached us with a unique LBRY.fund request: he asked us to fund him to work on a special project using a custom [Spee.ch Multisite](https://github.com/lbryio/spee.ch) installation to host beautifully typeset classical books. The first book he is working on is the classic, _Siddhartha._ Meanwhile, if you'd like to hear some of Matt's music, you can find it on the LBRY app: [lbry://@heymattsokol.](https://open.lbry.com/@heymattsokol)
 
 Do you have an idea for a project using or promoting the LBRY Protocol? We may pay you to create your vision. [Visit LBRY.fund for details](https://lbry.fund).
 
 ![LBRY.fund](https://spee.ch/2/lbry-fund.png)
 
 ### Roadmap Check-in {#roadmap}
-We've passed a major milestone on our [roadmap](https://lbry.io/roadmap) with the release of the LBRY mobile app to open beta! We've also implemented wallet encryption inside the LBRY Desktop app and significantly improved content hosting - two more items checked off the list. We'll most likely need to shuffle around some of the other scheduled items based on new priorities and current workload, so stay tuned for an update in next month's community report.
+We've passed a major milestone on our [roadmap](/roadmap) with the release of the LBRY mobile app to open beta! We've also implemented wallet encryption inside the LBRY Desktop app and significantly improved content hosting - two more items checked off the list. We'll most likely need to shuffle around some of the other scheduled items based on new priorities and current workload, so stay tuned for an update in next month's community report.
 
 ### LBRY is hiring!
-[Come join team Content Freedom!](https://lbry.io/join-us) We have the following positions open: Blockchain Engineer, Protocol Engineer, and API Engineer. We'd love for you to join us, or if you have a friend you think would be interested, we pay a $5,000 bounty if we hire them.
+[Come join team Content Freedom!](/join-us) We have the following positions open: Blockchain Engineer, Protocol Engineer, and API Engineer. We'd love for you to join us, or if you have a friend you think would be interested, we pay a $5,000 bounty if we hire them.
 
 ### Youtube Sync Updates {#youtube-updates}
 
@@ -104,8 +104,8 @@ The system is now automatically syncing new channels and keeping all the previou
 During the next month we expect to be clearing up the whole backlog, additionally all the UC Berkeley content will be restored on LBRY!
 
 # Want to develop on the LBRY protocol?
-All of our code is open source and available on [GitHub](https://github.com/lbryio). Are you a developer and want to find out more? Check out our [general contributing guide](https://lbry.io/faq/contributing) and our LBRY App specific contributing [document](https://github.com/lbryio/lbry-app/blob/master/CONTRIBUTING.md). Please be patient with us while we improve our technical documentation. In the next few weeks we'll be releasing [lbry.tech](#lbry-tech), a technical reference / guide website which will be developer and contributor focused to drive more apps and services on top of LBRY.
+All of our code is open source and available on [GitHub](https://github.com/lbryio). Are you a developer and want to find out more? Check out our [general contributing guide](/faq/contributing) and our LBRY App specific contributing [document](https://github.com/lbryio/lbry-app/blob/master/CONTRIBUTING.md). Please be patient with us while we improve our technical documentation. In the next few weeks we'll be releasing [lbry.tech](#lbry-tech), a technical reference / guide website which will be developer and contributor focused to drive more apps and services on top of LBRY.
 
 [Back to **Development Updates**](#dev-updates)
 
-Thanks for supporting LBRY - stay tuned for more news and updates! And if you haven't downloaded the [LBRY app](https://lbry.io/get?auto=1) yet, what are you waiting for?
+Thanks for supporting LBRY - stay tuned for more news and updates! And if you haven't downloaded the [LBRY app](/get?auto=1) yet, what are you waiting for?

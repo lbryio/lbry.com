@@ -23,4 +23,4 @@ Free your voice while being delightfully entertaining. Censored Gaming and LBRY 
 
 Support Censored Gaming on Patreon right here: https://www.patreon.com/CensoredGaming
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Feeling censored and want to stretch your expression a bit more? Email [reilly@lbry.io](mailto:reilly@lbry.io) for a ride on the wild side of publishing.
+**Not on LBRY yet?** [Get an invite here](/get). Feeling censored and want to stretch your expression a bit more? Email [reilly@lbry.com](mailto:reilly@lbry.com) for a ride on the wild side of publishing.

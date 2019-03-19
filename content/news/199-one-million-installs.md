@@ -14,7 +14,7 @@ That’s a pretty major accomplishment.
 
 That was Phase One, and if you’ve been with us for that phase it is time to pat yourself on the back and take a breath, because this is going to be a crazy year.
 
-[2019 is the Year of One Million Installs.](https://lbry.io/get)
+[2019 is the Year of One Million Installs.](/get)
 
 To put it in perspective, so far we’ve had 200,000 installs.
 
@@ -24,13 +24,13 @@ To succeed, it needs to grow, and it needs to grow fast.
 
 ##What can you do to help?##
 
-[Install the app, if you haven’t already.](https://lbry.io/get)
+[Install the app, if you haven’t already.](/get)
 
 If you have already installed the app, go send an invite to a few friends. There are rewards for when your friends follow your link. We will be expanding that heavily.
 
 The more you use the app and the deeper you go into the community, the better chance we all have of winning.
 
-[If you like to hang out on Discord, there are a lot of people doing that.](https://chat.lbry.io)
+[If you like to hang out on Discord, there are a lot of people doing that.](https://chat.lbry.com)
 
 [Are you into Reddit? Close to 5,000 LBRYians are over there, hanging out.](https://www.reddit.com/r/lbry/)
 
