@@ -1,1 +1,1 @@
-<svg id="play-plain" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 200"><title>play-plain</title><polygon points="0 0 0 200 180 100 0 0"/></svg>
+<svg viewBox="0 0 180 200" xmlns="http://www.w3.org/2000/svg"><path d="m0 0v200l180-100z"/></svg>

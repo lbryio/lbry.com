@@ -1,0 +1,13 @@
+.news-items {
+  padding-left: 1.5rem;
+}
+
+.news-item {
+  &:not(:last-of-type) {
+    margin-bottom: 1.5rem;
+  }
+
+  small {
+    display: block;
+  }
+}

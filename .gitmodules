@@ -1,0 +1,6 @@
+[submodule "web/components"]
+	path = web/components
+	url = https://github.com/lbryio/components
+[submodule "web/scss/color"]
+	path = web/scss/color
+	url = https://github.com/lbryio/color

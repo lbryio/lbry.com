@@ -1,6 +1,6 @@
 <?php Response::setMetaDescription($metadata['title']) ?>
 <?php NavActions::setNavUri('/learn') ?>
-<?php echo View::render('nav/_header') ?>
+
 <main>
   <div class="post-content">
     <div class="meta">
@@ -42,4 +42,3 @@
     </section>
   </div>
 </main>
-<?php echo View::render('nav/_footer', ['showLearnFooter' => true]) ?>

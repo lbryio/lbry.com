@@ -2,7 +2,8 @@
 title: How is LBRY different from Decent / SingularDTV / Alexandria?
 category: differences
 ---
-The first and biggest difference is that LBRY exists and has significant traction. As of this writing, Alexandria is the only one of these to release a client to the public, and there hasn’t been much progress since that release.
+
+The first and biggest difference is that LBRY exists and has significant traction. As of this writing, Alexandria is the only one of these to release a client to the public, and there hasn't been much progress since that release.
 
 It's difficult to compare LBRY to something that doesn't exist yet, but as we understand it, no alternative is providing a human-friendly namespace and discovery mechanisms like LBRY.
 

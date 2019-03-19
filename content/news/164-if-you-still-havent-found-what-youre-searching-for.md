@@ -3,8 +3,10 @@ author: brinck-slattery
 title: 'If you still haven't found what you're searching for...'
 date: '2018-03-22 15:45:00'
 cover: 'wooden-letters-banner.jpg'
+category: update
 ---
-## Hello LBRYians! 
+
+## Hello LBRYians!
 
 **LBRY v0.21.2** is live, with some major updates to subscriptions and seriously improved search functionality.
 

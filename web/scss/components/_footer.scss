@@ -1,0 +1,42 @@
+.footer {
+  background-color: var(--lbry-black);
+  color: rgba($lbry-white, 0.5);
+  font-size: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 100%;
+
+  hr {
+    width: 100%; height: 1px;
+
+    background-color: rgba($lbry-white, 0.1);
+    border: none;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  li {
+    &.free-speech a {
+      @include hide-text;
+      width: 5rem; height: 3rem;
+
+      background-image: url("../img/flag-fs.svg");
+      background-repeat: no-repeat;
+      display: block;
+    }
+  }
+
+  a {
+    transition: color 0.2s;
+
+    &:not(:hover) {
+      color: var(--lbry-white);
+    }
+
+    &:hover {
+      color: var(--lbry-teal-3);
+    }
+  }
+}

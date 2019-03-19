@@ -3,6 +3,7 @@ author: brinck-slattery
 title: Bring a Friend to LBRY!
 date: '2019-2-5 15:00:00'
 cover: 'opensourcegames.jpg'
+category: content
 ---
 Have you been waiting for just the right time to tell your friends about LBRY? The newest version is faster, prettier, and full of more content than ever, and we have an extra cherry on top of the sundae for you - we’ve opened up [referral rewards](https://lbry.io/faq/referrals)! 
 

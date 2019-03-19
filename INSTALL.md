@@ -8,7 +8,7 @@ To run this project, you'll need to have either PHP7 or Docker installed, and be
 
 - Install [PHP7](http://php.net/downloads.php)
 - Possibly install additional PHP extensions: `curl`, `xml`, `mbstring`, `dom`
-- Checkout the project. Be sure to update submodules (`git submodule update --init`).
+- Checkout the project. Be sure to install/update submodules (`git submodule update --recursive --remote`).
 - Run `./dev.sh` from the project root
 - Access [localhost:8000](http://localhost:8000) in your browser
 

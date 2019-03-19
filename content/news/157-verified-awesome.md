@@ -3,8 +3,10 @@ author: brinck-slattery
 title: 'Verified Awesome'
 date: '2018-01-30 15:45:00'
 cover: ''
+category: update
 ---
-## Good news everyone! 
+
+## Good news everyone!
 
 LBRY v0.20 is live, and if you've been waiting in vain for verification, your day has finally come!
 

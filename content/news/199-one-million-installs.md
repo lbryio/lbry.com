@@ -3,6 +3,7 @@ author: 'rob-smith'
 title: 'Phase 2 Begins With You'
 date: '2019-01-22 8:00:00'
 cover: 'blog_nextphase.png'
+category: users
 ---
 #The Year Of One Million Installs#
 The LBRY community and team members hit all the targets for last year. You guys pulled off what many thought was impossible...

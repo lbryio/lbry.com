@@ -3,6 +3,7 @@ author: rob-smith
 title: 'Join The Revolt'
 date: '2019-1-7 8:00:00'
 cover: 'zucksafety.png'
+category: users
 ---
 #In 2019, Say “No” To The Robber Barons Of The Internet
 

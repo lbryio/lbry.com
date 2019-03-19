@@ -3,6 +3,7 @@ author: 'brinck-slattery'
 title: 'LBRY is turning 0.27.0'
 date: '2019-01-15 15:00:00'
 cover: 'bosch.jpg'
+category: update
 ---
 LBRY v0.27.0 is coming in hot with a whole new look! We've completed our redesign of the app - you can get a preview of our new look in the GIF below. Along with a faster, more stable network courtesy of [LBRY SDK 0.30.4](https://github.com/lbryio/lbry/releases/tag/v0.30.4), v0.27.0 includes a number of minor bug fixes and streamlines email verification. You can get all the gritty details [here](https://github.com/lbryio/lbry-desktop/releases/tag/v0.27.0).
 

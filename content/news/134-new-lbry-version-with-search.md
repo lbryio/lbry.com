@@ -1,9 +1,10 @@
 ﻿---
 author: samuel-lbryian
-title: 'LBRY v0.17 Has What You’ve Been Searching For'
+title: 'LBRY v0.17 Has What You've Been Searching For'
 date: '2017-10-12 16:00:00'
 ---
-The latest LBRY app, v0.17, is now available. **[Get it here](https://lbry.io/get)**.
+
+The latest LBRY app, v0.17, is now available. [**Get it here**](https://lbry.io/get).
 
 ### Release Notes
 
@@ -17,7 +18,7 @@ The latest LBRY app, v0.17, is now available. **[Get it here](https://lbry.io/ge
   * New tabs.
 
 ### Changed
-  * LBRY protocol upgraded from v0.16.1 to **[v0.17](https://github.com/lbryio/lbry/releases/tag/v0.17.0)**. Significant improvements to download performance anticipated.
+  * LBRY protocol upgraded from v0.16.1 to [**v0.17**](https://github.com/lbryio/lbry/releases/tag/v0.17.0). Significant improvements to download performance anticipated.
   * Improved Discover page load time by batching all URIs into one API call.
   * Changed the File page to make it clearer how to open the folder for a file.
   * Display search bar on discover page instead of title and remove duplicated icon.

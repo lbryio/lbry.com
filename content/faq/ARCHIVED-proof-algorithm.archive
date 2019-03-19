@@ -17,7 +17,7 @@ right = ripemd(intermediate[len(intermediate)/2:]) # and the right half
 proof = sha256(sha256(left + right))  # concatenate the two halves, and double-sha256() it again
 ```
 
-For comparison, Bitcoin's algorithm is 
+For comparison, Bitcoin's algorithm is
 
 ```python
 proof = sha256(sha256(data))

@@ -2,6 +2,7 @@
 title: How do I encrypt my LBRY wallet?
 category: wallet
 ---
+
 LBRY apps rely on blockchain technology and the LBRY Credits (LBC) cryptocurrency in order to participate in the network. These LBC are stored in a wallet (data file on your PC) which is generated with each user's LBRY installation. Wallets contain your funds, channel data, and claims (any uploads). It is important to understand that the wallet is not stored on any LBRY servers and as such, users are responsible for its safeguarding through encryption and making sure [a backup (copy of the wallet file)](https://lbry.io/faq/how-to-backup-wallet) is available in the event that it is lost or corrupted.
 
 Encryption is available from the Settings page of the LBRY app and you will be required to enter your password upon app startup.
@@ -16,7 +17,7 @@ Encryption is not required and solely up to the user. We highly recommend it, bu
 
 ## How do I enable encryption?
 
-Encryption can be enabled through the Settings page of the LBRY app. Click the toggle button to begin the process. You will be asked to create a strong wallet password. Enter it twice and confirm your understanding of the warnings. All subsequent LBRY startups will require you to enter this newly created password. Without it, the wallet cannot be accessed. The wallet can also be decrypted (made plain text again) if the setting is disabled. 
+Encryption can be enabled through the Settings page of the LBRY app. Click the toggle button to begin the process. You will be asked to create a strong wallet password. Enter it twice and confirm your understanding of the warnings. All subsequent LBRY startups will require you to enter this newly created password. Without it, the wallet cannot be accessed. The wallet can also be decrypted (made plain text again) if the setting is disabled.
 
 1. Click the `Settings` button in the Left Side of the screen.
 
@@ -32,4 +33,4 @@ These backups are still valid and give full access to your wallet. If you have a
 
 ## I lost access to my password, can you help?
 
-As explained above, LBRY does not store your password and cannot help you recover it. By encrypting your wallet, you agreed to these terms.  
+As explained above, LBRY does not store your password and cannot help you recover it. By encrypting your wallet, you agreed to these terms.

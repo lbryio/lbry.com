@@ -3,7 +3,8 @@ author: samuel-lbryian
 title: 'Latest LBRY App Adds Tipping, Themes, and More'
 date: '2017-09-21 10:30:00'
 ---
-The latest LBRY app, v0.16, is now available. **[Get it here](https://lbry.io/get)**.
+
+The latest LBRY app, v0.16, is now available. [**Get it here**](https://lbry.io/get).
 
 ### Release Notes
 
