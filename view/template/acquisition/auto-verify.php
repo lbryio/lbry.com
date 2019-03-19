@@ -69,7 +69,6 @@
     </div>
     <div style="display: none; margin-top: 10px;" id="verify-success">
         <p class="spacer1">Success! Your email is now verified.</p>
-        <a class="btn-primary btn-large" href="lbry://?verify">Go Back To The App</a>
     </div>
 </div>
 </body>
