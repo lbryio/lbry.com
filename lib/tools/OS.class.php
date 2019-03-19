@@ -11,8 +11,9 @@ class OS
     OS_OSX = 'osx',
     OS_WINDOWS = 'windows';
 
-    public static function OS_DETAIL($os) {
-      switch($os) {
+    public static function OS_DETAIL($os)
+    {
+        switch ($os) {
         case 'android':
           return [
             '/android',
@@ -30,7 +31,7 @@ class OS
             'icon-mobile',
             false,
             false,
-            "<span class='icon-mobile icon-fw'></span> iOS"
+            "<span class='icon-ios icon-fw'></span> iOS"
           ];
 
         case 'linux':
@@ -74,7 +75,7 @@ class OS
       OS::OS_OSX     => ['/osx', 'macOS', 'icon-apple', __("Download for macOS"), "OSX"],
       OS::OS_LINUX   => ['/linux', 'Linux', 'icon-linux', __("Download .deb"), "Linux"],
       OS::OS_ANDROID => ['/android', 'Android', 'icon-android', false, false],
-      OS::OS_IOS     => ['/ios', 'iOS', 'icon-mobile', false, false]
+      OS::OS_IOS     => ['/ios', 'iOS', 'icon-ios', false, false]
     ];
     }
 
