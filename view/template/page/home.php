@@ -5,7 +5,7 @@
   <section class="home__hero">
     <div class="inner-wrap">
       <aside class="home__cta">
-        <h1>Your Favorite Content, Secure</h1>
+        <h1>Your Favorite Content</h1>
 
         <div>
           <?php echo View::render('download/_downloadButton', ['buttonStyle' => 'primary'])?>
