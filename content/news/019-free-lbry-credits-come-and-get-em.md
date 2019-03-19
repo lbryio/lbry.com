@@ -11,7 +11,7 @@ A warm shoutout to Amanda Johnson, who reminded her viewers of this opportunity 
 Here's what she had to say:
 > "LBRY is an alpha stage protocol right now, which would make content viewable on URIs [Uniform Resource Identifier] which are not HTTP, but rather LBRY-specific URIs. Basically, combining the functionality of BitTorrent with the incentives of Bitcoin and the file storage capabilities of STRJ. They're looking for people to try to download and use their alpha software, which has to be done from the command line. If you're comfortable with that and you're willing just to download it and tell them how it felt for you, they'll give you 1,000 LBRY tokens. You just fill out a survey once you've completed the download process, send it back to them, and you get the bits."
 
-You may remember Amanda from her guest blog post here last month – [LBRY Gets Content Creators Out of Precarious Position](https://blog.lbry.com/lbry-gets-content-creators-out-of-precarious-position-daily-decrypts-amanda-b-johnson).
+You may remember Amanda from her guest blog post here last month – [LBRY Gets Content Creators Out of Precarious Position](/news/lbry-gets-content-creators-out-of-precarious-position-daily-decrypts-amanda-b-johnson).
 
 LBRY also owes a thank you to Joël Valenzuela of Liberty Upward, who wrote an article about us last week – [LBRY Leads the Decentralized Information Revolution](https://libertyupward.com/lbry-leads-the-decentralized-information-revolution). We're excited to watch people like Joël get excited about LBRY. Free market and blockchain enthusiasts quickly grasp the powerful but simple evolution in content distribution LBRY represents. Joël writes:
 
