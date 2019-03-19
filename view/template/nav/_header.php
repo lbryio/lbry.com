@@ -193,15 +193,10 @@
       <a href="#" class="header__toggle" id="menuToggle">Menu</a>
 
       <?php js_start() ?>
-        if (window.innerWidth < 951) {
-          console.log("yep");
-        }
-
         document.getElementById("menuToggle").addEventListener("click", event => {
           event.preventDefault();
 
           if (window.innerWidth < 951) {
-            console.log("yep");
             const body = document.querySelector("body");
             const navigation = document.querySelector("drawer-navigation");
 
