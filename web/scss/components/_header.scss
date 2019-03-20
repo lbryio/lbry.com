@@ -99,6 +99,10 @@ drawer-children {
 }
 
 drawer-child {
+  > a {
+    display: block;
+  }
+
   @media (min-width: 951px) {
     &.drawer--social {
       &:hover {

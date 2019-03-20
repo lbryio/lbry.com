@@ -166,10 +166,10 @@
               </drawer-child>
 
             <drawer-child>
-                <a href="https://lbry.tech/spec">
-                    <strong>The Spec</strong>
-                    <span>Read a formal technical description of how LBRY works</span>
-                </a>
+              <a href="https://lbry.tech/spec">
+                <strong>The Spec</strong>
+                <span>Read a formal technical description of how LBRY works</span>
+              </a>
             </drawer-child>
 
               <drawer-child>
