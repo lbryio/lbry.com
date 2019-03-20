@@ -9,7 +9,7 @@
         <?php if (isset($email)): ?>
         &middot;
         <a href="mailto:<?php echo $email ?>" class="link-primary">
-          <span class="icon icon-envelope"></span>
+          <span class="fa fa-envelopee"></span>
         </a>
         <?php endif ?>
 
