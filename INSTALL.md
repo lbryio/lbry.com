@@ -13,13 +13,6 @@ To run this project, you'll need to have either PHP7 or Docker installed, and be
 - Run `./dev.sh` from the project root
 - Access [localhost:8000](http://localhost:8000) in your browser
 
-## Running via Docker
-
-- Install Docker
-- Checkout the project
-- Run `./docker.sh` from the project root
-- Access [localhost:8000](http://localhost:8000) in your browser
-
 ## Verifying Install
 
 If `localhost:8000` returns the lbry.com website, it's running correctly.
