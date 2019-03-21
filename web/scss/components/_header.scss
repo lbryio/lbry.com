@@ -203,9 +203,13 @@ drawer-navigation {
 }
 
 drawer-navigation-helper {
-  border-right: 10rem solid transparent;
-  border-left: 13rem solid transparent;
-  left: -10rem;
+  width: 30vw; height: 100%;
+  top: 3rem; left: -15vw;
+
+  // background-color: bisque; // uncomment to view path
+  border: none; //
+  clip-path: ellipse(farthest-side closest-side at 50% 50%);
+  display: block;
 
   @media (max-width: 950px) {
     display: none;
