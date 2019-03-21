@@ -34,7 +34,7 @@
     <main class="ancillary">
       <section class="hero hero--half-height">
         <div class="inner-wrap inner-wrap--hero">
-          <h1>Almost Done!</h1>
+          <h1 id="title">Almost Done!</h1>
         </div>
       </section>
 
