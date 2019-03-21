@@ -93,6 +93,9 @@ class OS
       case 'exe':
         return OS::OS_WINDOWS;
 
+      case 'apk':
+          return OS::OS_ANDROID;
+
       default:
         throw new LogicException("Unknown ext $ext");
     }
