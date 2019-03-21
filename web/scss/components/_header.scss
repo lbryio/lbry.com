@@ -227,7 +227,7 @@ drawer-section {
 
     &:not(:hover) {
       drawer-wrap {
-        display: block;
+        display: block !important; // TODO: Fix this override of component
       }
     }
   }

@@ -229,17 +229,15 @@ video {
       @media (min-width: 951px) {
         float: left;
         width: 25%;
+
+        &:last-of-type,
+        &:nth-last-child(2) {
+          text-align: right;
+        }
       }
 
       @media (max-width: 950px) {
-        display: flex;
-        overflow-x: auto;
-        white-space: nowrap;
-      }
-
-      &:last-of-type,
-      &:nth-last-child(2) {
-        text-align: right;
+        margin-bottom: 2rem;
       }
 
       li {
@@ -257,7 +255,7 @@ video {
         }
 
         &:not(:first-of-type):not(:last-of-type) {
-          margin-bottom: 0.25rem;
+          margin-bottom: 0.5rem;
         }
       }
     }
