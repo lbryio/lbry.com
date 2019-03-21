@@ -41,7 +41,7 @@
 
       <figure>
         <img src="https://spee.ch/7/home-demo.gif" alt="LBRY demo"/>
-        <figcaption>A user searches for and prepares to stream the film <em>Rhapsody</em>, located at <a href="lbry://rhapsody-film#e1029aaa08bef8e9225efcbfb94a895e9bbdc8ea">lbry://rhapsody-film#e1029aaa08bef8e9225efcbfb94a895e9bbdc8ea</a>, via a completely decentralized network. Try it out for yourself at <a class="link-primary" href="/get">lbry.com/get</a>.</figcaption>
+        <figcaption>Screenshots from the LBRY app in action. Try it out for yourself at <a class="link-primary" href="/get">lbry.com/get</a>.</figcaption>
       </figure>
 
       <p>However, LBRY does this not through a proprietary service or network, but as a <em>protocol</em>, or a method of doing things, much like HTTP, DNS and other specifications that make up the internet itself. Just as many different domains owned by many different companies all speak a shared language, so too can any person or company speak LBRY.  No special access or permission is needed.</p>
