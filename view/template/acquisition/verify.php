@@ -12,22 +12,18 @@
     <script src='https://www.google.com/recaptcha/api.js'></script>
 
     <script>
-      let magicLink = "#";
-
-      const verifyCallback = response => {
-        const payload = btoa(JSON.stringify({
+      var magicLink = "#";
+      var verifyCallback = function(response) {
+        let payload = btoa(JSON.stringify({
           recaptcha: response,
           token: "<?php echo $token ?>"
         }));
-
         magicLink = "lbry://?verify=" + payload;
-
         document.getElementById("magic-link-text").textContent = payload;
         document.getElementById("success").style.display = "block";
         document.getElementById("captcha-block").style.display = "none";
       };
-
-      const expiredCallback = () => {
+      var expiredCallback = function() {
         document.getElementById("success").style.display = "none";
         document.getElementById("captcha-block").style.display = "block";
       }
