@@ -43,7 +43,7 @@
       </section>
 
       <section>
-        <div class="inner-wrap">
+        <div class="inner-wrap inner-wrap--center">
           <div id="captcha-block">
             <p>Click the captcha to continue...</p>
             <br/>

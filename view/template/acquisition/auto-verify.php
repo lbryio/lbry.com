@@ -19,7 +19,7 @@
 
         fetch(url)
           .then(response => response.json())
-          .then((response) => {
+          .then(response => {
             if (response.error)
               throw Error(response.error);
 
@@ -35,7 +35,7 @@
           });
       }
 
-      const verifyCallback = function(response) {
+      const verifyCallback = response => {
         const urlParams = new URLSearchParams(window.location.search);
 
         const email = urlParams.get('email');
@@ -64,7 +64,7 @@
       </section>
 
       <section>
-        <div class="inner-wrap">
+        <div class="inner-wrap inner-wrap--center">
           <div id="captcha-block">
             <p>Click the captcha to continue...</p>
             <br/>

@@ -185,6 +185,12 @@ video {
   margin-right: auto;
   margin-left: auto;
 
+  &.inner-wrap--center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
   &.inner-wrap--hero {
     align-items: center;
     display: flex;
