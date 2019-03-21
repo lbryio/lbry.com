@@ -23,6 +23,13 @@
 
       <h3>Old School</h3>
       <p>For long-form communication, just send us an email at <a href="mailto:hello@lbry.com">hello@lbry.com</a>.</p>
+
+      <h3>Ye Olde School</h3>
+      <p>
+        LBRY, Inc.<br/>
+        99 Hanover St.<br/>
+        Manchester, NH 03101
+      </p>
     </div>
   </section>
 </main>
