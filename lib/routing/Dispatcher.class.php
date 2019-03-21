@@ -56,6 +56,33 @@ class Dispatcher
         return $this->dispatchFilters($afterFilter, $response);
     }
 
+    public function hasMatchingRouteForUri($httpMethod, $uri)
+    {
+        if (isset($this->staticRouteMap[$uri])) {
+            $routes = $this->staticRouteMap[$uri];
+
+            try {
+                if (!isset($routes[$httpMethod])) {
+                    $httpMethod = $this->checkFallbacks($routes, $httpMethod);
+                }
+            } catch (HttpMethodNotAllowedException $e) {
+                return false;
+            }
+
+            return (boolean)$routes[$httpMethod];
+        }
+
+        try {
+            $handler = $this->dispatchVariableRoute($httpMethod, $uri);
+            return (boolean)$handler;
+        } catch (HttpRouteNotFoundException | HttpMethodNotAllowedException $e) {
+            return false;
+        }
+
+        return false;
+    }
+
+
     /**
      * Dispatch a route filter.
      *
