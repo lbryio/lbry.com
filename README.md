@@ -38,6 +38,31 @@ Contributions to this project are welcome, encouraged, and compensated. For more
 ## License
 This project is MIT licensed. For the full license, see [LICENSE](LICENSE).
 
+## Build URLs
+
+lbry.com provides functionality for redirecting to build assets of other LBRY repos. The general structure is:
+
+`lbry.com/releases/<github_repo_name>.<extension>`
+
+For example, to get the latest [lbry-desktop](github.com/lbryio/lbry-desktop) release on Windows, you would use the URL:
+
+`lbry.com/releases/lbry-desktop.exe`
+
+Extension is used to get the release for the appropriate operating system, even if the release asset does not match the extension provided.
+
+| Operating System | Extensions
+--- | ---
+| Windows | msi, exe
+| macOS | dmg, pkg
+| Linux (Debian) | deb
+| Android | apk 
+
+The asset returned will match the latest release on the appropriate GitHub repo.
+
+Release candidates can also be targeted. For release candidates, use the following structure:
+
+`lbry.com/releases/pre/<github_repo_name>.<extension>`
+
 ## Security
 We take security seriously. Please contact [security@lbry.io](mailto:security@lbry.io) regarding any security issues.
 
