@@ -64,12 +64,12 @@ Release candidates can also be targeted. For release candidates, use the followi
 `lbry.com/releases/pre/<github_repo_name>.<extension>`
 
 ## Security
-We take security seriously. Please contact [security@lbry.io](mailto:security@lbry.io) regarding any security issues.
+We take security seriously. Please contact [security@lbry.com](mailto:security@lbry.com) regarding any security issues.
 
 [Our PGP key is here](https://keybase.io/lbry/key.asc) if you need it.
 
 ## Contact
-The primary contact for this project is [@netoperatorwibby](https://github.com/netoperatorwibby) (paul+github@lbry.io).
+The primary contact for this project is [@netoperatorwibby](https://github.com/netoperatorwibby) (paul+github@lbry.com).
 
 ## Additional Info and Links
 - [https://lbry.com](https://lbry.com) - The live LBRY website
