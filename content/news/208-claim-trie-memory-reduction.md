@@ -1,7 +1,7 @@
 ---
 author: samuel-lbryian
 title: 'Claim Trie Memory Reduction'
-date: '2019-03-25 15:00:00'
+date: '2019-03-26 15:00:00'
 cover: 'database2.jpg'
 category: technical
 ---
