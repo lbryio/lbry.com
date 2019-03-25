@@ -1,3 +1,11 @@
+---
+author: samuel-lbryian
+title: 'Claim Trie Memory Reduction'
+date: '2019-03-25 15:00:00'
+cover: 'database2.jpg'
+category: technical
+---
+
 # The claim trie memory reduction
 Here follows a little writeup on some work that we have done to make the data structure in LBRYcrd less naive (and less RAM-hungry). We anticipate that it will ship in a LBRYcrd release in late spring.
 
