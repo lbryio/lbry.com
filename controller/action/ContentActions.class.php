@@ -76,7 +76,7 @@ class ContentActions extends Actions
 
         try {
             $post = Post::load(static::SLUG_NEWS . '/' . ltrim($slug, '/'));
-        } catch (PostNotFoundException $e) {
+        } catch (PostException $e) {
             return NavActions::execute404();
         }
 
@@ -130,7 +130,7 @@ class ContentActions extends Actions
 
         try {
             $post = Post::load(static::SLUG_FAQ . '/' . ltrim($slug, '/'));
-        } catch (PostNotFoundException $e) {
+        } catch (PostException $e) {
             return Controller::redirect('/' . static::SLUG_FAQ);
         }
         return ['content/faq-post', ['post' => $post]];
@@ -154,7 +154,7 @@ class ContentActions extends Actions
 
         try {
             $post = Post::load(static::SLUG_CREDIT_REPORTS . '/' . $year . '-Q' . $quarter);
-        } catch (PostNotFoundException $e) {
+        } catch (PostException $e) {
             return Controller::redirect('/' . static::SLUG_CREDIT_REPORTS);
         }
         $metadata = $post->getMetadata();

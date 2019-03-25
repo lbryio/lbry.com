@@ -1,10 +1,12 @@
 <?php
 
-class PostNotFoundException extends Exception
+class PostException extends Exception {}
+
+class PostNotFoundException extends PostException
 {
 }
 
-class PostMalformedException extends Exception
+class PostMalformedException extends PostException
 {
 }
 
@@ -55,7 +57,9 @@ class Post
 
         list($ignored, $frontMatter, $content) = explode('---', file_get_contents($path), 3) + ['','',''];
         if (!$frontMatter || !$content) {
-            throw new PostMalformedException('Post "' . basename($path) . '" is missing front matter or content');
+            $e = new PostMalformedException('Post "' . basename($path) . '" is missing front matter or content');
+            Slack::sendErrorIfProd($e);
+            throw $e;
         }
         return new static($path, $postType, $slug, Spyc::YAMLLoadString(trim($frontMatter)), trim($content));
     }
@@ -77,33 +81,37 @@ class Post
 
     public static function find($folder, $sort = null)
     {
-        $posts = [];
-        foreach (glob(rtrim($folder, '/') . '/*.md') as $file) {
-            $posts[] = static::load($file);
-        }
+        $posts = array_filter(array_map(function($file) {
+            try {
+                return static::load($file);
+            } catch (PostException $e) {
+                return false;
+            }
+        }, glob(rtrim($folder, '/') . '/*.md')));
+
 
         if ($sort) {
             switch ($sort) {
-        case static::SORT_DATE_DESC:
-          usort($posts, function (Post $a, Post $b) {
-              return strcasecmp($b->getDate()->format('Y-m-d'), $a->getDate()->format('Y-m-d'));
-          });
-          break;
+                case static::SORT_DATE_DESC:
+                  usort($posts, function (Post $a, Post $b) {
+                      return strcasecmp($b->getDate()->format('Y-m-d'), $a->getDate()->format('Y-m-d'));
+                  });
+                  break;
 
-        case static::SORT_ORD_ASC:
-          usort($posts, function (Post $a, Post $b) {
-              $aMeta = $a->getMetadata();
-              $bMeta = $b->getMetadata();
-              if (!isset($aMeta['order']) && !isset($bMeta['order'])) {
-                  return $a->getTitle() < $b->getTitle() ? -1 : 1;
-              }
-              if (isset($aMeta['order']) && isset($bMeta['order'])) {
-                  return $aMeta['order'] < $bMeta['order'] ? -1 : 1;
-              }
-              return isset($aMeta['order']) ? -1 : 1;
-          });
-          break;
-      }
+                case static::SORT_ORD_ASC:
+                  usort($posts, function (Post $a, Post $b) {
+                      $aMeta = $a->getMetadata();
+                      $bMeta = $b->getMetadata();
+                      if (!isset($aMeta['order']) && !isset($bMeta['order'])) {
+                          return $a->getTitle() < $b->getTitle() ? -1 : 1;
+                      }
+                      if (isset($aMeta['order']) && isset($bMeta['order'])) {
+                          return $aMeta['order'] < $bMeta['order'] ? -1 : 1;
+                      }
+                      return isset($aMeta['order']) ? -1 : 1;
+                  });
+                  break;
+            }
         }
         return $posts;
     }
@@ -185,7 +193,7 @@ class Post
 
     public function getDate()
     {
-        return $this->date;
+        return $this->date ?? new DateTime();
     }
 
     public function getCover()
@@ -230,14 +238,28 @@ class Post
     {
         $slugs = array_keys(Post::getSlugMap($this->postType));
         $postNum = $this->getPostNum();
-        return $postNum === false || $postNum === 0 ? null : Post::load($this->postType . '/' . $slugs[$postNum-1]);
+        if ($postNum === false || $postNum === 0) {
+            return null;
+        }
+        try {
+            return Post::load($this->postType . '/' . $slugs[$postNum-1]);
+        } catch (PostException $e) {
+            return null;
+        }
     }
 
     public function getNextPost()
     {
         $slugs = array_keys(Post::getSlugMap($this->postType));
         $postNum = $this->getPostNum();
-        return $postNum === false || $postNum >= count($slugs)-1 ? null : Post::load($this->postType . '/' . $slugs[$postNum+1]);
+        if ($postNum === false || $postNum >= count($slugs)-1) {
+            return null;
+        }
+        try {
+            return Post::load($this->postType . '/' . $slugs[$postNum+1]);
+        } catch (PostException $e) {
+            return null;
+        }
     }
 
     public function hasAuthor()
