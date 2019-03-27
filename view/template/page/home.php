@@ -23,7 +23,7 @@
 
   <section class="home__callout">
     <p>LBRY is a secure, open, and community-run digital marketplace.</p>
-    <p>Enjoy the latest content from your favorite creators, as a user; not a product.</p>
+    <p>Enjoy the latest content from your favorite creators—as a user, not a product.</p>
   </section>
 
   <section class="home__hype">
