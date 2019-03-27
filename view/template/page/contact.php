@@ -26,9 +26,9 @@
 
       <h3>Ye Olde School</h3>
       <p>
-        LBRY, Inc.<br/>
-        <a href="https://goo.gl/maps/YhTUwKA61s22">99 Hanover St.<br/>
-        Manchester, NH 03101
+        LBRY, Inc. <br/><a href="https://goo.gl/maps/YhTUwKA61s22">
+        99 Hanover St.<br/>
+        Manchester, NH 03101</a> 
       </p>
     </div>
   </section>
