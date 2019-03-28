@@ -130,3 +130,13 @@ document.addEventListener("DOMContentLoaded", () => {
       break;
   }
 });
+
+// Fix for touchscreen devices
+const navigationLinks = document.querySelectorAll("drawer-title");
+
+navigationLinks.forEach(navigationLink => {
+  navigationLink.ontouchstart = () => {
+    // $("drawer-navigation-helper").hide(); // rewrite this in vanilla JS
+    navigationLink.onhover.call(navigationLink);
+  };
+});
