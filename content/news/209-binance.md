@@ -3,7 +3,6 @@ author: samuel-lbryian
 title: 'LBRY Joins Binance Transparency Initiative V Label'
 date: '2019-03-29 15:00:00'
 cover: 'blog_nextphase.png'
-category: technical
 ---
 LBRY has officially joined Binance Info's transparency initiative. By sharing project-related information such as news and progress reports on Binance Info, LBRY is contributing to keeping the community informed. Binance Info aims to provide users with the most trusted information on crypto projects - check out our page here: https://info.binance.com/en/currencies/lbry-credits
 
