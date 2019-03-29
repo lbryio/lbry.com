@@ -2,7 +2,7 @@
 <?php Response::setMetaTitle(__('Level UP with LBRY Network')) ?>
 
 <main class="ancillary">
-  <section class="hero" style="background-image: url(/img/pitv.jpg)">
+  <section class="hero" style="background-image: url(/img/close-up-of-gaming-joystick.jpg)">
     <div class="inner-wrap inner-wrap--hero">
       <h1>Level UP with LBRY Network</h1>
       <h3>We're excited to share LBRY with you!</h3>
