@@ -1,10 +1,10 @@
-<?php Response::setMetaDescription(__('LBRY Welcomes All Lovers of Raspberry Pi and Arduino')) ?>
-<?php Response::setMetaTitle(__('LBRY Welcomes All Raspberry Pi and Arduino Lovers')) ?>
+<?php Response::setMetaDescription(__('Level UP with LBRY Network')) ?>
+<?php Response::setMetaTitle(__('Level UP with LBRY Network')) ?>
 
 <main class="ancillary">
   <section class="hero" style="background-image: url(/img/pitv.jpg)">
     <div class="inner-wrap inner-wrap--hero">
-      <h1>LBRY Welcomes All Raspberry Pi and Arduino Lovers</h1>
+      <h1>Level UP with LBRY Network</h1>
       <h3>We're excited to share LBRY with you!</h3>
     </div>
   </section>
