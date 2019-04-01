@@ -20,7 +20,7 @@ In order to be eligible for LBRY Rewards, users must have a verified account via
 | **First Publish** | 10 LBC | A one-time reward for publishing your first piece of content to LBRY
 | **Many Views** | 2- ???? LBC | A multi-level reward for watching videos on LBRY. See descriptions in-app for levels/details!
 | **Sub Sandwich** | 1 -2 LBC | A multi-level reward for subscribing to channels.
-| **Weekly LBRYCast** | 4 LBC | A weekly award for checking out featured content on LBRY. This content is marked with the red rocket logo and will be announced via email, recurring weekly.
+| **Weekly LBRYCast** | 10 LBC | A weekly award for checking out featured content on LBRY. This content is marked with the red rocket logo and will be announced via email, recurring weekly.
 | **Welcome Back** | 6 LBC | Return to the LBRY app 24-48 hours following your first use of the app. This reward will self-destruct after that time span.
 | **Android in Beta** | 20 LBC | Limited time reward for early Android Beta testers.
 | **Upgrade** | 10 LBC | Rewarded each time the LBRY app updates versions (i.e. 0.27 to 0.28).
