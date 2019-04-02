@@ -130,3 +130,26 @@ document.addEventListener("DOMContentLoaded", () => {
       break;
   }
 });
+
+// Fix for touchscreen devices
+if ("ontouchstart" in window) {
+  const navigationLinks = document.querySelectorAll("drawer-title");
+
+  navigationLinks.forEach(navigationLink => {
+    navigationLink.ontouchstart = () => {
+      hideNavigationHelpers();
+      navigationLink.onhover.call(navigationLink);
+    };
+  });
+
+  document.querySelector("body").addEventListener("touchstart", event => {
+    if (event.target !== document.querySelector("drawer-navigation"))
+      document.querySelector("drawer-wrap").hide();
+  });
+
+  function hideNavigationHelpers() {
+    document.querySelectorAll("drawer-navigation-helper").forEach(navigationHelper => {
+      navigationHelper.style.display = "none";
+    });
+  }
+}
