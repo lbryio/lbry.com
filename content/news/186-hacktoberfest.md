@@ -6,10 +6,6 @@ cover: 'Hacktoberfest.jpg'
 category: users
 ---
 
-> What are you doing for [#Hacktoberfest](https://twitter.com/hashtag/Hacktoberfest)? Check out our first [#dev](https://twitter.com/hashtag/dev) video of the month, and join the fun - details here ➡️ [https://t.co/Z22zShYg31](https://t.co/Z22zShYg31) [pic.twitter.com/bzOQ6Jvmpp](https://t.co/bzOQ6Jvmpp)
->
-> — LBRY (we never give away ETH) (@LBRYio) [October 5, 2018](https://twitter.com/LBRYio/status/1048247988949319681)
-
 The leaves are starting to fall, and that means it's time for Hackoberfest! Thanks to [DigitalOcean's hard work](https://hacktoberfest.digitalocean.com), newbies and seasoned open source developers alike have a unique opportunity to solve new and challenging problems and bugs all through the month of October (and earn [some recognition and a free t-shirt](https://hacktoberfest.digitalocean.com/details) in the process).
 
 Open source is (literally) part of our DNA here at LBRY, and we're always happy when we get an opportunity to support our fellow open source projects. Throughout the month of October, our developers will be hosting informational sessions, meetups, and coding projects to introduce other programmers to the world of open source software and start making contributions immediately.
