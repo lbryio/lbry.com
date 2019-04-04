@@ -34,9 +34,9 @@ Response::addMetaImage(Request::getHostAndProto() . '/img/lbry-partner.png');
     <div class="dot e"></div>
   </div>
   <div class="title">
-    <div class="overflow"><h1>Content Freedom.</h1></div>
-    <p>Put your content on the blockchain and earn rewards.</p>
-    <div class="button">Claim Your LBRY Channel</div>
+    <div class="overflow"><h1>Find New Fans</h1></div>
+    <p>Get your YouTube videos in front of the LBRY audience.</p>
+    <div class="button">Claim Your LBRY Channel Now</div>
   </div>
 </section>
 <section class="claim section">
@@ -47,7 +47,7 @@ Response::addMetaImage(Request::getHostAndProto() . '/img/lbry-partner.png');
       if ($error_message): echo "<div>" . "The following error occurred: ". $error_message  . " For support please send an email to hello@lbry.com" . "</div>";
       endif;?>
       <div class="zigzag"></div>
-      <h1>Create on a stable platform. For real this time.</h1>
+      <h1>Connect with your fans while earning money and rewards.</h1>
         <div hidden id="sync-status" class="sync-status">
 
         </div>
@@ -63,7 +63,7 @@ Response::addMetaImage(Request::getHostAndProto() . '/img/lbry-partner.png');
             <input type="submit" value="Claim now" onClick="return submitDetailsForm()"/>
         </div>
       <div class="meta">
-        This will verify you are an active YouTuber. Once verified instructions about how to claim credits, and technical details about your channel, will be emailed to you.
+        This will verify you are an active YouTuber. Instructions about how to claim credits, and technical details about your channel, will be emailed to you after you are verified.
         <a href="/faq/youtube">Learn more</a>.
       </div>
     </div>
@@ -72,8 +72,8 @@ Response::addMetaImage(Request::getHostAndProto() . '/img/lbry-partner.png');
 <section class="join section">
   <div class="inner">
     <div class="content">
-      <h1>LBRY is more fun with friends</h1>
-      <p>Take your peers and your audience with you. Create without limits.</p>
+      <h1>Join The Best Creators Already On LBRY</h1>
+      <p>With audiences ranging from 1,000+ to 10,000,000+</p>
       <div class="boxes">
         <div class="box">
             <div class="image">
@@ -111,23 +111,23 @@ Response::addMetaImage(Request::getHostAndProto() . '/img/lbry-partner.png');
 <section class="how section">
   <div class="inner">
     <div class="content">
-      <h1>Migrating to LBRY</h1>
-      <p>We will automatically mirror your most recent 1,000 YouTube videos to your channel on the LBRY Network.</p>
+      <h1>Getting On LBRY Is Easy</h1>
+      <p>When you claim your channel your most recent 1,000 YouTube videos will be automatically copied to your LBRY channel.</p>
       <div class="steps">
         <div class="path">
           <div class="journey"></div>
         </div>
         <div class="step one enabled" data-enable="12">
           <div class="circle">1</div>
-          <p class="text">Sync your channel</p>
+          <p class="text">Claim your channel</p>
         </div>
         <div class="step two enabled" data-enable="33">
           <div class="circle">2</div>
-          <p class="text">Download the LBRY App</p>
+          <p class="text">Authorize your content</p>
         </div>
         <div class="step three enabled" data-enable="75">
           <div class="circle">3</div>
-          <p class="text">Receive your LBRY Credits</p>
+          <p class="text">Users watch your content on LBRY</p>
         </div>
       </div>
     </div>
@@ -136,18 +136,18 @@ Response::addMetaImage(Request::getHostAndProto() . '/img/lbry-partner.png');
 <section class="rewards section">
   <div class="inner">
     <div class="content">
-      <h1>LBRY Credits and Your Channel</h1>
-      <p>After you sync, receive LBRY Credits for one year based on your current subscriber count.<br/><br/>
-      The more you give to the network, the more it gives back.</p>
+      <h1>Getting Credits For Your Channel</h1>
+      <p>Depending on the number of subscribers you have on YouTube when you claim your channel, you will qualify for different lump sums of LBC.<br/><br/>
+      </p>
       <div class="price">
-        <h3>Partner Programs</h3>
+        <h3>Subscriber Levels</h3>
         <p>LBC <span class="current-value"></span></p>
       </div>
       <div class="table">
         <div class="head">
-          <p>Subscribers</p>
-          <p>Yearly</p>
-          <p>Amount</p>
+          <p>Your Current YouTube Subscribers</p>
+          <p>LBC Tokens</p>
+          <p>USD Value</p>
         </div>
         <div class="line">
           <p>1,000</p>
@@ -176,8 +176,8 @@ Response::addMetaImage(Request::getHostAndProto() . '/img/lbry-partner.png');
 <section class="contact section">
   <div class="inner">
     <div class="content">
-      <h1>Tell me more.</h1>
-      <p>We have a guy that elaborates on things. Apply directly to the forehead.</p>
+      <h1>Let’s Connect</h1>
+      <p>If you have any questions, reach out.</p>
       <div class="v-card">
         <div class="photo"><img src="https://spee.ch/7/rob-smith1.png"></div>
         <div class="text">
