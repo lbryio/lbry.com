@@ -32,7 +32,7 @@ First and foremost, please ensure you are on the [latest version](/get) of LBRY.
 - Reset your downloads data by deleting the `db_revision` and `lbrynet.sqlite` files in [the lbrynet folder](/faq/lbry-directories)
 - On Windows, if you get stuck on the green "Starting daemon" screen, the lbrynet-daemon file may be missing. The workaround is to re-run the [latest](/get) LBRY installation file and try again.
 - On Windows 7, if you can't get the app to start, you may need to apply [this Windows patch](https://www.microsoft.com/en-us/download/confirmation.aspx?id=49093&fbclid=IwAR2Gl1Qay34-_NnHpOSZm0VqMC9CQFish4vYXf4AQQ01cnJeE9ZDHdmInv0).
-- On older MAC installations, you may run into an issue with the daemon shutting down immediately. Please see [this GitHub issue](https://github.com/lbryio/lbry-desktop/issues/291) for troubleshooting.
+- On older MAC installations, you may run into an issue with the daemon shutting down immediately. Please check your `daemon_settings.yml` file in the [LBRY folder](/faq/lbry-directories) for a download directory. If it's incorrect, remove it, save, and try again.
 - On older Linux/Mac installs you may see `Cannot read property 'match' of undefined`. Install the [latest version](/get) to fix this.
 - Other typical startup troubleshooting would be to ensure that the LBRY app or the lbrynet process is not already running in the background. If the processes cannot be killed, a restart of your computer may be required.
 
