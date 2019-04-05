@@ -37,7 +37,7 @@
     <div class="inner-wrap inner-wrap--center-left">
       <h1 class="weight-light">LBRY &times; YouTube Sync</h1>
       <h2 class="weight-light">Get your YouTube videos in front of the LBRY audience</h2>
-      <button class="button button--inverse" id="scroll-to-claim" type="button">Claim your channel now</button>
+      <button class="button button--inverse" data-id="scroll-to-claim" type="button">Claim your channel now</button>
     </div>
   </section>
 
@@ -50,7 +50,7 @@
       <h2>Connect with your fans while earning money and rewards</h2>
 
       <form id="youtube_claim" method="post" action="/youtube/token">
-        <div hidden id="sync-status" class="sync-status"></div>
+        <p hidden id="sync-status" class="sync-status"></p>
 
         <input-submit>
           <label class="symbol-prefix">@</label>
@@ -68,6 +68,16 @@
 
           <div hidden id="lbry_error" class="error">LBRY channel name is either not valid or your input is blank</div>
         </input-submit>
+
+        <br/>
+
+        <checkbox-element>
+          <input id="immediate-sync" name="immediate_sync" type="checkbox" value="true"/>
+          <label for="immediate-sync">I want to sync my content to the LBRY network and agree to <a href="/faq/youtube-terms" target="_blank">these terms</a></label>
+          <checkbox-toggle/>
+        </checkbox-element>
+
+        <input type="text" hidden name="type" value="sync"/>
       </form>
 
       <small class="meta">
@@ -206,19 +216,11 @@
       <h3>Sync &amp; Earn</h3>
       <p>LBRY offers a single-click sync process for existing YouTubers.</p>
 
-      <form id="sync" method="post" action="/youtube/token">
-        <checkbox-element>
-          <input id="immediate-sync" name="immediate_sync" type="checkbox" value="true"/>
-          <label for="immediate-sync">I want to sync my content to the LBRY network and agree to <a href="/faq/youtube-terms" target="_blank">these terms</a></label>
-          <checkbox-toggle/>
-        </checkbox-element>
+      <br/>
 
-        <input type="text" hidden name="type" value="sync"/>
-
-        <div>
-          <input type="submit" value="Sync Now"/>
-        </div>
-      </form>
+      <div>
+        <button class="button button--inverse" data-id="scroll-to-claim" type="button">Sync now</button>
+      </div>
     </div>
   </section>
 

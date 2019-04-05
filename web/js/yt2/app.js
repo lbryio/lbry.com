@@ -250,13 +250,17 @@ new App();
 
 
 
-document.getElementById("scroll-to-claim").onclick = () => {
-  const element = document.getElementById("claim-section");
-  const elementOffset = element.offsetTop - 2;
+const youtubeCtas = document.querySelectorAll("[data-id='scroll-to-claim']");
 
-  window.scroll({ top: elementOffset, behavior: "smooth" });
+youtubeCtas.forEach(cta => {
+  cta.onclick = () => {
+    const element = document.getElementById("claim-section");
+    const elementOffset = element.offsetTop - 2;
 
-  setTimeout(() => { // give the scroll time to finish before focusing
-    document.getElementById("lbry_channel_name").focus();
-  }, 300);
-};
+    window.scroll({ top: elementOffset, behavior: "smooth" });
+
+    setTimeout(() => { // give the scroll time to finish before focusing
+      document.getElementById("lbry_channel_name").focus();
+    }, 300);
+  };
+});

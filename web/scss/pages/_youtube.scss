@@ -66,13 +66,28 @@ $lbry-yt-blue: mix($lbry-blue-5, $lbry-black, 50%);
 
 
 
-.error-block {
-  border: 1px solid var(--lbry-red-5);
-  background-color: var(--lbry-red-4);
-  color: var(--lbry-white);
+.error-block,
+.sync-status {
+  margin: 0 auto 0.5rem; padding: 0.5rem 0.75rem;
+
+  border-style: solid;
+  border-width: 1px;
   font-size: 0.8rem;
-  margin-bottom: 0.5rem;
-  padding: 0.5rem 0.75rem;
+
+  @media (min-width: 951px) {
+    max-width: 80%;
+  }
+}
+
+.error-block {
+  background-color: var(--lbry-red-4);
+  border-color: var(--lbry-red-5);
+  color: var(--lbry-white);
+}
+
+.sync-status {
+  background-color: rgba($lbry-black, 0.05);
+  border-color: var(--lbry-gray-3);
 }
 
 .hero--youtube {
