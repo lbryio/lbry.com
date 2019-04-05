@@ -52,7 +52,6 @@
           <li class="<?php echo $isSyncAgreed ? "" : "disabled" ?>">
             <span><?php echo $isSyncAgreed ? "✓" : "☐" ?></span>
             <p>Agree to sync</p>
-            <p <?php echo $isSyncAgreed ? "hidden" : "" ?>>(click <a id="scroll-sync" href="#">here</a> to agree to sync your content)</p>
           </li>
 
           <li class="<?php echo $isRewardClaimed && $isSyncAgreed ? "" : "disabled" ?>">
