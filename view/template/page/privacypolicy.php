@@ -3,7 +3,7 @@
 
 <main class="ancillary">
   <section class="hero hereo--half-height">
-    <div class="inner-wrap inner-wrap--hero">
+    <div class="inner-wrap inner-wrap--center-hero">
       <h1>LBRY Inc. Privacy Policy</h1>
 
       <style>

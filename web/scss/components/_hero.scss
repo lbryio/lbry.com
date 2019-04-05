@@ -5,7 +5,6 @@
     background-size: cover;
     color: var(--lbry-white);
     position: relative;
-    text-align: center;
     text-shadow: 0 0 0.2rem rgba($lbry-black, 0.7);
 
     &::before {
@@ -19,7 +18,11 @@
     }
   }
 
-  &:not(.hero--half-height):not(.hero--plain) {
+  &:not(.hero--plain):not(.hero--youtube) {
+    text-align: center;
+  }
+
+  &:not(.hero--half-height):not(.hero--plain):not(.hero--youtube) {
     @media (min-width: 951px) {
       height: 500px;
     }
@@ -45,6 +48,10 @@
 
   &.hero--plain {
     padding-top: 2rem;
+  }
+
+  &.hero--youtube {
+    height: calc(100vh - 5rem);
   }
 
   [class*="icon-"].icon-fw {

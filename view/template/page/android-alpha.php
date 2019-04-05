@@ -3,7 +3,7 @@
 
 <main class="ancillary">
   <section class="hero" style="background-image: url(/img/droid1.jpg)">
-    <div class="inner-wrap inner-wrap--hero">
+    <div class="inner-wrap inner-wrap--center-hero">
       <h1>Testing... Testing...</h1>
       <h3>LBRY needs alpha testers for our Android app!</h3>
     </div>

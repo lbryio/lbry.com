@@ -3,7 +3,7 @@
 
 <main class="ancillary">
   <section class="hero" style="background-image: url(/img/table2.jpg)">
-    <div class="inner-wrap inner-wrap--hero">
+    <div class="inner-wrap inner-wrap--center-hero">
       <h1>Wanna Meet Up?</h1>
       <h3>LBRY is looking for ambassadors to spread the word to College campuses and Meetup groups worldwide!</h3>
     </div>

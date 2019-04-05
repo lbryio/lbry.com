@@ -4,7 +4,7 @@
 
 <main class="ancillary">
   <section class="hero" style="background-image: url(https://spee.ch/4/LBRYopoly)">
-    <div class="inner-wrap inner-wrap--hero">
+    <div class="inner-wrap inner-wrap--center-hero">
       <h1>Get paid to 3D print!</h1>
     </div>
   </section>

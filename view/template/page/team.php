@@ -4,7 +4,7 @@
 
 <main class="ancillary">
   <section class="hero" style="background-image: url(https://spee.ch/3cb82a81e95c147686dbf90e9983640939461c53/everyone-banner3.jpg)">
-    <div class="inner-wrap inner-wrap--hero">
+    <div class="inner-wrap inner-wrap--center-hero">
       <h1>{{page.team.header}}</h1>
       <h2>Teamwork makes the dream work.</h2>
     </div>

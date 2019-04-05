@@ -27,7 +27,13 @@ h2,
 h3,
 h4,
 h5 {
-  font-weight: 600;
+  &:not(.weight-light):not(.weight-normal) {
+    font-weight: 600;
+  }
+
+  &.weight-light {
+    font-weight: 200;
+  }
 }
 
 h1 {
@@ -75,7 +81,7 @@ h4 {
     font-size: 1rem;
   }
 
-  margin-bottom: 1rem;
+  // margin-bottom: 1rem;
 }
 
 hr {
@@ -141,6 +147,10 @@ video {
   width: 100%;
 }
 
+input::placeholder {
+  opacity: 0.4;
+}
+
 
 
 .button--google-play {
@@ -180,6 +190,18 @@ video {
   display: none;
 }
 
+.align-text--center {
+  text-align: center;
+}
+
+.align-text--left {
+  text-align: left;
+}
+
+.align-text--right {
+  text-align: right;
+}
+
 .inner-wrap {
   max-width: 1200px;
   margin-right: auto;
@@ -191,8 +213,17 @@ video {
     text-align: center;
   }
 
-  &.inner-wrap--hero {
+  &.inner-wrap--center-hero {
     align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    position: relative;
+  }
+
+  &.inner-wrap--center-left {
+    align-items: flex-start;
     display: flex;
     flex-direction: column;
     height: 100%;

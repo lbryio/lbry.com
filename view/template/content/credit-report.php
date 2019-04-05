@@ -2,7 +2,7 @@
 
 <main class="ancillary">
   <section class="hero hero--half-height">
-    <div class="inner-wrap inner-wrap--hero">
+    <div class="inner-wrap inner-wrap--center-hero">
       <h1><?php echo htmlentities($post->getTitle()) ?></h1>
     </div>
   </section>

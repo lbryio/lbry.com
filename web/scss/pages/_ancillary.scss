@@ -22,6 +22,7 @@
       margin-top: 1.25rem;
     }
 
+    + footer,
     + form,
     + h1,
     + h2,
@@ -80,6 +81,11 @@
     li {
       list-style-position: inherit;
 
+      ol,
+      ul {
+        padding-left: 1rem;
+      }
+
       p {
         display: inline;
       }
@@ -95,12 +101,9 @@
   }
 
   ul {
-    &:not(.download-cards) {
-      padding-left: 1.3rem;
-    }
-
-    &:not(.download-cards):not(.news-items) {
+    &:not(.bulletless) {
       list-style-type: disc;
+      padding-left: 1.3rem;
     }
   }
 
@@ -124,6 +127,10 @@
   iframe {
     min-height: 500px;
     width: 100%;
+  }
+
+  pre {
+    margin-top: 1.25rem;
   }
 
   blockquote {

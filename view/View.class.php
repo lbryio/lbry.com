@@ -131,9 +131,6 @@ class View
 
         $all_css = $scssCompiler->compile(file_get_contents(self::SCSS_DIR . '/all.scss'));
         file_put_contents(self::CSS_DIR . '/all.css', $all_css);
-
-        $youtube_css = $scssCompiler->compile(file_get_contents(self::SCSS_DIR . '/youtube.scss'));
-        file_put_contents(self::CSS_DIR . '/youtube.css', $youtube_css);
     }
 
     public static function gzipAssets()

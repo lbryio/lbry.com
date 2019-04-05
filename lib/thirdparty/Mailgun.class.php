@@ -23,20 +23,6 @@ class Mailgun
         return $status == 200;
     }
 
-    public static function sendYouTubeWarmLead($data)
-    {
-        list($status, $headers, $body) = static::post('/' . static::MAIL_DOMAIN . '/messages', [
-      'from'              => 'LBRY <mail@' . static::MAIL_DOMAIN . '>',
-      'to'                => 'reilly@lbry.com',
-      'subject'           => 'Interested YouTuber',
-      'html'              => '<pre>' . var_export($data, true) . '</pre>',
-      'o:tracking-clicks' => 'no',
-      'o:tracking-opens'  => 'no'
-    ]);
-
-        return $status == 200;
-    }
-
     protected static function post($endpoint, $data)
     {
         return static::request(Curl::POST, $endpoint, $data);
