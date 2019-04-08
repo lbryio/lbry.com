@@ -3,7 +3,7 @@
 
 <main class="ancillary">
   <section class="hero hero--half-height">
-    <div class="inner-wrap inner-wrap--hero">
+    <div class="inner-wrap inner-wrap--center-hero">
       <h1>Join Our List for LBRY Updates</h1>
     </div>
   </section>

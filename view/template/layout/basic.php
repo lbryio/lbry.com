@@ -13,10 +13,7 @@
 
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@master/distr/fira_code.css"/>
-
-    <?php if (!strpos($_SERVER['REQUEST_URI'], 'youtube/')): ?>
     <link rel="stylesheet" href="/components/dist/index.css"/>
-    <?php endif ?>
 
     <?php foreach (Response::getCssAssets() as $src): ?>
     <link rel="stylesheet" href="<?php echo $src?>"/>

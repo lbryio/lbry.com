@@ -15,7 +15,7 @@
     <?php $buckets[floor($index++ / $columns)][] = ob_get_clean() ?>
   <?php endforeach ?>
 
-  <ul class="download-cards">
+  <ul class="download-cards bulletless">
     <?php foreach (array_filter($buckets) as $bucketRow): ?>
     <li class="download-card"><?php echo implode("</li> <li class='download-card'>", $bucketRow) ?></li>
     <?php endforeach ?>

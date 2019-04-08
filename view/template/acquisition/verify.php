@@ -33,7 +33,7 @@
   <body>
     <main class="ancillary">
       <section class="hero hero--half-height">
-        <div class="inner-wrap inner-wrap--hero">
+        <div class="inner-wrap inner-wrap--center-hero">
           <h1 id="title">Almost Done!</h1>
         </div>
       </section>

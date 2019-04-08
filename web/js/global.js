@@ -93,6 +93,24 @@ $(document).ready(function() {
 
 
 
+// Allow checkboxes to be checked, rather than just the label
+document.querySelectorAll("checkbox-toggle").forEach(toggle => {
+  toggle.addEventListener("click", event => {
+    const siblings = event.target.parentElement.children;
+
+    for (const sibling of siblings) {
+      switch(true) {
+        case sibling.tagName.toLowerCase() === "label":
+          sibling.click();
+          break;
+
+        default:
+          break;
+      }
+    }
+  });
+});
+
 // Automatically open external links in new tabs
 document.querySelectorAll("a[href]").forEach(link => {
   if (link.href.indexOf(location.hostname) === -1) {

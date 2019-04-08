@@ -2,55 +2,11 @@
 
 class AcquisitionActions extends Actions
 {
-    public static function executeThanks()
-    {
-        return ['acquisition/thanks'];
-    }
-
-    public static function executeYouTubeSub()
-    {
-        if (!Request::isPost()) {
-            return Controller::redirect('/youtube');
-        }
-
-        $email = Request::getPostParam('email');
-
-        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-            Session::setFlash('error', 'Please enter a valid email.');
-            return Controller::redirect('/youtube');
-        }
-
-        Salesforce::createContact($email, SalesForce::DEFAULT_LIST_ID, 'YouTube Campaign');
-        Mailgun::sendYouTubeWarmLead(['email' => $email]);
-
-        Session::setFlash('success', 'Thanks! We\'ll be in touch. The good kind of touch.');
-
-        return Controller::redirect(Request::getReferrer(), 303);
-    }
-
     public static function executeYouTube(string $version = '')
     {
-        if (isset($_GET['error_message'])) {
-            $error_message = Request::encodeStringFromUser($_GET['error_message']);
-        }
-
-        $baseTemplate = 'acquisition/youtube';
-        $versionedTemplate = $baseTemplate . '-' . $version;
-        $template = $version && View::exists($versionedTemplate) ? $versionedTemplate : $baseTemplate;
-
-        if ($version && View::exists($versionedTemplate)) {
-            Session::set(SESSION::KEY_YOUTUBE_TEMPLATE, $template);
-        }
-
-        $template = Session::get(SESSION::KEY_YOUTUBE_TEMPLATE) ?? $template;
-        if (!View::exists($template)) {
-            Session::unsetKey(SESSION::KEY_YOUTUBE_TEMPLATE);
-            $template = $baseTemplate;
-        }
-
-        return [$template, [
+        return ['acquisition/youtube', [
         'reward' => LBRY::youtubeReward(),
-        'error_message' => $error_message ?? ''
+        'error_message' => Session::getFlash(Session::KEY_YOUTUBE_SYNC_ERROR)
     ]];
     }
 
@@ -66,39 +22,36 @@ class AcquisitionActions extends Actions
 
     public static function executeYoutubeToken()
     {
-        return ['acquisition/youtube_token', ['_no_layout' => true]];
+        $channelName = Request::encodeStringFromUser($_POST['desired_lbry_channel_name']);
+
+        if ($channelName && $channelName[0] !== "@") {
+            $channelName = '@' . $channelName;
+        }
+
+        $token = LBRY::connectYoutube($channelName);
+        if ($token['success'] && $token['data']) {
+            Controller::redirect($token['data']);
+        } else {
+            Session::setFlash(Session::KEY_YOUTUBE_SYNC_ERROR, $token['error'] ?? "An unknown error occured.");
+            Controller::redirect('/youtube');
+        }
     }
 
     public static function executeYoutubeStatus(string $token)
     {
-        if (isset($_GET['error_message'])) {
-            $error_message = Request::encodeStringFromUser($_GET['error_message']);
+        $data = LBRY::statusYoutube($token);
+        if (!$data['success']) {
+            Session::setFlash(Session::KEY_YOUTUBE_SYNC_ERROR, $data['error'] ?? "Error fetching your sync status.");
+            Controller::redirect('/youtube');
         }
 
-        $data = LBRY::statusYoutube($token);
-        if ($data['success'] == false) {
-            Controller::redirect('/youtube?error=true&error_message=' . $data['error']);
-        }
         return ['acquisition/youtube_status', [
         'token' => $token,
         'status_token' => $data,
-        'error_message' => $error_message ?? ''
+        'error_message' => Session::getFlash(Session::KEY_YOUTUBE_SYNC_ERROR)
     ]];
     }
 
-    public static function actionYoutubeToken(string $desired_lbry_channel_name)
-    {
-        $desired_lbry_channel_name_is_valid = static::lbry_channel_verification($desired_lbry_channel_name);
-
-        if ($desired_lbry_channel_name_is_valid) {
-            $token = LBRY::connectYoutube($desired_lbry_channel_name);
-            if ($token['success'] == false) {
-                Controller::redirect('/youtube?error=true&error_message=' . $token['error']);
-            } else {
-                Controller::redirect($token['data']);
-            }
-        }
-    }
     public static function actionYoutubeEdit($status_token, $channel_name, $email, $sync_consent)
     {
         $current_value = LBRY::statusYoutube($status_token);
@@ -109,7 +62,8 @@ class AcquisitionActions extends Actions
         }
 
         if ($status['success'] == false) {
-            Controller::redirect("/youtube/status/". $status_token . "?error=true&error_message=" . $status['error']);
+            Session::setFlash(Session::KEY_YOUTUBE_SYNC_ERROR, $status['error']);
+            Controller::redirect("/youtube/status/". $status_token);
         } else {
             Controller::redirect("/youtube/status/" . $status_token);
         }
@@ -122,32 +76,5 @@ class AcquisitionActions extends Actions
     public static function executeRedirectYoutube()
     {
         return ['acquisition/youtube_status_redirect'];
-    }
-
-    protected static function email_verification($email)
-    {
-        if (preg_match('/\S+@\S+\.\S+/', $email)) {
-            return true;
-        } else {
-            return false;
-        }
-    }
-
-    protected static function youtube_channel_verification($youtube_channel_id)
-    {
-        if (preg_match('/^UC[A-Za-z0-9_-]{22}$/', $youtube_channel_id)) {
-            return true;
-        } else {
-            return false;
-        }
-    }
-
-    protected static function lbry_channel_verification($lbry_channel)
-    {
-        if (preg_match('/[1-z]+/', $lbry_channel)) {
-            return true;
-        } else {
-            return false;
-        }
     }
 }

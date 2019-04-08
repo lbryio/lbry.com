@@ -125,7 +125,6 @@ class Controller
 
         $router->any('/dmca', 'ReportActions::executeDmca');
 
-        $router->any('/youtube/sub', 'AcquisitionActions::executeYouTubeSub');
         $router->post('/youtube/edit', 'AcquisitionActions::executeYoutubeEdit');
         $router->post('/youtube/token', 'AcquisitionActions::executeYoutubeToken');
         $router->any('/youtube/status/{token}', 'AcquisitionActions::executeYoutubeStatus');

@@ -4,7 +4,7 @@
 
 <main class="ancillary">
   <section class="hero hero--half-height">
-    <div class="inner-wrap inner-wrap--hero">
+    <div class="inner-wrap inner-wrap--center-hero">
       <h1>
         <?php echo __('download.for-os2', ['%os%' => OS::OS_DETAIL($os)[5]]) ?>
       </h1>

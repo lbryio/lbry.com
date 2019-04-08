@@ -4,7 +4,7 @@
 
 <main class="ancillary">
   <section class="hero" style="background-image: url(/img/altamira-bison.jpg)">
-    <div class="inner-wrap inner-wrap--hero">
+    <div class="inner-wrap inner-wrap--center-hero">
       <h1>Art in the Internet Age</h1>
       <h3>An introduction to LBRY</h3>
     </div>

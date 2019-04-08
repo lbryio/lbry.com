@@ -1,8 +1,10 @@
+"use strict";
+
+
 
 function playVideo(id) {
-    var myVideo = document.getElementById(id);
+  const video = document.getElementById(id);
 
-    myVideo.play();
-    $('#' + id).prop("controls", true);
-    $('#play-' + id).hide();
+  video.play();
+  video.controls = true;
 }

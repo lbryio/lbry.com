@@ -2,12 +2,9 @@
 
 class Session
 {
-    const KEY_DOWNLOAD_ACCESS_ERROR = 'download_error2',
-        KEY_DOWNLOAD_ALLOWED = 'beta_download_allowed2',
-        KEY_GITHUB_ACCESS_TOKEN = 'github_access_token',
-        KEY_LIST_SUB_ERROR = 'list_error',
-        KEY_USER_CULTURE = 'user_culture',
-        KEY_YOUTUBE_TEMPLATE = 'youtube_landing_template';
+    const KEY_LIST_SUB_ERROR = 'list_error',
+        KEY_YOUTUBE_SYNC_ERROR = 'youtube_sync_error',
+        KEY_USER_CULTURE = 'user_culture';
 
     const NAMESPACE_DEFAULT = 'default',
         NAMESPACE_FLASH = 'flash',

@@ -3,7 +3,7 @@
 
 <main class="ancillary">
   <section class="hero" style="background-image: url(/img/clement-vit.jpg)">
-    <div class="inner-wrap inner-wrap--hero">
+    <div class="inner-wrap inner-wrap--center-hero">
       <h1>LBRY Welcomes WomenTechies Hackathon Participants</h1>
       <h3>We're excited to meet the next generation of problem solvers!</h3>
     </div>

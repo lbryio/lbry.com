@@ -3,7 +3,7 @@
 
 <main class="ancillary">
   <section class="hero" style="background-image: url(/img/bangalore.jpg)">
-    <div class="inner-wrap inner-wrap--hero">
+    <div class="inner-wrap inner-wrap--center-hero">
       <h1>LBRY Welcomes You To The Blockchain Workshop</h1>
       <h3>We're excited to share LBRY with you!</h3>
     </div>

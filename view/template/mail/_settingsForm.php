@@ -54,25 +54,6 @@
           <checkbox-toggle/>
         </checkbox-element>
       <?php endforeach ?>
-
-      <?php js_start() ?>
-        document.querySelectorAll("checkbox-toggle").forEach(toggle => {
-          toggle.addEventListener("click", event => {
-            const siblings = event.target.parentElement.children;
-
-            for (const sibling of siblings) {
-              switch(true) {
-                case sibling.tagName.toLowerCase() === "label":
-                  sibling.click();
-                  break;
-
-                default:
-                  break;
-              }
-            }
-          });
-        });
-      <?php js_end() ?>
     </section>
   </form>
 <?php endif ?>
