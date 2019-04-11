@@ -44,7 +44,7 @@
   <section class="align-text--center" id="claim-section">
     <div class="inner-wrap">
       <?php
-        if ($error_message): echo "<div>" . "The following error occurred: ". $error_message  . " For support please send an email to hello@lbry.com" . "</div>";
+        if ($error_message): echo "<p class='error-block'>" . "The following error occurred: ". $error_message  . " For support please send an email to <a href='mailto:hello@lbry.com' title='Email LBRY for help'>hello@lbry.com</a>." . "</p>";
       endif;?>
 
       <h2>Connect with your fans while earning money and rewards</h2>
@@ -72,12 +72,11 @@
         <br/>
 
         <checkbox-element>
+          <input hidden name="type" type="text" value="sync"/>
           <input id="immediate-sync" name="immediate_sync" type="checkbox" value="true"/>
           <label for="immediate-sync">I want to sync my content to the LBRY network and agree to <a href="/faq/youtube-terms" target="_blank">these terms</a></label>
           <checkbox-toggle/>
         </checkbox-element>
-
-        <input type="text" hidden name="type" value="sync"/>
       </form>
 
       <small class="meta">
