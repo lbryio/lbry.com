@@ -252,8 +252,8 @@ $lbry-yt-blue: mix($lbry-blue-5, $lbry-black, 50%);
       &.disabled {
         span {
           background-color: var(--lbry-gray-3);
-          padding-top: 0.3rem;
-          padding-left: 0.1rem;
+          padding-top: 0.5rem;
+          padding-left: 0.05rem;
 
           // Mobile Safari override
           @media not all and (min-resolution: 0.001dpcm) {
