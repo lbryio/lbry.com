@@ -182,8 +182,15 @@
       min-width: 12rem; min-height: 12rem;
 
       margin-bottom: 1rem;
-      max-height: 25rem;
       object-fit: contain;
+
+      &:not(.tall) {
+        max-height: 25rem;
+      }
+
+      &.tall {
+        max-height: 50rem;
+      }
     }
   }
 

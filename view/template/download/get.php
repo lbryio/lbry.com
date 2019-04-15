@@ -30,7 +30,13 @@
       </div>
 
       <figure>
-        <img src="<?php echo $osScreenshotSrc ?>" alt="Screenshot of LBRY"/>
+        <img
+          alt="Screenshot of LBRY"
+          src="<?php echo $osScreenshotSrc ?>"
+          <?php if ($os === OS::OS_ANDROID): ?>
+          class="tall"
+          <?php endif ?>
+        />
       </figure>
 
       <?php else: ?>

@@ -41,6 +41,11 @@
       <?php endif ?>
 
       <h2><?php echo $isSyncAgreed && $isRewardClaimed ? "You're all set!" : "Almost done!" ?></h2>
+      <div>
+        <?php echo
+          $statusData['redeemed_reward']
+        ?>
+      </div>
 
       <div class="confirmation-steps">
         <ul class="bulletless">
