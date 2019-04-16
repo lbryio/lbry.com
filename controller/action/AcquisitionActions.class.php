@@ -4,9 +4,13 @@ class AcquisitionActions extends Actions
 {
     public static function executeYouTube(string $version = '')
     {
+        $errorMessage = Request::getParam('error_message', '');
+        if (Session::getFlash(Session::KEY_YOUTUBE_SYNC_ERROR)) {
+            $errorMessage = Session::getFlash(Session::KEY_YOUTUBE_SYNC_ERROR);
+        }
         return ['acquisition/youtube', [
         'reward' => LBRY::youtubeReward(),
-        'error_message' => Session::getFlash(Session::KEY_YOUTUBE_SYNC_ERROR)
+        'error_message' =>  $errorMessage
     ]];
     }
 
