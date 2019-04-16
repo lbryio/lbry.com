@@ -53,7 +53,12 @@ class LBRY
     public static function connectYoutube($channel_name)
     {
         $type = 'sync';
+
+        // Uncomment next line for production and comment other return
         return Curl::post(static::getApiUrl('/yt/new'), ['desired_lbry_channel_name' => $channel_name, 'type' => $type], ['json_response' => true]);
+
+        // Uncomment next line for development and comment other return (this also requires the testnet API)
+        // return Curl::post(static::getApiUrl('/yt/new'), ['desired_lbry_channel_name' => $channel_name, 'type' => $type, 'return_url' => 'http://localhost:8000/youtube/status/'], ['json_response' => true]);
     }
 
     // Check the sync status
