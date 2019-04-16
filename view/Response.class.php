@@ -61,7 +61,7 @@ class Response
 
     public static function getMetaImages()
     {
-        return static::$metaImages ?: [Request::getHostAndProto() . '/img/lbry-green-meta-1200x900.png'];
+        return static::$metaImages ?: [Request::getHostAndProto() . '/img/og-image.png'];
     }
 
     public static function setMetaTitle($title)
@@ -371,15 +371,14 @@ class Response
     );
     }
 
-    public static function addPostRenderCallback( $cb )
+    public static function addPostRenderCallback($cb)
     {
         array_push(static::$PostRenderCallbacks, $cb);
     }
 
     public static function invokePostRenderCallbacks()
     {
-        foreach(static::$PostRenderCallbacks as &$cb )
-        {
+        foreach (static::$PostRenderCallbacks as &$cb) {
             $cb();
         }
     }
