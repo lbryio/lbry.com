@@ -58,7 +58,14 @@ class LBRY
         return Curl::post(static::getApiUrl('/yt/new'), ['desired_lbry_channel_name' => $channel_name, 'type' => $type], ['json_response' => true]);
 
         // Uncomment next line for development and comment other return (this also requires the testnet API)
-        // return Curl::post(static::getApiUrl('/yt/new'), ['desired_lbry_channel_name' => $channel_name, 'type' => $type, 'return_url' => 'http://localhost:8000/youtube/status/'], ['json_response' => true]);
+        // return Curl::post(static::getApiUrl('/yt/new'), [
+        //     'desired_lbry_channel_name' => $channel_name,
+        //     'immediate_sync' => true,
+        //     'return_url' => 'http://localhost:8000/youtube/status/',
+        //     'type' => $type
+        // ], [
+        //     'json_response' => true
+        // ]);
     }
 
     // Check the sync status

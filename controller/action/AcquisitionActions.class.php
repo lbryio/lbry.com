@@ -5,13 +5,15 @@ class AcquisitionActions extends Actions
     public static function executeYouTube(string $version = '')
     {
         $errorMessage = Request::getParam('error_message', '');
+
         if (Session::getFlash(Session::KEY_YOUTUBE_SYNC_ERROR)) {
             $errorMessage = Session::getFlash(Session::KEY_YOUTUBE_SYNC_ERROR);
         }
+
         return ['acquisition/youtube', [
-        'reward' => LBRY::youtubeReward(),
-        'error_message' =>  $errorMessage
-    ]];
+            'reward' => LBRY::youtubeReward(),
+            'error_message' =>  $errorMessage
+        ]];
     }
 
     public static function executeVerify(string $token)
@@ -33,6 +35,7 @@ class AcquisitionActions extends Actions
         }
 
         $token = LBRY::connectYoutube($channelName);
+
         if ($token['success'] && $token['data']) {
             Controller::redirect($token['data']);
         } else {
@@ -44,16 +47,17 @@ class AcquisitionActions extends Actions
     public static function executeYoutubeStatus(string $token)
     {
         $data = LBRY::statusYoutube($token);
+
         if (!$data['success']) {
             Session::setFlash(Session::KEY_YOUTUBE_SYNC_ERROR, $data['error'] ?? "Error fetching your sync status.");
             Controller::redirect('/youtube');
         }
 
         return ['acquisition/youtube_status', [
-        'token' => $token,
-        'status_token' => $data,
-        'error_message' => Session::getFlash(Session::KEY_YOUTUBE_SYNC_ERROR)
-    ]];
+            'token' => $token,
+            'status_token' => $data,
+            'error_message' => Session::getFlash(Session::KEY_YOUTUBE_SYNC_ERROR)
+        ]];
     }
 
     public static function actionYoutubeEdit($status_token, $channel_name, $email, $sync_consent)
@@ -72,6 +76,7 @@ class AcquisitionActions extends Actions
             Controller::redirect("/youtube/status/" . $status_token);
         }
     }
+
     public static function executeYoutubeEdit()
     {
         return ['acquisition/youtube_edit'];

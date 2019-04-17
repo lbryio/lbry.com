@@ -6,7 +6,7 @@
 <?php Response::addJsAsset('//www.googleadservices.com/pagead/conversion_async.js') ?>
 
 <?php $statusData = $status_token['data'] ?>
-<?php $isSyncAgreed = in_array($statusData['status'], ["syncing", "synced", "queued", "failed", "finalized"]) ?>
+<?php $isSyncAgreed = in_array($statusData['status'], ["failed", "finalized", "pendingemail", "queued", "synced", "syncing"]) ?>
 <?php $isRewardClaimed = $statusData['redeemed_reward'] > 0 ?>
 
 <?php if (IS_PRODUCTION): ?>
@@ -50,12 +50,12 @@
           </li>
 
           <li class="<?php echo $isSyncAgreed ? "" : "disabled" ?>">
-            <span><?php echo $isSyncAgreed ? "✓" : "☐" ?></span>
+            <span><?php echo $isSyncAgreed ? "✓" : "·" ?></span>
             <p>Agree to sync</p>
           </li>
 
           <li class="<?php echo $isRewardClaimed && $isSyncAgreed ? "" : "disabled" ?>">
-            <span><?php echo $isRewardClaimed ? "✓" : "☐" ?></span>
+            <span><?php echo $isRewardClaimed ? "✓" : "·" ?></span>
             <p>Claim your credits</p>
             <p <?php echo ($isRewardClaimed === false && $isSyncAgreed === true) ? "" : "hidden" ?>>(to get your credits, <a href="/get">download the app</a> and <a href="/faq/youtube">follow these instructions</a>)</p>
           </li>
@@ -81,6 +81,9 @@
                 case "pending":
                   echo __("Pending Agreement");
                   break;
+                case "pendingemail":
+                  echo __("Pending Email Confirmation");
+                  break;
                 case "queued":
                   echo __("Queued");
                   break;
@@ -99,19 +102,22 @@
                 case "abandoned":
                   echo __("Cannot sync anymore!");
                   break;
+                default:
+                  echo __("—");
+                  break;
               } ?>
             </td>
 
             <td>
-              <?php echo $statusData['subscribers'] === 0 ? "-" : $statusData['subscribers'] ?>
+              <?php echo $statusData['subscribers'] === 0 ? "—" : $statusData['subscribers'] ?>
             </td>
 
             <td>
-              <?php echo $statusData['videos'] === 0 ? "-" : $statusData['videos'] ?>
+              <?php echo $statusData['videos'] === 0 ? "—" : $statusData['videos'] ?>
             </td>
 
             <td>
-              <?php echo $statusData['expected_reward'] === 0 ? "-" : $statusData['expected_reward'] ?>
+              <?php echo $statusData['expected_reward'] === 0 ? "—" : $statusData['expected_reward'] ?>
             </td>
           </tr>
         </tbody>
