@@ -250,6 +250,7 @@ new App();
 
 
 
+// Clicking CTAs introduces a smooth scroll to the appropriate section
 const youtubeCtas = document.querySelectorAll("[data-id='scroll-to-claim']");
 
 youtubeCtas.forEach(cta => {
@@ -263,4 +264,20 @@ youtubeCtas.forEach(cta => {
       document.getElementById("lbry_channel_name").focus();
     }, 300);
   };
+});
+
+
+
+// Scroll to error messages if they exist
+window.addEventListener("load", (event) => {
+  const youtubeErrors = document.querySelectorAll(".error-block");
+
+  youtubeErrors.forEach(error => {
+    if (!error.hidden) {
+      const errorDivOffset = error.offsetTop;
+
+      window.scroll({ top: errorDivOffset });
+      return;
+    }
+  });
 });

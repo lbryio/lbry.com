@@ -29,12 +29,13 @@ class AcquisitionActions extends Actions
     public static function executeYoutubeToken()
     {
         $channelName = Request::encodeStringFromUser($_POST['desired_lbry_channel_name']);
+        $immediateSync = (boolean)$_POST['immediate_sync'];
 
         if ($channelName && $channelName[0] !== "@") {
             $channelName = '@' . $channelName;
         }
 
-        $token = LBRY::connectYoutube($channelName);
+        $token = LBRY::connectYoutube($channelName, $immediateSync);
 
         if ($token['success'] && $token['data']) {
             Controller::redirect($token['data']);
