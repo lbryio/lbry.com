@@ -35,9 +35,10 @@
   <section class="section channel">
     <div class="inner-wrap">
       <?php if (preg_match('/^[A-Za-z0-9._%+-]+@plusgoogle.com$/', $statusData['email'])): ?>
-        <div id="email-google-plus-error" class="error">
-          Your email address is set as <?php echo $statusData['email']; ?>.<br>If this is not your email address, please <span id="scroll_email">change it below</span>.
-        </div>
+        <p class="error-block" id="email-google-plus-error">
+          Your email address is set as <?php echo $statusData['email']; ?>.<br/>
+          If this is not your email address, please change it below.
+        </p>
       <?php endif ?>
 
       <h2><?php echo $isSyncAgreed && $isRewardClaimed ? "You're all set!" : "Almost done!" ?></h2>
