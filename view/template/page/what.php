@@ -143,6 +143,7 @@ wonderfullife<span class="token punctuation">:</span> <span class="token punctua
 
       <ol>
         <li>LBRYNet issues a lookup for the name associated with the content. If the client does not have a local copy of the blockchain, this lookup is broadcast to miners or to a service provider. This lookup acquires the metadata associated with the name.</li>
+
         <li>LBRYNet issues any required payments, as instructed by metadata entries.
           <ol>
             <li>If the content is set to free, nothing happens here.</li>
@@ -150,6 +151,7 @@ wonderfullife<span class="token punctuation">:</span> <span class="token punctua
             <li>If the content is set to have another payment method, the seller must run or use a service that provides a private server enforcing payment and provisioning accessing keys.</li>
           </ol>
         </li>
+
         <li>Simultaneous to #2, LBRYNet uses the metadata to download the content itself.
           <ol>
             <li>The metadata allows chunks to be discovered and assembled in a BitTorrent-like fashion. However, unlike BitTorrent, chunks do not individually identify themselves as part of a greater whole. Chunks are just arbitrary pieces of data.</li>
@@ -166,6 +168,7 @@ wonderfullife<span class="token punctuation">:</span> <span class="token punctua
       <p>While the protocol is determined, open, and fixed, the service layer is much more flexible. It is far easier to redesign a website than it is to revise the HTTP protocol itself. The same is true here.</p>
 
       <p>Additionally, just as in the early days of the internet, imagining the later direction of the web would have been unfathomable, so too may the best uses of LBRY's namespace or technology be undiscovered.  However, there are some clear use cases:</p>
+
       <h4>Applications and Devices</h4>
       <p>A LBRY application is how a user would actually have meaningful interactions with the LBRY network. A LBRY client packages the power of the LBRY protocol into a simple application that allows the user to simply search for content, pay for it when necessary, download and enjoy.</p>
 
@@ -218,13 +221,13 @@ wonderfullife<span class="token punctuation">:</span> <span class="token punctua
       <p>To evaluate a technology's effect, we must consider where it moves us from the current state of affairs, not judge against a Platonic ideal or past era. In assessing LBRY, we must compare it to a world in which BitTorrent already exists and is quite popular, not the 1950s. LBRY is an improvement over BitTorrent in combatting unsavory content in at least four ways:</p>
 
       <ol>
-        <li><strong>More records.</strong>LBRY contains a public ledger of transactions recording name purchases and published content. As many purchases make it onto the ledger as well, this means infringing actions are frequently recorded <em>forever, </em>or are at a minimum, widely observable.</li>
+        <li><p><strong>More records.</strong></p><p>LBRY contains a public ledger of transactions recording name purchases and published content. As many purchases make it onto the ledger as well, this means infringing actions are frequently recorded <em>forever</em>, or are at a minimum, widely observable.</p></li>
 
-        <li><strong>Updatable URLs.</strong> Once a BitTorrent magnet hash is in the wild, there is no mechanism to update or alter its resolution whatsoever. If a LBRY name is pointing to infringing content, it can be updated or removed (but not by us). </li>
+        <li><p><strong>Updatable URLs.</strong></p><p>Once a BitTorrent magnet hash is in the wild, there is no mechanism to update or alter its resolution whatsoever. If a LBRY name is pointing to infringing content, it can be updated or removed (but not by us).</p></li>
 
-        <li><strong>Stiffer penalties. </strong>Penalties for profiting off of infringement are far stronger and can involve jail time, while infringement without profit only results in statutory damages. This serves as a far stronger deterrent for all infringing uses than BitTorrent provides.</li>
+        <li><p><strong>Stiffer penalties.</strong></p><p>Penalties for profiting off of infringement are far stronger and can involve jail time, while infringement without profit only results in statutory damages. This serves as a far stronger deterrent for all infringing uses than BitTorrent provides.</p></li>
 
-        <li><strong>Expensive or impossible. </strong>Off-chain settlement will be a requirement for efficient purchases at any significant network size. Settlement providers, ourselves included, will be able to block purchases for infringing content. At significant traffic volume, if infringing content can't be outright removed or blocked, transaction fees will make it prohibitively expensive.</li>
+        <li><p><strong>Expensive or impossible.</strong></p><p>Off-chain settlement will be a requirement for efficient purchases at any significant network size. Settlement providers, ourselves included, will be able to block purchases for infringing content. At significant traffic volume, if infringing content can't be outright removed or blocked, transaction fees will make it prohibitively expensive.</p></li>
       </ol>
 
       <p>And of course, let's not forget that LBRY users are still subject to the DMCA and other laws governing intellectual property. Users who publishing infringing content are still subject to penalties for doing so in exactly the same way they would be via BitTorrent. LBRY only adds to the suite of options available. This makes LBRY a strict improvement over BitTorrent with regards to illegal usages, which provides none of the mechanisms listed.</p>
@@ -237,15 +240,15 @@ wonderfullife<span class="token punctuation">:</span> <span class="token punctua
       <p>We want to be the first digital content marketplace to:</p>
 
       <ol>
-        <li><strong>Treat users like adults.</strong> LBRY doesn't play nanny. It encourages individual people to express their own preferences, rather than force our own onto them. We enable consumers to make their own choices about where and who they want to purchase digital content from.</li>
+        <li><p><strong>Treat users like adults.</strong></p><p>LBRY doesn't play nanny. It encourages individual people to express their own preferences, rather than force our own onto them. We enable consumers to make their own choices about where and who they want to purchase digital content from.</p></li>
 
-        <li><strong>Operate openly, inclusively, and transparently.</strong> Anyone can publish or interact with the LBRY network. No one needs permission from us or anyone else. LBRY encourages all parties to participate in the network, rather than the creation of walled gardens. LBRY is a completely open specification and all code is open source.</li>
+        <li><p><strong>Operate openly, inclusively, and transparently.</strong></p><p>Anyone can publish or interact with the LBRY network. No one needs permission from us or anyone else. LBRY encourages all parties to participate in the network, rather than the creation of walled gardens. LBRY is a completely open specification and all code is open source.</p></li>
 
-        <li><strong>Prove decentralization doesn't mean infringement.</strong> Existing decentralized publishing protocols offer no way for right holders to combat or capture profits from illegally shared content. LBRY's service layer, blacklisting mechanisms, and naming system all improve the status quo.</li>
+        <li><p><strong>Prove decentralization doesn't mean infringement.</strong></p><p>Existing decentralized publishing protocols offer no way for right holders to combat or capture profits from illegally shared content. LBRY's service layer, blacklisting mechanisms, and naming system all improve the status quo.</p></li>
 
-        <li><strong>Acknowledge modern digital realities and ethical norms.</strong> Prohibition has failed at every turn and in every iteration. Regulating human behavior only works when it aligns with moral norms that are shared by the majority of the population.<br/><br/>If it is impossible to keep drugs out of prisons, it will never be possible to enforce copyright via analogous tactics on the infinitely less-controlled internet. Instead, focus on enticement. While legal compliance is paramount, concentrate as much as possible on making a system that relies more on giving people no excuse to do the wrong thing.</li>
+        <li><p><strong>Acknowledge modern digital realities and ethical norms.</strong></p><p>Prohibition has failed at every turn and in every iteration. Regulating human behavior only works when it aligns with moral norms that are shared by the majority of the population.</p><p>If it is impossible to keep drugs out of prisons, it will never be possible to enforce copyright via analogous tactics on the infinitely less-controlled internet. Instead, focus on enticement. While legal compliance is paramount, concentrate as much as possible on making a system that relies more on giving people no excuse to do the wrong thing.</p></li>
 
-        <li><strong>Collect no rent.</strong> Whatever an artist or creator charges for their work should go to them. Distributing bits is exceedingly simple. There's no need to give 45% to YouTube or 30% to Apple. Collecting no rent isn't just a promise, it's hard coded. The nature of LBRY means this could never be done -- by us or anyone else.</li>
+        <li><p><strong>Collect no rent.</strong></p><p>Whatever an artist or creator charges for their work should go to them. Distributing bits is exceedingly simple. There's no need to give 45% to YouTube or 30% to Apple. Collecting no rent isn't just a promise, it's hard coded. The nature of LBRY means this could never be done -- by us or anyone else.</p></li>
       </ol>
     </div>
   </section>

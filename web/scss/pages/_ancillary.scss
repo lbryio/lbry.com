@@ -81,13 +81,33 @@
     li {
       list-style-position: inherit;
 
+      &:not(:first-of-type) {
+        padding-top: 0.5rem;
+      }
+
+      &:not(:last-of-type) {
+        p:last-of-type {
+          margin-bottom: 1rem;
+        }
+      }
+
       ol,
       ul {
+        padding-top: 1rem;
         padding-left: 1rem;
+
+        li:not(:last-of-type) {
+          margin-bottom: 0.5rem;
+        }
       }
 
       p {
-        display: inline;
+        display: inline-block;
+
+        &:not(:first-of-type) {
+          padding-top: 0.5rem;
+          padding-left: 1.25rem;
+        }
       }
     }
   }
