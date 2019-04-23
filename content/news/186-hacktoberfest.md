@@ -42,9 +42,7 @@ Jack Robison - Protocol Developer
 
 #### 10/6 - 10/7
 
-> A lot is happening at the [#devfest](https://twitter.com/hashtag/devfest) [#vitvellore](https://twitter.com/hashtag/vitvellore) [#hackathon](https://twitter.com/hashtag/hackathon) [@LBRYio](https://twitter.com/LBRYio) [@itsmedn7](https://twitter.com/itsmedn7) [$lbc](https://twitter.com/search?q=%24lbc) [#lbry](https://twitter.com/hashtag/lbry) [#lbryians](https://twitter.com/hashtag/lbryians) [pic.twitter.com/ZQqiC1Oevi](https://t.co/ZQqiC1Oevi)
->
-> — Premium_Trends (Clement) (@Premium_Trends) [October 6, 2018](https://twitter.com/Premium_Trends/status/1048573008124698629)
+<img alt="Do1HkRNVsAItuRe" src="https://spee.ch/@chris45:bb/Do1HkRNVsAItuRe.jpg" />
 
 Vellore India Hackathon
 
@@ -64,9 +62,7 @@ Akinwale Ariwodola - Lead Mobile Developer
 
 #### 10/19 - 10/20
 
-> Kicking off Hackathon: Blockchain with [@LBRYio](https://twitter.com/LBRYio) CEO Jeremy Kauffman and [@UNHCrypto](https://twitter.com/UNHCrypto) at the [#UNHECenter](https://twitter.com/hashtag/UNHECenter)! [pic.twitter.com/qOIeWcbh5P](https://t.co/qOIeWcbh5P)
->
-> UNH ECenter (@UNHECenter) [October 19, 2018](https://twitter.com/UNHECenter/status/1053395944279027717)
+<img alt="Dp5qBngWoAAu-9m" src="https://spee.ch/@chris45:bb/Dp5qBngWoAAu-9m.jpeg" />
 
 University of New Hampshire Hackathon!
 
