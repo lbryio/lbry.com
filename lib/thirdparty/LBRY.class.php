@@ -53,23 +53,23 @@ class LBRY
     public static function connectYoutube($channel_name, $immediateSync = false)
     {
         // Uncomment next line for production and comment other return
-        // return Curl::post(static::getApiUrl('/yt/new'), [
-        //     'desired_lbry_channel_name' => $channel_name,
-        //     'immediate_sync' => $immediateSync,
-        //     'type' => 'sync'
-        // ], [
-        //     'json_response' => true
-        // ]);
-
-        // Uncomment next line for development and comment other return (this also requires the testnet API)
         return Curl::post(static::getApiUrl('/yt/new'), [
             'desired_lbry_channel_name' => $channel_name,
             'immediate_sync' => $immediateSync,
-            'return_url' => 'http://localhost:8000/youtube/status/',
             'type' => 'sync'
         ], [
             'json_response' => true
         ]);
+
+        // Uncomment next line for development and comment other return (this also requires the testnet API)
+        // return Curl::post(static::getApiUrl('/yt/new'), [
+        //     'desired_lbry_channel_name' => $channel_name,
+        //     'immediate_sync' => $immediateSync,
+        //     'return_url' => 'http://localhost:8000/youtube/status/',
+        //     'type' => 'sync'
+        // ], [
+        //     'json_response' => true
+        // ]);
     }
 
     // Check the sync status
