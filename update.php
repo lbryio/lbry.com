@@ -18,7 +18,6 @@ chdir(ROOT_DIR);
 
 Shell::exec('git fetch && git reset --hard origin/master');
 Shell::exec('git submodule update --init');
-// Shell::exec('git pull --recurse-submodules');
 Shell::exec('git submodule update --recursive --remote');
 Shell::exec('php composer.phar install');
 
