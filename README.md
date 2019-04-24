@@ -39,7 +39,6 @@ Contributions to this project are welcome, encouraged, and compensated. For more
 This project is MIT licensed. For the full license, see [LICENSE](LICENSE).
 
 ## Build URLs
-
 lbry.com provides functionality for redirecting to build assets of other LBRY repos. The general structure is:
 
 `lbry.com/releases/<github_repo_name>.<extension>`
@@ -55,7 +54,7 @@ Extension is used to get the release for the appropriate operating system, even 
 | Windows | msi, exe
 | macOS | dmg, pkg
 | Linux (Debian) | deb
-| Android | apk 
+| Android | apk
 
 The asset returned will match the latest release on the appropriate GitHub repo.
 

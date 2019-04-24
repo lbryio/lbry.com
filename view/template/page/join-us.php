@@ -2,7 +2,7 @@
 <?php Response::addMetaImage('https://spee.ch/@lbryteam:6/everyone.jpg') ?>
 
 <main class="ancillary">
-  <section class="hero hero--half-height">
+  <section class="hero" style="background-image: url(https://spee.ch/@lbryteam:6/everyone-apr-2018.jpg); background-position: center;">
     <div class="inner-wrap inner-wrap--center-hero">
       <h1>Join Team Content Freedom</h1>
     </div>
@@ -11,11 +11,6 @@
   <section>
     <div class="inner-wrap">
       <p>Changing the landscape of content distribution is no easy task. LBRY is growing rapidly, and we're always looking for great people to join us. If you're looking for a challenging and rewarding pursuit, if you want to work with a team that shares your passion and curiosity, you've come to the right place.</p>
-
-      <figure>
-        <img src="https://spee.ch/@lbryteam:6/everyone-apr-2018.jpg" alt="LBRY Team Photo from April 2018"/>
-        <figcaption>Fortunately, photo shoots are not a regular job activity.</figcaption>
-      </figure>
 
       <h2 id="about">About LBRY</h2>
 
@@ -50,7 +45,7 @@
         <li>A brief (30 minute max), non-technical, introductory phone call with either the CEO, CTO, or appropriate lead.</li>
 
         <li>
-          <p>All technical hires are required to complete compensated code contribution on the repository they'd be working on. Non-technical hires will also be asked to complete a compensated trial task after they apply and complete step 1.</p>
+          <p class="join-us-fix">All technical hires are required to complete compensated code contribution on the repository they'd be working on. Non-technical hires will also be asked to complete a compensated trial task after they apply and complete step 1.</p>
 
           <p>Issues tagged "good first issue" are suitable for this purpose, though you are welcome to work on another issue or even something not filed at all.</p>
 
@@ -70,17 +65,21 @@
               </tr>
               <tr>
                 <td>
-                  - <a href="https://github.com/lbryio/lbry">lbry (daemon)</a><br/>
-                  - <a href="https://github.com/lbryio/lbryum">lbryum (wallet)</a>
+                  <ul>
+                    <li><a href="https://github.com/lbryio/lbry">lbry (daemon)</a></li>
+                    <li><a href="https://github.com/lbryio/lbryum">lbryum (wallet)</a></li>
+                  </ul>
                 </td>
                 <td>Protocol Engineer</td>
                 <td><a href="https://github.com/lbryio/lbry/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">good first issues</a></td>
               </tr>
               <tr>
                 <td>
-                  - <a href="https://github.com/lbryio/lbry-desktop">lbry-desktop</a><br/>
-                  - <a href="https://github.com/lbryio/lbry-android">lbry-android</a><br/>
-                  - <a href="https://github.com/lbryio/spee.ch">spee.ch</a>
+                  <ul>
+                    <li><a href="https://github.com/lbryio/lbry-desktop">lbry-desktop</a></li>
+                    <li><a href="https://github.com/lbryio/lbry-android">lbry-android</a></li>
+                    <li><a href="https://github.com/lbryio/spee.ch">spee.ch</a></li>
+                  </ul>
                 </td>
                 <td>Lead Application Engineer</td>
                 <td><a href="https://github.com/lbryio/lbry-desktop/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">good first issues</a></td>

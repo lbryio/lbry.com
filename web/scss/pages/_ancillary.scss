@@ -104,10 +104,20 @@
       p {
         display: inline-block;
 
+        &.join-us-fix {
+          margin-top: -2rem;
+          padding-left: 1.25rem;
+        }
+
         &:not(:first-of-type) {
           padding-top: 0.5rem;
           padding-left: 1.25rem;
         }
+      }
+
+      table {
+        display: inline-block;
+        padding-left: 1.25rem;
       }
     }
   }
@@ -230,6 +240,14 @@
   table {
     margin-bottom: 1rem;
     padding-top: 1rem;
+
+    ul {
+      margin: 0 !important; padding: 0 !important;
+
+      li {
+        margin: 0 !important; padding: 0 !important;
+      }
+    }
   }
 
   video {
