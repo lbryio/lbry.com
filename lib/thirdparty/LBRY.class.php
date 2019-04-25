@@ -15,18 +15,19 @@ class LBRY
     public static function getLBCtoUSDRate()
     {
         $response = CurlWithCache::get(static::getApiUrl('/lbc/exchange_rate'), [], [
-      'cache' => 3600, //one hour
-      'json_response' => true
-    ]);
+          'cache' => 3600, //one hour
+          'json_response' => true
+        ]);
+
         return $response['data']['lbc_usd'] ?? 0;
     }
 
     public static function subscribe($email, $tag = null)
     {
         return Curl::post(static::getApiUrl('/list/subscribe'), array_filter([
-      'email' => $email,
-      'tag' => $tag,
-    ]), ['json_response' => true]);
+          'email' => $email,
+          'tag' => $tag,
+        ]), ['json_response' => true]);
     }
 
     public static function editEmailSettings($token, $email, $isPrimary =null, $isEnabled = null)
@@ -86,9 +87,18 @@ class LBRY
     public static function editYouTube($status_token, $channel_name, $email, $sync_consent)
     {
         if ($email == null) {
-            return Curl::post(static::getApiUrl("/yt/update"), ['status_token' => $status_token, 'new_preferred_channel' => $channel_name, 'sync_consent' => $sync_consent], ['json_response' => true]);
+            return Curl::post(static::getApiUrl("/yt/update"), [
+                'new_preferred_channel' => $channel_name,
+                'status_token' => $status_token,
+                'sync_consent' => $sync_consent
+            ], ['json_response' => true]);
         } else {
-            return Curl::post(static::getApiUrl("/yt/update"), ['status_token' => $status_token, 'new_email' => $email, 'new_preferred_channel' => $channel_name, 'sync_consent' => $sync_consent], ['json_response' => true]);
+            return Curl::post(static::getApiUrl("/yt/update"), [
+                'new_email' => $email,
+                'new_preferred_channel' => $channel_name,
+                'status_token' => $status_token,
+                'sync_consent' => $sync_consent
+            ], ['json_response' => true]);
         }
     }
 

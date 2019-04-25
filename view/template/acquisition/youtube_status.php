@@ -66,7 +66,7 @@
       </div>
 
       <table>
-        <thead style="font-size: 80%;">
+        <thead>
           <tr>
             <th>Your Sync Status</th>
             <th>Subscribers</th>
@@ -133,7 +133,7 @@
           <input type="hidden" name="status_token" id="status_token" value="<?php echo $token ?>"/>
         </div>
 
-        <?php if ($error_message): echo "<div>" . "The following error occurred: " . $error_message . " For support please send an email to hello@lbry.com" . "</div>"; endif; ?>
+        <?php if ($error_message): echo "<p class='error-block'>" . "The following error occurred: <strong>" . $error_message . "</strong> For support please send an email to hello@lbry.com" . "</p>"; endif; ?>
 
         <fieldset>
           <legend>Confirm your preferences</legend>
