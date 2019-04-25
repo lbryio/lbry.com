@@ -148,29 +148,13 @@
         </thead>
 
         <tbody>
-          <tr>
-            <td>1,000</td>
-            <td><?php echo $reward['data']['1000']; ?> <small class="meta">LBC</small></td>
-            <td data-id="amount-<?php echo $reward['data']['1000']; ?>"></td>
-          </tr>
-
-          <tr>
-            <td>10,000</td>
-            <td><?php echo $reward['data']['10000']; ?> <small class="meta">LBC</small></td>
-            <td data-id="amount-<?php echo $reward['data']['10000']; ?>"></td>
-          </tr>
-
-          <tr>
-            <td>100,000</td>
-            <td><?php echo $reward['data']['100000']; ?> <small class="meta">LBC</small></td>
-            <td data-id="amount-<?php echo $reward['data']['100000']; ?>"></td>
-          </tr>
-
-          <tr>
-            <td>1,000,000</td>
-            <td><?php echo $reward['data']['1000000']; ?> <small class="meta">LBC</small></td>
-            <td data-id="amount-<?php echo $reward['data']['1000000']; ?>"></td>
-          </tr>
+          <?php foreach ($reward['data'] as $subCount => $rewardAmt): ?>
+              <tr>
+                <td><?php echo number_format($subCount) ?></td>
+                <td><?php echo $rewardAmt; ?> <small class="meta">LBC</small></td>
+                <td data-id="amount-<?php echo $rewardAmt ?>"></td>
+              </tr>
+          <?php endforeach ?>
         </tbody>
       </table>
     </div>
