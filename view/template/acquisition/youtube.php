@@ -151,7 +151,7 @@
           <?php foreach ($reward['data'] as $subCount => $rewardAmt): ?>
               <tr>
                 <td><?php echo number_format($subCount) ?></td>
-                <td><?php echo $rewardAmt; ?> <small class="meta">LBC</small></td>
+                <td><?php echo number_format($rewardAmt); ?> <small class="meta">LBC</small></td>
                 <td data-id="amount-<?php echo $rewardAmt ?>"></td>
               </tr>
           <?php endforeach ?>
