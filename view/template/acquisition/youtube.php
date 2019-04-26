@@ -36,6 +36,7 @@
 
     <div class="inner-wrap inner-wrap--center-left">
       <h1 class="weight-light">LBRY &times; YouTube Sync</h1>
+      <?php echo sys_get_temp_dir() ?>
       <h2 class="weight-light">Get your YouTube videos in front of the LBRY audience</h2>
       <button class="button button--inverse" data-id="scroll-to-claim" type="button">Claim your channel now</button>
     </div>
