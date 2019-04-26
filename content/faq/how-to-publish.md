@@ -46,7 +46,9 @@ If you don't have LBRY yet, download it [here](/get).
 Click `Publish`.
 
 
-The file will process in the background and will be added to the LBRY Blockchain. Larger files will take longer to upload depending on your network speed. Please leave LBRY running while your content is in the "pending confirmation" mode. This page will automatically refresh and you will be notified when the publish is completed. You can continue to use LBRY while the upload completes.
+The file will process in the background and will be added to the LBRY Blockchain. Please leave LBRY running while your content is in the "pending confirmation" mode. This page will automatically refresh and you will be notified when the publish is completed. After this, your content will be available to other LBRY users. However, it is a good idea to leave LBRY open for a while after this to make sure the app is able to share your file to at least one peer on the data network. Larger files will take longer to upload depending on your network speed.
+
+You can continue to use LBRY while the upload completes.
 
 ### How do I create a Channel?
 
@@ -100,7 +102,8 @@ Yes, the claim can be edited to increase the bid amount.  Go into your published
 
 ### How can I tell if someone is downloading my content?
 
-Currently, this is only possible if you set a price for your content - you will see transactions in your LBRY wallet as people purchase it. In the future, we will add these types of statistics to LBRY.
+The LBRY app now has view counts for your published content.
+In the future, we will add more of these types of statistics to LBRY.
 
 ### My video doesn't stream in the app, what's wrong?
 
@@ -108,7 +111,7 @@ The in-app video player's streaming capabilities are limited to MP4 files which 
 
 ### I shared my URL, but others can't download it. What's going on?
 
-Since LBRY is a Peer-to-Peer network, it requires that your device is accessible to the internet. LBRY also runs servers to assist in content hosting, but this process may fail if your device cannot send it to us. By default, the TCP sharing port is set to 3333. If your network is properly configured and LBRY is running, a port status check on TCP Port 3333 should pass on this [port checking tool](http://www.canyouseeme.org). If it fails, you can check if UPnP is enabled on your router or forward TCP port 3333 manually. If you need assistance, check out the [help page](/faq/how-to-report-bugs) on how to reach us.
+Since LBRY is a Peer-to-Peer network, it requires that your device is accessible to the internet. LBRY also runs servers to assist in content hosting, but this process may fail if your device cannot send it to us or if you didn't wait long enough after the initial publish. By default, the TCP sharing port is set to 3333. If your network is properly configured and LBRY is running, a port status check on TCP Port 3333 should pass on this [port checking tool](http://www.canyouseeme.org). If it fails, you can check if UPnP is enabled on your router or forward TCP port 3333 manually. If you need assistance, check out the [help page](/faq/how-to-report-bugs) on how to reach us.
 
 ### Where is my Channel and content saved locally?
 
