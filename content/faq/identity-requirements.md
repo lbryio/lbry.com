@@ -19,7 +19,7 @@ Your card information is submitted directly to [Stripe](https://stripe.com), one
 
 ### What If I Don't Want To Provide It?
 
-No problem! We've added two other verification methods - [Phone Verification](/faq/phone) and manual verification via [Discord chat](https://chat.lbry.com). To begin manual verification, type **-new** in the #verification channel which will create a ticket (channel) for your request. **Note: DO NOT message any team members or post in other channels about verification concerns. Rewards will only be granted on a 1 account per household basis**
+No problem! We've added two other verification methods - [Phone Verification](/faq/phone) and manual verification via [Discord chat](https://chat.lbry.com). To begin manual verification, see the #verification channel to start your request. **Note: DO NOT message any team members or post in other channels about verification concerns. Rewards will only be granted on a 1 account per household basis**
 
 Otherwise, you are welcome to use the LBRY browser without providing any personal information. We just can't give you any rewards.
 
