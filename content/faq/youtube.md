@@ -22,7 +22,7 @@ The sync process stores your wallet in a secure location, as you may not have th
 
 **How to Receive Your LBRY Credits**
 
-- Download the LBRY App at /get
+- Download the LBRY App at [/get](https://lbry.com/get)
 - Run the LBRY App
 - Make sure the email saved in the application matches the email address on your [Sync Status Page](/youtube/status) ([email us](mailto:hello@lbry.com) if it does not)
 - Click on the `Wallet` tab on the LBRY App `1` ![wallet](https://spee.ch/2/rewardsa.jpeg)
