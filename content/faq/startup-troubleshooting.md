@@ -43,3 +43,7 @@ If you are stuck on the blockchain sync step or it shows a block count that does
 #### Linux auth_token requirements {#auth}
 Currently, LBRY requires an authorization token to be generated using the [keytar](https://github.com/atom/node-keytar) libraries. Please ensure libsecret and keytar are installed. On some distributions, LBRY won't run unless gnome-keyring is also installed/operational. See [GitHub issue](https://github.com/lbryio/lbry-desktop/issues/386) for more information. If you get a GLIBCXX_3.4.2 error, please see [this issue](https://github.com/lbryio/lbry-desktop/issues/423#issuecomment-327519486).
 
+#### Linux Daemon could not start because it is in use
+If the newly installed or re-installed LBRY has the start up issue with daemon being in use, check the .local/share/lbry/lbrynet folder for daemon_settings.yml file.
+If the file doesn't exist, create one and settings inside should be: api: 127.0.0.1:5279
+
