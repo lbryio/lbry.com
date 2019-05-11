@@ -13,7 +13,7 @@ Binance Info is a cryptocurrency information platform, providing users with accu
 Binance Info welcomes all projects to get involved in Binance Info's transparency initiative. Apply to participate:https://docs.google.com/forms/d/e/1FAIpQLSdn6Nq3uvXBfsulKO_lH3I3O0_s-Nbmm0gWO8K-9bkWQJeKmw/viewform
 
 More about LBRY:
-Please reach out to us at hello@lbry.com if you have any questions about LBRY or the software!! Or chat with us on Discord: https://chat.lbry.com
+Please reach out to us at [hello@lbry.com](mailto:hello@lbry.com) if you have any questions about LBRY or the software!! Or chat with us on Discord: https://chat.lbry.com
 
 Good starting points for resources:
 

@@ -15,18 +15,17 @@ class LBRY
     public static function getLBCtoUSDRate()
     {
         $response = CurlWithCache::get(static::getApiUrl('/lbc/exchange_rate'), [], [
-          'cache' => 3600, //one hour
-          'json_response' => true
+            'cache' => 3600, //one hour
+            'json_response' => true
         ]);
-
         return $response['data']['lbc_usd'] ?? 0;
     }
 
     public static function subscribe($email, $tag = null)
     {
         return Curl::post(static::getApiUrl('/list/subscribe'), array_filter([
-          'email' => $email,
-          'tag' => $tag,
+            'email' => $email,
+            'tag' => $tag,
         ]), ['json_response' => true]);
     }
 
@@ -54,13 +53,7 @@ class LBRY
     public static function connectYoutube($channel_name, $immediateSync = false)
     {
         // Uncomment next line for production and comment other return
-        return Curl::post(static::getApiUrl('/yt/new'), [
-            'desired_lbry_channel_name' => $channel_name,
-            'immediate_sync' => $immediateSync,
-            'type' => 'sync'
-        ], [
-            'json_response' => true
-        ]);
+        return Curl::post(static::getApiUrl('/yt/new'), [ 'desired_lbry_channel_name' => $channel_name, 'immediate_sync' => $immediateSync, 'type' => 'sync' ], [ 'json_response' => true ]);
 
         // Uncomment next line for development and comment other return (this also requires the testnet API)
         // return Curl::post(static::getApiUrl('/yt/new'), [
@@ -86,20 +79,25 @@ class LBRY
 
     public static function editYouTube($status_token, $channel_name, $email, $sync_consent)
     {
-        if ($email == null) {
-            return Curl::post(static::getApiUrl("/yt/update"), [
-                'new_preferred_channel' => $channel_name,
-                'status_token' => $status_token,
-                'sync_consent' => $sync_consent
-            ], ['json_response' => true]);
-        } else {
-            return Curl::post(static::getApiUrl("/yt/update"), [
-                'new_email' => $email,
-                'new_preferred_channel' => $channel_name,
-                'status_token' => $status_token,
-                'sync_consent' => $sync_consent
-            ], ['json_response' => true]);
+        $postParams = array('status_token' => $status_token);
+
+        if ($email) {
+            $postParams['new_email'] = $email;
         }
+
+        if ($sync_consent) {
+            if ($sync_consent === 0) {
+                $sync_consent = null;
+            }
+
+            $postParams['sync_consent'] = $sync_consent;
+        }
+
+        if ($new_preferred_channel) {
+            $postParams['new_preferred_channel'] = $channel_name;
+        }
+
+        return Curl::post(static::getApiUrl("/yt/update"), $postParams, ['json_response' => true]);
     }
 
     public static function logWebVisitor($site, $visitorID, $IPAddress)

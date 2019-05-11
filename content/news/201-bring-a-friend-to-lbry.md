@@ -21,7 +21,7 @@ If you haven’t opened LBRY on your computer in a while, now’s the time to do
 
 We need your feedback to make LBRY even better - upgrade in-app or [head to this link](/get) to download LBRY now, and let us know what you think on [Discord](https://chat.lbry.com) or [Twitter](https://www.twitter.com/lbryio)! 
 
-If you’re a developer and want to dive a bit deeper into the process, take a look at the [release notes here](https://github.com/lbryio/lbry-desktop/releases/tag/v0.28.0). Want to learn more or help us build out the LBRY ecosystem? Jump right into our [GitHub repos](https://github.com/lbryio/) and check out [lbry.tech](https://lbry.tech).
+If you’re a developer and want to dive a bit deeper into the process, take a look at the [release notes here](https://github.com/lbryio/lbry-desktop/releases/latest). Want to learn more or help us build out the LBRY ecosystem? Jump right into our [GitHub repos](https://github.com/lbryio/) and check out [lbry.tech](https://lbry.tech).
 
 Thanks for helping us build the decentralized internet of the future - we can’t do it without you!
 

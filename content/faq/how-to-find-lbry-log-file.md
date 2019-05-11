@@ -13,6 +13,9 @@ From the LBRY App, click on Help. Next, click on "Open Log Folder"
 ![log](https://spee.ch/a/helps.jpeg)
 The folder will be highlighted, so just double click to open and here you will see "lbrynet.log".
 
+### Sending log files from Android
+Navigate to the About page and use the `Send Logs` button at the bottom. You can email them to [help@lbry.com](mailto:help@lbry.com) 
+
 ### Find Logs Manually
 ## Windows
 1. Open File Explorer (Keyboard shortcut: Windows Key + E).

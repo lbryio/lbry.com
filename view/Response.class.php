@@ -21,7 +21,7 @@ class Response
     protected static $jsCalls = [];
     protected static $assets = [
     'js'  => [
-      '/js/jquery-3.3.1.min.js',
+      '/js/jquery-3.4.1.min.js',
       '/js/global.js'
     ],
     'css' => ['/css/all.css']
