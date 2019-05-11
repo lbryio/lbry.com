@@ -1,4 +1,4 @@
-﻿---
+---
 title: How does LBRY naming work? Why don't you just assign names the same way as internet domains?
 category: LBRY 101
 order: 4
@@ -62,4 +62,4 @@ Whether you're in love with this design or not, you'd likely agree it's unlike a
 
 The bottom line is that LBRY is dedicated to providing true content freedom. We want to provide the world's best method for creators and consumers to share and monetize digital content without intermediaries. We happen to think this is a superior method to the alternatives, but we're also not dogmatic about it.
 
-We're trying to solve a very hard problem in a novel way, and we're committed to giving this system a chance. 100,000 pieces of content in, it has worked seamlessly. But if we ever saw this system harming rather than helping, we wouldn't hesitate to change it.
+We're trying to solve a very hard problem in a novel way, and we're committed to giving this system a chance. 750,000 pieces of content in, it has worked seamlessly. But if we ever saw this system harming rather than helping, we wouldn't hesitate to change it.
