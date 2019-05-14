@@ -9,7 +9,7 @@ category: update
 
 This is the only crypto puzzle to combine juggling, math, language, and a whole lot more into a challenging (and rewarding) package!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ERMjC6qzzOc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://spee.ch/video-embed/@juggling:1/siteswapping" allowfullscreen="true" style="border:0"></iframe>
 
 ## Watch the video to get started!
 
