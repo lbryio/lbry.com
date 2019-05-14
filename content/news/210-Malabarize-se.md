@@ -7,7 +7,7 @@ category: update
 ---
 # We're excited to announce our very first crypto puzzle, courtesy of Malabarize-se! This is your chance to win 100,000 LBC and give your grey matter a workout - don't miss it!
 
-This is the only crypto puzzle to combine juggling, math, language, and a whole lot more into a challenging (and rewarding) package!
+## This is the only crypto puzzle to combine juggling, math, language, and a whole lot more into a challenging (and rewarding) package!
 
 <iframe src="https://spee.ch/video-embed/@juggling:1/siteswapping" allowfullscreen="true" style="border:0"></iframe>
 
