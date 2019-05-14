@@ -13,7 +13,7 @@ This is the only crypto puzzle to combine juggling, math, language, and a whole 
 
 ## Watch the video to get started!
 
-If you haven’t opened LBRY on your computer in a while, now’s the time to do it - you can also check out the all new [LBRY on the web](https://beta.lbry.tv!
+If you haven’t opened LBRY on your computer in a while, now’s the time to do it - you can also check out the all new [LBRY on the web](https://beta.lbry.tv)!
 
 We need your feedback to make LBRY even better - let us know what you think on [Discord](https://chat.lbry.com) or [Twitter](https://www.twitter.com/lbryio)! 
 
