@@ -8,7 +8,6 @@ We are listed on several exchanges. You can buy or sell LBRY Credits at one of t
 ### Traditional Exchanges
 - [Bittrex](https://bittrex.com/Market/Index?MarketName=BTC-LBC)
 - [Poloniex](https://poloniex.com/exchange#btc_lbc)
-- [Cryptopia](https://www.cryptopia.co.nz/Exchange/?market=LBC_BTC)
 - [Upbit](https://upbit.com/exchange?code=CRIX.UPBIT.BTC-LBC)
 - [Instant Bitex](https://instantbitex.com)
 - [Coinspot](https://www.coinspot.com.au/buy/lbc)
