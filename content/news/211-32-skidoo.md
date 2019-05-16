@@ -5,11 +5,12 @@ date: '2019-05-16 15:00:00'
 cover: 'upgrayyd.jpg'
 category: update
 ---
-LBRY v0.32 is a feast for the eyes with all new creator pages, suggested subscriptions, and lots of work under the hood to lay the foundation for an all new discovery process.
+### LBRY v0.32 is a feast for the eyes with all new creator pages, suggested subscriptions, and lots of work under the hood to lay the foundation for an all new discovery process.
 
 <img alt="creatorpage" src="https://spee.ch/2/creatorpage.jpg" />
 
-In a nutshell, this upgrade brings you:
+
+### In a nutshell, this upgrade brings you:
 - A few new styles throughout the app - rounded edges are back! Also includes side bar tweaks. 
 - Randomized suggested subscriptions	 
 - Initial channel page implementation. Updates can only be made via the CLI currently: https://lbry.tech/api/sdk#channel_update (wallets across multiple PCs will need to be re-synced)
