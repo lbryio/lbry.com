@@ -103,6 +103,8 @@ LRBY Ladies India's mission is to create more awareness about LBRY and together 
 
 * [Find LBRY Ladies on WhatsApp](https://chat.whatsapp.com/LPxltP3mdAO8E9t04rLyNb)
 
+![LBRY Ladies India](https://spee.ch/@lbrynews:0/lbryladiesindia.png)
+
 #### LBRY China Hive
 *Focus: LBRY in China*
 
