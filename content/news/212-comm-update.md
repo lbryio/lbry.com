@@ -38,6 +38,7 @@ We will be funding people who have high performing social media accounts for the
 
 * [Visit LBRY Social's Discord server](https://discord.gg/4MyNyUe)
 * [Visit LBRY Social's Website](https://lbry.social)
+* [Visit LBRY Social's Twitter page](https://twitter.com/LBRYSocial)
 
 ![LBRY.social](https://spee.ch/@lbrynews:0/lbrysocial)
 
@@ -48,6 +49,7 @@ The LBRY.Community hive is dedicated to bringing attention to the LBRY protocol 
 
 * [Visit LBRYC's Discord server](https://discord.gg/Nsp2Ncd)
 * [Visit LBRYC's Website](https://lbry.community)
+* [Visit LBRYC's Twitter page](https://twitter.com/LBRYCommunity)
 
 ![LBRYC logo](https://spee.ch/@lbrynews:0/LBRY-C-logo-positive.jpg)
 
@@ -87,6 +89,7 @@ LBRY en español is a place for all those Spanish speakers and creators who want
 
 
 * [Visit LBRY en Español Hive's Discord server](https://discord.gg/jPm86Qy)
+* [Visit LBRY en Español Twitter page](https://twitter.com/LBRY_Esp)
 
 #### LBRY India Supporters 
 *Focus: LBRY Groups Across India*
@@ -96,6 +99,7 @@ Championed by Clement Gerber, LBRY's India Community manager, this hive aims to 
 * [Visit LBRY India Supporters Hive's Discord server](https://discord.gg/Q9NE3k7)
 * [Visit LBRY India Supporters Hive's Website](https://lbryindia.com)
 * [LBRY India WhatsApp](https://chat.whatsapp.com/IpHSjQzbw7Z8ix3YQgpdRO)
+* [Visit LBRY India Twitter page](https://twitter.com/LBRYIndia)
 
 #### LBRY Ladies India
 *Focus: India Women's Interests and Networking*
@@ -103,6 +107,7 @@ Championed by Clement Gerber, LBRY's India Community manager, this hive aims to 
 LRBY Ladies India's mission is to create more awareness about LBRY and together build the LBRY India community and LBRYLadies. This hive is also focused on teaching the community about cryptocurrency. They also have their own content channel. Come join the LBRY Ladies!
 
 * [Find LBRY Ladies on WhatsApp](https://chat.whatsapp.com/LPxltP3mdAO8E9t04rLyNb)
+* [Visit LBRY Ladies India Twitter page](https://twitter.com/LBRYLadies)
 
 ![LBRY Ladies India](https://spee.ch/@lbrynews:0/lbryladiesindia.png)
 
