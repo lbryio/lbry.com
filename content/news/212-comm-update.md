@@ -49,6 +49,7 @@ The LBRY.Community hive is dedicated to bringing attention to the LBRY protocol 
 
 * [Visit LBRYC's Discord server](https://discord.gg/Nsp2Ncd)
 * [Visit LBRYC's Website](https://lbry.community)
+* [Visit LBRYC's Twitter page](https://twitter.com/LBRYCommunity)
 
 ![LBRYC logo](https://spee.ch/@lbrynews:0/LBRY-C-logo-positive.jpg)
 
