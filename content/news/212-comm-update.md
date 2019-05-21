@@ -159,7 +159,7 @@ Go to [https://lbry.com/youtube](https://lbry.com/youtube) for all the details!
 
 Can you solve this puzzle? It looks like an ordinary juggling video, but it's much more! Break the secret code, and you can win over $3,000 USD in crypto prizes.
 
-Lucas Abduch, juggler and content creator of the lbry://@juggling channel has partnered with LBRY.fund to bring you the world’s first juggling cryptopuzzle!
+Lucas Abduch, juggler and content creator of the [lbry://@juggling](https://open.lbry.com/@juggling) channel has partnered with [LBRY.fund](https://lbry.fund) to bring you the world’s first juggling cryptopuzzle!
 
 Want some extra hints and folks to collaborate with in trying to solve the puzzle? Lucas has set up channels in English and Portuguese on the [Malabarize-se Discord server.](http://bit.ly/siteswappingdiscordEN) 
 
