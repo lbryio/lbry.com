@@ -147,7 +147,7 @@ The Ukraine LBRY Supporters Hive focuses on bringing attention to LBRY in Ukrain
 
 ## Greater LBC Rewards In Updated YouTube Sync Program {#youtube}
 
-We're excited to announce we've increased the rewards](https://lbry.com/youtube) for our YouTube Sync program. 
+We're excited to announce we've increased the [rewards](https://lbry.com/youtube) for our YouTube Sync program. 
 
 If you haven't already synced your YouTube channel to LBRY, we've made it super easy for you to do so, ensuring your videos will never be removed or demonetized on the LBRY Network.
 
