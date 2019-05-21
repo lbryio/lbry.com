@@ -85,6 +85,9 @@ You can join us on our Discord https://discord.gg/n8TJqBv
 
 LBRY en español is a place for all those Spanish speakers and creators who want to share their passions, opinions, and jokes. In a world where Spanish is the fourth most spoken language, our hive is where all kinds of content is shared, created, and most importantly: promoted.
 
+
+* [Visit LBRY en Español Hive's Discord server](https://discord.gg/GyrQM8)
+
 #### LBRY India Supporters 
 *Focus: LBRY Groups Across India*
 
