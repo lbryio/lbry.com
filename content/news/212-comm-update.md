@@ -75,8 +75,6 @@ You can see an example of interactive fiction here: lbry://16ways
 
 Lazybit hive is working towards raising the level of knowledge about cryptocurrency and distributed technologies in the geographic area of ex-Yugoslavia/Balkans/Adriatic region as the currently available content is scarce and is generally of low quality. We want to promote LBRY as an example of fully functional, open source, distributed technology-based network that can serve the specific needs of content creators in this region.
 
-We’re developing a website focused on regional readers and viewers to deliver high quality content in local languages at https://www.lazybit.io.
-
 You can join us on our Discord https://discord.gg/n8TJqBv
 
 ![Lazybit Hive](https://spee.ch/@lbrynews:0/lazybit.png)
