@@ -66,7 +66,7 @@ The Open Source LBRY Hive develops software to help automate collecting and publ
 
 One of the coolest features of LBRY is to be able to view non-linear content including Choose Your Own Adventure content and text-based interactive stories. The purpose of the Interactive Fiction Hive is to curate free and creative commons content stories and to seek new interactive fiction stories to be created for the LBRY Network.
 
-You can see an example of interactive fiction here: lbry://16ways
+You can see an example of interactive fiction here: [lbry://16ways](https://open.lbry.com/16ways#74a26c514fcecf5f76b71a6cb9fa7dd0b1532171)
 
 * [Visit Interactive Fiction Hive's Discord server](https://discord.gg/hhMr9pD)
 
