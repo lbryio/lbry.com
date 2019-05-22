@@ -15,7 +15,7 @@ You can find the downloads and setup information for [Electron LBRY on GitHub](h
 
 ### Setting up a Multisignature Wallet
 
-You can also reference [step by step configuration instructions here](https://drive.google.com/file/d/1zS9gXyfsz8e5gQGj8GrtlzCuhIWibQv4/view) or follow along below. 
+You can also reference [step by step instructions with images here](https://drive.google.com/file/d/1zS9gXyfsz8e5gQGj8GrtlzCuhIWibQv4/view) or follow along below. 
 
 On the initial screen, you'll be asked to select a wallet file or create a new one. If this is the first time running it, proceed with a new file. If you have a wallet file already and want to create another, change the name of the file. Each user in the multisignature scheme will need to do this locally to create the same wallet (they all require to have started this process or have a key from the LBRY app wallet). 
 
