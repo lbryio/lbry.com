@@ -9,6 +9,8 @@ This guide is meant for power users and those who want to store LBRY Credits on 
 
 Learn more about Multisignature wallets and how they work: [Electrum Documentation ](http://docs.electrum.org/en/latest/multisig.html), [Creating a Multisignature Wallet](https://bitcoinelectrum.com/creating-a-multisig-wallet/). This documentation can also be referenced along with the steps below. 
 
+![wallet](https://spee.ch/2/multisig.jpg)
+
 ### Installing and Running Electrum for LBRY
 
 You can find the downloads and setup information for [Electron LBRY on GitHub](https://github.com/tzarebczan/electrum/releases/tag/0.1.0). Windows and Mac installers are provided, but Linux needs to be run from source as detailed on the install instructions. If you previously ran an old version and created wallets, they will need to re-created in this new version. You can use the old version to send the funds to another wallet and then re-create a new one. 
