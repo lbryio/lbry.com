@@ -100,6 +100,7 @@ Championed by Clement Gerber, LBRY's India Community manager, this hive aims to 
 * [Visit LBRY India Supporters Hive's Website](https://lbryindia.com)
 * [LBRY India WhatsApp](https://chat.whatsapp.com/IpHSjQzbw7Z8ix3YQgpdRO)
 * [Visit LBRY India Twitter page](https://twitter.com/LBRYIndia)
+![LBRY India](https://spee.ch/5/lbry-india.png)
 
 #### LBRY Ladies India
 *Focus: India Women's Interests and Networking*
