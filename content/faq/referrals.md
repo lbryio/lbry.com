@@ -11,7 +11,7 @@ You can earn LBRY Credits (LBC) for referring others to use LBRY. In the latest 
 
 ### How many LBRY Credits do I earn and how do I see how many credits I've earned?
 
-New invites sent via the LBRY app are eligible for a 20 LBC reward.
+New invites sent via the LBRY app are eligible for a 20 LBC reward (subject to change based on our discretion). 
 
 ### When do I get my rewards?
 
@@ -33,7 +33,7 @@ Accepted means the user has signed into LBRY. Claimable means they have verified
 
 ### Is there a limit to the credits I can earn?
 
-If you expect to refer more than 50-100 people, please discuss it with us on [Discord chat](http://chat.lbry.com) or email [us](mailto:josh@lbry.com).
+If you expect to refer more than 50-100 people, please discuss it with us on [Discord chat](http://chat.lbry.com) or email [us](mailto:tom@lbry.com).
 
 Currently, there is a limit of 10 redemptions per account.
 
