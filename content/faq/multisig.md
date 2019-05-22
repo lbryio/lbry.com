@@ -13,7 +13,7 @@ Learn more about Multisignature wallets and how they work: [Electrum Documentati
 
 ### Installing and Running Electrum for LBRY
 
-You can find the downloads and setup information for [Electron LBRY on GitHub](https://github.com/tzarebczan/electrum/releases/tag/0.1.0). Windows and Mac installers are provided, but Linux needs to be run from source as detailed on the install instructions. If you previously ran an old version and created wallets, they will need to re-created in this new version. You can use the old version to send the funds to another wallet and then re-create a new one. 
+You can find the downloads and setup information for [Electron LBRY on GitHub](https://github.com/tzarebczan/electrum/releases/tag/0.1.0). Windows and Mac installers are provided, but Linux needs to be run from source as detailed on the install instructions. If you previously ran an old version and created wallets, they will need to be re-created in this new version. You can use the old version to send the funds to another wallet and then re-create a new one. 
 
 ### Setting up a Multisignature Wallet
 
