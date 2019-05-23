@@ -5,7 +5,7 @@ category: powerusers
 
 This guide is meant for power users and those who want to store LBRY Credits on their [Ledger Hardware devices](#HW) before official support is added. If you are participating in the LBRY Swarm program, this solution will allow you to store LBC at a Multisignature address which typically requires more than 1 person to sign off on a transaction before it's sent to the network. **It is important to test a single small transaction incoming and outgoing before using the wallet to store larger amounts. Also make sure a backup is taken (see instructions below).**
 
-**Please note that the current LBRY apps / SDK currently do not support outgoing transactions to multisignature wallets. Incoming transactions to the apps will work, but require a restart of the app afterward. Future support is planned for both.**
+**Please note that the LBRY apps / SDK currently do not support outgoing transactions to multisignature wallets. Incoming transactions to the apps will work, but require a restart of the app afterward. Future support is planned for both.**
 
 Learn more about Multisignature wallets and how they work: [Electrum Documentation ](http://docs.electrum.org/en/latest/multisig.html), [Creating a Multisignature Wallet](https://bitcoinelectrum.com/creating-a-multisig-wallet/). This documentation can also be referenced along with the steps below. 
 
