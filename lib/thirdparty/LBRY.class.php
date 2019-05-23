@@ -93,7 +93,7 @@ class LBRY
             $postParams['sync_consent'] = $sync_consent;
         }
 
-        if ($new_preferred_channel) {
+        if ($channel_name) {
             $postParams['new_preferred_channel'] = $channel_name;
         }
 

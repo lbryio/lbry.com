@@ -9,4 +9,7 @@ if ($channel_name !== "" && !preg_match("/@[A-Za-z0-9-]+$/", $channel_name)) {
   $channel_name = "@" . $channel_name;
 }
 
+if ($channel_name === ""){
+    $channel_name = null;
+}
 AcquisitionActions::actionYoutubeEdit($status_token, $channel_name, $email, $sync_consent);
