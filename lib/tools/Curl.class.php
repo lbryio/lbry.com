@@ -144,7 +144,10 @@ class Curl
                 $options['retry'] -= 1;
                 return static::doCurl($method, $url, $params, $options);
             }
-            throw new CurlException($ch);
+            // Ignore the timeout exceptions
+            if (!in_array(curl_errno($ch), array(CURLE_OPERATION_TIMEDOUT, CURLE_OPERATION_TIMEOUTED))) {
+                throw new CurlException($ch);
+            }
         }
 
         curl_close($ch);
