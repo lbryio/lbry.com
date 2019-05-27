@@ -9,7 +9,7 @@ Otherwise, it is important to understand that the wallet is not stored on any LB
 
 *Note: Wallets should be re-backed up after creating new Channels/Identities (this is stored directly in the wallet file, and not part of the seed/restore process at the moment).*
 
-## Wallet Account Sync (Android only) {#sync)
+## Wallet Account Sync (Android only) {#sync}
 
 On Android, LBRY provides a wallet backup service where an encrypted version of your account, including any claims/channels/updates, is securely backed up and stored by LBRY Inc. **LBRY cannot recover this account without the password set by the user when enabling sync.** This allows users to sign back into their devices using their email and account password and keeping their account history. Choosing a secure password is highly recommended, especially when storing larger amounts of LBC.  
 
