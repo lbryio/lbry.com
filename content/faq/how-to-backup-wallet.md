@@ -19,13 +19,10 @@ Only a single account will be synced per LBRY account. Wallet merging is not cur
 
 ## How do I find my wallet in the LBRY Desktop App?
 
-The easiest way to find the location of your LBRY wallet is via the [LBRY app](/get).  Open LBRY and on the left side, you should see a sidebar menu called "Wallet".
-![wallet](https://spee.ch/@clement:e/lbcwallet2.png)
+The easiest way to find the location of your LBRY wallet is via the [LBRY app](/get).  Open LBRY and on the left side, you should see a sidebar menu called "Help" - the wallet location is in the **Backup Your LBRY Credits** section. 
 
 ## How do I backup my LBRY Desktop App wallet?
-Click on the Wallet tab to expand then click `Backup`.
-![backup](https://spee.ch/@clement:e/backup.png)
-after clicking on backup, you will see a link for `Backup`, open the location of the link in your local machine and make a copy of the files stored in that location. If this link is grayed out, it usually means you don't have any credits (see section below on how to manually find the wallet).
+Click on "Help" and scroll down to the **Backup Your LBRY Credits** section. Open the location of the link in your local machine and make a copy of the files stored in that location. If this link is grayed out, it usually means you don't have any credits (see section below on how to manually find the wallet).
 
 When you click `Backup`, you will be shown the location of your `lbryum` directory that contains the wallet file.  Navigate to this directory via your file explorer to locate your wallet. You can either choose to backup this whole directory, the wallets directory inside it or the `default_wallet` file itself inside the wallets directory.
 
