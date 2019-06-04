@@ -47,7 +47,7 @@
 
   <section>
     <div class="inner-wrap">
-      <p>Do you have further questions or want to submit a question to our FAQ? <a href=" mailto:growth@lbry.com?subject=Question%20for%20the%20FAQ" rel="noopener noreferrer" target="_blank" title="">Send us an email</a>!</p>
+      <p>Do you have further questions or want to submit a question to our FAQ? <a href=" mailto:hello@lbry.com?subject=Question%20for%20the%20FAQ" rel="noopener noreferrer" target="_blank" title="">Send us an email</a>!</p>
     </div>
   </section>
 </main>
