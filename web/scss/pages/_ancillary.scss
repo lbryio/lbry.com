@@ -8,17 +8,45 @@
   h2,
   h3,
   h4,
-  h5,
-  ol,
-  p,
-  ul {
+  h5 {
     + blockquote,
-    + .button,
     + hr,
     + iframe,
     + img,
     + pre,
-    + video {
+    + video,
+    + .button {
+      margin-top: 0.25rem;
+    }
+
+    + footer,
+    + form,
+    + h1,
+    + h2,
+    + h3,
+    + h4,
+    + h5,
+    + ol,
+    + p,
+    + ul {
+      padding-top: 0.25rem;
+    }
+
+    + .button {
+      display: inline-block;
+    }
+  }
+
+  ol,
+  p,
+  ul {
+    + blockquote,
+    + hr,
+    + iframe,
+    + img,
+    + pre,
+    + video,
+    + .button {
       margin-top: 1.25rem;
     }
 
@@ -175,11 +203,6 @@
       content: "";
       position: absolute;
     }
-
-    // TODO: Rewrite all blockquotes in the blog posts
-    // p {
-    //   margin-bottom: 1.25rem;
-    // }
   }
 
   a {
