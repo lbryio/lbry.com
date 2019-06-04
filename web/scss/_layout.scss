@@ -80,8 +80,6 @@ h4 {
   @media (max-width: 950px) {
     font-size: 1rem;
   }
-
-  // margin-bottom: 1rem;
 }
 
 hr {
@@ -118,7 +116,6 @@ main {
   }
 
   &:not(.soon) {
-    // padding-top: 5rem;
     position: relative;
     z-index: 1;
   }
