@@ -48,7 +48,7 @@
   <section>
     <div class="inner-wrap">
       <h3>Ask A Question</h3>
-      <p>See something not answered above? <a href="mailto:hello@lbry.com?subject=Question%20for%20the%20FAQ" rel="noopener noreferrer" target="_blank" title="">Send us an email</a>!</p>
+      <p>See something not answered above? <a href="mailto:hello@lbry.com?subject=Question%20for%20the%20FAQ" rel="noopener noreferrer" target="_blank" title="">Send us your question</a>!</p>
     </div>
   </section>
 </main>
