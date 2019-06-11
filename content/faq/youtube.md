@@ -25,9 +25,8 @@ The sync process stores your wallet in a secure location, as you may not have th
 - Download the LBRY App at [/get](https://lbry.com/get)
 - Run the LBRY App
 - Make sure the email saved in the application matches the email address on your [Sync Status Page](/youtube/status) ([email us](mailto:hello@lbry.com) if it does not)
-- Click on the `Wallet` tab on the LBRY App `1` ![wallet](https://spee.ch/2/rewardsa.jpeg)
-- Navigate to the `Rewards` section of your wallet `2` ![reward](https://spee.ch/5/rewardsww.jpeg)
+- Click on the **Rewards** option from under Account in the sidebar. 
 - Scroll to the "YouTube Reward" claim button
-- If you met a particular subscriber threshold (minimum 1K subs), you should receive the appropriate amount of credits.
+- If you met a particular subscriber threshold (minimum 1K subs, 10 videos), you should receive the appropriate amount of credits.
 
 If you're having any trouble with the sync process or receiving your credits, please contact [help@lbry.com](mailto:help@lbry.com).
