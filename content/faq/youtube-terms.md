@@ -8,7 +8,7 @@ By agreeing to sync your content to the LBRY network, you agree to the terms spe
 
 ## The Terms
 
-<iframe src="https://docs.google.com/document/d/e/2PACX-1vS0H7gnSg7Zlx5JO_JkyJh3EP5qq8esTr1Y1Wi8R2eYGDfr1QEmS8SaEpGGCIcjW-mbj7LJ_RxmX_Am/pub?embedded=true"></iframe>
+Visit our [Google Doc](https://docs.google.com/document/d/e/2PACX-1vS0H7gnSg7Zlx5JO_JkyJh3EP5qq8esTr1Y1Wi8R2eYGDfr1QEmS8SaEpGGCIcjW-mbj7LJ_RxmX_Am/pub) for more information.
 
 ## Human-Friendly Highlights
 
