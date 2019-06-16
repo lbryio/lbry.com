@@ -6,7 +6,7 @@ order: 4
 
 **Moving your channel onto LBRY**
 
-LBRY offers an easy way for YouTubers to sync their content to the LBRY network, engage with LBRY users, and earn LBC. This is intended for content creators that aren't quite ready to make the switch over to using the LBRY app at this time, and want us to keep their YouTube channel updated on LBRY. 
+LBRY offers an easy way for YouTubers to sync their content to the LBRY network, engage with LBRY users, and earn LBC. This is intended for content creators that aren't quite ready to make the switch over to using the LBRY app at this time, and want us to keep their YouTube channel updated on LBRY. Not all channels qualify for the YouTube sync / rewards program, but users can always upload the content themselves through the LBRY app instead. 
 
 To sync your existing channel to LBRY and learn more about the program, use the [LBRY.io YouTube Sync page](/youtube).
 
