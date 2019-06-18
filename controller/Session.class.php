@@ -36,7 +36,8 @@ class Session
             if (isset($ga_cid)) {
                 $site_visitor_id = key_exists(static::USER_ID, $_SESSION) ? $_SESSION[static::USER_ID] : $ga_cid;
                 $site_visitor_id = isset($ga_cid) ? $ga_cid : $site_visitor_id;
-                $response = LBRY::logWebVisitor(static::SITE_ID, $site_visitor_id, static::getClientIP());
+                //$response = LBRY::logWebVisitor(static::SITE_ID, $site_visitor_id, static::getClientIP());
+                $response = null;
                 if (!is_null($response)
                     && key_exists('data', $response)
                     && key_exists('visitor_id', $response['data'])) {
