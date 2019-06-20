@@ -2,18 +2,15 @@
 
 class Session
 {
-    const KEY_DOWNLOAD_ACCESS_ERROR = 'download_error2',
-        KEY_DOWNLOAD_ALLOWED = 'beta_download_allowed2',
-        KEY_GITHUB_ACCESS_TOKEN = 'github_access_token',
-        KEY_LIST_SUB_ERROR = 'list_error',
-        KEY_USER_CULTURE = 'user_culture',
-        KEY_YOUTUBE_TEMPLATE = 'youtube_landing_template';
+    const KEY_LIST_SUB_ERROR = 'list_error',
+        KEY_YOUTUBE_SYNC_ERROR = 'youtube_sync_error',
+        KEY_USER_CULTURE = 'user_culture';
 
     const NAMESPACE_DEFAULT = 'default',
         NAMESPACE_FLASH = 'flash',
         NAMESPACE_FLASH_REMOVE = 'flash_remove',
         USER_ID = 'user_id',
-        SITE_ID = 'lbry.io';
+        SITE_ID = 'lbry.com';
 
     public static function init()
     {
@@ -35,14 +32,18 @@ class Session
         }
 
         Response::addPostRenderCallback(function () {
-            $site_visitor_id = key_exists(static::USER_ID, $_SESSION) ? $_SESSION[static::USER_ID] : '';
-            $response = LBRY::logWebVisitor(static::SITE_ID, $site_visitor_id, static::getClientIP());
-            if (!is_null($response)
-                && key_exists('data', $response)
-                && key_exists('visitor_id', $response['data'])) {
-                $_SESSION[static::USER_ID] = $response['data']['visitor_id'];
-            } else {
-                $_SESSION[static::USER_ID] = '';
+            $ga_cid = filter_input(INPUT_COOKIE, 'ga_cid');
+            if (isset($ga_cid)) {
+                $site_visitor_id = key_exists(static::USER_ID, $_SESSION) ? $_SESSION[static::USER_ID] : $ga_cid;
+                $site_visitor_id = isset($ga_cid) ? $ga_cid : $site_visitor_id;
+                $response = LBRY::logWebVisitor(static::SITE_ID, $site_visitor_id, static::getClientIP());
+                if (!is_null($response)
+                    && key_exists('data', $response)
+                    && key_exists('visitor_id', $response['data'])) {
+                    $_SESSION[static::USER_ID] = $response['data']['visitor_id'];
+                } else {
+                    $_SESSION[static::USER_ID] = '';
+                }
             }
         });
 

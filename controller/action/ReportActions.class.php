@@ -24,6 +24,10 @@ class ReportActions extends Actions
             $values[$field] = $value;
         }
 
+        if ($_GET['claim_id'] && !$values['identifier']) {
+            $values['identifier'] = htmlspecialchars($_GET['claim_id']);
+        }
+
         if (!$errors) {
             $values['report_id'] = Encoding::base58Encode(random_bytes(6));
             Mailgun::sendDmcaReport($values);
@@ -31,6 +35,9 @@ class ReportActions extends Actions
             return Controller::redirect(Request::getRelativeUri(), 303);
         }
 
-        return ['report/dmca', ['errors' => $errors, 'values' => $values]];
+        return ['report/dmca', [
+            'errors' => $errors,
+            'values' => $values
+        ]];
     }
 }

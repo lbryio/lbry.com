@@ -4,6 +4,7 @@ title: 'Watch LBRY Program Live & Beta Updates'
 date: '2017-03-24 13:26:00'
 cover: 'ide.png'
 ---
+
 # A Great Week for LBRY's Public Beta
 
 ## Watch Us Program Live!
@@ -14,15 +15,15 @@ On March 29th, from 6-9PM EST (or later), you'll be able to heckle and watch LBR
 
 **You can watch the stream [here](https://www.youtube.com/watch?v=C9LCapt_OYw).**
 
-During the stream, members of the LBRY development team will be in our [chatroom](https://chat.lbry.io) answering questions and discussing LBRY.
+During the stream, members of the LBRY development team will be in our [chatroom](https://chat.lbry.com) answering questions and discussing LBRY.
 
-If you want a reminder, make sure to [join our Discord chat](https://chat.lbry.io) or [complete the quickstart guide](https://lbry.tech/playground).
+If you want a reminder, make sure to [join our Discord chat](https://chat.lbry.com) or [complete the quickstart guide](https://lbry.tech/playground).
 
 ## Trending on GitHub
 
 Last week, LBRY opened up its API to anyone with a GitHub account, to a fantastic reception.
 
-![LBRY Trending on GitHub](https://lbry.io/img/news/lbry-github-trending.png)
+![LBRY Trending on GitHub](/img/news/lbry-github-trending.png)
 
 LBRY has been a trending repo on GitHub for almost a full week. Nearly 2,000 developers are now following the LBRY project.
 

@@ -13,15 +13,15 @@ The initial 400m credits are broken down as follows:
 
 | Name | Amount | Purpose | Wallet (Initial) | Wallet (Current) |
 | ---- | ------ | ---------------- | -------- | -------- |
-| Community | 200m | Rewards to early adopters, new users, and community contributions. | [link](https://explorer.lbry.io/address/rRmURzvpHTysU4xUSp9CXeosBTbYfKs7n5) | [link](https://explorer.lbry.io/address/rFLUohPG4tP3gZHYoyhvADCtrDMiaYb7Qd) |
-| Operational | 100m | To allow LBRY, Inc. to function and profit. | [link](https://explorer.lbry.io/address/rTZF9RvfkLJ6hwCwERwFd7dppRMeddKjpe) |[link](https://explorer.lbry.io/address/r9PGXsejVJb9ZfMf3QVdDEJCzxkd9JLxzL) |
-| Institutional | 100m | For strategic partnerships or assistance with charities, non-profits, or other institutions. | [link](https://explorer.lbry.io/address/rVRMmGLZenVXpT1NwYMGcnwFc642kEgWTV) | [link](https://explorer.lbry.io/address/r9srwX7DEN7Mex3a8oR1mKSqQmLBizoJvi) |
+| Community | 200m | Rewards to early adopters, new users, and community contributions. | [link](https://explorer.lbry.com/address/rRmURzvpHTysU4xUSp9CXeosBTbYfKs7n5) | [link](https://explorer.lbry.com/address/rFLUohPG4tP3gZHYoyhvADCtrDMiaYb7Qd) |
+| Operational | 100m | To allow LBRY, Inc. to function and profit. | [link](https://explorer.lbry.com/address/rTZF9RvfkLJ6hwCwERwFd7dppRMeddKjpe) |[link](https://explorer.lbry.com/address/r9PGXsejVJb9ZfMf3QVdDEJCzxkd9JLxzL) |
+| Institutional | 100m | For strategic partnerships or assistance with charities, non-profits, or other institutions. | [link](https://explorer.lbry.com/address/rVRMmGLZenVXpT1NwYMGcnwFc642kEgWTV) | [link](https://explorer.lbry.com/address/r9srwX7DEN7Mex3a8oR1mKSqQmLBizoJvi) |
 
 ## Quarterly Reports
 
 LBRY issues a quarterly report every 3 months in January, April, July, and October, covering the preceding 3 full months. These reports outline the corresponding transaction history as the current state of LBRY, Inc.'s balance sheet and anticipated future expenditures.
 
-The full list of these reports can be seen on [the credit reports page](https://lbry.io/credit-reports).
+The full list of these reports can be seen on [the credit reports page](/credit-reports).
 
 ## Community Fund
 
@@ -64,4 +64,4 @@ LBRY, Inc. anticipates a dispersion period for these tokens significantly exceed
 
 ## More Details
 
-For specific details of fund utilization, check the most recent [quarterly report](https://lbry.io/credit-reports).
+For specific details of fund utilization, check the most recent [quarterly report](/credit-reports).

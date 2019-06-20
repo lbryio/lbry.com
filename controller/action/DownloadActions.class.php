@@ -25,7 +25,7 @@ class DownloadActions extends Actions
       $params = [
         'osTitle' => $osTitle,
         'osIcon' => $osIcon,
-        'osScreenshotSrc' => 'https://spee.ch/@lbry:3f/lbry-redesign-preview.gif',
+        'osScreenshotSrc' => 'https://spee.ch/@lbry:3f/lbrycom-gif.gif',
         'os' => $os
       ];
 

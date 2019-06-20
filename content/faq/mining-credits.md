@@ -2,17 +2,18 @@
 title: How do I mine LBRY credits?
 category: mining
 ---
+
 Library Credits (LBC) are mined over a 20-year Proof of Work period.
 Block rewards increase every 100 blocks by 1LBC, peak at 500, and decline slowly.
 
 LBRY mining is dominated by the GPU and FPGA market, and we don't see CPU mining as economically viable at this point. If you still want to CPU mine to help secure the network, see instructions below.
 
-For GPU mining, please see our list of [pools](https://lbry.io/faq/mining-pools). Each pool has a slightly different setup so please check their Getting Started/help page. We can also provide mining assistance via the #mining channel on [Discord Chat](https://chat.lbry.io).
+For GPU mining, please see our list of [pools](/faq/mining-pools). Each pool has a slightly different setup so please check their Getting Started/help page. We can also provide mining assistance via the #mining channel on [Discord Chat](https://chat.lbry.com).
 **Note:** Sgminer is for AMD GPUs and CCminer is for Nvidia GPUs.
 
 For CPU mining, LBRY binaries are out for OS X, Windows, and Ubuntu. Others may try compiling from source.
 
-You can download the latest binaries [here](https://github.com/lbryio/lbrycrd/releases/latest)
+You can download the latest binaries [here](https://github.com/lbryio/lbrycrd/releases/latest).
 
 ## CPU Mining on Ubuntu
 
@@ -31,4 +32,4 @@ You can download the latest binaries [here](https://github.com/lbryio/lbrycrd/re
 
 ## Compiling
 
-Join us on [Discord Chat](https://chat.lbry.io) if you need help compiling from source!
+Join us on [Discord Chat](https://chat.lbry.com) if you need help compiling from source!

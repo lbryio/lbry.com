@@ -1,24 +1,31 @@
 <?php Response::setMetaDescription(__('description.news')) ?>
-<?php echo View::render('nav/_header', ['isDark' => false]) ?>
-<main>
-  <div class="hero hero-quote hero-img spacer2" style="background-image: url(/img/teamcropped.jpg)">
-    <div class="hero-content-wrapper">
-      <div class="hero-content text-center">
-        <h1 class="cover-title">{{news.desk}}</h1>
-        <h2 class="cover-subtitle">{{news.musings}}</h2>
-      </div>
+
+<main class="news ancillary">
+  <section class="hero hero--news" style="background-image: url(/img/bangalore.jpg); background-position: center 15%;">
+    <div class="inner-wrap inner-wrap--center-hero">
+      <h1>{{news.desk}}</h1>
+      <h2>{{news.musings}}</h2>
     </div>
-  </div>
-  <section class="content content-readable spacer2">
-    <?php foreach ($posts as $post): ?>
-      <div class="spacer1">
-        <h3><a href="<?php echo $post->getRelativeUrl() ?>" class="link-primary"><?php echo $post->getTitle() ?></a></h3>
-        <div class="meta clearfix" title="<?php echo $post->getDate()->format('F jS, Y') ?>">
-          <span class="align-left"><?php echo $post->getDate()->format('M j, Y') ?></span>
-          <span class="align-right"><?php echo $post->getAuthorName() ?></span>
-        </div>
-      </div>
-    <?php endforeach ?>
+  </section>
+
+  <section>
+    <div class="inner-wrap">
+      <ul class="news-items bulletless">
+        <?php foreach ($posts as $post): ?>
+        <li class="news-item">
+          <h3>
+            <a href="<?php echo $post->getRelativeUrl() ?>" class="link-primary">
+              <?php echo $post->getTitle() ?>
+            </a>
+          </h3>
+
+          <small class="meta" title="<?php echo $post->getDate()->format('F jS, Y') ?>">
+            <?php echo $post->getDate()->format('M j, Y') ?> &middot;
+            <?php echo $post->getAuthorName() ?>
+          </small>
+        </li>
+        <?php endforeach ?>
+      </ul>
+    </div>
   </section>
 </main>
-<?php echo View::render('nav/_footer') ?>

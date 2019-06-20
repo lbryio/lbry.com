@@ -1,6 +1,9 @@
 ---
 name: Mike Vine
 role: .
-email: hello@lbry.io
+email: hello@lbry.com
 ---
- Mike Vine is one of the founding members of LBRY.
+
+Mike was one of the early team members of LBRY.
+
+He contributed to marketing and branding in the earliest days of the app.

@@ -3,7 +3,7 @@ title: Acceptable Use Policy
 category: other
 ---
 
-If you've read [Art in the Internet Age,](https://lbry.io/what) you know that LBRY believes we are in a post-scarcity age in terms of the reproduction of content. There are two things that are still scarce; good quality content, and good reputations. We take respecting the rights of creators very seriously, and we expect the same when it comes to our brand name. Here is how we go about protecting that.
+If you've read [Art in the Internet Age,](/what) you know that LBRY believes we are in a post-scarcity age in terms of the reproduction of content. There are two things that are still scarce; good quality content, and good reputations. We take respecting the rights of creators very seriously, and we expect the same when it comes to our brand name. Here is how we go about protecting that.
 
 Our trademarks include our name, LBRY, and our official logo, which are owned by LBRY, Inc, a Delaware Corporation. We encourage the use of LBRY's trademarked name and official logo while maintaining control of them in order to thwart vandalism, theft, and any future misconduct that offends the collective sensibility of LBRY users creates legal hazards or otherwise inhibits the free expression and open transactions we prize.
 
@@ -37,6 +37,6 @@ If you are a developer, you will need to complete the verification process befor
 
 As a statement of principle, you are encouraged to associate your project, product, service, domain, or company name with LBRY, so long as you're a credit to the community.
 
-You should not do anything that causes confusion regarding roles. You can describe your company as “Top Shelf Consulting, providers of LBRY development,” but not “The LBRY Development Group.” Registering a domain that could be mistaken for part of LBRY's infrastructure would also be inappropriate.
+You should not do anything that causes confusion regarding roles. You can describe your company as "Top Shelf Consulting, providers of LBRY development," but not "The LBRY Development Group." Registering a domain that could be mistaken for part of LBRY's infrastructure would also be inappropriate.
 
-If you are not sure if your use is within bounds or not, please [come talk with us](https://chat.lbry.io) about it. We know we can only envision some of the innovation that will happen on the LBRY network and would hate to miss a great opportunity for confusion in this area.
+If you are not sure if your use is within bounds or not, please [come talk with us](https://chat.lbry.com) about it. We know we can only envision some of the innovation that will happen on the LBRY network and would hate to miss a great opportunity for confusion in this area.

@@ -3,11 +3,12 @@ title: YouTube Sync Terms
 category: publisher
 order: 6
 ---
+
 By agreeing to sync your content to the LBRY network, you agree to the terms specified in the below document. You must agree to these terms to make your content available on LBRY and receive LBRY Credits. A human-friendly summary appears lower down, *but the actual agreement you are making is specified in the below document*.
 
 ## The Terms
 
-<iframe src="https://docs.google.com/document/d/e/2PACX-1vS0H7gnSg7Zlx5JO_JkyJh3EP5qq8esTr1Y1Wi8R2eYGDfr1QEmS8SaEpGGCIcjW-mbj7LJ_RxmX_Am/pub?embedded=true"></iframe>
+Visit our [Google Doc](https://docs.google.com/document/d/e/2PACX-1vS0H7gnSg7Zlx5JO_JkyJh3EP5qq8esTr1Y1Wi8R2eYGDfr1QEmS8SaEpGGCIcjW-mbj7LJ_RxmX_Am/pub) for more information.
 
 ## Human-Friendly Highlights
 
@@ -25,5 +26,3 @@ LBRY, Inc. has the right to promote your content and its availability on the LBR
 ### 4. Content Security
 
 LBRY, Inc. makes no promises as to the availability or security of your content. While blockchain entries can expire and may no longer be accessed in our clients, we make no promises or guarantees that we can fully remove your content from the network, nor that we will keep your content secure.
-
- 

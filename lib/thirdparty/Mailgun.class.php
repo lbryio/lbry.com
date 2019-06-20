@@ -4,31 +4,17 @@ class Mailgun
 {
     const BASE_URL = 'https://api.mailgun.net/v3';
 
-    const TOP_DOMAIN = 'lbry.io';
-    const MAIL_DOMAIN = 'mail.lbry.io';
+    const TOP_DOMAIN = 'lbry.com';
+    const MAIL_DOMAIN = 'mail.lbry.com';
 
-    const LIST_GENERAL = 'lbryians@lbry.io';
+    const LIST_GENERAL = 'lbryians@lbry.com';
 
     public static function sendDmcaReport($data)
     {
         list($status, $headers, $body) = static::post('/' . static::MAIL_DOMAIN . '/messages', [
       'from'              => 'LBRY <mail@' . static::MAIL_DOMAIN . '>',
-      'to'                => 'hello@lbry.io',
+      'to'                => 'hello@lbry.com',
       'subject'           => 'DMCA Report #' . $data['report_id'],
-      'html'              => '<pre>' . var_export($data, true) . '</pre>',
-      'o:tracking-clicks' => 'no',
-      'o:tracking-opens'  => 'no'
-    ]);
-
-        return $status == 200;
-    }
-
-    public static function sendYouTubeWarmLead($data)
-    {
-        list($status, $headers, $body) = static::post('/' . static::MAIL_DOMAIN . '/messages', [
-      'from'              => 'LBRY <mail@' . static::MAIL_DOMAIN . '>',
-      'to'                => 'reilly@lbry.io',
-      'subject'           => 'Interested YouTuber',
       'html'              => '<pre>' . var_export($data, true) . '</pre>',
       'o:tracking-clicks' => 'no',
       'o:tracking-opens'  => 'no'

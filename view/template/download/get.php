@@ -1,47 +1,63 @@
 <?php Response::setMetaDescription(__('description.get'))  ?>
 <?php Response::addMetaImage(Request::getHostAndProto() . '/img/lbry-ui.png') ?>
 <?php NavActions::setNavUri('/get') ?>
-<?php echo View::render('nav/_header', ['isDark' => false]) ?>
-<main class="column-fluid">
-  <div class="span7">
-    <div class="cover cover-dark cover-dark-grad content content-stretch content-dark">
-      <h1><?php echo __('download.for-os', ['%os%' => $osTitle]) ?> <span class="<?php echo $osIcon ?>"></span></h1>
+
+<main class="ancillary">
+  <section class="hero hero--half-height">
+    <div class="inner-wrap inner-wrap--center-hero">
+      <h1>
+        <?php echo __('download.for-os2', ['%os%' => OS::OS_DETAIL($os)[5]]) ?>
+      </h1>
+    </div>
+  </section>
+
+  <section>
+    <div class="inner-wrap">
       <?php if ($downloadUrl): ?>
-        <p>
-          Securely download the LBRY app here, and see what all the fuss is about!
-        </p>
-        <p>
-        </p>
-        <div class="text-center">
-          <?php $metaHtml = $os !== OS::OS_ANDROID ? View::Render('download/_meta') : false ?>
-          <div class="<?php echo $metaHtml ? 'spacer-half' : 'spacer1' ?>">
-            <?php echo View::Render('download/_downloadButton', [
-                'buttonStyle' => 'alt'
-            ])?>
-          </div>
-          <?php if ($metaHtml): ?>
-            <div class="spacer1">
-              <?php echo $metaHtml ?>
-            </div>
+
+      <div style="margin-bottom: 2rem; text-align: center;">
+        <p>Securely download the LBRY app here, and see what all the fuss is about!</p>
+        <?php $metaHtml = $os !== OS::OS_ANDROID ? View::Render('download/_meta') : false ?>
+        <?php echo View::Render('download/_downloadButton', [
+          'buttonStyle' => 'primary'
+        ])?>
+
+        <br/><br/>
+
+        <?php if ($metaHtml): ?>
+        <?php echo $metaHtml ?>
+        <?php endif ?>
+      </div>
+
+      <figure>
+        <img
+          alt="Screenshot of LBRY"
+          src="<?php echo $osScreenshotSrc ?>"
+          <?php if ($os === OS::OS_ANDROID): ?>
+          class="tall"
           <?php endif ?>
-          <img src="<?php echo $osScreenshotSrc ?>" />
-        </div>
+        />
+      </figure>
+
       <?php else: ?>
-        <p>{{download.unavailable}}</p>
-        <?php echo View::render('mail/_subscribeForm', [
-          'tag' => $os,
-          'submitLabel' => 'Join List',
-          'hideDisclaimer' => true,
-          'largeInput' => true,
-          'btnClass' => 'btn-alt btn-large',
-        ]) ?>
+
+      <p>{{download.unavailable}}</p>
+
+      <?php echo View::render('mail/_subscribeForm', [
+        'tag' => $os,
+        'submitLabel' => 'Join List',
+        'hideDisclaimer' => true,
+        'largeInput' => true,
+        'btnClass' => 'btn-alt btn-large',
+      ]) ?>
+
       <?php endif ?>
     </div>
-  </div>
-  <div class="span5">
-    <?php echo View::render('download/_list', ['excludeOs' => $os]) ?>
-    <?php echo View::render('download/_social') ?>
-  </div>
-</main>
+  </section>
 
-<?php echo View::render('nav/_footer') ?>
+  <section>
+    <div class="inner-wrap">
+      <?php echo View::render('download/_list', ['excludeOs' => $os]) ?>
+    </div>
+  </section>
+</main>

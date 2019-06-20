@@ -49,12 +49,23 @@ class Controller
     public static function execute($method, $uri)
     {
         $router = static::getRouterWithRoutes();
-        static::performSubdomainRedirects();
+
+        $domainResult = static::performDomainRouting($uri);
+        if ($domainResult) {
+            return $domainResult;
+        }
+
+        $dispatcher = new Routing\Dispatcher($router->getData());
+
         try {
-            $dispatcher = new Routing\Dispatcher($router->getData());
             return $dispatcher->dispatch($method, $uri);
         } catch (\Routing\HttpRouteNotFoundException $e) {
-            return NavActions::execute404();
+            $lowerUri = strtolower($uri);
+            if ($lowerUri !== $uri && $dispatcher->hasMatchingRouteForUri($method, $lowerUri)) {
+                static::redirect($lowerUri, 301);
+            } else {
+                return NavActions::execute404();
+            }
         } catch (\Routing\HttpMethodNotAllowedException $e) {
             Response::setStatus(405);
             Response::setHeader('Allow', implode(', ', $e->getAllowedMethods()));
@@ -62,15 +73,32 @@ class Controller
         }
     }
 
-    protected static function performSubdomainRedirects()
+    protected static function performDomainRouting($uri)
     {
         $subDomain = Request::getSubDomain();
 
         switch ($subDomain) {
-      case 'chat':
-      case 'slack':
-        return static::redirect('https://discord.gg/Z3bERWA');
-    }
+          case 'chat':
+          case 'slack':
+            return static::redirect('https://discord.gg/Z3bERWA');
+        }
+
+        /*
+         * this is kind of a hack? unsure, so it probably is
+         */
+        $hostName = $_SERVER['HTTP_HOST'];
+        if ($hostName && in_array($hostName, ['lbry.org', 'lbry.tv'])) {
+            if ($uri === '/') {
+                switch ($hostName) {
+                    case 'lbry.org':
+                        return ContentActions::executeOrg();
+                    case 'lbry.tv':
+                        return ContentActions::executeTv();
+                }
+            } else {
+                return static::redirect('/');
+            }
+        }
     }
 
     protected static function getRouterWithRoutes(): \Routing\RouteCollector
@@ -97,7 +125,6 @@ class Controller
 
         $router->any('/dmca', 'ReportActions::executeDmca');
 
-        $router->any('/youtube/sub', 'AcquisitionActions::executeYouTubeSub');
         $router->post('/youtube/edit', 'AcquisitionActions::executeYoutubeEdit');
         $router->post('/youtube/token', 'AcquisitionActions::executeYoutubeToken');
         $router->any('/youtube/status/{token}', 'AcquisitionActions::executeYoutubeStatus');
@@ -137,6 +164,9 @@ class Controller
         $router->get([ContentActions::URL_CREDIT_REPORTS . '/{year:c}-q{quarter:c}', ContentActions::URL_CREDIT_REPORTS . '/{year:c}-Q{quarter:c}'], 'ContentActions::executeCreditReport');
 
         $router->get('/{slug}', function (string $slug) {
+            if ($slug !== strtolower($slug)) {
+                return static::redirect('/' . strtolower($slug), 301);
+            }
             if (View::exists('page/' . $slug)) {
                 Response::enableHttpCache();
                 return ['page/' . $slug, []];

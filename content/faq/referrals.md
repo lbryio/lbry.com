@@ -3,38 +3,42 @@ title: How does the referral program work?
 category: getstarted
 ---
 
-You can earn LBRY Credits (LBC) for referring others to use LBRY. In the latest version of the LBRY app, you can now view the status of your referrals and invite new users to LBRY. The "Invites" area can be found by going to your wallet (bank icon at the top right of the LBRY app) and then clicking "Invites" from the top menu. In the "Invite History" section, you will see all of your referrals, along with their status(es) (whether it is claimable or not). You also have the ability to invite new users to LBRY via the "Invite a Friend" section.  
+You can earn LBRY Credits (LBC) for referring others to use LBRY. In the latest version of the LBRY app, you can now view the status of your referrals and invite new users to LBRY via email or referral link. The "Invite" area can be found by clicking "Invite" from the left side of the app. You will see all of your referrals, along with their status(es) - whether the user has accepted it (signed in) and if it is claimable or not (if the user is reward approved).
 
-*Note: Referral redemptions are currently limited to 1*
+![invite](https://spee.ch/@clement:e/invite.png)
+
+*Note: Referral redemptions are currently limited to 10*
 
 ### How many LBRY Credits do I earn and how do I see how many credits I've earned?
 
-New invites sent via the LBRY app are eligible for a 3 LBC reward amount. 
-
-For invites prior to 8/1/2017, the current referral reward, as well as the number of people you have referred, has been recorded by our system. You can see the list of your invited users on the "Invite History" section of the Invites screen.
-
-You will always receive the same number of credits being awarded at the time your referrer joined the list. Currently, the reward amount will be shown when the invite is claimed. You can see the reward amount in the "Rewards" section of the LBRY app after it is claimed. 
+New invites sent via the LBRY app are eligible for a 20 LBC reward (subject to change based on our discretion). 
 
 ### When do I get my rewards?
 
-We are currently in a testing phase of the referral system where each account is limited to a single referral reward redemption.  
+If you have claimable rewards, you will see a claim button with the total reward amount on the page. You will not receive rewards for each referral until those users join and use LBRY themselves (see below section regarding claimable referrals). This is to combat referral fraud and abuse.
 
-You will not receive rewards for each referral until those users join and use LBRY themselves (see below section regarding claimable referrals). This is to combat referral fraud and abuse.
+### How does the referral link work?
 
-### What is the criteria for a claimable referral?
+After a user clicks, installs and registers their email with LBRY, it may take up to an hour for the invite to appear on your Invites page.
 
-A claimable referral has the same definition as a Rewards eligible or Verified LBRY user. This means the referred user must have logged into the LBRY app and verified their account.  Users who've redeemed rewards prior to the LBRY Open Beta (on 8/1/2017) were automatically "grandfathered" as verified users. The current verification options can be seen [here](https://lbry.io/faq/identity-requirements). 
+### What are the criteria for a claimable referral?
 
-LBRY users who abuse either the Referral or Rewards system will not be eligible for referral redemption. If you have specific questions about individual referrals which are not claimable, please reach out to the [helpdesk](mailto:help@lbry.io) with details. 
+A claimable referral has the same definition as a Rewards eligible or Verified LBRY user. This means the referred user must have logged into the LBRY app and verified their account.
+
+LBRY users who abuse either the Referral or Rewards system will not be eligible for referral redemption. If you have specific questions about individual referrals which are not claimable, please reach out to the [helpdesk](mailto:help@lbry.com) with details.
+
+### What is the difference between Accepted and Claimable?
+
+Accepted means the user has signed into LBRY. Claimable means they have verified their account.
 
 ### Is there a limit to the credits I can earn?
 
-If you expect to refer more than 50-100 people, please discuss it with us on [Discord chat](http://chat.lbry.io) or email [us](mailto:josh@lbry.io).
+If you expect to refer more than 50-100 people, please discuss it with us on [Discord chat](http://chat.lbry.com) or email [us](mailto:tom@lbry.com).
 
-Currently, during the referral reward testing phase, there is a limit of 1 redemption per account.
+Currently, there is a limit of 10 redemptions per account.
 
 ### I have a clever idea to cheat the referral system.
 
 If you want to waste your time to receive no reward, be our guest. We will be monitoring the system closely and will be going to significant lengths to only allow legitimate users to join.
 
-Rather than spending the time attempting to cheat and failing, we suggest you do productive work to earn LBRY credits. Join our [Discord chat](http://chat.lbry.io) and message or email [Tom](mailto:tom@lbry.io) (@jiggytom) or [Julie](mailto:julie@lbry.io) (@jsigwart) for opportunities.
+Rather than spending the time attempting to cheat and failing, we suggest you do productive work to earn LBRY credits. Join our [Discord chat](http://chat.lbry.com) and message or email [Tom](mailto:tom@lbry.com) (@jiggytom) or [Julie](mailto:julie@lbry.com) (@jsigwart) for opportunities.

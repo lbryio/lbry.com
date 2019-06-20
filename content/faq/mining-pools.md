@@ -8,11 +8,17 @@ While we try to work with reliable pool operators, LBRY Inc. does not officially
 
 However, some pools are in a partnership with the independent community initiative at [LBRY.Community](https://lbry.community). These pools fund development and expansion of the community by donating 10% of their LBC revenues. This is a great way to contribute directly to the community!
 
-- [LBRY Community Pool](http://lbrypool.com) <- Support the LBRY community with this pool!  
+The current breakdown of mining hash rates can be found on [Mining Pool Stats](https://miningpoolstats.stream/lbry)
+
+## New Pools! Help Distribute Hash!!
+- [AHashPool](https://www.ahashpool.com/)
+- [Power Mining Pool](https://www.powermining.pw/)
+- [Zerg Pool](https://zergpool.com/)
+
+## Established Pools
+- [LBRY Community Pool](http://lbrypool.com) <- Support the LBRY community with this pool!
 - [Luxor](https://mining.luxor.tech/lbry) <- Support the LBRY community with this pool!
-- [Pool.MN](https://pool.mn/lbry/index.php?page=gettingstarted)
 - [SuprNova](https://lbry.suprnova.cc/index.php?page=gettingstarted)
 - [CoinMine](https://www2.coinmine.pl/lbc/index.php?page=gettingstarted)
+- [zPool](https://www.zpool.ca/)
 - [NiceHash](https://www.nicehash.com/marketplace/lbry)
-
-The current breakdown of mining hash rates can be found on [Mining Pool Stats](https://miningpoolstats.stream/lbry)

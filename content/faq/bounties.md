@@ -11,7 +11,7 @@ All bounties can be seen on the [bounty home page](/bounty).
 
 ### How do I claim a bounty?
 
-To claim a bounty, please email [bounty@lbry.io](mailto:bounty@lbry.io). Please include a link to the bounty. If it is programming-related, please include a link to the pull request.
+To claim a bounty, please email [bounty@lbry.com](mailto:bounty@lbry.com). Please include a link to the bounty. If it is programming-related, please include a link to the pull request.
 
 ### How do I get compensated?
 
@@ -19,8 +19,8 @@ People who complete bounties are rewarded LBRY credits (LBC). These credits will
 
 ### I have questions about a specific bounty or seek assistance in completing a bounty.
 
-The best place to get real-time help is our [Discord chat](https://chat.lbry.io). You can also email our bounty team [bounty@lbry.io](mailto:bounty@lbry.io).
+The best place to get real-time help is our [Discord chat](https://chat.lbry.com). You can also email our bounty team [bounty@lbry.com](mailto:bounty@lbry.com).
 
 ### I want to complete a bounty that is not listed.
 
-Please send an email to our bounty team at [bounty@lbry.io](mailto:bounty@lbry.io).
+Please send an email to our bounty team at [bounty@lbry.com](mailto:bounty@lbry.com).

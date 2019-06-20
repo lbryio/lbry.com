@@ -6,7 +6,7 @@ status: complete
 date: '2016-07-01'
 ---
 
-LBRY is offering big incentives to content creators as part of our [Publisher Partnership Program](https://lbry.io/publish).
+LBRY is offering big incentives to content creators as part of our [Publisher Partnership Program](/publish).
 
 If you refer someone that is accepted into the program, you will receive this bounty award.
 

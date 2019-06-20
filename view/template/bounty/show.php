@@ -1,6 +1,6 @@
 <?php Response::setMetaDescription($metadata['title']) ?>
 <?php NavActions::setNavUri('/learn') ?>
-<?php echo View::render('nav/_header') ?>
+
 <main>
   <div class="post-content">
     <div class="meta">
@@ -28,7 +28,7 @@
       <?php if ($metadata['status'] !== 'complete'): ?>
         <h4>Claim This Bounty</h4>
         <div class="spacer1">
-          <a href="mailto:bounty@lbry.io?subject=<?php echo $metadata['title'] ?>" class="btn btn-alt">Claim Bounty</a>
+          <a href="mailto:bounty@lbry.com?subject=<?php echo $metadata['title'] ?>" class="btn btn-alt">Claim Bounty</a>
         </div>
       <h4>Bounty Questions?</h4>
         <div class="spacer1">
@@ -36,10 +36,9 @@
         </div>
         <h4>Want Live Help?</h4>
         <div class="spacer1">
-          <a href="http://chat.lbry.io" class="link-primary"><span class="icon-comments icon-fw"></span>Join Our Chat</a>
+          <a href="http://chat.lbry.com" class="link-primary"><span class="icon-comments icon-fw"></span>Join Our Chat</a>
         </div>
       <?php endif ?>
     </section>
   </div>
 </main>
-<?php echo View::render('nav/_footer', ['showLearnFooter' => true]) ?>

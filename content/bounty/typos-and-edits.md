@@ -12,4 +12,4 @@ This includes everything from low-level help messages or comments in code to the
 
 Please initiate a pull request on GitHub to receive this bounty.
 
-Note: Bounty award may be higher or lower depending on the nature of the change(s). 
+Note: Bounty award may be higher or lower depending on the nature of the change(s).

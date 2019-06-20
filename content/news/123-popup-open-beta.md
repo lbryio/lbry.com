@@ -6,13 +6,13 @@ date: '2017-07-31 13:31:31'
 
 ## Starting immediately, anyone can watch awesome stuff on LBRY and earn free rewards.
 
-_Want to avoid icky words and just install LBRY, laugh at things, and earn your magic internet credits? [Go here](https://lbry.io/get)._
+_Want to avoid icky words and just install LBRY, laugh at things, and earn your magic internet credits? [Go here](/get)._
 
 ### The Journey
 
-In less than a year, over 250,000 people have signed up to put control back in the hands of the content creators and consumers. That’s more people than the population of Samoa (which is a place you've probably heard of!). It’s a pretty big deal.
+In less than a year, over 250,000 people have signed up to put control back in the hands of the content creators and consumers. That's more people than the population of Samoa (which is a place you've probably heard of!). It's a pretty big deal.
 
-There’s a reason why people have been clamoring to get in. It's the same reason why some of YouTube’s most popular publishers, a surge of gaming channels and independent producers are flooding LBRY. It's because existing methods are fundamentally broken. Giant corporations demand tremendous control and abuse it, rather than fostering choice and freedom. They take half of the creators' money just to move bits around when content consumers could be doing it ourselves.
+There's a reason why people have been clamoring to get in. It's the same reason why some of YouTube's most popular publishers, a surge of gaming channels and independent producers are flooding LBRY. It's because existing methods are fundamentally broken. Giant corporations demand tremendous control and abuse it, rather than fostering choice and freedom. They take half of the creators' money just to move bits around when content consumers could be doing it ourselves.
 
 There's also a reason it's taken a long time for us to move to open beta, and why it's likely to be temporary: it turns out fundamentally rebuilding the way we distribute content from the ground up is kind of hard.
 
@@ -42,7 +42,7 @@ In fact, that's the whole point of this post!
 
 Starting today, anyone that downloads and runs the LBRY browser can access the great content already on the network and earn LBRY credits for doing so.
 
-The LBRY browser runs on all major desktop operating systems. To get it, go [here](https://lbry.io/get).
+The LBRY browser runs on all major desktop operating systems. To get it, go [here](/get).
 
 So, why aren't we shouting a bit more about this?
 
@@ -54,14 +54,14 @@ After joining the beta, you'll also receive a weekly email, mentioning the great
 
 _Open beta users can access weekly featured content and earn rewards._
 
-Ready to download? [Get LBRY here](https://lbry.io/get).
+Ready to download? [Get LBRY here](/get).
 
 ### Invites for your Community
 
-We want to get LBRY credits into the hands of users and communities that support content freedom. If you are part of a community that would find LBRY useful or interesting, we can offer invites to the rewards program for your community that does not require full identity verification. Interested? [Say hello here](mailto:hello@lbry.io).
+We want to get LBRY credits into the hands of users and communities that support content freedom. If you are part of a community that would find LBRY useful or interesting, we can offer invites to the rewards program for your community that does not require full identity verification. Interested? [Say hello here](mailto:hello@lbry.com).
 
 ### One More Bonus
 
-We're also going to drop this sweet hype video here, made by the wonderful J.J. Epic of [NeoCash Radio](http://neocashradio.com/).
+We're also going to drop this sweet hype video here, made by the wonderful J.J. Epic of [NeoCash Radio](http://neocashradio.com).
 
-<video width="100%" controls poster="https://spee.ch/850029cd898c982812fbdd83d22c1d5e32ad3ac9/lbryhypeposter.png" src="https://spee.ch/65913d27e8a5723f539447bd3cb27279b357f4d4/hellolbry.mp4"/></video>
+<video controls poster="https://spee.ch/850029cd898c982812fbdd83d22c1d5e32ad3ac9/lbryhypeposter.png" src="https://spee.ch/65913d27e8a5723f539447bd3cb27279b357f4d4/hellolbry.mp4"/></video>

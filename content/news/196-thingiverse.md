@@ -3,6 +3,7 @@ author: brinck-slattery
 title: 'What Is Thingiverse?'
 date: '2019-01-03 12:00:00'
 cover: 'thingiverse.jpg'
+category: content
 ---
 
 It seems like a new digital marketplace pops up every day, and it can get hard to keep track of all the new projects for all your favorite kinds of content. Markets like [Bandcamp](https://bandcamp.com) allow bands and musicians to sell their music directly to listeners, photo clearinghouses like [BigStock](https://www.bigstockphoto.com/) let photographers earn cash from sales of their photos and videos, and labor markets like [Seamless](https://www.seamless.com), Uber, and [Postmates](https://postmates.com) let people turn their free time and underused vehicles into a second source of income.
@@ -25,4 +26,4 @@ One thing you won’t find on Thingiverse is any designs for weapons or firearms
 
 ## Are There Other Options For 3D Printing Enthusiasts?
 
- If Thingiverse’s policies rub you the wrong way, you can always post and find 3D printable files on the world’s only truly decentralized digital marketplace, LBRY! [Download the app now](http://lbry.io/get) and give it a try.
+ If Thingiverse’s policies rub you the wrong way, you can always post and find 3D printable files on the world’s only truly decentralized digital marketplace, LBRY! [Download the app now](http://lbry.com/get) and give it a try.

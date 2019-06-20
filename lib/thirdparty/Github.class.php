@@ -7,8 +7,7 @@ class Github
     public static function isAssetForOs(array $asset, string $os)
     {
         $ext = pathinfo($asset['name'], PATHINFO_EXTENSION);
-        switch($os)
-        {
+        switch ($os) {
             case OS::OS_LINUX:
                 return
                     in_array($ext, ['deb']) ||
@@ -19,7 +18,7 @@ class Github
                     in_array($ext, ['dmg', 'pkg']) ||
                     in_array($asset['content_type'], ['application/x-diskcopy', 'application/x-apple-diskimage']) ||
                     stripos($asset['name'], 'darwin') !== false ||
-                    stripos($asset['name'], 'macos') !== false;
+                    stripos($asset['name'], 'mac') !== false;
             case OS::OS_WINDOWS:
                 return
                     in_array($ext, ['exe', 'msi']) ||
@@ -79,82 +78,46 @@ class Github
 
     public static function get($endpoint, array $params = [], $cache = true)
     {
+        // return null; # for local development, this line allows for iterative development without hitting the GitHub API
+        # disable above line for production
+
         $twoHoursInSeconds = 7200;
-        if (Config::get(Config::GITHUB_APP_CLIENT_ID) && Config::get(Config::GITHUB_APP_CLIENT_SECRET))
-        {
-            $params['client_id'] = Config::get(Config::GITHUB_APP_CLIENT_ID);
-            $params['client_secret'] = Config::Get(Config::GITHUB_APP_CLIENT_SECRET);
+        $headers = ['Accept: application/vnd.github.v3.html+json'];
+        if (Config::get(Config::GITHUB_PERSONAL_AUTH_TOKEN)) {
+            $headers[] =  'Authorization: token ' . Config::get(Config::GITHUB_PERSONAL_AUTH_TOKEN);
         }
+
         return CurlWithCache::get(
         'https://api.github.com' . $endpoint . '?' . http_build_query($params),
         [],
-      ['headers' => ['Accept: application/vnd.github.v3.html+json'],'user_agent' => 'LBRY', 'json_response' => true, 'cache' => $cache === true ? $twoHoursInSeconds : $cache]
+      ['headers' => $headers, 'user_agent' => 'LBRY', 'json_response' => true, 'cache' => $cache === true ? $twoHoursInSeconds : $cache]
     );
     }
 
-    public static function listRoadmapChangesets($cache = true)
+    public static function listRoadmapItems($cache = true)
     {
-        $sets        = [];
-        $allReleases = [];
+        $apiResponse = Config::get(Config::GITHUB_PERSONAL_AUTH_TOKEN) ?
+            static::get('/repos/lbryio/internal-issues/issues?labels=2019&filter=all') :
+            include ROOT_DIR . '/data/dummy/githubroadmap.php';
 
-        $projects = ['lbry' => 'LBRY Protocol', 'lbry-desktop' => 'LBRY App'];
-
-        foreach ($projects as $project => $projectLabel) {
-            $page = 1;
-            do {
-                $releases = static::get('/repos/lbryio/' . $project . '/releases', ['page' => $page], $cache);
-                $page++;
-                $allReleases = array_merge($allReleases, array_map(function ($release) use ($project, $projectLabel) {
-                    return $release + ['project' => $projectLabel];
-                }, array_filter($releases, function ($release) {
-                    return isset($release['tag_name']) && isset($release['published_at']) && $release['published_at'];
-                })));
-            } while (count($releases) >= 30);
-        }
-
-        /**
-         * This logic is likely overly convoluted at this point. It used to group releases by project before going
-         * to strictly by time. - Jeremy
-         */
-
-        foreach ($allReleases as $release) {
-            $group   = null;
-            $matches = null;
-            if (preg_match('/^v(\d+)\.(\d+)\./', $release['tag_name'] ?? '', $matches)) {
-                $group = $release['project'] . ' v' . $matches[1] . '.' . $matches[2];
+        $issues = array_reduce($apiResponse, function ($issues, $issue) {
+            return array_merge($issues, [[
+                'name' => $issue['title'],
+                'quarter_date' => array_reduce($issue['labels'], function ($carry, $label) {
+                    if ($carry) {
+                        return $carry;
+                    }
+                    return $label['name'][0] === 'Q' ? $label['name'] . ' 2019' : '';
+                }, ''),
+                'body' => $issue['body_html']
+            ]]);
+        }, []);
+        usort($issues, function ($a, $b) {
+            if ($a['quarter_date'] === $b['quarter_date']) {
+                return $a['name'] < $b['name'] ? -1 : 1;
             }
-            if ($group) {
-                $sets[$group][] = array_intersect_key($release, [
-            'prerelease' => null, 'tag_name' => null, 'published_at' => null, 'project' => null
-          ]) + [
-            'created_at'    => strtotime($release['created_at']),
-            'date'          => date('Y-m-d', strtotime($release['created_at'])),
-            //I thought published_at, but GitHub displays created_at and published_at is out of sync sometimes (0.3.2, 0.3.3)
-            'name'          => $release['name'] ?: $release['tag_name'],
-            'url'           => $release['html_url'],
-            'major_version' => (int)$matches[1],
-            'minor_version' => (int)$matches[2],
-            'patch_version' => (int)isset($matches[3]) ? $matches[3] : 0,
-            'sort_key'      => (int)$matches[1] * 1000000 + (int)$matches[2] * 1000 + (int)($matches[3] ?? 0),
-            'version'       => $matches[1] . '.' . $matches[2] . '.' . (isset($matches[3]) ? $matches[3] : ''),
-            'body'          => $release['body_html']
-          ];
-            }
-        }
-
-        uasort($sets, function ($sA, $sB) {
-            if ($sA[0]['project'] != $sB[0]['project']) {
-                return $sA[0]['project'] < $sB[0]['project'] ? -1 : 1;
-            }
-            return $sB[0]['sort_key'] <=> $sA[0]['sort_key'];
+            return $a['quarter_date'] < $b['quarter_date'] ? -1 : 1;
         });
-
-        foreach ($sets as $group => &$groupSet) {
-            usort($groupSet, function ($rA, $rB) {
-                return $rB['created_at'] <=> $rA['created_at'];
-            });
-        }
-
-        return $sets;
+        return $issues;
     }
 }

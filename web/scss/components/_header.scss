@@ -1,0 +1,276 @@
+.header {
+  top: 0; left: 0;
+
+  background-color: var(--lbry-white);
+  border-bottom: 1px solid var(--lbry-gray-1);
+  font-size: 1rem;
+  position: sticky;
+  width: 100%;
+  z-index: 2;
+
+  > * {
+    display: flex;
+  }
+}
+
+.header__download {
+  display: inline-flex;
+  height: 5rem;
+
+  @media (max-width: 950px) {
+    display: none;
+  }
+}
+
+.header__logo,
+.header__toggle {
+  background-color: var(--lbry-white);
+
+  @media (max-width: 950px) {
+    z-index: 11;
+  }
+}
+
+.header__logo {
+  @include hide-text;
+
+  background-image: url("../img/text-logo.svg");
+  background-repeat: no-repeat;
+  background-size: 5rem;
+  display: block;
+  height: 5rem;
+  position: relative;
+
+  @media (min-width: 951px) {
+    background-position: 3rem center;
+    margin-right: 2.5rem;
+    width: 8rem;
+  }
+
+  @media (max-width: 950px) {
+    background-position: 4rem center;
+    padding-left: 1rem;
+    width: 100%;
+  }
+
+  @media (min-width: 901px) and (max-width: 950px) {
+    left: -2rem;
+  }
+
+  @media (max-width: 900px) {
+    left: -1rem;
+  }
+
+  &::before {
+    width: 3rem; height: inherit;
+
+    background-image: url("../img/logo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 2.5rem;
+    content: "";
+    position: absolute;
+  }
+}
+
+.header__toggle {
+  line-height: 5rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  position: absolute;
+  right: 0;
+
+  @media (min-width: 951px) {
+    display: none;
+  }
+}
+
+
+
+drawer-children {
+  @media (min-width: 951px) {
+    @extend .inner-wrap;
+  }
+
+  @media (max-width: 950px) {
+    display: initial;
+    padding: 0 !important; // Necessary to override the 901px min-width styling of .inner-wrap
+  }
+}
+
+drawer-child {
+  > a {
+    display: block;
+  }
+
+  @media (min-width: 951px) {
+    &.drawer--social {
+      &:hover {
+        padding-left: var(--spacing-s);
+      }
+    }
+  }
+
+  @media (max-width: 950px) {
+    border: none;
+    display: block;
+    margin-bottom: 0.5rem;
+    padding: 0;
+    width: 100%;
+
+    &:not([full-width]) {
+      width: inherit;
+    }
+
+    &:not(.drawer--social) {
+      span {
+        display: none;
+      }
+    }
+
+    &.drawer--social {
+      > div > span {
+        display: inline-flex;
+        margin-left: 1rem;
+        padding: 0;
+      }
+
+      a span {
+        padding: 0;
+      }
+    }
+
+    &:hover {
+      border: inherit;
+      padding: inherit;
+    }
+  }
+
+  @media (max-width: 800px) {
+    &:not([full-width]) {
+      width: 100%;
+    }
+  }
+
+  &.drawer--no-border {
+    &:hover {
+      border-color: transparent;
+    }
+  }
+
+  .icon {
+    margin-right: 1rem;
+    transition: color 0.2s;
+
+    &:hover {
+      color: var(--lbry-teal-4);
+    }
+  }
+
+  .icon-reddit {
+    left: -0.2rem;
+    position: relative;
+  }
+
+  .icon-telegram {
+    left: -0.4rem;
+    position: relative;
+  }
+}
+
+drawer-navigation {
+  position: initial;
+
+  @media (max-width: 950px) {
+    top: 0; left: 0;
+
+    background-color: var(--lbry-gray-1);
+    display: block;
+    height: calc(100vh - 5rem);
+    overflow-y: auto;
+    padding: 2rem;
+    position: absolute;
+    transition: transform 0.2s;
+
+    &:not(.active) {
+      transform: translateY(-100%);
+    }
+
+    &.active {
+      transform: translateY(5rem);
+    }
+  }
+}
+
+drawer-navigation-helper {
+  width: 30vw; height: 100%;
+  top: 3rem; left: -15vw;
+
+  // background-color: bisque; // uncomment to view path
+  border: none; //
+  clip-path: ellipse(farthest-side closest-side at 50% 50%);
+  display: block;
+
+  @media (max-width: 950px) {
+    display: none;
+  }
+}
+
+drawer-section {
+  @media (min-width: 951px) {
+    height: calc(5rem + 1px);
+  }
+
+  @media (max-width: 950px) {
+    display: block;
+    padding: 0;
+
+    &:last-of-type {
+      padding-bottom: 2rem;
+    }
+
+    &:not(:hover) {
+      drawer-wrap {
+        display: block !important; // TODO: Fix this override of component
+      }
+    }
+  }
+}
+
+drawer-title {
+  @media (max-width: 950px) {
+    font-size: 1.25rem;
+    font-weight: 200;
+    height: initial;
+
+    &::after {
+      display: none;
+    }
+  }
+
+  &::after {
+    bottom: 0;
+  }
+}
+
+drawer-wrap {
+  &::after {
+    // TODO: Update component with this code
+    // and remove `width` and `height`
+    left: 0; bottom: 0; right: 0;
+    position: fixed;
+  }
+
+  @media (max-width: 950px) {
+    top: initial; left: initial;
+
+    background-color: initial;
+    border: none;
+    padding: 0;
+    position: relative;
+
+    &::after {
+      display: none;
+    }
+  }
+}

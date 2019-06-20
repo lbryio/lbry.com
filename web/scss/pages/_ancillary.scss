@@ -1,0 +1,288 @@
+.ancillary {
+  blockquote,
+  iframe {
+    margin-bottom: 1.25rem;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    + blockquote,
+    + hr,
+    + iframe,
+    + img,
+    + pre,
+    + video,
+    + .button {
+      margin-top: 0.25rem;
+    }
+
+    + footer,
+    + form,
+    + h1,
+    + h2,
+    + h3,
+    + h4,
+    + h5,
+    + ol,
+    + p,
+    + ul {
+      margin-top: 0.25rem;
+    }
+
+    + .button {
+      display: inline-block;
+    }
+  }
+
+  ol,
+  p,
+  ul {
+    + blockquote,
+    + hr,
+    + iframe,
+    + img,
+    + pre,
+    + video,
+    + .button {
+      margin-top: 1.25rem;
+    }
+
+    + footer,
+    + form,
+    + h1,
+    + h2,
+    + h3,
+    + h4,
+    + h5,
+    + ol,
+    + p,
+    + ul {
+      margin-top: 1.25rem;
+    }
+
+    + .button {
+      display: inline-block;
+    }
+  }
+
+  ol,
+  p,
+  ul {
+    line-height: 1.55;
+
+    img {
+      display: flex;
+      max-height: 50vh;
+
+      + em {
+        display: block;
+        font-size: 0.8rem;
+        font-style: italic;
+        line-height: 1.33;
+        margin-right: auto;
+        margin-left: auto;
+        padding-top: 1rem;
+        text-align: center;
+        width: 80%;
+      }
+    }
+
+    code {
+      background-color: var(--lbry-black);
+      color: var(--lbry-white);
+      display: initial;
+      font-size: 0.8rem;
+      font-style: normal;
+      padding: 0.2rem 0.5rem;
+      position: relative;
+      top: -0.1rem;
+    }
+  }
+
+  ol,
+  ul {
+    list-style-position: outside;
+
+    li {
+      list-style-position: inherit;
+
+      &:not(:first-of-type) {
+        padding-top: 0.5rem;
+      }
+
+      &:not(:last-of-type) {
+        p:last-of-type {
+          margin-bottom: 1rem;
+        }
+      }
+
+      ol,
+      ul {
+        padding-top: 1rem;
+        padding-left: 1rem;
+
+        li:not(:last-of-type) {
+          margin-bottom: 0.5rem;
+        }
+      }
+
+      p {
+        display: inline-block;
+
+        &.join-us-fix {
+          margin-top: -2rem;
+          padding-left: 1.25rem;
+        }
+
+        &:not(:first-of-type) {
+          padding-top: 0.5rem;
+          padding-left: 1.25rem;
+        }
+      }
+
+      table {
+        display: inline-block;
+        padding-left: 1.25rem;
+      }
+    }
+  }
+
+  ol {
+    padding-left: 0.15rem;
+
+    > li {
+      list-style-position: inside;
+    }
+  }
+
+  ul {
+    &:not(.bulletless) {
+      list-style-type: disc;
+      padding-left: 1.3rem;
+    }
+  }
+
+  > p {
+    > br {
+      display: none;
+    }
+  }
+
+  p {
+    &:empty {
+      display: none;
+    }
+
+    img {
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+
+  iframe {
+    min-height: 500px;
+    width: 100%;
+  }
+
+  pre {
+    margin-top: 1.25rem;
+  }
+
+  blockquote {
+    padding: 1rem 0 1rem 2rem;
+    position: relative;
+
+    &::before {
+      width: 0.5rem; height: 100%;
+      top: 0; left: 0;
+
+      background-image: linear-gradient(250deg, var(--lbry-teal-2), var(--lbry-blue-3) 100%);
+      content: "";
+      position: absolute;
+    }
+  }
+
+  a {
+    &:not([class^=button]) {
+      transition: color 0.2s;
+
+      &:not(:hover) {
+        color: var(--lbry-teal-5);
+      }
+
+      &:hover {
+        color: var(--lbry-teal-3);
+      }
+    }
+
+    &[class^=button] {
+      font-size: 1rem;
+    }
+  }
+
+  figure {
+    margin-bottom: 2rem; padding-top: 1rem;
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    img {
+      width: 100%; height: 100%;
+      min-width: 12rem; min-height: 12rem;
+
+      margin-bottom: 1rem;
+      object-fit: contain;
+
+      &:not(.tall) {
+        max-height: 25rem;
+      }
+
+      &.tall {
+        max-height: 50rem;
+      }
+    }
+  }
+
+  figcaption {
+    font-size: 0.8rem;
+    font-style: italic;
+    line-height: 1.33;
+    text-align: center;
+    width: 80%;
+  }
+
+  footer {
+    font-size: 0.8rem;
+    line-height: 1.33;
+  }
+
+  table {
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+
+    ul {
+      margin: 0 !important; padding: 0 !important;
+
+      li {
+        margin: 0 !important; padding: 0 !important;
+      }
+    }
+  }
+
+  video {
+    + p {
+      margin-top: 1.25rem;
+    }
+  }
+
+  .button {
+    + h2,
+    + h3 { // join-us page
+      padding-top: 3.25rem;
+    }
+  }
+}
