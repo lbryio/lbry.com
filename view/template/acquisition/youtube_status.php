@@ -138,7 +138,10 @@
         <fieldset>
           <legend>Confirm your preferences</legend>
 
-          <p <?php echo $statusData['has_verified_email'] ? "hidden" : "" ?> class="error-block">
+          <p <?php echo $statusData['email']==="" ? "" : "hidden" ?> class="error-block">
+            You need to provide an email
+          </p>
+          <p <?php echo ($statusData['has_verified_email']===false && $statusData['email']!=="") ? "" : "hidden"?> class="error-block">
             You need to verify your email
           </p>
 
