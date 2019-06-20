@@ -182,7 +182,7 @@
             />
 
             <label for="sync_consent" <?php echo !$statusData['has_verified_email'] ? "hidden" : "" ?>>
-              I want to sync my content to the LBRY network and agree to <a href="/faq/youtube-terms" target="_blank">these terms</a>
+              I want to sync my content to the LBRY network and agree to <a href="/faq/youtube-terms" target="_blank">these terms</a>. I have also read and understand <a href="/faq/youtube" target="_blank">how the program works</a>.
               <p hidden id="sync-consent-error" class="error">In order to continue, you must agree to sync.</p>
             </label>
             <checkbox-toggle/>
