@@ -54,7 +54,7 @@ LBRY supports several types of URL resolution:
 
 4. **Names are more like search terms.** When a user searches the LBRY network, or a recommendation engine suggests content, all valid claims are considered. Not having the community URL for your content does not mean no one will see it. Many different pieces of content under the same name can be displayed when users look for content on the network.
 
-For more details on claims, please see /faq/claimtrie-implementation
+For more details on claims, please see the [claimtrie implementation](https://lbry.tech/spec#claimtrie)
 
 ### Experimentation
 
