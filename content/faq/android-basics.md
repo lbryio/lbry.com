@@ -14,13 +14,17 @@ The purpose of this FAQ is to answer questions about some of the basic functiona
 
 Emails are collected to authenticate and [uniquely identify](/faq/phone) users so that they can be eligible for [LBRY Rewards](#rewards), sync subscription data and to stay up to date on the latest LBRY happenings.
 
-No other data is stored with your email login. All other data, including your [wallet](#wallet), [downloads](#data) and published content are stored [locally on your device](/faq/lbry-directories#android).
+No other data is stored with your email login. All other data, including your [wallet](#wallet), [downloads](#data) and published content are stored [locally on your device](/faq/lbry-directories#android).  You will be asked to create a [password to secure your account](https://lbry.com/faq/how-to-backup-wallet#sync).
 
 ### How Do I Change My LBRY Connected Email?
 
 If you ever need to change your LBRY Android App email address or sign out, please see [this guide](/faq/how-to-change-email#android). Clearing data or uninstalling leads to a loss of wallet currently, please [backup your wallet data](/faq/how-to-backup-wallet#android).
 
 If you sign into a new email and need to transfer your verification status, you'll need to [reach out to us](mailto:help@lbry.com) in order to link your accounts. Please do not verify again to obtain rewards on a 2nd account; your Rewards account may be disabled for abuse.
+
+### Syncing of Accounts
+
+The Android app allow syncing of your account/wallet and secures it with a password. Please read the [wallet FAQ](https://lbry.com/faq/how-to-backup-wallet#sync) in more detail to understand how this works. 
 
 ### What If I Want To Run LBRY On Multiple Android Devices?
 
@@ -39,7 +43,7 @@ In order to be eligible for Rewards, you need to verify your identity [phone num
 A wallet is a secure digital file used to store, send and receive cryptocurrencies like LBRY Credits (LBC).
 The LBRY Android App comes with its own wallet and is stored locally on your phone and nowhere else!
 
-**It is critical that you [backup your wallet data](/faq/how-to-backup-wallet#android) in case you lose access to your phone or need to [migrate](/faq/backup-data) to a new one.**
+If you do not opt for the [wallet sync program](https://lbry.com/faq/how-to-backup-wallet#sync), it is critical that you backup your own wallet locally or else the credits will be lost. 
 
 To find your wallet in the LBRY Android app, click on the 3 horizontal bars at the upper left side of the app next to `Discovery`. Clicking on it will open a sidebar and then click on Wallet. This will open the Wallet page which shows your wallet address, balance and recent transactions.
 
