@@ -7,7 +7,7 @@ order: 4
 **Moving your channel onto LBRY**
 
 
-***Service Announcement: Our queue is a bit behind at the moment, so please bear with us! You'll receive an email once your sync is complete. Content will be out of order, this will be fixed with our next app release in a couple of weeks. If you qualify for a reward (over 1K subs, you'll be able to claim this in the app. Please continue reading below...***
+***Service Announcement: Our queue is a bit behind at the moment, so please bear with us! You'll receive an email once your sync is complete. Content will be out of order, this will be fixed with our next app release in a couple of weeks. If you qualify for a reward (over 1K subs, have recently posted content), you'll be able to claim this in the app. Please continue reading below...***
 
 
 LBRY offers an easy way for YouTubers to sync their content to the LBRY network, engage with LBRY users, and earn LBC. This is intended for content creators that aren't quite ready to make the switch over to using the LBRY app at this time, and want us to keep their YouTube channel updated on LBRY. Not all channels qualify for the YouTube sync / rewards program, but users can always [upload the content themselves](https://lbry.com/faq/how-to-publish) through the LBRY app instead. 
