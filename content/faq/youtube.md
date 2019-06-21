@@ -6,11 +6,15 @@ order: 4
 
 **Moving your channel onto LBRY**
 
+
+***Service Announcement: Our queue is a bit behind at the moment, so please bear with us! You'll receive an email once your sync is complete. Content will be out of order, this will be fixed with our next app release in a couple of weeks. If you qualify for a reward (over 1K subs, you'll be able to claim this in the app. Please continue reading below...***
+
+
 LBRY offers an easy way for YouTubers to sync their content to the LBRY network, engage with LBRY users, and earn LBC. This is intended for content creators that aren't quite ready to make the switch over to using the LBRY app at this time, and want us to keep their YouTube channel updated on LBRY. Not all channels qualify for the YouTube sync / rewards program, but users can always [upload the content themselves](https://lbry.com/faq/how-to-publish) through the LBRY app instead. 
 
 To sync your existing channel to LBRY and learn more about the program, use the [LBRY.io YouTube Sync page](/youtube).
 
-***Please note: you won't see your content in the LBRY app under `Publishes` nor have access to the channel (i.e. if you want to experiment with publishing, create a local test channel under a different name) until LBRY transfers over the synced content. An automated process for this is being actively worked on and will be ready by the end of the Summer. However, the content will be accessible through the LBRY Desktop app, https://beta.lbry.tv and spee.ch (see links in your sync email). You also won't be able to claim the Publisher/Identity rewards until the transfer is complete. We will be updating channel pages from your YouTube profile in the coming weeks. Thank you for your patience and understanding!***
+***IMPORTANT NOTICE: you won't see your content in the LBRY app under `Publishes` nor have access to the channel (if you want to experiment with publishing, create a local test channel under a different name) until LBRY transfers over the synced content. An automated process for this is being actively worked on and will be ready by the end of the Summer. However, the content will be accessible through the LBRY Desktop app, https://beta.lbry.tv, and spee.ch (see links in your sync email). You also won't be able to claim the Publisher/Identity rewards until the transfer is complete. We will be updating channel pages from your YouTube profile in the coming weeks. Thank you for your patience and understanding!***
 
 Authenticating your YouTube channel and other information puts your content into a queue to be automatically mirrored on the LBRY network. This serves as an alternative to moving your entire channel by yourself. The content, its title and description, as well as thumbnails and other metadata, will sync to your channel name. When it is done, you will receive a notice from LBRY indicating your channel is available to view.
 
