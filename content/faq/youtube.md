@@ -22,7 +22,7 @@ There is a size limit per video of 2GB. There is a total count limit of your mos
 
 When you sync your channel, you are also eligible to receive LBRY Credits in our Partner Program based on your subscriber count. Receiving these credits is subject to a one-year agreement. The exact agreement you make when you sync can be seen [here](/faq/youtube-terms). The current rewards for syncing can be seen on the [sync page](/youtube).
 
-The sync process stores your wallet in a secure location, as you may not have the LBRY app installed already. If you are comfortable with [swapping out wallet files](/faq/how-to-backup-wallet), we can work with you to transfer your synced wallet as part of a manual process. Typically, we recommend waiting until we an automated solution for transferring this data to you via the app. Please reach out to [help@lbry.com](mailto:help@lbry.com) if you have any questions about this process.
+The sync process stores your wallet in a secure location, as you may not have the LBRY app installed already. If you are comfortable with [swapping out wallet files](/faq/how-to-backup-wallet), we can work with you to transfer your synced wallet as part of a manual process. Typically, we recommend waiting until we have an automated solution for transferring this data to you via the app. Please reach out to [help@lbry.com](mailto:help@lbry.com) if you have any questions about this process.
 
 **How to Receive Your LBRY Credits**
 
