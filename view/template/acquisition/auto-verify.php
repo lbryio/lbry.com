@@ -76,7 +76,7 @@
 
           <div style="display: none; margin-top: 10px;" id="verify-error">
             <code id="verify-error-text"></code>
-            <p style="margin-top: 10px">There was an error. Please make sure you are clicking the latest verification email and try again. Contact help@lbry.com if this keeps happening.</p>
+            <p style="margin-top: 10px">There was an error, try again. Please make sure you are clicking the latest verification email. You can also resend the verification from your app, and click on that new email. Contact help@lbry.com if this keeps happening.</p>
           </div>
 
           <div style="display: none; margin-top: 10px;" id="verify-success">
