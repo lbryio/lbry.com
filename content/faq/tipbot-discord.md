@@ -8,7 +8,7 @@ order: 1
 
 Tips, in LBRY Credits (LBC), are an integral part of our community because they allow us to reward members for their contributions - whether that's for sharing something insightful, providing feedback, completing bounties, testing our various apps or helping promote LBRY's vision and technology. You can earn them, share, or transfer them via simple commands on the Discord server by interacting with the tipbot.
 
-It is important to note that the LBC stored as a result of a tip is tied to your Discord account username and are stored on LBRY's wallet server. It is your responsibility to withdraw the tips to your LBRY app or to another third-party wallet like [Coinomi](https://play.google.com/store/apps/details?id=com.coinomi.wallet). If you plan on storing LBC on the Discord server, it is a good idea to enable Two Factor Authentication (2FA) on your account. LBRY takes no responsibility for lost funds due to negligence.
+It is important to note that the LBC stored as a result of a tip is tied to your Discord account username and are stored on LBRY's wallet server. **This will not sync with your app wallet.** It is your responsibility to withdraw the tips to your LBRY app or to another third-party wallet like [Coinomi](https://play.google.com/store/apps/details?id=com.coinomi.wallet). If you plan on storing LBC on the Discord server, it is a good idea to enable Two Factor Authentication (2FA) on your account. LBRY takes no responsibility for lost funds due to negligence.
 
 Use the following commands to make amazing things happen. We recommend running them in the `#bot-sandbox` channel, unless you are tipping someone!
 
