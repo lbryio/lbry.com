@@ -6,7 +6,7 @@ order: 1
 
 LBRY is a free, open, and community-driven digital marketplace that enables content sharing, monetization, discovery and consumption. Publishing in LBRY is the process of sharing your content on the network. You have the ability to set the price per view (can be free too) which is paid directly to you. This process involves making a "claim" in the LBRY blockchain which will be used to retrieve the content via a URL. Content can either be published anonymously or to a particular channel/identity which groups content in a single location. Both channels and claims require a deposit (bid) of LBRY Credits (LBC) in order to reserve their location on the LBRY network. This deposit will be deducted from your balance as long as the claim is active. See our [naming](/faq/naming) and [transaction](/faq/transaction-types) documentation for more information about claims, bids and transactions.
 
-Want to get your content featured on the Discover page? Check out [Community top bids](/faq/community-top-bid).
+**Please note: It's not possible to edit your channel page yet via the App, this will be coming in a future release. It is possible via the [SDK/CLI](https://lbry.com/faq/how-to-cli) and [channel_update command](https://lbry.tech/api/sdk#channel_update)***
 
 If you don't have LBRY yet, download it [here](/get).
 
