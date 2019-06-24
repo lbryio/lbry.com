@@ -12,7 +12,7 @@ order: 4
 
 LBRY offers an easy way for YouTubers to sync their content to the LBRY network, engage with LBRY users, and earn LBC. This is intended for content creators that aren't quite ready to make the switch over to using the LBRY app at this time, and want us to keep their YouTube channel updated on LBRY. Not all channels qualify for the YouTube sync / rewards program, but users can always [upload the content themselves](https://lbry.com/faq/how-to-publish) through the LBRY app instead. 
 
-To sync your existing channel to LBRY and learn more about the program, use the [LBRY.io YouTube Sync page](/youtube).
+To sync your existing channel to LBRY and learn more about the program, use the [LBRY.com YouTube Sync page](/youtube).
 
 ***IMPORTANT NOTICE: you won't see your content in the LBRY app under `Publishes` nor have access to the channel until LBRY transfers over the synced content (transferred does not mean synced) - an automated process for this is being actively worked on and will be ready by the end of the Summer. However, the content will be accessible through the LBRY Desktop app, https://beta.lbry.tv, and spee.ch (see links in your sync email). You also won't be able to claim the Publisher/Identity rewards until the transfer is complete. If you want to experiment with publishing, create a local test channel under a different nameWe will be updating channel pages from your YouTube profile in the coming weeks. Thank you for your patience and understanding!***
 
