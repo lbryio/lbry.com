@@ -101,7 +101,7 @@
                   echo __("The content is in your control!");
                   break;
                 case "abandoned":
-                  echo __("Cannot sync anymore!");
+                  echo __("Does not qualify or cannot sync anymore!");
                   break;
                 default:
                   echo __("—");
