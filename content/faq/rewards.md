@@ -3,7 +3,7 @@ title: What are LBRY Rewards?
 category: getstarted
 ---
 
-To provide a rich user experience and to [distribute](/faq/credit-policy) LBRY Credits (LBC) into the hands of new and returning users, LBRY created a Rewards system where credits are earned by completing tasks throughout the application. Rewards are given to promote application testing, learning certain in-app skills, building the LBRY economy through purchasing and publishing content, and as a small "thank you" gift for being part of a revolutionary digital media platform. For qualified users, Rewards are issued automatically by the LBRY app into each users' [LBRY wallet](/faq/how-to-backup-wallet). **Note: There is a limit of 3 Reward redemptions per day**.
+To provide a rich user experience and to [distribute](/faq/credit-policy) LBRY Credits (LBC) into the hands of new and returning users, LBRY created a Rewards system where credits are earned by completing tasks throughout the application. Rewards are given to promote application testing, learning certain in-app skills, building the LBRY economy through purchasing and publishing content, and as a small **"THANKS YOU"** gift for being part of a revolutionary digital media platform. For qualified users, Rewards are issued automatically by the LBRY app into each users [LBRY wallet](/faq/how-to-backup-wallet). **Note: There is a limit of 3 Reward redemptions per day**.
 
 ![rewards2](https://spee.ch/@clement:e/new-rewards.png)
 
