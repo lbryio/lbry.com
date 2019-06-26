@@ -153,7 +153,7 @@
                 placeholder="@YourPreferredChannelName"
                 value="<?php echo $statusData['lbry_channel_name']; ?>" <?php echo $statusData['editable'] ? "" : "disabled" ?>
               />
-              <div hidden id="channel-name-error" class="error">Channel is invalid or blank (only letters, numbers and - allowed)</div>
+              <div hidden id="channel-name-error" class="error">Channel is invalid or blank (only letters, numbers and - allowed, no spaces)</div>
             </fieldset-section>
 
             <fieldset-section>
