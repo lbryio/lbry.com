@@ -47,7 +47,7 @@
         if ($error_message): echo "<p class='error-block'>" . "The following error occurred: ". $error_message  . " For support please send an email to <a href='mailto:hello@lbry.com' title='Email LBRY for help'>hello@lbry.com</a>." . "</p>";
       endif;?>
 
-      <p hidden id="lbry_error" class="error-block">LBRY channel name is either not valid (only letters, numbers and - allowed) or your input is blank</p>
+      <p hidden id="lbry_error" class="error-block">LBRY channel name is either not valid (only letters, numbers and - allowed, no spaces) or your input is blank</p>
 
       <h2>Connect with your fans while earning money and rewards</h2>
 
