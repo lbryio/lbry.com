@@ -10,6 +10,12 @@ The app runs on top of the [LBRY protocol](/faq/what-is-lbry) which is a peer-to
 
 The purpose of this FAQ is to answer questions about some of the basic functionality available in the LBRY Android App. Please see our [other FAQ entries](/faq) for additional information.
 
+**Important notes:** 
+
+1. We are aware of issues with playing videos on some mobile networks. You can try on wifi, or use [https://beta.lbry.tv](https://beta.lbry.tv) for now**
+
+2. If you are getting stuck at the loading screen, try uninstalling/reinstalling the Android app. 
+
 ### Why Does LBRY Want My Email Address?
 
 Emails are collected to authenticate and [uniquely identify](/faq/phone) users so that they can be eligible for [LBRY Rewards](#rewards), sync subscription data and to stay up to date on the latest LBRY happenings.
