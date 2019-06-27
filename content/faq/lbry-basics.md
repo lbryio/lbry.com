@@ -16,6 +16,8 @@ The purpose of this FAQ is to answer questions about some of the basic functiona
 
 3. There is no way in the app to edit your channel page yet, coming soon!
 
+4. There is no automated process of syncing wallets across devices, will be coming later this year. Can be done [manually at the moment](https://lbry.com/faq/how-to-backup-wallet).
+
 ### What is the purpose of having my email connected to LBRY?
 Emails are collected to authenticate and [uniquely identify](/faq/identity-requirements) users so that they can be eligible for [LBRY Rewards](#rewards), sync subscription data and to stay up to date on the latest LBRY happenings. No other data is stored with your email login. All other data, including your [wallet](#wallet), [downloads](#data) and published content are stored locally on your computer. You can find your connected email by going to Settings (gear icon in the top right) > Help > Connected email.
 
