@@ -34,4 +34,13 @@ You can do this once your channel has been synced.
 - Scroll to the "YouTube Reward" tile and click Get XXXX LBC.
 - If you met a particular subscriber threshold (minimum 1K subs, 10 videos), you should receive the appropriate amount of credits.
 
+### I created a channel and/or published on my LBRY app, what do I do now?
+
+You can delete this channel and any content you published using the transactions page and trash can icons. Unless you plan to experiment with a different channel name in the meantime, please be patient until the channel is transferred to you (see above notice for timing information). 
+
+### How do I Publish using my Channel?
+
+You won't see your content in the LBRY app under `Publishes` nor have control of the channel until LBRY transfers control of the synced content to you. We're actively working on an automated process for this which will be ready by the end of the northern hemisphere summer. However, your content will be accessible through the LBRY Desktop app and [LBRY.tv](https://beta.lbry.tv) (see the links in your sync email).
+
+
 If you're having any trouble with the sync process or receiving your credits, please contact [help@lbry.com](mailto:help@lbry.com).
