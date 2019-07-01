@@ -17,7 +17,7 @@ To sync your existing channel to LBRY and learn more about the program, use the 
 ### Authenticating with your YouTube Account and Sync Details
 Authenticating your YouTube channel and other information puts your content into a queue to be automatically mirrored on the LBRY network. This serves as an alternative to re-publishing your entire channel by yourself. The content, its title and description, as well as thumbnails and other metadata, will sync to your channel name. When it is done, you will receive a notice from LBRY indicating your channel is available to view.
 
-There is a size limit per video of 2GB. There is a total count limit of your most recent 1,000 videos. What this means, if that isn't clear, is that your most recent 1,000 videos that are smaller than (or equal to) 2GB in size will be synced to LBRY.
+There is a size limit per video of 2GB. There is a total count limit of your most recent 1,000 videos. What this means, if that isn't clear, is that your most recent 1,000 videos that are smaller than (or equal to) 2GB in size will be synced to LBRY. **Content that's marked as potential copyright violations by YouTube also will not be synced**
 
 When you sync your channel, you are also eligible to receive LBRY Credits in our Partner Program based on your subscriber count. Receiving these credits is subject to a one-year agreement. The exact agreement you make when you sync can be seen [here](/faq/youtube-terms). The current rewards for syncing can be seen on the [sync page](/youtube).
 
@@ -41,6 +41,10 @@ You can delete this channel and any content you published using the transactions
 ### How do I Publish using my Channel?
 
 You won't see your content in the LBRY app under `Publishes` nor have control of the channel until LBRY transfers control of the synced content to you. We're actively working on an automated process for this which will be ready by the end of the northern hemisphere summer. However, your content will be accessible through the LBRY Desktop app and [LBRY.tv](https://beta.lbry.tv) (see the links in your sync email).
+
+### What's the difference between Sync and Transfer?
+
+When a channel is synced, it means the content has been mirrored to LBRY and available on the network for anyone to view. YouTubers will get an email once this is completed. The transfer process is described in the important notice above, which is the final step of sending the channel and content to the YouTuber's wallet so they can publish/control the content. This last step is still being actively developed and we'll let you know via email once the content is ready to be transferred. Until then, you won't see the channel/content in your Publishes section, nor be able to publish as that channel outside of the YouTube sync process. 
 
 
 If you're having any trouble with the sync process or receiving your credits, please contact [help@lbry.com](mailto:help@lbry.com).
