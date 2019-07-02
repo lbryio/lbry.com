@@ -7,7 +7,7 @@ cover: 'jingle-banner.PNG'
 
 Another month, another holiday. And not just any holiday... this one has theme songs.
 
-So, to expand your Christmas music palette, we bring you: [*Jingle Bell Rocks*](https://open.lbry.io/jinglebellrocks).
+So, to expand your Christmas music palette, we bring you: [*Jingle Bell Rocks*](https://open.lbry.com/jinglebellrocks).
 
 The seedy underbelly of the Christmas music world is your ticket to freedom from dreadful, ear-splitting Christmas tropes of old. You don't have to suffer! There is a better song out there!
 
@@ -26,16 +26,16 @@ The seedy underbelly of the Christmas music world is your ticket to freedom from
 > -[William Brownridge,Toronto Film Scene](http://thetfs.ca/2013/12/05/review-jingle-bell-rocks)
 
 **Check out the rest of the LBRY film playlist**
-- [*The Internet's Own Boy*](https://open.lbry.io/theinternetsownboy)
-- [*Coherence*](https://open.lbry.io/coherence)
-- [*It's A Disaster*](https://open.lbry.io/itsadisaster)
-- [*Bellflower*](https://open.lbry.io/bellfower)
-- [*TPB AFK: The Pirate Bay Away from Keyboard*](https://open.lbry.io/tpbafk)
-- [*S&M Lawn Care*](https://open.lbry.io/smlawncare)
-- [*Cinema Six*](https://open.lbry.io/cinemasix)
-- [*Jingle Bell Rocks*](https://open.lbry.io/jinglebellrocks)
+- [*The Internet's Own Boy*](https://open.lbry.com/theinternetsownboy)
+- [*Coherence*](https://open.lbry.com/coherence)
+- [*It's A Disaster*](https://open.lbry.com/itsadisaster)
+- [*Bellflower*](https://open.lbry.com/bellfower)
+- [*TPB AFK: The Pirate Bay Away from Keyboard*](https://open.lbry.com/tpbafk)
+- [*S&M Lawn Care*](https://open.lbry.com/smlawncare)
+- [*Cinema Six*](https://open.lbry.com/cinemasix)
+- [*Jingle Bell Rocks*](https://open.lbry.com/jinglebellrocks)
 
 **About Oscilloscope Laboratories**
 Oscilloscope has released academy award nominated films such as [*After Tiller*](https://www.rottentomatoes.com/m/after_tiller_2013) and Banksy's documentary [*Exit Through the Gift Shop*](https://www.rottentomatoes.com/m/exit_through_the_gift_shop), off-beat indies like James Franco's [*Howl*](https://www.rottentomatoes.com/m/1211483-howl) and new cult favorites like [*Girl Asleep*](https://www.rottentomatoes.com/m/girl_asleep_2016) and [*The Fits*](https://www.rottentomatoes.com/m/the_fits_2016)
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Do you make great movies? Email [reilly@lbry.io](mailto:reilly@lbry.io) for some red carpet treatment, LBRY style.
+**Not on LBRY yet?** [Get an invite here](https://lbry.com/get). Do you make great movies? Email [reilly@lbry.com](mailto:reilly@lbry.com) for some red carpet treatment, LBRY style.
