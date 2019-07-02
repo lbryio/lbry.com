@@ -32,7 +32,7 @@ You can do this once your channel has been synced.
 - Make sure the email saved in the application matches the email address on your [Sync Status Page](/youtube/status) - you can update this and make sure to verify via the email you receive (the email may not update but it will link together)
 - Click on the **Rewards** option from under Account in the sidebar. 
 - Scroll to the "YouTube Reward" tile and click Get XXXX LBC.
-- If you met a particular subscriber threshold (minimum 1K subs, 10 videos), you should receive the appropriate amount of credits.
+- If you met a particular subscriber threshold (minimum 1K subs, 10 videos, and recent content), you should receive the appropriate amount of credits.
 
 ### I created a channel and/or published on my LBRY app, what do I do now?
 
