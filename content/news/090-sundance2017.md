@@ -13,7 +13,7 @@ You know it as the Sundance Film Festival. It has given a voice to many young fi
 
 Luckily, we have LBRY, which is way cheaper than booking a hotel in Park City.
 
-[Our October film BELLFLOWER](https://lbry.io/news/bellflower-movie), from Oscilloscope Labs, had its 2011 debut at Sundance. (Watch it at lbry://bellflower) In fact, the O-scope crew is probably walking into the next great LBRY gem right this moment at [the Egyptian](https://www.visitparkcity.com/listing/egyptian-theatre/15000)...
+[Our October film BELLFLOWER](https://lbry.com/news/bellflower-movie), from Oscilloscope Labs, had its 2011 debut at Sundance. (Watch it at lbry://bellflower) In fact, the O-scope crew is probably walking into the next great LBRY gem right this moment at [the Egyptian](https://www.visitparkcity.com/listing/egyptian-theatre/15000)...
 
 A year after BELLFLOWER, yours truly (read: me) attended Sundance for the first time...
 
@@ -23,6 +23,6 @@ A year after BELLFLOWER, yours truly (read: me) attended Sundance for the first 
 
 This little six-minute gem directed by Kat Candler went on to play 40 film festivals and two years later was adapted into a [feature film starring Aaron Paul and Juliette Lewis](http://www.imdb.com/title/tt3186318). See it at lbry://hellion
 
-Without *Hellion* and our [November film *Cinema Six*](https://lbry.io/news/singletree), I would not be here today with LBRY. So here's to keeping the dream of great indie film alive.
+Without *Hellion* and our [November film *Cinema Six*](https://lbry.com/news/singletree), I would not be here today with LBRY. So here's to keeping the dream of great indie film alive.
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Or if you're a creator, skip the wait and email [reilly@lbry.io](mailto:reilly@lbry.io).
+**Not on LBRY yet?** [Get an invite here](https://lbry.com/get). Or if you're a creator, skip the wait and email [reilly@lbry.com](mailto:reilly@lbry.com).
