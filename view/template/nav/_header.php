@@ -79,7 +79,7 @@
           <drawer-wrap>
             <drawer-children>
               <drawer-child>
-                <a href="/get">
+                <a href="/publish">
                   <strong>Publish to LBRY</strong>
                   <span>Make your content available to everyone using LBRY</span>
                 </a>

@@ -10,14 +10,45 @@
 
   <section>
     <div class="inner-wrap">
-      <h2 id="">Our two-minute proposal</h2>
-      <p>Quite frankly, we're a breath of fresh air. Why <em>not</em> try LBRY and see if it works (for you)?</p>
+      <div class="inline-image-and-text">
+        <img
+          alt="two-minute proposal"
+          class="inline-image"
+          src="/img/icon--clock.svg"
+        />
 
-      <p>You might've done some research and rolled your eyes because we're yet <em>another</em> startup using Blockchain&trade; within our tech stack. Why should you care about that? Well, <strong>utilizing a blockchain allows us to be censorship resistant</strong>.</p>
+        <p>What follows is our <strong>two-minute proposal</strong>. Quite frankly, we're a breath of fresh air. Why <em>not</em> try LBRY and see if it works (for you)?</p>
+      </div>
 
-      <p>The benefits of blockchain + the freedom to be yourself. No middleman required.</p>
+      <div class="inline-image-and-text">
+        <p>You might've done some research and rolled your eyes because we're yet <em>another</em> startup using Blockchain&trade; within our tech stack. Why should you care about that? Well, <strong>utilizing a blockchain allows us to be censorship resistant</strong>.</p>
 
-      <p>As long as servers exist, so will your content. So, <em>forever</em>. The only thing you have to worry about is content creation and making your fans happy.</p>
+        <img
+          alt="censorship resistant"
+          class="inline-image"
+          src="/img/icon--cctv.svg"
+        />
+      </div>
+
+      <div class="inline-image-and-text">
+        <img
+          alt="open-source"
+          class="inline-image"
+          src="/img/icon--fork.svg"
+        />
+
+        <p>The benefits of blockchain + the freedom to be yourself. No middleman required. Honest! <strong>Our tech is open-source</strong> so if you want to self-host, you can easily do so.</p>
+      </div>
+
+      <div class="inline-image-and-text">
+        <p>As long as servers exist, so will your content. So, <em>forever</em>. The only thing you have to worry about is content creation and keeping your fans happy.</p>
+
+        <img
+          alt="keep your fans happy"
+          class="inline-image"
+          src="/img/icon--smile.svg"
+        />
+      </div>
 
       <figure>
         <img alt="Yerbil loves you. Love the yerbil." src="/img/gerbil-happy.png"/>

@@ -1,0 +1,20 @@
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient fy="0" gradientTransform="rotate(60 0.5 0.5)" id="gradient">
+      <stop offset="0" stop-color="#60e1ba"></stop>
+      <stop offset="0" stop-color="#339af0">
+        <animate
+          attributeName="offset"
+          dur="25s"
+          from="0"
+          repeatCount="indefinite"
+          to="1"
+          values="0;0;1;1;0"
+        />
+      </stop>
+      <stop offset="1" stop-color="#60e1ba"/>
+    </linearGradient>
+  </defs>
+
+  <path d="m17 15.012v1.988h-3.08l-4.286-5 4.286-5h3.08v1.988c0 .9 1.185 1.35 1.878.714l5.122-4.702-5.122-4.702c-.693-.636-1.878-.186-1.878.714v1.988h-4.92l-6 7h-4.08c-1.105 0-2 .895-2 2 0 1.104.895 2 2 2h4.08l6 7h4.92v1.988c0 .9 1.185 1.35 1.878.714l5.122-4.702-5.122-4.702c-.693-.636-1.878-.186-1.878.714z" fill="url(#gradient)"/>
+</svg>
