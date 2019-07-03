@@ -1,4 +1,6 @@
 .ancillary {
+  font-size: 1.25rem;
+
   blockquote,
   iframe {
     margin-bottom: 1.25rem;
@@ -110,7 +112,7 @@
       list-style-position: inherit;
 
       &:not(:first-of-type) {
-        padding-top: 0.5rem;
+        margin-top: 0.5rem;
       }
 
       &:not(:last-of-type) {
@@ -284,5 +286,23 @@
     + h3 { // join-us page
       padding-top: 3.25rem;
     }
+  }
+
+  .inline-image-and-text {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+
+    > *:not(.inline-image) {
+      flex: 1;
+      padding-right: 1rem;
+      padding-left: 1rem;
+    }
+  }
+
+  .inline-image {
+    width: 5rem; height: 5rem;
+    margin: 0; padding: 1rem;
   }
 }
