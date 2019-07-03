@@ -50,10 +50,17 @@
         />
       </div>
 
-      <figure>
-        <img alt="Yerbil loves you. Love the yerbil." src="/img/gerbil-happy.png"/>
-        <figcaption>Yerbil tax</figcaption>
-      </figure>
+      <hr/>
+
+      <div style="margin-top: 2rem; margin-bottom: 3rem; text-align: center;">
+        <p>LBRY was created for and <em>continues</em> to be created for you, the creator.<br/>If this sounds good to you, download our app!</p>
+
+        <a
+          class="button button--primary"
+          href="/get"
+          title="Download our app"
+        >Get LBRY</a>
+      </div>
     </div>
   </section>
 </main>
