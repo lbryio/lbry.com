@@ -5,7 +5,7 @@ date: '2017-02-23 00:20:00'
 cover: 'timcast-banner.jpg'
 ---
 
-You got your daily news fix with [1791L](https://lbry.io/news/1791l).
+You got your daily news fix with [1791L](https://lbry.com/news/1791l).
 
 But what if you were even closer to the action? What if, instead of spitballing in well-lit newsrooms on comfy couches, LBRY could bring back the journalism of yesterday, right from the field?
 
@@ -19,4 +19,4 @@ Start following his coverage of Sweden's crime issues at `lbry://timcast-sweden-
 
 Tim Pool's work has been syndicated by NBC, Al Jazeera, VICE, Fusion TV, RT and Time.
 
-**Not on LBRY yet?** [Get an invite here](https://lbry.io/get). Have news you want to share uncensored on LBRY? Email [reilly@lbry.io](mailto:reilly@lbry.io) to get to the bottom of the story.
+**Not on LBRY yet?** [Get an invite here](https://lbry.com/get). Have news you want to share uncensored on LBRY? Email [reilly@lbry.com](mailto:reilly@lbry.com) to get to the bottom of the story.
