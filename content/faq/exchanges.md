@@ -11,7 +11,6 @@ We are listed on several exchanges. You can buy or sell LBRY Credits at one of t
 - [Upbit](https://upbit.com/exchange?code=CRIX.UPBIT.BTC-LBC)
 - [Instant Bitex](https://instantbitex.com)
 - [Coinspot](https://www.coinspot.com.au/buy/lbc)
-- [Trade by Trade](https://app.tradebytrade.com/exchange-one)
 - [Coindeal](https://frontend.coindeal.com/market/trade.html?pair=LBC/BTC)
 
 ### Instant Exchanges
