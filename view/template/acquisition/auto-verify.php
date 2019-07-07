@@ -80,7 +80,7 @@
           </div>
 
           <div style="display: none; margin-top: 10px;" id="verify-success">
-            <p class="spacer1">Success! Your email is now verified.</p>
+            <p class="spacer1">Success! Your email is now verified. Please switch back to the application or site you started verification.</p>
           </div>
         </div>
       </section>
