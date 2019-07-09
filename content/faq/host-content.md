@@ -3,7 +3,7 @@ title: How does content hosting work?
 category: getstarted
 ---
 
-Right now, it's simple: you host what you download.
+Right now, it's simple: you host what you download. The hosted data is stored in the [lbrynet/blob files folder](https://lbry.com/faq/lbry-directories)
 
 While the LBRY app is running, it communicates to the network whatever content you're making available.
 
