@@ -946,7 +946,7 @@ return array (
             'body_html' => '<p>Existing community initiatives have relied too much on LBRY Inc. They do not scale, are resource intensive, require us to pick winners and losers under significant uncertainty, and hinder our ability to get traction internationally or in other areas where we’re less familiar.</p>
 <p>In Q4 2018, the growth team drafted and began implementing a plan to massively scale community efforts. Currently titled the “swarm plan”, it involves appointing and empowering a large number of community members with explicit roles, responsibilities, and budgets. Swarms are community slices aligned along a geographic area or cultural interest.</p>
 <p>Further introduction to this plan is outlined in the <a href="https://docs.google.com/document/d/1mI_wter8A6W9m8dhwJq75_kWaCpEjyoJE_8hoAs4nC0/edit" rel="nofollow">Community @ LBRY</a> internal document.</p>
-<h3>Success (needs help)</h3>
+<h3>Success</h3>
 <ol>
 <li>Launch of lbry.org as a new community hub.</li>
 <li>500,000 swarm members (or people who completed the simplest CTA).</li>
