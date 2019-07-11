@@ -12,9 +12,11 @@ The purpose of this FAQ is to answer questions about some of the basic functiona
 
 **Important notes:** 
 
-1. We are aware of issues with playing videos on some mobile networks. You can try on wifi, or use [https://beta.lbry.tv](https://beta.lbry.tv) for now**
+- We are aware of issues with playing videos on some mobile networks. You can try on wifi, or use [https://beta.lbry.tv](https://beta.lbry.tv) for now**
 
-2. If you are getting stuck at the loading screen, try uninstalling/reinstalling the Android app. 
+- If you are getting stuck at the loading screen, try uninstalling/reinstalling the Android app. 
+
+- Wallets do not sync between Desktop and Mobile yet, see our [wallet sync FAQ](https://lbry.com/faq/how-to-backup-wallet#sync)
 
 ### Why Does LBRY Want My Email Address?
 
