@@ -5,7 +5,9 @@ category: getstarted
 
 LBRY allows you to tip and support your favorite creators.
 
-Tips can be sent via the LBRY app or via the protocol's [`wallet_send`](/api#wallet_send) command (with an associated claim id). These credits are automatically stored as associated with the content owners' claim, which helps the claim perform better in search results and be the winning [vanity name claims](/faq/naming).
+Tips can be sent via the LBRY app or via the protocol's [`support_create`](/api#support_create) command (with an associated claim id and `--tip` parameter). If sent without the `--tip` parameter, this is considered a support that can be redeemed by the person who made it at any time (think of it as a self tip, but helping someone else's content).
+
+These credits are automatically stored as associated with the content owners' claim, which helps the claim perform better in search results, top, and trending calculations. It also helps secure the winning [vanity name claims](/faq/naming).
 
 ### How do I send a tip?
 
@@ -21,7 +23,7 @@ Next, you'll be prompted for the tip amount in LBRY Credits (LBC). Once you ente
 
 When you receive a tip, the credits will come into your wallet, and you can see them in your Transaction History. However, since the credits come in as supporting a claim, they will not show in your available balance.
 
-To have these credits show in your balance, they must be unlocked via the wallet Overview/History page. This is done by clicking the unlock icon next to `Tip` and then confirming your action on the following screen. Once the transaction is finalized, the icon will disappear.
+To have these credits show in your balance, they must be unlocked via the wallet Overview/History page. This is done by clicking the unlock icon next to `Tip` and then confirming your action on the following screen. Once the transaction is finalized, the icon will disappear. This also nullifies any help the support/tip was giving in terms of search results, trending, and top discovery mechanisms. 
 
 Unlock tip: ![Unlock tip](https://spee.ch/@clement:e/tip.png)
 
