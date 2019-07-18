@@ -53,7 +53,7 @@
       </form>
 
       <div class="meta">
-        To learn more about reporting infringing or illegal content and DMCA procedures, please see our <a href="/faq/dmca" class="link-primary">DMCA article</a>.
+        You may also submit content that you want to flag for being illegal. To learn more about reporting infringing or illegal content and DMCA procedures, please see our <a href="/faq/dmca" class="link-primary">DMCA article</a>.
       </div>
     </div>
   </section>
