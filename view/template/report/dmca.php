@@ -3,7 +3,7 @@
 
 <main class="ancillary">
   <section class="hero hero--half-height">
-    <div class="inner-wrap">
+    <div class="inner-wrap inner-wrap--center-hero">
       <h1>{{dmca.header}}</h1>
     </div>
   </section>
@@ -52,9 +52,7 @@
         <input type="submit" value="{{dmca.form_submit}}"/>
       </form>
 
-      <div class="meta">
-        You may also submit content that you want to flag for being illegal. To learn more about reporting infringing or illegal content and DMCA procedures, please see our <a href="/faq/dmca" class="link-primary">DMCA article</a>.
-      </div>
+      <small class="meta">You may also submit content that you want to flag for being illegal. To learn more about reporting infringing or illegal content and DMCA procedures, please see our <a href="/faq/dmca">DMCA article</a>.</small>
     </div>
   </section>
 </main>
