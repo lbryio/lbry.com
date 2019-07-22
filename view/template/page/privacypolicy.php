@@ -211,7 +211,8 @@
         <p>
       </blockquote>
 
-      <small>Last Edited on 2018-04-28</small>
+      <small>Last edited on 2018-04-28</small>
+      <br/><br/><br/>
     </div>
   </section>
 </main>
