@@ -1,5 +1,5 @@
 ---
-title: How does tipping in LBRY work?
+title: How do tipping and supporting in LBRY work?
 category: getstarted
 ---
 
