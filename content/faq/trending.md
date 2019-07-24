@@ -49,7 +49,7 @@ There are two ways to follow channels:
 
 You can also explore each individual tag by clicking on it from anywhere on the screen or using the search function. Once you are on a tag page, you can click the follow button to add it to your customized list of tags. 
 
-[explore](https://spee.ch/c/view-tags.jpeg)
+![explore](https://spee.ch/c/view-tags.jpeg)
 
 ### How Is This Different From YouTube?
 
