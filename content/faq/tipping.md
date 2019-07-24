@@ -5,9 +5,11 @@ category: getstarted
 
 LBRY allows you to tip and support your favorite creators.
 
-Tips can be sent via the LBRY app or via the protocol's [`support_create`](/api#support_create) command (with an associated claim id and `--tip` parameter). If sent without the `--tip` parameter, this is considered a support that can be redeemed by the person who made it at any time (think of it as a self tip, but helping someone else's content).
+Tips can also be sent via the LBRY app or via the protocol's [`support_create`](/api#support_create) command (with an associated claim id and `--tip` parameter). If sent without the `--tip` parameter, this is considered a support that can be redeemed by the person who made it at any time (think of it as a self tip, but helping someone else's content).
 
-These credits are automatically stored as associated with the content owners' claim, which helps the claim perform better in search results, top, and trending calculations. It also helps secure the winning [vanity name claims](/faq/naming).
+These credits are automatically stored as associated with the content owners' claim, which helps the claim perform better in search results, top, and [trending calculations](https://lbry.com/faq/trending). It also helps secure the winning [vanity name claims](/faq/naming).
+
+Version 0.34 of the Desktop application also has a experimental setting for supporting claims without tipping. This means you help the publisher rank up their content, but you can redeem your deposit at anytime. [Learn more below](#supports)
 
 ### How do I send a tip?
 
@@ -28,3 +30,9 @@ To have these credits show in your balance, they must be unlocked via the wallet
 Unlock tip: ![Unlock tip](https://spee.ch/@clement:e/tip.png)
 
 Confirmation box: ![Confirmation box](https://spee.ch/@clement:e/tipconfirm.png)
+
+### How do I send a support? {#supports}
+
+Enable this option on the Settings page (Experimental Options) of the LBRY Desktop app. Then navigate to a page you want to help and click the support button.
+
+![supports](https://spee.ch/c/supports.jpeg)
