@@ -10,6 +10,8 @@ The purpose of this FAQ is to answer questions about some of the basic functiona
 
 **Important notes:**
 
+1. We are aware of issues where many videos require to be downloaded fully before being able to play. You also need to leave and come bac to the page unfortunately. We'll get this fixed in the next week or two. 
+
 1. LBRY currently saves any content you view to disk, see the [explanation below](#disk). You can use [https://beta.lbry.tv](https://beta.lbry.tv) view without saving today.
 
 2. Rewards are completely optional, you can use LBRY without them. You'll need to acquire LBC to publish, but viewing is free.
