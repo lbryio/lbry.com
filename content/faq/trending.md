@@ -55,4 +55,4 @@ You can also explore each individual tag by clicking on it from anywhere on the 
 
 YouTube uses obscured, secret algorithms that are designed to be biased in favor of the mainstream media and other creators they prefer, rather than being neutral to all content ([See Veritasium's take on this](https://beta.lbry.tv/my-video-went-viral-here-s-why/)).
 
-LBRY creates open-source code that allows all of the world to see precisely how our features work. We can then write write articles like this one that try to spell it out in plain language. The source code for the Trending/Top/New functionality is viewable [here](https://github.com/lbryio/lbry-sdk/blob/master/lbry/lbry/wallet/server/db/trending.py). 
+LBRY creates open-source code that allows all of the world to see precisely how our features work. We can then write articles like this one that try to spell it out in plain language. The source code for the Trending/Top/New functionality is viewable [here](https://github.com/lbryio/lbry-sdk/blob/master/lbry/lbry/wallet/server/db/trending.py). 
