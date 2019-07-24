@@ -31,5 +31,5 @@ You may be wondering, “why Erikson?” Leif Erikson was a pioneer and explorer
 Erikson was all about discovery, and so is this update! Just like Leif, we want our users to set sail on the decentralized seas and discover new, exciting ideas and concepts. So open your app and upgrade now, or [head to our website](https://LBRY.com/get) and get started - there’s a whole new world just waiting for you to discover it on LBRY.
 
 ### PS!
-The first 100 users to upgrade can use the code below for a 100LBC reward - so hurry up and start upgrading!
+The first 100 users to upgrade can use the code below for a 50LBC reward - so hurry up and start upgrading!
 * erikson-gh5a67
