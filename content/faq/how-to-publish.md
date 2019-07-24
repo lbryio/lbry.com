@@ -15,18 +15,18 @@ If you don't have LBRY yet, download it [here](/get).
 ### How do I Publish content?
 
 1. Click the `Publish` button in the top right of the screen.
-![Click the Publish Button](https://spee.ch/@clement:e/publish-to-lbry.png)
+![Click the Publish Button](https://spee.ch/7/topps.png)
 
 2. Under the `Content` section, click `Choose File`.
-![Select the Content to Upload](https://spee.ch/@clement:e/choosefile-for-lbry.png)
+![Select the Content to Upload](https://spee.ch/5/publish-form1.png)
 
 3. On your local machine, select the content you wish to upload to LBRY. LBRY accepts any HTML5 format for video streaming; the full list can be found [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats). This means a web-optimized MP4 file is the best format. Other file types can also be uploaded, but won't be streamable via the LBRY app.
 
 4. Enter a `Title` and `Description` for your content.
-![choose title](https://spee.ch/@clement:e/title-description.png)
+![choose title](https://spee.ch/a/titlessss.png)
 
 5. Choose a `Thumbnail` or `Thumbnail URL` for your content. The `Thumbnail URL` is a hyperlink to an image file which will serve as a preview for your content. It can be any image/GIF URL, or you can use [spee.ch](https://www.spee.ch) to host it. The default pixel size is 800x450, but the app will scale it up/down. Images uploaded directly from your local machine as `Thumbnail` will be uploaded to [spee.ch](https://www.spee.ch).
-![Choose the Thumbnail Image](https://spee.ch/@clement:e/thumbnail2.png)
+![Choose the Thumbnail Image](https://spee.ch/5/thumbnaildd.png)
 
 6. Please make sure to check the option for mature audiences if your `Thumbnail` is categorized as NSFW (Not Safe For Work). Otherwise just click "Upload".
 
