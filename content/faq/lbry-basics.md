@@ -14,7 +14,7 @@ The purpose of this FAQ is to answer questions about some of the basic functiona
 
 2. Rewards are completely optional, you can use LBRY without them. You'll need to acquire LBC to publish, but viewing is free.
 
-3. There is no way in the app to edit your channel page yet, coming soon!
+3. To edit any channels you have control over (YouTube syncers may not), go to the Publishes page, then click on your channel. You'll see an edit button next to the channel name. If using spee.ch uploads for thumbnails/covers, make sure to click the upload button after selecting the files.
 
 4. There is no automated process of syncing wallets across devices, will be coming later this year. Can be done [manually at the moment](https://lbry.com/faq/how-to-backup-wallet).
 
