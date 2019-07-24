@@ -29,3 +29,7 @@ And if you’ve ever been confused by the sorting of content on the home page, l
 You may be wondering, “why Erikson?” Leif Erikson was a pioneer and explorer from a family of pioneers and explorers. His father, Erik the Red, was the founder of the first Norse settlement in Greenland (not exactly a hospitable place), and Leif carried on the tradition, pushing ever Westward. Beating Columbus by about 500 years, Erikson was the first European to discover the New World - when he landed on his second expedition and found the land was full of grape vines growing wild, he named it Vinland.
 
 Erikson was all about discovery, and so is this update! Just like Leif, we want our users to set sail on the decentralized seas and discover new, exciting ideas and concepts. So open your app and upgrade now, or [head to our website](https://LBRY.com/get) and get started - there’s a whole new world just waiting for you to discover it on LBRY.
+
+### PS!
+The first 100 users to upgrade can use the code below for a 100LBC reward - so hurry up and start upgrading!
+* erikson-gh5a67
