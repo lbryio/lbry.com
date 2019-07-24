@@ -14,7 +14,7 @@ It’s been a while since you heard from us - but that's because we’ve been ha
 LBRY Erikson makes discovery easier than ever - we’ve introduced a whole new way to navigate the LBRY app. Users can now follow tags based on their interests, and get recommendations based on those tags. You'll notice that the old home page is gone - and that's a good thing! From now on, users will see videos based on what they've said they're interested in.
 
 ## Some Loot For Creators
-And you know what that means - a whole new suite of tools for LBRY’s MVPs, our wonderful creators! Channel owners can now edit their channel through the publish page, and change the cover image, profile image, contact email, channel description, and title. If you have any questions about these new features, check out [our extensive FAQs](https://lbry.com/faq).
+And you know what that means - a whole new suite of tools for LBRY’s MVPs, our wonderful creators! Channel owners can now edit their channel through the "publishes" page, and change the cover image, profile image, contact email, channel description, and title. If you have any questions about these new features, check out [our extensive FAQs](https://lbry.com/faq).
 
 ## We Didn’t Forget About Our Regular Users
 If you’re a regular user who doesn’t upload content and are feeling a little jealous of all the love we’re giving to creators, we have some surprises for you as well! To make your lives a little better, we've:
