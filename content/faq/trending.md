@@ -22,7 +22,7 @@ At the top of your Home area, you can toggle between Trending, Top, and New for 
 | _Top_ | Top shows the content published within the selected period that has received the largest total amount of tips and supports. |
 | _New_ | New shows the newest content by time. |
 
-All of these views work the same whether you are viewing tags you follow, a single tag, channels you follow, or the whole LBRY network.
+All of these views work the same whether you are viewing tags you follow, a single tag, channels you follow, or the whole LBRY network. Each of these views respects your Mature content setting and more options will be provided in a future release to filter out certain channels and tags.
 
 ### How Do I Customize These Views For My Interests?
 
