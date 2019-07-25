@@ -31,7 +31,7 @@
       <h2>Technical</h2>
     </div>
 
-    <?php foreach ([ 'kay-kurokawa', 'jack-robison', 'lex-berezhny', 'akinwale-ariwodola', 'sean-yesmunt', 'niko-storni', 'amit-tulshyan', 'mark-beamer'] as $bioSlug): ?>
+    <?php foreach (['jack-robison', 'lex-berezhny', 'akinwale-ariwodola', 'sean-yesmunt', 'niko-storni', 'amit-tulshyan', 'mark-beamer'] as $bioSlug): ?>
       <?php echo View::render('content/_bio', ['person' => $bioSlug]) ?>
     <?php endforeach ?>
   </section>
@@ -41,7 +41,7 @@
       <h2>Business</h2>
     </div>
 
-    <?php foreach (['josh-finer', 'tom-zarebczan', 'brinck-slattery', 'rob-smith'] as $bioSlug): ?>
+    <?php foreach (['josh-finer', 'tom-zarebczan', 'brinck-slattery'] as $bioSlug): ?>
       <?php echo View::render('content/_bio', ['person' => $bioSlug]) ?>
     <?php endforeach ?>
   </section>
