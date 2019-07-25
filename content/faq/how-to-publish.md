@@ -74,7 +74,7 @@ First, you need to access your channel from your Publishes page by clicking on i
 
 2. You can now upload your thumbnail and cover image to spee.ch using the upload option from the dropdown on the left, or you can use an existing URL. If using spee.ch select the file, then click the upload button. The page will update once a valid URL is available. 
 
-![edit2](https://spee.ch/0/edit-2.jpeg)
+![edit2](https://spee.ch/2/edit-2.jpeg)
 
 3. Add your title, deposit (can stay the same, higher helps with discovery), website, email, description, and tags.
 
