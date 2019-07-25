@@ -19,13 +19,11 @@ Encryption is not required and solely up to the user. We highly recommend it, bu
 
 Encryption can be enabled through the Settings page of the LBRY app. Click the toggle button to begin the process. You will be asked to create a strong wallet password. Enter it twice and confirm your understanding of the warnings. All subsequent LBRY startups will require you to enter this newly created password. Without it, the wallet cannot be accessed. The wallet can also be decrypted (made plain text again) if the setting is disabled.
 
-1. Click the `Settings` button in the Left Side of the screen.
+1. Click the `Gear` icon on the top right side of the LBRY App. You will get a dropdown, select `Settings`
 
 2. Under the `Wallet Security` section click toggle button `Encrypt my wallet with a custom password`.
-![Select toggler](https://spee.ch/a/walletencr.png)
 
 3. Fill the Encryption Form with your own password and type `I understand` on the below of the `Enter "I understand"` section, and then click the `Encrypt Wallet` button to encrypting your wallet.
-![Set password](https://spee.ch/0/walletpwd.png)
 
 ## What about backups I made before encrypting my wallet?
 
