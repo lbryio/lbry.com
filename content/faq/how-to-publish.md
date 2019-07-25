@@ -8,7 +8,7 @@ LBRY is a free, open, and community-driven digital marketplace that enables cont
 
 If you are a YouTube Sync user, please make sure to [read our FAQ](https://lbry.com/faq/youtube) on how this process works. you should only continue to create a channel or publish if you wish to experiment with the app. 
 
-**Please note: It's not possible to edit your channel page yet via the App, this will be coming in a future release. It is possible via the [SDK/CLI](https://lbry.com/faq/how-to-cli) and [channel_update command](https://lbry.tech/api/sdk#channel_update)***
+**Please note:** To edit your channel currently, you need to be on the latest [LBRY Desktop app](https://lbry.com/get) and access your channel by clicking it from your Publishes page. Once you do this, you'll see an edit icon next to the name. See [below for exact steps](#channel). We'll be improving this experience over the coming weeks
 
 If you don't have LBRY yet, download it [here](/get).
 
@@ -65,6 +65,20 @@ You can continue to use LBRY while the upload completes.
 ![Set the Deposit](https://spee.ch/@clement:e/channel-create.png)
 
 5. Click `Create Channel` once you have entered your bid amount. You now own `lbry://@channelnameyoubidon#Claim_ID` and `lbry://@channelnameyoubidon` (the vanity name without a claim id) if you are the highest bidder.
+
+### How do I customize my Channel? {#channel}
+First, you need to access your channel from your Publishes page by clicking on it.
+
+1. You will now see an edit button next to the name. Click the button to proceed to the edit page.
+![edit1](https://spee.ch/0/edit-1.jpeg)
+
+2. You can now upload your thumbnail and cover image to spee.ch using the upload option from the dropdown on the left, or you can use an existing URL. If using spee.ch select the file, then click the upload button. The page will update once a valid URL is available. 
+
+![edit2](https://spee.ch/0/edit-2.jpeg)
+
+3. Add your title, deposit (can stay the same, higher helps with discovery), website, email, description, and tags.
+
+4. Click Submit.
 
 ### How do I delete my content and reclaim my deposit?
  
