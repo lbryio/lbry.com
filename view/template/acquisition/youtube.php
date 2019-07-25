@@ -37,7 +37,12 @@
     <div class="inner-wrap inner-wrap--center-left">
       <h1 class="weight-light">LBRY &times; YouTube Sync</h1>
       <h2 class="weight-light">Get your YouTube videos in front of the LBRY audience</h2>
-      <button class="button button--inverse" data-id="scroll-to-claim" type="button">Claim your channel now</button>
+      <button
+        class="button button--inverse"
+        data-id="scroll-to-claim"
+        style="font-size: 1rem; margin-top: 2rem;"
+        type="button"
+      >Claim your channel now</button>
     </div>
   </section>
 
@@ -54,7 +59,7 @@
       <form id="youtube_claim" method="post" action="/youtube/token">
         <p hidden id="sync-status" class="sync-status"></p>
 
-        <input-submit>
+        <input-submit style="font-size: 1rem;">
           <label class="symbol-prefix">@</label>
           <input
             id="lbry_channel_name"
@@ -71,7 +76,7 @@
 
         <br/>
 
-        <checkbox-element>
+        <checkbox-element style="font-size: 1rem;">
           <input hidden name="type" type="text" value="sync"/>
           <input id="immediate-sync" name="immediate_sync" type="checkbox" value="true"/>
           <label for="immediate-sync">I want to sync my content to the LBRY network and agree to <a href="/faq/youtube-terms" target="_blank">these terms</a>. I have also read and understand <a href="/faq/youtube" target="_blank">how the program works</a>.</label>
@@ -82,6 +87,12 @@
       <small class="meta">
         This will verify you are an active YouTuber. Instructions about how to claim credits, and technical details about your channel, will be emailed to you after you are verified.
         <a href="/faq/youtube">Learn more</a>
+      </small>
+
+      <br/>
+
+      <small class="meta">
+        If you have more than 50K subscribers and an existing LBRY wallet please <a href="/claim-wallet" title="YouTube Sync Transfer Request">fill out this form</a>. This is still a manual process.
       </small>
     </div>
   </section>
@@ -202,7 +213,12 @@
       <br/>
 
       <div>
-        <button class="button button--inverse" data-id="scroll-to-claim" type="button">Sync now</button>
+        <button
+          class="button button--inverse"
+          data-id="scroll-to-claim"
+          style="font-size: 1rem;"
+          type="button"
+        >Sync now</button>
       </div>
     </div>
   </section>
