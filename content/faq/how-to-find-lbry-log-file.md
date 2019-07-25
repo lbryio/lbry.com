@@ -9,9 +9,9 @@ In certain cases, we may ask you to send us your log file(s). The current log fi
 
 ### Find Logs via the LBRY App
 You are able to open the log folder from the Help tab in the LBRY app.
-From the LBRY App, click on Help. Next, click on "Open Log Folder"
-![log](https://spee.ch/b/app-logs.jpeg)
-The folder will be highlighted, so just double click to open and here you will see "lbrynet.log".
+From the LBRY App, click on the `Gear` icon on the upper right. Next, select `Help` and then click on "Open Log Folder"
+![log](https://spee.ch/@clem:0/openlog.png)
+The folder will be highlighted, so just double click to open and here you will see "lbrynet.log" or just "lbrynet".
 
 ### Sending log files from Android
 Navigate to the **About** page and use the **Send Logs** button at the bottom. You can email them to [help@lbry.com](mailto:help@lbry.com) 
