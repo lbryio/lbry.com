@@ -14,10 +14,9 @@ Version 0.34 of the Desktop application also has a experimental setting for supp
 ### How do I send a tip?
 
 Sending tips via the LBRY app is easy. Simply go to the page of the content you want to support and click "Send a tip".
-![sendtip](https://spee.ch/@clement:e/sendatip.png)
 
 Next, you'll be prompted for the tip amount in LBRY Credits (LBC). Once you enter a value, click "Send". Mahalo!
-![sendtip](https://spee.ch/@clement:e/tipamount.png)
+![sendtip](https://spee.ch/@clem:0/tipsend.png)
 
 **Note: This amount will show up in your transaction list and will be deducted from your balance.**
 
@@ -27,9 +26,9 @@ When you receive a tip, the credits will come into your wallet, and you can see 
 
 To have these credits show in your balance, they must be unlocked via the wallet Overview/History page. This is done by clicking the unlock icon next to `Tip` and then confirming your action on the following screen. Once the transaction is finalized, the icon will disappear. This also nullifies any help the support/tip was giving in terms of search results, trending, and top discovery mechanisms. 
 
-Unlock tip: ![Unlock tip](https://spee.ch/@clement:e/tip.png)
+Unlock tip: ![Unlock tip](https://spee.ch/@clem:0/tipunlock.png)
 
-Confirmation box: ![Confirmation box](https://spee.ch/@clement:e/tipconfirm.png)
+Confirmation box: ![Confirmation box](https://spee.ch/@clem:0/tipconfirmation.png)
 
 ### How do I send a support? {#supports}
 
