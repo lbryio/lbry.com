@@ -9,7 +9,7 @@ Tips can also be sent via the LBRY app or via the protocol's [`support_create`](
 
 These credits are automatically stored as associated with the content owners' claim, which helps the claim perform better in search results, top, and [trending calculations](https://lbry.com/faq/trending). It also helps secure the winning [vanity name claims](/faq/naming).
 
-Version 0.34 of the Desktop application also has a experimental setting for supporting claims without tipping. This means you help the publisher rank up their content, but you can redeem your deposit at anytime. [Learn more below](#supports)
+Version 0.34 of the Desktop application also has a experimental setting for supporting claims without tipping. By default, creators will also see the Support button on their own content. When supporting other content, you help the publisher [boost their discoverability](https://lbry.com/faq/trending) and secure their [vanity claim names](/faq/naming), but you can redeem your deposit at anytime. [Learn more below](#supports)
 
 ### How do I send a tip?
 
@@ -32,6 +32,6 @@ Confirmation box: ![Confirmation box](https://spee.ch/@clem:0/tipconfirmation.pn
 
 ### How do I send a support? {#supports}
 
-Enable this option on the Settings page (Experimental Options) of the LBRY Desktop app. Then navigate to a page you want to help and click the support button.
+Publishers will see the Support button on their own content. To support other content, enable this option on the Settings page (Experimental Options) of the LBRY Desktop app. Then navigate to a page you want to help and click the support button.
 
 ![supports](https://spee.ch/c/supports.jpeg)
