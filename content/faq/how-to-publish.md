@@ -8,26 +8,27 @@ LBRY is a free, open, and community-driven digital marketplace that enables cont
 
 If you are a YouTube Sync user, please make sure to [read our FAQ](https://lbry.com/faq/youtube) on how this process works. you should only continue to create a channel or publish if you wish to experiment with the app. 
 
-**Please note:** To edit your channel currently, you need to be on the latest [LBRY Desktop app](https://lbry.com/get) and access your channel by clicking it from your Publishes page. Once you do this, you'll see an edit icon next to the name. See [below for exact steps](#channel). We'll be improving this experience over the coming weeks
+**Please note:** To edit your channel currently, you need to be on the latest [LBRY Desktop app](https://lbry.com/get) and access your channel by clicking it from your Publishes page. Once you do this, you'll see an edit icon next to the name. See [below for exact steps](#channel). We'll be improving this experience over the coming weeks.
 
 If you don't have LBRY yet, download it [here](/get).
 
 ### How do I Publish content?
 
-1. Click on the LBC balance showing at the top right of the app. You will get a dropdow, select `Publish` from the menu.
+1. Click on the Account/LBC balance showing at the top right of the app. You will get a dropdown, select `Publish` from the menu.
 ![Click the Publish Button](https://spee.ch/@clem:0/publishclick.png)
 
 2. Under the `Publish` section, click `Choose File`.
 
 3. On your local machine, select the content you wish to upload to LBRY. LBRY accepts any HTML5 format for video streaming; the full list can be found [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats). This means a web-optimized MP4 file is the best format. Other file types can also be uploaded, but won't be streamable via the LBRY app.
 
-4. Enter a `Title` and `Description` for your content. Click on advanced Editor if you will like to add some markdown texts otherwise leave it as default and put your titel and description
+4. Enter a `Title` and `Description` for your content. Click on advanced Editor if you will like to add some markdown text otherwise leave it as default and put your title and description.
 
 5. Choose a `Thumbnail` or `Thumbnail URL` for your content. The `Thumbnail URL` is a hyperlink to an image file which will serve as a preview for your content. It can be any image/GIF URL, or you can use [spee.ch](https://www.spee.ch) to host it. The default pixel size is 800x450, but the app will scale it up/down. Images uploaded directly from your local machine as `Thumbnail` will be uploaded to [spee.ch](https://www.spee.ch).
 
 6. Please make sure to check the option for mature audiences if your `Thumbnail` is categorized as NSFW (Not Safe For Work). Otherwise just click "Upload".
 
-7. Next you can add tags to your content which will help for search discovery. First, determine the category of your content for example, if you video is about blockchain, you can add the `blockchain` tag, and if the main focus is about the LBRY blockchain, you can add the `lbry` tag and any other tags that somehow relates to your video or file. If it's a mature content too, please add the `mature` tag.
+7. Next you can add tags to your content which will help categorize it for [discovery purposes](https://lbry.com/faq/trending). If it's intended for mature audiences, please add the pink `mature` tag. Next, determine any other tags that relate to the content you are publishing. Please be mindful of accuracy when tagging content as this is currently up to the publisher only and cannot be edited. If incorrect/inappropriate tags are used, your content may be filtered to provide a better user experience. In the future, this will be done through community voting and building a web of trust. 
+
 ![publish process](https://spee.ch/@clem:0/publish-process.png)
 
 8. You have the option to select/create the channel you would like to publish the content under. If no channel is selected, it will be posted anonymously.
@@ -110,7 +111,7 @@ Content uploaded is chunked up into 2MB files called blobs, and stored in your [
 Yes, check out how tipping in LBRY works by going [here](/faq/tipping).
 
 ### Can I increase my bid amount?
-Yes, the claim can be edited to increase the bid amount.  Go into your published claim and click Edit. Then on the bid screen, enter your desired bid. Confirm everything else is correct and click Edit. An update will be created with your new LBC bid for this claim.
+Yes, the claim can be edited to increase the bid amount or you can also send a Support to your own content. The Support button will appear instead of the tip button for your own claims. See the [FAQ](/faq/tipping) to learn more. 
 
 ### How can I tell if someone is downloading my content?
 
@@ -131,7 +132,7 @@ Channels and content claims are saved to your LBRY Wallet along with your LBRY C
 
 ### How and where can I share my content?
 
-LBRY URLs can be shared with anyone, but they will require the LBRY app in order to view the content. If the content is free and public, it can be retrieved through [spee.ch](https://www.spee.ch) by going to https://spee.ch/<claimname> or https://spee.ch/<@channelname>. You can also share the content on our `#publishers` channel on [Discord](https://chat.lbry.com) where we have a vibrant community with thousands of users.
+LBRY URLs can be shared with anyone - users can view it in their Desktop app or on [beta.lbry.tv](https://beta.lbry.tv) (see Share button in app). If the content is free and public, it can also be retrieved through [spee.ch](https://www.spee.ch) by going to https://spee.ch/<claimname> or https://spee.ch/<@channelname>. You can also share the content on our `#publishers` channel on [Discord](https://chat.lbry.com) where we have a vibrant community with thousands of users.
 
 ### I'm an advanced user, is there more I can poke around with?
 
