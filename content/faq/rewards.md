@@ -28,7 +28,7 @@ In order to be eligible for LBRY Rewards, users must have an approved account vi
 | **Reward Code** | ?? LBC | [Custom reward codes](#reward-code) given out to users - be on the look out on social media/Discord/Reddit!
 | **Referral** | 20 LBC | LBRY users can refer their friends via an email invitation and get rewarded when those users are verified. For more information on referrals, click [here](/faq/referrals)
 
-Rewards are added to your LBC wallet balance as they are completed. All the rewards can be listed by clicking on the tab marked **REWARDS** inside the LBC wallet. They are also marked in the [transaction history](/faq/transaction-types).  Rewards redemption is tied to your account, but the credits themselves are stored in your local wallet file which is required to be [backed up](/faq/how-to-backup-wallet) periodically.
+Rewards are added to your LBC wallet balance as they are completed. All the rewards can be listed by clicking **Rewards** from the Account drop down menu (top right of the app). They are also marked your [wallet](/faq/transaction-types).  Rewards redemption is tied to your account, but the credits themselves are stored in your local wallet file which is required to be [backed up](/faq/how-to-backup-wallet) periodically.
 
 If you are new to Publishing, check out [our guide](/faq/how-to-publish).
 
