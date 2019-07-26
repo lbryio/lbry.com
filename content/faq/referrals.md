@@ -6,14 +6,13 @@ category: getstarted
 You can earn LBRY Credits (LBC) for referring others to use LBRY. In the latest version of the LBRY app, you can now view the status of your referrals and invite new users to LBRY via email or referral link. 
 
 ### How to get your referral link
-To get to the the "Invite " area, click the `LBC balance` displayed at the top right of the LBRY App, from the dropdown, select `Rewards`. From the rewards screen, select Go To Invites under referral. 
-![Go To Invite](https://spee.ch/@clem:0/referrals)
+To get to the the "Invite " area, click the `LBC balance` menu at the top right of the LBRY App, and select `Overview`.
 
 You will see all of your referrals, along with their status(es) - whether the user has accepted it (signed in) and if it is claimable or not (if the user is reward approved).
 
-![invite](https://spee.ch/@clem:0/invite-stats.png)
+![invite]("https://spee.ch/f/invites.jpg)
 
-*Note: Referral redemptions are currently limited to 10*
+*Note: Referral redemptions are currently limited to 10, but you can invite as many as you want*
 
 ### How many LBRY Credits do I earn and how do I see how many credits I've earned?
 
