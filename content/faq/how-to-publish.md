@@ -34,7 +34,7 @@ If you don't have LBRY yet, download it [here](/get).
 8. You have the option to select/create the channel you would like to publish the content under. If no channel is selected, it will be posted anonymously.
 ![Select Channel or Anonymous](https://spee.ch/8/channel-createp.png)
 
-9. Type in the URL you want the content to be found under, along with a minimum of 0.0001 LBC deposit for the upload (current limit, may change in the future). If you are trying to outbid a user-friendly/common URL, the system will suggest a minimum bid to take over the content at that vanity URL. There may be a delay for this takeover. Check out the `#content` channel on our [Discord chat](https://chat.lbry.com) to see this information (search for your URL). For more details regarding the URL or bid, check out our [naming document](/faq/naming).
+9. Type in the URL you want the content to be found under, along with a minimum of 0.00000001 LBC deposit for the upload (default amount is higher due to publishing fees). If you are trying to outbid a user-friendly/common URL, the system will suggest a minimum bid to take over the content at that vanity URL. There may be a delay for this takeover. Making your bid higher will result in (better discovery)[https://lbry.com/faq/trending) for your content. For more details regarding the URL or bid, check out our [naming document](/faq/naming).
 ![Video URL and Deposit](https://spee.ch/@clem:0/contentname.png)
 
 10.Under the `Price`, first, determine if you want to make your content free or set a price (in USD or LBC) per view.
@@ -44,7 +44,6 @@ If you don't have LBRY yet, download it [here](/get).
 *please review our terms of service before publishing [terms of service](/termsofservice)
 
 Click `Publish`.
-
 
 The file will process in the background and will be added to the LBRY Blockchain. Please leave LBRY running while your content is in the "pending confirmation" mode. This page will automatically refresh and you will be notified when the publish is completed. After this, your content will be available to other LBRY users. However, it is a good idea to leave LBRY open for a while after this to make sure the app is able to share your file to at least one peer on the data network. Larger files will take longer to upload depending on your network speed.
 
