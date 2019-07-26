@@ -5,7 +5,7 @@ category: getstarted
 
 To provide a rich user experience and to [distribute](/faq/credit-policy) LBRY Credits (LBC) into the hands of new and returning users, LBRY created a Rewards system where credits are earned by completing tasks throughout the application. Rewards are given to promote application testing, learning certain in-app skills, building the LBRY economy through purchasing and publishing content, and as a small "thank you" gift for being part of a revolutionary digital media platform. For qualified users, Rewards are issued automatically by the LBRY app into each users' [LBRY wallet](/faq/how-to-backup-wallet). **Note: There is a limit of 3 Reward redemptions per day**.
 
-![rewards2](https://spee.ch/@clement:e/new-rewards.png)
+![rewardslist](https://spee.ch/@clem:0/rewardslist.png)
 
 ### Rewards Approval requirements
 
@@ -28,7 +28,7 @@ In order to be eligible for LBRY Rewards, users must have an approved account vi
 | **Reward Code** | ?? LBC | [Custom reward codes](#reward-code) given out to users - be on the look out on social media/Discord/Reddit!
 | **Referral** | 20 LBC | LBRY users can refer their friends via an email invitation and get rewarded when those users are verified. For more information on referrals, click [here](/faq/referrals)
 
-Rewards are added to your LBC wallet balance as they are completed. All the rewards can be listed by clicking on the tab marked **REWARDS** inside the LBC wallet. They are also marked in the [transaction history](/faq/transaction-types).  Rewards redemption is tied to your account, but the credits themselves are stored in your local wallet file which is required to be [backed up](/faq/how-to-backup-wallet) periodically.
+Rewards are added to your LBC wallet balance as they are completed. All the rewards can be listed by clicking **Rewards** from the Account drop down menu (top right of the app). They are also marked your [wallet](/faq/transaction-types).  Rewards redemption is tied to your account, but the credits themselves are stored in your local wallet file which is required to be [backed up](/faq/how-to-backup-wallet) periodically.
 
 If you are new to Publishing, check out [our guide](/faq/how-to-publish).
 
@@ -36,7 +36,7 @@ If you are new to Publishing, check out [our guide](/faq/how-to-publish).
 
 Custom reward codes can be claimed via the [Rewards](https://open.lbry.com/?rewards) page in the LBRY app. You may have been given a reward code via email, social media or you stumbled upon it somewhere - whichever way, you can claim it for LBC today! It's simple, just hit `Enter Code`, type it in and press `Redeem`.
 
-![rewards](https://spee.ch/@clement:e/rewards.png)
+![rewards](https://spee.ch/@clem:0/custom-code.png)
 
 
 
