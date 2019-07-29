@@ -5,7 +5,7 @@ category: getstarted
 
 Right now, it's simple: you host what you download. The hosted data is stored in the [lbrynet/blob files folder](https://lbry.com/faq/lbry-directories)
 
-While the LBRY app is running, it communicates to the network whatever content you're making available.
+While the LBRY app is running, it communicates to the network whatever content you're making available. For proper communication to occur, your router must have UPNP enabled or you have to manually port forward 3333 TCP / 4444 UDP (see router on how to do so, each one is different). 
 
 Think of it like how torrents or any other peer-to-peer (P2P) service works. First, you download a file from the host(s) that have made it available via seeding.
 
