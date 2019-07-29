@@ -51,6 +51,10 @@ You can also explore each individual tag by clicking on it from anywhere on the 
 
 ![explore](https://spee.ch/c/view-tags.jpeg)
 
+### How does content make it into Top or Trending?
+
+Top content is based on calculations around the total LBC value of content, which is accumulated through the claim bid amount plus any community [tipping and supports](https://lbry.com/faq/tipping). Trending is similar, but does not take into account any initial bids, and is based on tip/support changes over time. The Top category is normally instant - the highest ranked LBC content will appear at the top when published in the time periods specified. Trending takes some time to update (about 1 day) and it ranked against how all other content on LBRY also trended up or down. 
+
 ### How Is This Different From YouTube?
 
 YouTube uses obscured, secret algorithms that are designed to be biased in favor of the mainstream media and other creators they prefer, rather than being neutral to all content ([See Veritasium's take on this](https://beta.lbry.tv/my-video-went-viral-here-s-why/)).
