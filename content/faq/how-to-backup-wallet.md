@@ -57,6 +57,10 @@ The process of restoring a previously backed up wallet is fairly simple. After i
 
 As of LBRY SDK 0.30 (December 2018), you can copy the default_wallet file to multiple installations and have them synced. You can even do so between PC + Android, as long as the wallet is not encrypted (Android does not support encryption yet). The only thing that won't sync at the moment is channels that are created after the file is copied (the file would need to be copied again to access the channels).
 
+## How do I backup/migrate other LBRY data?
+
+Please refer to our [backup/migrate data FAQ](https://lbry.com/faq/backup-data).
+
 ## I need help with backup or recovery, who can I reach out to?
 
 We are always here to help - check out our [help page](/faq/support) on how to reach us.
