@@ -15,7 +15,7 @@ If you want to see a condensed view of what we have completed recently and what�
 
 # In This Update {#dev-updates}
 * [Desktop App and SDK Quick Recap](#summary) 
-* [LBRY Desktop - Deep Drive and Next Steps ](#app)
+* [LBRY Desktop - Deep Dive and Next Steps](#app)
 * [LBRY Desktop - Supports Feature](#supports)
 * [LBRY Desktop - File Download Options](#streaming)
 * [LBRY for Android Updates](#android)
@@ -116,7 +116,7 @@ Want to be the first to know when it’s fully operational? Sign up for the mail
 
 ![web-screenshot](https://spee.ch/1/web-tv.jpeg)
 
-### Open.LBRY.com Redesign {#open]
+### Open.LBRY.com Redesign {#open}
 
 Our hyperlinking / sharing website, [open.lbry.com](https://open.lbry.com) received a design overhaul and new settings for opening in app vs on [beta.lbry.tv](https://beta.lbry.tv). There is a countdown timer, along with the two options, and a link to download the LBRY app if the user has not done so already. Users can also choose to remember their setting so it’s instantly performed the next time they use the open site. Open.lbry.com links are the best way to share LBRY URLs currently. As next steps, we are exploring adding these options directly into beta.lbry.tv and enabling thumbnails for content previews. 
 
