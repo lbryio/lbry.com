@@ -190,9 +190,50 @@
         </drawer-section>
       </drawer-navigation>
 
+      <search-container>
+        <a
+          class="header__search-toggle"
+          href="#"
+          id="searchToggle"
+        >Search</a>
+
+        <input
+          id="searchInput"
+          placeholder="Search LBRY"
+          type="search"
+        />
+      </search-container>
+
       <a href="#" class="header__toggle" id="menuToggle">Menu</a>
 
       <?php js_start() ?>
+        document.getElementById("searchToggle").addEventListener("click", event => {
+          event.preventDefault();
+
+          document.querySelector("search-container").classList.toggle("active");
+
+          if (document.querySelector("drawer-navigation").style.display === "none") {
+            document.querySelector("drawer-navigation").style.display = "inline-flex";
+            document.getElementById("searchInput").value = "";
+          } else {
+            document.querySelector("drawer-navigation").style.display = "none";
+            document.getElementById("searchInput").focus();
+          }
+        });
+
+        document.getElementById("searchInput").value = "";
+
+        document.getElementById("searchInput").addEventListener("keyup", event => {
+          const key = event.keyCode ? event.keyCode : event.which;
+          const self = document.getElementById("searchInput");
+
+          if (key === 13)
+            location.href = `https://duckduckgo.com/?q=${self.value} site:lbry.com`;
+
+          if (key === 27)
+            document.getElementById("searchToggle").click();
+        });
+
         document.getElementById("menuToggle").addEventListener("click", event => {
           event.preventDefault();
 
