@@ -44,7 +44,7 @@
   @media (min-width: 951px) {
     background-position: 3rem center;
     margin-right: 2.5rem;
-    width: 8rem;
+    width: 13rem;
   }
 
   @media (max-width: 950px) {
@@ -82,6 +82,71 @@
 
   @media (min-width: 951px) {
     display: none;
+  }
+}
+
+search-container {
+  display: inline-flex;
+  height: 5rem;
+
+  &:not(.active) {
+    .header__search-toggle {
+      background-image: url("../img/search.svg");
+      width: 2rem;
+    }
+
+    input {
+      display: none;
+    }
+  }
+
+  &.active {
+    padding-right: 2rem;
+    width: 100%;
+
+    .header__search-toggle {
+      background-color: rgba($lbry-gray-1, 0.7);
+      background-image: url("../img/cancel.svg");
+      width: 2.15rem;
+    }
+  }
+
+  @media (max-width: 950px) {
+    display: none;
+  }
+
+  input {
+    margin-top: 1.25rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    transition: border-color 0.2s;
+    width: 100%;
+
+    &:not(:focus) {
+      border-color: var(--lbry-gray-1);
+    }
+
+    &:focus {
+      border-color: var(--lbry-teal-3);
+    }
+  }
+}
+
+.header__search-toggle {
+  @include hide-text;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1rem;
+  border-radius: 50%;
+  display: block;
+  height: 2rem;
+  margin-top: 1.5rem;
+  margin-right: 1rem;
+  transition: background-color 0.2s;
+
+  &:hover {
+    background-color: rgba($lbry-gray-1, 0.7);
   }
 }
 
