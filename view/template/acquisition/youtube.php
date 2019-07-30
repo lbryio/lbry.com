@@ -88,12 +88,6 @@
         This will verify you are an active YouTuber. Instructions about how to claim credits, and technical details about your channel, will be emailed to you after you are verified.
         <a href="/faq/youtube">Learn more</a>
       </small>
-
-      <br/>
-
-      <small class="meta">
-        If you have more than 50K subscribers and an existing LBRY wallet please <a href="/claim-wallet" title="YouTube Sync Transfer Request">fill out this form</a>. This is still a manual process.
-      </small>
     </div>
   </section>
 

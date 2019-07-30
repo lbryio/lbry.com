@@ -196,9 +196,7 @@
 
       <br/><br/>
 
-      <small class="meta">
-        If you have more than 50K subscribers and an existing LBRY wallet please <a href="/claim-wallet" title="YouTube Sync Transfer Request">fill out this form</a>. This is still a manual process.
-      </small>
+      <p>If you have an existing LBRY wallet please <a href="/claim-wallet" title="YouTube Sync Transfer Request">fill out this form</a>. This is still a manual process.</p>
     </div>
   </section>
 </main>
