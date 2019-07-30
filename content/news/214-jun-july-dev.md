@@ -12,10 +12,11 @@ To read previous updates, please visit our [Development and Community Update arc
 If you want to see a condensed view of what we have completed recently and what’s planned for LBRY, check out our [Roadmap](https://lbry.io/roadmap).
 
 # In This Update {#dev-updates}
-* [Desktop App and SDK Quick Recap](#summary) 
-* [LBRY Desktop - Deep Dive and Next Steps](#app)
-* [LBRY Desktop - Supports Feature](#supports)
-* [LBRY Desktop - File Download Options](#streaming)
+* [Desktop App Quick Recap](#summary-desktop) 
+* [SDK Quick Recap](#summary-sdk) 
+* [LBRY Desktop - Deep Dives and Next Steps](#app)
+* [LBRY Desktop - New Supports Feature](#supports)
+* [LBRY Desktop - File Download Options Coming Soon](#streaming)
 * [LBRY for Android Updates](#android)
 * [LBRY.tv Updates](#web)
 * [Open.LBRY.com Redesign](#open)
@@ -24,28 +25,32 @@ If you want to see a condensed view of what we have completed recently and what�
 * [Blockchain Upstream Updates and Progress](#blockchain)
 * [2019 Roadmap Update](#2019)
 
-### Desktop App and SDK Quick Recap{#summary}
-Since our last development update, the app had a few minor updates leading up to the recent [0.34 Erikson release](https://github.com/lbryio/lbry-desktop/releases/tag/v0.34.0) which showcased a brand new layout, customizable homepage, new Account Overview section, channel editing, comments, video lengths, and much more!  After Darwin, we shifted focus to consolidate the desktop and web versions of LBRY into a single codebase -- a huge effort! We’ve launched the web preview at [beta.lbry.tv](https://beta.lbry.tv) which you can explore today. The app team also made modifications to support the evolving LBRY SDK which had significant and breaking API changes. This paved the way for the current release which includes tagging and discovery changes.
+### Desktop App Quick Recap {#summary-desktop}
+Since our last development update, the app had a few minor updates leading up to the recent [0.34 Erikson release](https://github.com/lbryio/lbry-desktop/releases/tag/v0.34.0) which showcased a brand new layout, customizable homepage, new Account Overview section, channel editing, comments, video lengths, and much more! After Darwin, we shifted focus to consolidate the desktop and web versions of LBRY into a single codebase -- a huge effort! We’ve launched the web preview at [beta.lbry.tv](https://beta.lbry.tv) which you can explore today. The app team also made modifications to support the evolving LBRY SDK which had significant and breaking API changes. This paved the way for the current release which includes tagging and discovery changes.
 
 Erikson is a ***huge step*** in the direction that LBRY ultimately wants to go - giving the community control to determine what content is discoverable and how to find it through our newly customizable home page and tagging system. LBRY no longer curates homepage content and instead it is user controlled based on selecting tags and channels of interest. The content is segmented into three main areas -- Trending/Top/New. You can read all about how these sections work in our new [Trending FAQ](https://lbry.com/faq/trending). Our goal is for quality content to easily discoverable, when ranked by LBC tips and supports ([new experimental setting in this release](#supports)), by anyone on the network (fans, curators, etc). 
 
+![Erikson](https://spee.ch/8/erikson.gif)
+
+### SDK Quick Recap {#summary-sdk}
 On the SDK side of the house, the major release was [version 0.38.0](https://github.com/lbryio/lbry-sdk/releases/tag/v0.38.0) and subsequent patches up to version 0.38.5 which are in the current app release. Since our last update, four versions have passed with each iteration building additional features to enable the Desktop app’s customizable views released recently. In order to calculate trending data and do complex searches using tags ( and also "not_tags" and "not_channels" to facilitate filtering), the entire backend wallet server had to be re-written from scratch to implement how the blockchain layer works, but added to an easy to consume database, along with the logic for performing the [trending calculations](https://lbry.com/faq/trending) mentioned earlier. 
 
 Reading and storing the data was the first large undertaking, but one that proved to be even a bigger challenge was making all the queries performant. With each click of the app, the SDK searches through over a million pieces of content, across various data points, in LIGHTNING fast times of under 100-200 milliseconds. You can read more about the challenges and details in the [SDK updates](#sdk) section below. 
 
-![Erikson](https://spee.ch/8/erikson.gif)
-
 ### LBRY Desktop - Deep Dive and Next Steps {#app}
 The release of [App E - Erikson](https://github.com/lbryio/lbry-desktop/releases/tag/v0.34.0) is one of the biggest and boldest releases of LBRY yet - it comes packed with new features including a tag-based, customizable homepage, publisher ability to tag content, channel editing (simplistic first pass), first non-English language options (special thanks to the Polish and Indonesian translators - Madiator and Chris45!!), comments alpha (not decentralized -- stored on LBRY servers), option for support own/others’ content, short URLs (instead of the long string of characters/numbers after the #), a one click zipping tool for wallet backups, content sharing integration with [beta.lbry.tv](https://beta.lbry.tv), and a groovy loading animation. The release also includes a UI overhaul including a new sidebar, Overview page, Account/Settings menu, and light/dark quick switch. See, we told you the wait since the last update was worth it! Instead of content being curated by LBRY, the homepage is now driven by tags, channels followed, and the [Top/Trending ranking algorithms](https://lbry.com/faq/trending) using the LBRY protocol. This makes content discover an even playing field for all as the rules are out in the open, as opposed to YouTube’s hidden algorithms. Having the ability to see new content published on LBRY via the “New” option on the homepage is also a huge step forward as it showcases the new content being uploaded every minute. 
 
-
 ![customize](https://spee.ch/9/customize-034.jpeg)
 
-Publishers who previously uploaded on LBRY will need to edit their content to take advantage of the new features including tags and video lengths (the content has to be re-uploaded to do this). Both edits and new publishes can be customized with tags, metadata such as file size, content length, and dimensions. These are stored with your claim data automatically. You’ll also notice that content is now correctly sorted on channel pages in the app. This is due to the addition of a release time field in the SDK which allows us to sort the content based on when it was actually published, instead of when it was last updated on LBRY. 
+#### Publishing and URLs
 
-You’ll also notice shorter URLs throughout the app. These replace the long URLs you’re used to and are first come first serve at [LBRY claim names](https://lbry.com/faq/naming) (i.e. if you try to publish lbry://one or other popular vanity claim names, you may be left with a URL like lbry://one#123 instead of lbry://one#1). We’ve also added the ability to use more characters in your LBRY URLs - you can pretty much use anything you want besides spaces and `=&#:$@%?;/\\"<>%{}|^~[\`. This includes emoji support! 
+Publishers who previously uploaded on LBRY will need to edit their content to take advantage of the new features including tags and video lengths (content has to be re-uploaded if it was published before ~April 2019). Both edits and new publishes can be customized with tags, metadata such as file size, content length, and dimensions will be pulled in and stored with your claim data automatically. You’ll also notice that content is now correctly sorted on channel pages in the app. This is due to the addition of a release time field in the SDK which allows us to sort the content based on when it was actually published, instead of when it was last updated on LBRY. 
+
+You’ll also notice shorter URLs throughout the app. These replace the long URLs you’re used to and are first come first serve at [LBRY claim names](https://lbry.com/faq/naming) (i.e. if you try to publish lbry://one or other popular vanity claim names, you may be left with a URL like lbry://one#123 instead of lbry://one#1). We’ve also added the ability to use more characters in your LBRY URLs - you can pretty much use anything you want besides spaces and `=&#:$@%?;/\\"<>%{}|^~[\`. This includes emoji support! (Check out `lbry://♒`)
 
 ![publish](https://spee.ch/a/publish-034.jpeg)
+
+#### Subscriptions, Tags and Channels
 
 The subscriptions area is now easier to access from either the `Channels you Follow` drop down on the homepage, or by each specific channel in the right hand side bar. Each tag you follow is also listed above the channels and has their own Trending/Top/New pages as well. You can also navigate to these tags (even ones you don’t follow), by clicking them throughout the app (i.e. on the homepage next to other tags, or on a related video you are exploring). Once you access a tag you don’t have in your list, you have the option to follow it, adding it to your sidebar. 
 
@@ -55,11 +60,15 @@ Recommended channels are now shown by clicking the `Find New Channels` button to
 
 ![subs](https://spee.ch/c/subscriptions-034.jpeg)
 
-To allow users to participate easier in the trending/ranking process, we added a new experimental setting for supports([read more below](#supports)). This allows users to help promote their favorite content by depositing LBC. 
+#### Community Voting and Channel Editing
+
+To allow users to participate easier in the trending/ranking process, we added a new experimental setting for supports([read more below](#supports)). This allows users to help promote their favorite content by depositing LBC, which can be withdrawn at anytime.  
 
 Understanding that creators want to manage their channel profiles, we included the first version of the channel edit page. This is accessed by clicking your channel from the Publishes page. We’ll be adding a `My Channels` section soon along with a way to create your profile when creating a channel (removing this from the Publish flow). The profiles go along nicely with the new channel hover feature that displays the thumbnail, tags, and number of publishes. 
 
 ![edit](https://spee.ch/0/edit-034.jpeg)
+
+#### Commenting Alpha on LBRY
 
 Rounding off the feature set, we added the first releases of Commenting and Language options -- all thanks to community contributions! The Commenting Alpha earns its name as it comes with a basic feature set -- creating anonymous/channel based comments, and viewing them. There are no delete or moderation features yet (if you have ideas, leave them [here](https://github.com/lbryio/lbry-desktop/issues/2598)). Since these comments are not decentralized but are stored on LBRY servers, please alert us to any that need attention through the report button on the claim. 
 
@@ -67,12 +76,14 @@ We’ll be using the alpha to work through the UI design on the app, and nail do
 
 ![comments](https://spee.ch/3/comments-034.jpeg)
 
+#### Next Steps and Coming Soon
+
 The next steps on the Desktop app will be to allow further customization of the homepage by enabling the blocking of channels and tags so that users can be in full control of what they don’t want to see as well. We’ll be adding a `My Channels` page so users can access their channels more readily and a way to create those channels directly from a better version of today’s edit page page (and separating this flow from the Publish page where channel creation exists today). 
 
 We are also in the middle of upgrading the video player to support [streaming](#streaming) (not live streaming!) which will give users the ability to turn off saving files (and hosted content too, but that will make LBRY sad!). The next bigger feature on the radar is cross device syncing so that users can have the same account between their devices, including [Android](#android) which currently supports it. 
 
 
-### LBRY Desktop - Supports Feature {#supports}
+### LBRY Desktop - New Supports Feature {#supports}
 
 A new experimental feature, which can be enabled on the Settings page of the app,
  was added to allow supporting content. Some of you may be aware of supports already because you’ve tried them via the SDK, so this will make your life easier to be able to do them in app. For those that are new - supports are very similar to [tipping](https://lbry.com/faq/tipping) on LBRY, but the LBC deposit stays in your own wallet and can be removed at any time (see the Wallet page / trash can icon to remove / add LBC back to your balance). Publishers will also see the Support option by default on their own content (previously the tip button was hidden). While the support is active, it is no longer part of your balance and instead the LBC is used to help other users discover the content you supported and/or secure its [vanity name](https://lbry.com/faq/naming). The discovery comes through the new homepage and affecting the way the claim is ranked in the Trending and Top calculations - the more LBC that’s tipped and supported, the higher the content can rank up.  
@@ -81,9 +92,9 @@ The new feature now allows anyone in the community to support their favorite con
 
 ![supports](https://spee.ch/d/supports-034.jpeg)
 
-### LBRY Desktop - File Download Options {#streaming}
+### LBRY Desktop - File Download Options Coming Soon {#streaming}
 
-A common concern we have from users is that not everyone wants to store all the content they view on their PCs and we’ve listened. The SDK now provides a way to stream content from our decentralized network without having to save any data to the user’s computer. Our Android[#android) app is already taking advantage of this technology and was a test bed before we implemented it on the desktop app (currently a work in progress and we expect to ship within a couple weeks). This would work the typical video formats you see it the LBRY app (H264 MP4s), as well as audio files, and images. There are some plugins we’ll be experimenting with to see if we can support additional video types (download may be required). There will be two on/off settings available - Saving Files and Saving Blobs (hosted data). 
+A common concern we have from users is that not everyone wants to store all the content they view on their PCs and we’ve listened. The SDK now provides a way to stream content from our decentralized network without having to save any data to the user’s computer. Our [Android](#android) app is already taking advantage of this technology and was a test bed before we implemented it on the desktop app (currently a work in progress and we expect to ship within a couple weeks). This would work the typical video formats you see it the LBRY app (H264 MP4s), as well as audio files, and images. There are some plugins we’ll be experimenting with to see if we can support additional video types (download may be required). There will be two on/off settings available - Saving Files and Saving Blobs (hosted data). 
 
 By turning off Saving Files, video/audio content will not save the output file anymore when content is watched. If you disable Saving Blobs, the hosted chunks of data (required to help the network seed content) will also not be saved. We will continue to strongly encourage the saving of Blobs (disabling it will make LBRY sad, but we understand that users should have a choice). These settings will only work going forward - so if you downloaded something and then turned it off, that will only take effect for new downloads. We’ll also give users a setting for max number of connections so that higher bandwidth users can take advantage of using more peers on the network to stream/download content faster. 
 
@@ -152,19 +163,29 @@ Another long awaited feature of the upstream merge is HD wallets, which allow yo
 The next steps in this area include the fork to upgrade with SegWit and add the ability to add metadata with support transactions (will allow signing by channels, rating, comments, edit suggestions).
 
 ### 2019 Roadmap Update {#2019}
-We’ve successfully accomplished a number of roadmap items fully, and others partially. Fully completed (but the improvements never really stop, right?) are **Technical Community** with the launch of lbry.tech, **Android 1.0** when the [Android](#android) app made it out of the unreleased state on the app store (missing full parity with desktop app, but some features are ahead!), **Community Swarms* which are [fully operational around the globe](https://lbry.com/news/comm-update), and **Discovery** which was enabled through the latest SDK and Desktop releases. Partially completed/still in progress are **Commenting** since we released a centralized alpha only,  Creator Features where we added channel metadata/edit features, but still lacking on reporting/verifying, **Creator Partnerships** are in progress and will be announced later this year, **LBRY on the Web** which is up at [beta.lbry.tv](https://beta.lbry.tv) but is missing account features, **Multi-Device Experience** where the wallet syncing process was enabled on Android, but currently in progress on Desktop, **Internationalization** was enabled in the last Desktop release but needs to be expanded to more languages/apps,
-and finally **Protocol Performance** where we’ve met some of the targets like resolution time and failure rate but still lacking on startup and downloading times.
+We’ve successfully accomplished a number of roadmap items fully, and others partially. Fully completed (but the improvements never really stop, right?) are:
+* **Technical Community** - completed with the launch of [lbry.tech](https://lbry.com) 
+* **Android 1.0** - the [Android](#android) app made it out of the unreleased state on the app store (missing full parity with desktop app, but some features are ahead!)
+* **Community Swarms** - are [fully operational around the globe](https://lbry.com/news/comm-update) 
+* **Discovery** which was enabled through the latest SDK and Desktop releases
+
+Partially completed/still in progress are:
+* **Commenting** - we released a centralized alpha only,  Creator Features where we added channel metadata/edit features, but still lacking on reporting/verifying
+* **Creator Partnerships** - in progress and will be announced later this year
+* **LBRY on the Web** - is up at [beta.lbry.tv](https://beta.lbry.tv) but is missing account features
+* **Multi-Device Experience** - the wallet syncing process was enabled on Android, but currently in progress on Desktop
+* **Internationalization** - enabled in the last Desktop release but needs to be expanded to more languages/apps
+* **Protocol Performance** - we’ve met some of the targets like resolution time and failure rate but still lacking on startup and downloading times
 
 # Want to Develop on the LBRY ecosystem?
-All of our code is open source and available on [GitHub](https://github.com/lbryio). Are you a developer and want to find out more? Check out our [contributing guide](https://lbry.tech/contribute) and our [LBRY App specific contributing document](https://github.com/lbryio/lbry-app/blob/master/CONTRIBUTING.md). We also recently launched our [LBRY Discourse Forum](https://discourse.lbry.io) where developers can interact with the team and ask questions across all our different projects. 
+All of our code is open source and available on [GitHub](https://github.com/lbryio). Are you a developer and want to find out more? Check out our [contributing guide](https://lbry.tech/contribute) and our [LBRY App specific contributing document](https://github.com/lbryio/lbry-app/blob/master/CONTRIBUTING.md). Make sure you have turned on the Developer option in your email preferences (see app overview page), or sign up at [lbry.tech](https://lbry.tech). We also have a [LBRY Discourse Forum](https://discourse.lbry.io) where developers can interact with the team and ask questions across all our different projects. 
 
-If you aren’t part of our Discord community yet, [join us](https://chat.lbry.io) anytime and say hello! 
+If you aren’t part of our Discord community yet, [join us](https://chat.lbry.com) anytime and say hello! 
 
-Our community allows LBRYians to interact with the team directly and for us to engage users in order to grow the LBRY platform. Also follow us on [Twitter](https://twitter.com/lbryio), [Facebook](https://facebook.com/lbryio), [Reddit](https://www.reddit.com/r/lbry), [BitcoinTalk](https://bitcointalk.org/index.php?topic=5116826.new#new), and [Telegram](https//t.m/lbryofficial). 
+Our community allows LBRYians to interact with the team directly and for us to engage users in order to grow the LBRY platform. Also follow us on [Twitter](https://twitter.com/lbryio), [Facebook](https://facebook.com/lbryio), [Reddit](https://www.reddit.com/r/lbry), [BitcoinTalk](https://bitcointalk.org/index.php?topic=5116826.new#new), and [Telegram](https//t.me/lbryofficial). 
 
 [Back to **top**](#dev-updates)
 
 We’ve got a special bonus for readers of this update, enjoy some LBC via this code (while supplies last!): `dev-update-jun-ztaxc`
 
 Thanks for supporting LBRY - stay tuned for more news and updates! And if you haven’t downloaded the [LBRY app](https://lbry.io/get?auto=1) yet, what are you waiting for?
-
