@@ -1,7 +1,7 @@
 ---
 author: tom-zarebczan
 title: 'Development Update for June/July 2019'
-date: '2019-07-30 23:00:00'
+date: '2019-07-31 09:00:00'
 cover: 'geometry-cover.jpg'
 category: community-update
 ---
