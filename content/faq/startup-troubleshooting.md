@@ -45,5 +45,10 @@ Currently, LBRY requires an authorization token to be generated using the [keyta
 
 #### SDK could not start because port is in use (IPV6 / debian)
 If the newly installed or re-installed LBRY has the start up issue with daemon being in use, check the .local/share/lbry/lbrynet folder for `daemon_settings.yml` file.
-If the file doesn't exist, create one and settings inside should be: `api: 127.0.0.1:5279`. Alternatively, you can start the sdk with `lbrynet start --api=127.0.0.1:5279`
+If the file doesn't exist, create one and settings inside should be:
+
+    api: 127.0.0.1:5279
+    streaming_server: 127.0.0.1:5280
+
+Alternatively, you can start the sdk with `lbrynet start --api=127.0.0.1:5279`
 
