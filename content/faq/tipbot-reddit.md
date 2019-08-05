@@ -28,8 +28,8 @@ Displays your Reddit LBRY wallet address. Useful if you want to receive LBC's di
 ### Withdraw
 Use this to withdraw your balance from your LBRY Reddit wallet to another LBRY wallet such as the wallet in your LBRY app, or to an LBRY exchange wallet. Performed via Reddit messaging.
 
-- **Arguments:** `withdraw <address> <amount>`
-- **Request:** [Request Withdraw](https://reddit.com/message/compose?to=lbryian&subject=Withdraw&message=withdraw%20%3Camount%3E%20%3Caddress)
+- **Arguments:** `withdraw <amount> <address>`
+- **Request:** [Request Withdraw](https://reddit.com/message/compose?to=lbryian&subject=Withdraw&message=withdraw%20%3Camount%3E%20%3Caddress%3E)
 - **Example:** `withdraw bLXasdadsa32432soas2sadsa 10`
 
 ### Tip
