@@ -100,7 +100,7 @@
               </drawer-child>
 
               <drawer-child>
-                <a href="https://lbry.fund">
+                <a href="https://lbry.fund/creator">
                   <strong>lbry.fund Content Funding</strong>
                   <span>Get support for your latest creation</span>
                 </a>
