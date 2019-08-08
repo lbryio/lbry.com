@@ -15,41 +15,43 @@
     <div class="inner-wrap">
       <?php if ($downloadUrl): ?>
 
-      <div style="margin-bottom: 2rem; text-align: center;">
-        <p>Securely download the LBRY app here, and see what all the fuss is about!</p>
-        <?php $metaHtml = $os !== OS::OS_ANDROID ? View::Render('download/_meta') : false ?>
-        <?php echo View::Render('download/_downloadButton', [
-          'buttonStyle' => 'primary'
-        ])?>
+        <div style="margin-bottom: 2rem; text-align: center;">
+          <p>Securely download the LBRY app here, and see what all the fuss is about!</p>
+          <?php $metaHtml = $os !== OS::OS_ANDROID ? View::Render('download/_meta') : false ?>
+          <?php echo View::Render('download/_downloadButton', [
+            'buttonStyle' => 'primary'
+          ])?>
 
-        <br/><br/>
+          <br/><br/>
 
-        <?php if ($metaHtml): ?>
-        <?php echo $metaHtml ?>
-        <?php endif ?>
-      </div>
-
-      <figure>
-        <img
-          alt="Screenshot of LBRY"
-          src="<?php echo $osScreenshotSrc ?>"
-          <?php if ($os === OS::OS_ANDROID): ?>
-          class="tall"
+          <?php if ($metaHtml): ?>
+          <?php echo $metaHtml ?>
           <?php endif ?>
-        />
-      </figure>
+        </div>
+
+        <?php if ($os === OS::OS_ANDROID): ?>
+          <figure>
+            <img
+              alt="Screenshot of LBRY"
+              class="tall"
+              src="<?php echo $osScreenshotSrc ?>"
+            />
+          </figure>
+        <?php else: ?>
+          <?php echo View::render('download/_videoIntro') ?>
+        <?php endif ?>
 
       <?php else: ?>
 
-      <p>{{download.unavailable}}</p>
+        <p>{{download.unavailable}}</p>
 
-      <?php echo View::render('mail/_subscribeForm', [
-        'tag' => $os,
-        'submitLabel' => 'Join List',
-        'hideDisclaimer' => true,
-        'largeInput' => true,
-        'btnClass' => 'btn-alt btn-large',
-      ]) ?>
+        <?php echo View::render('mail/_subscribeForm', [
+          'tag' => $os,
+          'submitLabel' => 'Join List',
+          'hideDisclaimer' => true,
+          'largeInput' => true,
+          'btnClass' => 'btn-alt btn-large',
+        ]) ?>
 
       <?php endif ?>
     </div>

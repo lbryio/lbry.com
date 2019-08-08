@@ -11,7 +11,7 @@
   <div class="notice notice-error spacer1"><?php echo $error ?></div>
 <?php else: ?>
   <form id="<?php echo $formId ?>" novalidate style="display: none">
-    <section class="email-section">
+    <section class="email-section" style="position: relative;">
       <h4><?php echo count($emails) > 1 ? 'Receiving Addresses' : 'Do You Want To Receive Mail?' ?></h4>
       <?php if (count($emails) > 1): ?>
         <div class="meta spacer-half">Uncheck all boxes if you want to receive no future messages.</div>
@@ -32,7 +32,7 @@
       <?php endforeach ?>
     </section>
 
-    <section class="tag-section spacer1">
+    <section class="tag-section spacer1" style="position: relative;">
       <h4>Fine-tune your Mail</h4>
       <div class="notice notice-error hide spacer-half"></div>
       <div class="notice notice-success hide spacer-half">Your email preferences have been updated.</div>
