@@ -10,8 +10,8 @@ category: community-update
 If you aren’t part of our Discord community yet, [join us](https://chat.lbry.com) anytime and say hello! Our community allows LBRYians to interact with the team directly and for us to engage users and grow the LBRY platform. If you don't already, follow us on [Twitter](https://twitter.com/lbryio), [Facebook](https://facebook.com/lbryio), [Reddit](https://www.reddit.com/r/lbry), and [Telegram](https://t.me/lbryofficial).
 
 ## In This Update:
-* [Swarm Program Highlights](#swarm)
-* [Updated YouTube Partner Program with more LBC](#youtube)
+* [Swarm Program Updates](#swarm)
+* [Level 3 Hive News](#level3)
 * [100,000 LBC is still up for grabs!](#puzzle)
 
 To read all of our previous updates, please visit our [Development and Community Update archive](https://lbry.com/news/category/community-update). 
@@ -70,7 +70,7 @@ Polish Syrach gaming community about Polish language and Elder Scrolls Online ga
 
 * [Visit their Discord home for more information!](https://discord.gg/3z8CCAJ)
 
-### Level 3 Hives
+### Level 3 Hives{#level3}
 These hives have the distinction of being the busiest hives in the Swarm program, by volume of membership and through hive accomplishments. In the last three months, a total of nine hives earned this distinction.  
 
 ![LBRY India](https://spee.ch/@lbrynews:0/lbry-india-team.jpg)
