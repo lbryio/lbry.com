@@ -1,7 +1,7 @@
 ---
 author: samuel-lbryian
 title: 'Community Update August 2019'
-date: '2019-08-11 13:00:00'
+date: '2019-08-12 13:00:00'
 cover: 'wave.jpg'
 category: community-update
 ---
