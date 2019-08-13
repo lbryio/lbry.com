@@ -9,7 +9,7 @@ category: community-update
 
 If you aren’t part of our Discord community yet, [join us](https://chat.lbry.com) anytime and say hello! Our community allows LBRYians to interact with the team directly and for us to engage users and grow the LBRY platform. If you don't already, follow us on [Twitter](https://twitter.com/lbryio), [Facebook](https://facebook.com/lbryio), [Reddit](https://www.reddit.com/r/lbry), and [Telegram](https://t.me/lbryofficial).
 
-## In This Update:
+## In This Update: {#updates}
 * [Swarm Program Updates](#swarm)
 * [Level 3 Hive News](#level3)
 * [100,000 LBC is still up for grabs!](#puzzle)
@@ -165,13 +165,11 @@ Entering its fourth month, Lucas Abduch's crypto juggling puzzle remains unsolve
 
 Watch the video on [lbry://siteswapping](https://open.lbry.com/@juggling#1f9bb08bfa2259629f4aaa9ed40f97e9a41b6fa1/siteswapping) or on [YouTube](https://www.youtube.com/watch?v=ERMjC6qzzOc) and see if you can be the first to solve the puzzle!
 
-## Want to develop on the LBRY protocol?
-Are you a developer and want to find out more? Start with [LBRY.tech](https://lbry.tech)! It's a great place to learn about the LBRY project and how all the pieces work together. All of our code is open source and available on [GitHub](https://github.com/lbryio). 
+## Want to Develop on the LBRY Ecosystem?
+All of our code is open source and available on [GitHub](https://github.com/lbryio). Are you a developer and want to find out more? Check out our [contributing guide](https://lbry.tech/contribute) and our [LBRY App specific contributing document](https://github.com/lbryio/lbry-app/blob/master/CONTRIBUTING.md). Make sure you have turned on the Developer option in your email preferences (see app overview page), or sign up at [lbry.tech](https://lbry.tech). We also have a [LBRY Discourse Forum](https://discourse.lbry.io) where developers can interact with the team and ask questions across all our different projects. 
 
-Check out our [contributing guide](https://lbry.tech/contribute) and our LBRY App specific contributing [document](https://github.com/lbryio/lbry-app/blob/master/CONTRIBUTING.md) if you just want to dive right into the code.
+If you aren’t part of our Discord community yet, [join us](https://chat.lbry.com) anytime and say hello! 
 
-[Back to **Development Updates**](#dev-updates)
+[Back to **Community Updates**](#updates)
 
 Thanks for supporting LBRY - stay tuned for more news and updates! And if you haven’t downloaded the [LBRY app](https://lbry.com/get?auto=1) yet, what are you waiting for?
-
-
