@@ -19,6 +19,8 @@ To read all of our previous updates, please visit our [Development and Community
 ## Swarm Program Updates{#swarm}
 Since announcing the Swarm program last quarter, a total of 23 hives have been created spanning six continents!
 
+If you’re interested in finding out more about the Swarm program, how to start a hive or join one, [please check out this link.](https://docs.google.com/forms/d/e/1FAIpQLSfDabPptaLx7TI7DeT_dAOZgeulSRD1A-VnYYypbuc_r4wlhA/viewform?usp=sf_link) We have a discussion list for all, plus Hive Officers get access to a special LBRY team Slack channel. 
+
 ### New Hives
 
 #### LBRY Brasil
@@ -169,6 +171,8 @@ Watch the video on [lbry://siteswapping](https://open.lbry.com/@juggling#1f9bb08
 All of our code is open source and available on [GitHub](https://github.com/lbryio). Are you a developer and want to find out more? Check out our [contributing guide](https://lbry.tech/contribute) and our [LBRY App specific contributing document](https://github.com/lbryio/lbry-app/blob/master/CONTRIBUTING.md). Make sure you have turned on the Developer option in your email preferences (see app overview page), or sign up at [lbry.tech](https://lbry.tech). We also have a [LBRY Discourse Forum](https://discourse.lbry.io) where developers can interact with the team and ask questions across all our different projects. 
 
 If you aren’t part of our Discord community yet, [join us](https://chat.lbry.com) anytime and say hello! 
+
+Enter rewards code surfs-up-lbry for some extra LBC in the app!
 
 [Back to **Community Updates**](#updates)
 
