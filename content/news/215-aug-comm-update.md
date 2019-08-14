@@ -172,7 +172,7 @@ All of our code is open source and available on [GitHub](https://github.com/lbry
 
 If you aren’t part of our Discord community yet, [join us](https://chat.lbry.com) anytime and say hello! 
 
-Enter rewards code surfs-up-lbry for some extra LBC in the app!
+Enter rewards code `surfs-up-lbry` for some extra LBC in the app!
 
 [Back to **Community Updates**](#updates)
 
