@@ -7,24 +7,24 @@ If you see the error message `couldn't bind to port 3333`, it is likely that ano
 
 The most user friendly way to change the port permanently is to append the below line to the `daemon_settings.yml` in the `lbrynet` [directory](/faq/lbry-directories). If it doesn't exist, create a new file named `daemon_settings.yml` and append:
 
-    peer_port: 3334
+    tcp_port: 3334
 
 Sample daemon_settings.yml (may vary by OS):
 
-    {download_directory: c:\users\lbry,
-    peer_port: 3334}
+    download_directory: c:\users\lbry
+    tcp_port: 3334
 
 ## Other Methods
 To change the port once during runtime, set the LBRY_PEER_PORT env variable. Here's one way to do this:
 
-    LBRY_PEER_PORT=3334 ./lbrynet-daemon
+    LBRY_TCP_PORT=3334 ./lbrynet-daemon
 
 Once the daemon is running, you can change the port permanently by using the following [api](/api) call
 
-    curl 'http://localhost:5279' --data '{"method":"settings_set", "params":{"peer_port":<port-num>}}'
+    curl 'http://localhost:5279' --data '{"method":"settings_set", "params":{"tcp_port":<port-num>}}'
 
 or via cli command
 
-    lbrynet settings_set --peer_port 3334
+    lbrynet settings_set --tcp_port 3334
 
 
