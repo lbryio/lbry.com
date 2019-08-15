@@ -22,6 +22,10 @@
             'buttonStyle' => 'primary'
           ])?>
 
+          <?php if ($os === OS::OS_ANDROID): ?>
+            <p style="font-size: 0.8rem;">You can also <a href="http://lbry.com/releases/lbry-android.apk" title="Download our Android app directly">download</a> our Android app directly</p>
+          <?php endif ?>
+
           <br/><br/>
 
           <?php if ($metaHtml): ?>
@@ -38,7 +42,16 @@
             />
           </figure>
         <?php else: ?>
-          <?php echo View::render('download/_videoIntro') ?>
+          <video
+            autoplay
+            loop
+            poster="https://spee.ch/f/2019-08-lbry-interface-poster.jpg"
+            playsinline
+            style="display: block; margin-right: auto; margin-left: auto; max-width: 500px; "
+          >
+            <source src="https://spee.ch/a/2019-08-lbry-interface-webm.webm" type="video/webm"/>
+            <source src="https://spee.ch/4/2019-08-lbry-interface.mp4" type="video/mp4"/>
+          </video>
         <?php endif ?>
 
       <?php else: ?>
