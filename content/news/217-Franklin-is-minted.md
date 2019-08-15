@@ -1,7 +1,7 @@
 ---
 author: brinck-slattery
 title: 'Franklin Has Been Minted'
-date: '2019-8-15 15:00:00'
+date: '2019-8-15 13:00:00'
 cover: 'franklin.jpg'
 category: update
 ---
