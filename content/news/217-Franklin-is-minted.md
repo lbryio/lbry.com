@@ -2,7 +2,7 @@
 author: brinck-slattery
 title: 'Franklin Has Been Minted'
 date: '2019-8-15 13:00:00'
-cover: 'franklin.png'
+cover: 'Franklin.png'
 category: update
 ---
 ## LBRY Franklin is out now with an all new video player and much more!
