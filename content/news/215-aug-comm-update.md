@@ -138,6 +138,9 @@ The Noob Team hive has been involved in esports events as well as actively worki
 ![Karolajn vs. Kinder Eggs](https://spee.ch/@lbrynews:0/karolajin.jpg)
 
 #### LBRY.records Hive
+The LBRY.records Hive met in person in Izmir to strategize to launch their own record label utilizing the LBRY protocol for publication. They're also working on a website as a home to promote and market their music.
+
+![LBRY.records Meetup](https://spee.ch/@lbrynews:0/lbryrecords.png)
 
 ### Level 2 Hive Highlights
 
