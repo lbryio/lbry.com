@@ -12,12 +12,6 @@
 
   <section>
     <div class="inner-wrap">
-      <p>Want to join this great group? <a href="/join-us" class="link-primary">See our hiring page</a>.</p>
-    </div>
-  </section>
-
-  <section>
-    <div class="inner-wrap">
       <h2>Leadership</h2>
     </div>
 
@@ -56,10 +50,4 @@
     <?php endforeach ?>
   </section>
 
-  <section>
-    <div class="inner-wrap">
-      <h2>Join Us</h2>
-      <p>Our <a href="/join-us" class="link-primary">hiring page</a> contains information about working at LBRY.</p>
-    </div>
-  </section>
 </main>
