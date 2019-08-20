@@ -13,7 +13,7 @@ Both CPU and GPU hardware can be used for mining, but the current market is domi
 
 The source code, and not this file, is the only true definition of the block rewards. That source file is located here in [`master`]:
 
-[https://github.com/lbryio/lbrycrd/blob/master/src/main.cpp](https://github.com/lbryio/lbrycrd/blob/master/src/main.cpp#L1576)
+[https://github.com/lbryio/lbrycrd/blob/master/src/validation.cpp](https://github.com/lbryio/lbrycrd/blob/master/src/validation.cpp#L1025)
 
 ## Mining Reward Schedule
 
