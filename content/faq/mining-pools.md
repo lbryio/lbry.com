@@ -21,4 +21,4 @@ The current breakdown of mining hash rates can be found on [Mining Pool Stats](h
 - [SuprNova](https://lbry.suprnova.cc/index.php?page=gettingstarted)
 - [CoinMine](https://www2.coinmine.pl/lbc/index.php?page=gettingstarted)
 - [zPool](https://www.zpool.ca/)
-- [NiceHash](https://www.nicehash.com/marketplace/lbry)
+- [NiceHash](https://www.nicehash.com/my/marketplace/LBRY)
