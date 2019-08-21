@@ -10,9 +10,7 @@ The purpose of this FAQ is to answer questions about some of the basic functiona
 
 **Important notes:**
 
-1. We are aware of issues where many videos require to be downloaded fully before being able to play. You also need to leave and come back to the page unfortunately. We'll get this fixed in the next week or two. 
-
-1. LBRY currently saves any content you view to disk, see the [explanation below](#disk). You can use [https://beta.lbry.tv](https://beta.lbry.tv) view without saving today.
+1. By default, LBRY saves any content you view to disk, see the [explanation below](#disk). You can modify this behavior on the Settings page.
 
 2. Rewards are completely optional, you can use LBRY without them. You'll need to acquire LBC to publish, but viewing is free.
 
@@ -54,7 +52,7 @@ The LBRY App is also integrated with [ShapeShift](/faq/shapeshift) on the Get Cr
 Please see the [LBRY directories FAQ page](/faq/lbry-directories) for more information on where LBRY data is stored. Besides the internal LBRY data, you can also configure your LBRY download directory via the option at the top of the Settings page (gear icon in the top right).
 
 ### Why is content downloaded to my PC even when I stream? {#disk}
-LBRY is a decentralized peer to peer protocol, meaning there are no centralized servers or a single entity storing all the files (like YouTube). Instead, data is stored on each participant's computer locally (similar to BitTorrent). When you stream or download, LBRY will store the content in encrypted chunks called [blobs files](/faq/lbry-directories) and seed it to the entire network so others can also download from you. It will also store the completed file in your downloads folder. Currently, there is no way to stop sharing or to store data temporarily, but you can always delete any files you don't want to seed from the LBRY app "Downloads" menu.
+LBRY is a decentralized peer to peer protocol, meaning there are no centralized servers or a single entity storing all the files (like YouTube). Instead, data is stored on each participant's computer locally (similar to BitTorrent). When you stream or download, LBRY will store the content in encrypted chunks called [blobs files](/faq/lbry-directories) and seed it to the entire network so others can also download from you. It will also store the completed file in your downloads folder. You can configure these storage options on the Settings page.
 
 ### I want to share my content, where do I start? {#publish}
 Please refer to our [publishing guide](/faq/how-to-publish) as a reference to assist you through the publishing process.
