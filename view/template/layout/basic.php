@@ -44,6 +44,10 @@
     <meta name="msapplication-TileImage" content="/img/fav/mstile-144x144.png"/>
     <meta name="theme-color" content="#155B4A"/>
 
+    <meta name="twitter:app:name:googleplay" content="LBRY beta"/>
+    <meta name="twitter:app:id:googleplay" content="io.lbry.browser"/>
+    <meta name="twitter:app:url:googleplay" content="https://play.google.com/store/apps/details?id=io.lbry.browser"/>
+
     <!-- Twitter Card data -->
     <meta name="twitter:site" content="@lbryio">
     <meta name="twitter:creator" content="@lbryio">
