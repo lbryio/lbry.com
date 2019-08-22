@@ -44,6 +44,10 @@
     <meta name="msapplication-TileImage" content="/img/fav/mstile-144x144.png"/>
     <meta name="theme-color" content="#155B4A"/>
 
+    <meta name="twitter:card" content="app"/>
+    <meta name="twitter:site" content="@LBRYio"/>
+    <meta name="twitter:description" content="Meet LBRY, a content sharing and publishing platform that is decentralized and owned by its users."/>
+    <meta name="twitter:app:country" content="US"/>
     <meta name="twitter:app:name:googleplay" content="LBRY beta"/>
     <meta name="twitter:app:id:googleplay" content="io.lbry.browser"/>
     <meta name="twitter:app:url:googleplay" content="https://play.google.com/store/apps/details?id=io.lbry.browser"/>
