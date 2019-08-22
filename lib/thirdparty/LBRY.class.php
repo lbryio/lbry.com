@@ -72,6 +72,13 @@ class LBRY
         return Curl::get(static::getApiUrl('/yt/status'), ['status_token' => $status_token], ['json_response' => true]);
     }
 
+    public static function listTags($authToken)
+    {
+        $response = Curl::get(static::getApiUrl('/tag/list'), ['auth_token' => $authToken], ['json_response' => true]);
+        return $response['data'] ?? [];
+    }
+
+
     public static function youtubeReward()
     {
         return CurlWithCache::post(static::getApiUrl('/yt/rewards'), [], ['cache' => 3600, 'json_response' => true]);
