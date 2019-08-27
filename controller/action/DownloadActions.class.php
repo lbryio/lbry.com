@@ -25,14 +25,14 @@ class DownloadActions extends Actions
       $params = [
         'osTitle' => $osTitle,
         'osIcon' => $osIcon,
-        'osScreenshotSrc' => 'https://spee.ch/@lbry:3f/lbrycom-gif.gif',
+        'osScreenshotSrc' => 'https://spee.ch/b/desktop-035-og.jpeg',
         'os' => $os
       ];
 
       if ($os === OS::OS_ANDROID)
       {
         $params['downloadUrl'] = static::ANDROID_STORE_URL;
-        $params['osScreenshotSrc'] = 'https://spee.ch/95ccabb4e73552fada5ef517fc8366e265980cd1/lbry-android-beta.gif';
+        $params['osScreenshotSrc'] = 'https://spee.ch/@lbry:3f/android-08-homepage.gif';
       }
       else
       {
