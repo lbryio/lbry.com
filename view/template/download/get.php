@@ -47,7 +47,7 @@
             loop
             poster="https://spee.ch/f/2019-08-lbry-interface-poster.jpg"
             playsinline
-            style="display: block; margin-right: auto; margin-left: auto; max-width: 500px; "
+            style="display: block; margin-right: auto; margin-left: auto; max-width: 700px; "
           >
             <source src="https://spee.ch/a/2019-08-lbry-interface-webm.webm" type="video/webm"/>
             <source src="https://spee.ch/4/2019-08-lbry-interface.mp4" type="video/mp4"/>
