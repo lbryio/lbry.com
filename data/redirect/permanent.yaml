@@ -112,3 +112,6 @@
 /press-kit.zip:   /press-kit
 /news/tag/events: /roadmap
 # /publish:         /youtube
+
+# Images
+/img/lbry-ui.png:  /img/og-image.png

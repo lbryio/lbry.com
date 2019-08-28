@@ -1,5 +1,5 @@
 <?php Response::setMetaDescription(__('description.get'))  ?>
-<?php Response::addMetaImage(Request::getHostAndProto() . '/img/lbry-ui.png') ?>
+<?php Response::addMetaImage(Request::getHostAndProto() . '/img/og-image.png') ?>
 <?php NavActions::setNavUri('/get') ?>
 
 <main class="ancillary">
