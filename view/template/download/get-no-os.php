@@ -1,6 +1,6 @@
 <?php Response::setMetaDescription(__('description.no-os')) ?>
 <?php Response::setMetaTitle(__('global.get')) ?>
-<?php Response::addMetaImage(Request::getHostAndProto() . '/img/lbry-ui.png') ?>
+<?php Response::addMetaImage(Request::getHostAndProto() . '/img/og-image.png') ?>
 
 <main class="ancillary">
   <section class="hero hero--half-height">
