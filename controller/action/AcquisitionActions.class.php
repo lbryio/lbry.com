@@ -2,6 +2,24 @@
 
 class AcquisitionActions extends Actions
 {
+    public static function executeFollowCampaign(string $claimName)
+    {
+        $claim = ChainQuery::findChannelClaim($claimName);
+
+        if (!$claim || !$claim['source_url']) {
+            Controller::redirect('/');
+        }
+
+        $title = $claim['title'] ?: $claim['name'];
+        $coverUrl = $claim['source_url'];
+        return ['acquisition/follow_campaign', [
+            'claim' => $claim,
+            'claimCount' => ChainQuery::countClaimsInChannel($claim['claim_id']),
+            'title' => $title,
+            'coverUrl' => $coverUrl,
+        ]];
+    }
+
     public static function executeYouTube(string $version = '')
     {
         $errorMessage = Request::getParam('error_message', '');
