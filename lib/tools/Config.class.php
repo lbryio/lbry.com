@@ -6,6 +6,9 @@ class Config
 
     //Constant to help with managing strings
     const IS_PROD = "is_prod";
+    const CHAINQUERY_DSN = 'chainquery_dsn';
+    const CHAINQUERY_USERNAME = 'chainquery_username';
+    const CHAINQUERY_PASSWORD = 'chainquery_password';
     const GITHUB_KEY = "github_key";
     const GITHUB_APP_CLIENT_ID = "github_app_client_id";
     const GITHUB_APP_CLIENT_SECRET = "github_app_client_secret";

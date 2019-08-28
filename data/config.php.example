@@ -1,6 +1,9 @@
 <?php
 
 $config = [];
+// $config[Config::CHAINQUERY_DSN] = '';
+// $config[Config::CHAINQUERY_USERNAME] = '';
+// $config[Config::CHAINQUERY_PASSWORD] = '';
 // $config[Config::GITHUB_KEY] = '';
 // $config[Config::GITHUB_APP_CLIENT_ID] = ''; //optional, increases API rate limit
 // $config[Config::GITHUB_APP_CLIENT_SECRET] = '';

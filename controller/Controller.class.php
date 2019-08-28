@@ -135,6 +135,8 @@ class Controller
         $router->get('/verify/{token}', 'AcquisitionActions::executeVerify');
         $router->get('/verify', 'AcquisitionActions::executeAutoVerify');
 
+        $router->get('/follow/{claim}', 'AcquisitionActions::executeFollowCampaign');
+
 
         $router->get('/news/category/{category}', 'ContentActions::executePostCategoryFilter');
 
