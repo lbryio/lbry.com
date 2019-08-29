@@ -60,6 +60,9 @@ Please refer to our [publishing guide](/faq/how-to-publish) as a reference to as
 ### Where can I see my Downloadeds?
 The downloaded contents can be found on the rightside of the LBRY app under Library.
 
+### How can I delete my Downloads?
+The downloaded contents can be found on the rightside of the LBRY app under Library. Select the item you want to delete, and then click the trash can icon on the file page. We'll be introducing batch deletion options in the near future. 
+
 ### Where can I see my Publishes?
 You can find published items under Publishes on the right side of the LBRY app.
 ![Publish](https://spee.ch/@clem:0/publishes.png)
