@@ -46,7 +46,7 @@
 
     <meta name="twitter:card" content="app"/>
     <meta name="twitter:site" content="@LBRYio"/>
-    <meta name="twitter:description" content="Meet LBRY, a content sharing and publishing platform that is decentralized and owned by its users."/>
+    <meta name="twitter:description" content="<?php echo Response::getMetaDescription() ?>"/>
 
     <?php if ($_SERVER['REQUEST_URI'] === '/' || $_SERVER['REQUEST_URI'] === '/android' || $_SERVER['REQUEST_URI'] === '/get'): ?>
       <meta name="twitter:app:country" content="US"/>
