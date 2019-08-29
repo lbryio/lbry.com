@@ -33,7 +33,7 @@
       <li><a href="mailto:hello@lbry.com" title="Send us an email!">hello@lbry.com</a></li>
       <li><a href="/contact" title="Send us an email!">Contact</a></li>
       <li><a href="/privacypolicy" title="View our Privacy Policy">Privacy</a></li>
-      <li><a href="/termsofservice" title="Terms of Service</a></li>
+      <li><a href="/termsofservice" title="Terms of Service"></a></li>
       <li><a href="/faq" title="Frequently Asked Questions about LBRY">FAQ</a></li>
     </ul>
   </div>
