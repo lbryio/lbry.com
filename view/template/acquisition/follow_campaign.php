@@ -1,8 +1,5 @@
 <?php Response::setMetaDescription('Watch ' . $title . ' on a platform that shares your values.') ?>
 <?php Response::setMetaTitle($title . ' on LBRY') ?>
-<pre>
-    <?php print_r($claim) ?>
-</pre>
 <main class="ancillary">
     <section class="hero hero--half-height" style="background-image: url(<?php echo $coverUrl ?>)">
         <div class="inner-wrap inner-wrap--center-hero">
