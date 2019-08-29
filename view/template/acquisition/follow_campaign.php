@@ -46,7 +46,7 @@
             <h3>Step 2: Search and Follow <?php echo $claim['name'] ?></h3>
             <p>Type <?php echo $claim['name'] ?> in the search bar and then click Follow.</p>
             <div class="align-text--center" style="margin-top: 1rem; margin-bottom: 1rem;">
-                <img src="https://via.placeholder.com/600" alt="How to follow <?php echo $claim['name'] ?> on LBRY" />
+                <img src="https://spee.ch/1/dynamic-searchfollow.gif" alt="How to follow <?php echo $claim['name'] ?> on LBRY" />
             </div>
             <p>If you provide your email address, you'll be notified about every new video.</p>
         </div>
@@ -59,7 +59,7 @@
             <p>If you verify your account, you'll receive free credits that you can send to <?php echo $claim['name'] ?> or other creators.</p>
             <small><em>Having trouble?</em> Read <a href="/faq/rewards">the rewards FAQ</a> for help.</small>
             <div class="align-text--center" style="margin-top: 1rem; margin-bottom: 1rem;">
-                <img src="https://via.placeholder.com/600" alt="How to support <?php echo $claim['name'] ?> on LBRY" />
+                <img src="https://spee.ch/1/dynamic-tip.png" alt="How to support <?php echo $claim['name'] ?> on LBRY" />
             </div>
         </div>
         <br/>
