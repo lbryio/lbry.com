@@ -10,7 +10,7 @@
   </section>
 
   <section>
-    <div class="inner-wrap">
+    <div class="inner-wrap" style="position: relative;">
       <?php echo View::render('mail/_settingsForm', [
         'tags' => $tags,
         'emails' => $emails,
