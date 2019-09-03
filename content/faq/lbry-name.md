@@ -8,7 +8,7 @@ The very first question of newcomers is often, "How do you pronounce it?" Answer
 
 "Is it an acronym?" No.
 
-"Then why confuse people with the all-caps and no vowels?"
+"Then why confuse people with the all-caps and removed vowels?"
 
 First and foremost, LBRY is an internet protocol, just like HTTP. Content on LBRY is served to users via "LBRY names," which look like this: lbry://itsawonderfullife. Very similar to the URL you type into your internet browser. LBRY is not just our branded name, but the character string we've chosen to lead our URIs (Uniform Resource Identifier).
 
