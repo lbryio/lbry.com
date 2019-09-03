@@ -55,7 +55,7 @@
     <section>
         <div class="inner-wrap">
             <h3>Step 3 (Optional): Support <?php echo $claim['name'] ?></h3>
-            <p>Use the Tip button to support <?php echo $claim['name'] ?> and help others discover his content.</p>
+            <p>Use the Tip button to support <?php echo $claim['name'] ?> and help others discover this content.</p>
             <p>If you verify your account, you'll receive free credits that you can send to <?php echo $claim['name'] ?> or other creators.</p>
             <small><em>Having trouble?</em> Read <a href="/faq/rewards">the rewards FAQ</a> for help.</small>
             <div class="align-text--center" style="margin-top: 1rem; margin-bottom: 1rem;">
