@@ -228,9 +228,9 @@
         </figure>
 
         <info>
-          <h3>Rob Smith</h3>
-          <p>Head of Product Growth</p>
-          <a href="mailto:rob@lbry.com?subject=YouTube+Freedom">Contact</a>
+          <h3>Brinck Slattery</h3>
+          <p>Director of Communications</p>
+          <a href="mailto:brinck@lbry.com?subject=YouTube+Freedom">Contact</a>
         </info>
       </div>
     </div>
