@@ -24,7 +24,7 @@
 </div>
 <?php /*
 <div class="control-item no-label-desktop">
-  <form action="/set-culture" method="POST">
+  <form action="/i18n/set-culture" method="POST">
     <select id="language-dropdown" name="culture">
       <?php foreach ($cultures as $culture): ?>
         <option value="<?php echo $culture ?>" <?php echo $culture == $selectedCulture ? 'selected="selected"' : '' ?>>

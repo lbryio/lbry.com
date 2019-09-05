@@ -22,4 +22,13 @@ class i18nActions extends Actions
 
         return Controller::redirect(Request::getReferrer());
     }
+
+    public static function executeServeTranslationFile(string $project, string $resource, string $language)
+    {
+        if (!Transifex::isConfigured()) {
+          throw new Exception('Please set Config::TRANSIFEX_API_KEY in your configuration.');
+        }
+
+        return View::renderJson(Transifex::getTranslationResourceFile($project, $resource, $language));
+    }
 }

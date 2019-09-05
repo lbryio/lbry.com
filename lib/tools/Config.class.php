@@ -15,6 +15,7 @@ class Config
     const GITHUB_PERSONAL_AUTH_TOKEN = 'github_personal_auth_token';
     const LBRY_API_SERVER = "lbry_api_server";
     const MAILCHIMP_KEY = "mailchimp_key";
+    const TRANSIFEX_API_KEY = 'transifex_api_key';
     const AWS_LOG_ACCESS_KEY = "aws_log_access_key";
     const AWS_LOG_SECRET_KEY = "aws_log_secret_key";
     const MAILGUN_API_KEY = "mailgun_api_key";
