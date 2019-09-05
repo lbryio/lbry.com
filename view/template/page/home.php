@@ -21,8 +21,8 @@
             poster="https://spee.ch/f/2019-08-lbry-interface-poster.jpg"
             playsinline
           >
-            <source src="https://spee.ch/a/2019-08-lbry-interface-webm.webm" type="video/webm"/>
-            <source src="https://spee.ch/4/2019-08-lbry-interface.mp4" type="video/mp4"/>
+            <source src="https://spee.ch/0/2019-09-lbry-interface-webm.webm" type="video/webm"/>
+            <source src="https://spee.ch/d/2019-09-lbry-interface-mp4.mp4" type="video/mp4"/>
           </video>
         </a>
       </figure>
