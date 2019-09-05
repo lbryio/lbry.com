@@ -7,6 +7,7 @@
     "ext-xml": "*",
     "ext-pdo": "*",
     "ext-pdo_mysql": "*",
+    "ext-json": "*",
     "leafo/scssphp": "0.7.6",
     "erusev/parsedown": "^1.6",
     "erusev/parsedown-extra": "^0.7.1",

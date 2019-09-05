@@ -12,4 +12,5 @@ $config = [];
 // $config[Config::MAILCHIMP_KEY] = '';
 // $config[Config::AWS_LOG_ACCESS_KEY] = '';
 // $config[Config::AWS_LOG_SECRET_KEY] = '';
+// $config[Config::TRANSIFEX_API_KEY] = '';
 return $config;

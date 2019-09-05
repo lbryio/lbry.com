@@ -137,10 +137,11 @@ class Controller
 
         $router->get('/follow/{claim}', 'AcquisitionActions::executeFollowCampaign');
 
+        $router->get('/i18n/get/{project}/{resource}/{language}.json', 'i18nActions::executeServeTranslationFile');
 
         $router->get('/news/category/{category}', 'ContentActions::executePostCategoryFilter');
 
-        $router->post('/set-culture', 'i18nActions::setCulture');
+        $router->post('/i18n/set-culture', 'i18nActions::setCulture');
 
         $permanentRedirectsPath = ROOT_DIR . '/data/redirect/permanent.yaml';
         $tempRedirectsPath = ROOT_DIR . '/data/redirect/temporary.yaml';
