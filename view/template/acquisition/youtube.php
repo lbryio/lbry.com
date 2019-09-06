@@ -224,7 +224,7 @@
 
       <div class="v-card">
         <figure>
-          <img alt="Rob Smith, Head of Product Growth" src="https://spee.ch/7/rob-smith1.png"/>
+          <img alt="Brinck Slattery, Director of Communications" src="https://spee.ch/@Memes:26/brinck-slattery1.png"/>
         </figure>
 
         <info>
