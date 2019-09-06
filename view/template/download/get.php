@@ -49,8 +49,8 @@
             playsinline
             style="display: block; margin-right: auto; margin-left: auto; max-width: 700px; "
           >
-            <source src="https://spee.ch/0/2019-09-lbry-interface-webm.webm" type="video/webm"/>
-            <source src="https://spee.ch/d/2019-09-lbry-interface-mp4.mp4" type="video/mp4"/>
+            <source src="https://spee.ch/b/2019-09-lbry-interface-webm-2.webm" type="video/webm"/>
+            <source src="https://spee.ch/0/2019-09-lbry-interface-mp4-2.mp4" type="video/mp4"/>
           </video>
         <?php endif ?>
 
