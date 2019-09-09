@@ -9,7 +9,7 @@
   </section>
 
   <section>
-    <div class="inner-wrap">
+    <div class="inner-wrap" style="position: relative;">
       <?php if ($confirmSuccess ?? false): ?>
         <?php if (IS_PRODUCTION): ?>
           <?php js_start() ?>

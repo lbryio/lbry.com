@@ -8,7 +8,7 @@
   </section>
 
   <section>
-    <div class="inner-wrap">
+    <div class="inner-wrap" style="position: relative;">
       <?php if ($error ?? false): ?>
       <div class="notice notice-error spacer1"><?php echo $error ?></div>
       <?php else: ?>
