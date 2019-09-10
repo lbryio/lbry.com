@@ -14,7 +14,7 @@ If you want to see a condensed view of what we have completed recently and whatâ
 First off, letâ€™s start with some GitHub stats across all our repos (some of which are internal only to LBRY) since our last update (~40 days):  
 36 repos were updated. 617 issues were created, 146 were closed. 18 PRs were merged. 30 GitHub users made code contributions: AlessandroSpallina, Borewit, BrannonKing, Feanor78, NetOperatorWibby, akinwale, btzr-io, bvbfan, ceoger, dittaeva, eggplantbren, eukreign, finer9, jackrobison, jessopb, jsigwart, kauffj, lbrynaut, lyoshenka, nestordominguez, nikooo777, osilkin98, sayplastic, seanyesmunt, shyba, tiger5226, tzarebczan, vv181, ykris45, zxawry.
  
-# In this report {#dev-updates}, we cover updates for: 
+# In this report, we cover updates for {#dev-updates}
 * [Desktop App](#summary-desktop) 
 * [SDK](#summary-sdk) 
 * [Blockchain](#blockchain)
