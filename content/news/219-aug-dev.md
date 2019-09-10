@@ -166,6 +166,8 @@ The result is pretty fascinating and closes the last loop in the sync process: Y
 ### Community Block Explorer {#explorer}
 A community member by the name of [Allesandro Spallina](https://github.com/AlessandroSpallina) became interested in the LBRY ecosystem and wanted to implement a more modern and full featured block explorer that exposes important metrics of the LBRY blockchain. You can check out his [GitHub issue](https://github.com/lbryio/block-explorer/issues/67) outlining what he plans on developing or you can go straight to the explorer prototype at [lbryexplorer.tech](https://lbryexplorer.tech/) to give it a shot We’d appreciate any feedback on the GitHub issue and current prototype - you can leave a comment on GitHub or reach out on [Discord](https://chat.lbry.com) #dev channel by tagging @SK3LA.
 
+![explorer](https://spee.ch/f/explorer-new.png)
+
 ### 2019 Roadmap {#roadmap}
 We’ve successfully accomplished a number of roadmap items fully, while others are partially complete and ongoing efforts. See our [previous development report](https://lbry.com/news/jun-july-dev) on updates for completed ones. 
 
