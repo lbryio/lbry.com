@@ -1,5 +1,5 @@
 ---
-author: samuel-bryan
+author: samuel-lbryian
 title: 'LBRY Blockchain Update'
 date: '2019-9-10 09:00:00'
 cover: 'blockchaintech.jpg'
