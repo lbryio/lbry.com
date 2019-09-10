@@ -9,7 +9,7 @@
 
   <section>
     <div class="inner-wrap">
-      <p>Through September 1st, 2019, LBRY has received:</p>
+      <p>Through October 1st, 2019, LBRY has received:</p>
 
       <ul>
         <li>Zero National Security Letters</li>
