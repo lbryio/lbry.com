@@ -14,9 +14,10 @@ If you want to see a condensed view of what we have completed recently and what�
 First off, let’s start with some GitHub stats across all our repos (some of which are internal only to LBRY) since our last update (~40 days):  
 36 repos were updated. 617 issues were created, 146 were closed. 18 PRs were merged. 30 GitHub users made code contributions: AlessandroSpallina, Borewit, BrannonKing, Feanor78, NetOperatorWibby, akinwale, btzr-io, bvbfan, ceoger, dittaeva, eggplantbren, eukreign, finer9, jackrobison, jessopb, jsigwart, kauffj, lbrynaut, lyoshenka, nestordominguez, nikooo777, osilkin98, sayplastic, seanyesmunt, shyba, tiger5226, tzarebczan, vv181, ykris45, zxawry.
  
-# In this report{#dev-updates}, we cover updates for: 
+# In this report {#dev-updates}, we cover updates for: 
 * [Desktop App](#summary-desktop) 
 * [SDK](#summary-sdk) 
+* [Blockchain](#blockchain)
 * [LBRY.tv](#web)
 * [LBRY for Android](#android)
 * [Rewards](#rewards)
@@ -24,7 +25,6 @@ First off, let’s start with some GitHub stats across all our repos (some of wh
 * [YouTube Sync Transfers](#youtube)
 * [LBRY Reflector](#reflector)
 * [Community Block Explorer](#explorer)
-* [Blockchain](#blockchain)
 * [2019 Roadmap Progress](#roadmap)
 
 ### Desktop App {#summary-desktop}
@@ -62,6 +62,17 @@ The main features include treating multiple accounts inside a wallet to effectiv
 During testing of the [YouTube transfer](#youtube) process, we ran into a snag with our how channel import/export process was designed, especially when the channel itself is transferred from one wallet to another which prevented both sides (YouTube Sync and the Content Creator) from signing claims. Progress has been made to support a short term solution for both cases, and we expect a resolution soon. Besides this bug, we are also looking into any remaining wallet syncing / connectivity problems, one affecting content announcement, and another that may cause memory leaks on some machines. If you think your node has suffered from either, please give us a shout on [Discord](https://chat.lbry.com). 
 
 Finally, we’ve also been researching and began initial implementation of a technique called holepunching, which will improve connectivity between nodes -- especially for those behind firewalls and atypical network configurations. This may alleviate the need for port forwarding, but nodes that can do port forwarding will be encouraged to leave it on. We expect this to increase our overall network availability and performance.  
+
+### Blockchain {#blockchain}
+Since our last update, the LBRY blockchain continues their work towards being able to enable SegWit later this year, optimizing memory usage, revamping RPC calls to include bid (allow us to show pending effective amounts during takeovers) and sequence (which was removed in a previous update), and enabling metadata along with claims supports. Support metadata will enable us to expand the support/tipping feature of LBRY, which currently only allows simple LBC transactions to occur, to include additional metadata that can be used for signing the supports to prove channel ownership and enabling use cases like commenting, rating, and subscriptions on chain. Signing of supports will finally give us the ability to link a channel back to a tip transaction, so publishers can see and verify who sent LBC (or even a support). On chain subscriptions also help further decentralize data you can only fine on our API currently, and enable a Patreon like system where creators can release content that’s accessible only by their supports / at various support/tip levels.   
+
+#### Forced Upgrade - Pre 0.17.2 Nodes Go Offline
+On August 16, 2019, the LBRY chain experienced an unexpected fork between the current version of lbrycrd (v0.17.2) and previous versions. Block height of the fork: 617743. We might have favored the older build, but older versions of lbrycrd would crash when receiving data from the newer version after that block. v0.17.1 was able to proceed down its own chain, but there was little mining power behind this;  the main pools were already mining with majority of hash on the correct (v0.17.2) chain. Everything is back to normal currently on the latest release/chain, and we’ll continue to monitor. If you are still running a pre 0.17.2 node, please delete local 
+
+Read [our blog post](https://lbry.com/news/lbry-blockchain-update) for the entire executive summary of the incident. 
+
+#### How to Recover a Pre 0.17.2 Node
+Please upgrade your LBRYcrd node to the latest version on our [GitHub release page](https://github.com/lbryio/lbrycrd/releases/tag/v0.17.2.1). After you’ve run it, perform the following CLI command: `lbrycrd-cli reconsiderblock b9a350fa8b4471c46cb2088927ac5e959939c815e7d98e8125f099b902e96a62` to get back up to speed. The other option would be to clear our your local data and resync from scratch.
 
 ### LBRY.tv {#web}
 Over the last few months, we’ve been running a view only pilot of [beta.lbry.tv](https://beta.lbry.tv) meaning you can view free content, but many of the other features like wallets, rewards, and publishing have been disabled. We’ve also created/ran stress tests on lbry.tv to make sure the web server and underlying SDK can handle thousands of concurrent users. In order to scale to even more users in the future, we will need to need to run multiple web and SDK servers.
@@ -124,17 +135,6 @@ After a recent increase in volume of published content we had to optimize such i
 
 ### Community Block Explorer {#explorer}
 A community member by the name of [Allesandro Spallina](https://github.com/AlessandroSpallina) became interested in the LBRY ecosystem and wanted to implement a more modern and full featured block explorer that exposes important metrics of the LBRY blockchain. You can check out his [GitHub issue](https://github.com/lbryio/block-explorer/issues/67) outlining what he plans on developing or you can go straight to the explorer prototype at [lbryexplorer.tech](https://lbryexplorer.tech/) to give it a shot We’d appreciate any feedback on the GitHub issue and current prototype - you can leave a comment on GitHub or reach out on [Discord](https://chat.lbry.com) #dev channel by tagging @SK3LA.
-
-### Blockchain {#blockchain}
-Since our last update, the LBRY blockchain continues their work towards being able to enable SegWit later this year, optimizing memory usage, revamping RPC calls to include bid (allow us to show pending effective amounts during takeovers) and sequence (which was removed in a previous update), and enabling metadata along with claims supports. Support metadata will enable us to expand the support/tipping feature of LBRY, which currently only allows simple LBC transactions to occur, to include additional metadata that can be used for signing the supports to prove channel ownership and enabling use cases like commenting, rating, and subscriptions on chain. Signing of supports will finally give us the ability to link a channel back to a tip transaction, so publishers can see and verify who sent LBC (or even a support). On chain subscriptions also help further decentralize data you can only fine on our API currently, and enable a Patreon like system where creators can release content that’s accessible only by their supports / at various support/tip levels.   
-
-#### Forced Upgrade - Pre 0.17.2 Nodes Go Offline
-On August 16, 2019, the LBRY chain experienced an unexpected fork between the current version of lbrycrd (v0.17.2) and previous versions. Block height of the fork: 617743. We might have favored the older build, but older versions of lbrycrd would crash when receiving data from the newer version after that block. v0.17.1 was able to proceed down its own chain, but there was little mining power behind this;  the main pools were already mining with majority of hash on the correct (v0.17.2) chain. Everything is back to normal currently on the latest release/chain, and we’ll continue to monitor. If you are still running a pre 0.17.2 node, please delete local 
-
-Read [our blog post](https://lbry.com/news/lbry-blockchain-update) for the entire executive summary of the incident. 
-
-#### How to Recover a Pre 0.17.2 Node
-Please upgrade your LBRYcrd node to the latest version on our [GitHub release page](https://github.com/lbryio/lbrycrd/releases/tag/v0.17.2.1). After you’ve run it, perform the following CLI command: `lbrycrd-cli reconsiderblock b9a350fa8b4471c46cb2088927ac5e959939c815e7d98e8125f099b902e96a62` to get back up to speed. The other option would be to clear our your local data and resync from scratch.
 
 ### 2019 Roadmap Update {#roadmap}
 We’ve successfully accomplished a number of roadmap items fully, while others are partially complete and ongoing efforts. See our [previous development report](https://lbry.com/news/jun-july-dev) on updates for completed ones. 
