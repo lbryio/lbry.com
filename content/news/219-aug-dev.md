@@ -180,14 +180,15 @@ Partially completed/still in progress are:
 * **Internationalization** - ongoing internationalization enhancements are in progress on Desktop.
 * **Protocol Performance** - improved download performance in 0.39 releases. Holepunching research in progress.
 
+# Limited Reward Code!
+We’ve got a special bonus for readers of this update, enjoy some LBC via this code (while supplies last!): `dev-update-aug-jkala`
+
 # Want to Develop on the LBRY ecosystem?
 All of our code is open source and available on [GitHub](https://github.com/lbryio). Are you a developer and want to find out more? Check out our [contributing guide](https://lbry.tech/contribute) and our [LBRY App specific contributing document](https://github.com/lbryio/lbry-app/blob/master/CONTRIBUTING.md). Make sure you have turned on the Developer option in your email preferences (see app overview page), or sign up at [lbry.tech](https://lbry.tech). We also have a [LBRY Discourse Forum](https://discourse.lbry.io) where developers can interact with the team and ask questions across all our different projects. 
 
 If you aren’t part of our Discord community yet, [join us](https://chat.lbry.com) anytime and say hello! 
 
 Our community allows LBRYians to interact with the team directly and for us to engage users in order to grow the LBRY platform. Also follow us on [Twitter](https://twitter.com/lbryio), [Facebook](https://facebook.com/lbryio), [Reddit](https://www.reddit.com/r/lbry), [BitcoinTalk](https://bitcointalk.org/index.php?topic=5116826.new#new), and [Telegram](https//t.me/lbryofficial). 
-
-We’ve got a special bonus for readers of this update, enjoy some LBC via this code (while supplies last!): `dev-update-aug-jkala`
 
 Thanks for supporting LBRY - stay tuned for more news and updates! And if you haven’t downloaded the [LBRY app](https://lbry.io/get?auto=1) yet, what are you waiting for?
 
