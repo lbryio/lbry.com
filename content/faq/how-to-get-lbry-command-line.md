@@ -1,5 +1,5 @@
 ---
-title: How do I get LBRY for development?
+title: How do I install LBRY for development and contributing?
 category: powerusers
 ---
 
