@@ -12,7 +12,7 @@ To read previous updates, please visit our [Development and Community Update arc
 If you want to see a condensed view of what we have completed recently and what’s planned for LBRY, check out our [Roadmap](https://lbry.io/roadmap).
 
 First off, let’s start with some GitHub stats across all our repos (some of which are internal only to LBRY) since our last update about 40 days ago:  
-36 repos were updated. 617 issues were created, 146 were closed. 18 pull requests were merged. 30 GitHub users outside of LBRY made code contributions, including: 
+36 repos were updated. 617 issues and pull requests were created, 146 were closed. 18 pull requests were merged. 30 GitHub users outside of LBRY made code contributions, including: 
 - [AlessandroSpallina](https://github.com/AlessandroSpallina)
 - [Borewit](https://github.com/Borewit)
 - [btzr-io](https://github.com/btzr-io)
@@ -42,22 +42,22 @@ Thanks to everyone who took time out of their busy days to help LBRY out!
 Since our last development update, the app team shipped our next named release, 0.35, under codename [Franklin](https://lbry.com/news/franklin-is-minted) as well as a few patches. Franklin enhances the app experience with a brand new [videojs-based](https://github.com/videojs/video.js) video player.
 
 Other new features in Franklin include:
-- the ability to continue watching videos in pop out mode
-- support of range requests (streaming)
-- the ability to block channels app-wide
+- The ability to continue watching videos in pop out mode
+- Support of range requests (streaming)
+- The ability to block channels app-wide
 
 The patch releases included some new features: 
-- all new features added to the SDK between version 0.38.5 and 0.40, including improved wallet sync behavior, download speeds, and overall connectivity ([more details below](#summary-sdk))
-- tipping on channel pages (which gets sent to the channel claim, as opposed to content claims on file pages)
-- ability to set the time period for dark mode
-- improvements to the display of URLs (now has the [canonical URL](https://lbry.tech/glossary#canonical-url) which uses both channel and claim short IDs)
-- support for a new daily watch reward that went live on September 10th (replacing the weekly LBRYCast)
+- All new features added to the SDK between version 0.38.5 and 0.40, including improved wallet sync behavior, download speeds, and overall connectivity ([more details below](#summary-sdk))
+- Tipping on channel pages (which gets sent to the channel claim, as opposed to content claims on file pages)
+- Ability to set the time period for dark mode
+- Improvements to the display of URLs (now has the [canonical URL](https://lbry.tech/glossary#canonical-url) which uses both channel and claim short IDs)
+- Support for a new daily watch reward that went live on September 10th (replacing the weekly LBRYCast)
 
 The patches fixed many bugs, including:
-- issues with bid amounts required on the publish page (did not show vanity URL bids),
-- auto-downloading subscription content
-- search bar focus getting stuck
-- disabling autoplay on paid content
+- Issues with bid amounts required on the publish page (did not show vanity URL bids),
+- Auto-downloading subscription content
+- Search bar focus getting stuck
+- Disabling autoplay on paid content
 - DMCA blocking to include entire channels
 
 We also updated our digital certificate for Windows builds which is an annual maintenance task. We'll explore a better solution for this down the road. 
@@ -81,11 +81,11 @@ Another area that continues to get attention is internationalization. You may ha
 On the SDK side of the house, we’ve shipped versions 0.39, with patches, and 0.40.0 with a recent patch. You can review all the changelogs on our [GitHub releases page](https://github.com/lbryio/lbry-sdk/releases). 
 
 The main features include:
-- treating multiple accounts inside a wallet to effectively be treated as one (missing a few API calls, to be completed soon) 
+- Treating multiple accounts inside a wallet to effectively be treated as one (missing a few API calls, to be completed soon) 
 - ability to connect and synchronize transactions with multiple wallet servers (see screenshot below) which improves wallet sync speed and paves the way to interfacing with community wallet servers 
-- wallet server monitoring tools to include session information / logging of troublesome claim search queries 
-- a key value store which will be the final location of synced LBRY data. 
-- added a new function for comments that allows channel owners to moderate comments by hiding them (to be implemented in the app in the next few months)
+- Wallet server monitoring tools to include session information / logging of troublesome claim search queries 
+- A key value store which will be the final location of synced LBRY data. 
+- Added a new function for comments that allows channel owners to moderate comments by hiding them (to be implemented in the app in the next few months)
 
 On SDK startup, we now ping all the wallet servers and select the best main one to connect to based on the peer’s location. The ability to connect/sync with multiple servers proved to be more troublesome than expected, we experienced and fixed reconnection issues which should be resolved with the [0.40.1 patch](https://github.com/lbryio/lbry-sdk/releases/tag/v0.40.1). 
 
