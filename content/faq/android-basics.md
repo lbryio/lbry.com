@@ -68,7 +68,7 @@ Scroll down in the Wallet menu to find recent transactions, or click `View All` 
 
 The LBRY wallet is different from other wallets - it also stores your shared content's metadata in the form of [claims](/faq/naming) when using the publishing features.
 
-### How do I Publish content?
+### How do I Publish content? {#publish}
 
 1. Tap on the 3 horizontal bars on the upper left side of the app next to the Search bar.
 
