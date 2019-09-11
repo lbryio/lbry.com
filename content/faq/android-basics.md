@@ -53,9 +53,9 @@ The LBRY Android App comes with its own wallet and is stored locally on your pho
 
 If you do not opt for the [wallet sync program](https://lbry.com/faq/how-to-backup-wallet#sync), it is critical that you backup your own wallet locally or else the credits will be lost. 
 
-To find your wallet in the LBRY Android app, click on the 3 horizontal bars at the upper left side of the app next to `Discovery`. Clicking on it will open a sidebar and then click on Wallet. This will open the Wallet page which shows your wallet address, balance and recent transactions.
+To find your wallet in the LBRY Android app, click on the 3 horizontal bars at the upper left side of the app next to the Search bar. Clicking on it will open a sidebar and then click on Wallet. This will open the Wallet page which shows your wallet address, balance and recent transactions.
 
-![Find wallet](https://spee.ch/b3535b68750ad69c48566cb028c67d323d1fdeb9/walli.jpg)
+![Find wallet](https://spee.ch/f/wallet-option.jpg)
 
 ### Where Do I Find My LBC Wallet Address?
 
@@ -66,51 +66,54 @@ Scroll down in the Wallet menu to find recent transactions, or click `View All` 
 
 ![Recent tx](https://spee.ch/daa89fcca6411ad2505cdc6e092fcaf4f22f4802/recent1.jpg)
 
-The LBRY wallet is different from other wallets - it also stores your shared content's metadata in the form of [claims](/faq/naming) when using the [publishing features](/faq/how-to-publish).
+The LBRY wallet is different from other wallets - it also stores your shared content's metadata in the form of [claims](/faq/naming) when using the publishing features.
+
+### How do I Publish content?
+
+1. Tap on the 3 horizontal bars on the upper left side of the app next to the Search bar.
+
+2. Select the option for `New publish`
+
+![Click the Publish Button](https://spee.ch/d/publish-button.png)
+
+3. Choose the option for publishing your content either by recording a live video, taking a picture or picking a file from your gallery.
+
+![Choose an option]https://spee.ch/4/chooses.png)
+
+4. Enter a `Title` and `Description` for your content.
+
+5. Next you can add tags to your content which will help categorize it for [discovery purposes](https://lbry.com/faq/trending). If it's intended for mature audiences, please add the pink `mature` tag. Next, determine any other tags that relate to the content you are publishing. Please be mindful of accuracy when tagging content as this is currently up to the publisher only and cannot be edited. If incorrect/inappropriate tags are used, your content may be filtered to provide a better user experience. In the future, this will be done through community voting and building a web of trust. 
+
+![publish process](https://spee.ch/1/pub4.png)
+
+6. You have the option to select/create the channel you would like to publish the content under. If no channel is selected, it will be posted anonymously.
+
+![Select Channel or Anonymous](https://spee.ch/c/chan-anonym.png)
+
+7.Under the `Price`, first, determine if you want to make your content free or set a price in LBC per view.
+
+8. Type in the URL you want the content to be found under, along with a minimum of 0.00000001 LBC deposit for the upload (default amount is higher due to publishing fees). If you are trying to outbid a user-friendly/common URL, the system will suggest a minimum bid to take over the content at that vanity URL. There may be a delay for this takeover. Making your bid higher will result in (better discovery)[https://lbry.com/faq/trending) for your content. For more details regarding the URL or bid, check out our [naming document](/faq/naming).
+
+![Video URL and Deposit](https://spee.ch/8/video-url.png)
+
+
+
+9. Next, there is `Show extra fields` which gives you an option to select language and license. Default language is set to `English`, and the License is set to `None`.  If a change is needed, click the dropdown menus and select the appropriate choice.
+
+*please review our terms of service before publishing [terms of service](/termsofservice)
+
+Click `Publish`.
+
+The file will process in the background and will be added to the LBRY Blockchain. It is a good idea to leave LBRY open for a while after this to make sure the app is able to share your file to at least one peer on the data network. Larger files will take longer to upload depending on your network speed.
+
 
 Claim related [wallet transactions](/faq/transaction-types) ensure that the blockchain uniquely identifies your content and the payment/tips can be routed appropriately.
 
-### How Do I Claim Weekly LBRYcast Rewards In The Android App? {#lbrycastrewards}
+### How Do I Claim Rewards In The Android App? {#rewards}
 
-1. On the Discover page, Play/Download any of the first 10 videos with the badge icon on it.
-
-![bagdeicon](https://spee.ch/4176685c4fd51d31f623430d6ac17e9949ecab39/badge.jpg)
-
-2. After clicking on the video to play/download, the reward should be claimed automatically. If not, go into the Menu > Rewards and you will see the LBRY cast reward on the first. Tap the round circle to claim your reward.
-
-![walleticon](https://spee.ch/beceef63dbf682cd1ed1ebdbee9b1845de10959b/swipe.gif)
-
-To claim any other reward, you just have to click on the round circle next to the reward to claim.
-
-![claimreward](https://spee.ch/d706d5965b7befa4b1de02e71739ff5c948071c0/claim.jpg)
+You'll receive daily random rewards just for watching the videos you love! All you need to do is open your LBRY app and start watching. Comeback everyday for a different reward.Incase for some reason the reward does not show up in your wallet after watching a video everyday, go to rewards and click on the daily rewards.
 
 To check whether your wallet is updated, you need to swipe your screen to show the menu bar, click on Wallet and you will see your overall updated balance. Check [How to Backup Your Wallet](/faq/how-to-backup-wallet)
-
-### How Do I Delete Downloaded Content In The LBRY Android App? {#deletecontents}
-
-To delete any content downloaded, you first need to open the content.
-To find where the Downloaded contents are:
-
-1. Swipe your phone screen from left to right to reveal the menu.
-
-![My LBRY](https://spee.ch/6467e4d3ce5a151f92c481bdd527ba9a44ee5954/myLBRY.jpg)
-
-2. Tap on `My LBRY`, Depending on the contents you have downloaded/watched it should come up like this with the stats of how much
-storage the contents have consumed:
-
-![MyLBRY Contents](https://spee.ch/8e067e5f5e65b97e77f9dc2f526f2a3196ec88ad/mylin.jpg)
-
-3. Tap the content you would like to delete and then once it's open, you should see a trash can icon.
-
-![bin](https://spee.ch/424e2150c7d03231c966634ba6307b019b6654e6/delete.jpg)
-
-Click on the bin icon and confirm deletion if you still want to delete the content.
-
-![delete](https://spee.ch/7411547d0aea6da1b0c765151c4ffd0e30b2c9fd/delete1.jpg)
-
-Right after the content is deleted, you should see the same content showing on the app screen, if you click on it, it will start the download again.
-
-To delete additional content, please follow the same steps until you delete all the contents you do not need on your phone. We'll be improving this to allow for easier deletion multiple content at the same time.
 
 ### How Do I Enable Background Media Playback? {#backgroundmediaplayback}
 
