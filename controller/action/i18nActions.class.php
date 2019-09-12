@@ -29,8 +29,11 @@ class i18nActions extends Actions
             throw new Exception('Please set Config::TRANSIFEX_API_KEY in your configuration.');
         }
 
-        Response::setHeader(Response::HEADER_CROSS_ORIGIN, "*");
+        $json = Transifex::getTranslationResourceFile($project, $resource, $language);
 
-        return View::renderJson(Transifex::getTranslationResourceFile($project, $resource, $language));
+        Response::setHeader(Response::HEADER_CROSS_ORIGIN, "*");
+        Response:setHeader(Response::HEADER_ETAG, md5(static::getContent($json)));
+
+        return View::renderJson($json);
     }
 }

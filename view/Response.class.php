@@ -192,11 +192,6 @@ class Response
     ]));
     }
 
-    public static function setContentEtag()
-    {
-        static::setHeader(static::HEADER_ETAG, md5(static::getContent()));
-    }
-
     public static function enableHttpCache(int $seconds = 300)
     {
         static::addCacheControlHeader('max-age', $seconds);
