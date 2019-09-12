@@ -26,8 +26,10 @@ class i18nActions extends Actions
     public static function executeServeTranslationFile(string $project, string $resource, string $language)
     {
         if (!Transifex::isConfigured()) {
-          throw new Exception('Please set Config::TRANSIFEX_API_KEY in your configuration.');
+            throw new Exception('Please set Config::TRANSIFEX_API_KEY in your configuration.');
         }
+
+        Response::setHeader(Response::HEADER_CROSS_ORIGIN, "*");
 
         return View::renderJson(Transifex::getTranslationResourceFile($project, $resource, $language));
     }
