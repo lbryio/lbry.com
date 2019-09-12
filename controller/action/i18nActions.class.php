@@ -32,7 +32,7 @@ class i18nActions extends Actions
         $json = Transifex::getTranslationResourceFile($project, $resource, $language);
 
         Response::setHeader(Response::HEADER_CROSS_ORIGIN, "*");
-        Response:setHeader(Response::HEADER_ETAG, md5(static::getContent($json)));
+        Response::setHeader(Response::HEADER_ETAG, md5(static::getContent($json)));
 
         return View::renderJson($json);
     }
