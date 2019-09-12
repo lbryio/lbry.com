@@ -12,9 +12,9 @@ Another common cause of this issue is the lack of access to UDP port 4444. LBRY 
 
 1. Shutdown LBRY and lbrynet-daemon (check running processes using Task Manager on Windows or Activity Monitor on Mac OS.)
 2. Go to your [lbrynet folder](/faq/lbry-directories).
-3. If you have a `daemon_settings.yml` file, add this line to it at the end (44444 is an example, can be changed): `dht_node_port: 44444`.
+3. If you have a `daemon_settings.yml` file, add this line to it at the end (4444 is an example, can be changed): `dht_node_port: 4444`.
 4. If you don't have the `daemon_settings.yml` file, you can create one or download/copy [this sample](https://goo.gl/a5uJq5) into the `lbrynet` folder.
 5. Start LBRY and try to download a couple of items from the homepage. Be patient, if it doesn't work, leave the page and try again or a different video.
-6. Depending on your network, you may need UDP port 44444 (the new port you just set up) forwarded. Also, for file sharing to work properly, you may need TCP port 3333 open/forwarded. This can be verified by using a [port checker tool](http://www.canyouseeme.org) on port 3333. Port 44444 will fail since it's UDP.
+6. Depending on your network, you may need UDP port 4444 (the new port you just set up) forwarded. Also, for file sharing to work properly, you may need TCP port 3333 open/forwarded. This can be verified by using a [port checker tool](http://www.canyouseeme.org) on port 3333. Port 4444 will fail since it's UDP.
 
 If you continue to experience issues streaming/downloading content after completing the above steps, please [reach out to us](/faq/how-to-report-bugs) for additional support.
