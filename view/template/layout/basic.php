@@ -39,38 +39,40 @@
     <link rel="alternate" type="application/rss+xml" title="LBRY News" href="<?php echo ContentActions::URL_NEWS . '/' . ContentActions::SLUG_RSS ?>"/>
     <?php endif ?>
 
+    <meta property="og:description" content="<?php echo Response::getMetaDescription() ?>"/>
+    <?php foreach (Response::getMetaImages() as $image): ?>
+        <meta property="og:image" content="<?php echo $image ?>"/>
+        <meta property="og:image:height" content="1125"/>
+        <meta property="og:image:width" content="2000"/>
+    <?php endforeach ?>
+    <meta property="og:site_name" content="LBRY"/>
+    <meta property="og:title" content="<?php echo $title ?>"/>
+    <meta property="og:type" content="article"/>
+
     <meta name="description" content="<?php echo Response::getMetaDescription() ?>"/>
     <meta name="msapplication-TileColor" content="#155B4A"/>
     <meta name="msapplication-TileImage" content="/img/fav/mstile-144x144.png"/>
     <meta name="theme-color" content="#155B4A"/>
 
+    <meta name="twitter:site" content="@lbryio"/>
+    <meta name="twitter:creator" content="@lbryio"/>
     <meta name="twitter:card" content="app"/>
-    <meta name="twitter:site" content="@LBRYio"/>
     <meta name="twitter:description" content="<?php echo Response::getMetaDescription() ?>"/>
+    <?php if (Response::getMetaImages()): ?>
+        <?php $url = reset(Response::getMetaImages()) ?>
+        <meta name="twitter:image" content="<?php echo $url ?>" />
+    <?php endif ?>
 
-    <?php if ($_SERVER['REQUEST_URI'] === '/' || $_SERVER['REQUEST_URI'] === '/android' || $_SERVER['REQUEST_URI'] === '/get'): ?>
+    <?php if (in_array($_SERVER['REQUEST_URI'], ['/', '/android', '/get'])): ?>
       <meta name="twitter:app:country" content="US"/>
       <meta name="twitter:app:name:googleplay" content="LBRY beta"/>
       <meta name="twitter:app:id:googleplay" content="io.lbry.browser"/>
       <meta name="twitter:app:url:googleplay" content="https://play.google.com/store/apps/details?id=io.lbry.browser"/>
     <?php endif ?>
 
-    <!-- Twitter Card data -->
-    <meta name="twitter:site" content="@lbryio">
-    <meta name="twitter:creator" content="@lbryio">
 
     <meta property="fb:app_id" content="1673146449633983"/>
 
-    <!-- Open Graph data -->
-    <meta property="og:description" content="<?php echo Response::getMetaDescription() ?>"/>
-    <?php foreach (Response::getMetaImages() as $image): ?>
-    <meta property="og:image" content="<?php echo $image ?>"/>
-    <meta property="og:image:height" content="1125"/>
-    <meta property="og:image:width" content="2000"/>
-    <?php endforeach ?>
-    <meta property="og:site_name" content="LBRY"/>
-    <meta property="og:title" content="<?php echo $title ?>"/>
-    <meta property="og:type" content="article"/>
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <base target="_parent"/>
