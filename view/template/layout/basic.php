@@ -56,7 +56,6 @@
 
     <meta name="twitter:site" content="@lbryio"/>
     <meta name="twitter:creator" content="@lbryio"/>
-    <meta name="twitter:card" content="app"/>
     <meta name="twitter:description" content="<?php echo Response::getMetaDescription() ?>"/>
     <?php if (Response::getMetaImages()): ?>
         <?php $url = reset(Response::getMetaImages()) ?>
@@ -64,10 +63,13 @@
     <?php endif ?>
 
     <?php if (in_array($_SERVER['REQUEST_URI'], ['/', '/android', '/get'])): ?>
+      <meta name="twitter:card" content="app"/>
       <meta name="twitter:app:country" content="US"/>
       <meta name="twitter:app:name:googleplay" content="LBRY beta"/>
       <meta name="twitter:app:id:googleplay" content="io.lbry.browser"/>
       <meta name="twitter:app:url:googleplay" content="https://play.google.com/store/apps/details?id=io.lbry.browser"/>
+    <?php else: ?>
+      <meta name=”twitter:card” content=”summary_large_image”>
     <?php endif ?>
 
 
