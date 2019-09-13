@@ -3,7 +3,7 @@ title: What are LBRY Rewards?
 category: getstarted
 ---
 
-To provide a rich user experience and to [distribute](/faq/credit-policy) LBRY Credits (LBC) into the hands of new and returning users, LBRY created a Rewards system where credits are earned by completing tasks throughout the application. Rewards are given to promote application testing, learning certain in-app skills, building the LBRY economy through purchasing and publishing content, and as a small "thank you" gift for being part of a revolutionary digital media platform. For qualified users, Rewards are issued automatically by the LBRY app into each users' [LBRY wallet](/faq/how-to-backup-wallet). **Note: There is a limit of 3 Reward redemptions per day**.
+To provide a rich user experience and to [distribute](/faq/credit-policy) LBRY Credits (LBC) into the hands of new and returning users, LBRY created a Rewards system where credits are earned by completing tasks throughout the application. Rewards are given to promote application testing, learning certain in-app skills, building the LBRY economy through purchasing and publishing content, and as a small "thank you" gift for being part of a revolutionary digital media platform. For qualified users, Rewards are issued automatically by the LBRY app into each users' [LBRY wallet](/faq/how-to-backup-wallet). **Note: There is a limit of 5 Reward redemptions per day**.
 
 ![rewardslist](https://spee.ch/@clem:0/rewardslist.png)
 
@@ -18,9 +18,9 @@ In order to be eligible for LBRY Rewards, users must have an approved account vi
 | **Go for a Stream** | 4 LBC | Rewarded for streaming your very first video on LBRY.
 | **Channel Surfing** | 6 LBC | A one-time reward for creating a channel on LBRY via the Publish screen.
 | **First Publish** | 10 LBC | A one-time reward for publishing your first piece of content to LBRY
+| **Daily View** | 1- 100 LBC | A random daily reward from 1 to 100 LBC, resets every 24 hours! 
 | **Many Views** | 2- ???? LBC | A multi-level reward for watching videos on LBRY. See descriptions in-app for levels/details!
 | **Sub Sandwich** | 1 -2 LBC | A multi-level reward for subscribing to channels.
-| **Weekly LBRYCast** | 10 LBC | A weekly award for checking out featured content on LBRY. This content is marked with the red rocket logo and will be announced via email, recurring weekly.
 | **Welcome Back** | 6 LBC | Return to the LBRY app 24-48 hours following your first use of the app. This reward will self-destruct after that time span.
 | **Android in Beta** | 20 LBC | Limited time reward for early Android Beta testers.
 | **Upgrade** | 10 LBC | Rewarded each time the LBRY app updates versions (i.e. 0.27 to 0.28).
