@@ -17,23 +17,23 @@ The folder will be highlighted, so just double click to open and here you will s
 Navigate to the **About** page and use the **Send Logs** button at the bottom. You can email them to [help@lbry.com](mailto:help@lbry.com) 
 
 ### Find Logs Manually {#manual}
-## Windows
+#### Windows
 1. Open File Explorer (Keyboard shortcut: Windows Key + E).
 2. Type `%localappdata%\lbry\lbrynet` (or `%appdata%\lbrynet` if you originally installed v0.14 or earlier) into the address bar and click Enter.
 3. Here you will see the `lbrynet.log` file and any archives.
 
-## MacOS
+#### MacOS
 1. Open Finder.
 2. Click Go in the top menu and choose "Go To Folder".
 3. Type "~/Library/Application Support/LBRY" and then click go.
 4. Here you will see the `lbrynet.log` file and any archives.
 
-## Ubuntu / Linux *(Exact steps may differ slightly)*
+#### Ubuntu / Linux *(Exact steps may differ slightly)*
 1. Navigate to your home directory. Ensure hidden files and folders are shown if using a graphical file explorer.
 2. Navigate to the `.local/share/lbry/lbrynet` folder (or `~/.lbrynet` if you originally installed v0.14 or earlier).
 3. Here you will see the `lbrynet.log` file and any archives.
 
-## Android *(Exact steps may differ slightly)*
+#### Android *(Exact steps may differ slightly)*
 1. Launch your favorite file explorer.
 2. Navigate to `Internal storage\android\data\io.lbry.browser->files\lbrynet`.
 3. Here you will see the `lbrynet.log` file and any archives.
