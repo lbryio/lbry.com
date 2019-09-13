@@ -15,6 +15,23 @@ class DownloadActions extends Actions
         return Controller::redirect(GitHub::getRepoReleaseUrl($repo, OS::getOsForExtension($ext), $allowPrerelease) ?: '/get', 302);
     }
 
+    public static function executeDownloadSnapshot(string $type)
+    {
+        if (!in_array($type, ['blockchain', 'wallet'])) {
+          return ['page/404'];
+        }
+
+        $bucketName = "snapshots.lbry.com";
+        $bucket = S3::getBucket($bucketName, "$type/");
+
+        if (!count($bucket)) {
+          return ['page/404'];
+        }
+
+        ksort($bucket);
+
+        return Controller::redirect("http://$bucketName/" . array_keys($bucket)[0], 302);
+    }
     /*
      * this is a quick fix to add android, prob not proper design
      */

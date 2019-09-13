@@ -143,6 +143,8 @@ class Controller
 
         $router->post('/i18n/set-culture', 'i18nActions::setCulture');
 
+        $router->get('/snapshot/{type}', 'DownloadActions::executeDownloadSnapshot');
+
         $permanentRedirectsPath = ROOT_DIR . '/data/redirect/permanent.yaml';
         $tempRedirectsPath = ROOT_DIR . '/data/redirect/temporary.yaml';
 
