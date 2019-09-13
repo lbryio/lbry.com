@@ -28,7 +28,7 @@ class DownloadActions extends Actions
           return ['page/404'];
         }
 
-        ksort($bucket);
+        krsort($bucket);
 
         return Controller::redirect("http://$bucketName/" . array_keys($bucket)[0], 302);
     }
