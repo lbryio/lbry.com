@@ -5,6 +5,8 @@ category: troubleshooting
 
 In certain cases, we may ask you to send us your log file(s). The current log file is titled `lbrynet.log` (or just `lbrynet` if you have file extensions hidden) and is archived each time the files reaches 2MB. Older log files are copied to `lbrynet.log.<#>`. Typically only the lbrynet.log file is required, but we may ask for the others depending on the situation. Since each Operating System has its own set of working directories, use the below guide in order to locate the log file(s).
 
+[Find my logs without opening the app](#manual)
+
 **lbrynet.log files may contain your IP address. While sharing this is not inherently dangerous, if you desire maximum privacy, please mask it before posting to public websites.**
 
 ### Find Logs via the LBRY App
