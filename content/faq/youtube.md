@@ -42,16 +42,16 @@ You can delete this channel and any content you published using the transactions
 
 You won't see your content in the LBRY app under `Publishes` nor have control of the channel until LBRY transfers control of the synced content to you. We're actively working on an automated process for this which will be ready by the end of the northern hemisphere summer. However, your content will be accessible through the LBRY Desktop app and [LBRY.tv](https://beta.lbry.tv) (see the links in your sync email). If you have over 50K subscribers and want to do this via a manual process, see the [wallet claim page](https://lbry.com/claim-wallet)
 
-### What's the difference between Sync and Transfer?
+### What's the difference between Sync and Transfer? {#transfer}
 
 When a channel is synced, it means the content has been mirrored to LBRY and available on the network for anyone to view. YouTubers will get an email once this is completed. The transfer process is described in the important notice above, which is the final step of sending the channel and content to the YouTuber's wallet so they can publish/control the content. This last step is still being actively developed and we'll let you know via email once the content is ready to be transferred. Until then, you won't see the channel/content in your Publishes section, nor be able to publish as that channel outside of the YouTube sync process. 
 
 Feature | Sync | Transfer |
 :------------ | :-------------| :-------------|
-Your Youtube publishes will be synced | :heavy_check_mark: |  :heavy_check_mark: |
-You have access to content and channel LBC from tips | :x: |  :heavy_check_mark: |
-Your content shows up in the app under your Publishes | :x: |  :heavy_check_mark: |
-You are responsible for keeping your wallet safe | :x: |  :heavy_check_mark: |
-You can use the app to publish to the channel | :x: |  :heavy_check_mark: |
+Your Youtube publishes will be synced | yes |  yes |
+You have access to content and channel LBC from tips | no |  yes |
+Your content shows up in the app under your Publishes | no |  yes |
+You are responsible for keeping your wallet safe | no |  yes |
+You can use the app to publish to the channel | no |  yes |
 
 If you're having any trouble with the sync process or receiving your credits, please contact [help@lbry.com](mailto:help@lbry.com).
