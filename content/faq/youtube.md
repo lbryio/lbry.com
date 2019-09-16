@@ -46,5 +46,12 @@ You won't see your content in the LBRY app under `Publishes` nor have control of
 
 When a channel is synced, it means the content has been mirrored to LBRY and available on the network for anyone to view. YouTubers will get an email once this is completed. The transfer process is described in the important notice above, which is the final step of sending the channel and content to the YouTuber's wallet so they can publish/control the content. This last step is still being actively developed and we'll let you know via email once the content is ready to be transferred. Until then, you won't see the channel/content in your Publishes section, nor be able to publish as that channel outside of the YouTube sync process. 
 
+Feature | Sync | Transfer |
+:------------ | :-------------| :-------------|
+Your Youtube publishes will be synced | :heavy_check_mark: |  :heavy_check_mark: |
+You have access to content and channel LBC from tips | :x: |  :heavy_check_mark: |
+Your content shows up in the app under your Publishes | :x: |  :heavy_check_mark: |
+You are responsible for keeping your wallet safe | :x: |  :heavy_check_mark: |
+You can use the app to publish to the channel | :x: |  :heavy_check_mark: |
 
 If you're having any trouble with the sync process or receiving your credits, please contact [help@lbry.com](mailto:help@lbry.com).
