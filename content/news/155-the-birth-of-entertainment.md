@@ -1,7 +1,7 @@
 ﻿---
 author: brinck-slattery
 title: 'The Birth Of Entertainment'
-date: '2020-11-17 14:00:00'
+date: '2018-01-17 15:30:00'
 cover: 'muses.jpg'
 category: content
 ---
