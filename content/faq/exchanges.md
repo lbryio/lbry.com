@@ -7,7 +7,7 @@ We are listed on several exchanges. You can buy or sell LBRY Credits at one of t
 
 ### Traditional Exchanges
 - [Bittrex](https://bittrex.com/Market/Index?MarketName=BTC-LBC)
-- [Poloniex](https://poloniex.com/exchange#btc_lbc)
+- [Poloniex](https://poloniex.com/exchange#btc_lbc) (Currently in maintenance, working with Poloniex team to fix)
 - [Upbit](https://upbit.com/exchange?code=CRIX.UPBIT.BTC-LBC)
 - [Instant Bitex](https://instantbitex.com)
 - [Coinspot](https://www.coinspot.com.au/buy/lbc)
@@ -15,7 +15,7 @@ We are listed on several exchanges. You can buy or sell LBRY Credits at one of t
 
 ### Instant Exchanges
 - [Shapeshift](https://shapeshift.io) (Currently unavailable, ShapeShift working on it. Requires free membership account now)
-- [Changelly](https://changelly.com/exchange/BTC/LBC/1)
+- [Changelly](https://changelly.com/exchange/BTC/LBC/1) (Currently unavailable)
 - [ChangeNow](https://changenow.io/exchange?amount=1&from=btc&to=lbc)
 - [Simple Swap](https://simpleswap.io)
 - [Stealthex](https://stealthex.io/)
