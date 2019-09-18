@@ -68,7 +68,6 @@ class MailActions extends Actions
             $response['error'] = "This email link is invalid. If you clicked this from an older email it may have been expired for security purposes. Please email help@lbry.com for a valid one.";
         }
         $responseData = $response['data'] ?? [];
-
         return ['mail/settings', [
           'emails' => $responseData['emails'] ?? [],
           'tags' => $responseData['tags'] ?? [],
@@ -79,19 +78,45 @@ class MailActions extends Actions
 
     public static function prepareSettingsFormPartial(array $vars)
     {
-        $tags = LBRY::listTags($vars['token']);
-        $tagMetadata = [];
-        $specialDisplayNames = [
-            'ios' => 'iOS'
-        ];
-        foreach($tags as $tag) {
-            if ($tag['is_user_addable']) {
-                $tagMetadata[$tag['name']] = [
-                    'label' => $specialDisplayNames[$tag['name']] ?? ucwords(str_replace(['-', '_'], ' ', $tag['name'])),
-                    'description' => $tag['description']
-                ];
-            }
-        }
-        return $vars + ['tagMetadata' => $tagMetadata];
+        return $vars + [
+        'tagMetadata' => [
+           '3d-printing' => [
+              'label' => '3D Printing',
+              'description' => 'Receive updates, tips, and new content suggestions related to 3D Printing.'
+           ],
+          'android' => [
+            'label' => 'Android',
+            'description' => 'Be an Android beta tester, earn LBC, and receive notification when the app goes live!'
+          ],
+          'college' => [
+            'label' => 'University',
+            'description' => 'LBRY has special programs and opportunities for people in school.'
+          ],
+          'creator' => [
+            'label' => 'Creator',
+            'description' => 'Get the most out of the stuff you create with tips and feedback from LBRY.'
+          ],
+          'consumer' => [
+            'label' => 'Content Lover',
+            'description' => 'Learn how to get the most out of LBRY as someone who just wants to find cool stuff.'
+          ],
+          'developer' => [
+            'label' => 'Developer',
+            'description' => 'Receive technical updates and other news intended for those who are familiar with software engineering.'
+          ],
+          'ios' => [
+            'label' => 'iPhone',
+            'description' => 'Be an iOS alpha tester, earn LBC, and receive notification when the app goes live!'
+          ],
+          'reward' => [
+            'label' => 'Rewards',
+            'description' => 'Receive emails about the latest rewards that are available to LBRY users.'
+          ],
+          'subscription' => [
+            'label' => 'Subscriptions',
+            'description' => 'Stay up to date on the latest content from your favorite creators.'
+          ],
+         ]
+      ];
     }
 }
