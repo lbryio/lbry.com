@@ -26,7 +26,7 @@
         <?php $emailId = 'email_' . (++$emailIndex) ?>
         <checkbox-element>
           <input id="<?php echo $emailId ?>" name="<?php echo $emailId ?>" type="checkbox"<?php echo $enabled ? " checked" : "" ?> value="<?php echo urlencode($email) ?>"/>
-          <label for="<?php echo $emailId ?>"><?php echo $email ?></label>
+          <label for="<?php echo $emailId ?>"><?php echo count($emails) > 1 ? $email : __('Yes') . ' (' . $email . ')' ?></label>
           <checkbox-toggle/>
         </checkbox-element>
       <?php endforeach ?>
@@ -39,21 +39,24 @@
 
       <?php $tagIndex = 0 ?>
       <?php foreach ($tags as $tag => $enabled): ?>
-        <?php if (!isset($tagMetadata[$tag])) {
-    continue;
-}  //fix/kill this?>
+        <?php if (!isset($tagMetadata[$tag])) continue; ?>
         <?php $tagId = 'tag_' . (++$tagIndex) ?>
-        <checkbox-element>
-          <input id="<?php echo $tagId ?>" name="<?php echo $tagId ?>" type="checkbox"<?php echo $enabled ? " checked" : "" ?> value="<?php echo urlencode($tag) ?>"/>
-          <label for="<?php echo $tagId ?>">
-            <?php echo isset($tagMetadata[$tag]['label']) ? $tagMetadata[$tag]['label'] : $tag ?>
-            <?php if (isset($tagMetadata[$tag]['description'])): ?>
-              <span class="meta">&middot; <?php echo $tagMetadata[$tag]['description'] ?></small>
-            <?php endif ?>
-          </label>
-          <checkbox-toggle/>
-        </checkbox-element>
+        <div>
+            <checkbox-element>
+              <input id="<?php echo $tagId ?>" name="<?php echo $tagId ?>" type="checkbox"<?php echo $enabled ? " checked" : "" ?> value="<?php echo urlencode($tag) ?>"/>
+              <label for="<?php echo $tagId ?>">
+                <?php echo isset($tagMetadata[$tag]['label']) ? $tagMetadata[$tag]['label'] : $tag ?>
+                <?php if (isset($tagMetadata[$tag]['description'])): ?>
+                  <span class="meta">&middot; <?php echo $tagMetadata[$tag]['description'] ?></small>
+                <?php endif ?>
+              </label>
+              <checkbox-toggle/>
+            </checkbox-element>
+        </div>
       <?php endforeach ?>
+      <?php if ($tagIndex === 0): ?>
+          <div class="notice notice-error"><?php echo __('Something went wrong. Please email help@lbry.com') ?></div>
+      <?php endif ?>
     </section>
   </form>
 <?php endif ?>
