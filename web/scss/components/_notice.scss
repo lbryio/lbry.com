@@ -9,13 +9,10 @@
 }
 
 .notice {
-  top: -0.5rem; right: 0;
 
   border: 1px solid var(--lbry-gray-1);
   font-size: 0.8rem;
-  // margin-bottom: 0.5rem;
   padding: 0.5rem 0.75rem;
-  position: absolute;
 
   [href] {
     text-decoration: underline;

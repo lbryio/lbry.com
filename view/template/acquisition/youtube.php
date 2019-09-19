@@ -55,7 +55,7 @@
       <p hidden id="lbry_error" class="error-block">YouTube channel name is either not valid (only letters, numbers and - allowed, no spaces) or your input is blank</p>
 
       <h2>Connect with your fans while earning money and rewards</h2>
-
+        <div class="notice notice-error" style="margin-bottom: 1em; margin-top: 1em;">YouTube sync is temporarily disabled.</div>
       <form id="youtube_claim" method="post" action="/youtube/token">
         <p hidden id="sync-status" class="sync-status"></p>
 
@@ -70,6 +70,7 @@
           <input
             onClick="return submitDetailsForm()"
             type="submit"
+            disabled="disabled"
             value="Claim now"
           />
         </input-submit>
@@ -207,6 +208,7 @@
       <br/>
 
       <div>
+          <div class="notice notice-error" style="margin-bottom: 1em; margin-top: 1em;">YouTube sync is temporarily disabled.</div>
         <button
           class="button button--inverse"
           data-id="scroll-to-claim"
