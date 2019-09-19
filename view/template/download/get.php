@@ -6,7 +6,7 @@
   <section class="hero hero--half-height">
     <div class="inner-wrap inner-wrap--center-hero">
       <h1>
-        <?php echo __('download.for-os2', ['%os%' => OS::OS_DETAIL($os)[5]]) ?>
+        <?php echo __('download.for-os2', ['%os%' => OS::OS_DETAIL($os)[4]]) ?>
       </h1>
     </div>
   </section>

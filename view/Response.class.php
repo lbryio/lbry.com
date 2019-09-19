@@ -71,7 +71,7 @@ class Response
 
     public static function getMetaTitle()
     {
-        return static::$metaTitle;
+        return trim(static::$metaTitle);
     }
 
     public static function guessMetaTitle($content)
@@ -82,11 +82,11 @@ class Response
             if ($headerValue == '1' || !$title) {
                 $title = $titleMatches[2][$matchIndex];
                 if ($headerValue == '1') {
-                    return $title;
+                    return trim($title);
                 }
             }
         }
-        return $title;
+        return trim($title);
     }
 
     public static function getJsCalls()

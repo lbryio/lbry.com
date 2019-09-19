@@ -20,7 +20,7 @@ class OS
             'Android',
             'icon-android',
             false,
-            false,
+            "Android",
             "<span class='icon-android icon-fw'></span> Android"
           ];
 
@@ -30,7 +30,7 @@ class OS
             'iOS',
             'icon-mobile',
             false,
-            false,
+            "iOS",
             "<span class='icon-ios icon-fw'></span> iOS"
           ];
 
