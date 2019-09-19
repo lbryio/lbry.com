@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi"/>
 
     <?php $title = Response::getMetaTitle() ?: Response::guessMetaTitle($content) ?>
+    <?php $images = Response::getMetaImages() ?>
     <?php $title = $title ?
       $title . (strpos($title, 'LBRY') === false ? ' - LBRY' : '') :
       'LBRY' ?>
@@ -40,7 +41,7 @@
     <?php endif ?>
 
     <meta property="og:description" content="<?php echo Response::getMetaDescription() ?>"/>
-    <?php foreach (Response::getMetaImages() as $image): ?>
+    <?php foreach ($images as $image): ?>
         <meta property="og:image" content="<?php echo $image ?>"/>
         <meta property="og:image:height" content="1125"/>
         <meta property="og:image:width" content="2000"/>
@@ -57,8 +58,8 @@
     <meta name="twitter:site" content="@lbryio"/>
     <meta name="twitter:creator" content="@lbryio"/>
     <meta name="twitter:description" content="<?php echo Response::getMetaDescription() ?>"/>
-    <?php if (Response::getMetaImages()): ?>
-        <?php $url = reset(Response::getMetaImages()) ?>
+    <?php if ($images): ?>
+        <?php $url = reset($images) ?>
         <meta name="twitter:image" content="<?php echo $url ?>" />
     <?php endif ?>
 
