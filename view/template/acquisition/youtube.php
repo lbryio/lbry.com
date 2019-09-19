@@ -54,7 +54,7 @@
 
       <p hidden id="lbry_error" class="error-block">YouTube channel name is either not valid (only letters, numbers and - allowed, no spaces) or your input is blank</p>
 
-      <h2>Connect with your fans while earning money and rewards</h2>
+      <h2>Connect with your fans while earning rewards</h2>
       <form id="youtube_claim" method="post" action="/youtube/token">
         <p hidden id="sync-status" class="sync-status"></p>
 
