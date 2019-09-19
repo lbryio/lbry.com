@@ -58,7 +58,8 @@
     <meta name="twitter:creator" content="@lbryio"/>
     <meta name="twitter:description" content="<?php echo Response::getMetaDescription() ?>"/>
     <?php if (Response::getMetaImages()): ?>
-        <?php $url = reset(Response::getMetaImages()) ?>
+        <?php $images = Response::getMetaImages() ?>
+        <?php $url = reset($images) ?>
         <meta name="twitter:image" content="<?php echo $url ?>" />
     <?php endif ?>
 

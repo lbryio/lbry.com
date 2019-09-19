@@ -21,6 +21,13 @@ class LBRY
         return $response['data']['lbc_usd'] ?? 0;
     }
 
+    public static function listTags($authToken)
+    {
+      echo $authToken;
+      $response = Curl::get(static::getApiUrl('/tag/list'), ['auth_token' => $authToken], ['json_response' => true]);
+      return $response['data'] ?? [];
+    }
+
     public static function subscribe($email, $tag = null)
     {
         return Curl::post(static::getApiUrl('/list/subscribe'), array_filter([
