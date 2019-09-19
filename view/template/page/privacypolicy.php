@@ -83,7 +83,8 @@
       <p>Occasionally, at our discretion, we may include or offer third-party products or services on our website. These third-party sites have separate and independent privacy policies. We therefore have no responsibility or liability for the content and activities of these linked sites. Nonetheless, we seek to protect the integrity of our site and welcome any feedback about these sites.</p>
 
       <p><strong>Google</strong></p>
-
+      <p> As part of LBRY Creator Verification, we will only use read-only access to verify the ownership of YouTube channels and will not transfer this data to others unless doing so is necessary to comply with applicable law, or as part of a merger, acquisition, or sale of assets.<p>
+      
       <p>Google's advertising requirements can be summed up by Google's Advertising Principles. They are put in place to provide a positive experience for users. <code>https://support.google.com/adwordspolicy/answer/1316548?hl=en</code></p>
 
       <p>We use Google AdSense Advertising on our website.</p>
@@ -211,7 +212,7 @@
         <p>
       </blockquote>
 
-      <small>Last edited on 2018-04-28</small>
+      <small>Last edited on 2019-19-09</small>
       <br/><br/><br/>
     </div>
   </section>
