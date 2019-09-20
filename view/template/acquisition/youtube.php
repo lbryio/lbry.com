@@ -206,7 +206,6 @@
       <br/>
 
       <div>
-          <div class="notice notice-error" style="margin-bottom: 1em; margin-top: 1em;">YouTube sync is temporarily disabled.</div>
         <button
           class="button button--inverse"
           data-id="scroll-to-claim"
