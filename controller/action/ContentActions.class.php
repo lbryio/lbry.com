@@ -28,27 +28,27 @@ class ContentActions extends Actions
 
     public static function executeHome(): array
     {
-        Response::enableHttpCache();
+        Response::enablePublicImmutableCache();
         return ['page/home'];
     }
 
     //
     public static function executeOrg(): array
     {
-        Response::enableHttpCache();
+        Response::enablePublicImmutableCache();
         return ['page/org'];
     }
 
     public static function executeTv(): array
     {
-        Response::enableHttpCache();
+        Response::enablePublicImmutableCache();
         return ['page/tv'];
     }
     //
 
     public static function executeNews(string $slug = null): array
     {
-        Response::enableHttpCache();
+        Response::enablePublicImmutableCache();
 
         if (!$slug || $slug == static::SLUG_RSS) {
             $posts = array_filter(
@@ -90,7 +90,7 @@ class ContentActions extends Actions
 
     public static function executeFaq(string $slug = null): array
     {
-        Response::enableHttpCache();
+        Response::enablePublicImmutableCache();
 
         if (!$slug) {
             $allPosts = Post::find(static::VIEW_FOLDER_FAQ, Post::SORT_ORD_ASC);
@@ -139,7 +139,7 @@ class ContentActions extends Actions
 
     public static function executeCreditReports(string $year = null, string $month = null): array
     {
-        Response::enableHttpCache();
+        Response::enablePublicImmutableCache();
 
         $posts = Post::find(static::VIEW_FOLDER_CREDIT_REPORTS);
 
@@ -150,7 +150,7 @@ class ContentActions extends Actions
 
     public static function executeCreditReport(string $year = null, string $quarter = null): array
     {
-        Response::enableHttpCache();
+        Response::enablePublicImmutableCache();
 
         try {
             $post = Post::load(static::SLUG_CREDIT_REPORTS . '/' . $year . '-Q' . $quarter);
@@ -172,7 +172,7 @@ class ContentActions extends Actions
 
     public static function executeBounty(string $slug = null): array
     {
-        Response::enableHttpCache();
+        Response::enablePublicImmutableCache();
 
 
 
@@ -276,7 +276,7 @@ class ContentActions extends Actions
 //
 //        $zip->close();
 //
-//        Response::enableHttpCache();
+//        Response::enablePublicImmutableCache();
 //        Response::setDownloadHttpHeaders($zipFileName, 'application/zip', filesize($zipPath));
 //
 //        return ['internal/zip', [
@@ -320,7 +320,7 @@ class ContentActions extends Actions
     }
     public static function executePostCategoryFilter(string $category)
     {
-        Response::enableHttpCache();
+        Response::enablePublicImmutableCache();
 
         $filter_post = [];
 

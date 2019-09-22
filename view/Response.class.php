@@ -6,7 +6,6 @@ class Response
     const HEADER_LOCATION = 'Location';
 
     const HEADER_CACHE_CONTROL = 'Cache-Control';
-    const HEADER_LAST_MODIFIED = 'Last-Modified';
     const HEADER_ETAG          = 'Etag';
 
     const HEADER_CONTENT_TYPE         = 'Content-Type';
@@ -26,7 +25,9 @@ class Response
     ],
     'css' => ['/css/all.css']
   ];
-    protected static $headers = [];
+    protected static $headers = [
+      'Cache-Control' => 'private, no-cache'
+    ];
     protected static $headersSent = false;
     protected static $content = '';
     protected static $contentSent = false;
@@ -192,30 +193,23 @@ class Response
     ]));
     }
 
-    public static function enableHttpCache(int $seconds = 300)
+    //public immutable cache = hard-caching (no server checks) until time limit passes
+    public static function enablePublicImmutableCache(int $seconds = 300)
     {
-        static::addCacheControlHeader('max-age', $seconds);
-        static::setHeader('Pragma', 'public');
+      static::setHeader(static::HEADER_CACHE_CONTROL, 'public, max-age=' . $seconds);
     }
 
-    public static function addCacheControlHeader(string $name, $value = null)
+    //public mutable cache = soft-caching (requires at least one round trip for headers) as long as etag identifier matches
+    public static function enablePublicMutableCache(string $etag)
     {
-        $cacheControl   = static::getHeader(static::HEADER_CACHE_CONTROL);
-        $currentHeaders = [];
-        if ($cacheControl) {
-            foreach (preg_split('/\s*,\s*/', $cacheControl) as $tmp) {
-                $tmp                     = explode('=', $tmp);
-                $currentHeaders[$tmp[0]] = $tmp[1] ?? null;
-            }
-        }
-        $currentHeaders[strtr(strtolower($name), '_', '-')] = $value;
+      static::setHeader(static::HEADER_CACHE_CONTROL, 'public, no-cache');
+      static::setHeader(static::HEADER_ETAG, $etag);
+    }
 
-        $headers = [];
-        foreach ($currentHeaders as $key => $currentVal) {
-            $headers[] = $key . ($currentVal !== null ? '=' . $currentVal : '');
-        }
-
-        static::setHeader(static::HEADER_CACHE_CONTROL, implode(', ', $headers));
+    //always reload and re-execute this resource, disable any local or intermediary caching
+    public static function disableHttpCache()
+    {
+      static::setHeader(static::HEADER_CACHE_CONTROL, 'private, no-cache, no-store');
     }
 
     public static function setHeader($name, $value)

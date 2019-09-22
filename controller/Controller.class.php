@@ -173,7 +173,7 @@ class Controller
                 return static::redirect('/' . strtolower($slug), 301);
             }
             if (View::exists('page/' . $slug)) {
-                Response::enableHttpCache();
+                Response::enablePublicImmutableCache();
                 return ['page/' . $slug, []];
             } else {
                 return NavActions::execute404();

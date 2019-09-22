@@ -36,16 +36,19 @@ class AcquisitionActions extends Actions
 
     public static function executeVerify(string $token)
     {
+        Response::disableHttpCache();
         return ['acquisition/verify', ['token' => $token]];
     }
 
     public static function executeAutoVerify()
     {
+        Response::disableHttpCache();
         return ['acquisition/auto-verify'];
     }
 
     public static function executeYoutubeToken()
     {
+        Response::disableHttpCache();
         $channelName = Request::encodeStringFromUser($_POST['desired_lbry_channel_name']);
         $immediateSync = (boolean)$_POST['immediate_sync'];
 
@@ -65,6 +68,7 @@ class AcquisitionActions extends Actions
 
     public static function executeYoutubeStatus(string $token)
     {
+        Response::disableHttpCache();
         $data = LBRY::statusYoutube($token);
 
         if (!$data['success']) {

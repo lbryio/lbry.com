@@ -51,6 +51,7 @@ class MailActions extends Actions
 
     public static function executeUnsubscribe(string $email)
     {
+        Response::disableHttpCache();
         $decodedEmail = Encoding::base64DecodeUrlsafe(urldecode($email));
         if (!$decodedEmail) {
             return ['mail/unsubscribe', ['error' => 'Invalid unsubscribe link']];
@@ -62,6 +63,7 @@ class MailActions extends Actions
 
     public static function editEmailSettings(string $token)
     {
+        Response::disableHttpCache();
         list($status, $headers, $response) = LBRY::emailStatus($token);
         if ($status == 403) {
             //Catch 403 to return elegant error message.

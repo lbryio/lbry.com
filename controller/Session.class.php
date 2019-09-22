@@ -16,11 +16,18 @@ class Session
     {
         ini_set('session.cookie_secure', IS_PRODUCTION); // send cookie over ssl only
         ini_set('session.cookie_httponly', true); // no js access to cookies
+
         session_start();
 
+        /*
+         * session_start automatically adds headers because lolphp, let's remove them and handle it ourselves
+         */
+        header_remove('cache-control');
+        header_remove('pragma');
+        header_remove('expires');
 
         if (!static::get('secure_and_httponly_set')) {
-            session_regenerate_id(); // ensure that old cookies get new settings
+          session_regenerate_id(); // ensure that old cookies get new settings
         }
         static::set('secure_and_httponly_set', true);
 
