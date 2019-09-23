@@ -31,6 +31,10 @@ class i18nActions extends Actions
 
         $json = Transifex::getTranslationResourceFile($project, $resource, $language);
 
+        if (!$json) {
+            return NavActions::execute404();
+        }
+
         Response::setHeader(Response::HEADER_CROSS_ORIGIN, "*");
         Response::enablePublicMutableCache(md5(json_encode($json)));
 
