@@ -31,7 +31,6 @@ class Response
     protected static $headersSent = false;
     protected static $content = '';
     protected static $contentSent = false;
-    protected static $isHeadersOnly = false;
     protected static $gzipResponseContent = true;
     protected static $metaImages = [];
     protected static $facebookAnalyticsType = "PageView";
@@ -145,8 +144,21 @@ class Response
 
     public static function send()
     {
+        $status = static::getHeader(static::HEADER_STATUS);
+        $sendContent = true;
+        if ((!$status || $status === 200) &&
+          static::getHeader(static::HEADER_ETAG) &&
+          Request::getHttpHeader('If-None-Match', null) === static::getHeader(static::HEADER_ETAG)
+        ) {
+            static::setHeader(static::HEADER_STATUS, 304);
+            $sendContent = false;
+        }
+
         static::sendHeaders();
-        static::sendContent();
+
+        if ($sendContent) {
+            static::sendContent();
+        }
     }
 
     public static function setContent(string $content)
@@ -165,16 +177,9 @@ class Response
             throw new LogicException('Content has already been sent. It cannot be sent twice');
         }
 
-        if (!static::$isHeadersOnly) {
-            echo static::$content;
-        }
+        echo static::$content;
 
         static::$contentSent = true;
-    }
-
-    public static function setIsHeadersOnly(bool $isHeadersOnly = true)
-    {
-        static::$isHeadersOnly = $isHeadersOnly;
     }
 
     public static function setDownloadHttpHeaders($name, $type = null, $size = null, $noSniff = true)
@@ -196,20 +201,20 @@ class Response
     //public immutable cache = hard-caching (no server checks) until time limit passes
     public static function enablePublicImmutableCache(int $seconds = 300)
     {
-      static::setHeader(static::HEADER_CACHE_CONTROL, 'public, max-age=' . $seconds);
+        static::setHeader(static::HEADER_CACHE_CONTROL, 'public, max-age=' . $seconds);
     }
 
     //public mutable cache = soft-caching (requires at least one round trip for headers) as long as etag identifier matches
     public static function enablePublicMutableCache(string $etag)
     {
-      static::setHeader(static::HEADER_CACHE_CONTROL, 'public, no-cache');
-      static::setHeader(static::HEADER_ETAG, $etag);
+        static::setHeader(static::HEADER_CACHE_CONTROL, 'public');
+        static::setHeader(static::HEADER_ETAG, $etag);
     }
 
     //always reload and re-execute this resource, disable any local or intermediary caching
     public static function disableHttpCache()
     {
-      static::setHeader(static::HEADER_CACHE_CONTROL, 'private, no-cache, no-store');
+        static::setHeader(static::HEADER_CACHE_CONTROL, 'private, no-cache, no-store');
     }
 
     public static function setHeader($name, $value)
