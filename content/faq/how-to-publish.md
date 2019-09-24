@@ -19,7 +19,9 @@ If you don't have LBRY yet, download it [here](/get).
 
 2. Under the `Publish` section, click `Choose File`.
 
-3. On your local machine, select the content you wish to upload to LBRY. LBRY accepts any HTML5 format for video streaming; the full list can be found [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats). This means a web-optimized MP4 file is the best format. Other file types can also be uploaded, but won't be streamable via the LBRY app.
+3. On your local machine, select the content you wish to upload to LBRY. For video content, LBRY works best with MP4 files in H264/AAC format which support proper streaming.  Besides videos, other popular formats supported are MP3s, text documents like markdown (md)/HTML, PDF, CSV, and comic books (cbr, cbz). In the future, the in app player may support additional formats. 
+
+Other file types can also be uploaded, but won't be streamable via the LBRY app directly. They can be opened externally for viewing. 
 
 4. Enter a `Title` and `Description` for your content. Click on advanced Editor if you will like to add some markdown text otherwise leave it as default and put your title and description.
 
@@ -119,7 +121,7 @@ In the future, we will add more of these types of statistics to LBRY.
 
 ### My video doesn't stream in the app, what's wrong?
 
-The in-app video player's streaming capabilities are limited to MP4 files which are web-optimized (metadata is contained at the front of the file). If it's not web-optimized, the MP4 file will still play in the app, but the entire file will need to be downloaded first. AVI/WMV/MOV file formats are also not supported by the in-app player. They can be shared/downloaded but will need to be played externally.
+The in-app video player's streaming capability works best with the H264/AAC format, typically in a MP4 container but others like M4V will also work. Other non-streaming video types like AVI/WMV/MOV file formats are not supported by the in-app player, but they can be shared/downloaded and will play outside of the app. 
 
 ### I shared my URL, but others can't download it. What's going on?
 
