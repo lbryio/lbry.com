@@ -63,7 +63,7 @@
         <meta name="twitter:image" content="<?php echo $url ?>" />
     <?php endif ?>
 
-    <?php if (in_array($_SERVER['REQUEST_URI'], ['/', '/android', '/get'])): ?>
+    <?php if (in_array($_SERVER['REQUEST_URI'], ['/android', '/get'])): ?>
       <meta name="twitter:card" content="app"/>
       <meta name="twitter:app:country" content="US"/>
       <meta name="twitter:app:name:googleplay" content="LBRY beta"/>
