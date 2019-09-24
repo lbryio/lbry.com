@@ -70,9 +70,9 @@
       <meta name="twitter:app:name:googleplay" content="LBRY beta"/>
       <meta name="twitter:app:id:googleplay" content="io.lbry.browser"/>
       <meta name="twitter:app:url:googleplay" content="https://play.google.com/store/apps/details?id=io.lbry.browser"/>
+      <meta name="twitter:image" content="https://lbry.com/img/og-image.png?'.uniqid()." />
     <?php else: ?>
       <meta name=”twitter:card” content=”summary_large_image”>
-      <meta name="twitter:image" content="https://lbry.com/img/og-image.png?'.uniqid()." />
     <?php endif ?>
 
 
