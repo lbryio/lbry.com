@@ -1,3 +1,12 @@
+<head>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-7620985872686147",
+    enable_page_level_ads: true
+  });
+</script>
+</head>
 <main class="soon">
   <section>
     <h1><strong>lbry.tv</strong> is coming soon</h1>
