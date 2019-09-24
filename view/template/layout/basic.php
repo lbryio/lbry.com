@@ -58,6 +58,7 @@
     <meta name="twitter:site" content="@lbryio"/>
     <meta name="twitter:creator" content="@lbryio"/>
     <meta name="twitter:description" content="<?php echo Response::getMetaDescription() ?>"/>
+    <meta name="twitter:title" content="<?php echo $title ?>" />
     <?php if ($images): ?>
         <?php $url = reset($images) ?>
         <meta name="twitter:image" content="<?php echo $url ?>" />
