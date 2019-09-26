@@ -2,7 +2,7 @@
 author: brinck-slattery
 title: 'LBRY Butterfly Flits Onto The Scene'
 date: '2019-09-26 08:00:00'
-cover: 'butterfly.jpg'
+cover: 'Butterfly.jpg'
 category: news
 ---
 # LBRY Butterfly is LIVE in the Google Play store!
