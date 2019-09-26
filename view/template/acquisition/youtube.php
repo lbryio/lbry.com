@@ -75,7 +75,7 @@
 
         <br/>
 
-        <checkbox-element style="font-size: 1rem;" hidden>
+        <checkbox-element style="font-size: 1rem;">
           <input hidden name="type" type="text" value="sync"/>
           <input id="immediate-sync" name="immediate_sync" type="checkbox" value="true"/>
           <label for="immediate-sync">I want to sync my content to the LBRY network and agree to <a href="/faq/youtube-terms" target="_blank">these terms</a>. I have also read and understand <a href="/faq/youtube" target="_blank">how the program works</a>.</label>
