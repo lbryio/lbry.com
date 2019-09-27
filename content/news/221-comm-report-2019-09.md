@@ -12,11 +12,10 @@ If you aren’t part of our Discord community yet, [join us](https://chat.lbry.c
 
 ## In This Update: {#updates}
 * [What's new at LBRY?](#news)
-* [LBRY on the Web is nearly here](#web)
+* [LBRY.tv is nearly here](#web)
 * [LBRY Android Butterfly Released](#android)
 * [New Daily Rewards!](#rewards)
 * [Hacktoberfest](#hacktoberfest)
-* [Swarm Program Updates](#swarm)
 * [We're looking to create new hives!](#new)
 * [Hive Updates](#hives)
 * [LBRY App in More Languages](#i18n)
