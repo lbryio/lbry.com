@@ -97,7 +97,7 @@ If you’re interested in finding out more about the Swarm program, how to start
 
 We have a new Discord home for the Swarm, and you [can join here and ask us questions about the program or find an interesting hive!](https://invite.lbry.org)
 
-### Selected Hive Updates
+### Selected Hive Updates {#hives}
 
 #### Open Source LBRY
 
