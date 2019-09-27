@@ -149,7 +149,7 @@ Noob Team Hive is always coming up with imaginative ideas! Most recently, they c
 
 ### LBRY App Language Translations {#i18n}
 
-We have internationalized the LBRY App! We have added new languages like Polish and German, and we will soon have many others. If you're interested in adding a language or helping translate please contact [Julie.](mailto:julie@lbry.com)
+We have internationalized the LBRY App! We have added new languages like Bahasa Indonesia, Polish and German, and we will soon have many others. If you're interested in adding a language or helping translate please contact [Julie.](mailto:julie@lbry.com)
 
 ### Community Block Explorer {#explorer}
 
