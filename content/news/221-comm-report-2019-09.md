@@ -49,8 +49,6 @@ Did you say you don't want to download every video? We heard your feedback! Ther
 
 Over the last few months, we’ve been running a view-only pilot of [beta.lbry.tv](https://beta.lbry.tv), meaning you can view free content, but many of the other features like wallets, rewards, and publishing have been disabled. 
 
-As our current software does not support multiple wallets, we chose to create user accounts that can ultimately be shared across devices and platforms. 
-
 We also added some tags so when you share a LBRY file on social media such as Twitter or Facebook, you will see a preview and description of the actual content instead of a generic LBRY image. 
 
 ![metadata](https://spee.ch/c/tv-metadata.png)
@@ -119,6 +117,8 @@ _There was a fantastic turnout for the event_
 _A LBRY user talks about how she uses LBRY to host her content_
 
 #### LBRY.social
+
+This hive has been working on many different objectives, including a weblog. Here is an [excellent case study](https://lbry.social/blog/using-lbry-well/) they've written about Turkish creator Efe Aydal and his success on the LBRY platform.
 
 Dr. Brendon Brewer has been working with Mark Firth to create a visualization of LBRY statistics. Take a look here to see their progress: https://lbry.social/lbrynomics/
 
