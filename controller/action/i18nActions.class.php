@@ -29,14 +29,18 @@ class i18nActions extends Actions
             throw new Exception('Please set Config::TRANSIFEX_API_KEY in your configuration.');
         }
 
-        $json = Transifex::getTranslationResourceFile($project, $resource, $language);
+        $usecache = !Request::getParam('nocache');
+        $json = Transifex::getTranslationResourceFile($project, $resource, $language, $usecache);
 
         if (!$json) {
             return NavActions::execute404();
         }
 
         Response::setHeader(Response::HEADER_CROSS_ORIGIN, "*");
-        Response::enablePublicMutableCache(md5(json_encode($json)));
+
+        if ($usecache) {
+          Response::enablePublicMutableCache(md5(json_encode($json)));
+        }
 
         return View::renderJson($json);
     }
