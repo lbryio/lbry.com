@@ -55,8 +55,8 @@ Each installable LBRY application also contains a cryptocurrency wallet which is
 
 LBRY does provide a wallet syncing and backup mechanism to allow seamless access across multiple devices. The backup service ensures that a wallet can be retrieved by the user through their LBRY account in case they lose access to their local copy. Any storage and exchange of wallet data has end to end encryption, and the user can also provide an additional encryption password if desired. 
 
-### How do I use LBRY anonymously?
-To use LBRY in a fully anonymous way, we recommend the LBRY Desktop application.  To disable tracking features, you’ll want to disable the `Share Diagnostic Data` option from the Settings page (cog in the top right of the app). Also, you’ll want to skip providing an email and use a Virtual Private Network (VPN) to protect your IP address. This will still allow you use blockchain related features like retrieving content data, publishing, purchasing, tipping, and other transactions. Depending on VPN features and network configuration, hosting data currently may not be possible but we are looking into techniques to allow this in the future. 
+### How do I use LBRY anonymously? {#anonymous}
+To use LBRY in a fully anonymous way, we recommend the LBRY Desktop application. To disable tracking features, you’ll want to disable the `Share Diagnostic Data` option from the Settings page (cog in the top right of the app). Also, you’ll want to skip providing an email and use a Virtual Private Network (VPN) to protect your IP address. This will still allow you use blockchain related features like retrieving content data, publishing, purchasing, tipping, and other transactions. Depending on VPN features and network configuration, hosting data currently may not be possible but we are looking into techniques to allow this in the future. 
 
 ### Where is the account and analytics data stored? 
 LBRY stores collected data on its own secured databases and ensures only authorized employees have access to this data. Google Analytics data is anonymized and protected by Google.
