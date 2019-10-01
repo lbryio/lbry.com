@@ -6,6 +6,8 @@ cover: 'Hacktoberfest.jpg'
 category: users
 ---
 
+_(For CURRENT\_YEAR's Hacktoberfest announcement, please visit [lbry.com/hacktoberfest](https://lbry.com/hacktoberfest))_
+
 The leaves are starting to fall, and that means it's time for Hackoberfest! Thanks to [DigitalOcean's hard work](https://hacktoberfest.digitalocean.com), newbies and seasoned open source developers alike have a unique opportunity to solve new and challenging problems and bugs all through the month of October (and earn [some recognition and a free t-shirt](https://hacktoberfest.digitalocean.com/details) in the process).
 
 Open source is (literally) part of our DNA here at LBRY, and we're always happy when we get an opportunity to support our fellow open source projects. Throughout the month of October, our developers will be hosting informational sessions, meetups, and coding projects to introduce other programmers to the world of open source software and start making contributions immediately.

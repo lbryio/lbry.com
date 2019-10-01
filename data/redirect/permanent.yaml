@@ -55,6 +55,7 @@
 /nothing-here:                                    /news
 /There:                                           /news
 /youtube/cdSSo:                                   /news
+/news/hacktoberfest: /hacktoberfest
 /news/$1.2b-market-cap-we-dont-care:              /news/1.2b-market-cap-we-dont-care
 /news/boom:                                       /news/boombust
 /news/tag/freedom-of-information:                 /news/crypto-freedom
