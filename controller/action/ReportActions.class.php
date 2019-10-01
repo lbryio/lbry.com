@@ -2,11 +2,16 @@
 
 class ReportActions extends Actions
 {
-    public static function executeDmca()
+    public static function executeDmcaWithClaimId(string $claimId)
     {
+
+        if (isset($claimId)) {
+            $claimId = htmlspecialchars($claimId);
+        }
+
         Response::setHeader(Response::HEADER_CROSS_ORIGIN, "*");
         if (!Request::isPost()) {
-            return ['report/dmca'];
+            return ['report/dmca', ['claimId' => $claimId]];
         }
 
         $values = [];
@@ -24,10 +29,6 @@ class ReportActions extends Actions
             $values[$field] = $value;
         }
 
-        if ($_GET['claim_id'] && !$values['identifier']) {
-            $values['identifier'] = htmlspecialchars($_GET['claim_id']);
-        }
-
         if (!$errors) {
             $values['report_id'] = Encoding::base58Encode(random_bytes(6));
             Mailgun::sendDmcaReport($values);
@@ -37,7 +38,8 @@ class ReportActions extends Actions
 
         return ['report/dmca', [
             'errors' => $errors,
-            'values' => $values
+            'values' => $values,
+            'claimId' => $claimId
         ]];
     }
 }
