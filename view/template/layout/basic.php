@@ -43,8 +43,6 @@
     <meta property="og:description" content="<?php echo Response::getMetaDescription() ?>"/>
     <?php foreach ($images as $image): ?>
         <meta property="og:image" content="<?php echo $image ?>"/>
-        <meta property="og:image:height" content="1125"/>
-        <meta property="og:image:width" content="2000"/>
     <?php endforeach ?>
     <meta property="og:site_name" content="LBRY"/>
     <meta property="og:title" content="<?php echo $title ?>"/>

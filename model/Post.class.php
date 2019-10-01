@@ -309,6 +309,11 @@ class Post
     {
         $urls = [];
 
+        $metadata = $this->getMetadata();
+        if (isset($metadata['og']) && $metadata['og']) {
+          $urls[] = $metadata['og'];
+        }
+
         $cover = $this->getCover();
         if ($cover) {
             $urls[] = 'https://' .  Request::getHost() . '/img/blog-covers/' . $cover;
@@ -321,7 +326,7 @@ class Post
             $urls = array_merge($urls, $matches[1]);
         }
 
-        return $urls;
+        return array_unique($urls);
     }
 
     protected function markdownToText($markdown)

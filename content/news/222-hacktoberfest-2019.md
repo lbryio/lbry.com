@@ -3,6 +3,7 @@ author: jeremy-kauffman
 title: 'Hacktoberfest 2019!'
 date: '2019-10-01 11:37:00'
 cover: 'Hacktoberfest.jpg'
+og: 'https://spee.ch/@lbryblog:e/hacktoberfest2019.png'
 category: developers
 ---
 
@@ -44,11 +45,13 @@ Note: the chat link goes to LBRY’s main public chat. Post a message in binary*
 
 Anyone who makes any contribution at all, even a one line typo fix, will receive a LBRY sticker.
 
-Anyone who contributes anything of any substance* will receive a LBRY T-Shirt.
+Anyone who contributes anything of any substance* will receive a sticker, LBRY t-shirt, and more.
 
-As always, anyone who contributes will receive LBC as [appreciation](https://lbry.com/faq/appreciation).
+And as always, anyone who contributes will receive LBC as [appreciation](https://lbry.com/faq/appreciation).
 
 Additionally, this month only, every contributor, new or returning, will receive a 10,000 LBC bonus for their first PR of this month.
+
+T-shirts and stickers will be the above Hacktoberfest image.
 
 *We’re going to be very inclusive as counting PRs as substantive, but due to some people making drive-by PRs to earn shirts, we’ve introduced this additional qualifier.
 
