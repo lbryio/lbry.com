@@ -182,10 +182,8 @@ class View
         $dom = new PHPHtmlParser\Dom();
         $dom->load($html, ['cleanupInput' => false, 'removeDoubleSpace' => false, 'removeSmartyScripts' => false]);
 
-        foreach ($dom->find('body a') as $link)
-        {
-            if (static::isLinkExternal($link->getAttribute('href'), $domain))
-            {
+        foreach ($dom->find('body a') as $link) {
+            if ($link->getAttribute('href') && static::isLinkExternal($link->getAttribute('href'), $domain)) {
                 $link->setAttribute('rel', "noopener noreferrer");
             }
         }
