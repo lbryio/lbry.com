@@ -30,7 +30,7 @@ class DownloadActions extends Actions
 
         krsort($bucket);
 
-        return Controller::redirect("http://$bucketName/" . array_keys($bucket)[0], 302);
+        return Controller::redirect("https://$bucketName/" . array_keys($bucket)[0], 302);
     }
     /*
      * this is a quick fix to add android, prob not proper design
