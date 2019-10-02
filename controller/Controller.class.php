@@ -32,8 +32,11 @@ class Controller
                 unset($viewParameters[View::LAYOUT_PARAMS]);
 
                 $content = View::render($viewTemplate, $viewParameters + ['fullPage' => true]);
-
-                Response::setContent($layout ? View::render('layout/basic', ['content' => $content] + $layoutParams) : $content);
+                if ($layout) {
+                    $content = View::render('layout/basic', ['content' => $content] + $layoutParams);
+                }
+                $content = View::safeExternalLinks($content, Request::getHost());
+                Response::setContent($content);
             }
 
             Response::setDefaultSecurityHeaders();

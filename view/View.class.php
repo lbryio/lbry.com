@@ -176,4 +176,33 @@ class View
         Response::setHeader(Response::HEADER_CONTENT_TYPE, 'application/json');
         return ['internal/json', ['json' => $data, '_no_layout' => true]];
     }
+
+    public static function safeExternalLinks(string $html, string $domain): string
+    {
+        $dom = new PHPHtmlParser\Dom();
+        $dom->load($html, ['cleanupInput' => false, 'removeDoubleSpace' => false, 'removeSmartyScripts' => false]);
+
+        foreach ($dom->find('body a') as $link)
+        {
+            if (static::isLinkExternal($link->getAttribute('href'), $domain))
+            {
+                $link->setAttribute('rel', "noopener noreferrer");
+            }
+        }
+        return $dom->root->outerHtml();
+    }
+
+    public static function isLinkExternal(string $url, string $domain): bool
+    {
+        $components = parse_url(strtolower($url));
+        $domain     = strtolower($domain);
+
+        return $url
+               &&
+               !empty($components['host']) // relative urls are not external
+               &&
+               $components['host'] !== $domain
+               &&
+               mb_substr($components['host'], -mb_strlen('.' . $domain)) !== '.' . $domain;
+    }
 }
