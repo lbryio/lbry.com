@@ -63,9 +63,9 @@ If you want to live help with screen sharing and extended demos, you can join th
 
 Video sessions will happen on the following dates and times:
 
-- Thursday, October 3rd, 1800-2200 UTC
-- Sunday, October 13th, 1500-1900 UTC
-- Tuesday, October 22nd, 2000-2400 UTC
+- Thursday, October 3rd, 18:00-22:00 UTC
+- Sunday, October 13th, 15:00-19:00 UTC
+- Tuesday, October 22nd, 20:00-24:00 UTC
 
 For all sessions, visit [lbry.com/doitlive](https://lbry.com/doitlive). This link may not function until shortly before each event.
 
