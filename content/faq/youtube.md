@@ -60,7 +60,9 @@ You can use the app to publish to the channel | no |  yes |
 
 ### Limitations of Republishing Videos {#limits}
 
-There is a size limit per video of 2GB. There is a total count limit of your most recent 1,000 videos. What this means, if that isn't clear, is that your most recent 1,000 videos that are smaller than (or equal to) 2GB in size will be synced to LBRY. **Content that's marked as potential copyright violations by YouTube also will not be synced**
+There is a size limit per video of 2GB. There is a total count limit of your most recent 1,000 videos. What this means, if that isn't clear, is that your most recent 1,000 videos that are smaller than (or equal to) 2GB in size will be synced to LBRY.
+
+Private or unlisted videos will also not be published. **Content that's marked as potential copyright violations by YouTube also will be published.**
 
 ### I created a channel and/or published on my LBRY app before syncing, what do I do now? {#cleanup}
 
