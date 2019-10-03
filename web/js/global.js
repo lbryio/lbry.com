@@ -161,8 +161,11 @@ if ("ontouchstart" in window) {
   });
 
   document.querySelector("body").addEventListener("touchstart", event => {
-    if (event.target !== document.querySelector("drawer-navigation"))
-      document.querySelector("drawer-wrap").hide();
+    if (event.target !== document.querySelector(".header__toggle")) {
+      $("drawer-wrap").hide();
+    } else {
+      $("drawer-navigation").toggleClass("active")
+    }
   });
 
   function hideNavigationHelpers() {
