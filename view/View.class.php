@@ -179,6 +179,9 @@ class View
 
     public static function safeExternalLinks(string $html, string $domain): string
     {
+        //temporarily disable this as it is breaking JS
+        return $html;
+
         $dom = new PHPHtmlParser\Dom();
         $dom->load($html, ['cleanupInput' => false, 'removeDoubleSpace' => false, 'removeSmartyScripts' => false]);
 
