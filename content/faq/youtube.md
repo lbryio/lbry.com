@@ -14,7 +14,7 @@ There are three main steps to this program:
 
 1) [Queue](#queue) - authorization to allow us to begin syncing. You can now claim a [reward if eligible](#reward)
 
-2) Sync - creating your channel and republishing content to a secure account
+2) Sync - creating your channel and republishing content to a secure account. [Some limitations apply](#limits)
 
 3) [Transfer](#claim) - claiming the ownership of your channel and content directly into your LBRY account. LBRY will continue publishing new content to your channel
 
@@ -24,6 +24,8 @@ The transfer process ensures you have full control of your content and channel. 
 
 ### Authenticating with your YouTube Account and Sync Details {#queue}
 Authenticating your YouTube channel and other information puts your content into a queue to be automatically mirrored on the LBRY network. This serves as an alternative to re-publishing your entire channel by yourself. The content, its title and description, as well as thumbnails and other metadata, will sync to your channel name. When it is done, you will receive a notice from LBRY indicating your channel is available to view.
+
+![status](https://spee.ch/2/sync-status.png)
 
 When you sync your channel, you are also eligible to receive LBRY Credits in our Partner Program based on your subscriber count. Receiving these credits is subject to a one-year agreement. The exact agreement you make when you sync can be seen [here](/faq/youtube-terms). The current rewards for syncing can be seen on the [sync page](/youtube).
 
@@ -38,9 +40,9 @@ You can do this once your channel has been synced.
 
 ### How to Transfer/Claim my Channel and Content {#claim}
 
-Currently, content transfer is available in the LBRY Desktop application as 10/3/2019. It will be available on [LBRY.tv](https://beta.lbry.tv) in a couple of weeks. In order to claim your channel, the email saved in the app must match the email address on your [Sync Status Page](/youtube/status) - you can update this and make sure to verify via the email you receive. Once the channel and content is tranferred, you'll be able to use this channel to comment, publish, and edit existing content in the LBRY app. 
+Currently, content transfer is available in the LBRY Desktop application as 10/3/2019. It will be available on [LBRY.tv](https://beta.lbry.tv) in a couple of weeks. In order to claim your channel, the email saved in the app must match the email address on your [Sync Status Page](/youtube/status) - you can update this and make sure to verify via the email you receive. Once the channel and content is transferred, you'll be able to use this channel to comment, publish, and edit existing content in the LBRY app. 
 
-If you are signing into the LBRY app for the first time, you'll be presented with an option to claim your channel. If the channel is still queued, you'll be able to claim it from the Channels page (right hand side above Publishes) after its synced. 
+If you are signing into the LBRY app for the first time, you'll be presented with an option to claim your channel. If the channel is still queued, you'll be able to claim it from the Channels page (right hand side above Publishes) after its synced. If created any channels or published before transeferring, see the [cleanup section  below](#cleanup). 
 
 ![claim](https://spee.ch/8/sync-faq-1.png)
 
@@ -56,18 +58,17 @@ Your content shows up in the app under your Publishes | no |  yes |
 You are responsible for keeping your wallet safe | no |  yes |
 You can use the app to publish to the channel | no |  yes |
 
-### Limitations of Republishing Videos
+### Limitations of Republishing Videos {#limits}
 
 There is a size limit per video of 2GB. There is a total count limit of your most recent 1,000 videos. What this means, if that isn't clear, is that your most recent 1,000 videos that are smaller than (or equal to) 2GB in size will be synced to LBRY. **Content that's marked as potential copyright violations by YouTube also will not be synced**
 
-### I created a channel and/or published on my LBRY app before syncing, what do I do now?
+### I created a channel and/or published on my LBRY app before syncing, what do I do now? {#cleanup}
 
 It is recommended you delete your locally created channel, which can be done before or after the channel transfer process. If you published any content locally, you can edit the content and use your newly transferred channel to include it, or you can simply delete the locally published content as well. Unless you plan to experiment with a different channel name in the meantime, please be patient until the channel is tranferred to you.
 
 To delete the original channel, you'll need to navigate to the Wallet page (click on your balance in the top right). Next, click `Full History` and find the original channel you created. You may need to paginate in order to find it. Make sure it is the right channel to delete by clicking on the name from the history page first. Then use the trash can icon to remove it. 
 
 You can do the same for any content you published locally. The other option is to edit the content and select your newly tranferred channel. This will make the content appear under this channel. 
-
 
 ### Why can't I Sync my Channel?
 
