@@ -14,6 +14,8 @@ At this moment, LBRY has limited wallet syncing features for users who installed
 
 Over the next few weeks, we'll be expanding this feature to cover existing users and LBRY.tv. It is safe to continue using each device with separate wallets in the meantime. Thank you for your understanding and patience! 
 
+*Please note: wallet passwords on Desktop will be disabled for all users until we are able to fully support all sync scenarios. Users who already enabled previously are not affected.*
+
 ### Desktop
 
 LBRY Desktop currently supports the wallet syncing feature during the sign in process when the balance is 0 - which is mainly for new installations where users would sync a new account (or to an existing installation, i.e. Android/another device). This means existing users who have a wallet balance and/or are already signed into an account will not be able to sync. If you wish to sync today, see the [expert](#expert) section below. 
@@ -38,4 +40,4 @@ If you wish to sync now on Desktop, you'll need to sign out (see Account drop do
 
 ### I'm having trouble with account syncing, can you help?
 
-Of course, we are always here to help! Check out our [help page](/faq/how-to-report-bugs) on how to reach us.
+We are aware of a couple scenarios where only part of the wallet is synced properly. Check out our [help page](/faq/how-to-report-bugs) on how to reach us if you run into this or need any other assistance. 
