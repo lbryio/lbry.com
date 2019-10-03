@@ -40,11 +40,11 @@ You can do this once your channel has been synced.
 
 ### How to Transfer/Claim my Channel and Content {#claim}
 
-Currently, content transfer is available in the LBRY Desktop application as 10/3/2019. It will be available on [LBRY.tv](https://beta.lbry.tv) in a couple of weeks. In order to claim your channel, the email saved in the app must match the email address on your [Sync Status Page](/youtube/status) - you can update this and make sure to verify via the email you receive. Once the channel and content is transferred, you'll be able to use this channel to comment, publish, and edit existing content in the LBRY app. 
+Currently, content transfer is available in the LBRY Desktop application as of 10/3/2019. It will be available on [LBRY.tv](https://beta.lbry.tv) in a couple of weeks. In order to claim your channel, the email saved in the app must match the email address on your [Sync Status Page](/youtube/status) - you can update this and make sure to verify via the email you receive. Once the channel and content is transferred, you'll be able to use this channel to comment, publish, and edit existing content in the LBRY app. 
 
-If you are signing into the LBRY app for the first time, you'll be presented with an option to claim your channel. If the channel is still queued, you'll be able to claim it from the Channels page (right hand side above Publishes) after its synced. If created any channels or published before transeferring, see the [cleanup section  below](#cleanup). 
+If you are signing into the LBRY app for the first time, you'll be presented with an option to claim your channel. If the channel is still queued, you'll be able to claim it from the Channels page (right hand side above Publishes) after its synced. If you created any channels or published content locally before transeferring, see the [cleanup section  below](#cleanup). 
 
-![claim](https://spee.ch/8/sync-faq-1.png)
+![claim](https://spee.ch/2/sync-faq-2.png)
 
 ### What's the difference between Sync and Transfer? {#transfer}
 
