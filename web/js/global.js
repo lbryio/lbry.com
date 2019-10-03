@@ -156,14 +156,11 @@ if ("ontouchstart" in window) {
   navigationLinks.forEach(navigationLink => {
     navigationLink.ontouchstart = () => {
       hideNavigationHelpers();
-      navigationLink.onhover.call(navigationLink);
     };
   });
 
   document.querySelector("body").addEventListener("touchstart", event => {
-    if (event.target !== document.querySelector(".header__toggle")) {
-      $("drawer-wrap").hide();
-    } else {
+    if (event.target === document.querySelector(".header__toggle")) {
       $("drawer-navigation").toggleClass("active")
     }
   });
