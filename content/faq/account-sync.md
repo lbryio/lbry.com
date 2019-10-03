@@ -4,7 +4,7 @@ category: getstarted
 order: 3
 ---
 
-LBRY's goal is to provide an experience where account preferences (subscriptions/tags/settings) and wallets are synchronized between multiple devices, including LBRY Desktop, Android and LBRY.tv. Subscriptions are currently synced for all devices and support for tags/settings is coming soon.
+LBRY's goal is to provide an experience where account preferences (subscriptions/tags/settings) and wallets (balances, channels, publishes, etc) are synchronized between multiple devices, including LBRY Desktop, Android and LBRY.tv. Subscriptions and tags should be synced for all users on the latest version of our applications. 
 
 At this moment, LBRY has limited wallet syncing features for users who installed apps on multiple devices before 10/3/2019. Today we support the following:
 
