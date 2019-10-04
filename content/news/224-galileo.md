@@ -1,7 +1,7 @@
 ---
 author: brinck-slattery
 title: 'Fly into the future with LBRY Galileo'
-date: '2019-10-043 10:00:00'
+date: '2019-10-04 10:00:00'
 cover: 'galileo-blog.jpg'
 category: update
 ---
