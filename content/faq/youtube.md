@@ -67,8 +67,8 @@ You are responsible for keeping your wallet safe | no |  yes |
 
 ### Limitations {#limits}
 
-- There is a size limit per video of 2GB. 
-- There is a total count limit of your most recent 1,000 videos. 
+- There is a size limit per video of 2GB/2-hours
+- There is limit of your most recent 1,000 videos. 
 
 Your most recent 1,000 videos that are 2GB or smaller in size will be synced to LBRY.
 
