@@ -11,11 +11,12 @@ category: update
 ![GIF](https://spee.ch/@lbry:3f/galileo-gif.gif)
 
 This upgrade brings some major changes to LBRY, including:
-
+* - YouTube Partner Program (Sync) users can now claim ownership of their channels and content. See the Channels page to start! See [our YouTube FAQ](https://lbry.com/faq/youtube) for details.
 * An all new “Channels” page so you can see all your channels in one place.
-* Universal Credentials. New users can now enjoy the same LBRY experience on desktop and mobile with a single account.
+* New first-run process during sign in. Includes a 1 LBC reward and creating a channel. YouTubers can claim their channel here as well.
+* Universal Credentials. New users can now enjoy the same LBRY experience on desktop and mobile with a single account. See [our Account Sync FAQ](https://lbry.com/faq/account-sync) for details. 
 * Subscription and file view counts.
-* Pagination on the Library, Publishes, and Transactions page.
+* Pagination on the Library, Publishes, and Wallet pages.
 * And much, much more!
 
 Just open your app to upgrade - and if you haven’t tried LBRY yet, what are you waiting for? [Get it here](https://lbry.com/get) now!
@@ -24,4 +25,4 @@ We couldn’t do what we do here at LBRY without our amazing community - make su
 
 ### PS!
 The first 200 users to upgrade can use the code below for a 50LBC reward - so hurry up and start upgrading!
-* galileo-104-yxap
+* `galileo-104-yxap`
