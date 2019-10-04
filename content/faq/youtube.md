@@ -49,7 +49,7 @@ The wallet transfer step ensures you have full control of your content and chann
 
 Currently, content transfer is available in the LBRY Desktop application. Once the channel and content is transferred, you'll be able to publish, comment, and edit existing content in the LBRY app. 
 
-If you are signing into the LBRY app for the first time, you'll be presented with an option to claim your channel. If the channel is still queued, you'll be able to claim it from the Channels page (right hand side above Publishes) after its synced. If you created any channels or published content locally before initiating this step, see the [cleanup section](#cleanup). 
+If you are signing into the LBRY app for the first time, you'll be presented with an option to claim your channel. If the channel is still queued, you'll be able to claim it from the Channels page (right hand side above Publishes) after its synced. Existing app users can also claim their channels via the Channels page. If you created any channels or published content locally before initiating this step, see the [cleanup section](#cleanup). 
 
 ![claim](https://spee.ch/2/sync-faq-2.png)
 
