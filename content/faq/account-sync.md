@@ -6,13 +6,15 @@ order: 3
 
 LBRY's goal is to provide an experience where account preferences (subscriptions/tags/settings) and wallets (balances, channels, publishes, etc) are synchronized between multiple devices, including LBRY Desktop, Android and LBRY.tv. Subscriptions and tags should be synced for all users on the latest version of our applications. 
 
-At this moment, LBRY has limited wallet syncing features for users who installed apps on multiple devices before 10/3/2019. Today we support the following:
+At this moment, LBRY has limited wallet syncing features for users who installed apps on multiple devices before 10/4/2019. Today we support the following:
 
 + New users on LBRY Desktop can sync a new account  
 + New users on LBRY Desktop can sync with their Android account
 + All users on LBRY Android can sync a new account or their Desktop account (if synced)
 
-Over the next few weeks, we'll be expanding this feature to cover existing users and LBRY.tv. It is safe to continue using each device with separate wallets in the meantime. Thank you for your understanding and patience! 
+Over the next few weeks, we'll be expanding this feature to cover existing users and LBRY.tv. It is safe to continue using each device with separate wallets in the meantime. Thank you for your understanding and patience!
+
+If you are having balance issues, please see the [troubleshooting](#troubleshooting) section below. 
 
 *Please note: wallet passwords on Desktop will be disabled for all users until we are able to fully support all sync scenarios. Users who already enabled previously are not affected.*
 
@@ -31,6 +33,12 @@ LBRY Desktop users who enabled wallet syncing can sync to their Android account.
 ### LBRY.tv
 
 Wallets are not currently synced on LBRY.tv but will be in a couple of weeks. Subscriptions have been synced and full tag support is coming soon.
+
+### Troubleshooting
+
+On Android, if you see transactions but not a balance, you can try disabling and re-enabling sync. This should fix the balance. 
+
+On Desktop, if you see transactions but not a balance, you'll need to manually set the default account. This can be done via the [CLI](/faq/how-to-cli). First, run an `account list` command to view all accounts, find the account id that shows coins/certificates, and then run `account set --lbrynet account set --default --account_id=xxxx` with that id. 
 
 ### I'm an expert and want to sync up my balances today! {#expert}
 
