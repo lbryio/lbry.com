@@ -8,6 +8,7 @@
 <?php $statusData = $status_token['data'] ?>
 <?php $isSyncAgreed = in_array($statusData['status'], ["failed", "finalized", "pendingemail", "queued", "synced", "syncing"]) ?>
 <?php $isRewardClaimed = $statusData['redeemed_reward'] > 0 ?>
+<?php $isTransferred = $statusData['transferred'] ?>
 
 <?php if (IS_PRODUCTION): ?>
   <?php js_start() ?>
@@ -57,8 +58,8 @@
 
           <li class="<?php echo $isRewardClaimed && $isSyncAgreed ? "" : "disabled" ?>">
             <span><?php echo $isRewardClaimed ? "✓" : "·" ?></span>
-            <p>Claim your credits</p>
-            <p <?php echo ($isRewardClaimed === false && $isSyncAgreed === true) ? "" : "hidden" ?>>(to get your credits, <a href="/get">download the app</a> and <a href="/faq/youtube">follow these instructions</a>)</p>
+            <p>Transfer your content and redeem Rewards</p>
+            <p <?php echo ($isSyncAgreed === true && ($isRewardClaimed === false || $isTransferred === false)) ? "" : "hidden" ?>>(<a href="/get">Download the app</a> and <a href="/faq/youtube">follow these instructions</a>)</p>
           </li>
         </ul>
 
@@ -196,7 +197,7 @@
 
       <br/><br/>
 
-      <p>If you have an existing LBRY wallet please <a href="/claim-wallet" title="YouTube Sync Transfer Request">fill out this form</a>. This is still a manual process.</p>
+      <p>Once your content is synced on LBRY, we can transfer control directly to your LBRY account. Please see the <a href="/faq/youtube" title="YouTube FAQ">YouTube FAQ</a> for more details.</p>
     </div>
   </section>
 </main>
