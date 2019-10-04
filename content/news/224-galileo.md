@@ -11,7 +11,7 @@ category: update
 ![GIF](https://spee.ch/@lbry:3f/galileo-gif.gif)
 
 This upgrade brings some major changes to LBRY, including:
-* - YouTube Partner Program (Sync) users can now claim ownership of their channels and content. See the Channels page to start! See [our YouTube FAQ](https://lbry.com/faq/youtube) for details.
+* YouTube Partner Program (Sync) users can now claim ownership of their channels and content. See the Channels page to start! See [our YouTube FAQ](https://lbry.com/faq/youtube) for details.
 * An all new “Channels” page so you can see all your channels in one place.
 * New first-run process during sign in. Includes a 1 LBC reward and creating a channel. YouTubers can claim their channel here as well.
 * Universal Credentials. New users can now enjoy the same LBRY experience on desktop and mobile with a single account. See [our Account Sync FAQ](https://lbry.com/faq/account-sync) for details. 
