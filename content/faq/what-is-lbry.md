@@ -6,9 +6,40 @@ order: 1
 
 For most users, LBRY will be a place where they can find great videos, music, ebooks, and more: imagine a vast digital library that is available on all of your devices. But under the hood, LBRY is many components working together.
 
-First and foremost, LBRY is a new *protocol* which allows anyone to build apps that interact with digital content on the LBRY network. Apps built on the protocol allow creators to upload their work to the LBRY network of hosts (like BitTorrent), and set a price per stream or download (like iTunes) or give it away for free (like YouTube without ads).
+First and foremost, LBRY is a new *protocol* which allows anyone to build apps that interact with digital content on the LBRY network. Apps built using the protocol allow creators to upload their work to the LBRY network of hosts (like BitTorrent), to set a price per stream or download (like iTunes) or give it away for free (like YouTube without ads). The work you publish could be videos, audio files, documents, or any other type of file.
 
-What makes this all possible is the blockchain technology developed by the creator of Bitcoin. Do you have to understand any of this to use and enjoy LBRY? No. Does it still matter to users? Yes!
+Traditional video (or other content) sites such as YouTube, Instagram, and Spotify store your uploads on their servers and allow viewers to download them. They also allow creators to make some money through advertising or other mechanisms. However, there are some well-known drawbacks, especially for people whose material is perceived as not being advertiser-friendly.
+
+LBRY aims to be an alternative to these sites, allowing publishers and their fans to interact directly
+without the risk of demonetization or other meddling.
+What makes this all possible is the blockchain technology developed by the creator of Bitcoin.
+Do you have to understand any of this to use and enjoy LBRY? No. Does it still matter to users? Yes!
+
+
+## What Bitcoin accomplished
+
+Blockchain technology, of which Bitcoin is the most famous example, enables people to create online databases where no single entity can control what goes in the database. With Bitcoin, when I send money to someone, my computer broadcasts "hey, the person with this particular private encryption key (me) is sending money to that person over there", and the mining process makes everyone agree that indeed, I sent that money, so my balance has gone down and the recipient's has gone up. 3Blue1Brown (a maths channel) has a good explanation of how this
+all works [https://beta.lbry.tv/@3Blue1Brown:b/ever-wonder-how-bitcoin-and-other:1](here).
+
+In LBRY, the same mechanism is used to store *an index of what content is available* and
+*how to download it*, as well as financial transactions (such as tips and purchases)
+using the Bitcoin-like currency LBC (LBRY Credits). When a creator publishes something on LBRY,
+a "claim" is made on the LBRY blockchain. You can think of think of it as an announcement: *hey everyone,
+I've published this file, here's some information about it, and instructions for how to download it
+from the peer-to-peer network*. For the same reasons that nobody can prevent a Bitcoin transaction
+from taking place, nobody can prevent a claim or transaction
+from appearing on the LBRY blockchain.
+Other sites, such as Bitchute, also serve their content from a peer-to-peer network, however,
+the index of available content is centralized. Recently, Australian ISPs were able to block access
+to Bitchute.
+
+As soon as a claim has been published, other users can see that the content exists and start downloading
+it directly from you. Once they have a copy, they also become an extra node on the network that can
+upload the file to others.
+However, since some content is not immediately downloaded by others,
+the LBRY team also runs a reflector server which attempts to download a copy of your content
+when you publish it.
+In the long run, this reflector server will eventually be replaced with a decentralized network of servers.
 
 ## Why Build A Protocol?
 Building [protocols, not platforms](/news/blockchain-is-love-blockchain-is-life), is the future of the free, open internet. Almost every tech giant today is a centralized service that sells users' personal information and attention to advertisers. They spend a lot of money chasing their product (your personal information and time/attention), but at the end of the day, users (you) offer it up for free in exchange for access to the platform.
