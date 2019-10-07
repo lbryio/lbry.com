@@ -179,18 +179,19 @@ class View
 
     public static function safeExternalLinks(string $html, string $domain): string
     {
-        //temporarily disable this as it is breaking JS
-        return $html;
+        $parser = new Masterminds\HTML5();
+        $dom = $parser->loadHTML($html);
+        $links = $dom->getElementsByTagName('body') ?
+            $dom->getElementsByTagName('body')[0]->getElementsByTagName('a') :
+            $dom->getElementsByTagName('a');
 
-        $dom = new PHPHtmlParser\Dom();
-        $dom->load($html, ['cleanupInput' => false, 'removeDoubleSpace' => false, 'removeSmartyScripts' => false]);
-
-        foreach ($dom->find('body a') as $link) {
+        foreach ($links as $link) {
             if ($link->getAttribute('href') && static::isLinkExternal($link->getAttribute('href'), $domain)) {
                 $link->setAttribute('rel', "noopener noreferrer");
             }
         }
-        return $dom->root->outerHtml();
+
+        return $parser->saveHTML($dom);
     }
 
     public static function isLinkExternal(string $url, string $domain): bool

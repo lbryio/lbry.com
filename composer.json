@@ -13,6 +13,6 @@
     "erusev/parsedown-extra": "^0.7.1",
     "pelago/emogrifier": "^2.0",
     "mustangostang/spyc": "^0.6.2",
-    "paquettg/php-html-parser": "^2.1"
+    "masterminds/html5": "^2.7"
   }
 }
