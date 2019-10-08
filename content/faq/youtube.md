@@ -13,9 +13,7 @@ To sync your existing YouTube channel to LBRY and learn more about the program, 
 There are three main steps to this program: 
 
 1. *[Enroll](#enroll)* - Provide authorization for us to begin syncing. After this step, you can begin claiming [rewards](#reward) (if eligible).
-
 2. *Sync* - During this step, we perform magic behind the scenes. It can take up to several days and [some sync limitations apply](#limits).
-
 3. *[Transfer](#transfer)* - Claim ownership of your new LBRY channel. This requires receiving your LBRY wallet, so that you and only you are in control. More [below](#claim).
 
 #### Enrolling {#enroll}
@@ -34,10 +32,10 @@ Note that as soon as you enroll, you are eligible to receive LBRY Credits based 
 
 As soon as you've enrolled, you can claim your rewards.
 
-1) Download, install and run the LBRY App from [lbry.com](https://lbry.com/get).
-2) Make sure the email saved in the application matches the email address on your [YouTube status page](/youtube/status). If it doesn't, please update it and be sure to verify it via the email you receive.
-3) Navigate to the _Rewards_ section of the app by clicking your balance in the top right.
-4) Scroll to the "YouTube Reward" tile and click Get XXXX LBC to receive the appropriate amount of credits. If your account is under review, please check back later. 
+1. Download, install and run the LBRY App from [lbry.com](https://lbry.com/get).
+2. Make sure the email saved in the application matches the email address on your [YouTube status page](/youtube/status). If it doesn't, please update it and be sure to verify it via the email you receive.
+3. Navigate to the _Rewards_ section of the app by clicking your balance in the top right.
+4. Scroll to the "YouTube Reward" tile and click Get XXXX LBC to receive the appropriate amount of credits. If your account is under review, please check back later. 
 
 #### Wallet Transfer {#transfer}
 
