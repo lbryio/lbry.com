@@ -43,7 +43,7 @@ lbry.com provides functionality for redirecting to build assets of other LBRY re
 
 `lbry.com/releases/<github_repo_name>.<extension>`
 
-For example, to get the latest [lbry-desktop](github.com/lbryio/lbry-desktop) release on Windows, you would use the URL:
+For example, to get the latest [lbry-desktop](https://github.com/lbryio/lbry-desktop) release on Windows, you would use the URL:
 
 `lbry.com/releases/lbry-desktop.exe`
 
