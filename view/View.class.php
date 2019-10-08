@@ -179,6 +179,8 @@ class View
 
     public static function safeExternalLinks(string $html, string $domain): string
     {
+        return $html;
+        
         $parser = new Masterminds\HTML5();
         $dom = $parser->loadHTML($html);
         $links = $dom->getElementsByTagName('body') ?
