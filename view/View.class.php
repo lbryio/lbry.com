@@ -179,21 +179,25 @@ class View
 
     public static function safeExternalLinks(string $html, string $domain): string
     {
-        return $html;
-        
-        $parser = new Masterminds\HTML5();
-        $dom = $parser->loadHTML($html);
-        $links = $dom->getElementsByTagName('body') ?
-            $dom->getElementsByTagName('body')[0]->getElementsByTagName('a') :
-            $dom->getElementsByTagName('a');
+        try {
+            $parser = new Masterminds\HTML5();
+            $dom = $parser->loadHTML($html);
+            $links = $dom->getElementsByTagName('body') ?
+                $dom->getElementsByTagName('body')[0]->getElementsByTagName('a') :
+                $dom->getElementsByTagName('a');
 
-        foreach ($links as $link) {
-            if ($link->getAttribute('href') && static::isLinkExternal($link->getAttribute('href'), $domain)) {
-                $link->setAttribute('rel', "noopener noreferrer");
+            foreach ($links as $link) {
+                if ($link->getAttribute('href') && static::isLinkExternal($link->getAttribute('href'), $domain)) {
+                    $link->setAttribute('rel', "noopener noreferrer");
+                }
             }
-        }
 
-        return $parser->saveHTML($dom);
+            return $parser->saveHTML($dom);
+        }
+        catch (Error $e) {
+            Slack::slackGrin();
+            return $html;
+        }
     }
 
     public static function isLinkExternal(string $url, string $domain): bool
