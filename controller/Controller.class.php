@@ -34,8 +34,8 @@ class Controller
                 $content = View::render($viewTemplate, $viewParameters + ['fullPage' => true]);
                 if ($layout) {
                     $content = View::render('layout/basic', ['content' => $content] + $layoutParams);
+                    $content = View::safeExternalLinks($content, Request::getHost());
                 }
-                $content = View::safeExternalLinks($content, Request::getHost());
                 Response::setContent($content);
             }
 
