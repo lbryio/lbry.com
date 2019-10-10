@@ -1,7 +1,7 @@
 --- 
 author: julie-sigwart
 title: 'The Buzz about the Swarm Program'
-date: '2019-10-10 13:00:00'
+date: '2019-10-11 13:00:00'
 cover: 'buzzzz.jpg'
 category: community-update
 ---
