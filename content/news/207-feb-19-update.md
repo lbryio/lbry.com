@@ -77,7 +77,7 @@ In mid February, we upgraded our [Block Explorer](https://explorer.lbry.com) to 
 ![explorer](https://spee.ch/f/explorer-chainquery.jpg)
 
 ### lbry.com (.com!!) Redesign {#io}
-We’re excited to announce that we’re at the final stages of launching our redesigned, consumer facing portal which is now located at [lbry.com](https://lbry.com). As an extra bonus, it will be getting launched on [lbry.com](https://lbry.com) which we’ve recently acquired. The goal was to keep most of the same pages as the current lbry.com, but give it a more modern look and feel as well as providing easier navigating to our lbry.tech, lbry.org and other key pages like [YouTube Sync](https;//lbry.com/youtube). Keep an eye out for our launch announcement!
+We’re excited to announce that we’re at the final stages of launching our redesigned, consumer facing portal which is now located at [lbry.com](https://lbry.com). As an extra bonus, it will be getting launched on [lbry.com](https://lbry.com) which we’ve recently acquired. The goal was to keep most of the same pages as the current lbry.com, but give it a more modern look and feel as well as providing easier navigating to our lbry.tech, lbry.org and other key pages like [YouTube Sync](https://lbry.com/youtube). Keep an eye out for our launch announcement!
 
 ![redesign](https://spee.ch/@lbry:3f/ioredesign.gif) 
 
@@ -110,7 +110,7 @@ All of our code is open source and available on [GitHub](https://github.com/lbry
 
 If you aren’t part of our Discord community yet, [join us](https://chat.lbry.com) anytime and say hello! 
 
-Our community allows LBRYians to interact with the team directly and for us to engage users in order to grow the LBRY platform. Also follow us on [Twitter](https://twitter.com/lbryio), [Facebook](https://facebook.com/lbryio), [Reddit](https://www.reddit.com/r/lbry), [BitcoinTalk](https://bitcointalk.org/index.php?topic=5116826.new#new), and [Telegram](https//t.m/lbryofficial). 
+Our community allows LBRYians to interact with the team directly and for us to engage users in order to grow the LBRY platform. Also follow us on [Twitter](https://twitter.com/lbryio), [Facebook](https://facebook.com/lbryio), [Reddit](https://www.reddit.com/r/lbry), [BitcoinTalk](https://bitcointalk.org/index.php?topic=5116826.new#new), and [Telegram](https://t.m/lbryofficial). 
 
 
 [Back to **top**](#dev-updates)

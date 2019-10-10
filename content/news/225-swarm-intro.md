@@ -41,7 +41,7 @@ Some ideas for hive interest areas that have come up but do not have a firm grou
 * 3D Printing
 * Gaming
 
-If you’re interested in one of the above areas, you should come [join our chat right now and let us know](https://invite.swarm.org)! Or if you’re not ready for that level of commitment, you can [email us].
+If you’re interested in one of the above areas, you should come [join our chat right now and let us know](https://lbry.social)! Or if you’re not ready for that level of commitment, you can [email us](mailto:hello@lbry.com).
 
 ### What existing Hives can I join?
 

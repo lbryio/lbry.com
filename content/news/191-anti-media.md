@@ -17,7 +17,7 @@ When we heard about what happened, our teams joined forces to build LBRYPress - 
 
 With the click of a button, LBRYPress backs up users' WordPress sites to our blockchain-based, decentralized network. The software also provides a fully customizable template for publishers to showcase their videos and content on their website.
 
-To support and complete this important project, we've made resources from our Institutional Fund available for the first time. In our ongoing efforts to support independent media, we are offering LBRYPress to journalists and independent outlets for free, and will offer technical support to organizations and individuals who want their own customized installation. We're also offering grants to independent media organizations that have new and interesting ideas about how to use LBRY through [LBRY.fund](LBRY.fund).
+To support and complete this important project, we've made resources from our Institutional Fund available for the first time. In our ongoing efforts to support independent media, we are offering LBRYPress to journalists and independent outlets for free, and will offer technical support to organizations and individuals who want their own customized installation. We're also offering grants to independent media organizations that have new and interesting ideas about how to use LBRY through [LBRY.fund](https://LBRY.fund).
 
 For all the details, [read our press release](https://www.prweb.com/releases/after_the_social_media_purge_the_anti_media_is_fighting_back_with_lbry/prweb15969711.htm)!
 
