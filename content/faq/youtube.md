@@ -41,7 +41,7 @@ As soon as you've enrolled, you can claim your rewards.
 
 Your _wallet_ is a special file that contains the secret keys (like a password) to your account.
 
-**It is important that you have a [backup of your wallet](faq/how-to-backup-wallet) after the transfer process is initiated.** New users will have the option of doing so when they first sign into LBRY (Sync Balance setting when entering email). 
+**It is important that you have a [backup of your wallet](/faq/how-to-backup-wallet) after the transfer process is initiated.** New users will have the option of doing so when they first sign into LBRY (Sync Balance setting when entering email). 
 
 The wallet transfer step ensures you have full control of your content and channel. After completing this step, LBRY will not be able to access your funds or modify your channel/account, outside of a permission we retain to continue publishing.
 

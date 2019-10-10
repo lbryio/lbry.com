@@ -137,7 +137,7 @@ LBRY URLs can be shared with anyone - users can view it in their Desktop app or 
 
 ### I'm an advanced user, is there more I can poke around with?
 
-Advanced users can check out the [API/CLI](https://lbryio.github.io/lbry) documentation for command line / API options.
+Advanced users can check out the [API/CLI/SDK](https://lbry.tech/api/sdk) documentation for command line / API options.
 
 ### I'm confused and need some assistance, can you help?
 
