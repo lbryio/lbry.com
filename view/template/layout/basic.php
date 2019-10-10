@@ -47,6 +47,10 @@
     <meta property="og:site_name" content="LBRY"/>
     <meta property="og:title" content="<?php echo $title ?>"/>
     <meta property="og:type" content="article"/>
+    <?php $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ?
+                "https" : "http") . "://" . $_SERVER['HTTP_HOST'] .
+                $_SERVER['REQUEST_URI'];  ?>
+    <meta property="og:url" content="<?php echo $url ?>"/>
 
     <meta name="description" content="<?php echo Response::getMetaDescription() ?>"/>
     <meta name="msapplication-TileColor" content="#155B4A"/>
