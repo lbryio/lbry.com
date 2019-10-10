@@ -2,30 +2,78 @@
 
 class ReportActions extends Actions
 {
-    public static function executeDmca()
-    {
-        Response::setHeader(Response::HEADER_CROSS_ORIGIN, "*");
-        if (!Request::isPost()) {
-            return ['report/dmca'];
-        }
+
+    /**
+     * Handles all routing requests without a claimId as parameter.
+     * E.g. /dmca
+     *
+     * @return array
+     * @throws Exception
+     */
+    public static function executeDmca() {
+
+        self::setResponseHeader();
+        self::redirectIfPostRequest(false, '');
 
         $values = [];
         $errors = [];
+
+        self::validateForm($values, $errors);
+
+        return ['report/dmca', [
+            'errors' => $errors,
+            'values' => $values
+        ]];
+    }
+
+    /**
+     * Handles all routing requests with a claimId as routing parameter since the used router doesn't support optional parameters.
+     * E.g. /dmca/this-is-a-claim-id
+     *
+     * @param string $claimId
+     *
+     * @return array
+     * @throws Exception
+     */
+    public static function executeDmcaWithClaimId(string $claimId): array {
+
+        $claimId = htmlspecialchars($claimId);
+
+        self::setResponseHeader();
+        self::redirectIfPostRequest(true, $claimId);
+
+        $values = [];
+        $errors = [];
+
+        self::validateForm($values, $errors);
+
+        return ['report/dmca', [
+            'errors' => $errors,
+            'values' => $values,
+            'claimId' => $claimId
+        ]];
+    }
+
+    /**
+     * @param array $values
+     * @param array $errors
+     *
+     * @return array
+     * @throws Exception
+     */
+    private static function validateForm(array $values, array $errors)
+    {
 
         foreach (['name', 'email', 'rightsholder', 'identifier'] as $field) {
             $value = Request::getPostParam($field);
 
             if (!$value) {
                 $errors[$field] = __('form_error.required');
-            } elseif ($field == 'email' && !filter_var($value, FILTER_VALIDATE_EMAIL)) {
+            } elseif ($field === 'email' && !filter_var($value, FILTER_VALIDATE_EMAIL)) {
                 $errors[$field] = __('form_error.invalid');
             }
 
             $values[$field] = $value;
-        }
-
-        if ($_GET['claim_id'] && !$values['identifier']) {
-            $values['identifier'] = htmlspecialchars($_GET['claim_id']);
         }
 
         if (!$errors) {
@@ -35,9 +83,34 @@ class ReportActions extends Actions
             return Controller::redirect(Request::getRelativeUri(), 303);
         }
 
-        return ['report/dmca', [
-            'errors' => $errors,
-            'values' => $values
-        ]];
+    }
+
+    /**
+     * Sets the response header.
+     */
+    private static function setResponseHeader()
+    {
+        Response::setHeader(Response::HEADER_CROSS_ORIGIN, "*");
+    }
+
+    /**
+     * Chooses the right template according to passed variables.
+     *
+     * @param bool   $hasClaimId
+     * @param string $claimId
+     *
+     * @return array
+     */
+    private static function redirectIfPostRequest(bool $hasClaimId = false, string $claimId = '') {
+
+        if ($hasClaimId && !empty($claimId)) {
+            $returnValue = ['report/dmca', ['claimId' => $claimId]];
+        } else {
+            $returnValue = ['report/dmca'];
+        }
+
+        if (!Request::isPost()) {
+            return $returnValue;
+        }
     }
 }

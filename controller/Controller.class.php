@@ -127,6 +127,7 @@ class Controller
         $router->any('/list/edit/{token}', 'MailActions::editEmailSettings');
 
         $router->any('/dmca', 'ReportActions::executeDmca');
+        $router->any('/dmca/{claimid}', 'ReportActions::executeDmcaWithClaimId');
 
         $router->post('/youtube/edit', 'AcquisitionActions::executeYoutubeEdit');
         $router->post('/youtube/token', 'AcquisitionActions::executeYoutubeToken');
