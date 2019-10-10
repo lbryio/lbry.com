@@ -20,6 +20,8 @@ The LBRY Swarm is a community program to promote awareness, use, and development
 
 A Hive is made up of people who care about LBRY and… something else. That “something else” could be based on many different ideas. Some good examples: a geographical area, a genre of music, a hobby or interest, or a project being built on the LBRY protocol.
 
+If you’re interested in finding out more about the Swarm program, how to start a hive, or join one, [please check out this link.](https://docs.google.com/forms/d/e/1FAIpQLSfDabPptaLx7TI7DeT_dAOZgeulSRD1A-VnYYypbuc_r4wlhA/viewform?usp=sf_link) We have a discussion list for all, plus all are welcome in our Swarm Discord. 
+
 ### Are there any particularly needed Hives?
 
 Some ideas for hive interest areas that have come up but do not have a firm group supporting them are:
@@ -40,8 +42,6 @@ Some ideas for hive interest areas that have come up but do not have a firm grou
 * Gaming
 
 If you’re interested in one of the above areas, you should come [join our chat right now and let us know](https://invite.swarm.org)! Or if you’re not ready for that level of commitment, you can [email us].
-
-If you’re interested in finding out more about the Swarm program, how to start a hive, or join one, [please check out this link.](https://docs.google.com/forms/d/e/1FAIpQLSfDabPptaLx7TI7DeT_dAOZgeulSRD1A-VnYYypbuc_r4wlhA/viewform?usp=sf_link) We have a discussion list for all, plus Hive Officers get access to a special LBRY team Slack channel. 
 
 ### What existing Hives can I join?
 
