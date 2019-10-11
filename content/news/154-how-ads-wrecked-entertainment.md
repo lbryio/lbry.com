@@ -1,4 +1,4 @@
-﻿---
+---
 author: brinck-slattery
 title: 'How Ads Wrecked Entertainment (And What You Can Do About It)'
 date: '2018-01-16 15:30:00'
@@ -108,7 +108,7 @@ There are three steps you can take to help stop this ad-supported death spiral. 
 2. Find ways to directly support the creators you like.
 3. Try new content delivery platforms that treat artists (and fans) like people, not commodities.
 
-**Be intentional about the media you consume.** It's pretty simple. No more channel surfing or endlessly watching YouTube's auto-suggested videos. Stop on one you like and check out the rest from that creator. Turn the radio off, plug into the [Spotify Artist Explorer](https://artistexplorer.spotify.com), [Music Suggestions Ninja](https://www.musicsuggestions.ninja), or [Liveplasma](http://liveplasma.com), and find something great instead of something ok. Decide that from now on; you're blazing your own path - if it intersects with something that happens to be popular, ad-supported media, that's totally fine. Just keep the next step in mind.
+**Be intentional about the media you consume.** It's pretty simple. No more channel surfing or endlessly watching YouTube's auto-suggested videos. Stop on one you like and check out the rest from that creator. Turn the radio off, plug into the [Spotify Artist Explorer](https://artist-explorer.glitch.me), [Music Suggestions Ninja](https://www.musicsuggestions.ninja), or [Liveplasma](http://liveplasma.com), and find something great instead of something ok. Decide that from now on; you're blazing your own path - if it intersects with something that happens to be popular, ad-supported media, that's totally fine. Just keep the next step in mind.
 
 **Find ways to directly support the creators you like**. It isn't nearly as difficult as it was even five years ago, but most options have some drawbacks. Platforms like [Patreon](https://www.patreon.com) and [Bandcamp](https://bandcamp.com) let fans contribute directly to artists, but they take a cut of the proceeds. Streaming services like [Spotify](https://www.spotify.com) offer a fantastic catalogue of artists and albums, but artists receive very little for each play of their song.
 

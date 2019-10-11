@@ -1,4 +1,4 @@
-﻿---
+---
 author: tom-zarebczan
 title: 'Development and Community Update January 2018'
 date: '2018-02-01 4:00:00'
@@ -77,7 +77,7 @@ Our Discord server is armed with the almighty LBRY tipbot which allows us to rew
 Head over to our #favoritecreators channel on [Discord](https://chat.lbry.com) where we ask our community to share their favorite content creators and have others upvote the entries with the goal of getting them on LBRY. We'll offer the creator 10K LBC to post (or mirror) their content. If we can't get in touch, we'll go to the next top voted one. We don't have a hard limit on subscribers/content type (I'd say at least 50K subs?), but we reserve the right to disqualify/pass if warranted. This will run until the end of February.
 
 ### Meetups and College Campus Initiatives
-Although we are still finalizing our programs for both meetups and college initiatives, we'd love to hear from your if you are interested in learning more! Please join us on the respective #meetup / #campus channels in [Discord](https//chat.lbry.com). Please keep reading below for updates from several pilot programs.
+Although we are still finalizing our programs for both meetups and college initiatives, we'd love to hear from your if you are interested in learning more! Please join us on the respective #meetup / #campus channels in [Discord](https://chat.lbry.com). Please keep reading below for updates from several pilot programs.
 
 Last year we had a community member named Adrian, from Poland, reach out to us in order to raise awareness to LBRY in his circles which include a [famous choir](http://en.cantoresminores.pl) and two universities - check out [this photo](https://spee.ch/d/adrian-lbry.jpeg) of him in action! He's interested in more collaboration again this year, and we are in the process of working out the details. Next, we have bounboun from Discord who gave a [presentation](https://docs.google.com/presentation/d/1CvpdVm3YON0VP4PeZESLAc3ThwaWWI7NONN3NCZeTHo/edit#slide=id.g3293f0e87a_0_81) on January 30th during a gaming conference in France, and he'll also be talking about LBRY at a [french meetup on March 14 ](https://www.meetup.com/fr-FR/Crypto-Alsace) which had over 200 guests previously!
 

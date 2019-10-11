@@ -1,4 +1,4 @@
-﻿---
+---
 author: samuel-lbryian
 title: 'Development and Community Update'
 date: '2017-12-12 5:00:00'
@@ -72,7 +72,7 @@ Join us for the next [Community Movie Night](/news/a-very-special-holiday-specia
 Our Discord server is armed with the almighty LBRY tipbot which allows us to reward our community members for their suggestions, feedback and other contributions. Come chat with us to discover the various ways you can help the project. Whether it's helping us test the software, providing a service to the community, writing a blog post or being a brand ambassador, we appreciate all contributions!
 
 ### Meetups and College Campus Initiatives
-Although we are still finalizing our programs for both meetups and college initiatives, we'd love to hear from you if you are interested! Please join us on the respective #meetup / #campus channels in [Discord](https//chat.lbry.com).
+Although we are still finalizing our programs for both meetups and college initiatives, we'd love to hear from you if you are interested! Please join us on the respective #meetup / #campus channels in [Discord](https://chat.lbry.com).
 
 ### Growing our Discord Community
 If you are aware of Discord communities which could benefit from what LBRY offers as a platform, drop us a line on Discord. We are at the beginning stages of an initiative to reach out to other communities whose interests or goals may align with LBRY's vision for a decentralized and creator controlled digital content marketplace.

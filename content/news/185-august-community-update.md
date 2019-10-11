@@ -68,13 +68,6 @@ Our friends David Heath and Mike Little have been hard at work putting the final
 
 ![FONK World](https://spee.ch/b/fonk)
 
-#### LBRY Pi TV:
-While our Dev team has been focused on bringing LBRY to small screens, [Discord](https://chat.lbry.com) user Madiator2011 has been working a plug and play device to view LBRY video content on television. At its core, the device uses a Raspberry Pi computer to stream LBRY videos. You can download the most recent version of [LBRY Pi TV here.](https://lbrypi.com/downloads).
-
-![LBRYPi.com and device](https://spee.ch/d/lbrypi-com)
-
-![CryptoCandor on TV](https://spee.ch/3/LBRYPi-tv)
-
 #### Matt Sokol's _The Book Boutique_
 Musician and LBRY contributor Matt Sokol approached us with a unique LBRY.fund request: he asked us to fund him to work on a special project using a custom [Spee.ch Multisite](https://github.com/lbryio/spee.ch) installation to host beautifully typeset classical books. The first book he is working on is the classic, _Siddhartha._ Meanwhile, if you'd like to hear some of Matt's music, you can find it on the LBRY app: [lbry://@heymattsokol.](https://open.lbry.com/@heymattsokol)
 
