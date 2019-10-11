@@ -39,9 +39,9 @@ LBRY.Turkey creates Turkish language support of LBRY and promotes localized cont
 On the southernmost tip of India is the LBRY Keral Hive! LBRY Kerala Hive's prime goal is to spread knowledge and create more awareness about the LBRY platform. Their campaigning is focused in Southern India promoting LBRY by creating the awareness among potential users through public presentations, webinars in schools, colleges, and IT parks.
 
 * [Visit LBRY Kerala Hive's Discord server](https://discord.gg/3Qymt6U)
-* [LBRY Kerala Hive's Facebook Page](​https://www.facebook.com/LBRYKerala)
-* [LBRY Kerala Hive's Twitter Page](​https://twitter.com/LBRYKerala)
-* [LBRY Kerala Hive's Telegram Channel](​https://t.me/LBRYKerala)
+* [LBRY Kerala Hive's Facebook Page](https://www.facebook.com/LBRYKerala)
+* [LBRY Kerala Hive's Twitter Page](https://twitter.com/LBRYKerala)
+* [LBRY Kerala Hive's Telegram Channel](https://t.me/LBRYKerala)
 * [LBRY Kerala's Website](https://www.lbrykerala.com)
 
 #### LBRY dorminate Africa Hive

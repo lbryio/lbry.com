@@ -14,4 +14,4 @@ LBRY v0.20 is live, and if you've been waiting in vain for verification, your da
 
 Users can now use SMS to verify that they're human. We've also automated the app upgrade process, updated the LBRY daemon, added a "dark" mode for evening viewing, and fixed an [Electron security issue](https://electronjs.org/blog/protocol-handler-fix).
 
-You can read the [full release notes here](https://github.com/lbryio/lbry-desktop/releases/tag/v0.20.0). If you haven't downloaded the app yet, [what are you waiting for](lbry.com/get)?
+You can read the [full release notes here](https://github.com/lbryio/lbry-desktop/releases/tag/v0.20.0). If you haven't downloaded the app yet, [what are you waiting for](/get)?

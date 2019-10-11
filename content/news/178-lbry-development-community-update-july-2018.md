@@ -187,9 +187,6 @@ David Heath and Mike Little are teaming up to create an animated humorous video 
 >
 > — LBRY (we never give away ETH) (@LBRYio) [July 27, 2018](https://twitter.com/LBRYio/status/1022945228137881606)
 
-#### LBRY Pi TV:
-[Discord](https://chat.lbry.com) user Madiator2011 is creating a plug and play device to view LBRY video content on television. At its core, the device uses a Raspberry Pi computer to stream LBRY videos. You can watch the progress and follow along by visiting [the LBRY Pi Website](https://lbrypi.com).
-
 #### UNH Hackathon:
 LBRY is partnering with the University of New Hampshire to present a hackathon for UNH students this fall! Prizes range up to $1000 worth of LBC. Date and additional details to be announced soon.
 
