@@ -54,11 +54,11 @@ LBRY Social focuses on highlighting and creating the finest, highest quality LBR
 
 We will be funding people who have high performing social media accounts for their participation in our social media marketing campaigns as part of our coming marketing push. We are also looking for people with exceptional design skills to help facilitate the creation of these campaigns.
 
-* [Visit LBRY Social's Discord server](https://discord.gg/4MyNyUe)
+* [Visit LBRY Social's Discord server](https://discord.gg/Uzx5Pnf)
 * [Visit LBRY Social's Website](https://lbry.social)
 * [Visit LBRY Social's Twitter page](https://twitter.com/LBRYSocial)
 
-![LBRY.social](https://spee.ch/@lbrynews:0/lbrysocial)
+![LBRY.social](https://spee.ch/4/lbrys.png)
 
 #### LBRYC
 *Focus: Marketing and Open Source Development*
