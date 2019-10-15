@@ -145,7 +145,7 @@ New patriotic and free speech inspired designs have been added to our shop as we
 ![Satoshi Jefferson t-shirt](https://spee.ch/c/jefferson.png)
 
 ### LBRY.tech Update {#lbry-tech}
-LBRY.tech is in the middle of a major overhaul - when we're done, it will be easier to use and more accessible to developers who want to learn about LBRY. You can follow along with progress on our [GitHub repository](https://github.com/lbryio/lbry.tech). Next steps before launch include determining a single API documentation resource across our projects.  We've recently added a [glossary with LBRY/Blockchain related terms](https://lbry.tech/glossary.html) and moved [several technical documents](https://github.com/lbryio/lbry.tech/tree/master/content/resources) over to the lbry.tech repository. The 2nd step of the tour, which allows for developers to publish a meme on the blockchain, has been completed.
+LBRY.tech is in the middle of a major overhaul - when we're done, it will be easier to use and more accessible to developers who want to learn about LBRY. You can follow along with progress on our [GitHub repository](https://github.com/lbryio/lbry.tech). Next steps before launch include determining a single API documentation resource across our projects.  We've recently added a [glossary with LBRY/Blockchain related terms](https://lbry.tech/glossary.html) and moved [several technical documents](https://github.com/lbryio/lbry.tech/tree/master/documents/resources) over to the lbry.tech repository. The 2nd step of the tour, which allows for developers to publish a meme on the blockchain, has been completed.
 
 ![lbrytech publish](https://spee.ch/9/lbry-tech-publish.jpg)
 
