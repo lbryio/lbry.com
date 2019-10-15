@@ -87,7 +87,7 @@ The Meetup program has also been launched on our [Meet](/meet) and [College](/co
 
 Significant progress has been made on the white paper and a first draft is very close to being shared publicly. It will be released as a navigational document, in an in-progress state, on our new LBRY.tech (not live yet) developer resource site and we'll be asking the community for their feedback.
 
-Wallet encryption has been implemented on the daemon but is not yet available in the LBRY app. If you want to use this feature ASAP, check out the [CLI](https://lbryio.github.io/lbry/cli/#wallet_encrypt) documentation - the wallet will need to be [unlocked](https://lbryio.github.io/lbry/cli/#wallet_unlock) manually before app startup. Feel free to reach out on Discord with any questions!
+Wallet encryption has been implemented on the daemon but is not yet available in the LBRY app. If you want to use this feature ASAP, check out the [CLI](https://lbry.tech/api/blockchain#walletpassphrase) documentation - the wallet will need to be [unlocked](https://lbry.tech/api/blockchain#walletlock) manually before app startup. Feel free to reach out on Discord with any questions!
 
 The UI redesign was recently merged on our lbry-desktop repo and we should have a release candidate to share with early testers this/next week. See [App Redesign development update above](#redesign-updates).
 
