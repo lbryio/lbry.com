@@ -42,7 +42,7 @@ It showed that we don't have to accept government or corporate censorship of wha
 
 What it didn't show is that people are ready to change their habits immediately and **we didn't expect it to.**
 
-However, proving that the dream of LBRY is possible helped us raise a $500,000 seed round led by Pillar and joined by some other great people like the CEOs of [Dyn](https://dyn.com) and [Backupify](hhttps://en.wikipedia.org/wiki/Datto_(company)).
+However, proving that the dream of LBRY is possible helped us raise a $500,000 seed round led by Pillar and joined by some other great people like the CEOs of [Dyn](https://dyn.com) and [Backupify](https://en.wikipedia.org/wiki/Datto_(company)).
 
 While that money isn't quite enough for long-term thinking, it's enough that we don't have to think for tomorrow or next week.
 
