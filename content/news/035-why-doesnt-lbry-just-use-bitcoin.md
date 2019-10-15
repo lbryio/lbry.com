@@ -1,4 +1,4 @@
-﻿---
+---
 author: samuel-lbryian
 title: Why Doesn't LBRY Just Use Bitcoin?
 date: '2016-03-17 13:31:10'
@@ -32,7 +32,7 @@ If LBRY starts growing exponentially, we don't want to worry about contributing 
 
 One of the main draws of Bitcoin has always been its relative decentralization of control and independence from existing legal and financial systems. Similarly, using LBC as an "appcoin" gives LBRY some healthy autonomy from Bitcoin while allowing for the technical innovations explained above.
 
-An appcoin, as described by LBRY's Mike Vine on [Decentral Vancouver's "#Blocktalk"](/news/lbry-desktop-sneak-peak-big-questions-answered-lbry-on-blocktalk-last-night) and in [CoinTelegraph](http://cointelegraph.com/news/the-appcoin-revolution-interview-with-mike-vine-of-lbry), is a cryptocurrency that is designed specifically to power an application, with only that application's precise functions in mind. The purpose of this appcoin is not to compete for a better form of money than Bitcoin, but to function as a special purpose tool in ways Bitcoin cannot. Creating a special tool in the form of a new coin allows us to start fresh, customizing features like the initial allocation and blockchain rules.
+An appcoin, as described by LBRY's Mike Vine on [Decentral Vancouver's "#Blocktalk"](news/lbry-app-sneak-peak-big-questions-answered-lbry-on-blocktalk-last-night) and in [CoinTelegraph](http://cointelegraph.com/news/the-appcoin-revolution-interview-with-mike-vine-of-lbry), is a cryptocurrency that is designed specifically to power an application, with only that application's precise functions in mind. The purpose of this appcoin is not to compete for a better form of money than Bitcoin, but to function as a special purpose tool in ways Bitcoin cannot. Creating a special tool in the form of a new coin allows us to start fresh, customizing features like the initial allocation and blockchain rules.
 
 In the early days of our protocol, LBRY Inc. will be making a concerted effort to deploy LBC in a non-neutral way. We will be incentivizing early adopters, amazing content publishers, and even nonprofits which share our vision of a free and open internet. We will be retaining a portion to finance the continued development of the ecosystem. LBRY Credits will work on behalf of development of the LBRY content distribution network, not the other way around.
 
