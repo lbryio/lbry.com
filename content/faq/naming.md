@@ -38,7 +38,7 @@ Claims in LBRY are non-consumptive. When you designate a number of credits in a 
 LBRY supports several types of URL resolution:
 
 | Type | Syntax | Resolution |
-| --- | --- |
+| --- | --- | --- |
 | **Permanent** | `lbry://<name>#<claim_id>` | This URL consists of a name and randomly assigned ID. This is permanently owned and controlled by the publisher. Permanent URLs support partial, temporal-ordered ID matching, so these can be quite short (e.g. lbry://name#8 or lbry://name#ab) |
 | **Short** | `lbry://<name>#<short_claim_id>` | This URL consists of a name and one or more characters (first come first serve to preserve uniqueness) form the Permanent URL. This is permanently owned and controlled by the publisher. If a shorter URL is made available, the claim next in line will take over it's resolution.
 | **Community** | `lbry://<name>` | Of all of the claims named `<name>`, this returns the publish with the most credits committed towards it, not just by the publisher, but by the entire community. These URLs are not permanent or owned but instead controlled by the community itself, allowing the resolution to settle on that which the community determines most appropriate. |
