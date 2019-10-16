@@ -6,6 +6,8 @@ cover: '20191016-kaccreative.jpg'
 category: featured-content
 ---
 
+Welcome to this week's creator spotlight!
+
 [KAC Creative](https://open.lbry.com/@KACCreative:4) makes beautifully crafted, scored, and shot videos showing the creation of treats that are somehow even more attractive. Be entranced, educated, and hungry all at the same time!
 
 [Vibrant Green Oil for Plating](https://open.lbry.com/@kaccreative:4/vibrant-green-oil-for-plating:0_ is an quintessential KAC Creative video. Great music, a cooking lesson, and an art lesson rolled into one.
