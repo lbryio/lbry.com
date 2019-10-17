@@ -122,7 +122,7 @@ This hive has been working on many different objectives, including a weblog. Her
 
 Dr. Brendon Brewer has been working with Mark Firth to create a visualization of LBRY statistics. Take a look here to see their progress: https://lbry.social/lbrynomics/
 
-[Brendon Brewer LBRYnomics](https://www.brendonbrewer.com/lbrynomics/)
+[Brendon Brewer LBRYnomics](https://github.com/eggplantbren/LBRYnomics)
 
 #### China Hive 
 
