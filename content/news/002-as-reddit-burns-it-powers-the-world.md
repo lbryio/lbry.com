@@ -14,7 +14,7 @@ Today, these are the top 10 posts on /r/all:
 
 Perhaps my favorite internet moment ever has been given the indecently bland Wikipedia title of [AACS encryption key controversy](http://en.wikipedia.org/wiki/AACS_encryption_key_controversy). For the kids, non-nerds, and amnesiac nerds, a synopsis: the movie industry subpoenaed Digg to remove any references to the number **09 F9 11 02 9D 74 E3 5B D8 41 56 C5 63 56 88 C0** on the grounds that the number could be used to decrypt DVDs. Digg complied. Users revolted. The front page of Digg looked a lot like /r/all, except full of hexadecimal digits instead of fat people and swastikas.
 
-Watching the everyman rebel against censorship and control brought tears to my eyes. It was an absolute inspiration. Astute eyes can find a tiny free speech flag in [our footer ](/why).
+Watching the everyman rebel against censorship and control brought tears to my eyes. It was an absolute inspiration. Astute eyes can find a tiny free speech flag in [our footer ](https://en.wikipedia.org/wiki/Free_Speech_Flag?_ga=2.74587355.839138964.1571061658-1950115216.1569879724).
 
 Calling Ellen Pao a Nazi and posting pictures of fat people has not made me cry.
 
