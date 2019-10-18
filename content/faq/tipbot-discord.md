@@ -45,13 +45,13 @@ Want to tip someone privately in a personal message? This will send a tip to you
 This will send your set tip amount to all the users you list.
 
 - **Arguments:** `!multitip <usernames> <amount>`
-- **Example:** `!multitip @Electron#1111 @Proton#222 10`
+- **Example:** `!multitip @Electron#1111 @Proton#2222 10`
 
 ### Multi Tip Private
 This will privately send your set tip amount to all the users you list in personal messages.
 
 - **Arguments:** `!multitip private <usernames> <amount>`
-- **Example:** `!multitip private @Electron#1111 @Proton#222 10`
+- **Example:** `!multitip private @Electron#1111 @Proton#2222 10`
 
 ### Role Tips
 Want to tip a Discord role? This will send a tip to your chosen role.
