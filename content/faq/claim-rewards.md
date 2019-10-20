@@ -6,7 +6,7 @@ order: 1
 
 Did you know you can earn LBC through the LBRY Rewards program just for watching sweet content and doing other simple actions? If not, today is your lucky day.
 
-![rewards](https://spee.ch/9/rewards-tutorial01.png)
+![rewards](https://spee.ch/b/rewards-tutorial01-2.png)
 
 _On the left, navigating to Rewards in LBRY Desktop and lbry.tv. On the right, navigating to Rewards on LBRY Android._
 
