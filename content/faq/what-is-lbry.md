@@ -19,7 +19,7 @@ Do you have to understand any of this to use and enjoy LBRY? No. Does it still m
 ## What Bitcoin accomplished
 
 Blockchain technology, of which Bitcoin is the most famous example, enables people to create online databases where no single entity can control what goes in the database. With Bitcoin, when I send money to someone, my computer broadcasts "hey, the person with this particular private encryption key (me) is sending money to that person over there", and the mining process makes everyone agree that indeed, I sent that money, so my balance has gone down and the recipient's has gone up. 3Blue1Brown (a maths channel) has a good explanation of how this
-all works [https://beta.lbry.tv/@3Blue1Brown:b/ever-wonder-how-bitcoin-and-other:1](here).
+all works [here](https://beta.lbry.tv/@3Blue1Brown:b/ever-wonder-how-bitcoin-and-other:1).
 
 In LBRY, the same mechanism is used to store *an index of what content is available* and
 *how to download it*, as well as financial transactions (such as tips and purchases)
@@ -27,18 +27,19 @@ using the Bitcoin-like currency LBC (LBRY Credits). When a creator publishes som
 a "claim" is made on the LBRY blockchain. You can think of think of it as an announcement: *hey everyone,
 I've published this file, here's some information about it, and instructions for how to download it
 from the peer-to-peer network*. For the same reasons that nobody can prevent a Bitcoin transaction
-from taking place, nobody can prevent a claim or transaction
+from taking place, nobody can prevent a transaction (e.g., a publication or a tip)
 from appearing on the LBRY blockchain.
 Other sites, such as Bitchute, also serve their content from a peer-to-peer network, however,
 the index of available content is centralized. Recently, Australian ISPs were able to block access
-to Bitchute.
+to Bitchute. Similar issues exist with BitTorrent --- there is no place to go that lists everything
+that's available.
 
 As soon as a claim has been published, other users can see that the content exists and start downloading
 it directly from you. Once they have a copy, they also become an extra node on the network that can
 upload the file to others.
 However, since some content is not immediately downloaded by others,
-the LBRY team also runs a reflector server which attempts to download a copy of your content
-when you publish it.
+the LBRY team also runs a 'reflector' server which automatically downloads a copy of your content
+when you publish it, so that it will be available to others if you turn off your computer.
 In the long run, this reflector server will eventually be replaced with a decentralized network of servers.
 
 ## Why Build A Protocol?
