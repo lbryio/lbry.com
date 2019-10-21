@@ -18,7 +18,7 @@ LBC rewards can be used to buy content on the LBRY network, to support your favo
 
 ![rewardssample](https://spee.ch/e/rewards-sample.png)
 
-You may need to complete account verification to participate in the rewards program. See our [Rewards](https://lbry.com/faq/rewards) for more information and details about what rewards are available. 
+You may need to complete account verification to participate in the rewards program. See our [Rewards FAQ](https://lbry.com/faq/rewards) for more information and details about what rewards are available. 
 
 ### More Tutorials
 
