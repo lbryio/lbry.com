@@ -4,7 +4,7 @@ category: tutorial
 order: 2
 ---
 
-Searching for content on the LBRY Desktop and Android apps is easy. We'll start with lbry.tv and Desktop first, then cover [Android below](#android).
+Searching for content on the LBRY apps is easy! We'll start with lbry.tv and Desktop first, then cover [Android below](#android).
 
 ### Searching on Desktop and lbry.tv
 
@@ -15,7 +15,7 @@ Click your cursor into the top bar, and enter a search term. Typically, you'll s
 
 ![desktop-search](https://spee.ch/a/search-term.png)
 
-After performing a search, you'll have access to additional filter to help narrow down the results.
+After performing a search, you'll have access to additional filters to help narrow down the results.
 - Filtering to _files_ will return content published according to the selected file types.  
 - Filtering to _channels_ will return only channel results.
 
