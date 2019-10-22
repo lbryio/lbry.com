@@ -30,7 +30,7 @@ Congratulations on publishing your first piece of content! Have any questions? P
 1. For the channel section, you can choose to publish anonymously, select an existing channel, or create a new one.
 1. Adjust the auto-suggested lbry:// URL and bid, if desired. ([learn more](/faq/naming) about how this works)
 1. Set a price for your content, if desired.
-1. click **Publish** to submit your upload to the LBRY network! 
+1. Click **Publish** to submit your upload to the LBRY network! 
  
 Congratulations on publishing your first piece of content! Have any questions? Please see our [detailed Android FAQ](/faq/android-basics).
 
