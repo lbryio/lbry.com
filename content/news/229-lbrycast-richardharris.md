@@ -2,7 +2,7 @@
 author: samuel-lbryian
 title: 'Hands Off Your ****, Even If You Trip'
 date: '2019-10-23 14:30:00'
-cover: 'richardharris-blog.png'
+cover: 'richardharris-blog2.jpg'
 category: featured-content
 ---
 Welcome to this week's creator spotlight!
