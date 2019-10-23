@@ -2,10 +2,10 @@
 author: samuel-lbryian
 title: 'Hands Off Your ****, Even If You Trip'
 date: '2019-10-23 14:30:00'
-cover: 'richardharris-banner.jpg'
+cover: 'richardharris-banner.jfif'
 category: featured-content
 ---
-### Richard Harris Says Vote No on Fapping, Yes on Tiny Bits of LSD
+## Richard Harris Says Vote No on Fapping, Yes on Tiny Bits of LSD
 
 Welcome to this week's creator spotlight!
 
