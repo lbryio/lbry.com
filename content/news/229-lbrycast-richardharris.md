@@ -2,15 +2,15 @@
 author: samuel-lbryian
 title: 'Hands Off Your ****, Even If You Trip'
 date: '2019-10-23 14:30:00'
-cover: 'richardharris-banner.jfif'
+cover: 'richardharris-blog.png'
 category: featured-content
 ---
-## Richard Harris Says Vote No on Fapping, Yes on Tiny Bits of LSD
-
 Welcome to this week's creator spotlight!
 
+### Richard Harris Says Vote No on Fapping, Yes on Tiny Bits of LSD
+
 [Richard Harris Coaching](https://open.lbry.com/@RichardHarrisCoaching:4) has a lot of life advice to offer, backed up by personal experience, thoughtful self-examination, evidence, and a willingness to experiment.
-![img](https://spee.ch/@lbrynews:0/lbrycast-richard-harris.jpeg)
+[![img](https://spee.ch/@lbrynews:0/lbrycast-richard-harris.jpeg)](https://open.lbry.com/@RichardHarrisCoaching:4)
 
 Where to start with Richard? Well, [his video explaining the benefits of eschewing](http://open.lbry.com/@RichardHarrisCoaching#4/nofap-truth-one-year-of-nofap#6) the ol’ five knuckle shuffle is one of his most popular.
 
