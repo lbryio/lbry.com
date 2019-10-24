@@ -24,7 +24,7 @@ Yes. Working with exchanges is a pain for typical and actual users of the LBRY p
 
 We are working to find and provide alternatives for those who do not like the current situation with exchanges, especially for creators.
 
-### I have a complaint and/or compliment about "x market statistic".
+### I have a complaint and/or compliment about a specific statistic about the market for LBC.
 We’re sorry you feel that way and/or thank you.
 
 We do not control the markets. We do not interfere with the markets. We do not dump and we do not pump.
