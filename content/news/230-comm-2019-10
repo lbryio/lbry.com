@@ -1,0 +1,155 @@
+--- 
+author: julie-sigwart
+title: 'October 2019 LBRY Community Report'
+date: '2019-10-25 18:00:00'
+cover: 'trick.jpg'
+category: community-update
+---
+
+# Welcome to the October 2019 LBRY Community update! 
+
+If you aren’t part of our Discord community yet, [join us](https://chat.lbry.com) anytime and say hello! Our community allows LBRYians to interact with the team directly and for us to engage users and grow the LBRY platform. If you don't already, follow us on [Twitter](https://twitter.com/lbryio), [Facebook](https://facebook.com/lbryio), [Reddit](https://www.reddit.com/r/lbry), and [Telegram](https://t.me/lbryofficial).
+
+## In This Update: {#updates}
+* [What's new at LBRY?](#news)
+* [Hacktoberfest](#hacktoberfest)
+* [Help us Translate our App](#i18n)
+* [Join the Swarm!](#swarm)
+* [Hive Updates](#hives)
+* [LBRY App in More Languages](#i18n)
+* [Trick or Treat!](#treat)
+
+### What's New at LBRY? {#news}
+
+#### Galileo (Desktop) and Cartwheel (Android) released
+
+Our latest release, Galileo for Desktop and Cartwheel for Android, is a huge milestone for LBRY. For the first time in LBRY history, your account is synched across all of your devices! 
+
+Making our network easy to use is our main focus, and the LBRY Network has been growing in terms of both users and content on the network. In fact, there are over 1.5 MILLION claims on LBRY.
+
+Other new features in Galileo include:
+
+- A Channels page that lists a user’s created channels, including any that are eligible to be transferred as from YouTube sync
+- Subscriber counts on Channel pages and view counts on content for all users.
+- More detailed balance information on the Wallet page - includes total locked tips and LBC staked in publishes/channels/supports.
+- Pagination support on Publishes/Downloads/Transaction history - helps improve power user app performance.
+- Search content within a channel on the channel page.
+- Saving volume settings between videos.
+- Saving encryption passwords - no typing your password on each startup.
+- Enforincg max character count on comments.
+- Sign out button that actually signs you out - no more clearing tokens manually!
+- Better internationalization support, more languages can be added easily now.
+
+#### YouTube Sync Claiming and Transfers
+
+Galileo enables a long-awaited feature to close the loop in our [YouTube Sync Partner Program](https://lbry.com/youtube). Now our claiming and transfer process allows creators to take full control of their channels and content. LBRY will only retain access (using a signing key) to publish new items into the channel and can no longer edit any content or the channel metadata itself. 
+
+Learn more about how this process works on our updated [YouTube Sync FAQ](/faq/youtube).
+
+![transfer](https://spee.ch/2/sync-faq-2.png)
+
+#### LBRY.tv 
+
+We're just about ready to release LBRY to a web browser near you! We did some restructuring on the backend, including migrating our accounts-based model to a wallet-ID one. This creates a better cross platform experience for our users. 
+
+The process included converting all accounts to separate wallets, importing any channels that may have been created, and loading of user wallets on startup. The wallet based model will also allow us to scale LBRY.tv more efficiently as we can choose what wallets are loaded on which SDK instance supporting the front end. 
+
+Eager to give lbry.tv a try now? Head over to [https://beta.lbry.tv](https://beta.lbry.tv) and sign up for an account. 
+
+####  Content Creator Rewards
+
+We’ll be rolling out tiered subscriber and publish rewards to content creators that use the LBRY app and those in the YouTube sync program. For example, this means if you get X subscribers, you’ll be eligible for a reward of Y LBC (specific amounts are still being worked out). For publishing, this will work in a similar way by counting the number of publishes made in the LBRY app. 
+
+For the YouTube program, we’ll also be changing the yearly reward to a monthly one, which includes any prorated amounts since you were last eligible to claim the reward. Be on the lookout in your email box when this is ready to be claimed! 
+
+### Last Call to get a LBRY Hacktoberfest t-shirt! {#hacktoberfest}
+
+Hacktoberfest is almost over, but there is still time to submit your work and earn swag! Submit Pull Requests to our Github project repos to earn a brand new limited-edition collectible LBRY Hacktoberfest t-shirt and other swag. 
+
+Hacktoberfest information, including details about our last live help session [can be found here](https://lbry.com/hacktoberfest).
+
+![Hacktoberfest is Here](https://spee.ch/@lbrynews:0/Hacktoberfest-tshirt.png)
+
+### LBRY App Language Translations {#i18n}
+
+We're looking for help from you, our community, to help localize LBRY in different languages.
+
+We have some languages already translated, including: Polish, Dutch, Indonesian, and Slovak. If you don't see your native language in this list, please consider signing up to help with translation!
+
+[Please go to the LBRY Transifex dashboard](https://www.transifex.com/lbry/lbry-desktop/dashboard/) if you'd like to either sign up to translate, or continue translating new strings.
+
+### Join the Swarm! {#swarm}
+
+If you’re interested in finding out more about the Swarm program, how to start a hive, or join one, [please check out this link.](https://docs.google.com/forms/d/e/1FAIpQLSfDabPptaLx7TI7DeT_dAOZgeulSRD1A-VnYYypbuc_r4wlhA/viewform?usp=sf_link) 
+
+We have a new Discord home for the Swarm, and you [can join here and ask us questions about the program or find an interesting hive!](https://invite.lbry.org)
+
+![Mario in LBRY Land](https://spee.ch/@lbrynews:0/lbry-game.png)
+_Yes, you're welcome in the Swarm, even if you're a small Italian cartoon character. Image credit goes to Noob Team Hive._
+
+### Selected Hive Updates {#hives}
+
+#### LBRY India
+
+It's been an active time for LBRY India! They've been actively contributing content to the LBRY network, meeting in person, and here is a great example of a good objective for a hive: they have created a LBRY Class channel and have been uploading videos about LBRY topics. You can [see it here.](https://beta.lbry.tv/@LBRYClass:2)
+
+They've been working to not only spread the use and awareness of LBRY, they have been working to address issues facing the future of youth around the world, making their lives better through technology. 
+
+LBRY is excited to participate and has given a grant from the LBRY.fund to create and incorporate a legal entity with this purpose, called the Block Youth Foundation.
+
+![Block Youth Foundation](https://spee.ch/@lbrynews:0/blockchainyouth.png)
+
+We're also very proud of LBRY India Champion, Clement Amponsah, who received a National Youth Icon Award 2019 at World Youth Summit.
+
+![The Amazing Clement](https://spee.ch/@lbrynews:0/clement-award-crop.jpg)
+
+#### Lbryian.com Hive
+
+We're happy to announce a brand new Level 2 hive joining the Swarm: the Lbryian.com Hive, Championed by a familiar face from LBRY India, Udit Patel. This hive is based in India and so far has held three meetups about LBRY and also is very active in creating LBRY memes.
+
+![Hulk gif](https://spee.ch/@iamuditpatel:9/LBRYianhulk.gif) 
+
+#### LBRY.science
+
+LBRY.science hive is another new Level 2 hive in the Swarm. This is our first science related hive, and we're excited by the possibilities! The LBRY.science hive is focused on adding Open Science related content on LBRY, and the members are also involved with the Gridcoin project and BOINC (Berkeley Open Infrastructure for Network Computing).
+
+You can hear [more about Open Science, Gridcoin, and Boinc here,](https://beta.lbry.tv/@GridcoinNetwork:2/OpenSystemsOfScience:6) and you can listen to the [archive of Gridcoin podcasts.](https://beta.lbry.tv/@GridcoinNetwork:2) If you're interested in getting involved, you can join the [LBRY.science Discord within the Gridcoin server.](https://discord.gg/Bw49sZd) 
+
+![BOINC](https://spee.ch/@lbrynews:0/boinc-logo.gif)
+
+#### LBRY Poland (aka Erydan Esports Hive)
+
+This hive has been working on a beautiful new website home for [LBRY Poland](https://lbrypoland.com). They have created a playful site guaranteed to appeal to a large audience, drawing on their gaming background. We can't wait to see more from this hive!
+
+![LBRYpoland home](https://spee.ch/@lbrynews:0/lbrypoland.jpg)
+
+#### Noob Team Hive
+Big thank you to Noob Team  -- and especially Roman Przybyła -- for completing the Polish language translation, and helping us hunt down all the missing strings and bugs. Because of their hard work, translating the LBRY app into many languages is much easier.
+
+Also congratulations for Wiktor Kukulski and Roman Przybyła for completing internships with LBRY coordinated with their university. We look forward to having both of them back for another internship session.
+
+#### LBRY China
+
+In addition to working on Chinese language translations on Transifex, the LBRY China hive meets monthly in person, and has been growing their online communities. They boast over 350 members on WeChat and over 4,000 followers on Sinaweibo.
+
+Members from LBRY China are attending the Blockchain World Forum in Shenzhen, October 24-25.
+
+#### LBRY Africa
+
+One of our newer hives, LBRY Africa, is doing a phenomenal job at introducing LBRY to new users, and creating a community excited about the future of media. Since starting, they have held in-person meetups, built a membership of 144 people on Facebook, and over 50 members in their Swarm Whatsapp.
+
+![LBRY Africa Uganda Community](https://spee.ch/@lbrynews:0/uganda5.png)
+
+### Trick or Treat you Say? Here's a Treat! 🍬🍬🍬 {#treat}
+
+Thanks for reading our update! Enter `lbry-halloween-treat` in the desktop app and we'll give you a nice treat!
+
+## Want to Develop on the LBRY Ecosystem?
+All of our code is open source and available on [GitHub](https://github.com/lbryio). Are you a developer and want to find out more? Check out our [contributing guide](https://lbry.tech/contribute) and our [LBRY App specific contributing document](https://github.com/lbryio/lbry-app/blob/master/CONTRIBUTING.md). Make sure you have turned on the Developer option in your email preferences (see app overview page), or sign up at [lbry.tech](https://lbry.tech). We also have a [LBRY Discourse Forum](https://discourse.lbry.io) where developers can interact with the team and ask questions across all our different projects. 
+
+If you aren’t part of our Discord community yet, [join us](https://chat.lbry.com) anytime and say hello! 
+
+[Back to **Community Updates**](#updates)
+
+Thanks for supporting LBRY - stay tuned for more news and updates! And if you haven’t downloaded the [LBRY app](https://lbry.com/get?auto=1) yet, what are you waiting for?
+
