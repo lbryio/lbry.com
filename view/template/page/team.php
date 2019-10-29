@@ -25,7 +25,7 @@
       <h2>Technical</h2>
     </div>
 
-    <?php foreach (['jack-robison', 'lex-berezhny', 'akinwale-ariwodola', 'antoniyshumanov', 'andrey', 'sean-yesmunt', 'niko-storni', 'mark-beamer'] as $bioSlug): ?>
+    <?php foreach (['lex-berezhny', 'brannon-king', 'jack-robison', 'akinwale-ariwodola', 'antoniyshumanov', 'andrey', 'sean-yesmunt', 'niko-storni', 'mark-beamer'] as $bioSlug): ?>
       <?php echo View::render('content/_bio', ['person' => $bioSlug]) ?>
     <?php endforeach ?>
   </section>
