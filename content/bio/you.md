@@ -1,6 +1,6 @@
 ---
 name: You
-role: Developer, Designer, Economist, Marketer, Investor, ???
+role: Engineer, Designer, Economist, Marketer, Investor, ???
 email: jeremy@lbry.com
 ---
 
