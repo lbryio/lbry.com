@@ -8,7 +8,7 @@ category: featured-content
 
 Welcome to this week's creator spotlight!
 
-Have been on a jog or a drive and thought to yourself, man, I wish I completely creeped-the-**** out right now? Well, we’re here with the answer: ☠️☠️☠️ [Darkness Prevails](https://open.lbry.com/@DarknessPrevails:2) ☠️☠️☠️
+Have been on a jog or a drive and thought to yourself, man, I wish I completely creeped-the-**** out right now? Well, we’re here with the answer: ☠️☠️☠️ [Darkness Prevails](https://open.lbry.com/@DarknessPrevails#2) ☠️☠️☠️
 
 This horror-loving writer was skeptical when given this week’s assignment. Where’s the action? The gore? But then he left Darkness Prevails on in the background and one day later is back to writing this email on 6 cups of coffee and 0 hours sleep.
 
