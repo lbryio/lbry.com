@@ -14,6 +14,10 @@ It is important to note that the LBC stored as a result of a tip is tied to your
 
 Use the following commands to make amazing things happen. You may need to first follow the [@LBC_TipBot](https://twitter.com/LBC_TipBot) account. We recommend creating a new Tweet and starting out with tagging the [@LBC_TipBot](https://twitter.com/LBC_TipBot), followed by the desired command. If the tipbot account is already tagged in a thread, only command is required. Note: Make sure you keep your commands on one line. If they are on multiple lines, the command will not work.
 
+**Please note:**
+- Your balance may take a few minutes to update. 
+- If the tipbot is not replying, try following it first.
+
 ### Help
 This displays a list of tip commands and how to use them.
 
