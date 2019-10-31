@@ -103,7 +103,6 @@ class ContentActions extends Actions
         'troubleshooting' => 'Help and Troubleshooting',
         'powerusers' => 'LBRY for Power Users',       
         'wallet' => 'Wallet and Transactions',
-        'tipbots' => 'LBRY Tipbots',
         'bots' => 'LBRY Bots',
         'mining' => 'Mining LBC',
         'differences' => 'What Makes LBRY Different?',
