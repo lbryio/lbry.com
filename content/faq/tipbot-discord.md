@@ -1,6 +1,6 @@
 ---
 title: How do I use the Discord tipbot?
-category: tipbots
+category: bots
 order: 2
 ---
 
