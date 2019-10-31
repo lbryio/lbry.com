@@ -1,7 +1,7 @@
 ---
 title: How to use the Telegram Bot?
 category: bots
-order: 3
+order: 1
 ---
 
 # LBRY Telegram bot
