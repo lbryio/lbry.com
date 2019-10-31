@@ -38,7 +38,7 @@ Get some general LBRY Networking info.
 
 ### Stats
 
-Get blockchain, mining and exchange statistics.
+Get blockchain, mining information (hashrate, difficulty and reward) and exchange statistics.
 
 - `/stats`
 
