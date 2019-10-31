@@ -9,6 +9,11 @@ While the LBRY app is running, it communicates to the network whatever content y
 
 Think of it like how torrents or any other peer-to-peer (P2P) service works. First, you download a file from the host(s) that have made it available via seeding. When the download has finished, you become a host in the network (seeder) that other people can download from.
 
+### Controlling these settings
+On the LBRY Desktop application, you can configure the download options on the Settings page. You have the option to enable/disable to files and hosted data from being saved. 
+
+On Android, only published data is saved in the blobs folder.
+
 ### Deleting hosted content
 You can delete files from the blob folder directly, or you can also delete them from the My LBRY section of the App - both will get rid of the hosted content and you'll lose the ability to seed it anymore. 
 

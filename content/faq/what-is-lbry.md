@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: What is LBRY exactly? Is it a protocol, an app, a website, or a company?
 category: LBRY 101
 order: 1
@@ -6,23 +6,38 @@ order: 1
 
 For most users, LBRY will be a place where they can find great videos, music, ebooks, and more: imagine a vast digital library that is available on all of your devices. But under the hood, LBRY is many components working together.
 
-First and foremost, LBRY is a new *protocol* which allows anyone to build apps that interact with digital content on the LBRY network. Apps built on the protocol allow creators to upload their work to the LBRY network of hosts (like BitTorrent), and set a price per stream or download (like iTunes) or give it away for free (like YouTube without ads).
+First and foremost, LBRY is a new *protocol* which allows anyone to build apps that interact with digital content on the LBRY network. Apps built using the protocol allow creators to upload their work to the LBRY network of hosts (like BitTorrent), to set a price per stream or download (like iTunes) or give it away for free (like YouTube without ads). The work you publish could be videos, audio files, documents, or any other type of file.
 
-What makes this all possible is the blockchain technology developed by the creator of Bitcoin. Do you have to understand any of this to use and enjoy LBRY? No. Does it still matter to users? Yes!
+Traditional video (or other content) sites such as YouTube, Instagram, and Spotify store your uploads on their servers and allow viewers to download them. They also allow creators to make some money through advertising or other mechanisms. However, there are some well-known drawbacks, especially for people whose material is perceived as not being advertiser-friendly.
+
+LBRY aims to be an alternative to these sites, allowing publishers and their fans to interact directly without the risk of demonetization or other meddling.
+
+What makes this all possible is the blockchain technology developed by the creator of Bitcoin.
+
+Do you have to understand any of this to use and enjoy LBRY? No. Does it still matter to users? Yes!
 
 ## Why Build A Protocol?
-Building [protocols, not platforms](/news/blockchain-is-love-blockchain-is-life), is the future of the free, open internet. Almost every tech giant today is a centralized service that sells users' personal information and attention to advertisers. They spend a lot of money chasing their product (your personal information and time/attention), but at the end of the day, users (you) offer it up for free in exchange for access to the platform.
+Building [protocols, not platforms](/news/blockchain-is-love-blockchain-is-life), is the best way to secure a free, open internet. Almost every tech giant today is a centralized service that sells users' personal information and attention to advertisers. They spend a lot of money chasing their product (your personal information and time/attention), but at the end of the day, users (you) offer it up for free in exchange for access to the platform.
 
 We think users should own their content (and their privacy) instead of handing it over to a corporate giant and their advertising buddies. If you think we're paranoid, there are dozens of examples of [companies abusing users](/news/why-do-tech-giants-abuse-their-users) and acting against their interests. It's not paranoia if they're actually out to get you.
 
-## Open Source and Community Driven
-The LBRY project is more than just a new protocol. It is also a company, *LBRY Inc.*, which is developing a *LBRY app* to allow users to interact with the protocol easily. Not only is [our app](/get?auto=1) completely open-source, but others are welcome to create competing apps that also use the LBRY protocol. For a content creator, your uploaded content will be available to all of these apps at the same time.
+## Community Driven and Open Source
+Everything built to power LBRY is open source and designed to be controlled by the public at large. Hundreds of developers have contributed to the core code bases that power LBRY and thousands of other community members have helped in other ways: recruiting creators, performing translations, making graphics, and so much mroe.
 
-LBRY is challenging the centralized, corporate model from the ground up. Everything we've built is open-source, decentralized, and belongs to the community using it.
+While there is a company behind LBRY called _LBRY Inc._, we attempt to tie our own hands as much as possible in ever becoming an evil faceless megacorp. By making everything open-source and standardized, anyone in the world can walk away from LBRY with everything in tact (or make a new, better version).
 
-<h3 style="text-align: center;" markdown="1">I'd Buy That For A Dollar!</h3>
-<video width="100%" controls src="https://spee.ch/c/Id-Buy-That-for-a-Dollar.mp4"/></video>
+## How and Why LBRY Uses Blockchain
 
-Well you're in luck because you can [download the LBRY app](/get?auto=1) for free and build LBRY with us today. Try it out and let us know what you think!
+Blockchain technology like Bitcoin and LBRY enables people to create databases that no single entity controls. 
 
-[Download the LBRY App Now](/get?auto=1)
+With Bitcoin, when you send money to someone, your computer broadcasts "hey, the person with this particular secret (a private key) is sending money to that person over there" to the network, and the mining algorithm ensures everyone agrees that indeed, you sent that money, so your balance goes down and the recipient's goes up. For more on this, check out this [great video](https://beta.lbry.tv/@3Blue1Brown:b/ever-wonder-how-bitcoin-and-other:1) by LBRYian @3Blue1Brown.
+
+In LBRY, the same mechanism is used to store *an index of what content is available* and *how to download it*, as well as financial transactions (such as tips, and purchases of paid content) using the Bitcoin-like currency LBC (LBRY Credits). When a creator publishes something on LBRY, an entry is made on the LBRY blockchain. You can think of think of it as an announcement: *hey everyone, I've published this file, here's some information about it, and instructions for how to download it from the peer-to-peer network*. 
+
+For the same reasons that nobody can prevent a Bitcoin transaction from taking place, nobody can prevent a transaction (like a publication or a tip) from appearing on the LBRY blockchain. Other sites exist that share their content from a peer-to-peer data network. However, the index of available content is still centralized and can be easily censored.
+
+## This Is Amazing, Take My Money
+
+We have bad news for you, you can use LBRY for free.
+
+[Download the LBRY app](/get?auto=1) for free and experience content freedom. Then [let us know what you think](https://chat.lbry.com)!.

@@ -1,15 +1,13 @@
 ---
-title: How do tipping and supporting in LBRY work?
+title: How do tipping and supporting work on LBRY?
 category: getstarted
 ---
 
 LBRY allows you to tip and support your favorite creators.
 
-Tips can also be sent via the LBRY app or via the protocol's [`support_create`](/api#support_create) command (with an associated claim id and `--tip` parameter). If sent without the `--tip` parameter, this is considered a support that can be redeemed by the person who made it at any time (think of it as a self tip, but helping someone else's content).
-
 These credits are automatically stored as associated with the content owners' claim, which helps the claim perform better in search results, top, and [trending calculations](https://lbry.com/faq/trending). It also helps secure the winning [vanity name claims](/faq/naming).
 
-Version 0.34 of the Desktop application also has a experimental setting for supporting claims without tipping. By default, creators will also see the Support button on their own content. When supporting other content, you help the publisher [boost their discoverability](https://lbry.com/faq/trending) and secure their [vanity claim names](/faq/naming), but you can redeem your deposit at anytime. [Learn more below](#supports)
+The Desktop application also has a experimental setting for supporting claims without tipping. By default, creators will also see the Support button on their own content. When supporting other content, you help the publisher [boost their discoverability](https://lbry.com/faq/trending) and secure their [vanity claim names](/faq/naming), but you can redeem your deposit at anytime. [Learn more below](#supports)
 
 ### How do I send a tip?
 

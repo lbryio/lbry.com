@@ -303,6 +303,7 @@ drawer-section {
 }
 
 drawer-title {
+  word-wrap: normal;
   @media (max-width: 950px) {
     font-size: 1.25rem;
     font-weight: 200;

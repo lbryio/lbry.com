@@ -1,6 +1,6 @@
 ---
 name: Lex Berezhny
-role: Protocol Developer
+role: Protocol Engineer
 email: lex@lbry.com
 twitter: eukreign
 github: eukreign

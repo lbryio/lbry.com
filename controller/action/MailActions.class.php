@@ -82,13 +82,11 @@ class MailActions extends Actions
     {
       $tags = LBRY::listTags($vars['token']);
       $tagMetadata = [];
-      $specialDisplayNames = [
-        'ios' => 'iOS'
-      ];
+
       foreach($tags as $tag) {
         if ($tag['is_user_addable']) {
           $tagMetadata[$tag['name']] = [
-            'label' => $specialDisplayNames[$tag['name']] ?? ucwords(str_replace(['-', '_'], ' ', $tag['name'])),
+            'label' => $tag['display_name'],
             'description' => $tag['description']
           ];
         }

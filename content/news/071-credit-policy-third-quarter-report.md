@@ -19,7 +19,7 @@ As Mike Vine explained in [our recent FAQ](/news/reddit-ama-answers#whatis), LBR
 
 LBRY, Inc. publishes a Quarterly Credit Report that details all expenditures from these three funds and forecasts anticipated expenditures over the following quarter.
 
-The [Third Quarter 2016 Report](/faq/quarterly-report-3q-2016) is now available to review.
+The [Third Quarter 2016 Report](https://lbry.com/credit-reports/2016-q3) is now available to review.
 
 **Highlights:**
 

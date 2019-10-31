@@ -98,6 +98,7 @@ class ContentActions extends Actions
             $allCategories = [
         'LBRY 101'   => 'Intro to LBRY',
         'getstarted' => 'Getting Started',
+        'tutorial' => 'LBRY Tutorials',
         'publisher'  => 'Publishers and Creators',
         'troubleshooting' => 'Help and Troubleshooting',
         'powerusers'      => 'LBRY for Power Users',       

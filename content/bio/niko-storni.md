@@ -1,6 +1,6 @@
 ---
 name: Niko Storni
-role: DevOps Engineer/Developer
+role: DevOps Engineer
 email: Niko@lbry.com
 twitter: Nikooo777
 github: Nikooo777

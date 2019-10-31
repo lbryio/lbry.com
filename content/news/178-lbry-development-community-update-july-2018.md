@@ -27,7 +27,7 @@ We have winners in our t-shirt and 3D chess set contests! We are also excited to
 7,000 LBC (yes, seven-thousand LBC!) will be awarded in two different contests. Please visit [LBRY.community](https://lbry.community/contest-august-2018) for full details.
 
 ### LBRY T-shirt design contest
-Congratulations to the winners of our [summer t-shirt contest](/shirt-contest)! First place goes to Usman Yaqub and second place is Stephen Firth. They win $100 and $50 in LBC respectively, plus $25 in credit to use in the LBRY Shop! Buy the winning design here: [Men's](https://shop.lbry.com/collections/mens-unisex/products/lbry-sublimation-t-shirt) or [Women's](https://shop.lbry.com/products/ladies-lbry-sublimation-t-shirt)!
+Congratulations to the winners of our [summer t-shirt contest](/shirt-contest)! First place goes to Usman Yaqub and second place is Stephen Firth. They win $100 and $50 in LBC respectively, plus $25 in credit to use in the LBRY Shop! Buy the winning design here: [Men's](https://shop.lbry.com/collections/mens-unisex/products/lbry-dove-t-shirt) or [Women's](https://shop.lbry.com/collections/womens/products/ladies-lbry-dove-t-shirt)!
 
 ![First place](https://spee.ch/19848de763d3f31fafa686217f84d55a34ec6c22/LBRY-SuBLiMaTioN-Model.png)
 
@@ -156,7 +156,7 @@ LBRY went through a successful [hard fork on 7/9/18](/news/hf1807). It was not u
 The next priorities for the Blockchain team include cleaning up the claimtrie code base in order to increase maintainability and to provide a smoother transition to upstream changes from Bitcoin. These changes include features like SegWit and HD Addresses which were enabled on later versions of Bitcoin. Segwit is especially important since it would allow us to run Lighting Network, which is a 2nd layer scaling solution for microtransactions and a perfect use case for data payments on the P2P network.
 
 # Community Happenings {#com-updates}
-If you aren't part of our Discord community yet, [join us](https://chat.lbry.com) anytime and say hello! Our community allows LBRYians to interact with the team directly and for us to engage users in order to grow the LBRY platform. Also follow us on [Twitter](https://twitter.com/lbryio), [Facebook](https://facebook.com/lbryio), [Reddit](https://www.reddit.com/r/lbry), [Instagram](https://www.instagram.com/lbryio), and [Telegram](https://t.m/lbryofficial).
+If you aren't part of our Discord community yet, [join us](https://chat.lbry.com) anytime and say hello! Our community allows LBRYians to interact with the team directly and for us to engage users in order to grow the LBRY platform. Also follow us on [Twitter](https://twitter.com/lbryio), [Facebook](https://facebook.com/lbryio), [Reddit](https://www.reddit.com/r/lbry), [Instagram](https://www.instagram.com/lbryio), and [Telegram](https://t.me/lbryofficial).
 
 ### Q2 2018 Credit Report
 This quarter we moved no credits from cold storage. We spent 738,027 total community credits on line items detailed in the Q2 report. No operational credits were moved to markets. No institutional credits were moved or spent. We anticipate comparable or larger total outlays in Q3 2018. Operational spending may increase, but not significantly, and community spending is likely to be higher. We will continue to incentivize new users and other beneficial behavior, which is likely to involve 300,000 to 1,500,000+ LBC. LBRY is also likely to form it's first institutional partnership, with spending anticipated to be around 500,000 LBC. [Read the details here.](/credit-reports/2018-q2)

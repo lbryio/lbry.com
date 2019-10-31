@@ -1,6 +1,6 @@
 ---
 name: Mark Beamer
-role: Elastic Search and Database Developer
+role: Backend and Database Engineer
 email: mark@lbry.com
 github: tiger5226
 ---

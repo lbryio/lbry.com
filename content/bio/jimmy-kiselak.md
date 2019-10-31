@@ -1,6 +1,6 @@
 ---
 name: Jimmy Kiselak
-role: Founder, Core Developer
+role: Founder, Core Engineer
 email: jimmy@lbry.com
 ---
 
