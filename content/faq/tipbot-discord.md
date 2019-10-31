@@ -1,7 +1,7 @@
 ---
 title: How do I use the Discord tipbot?
 category: tipbots
-order: 1
+order: 2
 ---
 
 ## LBRY Discord Tipbot Information
