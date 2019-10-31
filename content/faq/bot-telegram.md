@@ -6,13 +6,13 @@ order: 3
 
 # LBRY Telegram bot
 
-LBRY Telegram bot is currently hosted on [gitlab.melroy.org](https://gitlab.melroy.org/melroy/lbry-bot) with a mirror on [Github.com](https://github.com/danger89/LBRY-Bot).
-
 LBRY Telegram bot is member of the [LBRY official Telegram group](https://t.me/lbryofficial). And running 24/7 on [lbry.melroy.org](https://lbry.melroy.org).
 
 The bot is able to support you with all your basic questions regarding LBRY, including but not limited to listing the top channels, the latest LBRY token (LBC) price, mining data, address/transaction(s)/tip information and so much more.
 
 **Hint:** Since the bot is part of the channel group, you can directly start typing the command starting with `/`; Telegram could support you by autocompleting the commands. Starting the commands with `!`-sign is also supported.
+
+**Good to know:** LBRY Telegram bot is currently hosted on [gitlab.melroy.org](https://gitlab.melroy.org/melroy/lbry-bot) with a mirror on [Github.com](https://github.com/danger89/LBRY-Bot). You are free to create pull-requests with bug fixes or new features.
 
 ## Basic commands
 
