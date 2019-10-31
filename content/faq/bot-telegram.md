@@ -22,7 +22,7 @@ The only command you really need to remember is `/help`, would should point you 
 
 - `/help@LBRY_telegram_bot`
 
-![photo](help..)
+![](https://spee.ch/@Melroy:3/help.png)
 
 ### Status
 
@@ -30,11 +30,15 @@ Retrieve Lbrynet, Lbrycrd, Chainquery status. Including current versions of the 
 
 - `/status`
 
+![](https://spee.ch/@Melroy:3/status.png)
+
 ### Network info
 
 Get some general LBRY Networking info.
 
 - `/networkinfo`
+
+![](https://spee.ch/@Melroy:3/networkinfo.png)
 
 ### Stats
 
@@ -42,11 +46,15 @@ Get blockchain, mining information (hashrate, difficulty and reward) and exchang
 
 - `/stats`
 
+![](https://spee.ch/@Melroy:3/stats.png)
+
 ### Price
 
 Get the latest market price, percentage of change and more.
 
 - `/price`
+
+![](https://spee.ch/@Melroy:3/price2.png)
 
 ### Last content
 
@@ -54,11 +62,15 @@ Get the last uploaded content, with links to the content.
 
 - `/lastcontent`
 
+![](https://spee.ch/@Melroy:3/lastcontent.png)
+
 ### Last channels
 
 Get the last created channels, with links to the channels.
 
 - `/lastchannels`
+
+![](https://spee.ch/@Melroy:3/lastchannels.png)
 
 ### Last blocks
 
@@ -66,11 +78,15 @@ Get the last 10 mined blocks.
 
 - `/lastblocks`
 
+![](https://spee.ch/@Melroy:3/lastblocks.png)
+
 ### Top 10
 
 Top 10 biggest transactions & top 10 most subscribed (popular) channels.
 
 - `/top10`
+
+![](https://spee.ch/@Melroy:3/top10.png)
 
 ## Advance commands
 
@@ -82,11 +98,15 @@ Retrieve meta file content, with thumbnail and link to the content as well.
 
 - `/file <uri>`
 
+![](https://spee.ch/@Melroy:3/file2.png)
+
 ### Tips
 
 Get the top 10 highest tips of given name (channel or content).
 
 - `/tips <name>`
+
+![](https://spee.ch/@Melroy:3/tips.png)
 
 ### Content Tips
 
@@ -94,11 +114,15 @@ Get the top 10 highest tips of given content URI.
 
 - `/contenttips <content URI>`
 
+![](https://spee.ch/@Melroy:3/contenttips.png)
+
 ### Transaction
 
 Get transaction information, like amount, block-height, in/out.
 
 - `/transaction <hash>`
+
+![](https://spee.ch/@Melroy:3/transaction.png)
 
 ### Address
 
@@ -106,17 +130,23 @@ Get address information, like 'balance'.
 
 - `/address <address>`
 
+![](https://spee.ch/@Melroy:3/address.png)
+
 ### Transactions
 
 Get the transaction list of a given address.
 
 - `/transactions <address>`
 
+![](https://spee.ch/@Melroy:3/transactions.png)
+
 ### Block
 
 Get block infomation, like block size, difficulty, confirmations and more.
 
 - `/block <hash or block height>`
+
+![](https://spee.ch/@Melroy:3/block.png)
 
 ## Do you have questions?
 
@@ -125,6 +155,8 @@ The bot helps you to answer some basics FAQs as well:
 ### Why LBRY?
 
 - `/why`
+
+![](https://spee.ch/@Melroy:3/why.png)
 
 ### What is LBRY?
 
@@ -137,6 +169,8 @@ The bot helps you to answer some basics FAQs as well:
 ### How long does LBRY exists?
 
 - `/age`
+
+![](https://spee.ch/@Melroy:3/age.png)
 
 ### FAQ
 
