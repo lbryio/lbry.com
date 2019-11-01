@@ -1,4 +1,4 @@
-﻿---
+---
 author: tom-zarebczan
 title: 'Development and Community Update February 2018'
 date: '2018-03-01 18:00:00'
@@ -62,7 +62,7 @@ Great news, our [team](/team) is expanding! We've recently hired an additional L
 ![Lex profile page](https://spee.ch/a/lex-profile.png)
 
 ### LBRY Merchandise Store
-On Valentine's day, LBRY officially launched its at-cost merchandise store through [Apex Apparel](https://apexapparel.shop/collections/lbry) on Discord chat where five lucky community members were sent free merch during an initial giveaway contest. The link was later shared on Reddit and Social media where a few fans have already shared their swag photos. Special thanks to community member @TheSethser for helping us get this project off the ground and for the awesome design work!
+On Valentine's day, LBRY officially launched its at-cost merchandise store through [Shopify](https://shop.lbry.com) on Discord chat where five lucky community members were sent free merch during an initial giveaway contest. The link was later shared on Reddit and Social media where a few fans have already shared their swag photos. Special thanks to community member @TheSethser for helping us get this project off the ground and for the awesome design work!
 
 We will tip LBC if you tag us on Twitter or Facebook with a picture of you rocking LBRY swag. Please upload to [spee.ch](https://spee.ch) and share the post on [Discord](https://chat.lbry.com) or [Reddit](http://reddit.com/r/lbry) to claim your reward. Thanks for your support in spreading LBRY love!
 
