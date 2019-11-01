@@ -21,9 +21,9 @@ Use the following commands to make amazing things happen. You may need to first 
 ### Help
 This displays a list of tip commands and how to use them.
 
-- [**Tweet Example:**](https://twitter.com/TomZarebczan/status/1015245364490833920) `@LBC_TipBot help`
+- [**Tweet Example:**](https://twitter.com/kristianto18/status/1190167088981139456) `@LBC_TipBot help`
 
-![help](https://spee.ch/@tipbot-tw:c/help.png)
+![help](https://spee.ch/@chris45:bb/helpbots.png)
 
 
 ### Balance
@@ -45,9 +45,9 @@ Displays your Twitter LBRY wallet address. Useful if you want to receive LBC dir
 Want to tip someone? This will send a tip to a chosen username.
 
 - **Arguments:** `@LBC_TipBot tip <username> <amount>`
-- [**Tweet Example:**](https://twitter.com/TomZarebczan/status/1015245926691205120): `@LBC_TipBot tip @TrendsPremium 10`
+- [**Tweet Example:**](https://twitter.com/LBRYio/status/1181948567277039616): `@LBC_TipBot tip @kristianto18 1000`
 
-![tip](https://spee.ch/@tipbot-tw:c/tips.png)
+![tip](https://spee.ch/@chris45:bb/tipbot.png)
 
 ### Withdraw
 Use this to withdraw your balance from your LBRY Twitter wallet to another LBRY wallet such as the wallet in your LBRY app, or to an LBRY exchange wallet.
