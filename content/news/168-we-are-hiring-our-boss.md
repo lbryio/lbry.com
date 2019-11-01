@@ -54,4 +54,4 @@ I (Akinwale) work on the LBRY Android app, which is an interesting combination o
 
 We love Node, React, and all web technologies and we are looking forward to working with someone who shares the same excitement!
 
-<a class="button button--primary" href="https://hire.withgoogle.com/public/jobs/lbryio/>Apply To Be Our Boss</a>
+<a class="button button--primary" href="https://hire.withgoogle.com/public/jobs/lbryio/">Apply To Be Our Boss</a>
