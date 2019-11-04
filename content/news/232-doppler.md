@@ -9,7 +9,7 @@ category: update
 ## LBRY Doppler is LIVE in the Android Play Store
 Today, LBRY releases LBRY Doppler, which brings notifications to the LBRY Android app.
 
-[Download from Play Store] [Direct download]
+[Download from Play Store](https://play.google.com/store/apps/details?id=io.lbry.browser) / [Direct download](https://github.com/lbryio/lbry-android/releases/download/0.11.0/browser-0.11.0-release__arm64.apk)
 
 Doppler allows you to receive notifications about your subscriptions, content interests, and rewards. Each of these can be individually toggled in your Settings page.
 
@@ -32,4 +32,4 @@ Notifications will be slowly rolled out and turned on in the coming weeks, but a
 
 For the full release notes, visit [GitHub](https://github.com/lbryio/lbry-android/releases/tag/0.11.0)
 
-While it lasts, grab some LBC with reward code doppler-1104!
+While it lasts, grab some LBC with reward code `doppler-1104`!
