@@ -7,7 +7,7 @@ If you've read [Art in the Internet Age,](/what) you know that LBRY believes we 
 
 Our trademarks include our name, LBRY, and our official logo, which are owned by LBRY, Inc, a Delaware Corporation. We encourage the use of LBRY's trademarked name and official logo while maintaining control of them in order to thwart vandalism, theft, and any future misconduct that offends the collective sensibility of LBRY users creates legal hazards or otherwise inhibits the free expression and open transactions we prize.
 
-#### Our trademark policy has three objectives:
+## Our trademark policy has three objectives:
 
    * We want it to be very easy for anyone creating content or services on the LBRY network to use the official name and logo.
    * We want to be clear about how and when you can use the LBRY name and logo, as well as providing examples of uses that are not acceptable.
