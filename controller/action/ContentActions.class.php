@@ -96,17 +96,17 @@ class ContentActions extends Actions
             $allPosts = Post::find(static::VIEW_FOLDER_FAQ, Post::SORT_ORD_ASC);
 
             $allCategories = [
-        'LBRY 101'   => 'Intro to LBRY',
+        'LBRY 101' => 'Intro to LBRY',
         'getstarted' => 'Getting Started',
         'tutorial' => 'LBRY Tutorials',
-        'publisher'  => 'Publishers and Creators',
+        'publisher' => 'Publishers and Creators',
         'troubleshooting' => 'Help and Troubleshooting',
-        'powerusers'      => 'LBRY for Power Users',       
-        'wallet'     => 'Wallet and Transactions',
-        'tipbots'    => 'LBRY Tipbots',
-        'mining'     => 'Mining LBC',
+        'powerusers' => 'LBRY for Power Users',       
+        'wallet' => 'Wallet and Transactions',
+        'bots' => 'LBRY Bots',
+        'mining' => 'Mining LBC',
         'differences' => 'What Makes LBRY Different?',
-        'other'      => 'Other Questions',
+        'other' => 'Other Questions',
       ] + Post::collectMetadata($allPosts, 'category');
 
             $selectedCategory = Request::getParam('category');

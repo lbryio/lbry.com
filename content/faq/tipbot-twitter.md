@@ -1,7 +1,7 @@
 ---
 title: How do I use the Twitter tipbot?
-category: tipbots
-order: 3
+category: bots
+order: 4
 ---
 
 ## LBRY Twitter Tipbot Information

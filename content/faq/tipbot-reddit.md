@@ -1,7 +1,7 @@
 ---
 title: How do I use the Reddit tipbot?
-category: tipbots
-order: 2
+category: bots
+order: 3
 ---
 
 ## LBRY Reddit Tipbot Information
