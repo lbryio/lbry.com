@@ -1,30 +1,28 @@
 ---
-title: How to use the Telegram Bot?
+title: How do I use the Telegram Bot?
 category: bots
 order: 1
 ---
-
-# LBRY Telegram bot
 
 LBRY Telegram bot is member of the [LBRY official Telegram group](https://t.me/lbryofficial). And running 24/7 on [lbry.melroy.org](https://lbry.melroy.org).
 
 The bot is able to support you with all your basic questions regarding LBRY, including but not limited to listing the top channels, the latest LBRY token (LBC) price, mining data, address/transaction(s)/tip information and so much more.
 
-**Hint:** Since the bot is part of the channel group, you can directly start typing the command starting with `/`; Telegram could support you by autocompleting the commands. Starting the commands with `!`-sign is also supported.
+**Hint:** Since the bot is part of the channel group, you can directly start typing the command starting with `/`; Telegram could support you by auto-completing the commands. Starting the commands with `!`-sign is also supported.
 
 **Good to know:** LBRY Telegram bot is currently hosted on [gitlab.melroy.org](https://gitlab.melroy.org/melroy/lbry-bot) with a mirror on [Github.com](https://github.com/danger89/LBRY-Bot). You are free to create pull-requests with bug fixes or new features.
 
-## Basic commands
+### Basic commands
 
-### Help
+#### Help
 
-The only command you really need to remember is `/help`, would should point you into into the right direction.
+The only command you really need to remember is `/help`, which should point you in the right direction.
 
 - `/help@LBRY_telegram_bot`
 
 ![](https://spee.ch/@Melroy:3/help.png)
 
-### Status
+#### Status
 
 Retrieve Lbrynet, Lbrycrd, Chainquery status. Including current versions of the services used by the bot.
 
@@ -32,7 +30,7 @@ Retrieve Lbrynet, Lbrycrd, Chainquery status. Including current versions of the 
 
 ![](https://spee.ch/@Melroy:3/status.png)
 
-### Network info
+#### Network info
 
 Get some general LBRY Networking info.
 
@@ -40,7 +38,7 @@ Get some general LBRY Networking info.
 
 ![](https://spee.ch/@Melroy:3/networkinfo.png)
 
-### Stats
+#### Stats
 
 Get blockchain, mining information (hashrate, difficulty and reward) and exchange statistics.
 
@@ -48,7 +46,7 @@ Get blockchain, mining information (hashrate, difficulty and reward) and exchang
 
 ![](https://spee.ch/@Melroy:3/stats.png)
 
-### Price
+#### Price
 
 Get the latest market price, percentage of change and more.
 
@@ -56,15 +54,15 @@ Get the latest market price, percentage of change and more.
 
 ![](https://spee.ch/@Melroy:3/price2.png)
 
-### Last content
+#### Latest content
 
-Get the last uploaded content, with links to the content.
+Get the latest uploaded content, with links to the content.
 
 - `/lastcontent`
 
 ![](https://spee.ch/@Melroy:3/lastcontent.png)
 
-### Last channels
+#### Latest channels
 
 Get the last created channels, with links to the channels.
 
@@ -72,7 +70,7 @@ Get the last created channels, with links to the channels.
 
 ![](https://spee.ch/@Melroy:3/lastchannels.png)
 
-### Last blocks
+#### Latest blocks
 
 Get the last 10 mined blocks.
 
@@ -80,7 +78,7 @@ Get the last 10 mined blocks.
 
 ![](https://spee.ch/@Melroy:3/lastblocks.png)
 
-### Top 10
+#### Top 10
 
 Top 10 biggest transactions & top 10 most subscribed (popular) channels.
 
@@ -88,27 +86,27 @@ Top 10 biggest transactions & top 10 most subscribed (popular) channels.
 
 ![](https://spee.ch/@Melroy:3/top10.png)
 
-## Advance commands
+### Advance commands
 
-Some more advance bot commands that require additional user-input.
+There are advanced bot commands that require additional user input.
 
-### File
+#### File
 
-Retrieve meta file content, with thumbnail and link to the content as well.
+Retrieve content by URL, with thumbnail and link to the content as well.
 
-- `/file <uri>`
+- `/file <URL>`
 
 ![](https://spee.ch/@Melroy:3/file2.png)
 
-### Tips
+#### Tips
 
-Get the top 10 highest tips of given name (channel or content).
+Get the top 10 highest tips of the given name (channel or content).
 
 - `/tips <name>`
 
 ![](https://spee.ch/@Melroy:3/tips.png)
 
-### Content Tips
+#### Content Tips
 
 Get the top 10 highest tips of given content URI.
 
@@ -116,7 +114,7 @@ Get the top 10 highest tips of given content URI.
 
 ![](https://spee.ch/@Melroy:3/contenttips.png)
 
-### Transaction
+#### Transaction
 
 Get transaction information, like amount, block-height, in/out.
 
@@ -124,7 +122,7 @@ Get transaction information, like amount, block-height, in/out.
 
 ![](https://spee.ch/@Melroy:3/transaction.png)
 
-### Address
+#### Address
 
 Get address information, like 'balance'. 
 
@@ -132,7 +130,7 @@ Get address information, like 'balance'.
 
 ![](https://spee.ch/@Melroy:3/address.png)
 
-### Transactions
+#### Transactions
 
 Get the transaction list of a given address.
 
@@ -140,40 +138,34 @@ Get the transaction list of a given address.
 
 ![](https://spee.ch/@Melroy:3/transactions.png)
 
-### Block
+#### Block
 
-Get block infomation, like block size, difficulty, confirmations and more.
+Get block information, like block size, difficulty, confirmations and more.
 
 - `/block <hash or block height>`
 
 ![](https://spee.ch/@Melroy:3/block.png)
 
-## Do you have questions?
+### Do you have questions?
 
 The bot helps you to answer some basics FAQs as well:
 
-### Why LBRY?
+#### Why LBRY?
 
 - `/why`
 
 ![](https://spee.ch/@Melroy:3/why.png)
 
-### What is LBRY?
+#### What is LBRY?
 
 - `/what`
 
-### How does LBRY work?
+#### How does LBRY work?
 
-- `/hpw`
+- `/how`
 
-### How long does LBRY exists?
+#### How long has LBRY existed?
 
 - `/age`
 
 ![](https://spee.ch/@Melroy:3/age.png)
-
-### FAQ
-
-Other frequently asked questions can be found [here](https://lbry.com/faq).
-
-- `/faq`
