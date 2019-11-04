@@ -30,4 +30,4 @@ Notifications will be slowly rolled out and turned on in the coming weeks, but a
 - Fixes an issue with subscribed channel content not loading in some scenarios
 - Fixes issues with synchronization of tags and subscriptions across sessions
 
-For the full release notes, visit [GitHub]((https://github.com/lbryio/lbry-android/releases/tag/0.11.0)
+For the full release notes, visit [GitHub](https://github.com/lbryio/lbry-android/releases/tag/0.11.0)
