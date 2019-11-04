@@ -5,7 +5,6 @@ date: '2019-11-04 10:00:00'
 cover: 'doppler.jpg'
 category: update
 ---
-## LBRY Doppler Brings Notifications to Android
 
 ### LBRY Doppler is LIVE in the Android Play Store
 Today, LBRY releases LBRY Doppler, which brings notifications to the LBRY Android app.
