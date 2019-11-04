@@ -6,7 +6,7 @@ cover: 'doppler.jpg'
 category: update
 ---
 
-### LBRY Doppler is LIVE in the Android Play Store
+## LBRY Doppler is LIVE in the Android Play Store
 Today, LBRY releases LBRY Doppler, which brings notifications to the LBRY Android app.
 
 [Download from Play Store] [Direct download]
@@ -31,3 +31,5 @@ Notifications will be slowly rolled out and turned on in the coming weeks, but a
 - Fixes issues with synchronization of tags and subscriptions across sessions
 
 For the full release notes, visit [GitHub](https://github.com/lbryio/lbry-android/releases/tag/0.11.0)
+
+While it lasts, grab some LBC with reward code doppler-1104!
