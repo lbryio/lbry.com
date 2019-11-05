@@ -6,23 +6,17 @@ class ContentActions extends Actions
     SLUG_RSS = 'rss.xml',
     SLUG_NEWS = 'news',
     SLUG_FAQ = 'faq',
-    SLUG_PRESS = 'press',
-    SLUG_BOUNTY = 'bounty',
     SLUG_CREDIT_REPORTS = 'credit-reports',
     SLUG_JOBS = 'jobs',
 
     URL_NEWS = '/' . self::SLUG_NEWS,
     URL_FAQ = '/' . self::SLUG_FAQ,
-    URL_PRESS = '/' . self::SLUG_PRESS,
-    URL_BOUNTY = '/' . self::SLUG_BOUNTY,
     URL_CREDIT_REPORTS = '/' . self::SLUG_CREDIT_REPORTS,
 
     CONTENT_DIR = ROOT_DIR . '/content',
 
     VIEW_FOLDER_NEWS = self::CONTENT_DIR . '/' . self::SLUG_NEWS,
     VIEW_FOLDER_FAQ = self::CONTENT_DIR . '/' . self::SLUG_FAQ,
-    VIEW_FOLDER_BOUNTY = self::CONTENT_DIR . '/' . self::SLUG_BOUNTY,
-    VIEW_FOLDER_PRESS = self::CONTENT_DIR . '/' . self::SLUG_PRESS,
     VIEW_FOLDER_CREDIT_REPORTS = self::CONTENT_DIR . '/' . self::SLUG_CREDIT_REPORTS,
     VIEW_FOLDER_JOBS = self::CONTENT_DIR . '/' . self::SLUG_JOBS;
 
@@ -166,70 +160,9 @@ class ContentActions extends Actions
     }
 
 
-    protected static function convertBountyAmount($amount)
+    public static function executeBountyRedirect(string $slug = null): array
     {
-        return is_numeric($amount) ? round($amount / LBRY::getLBCtoUSDRate(), -1) : $amount;
-    }
-
-    public static function executeBounty(string $slug = null): array
-    {
-        Response::enablePublicImmutableCache();
-
-
-
-        if ($slug) {
-            list($metadata, $postHtml) = View::parseMarkdown(ContentActions::VIEW_FOLDER_BOUNTY . '/' . $slug . '.md');
-
-            $metadata['lbc_award'] = static::convertBountyAmount($metadata['award']);
-
-            if (!$postHtml) {
-                return NavActions::execute404();
-            }
-
-            return ['bounty/show', [
-        'postHtml' => $postHtml,
-        'metadata' => $metadata
-      ]];
-        }
-
-        $allBounties = Post::find(static::CONTENT_DIR . '/bounty');
-
-        $allCategories = ['' => ''] + Post::collectMetadata($allBounties, 'category');
-        $allStatuses = ['' => ''] + array_merge(Post::collectMetadata($allBounties, 'status'), ['complete' => 'unavailable']);
-
-        $selectedStatus = Request::getParam('status', 'available');
-        $selectedCategory = Request::getParam('category');
-
-        $filters = array_filter([
-      'category' => $selectedCategory && isset($allCategories[$selectedCategory]) ? $selectedCategory : null,
-      'status' => $selectedStatus && isset($allStatuses[$selectedStatus]) ? $selectedStatus : null
-    ]);
-
-        $bounties = $filters ? Post::filter($allBounties, $filters) : $allBounties;
-
-        uasort($bounties, function ($postA, $postB) {
-            $metadataA = $postA->getMetadata();
-            $metadataB = $postB->getMetadata();
-            $awardA = strpos('-', $metadataA['award']) !== false ? rtrim(explode('-', $metadataA['award'])[0], '+') : $metadataA['award'];
-            $awardB = strpos('-', $metadataB['award']) !== false ? rtrim(explode('-', $metadataB['award'])[0], '+') : $metadataB['award'];
-            if ($awardA != $awardB) {
-                return $awardA > $awardB ? -1 : 1;
-            }
-            return $metadataA['title'] < $metadataB['title'] ? -1 : 1;
-        });
-
-        foreach ($bounties as $bounty) {
-            $metadata = $bounty->getMetadata();
-            $bounty->setMetadataItem('lbc_award', static::convertBountyAmount($metadata['award']));
-        }
-
-        return ['bounty/list', [
-      'bounties' => $bounties,
-      'categories' => $allCategories,
-      'statuses' => $allStatuses,
-      'selectedCategory' => $selectedCategory,
-      'selectedStatus' => $selectedStatus
-    ]];
+        return Controller::redirect('https://lbry.tech/contribute');
     }
 
     public static function executeRoadmap()

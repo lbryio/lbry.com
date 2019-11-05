@@ -18,9 +18,10 @@
             fbq('track', 'Lead');
           <?php js_end() ?>
         <?php endif ?>
-        <div class="notice notice-success spacer1">{{email.confirm_success}}</div>
+        <div class="notice notice- spacer1">{{email.confirm_success}}</div>
       <?php elseif ($subscribeSuccess ?? false): ?>
         <div class="notice notice-success spacer1">{{email.subscribe_needs_confirm}}</div>
+        <br/>
         <a class="link-primary" href="<?php echo $nextUrl ?? '/' ?>">{{email.return}}</a>
       <?php else: ?>
         <p>{{page.updates}}</p>

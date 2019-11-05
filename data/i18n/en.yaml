@@ -75,7 +75,7 @@ email:
   confirm_email_subject: Confirm Your Subscription to LBRY
   confirm_success: You are subscribed. Thanks!
   confirm_unsubscribe: You are unsubscribed.
-  disclaimer: You will receive 1-2 messages a month, only from LBRY Inc. and only about LBRY. You can easily unsubscribe at any time.
+  disclaimer: You will only receive messages from LBRY Inc. and only about LBRY. You can easily unsubscribe at any time.
   go: Go
   invalid_confirm_hash: This link is expired or invalid. Please enter your email address again.
   nocode: None, but I want in as soon as possible!

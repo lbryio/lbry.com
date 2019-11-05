@@ -20,6 +20,11 @@
   > p:last-child {
     margin-bottom: 0;
   }
+
+  /*legacy, should be dropped*/
+  &.spacer1 {
+    margin-bottom: 1rem;
+  }
 }
 
 .notice-success {

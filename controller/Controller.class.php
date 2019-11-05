@@ -168,7 +168,7 @@ class Controller
 
         $router->get([ContentActions::URL_NEWS . '/{slug:c}?', 'news'], 'ContentActions::executeNews');
         $router->get([ContentActions::URL_FAQ . '/{slug:c}?', 'faq'], 'ContentActions::executeFaq');
-        $router->get([ContentActions::URL_BOUNTY . '/{slug:c}?', 'bounty'], 'ContentActions::executeBounty');
+        $router->get(['/bounty/{slug:c}?', 'bounty'], 'ContentActions::executeBountyRedirect');
         $router->get(ContentActions::URL_CREDIT_REPORTS, 'ContentActions::executeCreditReports');
         $router->get([ContentActions::URL_CREDIT_REPORTS . '/{year:c}-q{quarter:c}', ContentActions::URL_CREDIT_REPORTS . '/{year:c}-Q{quarter:c}'], 'ContentActions::executeCreditReport');
 
