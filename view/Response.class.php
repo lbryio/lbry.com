@@ -61,7 +61,7 @@ class Response
 
     public static function getMetaImages()
     {
-        return static::$metaImages ?: [Request::getHostAndProto() . '/img/og-image.png'];
+        return static::$metaImages ?: [Request::getHostAndProto() . '/img/og-image.png?_cache=' . date('Y-m-d')];
     }
 
     public static function setMetaTitle($title)

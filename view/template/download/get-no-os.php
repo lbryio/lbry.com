@@ -1,6 +1,6 @@
 <?php Response::setMetaDescription(__('description.no-os')) ?>
+<?php Response::addMetaImage(Request::getHostAndProto() . '/img/og-image.png?_cache=' . date('Y-m-d')) ?>
 <?php Response::setMetaTitle(__('global.get')) ?>
-<?php Response::addMetaImage(Request::getHostAndProto() . '/img/og-image.png') ?>
 
 <main class="ancillary">
   <section class="hero hero--half-height">
