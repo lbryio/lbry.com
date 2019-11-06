@@ -16,7 +16,7 @@ You will never have that problem watching Linux Scoops videos.
 
 They pick a brand of Linux. Then they show you it. These videos do not obey the Wadsworth constant.
 
-If you’re new to Linux and want to check it out, we recommend [10 Best Linux Desktop Environments.](https://beta.lbry.tv/@linuxscoop:1/10-best-linux-desktop-environments:2)
+If you’re new to Linux and want to check it out, we recommend [10 Best Linux Desktop Environments](https://beta.lbry.tv/@linuxscoop:1/10-best-linux-desktop-environments:2).
 
 Otherwise, a lot of Mr. Scoops content is timely reviews of the recent releases, such as:
 
