@@ -10,7 +10,7 @@ category: featured-content
 
 Yeah, it’s a blog about that stupid nerd software, Linux. Sorry, we’re not sorry. OK, we’re kind of sorry? But you guys keep subscribing to Linux content, so we’re back with more.
 
-Have you ever considered playing a video game, so you go to watch videos of the video game, but despite all of these videos about the game, none of the videos just show the ******* game?
+Have you ever considered playing a video game, so you go to watch videos of the video game, but despite all of these videos about the game, none of the videos just show the ******** game?
 
 You will never have that problem watching Linux Scoops videos. 
 
