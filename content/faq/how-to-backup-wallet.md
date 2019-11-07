@@ -3,19 +3,15 @@ title: How do I back up my LBRY wallet?
 category: wallet
 ---
 
-The LBRY application relies on blockchain technology and the LBRY Credits (LBC) cryptocurrency in order to participate in the network. These LBC are stored in a wallet (data file on your PC/device) which is generated with each LBRY installation...think of your credits as digital cash on your PC. A wallet contains your funds, channel data, and claims (any uploads). An Account Sync service is provided by LBRY where an encrypted copy of your wallet is stored securely by us. Strong wallet passwords are highly recommedned if this service is used. 
+The LBRY application relies on blockchain technology and the LBRY Credits (LBC) cryptocurrency in order to participate in the network. These LBC are stored in a wallet (data file on your PC/device) which is generated with each LBRY installation...think of your credits as digital cash on your PC. A wallet contains your funds, channel data, and claims (any uploads). An Account Sync service is provided by LBRY where an encrypted copy of your wallet is stored securely by us. Strong wallet passwords are highly recommended if this service is used. [Learn more](/faq/account-sync).
 
 Otherwise, it is important to understand that the wallet is not stored on any LBRY servers (except when [sync](#sync) is enabled) and as such, users are responsible for its safeguarding and making sure a backup (copy of the wallet file) is available in the event that it is lost. If a wallet is lost or needs to be transferred, follow the [restore procedures below](#restore).
 
-*Note: Wallets should be re-backed up after creating new Channels/Identities (this is stored directly in the wallet file, and not part of the seed/restore process at the moment).*
+*Note: If you are not using the sync service, wallets should be re-backed up after creating new Channels/Identities (this is stored directly in the wallet file, and not part of the seed/restore process at the moment).*
 
-## Wallet Account Sync (Android only) {#sync}
+## Wallet Account Sync {#sync}
 
-On Android, LBRY provides a wallet backup service where an encrypted version of your account, including any claims/channels/updates, is securely backed up and stored by LBRY Inc. **LBRY cannot recover this account without the password set by the user when enabling sync. Extra caution is advised when setting/storing the password** This allows users to sign back into their devices using their email and account password, and keeping their account/wallet history. Choosing a secure password is highly recommended, especially when storing larger amounts of LBC.  
-
-Only a single account will be synced per LBRY account. Wallet merging is not currently available. Both new and existing users are able to enable and configure account sync. **If an existing wallet is synced to an account that has a sync backup, it will overwrite the current wallet.** Password change and more storage (i.e. own location) features to be added at a later date. 
-
-*Coming to LBRY Desktop in Summer 2019*
+LBRY provides a wallet backup service by securely backing up your account and preferences. [Learn more here](/faq/account-sync).
 
 ## How do I find my wallet in the LBRY Desktop App?
 
