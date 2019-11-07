@@ -3,9 +3,11 @@ title: How do I back up my LBRY wallet?
 category: wallet
 ---
 
-The LBRY application relies on blockchain technology and the LBRY Credits (LBC) cryptocurrency in order to participate in the network. These LBC are stored in a wallet (data file on your PC/device) which is generated with each LBRY installation...think of your credits as digital cash on your PC. A wallet contains your funds, channel data, and claims (any uploads). An Account Sync service is provided by LBRY where an encrypted copy of your wallet is stored securely by us. Strong wallet passwords are highly recommended if this service is used. [Learn more](/faq/account-sync).
+The LBRY application relies on blockchain technology and the LBRY Credits (LBC) cryptocurrency in order to participate in the network. These LBC are stored in a wallet (data file on your PC/device if using Desktop/Mobile) which is generated with each LBRY installation...think of your credits as digital cash on your PC. A wallet contains your funds, channel data, claims (any uploads), and preferences (subscriptions/tags/etc). 
 
-Otherwise, it is important to understand that the wallet is not stored on any LBRY servers (except when [sync](#sync) is enabled) and as such, users are responsible for its safeguarding and making sure a backup (copy of the wallet file) is available in the event that it is lost. If a wallet is lost or needs to be transferred, follow the [restore procedures below](#restore).
+An Account Sync service is provided automatically on lbry.tv and can be enabled on Desktop/Mobile which allows LBRY to store a backup of the wallet for you. [Learn more](/faq/account-sync).
+
+Otherwise, it is important to understand that the wallet is not stored on any LBRY servers (except when [sync](#sync) is enabled) and as such, users are responsible for its safeguarding and making sure [a backup](/faq/how-to-backup-wallet) (copy of the wallet file) is available in the event that it is lost. If a wallet is lost or needs to be transferred, follow the [restore procedures below](#restore).
 
 *Note: If you are not using the sync service, wallets should be re-backed up after creating new Channels/Identities (this is stored directly in the wallet file, and not part of the seed/restore process at the moment).*
 
@@ -29,6 +31,10 @@ We will continue to make this process easier for users in the future through the
 ## How do I find my wallet if I don't have LBRY open?
 
 The LBRY wallet can be found manually by navigating to the [lbryum directory](/faq/lbry-directories). The `default_wallet` file is inside the wallet's folder.
+
+## How do I back up my wallet on lbry.tv?
+
+lbry.tv user's wallets are automatically backed up by us. If you want a copy for yourself, you'll need to install the Desktop or Android applications and follow the steps in this FAQ. 
 
 ## How do I find my wallet in the LBRY Android app?
 
