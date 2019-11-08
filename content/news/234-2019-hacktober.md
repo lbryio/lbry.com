@@ -25,3 +25,5 @@ The fun doesn't have to stop just because October is over - if you're inspired t
 
 
 Thanks to our community for helping us build the future of content freedom - we can't do this without you!
+
+Are you a developer who would like to contribute to LBRY? Check out our [lbry.tech website.](https://lbry.tech)
