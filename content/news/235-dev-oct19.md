@@ -5,13 +5,13 @@ date: '2019-11-11 12:00:00'
 cover: 'oct-blog.jpg'
 category: community-update
 ---
-Welcome to the October 2019 LBRY Development update! In this post we’ll show you what we’ve been up to since our [last update in September](https://lbry.com/news/sept-dev-2019). Sit tight, there’s been lots of progress and releases, including updates from the Apps (Desktop and Mobile), SDK, and blockchain teams! 
+Welcome to the October 2019 LBRY Development update! In this post we’ll show you what we’ve been up to since our [last update in September](https://lbry.com/news/sept-dev-2019). Sit tight, there’s been lots of progress and releases, including updates from the App (Desktop and Mobile), SDK, and blockchain teams! 
 
 To read previous updates, please visit our [Development and Community Update archive](https://lbry.com/news/category/community-update).
 
 If you want to see a condensed view of what we've completed recently and what’s planned for LBRY, check out our [Roadmap](https://lbry.com/roadmap).
 
-Let’s start with some GitHub stats across all our repos (some of which are internal only to LBRY) since our last update about 31 days ago. 35 repos were updated. 581 issues were created, 167 were closed. 43 PRs were merged. 55 GitHub users outside of LBRY made code contributions, which is a big increase for the month thanks to the [Hacktoberfest initiative](#hacktoberfest): 
+Let’s start with some GitHub stats across all our repos (some of which are internal only to LBRY) since our last update about 31 days ago. 35 repos were updated. 581 issues were created and 167 were closed. 43 pull requests were merged. 55 GitHub users outside of LBRY Inc made code contributions, which is a big increase for the month, thanks to the [Hacktoberfest initiative](#hacktoberfest): 
 [0x15F9](https://github.com/0x15F9), [Axle7XStriker](https://github.com/Axle7XStriker), [Bharat123rox](https://github.com/Bharat123rox), [Coolguy3289](https://github.com/Coolguy3289), [EricBrianAnil](https://github.com/EricBrianAnil), [Janith96](https://github.com/Janith96), [LividJava](https://github.com/LividJava), [ProfessorDey](https://github.com/ProfessorDey), [S-ayanide](https://github.com/S-ayanide), [Sesamestrong](https://github.com/Sesamestrong), [StrikerRUS](https://github.com/StrikerRUS), [Sweta271097](https://github.com/Sweta271097), [addy1510](https://github.com/addy1510), [adityakaria](https://github.com/adityakaria), [akshitsarin](https://github.com/akshitsarin), [bear454](https://github.com/bear454), [brentmclark](https://github.com/brentmclark), [btzr-io](https://github.com/btzr-io), [cbaumler](https://github.com/cbaumler), [ceoger](https://github.com/ceoger), [colinfruit](https://github.com/colinfruit), [consolelogreece](https://github.com/consolelogreece), [crweiner](https://github.com/crweiner), [dangarthwaite](https://github.com/dangarthwaite), [danger89](https://github.com/danger89), [f1x3d](https://github.com/f1x3d), [felhe](https://github.com/felhe), [gahag](https://github.com/gahag), [gy741](https://github.com/gy741), [hackily](https://github.com/hackily), [helios1101](https://github.com/helios1101), [hugovk](https://github.com/hugovk), [j-collier](https://github.com/j-collier), [jamesgeorge007](https://github.com/jamesgeorge007), [jhoho](https://github.com/jhoho), [jkonecny12](https://github.com/jkonecny12), [ju-sh](https://github.com/ju-sh), [kcseb](https://github.com/kcseb), [kodxana](https://github.com/kodxana), [kovalur](https://github.com/kovalur), [michizhou](https://github.com/michizhou), [mirgee](https://github.com/mirgee), [mohatagarvit](https://github.com/mohatagarvit), [naumanahmad9](https://github.com/naumanahmad9), [osilkin98](https://github.com/osilkin98), [prateekpardeshi](https://github.com/prateekpardeshi), [raxraj](https://github.com/raxraj), [sagarvd01](https://github.com/sagarvd01), [sakshamtaneja21](https://github.com/sakshamtaneja21), [sameshl](https://github.com/sameshl), [sidhyatikku](https://github.com/sidhyatikku), [sumitkharche](https://github.com/sumitkharche), [vulongm](https://github.com/vulongm), [ykris45](https://github.com/ykris45), [zxawry](https://github.com/zxawry)
 
 Thanks to everyone who took time from their busy days to help LBRY out!
@@ -29,14 +29,14 @@ Thanks to everyone who took time from their busy days to help LBRY out!
 * [2019 roadmap progress](#roadmap)
 
 ## Hacktoberfest wrap-up! {#hacktoberfest}
-October is now behind us which means Hacktoberfest at LBRY has concluded! We had a ton of activity across our repos, which of course, included a few PRs for spelling fixes and read-mes too. Overall we were happy with the turnout, and will continue to do more live sessions to engage the developer community. Sign up at [lbry.tech](https://lbry.tech) to be notified of the next one. Check out our [blog post](https://lbry.com/news/2019-hacktober) for all the details including a preview of the t-shirts being sent out! 
+October is now behind us which means Hacktoberfest at LBRY has concluded! We had a ton of activity across our repos, which of course, included a few PRs for spelling fixes and readmes too. Overall we were happy with the turnout and will continue to do more live sessions to engage the developer community. Sign up at [lbry.tech](https://lbry.tech) to be notified of the next one. Check out our [blog post](https://lbry.com/news/2019-hacktober) for all the details including a preview of the t-shirts being sent out! 
 
 ![Hacktoberfest](https://spee.ch/@lbrynews:0/hacktoberfest-lbry.png)
 
 ## Desktop app {#summary-desktop}
-Since our last development update, the app team shipped our next named release, [0.37.0](https://github.com/lbryio/lbry-desktop/releases/tag/v0.37.0), under codename [Heisenberg](https://lbry.com/news/unification). 
+Since our last development update, the app team shipped our latest named release, [0.37.0](https://github.com/lbryio/lbry-desktop/releases/tag/v0.37.0), under codename [Heisenberg](https://lbry.com/news/unification). 
 
-Heisenberg is a huge release in terms of allowing a unified app experience across multiple devices, including allowing existing users to enable wallet, and preference syncing features. Previous to this release, subscriptions were synced using our API services and now they are stored locally in a user’s wallet file along with tags and blocked channels. This wallet file is now what is backed up and synchronized to all your other devices - which means you get a consistent experience on Android and lbry.tv. For now, we’ve disabled the ability to apply/change user encryption until we have the change process supported/implemented on Android/lbry.tv. Stay tuned for this feature in a future release. 
+Heisenberg is a huge release in terms of allowing a unified app experience across multiple devices, including allowing existing users to enable wallet and preference syncing features. Before this release, subscriptions were synced using our API services, but now they are stored locally in a user’s wallet file along with tags and blocked channels. This wallet file is now what is backed up and synchronized to all your other devices - which means you get a consistent experience on desktop, Android. and lbry.tv. For now, we’ve disabled the ability to apply/change user encryption until we have the change process supported/implemented on Android/lbry.tv. Stay tuned for this feature in a future release. 
 
 Other new features in Heisenberg and since our last update include:
 - Commenting on channel pages under the Discussions section.
@@ -51,27 +51,27 @@ We also released a patch (0.37.1) for Heisenberg which mainly fixed an issue for
 
 ![heisenberg](https://spee.ch/@lbry:3f/heisenberg-037.gif)
 
-### Searching on downloads page
-For our next release, we’ll have the ability to search downloaded items on your My Library page. Still on the todo list is to add something similar to a user’s My Publishes page to more readily find published content. 
+### Searching on the My Library page
+For our next release, we’ll have the ability to search downloaded items on your My Library page. Still on the todo list is to add something similar to a user’s My Publishes page to more readily find specific published content. 
 
 ![search](https://spee.ch/c/search-downloads.png)
 
 ### Supporting the latest SDK and optimizing calls
-The latest SDK release had api changes to enable pagination on all APIs. So we also made those changes on the app side and simultaneously took some time to optimize the calls - especially those made on lbry.tv. One example is dealing with the transaction list. We used to call all the transactions on startup, but on Desktop we now only call page 1 with the latest 20  transactions. On lbry.tv, we’ll only do this once the user goes to their wallet. 
+The latest SDK release had API changes to enable pagination on all APIs. So we also made those changes on the app side and simultaneously took some time to optimize the calls - especially those made on lbry.tv. One example is dealing with the transaction list. We used to call all the transactions on startup, but on Desktop we now only call page one (with the latest 20  transactions) and on lbry.tv, we’ll only do this once the user goes to their wallet.
 
 If the Full History page is accessed, that’s when the rest of the transaction history is called. In the future, we’ll continue to optimize this so the history is called for each specific page. Taking actions such as claiming tips and abandoning supports/publishes will also be faster since we will no longer refresh the claim list or supports as that is already taken care of in redux state. 
 
 ### More languages
-In the next release, we’ll also include support for Turkish, Slovenian, French and Chinese. These are currently available on [lbry.tv](https://beta.lbry.tv) for signed in accounts on the Settings page. 
+In the next release, we’ll also include support for Turkish, Slovenian, French and Chinese. These are already available on [lbry.tv](https://beta.lbry.tv) for signed in accounts on the Settings page. 
 
 ![lang](https://spee.ch/5/lang.png)
 
 ### Desktop next steps
 Since the last release, the team has been working to polish up the sign in process, publishing, and syncing on lbry.tv. This includes the ability to sync encrypted accounts from previous Desktop installations or Android - users will be prompted for their password which may have been set either on their Android device or encrypted Desktop wallet. By default, the passwords will be cached for 2 weeks and users will be re-prompted. 
 
-With the next SDK update, we’ll also have the ability to track content purchases at the transaction level. This means you can purchase content on one device and play it back on another. This will also give new insight into content purchasing on both the receiver and purchaser - the transaction history will now show what claim was associated with it. We also plan to create a separate section in the My Library section to filter on paid content. 
+With the next SDK update, we’ll also have the ability to track content purchases at the transaction level. This means you can purchase content on one device and play it back on another. This will also give new insight into content purchasing on both the receiver and purchaser - the transaction history will now show what claim was associated with it. We also plan to create a separate section in the My Library section to filter on paid vs unpaid content. 
 
-We are also adding auto run options to the LBRY app so users can benefit from it launching automatically on startup. This will allow faster access of content when coming across a URL and help support the LBRY network by hosting data in the background. 
+We are also adding an autostart option to the LBRY app so users can benefit from it launching automatically on startup. This will allow faster access of content when coming across a URL and help support the LBRY network by hosting data in the background. 
 
 There are numerous bug fixes and other cleanups slated for the next release including:
 - Preventing duplicate tags from being followed
@@ -105,24 +105,24 @@ A new API, purchase list, was added to return all purchased content and purchase
 ![purchase](https://spee.ch/b/purchase-list.png)
 
 ### Wallet server installation streamlined
-In an effort to further decentralize wallet servers run by LBRY and give users more choice in server selection/ access in their region, we’ve been simplifying the entire wallet setup and deployment process. Running a wallet server also requires a full node to be accessible to populate claim / trending data and provide wallet address transaction history. 
+In an effort to further decentralize wallet servers run by LBRY and give users more choice in server selection/access in their region, we’ve been simplifying the entire wallet server setup and deployment process. Running a wallet server also requires a full node to be accessible to populate claim/trending data and provide wallet address transaction history. 
 
-Currently the process is fully dockerized for both the LBRYcrd and wallet server, so getting one up and running has never been easier. It also uses snapshots of both databases so they don’t need to be synced from scratch which would normally take a few hours.  Give it a try today by following the [detailed setup instructions](https://gist.github.com/lyoshenka/2557c08344bfe1020f0c0a13b9c5b0ce).
+Currently the process is fully dockerized for both the LBRYcrd (full node) and wallet server, so getting one up and running has never been easier. It also uses snapshots of both databases so they don’t need to be synced from scratch which would normally take a few hours.  Give it a try today by following the [detailed setup instructions](https://gist.github.com/lyoshenka/2557c08344bfe1020f0c0a13b9c5b0ce).
 
 ### SDK next steps
 The SDK team has been focusing on tasks related to supporting the lbry.tv use case which included troubleshooting wallet syncing issues and performance concerns with concurrent usage. Other items in the pipeline include:
 
 - Improving performance of blocking wallet calls so that the SDK can effectively multi-process them which will improve performance on large wallets and heavy SDK usage on lbry.tv
 - Continue implementation of error handling in the SDK through the use of error codes. 
-- Adding basic BItTorrent support so that a user can download a torrent through the SDK. The next step would also include giving users the option of publishing their content simultaneously to BItTorrent along with the LBRY network. 
-- Improving blockchain headers download directly from wallet servers vs a snapshot stored by LBRY.
+- Adding basic BitTorrent support so that a user can download a torrent through the SDK. The next step would also include giving users the option of publishing their content simultaneously to BItTorrent along with the LBRY network. 
+- Improving blockchain headers download directly from wallet servers instead of a snapshot stored by LBRY.
 - Support content blocking and filtering through wallet servers and reposting of content. 
 - Improving the DHT to persist peer data between restarts which will help bootstrap the network without seed nodes.
 
 ## Blockchain {#blockchain}
 The blockchain team successfully carried out an upgrade to the chain.
 
-With good coordination, the team was able to communicate with mining pools, exchanges and node operators to get everyone on the latest release. On October the 30th, at 1:22PM UTC and again at 1:53PM UTC the chain successfully underwent 2 upgrades (see list below).
+With good coordination, the team was able to communicate with mining pools, exchanges and node operators to get everyone on the latest release. On October the 30th, at 1:22PM UTC and again at 1:53PM UTC the chain successfully underwent two upgrades, described below.
 
 The latest release includes one last fork targeting December 11th, 2019 to support SegWit transactions.
 
@@ -153,9 +153,9 @@ Eager to give lbry.tv a try now? Head over to [https://beta.lbry.tv](https://bet
 
 ### Stress testing with real users
 
-Over the last couple of weeks we ran two stress tests on lbry.tv by asking the community to access their accounts simultaneously which has provided critical feedback as to the bottlenecks of the current implementation. In the first test, we managed to bog down the LBRY SDK behind lbry.tv due to long running wallet balance calls (with the --reserved_subtotals parameter which is more intensive due to querying claim data). Since this  API call is one of the most active ones that runs every 5 seconds to keep a user’s balance up to date, it heavily taxed the SDK and it was not able to keep up. Ultimately the solution would be web sockets that allows for a push mechanism, but in the meantime we added caching that made subsequent calls super fast. 
+Over the last couple of weeks we ran two stress tests on lbry.tv by asking the community to access their accounts simultaneously which has provided critical feedback as to the bottlenecks of the current implementation. In the first test, we managed to bog down the LBRY SDK behind lbry.tv due to long running wallet balance calls (with the --reserved_subtotals parameter which is more intensive due to querying claim data). Since this API call is one of the most active ones that runs every 5 seconds to keep a user’s balance up to date, it heavily taxed the SDK and it was not able to keep up. Ultimately the solution would be web sockets that allows for a push mechanism, but in the meantime we added caching that made subsequent calls super fast. 
 
-With the caching patch in place, we coordinated a 2nd stress test by reaching out to our Discord/Telegram/Reddit communities and emailing a list of ~4K lbry.tv registered accounts. This round went much better in terms of SDK performance but users outside of the US ran into trouble streaming content. This is a known limitation because the server is currently based in the US. We will attempt to cache some of this data to help serve multiple users the same file, but in order to better support users around the world, LBRY will need to run multiple UI and SDK instances around the globe. Overall this test was successful and will let us move lbry.tv out of the early beta phase. We still plan to improve concurrent operations on the SDK, but it’s not prohibiting us from trying to reach a wider audience. 
+With the caching patch in place, we coordinated a 2nd stress test by reaching out to our Discord/Telegram/Reddit communities and emailing a list of about 4000 lbry.tv registered accounts. This round went much better in terms of SDK performance but users outside of the US ran into trouble streaming content. This is a known limitation because the server is currently based in the US. We will attempt to cache some of this data to help serve multiple users the same file, but in order to better support users around the world, LBRY will need to run multiple UI and SDK instances around the globe. Overall this test was successful and will let us move lbry.tv out of the early beta phase. We still plan to improve concurrent operations on the SDK, but it’s not prohibiting us from trying to reach a wider audience. 
 
 ### Embedding videos on other sites
 
@@ -195,7 +195,7 @@ We are also aware of performance issues affecting older devices and will continu
 With the upcoming launch of lbry.tv, we’ve decided to sunset open.lbry.com and replace it with a lbry.tv URL that will go directly to the content page on the web. There will also be an option to open the content in the app, similar to what’s possible today on open.lbry.com. This also means we’ll have URL preview support directly on lbry.tv links and won’t have to reimplement the same on open.lbry.com. 	
 
 ## YouTube Sync {#youtube}
-Since our last update, we added parallel processing to the transfer mechanism so that channel claiming can be finalized quicker and not lock up the servers for long periods of time. From time to time, we do have to manually intervene with a transfer in case something goes wrong with the SDK - which we’ve seen happen for larger creators/wallets which transferring tips. As of the writing of this update, we are almost at 500 YouTube channels claimed. We’ve also updated our [Top YouTubers](http://traction.lbry.com/question/163) list to include a transfer date if they claimed their channel.
+Since our last update, we added parallel processing to the transfer mechanism so that channel claiming can be finalized quicker and not lock up the servers for long periods of time. From time to time, we do have to manually intervene with a transfer in case something goes wrong with the SDK - which we’ve seen happen for larger creators/wallets while  transferring tips. At the time of writing, almost 500 YouTube channels have been claimed. We’ve also updated our [Top YouTubers](http://traction.lbry.com/question/163) list to include a transfer date if they claimed their channel.
 
 ![youtubers](https://spee.ch/7/youtube-transfers.jpg)
 
@@ -212,9 +212,9 @@ Partially completed/still in progress are:
 * **Commenting** - Markdown support added in Heisenberg
 * **Creator Features** - Claiming YouTube channels now possible on lbry.tv. Rewards for creators in the pipeline.
 * **Creator Partnerships** - No update since last month - in progress and will be announced later this year
-* **LBRY on the Web** - End of beta state this month, focus on supporter larger user bases next.
+* **LBRY on the Web** - End of beta state this month, focus on supporting larger user bases next.
 * **Multi-Device Experience** - Wallet and account preferences now available for everyone with Heisenberg and supported on lbry.tv. Encryption/password change features in progress.
-* **Internationalization** - 3 new languages added: Chinese, Slovenian, Turkish, and French. Available on lbry.tv and next app release (mid Nov).
+* **Internationalization** - Four new languages added: Chinese, Slovenian, Turkish, and French. Available on lbry.tv and next app release (mid Nov).
 * **Protocol Performance** - Mobile reliability improved, multiprocessing effort in progress to support lbry.tv.
 
 ## Limited Reward Code!
