@@ -2,7 +2,7 @@
 author: tom-zarebczan
 title: 'Development Update for October 2019'
 date: '2019-11-11 12:00:00'
-cover: ‘oct-blog.jpg'
+cover: 'oct-blog.jpg'
 category: community-update
 ---
 Welcome to the October 2019 LBRY Development update! In this post we’ll show you what we’ve been up to since our [last update in September](https://lbry.com/news/sept-dev-2019). Sit tight, there’s been lots of progress and releases, including updates from the Apps (Desktop and Mobile), SDK, and blockchain teams! 
