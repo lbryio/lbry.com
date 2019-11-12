@@ -99,7 +99,7 @@ We have a new Discord home for the Swarm, and you [can join here and ask us ques
 
 #### Open Source LBRY
 
-Open Source LBRY has been focused on uploading all of Project Gutenberg to LBRY. There are a total of over 60,000 books in the project, and you can see works from [Project Gutenberg channel here.](lbry://@Gutenberg#a)
+Open Source LBRY has been focused on uploading all of Project Gutenberg to LBRY. There are a total of over 60,000 books in the project, and you can see works from [Project Gutenberg channel here.](https://open.lbry.com/@Gutenberg:a)
 
 ![Project Gutenberg](https://spee.ch/@lbrynews:0/ProjectGutemberglogosvg.png)
 
