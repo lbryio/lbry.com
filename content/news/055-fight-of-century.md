@@ -1,4 +1,4 @@
-﻿---
+---
 author: samuel-lbryian
 title: 'LBRY Brings You the Fight of the Century'
 date: '2016-08-10 00:06:18'
@@ -24,7 +24,7 @@ EO's latest project is their first feature-length film: *[At The Fork](http://ww
 
 With your help, LBRY may one day add *At The Fork* to its featured content, as well as EO's other amazing works.
 
-If you've received a LBRY beta invite, you can do yourself and us a favor by heading to [lbry://keynesvhayek](lbry://keynesvhayek) and watching *Fight of the Century: Keynes vs. Hayek Rap Battle* right now!
+If you've received a LBRY beta invite, you can do yourself and us a favor by heading to [lbry://keynesvhayek](https://open.lbry.com/keynesvhayek:0) and watching *Fight of the Century: Keynes vs. Hayek Rap Battle* right now!
 
 We think you'll enjoy it, and your views will help prove to intrepid creators like EO that LBRY is the future of content distribution.
 
