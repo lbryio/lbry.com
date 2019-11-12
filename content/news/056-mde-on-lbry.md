@@ -7,8 +7,8 @@ cover: 'mde.jpg'
 
 [MillionDollarExtreme (MDE)](https://en.wikipedia.org/wiki/Million_Dollar_Extreme) is the first comedy series to become a [LBRY publishing partner](/publish). MDE's classics are being added to LBRY, and you can start with:
 
-- *[Sam Hyde's 2070 Paradigm Shift](lbry://samhyde2070)* – The ultimate TEDx troll; an instant internet classic.
-- *[College Cunts](lbry://collegecunts)* – Practical and expertly vulgar advice for would-be college students. 
+- *[Sam Hyde's 2070 Paradigm Shift](https://open.lbry.com/samhyde2070:b)* – The ultimate TEDx troll; an instant internet classic.
+- *[College Cunts](https://open.lbry.com/collegecunts:c)* – Practical and expertly vulgar advice for would-be college students. 
 
 ![Sam Hyde's 2070 Paradigm Shift](/img/news/mde-sam-hyde.png)
 
@@ -20,7 +20,7 @@ In fact, tomorrow night you can catch episode two of their brand new Adult Swim 
 
 **When you're done, check out their O.G. videos.** Look for the following titles on LBRY:
 
-- *[Williamsburg Fashion series](lbry://WilliamsburgFashion1)*
+- *[Williamsburg Fashion series](https://open.lbry.com/WilliamsburgFashion1:1)*
 - *[Boston Ross](lbry://BostonRoss)*
 - *[IDEAS Man](lbry://IDEASman)*
 - *[LA Street Fashion series](lbry://LAstreetFashion1)*
