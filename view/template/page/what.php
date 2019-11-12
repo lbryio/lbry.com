@@ -49,7 +49,7 @@
       <p>LBRY differs from the status quo in three big ways:</p>
 
       <ol>
-        <li><strong>Coupled payment and access</strong>. If desired, the person who publishes to <a href="lbry://rhapsody-film#e1029aaa08bef8e9225efcbfb94a895e9bbdc8ea">lbry://rhapsody-film#e1029aaa08bef8e9225efcbfb94a895e9bbdc8ea</a> can charge a fee to users that view the content. </li>
+        <li><strong>Coupled payment and access</strong>. If desired, the person who publishes to <a href="https://open.lbry.com/@CalibreMusic:2/rhapsody-film:e">lbry://rhapsody-film#e1029aaa08bef8e9225efcbfb94a895e9bbdc8ea</a> can charge a fee to users that view the content. </li>
         <li><strong>Decentralized and distributed</strong>. Content published to LBRY is not specific to one computer or network, making LBRY robust to failure and disruption.</li>
         <li><strong>Community controlled</strong>. No party other than the publisher (including us) can unilaterally remove or block content on the LBRY network.<sup><a class="link-primary" href="#note-community-controlled">2</a></sup></li>
       </ol>
