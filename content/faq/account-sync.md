@@ -8,7 +8,7 @@ Users expect consistent experiences across devices and sessions. This includes e
 ## How It Works
 1. Every user, whether on desktop, android, or lbry.tv, has a single wallet file. This file stores your private keys (like a password) that controls your channels and account balances. The keys in this file are the only way to move or spend LBC or publish to your channel.
 1. On an ongoing basis, your account preferences and other settings are written to your wallet file.
-1. If you create an account with LBRY Inc and turn on account sync, your wallet file will be copied to and from a LBRY, Inc. server each time you login and at regular intervals.
+1. If you create a lbry.tv and turn on account sync (backup), your wallet file will be copied to and from a LBRY, Inc. server each time you login and at regular intervals.
 1. Each time this happens, your preferences, channels, subscriptions, and other data will be updated on the new device.
 1. If your wallet file has a password on it, LBRY, Inc. cannot see into your wallet or do anything with it, including reset your password.
 
