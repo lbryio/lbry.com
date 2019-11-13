@@ -16,7 +16,6 @@ The current breakdown of mining hash rates can be found on [Mining Pool Stats](h
 - [Zerg Pool](https://zergpool.com/)
 
 ## Established Pools
-- [LBRY Community Pool](http://lbrypool.com) <- Support the LBRY community with this pool!
 - [Luxor](https://mining.luxor.tech/lbry) <- Support the LBRY community with this pool!
 - [SuprNova](https://lbry.suprnova.cc/index.php?page=gettingstarted)
 - [CoinMine](https://www2.coinmine.pl/lbc/index.php?page=gettingstarted)
