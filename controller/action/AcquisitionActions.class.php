@@ -87,6 +87,9 @@ class AcquisitionActions extends Actions
     {
         $current_value = LBRY::statusYoutube($status_token);
         if ($current_value['data']['email'] == $email) {
+            if ($channel_name === "" && $sync_consent === false) {
+                Controller::redirect("/youtube/status/". $status_token);
+            }
             $status = LBRY::editYoutube($status_token, $channel_name, null, $sync_consent);
         } else {
             $status = LBRY::editYoutube($status_token, $channel_name, $email, $sync_consent);
