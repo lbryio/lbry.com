@@ -9,7 +9,7 @@ The internet abhors a vacuum, and by that we mean any open forum without boobs. 
 
 It's well known that the internet and VHS tapes quickly became popular sources for adult content as the public began to explore these new forms of media technology. The same thing happened in LBRY as soon as we created some Featured Content spots on the app for users to control.
 
-Any LBRY beta user can upload original content and bid for the names "[one](lbry://one)", "[two](lbry://two)", "[three](lbry://three)", "[four](lbry://four)". The content at those names appears on LBRY's home screen to the right of our featured publishing partners:
+Any LBRY beta user can upload original content and bid for the names "[one](https://open.lbry.com/one)", "[two](https://open.lbry.com/two)", "[three](https://open.lbry.com/three)", "[four](https://open.lbry.com/four)". The content at those names appears on LBRY's home screen to the right of our featured publishing partners:
 
 ![LBRY's featured content](/img/news/nsfwblurred.png)
 
