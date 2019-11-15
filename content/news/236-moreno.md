@@ -16,7 +16,7 @@ Some, including Moreno, have called Wash a racist and his arguments absurd. But 
 
 Moreno previously made the news when he was [halted by a debate moderator](https://lbry.tv/@MichaelMoreno:e/high-school-debaters-lose-round-for:8) after quoting professor (and LBRY creator) [Jordan Peterson](https://lbry.tv/@JordanBPeterson:c).
 
-When Moreno’s videos were [threatened to be deleted by YouTube](https://ßlbry.tv/@MichaelMoreno:e/youtube-might-take-down-my-videos:8), he published them to LBRY.
+When Moreno’s videos were [threatened to be deleted by YouTube](https://lbry.tv/@MichaelMoreno:e/youtube-might-take-down-my-videos:8), he published them to LBRY.
 
 What do you think? Is this Moreno right? Or is Wash being unfairly attacked? Or something in between? You can let other LBRYians, and Moreno, know in the comments!
 
