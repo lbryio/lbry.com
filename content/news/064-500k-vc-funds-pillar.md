@@ -1,4 +1,4 @@
-﻿---
+---
 author: samuel-lbryian
 title: '$500K in VC Funds from Pillar et al'
 date: '2016-09-07 00:06:18'
@@ -14,4 +14,4 @@ LBRY is humbled at this endorsement. Beyond helping us grow our dev team and del
 
 These funds will be used to advance the development of our beta as quickly as possible. We will have a Windows version released this month. By the end of this year, we are anticipating opening up the beta app – and going to full product release in 2017. No more waiting lists!
 
-[Click Here to Read the Full Press Release](/press/500k-fundraising-round-pillar-vc.md)
+[Click Here to visit Pillar Portfolio Page](https://www.pillar.vc/portfolio)
