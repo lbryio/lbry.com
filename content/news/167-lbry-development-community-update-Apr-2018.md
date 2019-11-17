@@ -77,7 +77,7 @@ Based on feedback received when we first mentioned a hard fork, we want to stres
 If you aren't part of our Discord community yet, [join us](https://chat.lbry.com) anytime and say hello! Our community allows LBRYians to interact with the team directly and for us to engage users in order to grow the LBRY platform.
 
 ### Upcoming Events
-If you're in the DC area, make sure to get registered for the [Startup Society Summit](https://www.startupsocieties.com/startup-societies-summit-gmu-2018) at George Mason University next week (May 9th and 10th). Natalie Mitchell, LBRY's Director of Talent and Branding, will be speaking on how free market startup cities and blockchain technology can help rebuild Puerto Rico in the aftermath of Hurricane Maria. Stop by and say hello!
+If you're in the DC area, make sure to get registered for the [Startup Society Summit](https://www.startupsocieties.com) at George Mason University next week (May 9th and 10th). Natalie Mitchell, LBRY's Director of Talent and Branding, will be speaking on how free market startup cities and blockchain technology can help rebuild Puerto Rico in the aftermath of Hurricane Maria. Stop by and say hello!
 
 ### LBRY is hiring! New Jobs Posted
 The team saw amazing growth in March as 21 team members came together for our second All Hands meetup at LBRY's home base in Manchester, NH. We're delighted to announce we're seeking [even more members to join our crew,](/join-us) so if you've dreamed of working at the front of bleeding edge technology, we have these opportunities available:
