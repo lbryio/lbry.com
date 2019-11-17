@@ -15,7 +15,7 @@ That's why I'm a huge fan of this week's show because he consistently maintains 
 
 *(Haven't grabbed the beta yet? Do it [here](/get).)*
 
-[@Rerez](https://dir.block.ng/%40Rerez) is without question the best video games-related channel on LBRY. Whether you like in-depth critical reviews of games and hardware, or exploring the weirdest depths of game novelty–and in fact, if you like neither of those things!–he finds a way to make it interesting.
+[@Rerez](https://twitter.com/rereztv) is without question the best video games-related channel on LBRY. Whether you like in-depth critical reviews of games and hardware, or exploring the weirdest depths of game novelty–and in fact, if you like neither of those things!–he finds a way to make it interesting.
 
 How do you make a [Playstation on Raspberry Pi](https://open.lbry.com/re-YzbCyOSJhho)? Is Superman 64 secretly [the greatest game](https://open.lbry.com/re-4EVL4u570T8) ever made?
 
