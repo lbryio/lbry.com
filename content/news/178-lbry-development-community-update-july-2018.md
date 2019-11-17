@@ -24,7 +24,7 @@ If you want to see a condensed view of what we have completed recently and what'
 
 We have winners in our t-shirt and 3D chess set contests! We are also excited to announce new Video and Networking contests hosted by our community partners, LBRY-C!
 
-7,000 LBC (yes, seven-thousand LBC!) will be awarded in two different contests. Please visit [LBRY.community](https://lbry.community/contest-august-2018) for full details.
+7,000 LBC (yes, seven-thousand LBC!) will be awarded in two different contests. Please visit [LBRY.community](https://lbry.community/) for full details.
 
 ### LBRY T-shirt design contest
 Congratulations to the winners of our [summer t-shirt contest](/shirt-contest)! First place goes to Usman Yaqub and second place is Stephen Firth. They win $100 and $50 in LBC respectively, plus $25 in credit to use in the LBRY Shop! Buy the winning design here: [Men's](https://shop.lbry.com/collections/mens-unisex/products/lbry-dove-t-shirt) or [Women's](https://shop.lbry.com/collections/womens/products/ladies-lbry-dove-t-shirt)!

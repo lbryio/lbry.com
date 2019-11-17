@@ -99,7 +99,7 @@ Check out our new #bounties channel on [Discord](https://chat.lbry.com). This is
 ![Meetup and College initiative](https://spee.ch/7/meet-LBRY.png)
 
 ### LBRY.Community Contest Winners
-The [LBRY.Community contest](https://lbry.community/category/votable-contest-entries) from January wrapped up, and the [winners](https://lbry.community/contest-winners-january-2018) were first announced and tipped on our Discord channel, congrats to all the winners! All entrants were given LBC Credits as a participation bonus and LBRY.Community is also giving out stickers and handbags to all participants and judges. Thanks again to @rouse and @coolguy3289 for coordinating! The next phase of LBRY.Community's plans are being discussed with our team.
+The [LBRY.Community](https://lbry.community) contest from January wrapped up, and the winners were first announced and tipped on our Discord channel, congrats to all the winners! All entrants were given LBC Credits as a participation bonus and LBRY.Community is also giving out stickers and handbags to all participants and judges. Thanks again to @rouse and @coolguy3289 for coordinating! The next phase of LBRY.Community's plans are being discussed with our team.
 
 ### New and updated LBRY FAQ Articles
 We recently revamped and simplified our ["What is LBRY?"](/faq/what-is-lbry) FAQ, so it's a tad easier to digest for first time LBRY users.
