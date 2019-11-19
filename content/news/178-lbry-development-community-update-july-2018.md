@@ -205,10 +205,6 @@ Do you have an idea for a project using or promoting the LBRY Protocol? We may p
 The Stack Exchange LBRY Protocol site grew last month, and has now entered the Commitment phase! The real work begins now: we need 200 people to commit to use our Stack Exchange site, and 100 of them must be active participants on other Stack Exchange forums (have 200+ reputation). Please give us a hand:
 [View the LBRY Stack Exchange site here](https://area51.stackexchange.com/proposals/118455/lbry-protocol)
 
-<a href="https://area51.stackexchange.com/proposals/118455/lbry?">
-  <img src="https://area51.stackexchange.com/ads/proposal/118455.png" width="300" height="250" alt="Stack Exchange Q&A site proposal: LBRY"/>
-</a>
-
 ### LBRY is hiring!
 [Come join team Content Freedom!](/join-us) We have the following positions open: Blockchain Engineer, Protocol Engineer, and API Engineer. We'd love for you to join us, or if you have a friend you think would be interested, we pay a $5,000 bounty if we hire them.
 
