@@ -22,9 +22,9 @@ Building [protocols, not platforms](/news/blockchain-is-love-blockchain-is-life)
 We think users should own their content (and their privacy) instead of handing it over to a corporate giant and their advertising buddies. If you think we're paranoid, there are dozens of examples of [companies abusing users](/news/why-do-tech-giants-abuse-their-users) and acting against their interests. It's not paranoia if they're actually out to get you.
 
 ## Community Driven and Open Source
-Everything built to power LBRY is open source and designed to be controlled by the public at large. Hundreds of developers have contributed to the core code bases that power LBRY and thousands of other community members have helped in other ways: recruiting creators, performing translations, making graphics, and so much mroe.
+Everything built to power LBRY is open source and designed to be controlled by the public at large. Hundreds of developers have contributed to the core code bases that power LBRY and thousands of other community members have helped in other ways: recruiting creators, performing translations, making graphics, and so much more.
 
-While there is a company behind LBRY called _LBRY Inc._, we attempt to tie our own hands as much as possible in ever becoming an evil faceless megacorp. By making everything open-source and standardized, anyone in the world can walk away from LBRY with everything in tact (or make a new, better version).
+While there is a company behind LBRY called _LBRY Inc._, we attempt to tie our own hands as much as possible so we cannot ever become an evil faceless megacorp. By making everything open-source and standardized, anyone in the world can walk away from LBRY with everything intact (or make a new, better version).
 
 ## How and Why LBRY Uses Blockchain
 
