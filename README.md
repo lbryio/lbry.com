@@ -23,7 +23,6 @@
 </div>
 
 
-
 ## Installation
 Please see [INSTALL](INSTALL.md) for comprehensive, easy-to-follow instructions on running this project.
 
