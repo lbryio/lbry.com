@@ -25,3 +25,5 @@ So check out [El Jefe Dave’s channel](https://open.lbry.com/@elJefeDave:5) for
 And there’s not really much more to say because this writer needs to go get lunch, immediately.
 
 (Oh yeah, you get a reward EVERY DAY for using LBRY. Don't miss out!)
+
+![El Jefe Dave](https://spee.ch/@lbrynews:0/davemata)
