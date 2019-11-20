@@ -3,4 +3,4 @@
 	url = https://github.com/lbryio/color
 [submodule "web/components"]
 	path = web/components
-	url = https://github.com/lbryio/components
+	url = https://github.com/lbryio/components/tree/996d983c55958e2b1f7231d6241334330c97f265
