@@ -1,0 +1,54 @@
+.badge {
+  border-radius: 0.2rem;
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.05rem;
+  line-height: 2;
+  padding-right: var(--spacing-xs);
+  padding-left: var(--spacing-xs);
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.badge--cost {
+  background-color: var(--lbry-yellow-2);
+  color: var(--lbry-black);
+
+  [data-mode="dark"] & {
+    background-color: var(--lbry-yellow-3);
+  }
+}
+
+.badge--free {
+  background-color: var(--lbry-blue-2);
+
+  [data-mode="dark"] & {
+    background-color: var(--lbry-blue-3);
+    color: var(--lbry-black);
+  }
+}
+
+.badge--large {
+  font-size: 4rem;
+  line-height: 1;
+}
+
+.badge--nsfw {
+  background-color: var(--lbry-grape-2);
+
+  [data-mode="dark"] & {
+    background-color: var(--lbry-grape-3);
+    color: var(--lbry-black);
+  }
+}
+
+.badge--primary {
+  background-color: var(--lbry-teal-5);
+  color: var(--lbry-white);
+}
+
+.badge--alert {
+  background-color: var(--lbry-red-2);
+  color: var(--lbry-white);
+}

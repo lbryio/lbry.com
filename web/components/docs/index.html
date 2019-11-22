@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Components by LBRY</title>
+
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@master/distr/fira_code.css"/>
+    <!-- <link rel="stylesheet" href="../dist/index.css"/> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lbryio/components@master/dist/index.css"/>
+
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        font-family: var(--font-sans);
+        padding-top: var(--spacing-l);
+      }
+
+      header {
+        border-bottom: 1px solid var(--lbry-gray-1);
+        margin-bottom: var(--spacing-l);
+      }
+
+      drawer-navigation,
+      drawer-wrap {
+        padding-right: var(--spacing-l);
+        padding-left: var(--spacing-l);
+      }
+
+      drawer-navigation {
+        font-size: 1.25rem;
+      }
+
+      main {
+        flex: 1;
+        min-height: 100vh;
+        padding-right: var(--spacing-l);
+        padding-left: var(--spacing-l);
+      }
+
+      section {
+        border-bottom: 1px solid var(--lbry-gray-1);
+        margin-bottom: var(--spacing-l);
+      }
+
+      h1 {
+        font-size: 3rem;
+        font-weight: bolder;
+        padding-right: var(--spacing-l);
+        padding-left: var(--spacing-l);
+      }
+
+      h2 {
+        font-size: 2rem;
+        padding-right: var(--spacing-l);
+        padding-left: var(--spacing-l);
+        padding-bottom: var(--spacing-s);
+      }
+
+      h3 {
+        background-color: var(--lbry-black);
+        color: var(--lbry-white);
+        display: inline-block;
+        font-size: 1.5rem;
+        font-weight: bolder;
+        margin-bottom: var(--spacing-s);
+        padding: 0.25rem 1rem;
+        pointer-events: none;
+      }
+
+      p {
+        font-size: 1.25rem;
+        margin-bottom: var(--spacing-s);
+      }
+
+      hr {
+        margin-bottom: var(--spacing-s);
+      }
+
+      footer {
+        border-top: 1px solid var(--lbry-gray-1);
+        color: var(--lbry-gray-5);
+        padding: var(--spacing-l);
+      }
+
+      .social-links a {
+        width: 1.25rem; height: 1.25rem;
+
+        background-color: var(--lbry-black);
+        color: transparent;
+        display: inline-block;
+        font-size: 0;
+        border-radius: 50%;
+        line-height: 0;
+      }
+
+      .social-links a:not(:last-of-type) {
+        margin-right: 0.5rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>@lbry/components</h1>
+      <h2>Styling for shared components across LBRY properties</h2>
+
+      <drawer-navigation>
+        <drawer-section>
+          <drawer-title>
+            Link I
+            <drawer-navigation-helper/>
+          </drawer-title>
+
+          <drawer-wrap>
+            <drawer-children>
+              <drawer-child>
+                <a href="">
+                  <strong>Use LBRY</strong>
+                  <span>Get the most out of LBRY</span>
+                </a>
+              </drawer-child>
+
+              <drawer-child>
+                <a href="">
+                  <strong>FAQ</strong>
+                  <span>Got questions? We might have answers!</span>
+                </a>
+              </drawer-child>
+
+              <drawer-child>
+                <a href="">
+                  <strong>Blockchain Explorer</strong>
+                  <span>The history of LBRY’s blockchain</span>
+                </a>
+              </drawer-child>
+
+              <drawer-child class="social-links">
+                <div>
+                  <strong>Social</strong>
+                  <span>
+                    <a href="">Network 1</a>
+                    <a href="">Network 2</a>
+                    <a href="">Network 3</a>
+                    <a href="">Network 4</a>
+                    <a href="">Network 5</a>
+                  </span>
+                </div>
+              </drawer-child>
+
+              <drawer-child>
+                <a href="">
+                  <strong>Tour</strong>
+                  <span>Do you want to learn how to publish content to the LBRY network?</span>
+                </a>
+              </drawer-child>
+
+              <drawer-child>
+                <a href="">
+                  <strong>News</strong>
+                  <span>The latest happenings with the LBRY team and community</span>
+                </a>
+              </drawer-child>
+
+              <drawer-child>
+                <a href="">
+                  <strong>Chat</strong>
+                  <span>Chat with other LBRY users and LBRY team members</span>
+                </a>
+              </drawer-child>
+            </drawer-children>
+          </drawer-wrap>
+        </drawer-section>
+
+        <drawer-section>
+          <drawer-title>
+            Link II
+            <drawer-navigation-helper/>
+          </drawer-title>
+
+          <drawer-wrap>
+            <drawer-children>
+              <drawer-child>
+                <a href="">
+                  <strong>YouTube Partner Program</strong>
+                  <span>Bring all your content to LBRY with just a few clicks</span>
+                </a>
+              </drawer-child>
+
+              <drawer-child>
+                <a href="">
+                  <strong>Creator FAQ</strong>
+                  <span>Like the FAQ, but for Creators</span>
+                </a>
+              </drawer-child>
+
+              <drawer-child>
+                <a href="">
+                  <strong>Fund a Project</strong>
+                  <span>How to to get some LBC for your latest idea or project</span>
+                </a>
+              </drawer-child>
+
+              <drawer-child>
+                <a href="">
+                  <strong>Makers</strong>
+                  <span>Would you like to share and sell 3D printable files?</span>
+                </a>
+              </drawer-child>
+            </drawer-children>
+          </drawer-wrap>
+        </drawer-section>
+
+        <drawer-section>
+          <drawer-title>
+            Link III
+            <drawer-navigation-helper/>
+          </drawer-title>
+
+          <drawer-wrap>
+            <drawer-children>
+              <drawer-child>
+                <a href="">
+                  <strong>Team / About</strong>
+                  <span>Meet the people building LBRY and find out why they’re doing it</span>
+                </a>
+              </drawer-child>
+
+              <drawer-child>
+                <a href="">
+                  <strong>Join Us</strong>
+                  <span>Work with the LBRY team</span>
+                </a>
+              </drawer-child>
+
+              <drawer-child>
+                <a href="">
+                  <strong>Contact</strong>
+                  <span>Have a question or want to connect with the LBRY, Inc. team?</span>
+                </a>
+              </drawer-child>
+
+              <drawer-child>
+                <a href="">
+                  <strong>Credit Reports</strong>
+                  <span>Four times a year we share the current state of LBRY, Inc.'s balance sheet</span>
+                </a>
+              </drawer-child>
+            </drawer-children>
+          </drawer-wrap>
+        </drawer-section>
+
+        <drawer-section>
+          <drawer-title>
+            Link IV
+            <drawer-navigation-helper/>
+          </drawer-title>
+
+          <drawer-wrap>
+            <drawer-children>
+              <drawer-child>
+                <a href="">
+                  <strong>LBRY.tech</strong>
+                  <span>Find out how the heck all of this works</span>
+                </a>
+              </drawer-child>
+
+              <drawer-child>
+                <a href="">
+                  <strong>GitHub</strong>
+                  <span>The LBRY code is open source, check out the repos</span>
+                </a>
+              </drawer-child>
+
+              <drawer-child>
+                <a href="">
+                  <strong>Contributor's Guide</strong>
+                  <span>Tips and guidelines for being a contributor to the LBRY projects</span>
+                </a>
+              </drawer-child>
+            </drawer-children>
+          </drawer-wrap>
+        </drawer-section>
+      </drawer-navigation>
+    </header>
+
+    <main>
+      <section>
+        <p>Hello and whaddup!</p>
+      </section>
+
+      <section>
+        <h3>Form</h3>
+
+        <form>
+          <fieldset>
+            <legend>Subscribe to our newsletter</legend>
+
+            <input-submit>
+              <input id="emailAddress" placeholder="you@domain.tld" type="text"/>
+              <input title="Subscribe to our technical newsletter" type="submit" value="Subscribe" />
+            </input-submit>
+          </fieldset>
+
+          <fieldset>
+            <legend>Become a Gym Leader</legend>
+
+            <fieldset-group>
+              <fieldset-section>
+                <label for="name">Name</label>
+                <input id="name" placeholder="Will Smith" type="text"/>
+              </fieldset-section>
+
+              <fieldset-section>
+                <label for="starter">Pokémon</label>
+                <select id="starter">
+                  <option disabled selected>Choose a Pokémon</option>
+                  <option>Bulbasaur</option>
+                  <option>Charmander</option>
+                  <option>Squirtle</option>
+                </select>
+              </fieldset-section>
+            </fieldset-group>
+
+            <fieldset-section class="full-width">
+              <label for="notes">Notes</label>
+              <textarea id="notes"></textarea>
+            </fieldset-section>
+          </fieldset>
+
+          <fieldset>
+            <legend>Click some buttons</legend>
+
+            <radio-element>
+              <input id="test-radio-1" name="toggle" type="radio">
+              <label for="test-radio-1">Radio button 1</label>
+              <radio-toggle/>
+            </radio-element>
+
+            <radio-element>
+              <input id="test-radio-2" name="toggle" type="radio">
+              <label for="test-radio-2">Radio button 2</label>
+              <radio-toggle/>
+            </radio-element>
+
+            <checkbox-element>
+              <input id="test-checkbox-1" name="check" type="checkbox">
+              <label for="test-checkbox-1">Checkbox</label>
+              <checkbox-toggle/>
+            </checkbox-element>
+          </fieldset>
+        </form>
+      </section>
+
+      <section>
+        <h3>Table</h3>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Component</th>
+              <th>Language (Toolset)</th>
+              <th>What Is It</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td><a href="https://github.com/lbryio/lbrycrd" rel="noopener noreferrer" target="_blank">lbrycrd</a></td>
+              <td>C++</td>
+              <td>A full node for the LBRY blockchain, including a standalone wallet. Used by miners and some applications. Most consumer applications do not bundle <a class="link--glossary" href="/glossary#lbrycrd">lbrycrd</a> directly, and instead bundle <a class="link--glossary" href="/glossary#lbry-sdk">lbry-sdk</a>.</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/lbryio/lbry" rel="noopener noreferrer" target="_blank">lbry-sdk</a></td>
+              <td>Python (asyncio)</td>
+              <td>A daemon that can be used directly or to develop other applications. Provides convenience <a href="/api/sdk">APIs</a>, bundles an SPV wallet (<a class="link--glossary" href="/glossary#torba">torba</a>), and contains an implementation of the LBRY data network.</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/lbryio/torba" rel="noopener noreferrer" target="_blank">torba</a></td>
+              <td>Python</td>
+              <td>An <a class="link--glossary" href="/glossary#SPV">SPV</a> (Simple Payment Verification) wallet. Bundled with <a class="link--glossary" href="/glossary#lbry-sdk">lbry-sdk</a>.</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/lbryio/lbry/tree/master/lbrynet/extras/wallet/server" rel="noopener noreferrer" target="_blank">wallet server</a></td>
+              <td>Protobuf, Python</td>
+              <td>The wallet server used by <a class="link--glossary" href="/glossary#torba">torba</a>.</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/lbryio/lbry/tree/master/lbrynet/schema" rel="noopener noreferrer" target="_blank">schema</a></td>
+              <td>Protobuf, Python</td>
+              <td>Defines the structure of the metadata stored in the LBRY blockchain.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <footer>Copyright © 2018-2019, LBRY Inc. | BSD 3-Clause Licensed.</footer>
+  </body>
+</html>
