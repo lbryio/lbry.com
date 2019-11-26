@@ -1,4 +1,4 @@
-<?php Response::setMetaDescription($post->getTitle()) ?>
+<?php Response::setMetaDescription(htmlspecialchars($post->getContentText(20, true))) ?>
 <?php Response::addMetaImages($post->getImageUrls()) ?>
 <?php NavActions::setNavUri('/news') ?>
 
