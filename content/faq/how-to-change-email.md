@@ -3,25 +3,13 @@ title: How do I change my LBRY connected email?
 category: troubleshooting
 ---
 
-In certain cases, you may want to change the email connected to your LBRY App. LBRY stores the email address along with an access token which is unique to each user account. To clear this token, shutdown LBRY and see instructions below for each operating system.
+In certain cases, you may want to change the email connected to your LBRY App. LBRY stores the email address along with an access token which is unique to each user account. To clear this token, use the Sign Out button on the Account overview page (click the account icon next to settings in the top right).
 
-Clearing out this token will allow you to change your email or reset your private access token. When you start up LBRY after clearing the token, you can reconnect an email address by going to **Help** > **Set Email** in the About section.  After setting the email, your LBRY Rewards status should be transferred to the new account. If this does not happen, please reach out to us via [email](mailto:help@lbry.com) with your old/new email addresses.
+## Wallets and rewards
 
-## Windows
-1. Open the Control Panel, find the Credentials Manager (may need change View By setting)
-2. Select **Windows Credentials**
-3. Under Generic Credentials, select **LBRY/auth_token** and click **Remove**
+Your Rewards status will not be transferred to the new account, so please [reach out to us](/faq/support) in order to merge them.
 
-## MacOS
-1. Open the Mac Keychain (Click Finder > Go > Utilities > Keychain Access)
-2. Select the **Passwords** category on the left
-3. Find **LBRY/auth_token** and remove it
-
-## Ubuntu / Linux
-*(Exact steps may differ slightly)*
-1. Go to **Passwords and Keys**
-2. Select the **Login** folder
-3. Find **LBRY/auth_token** and right click > Delete to remove it
+If you are using lbry.tv only, your wallet will also not be transferred, so please [reach out to us](/faq/support) in order to merge them. To do this merge yourself, you'd need to sign into the old email, and then the new email, via the Desktop app. 
 
 ## Android {#android}
 *(Exact steps may differ slightly)*

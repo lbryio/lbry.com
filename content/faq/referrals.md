@@ -3,10 +3,10 @@ title: How does the referral program work?
 category: getstarted
 ---
 
-You can earn LBRY Credits (LBC) for referring others to use LBRY. In the latest version of the LBRY app, you can now view the status of your referrals and invite new users to LBRY via email or referral link. 
+You can earn LBRY Credits (LBC) for referring others to use LBRY. You can now view the status of your referrals and invite new users to LBRY via email or referral link on the Account overview page of LBRY Desktop or lbry.tv.
 
 ### How to get your referral link
-To get to the the "Invite " area, click the `LBC balance` menu at the top right of the LBRY App, and select `Overview`.
+To get to the Account Overview area, click the Account menu at the top right, and select `Overview`.
 
 You will see all of your referrals, along with their status(es) - whether the user has accepted it (signed in) and if it is claimable or not (if the user is reward approved).
 
@@ -16,7 +16,7 @@ You will see all of your referrals, along with their status(es) - whether the us
 
 ### How many LBRY Credits do I earn and how do I see how many credits I've earned?
 
-New invites sent via the LBRY app are eligible for a 20 LBC reward (subject to change based on our discretion). 
+New invites are eligible for a 20 LBC reward (subject to change based on our discretion).
 
 ### When do I get my rewards?
 
@@ -28,7 +28,7 @@ After a user clicks, installs and registers their email with LBRY, it may take u
 
 ### What are the criteria for a claimable referral?
 
-A claimable referral has the same definition as a Rewards eligible or Verified LBRY user. This means the referred user must have logged into the LBRY app and verified their account.
+A claimable referral has the same definition as a Rewards eligible or Verified LBRY user. This means the referred user must have logged into LBRY and verified their account.
 
 LBRY users who abuse either the Referral or Rewards system will not be eligible for referral redemption. If you have specific questions about individual referrals which are not claimable, please reach out to the [helpdesk](mailto:help@lbry.com) with details.
 

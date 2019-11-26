@@ -8,17 +8,15 @@ Users expect consistent experiences across devices and sessions. This includes e
 ## How It Works
 1. Every user, whether on desktop, android, or lbry.tv, has a single wallet file. This file stores your private keys (like a password) that controls your channels and account balances. The keys in this file are the only way to move or spend LBC or publish to your channel.
 1. On an ongoing basis, your account preferences and other settings are written to your wallet file.
-1. If you create a lbry.tv and turn on account sync (backup), your wallet file will be copied to and from a LBRY, Inc. server each time you login and at regular intervals.
+1. If you create a lbry.tv login and turn on account sync (backup), your wallet file will be copied to and from a LBRY, Inc. server each time you login and at regular intervals.
 1. Each time this happens, your preferences, channels, subscriptions, and other data will be updated on the new device.
 1. If your wallet file has a password on it, LBRY, Inc. cannot see into your wallet or do anything with it, including reset your password.
 
 ## Using Wallet Sync
 ### Sync Limitations
 As of writing, current limitations are:
-- On Desktop, the "Save Password" option must be enabled on startup to enable Sync.
-- Can't enable encryption or change password (coming soon).
-- lbry.tv account is not synced with other devices yet.
-- Cannot remove a previously synced account (i.e. which you don't know the password to)
+- Can't set or change passwords (coming soon). Only Android allows setting of a password on new accounts currently.
+- Cannot remove a previously synced account (i.e. which you don't know the password to). This process is currently manual, please [contact us](/faq/support)
 
 ### Desktop
 1. If running the desktop app for the first time, you will be prompted during the first-run process to opt-in.

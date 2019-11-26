@@ -3,7 +3,7 @@ title: Incompatible Protocol Version Warning
 category: troubleshooting
 ---
 
-This warning happens when your LBRY browser did not install with the proper version of the software used to communicate with the LBRY network.
+This warning happens when your LBRY Desktop app did not install with the proper version of the software used to communicate with the LBRY network.
 
 The most likely cause of this error is an old version was running during the install process.  This can usually be fixed by re-running the LBRY setup files after ensuring that no LBRY processes are running.
 ![Incompatible-daemon](https://spee.ch/b/incompatible-protocol.png)

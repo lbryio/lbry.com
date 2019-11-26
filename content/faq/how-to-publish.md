@@ -6,11 +6,9 @@ order: 1
 
 LBRY is a free, open, and community-driven digital marketplace that enables content sharing, monetization, discovery and consumption. Publishing in LBRY is the process of sharing your content on the network. You have the ability to set the price per view (can be free too) which is paid directly to you. This process involves making a "claim" in the LBRY blockchain which will be used to retrieve the content via a URL. Content can either be published anonymously or to a particular channel/identity which groups content in a single location. Both channels and claims require a deposit (bid) of LBRY Credits (LBC) in order to reserve their location on the LBRY network. This deposit will be deducted from your balance as long as the claim is active. See our [naming](/faq/naming) and [transaction](/faq/transaction-types) documentation for more information about claims, bids and transactions.
 
-If you are a YouTube Sync user, please make sure to [read our FAQ](https://lbry.com/faq/youtube) on how this process works. you should only continue to create a channel or publish if you wish to experiment with the app. 
+If you are a YouTube Sync user, please make sure to [read our FAQ](https://lbry.com/faq/youtube) on how this process works.
 
-**Please note:** To edit your channel currently, you need to be on the latest [LBRY Desktop app](https://lbry.com/get) and access your channel by clicking it from your Publishes page. Once you do this, you'll see an edit icon next to the name. See [below for exact steps](#channel). We'll be improving this experience over the coming weeks.
-
-If you don't have LBRY yet, download it [here](/get).
+If you don't have LBRY yet, download it [here](/get). You can also publish files up to 500mb from the web at [lbry.tv](https://lbry.tv).
 
 ### How do I Publish content?
 
@@ -19,9 +17,9 @@ If you don't have LBRY yet, download it [here](/get).
 
 2. Under the `Publish` section, click `Choose File`.
 
-3. On your local machine, select the content you wish to upload to LBRY. For video content, LBRY works best with MP4 files in H264/AAC format which support proper streaming.  Besides videos, other popular formats supported are MP3s, text documents like markdown (md)/HTML, PDF, CSV, and comic books (cbr, cbz). In the future, the in app player may support additional formats. 
+3. On your local machine, select the content you wish to upload to LBRY. For video content, LBRY works best with MP4 files in H264/AAC format which support proper streaming.  Besides videos, other popular formats supported are MP3s, text documents like markdown (md)/HTML, PDF, CSV, and comic books (cbr, cbz). In the future, the in app player may support additional formats.
 
-Other file types can also be uploaded, but won't be streamable via the LBRY app directly. They can be opened externally for viewing. 
+Other file types can also be uploaded, but won't be streamable via the LBRY app directly. They can be opened externally for viewing.
 
 4. Enter a `Title` and `Description` for your content. Click on advanced Editor if you will like to add some markdown text otherwise leave it as default and put your title and description.
 
@@ -29,7 +27,7 @@ Other file types can also be uploaded, but won't be streamable via the LBRY app 
 
 6. Please make sure to check the option for mature audiences if your `Thumbnail` is categorized as NSFW (Not Safe For Work). Otherwise just click "Upload".
 
-7. Next you can add tags to your content which will help categorize it for [discovery purposes](https://lbry.com/faq/trending). If it's intended for mature audiences, please add the pink `mature` tag. Next, determine any other tags that relate to the content you are publishing. Please be mindful of accuracy when tagging content as this is currently up to the publisher only and cannot be edited. If incorrect/inappropriate tags are used, your content may be filtered to provide a better user experience. In the future, this will be done through community voting and building a web of trust. 
+7. Next you can add tags to your content which will help categorize it for [discovery purposes](https://lbry.com/faq/trending). If it's intended for mature audiences, please add the pink `mature` tag. Next, determine any other tags that relate to the content you are publishing. Please be mindful of accuracy when tagging content as this is currently up to the publisher only and cannot be edited. If incorrect/inappropriate tags are used, your content may be filtered to provide a better user experience. In the future, this will be done through community voting and building a web of trust.
 
 ![publish process](https://spee.ch/@clem:0/publish-process.png)
 
@@ -71,7 +69,7 @@ First, you need to access your channel from your Publishes page by clicking on i
 1. You will now see an edit button next to the name. Click the button to proceed to the edit page.
 ![edit1](https://spee.ch/0/edit-1.jpeg)
 
-2. You can now upload your thumbnail and cover image to spee.ch using the upload option from the dropdown on the left, or you can use an existing URL. If using spee.ch select the file, then click the upload button. The page will update once a valid URL is available. 
+2. You can now upload your thumbnail and cover image to spee.ch using the upload option from the dropdown on the left, or you can use an existing URL. If using spee.ch select the file, then click the upload button. The page will update once a valid URL is available.
 
 ![edit2](https://spee.ch/2/edit-2.jpeg)
 
@@ -80,7 +78,7 @@ First, you need to access your channel from your Publishes page by clicking on i
 4. Click Submit.
 
 ### How do I delete my content and reclaim my deposit?
- 
+
 1. Click on the `Publishes` tab from the rightside of the app.
 
 2. Select the content you want to remove from LBRY
@@ -96,7 +94,7 @@ First, you need to access your channel from your Publishes page by clicking on i
 Click `Remove`. If you abandoned your claim, you should see the deposit back in your balance shortly.
 
 ### How do I edit my existing Published content?
-1. Click on the `Publishes` tab from the rightside of the app.
+1. Click on the `Publishes` tab from the right-side of the app.
 2. Select the content you want to update.
 3. Click `Edit`.
 
@@ -106,34 +104,34 @@ Click `Remove`. If you abandoned your claim, you should see the deposit back in 
 
 ### Where is my content stored and shared from? {#blobs}
 
-Content uploaded is chunked up into 2MB files called blobs, and stored in your [lbrynet/blob files folder](https://lbry.com/faq/lbry-directories). These can be deleted if the fully is fully streamable on [https://beta.lbry.tv](https://beta.lbry.tv) or [spee.ch](https://spee.ch).
+Content uploaded is chunked up into 2MB files called blobs, and stored in your [lbrynet/blob files folder](https://lbry.com/faq/lbry-directories). These can be deleted if the fully is fully streamable on [https://lbry.tv](https://lbry.tv) or [spee.ch](https://spee.ch).
 
 ### Can someone tip me for my content?
 Yes, check out how tipping in LBRY works by going [here](/faq/tipping).
 
 ### Can I increase my bid amount?
-Yes, the claim can be edited to increase the bid amount or you can also send a Support to your own content. The Support button will appear instead of the tip button for your own claims. See the [FAQ](/faq/tipping) to learn more. 
+Yes, the claim can be edited to increase the bid amount or you can also send a Support to your own content. The Support button will appear instead of the tip button for your own claims. See the [FAQ](/faq/tipping) to learn more.
 
 ### How can I tell if someone is downloading my content?
 
 The LBRY app now has view counts for your published content.
 In the future, we will add more of these types of statistics to LBRY.
 
-### My video doesn't stream in the app, what's wrong?
+### My video doesn't stream in the app or on lbry.tv, what's wrong?
 
-The in-app video player's streaming capability works best with the H264/AAC format, typically in a MP4 container but others like M4V will also work. Other non-streaming video types like AVI/WMV/MOV file formats are not supported by the in-app player, but they can be shared/downloaded and will play outside of the app. 
+The in-app and lbry.tv video player's streaming capability works best with the H264/AAC format, typically in a MP4 container but others like M4V will also work. Other non-streaming video types like AVI/WMV/MOV file formats are not supported by the in-app player, but they can be shared/downloaded and will play outside of the app.
 
 ### I shared my URL, but others can't download it. What's going on?
 
-Since LBRY is a Peer-to-Peer network, it requires that your device is accessible to the internet. LBRY also runs servers to assist in content hosting, but this process may fail if your device cannot send it to us or if you didn't wait long enough after the initial publish. By default, the TCP sharing port is set to 3333. If your network is properly configured and LBRY is running, a port status check on TCP Port 3333 should pass on this [port checking tool](http://www.canyouseeme.org). If it fails, you can check if UPnP is enabled on your router or forward TCP port 3333 manually. If you need assistance, check out the [help page](/faq/how-to-report-bugs) on how to reach us.
+Since LBRY is a Peer-to-Peer network, it requires that your device is accessible to the internet. LBRY also runs servers to assist in content hosting, but this process may fail if your device cannot send it to us or if you didn't wait long enough after the initial publish. Try quitting (ctrl-Q) and restarting the LBRY app if the content is not accessible on [lbry.tv](https://lbry.tv).
 
 ### Where is my Channel and content saved locally?
 
-Channels and content claims are saved to your LBRY Wallet along with your LBRY Credits. When creating new channels or content, it's a good practice to [backup your wallet](/faq/how-to-backup-wallet) afterwards.
+Channels and content claims are saved to your LBRY Wallet along with your LBRY Credits. We recommend enabling the Sync feature on the Settings page. If not, when creating new channels, you'll need to create a new [backup of your wallet](/faq/how-to-backup-wallet).
 
 ### How and where can I share my content?
 
-LBRY URLs can be shared with anyone - users can view it in their Desktop app or on [beta.lbry.tv](https://beta.lbry.tv) (see Share button in app). If the content is free and public, it can also be retrieved through [spee.ch](https://www.spee.ch) by going to https://spee.ch/<claimname> or https://spee.ch/<@channelname>. You can also share the content on our `#publishers` channel on [Discord](https://chat.lbry.com) where we have a vibrant community with thousands of users.
+LBRY URLs can be shared with anyone - users can view it in their Desktop app or on [lbry.tv](https://lbry.tv) (see Share button in app). If the content is free and public, it can also be retrieved through [spee.ch](https://www.spee.ch) by going to https://spee.ch/<claimname> or https://spee.ch/<@channelname>. You can also share the content on our on [Discord](https://chat.lbry.com) where we have a vibrant community with thousands of users.
 
 ### I'm an advanced user, is there more I can poke around with?
 

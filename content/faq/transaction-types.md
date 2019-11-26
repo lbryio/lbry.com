@@ -3,7 +3,7 @@ title: What types of LBRY transactions are there?
 category: wallet
 ---
 
-There are a number of transaction types which take place on the LBRY blockchain. The LBRY app displays these transactions in the **Overview** and **History** tabs on the Wallet page.
+There are a number of transaction types which take place on the LBRY blockchain. LBRY displays these transactions in the **Overview** and **History** tabs on the Wallet page.
 
 Many transaction types also have details associated with them such as the claim/channel name or if they came from an LBRY Reward. You can also see additional details by clicking the transaction ID and accessing them in the [LBRY block explorer](https://explorer.lbry.com).
 

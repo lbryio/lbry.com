@@ -10,35 +10,21 @@ The app runs on top of the [LBRY protocol](/faq/what-is-lbry) which is a peer-to
 
 The purpose of this FAQ is to answer questions about some of the basic functionality available in the LBRY Android App. Please see our [other FAQ entries](/faq) for additional information.
 
-**Important notes:** 
-
-- We are aware of issues with playing videos on some mobile networks. You can try on wifi, or use [https://beta.lbry.tv](https://beta.lbry.tv) for now**
-
-- If you are getting stuck at the loading screen, try uninstalling/reinstalling the Android app. 
-
-- Wallets do not sync between Desktop and Mobile yet, see our [wallet sync FAQ](https://lbry.com/faq/how-to-backup-wallet#sync)
-
 ## Why Does LBRY Want My Email Address?
 
-Emails are collected to authenticate and [uniquely identify](/faq/phone) users so that they can be eligible for [LBRY Rewards](#rewards), sync subscription data and to stay up to date on the latest LBRY happenings.
+Emails are collected to authenticate a lbry.tv account and [uniquely identify](/faq/phone) users so that they can be eligible for [LBRY Rewards](#rewards), sync wallet data/preferences, and to stay up to date on the latest LBRY happenings.
 
-No other data is stored with your email login. All other data, including your [wallet](#wallet), [downloads](#data) and published content are stored [locally on your device](/faq/lbry-directories#android).  You will be asked to create a [password to secure your account](https://lbry.com/faq/how-to-backup-wallet#sync).
+No other data is stored with your email login. All other data, including your [wallet](#wallet), [downloads](#data) and published content are stored [locally on your device](/faq/lbry-directories#android).  You will be asked to create a [password to secure your account](/faq/account_sync).
 
 ## How Do I Change My LBRY Connected Email?
 
-If you ever need to change your LBRY Android App email address or sign out, please see [this guide](/faq/how-to-change-email#android). Clearing data or uninstalling leads to a loss of wallet currently, please [backup your wallet data](/faq/how-to-backup-wallet#android).
+If you ever need to change your LBRY Android App email address or sign out, please see [this guide](/faq/how-to-change-email#android). Clearing data or uninstalling leads to a loss of wallet if you don't have one synced.
 
-If you sign into a new email and need to transfer your verification status, you'll need to [reach out to us](mailto:help@lbry.com) in order to link your accounts. Please do not verify again to obtain rewards on a 2nd account; your Rewards account may be disabled for abuse.
+If you sign into a new email and need to transfer your wallet and verification status, you'll need to [reach out to us](mailto:help@lbry.com) in order to link your accounts. Please do not verify again to obtain rewards on a 2nd account; your Rewards account may be disabled for abuse.
 
 ## Syncing of Accounts
 
-The Android app allow syncing of your account/wallet and secures it with a password. Please read the [wallet FAQ](https://lbry.com/faq/how-to-backup-wallet#sync) in more detail to understand how this works. 
-
-## What If I Want To Run LBRY On Multiple Android Devices?
-
-If you want to run the LBRY app on multiple PCs or on other platforms like Android, you can sign in with the same email on all devices. Each installation will still have its separate wallet and download data (as mentioned above).
-
-Any rewards earned will be sent locally to the wallet where they are claimed. In the future, our goal to enable an opt-in wallet syncing service across devices.
+The Android app allow syncing of your account/wallet and secures it with a password. Please read the [sync FAQ](/faq/account_sync) in more detail to understand how this works.
 
 ## What Are LBRY Rewards? {#rewards}
 
@@ -51,7 +37,7 @@ In order to be eligible for Rewards, you need to verify your identity [phone num
 A wallet is a secure digital file used to store, send and receive cryptocurrencies like LBRY Credits (LBC).
 The LBRY Android App comes with its own wallet and is stored locally on your phone and nowhere else!
 
-If you do not opt for the [wallet sync program](https://lbry.com/faq/how-to-backup-wallet#sync), it is critical that you backup your own wallet locally or else the credits will be lost. 
+If you do not opt for the [sync program](/faq/account_sync), it is critical that you [backup your own wallet](/faq/how-to-backup-wallet#android) locally or else the credits, channels, and publishes will be lost.
 
 To find your wallet in the LBRY Android app, click on the 3 horizontal bars at the upper left side of the app next to the Search bar. Clicking on it will open a sidebar and then click on Wallet. This will open the Wallet page which shows your wallet address, balance and recent transactions.
 
@@ -82,7 +68,7 @@ The LBRY wallet is different from other wallets - it also stores your shared con
 
 4. Enter a `Title` and `Description` for your content.
 
-5. Next you can add tags to your content which will help categorize it for [discovery purposes](https://lbry.com/faq/trending). If it's intended for mature audiences, please add the pink `mature` tag. Next, determine any other tags that relate to the content you are publishing. Please be mindful of accuracy when tagging content as this is currently up to the publisher only and cannot be edited. If incorrect/inappropriate tags are used, your content may be filtered to provide a better user experience. In the future, this will be done through community voting and building a web of trust. 
+5. Next you can add tags to your content which will help categorize it for [discovery purposes](https://lbry.com/faq/trending). If it's intended for mature audiences, please add the pink `mature` tag. Next, determine any other tags that relate to the content you are publishing. Please be mindful of accuracy when tagging content as this is currently up to the publisher only and cannot be edited. If incorrect/inappropriate tags are used, your content may be filtered to provide a better user experience. In the future, this will be done through community voting and building a web of trust.
 
 ![publish process](https://spee.ch/1/pub4.png)
 
@@ -95,7 +81,6 @@ The LBRY wallet is different from other wallets - it also stores your shared con
 8. Type in the URL you want the content to be found under, along with a minimum of 0.00000001 LBC deposit for the upload (default amount is higher due to publishing fees). If you are trying to outbid a user-friendly/common URL, the system will suggest a minimum bid to take over the content at that vanity URL. There may be a delay for this takeover. Making your bid higher will result in (better discovery)[https://lbry.com/faq/trending) for your content. For more details regarding the URL or bid, check out our [naming document](/faq/naming).
 
 ![Video URL and Deposit](https://spee.ch/8/video-url.png)
-
 
 9. Next, there is `Show extra fields` which gives you an option to select language and license. Default language is set to `English`, and the License is set to `None`.  If a change is needed, click the dropdown menus and select the appropriate choice.
 
@@ -110,9 +95,7 @@ Claim related [wallet transactions](/faq/transaction-types) ensure that the bloc
 
 ## How Do I Claim Rewards In The Android App? {#rewards}
 
-You'll receive daily random rewards just for watching the videos you love! All you need to do is open your LBRY app and start watching. Comeback everyday for a different reward.Incase for some reason the reward does not show up in your wallet after watching a video everyday, go to rewards and click on the daily rewards.
-
-To check whether your wallet is updated, you need to swipe your screen to show the menu bar, click on Wallet and you will see your overall updated balance. Check [How to Backup Your Wallet](/faq/how-to-backup-wallet)
+You'll receive daily random rewards just for watching the videos you love! All you need to do is open your LBRY app and start watching. Comeback everyday for a different reward. For other rewards that can be claimed, see the Rewards page. 
 
 ## How Do I Enable Background Media Playback? {#backgroundmediaplayback}
 
