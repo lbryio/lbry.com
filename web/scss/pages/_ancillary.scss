@@ -92,6 +92,10 @@
       }
     }
 
+    .img--constrained img {
+      max-height: 50vh;
+    }
+
     code {
       background-color: var(--lbry-black);
       color: var(--lbry-white);
