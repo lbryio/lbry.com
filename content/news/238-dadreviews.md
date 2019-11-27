@@ -1,12 +1,10 @@
 ---
 author: samuel-lbryian
-title: 'Thanksgiving with LBRY - DO NOT CLICK IF YOU ARE HUNGRY'
+title: 'LBRY Creator @DadReviews Reviews Products From Dad Perspective; Is Reviewed By Dad In Turn'
 date: '2019-11-27 13:00:00'
 cover: 'dad-reviews.jpg'
 category: featured-content
 ---
-
-## LBRY Creator [@DadReviews](https://open.lbry.com/@DadReviews:6) Reviews Products From Dad Perspective; Is Reviewed By Dad In Turn
 
 Dads’ need to ask different things about their products. What happens when this is put into a mouth? Hit with a foam bat? Doused in orange juice?OK, so far as we can tell, none of these things actually happens in a (@DadReviews)[https://open.lbry.com/@DadReviews:6] video (editors note: they should) and this dad was mildly disappointed.
 
