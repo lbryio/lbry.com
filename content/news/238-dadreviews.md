@@ -10,7 +10,7 @@ Dads’ need to ask different things about their products. What happens when thi
 
 But then he stuck around and found that @DadReviews offers reliable, relatable, and straightforward reviews of a variety of household items.
 
-![Dad Reviews](https://spee.ch/@lbrynews:0/dadreviews.jpg)
+<a href="https://open.lbry.com/@DadReviews:6">![Dad Reviews](https://spee.ch/@lbrynews:0/dadreviews.jpg)</a>
 
 So if you’re considering a purchase, check if it’s reviewed on @DadReviews. What a great opportunity to use our new channel search!If you just want to check out some reviews, here are some good ones:
 
