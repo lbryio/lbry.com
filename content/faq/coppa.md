@@ -20,8 +20,8 @@ In the case of LBRY, all users must affirm they are of the valid legal age befor
 
 ## I am a YouTube creator concerned about COPPA changes. How can I get on to LBRY?
 
-LBRY has a YouTube partner program that offers rewards, syncs your content, and takes just a few clicks to enroll. Learn more here.
+LBRY has a YouTube partner program that offers rewards, syncs your content, and takes just a few clicks to enroll. [Learn more here](https://lbry.com/youtube).
 
 ## How can a creator tag content as child-friendly?
 
-We recommend using the tags “child friendy” and/or “family friendly” when publishing. Read more about how to publish.
+We recommend using the tags “child friendy” and/or “family friendly” when publishing. Read more about [how to publish](/faq/how-to-publish).
