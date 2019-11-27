@@ -6,7 +6,7 @@ cover: 'dad-reviews.jpg'
 category: featured-content
 ---
 
-Dads’ need to ask different things about their products. What happens when this is put into a mouth? Hit with a foam bat? Doused in orange juice?OK, so far as we can tell, none of these things actually happens in a (@DadReviews)[https://open.lbry.com/@DadReviews:6] video (editors note: they should) and this dad was mildly disappointed.
+Dads’ need to ask different things about their products. What happens when this is put into a mouth? Hit with a foam bat? Doused in orange juice?OK, so far as we can tell, none of these things actually happens in a [@DadReviews](https://open.lbry.com/@DadReviews:6) video (editors note: they should) and this dad was mildly disappointed.
 
 But then he stuck around and found that @DadReviews offers reliable, relatable, and straightforward reviews of a variety of household items.
 
