@@ -3,7 +3,7 @@ title: How do view and subscriber counts work?
 category: publisher
 order: 4
 ---
-Some LBRY applications provide view and subscriber counts, like LBRY Desktop/Web.
+Some LBRY applications and [lbry.tv](https://lbry.tv) provide view and subscriber counts, like LBRY Desktop/Web.
 
 ![views](https://spee.ch/6/views.png)
 
@@ -13,4 +13,4 @@ Instead, view and subscriber counts are currently provided by LBRY, Inc., not th
 
 Currently, users who opt-out of analytics (more on how to use [LBRY anonymously here](https://lbry.com/faq/privacy-and-data#anonymous)) are not counted in view or subscriber figures.
 
-In the future, LBRY will look to improve the accuracy of this feature as well as by adding it to the protocol itself (for example, by allowing wallet servers to share aggregated statistics and allowing subscriptions to occur via a special transaction). 
+In the future, LBRY will look to improve the accuracy of this feature as well as by adding it to the protocol itself (for example, by allowing wallet servers to share aggregated statistics and allowing subscriptions to occur via a special transaction).

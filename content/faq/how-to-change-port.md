@@ -14,7 +14,7 @@ Sample daemon_settings.yml (may vary by OS):
     download_directory: c:\users\lbry
     tcp_port: 3334
 
-## Other Methods
+## Other methods
 To change the port once during runtime, set the LBRY_PEER_PORT env variable. Here's one way to do this:
 
     LBRY_TCP_PORT=3334 ./lbrynet-daemon
@@ -26,5 +26,3 @@ Once the daemon is running, you can change the port permanently by using the fol
 or via cli command
 
     lbrynet settings_set --tcp_port 3334
-
-

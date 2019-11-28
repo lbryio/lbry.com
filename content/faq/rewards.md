@@ -7,11 +7,11 @@ To provide a rich user experience and to [distribute](/faq/credit-policy) LBRY C
 
 ![rewardslist](https://spee.ch/@clem:0/rewardslist.png)
 
-### Rewards Approval Requirements
+## Rewards approval requirements
 
 In order to be eligible for LBRY Rewards, users must have an approved account via [phone number](/faq/phone) or [credit card](/faq/identity-requirements) (there's also a manual approval method on [Discord](https://chat.lbry.com)). If users choose not to become approved for rewards, LBRY works with full functionality, but they will not be able to earn any free credits from LBRY.  **Rewards will only be granted on a 1 account per household basis and LBRY reserves the right to revoke Rewards privileges on any account if abuse is suspected or if VPN/shared connections are used.**
 
-### List of Current LBRY Rewards
+## List of current LBRY Rewards
 | Reward | Amount | Description |
 --- | --- | ---
 | **Your First Nickel** | 6 LBC | A one-time welcome gift for learning the basics of the application & wallet. Including the purchase of paid content.
@@ -32,12 +32,12 @@ Rewards are added to your LBC wallet balance as they are completed. All the rewa
 
 If you are new to Publishing, check out [our guide](/faq/how-to-publish).
 
-### Custom Reward Codes {#reward-code}
+## Custom reward codes {#reward-code}
 
 Custom reward codes can be claimed via the [Rewards](https://open.lbry.com/?rewards) page on LBRY. You may have been given a reward code via email, social media or you stumbled upon it somewhere - whichever way, you can claim it for LBC today! It's simple, just hit `Enter Code`, type it in and press `Redeem`.
 
 ![rewards](https://spee.ch/@clem:0/custom-code.png)
 
-### Having Trouble?
+## Having trouble?
 
 If you have any questions or problems with receiving the Rewards, feel free to [reach out to us](/faq/support).

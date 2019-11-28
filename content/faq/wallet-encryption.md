@@ -3,9 +3,9 @@ title: How do I encrypt my LBRY wallet?
 category: wallet
 ---
 
-**Note: Wallet encryption is currently unavailable until we implement password change scenarios through our ecosystem**
+**Note: Wallet encryption is currently unavailable until we implement password changes throughout our ecosystem**
 
-LBRY apps and lbry.tv rely on blockchain technology and the LBRY Credits (LBC) cryptocurrency in order to participate in the network. These LBC are stored in a wallet (data file on your PC) which is generated with each user's LBRY installation. Wallets contain your funds, channel data, and claims (any uploads). It is important to understand that the wallet is not stored on any LBRY servers and as such, users are responsible for its safeguarding through encryption and making sure [a backup (copy of the wallet file)](/faq/how-to-backup-wallet) is available in the event that it is lost or corrupted.
+LBRY apps and [lbry.tv](https://lbry.tv) rely on blockchain technology and the LBRY Credits (LBC) cryptocurrency in order to participate in the network. These LBC are stored in a wallet (data file on your PC) which is generated with each user's LBRY installation. Wallets contain your funds, channel data, and claims (any uploads). It is important to understand that the wallet is not stored on any LBRY servers and as such, users are responsible for its safeguarding through encryption and making sure [a backup (copy of the wallet file)](/faq/how-to-backup-wallet) is available in the event that it is lost or corrupted.
 
 Encryption is available from the Settings page of the LBRY and you will be required to enter your password upon app startup.
 

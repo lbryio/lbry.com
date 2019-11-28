@@ -4,15 +4,16 @@ category: bots
 order: 3
 ---
 
-## LBRY Reddit Tipbot Information
+## LBRY Reddit tipbot information
 
 Tips, in LBRY Credits (LBC), are an integral part of our community because they allow us to reward members for their contributions - whether that's for sharing something insightful, providing feedback, completing bounties, testing our various apps or helping promote LBRY's vision and technology. You can earn them, share, or transfer them via simple [commands on Reddit](https://np.reddit.com/r/lbry/wiki/tipbot).
 ![Reddit-tip](https://spee.ch/1/reddit-tip.png)
 
-It is important to note that the LBC stored as a result of a tip is tied to your Reddit account and are stored on LBRY's wallet server. It is your responsibility to withdraw the tips to your LBRY App or other wallet like Coinomi. If you plan on storing LBC on Reddit, it is a good idea to enable Two Factor Authentication (2FA) on your account. LBRY takes no responsibility for lost funds due to negligence.
+It is important to note that the LBC stored as a result of a tip is tied to your Reddit account and are stored on LBRY's wallet server. It is your responsibility to withdraw the tips to your LBRY app / [lbry.tv](https://lbry.tv) or other wallet like Coinomi. If you plan on storing LBC on Reddit, it is a good idea to enable Two Factor Authentication (2FA) on your account. LBRY takes no responsibility for lost funds due to negligence.
 
 Use the following commands to make amazing things happen.
 
+## Available commands
 ### Balance
 Displays the balance of your Reddit LBRY wallet. Performed via Reddit messaging.
 

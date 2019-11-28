@@ -1,5 +1,5 @@
 ---
-title: LBRY Android App Basics
+title: LBRY for Android basics
 category: getstarted
 order: 2
 ---
@@ -10,29 +10,29 @@ The app runs on top of the [LBRY protocol](/faq/what-is-lbry) which is a peer-to
 
 The purpose of this FAQ is to answer questions about some of the basic functionality available in the LBRY Android App. Please see our [other FAQ entries](/faq) for additional information.
 
-## Why Does LBRY Want My Email Address?
+## Why does LBRY want my email address?
 
 Emails are collected to authenticate a lbry.tv account and [uniquely identify](/faq/phone) users so that they can be eligible for [LBRY Rewards](#rewards), sync wallet data/preferences, and to stay up to date on the latest LBRY happenings.
 
 No other data is stored with your email login. All other data, including your [wallet](#wallet), [downloads](#data) and published content are stored [locally on your device](/faq/lbry-directories#android).  You will be asked to create a [password to secure your account](/faq/account_sync).
 
-## How Do I Change My LBRY Connected Email?
+## How do I change my LBRY connected email?
 
 If you ever need to change your LBRY Android App email address or sign out, please see [this guide](/faq/how-to-change-email#android). Clearing data or uninstalling leads to a loss of wallet if you don't have one synced.
 
-If you sign into a new email and need to transfer your wallet and verification status, you'll need to [reach out to us](mailto:help@lbry.com) in order to link your accounts. Please do not verify again to obtain rewards on a 2nd account; your Rewards account may be disabled for abuse.
+If you sign into a new email and need to transfer your wallet/verification status, you'll need to [reach out to us](mailto:help@lbry.com) in order to link your accounts. Please do not verify again to obtain rewards on a 2nd account; your Rewards account may be disabled for abuse.
 
-## Syncing of Accounts
+## Syncing of wallets and other data
 
 The Android app allow syncing of your account/wallet and secures it with a password. Please read the [sync FAQ](/faq/account_sync) in more detail to understand how this works.
 
-## What Are LBRY Rewards? {#rewards}
+## What are LBRY Rewards? {#rewards}
 
 [LBRY Rewards](/faq/rewards) are used to distribute LBRY Credits (LBC) to new and existing users by allowing them to explore app functions and complete tasks which generate LBC as an award.
 
 In order to be eligible for Rewards, you need to verify your identity [phone number](/faq/phone) or [chat](https://chat.lbry.com) which uniquely identifies you as an LBRY user.
 
-## What Is a Wallet And How Do I Find It? {#wallet}
+## What is a wallet And how do I find it? {#wallet}
 
 A wallet is a secure digital file used to store, send and receive cryptocurrencies like LBRY Credits (LBC).
 The LBRY Android App comes with its own wallet and is stored locally on your phone and nowhere else!
@@ -43,18 +43,18 @@ To find your wallet in the LBRY Android app, click on the 3 horizontal bars at t
 
 ![Find wallet](https://spee.ch/f/wallet-option.jpg)
 
-## Where Do I Find My LBC Wallet Address?
+## Where do I find my LBC wallet address?
 
 ![balance](https://spee.ch/e7f125b643e30f8bac2d8c4657bc14874a60e25e/WALLETADD1.jpg)
 
-## Where Do I Find my Recent Transactions
+## Where do I find my recent transactions
 Scroll down in the Wallet menu to find recent transactions, or click `View All` to see anything older than 7 days.
 
 ![Recent tx](https://spee.ch/daa89fcca6411ad2505cdc6e092fcaf4f22f4802/recent1.jpg)
 
 The LBRY wallet is different from other wallets - it also stores your shared content's metadata in the form of [claims](/faq/naming) when using the publishing features.
 
-## How do I Publish content? {#publish}
+## How do I publish content? {#publish}
 
 1. Tap on the 3 horizontal bars on the upper left side of the app next to the Search bar.
 
@@ -84,7 +84,7 @@ The LBRY wallet is different from other wallets - it also stores your shared con
 
 9. Next, there is `Show extra fields` which gives you an option to select language and license. Default language is set to `English`, and the License is set to `None`.  If a change is needed, click the dropdown menus and select the appropriate choice.
 
-*please review our terms of service before publishing [terms of service](/termsofservice)
+*please review our terms of service before publishing [terms of service](/termsofservice)*
 
 Click `Publish`.
 
@@ -93,11 +93,11 @@ The file will process in the background and will be added to the LBRY Blockchain
 
 Claim related [wallet transactions](/faq/transaction-types) ensure that the blockchain uniquely identifies your content and the payment/tips can be routed appropriately.
 
-## How Do I Claim Rewards In The Android App? {#rewards}
+## How do I claim Rewards in the Android app? {#rewards}
 
-You'll receive daily random rewards just for watching the videos you love! All you need to do is open your LBRY app and start watching. Comeback everyday for a different reward. For other rewards that can be claimed, see the Rewards page. 
+You'll receive daily random rewards just for watching the videos you love! All you need to do is open your LBRY app and start watching. Comeback everyday for a different reward. For other rewards that can be claimed, see the Rewards page.
 
-## How Do I Enable Background Media Playback? {#backgroundmediaplayback}
+## How do I enable background media playback? {#backgroundmediaplayback}
 
 When playing anything on the LBRY android app, it will stop playing when you minimize the app or switch to another application. Since we aren't YouTube and won't make you pay for subscription to enable background media playback, you can enable this feature in the app settings.
 
@@ -109,7 +109,7 @@ When playing anything on the LBRY android app, it will stop playing when you min
 Now you will be able to keep your media playing in the background without leaving the app open.
 *To disable this feature, please tap the option to enable background media player to change the status from green to grey.*
 
-## How Do I Stop The LBRY Service From Running In The Background? {#stoplbryservice}
+## How do I stop the LBRY service from running in the background? {#stoplbryservice}
 
 You might have noticed the LBRY icon in your notifications with the status, `LBRY service is running in the background`. We keep the app open in the background to stay up-to-date with the blockchain, which helps the app load contents faster as it arrives. In the future, you'll be able to support the LBRY network and earn hosting rewards, but for now, the hosting features are disabled.
 

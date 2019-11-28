@@ -4,11 +4,11 @@ category: bots
 order: 2
 ---
 
-## LBRY Discord Tipbot Information
+## LBRY Discord tipbot information
 
 Tips, in LBRY Credits (LBC), are an integral part of our community because they allow us to reward members for their contributions - whether that's for sharing something insightful, providing feedback, completing bounties, testing our various apps or helping promote LBRY's vision and technology. You can earn them, share, or transfer them via simple commands on the Discord server by interacting with the tipbot.
 
-It is important to note that the LBC stored as a result of a tip is tied to your Discord account username and are stored on LBRY's wallet server. **This will not sync with your app wallet.** It is your responsibility to withdraw the tips to your LBRY app or to another third-party wallet like [Coinomi](https://play.google.com/store/apps/details?id=com.coinomi.wallet). If you plan on storing LBC on the Discord server, it is a good idea to enable Two Factor Authentication (2FA) on your account. LBRY takes no responsibility for lost funds due to negligence.
+It is important to note that the LBC stored as a result of a tip is tied to your Discord account username and are stored on LBRY's wallet server. **This will not sync with your app/lbry.tv wallet.** It is your responsibility to withdraw the tips to your own wallet or to another third-party wallet like [Coinomi](https://play.google.com/store/apps/details?id=com.coinomi.wallet). If you plan on storing LBC on the Discord server, it is a good idea to enable Two Factor Authentication (2FA) on your account. LBRY takes no responsibility for lost funds due to negligence.
 
 Use the following commands to make amazing things happen. We recommend running them in the `#bot-sandbox` channel, unless you are tipping someone!
 
@@ -30,7 +30,7 @@ Displays your Discord LBC wallet address. Useful if you want to receive LBCs dir
 **Example:** `!tip deposit`
 
 ### Withdraw
-Use this to withdraw a chosen amount from your LBC Discord wallet to another LBC wallet such as the wallet in your LBRY app, Coinomi or to an LBC wallet on an exchange.
+Use this to withdraw a chosen amount from your LBC Discord wallet to another LBC wallet such as the wallet in LBRY, Coinomi or to an LBC wallet on an exchange.
 
 - **Arguments:** `!tip withdraw <address> <amount>`
 - **Example:** `!tip withdraw bQ8N2xbbityGNyiijaUtZVHkN3KZys2ci 10`

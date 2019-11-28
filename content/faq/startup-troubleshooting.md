@@ -1,5 +1,5 @@
 ---
-title: LBRY Startup Troubleshooting
+title: LBRY startup troubleshooting
 category: troubleshooting
 order: 1
 ---
@@ -10,14 +10,14 @@ The first area to check for start-up issues is the [LBRY log file](/faq/how-to-f
 
 If you are having issues syncing or displaying your balance correctly, please see [Stuck at blockchain sync](#sync).
 
-### Connectivity and ports
+## Connectivity and ports
 LBRY operates on a couple of different ports, and if there are conflicts/firewall rules/security settings that prevent them from being utilized, the app/daemon will experience start-up issues. LBRY tries to employ port forwarding through the use of UPnP, which may be disabled on some routers. Either UPnP must be enabled, or you have to manually forward the ports below (3333 TCP and 4444 UDP) in order to fully take advantage of the LBRY network. Only 1 PC on a network can have an open outside port, so if you are running multiple PCs with LBRY, they will need to be configured manually.
 
 - Port 3333 - LBRY daemon runs and shares data on port 3333 (TCP) by default. Often times, this port can be already in use to due to mining software or other applications/services.
 - Port 4444 - LBRY daemon utilizes port 4444 to stream and download data from the LBRY network.
 - Port 50001 - LBRY wallet connections happen over port 50001. LBRY may fail to start if this port is blocked by a firewall or network rules.
 
-### This is my first time running LBRY, and it won't start
+## This is my first time running LBRY, and it won't start
 - If don't see the LBRY app starting up at all on Windows, run LBRY.exe with CMD (command prompt) to further debug the problem. Navigate to the installation path e.g. `C:\Program Files\LBRY` for x64 and `C:\Program Files (x86)\LBRY` for x86, type `LBRY.exe` and hit enter for the app to launch. This will show any errors the app has starting up. The most common issue [is related to incorrect Windows environment variables](https://superuser.com/questions/1178674/wmic-is-not-recognized-as-an-internal-or-external-command-operable-program-or/1178758).
 - Windows users who have trouble starting up the [SDK manually](https://lbry.com/faq/how-to-run-lbry), you may need to reinstall [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/en-US/download/details.aspx?id=48145)
 - Port 3333 already in use. This issue would reveal itself in the log file. You can see how to change this port [here](/faq/how-to-change-port). If the port is properly forwarding, you are able to successfully see port 3333 open on this [port checker tool](http://www.canyouseeme.org).
@@ -25,7 +25,7 @@ LBRY operates on a couple of different ports, and if there are conflicts/firewal
 - On Linux, LBRY may fail to start (home page won't load or missing authentication token in Help) because of missing authentication capability. Please see [GitHub issue](https://github.com/lbryio/lbry-desktop/issues/386) or a possible workaround below.
 - On Mac, LBRY may fail to start if your MacOS version is too old - only 10.12.4 (Sierra) and higher supported.
 
-### LBRY used to work previously, but now it won't start
+## LBRY used to work previously, but now it won't start
 First and foremost, please ensure you are on the [latest version](/get) of LBRY. Reinstalling the latest version may alleviate some start-up issues. Before installing, either make sure there are no running LBRY/lbrynet processes or simply reboot your computer.
 
 - Try clearing your blockchain data and headers in the [lbryum/lbc_mainnet folder](/faq/lbry-directories)
@@ -36,18 +36,18 @@ First and foremost, please ensure you are on the [latest version](/get) of LBRY.
 - On older Linux/Mac installs you may see `Cannot read property 'match' of undefined`. Install the [latest version](/get) to fix this.
 - Other typical startup troubleshooting would be to ensure that the LBRY app or the lbrynet process is not already running in the background. If the processes cannot be killed, a restart of your computer may be required.
 
-### Known startup issues and workarounds
-#### Stuck at blockchain sync or wallet issues {#sync}
+## Known startup issues and workarounds
+### Stuck at blockchain sync or wallet issues {#sync}
 If you are stuck on the blockchain sync step or it shows a block count that doesn't decrease, you may need to clear your blockchain headers and/or synced data. To do so, Shut LBRY down completely by closing it from the system tray (check for running LBRY/lbrynet-daemon processes), delete the `headers` and `blockchain.db` files in the [lbryum/lbc_mainnet folder](/faq/lbry-directories) and then start LBRY again.
 
-#### Linux auth_token requirements {#auth}
+### Linux auth_token requirements {#auth}
 Currently, LBRY requires an authorization token to be generated using the [keytar](https://github.com/atom/node-keytar) libraries. Please ensure libsecret and keytar are installed. On some distributions, LBRY won't run unless gnome-keyring is also installed/operational. See [GitHub issue](https://github.com/lbryio/lbry-desktop/issues/386) for more information. If you get a GLIBCXX_3.4.2 error, please see [this issue](https://github.com/lbryio/lbry-desktop/issues/423#issuecomment-327519486).
 
-#### SDK could not start because port is in use (IPV6 / debian)
+### SDK could not start because port is in use (IPV6 / debian)
 If the newly installed or re-installed LBRY has the start up issue with daemon being in use, check the .local/share/lbry/lbrynet folder for `daemon_settings.yml` file.
 If the file doesn't exist, create one and settings inside should be:
 
     api: 127.0.0.1:5279
     streaming_server: 127.0.0.1:5280
 
-Alternatively, you can start the sdk with `lbrynet start --api=127.0.0.1:5279`
+Alternatively, you can start the sdk with `lbrynet start --api=127.0.0.1:5279 --streaming-server=127.0.0.1:5280`

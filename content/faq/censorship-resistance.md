@@ -17,7 +17,7 @@ We believe LBRY to be the most censorship-resistant system to ever exist for the
 
 To understand where LBRY’s censorship resistance comes from, we need to break the problem down into two areas: data (the digital content) and metadata (information about the digital content, such as it’s title or publisher).
 
-In the case of the data itself, LBRY is as or more censorship-resistant as BitTorrent or other peer-to-peer networks. Like these other networks, when you publish a file, it ends up being hosted by dozens, hundreds, or thousands of other computers, depending on its popularity. Additionally, there are economic incentives to host content that is popular but undersupplied, which means that LBRY is even better than its predecessors, which were already world leaders in the censorship-resistance department. 
+In the case of the data itself, LBRY is as or more censorship-resistant as BitTorrent or other peer-to-peer networks. Like these other networks, when you publish a file, it ends up being hosted by dozens, hundreds, or thousands of other computers, depending on its popularity. Additionally, there are economic incentives to host content that is popular but undersupplied, which means that LBRY is even better than its predecessors, which were already world leaders in the censorship-resistance department.
 
 In the case of the metadata, LBRY is truly novel. Previous peer-to-peer systems had decent censorship-resistance at the data level, but never the metadata. LBRY writes it’s metadata to a public blockchain, the same technology that powers the censorship-resistant Bitcoin. Metadata in the LBRY blockchain cannot be altered without a hard-fork of the network, which is an expensive and unlikely proposition. Even if this happened, it would be possible to roll-back the system to it’s last previously good state, resulting in only a temporary rather than permanent data loss.
 
@@ -33,4 +33,4 @@ Censorship-resistance matters because there are many people in the world who wou
 
 Prosperity and freedom starts with the ability for people to communicate freely with one another. The ability to censor is the ability to control the narrative and spread propaganda.
 
-For the purposes of discovering truth and fighting injustice, censorship-resistance is absolutely vital. 
+For the purposes of discovering truth and fighting injustice, censorship-resistance is absolutely vital.
