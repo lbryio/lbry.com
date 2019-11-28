@@ -1,5 +1,5 @@
 ﻿---
-title: Acceptable Use policy
+title: Acceptable Use Policy
 category: other
 ---
 
