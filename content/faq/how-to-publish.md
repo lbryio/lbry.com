@@ -1,5 +1,5 @@
 ---
-title: How do I publish content to LBRY?
+title: How do I Publish Content to LBRY?
 category: publisher
 order: 1
 ---
