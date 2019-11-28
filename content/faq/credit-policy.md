@@ -7,7 +7,7 @@ LBRY, Inc. controls a significant number of LBRY credits (LBC). At the inception
 
 This document outlines LBRY, Inc. policies, disclosures and intentions in administering those credits. Its purpose is to ensure we operate forthrightly and in the best interests of the LBRY community.
 
-## Credit Overview
+## Credit overview
 
 The initial 400m credits are broken down as follows:
 
@@ -17,13 +17,13 @@ The initial 400m credits are broken down as follows:
 | Operational | 100m | To allow LBRY, Inc. to function and profit. | [link](https://explorer.lbry.com/address/rTZF9RvfkLJ6hwCwERwFd7dppRMeddKjpe) |[link](https://explorer.lbry.com/address/r9PGXsejVJb9ZfMf3QVdDEJCzxkd9JLxzL) |
 | Institutional | 100m | For strategic partnerships or assistance with charities, non-profits, or other institutions. | [link](https://explorer.lbry.com/address/rVRMmGLZenVXpT1NwYMGcnwFc642kEgWTV) | [link](https://explorer.lbry.com/address/r9srwX7DEN7Mex3a8oR1mKSqQmLBizoJvi) |
 
-## Quarterly Reports
+## Quarterly reports
 
 LBRY issues a quarterly report every 3 months in January, April, July, and October, covering the preceding 3 full months. These reports outline the corresponding transaction history as the current state of LBRY, Inc.'s balance sheet and anticipated future expenditures.
 
 The full list of these reports can be seen on [the credit reports page](/credit-reports).
 
-## Community Fund
+## Community fund
 
 The Community Fund is 200m LBC reserved for spreading usage and adoption of the LBRY protocol. The more people that use and love LBRY, the stronger the LBRY network is.
 
@@ -36,7 +36,7 @@ At a high-level, this fund will be used for the following purposes:
 
 We expect a dispersal of this fund lasting a period a minimum of 5 years and likely closer to 10.
 
-## Operational Fund
+## Operational fund
 
 The Operational Fund is 100m LBC reserved for LBRY, Inc. itself.
 
@@ -48,7 +48,7 @@ Minimal engagement in the market is especially necessary throughout stages of lo
 
 Should LBRY make placements from this fund, it will seek long-term engagements and commitments that align interests with LBRY, Inc. and minimize market influence.
 
-## Institutional Fund
+## Institutional fund
 
 The Institutional Fund is 100m LBC reserved for the formation of institutional partnerships, and for grants, donations, and other ways of strengthening relationships with organizations of need or like-mindedness.
 
@@ -62,6 +62,6 @@ Sample usages of this fund include:
 
 LBRY, Inc. anticipates a dispersion period for these tokens significantly exceeding the administration of the community fund. It has no plans to utilize these credits until achieving more community growth and drafting specific programs for participation.
 
-## More Details
+## More details
 
 For specific details of fund utilization, check the most recent [quarterly report](/credit-reports).

@@ -1,5 +1,5 @@
 ---
-title: How do I use the LBRY Command Line Interface (CLI) tool?
+title: How do I use the LBRY command line interface (CLI) tool?
 category: powerusers
 ---
 
@@ -23,10 +23,9 @@ As a power user, you may want to run your own commands against the LBRY SDK. Thi
 3. Type `./lbrynet status`  and click **Enter**. This will return the LBRYnet status data
 4. See examples below or [LBRY SDK documentation](https://lbry.tech/api/sdk) for additional commands
 
-## Common/Sample Commands
-- `lbrynet claim_list_mine` - Show list of own claims, including channels
-- `lbrynet claim_new_support --name=@channel --claim_id=<claimid> --amount=5` - add 5 LBC to a claim or channel
+## Common/sample commands
+- `lbrynet claim list` - Show list of own claims, including channels
+- `lbrynet support create --claim_id=<claimid> --amount=5.0` - add 5 LBC to a claim or channel
 - `lbrynet resolve one` - Retrieve information about winning claim at lbry://one
-- `lbrynet claim_list one` - Retrieve information about all claims at lbry://one
-- `lbrynet claim_abandon --claim_id=<claimid>` - Abandon claim by claim id (from claim info)
-- `lbrynet claim_abandon --txid=<txid> --nout=<nout>` - Abandon claim by transaction id and nout (from claim info)
+- `lbrynet claim search one` - Retrieve information about all claims at lbry://one
+- `lbrynet stream abandon --claim_id=<claimid>` - Abandon stream claim by claim id (from claim info)

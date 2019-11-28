@@ -4,18 +4,18 @@ category: mining
 order: 1
 ---
 
-## What is Mining?
+## What is mining?
 
 Mining is a process where computing power is used to verify transactions on the LBRY network and add them to the public ledger (LBRY blockchain). It is also a process of how additional new LBRY credits (LBC) are created as a reward for the successful miners (see details below). The process uses the mining software to calculate complex mathematical puzzles in order to secure the transactions.
 Both CPU and GPU hardware can be used for mining, but the current market is dominated by GPU and ASIC mining. LBRY uses a mix of SHA512, SHA256 and RIPEMD hash functions in its algorithm. To put it in the most simple terms: mining enables secure and fast LBC transactions.
 
-## Only Trust the Source
+## Only trust the source
 
 The source code, and not this file, is the only true definition of the block rewards. That source file is located here in [`master`]:
 
 [https://github.com/lbryio/lbrycrd/blob/master/src/validation.cpp](https://github.com/lbryio/lbrycrd/blob/master/src/validation.cpp#L1025)
 
-## Mining Reward Schedule
+## Mining reward schedule
 
 Eventually 1,083,202,000<sup>1</sup> LBRY credits will exist.
 
@@ -38,5 +38,4 @@ They are awarded on the following schedule:
 * To see the current block reward, visit the [LBRY Blockchain Explorer](https://explorer.lbry.com) and explore the latest block details.
 
 ## Where can I see this visually?
-The [Stats page on the Explorer](https://explorer.lbry.com/stats) has this information, including inflation rates and emission schedule. It can be exported to CSV. 
-
+The [Stats page on the Explorer](https://explorer.lbry.com/stats) has this information, including inflation rates and emission schedule. It can be exported to CSV.

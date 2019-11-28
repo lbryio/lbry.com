@@ -3,15 +3,15 @@ title: How do I get help or report a bug?
 category: troubleshooting
 ---
 
-### Live Help
+### Live help
 
 For live help, you can join [our chat](https://chat.lbry.com) and post in the #help channel. Please share a detailed message with the issue you are experiencing. LBRY log files are a good source of information for us; you can learn how to [find them here](/faq/how-to-find-lbry-log-file).
 
-## Help via Email
+## Help via email
 
 You can also [email LBRY](mailto:help@lbry.com) with questions or issues. LBRY log files will help us better understand the issue you are experiencing, you can learn how to [find them here](/faq/how-to-find-lbry-log-file) and attach with your email.
 
-### Reporting Issues
+## Reporting issues
 
 To report an issue, you can do one of the following:
 

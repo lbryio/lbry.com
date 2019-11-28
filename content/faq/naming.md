@@ -4,13 +4,13 @@ category: LBRY 101
 order: 4
 ---
 
-## The Problem
+## The problem
 
 Before talking about how names (URLs) in LBRY work, it's important to understand the problem. What is a naming system and why do we have one?
 
 Names exist so that we can map a human readable and understandable word or term to a more difficult to remember number or ID. In the traditional DNS (domain name system), names are mapped to a numerical IP address. In LBRY, names are mapped to a unique, permanent ID representing a piece of digital content and/or a publisher identity.
 
-Designing a naming system that works well and fairly assigns names is quite hard! Consider the domain system you are likely using to access this document. LBRY's domain used to be lbry.io for a long time, rather than lbry.com. Is it because lbry.com is providing some unique service? No! It is because a squatter was in possession of it, simply looking to auction the domain name to the highest bidder in demand. We had to negotiate for months (and pay lots of $$$) to get in possesion of the lbry.com domain and we don't want LBRY users to go through a similar experience...we'd rather leave it up to incentives and fixed protocol rules.  
+Designing a naming system that works well and fairly assigns names is quite hard! Consider the domain system you are likely using to access this document. LBRY's domain used to be lbry.io for a long time, rather than lbry.com. Is it because lbry.com is providing some unique service? No! It is because a squatter was in possession of it, simply looking to auction the domain name to the highest bidder in demand. We had to negotiate for months (and pay lots of $$$) to get in possession of the lbry.com domain and we don't want LBRY users to go through a similar experience...we'd rather leave it up to incentives and fixed protocol rules.  
 
 The traditional system has several other flaws. It is centralized and a mechanism of censorship, as holders do not have true ownership of their domain, only the top-level provider. Top-level domains (like .io) are also arbitrary and largely illogical (if designing the domain name system again, would we really want to add an arbitrary ".com" to the most prestigious URL for a given keyword? does LBRY have anything to do with the *I*ndian *O*cean?). Finally, in addition to incentivizing bad behavior, the flat-fee structure of domains prevents the good behavior from those who are priced out.
 
@@ -65,6 +65,6 @@ The bottom line is that LBRY is dedicated to providing true content freedom. We 
 
 We're trying to solve a very hard problem in a novel way, and we're committed to giving this system a chance. 1,000,000 pieces of content in, it has worked seamlessly. But if we ever saw this system harming rather than helping, we wouldn't hesitate to change it.
 
-## Relevance in Search and Trending/Top Categories
+## Relevance in search and trending/top categories
 
-Increasing your bid and receiving tips on your content/channel, increases it's relevance in search results and discoverability through the Trending and Top categories in the LBRY app (Starting in version 0.34). Trending calculations are based on how much the LBC bid has increased through any bid updates and tips, compared to all the other claims on LBRY. Top will display  a highest bid first view of the content under a certain tag (or for Everyone). 
+Increasing your bid and receiving tips on your content/channel, increases it's relevance in search results and discoverability through the Trending and Top categories on LBRY. Trending calculations are based on how much the LBC bid has increased through any bid updates and tips, compared to all the other claims on LBRY. [Learn more](/faq/trending).

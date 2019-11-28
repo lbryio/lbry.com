@@ -3,7 +3,7 @@ title: Why does the app ask for my credit card?
 category: other
 ---
 
-### Why We Ask
+## Why we ask
 
 LBRY controls [millions of credits](/faq/credit-policy) that it wants to get into the hands of content creators and content consumers.
 
@@ -17,7 +17,7 @@ This and only this, is the reason we require a credit card to participate in the
 
 Your card information is submitted directly to [Stripe](https://stripe.com), one of the largest credit card processors in the world.
 
-### What If I Don't Want To Provide It?
+## What if I don't want to provide it?
 
 No problem! We've added two other rewards approval methods - [Phone ](/faq/phone) and manual rewards approval via [Discord chat](https://chat.lbry.com). To apply for rewards approval, see the #rewardsapproval channel to start your request. **Note: DO NOT message any team members or post in other channels about reward approval concerns. Rewards will only be granted on a 1 account per household basis**
 
