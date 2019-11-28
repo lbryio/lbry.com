@@ -1,5 +1,5 @@
 ---
-title: Multisignature and Ledger hardware wallets
+title: Multisignature and Ledger Hardware Wallets
 category: powerusers
 ---
 
