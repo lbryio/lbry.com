@@ -1,5 +1,5 @@
 ---
-title: Discovery and trending on LBRY
+title: Discovery and Trending on LBRY
 category: getstarted
 order: 2
 ---
