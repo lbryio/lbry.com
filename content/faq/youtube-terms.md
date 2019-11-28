@@ -1,5 +1,5 @@
 ---
-title: YouTube Sync terms
+title: YouTube Sync Terms
 category: publisher
 order: 6
 ---
