@@ -1,5 +1,5 @@
 ---
-title: LBRY startup troubleshooting
+title: LBRY Startup Troubleshooting
 category: troubleshooting
 order: 1
 ---
