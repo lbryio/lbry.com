@@ -218,18 +218,18 @@
 
   <section>
     <div class="inner-wrap">
-      <h3>Let's connect</h3>
-      <p>If you have any questions, reach out.</p>
+      <h3>Human Available</h3>
+      <p>Questions, problems, or feedback? A real human is available.</p>
 
       <div class="v-card">
         <figure>
-          <img alt="Brinck Slattery, Director of Communications" src="https://spee.ch/@Memes:26/brinck-slattery1.png"/>
+          <img alt="Tom Zarebczan, Community Leader" src="https://spee.ch/@lbryteam:6/tom-zarebczan.jpg"/>
         </figure>
 
         <info>
-          <h3>Brinck Slattery</h3>
-          <p>Director of Communications</p>
-          <a href="mailto:brinck@lbry.com?subject=YouTube+Freedom">Contact</a>
+          <h3>Tom Zarebczan</h3>
+          <p>Community Leader</p>
+          <a href="mailto:tom@lbry.com?subject=YouTube+Freedom">tom@lbry.com</a>
         </info>
       </div>
     </div>

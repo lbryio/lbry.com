@@ -58,8 +58,8 @@
 
           <li class="<?php echo $isRewardClaimed && $isSyncAgreed ? "" : "disabled" ?>">
             <span><?php echo $isRewardClaimed ? "✓" : "·" ?></span>
-            <p>Transfer your content and redeem Rewards</p>
-            <p <?php echo ($isSyncAgreed === true && ($isRewardClaimed === false || $isTransferred === false)) ? "" : "hidden" ?>>(<a href="/get">Download the app</a> and <a href="/faq/youtube">follow these instructions</a>)</p>
+            <p>Claim wallet and rewards</p>
+            <p <?php echo ($isSyncAgreed === true && ($isRewardClaimed === false || $isTransferred === false)) ? "" : "hidden" ?>>(<a href="https://lbry.tv">Sign in to lbry.tv</a> or <a href="/get">get the app</a>)</p>
           </li>
         </ul>
 
@@ -197,7 +197,17 @@
 
       <br/><br/>
 
-      <p>Once your content is synced on LBRY, we can transfer control directly to your LBRY account. Please see the <a href="/faq/youtube" title="YouTube FAQ">YouTube FAQ</a> for more details.</p>
+      <?php if ($isSyncAgreed && !$isRewardClaimed && in_array($statusData['status'], ['queued', 'syncing', 'synced', 'finalized'])): ?>
+        <fieldset>
+            <legend>Claim wallet and rewards</legend>
+            <p>Just one step left! Take permanent ownership of your channel and receive your rewards by signing in:</p>
+            <ul>
+              <li><a href="https://lbry.tv">On the web</a></li>
+              <li><a href="https://lbry.com/get">Desktop and mobile apps</a></li>
+            </ul>
+        </fieldset>
+      <?php endif ?>
+        <p>Have questions, problems, or feedback? Check out the <a href="/faq/youtube" title="YouTube FAQ">YouTube FAQ</a> or send us an <a href="mailto:hello@lbry.com">email</a>.</p>
     </div>
   </section>
 </main>
