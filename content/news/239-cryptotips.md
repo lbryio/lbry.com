@@ -1,14 +1,12 @@
 ---
 author: samuel-lbryian
-title: 'Crypto Lemons'
+title: '[Crypto Tips](http://open.lbry.com/@Crypto-Tips) resolves decades old Nobel economics puzzle and/or just makes some honest crypto videos, we’re not sure.'
 date: '2019-12-04 13:00:00'
 cover: '2019-1204cryptotips.jpg'
 category: featured-content
 ---
 
 ![cryptotips](https://spee.ch/@lbrynews:0/cryptotips.jpg)
-
-[Crypto Tips](http://open.lbry.com/@Crypto-Tips) resolves decades old Nobel economics puzzle and/or just makes some honest crypto videos, we’re not sure.
 
 I DO NOT PARTICIPATE IN PAID REVIEWS OR PROMOTIONS<br />
 I DO NOT PARTICIPATE IN PAID REVIEWS OR PROMOTIONS<br />
