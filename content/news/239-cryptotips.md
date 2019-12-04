@@ -1,6 +1,6 @@
 ---
 author: samuel-lbryian
-title: '[Crypto Tips](http://open.lbry.com/@Crypto-Tips) resolves decades old Nobel economics puzzle and/or just makes some honest crypto videos, we’re not sure.'
+title: 'Crypto Tips resolves decades old Nobel economics puzzle and/or just makes some honest crypto videos, we’re not sure.'
 date: '2019-12-04 13:00:00'
 cover: '2019-1204cryptotips.jpg'
 category: featured-content
