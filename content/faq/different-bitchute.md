@@ -1,5 +1,5 @@
 ---
-title: # FAQ: How Is LBRY Different From “Decentralized” Websites, like Bitchute or DTube?
+title: FAQ: How Is LBRY Different From “Decentralized” Websites, like BitChute or DTube?
 category: differences
 ---
 
