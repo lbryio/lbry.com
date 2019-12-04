@@ -27,5 +27,5 @@ Additionally, a single point of censorship means those around the world who woul
 In the case of LBRY:
 
 - You can access and use LBRY in a truly decentralized, peer-to-peer way. Via [LBRY Desktop](https://lbry.com/get), anyone in the world can access the LBRY network without relying on LBRY Inc. servers or machinery.
-- If LBRY ever turns evil, all code is open-source and the who remain can run their own version with minimal effort. Hundreds of people have contributed to LBRY, the vast majority as volunteers.
-- *Anyone in the world* can run their own version of lbry.tv or make their own LBRY app, completely independently from us and without our permission.
+- If LBRY ever turns evil, all code is open-source and anyone in the world (okay, mainly nerds) could develop and release their own version with minimal effort. Hundreds of people have contributed to LBRY, the vast majority as volunteers.
+- *Anyone in the world* can run their own version of lbry.tv or make their own LBRY app, completely separate from us and without our permission.
