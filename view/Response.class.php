@@ -249,8 +249,8 @@ class Response
     public static function setDefaultSecurityHeaders()
     {
         $defaultHeaders = [
-      'Content-Security-Policy' => "frame-ancestors 'none'",
-      'X-Frame-Options'         => 'DENY',
+      //'Content-Security-Policy' => "frame-ancestors 'none'",
+      //'X-Frame-Options'         => 'DENY',
       'X-XSS-Protection'        => '1',
     ];
 
