@@ -41,9 +41,13 @@
     <?php endif ?>
 
     <meta property="og:description" content="<?php echo Response::getMetaDescription() ?>"/>
-    <?php foreach ($images as $image): ?>
+    <?php if ($images): ?>
+      <?php foreach ($images as $image): ?>
         <meta property="og:image" content="<?php echo $image ?>"/>
-    <?php endforeach ?>
+      <?php endforeach ?>
+      <?php $url = reset($images) ?>
+      <meta name="twitter:image" content="<?php echo $url ?>" />
+    <?php endif ?>
     <meta property="og:site_name" content="LBRY"/>
     <meta property="og:title" content="<?php echo $title ?>"/>
     <meta property="og:type" content="article"/>
@@ -57,10 +61,6 @@
     <meta name="twitter:creator" content="@lbryio"/>
     <meta name="twitter:description" content="<?php echo Response::getMetaDescription() ?>"/>
     <meta name="twitter:title" content="<?php echo $title ?>" />
-    <?php if ($images): ?>
-        <?php $url = reset($images) ?>
-        <meta name="twitter:image" content="<?php echo $url ?>" />
-    <?php endif ?>
 
     <?php if (in_array($_SERVER['REQUEST_URI'], ['/android', '/get'])): ?>
       <meta name="twitter:card" content="app"/>

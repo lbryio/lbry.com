@@ -4,9 +4,15 @@
   Response::addJsAsset('/js/yt2/FormValidation.js');
   Response::addJsAsset('/js/yt2/SyncStatus.js');
   Response::addJsAsset('/js/yt2/youtube_video.js');
-  Response::setMetaTitle("LBRY YouTube Partner Program");
-  Response::setMetaDescription("Put your content on the blockchain, experience true content freedom, and earn rewards.");
-  Response::addMetaImage(Request::getHostAndProto() . '/img/lbry-partner.png');
+  if (in_array($_SERVER['REQUEST_URI'], ['/escapeyoutube'])) {
+    Response::setMetaTitle("Escape YouTube");
+    Response::setMetaDescription("Put your content on the LBRY blockchain before it's too late");
+    Response::addMetaImage('https://spee.ch/6/18OanRVGL6mQIMtj93Hb09te.jpeg');
+  } else {
+    Response::setMetaTitle("LBRY YouTube Partner Program");
+    Response::setMetaDescription("Put your content on the blockchain, experience true content freedom, and earn rewards.");
+    Response::addMetaImage(Request::getHostAndProto() . '/img/lbry-partner.png');
+  }
 ?>
 
 <main class="ancillary youtube youtube--landing">
