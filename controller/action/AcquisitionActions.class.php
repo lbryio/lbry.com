@@ -20,7 +20,12 @@ class AcquisitionActions extends Actions
         ]];
     }
 
-    public static function executeYouTube(string $version = '')
+    public static function executeYouTubeIframe()
+    {
+      return ['acquisition/youtubeiframe', ['_no_layout' => true]];
+    }
+
+  public static function executeYouTube(string $version = '')
     {
         $errorMessage = Request::getParam('error_message', '');
 

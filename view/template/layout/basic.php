@@ -68,6 +68,13 @@
       <meta name="twitter:app:name:googleplay" content="LBRY beta"/>
       <meta name="twitter:app:id:googleplay" content="io.lbry.browser"/>
       <meta name="twitter:app:url:googleplay" content="https://play.google.com/store/apps/details?id=io.lbry.browser"/>
+    <?php elseif (in_array($_SERVER['REQUEST_URI'], ['/escapeyoutube'])): ?>
+      <meta name="twitter:card" content="player">
+      <meta name="twitter:player" content="https://lbry.com/escapeyoutubeiframe" />
+      <meta name="twitter:player:width" content="640" />
+      <meta name="twitter:player:height" content="360" />
+      <meta name="twitter:player:stream" content="https://api.lbry.tv/content/claims/escapeyoutube/8e0a6c66760bdcb80b296ca2e64f1832346244b8/stream" />
+      <meta name="twitter:player:stream:content_type" content="video/mp4" />
     <?php else: ?>
       <meta name="twitter:card" content="summary_large_image">
     <?php endif ?>
