@@ -2,7 +2,7 @@
 author: samuel-lbryian
 title: 'Hello! Hola! Merhaba! LBRY Eclipse for Android Brings Internationalization and More'
 date: '2019-12-13 13:13:13'
-cover: 'doppler.jpg'
+cover: 'eclipse1flip.jpg'
 category: update
 ---
 
@@ -13,7 +13,7 @@ Today, LBRY releases LBRY Eclipse, the premier mobile app for the LBRY network.
 
 The biggest change with Eclipse is an introduction for multi-language support. At launch, it comes with support for 12 languages, listed below.
 
-![Eclipse](https://fillmeintom.com)
+![Eclipse](https://spee.ch/@lbrynews:0/android-eclipse.png)
 
 Notifications will be slowly rolled out and turned on in the coming weeks, but as an initial test of the system, everyone will be sent a notification with a special code over the next 24 hours. So make sure you’re up to date!
 
