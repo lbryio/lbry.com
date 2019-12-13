@@ -53,3 +53,5 @@ This work would not have been possible without a huge effort from the LBRY commu
 Every language listed above was translated by a LBRY volunteer. An amazing contribution from this group!
 
 Want to meet these heroes or add another language? Come hang out with us in [chat](https://chat.lbry.com) (note you'll need a moderator to add you to the translation group).
+
+While it lasts, grab some LBC with reward code `totaleclipsefun`!
