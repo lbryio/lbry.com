@@ -11,15 +11,13 @@ Today, LBRY releases LBRY Eclipse, the premier mobile app for the LBRY network.
 
 [Download from Play Store](https://play.google.com/store/apps/details?id=io.lbry.browser) or [direct download](http://lbry.com/releases/lbry-android.apk).
 
-The biggest change with Eclipse is an introduction for multi-language support. At launch, it comes with support for 12 languages, listed below.
+The biggest change with Eclipse is an introduction for multi-language support. At launch, it comes with support for 10 languages, listed below.
 
 ![Eclipse](https://spee.ch/@lbrynews:0/android-eclipse.png)
 
-Notifications will be slowly rolled out and turned on in the coming weeks, but as an initial test of the system, everyone will be sent a notification with a special code over the next 24 hours. So make sure you’re up to date!
-
 ### More about LBRY Eclipse
 
-- Adds support for more than one dozen languages, listed below.
+- Adds support for ten languages, listed below. More coming soon!
 - Auto-rendering and improved display of images and text.
 - Improves internal routing to expand possible notifications.
 - Faster page load speed. 
@@ -33,24 +31,22 @@ Notifications will be slowly rolled out and turned on in the coming weeks, but a
 
 For the full release notes, visit [GitHub](https://github.com/lbryio/lbry-android/releases/tag/0.12.0). Note that Eclipse also contains improvements from release 0.11.1, which was not a named release.
 
-### Full Language List
+### Full language list
 
 - English
-- Arabic
 - Gujarati
 - Hindi
 - Indonesian
 - Italian
 - Malay
-- Marathi
-- Panjabi
 - Polish
 - Portuguese
-- Serbian 
 - Spanish
 - Turkish
 
-### All Hail the LBRY Community
+More to come in the next release!
+
+### All hail the LBRY Community
 
 This work would not have been possible without a huge effort from the LBRY community.
 
