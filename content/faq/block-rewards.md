@@ -1,5 +1,5 @@
 ---
-title: What is Mining and what are the LBRY Block Rewards?
+title: What is mining and what are the LBRY block rewards?
 category: mining
 order: 1
 ---

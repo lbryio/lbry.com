@@ -1,5 +1,5 @@
 ---
-title: Searching for Content
+title: Searching for content
 category: tutorial
 order: 2
 ---

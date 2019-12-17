@@ -1,5 +1,5 @@
 ---
-title: YouTube Sync Terms
+title: YouTube Program terms
 category: publisher
 order: 6
 ---

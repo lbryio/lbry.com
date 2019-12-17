@@ -1,5 +1,5 @@
 ---
-title: Appreciation for Contributing
+title: Appreciation for contributing
 category: other
 ---
 

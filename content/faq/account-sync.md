@@ -1,5 +1,5 @@
 ---
-title: lbry.tv Account and Wallet Syncing
+title: lbry.tv account and wallet syncing
 category: getstarted
 order: 3
 ---

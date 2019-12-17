@@ -1,5 +1,5 @@
 ﻿---
-title: LBRY Contest Terms and Conditions
+title: LBRY contest terms and conditions
 category: other
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Incompatible Protocol Version Warning
+title: Incompatible protocol version warning
 category: troubleshooting
 ---
 

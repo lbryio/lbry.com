@@ -1,5 +1,5 @@
 ---
-title: Publishing Quickstart
+title: Publishing quickstart
 category: tutorial
 order: 3
 ---

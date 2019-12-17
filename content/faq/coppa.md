@@ -1,5 +1,5 @@
 ---
-title: How Does LBRY Handle COPPA and Child-Directed Content?
+title: How does LBRY handle COPPA and child-directed content?
 category: other
 ---
 Some video publishing platforms, like YouTube, require you to explicitly designate your content as for children, with the threat of fines and/or legal sanction if you do so improperly. This article covers how LBRY covers these things.
@@ -18,7 +18,7 @@ _Note that tagging your content improperly can result in it being negatively wei
 
 YouTube’s parent organization, Google, tracks the activity of users across the internet, regardless of their age. Because Google serves targeted advertisements to these users, this triggers a legal requirement to attempt to prevent doing so to children. Google chooses to satisfy this requirement by putting the onus on creators themselves.
 
-In the case of LBRY, all users must affirm they are of the valid legal age to create a lbry.tv account. Users without lbry.tv accounts are not tracked and targeted. Additionally, LBRY does not perform the targeted advertising that Google does. 
+In the case of LBRY, all users must affirm they are of the valid legal age to create a lbry.tv account. Users without lbry.tv accounts are not tracked and targeted. Additionally, LBRY does not perform the targeted advertising that Google does.
 
 ## I am a YouTube creator concerned about COPPA changes. How can I get on to LBRY?
 

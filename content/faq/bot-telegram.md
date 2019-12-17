@@ -1,5 +1,5 @@
 ---
-title: How do I use the Telegram Bot?
+title: How do I use the Telegram bot?
 category: bots
 order: 1
 ---

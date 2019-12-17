@@ -1,5 +1,5 @@
 ---
-title: What is the LBRY YouTube Program?
+title: What is the LBRY YouTube program?
 category: publisher
 order: 4
 ---

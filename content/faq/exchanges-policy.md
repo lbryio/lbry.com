@@ -1,5 +1,5 @@
 ---
-title: How Does LBRY Work with Exchanges?
+title: How does LBRY work with exchanges?
 category: other
 ---
 
