@@ -20,7 +20,7 @@ To see the exact reward tiers, check out the updated [Rewards FAQ](https://lbry.
 ## View rewards
 Creators will earn additional rewards based on the views to their content.
 
-Every signed in user with a verified lbry.tv account will automatically tip the first 10 pieces of content they access each day. 
+Every signed in user with a verified lbry.tv account will automatically tip the first 10 pieces of content they access each day.
 
 ![transaction](https://spee.ch/@lbrynews:0/tips-lbry.png)
 
@@ -29,6 +29,6 @@ As a creator, these show up in your [Transactions area](https://lbry.tv/$/transa
 ## YouTube Program improvements {#youtube}
 Our [YouTube Partner program](https://lbry.com/youtube), which allows YouTube creators to seamlessly publish to LBRY and earn rewards, is getting two great changes:
 
-Rewards will now be granted monthly instead of yearly. Starting literally right *now*, all creators are eligible to claim these immediately, even if you just received your yearly reward. You will receive a notification when these are available, and you will never lose anything by waiting to claim (for example, if you miss a month, two months will be available on next login).
+1. Rewards will now be granted monthly instead of yearly. Starting literally right *now*, all creators are eligible to claim these immediately, even if you just received your yearly reward. You will receive a notification when these are available, and you will never lose anything by waiting to claim (for example, if you miss a month, two months will be available on next login).
 
-Videos will start syncing faster. Rather than up to 24 hours or longer, we are targeting sub-hour times, with some bias towards more popular channels. This change is still a few days to a few weeks from being rolled out completely.
+2. Videos will start syncing faster. Rather than up to 24 hours or longer, we are targeting sub-hour times, with some bias towards more popular channels. This change is still a few days to a few weeks from being rolled out completely.
