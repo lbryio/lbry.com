@@ -151,7 +151,7 @@
         <thead style="font-size: 80%;">
           <tr>
             <th>Current YouTube Subscribers</th>
-            <th>LBC Tokens</th>
+            <th>LBC Tokens / Year</th>
             <th>USD Value         <small class="meta">1 LBC = <span class="current-value"></span></small></th>
           </tr>
         </thead>

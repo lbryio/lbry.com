@@ -30,14 +30,16 @@ Note that as soon as you enroll, you are eligible to receive LBRY Credits based 
 
 ### Claiming rewards {#reward}
 
-As soon as you've enrolled, you can claim your rewards. Rewards can be claimed on a monthly basis and will be prorated if not claimed for over a month. The reward will let you know when you can claim it again. If you've claimed your yearly reward in the past year, you are still eligible for the monthly reward right away.
+As soon as you've enrolled, you can claim your rewards. Rewards can be claimed on a monthly basis. You will receive an email when it is available and you never lose any LBC for not claiming promptly.
 
 1. Visit [lbry.tv](https://lbry.tv) or download the LBRY Desktop app from [lbry.com](https://lbry.com/get).
 2. Sign in with the email that matches the address on your [YouTube status page](/youtube/status). You can change your email on this page if you want to sign in with a different email.
 3. Navigate to the _Rewards_ section of the app by clicking your balance in the top right.
-4. Scroll to the "YouTube Reward" tile and click Get XXXX LBC to receive the appropriate amount of credits.
+4. Scroll to the "YouTube Reward" tile and click the button to receive your reward!
 
 Some YouTube accounts may be flagged for manual review after sync. If this happens, please check back in 1-2 business days.
+
+Note for participants before 2020: if you joined while this reward was still yearly, you can still begin claiming monthly rewards immediately.
 
 ### Wallet transfer {#transfer}
 
