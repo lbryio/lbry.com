@@ -4,7 +4,7 @@ category: publisher
 order: 4
 ---
 
-LBRY offers an easy way for YouTubers to republish their content to the LBRY network, engage with LBRY users, and earn LBC. This program is available to new and existing LBRY users - installing or using our platform is not a prerequisite to syncing your channel. LBRY provides a one-click sync process that gathers your channel and video metadata (i.e. covers, thumbnails, etc), creates a channel for you on LBRY, and publishes your videos to it.
+LBRY offers an easy way for YouTubers to republish their content to the LBRY network, engage with LBRY users, and earn LBC. This program is available to new and existing LBRY users - installing or using our platform is not a prerequisite to syncing your channel. LBRY provides a one-click sync process that gathers your channel and video metadata (i.e. covers, thumbnails, etc), creates a channel for you on LBRY, and publishes your videos to it. Creators are eligible for [monthly LBC rewards](#reward) if they have over 1K subscribers. 
 
 To sync your existing YouTube channel to LBRY and learn more about the program, use [lbry.com/youtube](/youtube).
 
@@ -30,7 +30,7 @@ Note that as soon as you enroll, you are eligible to receive LBRY Credits based 
 
 ### Claiming rewards {#reward}
 
-As soon as you've enrolled, you can claim your rewards.
+As soon as you've enrolled, you can claim your rewards. Rewards can be claimed on a monthly basis and will be prorated if not claimed for over a month. The reward will let you know when you can claim it again. If you've claimed your yearly reward in the past year, you are still eligible for the monthly reward right away.
 
 1. Visit [lbry.tv](https://lbry.tv) or download the LBRY Desktop app from [lbry.com](https://lbry.com/get).
 2. Sign in with the email that matches the address on your [YouTube status page](/youtube/status). You can change your email on this page if you want to sign in with a different email.
@@ -49,7 +49,7 @@ Once the channel and content is transferred, you'll be able to publish, comment,
 
 If you are signing into the LBRY for the first time, you'll be presented with an option to claim your channel. If the channel is still queued, you'll be able to claim it from the Channels page (right hand side above Publishes) after its synced. Existing app users can also claim their channels via the Channels page. If you created any channels or published content locally before initiating this step, see the [cleanup section](#cleanup).
 
-**Note that if you choose not turn on wallet sync during your sign up process, that it is vital that you have a [backup of your wallet](/faq/how-to-backup-wallet) after the transfer process is initiated.**
+**Note: if you choose not enable wallet sync during your sign up process, it is vital that you have a [backup of your wallet](/faq/how-to-backup-wallet) after the transfer process is initiated.**
 
 ![claim](https://spee.ch/2/sync-faq-2.png)
 
@@ -78,11 +78,11 @@ Private or unlisted videos will not be published, but everything else will.
 
 ## What happens if I created a channel and/or published to LBRY before transfer? {#cleanup}
 
-If you created a channel with the same name as your YouTube channel, it is recommended you delete your locally created channel, which can be done before or after the channel transfer process. If you published any content locally, you can edit the content and use your newly transferred channel to include it, or you can simply delete the locally published content as well. Unless you plan to experiment with a different channel name in the meantime, please be patient until the channel is tranferred to you.
+If you created a channel with the same name as your YouTube channel, it is recommended you delete your locally created channel, which can be done before or after the channel transfer process. If you published any content locally, you can edit the content and use your newly transferred channel to include it, or you can simply delete the locally published content as well. Unless you plan to experiment with a different channel name in the meantime, please be patient until the channel is transferred to you.
 
-To delete the original channel, you'll need to navigate to the Wallet page (click on your balance in the top right). Next, click "Full History" and find the original channel you created. You may need to paginate in order to find it. Make sure it is the right channel to delete by clicking on the name from the history page first. Then use the trash can icon to remove it.
+To delete the original channel, you'll need to navigate to the Wallet page (click on your balance in the top right). Next, click "Full History" and find the original channel you created. It may be under the Channels or Updates filter. You may need to paginate in order to find it. **Make sure it is the right channel to delete by clicking on the name from the history page first.** Then use the trash can icon to remove it.
 
-You can do the same for any content you published locally. The other option is to edit the content and select your newly tranferred channel. This will make the content appear under this channel.
+You can do the same for any content you published locally. The other option is to edit the content and select your newly transferred channel. This will make the content appear under this channel.
 
 ## Why can't I sync my channel?
 
