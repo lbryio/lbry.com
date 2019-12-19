@@ -47,6 +47,8 @@ If you have a YouTube synced channel or publish directly to LBRY, you are eligib
 | **5K** | 10K LBC
 | *10K** | 20K LBC
 
+**Note: If you don't see your channel in the list, you may either have analytics disabled or have not published recent content to be eligible**. 
+
 ## Custom reward codes {#reward-code}
 
 Custom reward codes can be claimed via the [Rewards](https://open.lbry.com/?rewards) page on LBRY. You may have been given a reward code via email, social media or you stumbled upon it somewhere - whichever way, you can claim it for LBC today! It's simple, just hit `Enter Code`, type it in and press `Redeem`.
