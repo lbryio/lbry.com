@@ -5,13 +5,13 @@
   Response::addJsAsset('/js/yt2/SyncStatus.js');
   Response::addJsAsset('/js/yt2/youtube_video.js');
   if (in_array($_SERVER['REQUEST_URI'], ['/escapeyoutube'])) {
-    Response::setMetaTitle("Escape YouTube");
-    Response::setMetaDescription("Put your content on the LBRY blockchain before it's too late");
-    Response::addMetaImage('https://spee.ch/6/18OanRVGL6mQIMtj93Hb09te.jpeg');
+      Response::setMetaTitle("Escape YouTube");
+      Response::setMetaDescription("Put your content on the LBRY blockchain before it's too late");
+      Response::addMetaImage('https://spee.ch/6/18OanRVGL6mQIMtj93Hb09te.jpeg');
   } else {
-    Response::setMetaTitle("LBRY YouTube Partner Program");
-    Response::setMetaDescription("Put your content on the blockchain, experience true content freedom, and earn rewards.");
-    Response::addMetaImage(Request::getHostAndProto() . '/img/lbry-partner.png');
+      Response::setMetaTitle("LBRY YouTube Partner Program");
+      Response::setMetaDescription("Put your content on the blockchain, experience true content freedom, and earn rewards.");
+      Response::addMetaImage(Request::getHostAndProto() . '/img/lbry-partner.png');
   }
 ?>
 
@@ -98,7 +98,7 @@
 
   <section>
     <div class="join section inner-wrap">
-      <h3>Join the best creators already on LBRY</h3>
+      <h3>Join great creators already on LBRY</h3>
       <p>Audiences range from 1,000+ to 10,000,000+ people. The videos below are from creators who have synced their content to LBRY.</p>
 
       <div class="ytsync-previews">
@@ -140,20 +140,19 @@
 
   <section>
     <div class="rewards section inner-wrap">
-      <h3>Getting credits for your channel</h3>
-      <p>Depending on the number of subscribers you have on YouTube when you claim your channel, you will qualify for different lump sums of LBC.</p>
+      <h3>What you earn</h3>
+      <p>Depending on the number of subscribers you have on YouTube when you claim your channel, you will qualify for different grants of LBC, the token that powers the LBRY network.</p>
 
       <h4>
-        Subscriber Levels
-        <small class="meta">LBC <span class="current-value"></span></small>
+        YouTube Audience
       </h4>
 
       <table>
         <thead style="font-size: 80%;">
           <tr>
-            <th>Your Current YouTube Subscribers</th>
-            <th>LBC Tokens</th>
-            <th>USD Value</th>
+            <th>Current YouTube Subscribers</th>
+            <th>LBC Tokens / Year</th>
+            <th>USD Value         <small class="meta">1 LBC = <span class="current-value"></span></small></th>
           </tr>
         </thead>
 
@@ -161,12 +160,22 @@
           <?php foreach ($reward['data'] as $subCount => $rewardAmt): ?>
               <tr>
                 <td><?php echo number_format($subCount) ?></td>
-                <td><?php echo number_format($rewardAmt); ?> <small class="meta">LBC</small></td>
-                <td data-id="amount-<?php echo $rewardAmt ?>"></td>
+                <td><?php echo number_format($rewardAmt * 12); //API returns per month?> <small class="meta">LBC</small></td>
+                <td class="lbc-to-usd" data-lbc-amount="<?php echo $rewardAmt * 12 ?>"></td>
               </tr>
           <?php endforeach ?>
         </tbody>
       </table>
+
+      <h4>
+         Views on LBRY
+      </h4>
+      <p>Receive 2-10 LBC (<span class="lbc-to-usd" data-lbc-amount="2"></span> - <span class="lbc-to-usd" data-lbc-amount="10"></span>) per view from verified lbry.tv accounts. </p>
+
+      <h4>
+        Follows on LBRY
+      </h4>
+      <p>You receive additional awards for building an audience, starting with your first follower and continuing at various tiers.</p>
     </div>
   </section>
 
@@ -206,7 +215,7 @@
 
   <section class="align-text--center">
     <div class="inner-wrap">
-      <h3>Sync &amp; Earn</h3>
+      <h3>Sync &amp; earn</h3>
       <p>LBRY offers a single-click sync process for existing YouTubers.</p>
 
       <br/>
@@ -224,7 +233,7 @@
 
   <section>
     <div class="inner-wrap">
-      <h3>Human Available</h3>
+      <h3>Human available</h3>
       <p>Questions, problems, or feedback? A real human is available.</p>
 
       <div class="v-card">
