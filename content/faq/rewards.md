@@ -9,7 +9,7 @@ To provide a rich user experience and to [distribute](/faq/credit-policy) LBRY C
 
 ## Rewards approval requirements
 
-In order to be eligible for LBRY Rewards, users must have an approved account via [phone number](/faq/phone) or [credit card](/faq/identity-requirements) (there's also a manual approval method on [Discord](https://chat.lbry.com)). If users choose not to become approved for rewards, LBRY works with full functionality, but they will not be able to earn any free credits from LBRY.  **Rewards will only be granted on a 1 account per household basis and LBRY reserves the right to revoke Rewards privileges on any account if abuse is suspected or if VPN/shared connections are used.**
+In order to be eligible for LBRY Rewards, users must have an approved account via [phone number](/faq/phone) or [credit card](/faq/identity-requirements) (there's also a manual approval method on [Discord](https://chat.lbry.com)). Some users may be auto-approved. If users choose not to become approved for rewards, LBRY works with full functionality, but they will not be able to earn any free credits from LBRY.  **Rewards will only be granted on a 1 account per household basis and LBRY reserves the right to revoke Rewards privileges on any account if abuse is suspected or if VPN/shared connections are used.**
 
 ## List of current LBRY Rewards
 | Reward | Amount | Description |
@@ -20,7 +20,8 @@ In order to be eligible for LBRY Rewards, users must have an approved account vi
 | **First Publish** | 10 LBC | A one-time reward for publishing your first piece of content to LBRY
 | **Daily View** | 1- 100 LBC | A random daily reward from 1 to 100 LBC, resets every 24 hours!
 | **Many Views** | 2- ???? LBC | A multi-level reward for watching videos on LBRY. See descriptions in-app for levels/details!
-| **Sub Sandwich** | 1 -2 LBC | A multi-level reward for subscribing to channels.
+| **Faithful Follower** | 1 - 20 LBC | A multi-level reward for following channels.
+| [**Coveted Creator**](#followers) | 1 - 20K LBC | A multi-level reward for gaining followers on your channel.
 | **Welcome Back** | 6 LBC | Return to the LBRY 24-48 hours following your first use of the app. This reward will self-destruct after that time span.
 | **Android in Beta** | 20 LBC | Limited time reward for early Android Beta testers.
 | **Upgrade** | 10 LBC | Rewarded each time the LBRY Desktop app updates versions (i.e. 0.27 to 0.28).
@@ -31,6 +32,20 @@ In order to be eligible for LBRY Rewards, users must have an approved account vi
 Rewards are added to your LBC wallet balance as they are completed. All the rewards can be listed by clicking **Rewards** from the Account drop down menu (top right of the app). They are also marked your [wallet](/faq/transaction-types).  Rewards redemption is tied to your account, but the credits themselves are stored in your local wallet file which is required to be [backed up](/faq/how-to-backup-wallet) periodically.
 
 If you are new to Publishing, check out [our guide](/faq/how-to-publish).
+
+## Followers reward {#followers}
+
+If you have a YouTube synced channel or publish directly to LBRY, you are eligible to earn rewards based on how many followers your channel(s) has. Share your channel with the world to earn more LBC!
+| Number of followers | Amount |
+--- | ---
+| **1** | 2 LBC
+| **5** | 10 LBC
+| **20** | 50 LBC
+| **100** | 200 LBC
+| **500** | 500 LBC
+| **1K** | 2K LBC
+| **5K** | 10K LBC
+| *10K** | 20K LBC
 
 ## Custom reward codes {#reward-code}
 
