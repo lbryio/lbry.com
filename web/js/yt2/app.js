@@ -65,17 +65,17 @@ App.prototype._onReadyStateChange = function(e) {
   if (this._xhr.readyState === 4) {
     if (this._xhr.status === 200) {
       const response = JSON.parse(this._xhr.responseText);
-      const lines = document.querySelectorAll("[data-id*='amount-']");
+      const lines = document.querySelectorAll(".lbc-to-usd");
       const price = parseFloat(response.data.lbc_usd);
 
       lines.forEach(function(line) {
-        const amount = line.dataset.id.split("-")[1];
-        const total = amount * price;
+        const amount = line.dataset.lbcAmount;
+        const total = amount * price; //api returns per month
 
         line.innerHTML = this._addCommas(total.toFixed(2)) + " <small class='meta'>USD</small>";
       }, this);
 
-      document.getElementsByClassName("current-value")[0].innerHTML = `(${price.toFixed(4)} USD)`;
+      document.getElementsByClassName("current-value")[0].innerHTML = `$${price.toFixed(4)} USD`;
     }
   }
 };
