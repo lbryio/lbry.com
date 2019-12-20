@@ -39,6 +39,7 @@ Isaac for Desktop improves decentralization through wallet server settings, enab
 
 ### More about LBRY Isaac
 
+- Introduces beta mobile view for https://lbry.tv
 - Automatic text file rendering and improved text and HTML rendering.
 Ability to set your own wallet server in settings. More on this feature in the FAQ.
 - Dedicated Channel creation option from Channels page
