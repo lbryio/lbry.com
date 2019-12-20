@@ -2,7 +2,7 @@
 author: samuel-lbryian
 title: 'LBRY Isaac Gravitates to a Browser Near You'
 date: '2019-12-20 10:00:00'
-cover: '.png'
+cover: '2019-12-apples.jpg.png'
 category: update
 ---
 
@@ -21,7 +21,7 @@ Isaac for Desktop improves decentralization through wallet server settings, enab
 
 ### New Rewards
 
-- Creators now earn rewards for views and subscribers. This was announced yesterday and is covered in more detail here.
+- Creators now earn rewards for views and subscribers. This was announced yesterday and is covered in [more detail here](https://lbry.com/news/creator-rewards).
 - Rewards for YouTube publishers are now issued more frequently.
 - Additional tiers for some existing rewards for using LBRY, like views.
 
@@ -43,7 +43,7 @@ Isaac for Desktop improves decentralization through wallet server settings, enab
 Ability to set your own wallet server in settings. More on this feature in the FAQ.
 - Dedicated Channel creation option from Channels page
 - Overall design improvements, especially for dark mode. Also includes channel thumbnails next to comments.
-- - Adds language support for: Dutch, Portuguese, Italian, Russian, Spanish, Gujarati, Hindi, Malay, Marathi, Panjabi, and Swedish
+- Adds language support for: Dutch, Portuguese, Italian, Russian, Spanish, Gujarati, Hindi, Malay, Marathi, Panjabi, and Swedish
 - Fixes bugs related to pagination and mature content.
 - Enables background launch to help boost network participation. This can be disabled in Settings.
 - Adds a search box to your Downloads area.
