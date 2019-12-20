@@ -53,7 +53,8 @@ Ability to set your own wallet server in settings. More on this feature in the F
 
 For the full release notes, visit [GitHub](https://github.com/lbryio/lbry-desktop/releases/tag/v0.38.0). Note that this news announcement includes changes that were also in [0.37.2](https://github.com/lbryio/lbry-desktop/releases/tag/v0.37.2) and [0.37.1](https://github.com/lbryio/lbry-desktop/releases/tag/v0.37.1), which were relatively substantial and not previously announced.
 
-### Extra Special We’re Smarter Than Physicists Bonus Code
-- The first 200 users to upgrade can use the code below for a 50LBC reward - so hurry up and start upgrading!
+### Extra Special High Gravity Release Bonus
+
+The first 200 desktop users to upgrade can use the code below for a 50LBC reward - so hurry up and start upgrading!
 
 `anewtonrelease`
