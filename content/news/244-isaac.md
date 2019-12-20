@@ -8,13 +8,14 @@ category: update
 
 ## LBRY Isaac, New Search, New Rewards
 
-Today, LBRY releases LBRY Isaac. This new release integrates an updated search service, new rewards and a ton of interface and performance improvements for lbry.tv and LBRY desktop.
+Today, LBRY releases LBRY Isaac. This new release integrates an updated search service, new rewards, a mobile view for lbry.tv, and a ton of interface and performance improvements for lbry.tv and LBRY desktop.
 
-[Download Isaac for desktop](https://lbry.com/get) [Use LBRY in your browser](https://lbry.tv)
+- [Download Isaac for desktop](https://lbry.com/get) 
+- [Use LBRY in your browser](https://lbry.tv)
 
 Search improvements and new rewards are live for everyone, regardless of how you use LBRY. They are described in more detail below.
 
-Isaac improves decentralization through wallet server settings, enables YouTube partners to claim wallets, updates text and audio playback, and much more.
+Isaac for Desktop improves decentralization through wallet server settings, enables YouTube partners to claim wallets, updates text and audio playback, and much more.
 
 ![Isaac](https://s3.amazonaws.com/files.lbry.io/lbry-isaac.gif)
 
@@ -23,6 +24,8 @@ Isaac improves decentralization through wallet server settings, enables YouTube 
 - Creators now earn rewards for views and subscribers. This was announced yesterday and is covered in more detail here.
 - Rewards for YouTube publishers are now issued more frequently.
 - Additional tiers for some existing rewards for using LBRY, like views.
+
+![followers-reward](https://spee.ch/@lbrynews:0/followers-lbry.png)
 
 ### Search Improvements
 
@@ -50,8 +53,7 @@ Ability to set your own wallet server in settings. More on this feature in the F
 
 For the full release notes, visit [GitHub](https://github.com/lbryio/lbry-desktop/releases/tag/v0.38.0). Note that this news announcement includes changes that were also in [0.37.2](https://github.com/lbryio/lbry-desktop/releases/tag/v0.37.2) and [0.37.1](https://github.com/lbryio/lbry-desktop/releases/tag/v0.37.1), which were relatively substantial and not previously announced.
 
-
 ### Extra Special We’re Smarter Than Physicists Bonus Code
 - The first 200 users to upgrade can use the code below for a 50LBC reward - so hurry up and start upgrading!
 
-`smarterthaneinstein`
+`anewtonrelease`
