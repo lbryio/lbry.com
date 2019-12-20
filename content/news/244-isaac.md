@@ -8,7 +8,7 @@ category: update
 
 ## LBRY Isaac, New Search, New Rewards
 
-Today, LBRY releases LBRY Isaac. This new release integrates an updated search service, new rewards, a mobile view for lbry.tv, and a ton of interface and performance improvements for lbry.tv and LBRY desktop.
+Today, LBRY announces Isaac, a release of much gravity. Isaac brings an updated search service, new rewards, a mobile view for lbry.tv, and a ton of interface and performance improvements for lbry.tv and LBRY desktop.
 
 - [Download Isaac for desktop](https://lbry.com/get) 
 - [Use LBRY in your browser](https://lbry.tv)
