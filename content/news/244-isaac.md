@@ -2,7 +2,7 @@
 author: samuel-lbryian
 title: 'LBRY Isaac Gravitates to a Browser Near You'
 date: '2019-12-20 10:00:00'
-cover: '2019-12-apples.jpg.png'
+cover: '2019-12-apples.jpg'
 category: update
 ---
 
