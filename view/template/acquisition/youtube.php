@@ -141,7 +141,7 @@
   <section>
     <div class="rewards section inner-wrap">
       <h3>What you earn</h3>
-      <p>Depending on the number of subscribers you have on YouTube when you claim your channel, you will qualify for different grants of LBC, the token that powers the LBRY network.</p>
+      <p>Depending on the number of subscribers you have on YouTube when you claim your channel, you will qualify for different grants of LBC, the token that powers the LBRY network. They are disbursed on a monthly basis.</p>
 
       <h4>
         YouTube Audience
