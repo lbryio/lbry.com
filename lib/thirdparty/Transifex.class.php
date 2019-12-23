@@ -14,7 +14,7 @@ class Transifex
         return json_decode(CurlWithCache::get($url, [], [
         'password' => 'api:' . Config::get(Config::TRANSIFEX_API_KEY),
         'cache' => $cache ? 1000 * 60 * 60 * 8 : false,
-        'timeout' => 5
+        'timeout' => 15
       ]), true);
     }
 }
