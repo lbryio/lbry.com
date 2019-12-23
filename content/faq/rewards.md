@@ -41,6 +41,7 @@ Rewards that you have earned be marked your [wallet](/faq/transaction-types).
 | **Many Views** | 2- ???? LBC | A multi-level reward for watching videos on LBRY. See descriptions in-app for levels/details!
 | **Faithful Follower** | 1 - 20 LBC | A multi-level reward for following channels.
 | [**Coveted Creator**](#followers) | 1 - 20K LBC | A multi-level reward for gaining followers on your channel.
+| [**Content View Tips**](#contentview) | 2 - 10  LBC | A per view reward from verified lbry.tv users
 | **Welcome Back** | 6 LBC | Return to the LBRY 24-48 hours following your first use of the app. This reward will self-destruct after that time span.
 | **Android in Beta** | 20 LBC | Limited time reward for early Android Beta testers.
 | **Upgrade** | 10 LBC | Rewarded each time the LBRY Desktop app updates versions (i.e. 0.27 to 0.28).
@@ -66,6 +67,10 @@ You receive additional rewards as you build a following on LBRY. Share your chan
 | 10,000 | 20,000 LBC
 
 _Not seeing this reward despite being eligible? If you created your channel while not signed in to lbry.tv, we might not know about it. Publishing something new while signed in to lbry.tv will restore eligibility._ 
+
+## Followers reward {#contentview}
+
+You receive additional rewards for views from verified lbry.tv accounts. You will see these on your wallet page as Tips and they will be summed up monthly on your Rewards page. 
 
 ## Custom reward codes {#reward-code}
 
