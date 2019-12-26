@@ -46,6 +46,13 @@ Please follow them and show them LBRY love. The more creators adopt and see the 
 </a>
 </p>
 <p>
+<p>
+<a href="https://open.lbry.com/@NaomiBrockwell:4">
+  <img style="max-width: 300px; max-height: 300px;" alt="Naomi Brockwell" src="https://thumbnails.lbry.com/UCSuHzQ3GrHSzoBbwrIq3LLA">
+  <em>Follow Naomi Brockwell on LBRY</em>
+</a>
+</p>
+<p>  
 <a href="https://open.lbry.com/@TheCryptoLark:e">
   <img style="max-width: 300px; max-height: 300px;" alt="The Crypto Lark" src="https://thumbnails.lbry.com/UCl2oCaw8hdR_kbqyqd2klIA">
   <em>Follow The Crypto Lark on LBRY</em>
@@ -70,9 +77,16 @@ Please follow them and show them LBRY love. The more creators adopt and see the 
 </a>
 </p>
 <p>
+<a href="https://open.lbry.com/@bitcoinforbeginners:7">
+  <img style="max-width: 300px; max-height: 300px;" alt="Bitcoin for Beginners" src="https://thumbnails.lbry.com/UCi7egjf0JDHuhznWugXq4hA">
+  <em>Follow Bitcoin for Beginners on LBRY</em>
+</a>
+</p>
+<p>
+<p>
 <a href="https://open.lbry.com/@crypto:4">
-  <img style="max-width: 300px; max-height: 300px;" alt="" src="">
-  <em>Follow crypto on LBRY</em>
+  <img style="max-width: 300px; max-height: 300px;" alt="Jacob Canfield" src="https://thumbnails.lbry.com/UCiMgF08KQ4z-Gnu8o2BLOxA">
+  <em>Follow Jacob Canfield on LBRY</em>
 </a>
 </p>
 <p>
@@ -101,8 +115,8 @@ Please follow them and show them LBRY love. The more creators adopt and see the 
 </p>
 <p>
 <a href="https://open.lbry.com/@bitcoin:9f">
-  <img style="max-width: 300px; max-height: 300px;" alt="" src="">
-  <em>Follow bitcoin on LBRY</em>
+  <img style="max-width: 300px; max-height: 300px;" alt="Brandon D Kelly" src="https://thumbnails.lbry.com/UC-f5nPBEDyUBZz_jOPBwAfQ">
+  <em>Follow Brandon D Kelly on LBRY</em>
 </a>
 </p>
 <p>
@@ -142,6 +156,13 @@ Please follow them and show them LBRY love. The more creators adopt and see the 
 </a>
 </p>
 <p>
+<a href="https://open.lbry.com/@hackcrypto:6">
+  <img style="max-width: 300px; max-height: 300px;" alt="Hack Crypto" src="https://thumbnails.lbry.com/UCeinlp4279CsUdVYvKDloRg">
+  <em>Follow Hack Crypto on LBRY</em>
+</a>
+</p>
+<p>
+<p>
 <a href="https://open.lbry.com/@enterthecryptomatrix:4">
   <img style="max-width: 300px; max-height: 300px;" alt="Enter The Crypto Matrix" src="https://thumbnails.lbry.com/UCefQC4Y-X9MBRuYBKc2waiQ">
   <em>Follow Enter The Crypto Matrix on LBRY</em>
@@ -163,6 +184,12 @@ Please follow them and show them LBRY love. The more creators adopt and see the 
 <a href="https://open.lbry.com/@cryptofinally:0">
   <img style="max-width: 300px; max-height: 300px;" alt="Cryptofinally" src="https://thumbnails.lbry.com/UCzPaGwO9MY5_xUNuwHEzR4Q">
   <em>Follow cryptofinally on LBRY</em>
+</a>
+</p>
+<p>
+<a href="https://open.lbry.com/@colintalkscrypto:8">
+  <img style="max-width: 300px; max-height: 300px;" alt="Colin Talks Crypto" src="https://spee.ch/4/b7254f91-0bf7-4189-8b80-537d5bf5995f.jpg">
+  <em>Follow Colin Talks Crypto on LBRY</em>
 </a>
 </p>
 
