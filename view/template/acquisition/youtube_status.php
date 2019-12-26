@@ -6,7 +6,7 @@
 <?php Response::addJsAsset('//www.googleadservices.com/pagead/conversion_async.js') ?>
 
 <?php $statusData = $status_token['data'] ?>
-<?php $isSyncAgreed = in_array($statusData['status'], ["failed", "finalized", "pendingemail", "queued", "synced", "syncing"]) ?>
+<?php $isSyncAgreed = in_array($statusData['status'], ["failed", "finalized", "pendingemail", "queued", "synced", "syncing","pendingupgrade","abandoned"]) ?>
 <?php $isRewardClaimed = $statusData['redeemed_reward'] > 0 ?>
 <?php $isTransferred = $statusData['transferred'] ?>
 
