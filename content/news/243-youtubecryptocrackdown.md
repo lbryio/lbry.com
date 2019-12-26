@@ -46,7 +46,6 @@ Please follow them and show them LBRY love. The more creators adopt and see the 
 </a>
 </p>
 <p>
-<p>
 <a href="https://open.lbry.com/@NaomiBrockwell:4">
   <img style="max-width: 300px; max-height: 300px;" alt="Naomi Brockwell" src="https://thumbnails.lbry.com/UCSuHzQ3GrHSzoBbwrIq3LLA">
   <em>Follow Naomi Brockwell on LBRY</em>
@@ -82,7 +81,6 @@ Please follow them and show them LBRY love. The more creators adopt and see the 
   <em>Follow Bitcoin for Beginners on LBRY</em>
 </a>
 </p>
-<p>
 <p>
 <a href="https://open.lbry.com/@crypto:4">
   <img style="max-width: 300px; max-height: 300px;" alt="Jacob Canfield" src="https://thumbnails.lbry.com/UCiMgF08KQ4z-Gnu8o2BLOxA">
