@@ -1,7 +1,7 @@
 ---
 author: samuel-lbryian
 title: 'Stand up to YouTube Crypto Crackdown and Support These Blockchain Creators'
-date: '2019-12-266 15:00:00'
+date: '2019-12-26 15:00:00'
 cover: 'youtube-crypto.png'
 category: update
 ---
