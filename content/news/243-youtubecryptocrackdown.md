@@ -160,7 +160,6 @@ Please follow them and show them LBRY love. The more creators adopt and see the 
 </a>
 </p>
 <p>
-<p>
 <a href="https://open.lbry.com/@enterthecryptomatrix:4">
   <img style="max-width: 300px; max-height: 300px;" alt="Enter The Crypto Matrix" src="https://thumbnails.lbry.com/UCefQC4Y-X9MBRuYBKc2waiQ">
   <em>Follow Enter The Crypto Matrix on LBRY</em>
