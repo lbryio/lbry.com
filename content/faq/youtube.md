@@ -8,6 +8,8 @@ LBRY offers an easy way for YouTubers to republish their content to the LBRY net
 
 To sync your existing YouTube channel to LBRY and learn more about the program, use [lbry.com/youtube](/youtube).
 
+**Please note:** The sync process will create a new channel for your channel which is later [transferred](#transfer) to you. If you created a channel in the app beforehand, [please see instructions on how to clean it up](#cleanup).
+
 ## What are the steps?
 
 There are three main steps to this program:
@@ -80,9 +82,9 @@ Private or unlisted videos will not be published, but everything else will.
 
 ## What happens if I created a channel and/or published to LBRY before transfer? {#cleanup}
 
-If you created a channel with the same name as your YouTube channel, it is recommended you delete your locally created channel, which can be done before or after the channel transfer process. If you published any content locally, you can edit the content and use your newly transferred channel to include it, or you can simply delete the locally published content as well. Unless you plan to experiment with a different channel name in the meantime, please be patient until the channel is transferred to you.
+If you created a channel (possibly with the same name as your YouTube channel), it is recommended you delete your locally created channel, which can be done before or after the channel transfer process. If you published any content locally, you can edit the content and use your newly transferred channel to include it, or you can simply delete the locally published content as well. Unless you plan to experiment with a different channel name in the meantime, please be patient until the channel is transferred to you.
 
-To delete the original channel, you'll need to navigate to the Wallet page (click on your balance in the top right). Next, click "Full History" and find the original channel you created. It may be under the Channels or Updates filter. You may need to paginate in order to find it. **Make sure it is the right channel to delete by clicking on the name from the history page first.** Then use the trash can icon to remove it.
+To delete the original channel, you'll need to navigate to the Wallet page (click on your balance in the top right). Next, click "Full History" and find the original channel you created. **It may be under the Channels or Updates filter**. You may need to paginate in order to find it. **Make sure it is the right channel to delete by clicking on the name from the history page first.** Then use the trash can icon to remove it. This process is permanent, so becareful not to delete the synced channel.
 
 You can do the same for any content you published locally. The other option is to edit the content and select your newly transferred channel. This will make the content appear under this channel.
 
