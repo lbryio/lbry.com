@@ -52,6 +52,12 @@ Please follow them and show them LBRY love. The more creators adopt and see the 
 </a>
 </p>
 <p>  
+<a href="https://lbry.tv/@ivanontech:a">
+  <img style="max-width: 300px; max-height: 300px;" alt="Ivan on Tech" src="https://thumbnails.lbry.com/UCrYmtJBtLdtm2ov84ulV-yg">
+  <em>Follow Ivan on Tech on LBRY</em>
+</a>
+</p>
+<p>  
 <a href="https://open.lbry.com/@TheCryptoLark:e">
   <img style="max-width: 300px; max-height: 300px;" alt="The Crypto Lark" src="https://thumbnails.lbry.com/UCl2oCaw8hdR_kbqyqd2klIA">
   <em>Follow The Crypto Lark on LBRY</em>
