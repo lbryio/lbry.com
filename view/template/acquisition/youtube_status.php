@@ -148,7 +148,7 @@
 
           <fieldset-group>
             <fieldset-section>
-              <label for="channel-name">LBRY Channel Name</label>
+              <label for="channel-name">Desired LBRY Channel Name (i.e. @MyChannel)</label>
               <input
                 type="text" id="channel-name" name="new_preferred_channel"
                 placeholder="@YourPreferredChannelName"
@@ -200,7 +200,7 @@
       <?php if ($isSyncAgreed && !$isRewardClaimed && in_array($statusData['status'], ['queued', 'syncing', 'synced', 'finalized'])): ?>
         <fieldset>
             <legend>Claim wallet and rewards</legend>
-            <p>Just one step left! Take permanent ownership of your channel and receive your rewards by signing in:</p>
+            <p>Just one step left! Take permanent ownership of your channel and receive your rewards by signing in. To take ownership, the content must be synced first.</p>
             <ul>
               <li><a href="https://lbry.tv">On the web</a></li>
               <li><a href="https://lbry.com/get">Desktop and mobile apps</a></li>
