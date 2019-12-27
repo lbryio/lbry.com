@@ -188,7 +188,7 @@ class View
 
             foreach ($links as $link) {
                 if ($link->getAttribute('href') && static::isLinkExternal($link->getAttribute('href'), $domain)) {
-                    $link->setAttribute('rel', "noopener noreferrer");
+                    $link->setAttribute('rel', "noopener");
                 }
             }
 
