@@ -68,7 +68,7 @@ You receive additional rewards as you build a following on LBRY. Share your chan
 
 _Not seeing this reward despite being eligible? If you created your channel while not signed in to lbry.tv, we might not know about it. Publishing something new while signed in to lbry.tv will restore eligibility._ 
 
-## Followers reward {#contentview}
+## Views reward and tips {#contentview}
 
 You receive additional rewards for views from verified lbry.tv accounts. You will see these on your wallet page as Tips and they will be summed up monthly on your Rewards page. 
 
