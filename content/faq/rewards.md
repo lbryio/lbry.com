@@ -70,7 +70,7 @@ _Not seeing this reward despite being eligible? If you created your channel whil
 
 ## Views reward and tips {#contentview}
 
-You receive additional rewards for views from verified lbry.tv accounts. You will see these on your wallet page as Tips and they will be summed up monthly on your Rewards page. 
+You receive additional rewards for views from verified lbry.tv accounts. You will see these on your wallet page as Tips and they will be summed up monthly on your Rewards page. You may [unlock the tips](https://lbry.com/faq/tipping) to have the show in your balance, but while locked, they help your content be discovered. 
 
 ## Custom reward codes {#reward-code}
 
