@@ -4,6 +4,8 @@ category: publisher
 order: 4
 ---
 
+**Please note:** Our queue is currently backed up due to an influx of content creators syncing their channels. It may take a few days to process your channel, thank you for your patience and syncing to LBRY!
+
 LBRY offers an easy way for YouTubers to republish their content to the LBRY network, engage with LBRY users, and earn LBC. This program is available to new and existing LBRY users - installing or using our platform is not a prerequisite to syncing your channel. LBRY provides a one-click sync process that gathers your channel and video metadata (i.e. covers, thumbnails, etc), creates a channel for you on LBRY, and publishes your videos to it. Creators are eligible for [monthly LBC rewards](#reward) if they have over 1K subscribers. 
 
 To sync your existing YouTube channel to LBRY and learn more about the program, use [lbry.com/youtube](/youtube).
