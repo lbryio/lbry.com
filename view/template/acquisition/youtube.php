@@ -141,7 +141,7 @@
   <section>
     <div class="rewards section inner-wrap">
       <h3>What you earn</h3>
-      <p>Depending on the number of subscribers you have on YouTube when you claim your channel, you will qualify for different grants of LBC, the token that powers the LBRY network. They are disbursed on a monthly basis.</p>
+      <p>Depending on the number of subscribers you have on YouTube when you claim your channel, you will qualify for different grants of LBC, the token that powers the LBRY network.</p>
 
       <h4>
         YouTube Audience
@@ -166,7 +166,9 @@
           <?php endforeach ?>
         </tbody>
       </table>
-
+        <p class="align-text--center">
+     <small> <em>Table shows yearly awards but rewards are distributed monthly. Monthly reward will be one-twelfth the above amount.</em></small>
+        </p>
       <h4>
          Views on LBRY
       </h4>
