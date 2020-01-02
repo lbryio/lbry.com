@@ -94,6 +94,10 @@ You can do the same for any content you published locally. The other option is t
 
 Not all channels may qualify for the program, but users can always [upload the content themselves](https://lbry.com/faq/how-to-publish) instead. Eligibility is based on a careful determined criteria to keep spam and abuse out, but everyone else is intended to be eligible. If you were rejected and think this was an error, please [contact us](mailto:hello@lbry.com).
 
+## Will my content continue to sync?
+
+Your content will continue to stay synced as long as you are enrolled in the program. Videos typically sync within 24 hours and within an hour or two for more popular channels.
+
 ## Help me
 
 If you have questions this article did not cover, or are having any trouble with the enrollment process, transfer process, or staying calm and happy under the unrelenting pressure that is modern society, please contact [help@lbry.com](mailto:help@lbry.com).
