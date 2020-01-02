@@ -13,6 +13,7 @@ We are listed on several exchanges. You can buy or sell LBRY Credits at one of t
 - [Instant Bitex](https://instantbitex.com)
 - [Coinspot](https://www.coinspot.com.au/buy/lbc)
 - [Coindeal](https://frontend.coindeal.com/market/trade.html?pair=LBC/BTC)
+- [BigONE](https://big.one/trade/LBC-BTC)
 
 ## Instant exchanges
 - [Simple Swap](https://simpleswap.io)
