@@ -53,7 +53,7 @@ If you are new to Publishing, check out [our guide](/faq/how-to-publish).
 
 ## Followers reward {#followers}
 
-You receive additional rewards as you build a following on LBRY. Share your channel with the world to earn more LBC!
+You receive additional rewards as you build a following on LBRY. Only verified LBRY users count, so there may be a discrepancy between what you see on your channel page. Share your channel with the world to earn more LBC!
 
 | Number of followers | Amount |
 --- | ---
