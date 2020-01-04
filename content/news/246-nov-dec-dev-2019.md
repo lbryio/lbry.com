@@ -12,7 +12,7 @@ To read previous updates, please visit our [Development and Community Update arc
 
 If you want to see a condensed view of what we've completed recently and what’s planned for LBRY, check out our [Roadmap](https://lbry.com/roadmap). We’re currently getting our priorities together to provide a look back at 2019 and provide an updated roadmap for 2020, stay tuned! 
 
-Let’s start with some GitHub stats across all our repos since our last update about 53 days ago. 34 repos were updated. 668 issues/PRs were created, 193 were closed. 34 PRs were merged. 13 GitHub users, outside of LBRY, made code contributions: [Coolguy3289](https://github.com/Coolguy3289), [Invariant-Change](https://github.com/Invariant-Change), [dniwelive](https://github.com/dniwelive), [btzr-io](https://github.com/btzr-io), [eggplantbren](https://github.com/eggplantbren), [g1tman](https://github.com/g1tman), [gpjacobs](https://github.com/gpjacobs), [kodxana](https://github.com/kodxana), [mirgee](https://github.com/mirgee), [peterjgrainger](https://github.com/peterjgrainger), [osilkin98](https://github.com/osilkin98), [ykris45](https://github.com/ykris45), [Yamboy1](https://github.com/Yamboy1), and [zxawry](https://github.com/zxawry).
+Let’s start with some GitHub stats across all our repos since our last update about 53 days ago. 34 repos were updated. 668 issues/PRs were created, 193 were closed. 34 PRs were merged. 13 GitHub users outside of LBRY, made code contributions: [Coolguy3289](https://github.com/Coolguy3289), [Invariant-Change](https://github.com/Invariant-Change), [dniwelive](https://github.com/dniwelive), [btzr-io](https://github.com/btzr-io), [eggplantbren](https://github.com/eggplantbren), [g1tman](https://github.com/g1tman), [gpjacobs](https://github.com/gpjacobs), [kodxana](https://github.com/kodxana), [mirgee](https://github.com/mirgee), [peterjgrainger](https://github.com/peterjgrainger), [osilkin98](https://github.com/osilkin98), [ykris45](https://github.com/ykris45), [Yamboy1](https://github.com/Yamboy1), and [zxawry](https://github.com/zxawry).
 
 Thanks to everyone who took time from their busy days to help LBRY out!
  
@@ -29,7 +29,7 @@ Thanks to everyone who took time from their busy days to help LBRY out!
 ## Desktop app {#summary-desktop}
 Since our last development update, the app team shipped our next named release, [0.38.0](https://github.com/lbryio/lbry-desktop/releases/tag/v0.38.0), under codename [Isaac](https://lbry.com/news/isaac), as well as a patch fix with [0.38.2](https://github.com/lbryio/lbry-desktop/releases/tag/v0.38.2). 
 
-Isaac brings a myriad of new features, changes, and bug fixes to the LBRY user experience. On the surface, you’ll notice a revamp of the UI which includes both dark and light modes for better color contrast, consistency, and navigation. With the latest SDK loaded in this release, we added a new feature that allows users to customize the [wallet server](https://lbry.com/faq/wallet-servers) they are connecting to. [Read more below](#wallet-servers). 
+Isaac brings a myriad of new features, changes, and bug fixes to the LBRY user experience. On the surface, you’ll notice a revamp of the UI which includes both dark and light modes for better color contrast, consistency, and navigation. With our updated SDK, we added a new feature that allows users to customize the [wallet server](https://lbry.com/faq/wallet-servers) they are connecting to. [Read more below](#wallet-servers). 
 
 Other new features and changes in Isaac and since our last update include:
 - More languages: Dutch, Portuguese, Italian, Russian, Spanish, Gujarati, Hindi, Malay, Marathi, Panjabi, French, Turkish, Slovak, Chinese, and Swedish.
@@ -75,7 +75,7 @@ We’ve heard and listened to our community's feedback about improving the navig
 ![nav](https://spee.ch/3/navigation.png)
 
 ### Referral changes
-We’re also in the middle of revamping our referral program to make it easier for users to share referrals and claim referrers. Today, this is down via a long and ugly URL that takes users to lbry.com and we need to do some magic in the background to link up the referral and the invited user via IPs. Instead, we’ll be making the referral link point to a lbry.tv URL (e.g. https://lbry.tv/@MyChannel?referral) and the referrer will get set via our APIs directly. It will be possible for existing users to also claim a referrer if they haven’t done so already, and credit that channel with a reward. Both the referrer and referred will be eligible for an additional reward. We will also have a way for larger and verified channels to bypass the 10 max claim limit. Stay tuned in the next few weeks for these changes to go live! 
+We’re also in the middle of revamping our referral program to make it easier for users to share referrals and claim referrers. Today, this is accomplished via a long and ugly URL that takes users to lbry.com and we need to do some magic in the background to link up the referral and the invited user via IPs. Instead, we’ll be making the referral link point to a lbry.tv URL (e.g. https://lbry.tv/@MyChannel?referral) and the referrer will get set via our APIs directly. It will be possible for existing users to also claim a referrer if they haven’t done so already, and credit that channel with a reward. Both the referrer and referred will be eligible for an additional reward. We will also have a way for larger and verified channels to bypass the 10 max referral reward limit. Stay tuned in the next few weeks for these changes to go live! 
 
 ![referral](https://spee.ch/5/referee.png)
 
@@ -100,7 +100,7 @@ The main features and bug fixes include:
 ![sync](https://spee.ch/b/headers-sync.png)
 
 ### Transcoding of content on upload
-We are exploring an optional feature that will allow publishers to automatically transcode their video uploads so that they are widely supported across our various apps and lbry.tv. Will will require packaging ffmpeg along with the SDK and processing the file locally during the upload process. It will also ensure that the videos are web optimized for fast streaming. 
+We are exploring an optional feature that will allow publishers to automatically transcode their video uploads so that they are widely supported across our various apps and lbry.tv. This will require packaging ffmpeg along with the SDK and processing the file locally during the upload process. It will also ensure that the videos are web optimized for fast streaming. 
 
 ### Performance improvements for claim search and other APIs
 The team is aware of issues relating to claim searches that time out when a user’s followed list has many channels in it. This will be improved by optimizing the SQL calls that happen against the wallet server for larger lists of followed channel ids. In the meantime, we’ve increased the timeout to 1 second (previously 500ms) so that users have a better experience. We’re also noticing slower than expected performance of transaction related wallet calls which tend to lock up resources during heavier usage on lbry.tv - we’ll also be improving the performance and adding caching to support this use case. We’re continuing to monitor performance and response times across our servers to better understand current and future load requirements. 
@@ -146,7 +146,7 @@ Main features in Eclipse and since our last update include:
 - Better handling and communication around unsupported content.
 - Sorting on channel pages changed to be newest content first.
 
-The latest patch, [0.12.1](https://github.com/lbryio/lbry-android/releases/tag/0.12.1) includes view counts for content and followers, tipping on channels, and improve tip dialog. 
+The latest patch, [0.12.1](https://github.com/lbryio/lbry-android/releases/tag/0.12.1) includes view counts for content and followers, tipping on channels, and improved tip dialog. 
 
 ![eclipse](https://spee.ch/@lbrynews:0/android-eclipse.png)
 
@@ -161,7 +161,7 @@ Until recently, YouTube Sync rewards (for active channels with over 1K subs) wer
 
 ## More content creator rewards and reward levels
 
-Recently we rolled out with new rewards for content creators (for views and followers) and added additional levels to the following and many views rewards. This gives creators another reason to share LBRY with their audience, which is a win-win situation. Email and notifications on Android will be sent when you’ve reached the next threshold for the followers reward. You can read all about these changes in [our blog post](https://lbry.com/news/creator-rewards) or check out our [Rewards FAQ](/faq/rewards).
+Recently we rolled out new rewards for content creators (for views and followers) and added additional levels to the following and many views rewards. This gives creators another reason to share LBRY with their audience, which is a win-win situation. Email and notifications on Android will be sent when you’ve reached the next threshold for the followers reward. You can read all about these changes in [our blog post](https://lbry.com/news/creator-rewards) or check out our [Rewards FAQ](/faq/rewards).
 
 ![followers](https://spee.ch/@lbrynews:0/followers-lbry.png)
 
@@ -171,11 +171,11 @@ We’ve successfully accomplished a number of roadmap items fully, while others 
 Partially completed/still in progress are:
 * **Commenting** - Tipping with comments in the works, as well as deleting/editing, and hiding. 
 * **Creator Features** -  New content view rewards and monthly sync rewards are now live.
-* **Creator Partnerships** - no update since last month - in progress and will be announced next year
+* **Creator Partnerships** - No update since last month - in progress and will be announced next year
 * **LBRY on the Web** - lbry.tv keeps growing and handling more users.
 * **Multi-Device Experience** - Encryption/password change features in progress.
 * **Internationalization** - Many new languages on lbry.tv / Desktop, and first version out for mobile.
-* **Protocol Performance** - speed improvements in progress. 
+* **Protocol Performance** - Speed improvements in progress. 
 
 ## Limited Reward Code!
 We’ve got a special bonus for readers of this update, enjoy some LBC via this code (while supplies last!): `dev-dec-yahsd`
