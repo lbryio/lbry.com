@@ -29,6 +29,7 @@ Fireworks upgrades performance and includes a number of bug fixes and other usab
 - Updated to LBRY SDK 0.50.1 for improved stability and performance
 - Fixes an issue with subscribed channel content not loading in some scenarios
 - Fixes issues with synchronization of tags and subscriptions across sessions
-- For the full release notes, see both versions 0.12.1 and 0.12.2
+
+For the full release notes, see both versions [0.12.1](https://github.com/lbryio/lbry-android/releases/tag/0.12.1) and [0.12.2](https://github.com/lbryio/lbry-android/releases/tag/0.12.2)
 
 While it lasts, grab some LBC with reward code `fireworks-2020`!
