@@ -11,7 +11,7 @@ Today, LBRY releases LBRY Fireworks, which brings improved search, rich text sup
 
 [Download from Play Store](https://play.google.com/store/apps/details?id=io.lbry.browser) or [direct download](http://lbry.com/releases/lbry-android.apk).
 
-![fireworks](https://spee.ch/@lbry:3f/TOM-REPLACE-ME.jpeg)
+![fireworks](https://spee.ch/@lbrynews:0/fireworks-android.jpeg)
 
 Fireworks upgrades performance and includes a number of bug fixes and other usability improvements. 
 
