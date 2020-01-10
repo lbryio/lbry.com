@@ -104,7 +104,7 @@ Click `Remove`. If you abandoned your claim, you should see the deposit back in 
 
 ## Where is my content stored and shared from? {#blobs}
 
-Content uploaded is chunked up into 2MB files called blobs, and stored in your [lbrynet/blob files folder](https://lbry.com/faq/lbry-directories). These can be deleted if the fully is fully streamable on [https://lbry.tv](https://lbry.tv) or [spee.ch](https://spee.ch).
+Content uploaded is chunked up into 2MB files called blobs, and stored in your [lbrynet/blob files folder](https://lbry.com/faq/lbry-directories). These can be deleted if the video is fully streamable on [https://lbry.tv](https://lbry.tv) or [spee.ch](https://spee.ch).
 
 ## Can someone tip me for my content?
 Yes, check out how tipping in LBRY works by going [here](/faq/tipping).
