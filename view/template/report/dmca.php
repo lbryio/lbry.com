@@ -52,7 +52,7 @@
         <input type="submit" value="{{dmca.form_submit}}"/>
       </form>
 
-      <small class="meta">You may also submit content that you want to flag for being illegal. To learn more about reporting infringing or illegal content and DMCA procedures, please see our <a href="/faq/dmca">DMCA article</a>.</small>
+      <small class="meta">You may also submit content that you want to flag for being illegal, not marked Mature, or abusing the tag system. To learn more about reporting infringing or illegal content and DMCA procedures, please see our <a href="/faq/dmca">DMCA article</a>.</small>
     </div>
   </section>
 </main>
