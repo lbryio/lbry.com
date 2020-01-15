@@ -72,7 +72,7 @@
             <th>Your Sync Status</th>
             <th>Subscribers</th>
             <th>Videos</th>
-            <th>Expected Rewards</th>
+            <th>Expected Monthly Rewards</th>
           </tr>
         </thead>
 
