@@ -1,4 +1,4 @@
-<?php Response::addMetaImages($post->getImageUrls()) ?>
+<?php Response::addMetaImages($post->getImageUrls() ?: [Request::getHostAndProto() . '/img/og-faq.png?_cache=' . date('Y-m-d')]) ?>
 <?php Response::setMetaDescription(htmlspecialchars($post->getContentText(20, true))) ?>
 <?php NavActions::setNavUri('/learn') ?>
 

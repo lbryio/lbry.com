@@ -1,3 +1,4 @@
+<?php Response::addMetaImage(Request::getHostAndProto() . '/img/og-faq.png?_cache=' . date('Y-m-d')) ?>
 <?php Response::setMetaDescription(__('description.faq')) ?>
 
 <main class="ancillary">
