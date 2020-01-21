@@ -12,7 +12,7 @@ class DownloadActions extends Actions
 
     public static function executeDownloadReleaseAsset(string $repo, string $ext, bool $allowPrerelease = false)
     {
-        return Controller::redirect(GitHub::getRepoReleaseUrl($repo, OS::getOsForExtension($ext), $allowPrerelease) ?: '/get', 302);
+        return Controller::redirect(GitHub::getRepoReleaseUrl($repo, $ext, $allowPrerelease) ?: '/get', 302);
     }
 
     public static function executeDownloadSnapshot(string $type)
@@ -40,6 +40,7 @@ class DownloadActions extends Actions
       $osChoices = OS::getAll();
       list($uri, $osTitle, $osIcon) = $osChoices[$os];
       $params = [
+        'preferredExt' => $os === Os::OS_LINUX ? 'AppImage' : '',
         'osTitle' => $osTitle,
         'osIcon' => $osIcon,
         'osScreenshotSrc' => 'https://spee.ch/b/desktop-035-og.jpeg',
@@ -53,7 +54,7 @@ class DownloadActions extends Actions
       }
       else
       {
-        $asset = Github::getRepoAsset(GitHub::REPO_LBRY_DESKTOP, $os);
+        $asset = Github::getRepoAsset(GitHub::REPO_LBRY_DESKTOP, $os, $params['preferredExt']);
         $params['downloadUrl'] = $asset ? $asset['browser_download_url'] : null;
       }
 
@@ -132,21 +133,36 @@ class DownloadActions extends Actions
         $os = static::guessOS();
 
         if ($os && isset($osChoices[$os])) {
-            list($uri, $osTitle, $osIcon, $buttonLabel, $analyticsLabel) = $osChoices[$os];
+            list($uri, $osTitle, $osIcon, $oldButtonLabel, $analyticsLabel) = $osChoices[$os];
 
             if ($os !== OS::OS_ANDROID) {
-              $asset = Github::getRepoAsset(GitHub::REPO_LBRY_DESKTOP, $os);
+              $asset = Github::getRepoAsset(GitHub::REPO_LBRY_DESKTOP, $os, $vars['preferredExt'] ?? '');
             } else {
               $asset = ['browser_download_url' => static::ANDROID_STORE_URL];
             }
 
+          $buttonLabel = __('download.for-os2', ['%os%' => OS::OS_DETAIL($os)[1]]);
+          if (isset($vars['preferredExt']) && $vars['preferredExt']) {
+            $buttonLabel = __('Download .%ext%', ['%ext%' => $vars['preferredExt']]);
+          }
+
           $vars += [
             'analyticsLabel' => $analyticsLabel,
             'buttonLabel' => $buttonLabel,
+            'isDownload' => true,
             'downloadUrl' => $asset ? $asset['browser_download_url'] : null,
             'os' => $os,
+            'skipRender' => isset($vars['preferredExt']) && $vars['preferredExt'] &&
+                              substr_compare($asset['browser_download_url'], $vars['preferredExt'], -strlen($vars['preferredExt'])) !== 0,
             'isAuto' => Request::getParam('auto'),
           ];
+
+
+
+            if ($os === OS::OS_LINUX && !isset($vars['preferredExt'])) {
+              $vars['isDownload'] = false;
+              $vars['downloadUrl'] = '/linux';
+            }
         }
 
         return $vars;

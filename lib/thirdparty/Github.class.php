@@ -10,7 +10,7 @@ class Github
         switch ($os) {
             case OS::OS_LINUX:
                 return
-                    in_array($ext, ['deb']) ||
+                    in_array($ext, ['deb', 'AppImage']) ||
                     in_array($asset['content_type'], ['application/x-debian-package', 'application/x-deb']) ||
                     stripos($asset['name'], 'linux') !== false;
             case OS::OS_OSX:
@@ -30,7 +30,7 @@ class Github
         }
     }
 
-    protected static function findReleaseAssetForOs(array $release, string $os)
+    protected static function findReleaseAsset(array $release, string $os, string $preferredExt = '')
     {
         if (!in_array($os, array_keys(OS::getAll()))) {
             throw new DomainException('Unknown OS');
@@ -40,11 +40,21 @@ class Github
             throw new Exception('Release array missing assets - possible GitHub auth failure, auth limit, and/or inspect releases array');
         }
 
+        $bestAsset = null;
         foreach ($release['assets'] as $asset) {
             if (static::isAssetForOs($asset, $os)) {
-                return $asset;
+              if (!$bestAsset) {
+                $bestAsset = $asset;
+              } else if ($os === Os::OS_LINUX) {
+                $ext = pathinfo($asset['name'], PATHINFO_EXTENSION);
+                if ($ext === $preferredExt || (!$preferredExt && $ext === 'AppImage')) {
+                  $bestAsset = $asset;
+                }
+              }
             }
         }
+
+        return $bestAsset;
     }
 
     public static function getRepoRelease($repo, $prerelease = false, $cache = true)
@@ -63,16 +73,17 @@ class Github
         return null;
     }
 
-    public static function getRepoAsset($repo, $os, $prerelease = false, $cache = true)
+    public static function getRepoAsset($repo, $os, $preferredExt = '', $prerelease = false, $cache = true)
     {
         $release = static::getRepoRelease($repo, $prerelease, $cache);
-        return $release ? static::findReleaseAssetForOs($release, $os) : null;
+        return $release ? static::findReleaseAsset($release, $os, $preferredExt) : null;
     }
 
 
-    public static function getRepoReleaseUrl($repo, $os, bool $prerelease = false, $cache = true)
+    public static function getRepoReleaseUrl($repo, $ext, bool $prerelease = false, $cache = true)
     {
-        $asset = static::getRepoAsset($repo, $os, $prerelease, $cache);
+        $os = OS::getOsForExtension($ext);
+        $asset = static::getRepoAsset($repo, $os, $ext, $prerelease, $cache);
         return $asset ? $asset['browser_download_url'] : null;
     }
 

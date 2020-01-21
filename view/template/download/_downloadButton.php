@@ -1,15 +1,24 @@
-<?php if ($downloadUrl): ?>
+<?php if ($skipRender): ?>
+<?php elseif ($downloadUrl): ?>
   <?php if ($os !== OS::OS_ANDROID): ?>
-    <a class="button button--<?php echo $buttonStyle?>"
-      download
-      href="<?php echo $downloadUrl ?>"
-      id="get-download-btn"
-      data-facebook-track="1"
-      data-analytics-category="Sign Up"
-      data-analytics-action="Download"
-      data-analytics-label="<?php echo $analyticsLabel ?>"
-      title="Download our app"
-    ><?php echo __('download.for-os2', ['%os%' => OS::OS_DETAIL($os)[1]]) ?></a>
+    <?php if ($isDownload): ?>
+      <a class="button button--<?php echo $buttonStyle?>"
+        download
+        href="<?php echo $downloadUrl ?>"
+        id="get-download-btn"
+        data-facebook-track="1"
+        data-analytics-category="Sign Up"
+        data-analytics-action="Download"
+        data-analytics-label="<?php echo $analyticsLabel ?>"
+        title="Download LBRY App"
+      ><?php echo $buttonLabel ?></a>
+    <?php else: ?>
+      <a class="button button--<?php echo $buttonStyle?>"
+         href="<?php echo $downloadUrl ?>"
+         id="get-download-btn"
+         title="Download LBRY App"
+      ><?php echo $buttonLabel ?></a>
+    <?php endif ?>
   <?php else: ?>
     <a
       class="button button--google-play"
