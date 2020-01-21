@@ -73,11 +73,13 @@
 /get/lbrynet.macos.zip:   /releases/lbry.pkg
 /get/lbrynet.osx.zip:     /releases/lbry.pkg
 /get/lbry.deb:            /releases/lbry-desktop.deb
+/get/lbry.AppImage:       /releases/lbry-desktop.AppImage
 /get/lbry.dmg:            /releases/lbry-desktop.dmg
 /get/lbry.pkg:            /releases/lbry-desktop.dmg
 /get/lbry.exe:            /releases/lbry-desktop.exe
 /get/lbry.msi:            /releases/lbry-desktop.exe
 /get/lbry.pre.deb:        /releases/pre/lbry-desktop.deb
+/get/lbry.pre.AppImage:   /releases/pre/lbry-desktop.AppImage
 /get/lbry.pre.dmg:        /releases/pre/lbry-desktop.dmg
 /get/lbry.pre.pkg:        /releases/pre/lbry-desktop.dmg
 /get/lbry.pre.exe:        /releases/pre/lbry-desktop.exe
