@@ -10,7 +10,8 @@ category: update
 
 Today, LBRY releases LBRY Joule for Windows, macOS, and Linux. This new release adds a brand new homepage, improved navigation, and more.
 
-[Download Joule for desktop](https://lbry.com/get) [Use LBRY in your browser](https://lbry.tv)
+- [Download Joule for desktop](https://lbry.com/get) 
+- [Use LBRY in your browser](https://lbry.tv)
 
 The new homepage brings larger tiles and offers a mix of content, rather than a single, specific view. The homepage view will look different depending on the number of channels and tags you follow. In general, the navigation has made it easier and clearer how to get back to content you like, as well as content you create.
 
