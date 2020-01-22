@@ -19,8 +19,15 @@
           <p>Securely download the LBRY app here, and see what all the fuss is about!</p>
           <?php $metaHtml = $os !== OS::OS_ANDROID ? View::Render('download/_meta') : false ?>
           <?php echo View::Render('download/_downloadButton', [
-            'buttonStyle' => 'primary'
+            'buttonStyle' => 'primary',
+            'preferredExt' => $preferredExt
           ])?>
+        <?php if ($os === OS::OS_LINUX && $preferredExt === 'AppImage'): ?>
+          <?php echo View::Render('download/_downloadButton', [
+            'buttonStyle' => 'primary',
+            'preferredExt' => 'deb'
+          ])?>
+        <?php endif ?>
 
           <?php if ($os === OS::OS_ANDROID): ?>
             <p style="font-size: 0.8rem;">You can also <a href="http://lbry.com/releases/lbry-android.apk" title="Download our Android app directly">download</a> our Android app directly</p>

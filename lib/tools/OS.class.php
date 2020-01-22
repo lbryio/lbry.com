@@ -83,6 +83,7 @@ class OS
     {
         switch ($ext) {
       case 'deb':
+      case 'AppImage':
         return OS::OS_LINUX;
 
       case 'dmg':
