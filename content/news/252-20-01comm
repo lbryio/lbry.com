@@ -1,0 +1,188 @@
+--- 
+author: julie-sigwart
+title: 'Wrapping up 2019 and looking into 2020 Community update!'
+date: '2020-01-24 18:00:00'
+cover: '2020goldlights.jpg'
+category: community-update
+---
+
+Here come the Roaring 20s! We finished strong in 2019, increasing our user base by more than 1500% (that’s 15x!), and we can’t wait to tackle 2020! All of our apps have changed dramatically, new features have been added, and we had a slew of press coverage recently.
+
+![YouTube boot](https://spee.ch/7/qeJp3LYGNTFrUOPd8HNvcUEj.jpeg)
+
+## In this update {#updates}
+* [So long 2019 (and YouTube), hello to Content Freedom 2020!](#wrapup)
+* [What's new at LBRY?](#news)
+* [LBRY Foundation and the Swarm](#swarm)
+* [LBRY Foundation logo contest - up to 70,000 LBC in prizes to be awarded](#contest)
+* [Internationalization update](#i18n)
+* [The cherry on the top](#treat)
+
+### So long 2019 (and YouTube), hello to Content Freedom 2020! {#wrapup}
+
+All of our projects have progressed significantly since our last community report, and 2019 was an amazing year. Some of our achievements:
+
+- [LBRY on the web, lbry.tv, is introduced](https://lbry.tv)
+- App Internationalization: our community contributed 39 languages to LBRY apps
+- Launch of Swarm program and LBRY Foundation
+- Commenting on content launched
+- Much better creator features and control
+- Improved discovery
+- Launch of Chainquery
+- A single LBRY account across all your devices
+- Protocol improvements including faster resolution and fewer errors
+- Overall more robust network
+- File tagging, more new metadata 
+
+CEO Jeremy Kauffman will publish a 2019 wrapup blog, and we'll reveal our 2020 Roadmap by the end of January.
+
+### What's new at LBRY? {#news}
+
+#### YouTube gave LBRY an amazing Christmas present
+
+With the rise of YouTube stars, the legal path for tech companies like Google is unclear. Bumbling along, Google released new YouTube terms of service on December 10 designed to address the Children's Online Privacy Protection Act (COPPA.) 
+
+While this may help YouTube comply with the law, the bottom line for YouTubers meant more demonetization of their content, fewer views of their videos, and many unanswered questions about what kind of legal jeopardy they might face, including huge fines.
+
+LBRY community member [@neohumaneve](https://lbry.tv/@neohumaneve:e?r=J9AzYYBK8iuEiH53V5PgyYUJqbvzJsnW) contributed this video about the situation:
+
+[Escape from YouTube](https://lbry.tv/@neohumaneve:e/Escape-YouTube:8)
+
+![Escape card](https://spee.ch/8/M2i88IwngJsZwYuUFRzSpiYe.jpeg)
+
+Included among the changes, was a disclaimer that YouTube could terminate services (including access to Google services) if they deemed your content was not "commercially viable." 
+
+Many folks dismissed YouTube's terms of service change as "Business as normal," and that it was no big deal. 
+
+Abruptly on December 23, YouTube gave hundreds of creators of cryptocurrency-related content a strike, locked them out of their channels, or outright deleted some channels and Google accounts entirely. Learn more about this and how to find/support these creators on LBRY on our [blog post regarding the crackdown](https://lbry.com/news/youtubecryptocrackdown).
+
+[Horror stories emerged](https://www.businessinsider.com/markiplier-youtube-fans-heist-lost-access-google-accounts-spamming-emotes-2019-11) of folks who lost their longtime Google account (including access to their gmail address) when their YouTube account was terminated.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Glad they&#39;re still on LBRY! Sneaky of YouTube to do this to all the crypto content creators right before Christmas when everyone is distracted. View Lark&#39;s videos here: <a href="https://t.co/AJuCrQa80f">https://t.co/AJuCrQa80f</a> <a href="https://t.co/PeYm9nQwdG">https://t.co/PeYm9nQwdG</a></p>&mdash; LBRY (@LBRYio) <a href="https://twitter.com/LBRYio/status/1209613709472980993?ref_src=twsrc%5Etfw">December 24, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+A huge influx of users rushed to LBRY, and despite some growing pains, the network scaled well, and LBRY received good press coverage:
+
+- Cointelegraph: [Cryptocurrency Influencers Speak Out On YouTube Deleting Crypto-Related Content ](https://cointelegraph.com/news/cryptocurrency-influencers-speak-out-on-youtube-deleting-crypto-related-content)
+- Cointelegraph: [YouTube Reinstates More Crypto-Related Content, Admits To Mistake Via Twitter](https://cointelegraph.com/news/youtube-reinstates-more-crypto-related-content-admits-to-mistake-via-twitter )
+- Cointelegraph: [What’s Next For YouTubers Impacted By Crypto-Related Content Ban?](https://cointelegraph.com/news/whats-next-for-youtubers-impacted-by-crypto-related-content-ban)
+ _“Building a business or a following on YouTube is building on quicksand. YouTube regularly censors and bans creators, with capricious and arbitrary rules enforcement.”_
+- Coinspice: [Christmas Massacre: YouTube Begins Crackdown on Crypto as LBRY Tried to Warn Content Creators](https://coinspice.io/news/christmas-massacre-youtube-begins-crackdown-on-crypto-as-lbry-tried-to-warn-content-creators/) 
+ _"Decentralized, crypto-friendly platform LBRY seized the opportunity. “Sneaky of YouTube to do this to all the crypto content creators right before Christmas when everyone is distracted.” Earlier this month LBRY highlighted coming changes to the YouTube platform. “Escape YouTube before it’s too late,” the company urged, which turned out to be very good advice."_
+- Bitcoin.com: [Youtube 'Christmas Purge' Has Content Creators Pointing to These Alternate Platforms](https://news.bitcoin.com/youtube-christmas-purge-has-content-creators-pointing-to-these-alternate-platforms/) 
+- Altcoinbuzz: [Decentralized Alternatives to Youtube](https://www.altcoinbuzz.io/bitcoin-and-crypto-guide/decentralized-alternatives-to-youtube/ )
+- Cryptocracy: [Special Edition: YouTube's War on Crypto Content
+Refugee video creators are migrating to LBRY with a hope and a prayer](https://cryptocracy.substack.com/p/special-edition-youtubes-war-on-crypto)
+- Yahoo: [YouTube has restored deleted videos from crypto channels](https://finance.yahoo.com/news/youtube-restored-deleted-videos-crypto-103023456.html)
+- Bitcoin Warrior: [Crypto YouTubers claim platform is censoring their videos](https://bitcoinwarrior.net/2019/12/crypto-youtubers-claim-platform-is-censoring-their-videos/)
+
+#### Joule for desktop released
+
+LBRY Joule brings many great updates such as a brand new homepage, improved navigation, invites and more.
+
+The new homepage brings a grid of content tiles and offers a mix of content depending on the number of channels and tags you follow. Navigation changes have made it easier to return to content you like, as well as your published content.
+
+Full details of the Joule release [are here.](https://open.lbry.com/@lbry:3f/joule:a?r=J9AzYYBK8iuEiH53V5PgyYUJqbvzJsnW)
+
+![Joule](https://spee.ch/@lbrynews:0/lbry-joule.gif)
+
+#### Fireworks for Android released
+The new Android Fireworks release adds improved search, rich text support, a better video play experience, channel view and play counts, and more. 
+
+- [Download from the Play Store](https://play.google.com/store/apps/details?id=io.lbry.browser&_ga=2.119991816.1200782483.1578512453-972114350.1553020414)
+
+Full details and changes are available [on our blog.](https://open.lbry.com/@lbry:3f/android-fireworks:d?r=J9AzYYBK8iuEiH53V5PgyYUJqbvzJsnW)
+
+#### Searching on LBRY
+If you’ve used LBRY recently, you may have noticed improved search results - that’s because we’ve made large strides with our search algorithm to better process and spit out more relevant and timely results. This includes putting some weight on newer content and taking into account better multi-word scenarios. You can now also put quotes around entire phrases for exact search matches. We will continue to improve this area of the LBRY experience by adding additional filters and sorting criteria in the coming months.  
+
+#### Wallet servers {#wallet-servers}
+Adding an option to select [wallet servers](https://lbry.com/faq/wallet-servers) is a large step towards our goal to further decentralize the LBRY apps and allows different communities to customize their view of the LBRY network, including search results, trending, and block lists.
+
+One such example is a community member (@EF on Discord) who is running an alternative trending algorithm on his server, connect to it to check it out: 199.192.31.122:50001. If a server is unavailable on startup, it will default back to the known lbry.tv wallet servers. We’ve also dockerized the process to make it super simple to run, check out our guide on lbry.tech.
+
+#### Invites changes
+We have revamped our invites program to make it easier for users to share referrals and claim referrers. You can access your invites link [here](https://open.lbry.com/?invite) and learn more on our [FAQ](https://lbry.com/faq/invites).
+
+![invites](https://spee.ch/7/invites6.jpg)
+
+#### Support for more file types and downloads on lbry.tv
+We now support additional file types for viewing in the web experience - this includes markdown, text, HTML, and PDF. You can now also save content from lbry.tv using the download button! 
+
+![md](https://spee.ch/c/file-types-1.png)
+
+### LBRY Foundation and the Swarm {#swarm}
+Our community held its first election, adding community member Jon Ringo to our foundation board. 
+
+The results were extremely tight - a single vote could have changed the outcome. All of the candidates are standouts among our community, and we're looking forward to adding another two board seats soon.
+
+![Jon Ringo](https://spee.ch/7/dUmxRoqH3PRTxv01CK7jv3RJ.jpeg)
+
+We're very excited Jon has joined us! He brings relevant experience from the Gridcoin community as a Core contributor, Twitter Admin, Github Repo Organizer, and is their Discord Moderator.
+
+Intro from Jon’s candidate statement:
+
+_”Hi there. My name is Jon, I come from the US, I received a few humanities degrees from one of those sciency ivy-esque schools several years ago. I made a pilgrimage to Zuccotti park during OWS, started my first successful long-term business, and learned about Bitcoin shortly thereafter. I have been involved with crypto in some form ever since. As a result I have been following LBRY (and a lot of other projects) since their release. Gridcoin is the project to which I have dedicated much of my time during the past few years, and a project I have been directly involved in since 2013. While my certificates say "humanities", economics, FOSS, and human/network/complex systems science have been my fields of study for some time now”_
+
+Some skills Jon brings to the LBRY Foundation:
+
+- Experience in communicating from small teams to large groups
+- A focus on the big picture
+- 15+ years of business, media, and on/offline community development experience
+- Nearly 3 years of crypto community, infrastructure, and organization development in a FOSS environment
+- 6+ years of crypto experience
+
+#### Want to participate in LBRY Foundations future? Please make sure you add the lbryian role on Discord to gain access to the Swarm-related channels
+
+1. After joining the main Discord at chat.lbry.com, type "!addrole lbryian" in #bots-and-roles channel to be added to the Swarm governance channel.
+
+2. Edit your email preferences (click the link in the footer of every email LBRY has sent you) and ensure the lbry.org box is checked.
+
+Come chat with us on Discord to get involved!
+
+### LBRY Foundation logo contest - up to 70,000 LBC in prizes to be awarded
+
+The LBRY Foundation is asking for submissions for its logo design. You are tasked with creating a logo for the LBRY Foundation that embodies your vision of LBRY’s implementation of decentralized and independent technology. This will be the logo used on the Foundation's website and other materials.
+
+**There will be two rounds to the contest.**
+
+**Round 1 - Submissions**
+Round one will be open to everyone. To participate, submit your design to the #logo-contest-submissions channel on the [LBRY Discord](https://chat.lbry.com). Please keep any discussion about designs or about the contest in the #logo-contest-discussion channel. ** Submission deadline: January 31, 2020, 11:59 ET.**
+
+**Round 1 - Voting**
+Everyone will be able to vote on the round one logos from February 1 through February 7th. The full details on the voting process will be released prior to the start of the voting period.
+
+**Round 1 - Winners**
+The top 20 designs will receive 1,000 LBC
+
+Round 2 - Finalists refine concepts
+The LBRY Foundation board will choose 5 of the top 20 designs to participate in round 2. Each of these designs will receive an additional 5,000 LBC.
+
+The submitters of these designs will be given feedback and an additional week to modify anything they’d like. Final designs must be submitted to the Foundation board by February 17th.
+
+LBRY Veterans will vote on a final design starting February 17th and ending on February 21th. The full details on the voting process will be released prior to the start of the voting period.
+
+The winner will be announced on February 15th and receive an additional 25,000 LBC.
+
+Good luck everyone! Submissions are open, and we’re looking forward to seeing your concepts!
+
+### LBRY app language translations {#i18n}
+
+21 languages have been translated by the LBRY community and are live in the app! We still are seeking volunteers to help translate to add more languages and to update the current translations as new strings are added to the apps.
+
+You can sign up for your [language or request a new language](https://www.transifex.com/lbry/) for the Desktop and mobile projects in Transifex.
+
+If you have been helping translate, we ask you please continue to [check Transifex for new strings](https://www.transifex.com/lbry/). We are continually updating and adding new features to both the Desktop/Web app and the Mobile app.
+
+### The cherry on the top 🍒 {#treat}
+
+2020 is going to be cherry! Enter custom code `lbry-is-cherry` in the app and we'll give you a nice treat!
+
+## Want to develop on the LBRY ecosystem?
+
+All of our code is open source and available on [GitHub](https://github.com/lbryio). Are you a developer and want to find out more? Check out our [contributing guide](https://lbry.tech/contribute) and our [LBRY App specific contributing document](https://github.com/lbryio/lbry-app/blob/master/CONTRIBUTING.md). Make sure you have turned on the Developer option in your email preferences (see app overview page), or sign up at [lbry.tech](https://lbry.tech). We also have a [LBRY Discourse Forum](https://discourse.lbry.io) where developers can interact with the team and ask questions across all our different projects. 
+
+If you aren’t part of our Discord community yet, [join us](https://chat.lbry.com) anytime and say hello! Our community allows LBRYians to interact with the team directly and for us to engage users and grow the LBRY platform. If you don't already, follow us on [Twitter](https://twitter.com/lbryio), [Facebook](https://facebook.com/lbryio), [Reddit](https://www.reddit.com/r/lbry), and [Telegram](https://t.me/lbryofficial).
+
+[Back to **Community Updates**](#updates)
+
+Thanks for supporting LBRY - stay tuned for more news and updates! And if you haven’t downloaded the [LBRY app](https://lbry.com/get?auto=1) or checked out [lbry,tv](https://lbry.tv) yet, what are you waiting for?
