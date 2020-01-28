@@ -27,7 +27,7 @@
     <div class="inner-wrap">
       <h3>For Journalists</h3>
 
-      <iframe src="https://spee.ch/video-embed/6/AntiMediaVideo" allowfullscreen="true" style="border: 0"/>
+ <iframe width="560" height="315" src="https://lbry.tv/$/embed/AntiMediaVideo/6d624d1cb89f619b47f36c3971edd7fd47bc5efe" allowfullscreen></iframe>
 
       <p>We want to help independent media make the move to a decentralized future, which is why we support individuals and outlets doing this invaluable work, and why we want to make LBRYPress freely available. We also want to offer our support through LBRY.fund, a grant program to help people take full advantage of the new technology that LBRY has created.</p>
 
