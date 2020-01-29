@@ -9,7 +9,7 @@ category: update
 
 ## This is the only crypto puzzle to combine juggling, math, language, and a whole lot more into a challenging (and rewarding) package!
 
-<iframe src="https://spee.ch/video-embed/@juggling:1/siteswapping" allowfullscreen="true" style="border:0"></iframe>
+<iframe width="560" height="315" src="https://lbry.tv/$/embed/siteswapping/7deefad0ace0867cde5541ce9c08120c7bff5eb4" allowfullscreen></iframe>
 
 ## Watch the video to get started!
 
