@@ -4,7 +4,7 @@ category: LBRY 101
 order: 1
 ---
 
-<video width="600" autoplay loop poster="https://spee.ch/f/2019-08-lbry-interface-poster.jpg" playsinline>
+<video autoplay loop poster="https://spee.ch/f/2019-08-lbry-interface-poster.jpg" playsinline>
    <source src="https://spee.ch/b/2019-09-lbry-interface-webm-2.webm" type="video/webm">
    <source src="https://spee.ch/0/2019-09-lbry-interface-mp4-2.mp4" type="video/mp4"></video>
           
