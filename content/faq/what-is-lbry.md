@@ -4,6 +4,11 @@ category: LBRY 101
 order: 1
 ---
 
+<video autoplay loop poster="https://spee.ch/f/2019-08-lbry-interface-poster.jpg" playsinline>
+   <source src="https://spee.ch/b/2019-09-lbry-interface-webm-2.webm" type="video/webm">
+   <source src="https://spee.ch/0/2019-09-lbry-interface-mp4-2.mp4" type="video/mp4">
+</video>
+          
 For most users, LBRY will be a place where they can find great videos, music, ebooks, and more: imagine a vast digital library that is available on all of your devices. But under the hood, LBRY is many components working together.
 
 First and foremost, LBRY is a new *protocol* which allows anyone to build apps that interact with digital content on the LBRY network. Apps built using the protocol allow creators to upload their work to the LBRY network of hosts (like BitTorrent), to set a price per stream or download (like iTunes) or give it away for free (like YouTube without ads). The work you publish could be videos, audio files, documents, or any other type of file.
