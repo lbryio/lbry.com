@@ -34,11 +34,11 @@ If you’re not familiar with Bitcoin or that previous sentence did not make sen
 
 ## Words words blah blah blah. Do you have some kind of epic video?
 
-[![](https://spee.ch/6/u1VjxjEpELmEM7Tfxc15QNi0.png)](https://lbry.tv/@lbry:3f/befreeonlbry:5 "Watch Be Free on LBRY")
+<video controls poster="https://spee.ch/6/u1VjxjEpELmEM7Tfxc15QNi0.png" src="https://player.lbry.tv/content/claims/befreeonlbry/56cbb8e075d0f1971b311c9c9d82e0bf91919710/stream.mp4"></video>
 
 ## Well thanks now my American eagle is crying, but it didn’t actually tell me much about what I can do on LBRY. Do you have a less epic video, maybe one showcasing creators on LBRY with cheerful pop music?
 
-[![](https://spee.ch/3/DVFysUg8wSz8ksuVseaI2Z2B.png)](https://lbry.tv/@lbry:3f/meetlbrytv:c "Watch meet lbry.tv")
+<video controls poster="https://spee.ch/3/DVFysUg8wSz8ksuVseaI2Z2B.png" src="https://player.lbry.tv/content/claims/meetlbrytv/c6c0a5caa6cc391696e1270e33cd9d24ee7c2d52/stream.mp4"></video>
 
 ## Maybe you could just list some what you can find on LBRY?
 
