@@ -38,7 +38,7 @@ Jeremy is a great follow for prompt coverage of hot topics in gaming, culture, a
 
 #### [Calm Down On China Coronavirus! Media Profits From Fear](https://open.lbry.com/@TheQuartering:1/calm-down-on-china-coronavirus-media:8)
 
-<video controls poster="(https://thumbnails.lbry.com/F9gtmIzk_-g" src="https://player.lbry.tv/content/claims/calm-down-on-china-coronavirus-media/8956d003cb5f6c262ffb6b83a2dccb1e27cd0081/stream.mp4"></video>
+<video controls poster="https://thumbnails.lbry.com/F9gtmIzk_-g" src="https://player.lbry.tv/content/claims/calm-down-on-china-coronavirus-media/8956d003cb5f6c262ffb6b83a2dccb1e27cd0081/stream.mp4"></video>
 
 ### The Greatest Hits
 
