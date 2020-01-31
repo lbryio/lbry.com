@@ -30,7 +30,7 @@ Jeremy is a great follow for prompt coverage of hot topics in gaming, culture, a
 
 #### [Warcraft 3: Reforged Is A Total DISGRACE & Blizzard's New RIDICULOUS Policy!](https://open.lbry.com/@TheQuartering:1/warcraft-3-reforged-is-a-total-disgrace:2)
 
-<video controls poster="https://thumbnails.lbry.com/w6b78tyr0nQ" src="https://player.lbry.tv/content/claims/warcraft-3-reforged-is-a-total-disgrace/29663cf285a45cad897ebfa7e4a9fe2663121e01"></video>
+<video controls poster="https://thumbnails.lbry.com/w6b78tyr0nQ" src="https://player.lbry.tv/content/claims/warcraft-3-reforged-is-a-total-disgrace/29663cf285a45cad897ebfa7e4a9fe2663121e01/stream"></video>
 
 #### [Youtube Just DESTROYED An ENTIRE Genre Of Videos! Please Help! (watch this and tell them about LBRY!)](https://open.lbry.com/@TheQuartering:1/youtube-just-destroyed-an-entire-genre:2)
 
