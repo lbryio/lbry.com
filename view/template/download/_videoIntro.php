@@ -1,3 +1,3 @@
 <figure class="video">
-  <video src="https://spee.ch/@PremiumTrends:7/LBRYApp.mp4" poster="https://spee.ch/@thumbnails:e7b0620f6e5a56031cbfc8b9373b02d6ed63c39c/hellolbry-forweb-thumb.jpg" controls/>
+  <video controls poster="https://spee.ch/3/DVFysUg8wSz8ksuVseaI2Z2B.png" src="https://player.lbry.tv/content/claims/meetlbrytv/c6c0a5caa6cc391696e1270e33cd9d24ee7c2d52/stream.mp4"></video>
 </figure>
