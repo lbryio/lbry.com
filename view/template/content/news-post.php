@@ -3,9 +3,13 @@
 <?php NavActions::setNavUri('/news') ?>
 
 <main class="news ancillary">
-  <section
-    class="hero hero--news<?php echo $post->getCover() ? '' : ' hero--half-height'?>"<?php echo $post->getCover() ? ' style="background-image: url(\'/img/blog-covers/' . $post->getCover() . '\')"' : ''?>
-  >
+    <?php $bgStyle = '' ?>
+    <?php if ($post->getCover()): ?>
+        <?php $bgStyle = preg_match('/https?:\//', $post->getCover()) ?
+            ' style="background-image: url(\'' . $post->getCover() . '\')"' :
+            ' style="background-image: url(\'/img/blog-covers/' . $post->getCover() . '\')"' ?>
+    <?php endif ?>
+  <section class="hero hero--news<?php echo $post->getCover() ? '' : ' hero--half-height'?>" <?php echo $bgStyle ?>>
     <div class="inner-wrap inner-wrap--center-hero">
       <h1><?php echo nl2br(htmlentities($post->getTitle())) ?></h1>
       <h2>
