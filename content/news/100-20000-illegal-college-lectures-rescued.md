@@ -5,7 +5,7 @@ date: '2017-03-15 00:09:00'
 cover: 'berkeley-banner.jpg'
 ---
 
-**Update 12/21/2019: just looking to access these videos? Check out the [@UCBerkeley channel on lbry.tv](https://lbry.tv/@UCBerkeley:d) or [download the app](https://lbry.com/get) and go to [lbry://@UCBerkeley:d]([lbry://@UCBerkeley:d]).** 
+**Update 12/21/2019: just looking to access these videos? Check out the [@UCBerkeley channel on lbry.tv](https://lbry.tv/@UCBerkeley:d) or [download the app](https://lbry.com/get) and go to [lbry://@UCBerkeley:d](lbry://@UCBerkeley:d).** 
 
 Today, the University of California at Berkeley has deleted 20,000 college lectures from its YouTube channel. Berkeley removed the videos because of a lawsuit brought by two students from another university under the Americans with Disabilities Act.
 
