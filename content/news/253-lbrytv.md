@@ -42,9 +42,9 @@ If you’re not familiar with Bitcoin or that previous sentence did not make sen
 
 ## Maybe you could just list some what you can find on LBRY?
 
-- Hundreds of huge YouTubers, like [Veritasium]([https://lbry.tv/@veritasium:f](https://lbry.tv/@veritasium:f)), [minutephysics]([https://lbry.tv/@MinutePhysics:5](https://lbry.tv/@MinutePhysics:5)), [John Stossel]([https://lbry.tv/@johnstossel:7](https://lbry.tv/@johnstossel:7)), and [3Blue1Brown]([https://lbry.tv/@3Blue1Brown:b](https://lbry.tv/@3Blue1Brown:b)). Tens of thousands of popular YouTubers co-publish or publish unique content to LBRY.
-- Hollywood films, including the catalog from [Oscilloscope Studios]([https://lbry.tv/@oscopelabs:4](https://lbry.tv/@oscopelabs:4)), which includes award-winning films starring actors like James Franco, Julia Stiles, David Cross and more.
-- Creators who stand up for free speech and free expression like [Jordan Peterson]([https://lbry.tv/@JordanBPeterson:c](https://lbry.tv/@JordanBPeterson:c)), [Benjamin Boyce]([https://lbry.tv/@BenjaminABoyce:2](https://lbry.tv/@BenjaminABoyce:2)), [Justin Murphy]([https://lbry.tv/@justinmurphy:0](https://lbry.tv/@justinmurphy:0)) and more.
+- Hundreds of huge YouTubers, like [Veritasium](https://lbry.tv/@veritasium:f), [minutephysics](https://lbry.tv/@MinutePhysics:5), [John Stossel](https://lbry.tv/@johnstossel:7), and [3Blue1Brown](https://lbry.tv/@3Blue1Brown:b). Tens of thousands of popular YouTubers co-publish or publish unique content to LBRY.
+- Hollywood films, including the catalog from [Oscilloscope Studios](https://lbry.tv/@oscopelabs:4), which includes award-winning films starring actors like James Franco, Julia Stiles, David Cross and more.
+- Creators who stand up for free speech and free expression like [Jordan Peterson](https://lbry.tv/@JordanBPeterson:c), [Benjamin Boyce](https://lbry.tv/@BenjaminABoyce:2), [Justin Murphy](https://lbry.tv/@justinmurphy:0) and more.
 - [20,000 top college lectures that almost disappeared](https://lbry.com/news/20000-illegal-college-lectures-rescued) forever due to threat of censorship.
 - All kinds of weird and original gems.
 
