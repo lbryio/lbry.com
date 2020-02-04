@@ -112,10 +112,13 @@ class Controller
 
         $router->get(['/get', 'get'], 'DownloadActions::executeGet');
         $router->get(['/getrubin', 'getrubin'], 'DownloadActions::executeGet');
+
         foreach (array_keys(OS::getAll()) as $os) {
-            $router->get(['/' . $os, 'get-' . $os], 'DownloadActions::executeGet');
+          $router->get(['/' . $os, 'get-' . $os], 'DownloadActions::executeGet');
         }
+
         $router->get('/roadmap', 'ContentActions::executeRoadmap');
+        $router->get('/roadmap/{year}', 'ContentActions::executeRoadmap');
 
         $router->post('/postcommit', 'OpsActions::executePostCommit');
         $router->post('/log-upload', 'OpsActions::executeLogUpload');
