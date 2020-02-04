@@ -165,12 +165,19 @@ class ContentActions extends Actions
         return Controller::redirect('https://lbry.tech/contribute');
     }
 
-    public static function executeRoadmap()
+    public static function executeRoadmap(string $year = '2000')
     {
         $cache = !Request::getParam('nocache');
+        $years = range(2019, 2020);
+
+        if (!in_array($year, $years)) {
+          Controller::redirect('/roadmap');
+        }
 
         return ['content/roadmap', [
-          'items' => Github::listRoadmapItems($cache)
+          'year' => $year,
+          'years' => $years,
+          'items' => Github::listRoadmapItems($year, $cache)
         ]];
     }
 

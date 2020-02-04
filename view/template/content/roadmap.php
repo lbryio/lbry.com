@@ -10,31 +10,46 @@
 
   <section>
     <div class="inner-wrap">
-      <p>Our top priorities, definitions of success, and target completion dates for key initiatives in <?php echo date('Y') ?> are outlined below.</p>
+      <p class="align-text--center">Top priorities, definitions of success, status, and target completion dates for key initiatives in
+        <select id="roadmap-year-select">
+          <?php foreach ($years as $aYear): ?>
+              <option value="<?php echo $aYear ?>" <?php echo $aYear == $year ? 'selected="selected"' : '' ?>>
+                <?php echo $aYear ?>
+              </option>
+          <?php endforeach ?>
+        </select>
+        <?php js_start() ?>
+          $('#roadmap-year-select').change(function() { window.location = '/roadmap/' + $(this).val(); });
+        <?php js_end() ?>
+      </p>
       <div class="roadmap-container" id="project-roadmap">
-        <?php foreach ($items as $item): ?>
-          <div class="roadmap-item">
-            <h3 class="roadmap-item-title">
-              <?php if (isset($item['url']) && $item['url']): ?>
-                <a href="<?php echo $item['url'] ?>" class="link-primary"><?php echo $item['name'] ?></a>
-              <?php else: ?>
-                <?php echo $item['name'] ?>
-              <?php endif ?>
-            </h3>
-
-            <div class="roadmap-item-date">
-              <?php if (isset($item['quarter_date'])): ?>
-                <?php echo $item['quarter_date'] ?>
+        <?php if (count($items)): ?>
+          <?php foreach ($items as $item): ?>
+            <div class="roadmap-item">
+              <h3 class="roadmap-item-title">
+                <?php if (isset($item['url']) && $item['url']): ?>
+                  <a href="<?php echo $item['url'] ?>" class="link-primary"><?php echo $item['name'] ?></a>
                 <?php else: ?>
-                <?php echo $item['date'] ? date('m-d-Y', strtotime($item['date'])) : '' ?>
-              <?php endif ?>
-            </div>
+                  <?php echo $item['name'] ?>
+                <?php endif ?>
+              </h3>
 
-            <div class="roadmap-item-content content markdown">
-              <?php echo $item['body'] ?: '<em class="no-results">No description</em>' ?>
+              <div class="roadmap-item-date">
+                <?php if (isset($item['quarter_date'])): ?>
+                  <?php echo $item['quarter_date'] ?>
+                <?php else: ?>
+                  <?php echo $item['date'] ? date('m-d-Y', strtotime($item['date'])) : '' ?>
+                <?php endif ?>
+              </div>
+
+              <div class="roadmap-item-content content markdown">
+                <?php echo $item['body'] ?: '<em class="no-results">No description</em>' ?>
+              </div>
             </div>
-          </div>
-       <?php endforeach ?>
+         <?php endforeach ?>
+        <?php else: ?>
+          <div class="notice notice-info">No roadmap items found for this year.</div>
+        <?php endif ?>
       </div>
     </div>
   </section>

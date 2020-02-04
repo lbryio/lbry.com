@@ -1,11 +1,11 @@
  .roadmap-container {
   margin: 1.25rem auto 0;
-  max-width: 800px;
+  max-width: 840px;
   position: relative;
 
   &::after {
     width: 1px; height: 100%;
-    top: 0; left: 2.5rem; // half of date width
+    top: 0; left: 3rem; // half of date width
 
     background-color: var(--lbry-gray-1);
     content: "";
@@ -17,14 +17,16 @@
 .roadmap-item {
   border: 1px solid var(--lbry-gray-1);
   margin-bottom: 2rem;
-  margin-left: 6rem;
+  margin-left: 8rem;
   padding: 1.5rem;
   position: relative;
 }
 
 .roadmap-item-date {
-  width: 5rem; height: 5rem;
-  top: -1px; left: -6rem;
+  width: 6rem;
+  height: 6rem;
+  top: -1px;
+  left: -8rem;
 
   background-color: var(--lbry-white);
   border-radius: 50%;

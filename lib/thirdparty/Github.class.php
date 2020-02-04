@@ -105,10 +105,11 @@ class Github
     );
     }
 
-    public static function listRoadmapItems($cache = true)
+    public static function listRoadmapItems($year, $cache = true)
     {
+        $year = $year ?: date('Y');
         $apiResponse = Config::get(Config::GITHUB_PERSONAL_AUTH_TOKEN) ?
-            static::get('/repos/lbryio/internal-issues/issues?labels=2019&filter=all') :
+            static::get('/repos/lbryio/internal-issues/issues?labels=' . $year . '&filter=all') :
             include ROOT_DIR . '/data/dummy/githubroadmap.php';
 
         $issues = array_reduce($apiResponse, function ($issues, $issue) {
