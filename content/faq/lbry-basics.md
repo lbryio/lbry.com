@@ -4,7 +4,7 @@ category: getstarted
 order: 1
 ---
 
-The LBRY Desktop and mobile app and lbry.tv allow you to view content, upload your digital media for free or at a set price, tip your favorite creators, send/receive LBRY Credits (LBC) and earn credits through [LBRY Rewards](/faq/rewards). The apps and web version run on top of the [LBRY protocol](/faq/what-is-lbry) which is a peer to peer, decentralized file sharing and payment network secured by blockchain technology.
+The LBRY Desktop and lbry.tv allow you to view content, upload your digital media for free or at a set price, tip your favorite creators, send/receive LBRY Credits (LBC) and earn credits through [LBRY Rewards](/faq/rewards). The apps and web version run on top of the [LBRY protocol](/faq/what-is-lbry) which is a peer to peer, decentralized file sharing and payment network secured by blockchain technology.
 
 The purpose of this FAQ is to answer questions about some of the basic functionality available on LBRY Desktop, LBRY mobile and lbry.tv. Please see our [other FAQ entries](/faq) for additional information.
 
