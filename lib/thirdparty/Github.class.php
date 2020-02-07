@@ -43,14 +43,14 @@ class Github
         $bestAsset = null;
         foreach ($release['assets'] as $asset) {
             if (static::isAssetForOs($asset, $os)) {
-              if (!$bestAsset) {
-                $bestAsset = $asset;
-              } else if ($os === Os::OS_LINUX) {
-                $ext = pathinfo($asset['name'], PATHINFO_EXTENSION);
-                if ($ext === $preferredExt || (!$preferredExt && $ext === 'AppImage')) {
-                  $bestAsset = $asset;
+                if (!$bestAsset) {
+                    $bestAsset = $asset;
+                } elseif ($os === Os::OS_LINUX) {
+                    $ext = pathinfo($asset['name'], PATHINFO_EXTENSION);
+                    if ($ext === $preferredExt || (!$preferredExt && $ext === 'AppImage')) {
+                        $bestAsset = $asset;
+                    }
                 }
-              }
             }
         }
 
@@ -112,14 +112,14 @@ class Github
             static::get('/repos/lbryio/internal-issues/issues?labels=' . $year . '&filter=all') :
             include ROOT_DIR . '/data/dummy/githubroadmap.php';
 
-        $issues = array_reduce($apiResponse, function ($issues, $issue) {
+        $issues = array_reduce($apiResponse, function ($issues, $issue) use ($year) {
             return array_merge($issues, [[
                 'name' => $issue['title'],
                 'quarter_date' => array_reduce($issue['labels'], function ($carry, $label) {
                     if ($carry) {
                         return $carry;
                     }
-                    return $label['name'][0] === 'Q' ? $label['name'] . ' 2019' : '';
+                    return $label['name'][0] === 'Q' ? ($label['name'] . ' ' . $year) : '';
                 }, ''),
                 'body' => $issue['body_html']
             ]]);
