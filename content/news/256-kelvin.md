@@ -1,6 +1,6 @@
 ---
 author: samuel-lbryian
-title: 'LBRY Kelvin will take your breath away'
+title: 'Shining warm (and cool) lights on LBRY Kelvin'
 date: '2020-02-05 10:00:00'
 cover: 'kelvin.jpg'
 category: update
