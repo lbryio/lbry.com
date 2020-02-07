@@ -95,7 +95,7 @@ class ContentActions extends Actions
         'tutorial' => 'LBRY Tutorials',
         'publisher' => 'Publishers and Creators',
         'troubleshooting' => 'Help and Troubleshooting',
-        'powerusers' => 'LBRY for Power Users',       
+        'powerusers' => 'LBRY for Power Users',
         'wallet' => 'Wallet and Transactions',
         'bots' => 'LBRY Bots',
         'mining' => 'Mining LBC',
@@ -165,13 +165,14 @@ class ContentActions extends Actions
         return Controller::redirect('https://lbry.tech/contribute');
     }
 
-    public static function executeRoadmap(string $year = '2000')
+    public static function executeRoadmap(string $year = '2020')
     {
         $cache = !Request::getParam('nocache');
         $years = range(2019, 2020);
 
+        $year = $year ?: $years[count($years) - 1];
         if (!in_array($year, $years)) {
-          Controller::redirect('/roadmap');
+            Controller::redirect('/roadmap');
         }
 
         return ['content/roadmap', [
