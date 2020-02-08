@@ -27,10 +27,16 @@ This process is mainly meant for power users and will most likely require a dedi
 
 ## Manual connection via config file
 
-This requires the creation of a daemon_settings.yml file in the [default data directory](/faq/lbry-directories). Open in text editor and add:
+This requires the creation of a daemon_settings.yml file in the [default data directory](/faq/lbry-directories). Open in text editor and add (**make sure there's a space after the -**):
 ```
 lbryum_servers: 
 - <domain or ip of server>:50001
+```
+
+Example:
+```
+lbryum_servers: 
+- community1.lbry.com:50001
 ```
 
 ## What else do I need to know?
