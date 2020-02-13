@@ -6,7 +6,9 @@ order: 2
 
 ## How do trending, top, and discovery work on LBRY?
 
-As of the [LBRY Erikson Release](https://github.com/lbryio/lbry-desktop/releases/tag/v0.34.0), the LBRY desktop app and web app support dynamic trending and top views based on your interests and the channels you follow. This article explains how these features work. **Please note: Your list of followed tags does not currently sync between devices and may be lost if cache/data is cleared.**
+LBRY apps support dynamic trending and top discovery based on your interests and the channels you follow. This article explains how these features work. 
+
+**Please note: Content publishers are responsible for ensuring appropriate and valid tags are used. If posting content for mature audiences, the Mature tag MUST be specified. Tag abuse and failure to apply appropriate tags will not be tolerated. Your channel may be filtered and rewards revoked.**
 
 ## How do I use it?
 
