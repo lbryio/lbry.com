@@ -10,6 +10,8 @@ If you are a YouTube Sync user, please make sure to [read our FAQ](https://lbry.
 
 If you don't have LBRY yet, download it [here](/get). You can also publish files up to 500MB from the web at [lbry.tv](https://lbry.tv).
 
+**IMPORTANT NOTE: Only use appropriate tags when publishing content. Tag abuse and follow for follow / view for view type activity is prohibited and will not be tolerated.**
+
 ## How do I publish content?
 
 1. Click on the Account/LBC balance showing at the top right of the app. You will get a dropdown, select `Publish` from the menu.
