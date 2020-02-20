@@ -11,9 +11,9 @@ Learn more about multisignature wallets and how they work: [Electrum Documentati
 
 ![wallet](https://spee.ch/2/multisig.jpg)
 
-## Installing and running Electrum for LBRY
+## Installing and running LBRY Vault for LBRY
 
-You can find the downloads and setup information for [Electron LBRY on GitHub](https://github.com/tzarebczan/electrum/releases/tag/0.1.0). Windows and Mac installers are provided, but Linux needs to be run from source as detailed on the install instructions. If you previously ran an old version and created wallets, they will need to be re-created in this new version. You can use the old version to send the funds to another wallet and then re-create a new one.
+You can find the downloads and setup information for [LBRY Vault on GitHub](https://github.com/kodxana/LBRY-Vault/releases). Windows and Mac installers and Linux Appimage are provided. If you previously ran an old version and created wallets, they will need to be re-created in this new version. You can use the old version to send the funds to another wallet and then re-create a new one.
 
 ## Setting up a multisignature wallet
 
@@ -29,7 +29,7 @@ You will be given a Master Public Key that will be shared with the other co-sign
 
 ## Receiving LBC in the wallet
 
-To receive LBC in the Electrum wallet, go to the Receive tab to view an address or enable the addresses view by going to **View > Show Addresses** from the top menu bar. Here you will see all available addresses on the wallet. Multisignature addresses with start with an **r**, regular wallets, including hardware ones, will start with a **b**.
+To receive LBC in the LBRY Vault wallet, go to the Receive tab click On-chain button to view an address or enable the addresses view by going to **View > Show Addresses** from the top menu bar. Here you will see all available addresses on the wallet. Multisignature addresses with start with an **r**, regular wallets, including hardware ones, will start with a **b**.
 
 ## Sending multisignature transactions
 
@@ -37,15 +37,15 @@ Once all parties have their multisignature wallets configured and LBC has been r
 
 The cosigner has to open the wallet on their PC and go to **Tools > Load Transaction** and then choose from text (if copied) or from file (if export was used). They can then sign the transaction. Each cosigner will need to do the same to send the transaction on the network.
 
-## Ledger hardware wallet with Electrum {#HW}
+## Ledger hardware wallet with LBRY Vault {#HW}
 
-You can use your Ledger device with LBRY Electrum to store LBC. Please follow [these directions on how to install it on your device](https://github.com/tzarebczan/ledger-app-btc/releases/tag/lbry) and then use the above directions to setup a new wallet. For a normal account (non-multisignature), you will choose **Standard wallet** when setting up the device, and then **Use a hardware device**, and then follow the prompts.
+You can use your Ledger device with LBRY Vault to store LBC. Please follow [these directions on how to install it on your device](https://github.com/tzarebczan/ledger-app-btc/releases/tag/lbry) and then use the above directions to setup a new wallet. For a normal account (non-multisignature), you will choose **Standard wallet** when setting up the device, and then **Use a hardware device**, and then follow the prompts.
 
 Official support with Ledger will be coming at a later date.
 
-## Electrum wallet file location {#backup}
+## LBRY Vault wallet file location {#backup}
 
-Electrum wallet files and blockchain data can be found in the App Data Roaming directory under `Electrum-lbry`. The wallet is located in `%appdata%\Electrum-lbry\wallets` and the data in `%appdata%\Electrum-lbry` on Windows. On Mac/Ubuntu, search your system for the Electrum-lbry folder or the name of the wallet file. The wallet should be backed up if you do not have your phrase or are not using the LBRY Desktop wallet.
+LBRY Vault wallet files and blockchain data can be found in the App Data Roaming directory under `Electrum-lbry`. The wallet is located in `%appdata%\Electrum-lbry\wallets` and the data in `%appdata%\Electrum-lbry` on Windows. On Mac/Ubuntu, search your system for the .lbry-vault folder or the name of the wallet file. The wallet should be backed up if you do not have your phrase or are not using the LBRY Desktop wallet.
 
 ## Troubleshooting
 
