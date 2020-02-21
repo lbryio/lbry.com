@@ -5,21 +5,24 @@ category: wallet
 
 LBRY relies on blockchain technology and the LBRY Credits (LBC) cryptocurrency in order to participate in the network. These LBC are stored in a wallet (data file on your PC/device if using Desktop/Mobile) which is generated with each LBRY installation...think of your credits as digital cash on your PC. A wallet contains your funds, channel data, claims (any uploads), and preferences (subscriptions/tags/etc).
 
+## Two ways to backup your wallet
+
+### lbry.tv sync
+
 An Account Sync service is provided automatically on [lbry.tv](https://lbry.tv) and can be enabled on Desktop/Mobile which allows LBRY to store a backup of the wallet for you. [Learn more](/faq/account-sync).
+
+### User maintained backup
 
 Otherwise, it is important to understand that the wallet is not stored on any LBRY servers (except when [sync](#sync) is enabled) and as such, users are responsible for its safeguarding and making sure [a backup](/faq/how-to-backup-wallet) (copy of the wallet file) is available in the event that it is lost. If a wallet is lost or needs to be transferred, follow the [restore procedures below](#restore).
 
-*Note: If you are not using the sync service, wallets should be re-backed up after creating new Channels/Identities (this is stored directly in the wallet file, and not part of the seed/restore process at the moment).*
-
-## Account Sync {#sync}
-
-LBRY provides a wallet backup service by securely backing up your account and preferences. [Learn more here](/faq/account-sync).
+_Note: If you are not using the sync service, wallets should be re-backed up after creating new Channels/Identities (this is stored directly in the wallet file, and not part of the seed/restore process at the moment)._
 
 ## How do I find my wallet in LBRY Desktop?
 
-The easiest way to find the location of your LBRY wallet is via the [LBRY app](/get).  Open LBRY and on the left side, you should see a sidebar menu called "Help" - the wallet location is in the **Backup Your LBRY Credits** section.
+The easiest way to find the location of your LBRY wallet is via the [LBRY app](/get). Open LBRY and on the left side, you should see a sidebar menu called "Help" - the wallet location is in the **Backup Your LBRY Credits** section.
 
 ## How do I backup my LBRY Desktop wallet?
+
 Click on "Help" and scroll down to the **Backup Your LBRY Credits** section.
 
 When you click **Create Backup**, the app will generate a zip file of your wallet directory. You'll be directed to the folder it's saved to.
@@ -40,8 +43,10 @@ The easiest way to find the location of your LBRY Android wallet is via the [And
 ![Find wallet](https://spee.ch/b3535b68750ad69c48566cb028c67d323d1fdeb9/walli.jpg)
 
 ## How do I backup my LBRY Android app wallet? {#android}
+
 The Android wallet will be removed if you uninstall the app or clear data or do not participate in the [sync](#sync) program. Scroll to the top of this page to learn more about your wallet.
-*Please note that this may vary with each Android device*
+_Please note that this may vary with each Android device_
+
 1. Open your favorite file manager, navigate to `Internal storage/android/data/io.lbry.browser/files/lbryum/wallets`
 2. Copy the default_wallet to any other location on your device, i.e. your SD card or another directory on the Internal Storage
 
