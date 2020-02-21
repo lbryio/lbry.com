@@ -13,7 +13,7 @@ Learn more about multisignature wallets and how they work: [Electrum Documentati
 
 ## Installing and running LBRY Vault for LBRY
 
-You can find the downloads and setup information for [LBRY Vault on GitHub](https://github.com/kodxana/LBRY-Vault/releases). Windows and Mac installers and Linux Appimage are provided. If you previously ran an old version and created wallets, they will need to be re-created in this new version. You can use the old version to send the funds to another wallet and then re-create a new one.
+You can find the downloads and setup information for [LBRY Vault on GitHub](https://github.com/kodxana/LBRY-Vault/releases). Windows, Mac, and Linux Appimage installations are provided.
 
 ## Setting up a multisignature wallet
 
