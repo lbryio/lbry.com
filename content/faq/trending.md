@@ -61,4 +61,4 @@ Top content is based on calculations around the total LBC value of content, whic
 
 YouTube uses obscured, secret algorithms that are designed to be biased in favor of the mainstream media and other creators they prefer, rather than being neutral to all content ([See Veritasium's take on this](https://lbry.tv/@veritasium:f/my-video-went-viral-here-s-why:e)).
 
-LBRY creates open-source code that allows all of the world to see precisely how our features work. We can then write articles like this one that try to spell it out in plain language. The source code for the Trending/Top/New functionality is viewable [here](https://github.com/lbryio/lbry-sdk/blob/master/lbry/wallet/server/db/trending.py).
+LBRY creates open-source code that allows all of the world to see precisely how our features work. We can then write articles like this one that try to spell it out in plain language. The source code for the Trending/Top/New functionality is viewable [here](https://github.com/lbryio/lbry-sdk/tree/master/lbry/wallet/server/db/trending).
