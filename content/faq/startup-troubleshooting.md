@@ -3,7 +3,7 @@ title: LBRY startup troubleshooting
 category: troubleshooting
 order: 1
 ---
-**If you are having trouble with sign in or blank video pages on certain Linux distros, [try this build](https://build.lbry.io/app/build-9730_commit-5afe1f8/electron/).**
+**If you are having trouble with sign in or blank video pages on certain Linux distros, [try this build](https://build.lbry.io/app/build-9923_commit-ab9683e/electron/).**
 
 Proper network connectivity, visibility, and access is a necessity for usage of the LBRY Desktop app, as it is a decentralized peer-to-peer protocol that requires clients to see and communicate with each other. Since individual local network configurations, firewalls, and other security settings vary greatly, LBRY may require some basic network/PC troubleshooting in order to function properly. Since LBRY is in beta, there are certain configurations which we don't support yet, but can offer workarounds (see below) or offer [one-on-one troubleshooting](/faq/how-to-report-bugs).
 
