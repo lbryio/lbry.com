@@ -11,7 +11,7 @@
 
   <section>
     <div class="inner-wrap">
-      <p><strong>Last Updated: April 2019</strong></p>
+      <p><strong>Last Updated: Februar 2020</strong></p>
 
 <p><strong>PLEASE READ THESE TERMS OF SERVICE CAREFULLY. NOTE THAT SECTION 16 CONTAINS A BINDING ARBITRATION CLAUSE AND CLASS ACTION WAIVER, WHICH AFFECT YOUR LEGAL RIGHTS. IF YOU DO NOT AGREE TO THESE TERMS OF SERVICE, DO NOT ACCESS OR USE THE SERVICES.</strong></p>
 
@@ -111,11 +111,17 @@ By making available Space on your device, you authorize any user of our Services
 
 <p>b) The source code we release in connection with open source software is not part of the Services, and your use of that source code without interacting with our Services is not subject to these Terms. For clarity, though, when we host any software and enable you to access and use such software as a service through our Services, then these Terms will apply to such access and use. </p>
 
-<h3 id="toc_8">9. Feedback</h3>
+<h3 id="toc_8">9. YouTube Creator Program Terms</h3>
+
+<p>a) If you participate in the YouTube Creator Program, you also agree to <a href="https://www.youtube.com/t/terms">YouTube's Terms of Service (https://www.youtube.com/t/terms)</a> and <a href="http://www.google.com/policies/privacy">Google's Privacy Policy (https://www.google.com/policies/privacy).</a> </p>
+
+<p>b) To revoke LBRY's access to your YouTube account or manage your security preferences, please <a href="https://security.google.com/settings/security/permissions">refer to your Google Security and Permissions Page (https://security.google.com/settings/security/permissions).</a></p>
+
+<h3 id="toc_9">10. Feedback</h3>
 
 <p>Any questions, comments, suggestions, ideas, original or creative materials or other information you submit about the Company or our products or Services (collectively, <strong>“Feedback”</strong>), is non-confidential and will become the sole property of the Company. We will own exclusive rights, including, without limitation, all intellectual property rights, in and to Feedback and will be entitled to the unrestricted use and dissemination of Feedback for any purpose, commercial or otherwise, without acknowledgment or compensation to you.</p>
 
-<h3 id="toc_9">10. Copyright Complaints</h3>
+<h3 id="toc_10">11. Copyright Complaints</h3>
 
 <p>We have a policy of limiting access to our Services and terminating the accounts of users who infringe the intellectual property rights of others. If you believe that anything on our Services infringes any copyright that you own or control, you may notify the Company’s Designated Agent as follows:</p>
 
@@ -128,15 +134,15 @@ Fax Number: 801-327-6808</p>
 
 <p>Please see 17 U.S.C. §512(c)(3) for the requirements of a proper notification. Also, please note that if you knowingly misrepresent that any activity or material on our Services is infringing, you may be liable to the Company for certain costs and damages.</p>
 
-<h3 id="toc_10">11. Indemnification</h3>
+<h3 id="toc_11">12. Indemnification</h3>
 
 <p>To the fullest extent permitted by applicable law, you will indemnify, defend, and hold harmless the Company and our officers, directors, agents, partners and employees (individually and collectively, the <strong>“Company Parties”</strong>) from and against any loss, liability, claim, demand, damages, expenses or costs (including attorney’s fees) (<strong>“Claims”</strong>) arising out of or related to (a) your access to or use of our Services; (b) your Content or any Name that you have reserved; (c) your violation of these Terms; or (d) your violation, misappropriation or infringement of any rights of another (including intellectual property rights or privacy rights). You agree to promptly notify Company Parties of any third party Claims, cooperate with Company Parties in defending such Claims and pay all fees, costs and expenses associated with defending such Claims (including, but not limited to, attorneys&#39; fees). You also agree that the Company Parties will have control of the defense or settlement of any third party Claims. This indemnity is in addition to, and not in lieu of, any other indemnities set forth in a written agreement between you and the Company or the other Company Parties.</p>
 
-<h3 id="toc_11">12. Disclaimers</h3>
+<h3 id="toc_12">13. Disclaimers</h3>
 
 <p><strong>Your use of our Services is at your sole risk. Our Services are provided “as is” and “as available” without warranties of any kind, either express or implied, including, but not limited to, implied warranties of merchantability, fitness for a particular purpose, title, and non-infringement. In addition, the Company does not represent or warrant that our Services are accurate, complete, reliable, current or error-free. While the Company attempts to make your access to and use of our Services safe, we cannot and do not represent or warrant that our Services or servers are free of viruses or other harmful components. You assume the entire risk as to the quality and performance of the Services.</strong></p>
 
-<h3 id="toc_12">13. Limitation of Liability</h3>
+<h3 id="toc_13">14. Limitation of Liability</h3>
 
 <p><strong>The Company and the other Company Parties will not be liable to you under any theory of liability—whether based in contract, tort, negligence, strict liability, warranty, or otherwise—for any indirect, consequential, exemplary, incidental, special or punitive damages or lost profits, even if the Company or the other Company Parties have been advised of the possibility of such damages.</strong></p>
 
@@ -144,63 +150,63 @@ Fax Number: 801-327-6808</p>
 
 <p><strong>The limitations set forth in this section will not limit or exclude liability for the gross negligence, fraud or intentional misconduct of the Company or other Company Parties or for any other matters in which liability cannot be excluded or limited under applicable law. Additionally, some jurisdictions do not allow the exclusion or limitation of incidental or consequential damages, so the above limitations or exclusions may not apply to you.</strong></p>
 
-<h3 id="toc_13">14. Release</h3>
+<h3 id="toc_14">15. Release</h3>
 
 <p>To the fullest extent permitted by applicable law, you release the Company and the other Company Parties from responsibility, liability, claims, demands and damages (actual and consequential) of every kind and nature, known and unknown (including, but not limited to, claims of negligence), arising out of or related to disputes between users and the acts or omissions of third parties. <strong>You expressly waive any rights you may have under California Civil Code § 1542 as well as any other statute or common law principles that would otherwise limit the coverage of this release to include only those claims which you may know or suspect to exist in your favor at the time of agreeing to this release.</strong></p>
 
-<h3 id="toc_14">15. Dispute Resolution; Arbitration</h3>
+<h3 id="toc_15">16. Dispute Resolution; Arbitration</h3>
 
 <p><strong>Please read the following section carefully because it requires you to arbitrate certain disputes and claims with the Company and limits the manner in which you can seek relief from us.</strong></p>
 
-<h3 id="toc_15">16.1. Binding Arbitration</h3>
+<h3 id="toc_16">17.1. Binding Arbitration</h3>
 
 <p>Except for any disputes, claims, suits, actions, causes of action, demands or proceedings (collectively, <strong>“Disputes”</strong>) in which either party seeks to bring an individual action in small claims court or seeks injunctive or other equitable relief for the alleged unlawful use of intellectual property, including, without limitation, copyrights, trademarks, trade names, logos, trade secrets or patents, you and the Company (a) waive your and the Company’s respective rights to have any and all Disputes arising from or related to these Terms or the Services resolved in a court, and (b) waive your and the Company’s respective rights to a jury trial. Instead, you and the Company will arbitrate Disputes through binding arbitration (which is the referral of a Dispute to one or more persons charged with reviewing the Dispute and making a final and binding determination to resolve it instead of having the Dispute decided by a judge or jury in court).</p>
 
-<h3 id="toc_16">16.2. No Class Arbitrations, Class Actions or Representative Actions</h3>
+<h3 id="toc_17">17.2. No Class Arbitrations, Class Actions or Representative Actions</h3>
 
 <p>Any Dispute arising out of or related to these Terms or the Services is personal to you and the Company and will be resolved solely through individual arbitration and will not be brought as a class arbitration, class action or any other type of representative proceeding. There will be no class arbitration or arbitration in which an individual attempts to resolve a Dispute as a representative of another individual or group of individuals. Further, a Dispute cannot be brought as a class or other type of representative action, whether within or outside of arbitration, or on behalf of any other individual or group of individuals.</p>
 
-<h3 id="toc_17">16.3. Federal Arbitration Act</h3>
+<h3 id="toc_18">17.3. Federal Arbitration Act</h3>
 
 <p>These Terms affect interstate commerce and the enforceability of this Section 16 will be both substantively and procedurally governed by and construed and enforced in accordance with the Federal Arbitration Act, 9 U.S.C. § 1 et seq. (the <strong>“FAA”</strong>), to the maximum extent permitted by applicable law.</p>
 
-<h3 id="toc_18">16.4. Notice; Informal Dispute Resolution</h3>
+<h3 id="toc_19">17.4. Notice; Informal Dispute Resolution</h3>
 
 <p>Each party will notify the other party in writing of any arbitrable or small claims Dispute within thirty (30) days of the date it arises, so that the parties can attempt in good faith to resolve the Dispute informally. Notice to the Company will be sent by e-mail to the Company at hello@lbry.com Notice to you will be by email to the then-current email address in your Account. Your notice must include (a) your name, postal address, email address and telephone number, (b) a description in reasonable detail of the nature or basis of the Dispute, and (c) the specific relief that you are seeking. If you and the Company cannot agree how to resolve the Dispute within thirty (30) days after the date notice is received by the applicable party, then either you or the Company may, as appropriate and in accordance with this Section 16, commence an arbitration proceeding or, to the extent specifically provided for in Section 16.1, file a claim in court. </p>
 
-<h3 id="toc_19">16.5. Process</h3>
+<h3 id="toc_20">17.5. Process</h3>
 
 <p>Any arbitration will occur in New Castle County, Delaware. Arbitration will be conducted confidentially by a single arbitrator in accordance with the rules of the Judicial Arbitration and Mediation Services (<strong>“JAMS”</strong>), which are hereby incorporated by reference. The state and federal courts located in New Castle County, Delaware will have exclusive jurisdiction over any appeals and the enforcement of an arbitration award. You may also litigate a Dispute in the small claims court located in the county where you reside if the Dispute meets the requirements to be heard in small claims court. </p>
 
-<h3 id="toc_20">16.6. Authority of Arbitrator</h3>
+<h3 id="toc_21">17.6. Authority of Arbitrator</h3>
 
 <p>As limited by the FAA, these Terms and the applicable JAMS rules, the arbitrator will have (a) the exclusive authority and jurisdiction to make all procedural and substantive decisions regarding a Dispute, including the determination of whether a Dispute is arbitrable, and (b) the authority to grant any remedy that would otherwise be available in court; provided, however, that the arbitrator does not have the authority to conduct a class arbitration or a representative action, which is prohibited by these Terms. The arbitrator may only conduct an individual arbitration and may not consolidate more than one individual’s claims, preside over any type of class or representative proceeding or preside over any proceeding involving more than one individual.</p>
 
-<h3 id="toc_21">16.7. Rules of JAMS</h3>
+<h3 id="toc_22">17.7. Rules of JAMS</h3>
 
 <p>The rules of JAMS and additional information about JAMS are available on the <a href="http://www.jamsadr.com/">JAMS website.</a> By agreeing to be bound by these Terms, you either (a) acknowledge and agree that you have read and understand the rules of JAMS, or (b) waive your opportunity to read the rules of JAMS and any claim that the rules of JAMS are unfair or should not apply for any reason.</p>
 
-<h3 id="toc_22">17. Governing Law and Venue</h3>
+<h3 id="toc_23">18. Governing Law and Venue</h3>
 
 <p>These Terms and your access to and use of the Services will be governed by and construed and enforced in accordance with the laws of the State of Delaware, without regard to conflict of law rules or principles (whether of the State of Delaware or any other jurisdiction) that would cause the application of the laws of any other jurisdiction. Any Dispute between the parties arising out of or relating to these Terms that is not subject to arbitration or cannot be heard in small claims court will be resolved in the state or federal courts of the State of Delaware and the United States, respectively, sitting in New Castle County, Delaware. </p>
 
-<h3 id="toc_23">18. Severability</h3>
+<h3 id="toc_24">19. Severability</h3>
 
 <p>If any term, clause or provision of these Terms is held invalid or unenforceable, then that term, clause or provision will be severable from these Terms and will not affect the validity or enforceability of any remaining part of that term, clause or provision, or any other term, clause or provision of these Terms.</p>
 
-<h3 id="toc_24">19. Termination or Suspension</h3>
+<h3 id="toc_25">20. Termination or Suspension</h3>
 
 <p>Notwithstanding anything contained in these Terms, we reserve the right, without notice and in our sole discretion, to terminate this agreement or suspend your right to access the Services. You may terminate this agreement without notice by discontinuing use of the Services. All rights and licenses granted to you under these Terms will immediately be revoked upon our termination of the agreement or our suspension of your access to the Services. We make no representations that termination or suspension of the Services will prevent the spread or distribution of published Content through LBRY.</p>
 
-<h3 id="toc_25">20. Amendment</h3>
+<h3 id="toc_26">21. Amendment</h3>
 
 <p>We reserve the right to change these Terms from time to time upon notice to you. If we make changes to these Terms, we will provide notice of such changes by posting the revised Terms to the Services and updating the “Last Updated” date at the top of these Terms. In some cases, we may provide additional notice to you, such as via our Services or to an email address associated with your Account. Your continued use of the Services following our provision of any such notice will confirm your acceptance of the revised Terms. If you do not agree to the modified Terms, you must stop using the Services. </p>
 
-<h3 id="toc_26">21. Survival</h3>
+<h3 id="toc_27">22. Survival</h3>
 
 <p>The following sections will survive the expiration or termination of these Terms: all defined terms and Sections 12 - 18, 21 and 22.</p>
 
-<h3 id="toc_27">22. Miscellaneous</h3>
+<h3 id="toc_28">23. Miscellaneous</h3>
 
 <p>These Terms constitutes the entire agreement between you and the Company relating to your access to and use of the Services. We may assign our rights and obligations under these Terms. Under no circumstances may you assign your rights and obligations under these Terms, including in the event of change of control or by operation of law, without our prior written consent. The failure of the Company to exercise or enforce any right or provision of these Terms will not operate as a waiver of such right or provision. We will not be liable for any delay or failure to perform any obligation under these Terms where the delay or failure results from any cause beyond our reasonable control. Except as otherwise provided in herein, the agreement is intended solely for the benefit of the parties and are not intended to confer third-party beneficiary rights upon any other person or entity.</p>
 

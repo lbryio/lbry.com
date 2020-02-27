@@ -208,6 +208,7 @@
         </fieldset>
       <?php endif ?>
         <p>Have questions, problems, or feedback? Check out the <a href="/faq/youtube" title="YouTube FAQ">YouTube FAQ</a> or send us an <a href="mailto:hello@lbry.com">email</a>.</p>
+        <p><a href="/termsofservice" title="View Terms of Service">View Terms of Service</a>.</p>
     </div>
   </section>
 </main>
