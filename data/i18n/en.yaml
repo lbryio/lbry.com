@@ -34,15 +34,15 @@ description:
 dmca:
   form_help:
     email: All communication regarding this claim will be sent to this address
-    identifier: Name, claim ID, or another way for us to identify the infringing content
-    rightsholder: The name of the entity that owns the rights to the infringing content
+    identifier: Name, claim ID, or another way for us to identify the reported content
+    rightsholder: The name of the entity that owns the rights to the reported content
   form_labels:
     email: Email Address
-    identifier: Infringing Content Identifier
+    identifier: Reported Content Identifier
     name: Your Name
-    rightsholder: Rightsholder's Name
+    rightsholder: Rightsholder or Your Name
   form_submit: Submit Report
-  header: Report Infringing Content
+  header: Report Infringing or Mistagged Content
 
 download:
   beta: This software is in beta.
