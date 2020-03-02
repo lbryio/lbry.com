@@ -69,7 +69,7 @@ Please refer to our [publishing guide](/faq/how-to-publish) as a reference to as
 - In the **mobile app** open the main menu of the app and then choose the `Lybrary` option.
 
 ## How can I delete my downloads?
-Acces your Library section as mentioned before and then select the item you want to delete. After the page of the content is opened, click on the trash can icon located under the main content published. 
+Access your Library section as mentioned before and then select the item you want to delete. After the page of the content is opened, click on the trash can icon located under the main content published. 
 
 In the **Desktop app**, if you want to delete faster more or all the files from your download folder, open the folder with a file explorer, select the files and delete them.
 
@@ -81,7 +81,7 @@ In the **Desktop app**, if you want to delete faster more or all the files from 
 - In the **mobile app** open the main menu of the app and then choose the **`Publishes`** option.
 
 ## How do I know if I'm sharing content and helping the LBRY network properly?
-The easiest way to confirm that you are sharing correctly is to determine if the port used for seeding (3333) is open to the rest of the LBRY network. To do so, type 3333 into [this port checking tool](http://www.canyouseeme.org) and check the result. It if shows "Success", you are all set. If it shows "Error", you may need to check your router settings for UPnP options (set to enable) or forward TCP port 3333 and UDP Port 4444 to your local computer running the LBRY Desktop. Firewall and NAT settings may also affect the availability of these ports. Also, when you acces the checking tool page, check if in the browser there is no active plug-in or extension that act like a VPN. In this case the result could be false and indeed your Desktop app could have acces to these port, but the browser not.
+The easiest way to confirm that you are sharing correctly is to determine if the port used for seeding (3333) is open to the rest of the LBRY network. To do so, type 3333 into [this port checking tool](http://www.canyouseeme.org) and check the result. It if shows "Success", you are all set. If it shows "Error", you may need to check your router settings for UPnP options (set to enable) or forward TCP port 3333 and UDP Port 4444 to your local computer running the LBRY Desktop. Firewall and NAT settings may also affect the availability of these ports. Also, when you access the checking tool page, check if in the browser there is no active plug-in or extension that act like a VPN. In this case the result could be false and indeed your Desktop app could have access to these ports, but the browser not.
 
 ## How can I search for content on LBRY?
 Searching in LBRY is as easy as typing your search term(s) into the address bar at the top and then pressing Enter.
@@ -105,16 +105,16 @@ You can subscribe to a channel by clicking the Follow button from the homepage, 
 ## How can I block channels?
 You can block a channel by clicking the **Block** button from the homepage, channel page, or content pages.
 
-## Content consistently fails to stream or download, what should I do?
+## Content consistently fails to stream or download. What should I do?
 Please see our [streaming guide](/faq/unable-to-stream) if you consistently cannot download or stream content on LBRY. If you are having intermittent issues with download failures, try closing LBRY Desktop completely (including ending the "lbrynet.exe" process in task manager) and re-initiating the download.
 
-## Some files don't open in the LBRY Desktop or lbry.tv, what's going on?
-Currently, the LBRY in-app player supports MP4 videos, MP3s, images, GIFs, HTML and text files. Even though it doesn't support other formats from within the app or lbry.tv, the files can still be externally opened when using the Desktop app by clicking the **Open file** icon or navigating to the file by clicking the **Downloaded to** file path on the content page.
+## Some files don't open in the LBRY Desktop or lbry.tv. What's going on?
+Currently, the LBRY in-app player supports MP4 videos, MP3 files, images, GIF images, HTML and text files. Even though it doesn't support other formats from within the app or lbry.tv, the files can still be externally opened when using the Desktop app by clicking the **Open file** icon or navigating to the file by clicking the **Downloaded to** file path on the content page.
 
 ![Open](https://spee.ch/@lbryfaqsc:7/LBRY-open-file-externally.jpg)
 
 ## How do I begin troubleshooting problems myself?
 Please see [this guide](/faq/how-to-find-lbry-log-file) on how to find your LBRY log files. These may provide you additional information to troubleshoot issues or to provide to the [support team](/faq/support).
 
-## I need additional help, where can find it? {#support}
-Please check our [other FAQ entries](/faq) for more information. We are always here to help as well, feel free to [reach out to us](/faq/support).
+## I need additional help. Where can find it? {#support}
+Please check our [other FAQ entries](/faq) for more information. We are always here to help as well, and feel free to [reach out to us](/faq/support).
