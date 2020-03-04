@@ -38,6 +38,26 @@ function submitEditForm() {
     });
 }
 
+function resendVerificationEmail(token, email) {
+    let data = new FormData();
+    data.append("status_token", $.trim($('#status_token').val()));
+    data.append("email", $.trim($('#email').val()));
+
+    let xhr = new XMLHttpRequest();
+    xhr.withCredentials = true;
+
+    xhr.addEventListener("readystatechange", function () {
+        if (this.readyState === 4) {
+            console.log(this.responseText);
+        }
+    });
+
+    xhr.open("POST", "http://localhost:8080/yt/resend_verification_email");
+    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    xhr.setRequestHeader("Accept", "*/*");
+    xhr.send(data);
+}
+
 function submitDetailsForm() {
     $("#youtube_claim").submit(function (event) {
 
