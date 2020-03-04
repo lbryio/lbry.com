@@ -18,6 +18,7 @@ We are listed on several exchanges. You can buy or sell LBRY Credits at one of t
 - [Simple Swap](https://simpleswap.io)
 - [Stealthex](https://stealthex.io/)
 - [SwapSpace](https://swapspace.co)
+- [Swapzone](https://swapzone.io)
 
 ## Decentralized exchanges (DEX)
 - [Bisq](https://bisq.network)
