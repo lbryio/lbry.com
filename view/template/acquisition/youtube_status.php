@@ -143,7 +143,7 @@
             You need to provide an email
           </p>
           <p <?php echo ($statusData['has_verified_email']===false && $statusData['email']!=="") ? "" : "hidden"?> class="error-block">
-            You need to verify your email
+            You need to verify your email! <a href="https://lbry.com/yt/resend_verification_email?status_token=<?php echo $token ?>&email=<?php echo $statusData['email'] ?>">Click here to resend a verification email</a>
           </p>
 
           <fieldset-group>
