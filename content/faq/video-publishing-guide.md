@@ -6,13 +6,13 @@ order: 2
 
 Even though LBRY does not enforce any file size, resolution, or quality of video content, we still encourage publishers to adhere to web optimized bitrates/sizes to ensure a good overall experience for lbry.tv and app users. LBRY does not currently transcode on upload or when viewing, but we will be offering this option on the publish page in the near future. At the moment, we'd recommend creators compress their raw videos with one of the below methods to ensure a good streaming experience.
 
-See our (Publishing FAQ)[/faq/how-to-publish] for more information about the publishing process.
+See our [Publishing FAQ](/faq/how-to-publish) for more information about the publishing process.
 
 ## Recommended settings and bitrate
 
-We recommend uploading videos at 720P in an MP4 container, with H264 video encoding, and AAC audio with a maximum bitrate of 5Mbps (check file properties to see current rate). It's also helps if the moov atom is at the front of the file - this is sometimes referred to as Fast Start (ffmpeg) or Web Optimized (Handbrake).
+We recommend uploading videos at 720P in an MP4 container, H264 video encoding, and AAC audio with a maximum bitrate of 5Mbps (check file properties to see current rate). It's also helps if the moov atom is at the front of the file - this is sometimes referred to as Fast Start (ffmpeg) or Web Optimized (Handbrake). If the content is not compatible or over 5Mbps, you'll be given a warning on the publish page. 
 
-If you prefer 1080P, please try to keep the bitrate at or below 8Mbps.
+If you prefer 1080P, please try to keep the bitrate at or below 8Mbps. You'll be given a warning on the publish page, but you can still proceed.
 
 ## Instructions for Handbrake
 
