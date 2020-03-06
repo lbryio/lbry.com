@@ -41,9 +41,9 @@ Other file types can also be uploaded, but won't be streamable via LBRY directly
 9. Type in the URL you want the content to be found under, along with a minimum of 0.00000001 LBC deposit for the upload (default amount is higher due to publishing fees). If you are trying to outbid a user-friendly/common URL, the system will suggest a minimum bid to take over the content at that vanity URL. There may be a delay for this takeover. Making your bid higher will result in (better discovery)[https://lbry.com/faq/trending) for your content. For more details regarding the URL or bid, check out our [naming document](/faq/naming).
    ![Video URL and Deposit](https://spee.ch/@clem:0/contentname.png)
 
-   10.Under the `Price`, first, determine if you want to make your content free or set a price (in USD or LBC) per view.
+10. Under the `Price`, first, determine if you want to make your content free or set a price (in USD or LBC) per view.
 
-10. Next, there is `Additional Option` which gives you an option to select language and license. Default language is set to `English`, and the License is set to `None`. If a change is needed, click the dropdown menus and select the appropriate choice.
+11. Next, there is `Additional Option` which gives you an option to select language and license. Default language is set to `English`, and the License is set to `None`. If a change is needed, click the dropdown menus and select the appropriate choice.
 
 _please review our terms of service before publishing [terms of service](/termsofservice)_
 
