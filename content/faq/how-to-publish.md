@@ -6,20 +6,22 @@ order: 1
 
 LBRY is a free, open, and community-driven digital marketplace that enables content sharing, monetization, discovery and consumption. Publishing in LBRY is the process of sharing your content on the network. You have the ability to set the price per view (can be free too) which is paid directly to you. This process involves making a "claim" in the LBRY blockchain which will be used to retrieve the content via a URL. Content can either be published anonymously or to a particular channel/identity which groups content in a single location. Both channels and claims require a deposit (bid) of LBRY Credits (LBC) in order to reserve their location on the LBRY network. This deposit will be deducted from your balance as long as the claim is active. See our [naming](/faq/naming) and [transaction](/faq/transaction-types) documentation for more information about claims, bids and transactions.
 
+To see our recommended video upload format and settings, please see our [video publishing guide](/faq/video-publishing-guide).
+
 If you are a YouTube Sync user, please make sure to [read our FAQ](https://lbry.com/faq/youtube) on how this process works.
 
-If you don't have LBRY yet, download it [here](/get). You can also publish files up to 500MB from the web at [lbry.tv](https://lbry.tv).
+If you don't have LBRY yet, download it [here](/get). You can also publish files up to 1GB from the web at [lbry.tv](https://lbry.tv).
 
 **IMPORTANT NOTE: Only use appropriate tags when publishing content. Tag abuse and follow for follow / view for view type activity is prohibited and will not be tolerated.**
 
 ## How do I publish content?
 
 1. Click on the Account/LBC balance showing at the top right of the app. You will get a dropdown, select `Publish` from the menu.
-![Click the Publish Button](https://spee.ch/@clem:0/publishclick.png)
+   ![Click the Publish Button](https://spee.ch/@clem:0/publishclick.png)
 
 2. Under the `Publish` section, click `Choose File`.
 
-3. On your local machine, select the content you wish to upload to LBRY. For video content, LBRY works best with MP4 files in H264/AAC format which support proper streaming.  Besides videos, other popular formats supported are MP3s, text documents like markdown (md)/HTML, PDF, CSV, and comic books (cbr, cbz). In the future, the in app player may support additional formats.
+3. On your local machine, select the content you wish to upload to LBRY. For video content, LBRY works best with MP4 files in H264/AAC format which support proper streaming (see [video publishing guide for details](/faq/video-publishing-guide)). Besides videos, other popular formats supported are MP3s, text documents like markdown (md)/HTML, PDF, CSV, and comic books (cbr, cbz). In the future, the in app player may support additional formats.
 
 Other file types can also be uploaded, but won't be streamable via LBRY directly. They can be opened externally for viewing on the Desktop/Android apps.
 
@@ -34,16 +36,16 @@ Other file types can also be uploaded, but won't be streamable via LBRY directly
 ![publish process](https://spee.ch/@clem:0/publish-process.png)
 
 8. You have the option to select/create the channel you would like to publish the content under. If no channel is selected, it will be posted anonymously.
-![Select Channel or Anonymous](https://spee.ch/8/channel-createp.png)
+   ![Select Channel or Anonymous](https://spee.ch/8/channel-createp.png)
 
 9. Type in the URL you want the content to be found under, along with a minimum of 0.00000001 LBC deposit for the upload (default amount is higher due to publishing fees). If you are trying to outbid a user-friendly/common URL, the system will suggest a minimum bid to take over the content at that vanity URL. There may be a delay for this takeover. Making your bid higher will result in (better discovery)[https://lbry.com/faq/trending) for your content. For more details regarding the URL or bid, check out our [naming document](/faq/naming).
-![Video URL and Deposit](https://spee.ch/@clem:0/contentname.png)
+   ![Video URL and Deposit](https://spee.ch/@clem:0/contentname.png)
 
-10.Under the `Price`, first, determine if you want to make your content free or set a price (in USD or LBC) per view.
+   10.Under the `Price`, first, determine if you want to make your content free or set a price (in USD or LBC) per view.
 
-11. Next, there is `Additional Option` which gives you an option to select language and license. Default language is set to `English`, and the License is set to `None`.  If a change is needed, click the dropdown menus and select the appropriate choice.
+10. Next, there is `Additional Option` which gives you an option to select language and license. Default language is set to `English`, and the License is set to `None`. If a change is needed, click the dropdown menus and select the appropriate choice.
 
-*please review our terms of service before publishing [terms of service](/termsofservice)*
+_please review our terms of service before publishing [terms of service](/termsofservice)_
 
 Click `Publish`.
 
@@ -56,20 +58,21 @@ You can continue to use LBRY while the upload completes.
 1. Open LBRY
 
 2. Click on the LBC balance showing at the top right of the app. You will get a dropdow, select `Publish` from the menu.
-![Click the Publish Button](https://spee.ch/@clem:0/publishclick.png)
+   ![Click the Publish Button](https://spee.ch/@clem:0/publishclick.png)
 
 3. Select a source file and then in the `Channel Name` section, click on the dropdown menu and select `New Channel` and then declare the name you would like for your channel. For more details on different channel types, see our write up on [naming](/faq/naming).
 
-4. Once your name is selected, there is a `Deposit` section that is below. It requires a minimum bid of 0.0001 LBC (see more on deposits [here](/faq/naming)). Please ensure that you have enough LBRY credits in your wallet to cover the bid amount.  There is also a small network fee associated with the creation of a channel.
-![Set the Deposit](https://spee.ch/@clem:0/channel-createnew.png)
+4. Once your name is selected, there is a `Deposit` section that is below. It requires a minimum bid of 0.0001 LBC (see more on deposits [here](/faq/naming)). Please ensure that you have enough LBRY credits in your wallet to cover the bid amount. There is also a small network fee associated with the creation of a channel.
+   ![Set the Deposit](https://spee.ch/@clem:0/channel-createnew.png)
 
 5. Click `Create Channel` once you have entered your bid amount. You now own `lbry://@channelnameyoubidon#Claim_ID` and `lbry://@channelnameyoubidon` (the vanity name without a claim id) if you are the highest bidder.
 
 ## How do I customize my channel? {#channel}
+
 First, you need to access your channel from your Publishes page by clicking on it.
 
 1. You will now see an edit button next to the name. Click the button to proceed to the edit page.
-![edit1](https://spee.ch/0/edit-1.jpeg)
+   ![edit1](https://spee.ch/0/edit-1.jpeg)
 
 2. You can now upload your thumbnail and cover image to spee.ch using the upload option from the dropdown on the left, or you can use an existing URL. If using spee.ch select the file, then click the upload button. The page will update once a valid URL is available.
 
@@ -84,18 +87,19 @@ First, you need to access your channel from your Publishes page by clicking on i
 1. Click on the `Publishes` tab from the rightside of the app.
 
 2. Select the content you want to remove from LBRY
-![Content](https://spee.ch/@clem:0/delete-con.png)
+   ![Content](https://spee.ch/@clem:0/delete-con.png)
 
 3. Click on the `Delete` icon. If the delete icon does not respond, try downloading the content locally and try again.
 
-4. There will be two options. `Delete this file from my computer` and `Abandon the claim for this URI`. Select the option that applies.  Abandoning your claim will release the LBC back into your wallet (99% of the time you want to select this).
-![abandon-delete box](https://spee.ch/@clem:0/check-delet.png)
+4. There will be two options. `Delete this file from my computer` and `Abandon the claim for this URI`. Select the option that applies. Abandoning your claim will release the LBC back into your wallet (99% of the time you want to select this).
+   ![abandon-delete box](https://spee.ch/@clem:0/check-delet.png)
 
 **Warning: Deleting content is permanent. Please make sure this is what you want to do before confirming the deletion.**
 
 Click `Remove`. If you abandoned your claim, you should see the deposit back in your balance shortly.
 
 ## How do I edit my existing published content?
+
 1. Click on the `Publishes` tab from the right-side of the app.
 2. Select the content you want to update.
 3. Click `Edit`.
@@ -109,9 +113,11 @@ Click `Remove`. If you abandoned your claim, you should see the deposit back in 
 Content uploaded is chunked up into 2MB files called blobs, and stored in your [lbrynet/blob files folder](https://lbry.com/faq/lbry-directories). These can be deleted if the video is fully streamable on [https://lbry.tv](https://lbry.tv) or [spee.ch](https://spee.ch).
 
 ## Can someone tip me for my content?
+
 Yes, check out how tipping in LBRY works by going [here](/faq/tipping).
 
 ## Can I increase my bid amount?
+
 Yes, the claim can be edited to increase the bid amount or you can also send a Support to your own content. The Support button will appear instead of the tip button for your own claims. See the [FAQ](/faq/tipping) to learn more.
 
 ## My video doesn't stream in the app or on lbry.tv, what's wrong?
