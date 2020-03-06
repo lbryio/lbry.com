@@ -1,6 +1,7 @@
 ---
 title: How does LBRY handle content and what am I allowed to upload?
 category: publisher
+order: 4
 ---
 
 This guide provides answers to questions regarding what you may upload to LBRY and network and how it differs from current centralized/status quo systems. To learn more about reporting infringing or illegal content and DMCA procedures, please see our [DMCA article](/faq/dmca).

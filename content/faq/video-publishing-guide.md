@@ -1,7 +1,7 @@
 ---
 title: What are the recommended video settings for publishing?
 category: publisher
-order: 1
+order: 2
 ---
 
 Even though LBRY does not enforce any file size, resolution, or quality of video content, we still encourage publishers to adhere to web optimized bitrates/sizes to ensure a good overall experience for lbry.tv and app users. LBRY does not currently transcode on upload or when viewing, but we will be offering this option on the publish page in the near future. At the moment, we'd recommend creators compress their raw videos with one of the below methods to ensure a good streaming experience.
