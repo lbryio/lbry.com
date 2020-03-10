@@ -46,6 +46,12 @@
                 </a>
               </drawer-child>
 
+                <drawer-child>
+                    <a href="https://explorer.lbry.com">
+                        <strong>Blockchain Explorer</strong>
+                        <span>Look up transactions and claims on the LBRY blockchain</span>
+                    </a>
+                </drawer-child>
 
 
               <drawer-child class="drawer--no-border drawer--social">
