@@ -35,11 +35,12 @@
 .home__cta {
   margin-bottom: 1rem;
   text-align: center;
+  align-self: center;
 
   h1 {
     font-size: 2.5rem;
     font-weight: 200;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 
   div {
@@ -48,6 +49,13 @@
     a:not(:last-of-type):not(.button--google-play) {
       margin-right: 1rem;
     }
+  }
+}
+
+.home__cta-copy {
+  max-width: 700px;
+  p {
+    margin-bottom: 1rem;
   }
 }
 
