@@ -5,8 +5,11 @@
   <section class="home__hero">
     <div class="inner-wrap">
       <aside class="home__cta">
-        <h1>Your Favorite Content</h1>
-          <?php echo View::render('download/_downloadRow') ?>
+        <div class="home__cta-copy">
+          <h1>It's time to take back control from YouTube and Amazon.</h1>
+          <p><small class="meta">Top creators, self-respecting users, the privacy conscious, computer geeks, freedom lovers, loveable kooks, and readers of small gray text everywhere choose LBRY, because it's open, fair, and free.</small></p>
+        </div>
+        <?php echo View::render('download/_downloadRow') ?>
       </aside>
 
       <figure class="home__preview">
