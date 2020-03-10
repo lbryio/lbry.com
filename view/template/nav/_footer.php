@@ -11,7 +11,8 @@
     </ul>
 
     <ul>
-      <li>Download LBRY</li>
+      <li>Use LBRY</li>
+      <li><a href="https://lbry.tv" title="Try lbry.tv">lbry.tv</a></li>
       <li><a href="/android" title="Get LBRY on Android">Android</a></li>
       <li><a href="/linux" title="Get LBRY on Linux">Linux</a></li>
       <li><a href="/ios" title="Get LBRY on iOS">iOS</a></li>

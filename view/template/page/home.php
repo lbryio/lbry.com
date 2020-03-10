@@ -6,12 +6,7 @@
     <div class="inner-wrap">
       <aside class="home__cta">
         <h1>Your Favorite Content</h1>
-
-        <div>
-          <?php echo View::render('download/_downloadButton', ['buttonStyle' => 'primary'])?>
-          <a href="https://lbry.tv" class="button button--inverse">Open in Browser</a>
-          <a href="/get?showall=1" class="button--link">show all platforms</a>
-        </div>
+          <?php echo View::render('download/_downloadRow') ?>
       </aside>
 
       <figure class="home__preview">
@@ -41,6 +36,13 @@
       <?php echo View::render('download/_videoIntro') ?>
     </div>
   </section>
+
+    <section class="home__cta">
+        <div class="inner-wrap">
+            <aside class="home__cta"><h2>Available on desktop, mobile, and in your browser.</h2></aside>
+          <?php echo View::render('download/_downloadRow') ?>
+        </div>
+    </section>
 
   <section class="home__sites">
     <div class="inner-wrap">
