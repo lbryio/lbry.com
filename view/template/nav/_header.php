@@ -13,75 +13,22 @@
       <drawer-navigation>
         <drawer-section>
           <drawer-title>
-            Community
-            <drawer-navigation-helper/>
+            <a href="/get">Download</a>
           </drawer-title>
-
-          <drawer-wrap>
-            <drawer-children>
-              <drawer-child>
-                <a href="/get">
-                  <strong>Get LBRY</strong>
-                  <span>Use LBRY on your computer or phone</span>
-                </a>
-              </drawer-child>
-
-              <drawer-child>
-                <a href="/faq">
-                  <strong>Frequently Asked Questions</strong>
-                  <span>Got questions? We probably have answers!</span>
-                </a>
-              </drawer-child>
-
-              <drawer-child>
-                <a href="/news">
-                  <strong>News</strong>
-                  <span>The latest from the LBRY team and community</span>
-                </a>
-              </drawer-child>
-
-              <drawer-child class="drawer--no-border drawer--social">
-                <div>
-                  <strong>Social</strong>
-                  <span>
-                    <a href="https://www.facebook.com/lbryio"><span class="icon icon-facebook-square"></span></a>
-                    <a href="https://twitter.com/lbryio"><span class="icon icon-twitter"></span></a>
-                    <a href="https://reddit.com/r/lbry"><span class="icon icon-reddit"></span></a>
-                    <a href="https://t.me/lbryofficial"><span class="icon icon-telegram"></span></a>
-                  </span>
-                </div>
-              </drawer-child>
-
-              <drawer-child>
-                <a href="https://chat.lbry.com">
-                  <strong>Chat</strong>
-                  <span>Talk with LBRY fans and team members, right now</span>
-                </a>
-              </drawer-child>
-
-              <drawer-child>
-                <a href="https://explorer.lbry.com">
-                  <strong>Blockchain Explorer</strong>
-                  <span>Lookup transactions and claims on the LBRY blockchain</span>
-                </a>
-              </drawer-child>
-
-            </drawer-children>
-          </drawer-wrap>
         </drawer-section>
 
         <drawer-section>
           <drawer-title>
-            Creators
+            Community ⌄
             <drawer-navigation-helper/>
           </drawer-title>
 
           <drawer-wrap>
             <drawer-children>
               <drawer-child>
-                <a href="/publish">
-                  <strong>Publish to LBRY</strong>
-                  <span>Make your content available to everyone using LBRY</span>
+                <a href="https://lbry.org">
+                  <strong>lbry.org</strong>
+                  <span>Meet, chat, and party in the heart of the LBRY community.</span>
                 </a>
               </drawer-child>
 
@@ -93,31 +40,54 @@
               </drawer-child>
 
               <drawer-child>
-                <a href="/faq?category=publisher">
-                  <strong>Creator Questions</strong>
-                  <span>Frequently asked questions and answers for creators</span>
+                <a href="/faq">
+                  <strong>Frequently Asked Questions</strong>
+                  <span>Got questions? We probably have answers!</span>
                 </a>
               </drawer-child>
 
-              <drawer-child>
-                <a href="https://lbry.fund/creator">
-                  <strong>lbry.fund Content Funding</strong>
-                  <span>Get support for your latest creation</span>
-                </a>
+
+
+              <drawer-child class="drawer--no-border drawer--social">
+                <div>
+                  <strong>Social</strong>
+                  <span>
+                    <a href="https://twitter.com/lbryio"><span class="icon icon-twitter"></span></a>
+                    <a href="https://reddit.com/r/lbry"><span class="icon icon-reddit"></span></a>
+                    <a href="https://www.facebook.com/lbryio"><span class="icon icon-facebook-square"></span></a>
+                    <a href="https://t.me/lbryofficial"><span class="icon icon-telegram"></span></a>
+                  </span>
+                </div>
               </drawer-child>
+
+
             </drawer-children>
           </drawer-wrap>
         </drawer-section>
 
         <drawer-section>
           <drawer-title>
-            Company
+            Company ⌄
             <drawer-navigation-helper/>
           </drawer-title>
 
           <drawer-wrap>
             <drawer-children>
-              <drawer-child>
+                <drawer-child>
+                    <a href="https://open.lbry.com/@lbry">
+                        <strong>@lbry on LBRY</strong>
+                        <span>Everything about LBRY, from LBRY, on LBRY</span>
+                    </a>
+                </drawer-child>
+
+                <drawer-child>
+                    <a href="/news">
+                        <strong>Company News</strong>
+                        <span>The latest from the LBRY team</span>
+                    </a>
+                </drawer-child>
+
+                <drawer-child>
                 <a href="/team">
                   <strong>The Team</strong>
                   <span>Meet the people building LBRY and why they're doing it</span>
@@ -134,6 +104,13 @@
               /-->
 
               <drawer-child>
+                <a href="/news">
+                  <strong>Roadmap</strong>
+                  <span>The next steps in our journey</span>
+                </a>
+              </drawer-child>
+
+              <drawer-child>
                 <a href="/contact">
                   <strong>Contact</strong>
                   <span>Have a question or want to connect with the LBRY, Inc. team?</span>
@@ -143,7 +120,7 @@
               <drawer-child>
                 <a href="/credit-reports">
                   <strong>Credit Reports</strong>
-                  <span>Quarterly reports on LBRY's funds</span>
+                  <span>Quarterly reports on LBRY's blockchain assets</span>
                 </a>
               </drawer-child>
             </drawer-children>
@@ -152,18 +129,26 @@
 
         <drawer-section>
           <drawer-title>
-            Developers
+            Developers ⌄
             <drawer-navigation-helper/>
           </drawer-title>
 
           <drawer-wrap>
             <drawer-children>
+                <drawer-child>
+                    <a href="https://lbry.tech">
+                        <strong>LBRY.tech</strong>
+                        <span>Find a technical overview, specification, APIs, and more</span>
+                    </a>
+                </drawer-child>
+
               <drawer-child>
-                <a href="https://lbry.tech">
-                  <strong>LBRY.tech</strong>
-                  <span>Find a technical overview, specification, APIs, and more</span>
-                </a>
+                  <a href="open.lbry.com/@lbrytech">
+                      <strong>Follow @lbrytech on LBRY</strong>
+                      <span>From the devs, for the devs.</span>
+                  </a>
               </drawer-child>
+
 
             <drawer-child>
               <a href="https://lbry.tech/spec">
@@ -253,7 +238,7 @@
       <?php js_end() ?>
 
       <span class="header__download">
-        <?php echo View::render('download/_downloadButton', ['buttonStyle' => 'primary'])?>
+        <a href="https://open.lbry.com" class="button button--primary">Open LBRY</a>
       </span>
     </div>
   </header>

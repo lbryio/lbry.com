@@ -117,7 +117,7 @@
 /press-kit.zip:   /press-kit
 /news/tag/events: /roadmap
 /privacy: /privacypolicy
-# /publish:         /youtube
+/publish:  https://lbry.tv/$/publish
 
 # Images
 /img/lbry-ui.png:  /img/og-image.png

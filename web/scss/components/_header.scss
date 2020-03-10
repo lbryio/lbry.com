@@ -314,6 +314,12 @@ drawer-title {
     }
   }
 
+  > a {
+    &:hover {
+      color: var(--lbry-teal-4);
+    }
+  }
+
   &::after {
     bottom: 0;
   }

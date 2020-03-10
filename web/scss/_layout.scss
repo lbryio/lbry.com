@@ -186,6 +186,11 @@ input::placeholder {
 .hide {
   display: none;
 }
+.hide--mobile {
+  @media (max-width: 800px) {
+    display: none;
+  }
+}
 
 .align-text--center {
   text-align: center;
