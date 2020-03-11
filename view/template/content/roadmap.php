@@ -25,7 +25,7 @@
       <div class="roadmap-container" id="project-roadmap">
         <?php if (count($items)): ?>
           <?php foreach ($items as $item): ?>
-            <div class="roadmap-item">
+          <div class="roadmap-item" id="<?php echo strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '-', $item['name']))) ?>">
               <h3 class="roadmap-item-title">
                 <?php if (isset($item['url']) && $item['url']): ?>
                   <a href="<?php echo $item['url'] ?>" class="link-primary"><?php echo $item['name'] ?></a>
