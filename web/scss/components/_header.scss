@@ -75,14 +75,26 @@
 
 .header__toggle {
   line-height: 5rem;
-  padding-right: 2rem;
-  padding-left: 2rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
   position: absolute;
   right: 0;
 
   @media (min-width: 951px) {
     display: none;
   }
+}
+
+.header--mobile-only {
+  @media (min-width: 951px) {
+    display: none;
+  }
+}
+
+.header__lbrytv {
+  position: absolute;
+  right: 6rem;
+  z-index: 11;
 }
 
 search-container {

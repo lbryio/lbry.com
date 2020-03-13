@@ -17,6 +17,12 @@
           </drawer-title>
         </drawer-section>
 
+        <drawer-section class="header--mobile-only">
+          <drawer-title>
+            <a href="https://lbry.tv">Use on Web (lbry.tv)</a>
+          </drawer-title>
+        </drawer-section>
+
         <drawer-section>
           <drawer-title>
             Community ⌄
@@ -195,6 +201,7 @@
         />
       </search-container>
 
+      <a href="https://lbry.tv" class="button button--primary header__lbrytv header--mobile-only">lbry.tv</a>
       <a href="#" class="header__toggle" id="menuToggle">Menu</a>
 
       <?php js_start() ?>

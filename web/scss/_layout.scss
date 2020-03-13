@@ -186,8 +186,14 @@ input::placeholder {
 .hide {
   display: none;
 }
+
 .hide--mobile {
   @media (max-width: 800px) {
+    display: none;
+  }
+}
+.hide--desktop {
+  @media (min-width: 801px) {
     display: none;
   }
 }
