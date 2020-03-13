@@ -46,8 +46,8 @@
   div {
     font-size: 1rem;
 
-    a:not(:last-of-type):not(.button--google-play) {
-      margin-right: 1rem;
+    a:not(:first-of-type):not(.button--google-play) {
+      margin-left: 1rem;
     }
   }
 }
