@@ -74,13 +74,15 @@ You are responsible for keeping your wallet safe | no |  maybe\* |
 \*Yes if you do not turn on wallet sync in Settings on Desktop. Sync is on by default for lbry.tv.
 
 ## Limitations {#limits}
+- Videos longer than 1 hour will only be synced for channels with more than 1000 subscribers
+- Videos longer than 2 hours will not be synced
+- Videos bigger than 2GB will be synced at lower quality (1080p, 720p, 480p, ...)
+- Only your 1000 most recent videos will be synced
+- Due to large demand, only if you have at least 100 subscribers you will be synced
+- Private or unlisted videos will not be published, but everything else will
 
-- There is a size limit per video of 2GB/2-hours
-- There is limit of your most recent 1,000 videos.
+Exceptions can be discussed. Contact us at hello@lbry.com
 
-Your most recent 1,000 videos that are 2GB or smaller in size will be synced to LBRY.
-
-Private or unlisted videos will not be published, but everything else will.
 
 ## What happens if I created a channel and/or published to LBRY before transfer? {#cleanup}
 
