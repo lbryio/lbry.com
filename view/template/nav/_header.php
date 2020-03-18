@@ -155,7 +155,7 @@
                 </drawer-child>
 
               <drawer-child>
-                  <a href="open.lbry.com/@lbrytech">
+                  <a href="https://open.lbry.com/@lbrytech">
                       <strong>Follow @lbrytech on LBRY</strong>
                       <span>From the devs, for the devs.</span>
                   </a>
