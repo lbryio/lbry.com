@@ -17,7 +17,7 @@ To sync your existing YouTube channel to LBRY and learn more about the program, 
 There are three main steps to this program:
 
 1. *[Enroll](#enroll)* - Provide authorization for us to begin syncing. After this step, you can begin claiming [rewards](#reward) (if eligible).
-2. *Sync* - During this step, we perform magic behind the scenes. It can take up to several days and [some sync limitations apply](#limits).
+2. *Sync* - During this step, we perform magic behind the scenes. It can take up to several days, your subscription count must be public at all times, and [some sync limitations apply](#limits).
 3. *[Transfer](#transfer)* - Claim ownership of your new LBRY channel and LBRY wallet, so that you and only you are in control. More [below](#transfer).
 
 ### Enrolling {#enroll}
@@ -74,6 +74,7 @@ You are responsible for keeping your wallet safe | no |  maybe\* |
 \*Yes if you do not turn on wallet sync in Settings on Desktop. Sync is on by default for lbry.tv.
 
 ## Limitations {#limits}
+- **Subscription count must be public on YouTube**
 - Videos longer than 1 hour will only be synced for channels with more than 1000 subscribers
 - Videos longer than 2 hours will not be synced
 - Videos bigger than 2GB will be synced at lower quality (1080p, 720p, 480p, ...)
