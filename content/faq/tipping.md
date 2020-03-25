@@ -5,9 +5,15 @@ category: getstarted
 
 LBRY allows you to tip and support your favorite creators.
 
-These credits are automatically stored as associated with the content owners' claim, which helps the claim perform better in search results, top, and [trending calculations](https://lbry.com/faq/trending). It also helps secure the winning [vanity name claims](/faq/naming).
+A _tip_ sends credits to a publisher permanently, while also boosting the trust and performance of the content.
 
-LBRY Desktop and lbry.tv also have a experimental setting for supporting claims without tipping (you keep the deposit). By default, creators will also see the Support button on their own content. When supporting other content, you help the publisher [boost their discoverability](https://lbry.com/faq/trending) and secure their [vanity claim names](/faq/naming), but you can redeem your deposit at anytime. [Learn more below](#supports)
+A _support_ boosts trust and performance, but _does not_ give anything to the publisher permanently.
+
+In both cases, the amount of credits is stored as associated with (staked against) either the piece of content or the publisher themselves. Either way, the amount staked:
+
+- Help content perform better in search results
+- Helps content appear higher in the list of top and [trending](https://lbry.com/faq/trending) publishes
+- Determines which content is shown at the [community-controlled name](/faq/naming)
 
 ## How do I send a tip?
 
@@ -22,11 +28,32 @@ Next, you'll be prompted for the tip amount in LBRY Credits (LBC). Once you ente
 
 When you receive a tip, the credits will come into your wallet, and you can see them in your Transaction History. However, since the credits come in as supporting a claim, they will not show in your available balance.
 
-To have these credits show in your balance, they must be unlocked via the wallet Overview/History page. This is done by clicking the unlock icon next to `Tip` and then confirming your action on the following screen. Once the transaction is finalized, the icon will disappear. This also nullifies any help the support/tip was giving in terms of search results, trending, and top discovery mechanisms.
+To have these credits show in your balance, they must be unlocked. Tips can be unlocked in 1 of 2 ways.
+
+### 1. Unlocking tips by publish
+
+### 2. Unlocking tips in transaction history 
+
+You can also unlock tips across all of your publishes in your transaction history. 
+
+This is done by clicking the unlock icon next to `Tip` and then confirming your action on the following screen. Once the transaction is finalized, the icon will disappear. 
 
 Unlock tip: ![Unlock tip](https://spee.ch/@clem:0/tipunlock.png)
 
 Confirmation box: ![Confirmation box](https://spee.ch/@clem:0/tipconfirmation.png)
+
+## What are the downsides of unlocking tips? Are there any good rules to follow?
+
+While you should never hesitate to unlock LBC you need or want to spend, unlocking LBC does reduce the boost it gives to your content in terms of search results, trending, and discovery mechanisms.
+
+Aside from [community-controlled names](/faq/naming), which are just a small part of how your content is discovered, the rules about how unlocking tips will affect your content is complicated, and can change based on the overall popularity of the type of content you create. For example, a large amount of tips showing up on a previously obscure publish can mean more than a large amount of tips showing up on content that has received large tips before!
+
+If you're feeling uncertain, some easy advice to follow is:
+
+- Never unlock more than half the LBC on content that is performing well
+- Never go below 10 LBC on a piece of content you want to continue to get views
+
+But these rules are just suggestions and may change as LBRY evolves.
 
 ## How do I send a support? {#supports}
 
