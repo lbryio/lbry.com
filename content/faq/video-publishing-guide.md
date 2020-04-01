@@ -19,7 +19,11 @@ If you prefer 1080P, please try to keep the bitrate at or below 8Mbps. You'll be
 The LBRY Desktop application supports local transcoding of videos during the publish process. This will require ffmpeg (automated process coming later) to be installed and will create a transcoded copy alongside your original file.  
 ![publish](https://spee.ch/0/publish-page.jpeg)
 
-ffmpeg will automatically be found from your system path or [lbrynet folder](/faq/lbry-directories), or you can also use a custom path. The easiest way to configure ffmpeg on Windows/Mac is to download the executables and copy the bin folder into a new folder called ffmpeg inside your [lbrynet folder](/faq/lbry-directories). The final path to the files would be something like `lbry/lbrynet/ffmpeg/bin/ffmpeg.exe`. For Linux, the install process typically adds it to your system path.
+ffmpeg will automatically be found from your system path or [lbrynet folder](/faq/lbry-directories), or you can also use a custom path.
+
+### Install and configure
+
+The easiest way to configure ffmpeg on Windows/Mac is to [download the executables](https://www.ffmpeg.org/download.html) and copy the bin folder into a new folder called ffmpeg inside your [lbrynet folder](/faq/lbry-directories). The final path to the files would be something like `lbry/lbrynet/ffmpeg/bin/ffmpeg.exe`. For Linux, the install process typically adds it to your system path.
 
 This will allow the application to automatically detect it, but you can also choose your own custom path on the Settings page (will require restart in most cases).
 
