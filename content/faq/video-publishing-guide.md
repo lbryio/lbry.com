@@ -16,7 +16,7 @@ If you prefer 1080P, please try to keep the bitrate at or below 8Mbps. You'll be
 
 ## Automated transcoding in LBRY Desktop {#automatic}
 
-The LBRY Desktop application supports local transcoding of videos during the publish process. This will require ffmpeg (automated process coming later) to be installed and will create a transcoded copy alongside your original file.  
+The LBRY Desktop application supports local transcoding of videos during the publish process. This will require ffmpeg (automated process coming later) to be installed and will create a transcoded copy alongside your original file (**_fixed** appended to the filename).
 ![publish](https://spee.ch/0/publish-page.jpeg)
 
 ffmpeg will automatically be found from your system path or [lbrynet folder](/faq/lbry-directories), or you can also use a custom path.
