@@ -41,11 +41,8 @@ First and foremost, please ensure you are on the [latest version](/get) of LBRY.
 ### Stuck at blockchain sync or wallet issues {#sync}
 If you are stuck on the blockchain sync step or it shows a block count that doesn't decrease, you may need to clear your blockchain headers and/or synced data. To do so, Shut LBRY down completely by closing it from the system tray (check for running LBRY/lbrynet-daemon processes), delete the `headers` and `blockchain.db` files in the [lbryum/lbc_mainnet folder](/faq/lbry-directories) and then start LBRY again.
 
-### Linux auth_token requirements {#auth}
-Currently, LBRY requires an authorization token to be generated using the [keytar](https://github.com/atom/node-keytar) libraries. Please ensure libsecret and keytar are installed. On some distributions, LBRY won't run unless gnome-keyring is also installed/operational. See [GitHub issue](https://github.com/lbryio/lbry-desktop/issues/386) for more information. If you get a GLIBCXX_3.4.2 error, please see [this issue](https://github.com/lbryio/lbry-desktop/issues/423#issuecomment-327519486).
-
 ### SDK could not start because port is in use (IPV6 / debian)
-If the newly installed or re-installed LBRY has the start up issue with daemon being in use, check the .local/share/lbry/lbrynet folder for `daemon_settings.yml` file.
+If the newly installed or re-installed LBRY has the start up issue with SDK not being able to bind, check the .local/share/lbry/lbrynet folder for `daemon_settings.yml` file.
 If the file doesn't exist, create one and settings inside should be:
 
     api: 127.0.0.1:5279
