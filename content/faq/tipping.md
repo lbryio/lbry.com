@@ -26,23 +26,33 @@ Next, you'll be prompted for the tip amount in LBRY Credits (LBC). Once you ente
 
 ## How do I redeem my tips?
 
-When you receive a tip, the credits will come into your wallet, and you can see them in your Transaction History. However, since the credits come in as supporting a claim, they will not show in your available balance.
+When you receive a tip, the credits will come into your wallet, and you can see them in your Transaction History. However, since the credits come in as supporting a claim, they will not show in your available balance. See our [suggested guidelines](#guidelines) on tip unlocking.
 
 To have these credits show in your balance, they must be unlocked. Tips can be unlocked in 1 of 2 ways.
 
 ### 1. Unlocking tips by publish
 
-### 2. Unlocking tips in transaction history 
+You can mass unlock tips from a published item using the LBC Details section of the content page.
 
-You can also unlock tips across all of your publishes in your transaction history. 
+![](https://spee.ch/0/file-tip-unlock.jpg)
 
-This is done by clicking the unlock icon next to `Tip` and then confirming your action on the following screen. Once the transaction is finalized, the icon will disappear. 
+You'll have an option choose the amount to unlock, with the default being 25%. Enter an amount or use the slider, and then click Unlock. The remaining LBC is sent back to you as a support on your content.
+
+**Please note: Mass tip unlocking mail fail if there are over ~500 active tips, we're working on making this possible! If this occurs, you'll need to unlock some via the per tip method below.**
+
+![](https://spee.ch/b/tip-unlock.jpeg)
+
+### 2. Unlocking tips in transaction history
+
+You can also unlock tips across all of your publishes in your transaction history.
+
+This is done by clicking the unlock icon next to `Tip` and then confirming your action on the following screen. Once the transaction is finalized, the icon will disappear.
 
 Unlock tip: ![Unlock tip](https://spee.ch/@clem:0/tipunlock.png)
 
 Confirmation box: ![Confirmation box](https://spee.ch/@clem:0/tipconfirmation.png)
 
-## What are the downsides of unlocking tips? Are there any good rules to follow?
+## What are the downsides of unlocking tips? Are there any good rules to follow? {#guidelines}
 
 While you should never hesitate to unlock LBC you need or want to spend, unlocking LBC does reduce the boost it gives to your content in terms of search results, trending, and discovery mechanisms.
 
