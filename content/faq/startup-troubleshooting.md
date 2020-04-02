@@ -3,7 +3,6 @@ title: LBRY startup troubleshooting
 category: troubleshooting
 order: 1
 ---
-**If you are having trouble with sign in or blank video pages on certain Linux distros, [try this build](https://build.lbry.io/app/build-10125_commit-5d7a123/electron/).**
 
 Proper network connectivity, visibility, and access is a necessity for usage of the LBRY Desktop app, as it is a decentralized peer-to-peer protocol that requires clients to see and communicate with each other. Since individual local network configurations, firewalls, and other security settings vary greatly, LBRY may require some basic network/PC troubleshooting in order to function properly. Since LBRY is in beta, there are certain configurations which we don't support yet, but can offer workarounds (see below) or offer [one-on-one troubleshooting](/faq/how-to-report-bugs).
 
@@ -17,6 +16,7 @@ LBRY operates on a couple of different ports, and if there are conflicts/firewal
 - Port 3333 - LBRY daemon runs and shares data on port 3333 (TCP) by default. Often times, this port can be already in use to due to mining software or other applications/services.
 - Port 4444 - LBRY daemon utilizes port 4444 to stream and download data from the LBRY network.
 - Port 50001 - LBRY wallet connections happen over port 50001. LBRY may fail to start if this port is blocked by a firewall or network rules.
+- Port 5567 - LBRY rehosts content on this port. If it's blocked, you will only be able to download from the P2P network.
 
 ## This is my first time running LBRY, and it won't start
 - If don't see the LBRY app starting up at all on Windows, run LBRY.exe with CMD (command prompt) to further debug the problem. Navigate to the installation path e.g. `C:\Program Files\LBRY` for x64 and `C:\Program Files (x86)\LBRY` for x86, type `LBRY.exe` and hit enter for the app to launch. This will show any errors the app has starting up. The most common issue [is related to incorrect Windows environment variables](https://superuser.com/questions/1178674/wmic-is-not-recognized-as-an-internal-or-external-command-operable-program-or/1178758).
