@@ -4,7 +4,7 @@ category: publisher
 order: 2
 ---
 
-Even though LBRY does not enforce any file size, resolution, or quality of video content, we still encourage publishers to adhere to web optimized bitrates/sizes to ensure a good overall experience for lbry.tv and app users. LBRY does not currently transcode on upload or when viewing automatically, but an option in available on LBRY Desktop to do so during the publish process. If you are publishing on Android or lbry.tv, please follow the manual instructions for Handbrake/ffmpeg below.
+Even though LBRY does not enforce any file size, resolution, or quality of video content, we still encourage publishers to adhere to web optimized bitrates/sizes to ensure a good overall experience for lbry.tv and app users. LBRY does not automatically transcode on upload or when viewing, but an option is available on the LBRY Desktop app to do so during the publish process. If you are publishing on Android or lbry.tv, please follow the manual instructions for Handbrake/ffmpeg below.
 
 See our [Publishing FAQ](/faq/how-to-publish) for more information about the publishing process.
 
