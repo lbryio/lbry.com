@@ -40,7 +40,7 @@ LBRY supports several types of URL resolution:
 | Type | Syntax | Resolution |
 | ---------------- | --- | --- |
 | **Permanent** | `lbry://<name>#<claim_id>` | This URL consists of a name and randomly assigned ID. This is permanently owned and controlled by the publisher. Permanent URLs support partial, temporal-ordered ID matching, so these can be quite short (e.g. lbry://name#8 or lbry://name#ab) |
-| **Short** | `lbry://<name>#<short_claim_id>` | This URL consists of a name and one or more characters (first come first serve to preserve uniqueness) from the Permanent URL. This is permanently owned and controlled by the publisher. If a shorter URL is made available, the claim next in line will take over it's resolution.
+| **Short** | `lbry://<name>#<short_claim_id>` | This URL consists of a name and one or more characters (first come first serve to preserve uniqueness) from the Permanent URL. This is permanently owned and controlled by the publisher. If a shorter URL is made available, the claim next in line will take over its resolution.
 | **Community** | `lbry://<name>` | Of all of the claims named `<name>`, this returns the publish with the most credits committed towards it, not just by the publisher, but by the entire community. These URLs are not permanent or owned but instead controlled by the community itself, allowing the resolution to settle on that which the community determines most appropriate. |
 | **Channel** | `lbry://<@channel_name>` | A URL corresponding to a publisher identity. These resolve to the identity of a specific publisher and their publishes. Channel URLs can be specified with or without the `#` modifier. An unmodified URL returns the channel determined by the community.
 | **Signed** | `lbry://<@channel_name>/<example>` | The piece of content published to the name `<example>` within the channel of `<@channel_name>`.
@@ -67,4 +67,4 @@ We're trying to solve a very hard problem in a novel way, and we're committed to
 
 ## Relevance in search and trending/top categories
 
-Increasing your bid and receiving tips on your content/channel, increases it's relevance in search results and discoverability through the Trending and Top categories on LBRY. Trending calculations are based on how much the LBC bid has increased through any bid updates and tips, compared to all the other claims on LBRY. [Learn more](/faq/trending).
+Increasing your bid and receiving tips on your content/channel, increases its relevance in search results and discoverability through the Trending and Top categories on LBRY. Trending calculations are based on how much the LBC bid has increased through any bid updates and tips, compared to all the other claims on LBRY. [Learn more](/faq/trending).
