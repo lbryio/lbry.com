@@ -1,5 +1,16 @@
-## How to purchase LBC with debit card from Bittrex
-1. Login / create a Bittrex account (you may need to complete KYC)
+---
+title: How to buy and sell LBC on an exchange
+category: getstarted
+---
+This guide is meant for informational purposes only and is not financial advice. 
+
+The only way to exchange LBC for traditioanl currencies (and vice versa) is by using [cryptocurrency exchanges](/faq/exchanges). Some exchanges have a US Dollar (USD/USDT) market, where-as others only trade LBC against Bitcoin (BTC). This means you'd need to go through BTC first before being able to obtain tranditional currencies like USD. These steps are an example of how buy and sell LBC on Bittrex, but the mechanism of using order books will be similar on other exchanges.
+
+## Depositing USD
+<fill in section on how to link bank / deposit USD>
+
+## Purchasing with debit card from Bittrex
+**Please note: This is only available to some customers depending on location**
 2. Click on `Holdings` from the upper right corner. 
 ![holdings](https://spee.ch/@lbrysh:6/holdings.jpg)
 3. Once the holdings page loads up, click on deposit by credit/debit card.
@@ -10,13 +21,14 @@
 6. Once the payment is successful, you should see fiat balance in BTC equivalence
 
 ## Purchasing BTC with the USD
+1. Login / create a Bittrex account (you may need to complete KYC)
 1. Go back to Bittrex home page, under USD market you should click on USD-BTC
 ![usd-btc](https://spee.ch/@lbrysh:6/usd.jpg)
-2. Click on the market price you’d like to buy BTC (usually the first in the sell order book and indicated as red.)
+1. Click on the market price you’d like to buy BTC (usually the first in the sell order book and indicated as red.)
 ![buy](https://spee.ch/@lbrysh:6/buy.jpg)
-3. Enter how much BTC you want to purchase in dollars or simply click on the percentage to select the amount you’d like to purchase BTC for example 50% of your total holdings or 100% of your total holding in USD.
+1. Enter how much BTC you want to purchase in dollars or simply click on the percentage to select the amount you’d like to purchase BTC for example 50% of your total holdings or 100% of your total holding in USD.
 ![amount](https://spee.ch/@lbrysh:6/amount1.jpg)
-4. Click on place order, and once the order is executed, you’ll now see your BTC holdings instead of USD. You can check this right below the place order button or the holdings page from the upper right screen.
+1. Click on place order, and once the order is executed, you’ll now see your BTC holdings instead of USD. You can check this right below the place order button or the holdings page from the upper right screen.
 
 ## Purchasing LBC with BTC.
 1. Go back to the Bittrex home page, scroll down, under the BTC market, search for LBC and once it comes up, click on BTC-LBC.
@@ -26,6 +38,12 @@
 3. Enter how much LBC you want to purchase or simply click on the percentage to select the amount you’d like to purchase, for example, 50% of your total holdings or 100% of your total holding in BTC.
 4. Click on place order, and once the order is executed, you’ll now see your LBC holdings. You can check this right below the place order button or the holdings page from the upper right screen.
 
+## Selling LBC to BTC
+<fill in how to sell>
+  
+## Selling BTC for USD
+<fill in how to sell>
+  
 ## Checking Holdings and withdrawing LBC to your LBRY account.
 1. Click on the holdings on the upper right corner of the Bittrex page.
 ![holdings](https://spee.ch/@lbrysh:6/holdings.jpg)
