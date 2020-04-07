@@ -6,6 +6,8 @@ This guide is meant for informational purposes only and is not financial advice.
 
 The only way to exchange LBC for traditioanl currencies (and vice versa) is by using [cryptocurrency exchanges](/faq/exchanges). Some exchanges have a US Dollar (USD/USDT) market, where-as others only trade LBC against Bitcoin (BTC). This means you'd need to go through BTC first before being able to obtain tranditional currencies like USD. These steps are an example of how buy and sell LBC on Bittrex, but the mechanism of using order books will be similar on other exchanges.
 
+If you are acquiring LBC, you'll need to have BTC deposited into your account, link a bank account to deposit USD, or use a credit card (not available in all localtions). 
+
 ## Depositing USD
 <fill in section on how to link bank / deposit USD>
 
