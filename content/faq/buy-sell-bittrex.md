@@ -48,7 +48,7 @@ This will open a new tab to submit a request to Bittrex for [USD Trading, Deposi
 4. Click on place order, and once the order is executed, you’ll now see your LBC holdings. You can check this right below the place order button or the holdings page from the upper right screen.
 
 ## Selling LBC for BTC
-To sell LBC for BTC, you will have to deposit your LBC to the Bittrex LBC wallet. [See depositing LBC to Bittrex](Withdrawing-LBC-to–Bittrex)
+To sell LBC for BTC, you will have to deposit your LBC to the Bittrex LBC wallet. [See depositing LBC to Bittrex](#Withdrawing-LBC-to–Bittrex)
 1. Go to the Bittrex home page, scroll down, under the BTC market, search for LBC and once it comes up, click on BTC-LBC.
 ![lbc](https://spee.ch/@lbrysh:6/lbc1.jpg)
 2. Click on Sell
@@ -59,7 +59,7 @@ To sell LBC for BTC, you will have to deposit your LBC to the Bittrex LBC wallet
 4. Click on place sell order, and once the order is executed, you’ll now see your BTC holdings. You can check this right below the place order button or the holdings page from the upper right screen.
   
 ## Selling BTC for USD
-To sell BTC for USD, you may have to submit a Fiat Trading request to Bittrex [See Depositing USD](Depositing-USD)
+To sell BTC for USD, you may have to submit a Fiat Trading request to Bittrex [See Depositing USD](#Depositing-USD)
 1. Go back to Bittrex home page, under USD market you should click on USD-BTC
 ![usd-btc](https://spee.ch/@lbrysh:6/usd.jpg)
 2. Click on the market price you’d like to sell BTC (usually the first in the buy order book and indicated as green.)
