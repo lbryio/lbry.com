@@ -9,28 +9,35 @@ The only way to exchange LBC for traditioanl currencies (and vice versa) is by u
 If you are acquiring LBC, you'll need to have BTC deposited into your account, link a bank account to deposit USD, or use a credit card (not available in all localtions). 
 
 ## Depositing USD
-<fill in section on how to link bank / deposit USD>
+**Please note: This is only available to some customers depending on location**
+1. Click on `Holdings` from the upper right corner. 
+![holdings](https://spee.ch/@lbrysh:6/holdings.jpg)
+2. Once the holdings page loads up, click on deposit by credit/debit card.
+![card](https://spee.ch/@lbrysh:6/cards.jpg)
+3. Click on Wire Transfer and clik Get Started
+![wire-transfer](https://spee.ch/@lbrysh:6/wire-transfer.jpg)
+This will open a new tab to submit a request to Bittrex for [USD Trading, Deposit and withdrawals](https://bittrexglobal.zendesk.com/hc/en-us/requests/new?ticket_form_id=360000352300)
 
 ## Purchasing with debit card from Bittrex
 **Please note: This is only available to some customers depending on location**
-2. Click on `Holdings` from the upper right corner. 
+1. Click on `Holdings` from the upper right corner. 
 ![holdings](https://spee.ch/@lbrysh:6/holdings.jpg)
-3. Once the holdings page loads up, click on deposit by credit/debit card.
+2. Once the holdings page loads up, click on deposit by credit/debit card.
 ![card](https://spee.ch/@lbrysh:6/cards.jpg)
-4. Enter the amount you’d like to purchase in dollars and click on enter card info next.
+3. Enter the amount you’d like to purchase in dollars and click on enter card info next.
 ![amount](https://spee.ch/@lbrysh:6/amount.jpg)
-5. enter your card details and any other information and click on pay
-6. Once the payment is successful, you should see fiat balance in BTC equivalence
+4. enter your card details and any other information and click on pay
+5. Once the payment is successful, you should see fiat balance in BTC equivalence
 
 ## Purchasing BTC with the USD
 1. Login / create a Bittrex account (you may need to complete KYC)
-1. Go back to Bittrex home page, under USD market you should click on USD-BTC
+2. Go back to Bittrex home page, under USD market you should click on USD-BTC
 ![usd-btc](https://spee.ch/@lbrysh:6/usd.jpg)
-1. Click on the market price you’d like to buy BTC (usually the first in the sell order book and indicated as red.)
+3. Click on the market price you’d like to buy BTC (usually the first in the sell order book and indicated as red.)
 ![buy](https://spee.ch/@lbrysh:6/buy.jpg)
-1. Enter how much BTC you want to purchase in dollars or simply click on the percentage to select the amount you’d like to purchase BTC for example 50% of your total holdings or 100% of your total holding in USD.
+4. Enter how much BTC you want to purchase in dollars or simply click on the percentage to select the amount you’d like to purchase BTC for example 50% of your total holdings or 100% of your total holding in USD.
 ![amount](https://spee.ch/@lbrysh:6/amount1.jpg)
-1. Click on place order, and once the order is executed, you’ll now see your BTC holdings instead of USD. You can check this right below the place order button or the holdings page from the upper right screen.
+5. Click on place order, and once the order is executed, you’ll now see your BTC holdings instead of USD. You can check this right below the place order button or the holdings page from the upper right screen.
 
 ## Purchasing LBC with BTC.
 1. Go back to the Bittrex home page, scroll down, under the BTC market, search for LBC and once it comes up, click on BTC-LBC.
@@ -40,11 +47,27 @@ If you are acquiring LBC, you'll need to have BTC deposited into your account, l
 3. Enter how much LBC you want to purchase or simply click on the percentage to select the amount you’d like to purchase, for example, 50% of your total holdings or 100% of your total holding in BTC.
 4. Click on place order, and once the order is executed, you’ll now see your LBC holdings. You can check this right below the place order button or the holdings page from the upper right screen.
 
-## Selling LBC to BTC
-<fill in how to sell>
+## Selling LBC for BTC
+To sell LBC for BTC, you will have to deposit your LBC to the Bittrex LBC wallet. [See depositing LBC to Bittrex](Withdrawing-LBC-to–Bittrex)
+1. Go to the Bittrex home page, scroll down, under the BTC market, search for LBC and once it comes up, click on BTC-LBC.
+![lbc](https://spee.ch/@lbrysh:6/lbc1.jpg)
+2. Click on Sell
+![sell](https://spee.ch/@lbrysh:6/click-sell.jpg)
+3. Click on the market price you’d like to sell LBC (usually the first in the buy order book indicated as green.)
+![sell lbc](https://spee.ch/@lbrysh:6/sell-lbc.jpg)
+3. Enter how much LBC you want to sell or simply click on the percentage to select the amount you’d like to see, for example, 50% of your total holdings or 100% of your total holding in LBC.
+4. Click on place sell order, and once the order is executed, you’ll now see your BTC holdings. You can check this right below the place order button or the holdings page from the upper right screen.
   
 ## Selling BTC for USD
-<fill in how to sell>
+To sell BTC for USD, you may have to submit a Fiat Trading request to Bittrex [See Depositing USD](Depositing-USD)
+1. Go back to Bittrex home page, under USD market you should click on USD-BTC
+![usd-btc](https://spee.ch/@lbrysh:6/usd.jpg)
+2. Click on the market price you’d like to sell BTC (usually the first in the buy order book and indicated as green.)
+![sell-usd](https://spee.ch/@lbrysh:6/sell-usd.jpg)
+4. Enter how much BTC you want to sell or simply click on the percentage to select the amount you’d like to sell BTC, for example 50% of your total holdings or 100% of your total holding.
+![amount](https://spee.ch/@lbrysh:6/amount1.jpg)
+5. Click on place sell order, and once the order is executed, you’ll now see your USD holdings instead of BTC. You can check this right below the place order button or the holdings page from the upper right screen.
+
   
 ## Checking Holdings and withdrawing LBC to your LBRY account.
 1. Click on the holdings on the upper right corner of the Bittrex page.
