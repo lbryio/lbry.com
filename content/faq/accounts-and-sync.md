@@ -33,7 +33,7 @@ On the login screen, you'll have the option to reset an account password via ema
 
 You can update your account password on the Settings page. You'll be prompted for your old password, and the new one. Existing sessions will be kept active. If you need them signed out for security reasons, please [contact us](/faq/support).
 
-![](ttps://spee.ch/9/update-password.jpg)
+![](https://spee.ch/9/update-password.jpg)
 
 ### Account vs encrypted wallet passwords
 Account passwords are separate from wallet passwords. Users with encrypted wallets will still be required to enter their wallet password when logging into lbry.tv and about every 2 weeks when the passwords expire. Setting wallet passwords is a [current limitation](#limitations) of our sync process. 
