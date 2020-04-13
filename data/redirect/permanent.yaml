@@ -31,6 +31,7 @@
 /what-is-lbry:                                        /faq/what-is-lbry
 /youtube/sync:                                        /faq/youtube
 /faq/referrals:                                       /faq/invites
+/faq/account-sync:                                    /faq/accounts-and-sync
 
 # Get
 /dl/lbry_setup.sh:        /get
