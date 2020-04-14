@@ -1,5 +1,5 @@
 ---
-title: How to buy and sell LBC on an exchange
+title: Buying and selling LBC on exchanges
 category: getstarted
 ---
 This guide is meant for informational purposes only and is not financial advice. 
@@ -110,4 +110,4 @@ To sell BTC for USD, you may have to submit a Fiat Trading request to Bittrex [S
 1. Paste the address you copied from Bittrex and enter the amount you want to transfer and click send.
 1. To check the status of your withdrawal, go to the holdings page on Bittrex and click on deposits. This will show pending deposit status.
 
-* Please note that it may take up to 10 minutes for the status to reflect under the deposit status. Bittrex requires 30 confirmations which can take anywhere between 60-90 minutes.
+**Please note that it may take up to 10 minutes for the status to reflect under the deposit status. Bittrex requires 30 confirmations which can take anywhere between 60-90 minutes.**
