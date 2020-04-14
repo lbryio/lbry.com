@@ -20,7 +20,7 @@ If you are acquiring LBC, you'll need to have BTC deposited into your account, l
 1. Click on `Holdings` from the upper right corner. 
 ![holdings](https://spee.ch/@lbrysh:6/holdings.jpg)
 1. Once the holdings page loads up, click on **Deposit by bank/wire**
-1. Click on Wire Transfer and clik Get Started.
+1. Click on Wire Transfer and click Get Started.
 ![wire-transfer](https://spee.ch/@lbrysh:6/wire-transfer.jpg)
 1. Finish the process and deposit USD into your account. 
 
