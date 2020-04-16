@@ -3,7 +3,9 @@ title: Multisignature and Ledger hardware wallets
 category: powerusers
 ---
 
-This guide is meant for power users and those who want to store LBRY Credits on their [Ledger Hardware devices](#HW) before official support is added. If you are participating in the LBRY Swarm program, this solution will allow you to store LBC at a multisignature address which typically requires more than 1 person to sign off on a transaction before it's sent to the network. **It is important to test a single small transaction incoming and outgoing before using the wallet to store larger amounts. Also make sure a backup is taken (see instructions below).**
+This guide is meant for power users and those who want to store LBRY Credits on their [Ledger Hardware devices](#HW) before official support is added.
+
+If you are participating in the LBRY Swarm program, this solution will allow you to store LBC at a multisignature address which typically requires more than 1 person to sign off on a transaction before it's sent to the network. **It is important to test a single small transaction incoming and outgoing before using the wallet to store larger amounts. Also make sure a backup is taken (see instructions below).**
 
 **Please note that the LBRY does not support outgoing transactions to multisignature wallets.**
 
@@ -13,7 +15,7 @@ Learn more about multisignature wallets and how they work: [Electrum Documentati
 
 ## Installing and running LBRY Vault for LBRY
 
-You can find the downloads and setup information for [LBRY Vault on GitHub](https://github.com/kodxana/LBRY-Vault/releases). Windows, Mac, and Linux Appimage installations are provided.
+You can find the downloads and setup information for [LBRY Vault on GitHub](https://github.com/kodxana/LBRY-Vault/releases). Windows, Mac, and Linux Appimage installations are provided. Additional setup and install 
 
 ## Setting up a multisignature wallet
 
@@ -39,9 +41,11 @@ The cosigner has to open the wallet on their PC and go to **Tools > Load Transac
 
 ## Ledger hardware wallet with LBRY Vault {#HW}
 
-You can use your Ledger device with LBRY Vault to store LBC. Please follow [these directions on how to install it on your device](https://github.com/tzarebczan/ledger-app-btc/releases/tag/lbry) and then use the above directions to setup a new wallet. For a normal account (non-multisignature), you will choose **Standard wallet** when setting up the device, and then **Use a hardware device**, and then follow the prompts.
+You can use your Ledger device with LBRY Vault to store LBC. Please follow [these directions on how to install it on your device](https://support.ledger.com/hc/en-us/articles/360012122999-LBRY-LBRY-) and then use the above directions to setup a new wallet. 
 
-Official support with Ledger will be coming at a later date.
+For a normal account (non-multisignature), you will choose **Standard wallet** when setting up the device, and then **Use a hardware device**, and then follow the prompts.
+
+Official support with Ledger Live is coming at a later date. 
 
 ## LBRY Vault wallet file location {#backup}
 
