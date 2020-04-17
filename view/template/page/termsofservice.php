@@ -11,7 +11,7 @@
 
   <section>
     <div class="inner-wrap">
-      <p><strong>Last Updated: Februar 2020</strong></p>
+      <p><strong>Last Updated: February 2020</strong></p>
 
 <p><strong>PLEASE READ THESE TERMS OF SERVICE CAREFULLY. NOTE THAT SECTION 16 CONTAINS A BINDING ARBITRATION CLAUSE AND CLASS ACTION WAIVER, WHICH AFFECT YOUR LEGAL RIGHTS. IF YOU DO NOT AGREE TO THESE TERMS OF SERVICE, DO NOT ACCESS OR USE THE SERVICES.</strong></p>
 
