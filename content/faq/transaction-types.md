@@ -4,6 +4,7 @@ category: wallet
 ---
 
 There are a number of transaction types which take place on the LBRY blockchain. LBRY displays these transactions on the Wallet page. You can filter on various types and statuses of these transactions using the options provided. 
+![](https://spee.ch/5/filters.jpeg)
 
 Many transaction types also have details associated with them such as the claim/channel name or if they came from an LBRY Reward. You can also see additional details by clicking the transaction ID and accessing them in the [LBRY block explorer](https://explorer.lbry.com).
 
@@ -26,6 +27,6 @@ Many transaction types also have details associated with them such as the claim/
 
 Certain transactions allow you to take additional actions directly from the transaction screen, such as claiming an incoming tip via the unlock button and revoking a claim via the trashcan button. Once the action is taken, the action icon be greyed out, and LBC will be returned to your wallet. 
 
-## What About Purchases?
+## What about purchase details?
 
 Content purchases and incoming content payments do not currently show which content they are linked to. This is coming in a future release.
