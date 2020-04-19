@@ -18,15 +18,15 @@ We promise to keep any collected data safe and to never share personal, private 
 
 Users can also [choose to use LBRY anonymously](#anonymous) however some features, like [LBRY Rewards](https://lbry.com/faq/rewards), will not be available.
 
-Additionally, even when not sending data to us, using LBRY typically involves participation in the peer-to-peer LBRY network and certain information like your IP address is likely to be exposed regardless. See [below](#p2p) for more information.
+Additionally, even when not sending data to us, using LBRY (outside of lbry.tv) typically involves participation in the peer-to-peer LBRY network and certain information like your IP address is likely to be exposed regardless. See [below](#p2p) for more information.
 
 ## What type of data is collected and where?
 As a first time user of LBRY applications and [lbry.tv](https://lbry.tv), you have the option of providing an email address to create a LBRY account. This allows for a richer user experience by enabling services such as [LBRY Rewards](https://lbry.com/faq/rewards), email notifications, and account synchronization (i.e. subscriptions and user preferences) across multiple devices/platforms. If you do not provide an email, any data collected cannot be associated with your identity, but may still be tied back to other system information like IP addresses.
 
 See below tables for a break-down of the types of data collected and associated applications.
 
-Scope of Data | Depends on| Optional | Visibility | Details
-:------------ |:------------ |:------------ |:------------ |:------------ |
+Scope of Data | Depends on   | Optional     | Visibility       | Details
+:------------ |:------------ |:------------ |:---------------- |:------------ |
 Email addresses | | Yes, if email provided | LBRY | Used to create and authenticate a LBRY account
 User preferences | Email | Yes, if email provided | LBRY | Subscriptions, tags, blocked channels, and application settings
 System information | | Yes, if Share Diagnostic Data enabled | LBRY | Operating system, application/SDK versions, and unique install identifier
@@ -37,13 +37,13 @@ IP addresses | | No, use VPN to protect | Everyone | Any access to LBRY services
 Blockchain metadata | Email | Yes, if email provided | LBRY| Wallet addresses and transactions related to Rewards are logged to prevent abuse and comply with tax requirements (above $600 yearly threshold)
 Blockchain transactions | | No, don’t create transactions | Everyone | Any actions taken that use LBRY credits and create a permanent transaction on the blockchain. Not linked to any Account/User data.
 
-Scope of Data | LBRY Desktop App | LBRY.tv (Web) | LBRY Android App | LBRY SDK |
+Scope of Data | LBRY Desktop App | lbry.tv (Web) | LBRY Android App | LBRY SDK |
 :------------ |:------------ |:------------ | :-------------| :-------------|
 Email addresses | yes | yes | yes | no |
 User preferences | yes | yes | yes | no |
 System information | yes | no | yes | yes |
 Identity verification | yes | yes | yes | no |
-Google Analytics | opt-out | yes | yes | no |
+Google Analytics | opt-in | yes | yes | no |
 Content access analytics | yes | yes | yes | yes |
 IP addresses | yes | yes | yes | opt-out |
 Blockchain metadata | yes | yes | yes | no |
