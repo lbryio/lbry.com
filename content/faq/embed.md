@@ -18,7 +18,7 @@ Similar to other content platforms, LBRY videos can be embedded on your blog or 
 ## What the end result looks like
 
 The lbry.tv video player will be displayed on your website.
-![](https://spee.ch/f/embed-4.jpg)
+![](https://spee.ch/a/embed-5.jpg)
 
 ## What else do I need to know?
 
