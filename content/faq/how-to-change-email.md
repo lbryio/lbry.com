@@ -14,6 +14,8 @@ If you are using lbry.tv only, your wallet will also not be transferred, so plea
 If you sign out of the Desktop app and back in with a different email, **these wallets and accounts will be merged**. Do not do this unless it's intentional and you expect the new email to be used by the same person.
 
 ## Changing email on Android {#android}
+**If you need to merge wallets, you need to backup/restore your Android wallet or use the LBRY Desktop app to merge them by signing into both emails. [Android wallet backup instructions](https://lbry.com/faq/how-to-backup-wallet#android).** 
+
 *(Exact steps may differ slightly)*
 *Before proceeding, please make sure to backup your wallet if there are funds in it*
 1. Go to phone settings
