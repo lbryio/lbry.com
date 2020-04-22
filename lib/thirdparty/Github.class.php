@@ -7,6 +7,9 @@ class Github
     public static function isAssetForOs(array $asset, string $os)
     {
         $ext = pathinfo($asset['name'], PATHINFO_EXTENSION);
+        if (strpos($asset['name'], 'latest') === 0) { //never match on
+            return false;
+        }
         switch ($os) {
             case OS::OS_LINUX:
                 return
