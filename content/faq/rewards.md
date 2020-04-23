@@ -7,7 +7,7 @@ Rewards allow LBRY users to earn LBC, the token that powers the LBRY network. Yo
 
 **Please note:** Reward amounts are subject to change at any time by LBRY Inc.
 
-![rewardslist](https://spee.ch/@clem:0/rewardslist.png)
+![rewardslist](https://spee.ch/rewardslist.png)
 _The rewards screen in the LBRY app_
 
 ## Rewards eligibility
@@ -72,7 +72,9 @@ _Not seeing this reward despite being eligible? If you created your channel whil
 
 ## Views reward and tips {#contentview}
 
-You receive additional rewards for views from verified lbry.tv accounts. You will see these on your wallet page as Tips and they will be summed up monthly on your Rewards page. You may [unlock the tips](https://lbry.com/faq/tipping) to have the show in your balance, but while locked, they help your content be discovered. 
+You may receive additional rewards for views from verified lbry.tv accounts. You will see these on your wallet page as Tips and they will be summed up monthly on your Rewards page. You may [unlock the tips](https://lbry.com/faq/tipping) to have the show in your balance, but while locked, they help your content be discovered. 
+
+Please note: Not all accounts may qualify for view rewards. These are generally reserved for original content and may also not apply to non-video content. 
 
 ## Custom reward codes {#reward-code}
 
@@ -80,7 +82,7 @@ Custom reward codes can be claimed via the [Rewards](https://open.lbry.com/?rewa
 
 **Please note:** Reward code sharing is strictly prohibited and rewards privileges will be revoked. 
 
-![rewards](https://spee.ch/@clem:0/custom-code.png)
+![rewards](https://spee.ch/custom-code.png)
 
 ## What is the additional verification step? {#additional-verification}
 
