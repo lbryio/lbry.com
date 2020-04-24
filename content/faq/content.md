@@ -11,6 +11,13 @@ This guide provides answers to questions regarding what you may upload to LBRY a
 You may upload legal content that you own or have obtained permission to use, as long as it does not infringe on the rights of others.
 This includes Public Domain content, Creative Commons or Open Source content shared according to the license requirements, and Copyrighted content where you have permission from the owner.
 
+We ask you to follow these simple rules:
+1) The content is yours, you have permission to post it, or it's public domain / fair use / license allows re-use. 
+1) The content is tagged properly, especially with mature content. Do not abuse tags with ones that don't pertain to your content.
+1) The content is not illegal in your jurisdiction. 
+
+Failure to follow these rules may result in the filtering of your content/channel and the ability to earn rewards will be revoked.
+
 ## Because LBRY is decentralized, doesn't this mean the content can't be removed?
 
 It is important to make a distinction between the LBRY protocol and any applications running on top when referring to censorship and the ability to block access to certain content. The LBRY protocol is fully decentralized and censorship-resistant - it provides permissionless access to [claiming of URLs](/faq/naming) and indexing metadata on the blockchain, and facilitates data transfers over a peer to peer (P2P) network which consists of our own content severs and anyone running the LBRY protocol. This means infringing content may be stored on our servers, by the uploader and by anyone else who may have downloaded it.
