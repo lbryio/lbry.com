@@ -57,7 +57,7 @@ LBRY does provide a wallet syncing and backup mechanism to allow seamless access
 ## How do I use LBRY anonymously? {#anonymous}
 To use LBRY in a private way, we recommend the LBRY Desktop application. By default, the LBRY Desktop app will not share account or analytics data with LBRY, Inc. or third-parties without specifically being enabled.
 
-For a maximally private experience, you should also use a Virtual Private Network (VPN) to protect your IP address. This will allow you use features like retrieving content data, publishing, purchasing, tipping, and other transactions anonymously. Depending on VPN features and network configuration, hosting data currently may not be possible, but this is an area of active development.
+For a maximally private experience, you should also use a Virtual Private Network (VPN) to protect your IP address. This will allow you to use features like retrieving content data, publishing, purchasing, tipping, and other transactions anonymously. Depending on VPN features and network configuration, hosting data currently may not be possible, but this is an area of active development.
 
 Note that if using LBRY anonymously or privately you are not eligible for [lbry.tv rewards](https://lbry.com/faq/rewards).
 
