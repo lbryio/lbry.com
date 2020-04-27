@@ -69,7 +69,7 @@
           <input
             id="lbry_channel_name"
             name="desired_lbry_channel_name"
-            placeholder="Enter your channel name"
+            placeholder="Enter desired LBRY channel name"
             type="text"
           />
           <input
@@ -90,7 +90,7 @@
       </form>
 
       <small class="meta">
-        This will verify you are an active YouTuber. Instructions about how to claim credits, and technical details about your channel, will be emailed to you after you are verified.
+        This will verify you are an active YouTuber. Channel names cannot be changed once chosen, please be extra careful. Instructions about how to claim credits, and technical details about your channel, will be emailed to you after you are verified.
         <a href="/faq/youtube">Learn more</a>
       </small>
     </div>
