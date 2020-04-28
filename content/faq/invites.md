@@ -3,7 +3,7 @@ title: How does the invite program work?
 category: getstarted
 ---
 
-You can earn LBRY Credits (LBC) for inviting others to use LBRY as well as letting us know who invited you. Invite new users to LBRY via email or a customized link on the [Invites page of LBRY Desktop or lbry.tv](http://open.lbry.com/?invite). This page will also show the status of existing invites.
+You can earn LBRY Credits (LBC) for inviting others to use LBRY as well as letting us know who invited you. Invite new users to LBRY via email or a customized link on the [Invites page of LBRY Desktop or lbry.tv](http://open.lbry.com/?invite). This page will also show the status of existing invites. Both the inviter and invitee are eligible for the reward. 
 
 *Note: Referral redemptions are typically limited to 20, but increases as your channel grows in popularity on LBRY. See the [limits section below](#limits)*
 
@@ -31,11 +31,11 @@ For a limited time, you can claim a reward for being invited and letting us know
 
 ## How many LBRY Credits do I earn?
 
-New invites are eligible for a 20 LBC reward (subject to change based on our discretion).
+New invites are eligible for a 15 LBC reward (subject to change based on our discretion).
 
 ## Is there a limit to the credits I can earn? {#limits}
 
-The default limit for claimable invites is 20. Your limit increases as you use LBRY more and your channel grows in popularity. If you want us to review your account and allow for more redemptions, please first make sure you've claimed your maximum and then [email us](mailto:help@lbry.com) with details about yourself and users you are inviting.
+The default limit for claimable invites is 20. Your limit increases as you use LBRY more and your channel grows in popularity. If you want us to review your account and allow for more redemptions, please first make sure you've claimed your maximum and then [email us](mailto:help@lbry.com) with details about yourself and users you are inviting. This is typically reserved for creators or influencers.
 
 ## What is the difference between accepted and claimable?
 
@@ -43,9 +43,9 @@ Accepted means the user has signed into LBRY. Claimable means they have verified
 
 ## What are the criteria for a claimable invite?
 
-A claimable invite has the same definition as a Rewards eligible or Verified LBRY user. This means the referred user must have logged into LBRY and verified their account.
+A claimable invite has the same definition as a Rewards eligible or Verified LBRY user. This means the referred user must have logged into LBRY and validated their account for rewards.
 
-LBRY users who abuse either the Invite or Rewards system will not be eligible for invite redemption. If you have specific questions about individual invites   which are not claimable, please reach out to the [helpdesk](mailto:help@lbry.com) with details.
+LBRY users who abuse either the Invite or Rewards system will not be eligible for invite redemption. If you have specific questions about individual invites which are not claimable, please reach out to the [helpdesk](mailto:help@lbry.com) with details.
 
 ## I have a clever idea to cheat the invite system
 
