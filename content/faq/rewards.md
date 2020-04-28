@@ -35,21 +35,21 @@ Rewards that you have earned be marked your [wallet](/faq/transaction-types).
 ## What rewards exist?
 | Reward | Amount | Description |
 --- | --- | ---
-| **Your First Nickel** | 3 LBC | A one-time welcome gift for learning the basics of the application & wallet. Including the purchase of paid content.
-| **Go for a Stream** | 2 LBC | Rewarded for streaming your very first video on LBRY.
-| **Channel Surfing** | 3 LBC | A one-time reward for creating a channel on LBRY via the Publish screen.
-| **First Publish** | 5 LBC | A one-time reward for publishing your first piece of content to LBRY.
+| **Your First Nickel** | 2 LBC | A one-time welcome gift for learning the basics of the application & wallet. Including the purchase of paid content.
+| **Go for a Stream** | 1 LBC | Rewarded for streaming your very first video on LBRY.
+| **Channel Surfing** | 2 LBC | A one-time reward for creating a channel on LBRY via the Publish screen.
+| **First Publish** | 4 LBC | A one-time reward for publishing your first piece of content to LBRY.
 | **Daily View** | 1- 100 LBC | A random daily reward from 1 to 100 LBC, resets every 24 hours!
 | **Many Views** | 2- ???? LBC | A multi-level reward for watching videos on LBRY. See descriptions in-app for levels/details!
-| **Faithful Follower** | 1 - 10 LBC | A multi-level reward for following channels.
-| [**Coveted Creator**](#followers) | 1 - 10K LBC | A multi-level reward for gaining followers on your channel.
+| **Faithful Follower** | 1 - 8 LBC | A multi-level reward for following channels.
+| [**Coveted Creator**](#followers) | 1 - 5K LBC | A multi-level reward for gaining followers on your channel.
 | [**Content View Tips**](#contentview) | 1 - 5  LBC | A per view reward from verified lbry.tv users
-| **Welcome Back** | 3 LBC | Return to the LBRY 24-48 hours following your first use of the app. This reward will self-destruct after that time span.
-| **Android in Beta** | 10 LBC | Limited time reward for early Android Beta testers.
-| **Upgrade** | 5 LBC | Rewarded each time the LBRY Desktop app updates versions (i.e. 0.27 to 0.28).
+| **Welcome Back** | 2 LBC | Return to the LBRY 24-48 hours following your first use of the app. This reward will self-destruct after that time span.
+| **Android in Beta** | 6 LBC | Limited time reward for early Android Beta testers.
+| **Upgrade** | 4 LBC | Rewarded each time the LBRY Desktop app updates versions (i.e. 0.27 to 0.28).
 | **YouTube** | ?? LBC | Rewarded as part of the [YouTube Sync program](/youtube).
 | **Reward Code** | ?? LBC | [Custom reward codes](#reward-code) given out to users - be on the look out on social media/Discord/Reddit!
-| **Referral** | 20 LBC | LBRY users can refer their friends via an email invitation and get rewarded when those users are verified. For more information on referrals, click [here](/faq/referrals).
+| **Referral** | 15 LBC | LBRY users can refer their friends via an email invitation and get rewarded when those users are verified. For more information on referrals, click [here](/faq/referrals).
 
 If you are new to Publishing, check out [our guide](/faq/how-to-publish).
 
@@ -61,12 +61,12 @@ You receive additional rewards as you build a following on LBRY. Only verified L
 --- | ---
 | 1 | 2 LBC
 | 5 | 10 LBC
-| 20 | 50 LBC
+| 20 | 20 LBC
 | 100 | 100 LBC
-| 500 | 300 LBC
-| 1,000 | 1,000 LBC
-| 5,000 | 5,000 LBC
-| 10,000 | 10,000 LBC
+| 500 | 250 LBC
+| 1,000 | 800 LBC
+| 5,000 | 3,000 LBC
+| 10,000 | 8,000 LBC
 
 _Not seeing this reward despite being eligible? If you created your channel while not signed in to lbry.tv, we might not know about it. Publishing something new while signed in to lbry.tv will restore eligibility._ 
 
