@@ -79,7 +79,7 @@ You are responsible for keeping your wallet safe | no |  maybe\* |
 - Videos longer than 2 hours will not be synced
 - Videos bigger than 2GB will be synced at lower quality (1080p, 720p, 480p, ...)
 - Only your 1000 most recent videos will be synced
-- Due to large demand, only if you have at least 100 subscribers you will be synced
+- Due to high demand, you will be only be synced if you have at least 100 subscribers 
 - Private or unlisted videos will not be published, but everything else will
 
 Exceptions can be discussed. Contact us at hello@lbry.com
