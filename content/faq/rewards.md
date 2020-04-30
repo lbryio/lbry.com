@@ -72,9 +72,9 @@ _Not seeing this reward despite being eligible? If you created your channel whil
 
 ## Views reward and tips {#contentview}
 
-You may receive additional rewards for views from verified lbry.tv accounts. You will see these on your wallet page as Tips and they will be summed up monthly on your Rewards page. You may [unlock the tips](https://lbry.com/faq/tipping) to have the show in your balance, but while locked, they help your content be discovered. 
+You may receive additional rewards for views from validated lbry.tv accounts. You will see these on your wallet page as Tips and they will be summed up monthly on your Rewards page. You may [unlock the tips](https://lbry.com/faq/tipping) to have the show in your balance, but while locked, they help your content be discovered. 
 
-Please note: Not all accounts may qualify for view rewards. These are generally reserved for original content and may also not apply to non-video content. 
+Please note: Not all accounts may qualify for view rewards. These are generally reserved for original content and may not apply to non-video content. Accounts that participate in follow for follow / view for view activity will not be eligible. LBRY reserves the right to disable view rewards on any account, similar to other rewards. 
 
 ## Custom reward codes {#reward-code}
 
