@@ -12,7 +12,7 @@ LBRY apps support dynamic trending and top discovery based on your interests and
 
 ## How do I use it?
 
-At the top of your Home area, you can toggle between Trending, Top, and New for either your channels, videos,audio, document or the whole LBRY network. When Top is selected, you can also choose the relevant time frame. You can also browse these same options for specific tags by clicking on the tag name anywhere on the screen or by searching for one.
+At the top of your Home area, you can toggle between Trending, Top, and New for either your channels, videos, audio, images, text or the whole LBRY network. When Top is selected, you can also choose the relevant time frame. You can also browse these same options for specific tags by clicking on the tag name anywhere on the screen or by searching for one.
 
 ![pic](https://spee.ch/@lbrysh:6/lbry-new.jpeg)
 
