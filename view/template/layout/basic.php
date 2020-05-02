@@ -68,6 +68,7 @@
       <meta name="twitter:app:name:googleplay" content="LBRY beta"/>
       <meta name="twitter:app:id:googleplay" content="io.lbry.browser"/>
       <meta name="twitter:app:url:googleplay" content="https://play.google.com/store/apps/details?id=io.lbry.browser"/>
+      <meta name="twitter:image" content="https://spee.ch/@thumbnails:4c/b8317a4f72e8cd64.jpeg"/>
     <?php elseif (in_array($_SERVER['REQUEST_URI'], ['/escapeyoutube'])): ?>
       <meta name="twitter:card" content="player">
       <meta name="twitter:player" content="https://lbry.com/escapeyoutubeiframe" />
