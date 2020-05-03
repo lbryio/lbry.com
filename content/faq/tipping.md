@@ -38,7 +38,7 @@ You can mass unlock tips from a published item using the LBC Details section of 
 
 You'll have an option choose the amount to unlock, with the default being 25%. Enter an amount or use the slider, and then click Unlock. The remaining LBC is sent back to you as a support on your content.
 
-**Please note: Mass tip unlocking mail fail if there are over ~500 active tips, we're working on making this possible! If this occurs, you'll need to unlock some via the per tip method below.**
+**Please note: Mass tip unlocking may fail if there are over ~500 active tips, we're working on making this possible! If this occurs, you'll need to unlock some via the per tip method below.**
 
 ![](https://spee.ch/b/tip-unlock.jpeg)
 
