@@ -30,7 +30,7 @@ Some rewards will automatically be added when you complete them. Others require 
 
 All the rewards can always be seen by clicking **Rewards** from the Account drop down menu (top right of the app). 
 
-Rewards that you have earned be marked your [wallet](/faq/transaction-types). 
+Rewards that you have earned will be marked in your [wallet](/faq/transaction-types). 
 
 ## What rewards exist?
 | Reward | Amount | Description |
