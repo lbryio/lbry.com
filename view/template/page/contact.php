@@ -11,7 +11,7 @@
   <section>
     <div class="inner-wrap">
       <h3>New School</h3>
-      <p>We're available on a number of social networks</p>
+      <p>We're available on a number of social networks.</p>
 
       <ul>
         <li><a href="https://chat.lbry.com" title="LBRY's Discord channel">Discord</a></li>
