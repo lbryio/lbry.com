@@ -20,7 +20,7 @@ At the top of your Home area, you can toggle between Trending, Top, and New for 
 
 | View             |  What It Shows  |
 | --- | --- |
-| _Trending_ | Trending shows the content that has had the greatest increase in tips and supports over the last 24 hours, compared to its baseline performance, and that of other content, over the last 7 days. |
+| _Trending_ | Trending shows the content that has had the greatest increase in tips and supports over the last few hours and days, compared to its baseline performance, and that of other content. |
 | _Top_ | Top shows the content published within the selected period that has received the largest total amount of tips and supports. |
 | _New_ | New shows the newest content by time. |
 
