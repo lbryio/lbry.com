@@ -6,7 +6,7 @@ order: 4
 
 **Please note:** Our queue is currently backed up due to an influx of content creators syncing their channels. It may take a few days to process your channel, thank you for your patience and syncing to LBRY!
 
-LBRY offers an easy way for YouTubers to republish their content to the LBRY network, engage with LBRY users, and earn LBC. This program is available to new and existing LBRY users - installing or using our platform is not a prerequisite to syncing your channel. LBRY provides a one-click sync process that gathers your channel and video metadata (i.e. covers, thumbnails, etc), creates a channel for you on LBRY, and publishes your videos to it. Creators are eligible for [monthly LBC rewards](#reward) if they have over 1K subscribers. 
+LBRY offers an easy way for YouTubers to republish their content to the LBRY network, engage with LBRY users, and earn LBC. This program is available to new and existing LBRY users - installing or using our platform is not a prerequisite to syncing your channel. LBRY provides a one-click sync process that gathers your channel and video metadata (i.e. covers, thumbnails, etc.), creates a channel for you on LBRY, and publishes your videos to it. Creators are eligible for [monthly LBC rewards](#reward) if they have over 1K subscribers. 
 
 To sync your existing YouTube channel to LBRY and learn more about the program, use [lbry.com/youtube](/youtube).
 
@@ -55,7 +55,7 @@ Once the channel and content is transferred, you'll be able to publish, comment,
 
 If you are signing into the LBRY for the first time, you'll be presented with an option to claim your channel. If the channel is still queued, you'll be able to claim it from the Channels page (right hand side above Publishes) after its synced. Existing app users can also claim their channels via the Channels page. If you created any channels or published content locally before initiating this step, see the [cleanup section](#cleanup).
 
-**Note: if you choose not enable wallet sync during your sign up process, it is vital that you have a [backup of your wallet](/faq/how-to-backup-wallet) after the transfer process is initiated.**
+**Note: if you choose not to enable wallet sync during your sign up process, it is vital that you have a [backup of your wallet](/faq/how-to-backup-wallet) after the transfer process is initiated.**
 
 ![claim](https://spee.ch/2/sync-faq-2.png)
 
