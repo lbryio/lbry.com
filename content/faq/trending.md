@@ -20,7 +20,7 @@ At the top of your Home area, you can toggle between Trending, Top, and New for 
 
 | View             |  What It Shows  |
 | --- | --- |
-| _Trending_ | Trending shows the content that has had the greatest increase in tips and supports over the last 24 hours, compared to its baseline performance, and that of other content, over the last 7 days. |
+| _Trending_ | Trending shows the content that has had the greatest increase in tips and supports over the last few hours and days, compared to its baseline performance, and that of other content. |
 | _Top_ | Top shows the content published within the selected period that has received the largest total amount of tips and supports. |
 | _New_ | New shows the newest content by time. |
 
@@ -55,7 +55,7 @@ You can also explore each individual tag by clicking on it from anywhere on the 
 
 ## How does content make it into top or trending?
 
-Top content is based on calculations around the total LBC value of content, which is accumulated through the claim bid amount plus any community [tipping and supports](https://lbry.com/faq/tipping). Trending is similar, but does not take into account any initial bids, and is based on tip/support changes over time. The Top category is normally instant - the highest ranked LBC content will appear at the top when published in the time periods specified. Trending takes some time to update (about 1 day) and it ranked against how all other content on LBRY also trended up or down.
+Top content is based on calculations around the total LBC value of content, which is accumulated through the claim bid amount plus any community [tipping and supports](https://lbry.com/faq/tipping). Trending is similar and is based on tip/support changes over a period of time. The Top category is normally instant - the highest ranked LBC content will appear at the top when published in the time periods specified. Trending takes some time to update and larger tips/suppports may see a delay to avoid abuse.
 
 ## How is this different from YouTube?
 
