@@ -5,7 +5,7 @@ category: getstarted
 
 LBRY allows you to tip and support your favorite creators.
 
-A _tip_ sends credits to a publisher permanently, while also boosting the trust and performance of the content (while active). Recipient can keep active or unlock (move to wallet balance)..
+A _tip_ sends credits to a publisher permanently, while also boosting the trust and performance of the content (while active). Recipient can keep active or unlock (move to wallet balance).
 
 A _support_ boosts trust and performance, but _does not_ give anything to the publisher permanently. Can be revoked anytime via the wallet page.
 
@@ -38,7 +38,7 @@ You can mass unlock tips from a published item using the LBC Details section of 
 
 You'll have an option choose the amount to unlock, with the default being 25%. Enter an amount or use the slider, and then click Unlock. The remaining LBC is sent back to you as a support on your content.
 
-**Please note: Mass tip unlocking may fail if there are over ~500 active tips, we're working on making this possible! If this occurs, you'll need to unlock some via the per tip method below.**
+**Please note: Mass tip unlocking may fail if there are over ~500 active tips. We're working on making this possible! If this occurs, you'll need to unlock some via the per tip method below.**
 
 ![](https://spee.ch/b/tip-unlock.jpeg)
 
