@@ -54,7 +54,7 @@ Your wallet holds multiple receiving addresses (lbry.tv only users won't see thi
 ## Where can I get more LBRY Credits?
 You can [earn more LBC](/faq/earn-credits) or [purchase LBC from exchanges](/faq/exchanges).
 
-## Where are all my LBRY Desktop data stored? {#data}
+## Where is all my LBRY Desktop data stored? {#data}
 Please see the [LBRY directories FAQ page](/faq/lbry-directories) for more information on where LBRY data is stored. Besides the internal LBRY data, you can also configure your LBRY download directory via the option at the top of the Settings page (gear icon in the top right).
 
 ## Why is content downloaded to my PC even when I stream? {#disk}
