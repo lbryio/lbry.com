@@ -31,7 +31,7 @@ If you want to run LBRY on multiple PCs or on other platforms like Android, you 
 [LBRY Rewards](/faq/rewards) are used to distribute LBRY Credits (LBC) to new and existing users by allowing them to explore app functions and complete tasks that generate LBC as a reward. In order to be eligible for rewards, you need to [verify your identity](/faq/identity-requirements) which uniquely identifies you as an LBRY user.
 
 ## What is a wallet and how do I find it? {#wallet}
-A wallet is a secure, digital wallet used to store, send , and receive cryptocurrencies like LBRY Credits(LBC). LBRY comes with its own wallet and is stored locally on your device and nowhere else unless you enable the Sync feature. **If you do not enable syncing, it is critical that you [backup your wallet data](/faq/how-to-backup-wallet) in case you lose access to your PC or need to [migrate](/faq/backup-data) to a new one.**
+A wallet is a secure, digital wallet used to store, send, and receive cryptocurrencies like LBRY Credits (LBC). LBRY comes with its own wallet and is stored locally on your device and nowhere else unless you enable the Sync feature. **If you do not enable syncing, it is critical that you [backup your wallet data](/faq/how-to-backup-wallet) in case you lose access to your PC or need to [migrate](/faq/backup-data) to a new one.**
 
 To find your wallet in LBRY:
 - in the **Desktop app** or **lbry.tv** click on your LBC Balance showing at the top right and it should display the wallet overview page which shows your balance, send/receive and recent transactions (balance may show as **`0 LBC`** if you don't have credits or as **`Wallet`** text if in the ***Settings** is enabled the option "***Hide wallet balance in header***").
@@ -43,7 +43,7 @@ The LBRY wallet is different from other cryptocurrencies because it also stores 
 ## Where do I find my LBC wallet address?
 To find your wallet address in LBRY:
 
-- in the **Desktop app** or **lbry.tv** click on your LBC Balance showing at the top right (Balance may show as `0 LBC` if you have not credited) and it should display the wallet overview page which shows your balance, send/receive , and recent transactions. To see your wallet address, click on the `Your address` button.
+- in the **Desktop app** or **lbry.tv** click on your LBC Balance showing at the top right (Balance may show as `0 LBC` if you have no credits) and it should display the wallet overview page which shows your balance, send/receive, and recent transactions. To see your wallet address, click on the `Your address` button.
 
 - in the **mobile app**, you need to access the main menu of the app and then choose the `Wallet` option where you can see the address of your wallet.
 
@@ -64,9 +64,9 @@ LBRY is a decentralized peer to peer protocol, meaning no centralized servers or
 Please refer to our [publishing guide](/faq/how-to-publish) as a reference to assist you through the publishing process.
 
 ## Where can I see my downloads?
-- In the **Desktop app** choose the `Lybrary` option from the right sidebar.
-- In **lbry.tv** this option is not available yet.
-- In the **mobile app** open the main menu of the app and then choose the `Lybrary` option.
+- In the **Desktop app** choose the `Library` option from the right sidebar.
+- On **lbry.tv** this option is not available yet.
+- In the **mobile app** open the main menu of the app and then choose the `Library` option.
 
 ## How can I delete my downloads?
 Access your Library section as mentioned before and then select the item you want to delete. After the page of the content is opened, click on the trash can icon located under the main content published. 
@@ -109,7 +109,7 @@ You can block a channel by clicking the **Block** button from the homepage, chan
 Please see our [streaming guide](/faq/unable-to-stream) if you consistently cannot download or stream content on LBRY. If you are having intermittent issues with download failures, try closing LBRY Desktop completely (including ending the "lbrynet.exe" process in task manager) and re-initiating the download.
 
 ## Some files don't open in the LBRY Desktop or lbry.tv. What's going on?
-Currently, the LBRY in-app player supports MP4 videos, MP3 files, images, GIF images, HTML ,and text files. Even though it doesn't support other formats from within the app or lbry.tv, the files can still be externally opened when using the Desktop app by clicking the **Open file** icon or navigating to the file by clicking the **Downloaded to** file path on the content page.
+Currently, the LBRY in-app player supports MP4 videos, MP3 files, images, GIF images, HTML, and text files. Even though it doesn't support other formats from within the app or lbry.tv, the files can still be externally opened when using the Desktop app by clicking the **Open file** icon or navigating to the file by clicking the **Downloaded to** file path on the content page.
 
 ![Open](https://spee.ch/@lbryfaqsc:7/LBRY-open-file-externally.jpg)
 
