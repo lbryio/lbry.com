@@ -21,7 +21,7 @@ Users can also [choose to use LBRY anonymously](#anonymous) however some feature
 Additionally, even when not sending data to us, using LBRY (outside of lbry.tv) typically involves participation in the peer-to-peer LBRY network and certain information like your IP address is likely to be exposed regardless. See [below](#p2p) for more information.
 
 ## What type of data is collected and where?
-As a first time user of LBRY applications and [lbry.tv](https://lbry.tv), you have the option of providing an email address to create a LBRY account. This allows for a richer user experience by enabling services such as [LBRY Rewards](https://lbry.com/faq/rewards), email notifications, and account synchronization (i.e. subscriptions and user preferences) across multiple devices/platforms. If you do not provide an email, any data collected cannot be associated with your identity, but may still be tied back to other system information like IP addresses.
+As a first time user of LBRY applications and [lbry.tv](https://lbry.tv), you have the option of providing an email address to create an LBRY account. This allows for a richer user experience by enabling services such as [LBRY Rewards](https://lbry.com/faq/rewards), email notifications, and account synchronization (i.e. subscriptions and user preferences) across multiple devices/platforms. If you do not provide an email, any data collected cannot be associated with your identity, but may still be tied back to other system information like IP addresses.
 
 See below tables for a break-down of the types of data collected and associated applications.
 
@@ -50,12 +50,12 @@ Blockchain metadata | yes | yes | yes | no |
 Blockchain transactions | yes | yes | yes | yes |
 
 ## What’s the difference between account data and cryptocurrency wallets?
-Each installable LBRY application also contains a cryptocurrency wallet which is stored locally on the respective device. The wallet allows you to store LBRY Credits and use them to [transact (spend, publish, purchase, and tip) on the network](https://lbry.com/faq/transaction-types). The private information, which is required to perform these actions, is under the sole control of the user.
+Each installable LBRY application also contains a cryptocurrency wallet That is stored locally on the respective device. The wallet allows you to store LBRY Credits and use them to [transact (spend, publish, purchase, and tip) on the network](https://lbry.com/faq/transaction-types). The private information, which is required to perform these actions, is under the sole control of the user.
 
 LBRY does provide a wallet syncing and backup mechanism to allow seamless access across multiple devices. The backup service ensures that a wallet can be retrieved by the user through their LBRY account in case they lose access to their local copy. Any storage and exchange of wallet data has end to end encryption, and the user can also provide an additional encryption password if desired.
 
 ## How do I use LBRY anonymously? {#anonymous}
-To use LBRY in a private way, we recommend the LBRY Desktop application. By default, the LBRY Desktop app will not share account or analytics data with LBRY, Inc. or third-parties without specifically being enabled.
+To use LBRY in privately, we recommend the LBRY Desktop application. By default, the LBRY Desktop app will not share account or analytics data with LBRY, Inc. or third-parties without specifically being enabled.
 
 For a maximally private experience, you should also use a Virtual Private Network (VPN) to protect your IP address. This will allow you to use features like retrieving content data, publishing, purchasing, tipping, and other transactions anonymously. Depending on VPN features and network configuration, hosting data currently may not be possible, but this is an area of active development.
 
@@ -65,10 +65,10 @@ Note that if using LBRY anonymously or privately you are not eligible for [lbry.
 LBRY stores collected data on its own secured databases and ensures only authorized employees have access to this data. Google Analytics data is anonymized and protected by Google.
 
 ## What information is shared with others in the network? {#p2p}
-Similarly to other peer to peer protocols like BitTorrent, users in the network share messages (i.e. announcing content availability) and create direct connections to exchange data (i.e. downloads / uploads). While LBRY does not collect this information, other participants of the network can observe and collect the information.
+Similarly to other peer to peer protocols like BitTorrent, users in the network share messages (i.e. announcing content availability) and create direct connections to exchange data (i.e. downloads/uploads). While LBRY does not collect this information, other participants of the network can observe and collect the information.
 
 ## Can I use a VPN to use and access LBRY?
-Yes, a VPN can be used with all LBRY services. Major features will work without any problems, but VPN users may not be eligible for [LBRY Rewards](https://lbry.com/faq/rewards) in order to prevent abuse.
+Yes, a VPN can be used with all LBRY services. Major features will work without any problems, but VPN users may not be eligible for [LBRY Rewards](https://lbry.com/faq/rewards) to prevent abuse.
 
 ## Is any additional data collected if I participate in the YouTube Sync program?
-When authenticating into the [YouTube Sync program](https://lbry.com/youtube), you provide proof of channel ownership that allows us to link your YouTube channel to a LBRY account. Information about your account is stored and kept by LBRY, Inc.
+When authenticating into the [YouTube Sync program](https://lbry.com/youtube), you provide proof of channel ownership that allows us to link your YouTube channel to an LBRY account. Information about your account is stored and kept by LBRY, Inc.

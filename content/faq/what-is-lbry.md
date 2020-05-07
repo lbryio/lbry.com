@@ -7,7 +7,7 @@ For most users, LBRY will be a place where they can find great videos, music, eb
 
 ![](https://github.com/lbryio/lbry-desktop/blob/master/static/img/v1-og.png?raw=true)
 
-First and foremost, LBRY is a new *protocol* which allows anyone to build apps that interact with digital content on the LBRY network. Apps built using the protocol allow creators to upload their work to the LBRY network of hosts (like BitTorrent), to set a price per stream or download (like iTunes) or give it away for free (like YouTube without ads). The work you publish could be videos, audio files, documents, or any other type of file.
+First and foremost, LBRY is a new *protocol* that allows anyone to build apps that interact with digital content on the LBRY network. Apps built using the protocol allow creators to upload their work to the LBRY network of hosts (like BitTorrent), to set a price per stream or download (like iTunes) or give it away for free (like YouTube without ads). The work you publish could be videos, audio files, documents, or any other type of file.
 
 Traditional video (or other content) sites such as YouTube, Instagram, and Spotify store your uploads on their servers and allow viewers to download them. They also allow creators to make some money through advertising or other mechanisms. However, there are some well-known drawbacks, especially for people whose material is perceived as not being advertiser-friendly.
 
@@ -27,7 +27,7 @@ Building [protocols, not platforms](/news/blockchain-is-love-blockchain-is-life)
 We think users should own their content (and their privacy) instead of handing it over to a corporate giant and their advertising buddies. If you think we're paranoid, there are dozens of examples of [companies abusing users](/news/why-do-tech-giants-abuse-their-users) and acting against their interests. It's not paranoia if they're actually out to get you.
 
 ## Community driven and open source
-Everything built to power LBRY is open source and designed to be controlled by the public at large. Hundreds of developers have contributed to the core code bases that power LBRY and thousands of other community members have helped in other ways: recruiting creators, performing translations, making graphics, and so much more.
+Everything built to power LBRY is open source and designed to be controlled by the public at large. Hundreds of developers have contributed to the corecode bases that power LBRY and thousands of other community members have helped in other ways: recruiting creators, performing translations, making graphics, and so much more.
 
 While there is a company behind LBRY called _LBRY Inc._, we attempt to tie our own hands as much as possible so we cannot ever become an evil faceless megacorp. By making everything open-source and standardized, anyone in the world can walk away from LBRY with everything intact (or make a new, better version).
 

@@ -6,7 +6,7 @@ order: 1
 
 The LBRY Desktop and lbry.tv allow you to view content, upload your digital media for free or at a set price, tip your favorite creators, send/receive LBRY Credits (LBC) and earn credits through [LBRY Rewards](/faq/rewards). The apps and web version run on top of the [LBRY protocol](/faq/what-is-lbry) which is a peer to peer, decentralized file sharing and payment network secured by blockchain technology.
 
-The purpose of this FAQ is to answer questions about some of the basic functionality available on LBRY Desktop, LBRY mobile and lbry.tv. Please see our [other FAQ entries](/faq) for additional information.
+The purpose of this FAQ is to answer questions about some of the basic functionality available on LBRY Desktop, LBRY mobile, and lbry.tv. Please see our [other FAQ entries](/faq) for additional information.
 
 **Important notes:**
 
@@ -25,10 +25,10 @@ Emails are collected to authenticate a lbry.tv account and [uniquely identify](/
 If you ever need to change your LBRY email address or sign out, please see [this guide](/faq/how-to-change-email). If you sign into a new email and need to transfer your verification status and account (lbry.tv only users), you'll need to [reach out to us](/faq/support) in order to link your accounts.
 
 ## What if I want to run LBRY on multiple computers or different Windows accounts?
-If you want to run LBRY on multiple PCs or on other platforms like Android, you can sign in with the same email on all devices. Your account data and preferences will be synced as long as it's enabled in Settings.
+If you want to run LBRY on multiple PCs or other platforms like Android, you can sign in with the same email on all devices. Your account data and preferences will be synced as long as it's enabled in Settings.
 
 ## What are LBRY Rewards? {#rewards}
-[LBRY Rewards](/faq/rewards) are used to distribute LBRY Credits (LBC) to new and existing users by allowing them to explore app functions and complete tasks which generate LBC as a reward. In order to be eligible for rewards, you need to [verify your identity](/faq/identity-requirements) which uniquely identifies you as an LBRY user.
+[LBRY Rewards](/faq/rewards) are used to distribute LBRY Credits (LBC) to new and existing users by allowing them to explore app functions and complete tasks which generate LBC as a reward. To be eligible for rewards, you need to [verify your identity](/faq/identity-requirements) which uniquely identifies you as an LBRY user.
 
 ## What is a wallet and how do I find it? {#wallet}
 A wallet is a secure, digital wallet used to store, send and receive cryptocurrencies like LBRY Credits(LBC). LBRY comes with its own wallet and is stored locally on your device and nowhere else unless you enable the Sync feature. **If you do not enable syncing, it is critical that you [backup your wallet data](/faq/how-to-backup-wallet) in case you lose access to your PC or need to [migrate](/faq/backup-data) to a new one.**
@@ -81,7 +81,7 @@ In the **Desktop app**, if you want to delete faster more or all the files from 
 - In the **mobile app** open the main menu of the app and then choose the **`Publishes`** option.
 
 ## How do I know if I'm sharing content and helping the LBRY network properly?
-The easiest way to confirm that you are sharing correctly is to determine if the port used for seeding (3333) is open to the rest of the LBRY network. To do so, type 3333 into [this port checking tool](http://www.canyouseeme.org) and check the result. It if shows "Success", you are all set. If it shows "Error", you may need to check your router settings for UPnP options (set to enable) or forward TCP port 3333 and UDP Port 4444 to your local computer running the LBRY Desktop. Firewall and NAT settings may also affect the availability of these ports. Also, when you access the checking tool page, check if in the browser there is no active plug-in or extension that act like a VPN. In this case the result could be false and indeed your Desktop app could have access to these ports, but the browser not.
+The easiest way to confirm that you are sharing correctly is to determine if the port used for seeding (3333) is open to the rest of the LBRY network. To do so, type 3333 into [this port checking tool](http://www.canyouseeme.org) and check the result. It if shows "Success", you are all set. If it shows "Error", you may need to check your router settings for UPnP options (set to enable) or forward TCP port 3333 and UDP Port 4444 to your local computer running the LBRY Desktop. Firewall and NAT settings may also affect the availability of these ports. Also, when you access the checking tool page, check if in the browser there is no active plug-in or extension that act as a VPN. In this case the result could be false and indeed your Desktop app could have access to these ports, but the browser not.
 
 ## How can I search for content on LBRY?
 Searching in LBRY is as easy as typing your search term(s) into the address bar at the top and then pressing Enter.
