@@ -21,7 +21,7 @@
             playsinline
           >
             <source src="https://cdn.lbryplayer.xyz/content/claims/2019-09-lbry-interface-webm-2/b/stream.webm" type="video/webm"/>
-            <source src="https://cdn.lbryplayer.xyz/content/claims/2019-09-lbry-interface-mp4-2/0/stream" type="video/mp4"/>
+            <source src="https://cdn.lbryplayer.xyz/content/claims/2019-09-lbry-interface-mp4-2/0/stream.mp4" type="video/mp4"/>
           </video>
         </a>
       </figure>
