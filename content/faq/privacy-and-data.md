@@ -55,7 +55,7 @@ Each installable LBRY application also contains a cryptocurrency wallet That is 
 LBRY does provide a wallet syncing and backup mechanism to allow seamless access across multiple devices. The backup service ensures that a wallet can be retrieved by the user through their LBRY account in case they lose access to their local copy. Any storage and exchange of wallet data has end to end encryption, and the user can also provide an additional encryption password if desired.
 
 ## How do I use LBRY anonymously? {#anonymous}
-To use LBRY in privately, we recommend the LBRY Desktop application. By default, the LBRY Desktop app will not share account or analytics data with LBRY, Inc. or third-parties without specifically being enabled.
+To use LBRY privately, we recommend the LBRY Desktop application. By default, the LBRY Desktop app will not share account or analytics data with LBRY, Inc. or third-parties without specifically being enabled.
 
 For a maximally private experience, you should also use a Virtual Private Network (VPN) to protect your IP address. This will allow you to use features like retrieving content data, publishing, purchasing, tipping, and other transactions anonymously. Depending on VPN features and network configuration, hosting data currently may not be possible, but this is an area of active development.
 
