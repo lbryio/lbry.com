@@ -8,7 +8,7 @@ order: 4
 
 Before talking about how names (URLs) in LBRY work, it's important to understand the problem. What is a naming system and why do we have one?
 
-Names exist so that we can map a human readable and understandable word or term to a more difficult to remember number or ID. In the traditional DNS (domain name system), names are mapped to a numerical IP address. In LBRY, names are mapped to a unique, permanent ID representing a piece of digital content and/or a publisher identity.
+Names exist so that we can map a human-readable and understandable word or term to a more difficult one to remember like number or ID. In the traditional DNS (domain name system), names are mapped to a numerical IP address. In LBRY, names are mapped to a unique, permanent ID representing a piece of digital content and/or a publisher identity.
 
 Designing a naming system that works well and fairly assigns names is quite hard! Consider the domain system you are likely using to access this document. LBRY's domain used to be lbry.io for a long time, rather than lbry.com. Is it because lbry.com is providing some unique service? No! It is because a squatter was in possession of it, simply looking to auction the domain name to the highest bidder in demand. We had to negotiate for months (and pay lots of $$$) to get in possession of the lbry.com domain and we don't want LBRY users to go through a similar experience...we'd rather leave it up to incentives and fixed protocol rules.  
 
@@ -49,7 +49,7 @@ LBRY supports several types of URL resolution:
 
 1. **Names aren't bought, only reserved – no credits are lost, only put on deposit.** If you win the auction for a name, your credits are held with that name until you decide to withdraw them (at any time you wish). You aren't buying the name from anyone, and no one profits off of the transfer of names. It's just a test of who is willing to deposit the most credits toward a name. The only downside is that you can't spend the credits on content or withdraw them while they are in reserve.
 
-2. **The longer a community name is held, the longer it sticks.** Community-controlled URLs don't change instantly if more credits are designated – especially if you've held it for awhile. For every month a name is controlled, 1 day is added to the waiting period, for a maximum of 7 days (after 7 months).
+2. **The longer a community name is held, the longer it sticks.** Community-controlled URLs don't change instantly if more credits are designated – especially if you've held it for a while. For every month a name is controlled, 1 day is added to the waiting period, for a maximum of 7 days (after 7 months).
 
 3. **Everyone has a say.** If you claim lbry://bestmovieever and your film lives up to the hype, user tips and purchases are a strong force keeping your content there. If the community feels a URL resolution is incorrect, they can band together to change it anytime. This is a powerful force keeping bad actors at bay that has already proved useful.
 
