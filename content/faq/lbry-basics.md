@@ -28,7 +28,6 @@ If you ever need to change your LBRY email address or sign out, please see [this
 If you want to run LBRY on multiple PCs or other platforms like Android, you can sign in with the same email on all devices. Your account data and preferences will be synced as long as it's enabled in Settings.
 
 ## What are LBRY Rewards? {#rewards}
-
 [LBRY Rewards](/faq/rewards) are used to distribute LBRY Credits (LBC) to new and existing users by allowing them to explore app functions and complete tasks which generate LBC as a reward. To be eligible for rewards, you need to [verify your identity](/faq/identity-requirements) which uniquely identifies you as an LBRY user. Not all users or regions may qualify for rewards for various reasons, thank you for respecting this. LBRY can be used without the reward feature.
 
 ## What is a wallet and how do I find it? {#wallet}
@@ -82,7 +81,6 @@ In the **Desktop app**, if you want to delete faster more or all the files from 
 - In the **mobile app** open the main menu of the app and then choose the **`Publishes`** option.
 
 ## How do I know if I'm sharing content and helping the LBRY network properly?
-
 The easiest way to confirm that you are sharing correctly is to determine if the port used for seeding (3333) is open to the rest of the LBRY network. To do so, type 3333 into [this port checking tool](http://www.canyouseeme.org) and check the result. It if shows "Success", you are all set. If it shows "Error", you may need to check your router settings for UPnP options (set to enable) or forward TCP port 3333 and UDP Port 4444 to your local computer running the LBRY Desktop. Firewall and NAT settings may also affect the availability of these ports. Also, when you access the checking tool page, check if in the browser there is no active plug-in or extension that act as a VPN. In this case the result could be false and indeed your Desktop app could have access to these ports, but the browser not.
 
 ## How can I search for content on LBRY?
