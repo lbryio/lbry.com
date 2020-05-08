@@ -38,7 +38,8 @@
       <?php if (preg_match('/^[A-Za-z0-9._%+-]+@plusgoogle.com$/', $statusData['email'])): ?>
         <p class="error-block" id="email-google-plus-error">
           Your email address is set as <?php echo $statusData['email']; ?>.<br/>
-          If this is not your email address, please change it below.
+          If this is not your email address, please change it below.<br/> 
+          If you have a LBRY Account, please use that email here so the accounts are merged.
         </p>
       <?php endif ?>
 
