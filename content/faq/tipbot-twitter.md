@@ -32,7 +32,7 @@ Displays the balance of your Twitter LBRY wallet.
 
 - [**Tweet Example:**](https://twitter.com/TomZarebczan/status/1015244426841677826) `@LBC_TipBot balance`
 
-![balance](https://spee.ch/@tipbot-tw:c/balance.png)
+![balance](https://spee.ch/@thumbnails:4c/975bc4fd9e4d9a98.png)
 
 
 ### Deposit
@@ -40,7 +40,7 @@ Displays your Twitter LBRY wallet address. Useful if you want to receive LBC dir
 
 - [**Tweet Example:**](https://twitter.com/TomZarebczan/status/1015244855247888384) `@LBC_TipBot deposit`
 
-![deposit](https://spee.ch/@tipbot-tw:c/deposit.png)
+![deposit](https://thumbs.spee.ch/view/@thumbnails:4c/22b5ef50d0f52b6f.png)
 
 ### Tip
 Want to tip someone? This will send a tip to a chosen username.
@@ -63,4 +63,4 @@ Displays the terms and conditions
 
 - [**Tweet Example:**](https://twitter.com/TomZarebczan/status/1015245044415156225) `@LBC_TipBot terms`
 
-![withdraw](https://spee.ch/@tipbot-tw:c/terms.png)
+![terms](https://spee.ch/@thumbnails:4c/25b7d7a739048dc5.png)
