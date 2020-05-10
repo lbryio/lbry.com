@@ -57,15 +57,14 @@ You can continue to use LBRY while the upload completes.
 
 1. Open LBRY
 
-2. Click on the LBC balance showing at the top right of the app. You will get a dropdow, select `Publish` from the menu.
-   ![Click the Publish Button](https://spee.ch/@clem:0/publishclick.png)
+2. Click on the cloud with an arrow pointing into it in the top right corner. 
 
-3. Select a source file and then in the `Channel Name` section, click on the dropdown menu and select `New Channel` and then declare the name you would like for your channel. For more details on different channel types, see our write up on [naming](/faq/naming).
+3. Select `New Channel` in the dropdown menu.
 
-4. Once your name is selected, there is a `Deposit` section that is below. It requires a minimum bid of 0.0001 LBC (see more on deposits [here](/faq/naming)). Please ensure that you have enough LBRY credits in your wallet to cover the bid amount. There is also a small network fee associated with the creation of a channel.
+4. Once your name is selected, there is a `Deposit` section that is below. It requires a minimum bid of 0.00001 LBC (see more on deposits [here](/faq/naming)). Please ensure that you have enough LBRY Credits in your wallet to cover the bid amount. There is also a small network fee associated with the creation of a channel.
    ![Set the Deposit](https://spee.ch/@clem:0/channel-createnew.png)
 
-5. Click `Create Channel` once you have entered your bid amount. You now own `lbry://@channelnameyoubidon#Claim_ID` and `lbry://@channelnameyoubidon` (the vanity name without a claim id) if you are the highest bidder.
+5. Click `Create channel` once you have entered your bid amount. You now own `lbry://@channelnameyoubidon` (the vanity name without a claim id) if you are the highest bidder.
 
 ## How do I customize my channel? {#channel}
 
@@ -106,7 +105,7 @@ Click `Remove`. If you abandoned your claim, you should see the deposit back in 
 
 4. You can now edit your claim information. No need to re-select the file if it's the same one or has the same url.
 
-5. When you are done, click `Edit`.
+5. When you are done, click `Save`.
 
 ## Where is my content stored and shared from? {#blobs}
 
@@ -126,7 +125,7 @@ The in-app and lbry.tv video player's streaming capability works best with the H
 
 ## I shared my URL, but others can't download it. What's going on?
 
-Since LBRY is a Peer-to-Peer network, it requires that your device is accessible to the internet. LBRY also runs servers to assist in content hosting, but this process may fail if your device cannot send it to us or if you didn't wait long enough after the initial publish. Try quitting (ctrl-Q) and restarting the LBRY app if the content is not accessible on [lbry.tv](https://lbry.tv).
+Since LBRY is a Peer-to-Peer network, it requires that your device is accessible to the internet. LBRY also runs servers to assist in content hosting, but this process may fail if your device cannot send it to us or if you didn't wait long enough after the initial publish. Try quitting (Ctrl-Q) and restarting the LBRY app if the content is not accessible on [lbry.tv](https://lbry.tv).
 
 ## Where is my channel and content saved locally?
 
