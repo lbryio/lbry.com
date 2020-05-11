@@ -4,7 +4,7 @@ category: tutorial
 order: 3
 ---
 
-Publishing to LBRY allows anyone else in the world to access your content. You can publish any type of digital file to LBRY. Publishing requires a small amount of LBC, but almost all of this is returned if you decide to later unpublish. We'll cover that later. For now, get those [cat videos](https://lbry.tv/$/search?q=cats) ready!
+Publishing to LBRY allows anyone else in the world to access your content. You can publish any type of digital file to LBRY. Publishing requires a small amount of LBC, but almost all of this is returned if you decide to later unpublish. We'll cover that later. For now, get those [cat videos](https://lbry.tv/$/top?name=cats) ready!
 
 This tutorial is meant to provide a quick overview. Our [Publishing FAQ](/faq/how-to-publish) covers publishing in even more detail.
 
