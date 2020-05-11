@@ -6,7 +6,7 @@ order: 3
 
 Users expect consistent experiences across devices and sessions. This includes everything from account preferences to subscriptions to account balances. In the land of central servers, this is straightforward, but in blockchain land, it is tricky. This article explains how we provide this functionality, various options in using it, and it's limitations.
 
-Users can establish accounts with lbry.tv on all of our applications. You'll be required to create a password when signing up through lbry.tv (coming soon to Desktop) and confirm the email address. You can sign into existing accounts via the password or via email confirmation. 
+Users can establish accounts with lbry.tv on all of our applications. You'll be required to create a password when signing up through lbry.tv and confirm the email address. You can sign into existing accounts via the password or via email confirmation. 
 
 ## Account passwords and logging in
 
