@@ -56,7 +56,7 @@ Use this to withdraw your balance from your LBRY Twitter wallet to another LBRY 
 - **Arguments:** `@LBC_TipBot withdraw <address> amount`
 - [**Tweet Example:**](https://twitter.com/TrendsPremium/status/1015251227599364096) `@LBC_TipBot withdraw bP8P5Dr9d3XcH5ibSsjeDYFU8vMWR8HHe3 5`
 
-![withdraw](https://spee.ch/f/withdraw.png)
+![withdraw](https://spee.ch/@thumbnails:4c/7e4b089c5a099d73.png)
 
 ### Terms
 Displays the terms and conditions
