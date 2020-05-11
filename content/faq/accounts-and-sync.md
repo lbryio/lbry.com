@@ -76,4 +76,4 @@ Syncing is automatically on for lbry.tv users and cannot be disabled. After all,
 
 ## I'm having trouble
 
-If you have any trouble using or enrolling in account sync, check out this [FAQ article](/faq/how-to-report-bugs) on how to report this to us.
+If you're have any trouble using or enrolling in account sync, check out this [FAQ article](/faq/how-to-report-bugs) on how to report this to us.
