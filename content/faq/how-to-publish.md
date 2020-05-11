@@ -88,7 +88,7 @@ First, you need to access your channel from your Publishes page by clicking on i
 2. Select the content you want to remove from LBRY
    ![Content](https://spee.ch/@clem:0/delete-con.png)
 
-3. Click on the `Delete` icon. If the delete icon does not respond, try downloading the content locally and try again.
+3. Click on the `Delete` icon. 
 
 4. There will be two options. `Delete this file from my computer` and `Abandon the claim for this URI`. Select the option that applies. Abandoning your claim will release the LBC back into your wallet (99% of the time you want to select this).
    ![abandon-delete box](https://spee.ch/@clem:0/check-delet.png)
@@ -102,9 +102,7 @@ Click `Remove`. If you abandoned your claim, you should see the deposit back in 
 1. Click on the `Publishes` tab from the right-side of the app.
 2. Select the content you want to update.
 3. Click `Edit`.
-
 4. You can now edit your claim information. No need to re-select the file if it's the same one or has the same url.
-
 5. When you are done, click `Save`.
 
 ## Where is my content stored and shared from? {#blobs}
