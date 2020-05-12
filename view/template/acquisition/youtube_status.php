@@ -159,7 +159,7 @@
             </fieldset-section>
 
             <fieldset-section>
-              <label for="email">Preferred Email</label>
+              <label for="email">Email (use existing LBRY account if signed up)</label>
               <input
                 type="text"
                 id="email"
