@@ -10,9 +10,9 @@ See our [Publishing FAQ](/faq/how-to-publish) for more information about the pub
 
 ## Recommended settings and bitrate
 
-We recommend uploading videos at 720P in an MP4 container, H264 video encoding, and AAC audio with a maximum bitrate of 5Mbps (check file properties to see current rate). It's also helps if the moov atom is at the front of the file - this is sometimes referred to as Fast Start (ffmpeg) or Web Optimized (Handbrake). If the content is not compatible or over 5Mbps, you'll be given a warning on the publish page.
+We recommend uploading videos at 720P in an MP4 container, H264 video encoding, and AAC audio with a maximum bitrate of 5 Mbps (check file properties to see current rate). It's also helps if the moov atom is at the front of the file - this is sometimes referred to as Fast Start (ffmpeg) or Web Optimized (Handbrake). If the content is not compatible or over 5 Mbps, you'll be given a warning on the publish page.
 
-If you prefer 1080P, please try to keep the bitrate at or below 8Mbps. You'll be given a warning on the publish page, but you can still proceed.
+If you prefer 1080P, please try to keep the bitrate at or below 8 Mbps. You'll be given a warning on the publish page, but you can still proceed.
 
 ## Automated transcoding in LBRY Desktop {#automatic}
 
@@ -35,7 +35,7 @@ If using Handbrake, we recommended the following settings:
 
 - Preset of Fast 720P30.
 - Enable Web optimized.
-- Disable Align AV/Start.
+- Disable Align A/V Start.
 - Save as .mp4 extension.
 
 ![handbrake](https://spee.ch/7/hb-settings.png)
