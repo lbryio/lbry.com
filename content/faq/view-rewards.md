@@ -4,19 +4,19 @@ category: publisher
 order: 2
 ---
 
-We want creators to create quality content that other LBRY users will enjoy and to be able to earn at a comparable or greater amount to alternatives. 
+We want creators to create quality content that other LBRY users will enjoy and to be able to earn at a comparable or greater amount to alternatives.
 
 If you publish quality original content, you may be eligible to receive additional rewards for views from validated lbry.tv accounts on behalf of us.
 
 ## How creator view rewards work
 
-LBRY tracks views from lbry.tv users and other clients. When a user views your content that is reward-verified, we will automatically send an LBC tip for each of their daily first ten views. 
+LBRY tracks views from lbry.tv users and other clients. When a user views your content that is reward-verified, we will automatically send an LBC tip for each of their daily first ten views.
 
 Creators will see these on their wallet page as Tips (filter on Received + Tips) and they will be summed up monthly on the Rewards page under `Content View Tips: Month Year`. You may [unlock the tips](https://lbry.com/faq/tipping) to have the show in your balance, but while locked, they help your content be discovered.
 
 ![](https://thumbs.spee.ch/view/@thumbnails:4c/9decca5b3974f17a.jpeg)
 
-These tips are separate from tips your followers may issue independetly. 
+These tips are separate from tips your followers may issue independently.
 
 ## Requirements and disqualifications
 
@@ -35,7 +35,7 @@ Typical disqualifications include:
 - Spamming LBRY comments with your channel / content.
 - Participation in follow-for-follow / view-for-view activity on LBRY and other public/private chats.
 - Non-original, spam, manipulative, abusive, or other quality issues with your content.
-- Majority of content is non video/audio/
+- Majority of content is non video/audio.
 
 **LBRY reserves the right to disable view rewards on any account, similar to other rewards.**
 
