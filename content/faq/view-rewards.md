@@ -6,7 +6,7 @@ order: 2
 
 We want creators to create quality content that other LBRY users will enjoy and to be able to earn at a comparable or greater amount to alternatives.
 
-If you publish quality original content, you may be eligible to receive additional rewards for views from validated lbry.tv accounts on behalf of us.
+If you publish quality original content, you may be eligible to receive additional rewards for views from validated lbry.tv accounts on behalf of us. These tips are separate from tips your followers may issue independently and ineligibility does not mean the content is demonetized.
 
 ## How creator view rewards work
 
@@ -15,8 +15,6 @@ LBRY tracks views from lbry.tv users and other clients. When a user views your c
 Creators will see these on their wallet page as Tips (filter on Received + Tips) and they will be summed up monthly on the Rewards page under `Content View Tips: Month Year`. You may [unlock the tips](https://lbry.com/faq/tipping) to have the show in your balance, but while locked, they help your content be discovered.
 
 ![](https://thumbs.spee.ch/view/@thumbnails:4c/9decca5b3974f17a.jpeg)
-
-These tips are separate from tips your followers may issue independently.
 
 ## Requirements and disqualifications
 
@@ -41,7 +39,7 @@ Typical disqualifications include:
 
 ## I'm eligible but not receiving tips, what can I do?
 
-We will monitor for new channels to opt in automatically. If you've met the above requirements and are not getting tips for viewed content, [please reach out to via email](mailto:hello@lbry.com) and tell us more about your channel and content. This will be later be made clearer in the app and automated via an opt in process.
+We will monitor for new channels to opt in automatically. If you've met the above requirements and are not getting tips for viewed content, [please reach out to via email](mailto:hello@lbry.com) and tell us more about your channel and content. This will later be made clearer in the app and automated via an opt in process.
 
 ## I'm in need of some assistance, can you help?
 
