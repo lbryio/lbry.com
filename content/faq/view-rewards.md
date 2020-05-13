@@ -1,34 +1,43 @@
 ---
-title: What are content view tips/rewards?
+title: What are creator view rewards? What do creators earn for views?
 category: publisher
 order: 2
 ---
 
-At LBRY Inc, we want to reward creators for quality content that other LBRY users will enjoy. If you publish quality original content, you may receive additional rewards for views from validated lbry.tv accounts on behalf of us.
+We want creators to create quality content that other LBRY users will enjoy and to be able to earn at a comparable or greater amount to alternatives. 
 
-LBRY tracks views from reward validated users and will send LBC tips for each viewer's first 10 daily views on qualified content. Creators see these on their wallet page as Tips (filter on Received + Tips) and they will be summed up monthly on the Rewards page under `Content View Tips: Month Year`. You may [unlock the tips](https://lbry.com/faq/tipping) to have the show in your balance, but while locked, they help your content be discovered.
+If you publish quality original content, you may be eligible to receive additional rewards for views from validated lbry.tv accounts on behalf of us.
+
+## How creator view rewards work
+
+LBRY tracks views from lbry.tv users and other clients. When a user views your content that is reward-verified, we will automatically send an LBC tip for each of their daily first ten views. 
+
+Creators will see these on their wallet page as Tips (filter on Received + Tips) and they will be summed up monthly on the Rewards page under `Content View Tips: Month Year`. You may [unlock the tips](https://lbry.com/faq/tipping) to have the show in your balance, but while locked, they help your content be discovered.
 
 ![](https://thumbs.spee.ch/view/@thumbnails:4c/9decca5b3974f17a.jpeg)
 
-**Please note: Not all accounts may qualify for view rewards and this does not affect actual tips from your followers. These are generally reserved for original content and may not apply to non-video/audio content. Accounts that participate in follow for follow / view for view activity will not be eligible. These rewards are currently granted on a per account basis. LBRY reserves the right to disable view rewards on any account, similar to other rewards.**
+These tips are separate from tips your followers may issue independetly. 
 
 ## Requirements and disqualifications
+
+Not all accounts are eligible for tips.
 
 Existing YouTube synced channels with over 500 subscribers and other established creators on LBRY are automatically opted in.
 
 In order for your account to qualify for view rewards, it must meet the following requirements:
 
-- The majority of the content must be original content in video or audio form (may expand to other formats later).
+- The majority of the content must be original content in video or audio form (we will expand to other formats later).
 - The content and channel must be properly tagged.
 - The account must be at least a week old.
 
 Typical disqualifications include:
 
 - Spamming LBRY comments with your channel / content.
-- Participation in follow for follow / view for view activity on LBRY and other public/private chats.
-- Non-original or spam content.
-- Low quality content.
-- Majority of content is non video/audio.
+- Participation in follow-for-follow / view-for-view activity on LBRY and other public/private chats.
+- Non-original, spam, manipulative, abusive, or other quality issues with your content.
+- Majority of content is non video/audio/
+
+**LBRY reserves the right to disable view rewards on any account, similar to other rewards.**
 
 ## I'm eligible but not receiving tips, what can I do?
 
