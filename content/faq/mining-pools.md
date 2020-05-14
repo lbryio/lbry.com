@@ -11,10 +11,10 @@ However, some pools are in a partnership with the independent community initiati
 The current breakdown of mining hash rates can be found on [Mining Pool Stats](https://miningpoolstats.stream/lbry)
 
 ## Pools
-- [Luxor](https://mining.luxor.tech/lbry) <- Support the LBRY community with this pool!
+- [Luxor](https://mining.luxor.tech/coins/lbry) <- Support the LBRY community with this pool!
 - [SuprNova](https://lbry.suprnova.cc/index.php?page=gettingstarted)
 - [CoinMine](https://www2.coinmine.pl/lbc/index.php?page=gettingstarted)
-- [Blazepool](blazepool.com)
+- [Blazepool](http://blazepool.com/)
 - [zPool](https://www.zpool.ca/)
 - [AHashPool](https://www.ahashpool.com/)
 - [Zerg Pool](https://zergpool.com/)
