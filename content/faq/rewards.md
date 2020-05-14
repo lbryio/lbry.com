@@ -7,7 +7,8 @@ Rewards allow LBRY users to earn LBC, the token that powers the LBRY network. Yo
 
 **Please note:** Reward amounts are subject to change at any time by LBRY Inc.
 
-![rewardslist](https://spee.ch/rewardslist.png)
+![rewardslist](https://spee.ch/rewardslist.png)
+
 _The rewards screen in the LBRY app_
 
 ## Rewards eligibility
@@ -43,7 +44,7 @@ Rewards that you have earned will be marked in your [wallet](/faq/transaction-ty
 | **Daily View**                             | 1- 100 LBC  | A random daily reward from 1 to 100 LBC, resets every 24 hours!                                                                                                             |
 | **Many Views**                             | 2- ???? LBC | A multi-level reward for watching videos on LBRY. See descriptions in-app for levels/details!                                                                               |
 | **Faithful Follower**                      | 1 - 8 LBC   | A multi-level reward for following channels.                                                                                                                                |
-| [**Coveted Creator**](#followers)          | 1 - 5K LBC  | A multi-level reward for gaining followers on your channel.                                                                                                                 |
+| [**Coveted Creator**](#followers)          | 2 - 8K LBC  | A multi-level reward for gaining followers on your channel.                                                                                                                 |
 | [**Content View Tips**](/faq/view-rewards) | 1 - 5 LBC   | A per view reward from validated lbry.tv users                                                                                                                              |
 | **Welcome Back**                           | 2 LBC       | Return to the LBRY 24-48 hours following your first use of the app. This reward will self-destruct after that time span.                                                    |
 | **Android in Beta**                        | 6 LBC       | Limited time reward for early Android Beta testers.                                                                                                                         |
