@@ -111,7 +111,7 @@ If you respected all the above instructions you'll see a success message, otherw
 
 ## Ubuntu / Linux *(Exact steps may differ slightly)* {#Linux}
 
-1. Make sure the application it's completely closed - right-click on application's tray icon and choose the **`Exit`** option from menu or press Ctlr-Q.
+1. Make sure the application it's completely closed - right-click on application's tray icon and choose the **`Quit`** option from menu or press Ctlr-Q.
 
 2. Open the **`Terminal`** application 
 
