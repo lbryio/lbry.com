@@ -6,7 +6,9 @@ This guide is meant for informational purposes only and is not financial advice.
 
 Currently, in order to exchange LBC for traditional currencies (and vice versa), you'll need to use [cryptocurrency exchanges](/faq/exchanges). LBRY is actively working on ways to make this easier right inside our applications, but we don't have an ETA on when this would be available. 
 
-Some exchanges have a US Dollar (USD/USDT) market, whereas others only trade LBC against Bitcoin (BTC). This means you'd need to go through BTC first before being able to obtain traditional currencies like USD. These steps below are an example of how to buy and sell LBC on Bittrex, but the mechanism of using order books will be similar on other exchanges.
+Some exchanges have a US Dollar (USD/USDT) market, whereas others only trade LBC against Bitcoin (BTC). This means you'd need to go through BTC first before being able to obtain traditional currencies like USD. USDT is the equivalent of a digital dollar and makes it easier to exchange LBC.
+
+These steps below are an example of how to buy and sell LBC on Bittrex which has both USDT and BTC market pairs, but the mechanism of using order books will be similar on other exchanges.
 
 If you are acquiring LBC, you'll need to have BTC deposited into your account, link a bank account to deposit USD, or use a credit card (not available in all locations). If you are selling LBC, you'll need to [deposit the LBC to your Bittrex account first](#Withdrawing-LBC-to-Bittrex). 
 
@@ -43,18 +45,8 @@ If you are acquiring LBC, you'll need to have BTC deposited into your account, l
 
 ## Buying
 
-### Purchasing BTC with USD
-**This step is required if your account has a USD balance since LBC does not trade against USD on Bittrex**
-1. From the Bittrex home page: under USD market, click on USD-BTC
-![usd-btc](https://spee.ch/@lbrysh:6/usd.jpg)
-1. Click on the market price you'd like to buy BTC (usually the first in the sell order book and indicated as red).
-![buy](https://spee.ch/@lbrysh:6/buy.jpg)
-1. Enter how much BTC you want to purchase in dollars or simply click on the percentage to select the amount you'd like to purchase. For example, 50% of your total holdings or 100% of your total holding in USD.
-![amount](https://spee.ch/@lbrysh:6/amount1.jpg)
-1. Click on place order, and once the order is executed, you'll now see your BTC holdings instead of USD. You can check this right below the place order button or the holdings page from the upper right screen.
-
-### Purchasing LBC with BTC.
-1. From the Bittrex home page: scroll down, under the BTC market, search for LBC and once it comes up, click on BTC-LBC.
+### Purchasing LBC with BTC / USDT
+1. From the Bittrex home page: scroll down, under the BTC or USDT market, search for LBC and once it comes up, click on the trading pair.
 ![lbc](https://spee.ch/@lbrysh:6/lbc1.jpg)
 1. Click on the market price you'd like to buy LBC (usually the first in the sell order book indicated as red.)
 ![lbc price](https://spee.ch/@lbrysh:6/buy-lbc.jpg)
@@ -63,9 +55,9 @@ If you are acquiring LBC, you'll need to have BTC deposited into your account, l
 
 ## Selling
 
-### Selling LBC for BTC
-To sell LBC for BTC, you will have to deposit your LBC to the Bittrex LBC wallet. [See depositing LBC to Bittrex](#Withdrawing-LBC-to-Bittrex)
-1. Go to the Bittrex home page, scroll down, under the BTC market, search for LBC and once it comes up, click on BTC-LBC.
+### Selling LBC for BTC / USDT
+To sell LBC for BTC or USDT, you will have to deposit your LBC to the Bittrex LBC wallet. [See depositing LBC to Bittrex](#Withdrawing-LBC-to-Bittrex)
+1. Go to the Bittrex home page, scroll down, under the BTC / USDT market, search for LBC and once it comes up, click on the trading pair.
 ![lbc](https://spee.ch/@lbrysh:6/lbc1.jpg)
 1. Click on Sell
 ![sell](https://spee.ch/@lbrysh:6/click-sell.jpg)
@@ -73,16 +65,6 @@ To sell LBC for BTC, you will have to deposit your LBC to the Bittrex LBC wallet
 ![sell lbc](https://spee.ch/@lbrysh:6/sell-lbc.jpg)
 1. Enter how much LBC you want to sell or simply click on the percentage to select the amount you'd like to sell. For example, 50% of your total holdings or 100% of your total holding in LBC.
 1. Click on place sell order, and once the order is executed, you'll now see your BTC holdings. You can check this right below the place order button or the holdings page from the upper right screen.
-  
-### Selling BTC for USD
-To sell BTC for USD, you may have to submit a Fiat Trading request to Bittrex [See Depositing USD](#Depositing-USD)
-1. From the Bittrex home page: under USD market, click on USD-BTC.
-![usd-btc](https://spee.ch/@lbrysh:6/usd.jpg)
-1. Click on the market price you'd like to sell BTC (usually the first in the buy order book and indicated as green.)
-![sell-usd](https://spee.ch/@lbrysh:6/sell-usd.jpg)
-1. Enter how much BTC you want to sell or simply click on the percentage to select the amount you'd like to sell. For example, 50% of your total holdings or 100% of your total holding.
-![amount](https://spee.ch/@lbrysh:6/amount1.jpg)
-1. Click on place sell order, and once the order is executed, you'll now see your USD holdings instead of BTC. You can check this right below the place order button or the holdings page from the upper right screen.
 
 ## Managing and withdrawing funds
 
@@ -109,5 +91,8 @@ To sell BTC for USD, you may have to submit a Fiat Trading request to Bittrex [S
 ![send](https://spee.ch/@lbrysh:6/send.jpg)
 1. Paste the address you copied from Bittrex and enter the amount you want to transfer and click send.
 1. To check the status of your withdrawal, go to the holdings page on Bittrex and click on deposits. This will show pending deposit status.
+
+### Withdrawing USDT to your bank
+Bittrex allows you to withdraw USDT to USD by first using the [USDT/USD market](https://bittrex.com/Market/Index?MarketName=USD-USDT) and then sending USD to your bank. 
 
 **Please note that it may take up to 10 minutes for the status to reflect under the deposit status. Bittrex requires 30 confirmations which can take anywhere from 60-90 minutes.**
