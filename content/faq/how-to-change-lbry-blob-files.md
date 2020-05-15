@@ -1,5 +1,5 @@
 ---
-title: How to change location for blob files folder?
+title: How do I change the location of blob files / hosted data?
 category: troubleshooting
 ---
 
