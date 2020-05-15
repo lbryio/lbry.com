@@ -14,6 +14,9 @@ On the LBRY Desktop application, you can configure the download options on the S
 
 On Android, only published data is saved in the blobs folder.
 
+## Moving hosted content
+Currently, this process is manual and you can see our [FAQ on how to move the hosted content](/faq/how-to-change-lbry-blob-files) to another drive.
+
 ## Deleting hosted content
 You can delete files from the blob folder directly, or you can also delete them from the My LBRY section of the App - both will get rid of the hosted content and you'll lose the ability to seed it anymore.
 
