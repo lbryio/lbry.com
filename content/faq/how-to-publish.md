@@ -10,9 +10,9 @@ To see our recommended video upload format and settings, please see our [video p
 
 If you are a YouTube Sync user, please make sure to [read our FAQ](https://lbry.com/faq/youtube) on how this process works.
 
-If you don't have LBRY yet, download it [here](/get). You can also publish files up to 1GB from the web at [lbry.tv](https://lbry.tv).
+If you don't have LBRY yet, download it [here](/get). You can also publish files up to 1 GB from the web at [lbry.tv](https://lbry.tv).
 
-**IMPORTANT NOTE: Only use appropriate tags when publishing content. Tag abuse and follow for follow / view for view type activity is prohibited and will not be tolerated.**
+**IMPORTANT NOTE: Only use appropriate tags when publishing content. Tag abuse and follow for follow/view for view type activity is prohibited and will not be tolerated.**
 
 ## How do I publish content?
 
@@ -47,7 +47,7 @@ Other file types can also be uploaded, but won't be streamable via LBRY directly
 
 _please review our terms of service before publishing [terms of service](/termsofservice)_
 
-Click `Publish`.
+12. Click `Publish`.
 
 The file will process in the background and will be added to the LBRY Blockchain. Please leave LBRY running while your content is in the "pending confirmation" mode. This page will automatically refresh and you will be notified when the publish is completed. After this, your content will be available to other LBRY users. However, it is a good idea to leave LBRY open for a while after this to make sure the app is able to share your file to at least one peer on the data network. Larger files will take longer to upload depending on your network speed.
 
@@ -95,7 +95,7 @@ First, you need to access your channel from your Publishes page by clicking on i
 
 **Warning: Deleting content is permanent. Please make sure this is what you want to do before confirming the deletion.**
 
-Click `Remove`. If you abandoned your claim, you should see the deposit back in your balance shortly.
+5. Click `Remove`. If you abandoned your claim, you should see the deposit back in your balance shortly.
 
 ## How do I edit my existing published content?
 
@@ -119,7 +119,7 @@ Yes, the claim can be edited to increase the bid amount or you can also send a S
 
 ## My video doesn't stream in the app or on lbry.tv, what's wrong?
 
-The in-app and lbry.tv video player's streaming capability works best with the H264/AAC format, typically in a MP4 container but others like M4V will also work. Other non-streaming video types like AVI/WMV/MOV file formats are not supported by the in-app player, but they can be shared/downloaded and will play outside of the app.
+The in-app and lbry.tv video player's streaming capability works best with the H264/AAC format, typically in an MP4 container but others like M4V will also work. Other non-streaming video types like AVI/WMV/MOV file formats are not supported by the in-app player, but they can be shared/downloaded and will play outside of the app.
 
 ## I shared my URL, but others can't download it. What's going on?
 
@@ -135,7 +135,7 @@ LBRY URLs can be shared with anyone - users can view it in their Desktop app or 
 
 ## I'm an advanced user, is there more I can poke around with?
 
-Advanced users can check out the [API/CLI/SDK](https://lbry.tech/api/sdk) documentation for command line / API options.
+Advanced users can check out the [API/CLI/SDK](https://lbry.tech/api/sdk) documentation for command line/API options.
 
 ## I'm confused and need some assistance, can you help?
 
