@@ -17,7 +17,9 @@ Open the LBRY and navigate to the content you wish to report. Underneath the con
 
 ## How does LBRY handle and respond to a DMCA request or takedown notice?
 
-Upon receipt of a DMCA request from the content owner or legal representative, LBRY Inc. will use its best judgment to determine validity. We will block access to content deemed infringing in any LBRY Inc. owned applications. LBRY Inc. will also remove any data related to the infringing content from servers within its control. LBRY also must abide by the [red flag rule](https://en.wikipedia.org/wiki/Online_Copyright_Infringement_Liability_Limitation_Act#Red_flags) also. 
+Upon receipt of a DMCA request from the content owner or legal representative, LBRY Inc. will notify the alleged infringing party about the request. We will block access to content in any LBRY Inc. owned applications upon receipt of a DMCA takedown notice. The opposite party can file a DMCA counter notice if they believe they have a right to publish the content. If you have questions about the DMCA process, you can [find more information here.](https://www.dmca.com/faq/What-is-a-DMCA-Takedown)
+
+LBRY Inc. will also remove any data related to the infringing content from servers within its control. LBRY also must abide by the [red flag rule](https://en.wikipedia.org/wiki/Online_Copyright_Infringement_Liability_Limitation_Act#Red_flags) also. 
 
 Due to the immutable nature of the LBRY blockchain, a record and metadata of the infringing content may continue to exist on network hosts if the original publisher does not remove it. The data may still exist on the original publisher's computer (and anyone who may have downloaded it prior to it being blocked) but will not be accessible through any LBRY Inc. controlled applications.
 
