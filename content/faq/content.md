@@ -12,9 +12,12 @@ You may upload legal content that you own or have obtained permission to use, as
 This includes Public Domain content, Creative Commons or Open Source content shared according to the license requirements, and Copyrighted content where you have permission from the owner.
 
 We ask you to follow these simple rules:
+
 1) The content is yours, you have permission to post it, or it's public domain / fair use / license allows re-use. 
-1) The content is tagged properly, especially with mature content. Do not abuse tags with ones that don't pertain to your content.
-1) The content is not illegal in your jurisdiction. 
+
+2) The content is tagged properly, especially with mature content. Do not abuse tags with ones that don't pertain to your content.
+
+3) The content is not illegal in your jurisdiction. 
 
 Failure to follow these rules may result in the filtering of your content/channel and the ability to earn rewards will be revoked.
 
