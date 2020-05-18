@@ -31,7 +31,7 @@ Wallet backups should be copied securely to one or more locations which only you
 
 ## How do I find my wallet if I don't have LBRY open?
 
-The LBRY wallet can be found manually by navigating to the [lbryum directory](/faq/lbry-directories). The `default_wallet` file is inside the wallet's folder.
+The LBRY wallet can be found manually by navigating to the [lbryum directory](/faq/lbry-directories). The `default_wallet` file is inside the `wallets` folder.
 
 ## How do I back up my wallet on lbry.tv?
 
