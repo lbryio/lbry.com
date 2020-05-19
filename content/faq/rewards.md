@@ -3,70 +3,70 @@ title: What are LBRY Rewards?
 category: getstarted
 ---
 
-Rewards allow LBRY users to earn LBC, the token that powers the LBRY network. You can earn rewards for watching content, creating an identity, and generally learning about and using LBRY. Not all users or regions will qualify for rewards. 
+Rewards are one of the ways LBRY users can obtain LBC (also known as LBRY credits, the digital currency token that powers the LBRY network). You can earn rewards for viewing content, following channels, publishing content, getting other users to follow your channels, inviting other people to join LBRY, and more. Rewards are issued by LBRY Inc. **Reward amounts are subject to change at any time.**
 
-**Please note:** Reward amounts are subject to change at any time by LBRY Inc.
+Not all users are eligible for rewards, but you can still use LBRY without earning rewards; there is no requirement to spend LBC or even create a LBRY.tv account if you just want to view content. [Learn more about eligibility below.](#eligibility)
+
+If you're not eligible for rewards but want LBC to publish content or support other content creators, [learn about other ways to obtain LBC.](/faq/earn-credits)
 
 ![rewardslist](https://spee.ch/rewardslist.png)
 
-_The rewards screen in the LBRY app_
+_The rewards screen in the LBRY app._
 
-## Rewards eligibility
+## Rewards eligibility {#eligibility}
 
-To be eligible for LBRY Rewards, you must:
+A reward is intended to be earned no more than one time by each real person. As such, eligibility restrictions are in place to prevent one person from earning rewards under multiple accounts.
 
-- Sign up for an account at [lbry.tv](https://lbry.tv)
-- Verify your email
-- Potentially complete an [additional verification step](#additional-verification) (common if using from VPN or a fraud-prone network)
-- Do not abuse the rewards system via follow x follow or view x view activity, either on LBRY or in private groups
-- Do not spam comments on LBRY
+To be eligible for rewards, you must **sign up for an account** at [lbry.tv](https://lbry.tv) and **verify your email**. Many users are required to **complete** [**additional verification**](#additional-verification); this common if using LBRY from VPN or a fraud-prone network. You may not be eligible if there is already another verified account in your household / location. Users on shared connections will typically not be eligible for rewards.
 
-Rewards are intended to be earnable on a per-person basis (typically limited to 1 rewards account per household / location). LBRY reserves the right to revoke rewards privileges on any account if abuse is suspected, including on the basis of VPN or shared connections. Users on shared connections will typically not be eligible for rewards.
+ **Eligibility may be revoked by LBRY.tv if abuse is suspected.** Your eligibility may be revoked if:
 
-## Do I need to be eligible for rewards?
-
-LBRY works with full functionality without rewards and there's never a requirement to earn rewards or sign in to lbry.tv.
+- you use a VPN or shared network to access LBRY.
+- you try to artificially inflate follow counts or view counts (with "follow for follow" or "view for view" activity or purchased traffic) on LBRY or in other groups.
+- you spam comments on LBRY.
 
 ## How do I claim a reward?
 
 Some rewards will automatically be added when you complete them. Others require an explicit click or acknowledgement to receive.
 
-All the rewards can always be seen by clicking **Rewards** from the Account drop down menu (top right of the app).
+All rewards can always be seen by clicking your [Rewards page](https://open.lbry.com/?rewards) from the Account drop down menu (top right of the app).
 
 Rewards that you have earned will be marked in your [wallet](/faq/transaction-types).
 
 ## What rewards exist?
 
-| Reward                                     | Amount      | Description                                                                                                                                                                 |
-| ------------------------------------------ | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Your First Nickel**                      | 2 LBC       | A one-time welcome gift for learning the basics of the application & wallet. Including the purchase of paid content.                                                        |
-| **Go for a Stream**                        | 1 LBC       | Rewarded for streaming your very first video on LBRY.                                                                                                                       |
-| **Channel Surfing**                        | 1 LBC       | A one-time reward for creating a channel on LBRY via the Publish screen.                                                                                                    |
-| **First Publish**                          | 3 LBC       | A one-time reward for publishing your first piece of content to LBRY.                                                                                                       |
-| **Daily View**                             | 1- 100 LBC  | A random daily reward from 1 to 100 LBC, resets every 24 hours!                                                                                                             |
-| **Many Views**                             | 2- ???? LBC | A multi-level reward for watching videos on LBRY. See descriptions in-app for levels/details!                                                                               |
-| **Faithful Follower**                      | 1 - 6 LBC   | A multi-level reward for following channels.                                                                                                                                |
-| [**Coveted Creator**](#followers)          | 1 - 4K LBC  | A multi-level reward for gaining followers on your channel.                                                                                                                 |
-| [**Content View Tips**](/faq/view-rewards) | 1 - 4 LBC   | A per view reward from validated lbry.tv users                                                                                                                              |
-| **Welcome Back**                           | 2 LBC       | Return to the LBRY 24-48 hours following your first use of the app. This reward will self-destruct after that time span.                                                    |
-| **Android in Beta**                        | 4 LBC       | Limited time reward for early Android Beta testers.                                                                                                                         |
-| **Upgrade**                                | 4 LBC       | Rewarded each time the LBRY Desktop app updates versions (i.e. 0.27 to 0.28).                                                                                               |
-| **YouTube**                                | ?? LBC      | Rewarded as part of the [YouTube Sync program](/youtube).                                                                                                                   |
-| **Reward Code**                            | ?? LBC      | [Custom reward codes](#reward-code) given out to users - be on the look out on social media/Discord/Reddit!                                                                 |
-| **Referral**                               | 15 LBC      | LBRY users can refer their friends via an email invitation and get rewarded when those users are verified. For more information on referrals, click [here](/faq/referrals). |
+**Reward amounts are subject to change at any time.**
 
-If you are new to Publishing, check out [our guide](/faq/how-to-publish).
+| Reward                   | Amount      | Description                                                                                                                                                   |
+| ------------------------ | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Your First Nickel**    | 2 LBC       | One-time welcome gift for learning the basics of the application & wallet.                                                                                    |
+| **Go for a Stream**      | 1 LBC       | One-time reward for streaming your very first video.                                                                                                          |
+| **Welcome Back**         | 2 LBC       | One-time reward for returning to LBRY 24-48 hours following your first use of the app. (This reward cannot be earned after 48 hours.)                         |
+| **Daily View**           | 1 - 100 LBC | Repeatable reward for viewing any content. Earn a random reward of 1 to 100 LBC. Reward may be earned once every 23 hours.                                    |
+| **Many Views**           | 2+ LBC      | Multi-level reward for watching videos that increases with the number of videos you watch.                                                                    |
+| **Faithful Follower**    | 1 - 6 LBC   | Multi-level reward for following channels.                                                                                                                    |
+| **First Publish**        | 3 LBC       | One-time reward for publishing your first content on LBRY. If you are new to publishing, [learn how to publish](/faq/how-to-publish).                         |
+| **Channel Surfing**      | 1 LBC       | One-time reward for creating a channel on LBRY.                                                                                                               |
+| **Coveted Creator**      | 1 - 4K LBC  | Multi-level reward for gaining followers on your channel. [Learn more about **Coveted Creator** rewards below.](#followers)                                         |
+| **Content View Tips**    | 1 - 4 LBC   | Variable reward based on content views from other validated lbry.tv users. [Learn more about **Content View Tips**.](/faq/view-rewards)                       |
+| **Android in Beta**      | 4 LBC       | Limited-time reward for early Android Beta testers.                                                                                                           |
+| **Upgrade**              | 4 LBC       | Repeatable reward each time the LBRY Desktop app updates versions (i.e. 0.27 to 0.28).                                                                        |
+| **YouTube**              | ?? LBC      | Rewarded as part of the [YouTube Sync program](/youtube).                                                                                                     |
+| **Reward Code**          | ?? LBC      | [Custom reward codes](#reward-code) given out to users - be on the look out on social media/Discord/Reddit!                                                   |
+| **Referral**             | 15 LBC      | LBRY users can refer their friends via an email invitation and get rewarded when those users are verified. [Learn more about **Referrals**.](/faq/referrals). |
 
 ## Followers reward {#followers}
 
 You receive additional rewards as you build a following on LBRY. Only verified LBRY users count, so there may be a discrepancy between what you see on your channel page. Share your channel with the world to earn more LBC!
 
+**Reward amounts are subject to change at any time.**
+
 | Number of followers | Amount    |
 | ------------------- | --------- |
 | 1                   | 2 LBC     |
-| 5                   | 5 LBC    |
+| 5                   | 5 LBC     |
 | 20                  | 10 LBC    |
-| 100                 | 50 LBC   |
+| 100                 | 50 LBC    |
 | 500                 | 150 LBC   |
 | 1,000               | 500 LBC   |
 | 5,000               | 2,000 LBC |
@@ -88,7 +88,7 @@ Custom reward codes can be claimed via the [Rewards](https://open.lbry.com/?rewa
 
 ## What is the additional verification step? {#additional-verification}
 
-Accounts created from networks that have above average fraud rates or that make it difficult to detect fraud may require additional verification steps. Even after this step, some users and regions may not qualify for rewards and can use LBRY without them.
+Accounts created from networks that have above average fraud rates or that make it difficult to detect fraud may require additional verification steps. Even after this step, some users and regions may not qualify for rewards.
 
 If this step is required, you will be notified when creating an account or entering the rewards area, which will then walk you through it.
 
