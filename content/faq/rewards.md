@@ -3,7 +3,7 @@ title: What are LBRY Rewards?
 category: getstarted
 ---
 
-Rewards are one of the ways LBRY users can obtain LBC (also known as LBRY credits, the digital currency token that powers the LBRY network). You can earn rewards for viewing content, following channels, publishing content, getting other users to follow your channels, inviting other people to join LBRY, and more. Rewards are issued by LBRY Inc. **Reward amounts are subject to change at any time.**
+Rewards are one of the ways LBRY users can obtain LBC (also known as LBRY credits, the digital currency token that powers the LBRY network). You can earn rewards for viewing content, following channels, publishing content, having other users to follow your channels, inviting other people to join LBRY, and more. Rewards are issued by LBRY Inc. **Reward amounts are subject to change at any time.**
 
 Not all users are eligible for rewards, but you can still use LBRY without earning rewards; there is no requirement to spend LBC or even create a LBRY.tv account if you just want to view content. [Learn more about eligibility below.](#eligibility)
 
@@ -24,6 +24,7 @@ To be eligible for rewards, you must **sign up for an account** at [lbry.tv](htt
 - you use a VPN or shared network to access LBRY.
 - you try to artificially inflate follow counts or view counts (with "follow for follow" or "view for view" activity or purchased traffic) on LBRY or in other groups.
 - you spam comments on LBRY.
+- you immediately withdraw credits from the platform and do not use LBRY for its intended usecase.
 
 ## How do I claim a reward?
 
