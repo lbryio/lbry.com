@@ -4,16 +4,14 @@ category: LBRY 101
 order: 3
 ---
 
-The very first question of newcomers is often, "How do you pronounce it?" Answer: library.
+## How do you pronounce LBRY?
 
-"Is it an acronym?" No.
+Pronounce LBRY just as you would pronounce "library." It's not an acronym or initialism, though it is spelled with all capital letters.
 
-"Then why confuse people with the all-caps and removed vowels?"
+## Why is LBRY named LBRY?
 
-First and foremost, LBRY is an internet protocol, just like HTTP. Content on LBRY is served to users via "LBRY names," which look like this: lbry://itsawonderfullife. Very similar to the URL you type into your internet browser. LBRY is not just our branded name, but the character string we've chosen to lead our URIs (Uniform Resource Identifier).
+At its core, LBRY is internet protocol, similar to the HTTP you may have seen in web addresses. Every piece of content on the internet is found at a special address called a URI, or Uniform Resource Identifier. Web sites use HTTP addresses, like http://example.com/, but LBRY content uses special LBRY addressses, like lbry://examplecatvideo. LBRY addresses have special functionality that HTTP addresses don't, and that functionality powers one of LBRY's most important differences from sites like Youtube, Netflix, or Vimeo: decentralization. No single company or organization has power over the LBRY network or the content that it delivers, and we believe that is extremely important. [Learn more about LBRY's addresses here.](/faq/naming) The LBRY protocol also includes built-in payment options, so content creators don't need to rely on advertising or third-party services to make money from their work.
 
-It also serves as a truncated form of "library," which reflects our mission: every film, song, book, and app ever made – available anywhere. Our vision for LBRY is to create a massive media repository for the 21st century that is built on a decentralized network controlled by its users. LBRY is to a traditional library what Amazon is to a department store.
+LBRY is of course a nod to "library," which reflects our mission to be the internet's library: every film, song, book, and app ever made – available anywhere. Our vision for LBRY is to create a massive media repository built on a decentralized network controlled by its users.
 
-Is it an odd name? Perhaps. But we would kindly point to the success of brands like Hulu, Yahoo!, Etsy, Skype, Tumblr, and Zillow. In the end, a good company with a strong user base will be remembered regardless of its name. And a company with a brand as straightforward as Pets.com can still fail.
-
-LBRY is working well as a brand so far. SEO is a top consideration for startup branding, and LBRY already dominates the search results for our brand name.
+[**Learn what makes LBRY unique.**](/what)
