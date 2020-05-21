@@ -4,4 +4,6 @@ category: LBRY 101
 order: 5
 ---
 
-[lbry.tech](https://lbry.tech) is home to technical information about LBRY, an interactive playground to learn more about how it functions, resources on how to contribute and build on top of it, and much more.
+For an general overview of LBRY and how it works, [**see the About page**](/what).
+
+For complete technical information on LBRY, including an interactive playground to learn more about how it functions, resources on how to contribute to the project, and much more, visit [**lbry.tech**](https://lbry.tech).
