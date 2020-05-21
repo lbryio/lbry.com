@@ -19,3 +19,7 @@ The current breakdown of mining hash rates can be found on [Mining Pool Stats](h
 - [AHashPool](https://www.ahashpool.com/)
 - [Zerg Pool](https://zergpool.com/)
 - [NiceHash](https://www.nicehash.com/my/marketplace/LBRY)
+
+## How do I get involved without hardware?
+
+You can purchase hashing power through a service called NiceHash. Luxor has [written up a great guide about it here](https://lbryians.slack.com/archives/C1R0NN5RD/p1590016270354900). There may be other providers where LBRY hash is also available, but proceed as your own caution. 
