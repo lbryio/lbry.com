@@ -125,3 +125,7 @@
 
 # Images
 /img/lbry-ui.png:  /img/og-image.png
+
+# Other
+/explorer:            https://explorer.lbry.com/
+/block-explorer:      https://explorer.lbry.com/
