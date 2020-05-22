@@ -18,7 +18,7 @@ This Agreement lasts twelve (12) months from the date that the Content is upload
 
 ### 2. Receiving LBRY Credits (LBC)
 
-Receiving LBRY Credits is considered taxable income in the United States, and may be considered taxable income in your country. If you are a citizen of the United States\* and receive over \$600 worth of LBC, you will also have to complete tax related documentation. We will contact you if you are over this threshold.
+Receiving LBRY Credits is considered taxable income in the United States, and may be considered taxable income in your country. If you are a citizen of the United States and receive over $600 worth of LBC, you will also have to complete tax related documentation. We will contact you if you are over this threshold.
 
 ### 3. Promotional rights
 
@@ -30,6 +30,6 @@ LBRY, Inc. makes no promises as to the availability or security of your content.
 
 ### 5. YouTube Terms of Service and Google Privacy Policy
 
-If you participate in the YouTube Creator Program, you also agree to [YouTube's Terms of Service (https://www.youtube.com/t/terms)](https://www.youtube.com/t/terms) and <a [Google's Privacy Policy (https://www.google.com/policies/privacy)](http://www.google.com/policies/privacy).
+If you participate in the YouTube Creator Program, you also agree to [YouTube's Terms of Service (https://www.youtube.com/t/terms)](https://www.youtube.com/t/terms) and [Google's Privacy Policy (https://www.google.com/policies/privacy)](http://www.google.com/policies/privacy).
 
 To revoke LBRY's access to your YouTube account or manage your security preferences, please refer to your [Google Security and Permissions Page (https://security.google.com/settings/security/permissions)](https://security.google.com/settings/security/permissions).
