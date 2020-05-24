@@ -10,7 +10,7 @@ Tips, in LBRY Credits (LBC), are an integral part of our community because they 
 
 ![tom tweet](https://spee.ch/@tipbot-tw:c/tomtweet.png)
 
-It is important to note that the LBC stored as a result of a tip is tied to your Twitter account username and are stored on LBRY's wallet server. It is your responsibility to withdraw the tips to your LBRY App / [lbry.tv](https://lbry.tv) or [a standalone wallet](/faq/standalone-wallet). If you plan on storing LBC on Twitter, it is a good idea to enable Two Factor Authentication (2FA) on your account. LBRY takes no responsibility for lost funds due to negligence.
+It is important to note that the LBC stored as a result of a tip is tied to your Twitter account username and are stored on LBRY's wallet server. It is your responsibility to withdraw the tips to your LBRY App/[lbry.tv](https://lbry.tv) or [a standalone wallet](/faq/standalone-wallet). If you plan on storing LBC on Twitter, it is a good idea to enable Two Factor Authentication (2FA) on your account. LBRY takes no responsibility for lost funds due to negligence.
 
 Use the following commands to make amazing things happen. You may need to first follow the [@LBC_TipBot](https://twitter.com/LBC_TipBot) account. We recommend creating a new Tweet and starting out with tagging the [@LBC_TipBot](https://twitter.com/LBC_TipBot), followed by the desired command. If the tipbot account is already tagged in a thread, only command is required. Note: Make sure you keep your commands on one line. If they are on multiple lines, the command will not work.
 
