@@ -31,4 +31,4 @@ We do not control the markets. We do not interfere with the markets. We do not d
 
 Don’t allocate very much credit to us when the price of LBC goes up and don’t allocate too much blame to us when it goes down.
 
-Software changes in a gradual way. Massive market fluctuations or moves are rarely the results of direct actions we take. We continue to hold the philosophy that focuses on building, both in tech and usage, is the only trend that matters in the long term.
+Software changes in a gradual way. Massive market fluctuations or moves are rarely the results of direct actions we take. We continue to hold the philosophy that focusing on building, both in tech and usage, is the only trend that matters in the long term.
