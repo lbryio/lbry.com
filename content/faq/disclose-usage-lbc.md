@@ -19,6 +19,6 @@ The reports are not official or legal financial disclosures, nor do they formall
 LBRY Inc. does not commit to following predictions made in the reports and reserves full rights to change how it uses LBC at any time.
 
 ## What happens if the reports contain a mistake?
-If we issue a report that was factually mistaken, we will update the report with a correction. If the mistake is caught within the same month that it was issued and was not substantial, the report will be updated without a notification other than a reply to the original Tweet.
+If we issue a factually mistaken report, we will update the report with a correction. If the mistake is caught within the same month that it was issued and was not substantial, the report will be updated without a notification other than a reply to the original Tweet.
 
 If an error is noticed in the report outside of the month it was issued or the error was substantial, then we will publish a blog post and a separate Tweet announcing the correction, as well as leave a note in the report itself linking to the blog post explaining the mistake.

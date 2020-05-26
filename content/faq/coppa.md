@@ -16,7 +16,7 @@ _Note that tagging your content improperly can result in it being negatively wei
 
 ## Why do creators have to do this on YouTube, but not LBRY?
 
-YouTube’s parent organization, Google, tracks the activity of users across the internet, regardless of their age. Because Google serves targeted advertisements to these users, this triggers a legal requirement to attempt to prevent doing so to children. Google chooses to satisfy this requirement by putting the onus on creators themselves.
+YouTube’s parent organization, Google, tracks the activity of users across the internet, regardless of their age. Because Google serves targeted advertisements to these users, this triggers a legal requirement to attempt to prevent doing so to children. Google chooses to satisfy this requirement by putting the onus on the creators themselves.
 
 In the case of LBRY, all users must affirm they are of the valid legal age to create a lbry.tv account. Users without lbry.tv accounts are not tracked and targeted. Additionally, LBRY does not perform the targeted advertising that Google does.
 
@@ -26,4 +26,4 @@ LBRY has a YouTube partner program that offers rewards, syncs your content, and 
 
 ## How can a creator tag content as child-friendly?
 
-We recommend using the tags “child friendy” and/or “family friendly” when publishing. Read more about [how to publish](/faq/how-to-publish).
+We recommend using the tags “child friendly” and/or “family-friendly” when publishing. Read more about [how to publish](/faq/how-to-publish).
