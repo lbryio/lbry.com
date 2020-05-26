@@ -189,7 +189,9 @@
             </label>
             <checkbox-toggle/>
           </checkbox-element>
-
+          <div>
+            <p>Please note: your subscriber count must be public (not 0) and over 100 to sync with LBRY.</p>
+          </div>
           <div>
             <button type="submit" onClick="return submitEditForm()">Save Changes</button>
           </div>
