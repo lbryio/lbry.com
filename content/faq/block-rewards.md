@@ -35,5 +35,10 @@ They are awarded on the following schedule:
 
 * To see the current block reward, visit the [LBRY Blockchain Explorer](https://explorer.lbry.com) and explore the latest block details.
 
+## Other Information
+The LBRY blockchain has a targeted block time of 2.5 minutes. This doesn't mean that a block will be confirmed exactly every 2.5 minutes, just that the average time between blocks is about that length.
+
+The max size of each block is currently around 2 MB. In an average block, this translates to around 1800 transactions.
+
 ## Where can I see this visually?
 The [Stats page on the Explorer](https://explorer.lbry.com/stats) has this information, including inflation rates and emission schedule. It can be exported to CSV.
