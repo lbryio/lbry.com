@@ -196,7 +196,7 @@
 
         <input
           id="searchInput"
-          placeholder="Search LBRY"
+          placeholder="Search LBRY.com"
           type="search"
         />
       </search-container>
