@@ -30,11 +30,11 @@ In order for your account to qualify for view rewards, it must meet the followin
 
 Typical disqualifications include:
 
-- Spamming LBRY comments with your channel / content.
-- Participation in follow-for-follow / view-for-view activity on LBRY and other public/private chats.
+- Spamming LBRY comments with your channel/content.
+- Participation in follow-for-follow/view-for-view activity on LBRY and other public/private chats.
 - Non-original, spam, manipulative, abusive, or other quality issues with your content.
 - Majority of content is non video/audio.
-- Majority of content is related to airdrops / free money.
+- Majority of content is related to airdrops/free money.
 
 **LBRY reserves the right to disable view rewards on any account, similar to other rewards.**
 
