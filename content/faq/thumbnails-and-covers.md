@@ -27,4 +27,4 @@ Applications can make their own choices on how to render these images. Most appl
 
 ## How are uploads stored?
 
-Spee.ch, the former thumbnail hosting service has been shut down. While a new service is being created and implemented, it is recommended to use a 3rd party service for thumbnail hosting.
+If you are using LBRY to upload the images, they will go through [spee.ch](https://spee.ch) which is limited to 2MB per file. We are working on implementing a new thumbnail upload process directly on the LBRY protocol.
