@@ -1,9 +1,11 @@
 ---
-title: Where can I buy or sell LBC?
+title: Where can I exchange LBC?
 category: getstarted
 ---
 
-We are listed on several exchanges. You can buy or sell LBRY Credits at any of the below. 
+We are listed on several cryptocurrency exchanges. You can buy or sell LBRY Credits at any of the below. 
+
+You can also [purchase LBC directly via the app](faq/buy-lbc).
 
 For a guide on buying/selling, see our [Bittrex purchasing/selling FAQ](/faq/buy-sell-bittrex)
 
