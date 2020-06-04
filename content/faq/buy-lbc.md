@@ -25,9 +25,10 @@ Please see these MoonPay FAQs for more information about using their services:
 ![](https://spee.ch/7/05b8bdf951d111d6.jpg)
 1. You'll be asked to provide additional information about yourself, click **Continue** to proceed.
 ![](https://spee.ch/1/d4c442e57190db74.jpg)
-1. Add a credit/debit card to use for the purchase.
-1. Review the purchase amount and fee (min of ~5 USD, or 4.5% typically). Click **Buy Now**.
-1. You may be prompted for additional information for your credit card, and finally you'll see your confirmation.
+1. Add a credit/debit card to use for the purchase and then review the purchase amount and fee (min of ~5 USD, or 4.5% typically). Click **Buy Now**.
+![](https://spee.ch/d/5da930c09b1cf715.jpg)
+1. You may be prompted for additional information for your credit card, and then you'll see your confirmation.
+![](https://spee.ch/a/885ea8e9184bf2a8.jpg)
 1. The LBC should appear in your balance shortly. Thank you for purchasing LBC!
 
 ## Trouble with cookies or want to purchase outside of the app?
