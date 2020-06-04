@@ -31,7 +31,7 @@ Email addresses | | Yes, if email provided | LBRY | Used to create and authentic
 User preferences | Email | Yes, if email provided | LBRY | Subscriptions, tags, blocked channels, and application settings
 System information | | Yes, if Share Diagnostic Data enabled | LBRY | Operating system, application/SDK versions, and unique install identifier
 Identity verification | Email | Yes, if going through manual approval | LBRY | Phone number, credit card fingerprint (Stripe), and 3rd party services identifiers (i.e. YouTube, GitHub)
-Google Analytics | | Yes, if Share Diagnostic Data enabled |  LBRY | User behavior and interactions within the applications are tracked anonymously. This is not linked to a LBRY account.
+Google Analytics | | Android only |  LBRY | User behavior and interactions within the applications are tracked anonymously. This is not linked to a LBRY account.
 Content access analytics | Email | Yes, if email provided | LBRY | Content views used for Rewards and internal analytics
 IP addresses | | No, use VPN to protect | Everyone | Any access to LBRY services are logged to prevent abuse and comply with legal requirements
 Blockchain metadata | Email | Yes, if email provided | LBRY| Wallet addresses and transactions related to Rewards are logged to prevent abuse and comply with tax requirements (above $600 yearly threshold)
@@ -43,7 +43,7 @@ Email addresses | yes | yes | yes | no |
 User preferences | yes | yes | yes | no |
 System information | yes | no | yes | yes |
 Identity verification | yes | yes | yes | no |
-Google Analytics | opt-in | yes | yes | no |
+Google Analytics | opt-in | no | yes | no |
 Content access analytics | yes | yes | yes | yes |
 IP addresses | yes | yes | yes | opt-out |
 Blockchain metadata | yes | yes | yes | no |
@@ -62,7 +62,7 @@ For a maximally private experience, you should also use a Virtual Private Networ
 Note that if using LBRY anonymously or privately you are not eligible for [lbry.tv rewards](https://lbry.com/faq/rewards).
 
 ## Where is the account and analytics data stored?
-LBRY stores collected data on its own secured databases and ensures only authorized employees have access to this data. Google Analytics data is anonymized and protected by Google.
+LBRY stores collected data on its own secured databases and ensures only authorized employees have access to this data. Google Analytics data is anonymized and protected by Google. We are soon moving away from GA completely - only the Android app has it enabled.
 
 ## What information is shared with others in the network? {#p2p}
 Similarly to other peer to peer protocols like BitTorrent, users in the network share messages (i.e. announcing content availability) and create direct connections to exchange data (i.e. downloads/uploads). While LBRY does not collect this information, other participants of the network can observe and collect the information.
