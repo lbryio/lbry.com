@@ -49,7 +49,7 @@ Rewards that you have earned will be marked in your [wallet](/faq/transaction-ty
 | **First Publish**        | 3 LBC       | One-time reward for publishing your first content on LBRY. If you are new to publishing, [learn how to publish](/faq/how-to-publish).                         |
 | **Channel Surfing**      | 1 LBC       | One-time reward for creating a channel on LBRY.                                                                                                               |
 | **Coveted Creator**      | 1 - 4K LBC  | Multi-level reward for gaining followers on your channel. [Learn more about **Coveted Creator** rewards below.](#followers)                                         |
-| **Content View Tips**    | 1 - 4 LBC   | Variable reward based on content views from other validated lbry.tv users. [Learn more about **Content View Tips**.](/faq/view-rewards)                       |
+| **Content View Tips**    | up to 2 LBC   | Variable reward based on content views from other validated lbry.tv users. [Learn more about **Content View Tips**.](/faq/view-rewards)                       |
 | **Android in Beta**      | 4 LBC       | Limited-time reward for early Android Beta testers.                                                                                                           |
 | **Upgrade**              | 4 LBC       | Repeatable reward each time the LBRY Desktop app updates versions (i.e. 0.27 to 0.28).                                                                        |
 | **YouTube**              | ?? LBC      | Rewarded as part of the [YouTube Sync program](/youtube).                                                                                                     |
