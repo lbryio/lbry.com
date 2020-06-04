@@ -10,7 +10,7 @@ If you publish quality original content, you may be eligible to receive addition
 
 ## How creator view rewards work
 
-LBRY tracks views from lbry.tv users and other clients. When a user views your content that is reward-verified, we will automatically send an LBC tip for each of their daily first ten views.
+LBRY tracks views from lbry.tv users and other clients. When a user views your content that is reward-verified, we will automatically send an LBC tip for each of their daily first seven views. The view reward amount will vary and may change per LBRY Inc's discretion similar to other rewards.
 
 Creators will see these on their wallet page as Tips (filter on Received + Tips) and they will be summed up monthly on the Rewards page under `Content View Tips: Month Year`. You may [unlock the tips](https://lbry.com/faq/tipping) to have the show in your balance, but while locked, they help your content be discovered.
 
@@ -40,7 +40,7 @@ Typical disqualifications include:
 
 ## I'm eligible but not receiving tips, what can I do?
 
-We will monitor for new channels to opt in automatically. If you've met the above requirements and are not getting tips for viewed content, [please reach out to via email](mailto:hello@lbry.com) and tell us more about your channel and content. This will later be made clearer in the app and automated via an opt in process.
+We will monitor for new channels to opt in automatically, but most likely you will need to reach out to us if you quality. Please read the requirements carefully before contacting us. To reach out, [send us an email](mailto:hello@lbry.com) and tell us more about your channel and content. This will later be made clearer in the app and automated via an opt in process.
 
 ## I'm in need of some assistance, can you help?
 
