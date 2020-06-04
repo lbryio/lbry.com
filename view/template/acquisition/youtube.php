@@ -172,7 +172,7 @@
       <h4>
          Views on LBRY
       </h4>
-      <p>Receive up to 2 LBC (<span class="lbc-to-usd" data-lbc-amount="2"></span>) per view from verified lbry.tv accounts. 
+      <p>Receive up to 2 LBC (<span class="lbc-to-usd" data-lbc-amount="2"></span>) per view from verified lbry.tv accounts. <a href="https://lbry.com/faq/view-rewards" target="_blank">Learn more.</a> 
      <small> <em>These reward amounts may change at LBRY Inc.'s discretion.</em></small>
       </p>
 
