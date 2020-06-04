@@ -6,7 +6,6 @@
         download
         href="<?php echo $downloadUrl ?>"
         id="get-download-btn"
-        data-facebook-track="1"
         data-analytics-category="Sign Up"
         data-analytics-action="Download"
         data-analytics-label="<?php echo $analyticsLabel ?>"

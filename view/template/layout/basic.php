@@ -98,8 +98,6 @@
       <div id="fb-root"></div>
 
       <div id="js">
-        <script id="facebook-jssdk" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=1477813539180850"></script>
-        <script id="twitter-oct" src="https://platform.twitter.com/oct.js"></script>
         <script id="twitter-wjs" src="https://platform.twitter.com/widgets.js"></script>
 
         <?php foreach (Response::getJsAssets() as $src): ?>
