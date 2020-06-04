@@ -24,7 +24,9 @@ There are three main steps to this program:
 
 To enroll, visit [lbry.com/youtube](/youtube).
 
-The enrollment page will validate that you own your channel and that you agree to the terms of the LBRY YouTube program. After enrolling, we collect information about your channel (title, description, etc.) and put your content into a queue to be automatically published to the LBRY network. This means you don't have to do anything to have your entire channel backed up and permanently available via LBRY.
+The enrollment page will validate that you own your channel and that you agree to the terms of the LBRY YouTube program.You will also need to confirm your email. Please make sure to use your LBRY email account if you already have one. If you have multiple YouTube channels, they should all be linked to the same LBRY account (some exceptions allowed). 
+
+After enrolling, we collect information about your channel (title, description, etc.) and put your content into a queue to be automatically published to the LBRY network. This means you don't have to do anything to have your entire channel backed up and permanently available via LBRY.
 
 When the process is complete, you will receive a notice from LBRY indicating your channel is available to view.
 
@@ -32,9 +34,11 @@ When the process is complete, you will receive a notice from LBRY indicating you
 
 Note that as soon as you enroll, you are eligible to receive LBRY Credits based on the terms of our program. The current rewards for participating can be seen on the [program page](/youtube). The exact agreement you make when you enroll can be seen [here](/faq/youtube-terms).
 
-### Claiming rewards {#reward}
+### Rewards {#reward}
 
-As soon as you've enrolled, you can claim your rewards. Rewards can be claimed on a monthly basis. You will receive an email when it is available and you never lose any LBC for not claiming promptly.
+As soon as you've enrolled, you can claim your rewards. Rewards can be claimed on a monthly basis if you have over 1K subs and 10K YouTube views, and as long as you publish content regularly. You will receive an email when your monthly reward is available.
+
+Monthly reward amounts, similar to our [policy with other rewards](/faq/rewards), can change based on LBRY Inc's discretion. If rewards are not claimed for over 3 months, any subsequent months will be forfeited. 
 
 1. Visit [lbry.tv](https://lbry.tv) or download the LBRY Desktop app from [lbry.com](https://lbry.com/get).
 2. Sign in with the email that matches the address on your [YouTube status page](/youtube/status). You can change your email on this page if you want to sign in with a different email.
