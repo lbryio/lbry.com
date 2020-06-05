@@ -36,7 +36,7 @@
   <section class="home__hype">
     <div class="inner-wrap">
       <p>See previews of the LBRY app and the great content available now on LBRY.</p>
-      <?php echo View::render('download/_videoIntro') ?>
+      <iframe width="560" height="315" src="https://lbry.tv/$/embed/meetlbrytv/c6c0a5caa6cc391696e1270e33cd9d24ee7c2d52" allowfullscreen></iframe>
     </div>
   </section>
 
