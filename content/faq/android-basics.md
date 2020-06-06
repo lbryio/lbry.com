@@ -41,16 +41,16 @@ If you do not opt for the [sync program](/faq/account_sync), it is critical that
 
 To find your wallet in the LBRY Android app, click on the 3 horizontal bars at the upper left side of the app next to the Search bar. Clicking on it will open a sidebar and then click on Wallet. This will open the Wallet page which shows your wallet address, balance, and recent transactions.
 
-![Find wallet](https://spee.ch/f/wallet-option.jpg)
+![Find wallet](https://thumbs.spee.ch/view/d/290c0ad650d757bb.jpg)
 
 ## Where do I find my LBC wallet address?
 
-![balance](https://spee.ch/e7f125b643e30f8bac2d8c4657bc14874a60e25e/WALLETADD1.jpg)
+![balance](https://thumbs.spee.ch/view/c/c8f75c95b1dbd35c.jpg)
 
 ## Where do I find my recent transactions
 Scroll down in the Wallet menu to find recent transactions, or click `View All` to see anything older than 7 days.
 
-![Recent tx](https://spee.ch/daa89fcca6411ad2505cdc6e092fcaf4f22f4802/recent1.jpg)
+![Recent tx](https://thumbs.spee.ch/view/1/fa62fd26d18fba12.jpg)
 
 The LBRY wallet is different from other wallets - it also stores your shared content's metadata in the form of [claims](/faq/naming) when using the publishing features.
 
@@ -60,27 +60,27 @@ The LBRY wallet is different from other wallets - it also stores your shared con
 
 2. Select the option for `New publish`
 
-![Click the Publish Button](https://spee.ch/d/publish-button.png)
+![Click the Publish Button](https://thumbs.spee.ch/view/d/9380dfd641fcb4b2.jpg)
 
 3. Choose the option for publishing your content either by recording a live video, taking a picture, or picking a file from your gallery.
 
-![Choose an option](https://spee.ch/4/chooses.png)
+![Choose an option](https://thumbs.spee.ch/view/1/6f75ed8649b5ef1c.jpg)
 
 4. Enter a `Title` and `Description` for your content.
 
 5. Next, you can add tags to your content which will help categorize it for [discovery purposes](https://lbry.com/faq/trending). If it's intended for mature audiences, please add the pink `mature` tag. Next, determine any other tags that relate to the content you are publishing. Please be mindful of accuracy when tagging content as this is currently up to the publisher only and cannot be edited. If incorrect/inappropriate tags are used, your content may be filtered to provide a better user experience. In the future, this will be done through community voting and building a web of trust.
 
-![publish process](https://spee.ch/1/pub4.png)
+![publish process](https://thumbs.spee.ch/view/a/5085234b9874d903.jpg)
 
 6. You have the option to select/create the channel you would like to publish the content under. If no channel is selected, it will be posted anonymously.
 
-![Select Channel or Anonymous](https://spee.ch/c/chan-anonym.png)
+![Select Channel or Anonymous](https://thumbs.spee.ch/view/b/b8c644252ec6c7b3.jpg)
 
 7. Under the `Price`, first, determine if you want to make your content free or set a price in LBC per view.
 
 8. Type in the URL you want the content to be found under, along with a minimum of 0.00000001 LBC deposit for the upload (default amount is higher due to publishing fees). If you are trying to outbid a user-friendly/common URL, the system will suggest a minimum bid to take over the content at that vanity URL. There may be a delay for this takeover. Making your bid higher will result in [better discovery](/faq/trending) for your content. For more details regarding the URL or bid, check out our [naming document](/faq/naming).
 
-![Video URL and Deposit](https://spee.ch/8/video-url.png)
+![Video URL and Deposit](https://thumbs.spee.ch/view/6/ae467011c0904d4f.jpg)
 
 9. Next, there is `Show extra fields` which gives you an option to select language and license. The default language is set to `English`, and the License is set to `None`.  If a change is needed, click the dropdown menus and select the appropriate choice.
 
@@ -104,7 +104,7 @@ When playing anything on the LBRY android app, it will stop playing when you min
 1. Swipe your phone screen to the right to reveal the menu, select Settings.
 2. Tap the `Enable background media playback` toggle on the right-hand side, this will change the status of that option from grey to green.
 
-![settings](https://spee.ch/6169bbad4908bee2378f09a7ea048b981a79ebe5/enable.jpg)
+![settings](https://thumbs.spee.ch/view/5/dec91d6d33fb780a.jpg)
 
 Now you will be able to keep your media playing in the background without leaving the app open.
 *To disable this feature, please tap the option to enable background media player to change the status from green to grey.*
