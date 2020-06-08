@@ -88,7 +88,6 @@ You are responsible for keeping your wallet safe | no |  maybe\* |
 
 Exceptions can be discussed. Contact us at hello@lbry.com
 
-
 ## What happens if I created a channel and/or published to LBRY before transfer? {#cleanup}
 
 If you created a channel (possibly with the same name as your YouTube channel), it is recommended you delete your locally created channel, which can be done before or after the channel transfer process. If you published any content locally, you can edit the content and use your newly transferred channel to include it, or you can simply delete the locally published content as well. Unless you plan to experiment with a different channel name in the meantime, please be patient until the channel is transferred to you.
@@ -99,7 +98,7 @@ You can do the same for any content you published locally. The other option is t
 
 ## Why can't I sync my channel?
 
-Not all channels may qualify for the program, but users can always [upload the content themselves](https://lbry.com/faq/how-to-publish) instead. Eligibility is based on a careful determined criteria to keep spam and abuse out, but everyone else is intended to be eligible. If you were rejected and think this was an error, please [contact us](mailto:hello@lbry.com).
+Not all channels may qualify for the program, but users can always [upload the content themselves](https://lbry.com/faq/how-to-publish) instead. This may also include channels that promote mainly airdrops / money making content, or any content that does not look original/potentially infringes on copyright. Eligibility is based on a careful determined criteria to keep spam and abuse out, but everyone else is intended to be eligible. If you were rejected and think this was an error, please [contact us](mailto:hello@lbry.com).
 
 ## Will my content continue to sync?
 
