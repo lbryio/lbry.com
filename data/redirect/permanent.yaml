@@ -7,6 +7,15 @@
 /faq/Q1-17-CreditReport:          /credit-reports/2017-Q1
 
 # External
+/chat:                          https://chat.lbry.com
+/discord:                       https://chat.lbry.com
+/twitter:                       https://twitter.com/LBRYio
+/lbryontwitter:                 https://twitter.com/LBRYio
+/subreddit:                     https://www.reddit.com/r/lbry/
+/reddit:                        https://www.reddit.com/r/lbry/
+/facebook:                      https://www.facebook.com/LBRYcom/
+/lbryonfacebook:                https://www.facebook.com/LBRYcom/
+/telegram:                      https://t.me/lbryofficial
 /slack:                         https://chat.lbry.com
 /speech-admin:                  https://github.com/lbryio/spee.ch
 /bounty:                        https://lbry.tech/contribute
@@ -30,6 +39,7 @@
 /faq/when-referral-payouts:                           /faq/referrals
 /faq/how-to-report-bugs:                              /faq/support
 /what-is-lbry:                                        /faq/what-is-lbry
+/about:                                               /faq/what-is-lbry
 /youtube/sync:                                        /faq/youtube
 /faq/referrals:                                       /faq/invites
 /faq/account-sync:                                    /faq/accounts-and-sync
@@ -129,3 +139,5 @@
 # Other
 /explorer:            https://explorer.lbry.com/
 /block-explorer:      https://explorer.lbry.com/
+/shop:                https://shop.lbry.com/
+
