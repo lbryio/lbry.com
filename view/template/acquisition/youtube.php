@@ -141,7 +141,7 @@
   <section>
     <div class="rewards section inner-wrap">
       <h3>What you earn</h3>
-      <p>Depending on the number of subscribers you have on YouTube when you claim your channel, you will qualify for different grants of LBC, the token that powers the LBRY network.</p>
+      <p>Depending on the number of subscribers you have on YouTube when you claim your channel, you will qualify for different grants of LBC, the coin that powers the LBRY network.</p>
 
       <h4>
         YouTube Audience
@@ -151,7 +151,7 @@
         <thead style="font-size: 80%;">
           <tr>
             <th>Current YouTube Subscribers</th>
-            <th>LBC Tokens / Year</th>
+            <th>LBRY Credits/Year</th>
             <th>USD Value         <small class="meta">1 LBC = <span class="current-value"></span></small></th>
           </tr>
         </thead>
@@ -179,7 +179,7 @@
       <h4>
         Follows on LBRY
       </h4>
-      <p>You receive additional awards for building an audience, starting with your first follower and continuing at various tiers.</p>
+      <p>You receive additional rewards for building an audience, starting with your first follower and continuing at various tiers.</p>
     </div>
   </section>
 
