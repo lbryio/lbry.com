@@ -8,8 +8,12 @@ $(document).ready(function() {
   function onAnchorClick() {
     var anchor = $(this);
 
-    if (anchor.data('analytics-category') && anchor.data('analytics-action') && anchor.data('analytics-label') && window.ga) {
-      ga('send', 'event', anchor.data('analytics-category'), anchor.data('analytics-action'), anchor.data('analytics-label'));
+    if (anchor.data()['analyticsCategory'] && anchor.data()['analyticsAction'] && anchor.data()['analyticsLabel'] && window.ga) {
+      ga('send', 'event', anchor.data()['analyticsCategory'], anchor.data()['analyticsAction'], anchor.data()['analyticsLabel']);
+    }
+
+    if (anchor.data()['analyticsCategory'] && anchor.data()['analyticsAction'] && anchor.data()['analyticsLabel'] && window._paq) {
+      _paq.push(['trackEvent', anchor.data()['analyticsCategory'], anchor.data()['analyticsAction'], anchor.data()['analyticsLabel']]);
     }
   }
 });
