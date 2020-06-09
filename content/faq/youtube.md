@@ -6,9 +6,9 @@ order: 4
 
 **Please note:** Our queue is currently backed up due to an influx of content creators syncing their channels. It may take a few days to process your channel, thank you for your patience and syncing to LBRY!
 
-LBRY offers an easy way for YouTubers to republish their content to the LBRY network, engage with LBRY users, and earn LBC. This program is available to new and existing LBRY users - installing or using our platform is not a prerequisite to syncing your channel. LBRY provides a one-click sync process that gathers your channel and video metadata (i.e. covers, thumbnails, etc.), creates a channel for you on LBRY, and publishes your videos to it. Creators are eligible for [monthly LBC rewards](#reward) if they have over 1K subscribers. 
+LBRY offers an easy way for YouTubers to republish their content to the LBRY network, engage with LBRY users, and earn LBC. This program is available to new and existing LBRY users - installing or using our platform is not a prerequisite to syncing your channel. LBRY provides a one-click sync process that gathers your channel and video metadata (i.e. covers, thumbnails, etc.), creates a channel for you on LBRY, and publishes your videos to it. Creators are eligible for [monthly LBC rewards](#reward) if they have over 1k subscribers. 
 
-To sync your existing YouTube channel to LBRY and learn more about the program, use [lbry.com/youtube](/youtube).
+To sync your existing YouTube channel to LBRY and learn more about the program, go to [lbry.com/youtube](/youtube).
 
 **Please note:** The sync process will create a new channel for your channel which is later [transferred](#transfer) to you. If you created a channel in the app beforehand, [please see instructions on how to clean it up](#cleanup).
 
@@ -36,7 +36,7 @@ Note that as soon as you enroll, you are eligible to receive LBRY Credits based 
 
 ### Rewards {#reward}
 
-As soon as you've enrolled, you can claim your rewards. Rewards can be claimed on a monthly basis if you have over 1K subs and 10K YouTube views, and as long as you publish content regularly. You will receive an email when your monthly reward is available.
+As soon as you've enrolled, you can claim your rewards. Rewards can be claimed on a monthly basis if you have over 1k subs and 10k YouTube views, and as long as you publish content regularly. You will receive an email when your monthly reward is available.
 
 Monthly reward amounts, similar to our [policy with other rewards](/faq/rewards), can change based on LBRY Inc's discretion. If rewards are not claimed for over 3 months, any subsequent months will be forfeited. 
 
