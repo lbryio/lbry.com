@@ -69,7 +69,7 @@
           <input
             id="lbry_channel_name"
             name="desired_lbry_channel_name"
-            placeholder="Enter desired LBRY channel name"
+            placeholder="Enter desired LBRY channel name (permanent)"
             type="text"
           />
           <input
