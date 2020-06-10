@@ -149,7 +149,7 @@
 
           <fieldset-group>
             <fieldset-section>
-              <label for="channel-name">Desired LBRY Channel Name (i.e. @MyChannel)</label>
+              <label for="channel-name">Desired LBRY Channel Name (i.e. @MyChannel). Cannot be changed!</label>
               <input
                 type="text" id="channel-name" name="new_preferred_channel"
                 placeholder="@YourPreferredChannelName"
