@@ -13,13 +13,13 @@ Wallet servers are used to relay data to and from the LBRY blockchain. They also
 
 ## Why would I want to run my own wallet server?
 
-If you...
+If you want...
 
-1.  Help decentralized LBRY's ecosystem.
-1.  Want better performance from a local server
-1.  Want to change how trending and other discovery options.
-1.  Change what content is filtered and blocked (please consult the laws in your local jurisdiction).
-1.  Want to keep your transaction broadcasting private
+1.  to help decentralize LBRY's ecosystem.
+1.  better performance from a local server
+1.  to change trending and other discovery options.
+1.  to change what content is filtered and blocked (please consult the laws in your local jurisdiction).
+1.  to keep your transaction broadcasting private
 
 ## How do I run a wallet server?
 
@@ -27,7 +27,7 @@ This process is mainly meant for power users and will most likely require a dedi
 
 ## Manual connection via config file
 
-This requires the creation of a daemon_settings.yml file in the [default data directory](/faq/lbry-directories). Open in text editor and add (**make sure there's a space after the -**):
+This requires the creation of a daemon_settings.yml file in the [default data directory](/faq/lbry-directories). Open in a text editor and add (**make sure there's a space after the -**):
 ```
 lbryum_servers: 
 - <domain or ip of server>:50001
