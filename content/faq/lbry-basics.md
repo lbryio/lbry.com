@@ -4,7 +4,7 @@ category: getstarted
 order: 1
 ---
 
-The LBRY Desktop and lbry.tv allow you to view content, upload your digital media for free or at a set price, tip your favorite creators, send/receive LBRY Credits (LBC) and earn credits through [LBRY Rewards](/faq/rewards). The apps and web version run on top of the [LBRY protocol](/faq/what-is-lbry) which is a peer to peer, decentralized file sharing and payment network secured by blockchain technology.
+The LBRY Desktop app and lbry.tv allow you to view content, upload your digital media for free or at a set price, tip your favorite creators, send/receive LBRY Credits (LBC) and earn credits through [LBRY Rewards](/faq/rewards). The apps and web version run on top of the [LBRY protocol](/faq/what-is-lbry) which is a peer to peer, decentralized file sharing and payment network secured by blockchain technology.
 
 The purpose of this FAQ is to answer questions about some of the basic functionality available on LBRY Desktop, LBRY mobile, and lbry.tv. Please see our [other FAQ entries](/faq) for additional information.
 
@@ -28,22 +28,22 @@ If you ever need to change your LBRY email address or sign out, please see [this
 If you want to run LBRY on multiple PCs or other platforms like Android, you can sign in with the same email on all devices. Your account data and preferences will be synced as long as it's enabled in Settings.
 
 ## What are LBRY Rewards? {#rewards}
-[LBRY Rewards](/faq/rewards) are used to distribute LBRY Credits (LBC) to new and existing users by allowing them to explore app functions and complete tasks which generate LBC as a reward. To be eligible for rewards, you need to [verify your identity](/faq/identity-requirements) which uniquely identifies you as an LBRY user. Not all users or regions may qualify for rewards for various reasons, thank you for respecting this. LBRY can be used without the reward feature.
+[LBRY Rewards](/faq/rewards) are used to distribute LBRY Credits (LBC) to new and existing users by allowing them to explore app functions and complete tasks which generate LBC as a reward. To be eligible for rewards, you need to [verify your identity](/faq/identity-requirements) which uniquely identifies you as an LBRY user. Not all users or regions may qualify for rewards for various reasons, thank you for respecting this. LBRY can be used without the rewards feature.
 
 ## What is a wallet and how do I find it? {#wallet}
 A wallet is a secure, digital wallet used to store, send, and receive cryptocurrencies like LBRY Credits (LBC). LBRY comes with its own wallet and is stored locally on your device and nowhere else unless you enable the Sync feature. **If you do not enable syncing, it is critical that you [backup your wallet data](/faq/how-to-backup-wallet) in case you lose access to your PC or need to [migrate](/faq/backup-data) to a new one.**
 
 To find your wallet in LBRY:
-- in the **Desktop app** or **lbry.tv** click on your LBC Balance showing at the top right and it should display the wallet overview page which shows your balance, send/receive and recent transactions (balance may show as **`0 LBC`** if you don't have credits or as **`Wallet`** text if in the ***Settings** is enabled the option "***Hide wallet balance in header***").
+- in the **Desktop app** or on **lbry.tv** click on your LBC Balance showing at the top right and it should display the wallet overview page which shows your balance, send/receive and recent transactions (balance may show as **`0 LBC`** if you don't have any credits or as **`Wallet`** if the **"Hide wallet balance in header"** option is selected on the Settings page).
 
-- in the **mobile app**, you need to open the main menu and then choose the `Wallet` option, where you can see the address of your wallet, recent transactions, you can send credits and synchronize your wallet.
+- in the **mobile app**, you need to open the main menu and then choose the `Wallet` option, where you can see the address of your wallet, see recent transactions, send credits and synchronize your wallet.
 
 The LBRY wallet is different from other cryptocurrencies because it also stores your shared content's metadata in the form of [claims](/faq/naming) when using the [publishing features](/faq/how-to-publish). Claim related [wallet transactions](/faq/transaction-types) ensure that the blockchain uniquely identifies your content and the payment/tips can be routed appropriately.
 
 ## Where do I find my LBC wallet address?
 To find your wallet address in LBRY:
 
-- in the **Desktop app** or **lbry.tv** click on your LBC Balance showing at the top right (Balance may show as `0 LBC` if you have no credits) and it should display the wallet overview page which shows your balance, send/receive, and recent transactions. To see your wallet address, click on the `Your address` button.
+- in the **Desktop app** or on **lbry.tv**, click on your LBC Balance showing at the top right (Balance may show as `0 LBC` if you have no credits) and it should display the wallet overview page which shows your balance, send/receive, and recent transactions. To see your wallet address, click on the `Receive` button.
 
 - in the **mobile app**, you need to access the main menu of the app and then choose the `Wallet` option where you can see the address of your wallet.
 
@@ -74,7 +74,7 @@ Access your Library section as mentioned before and then select the item you wan
 In the **Desktop app**, if you want to delete faster more or all the files from your download folder, open the folder with a file explorer, select the files and delete them.
 
 ## Where can I see my publishes?
-- In the **Desktop app** or **lbry.tv** click the user icon (the middle icon in the top right) and then choose the **`Publishes`** option.
+- In the **Desktop app** or on **lbry.tv** click the user icon (the middle icon in the top right) and then choose the **`Publishes`** option.
 
 ![Publish](https://spee.ch/@lbryfaqsc:7/LBRY-user-menu.jpeg)
 
@@ -84,7 +84,7 @@ In the **Desktop app**, if you want to delete faster more or all the files from 
 The easiest way to confirm that you are sharing correctly is to determine if the port used for seeding (3333) is open to the rest of the LBRY network. To do so, type 3333 into [this port checking tool](http://www.canyouseeme.org) and check the result. It if shows "Success", you are all set. If it shows "Error", you may need to check your router settings for UPnP options (set to enable) or forward TCP port 3333 and UDP Port 4444 to your local computer running the LBRY Desktop. Firewall and NAT settings may also affect the availability of these ports. Also, when you access the checking tool page, check if in the browser there is no active plug-in or extension that act as a VPN. In this case the result could be false and indeed your Desktop app could have access to these ports, but the browser not.
 
 ## How can I search for content on LBRY?
-Searching in LBRY is as easy as typing your search term(s) into the address bar at the top and then pressing Enter.
+Searching on LBRY is as easy as typing your search term(s) into the address bar at the top and then pressing enter.
 When you press enter, you will be given both the direct URL and search results.
 
 ![Search](https://spee.ch/@lbryfaqsc:7/LBRY-searchbox.jpg)
@@ -94,11 +94,11 @@ You can subscribe to a channel by clicking the Follow button from the homepage, 
 
 ![Follow](https://spee.ch/@lbryfaqsc:7/LBRY-follow-favorite-channel.jpg)
 
-- To manage channels that you follow, just click on the **Following** option from the right sidebar of the app window and view all of your followed channels on one page. Then click on the **Manage** option from the upper-right corner of the displayed channels list. Then you can choose to unfollow any channel you want.
+- To manage the channels that you follow, just click on the **Following** option from the right sidebar of the app window and view all of your followed channels on one page. Then click on the **Manage** option from the upper-right corner of the displayed channels list. Then you can choose to unfollow any channel you want.
 
 ![Manage Channels](https://spee.ch/@lbryfaqsc:7/LBRY-manage-channels.jpg)
 
-- To manage tags that you follow, just click on **Your tags** option from the right sidebar of the app window and view the results for your selected tags. To modify the current followed tags, click on the **Manage** option from the upper-right corner of the displayed channels list. Then you can modify the tags you want to follow.
+- To manage the tags that you follow, just click on **Your tags** option from the right sidebar of the app window and view the results for your selected tags. To modify the current followed tags, click on the **Manage** option from the upper-right corner of the displayed channels list. Then you can modify the tags you want to follow.
 
 ![Manage tags](https://spee.ch/@lbryfaqsc:7/LBRY-manage-tags.jpg)
 
