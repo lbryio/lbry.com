@@ -3,24 +3,28 @@ title: How do tipping and supporting work on LBRY?
 category: getstarted
 ---
 
-LBRY allows you to tip and support your favorite creators.
+LBRY allows you to tip and support your favorite creators using your LBC. You can find this feature by clicking the Support button on content or channel pages. You can also choose to link a channel to a support by selecting it from the channel dropdown. In a future update, this information will later be shown on content and wallet pages so you can tell who is supporting who. 
 
-A _tip_ sends credits to a publisher permanently, while also boosting the trust and performance of the content (while active). Recipient can keep active or unlock (move to wallet balance).
+![](https://thumbs.spee.ch/view/1/e8fa1df401147c2e.jpg)
 
-A _support_ boosts trust and performance, but _does not_ give anything to the publisher permanently. Can be revoked anytime via the wallet page.
+A _tip_ sends credits to a publisher permanently, while also boosting the trust and performance of the content (while active). Recipient can keep it staked or unlock (move to wallet balance).
 
-In both cases, the amount of credits is stored as associated with (staked against) either the piece of content or the publisher themselves. Either way, the amount staked:
+A _support_ boosts trust and performance, but _does not_ give anything to the publisher permanently - therefore we call it a revokable support. The supporter can keep these staked as long as they like or [revoke them anytime via the wallet page](#revoke).
+
+In both cases, the amount of credits is stored as associated with (staked against) either the piece of content or the publisher channel. Either way, the amount staked:
 
 - Help content perform better in search results.
 - Helps content appear higher in the list of [top and trending](https://lbry.com/faq/trending) publishes.
 - Determines which content is shown at the [community-controlled name](/faq/naming)
 
-## How do I send a tip?
+## How do I send a tip or support?
 
-Sending tips via LBRY is easy. Simply go to the page of the content you want to support and click "Tip".
+Sending support via LBRY is easy. Simply go to the page of the content or creator and click "Support".
 
-Next, you'll be prompted for the tip amount in LBRY Credits (LBC). Once you enter a value, click "Send". Mahalo!
-![sendtip](https://spee.ch/f/tipsend.png)
+Next, you'll be prompted for the support amount in LBRY Credits (LBC) - you can choose from a preset list of amounts, or enter a custom value. The default option is a tip which goes to the creator when the "Make this support permanent" is checked. If you are on your own content, the default will be a support.
+
+Once you enter a value, click "Send". A tip will require a double confirmation, a revokable support will not.
+![sendtip](https://thumbs.spee.ch/view/2/d056085d3fcea9f4.jpg)
 
 **Note: This amount will show up in your transaction list and will be deducted from your balance.**
 
@@ -52,6 +56,10 @@ Unlock tip: ![Unlock tip](https://spee.ch/9/tipunlock.png)
 
 Confirmation box: ![Confirmation box](https://spee.ch/2/tipconfirmation.png)
 
+## Revoking a support {#revoke}
+
+Similar to unlocking tips, you can revoke supports you've created via the wallet page. Filter on Supports + Active to see the currently staked ones. Click the trash can icon to revoke. 
+
 ## What are the downsides of unlocking tips? Are there any good rules to follow? {#guidelines}
 
 While you should never hesitate to unlock LBC you need or want to spend, unlocking LBC does reduce the boost it gives to your content in terms of search results, trending, and discovery mechanisms.
@@ -64,9 +72,3 @@ If you're feeling uncertain, some easy advice to follow is:
 - Never go below 10 LBC on a piece of content you want to continue to get views
 
 But these rules are just suggestions and may change as LBRY evolves.
-
-## How do I send a support? {#supports}
-
-Publishers will see the Support button on their own content. To support other content, enable this option on the Settings page (Experimental Options) of the LBRY Desktop app. Then navigate to a page you want to help and click the support button.
-
-![supports](https://spee.ch/c/supports.jpeg)
