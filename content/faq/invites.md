@@ -43,7 +43,7 @@ Accepted means the user has signed into LBRY. Claimable means they have verified
 
 ## What are the criteria for a claimable invite?
 
-A claimable invite has the same definition as a Rewards eligible or Verified LBRY user. This means the referred user must have logged into LBRY and validated their account for rewards.
+A claimable invite has the same definition as a Rewards eligible or Verified LBRY user. This means the referred user must have logged into LBRY and validated their account for rewards. Unclaimable means they have not been validated for rewards or are not eligible.
 
 LBRY users who abuse either the Invite or Rewards system will not be eligible for invite redemption. If you have specific questions about individual invites which are not claimable, please reach out to the [helpdesk](mailto:help@lbry.com) with details.
 
