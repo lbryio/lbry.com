@@ -12,8 +12,7 @@
 
   <section>
     <div class="inner-wrap">
-      <p>For a current press-kit, please contact:</p>
-      <?php echo View::render('content/_bio', ['person' => 'brinck-slattery']) ?>
+      <p>For a current press-kit, please <a href="https://open.lbry.com/@lbry:3f/LBRY_presskit:d" class="link-primary">see our post on LBRY.</a></p>
     </div>
   </section>
 </main>
