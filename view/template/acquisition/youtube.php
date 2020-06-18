@@ -141,7 +141,7 @@
   <section>
     <div class="rewards section inner-wrap">
       <h3>What you earn</h3>
-      <p>Depending on the number of subscribers you have on YouTube when you claim your channel, you will qualify for different grants of LBC, the coin that powers the LBRY network.</p>
+      <p>Depending on the number of subscribers you have on YouTube, you will qualify for different grants of LBC, the coin that powers the LBRY network.</p>
 
       <h4>
         YouTube Audience
@@ -167,7 +167,7 @@
         </tbody>
       </table>
         <p class="align-text--center">
-     <small> <em>Table shows yearly awards but rewards are distributed monthly. Monthly reward will be one-twelfth the above amount.</em></small>
+     <small> <em>Table shows yearly awards but rewards are distributed monthly. Monthly reward will be one-twelfth the above amount. These reward amounts may change at LBRY Inc.'s discretion.</em></small>
         </p>
       <h4>
          Views on LBRY
