@@ -90,7 +90,7 @@ First, you need to access your channel from your Publishes page by clicking on i
 
 3. Click on the `Delete` icon. 
 
-4. There will be two options. `Delete this file from my computer` and `Abandon the claim for this URI`. Select the option that applies. Abandoning your claim will release the LBC back into your wallet (99% of the time you want to select this).
+4. There will be two options. `Delete this file from my computer` and `Abandon on blockchain (reclaim your LBC)`. Select the option that applies. Abandoning your claim will release the LBC back into your wallet (99% of the time you want to select this).
    ![abandon-delete box](https://spee.ch/@clem:0/check-delet.png)
 
 **Warning: Deleting content is permanent. Please make sure this is what you want to do before confirming the deletion.**
