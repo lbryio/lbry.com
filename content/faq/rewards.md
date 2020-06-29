@@ -24,7 +24,7 @@ To be eligible for rewards, you must **sign up for an account** at [lbry.tv](htt
 - you use a VPN or shared network to access LBRY.
 - you try to artificially inflate follow counts or view counts (with "follow for follow" or "view for view" activity or purchased traffic) on LBRY or in other groups.
 - you spam comments on LBRY.
-- you immediately withdraw credits from the platform and do not use LBRY for its intended usecase.
+- you immediately withdraw credits from the platform and do not use LBRY for its intended usecase (i.e. brokering LBC with other members, selling accounts)
 
 ## How do I claim a reward?
 
