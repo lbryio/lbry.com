@@ -85,7 +85,7 @@
                   echo __("Pending Agreement");
                   break;
                 case "pendingemail":
-                  echo __("Pending Email Confirmation");
+                  echo __("Pending Email Confirmation. Please refresh after confirming.");
                   break;
                 case "queued":
                   echo __("Queued");
