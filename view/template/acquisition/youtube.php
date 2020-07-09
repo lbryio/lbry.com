@@ -141,12 +141,16 @@
   <section>
     <div class="rewards section inner-wrap">
       <h3>What you earn</h3>
-      <p>Depending on the number of subscribers you have on YouTube, you will qualify for different grants of LBC, the coin that powers the LBRY network.</p>
-
+        <br/>
       <h4>
-        YouTube Audience
+        For Your Existing Audience
       </h4>
-
+        <p>
+            Depending on the number of subscribers you have on YouTube when you claim your channel, you will qualify for different grants of LBC, the token that powers the LBRY network.</p>
+        <p>
+            You will be shown the amount in the Rewards section of your app after you enroll.
+        </p>
+        <?php /*
       <table>
         <thead style="font-size: 80%;">
           <tr>
@@ -169,15 +173,16 @@
         <p class="align-text--center">
      <small> <em>Table shows yearly awards but rewards are distributed monthly. Monthly reward will be one-twelfth the above amount. These reward amounts may change at LBRY Inc.'s discretion.</em></small>
         </p>
+     */ ?>
       <h4>
-         Views on LBRY
+         For Views
       </h4>
       <p>Receive up to 2 LBC (<span class="lbc-to-usd" data-lbc-amount="2"></span>) per view from verified lbry.tv accounts. <a href="https://lbry.com/faq/view-rewards" target="_blank">Learn more.</a> 
      <small> <em>These reward amounts may change at LBRY Inc.'s discretion.</em></small>
       </p>
 
       <h4>
-        Follows on LBRY
+        For Building on LBRY
       </h4>
       <p>You receive additional rewards for building an audience, starting with your first follower and continuing at various tiers.</p>
     </div>
