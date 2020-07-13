@@ -12,6 +12,7 @@ The current breakdown of mining hash rates can be found on [Mining Pool Stats](h
 
 ## Pools
 - [Luxor](https://mining.luxor.tech/coins/lbry) <- Support the LBRY community with this pool!
+- [ViaBTC](https://support.viabtc.com/hc/en-us/articles/900001529806)
 - [SuprNova](https://lbry.suprnova.cc/index.php?page=gettingstarted)
 - [CoinMine](https://www2.coinmine.pl/lbc/index.php?page=gettingstarted)
 - [Blazepool](http://blazepool.com/)
