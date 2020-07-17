@@ -92,7 +92,7 @@ Exceptions can be discussed. Contact us at hello@lbry.com
 
 If you created a channel (possibly with the same name as your YouTube channel), it is recommended you delete your locally created channel, which can be done before or after the channel transfer process. If you published any content locally, you can edit the content and use your newly transferred channel to include it, or you can simply delete the locally published content as well. Unless you plan to experiment with a different channel name in the meantime, please be patient until the channel is transferred to you.
 
-To delete the original channel, you'll need to navigate to the Wallet page (click on your balance in the top right). Next, click "Full History" and find the original channel you created. **It may be under the Channels or Updates filter**. You may need to paginate in order to find it. **Make sure it is the right channel to delete by clicking on the name from the history page first.** Then use the trash can icon to remove it. This process is permanent, so becareful not to delete the synced channel.
+To delete the original channel, go to the My Channels page, click on your manually created channel, and click the edit button. Make sure you are in the right channel (check about page, # of publishes, etc), then click the **Delete Channel** button, and confirm it by typing the channel name. 
 
 You can do the same for any content you published locally. The other option is to edit the content and select your newly transferred channel. This will make the content appear under this channel.
 
