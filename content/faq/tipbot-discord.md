@@ -10,6 +10,8 @@ Tips, in LBRY Credits (LBC), are an integral part of our community because they 
 
 It is important to note that the LBC stored as a result of a tip is tied to your Discord account username and are stored on LBRY's wallet server. **This will not sync with your app/lbry.tv wallet.** It is your responsibility to withdraw the tips to your own wallet or to another third-party wallet like [Coinomi](https://play.google.com/store/apps/details?id=com.coinomi.wallet). If you plan on storing LBC on the Discord server, it is a good idea to enable Two Factor Authentication (2FA) on your account. LBRY takes no responsibility for lost funds due to negligence.
 
+To find your wallet address in our apps to withdraw to, go to the **Wallet** page and click the **Receive** button.
+
 Use the following commands to make amazing things happen!
 
 ### Help
