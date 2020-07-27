@@ -4,6 +4,11 @@ class AcquisitionActions extends Actions
 {
     protected static $isYouTubeDisabled = true;
 
+    public static function isYouTubeSyncEnabled()
+    {
+      return !static::$isYouTubeDisabled;
+    }
+
     public static function executeFollowCampaign(string $claimName)
     {
         $claim = ChainQuery::findChannelClaim($claimName);

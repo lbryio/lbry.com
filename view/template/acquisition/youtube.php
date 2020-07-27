@@ -13,6 +13,7 @@
       Response::setMetaDescription("Put your content on the blockchain, experience true content freedom, and earn rewards.");
       Response::addMetaImage(Request::getHostAndProto() . '/img/lbry-partner.png');
   }
+  $isEnabled = AcquisitionActions::isYouTubeSyncEnabled();
 ?>
 
 <main class="ancillary youtube youtube--landing">
@@ -61,34 +62,46 @@
       <p hidden id="lbry_error" class="error-block">LBRY channel name is either not valid (only letters, numbers and - allowed, no spaces) or your input is blank</p>
 
       <h2>Connect with your fans while earning rewards</h2>
-      <form id="youtube_claim" method="post" action="/youtube/token">
-        <p hidden id="sync-status" class="sync-status"></p>
+      <?php if ($isEnabled): ?>
+          <form id="youtube_claim" method="post" action="/youtube/token">
+            <p hidden id="sync-status" class="sync-status"></p>
 
-        <input-submit style="font-size: 1rem;">
-          <label class="symbol-prefix">@</label>
-          <input
-            id="lbry_channel_name"
-            name="desired_lbry_channel_name"
-            placeholder="Enter desired LBRY channel name (permanent)"
-            type="text"
-          />
-          <input
-            onClick="return submitDetailsForm()"
-            type="submit"
-            value="Claim now"
-          />
-        </input-submit>
+            <input-submit style="font-size: 1rem;">
+              <label class="symbol-prefix">@</label>
+              <input
+                id="lbry_channel_name"
+                name="desired_lbry_channel_name"
+                placeholder="Enter desired LBRY channel name (permanent)"
+                type="text"
+              />
+              <input
+                onClick="return submitDetailsForm()"
+                type="submit"
+                value="Claim now"
+              />
+            </input-submit>
 
-        <br/>
+            <br/>
 
-        <checkbox-element style="font-size: 1rem;">
-          <input hidden name="type" type="text" value="sync"/>
-          <input id="immediate-sync" name="immediate_sync" type="checkbox" value="true"/>
-          <label for="immediate-sync">I want to sync my content to the LBRY network and agree to <a href="/faq/youtube-terms" target="_blank">these terms</a>. I have also read and understand <a href="/faq/youtube" target="_blank">how the program works</a>.</label>
-          <checkbox-toggle/>
-        </checkbox-element>
-      </form>
-
+            <checkbox-element style="font-size: 1rem;">
+              <input hidden name="type" type="text" value="sync"/>
+              <input id="immediate-sync" name="immediate_sync" type="checkbox" value="true"/>
+              <label for="immediate-sync">I want to sync my content to the LBRY network and agree to <a href="/faq/youtube-terms" target="_blank">these terms</a>. I have also read and understand <a href="/faq/youtube" target="_blank">how the program works</a>.</label>
+              <checkbox-toggle/>
+            </checkbox-element>
+          </form>
+      <?php else: ?>
+          <div class="notice notice-info spacer1">
+              The YouTube Program is paused for maintenance. Enter your email address and we will notify you as soon as it returns.
+          </div>
+          <?php echo View::render('mail/_subscribeForm', [
+            'tag' => 'youtube_sync_paused',
+            'submitLabel' => 'Get Started',
+            'hideDisclaimer' => true,
+            'largeInput' => true,
+            'btnClass' => 'btn-alt btn-large',
+          ]) ?>
+      <?php endif ?>
       <small class="meta">
         This will verify you are an active YouTuber. Channel names cannot be changed once chosen, please be extra careful. Instructions about how to claim credits, and technical details about your channel, will be emailed to you after you are verified.
         <a href="/faq/youtube">Learn more</a>
