@@ -2,7 +2,7 @@
 
 class Config
 {
-    const HELP_CONTACT_EMAIL = 'josh@lbry.com';
+    const HELP_CONTACT_EMAIL = 'hello@lbry.com';
 
     //Constant to help with managing strings
     const IS_PROD = "is_prod";

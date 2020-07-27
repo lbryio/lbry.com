@@ -2,6 +2,8 @@
 
 class AcquisitionActions extends Actions
 {
+    protected static $isYouTubeDisabled = true;
+
     public static function executeFollowCampaign(string $claimName)
     {
         $claim = ChainQuery::findChannelClaim($claimName);
@@ -74,15 +76,20 @@ class AcquisitionActions extends Actions
     public static function executeYoutubeStatus(string $token)
     {
         Response::disableHttpCache();
-        $data = LBRY::statusYoutube($token);
+        $data = null;
 
-        if (!$data['success']) {
+        if (!static::$isYouTubeDisabled) {
+          $data = LBRY::statusYoutube($token);
+
+          if (!$data['success']) {
             Session::setFlash(Session::KEY_YOUTUBE_SYNC_ERROR, $data['error'] ?? "Error fetching your sync status.");
             Controller::redirect('/youtube');
+          }
         }
 
         return ['acquisition/youtube_status', [
             'token' => $token,
+            'is_disabled' => static::$isYouTubeDisabled,
             'status_token' => $data,
             'error_message' => Session::getFlash(Session::KEY_YOUTUBE_SYNC_ERROR)
         ]];

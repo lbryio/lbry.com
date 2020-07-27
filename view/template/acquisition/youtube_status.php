@@ -5,36 +5,58 @@
 <?php Response::addJsAsset('/js/yt2/youtube_video.js') ?>
 <?php Response::addJsAsset('//www.googleadservices.com/pagead/conversion_async.js') ?>
 
-<?php $statusData = $status_token['data'] ?>
-<?php $isSyncAgreed = in_array($statusData['status'], ["failed", "finalized", "pendingemail", "queued", "synced", "syncing","pendingupgrade","abandoned"]) ?>
-<?php $isRewardClaimed = $statusData['redeemed_reward'] > 0 ?>
-<?php $isTransferred = $statusData['transferred'] ?>
+<?php if (!$is_disabled): ?>
+    <?php $statusData = $status_token['data'] ?>
+    <?php $isSyncAgreed = in_array($statusData['status'], ["failed", "finalized", "pendingemail", "queued", "synced", "syncing","pendingupgrade","abandoned"]) ?>
+    <?php $isRewardClaimed = $statusData['redeemed_reward'] > 0 ?>
+    <?php $isTransferred = $statusData['transferred'] ?>
 
-<?php if (IS_PRODUCTION): ?>
-  <?php js_start() ?>
-  if (!localStorage.getItem('status_token')) {
-    ga('send', 'event', 'YT Sync', '<?php echo $isSyncAgreed ? "pending" : "queued" ?>', '');
-    fbq('track', 'Lead');
+    <?php if (IS_PRODUCTION): ?>
+      <?php js_start() ?>
+      if (!localStorage.getItem('status_token')) {
+        ga('send', 'event', 'YT Sync', '<?php echo $isSyncAgreed ? "pending" : "queued" ?>', '');
+        fbq('track', 'Lead');
 
-    window.google_conversion_id = 980489749;
-    window.google_conversion_label = "B0ZpCIuLgV0QlazE0wM";
-    window.google_remarketing_only = false;
-    window.google_conversion_format = "3";
+        window.google_conversion_id = 980489749;
+        window.google_conversion_label = "B0ZpCIuLgV0QlazE0wM";
+        window.google_remarketing_only = false;
+        window.google_conversion_format = "3";
 
-    var opt = new Object();
-    var conv_handler = window['google_trackConversion'];
+        var opt = new Object();
+        var conv_handler = window['google_trackConversion'];
 
-    opt.onload_callback = function() { };
+        opt.onload_callback = function() { };
 
-    if (typeof(conv_handler) === 'function')
-      conv_handler(opt);
-  }
-  <?php js_end() ?>
+        if (typeof(conv_handler) === 'function')
+          conv_handler(opt);
+      }
+      <?php js_end() ?>
+    <?php endif ?>
+<?php else: ?>
+    <?php $isSyncAgreed = false ?>
+    <?php $isRewardClaimed = false ?>
+    <?php $isTransferred = false ?>
+    <?php $statusData = [
+            'email' => 'error@lbry.com',
+            'subscribers' => 101,
+            'editable' => false,
+            'status' => 'failed',
+            'videos' => 1,
+            'lbry_channel_name' => '@lbry',
+            'expected_reward' => 1,
+            'has_verified_email' => true
+    ] ?>
 <?php endif ?>
 
 <main class="ancillary youtube">
   <section class="section channel">
     <div class="inner-wrap">
+      <?php if ($is_disabled): ?>
+        <div class="notice notice-error spacer1">
+            <p>The YouTube program is down for maintenance. It will return soon.</p>
+            <p>Until it is back up, you cannot edit your submission. Email <?php echo Config::HELP_CONTACT_EMAIL ?> if you need immediate assistance.</p>
+        </div>
+      <?php endif ?>
       <?php if (preg_match('/^[A-Za-z0-9._%+-]+@plusgoogle.com$/', $statusData['email'])): ?>
         <p class="error-block" id="email-google-plus-error">
           Your email address is set as <?php echo $statusData['email']; ?>.<br/>
@@ -149,7 +171,7 @@
 
           <fieldset-group>
             <fieldset-section>
-              <label for="channel-name">Desired LBRY Channel Name (i.e. @MyChannel). Cannot be changed!</label>
+              <label for="channel-name">Desired LBRY Channel Name (i.e. @MyChannel)</label>
               <input
                 type="text" id="channel-name" name="new_preferred_channel"
                 placeholder="@YourPreferredChannelName"
@@ -189,9 +211,6 @@
             </label>
             <checkbox-toggle/>
           </checkbox-element>
-          <div>
-            <p>Please note: your subscriber count must be public (not 0) and over 100 to sync with LBRY.</p>
-          </div>
           <div>
             <button type="submit" onClick="return submitEditForm()">Save Changes</button>
           </div>
