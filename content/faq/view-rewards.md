@@ -8,11 +8,11 @@ We want creators to create quality content that other LBRY users will enjoy and 
 
 If you publish quality original content, you may be eligible to receive additional rewards for views from validated lbry.tv accounts on behalf of us. These tips are separate from tips your followers may issue independently and ineligibility does not mean the content is demonetized.
 
-We are slowly moving towards a reward system that's [outlined our monetization blog post](https://lbry.tv/@lbry:3f/monetizationtwopointoh:5).
+We are slowly moving towards a reward system that's [outlined in our monetization blog post](https://lbry.tv/@lbry:3f/monetizationtwopointoh:5).
 
 ## How creator view rewards work
 
-LBRY tracks views from lbry.tv users and other clients. When a user views your content that is reward-verified, we will automatically send an LBC tip for each of their daily first seven views. The view reward amount will vary and may change per LBRY Inc's discretion similar to other rewards based on homepage placements, type and quality of content, and to ensure that not one creator is earning a much higher percentage than others.
+LBRY tracks views from lbry.tv users and other clients. When a user views your content that is reward-verified, we will automatically send an LBC tip for each of their daily first seven views. The view reward amount will vary and may change per LBRY Inc.'s discretion similar to other rewards based on homepage placements, type and quality of content, and to ensure that not one creator is earning a much higher percentage than others.
 
 Creators will see these on their wallet page as Tips (filter on Received + Tips) and they will be summed up monthly on the Rewards page under `Content View Tips: Month Year`. You may [unlock the tips](https://lbry.com/faq/tipping) to have the show in your balance, but while locked, they help your content be discovered.
 
@@ -39,7 +39,7 @@ Typical disqualifications include:
 - Majority of content is derivative works on top of other public/copyright-free/creative commons content.
 - Majority of content is related to airdrops/free money.
 
-**LBRY reserves the right to disable or lessen view rewards on any account, similar to other rewards.**
+**LBRY Inc. reserves the right to disable or lessen view rewards on any account, similar to other rewards.**
 
 ## I'm eligible but not receiving tips, what can I do?
 
