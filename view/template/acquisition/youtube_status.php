@@ -9,6 +9,7 @@
     <?php $statusData = $status_token['data'] ?>
     <?php $isSyncAgreed = in_array($statusData['status'], ["failed", "finalized", "pendingemail", "queued", "synced", "syncing","pendingupgrade","abandoned"]) ?>
     <?php $isRewardClaimed = $statusData['redeemed_reward'] > 0 ?>
+    <?php $isRewardable = $statusData['expected_reward'] > 0 ?>
     <?php $isTransferred = $statusData['transferred'] ?>
 
     <?php if (IS_PRODUCTION): ?>
@@ -65,7 +66,7 @@
         </p>
       <?php endif ?>
 
-      <h2><?php echo $isSyncAgreed && $isRewardClaimed ? "You're all set!" : "Almost done!" ?></h2>
+      <h2><?php echo $isSyncAgreed && $isTransferred ? "You're all set!" : "Almost done!" ?></h2>
 
       <div class="confirmation-steps">
         <ul class="bulletless">
@@ -79,10 +80,10 @@
             <p>Agree to sync</p>
           </li>
 
-          <li class="<?php echo $isRewardClaimed && $isSyncAgreed ? "" : "disabled" ?>">
-            <span><?php echo $isRewardClaimed ? "✓" : "·" ?></span>
-            <p>Claim wallet and rewards</p>
-            <p <?php echo ($isSyncAgreed === true && ($isRewardClaimed === false || $isTransferred === false)) ? "" : "hidden" ?>>(<a href="https://lbry.tv">Sign in to lbry.tv</a> or <a href="/get">get the app</a>)</p>
+          <li class="<?php echo $isTransferred && $isSyncAgreed ? "" : "disabled" ?>">
+            <span><?php echo $isTransferred ? "✓" : "·" ?></span>
+            <p>Claim content</p>
+            <p <?php echo ($isSyncAgreed === true && $isTransferred === false) ? "" : "hidden" ?>>(<a href="https://lbry.tv">Sign in to lbry.tv</a> or <a href="/get">get the app</a>)</p>
           </li>
         </ul>
 
@@ -95,7 +96,6 @@
             <th>Your Sync Status</th>
             <th>Subscribers</th>
             <th>Videos</th>
-            <th>Expected Monthly Rewards</th>
           </tr>
         </thead>
 
@@ -139,10 +139,6 @@
 
             <td>
               <?php echo $statusData['videos'] === 0 ? "—" : $statusData['videos'] ?>
-            </td>
-
-            <td>
-              <?php echo $statusData['expected_reward'] === 0 ? "—" : $statusData['expected_reward'] ?>
             </td>
           </tr>
         </tbody>
@@ -219,10 +215,10 @@
 
       <br/><br/>
 
-      <?php if ($isSyncAgreed && !$isRewardClaimed && in_array($statusData['status'], ['queued', 'syncing', 'synced', 'finalized'])): ?>
+      <?php if ($isSyncAgreed && !$isTransferred && in_array($statusData['status'], ['queued', 'syncing', 'synced', 'finalized', 'pendingupgrade'])): ?>
         <fieldset>
-            <legend>Claim wallet and rewards</legend>
-            <p>Just one step left! Take permanent ownership of your channel and receive your rewards by signing in. To take ownership, the content must be synced first.</p>
+            <legend>Claim channel and content</legend>
+            <p>Just one step left! Take permanent ownership of your content after it's been synced to LBRY. You'll do this by claiming it on the Channels page of lbry.tv/Desktop</p>
             <ul>
               <li><a href="https://lbry.tv">On the web</a></li>
               <li><a href="https://lbry.com/get">Desktop and mobile apps</a></li>
