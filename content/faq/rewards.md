@@ -53,7 +53,7 @@ Rewards that you have earned will be marked in your [wallet](/faq/transaction-ty
 | **Repost - Favorite Five**              | 50 LBC      | Repost content from  different creators on the channel that qualifies. 
 | **Android in Beta**      | 3 LBC       | Limited-time reward for early Android Beta testers.                                                                                                           |
 | **Upgrade**              | 4 LBC       | Repeatable reward each time the LBRY Desktop app updates versions (i.e. 0.27 to 0.28).                                                                        |
-| **YouTube**              | ?? LBC      | Rewarded as part of the [YouTube Sync program](/youtube).                                                                                                     |
+| **YouTube (legacy)**              | ?? LBC      | Legacy reward as part of the [YouTube Sync program](/youtube).                                                                                                     |
 | **Reward Code**          | ?? LBC      | [Custom reward codes](#reward-code) given out to users - be on the look out on social media/Discord/Reddit!                                                   |
 | **Invitee**             | 5 LBC      | Reward for being invited by someone on LBRY [Learn more about **Referrals**.](/faq/referrals). |
 | **Inviter**             | 15 LBC      | LBRY users can refer their friends via an email invitation and get rewarded when those users are verified. [Learn more about **Referrals**.](/faq/referrals). |
