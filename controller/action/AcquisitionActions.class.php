@@ -2,7 +2,7 @@
 
 class AcquisitionActions extends Actions
 {
-    protected static $isYouTubeDisabled = true;
+    protected static $isYouTubeDisabled = false;
 
     public static function isYouTubeSyncEnabled()
     {
