@@ -104,7 +104,7 @@
           ]) ?>
       <?php endif ?>
       <small class="meta">
-        This will verify you are an active YouTuber. Channel names cannot be changed once chosen, please be extra careful. Instructions about how to claim credits, and technical details about your channel, will be emailed to you after you are verified.
+        This will verify you are an active YouTuber. Channel names cannot be changed once chosen, please be extra careful. Additional instructions will be emailed to you after you verify your email on the next page.
         <a href="/faq/youtube">Learn more</a>
       </small>
     </div>
@@ -156,14 +156,6 @@
     <div class="rewards section inner-wrap">
       <h3>What you earn</h3>
         <br/>
-      <h4>
-        For Your Existing Audience
-      </h4>
-        <p>
-            Depending on the number of subscribers you have on YouTube when you claim your channel, you will qualify for different grants of LBC, the token that powers the LBRY network.</p>
-        <p>
-            You will be shown the amount in the Rewards section of your app after you enroll.
-        </p>
         <?php /*
       <table>
         <thead style="font-size: 80%;">
@@ -191,7 +183,7 @@
       <h4>
          For Views
       </h4>
-      <p>Receive up to 2 LBC (<span class="lbc-to-usd" data-lbc-amount="2"></span>) per view from verified lbry.tv accounts. <a href="https://lbry.com/faq/view-rewards" target="_blank">Learn more.</a> 
+      <p>Receive up to 2 LBC (<span class="lbc-to-usd" data-lbc-amount="2"></span>) per view from verified lbry.tv accounts. This requires at least 500 subs and original content. <a href="https://lbry.com/faq/view-rewards" target="_blank">Learn more.</a> 
      <small> <em>These reward amounts may change at LBRY Inc.'s discretion.</em></small>
       </p>
 
