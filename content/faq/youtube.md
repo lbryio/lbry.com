@@ -4,9 +4,9 @@ category: publisher
 order: 4
 ---
 
-**IMPORTANT NOTE: Our sync process for new and existing users is currently experiencing issues. It will take anywhere from several hours to a few days to resolve. If you'd like to get a channel in the queue manually, please email us at hello@lbry.com.**
+**IMPORTANT NOTE: Our sync queue for existing channels may be delayed for some channels. If you are having issues with your channel, please email us at hello@lbry.com. Newly synced channels are currently backlogged and will take anywhere from a few days to a couple weeks to process.**
 
-LBRY offers an easy way for YouTubers to republish their content to the LBRY network, engage with LBRY users, and earn LBC. This program is available to new and existing LBRY users - installing or using our platform is not a prerequisite to syncing your channel. LBRY provides a one-click sync process that gathers your channel and video metadata (i.e. covers, thumbnails, etc.), creates a channel for you on LBRY, and publishes your videos to it. Creators are eligible for [monthly LBC rewards](#reward) if they have over 1k subscribers. 
+LBRY offers an easy way for YouTubers to republish their content to the LBRY network, engage with LBRY users, and earn LBC. This program is available to new and existing LBRY users - installing or using our platform is not a prerequisite to syncing your channel. LBRY provides a one-click sync process that gathers your channel and video metadata (i.e. covers, thumbnails, etc.), creates a channel for you on LBRY, and publishes your videos to it. Creators with over 500 subs that qualify for sync are eligible for [view rewards](/faq/view-rewards).
 
 To sync your existing YouTube channel to LBRY and learn more about the program, go to [lbry.com/youtube](/youtube).
 
@@ -16,7 +16,7 @@ To sync your existing YouTube channel to LBRY and learn more about the program, 
 
 There are three main steps to this program:
 
-1. *[Enroll](#enroll)* - Provide authorization for us to begin syncing. After this step, you can begin claiming [rewards](#reward) (if eligible).
+1. *[Enroll](#enroll)* - Provide authorization for us to begin syncing.
 2. *Sync* - During this step, we perform magic behind the scenes. It can take up to several days, your subscription count must be public at all times, and [some sync limitations apply](#limits).
 3. *[Transfer](#transfer)* - Claim ownership of your new LBRY channel and LBRY wallet, so that you and only you are in control. More [below](#transfer).
 
@@ -32,26 +32,9 @@ When the process is complete, you will receive a notice from LBRY indicating you
 
 ![status](https://spee.ch/2/sync-status.png)
 
-Note that as soon as you enroll, you are eligible to receive LBRY Credits based on the terms of our program. The current rewards for participating can be seen on the [program page](/youtube). The exact agreement you make when you enroll can be seen [here](/faq/youtube-terms).
+### Channel and content transfer {#transfer}
 
-### Rewards {#reward}
-
-As soon as you've enrolled, you can claim your rewards. Rewards can be claimed on a monthly basis if you have over 1k subs and 10k YouTube views, and as long as you publish content regularly. You will receive an email when your monthly reward is available.
-
-Monthly reward amounts, similar to our [policy with other rewards](/faq/rewards), can change based on LBRY Inc's discretion. If rewards are not claimed for over 3 months, any subsequent months will be forfeited. 
-
-1. Visit [lbry.tv](https://lbry.tv) or download the LBRY Desktop app from [lbry.com](https://lbry.com/get).
-2. Sign in with the email that matches the address on your [YouTube status page](/youtube/status). You can change your email on this page if you want to sign in with a different email.
-3. Navigate to the _Rewards_ section of the app by clicking your balance in the top right.
-4. Scroll to the "YouTube Reward" tile and click the button to receive your reward!
-
-Some YouTube accounts may be flagged for manual review after sync. If this happens, please check back in 1-2 business days.
-
-Note for participants before 2020: if you joined while this reward was still yearly, you can still begin claiming monthly rewards immediately.
-
-### Wallet transfer {#transfer}
-
-Your _wallet_ is a special file that contains the secret keys (like a password) to your account.
+Your _wallet_ is a special file that contains the secret keys (like a password) to your account. This is where your content and channels are stored also.
 
 The wallet transfer step ensures you have full control of your content and channel. After completing this step, LBRY will not be able to access your funds or modify your channel/account, outside of a permission we retain to continue publishing.
 
@@ -70,7 +53,6 @@ When you _enroll_, it means the content has been mirrored to LBRY and available 
 Feature | Enroll | Transfer |
 :------------ | :-------------| :-------------|
 Your YouTube publishes will be synced | yes |  yes |
-You can claim LBC rewards  | yes |  yes |
 You can use the app to publish to the channel and your content shows in the app | no |  yes |
 You can receive LBC from tips and content payments | no |  yes |
 You are responsible for keeping your wallet safe | no |  maybe\* |
