@@ -3,7 +3,6 @@ title: Protocol Engineer
 order: 4
 status: paused
 location: remote (global)
-url: https://hire.withgoogle.com/public/jobs/lbryio/view/P_AAAAAADAAADALc6v5NkAOf?trackingTag=joinUs
 ---
 
 The LBRY protocol consists of a [set of APIs](/api) provided via a daemon. This daemon is comprised of several sub-components, and interacts with the blockchain, wallet, and other remote daemons that constitute the LBRY data network.

@@ -3,7 +3,6 @@ title: Lead Application Engineer
 order: 2
 status: closed
 location: remote (global)
-url: https://hire.withgoogle.com/public/jobs/lbryio/view/P_AAAAAADAAADNhIbg93Flmj?trackingTag=joinUs
 ---
 
 As the touch and interaction point for the vast majority of LBRY users, applications play a tremendous role in the success of the LBRY protocol.

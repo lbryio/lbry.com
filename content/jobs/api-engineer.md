@@ -3,7 +3,6 @@ title: API Engineer
 order: 5
 status: paused
 location: remote (global)
-url: https://hire.withgoogle.com/public/jobs/lbryio/view/P_AAAAAADAAADFYg8lMqDBXz?trackingTag=joinUs
 ---
 
 This job combines the coolest language with a slightly less cool objective for an overall attractiveness quotient of still pretty neat.

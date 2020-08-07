@@ -10,6 +10,7 @@
 
   <section>
     <div class="inner-wrap">
+        <div class="notice notice-success spacer1">LBRY is not currently hiring, but will be again soon. We recommend <strong><a href="https://lbry.tech/contribute">beginning as a contributor</a></strong> if you are interested in a technical position or just want to have a good time.</div>
       <p>Changing the landscape of content distribution is no easy task. LBRY is growing rapidly, and we're always looking for great people to join us. If you're looking for a challenging and rewarding pursuit, if you want to work with a team that shares your passion and curiosity, you've come to the right place.</p>
 
       <h2 id="about">About LBRY</h2>
@@ -45,7 +46,7 @@
         <li>A brief (30 minute max), non-technical, introductory phone call with either the CEO, CTO, or appropriate lead.</li>
 
         <li>
-          <p class="join-us-fix">All technical hires are required to complete compensated code contribution on the repository they'd be working on. Non-technical hires will also be asked to complete a compensated trial task after they apply and complete step 1.</p>
+          <p>All technical hires are required to complete compensated code contribution on the repository they'd be working on. Non-technical hires will also be asked to complete a compensated trial task after they apply and complete step 1.</p>
 
           <p>Issues tagged "good first issue" are suitable for this purpose, though you are welcome to work on another issue or even something not filed at all.</p>
 
