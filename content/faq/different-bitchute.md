@@ -32,7 +32,7 @@ In the case of LBRY:
 
 ## I'm a creator that wants to make a comparative video between LBRY and another platform.
 
-That's awesome! We're offering 2000 LBC to any creator who wants to make a video on this subject.
+That's awesome! We're offering 1000 LBC to any creator who wants to make a video on this subject.
 
 Here's how to get it:
 
