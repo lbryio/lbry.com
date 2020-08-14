@@ -38,7 +38,7 @@ Other file types can also be uploaded, but won't be streamable via LBRY directly
 8. You have the option to select/create the channel you would like to publish the content under. If no channel is selected, it will be posted anonymously.
    ![Select Channel or Anonymous](https://spee.ch/8/channel-createp.png)
 
-9. Type in the URL you want the content to be found under, along with a minimum of 0.00000001 LBC deposit for the upload (default amount is higher due to publishing fees). If you are trying to outbid a user-friendly/common URL, the system will suggest a minimum bid to take over the content at that vanity URL. There may be a delay for this takeover. Making your bid higher will result in (better discovery)[https://lbry.com/faq/trending) for your content. For more details regarding the URL or bid, check out our [naming document](/faq/naming).
+9. Type in the URL you want the content to be found under, along with a minimum of 0.00000001 LBC deposit for the upload (default amount is higher due to publishing fees). If you are trying to outbid a user-friendly/common URL, the system will suggest a minimum bid to take over the content at that vanity URL. There may be a delay for this takeover. Making your bid higher will result in [better discovery](https://lbry.com/faq/trending) for your content. For more details regarding the URL or bid, check out our [naming document](/faq/naming).
    ![Video URL and Deposit](https://spee.ch/@clem:0/contentname.png)
 
 10. Under the `Price`, first, determine if you want to make your content free or set a price (in USD or LBC) per view.
