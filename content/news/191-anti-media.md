@@ -8,7 +8,7 @@ category: content
 
 > LBRY and [@spee_ch](https://twitter.com/spee_ch) are teaming up with the [#AntiMedia](https://twitter.com/hashtag/AntiMedia) to protect independent outlets with LBRYPress! No more relying on [#SiliconValley](https://twitter.com/hashtag/SiliconValley) to host your content - get your own custom install here [https://t.co/niz1SEUGMK](https://t.co/niz1SEUGMK) [#FreeSpeech](https://twitter.com/hashtag/FreeSpeech) [#censorship](https://twitter.com/hashtag/censorship) [pic.twitter.com/6v7lMNjhXn](https://t.co/6v7lMNjhXn)
 >
-> — LBRY (we never give away ETH) (@LBRYio) [December 5, 2018](https://twitter.com/LBRYio/status/1070416016247808001)
+> — LBRY (we never give away ETH) (@LBRYio) [December 5, 2018](https://twitter.com/lbrycom/status/1070416016247808001)
 
 ## We believe in a free press, and we're giving outlets the tool to push back against censorship.
 The Anti-Media, an independent media outlet with over 2 million subscribers, was banned from Facebook in one of their recent purges.

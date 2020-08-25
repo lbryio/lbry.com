@@ -11,4 +11,4 @@ LBRY v0.27.0 is coming in hot with a whole new look! We've completed our redesig
 
 Upgrade now in-app or [download the newest version of LBRY](/get) - if you’re one of the first 100 on board, you can use reward code `027-upgrade-xasdweg` for a little token of our gratitude.
 
-We need you to build the new, decentralized internet - if you have any questions about this release or anything else, ask us on [Discord](https://chat.lbry.com) or [Twitter](https://twitter.com/lbryio).
+We need you to build the new, decentralized internet - if you have any questions about this release or anything else, ask us on [Discord](https://chat.lbry.com) or [Twitter](https://twitter.com/lbrycom).

@@ -18,7 +18,7 @@ If you want to see a condensed view of what we have completed recently and what'
 
 > The Video Contest &amp; Networking Bounty has officially started!<br/>A total prize pool of 7000 LBC.<br/>
 > Visit [https://t.co/16RZh3L2LH](https://t.co/16RZh3L2LH)<br/>
-> Good luck creating videos! [#LBRY](https://twitter.com/hashtag/LBRY) [$LBC](https://twitter.com/search?q=%24LBC) [@LBRYio](https://twitter.com/LBRYio)
+> Good luck creating videos! [#LBRY](https://twitter.com/hashtag/LBRY) [$LBC](https://twitter.com/search?q=%24LBC) [@LBRYio](https://twitter.com/lbrycom)
 >
 > — LBRY Community (@LBRYCommunity) [July 30, 2018](https://twitter.com/LBRYCommunity/status/1024023211778998272)
 
@@ -151,12 +151,12 @@ LBRY went through a successful [hard fork on 7/9/18](/news/hf1807). It was not u
 
 > Our hard fork is complete! Claims now last 10 years instead of 1.5, meaning that you can count on finding the content you uploaded to LBRY now and years from now. Check the link for more details. [https://t.co/RDJsOxfL0S](https://t.co/RDJsOxfL0S) [#hardfork](https://twitter.com/hashtag/hardfork) [#blockchain](https://twitter.com/hashtag/blockchain)
 >
-> — LBRY (we never give away ETH) (@LBRYio) [July 11, 2018](https://twitter.com/LBRYio/status/1017063979364048897)
+> — LBRY (we never give away ETH) (@LBRYio) [July 11, 2018](https://twitter.com/lbrycom/status/1017063979364048897)
 
 The next priorities for the Blockchain team include cleaning up the claimtrie code base in order to increase maintainability and to provide a smoother transition to upstream changes from Bitcoin. These changes include features like SegWit and HD Addresses which were enabled on later versions of Bitcoin. Segwit is especially important since it would allow us to run Lighting Network, which is a 2nd layer scaling solution for microtransactions and a perfect use case for data payments on the P2P network.
 
 # Community Happenings {#com-updates}
-If you aren't part of our Discord community yet, [join us](https://chat.lbry.com) anytime and say hello! Our community allows LBRYians to interact with the team directly and for us to engage users in order to grow the LBRY platform. Also follow us on [Twitter](https://twitter.com/lbryio), [Facebook](https://facebook.com/lbryio), [Reddit](https://www.reddit.com/r/lbry), [Instagram](https://www.instagram.com/lbryio), and [Telegram](https://t.me/lbryofficial).
+If you aren't part of our Discord community yet, [join us](https://chat.lbry.com) anytime and say hello! Our community allows LBRYians to interact with the team directly and for us to engage users in order to grow the LBRY platform. Also follow us on [Twitter](https://twitter.com/lbrycom), [Facebook](https://facebook.com/lbryio), [Reddit](https://www.reddit.com/r/lbry), [Instagram](https://www.instagram.com/lbryio), and [Telegram](https://t.me/lbryofficial).
 
 ### Q2 2018 Credit Report
 This quarter we moved no credits from cold storage. We spent 738,027 total community credits on line items detailed in the Q2 report. No operational credits were moved to markets. No institutional credits were moved or spent. We anticipate comparable or larger total outlays in Q3 2018. Operational spending may increase, but not significantly, and community spending is likely to be higher. We will continue to incentivize new users and other beneficial behavior, which is likely to involve 300,000 to 1,500,000+ LBC. LBRY is also likely to form it's first institutional partnership, with spending anticipated to be around 500,000 LBC. [Read the details here.](/credit-reports/2018-q2)
@@ -175,7 +175,7 @@ CryptoCandor, one of LBRY's featured content creators, brings us a full review a
 
 > We're excited to announce that [@CryptoCandor](https://twitter.com/CryptoCandor)'s [https://t.co/6hefigVmB3](https://t.co/6hefigVmB3) project has been approved! Do you have an idea for a new way to use or promote LBRY? Make it reality with our grant program at [https://t.co/6hefigVmB3](https://t.co/6hefigVmB3) - head over and apply today! [pic.twitter.com/97csq98oGI](https://t.co/97csq98oGI)
 >
-> — LBRY (we never give away ETH) (@LBRYio) [July 10, 2018](https://twitter.com/LBRYio/status/1016779857647239169)
+> — LBRY (we never give away ETH) (@LBRYio) [July 10, 2018](https://twitter.com/lbrycom/status/1016779857647239169)
 
 
 #### FONK World:
@@ -185,7 +185,7 @@ David Heath and Mike Little are teaming up to create an animated humorous video 
 
 > FONK is funded! If you have an idea to improve LBRY, build something new on LBRY, or tell the world about our [#decentralized](https://twitter.com/hashtag/decentralized), peer to peer network, apply for a grant today at [https://t.co/6hefigVmB3](https://t.co/6hefigVmB3)! [pic.twitter.com/wqfF0eHCmE](https://t.co/wqfF0eHCmE)
 >
-> — LBRY (we never give away ETH) (@LBRYio) [July 27, 2018](https://twitter.com/LBRYio/status/1022945228137881606)
+> — LBRY (we never give away ETH) (@LBRYio) [July 27, 2018](https://twitter.com/lbrycom/status/1022945228137881606)
 
 #### UNH Hackathon:
 LBRY is partnering with the University of New Hampshire to present a hackathon for UNH students this fall! Prizes range up to $1000 worth of LBC. Date and additional details to be announced soon.
@@ -195,7 +195,7 @@ Musician and LBRY contributor Matt Sokol approached us with a unique LBRY.fund r
 
 > [#Mathrock](https://twitter.com/hashtag/Mathrock), [#chiptune](https://twitter.com/hashtag/chiptune), and [#blockchain](https://twitter.com/hashtag/blockchain) are three great tastes that taste great together - we can't wait to see what [@heymattsokol](https://twitter.com/heymattsokol) comes up with now that his project is funded! [pic.twitter.com/ySjeWEnXd6](https://t.co/ySjeWEnXd6)
 >
-> — LBRY (we never give away ETH) (@LBRYio) [July 18, 2018](https://twitter.com/LBRYio/status/1019596298658426885)
+> — LBRY (we never give away ETH) (@LBRYio) [July 18, 2018](https://twitter.com/lbrycom/status/1019596298658426885)
 
 Do you have an idea for a project using or promoting the LBRY Protocol? We may pay you to create your vision. [Visit the LBRY.fund for details](https://lbry.fund).
 

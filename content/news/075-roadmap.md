@@ -31,4 +31,4 @@ Along the way, we are actively taking feedback from beta users and testers and i
 
 [Check out the roadmap](https://lbry.com/roadmap) for more details and upcoming developments.
 
-If you see something missing or believe we're overlooking something, please let us know! You can suggest additions and changes to the LBRY app by [posting to our subreddit](https://www.reddit.com/r/lbry) or calling us out [on Twitter](https://twitter.com/lbryio). Or if you want to speak directly with the LBRY team, [join our Discord chat](http://chat.lbry.com).
+If you see something missing or believe we're overlooking something, please let us know! You can suggest additions and changes to the LBRY app by [posting to our subreddit](https://www.reddit.com/r/lbry) or calling us out [on Twitter](https://twitter.com/lbrycom). Or if you want to speak directly with the LBRY team, [join our Discord chat](http://chat.lbry.com).

@@ -10,7 +10,7 @@ In December, we published the [first ever LBRY Development and Community update]
 
 Please take a moment to read our [Looking Back and Moving Forward: LBRY in 2017/2018](/news/lbry-in-2017-2018) blog post and check out our [roadmap](/roadmap).
 
-Before diving in, we want to let everyone know that we'll be hosting a **live Ask me Anything event** with our CEO Jeremy Kauffman next **Friday (3/9) at 5:30 PM ET** on Twitter and Reddit. This will be the first live stream from our office, so please bear with us through any technical difficulties. Join us on the [LBRY subreddit](https://www.reddit.com/r/lbry) and use #lbryAMA on [Twitter](https://twitter.com/LBRYio), and bring some friends who have burning questions about LBRY!
+Before diving in, we want to let everyone know that we'll be hosting a **live Ask me Anything event** with our CEO Jeremy Kauffman next **Friday (3/9) at 5:30 PM ET** on Twitter and Reddit. This will be the first live stream from our office, so please bear with us through any technical difficulties. Join us on the [LBRY subreddit](https://www.reddit.com/r/lbry) and use #lbryAMA on [Twitter](https://twitter.com/lbrycom), and bring some friends who have burning questions about LBRY!
 
 To skip the tech stuff and see what's happened and what's next in the LBRY community, click the link below. Otherwise, read on!
 

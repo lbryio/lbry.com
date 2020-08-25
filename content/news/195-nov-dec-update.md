@@ -8,7 +8,7 @@ category: community-update
 
 Welcome to the November/December 2018 LBRY Development update! In this post we'll show you what we've been up to and review our progress since our [last update in October](/news/sept-dev-update) - sit tight, there's lots to talk about below including big releases from the SDK and App teams!
 
-If you haven't heard yet, we are running a [12 Days of DevMas campaign on Twitter](https://twitter.com/LBRYio) by rewarding our app users with free LBC! Also as a special bonus for readers of this update, enjoy some LBC via this code (while supplies last!): `dev-update-nov-tzbc`
+If you haven't heard yet, we are running a [12 Days of DevMas campaign on Twitter](https://twitter.com/lbrycom) by rewarding our app users with free LBC! Also as a special bonus for readers of this update, enjoy some LBC via this code (while supplies last!): `dev-update-nov-tzbc`
 
 To read previous updates, please visit our [Development and Community Update archive](/news/category/community-update).
 
@@ -119,7 +119,7 @@ If you aren't part of our Discord community yet, [join us](https://chat.lbry.com
 
 ![santa](https://spee.ch/@lbrynews:0/santa-yrbl.jpg)
 
-Our community allows LBRYians to interact with the team directly and for us to engage users in order to grow the LBRY platform. Also follow us on [Twitter](https://twitter.com/lbryio), [Facebook](https://facebook.com/lbryio), [Reddit](https://www.reddit.com/r/lbry), [Instagram](https://www.instagram.com/lbryio), and [Telegram](https://t.me/lbryofficial).
+Our community allows LBRYians to interact with the team directly and for us to engage users in order to grow the LBRY platform. Also follow us on [Twitter](https://twitter.com/lbrycom), [Facebook](https://facebook.com/lbryio), [Reddit](https://www.reddit.com/r/lbry), [Instagram](https://www.instagram.com/lbryio), and [Telegram](https://t.me/lbryofficial).
 
 [Back to **top**](#dev-updates)
 

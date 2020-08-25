@@ -12,7 +12,7 @@ We heard your feedback, and we think you'll love the new LBRY v0.23! View all th
 
 > LBRY v0.23 is live! Check out our new 3D file previews, revamped settings for NSFW videos, and newly added emoji in descriptions - get all the details in this post! [https://t.co/DEj4y9jfwl](https://t.co/DEj4y9jfwl) [pic.twitter.com/t2xrS2Kd2Z](https://t.co/t2xrS2Kd2Z)
 >
-> — LBRY (we never give away ETH) (@LBRYio) [July 25, 2018](https://twitter.com/LBRYio/status/1022188758970654722)
+> — LBRY (we never give away ETH) (@LBRYio) [July 25, 2018](https://twitter.com/lbrycom/status/1022188758970654722)
 
 
 ### More than just video

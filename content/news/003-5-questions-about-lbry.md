@@ -17,9 +17,9 @@ As we recently Tweeted, we're extremely close to releasing a POC client:
 
 > LBRY's doors are locked, but gaze through the glass and one behold's the hazy form of a proof-of-concept [pic.twitter.com/93ViBCx72g](http://t.co/93ViBCx72g)
 >
-> — LBRY (@LBRYio) [July 1, 2015](https://twitter.com/LBRYio/status/616333374878281728)
+> — LBRY (@LBRYio) [July 1, 2015](https://twitter.com/lbrycom/status/616333374878281728)
 
-To make sure you hear as soon as it is available, [join our mailing list](/list/subscribe) or [follow us](https://twitter.com/lbryio) on Twitter.
+To make sure you hear as soon as it is available, [join our mailing list](/list/subscribe) or [follow us](https://twitter.com/lbrycom) on Twitter.
 
 
 ### 2. What happens if someone uploads infringing content to LBRY?

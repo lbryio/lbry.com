@@ -20,4 +20,4 @@ category: update
 For all the details, you can [take a look at the release notes](https://github.com/lbryio/lbry-desktop/releases/tag/v0.32.0)
 Upgrade now in-app or [download the newest version of LBRY](/get) to chedk it out today!
 
-We need you to build the new, decentralized internet - if you have any questions about this release or anything else, ask us on [Discord](https://chat.lbry.com) or [Twitter](https://twitter.com/lbryio).
+We need you to build the new, decentralized internet - if you have any questions about this release or anything else, ask us on [Discord](https://chat.lbry.com) or [Twitter](https://twitter.com/lbrycom).

@@ -64,7 +64,7 @@
                 <div>
                   <strong>Social</strong>
                   <span>
-                    <a href="https://twitter.com/lbryio"><span class="icon icon-twitter"></span></a>
+                    <a href="https://twitter.com/lbrycom"><span class="icon icon-twitter"></span></a>
                     <a href="https://reddit.com/r/lbry"><span class="icon icon-reddit"></span></a>
                     <a href="https://www.facebook.com/lbryio"><span class="icon icon-facebook-square"></span></a>
                     <a href="https://t.me/lbryofficial"><span class="icon icon-telegram"></span></a>

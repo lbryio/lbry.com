@@ -46,7 +46,7 @@ Displays your Twitter LBRY wallet address. Useful if you want to receive LBC dir
 Want to tip someone? This will send a tip to a chosen username.
 
 - **Arguments:** `@LBC_TipBot tip <username> <amount>`
-- [**Tweet Example:**](https://twitter.com/LBRYio/status/1181948567277039616): `@LBC_TipBot tip @kristianto18 1000`
+- [**Tweet Example:**](https://twitter.com/lbrycom/status/1181948567277039616): `@LBC_TipBot tip @kristianto18 1000`
 
 ![tip](https://spee.ch/@chris45:bb/tipbot.png)
 

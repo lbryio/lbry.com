@@ -15,6 +15,6 @@ category: update
 
 If you haven’t opened LBRY on your computer in a while, now’s the time to do it - you can also check out the all new [LBRY on the web](https://beta.lbry.tv)!
 
-We need your feedback to make LBRY even better - let us know what you think on [Discord](https://chat.lbry.com) or [Twitter](https://www.twitter.com/lbryio)! 
+We need your feedback to make LBRY even better - let us know what you think on [Discord](https://chat.lbry.com) or [Twitter](https://www.twitter.com/lbrycom)! 
 
 Thanks for helping us build the decentralized internet of the future - we can’t do it without you!

@@ -17,13 +17,13 @@ This is a verbose, haughty way of saying I try to think for the long-term, not f
 
 Yet here I am, running a company where people ask me to do the opposite every single day:
 
-> [@LBRYio](https://twitter.com/LBRYio) Did you purposely plan to get everyone REKT who have/had faith in you?...
+> [@LBRYio](https://twitter.com/lbrycom) Did you purposely plan to get everyone REKT who have/had faith in you?...
 >
 > — Jamie (@JTKDGB) [October 31, 2016](https://twitter.com/JTKDGB/status/793092411467726852)
 
 <br/>
 
-> [@LBRYio](https://twitter.com/LBRYio) The first question is why the price of LBRY coins fall several times in the past.
+> [@LBRYio](https://twitter.com/lbrycom) The first question is why the price of LBRY coins fall several times in the past.
 >
 > — shuai sun (@shuaisun54) [November 1, 2016](https://twitter.com/shuaisun54/status/793385272817750016)
 
@@ -78,4 +78,4 @@ If you bought LBC in an attempt to make a quick buck, you might be disappointed.
 
 If you bought LBC because you believe of the idea of a world of content sharing without censorship or intermediaries, hold onto it (or spend it to buy some of the great content being added every day!). We've got an incredible [team](/team) of bright, talented people that are pouring an incredible amount of time in to actualize it.
 
-And if you're interested in participating in creating that world, come hang out with us! Join us on [Discord chat](https://chat.lbry.com), [GitHub](https://github.com/lbryio), or [Twitter](https://twitter.com/lbryio).
+And if you're interested in participating in creating that world, come hang out with us! Join us on [Discord chat](https://chat.lbry.com), [GitHub](https://github.com/lbryio), or [Twitter](https://twitter.com/lbrycom).

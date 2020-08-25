@@ -22,7 +22,7 @@ LBRY Inc., creators of the LBRY media sharing system and LBC utility token, toda
 
 > Thinking of a new implementation for the LBRY protocol? Let us help you build it - we're awarding [#grants](https://twitter.com/hashtag/grants) to support developers, engineers, marketers, and anyone else who wants to do something new and exciting with LBRY. Visit [https://t.co/6hefigVmB3](https://t.co/6hefigVmB3) to apply. [pic.twitter.com/8PDfS4CzgN](https://t.co/8PDfS4CzgN)
 >
-> — LBRY (we never give away ETH) (@LBRYio) [June 15, 2018](https://twitter.com/LBRYio/status/1007724955226857474)
+> — LBRY (we never give away ETH) (@LBRYio) [June 15, 2018](https://twitter.com/lbrycom/status/1007724955226857474)
 
 The first grant recipient will be LBRY-C, a decentralized community organization of LBRY fans and developers. LBRY-C will receive 100,000 LBC over three months for their planned community and outreach efforts.
 

@@ -8,7 +8,7 @@ category: users
 
 > [#areyoureadyforthisjelly](https://twitter.com/hashtag/areyoureadyforthisjelly) [pic.twitter.com/urXNtw1IQk](https://t.co/urXNtw1IQk)
 >
-> — LBRY (we never give away ETH) (@LBRYio) [September 11, 2018](https://twitter.com/LBRYio/status/1039532032781635586)
+> — LBRY (we never give away ETH) (@LBRYio) [September 11, 2018](https://twitter.com/lbrycom/status/1039532032781635586)
 
 In case you've missed it, we're launching the [LBRY Beta](/get?auto=1) on Android next Monday.
 

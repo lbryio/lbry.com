@@ -15,9 +15,9 @@ To date, LBRY has not paid to be listed, but will consider paying fees to cover 
 ## Why isn’t LBRY available on X?
 The answer depends on the value of X, but the answer is almost always: we don’t know.
 
-Most exchanges do not provide public or private insight into why and how they make the decisions that they do. If X is a well-known place, we’ve probably contacted them but not disclosed their reasoning. If you think X is a place we might not have heard of, you can let us know about it on [Twitter](https://twitter.com/lbryio), via [email](mailto:hello@lbry.com), or [in chat](https://chat.lbry.com).
+Most exchanges do not provide public or private insight into why and how they make the decisions that they do. If X is a well-known place, we’ve probably contacted them but not disclosed their reasoning. If you think X is a place we might not have heard of, you can let us know about it on [Twitter](https://twitter.com/lbrycom), via [email](mailto:hello@lbry.com), or [in chat](https://chat.lbry.com).
 
-Additionally, if X is a well-known place, let them know you want us available there. User demand is necessary for them to add a token/coin for exchange. And if you tag us both on [Twitter](https://twitter.com/lbryio), maybe someone will leave you a tip…
+Additionally, if X is a well-known place, let them know you want us available there. User demand is necessary for them to add a token/coin for exchange. And if you tag us both on [Twitter](https://twitter.com/lbrycom), maybe someone will leave you a tip…
 
 ## Does LBRY have plans to end or ease the exchange pain?
 Yes. Working with exchanges is a pain for typical and actual users of the LBRY platform. We would happily provide onramps and offramps to many currencies, but it is a massive regulatory challenge.

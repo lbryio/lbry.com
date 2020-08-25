@@ -10,7 +10,7 @@ category: update
 > Get the details here: [https://t.co/oa1DLoR350](https://t.co/oa1DLoR350)<br/>
 > Download here: [https://t.co/dwhnZqsn5n](https://t.co/dwhnZqsn5n) [#newrelease](https://twitter.com/hashtag/newrelease) [#blockchain](https://twitter.com/hashtag/blockchain) [pic.twitter.com/6F7xVki06H](https://t.co/6F7xVki06H)
 >
-> — LBRY (we never give away ETH) (@LBRYio) [August 29, 2018](https://twitter.com/LBRYio/status/1034894356552003590)
+> — LBRY (we never give away ETH) (@LBRYio) [August 29, 2018](https://twitter.com/lbrycom/status/1034894356552003590)
 
 LBRY is faster, more reliable, and easier to use than ever with the release of our newest version, Bradbury! Our developers have been working hard on improving the stability of the LBRY protocol and the user experience in our app, and this update delivers in a big way. If it's been a while since you opened up the LBRY app, now is the time to [get the latest version](/get) and give it another try.
 

@@ -19,7 +19,7 @@ Head over to [LBRY’s new arcade!](https://open.lbry.com/%40OpenSourceGames) Yo
 
 If you haven’t opened LBRY on your computer in a while, now’s the time to do it! 
 
-We need your feedback to make LBRY even better - upgrade in-app or [head to this link](/get) to download LBRY now, and let us know what you think on [Discord](https://chat.lbry.com) or [Twitter](https://www.twitter.com/lbryio)! 
+We need your feedback to make LBRY even better - upgrade in-app or [head to this link](/get) to download LBRY now, and let us know what you think on [Discord](https://chat.lbry.com) or [Twitter](https://www.twitter.com/lbrycom)! 
 
 If you’re a developer and want to dive a bit deeper into the process, take a look at the [release notes here](https://github.com/lbryio/lbry-desktop/releases/latest). Want to learn more or help us build out the LBRY ecosystem? Jump right into our [GitHub repos](https://github.com/lbryio/) and check out [lbry.tech](https://lbry.tech).
 

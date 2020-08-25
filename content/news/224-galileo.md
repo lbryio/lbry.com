@@ -21,7 +21,7 @@ This upgrade brings some major changes to LBRY, including:
 
 Just open your app to upgrade - and if you haven’t tried LBRY yet, what are you waiting for? [Get it here](https://lbry.com/get) now!
 
-We couldn’t do what we do here at LBRY without our amazing community - make sure to join us on [Discord](https://chat.lbry.com), [Twitter](https://twitter.com/lbryio), and [Reddit](https://www.reddit.com/r/lbry/) to get all the latest news and information. And let us know what you think and what you want to see next!
+We couldn’t do what we do here at LBRY without our amazing community - make sure to join us on [Discord](https://chat.lbry.com), [Twitter](https://twitter.com/lbrycom), and [Reddit](https://www.reddit.com/r/lbry/) to get all the latest news and information. And let us know what you think and what you want to see next!
 
 ### PS!
 The first 200 users to upgrade can use the code below for a 50LBC reward - so hurry up and start upgrading!

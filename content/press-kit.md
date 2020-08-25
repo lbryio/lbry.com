@@ -38,7 +38,7 @@ On July 29th, 2017 the Pop-up Open Beta Was Announced.
 
 - Website: [https://lbry.com](https://lbry.com)
 - Facebook: [https://www.facebook.com/lbryio](https://www.facebook.com/lbryio)
-- Twitter: [https://twitter.com/lbryio](https://twitter.com/lbryio)
+- Twitter: [https://twitter.com/lbrycom](https://twitter.com/lbrycom)
 - Reddit: [https://www.reddit.com/r/lbry](https://www.reddit.com/r/lbry)
 - Mailing List: [/join-list](/join-list) - **Sign up to follow along as we build LBRY**
 - Discord Chat: [https://chat.lbry.com](https://chat.lbry.com) - **Get your questions answered and become a LBRYian**

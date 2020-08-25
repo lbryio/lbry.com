@@ -61,4 +61,4 @@ Now that you've got a bit of background on the features to look out for in your 
 ### LBRY
 [LBRY](/get) is a new entry into the world of Spotify alternatives. Instead of putting a centralized service in charge of hosting, curating, and delivering music to users, LBRY lets creators upload their work to a decentralized network where listeners can download it for free or purchase it, depending on the settings the creator wants. While services like Spotify and YouTube Music take the vast majority of revenue per stream and leave the artist with a pittance, LBRY removes the middleman and lets fans support artists directly.
 
-Do you have a favorite Spotify alternative that we missed in this list? Tell us about it [on Twitter](https://twitter.com/LBRYio)!
+Do you have a favorite Spotify alternative that we missed in this list? Tell us about it [on Twitter](https://twitter.com/lbrycom)!

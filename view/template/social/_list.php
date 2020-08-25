@@ -6,7 +6,7 @@
 </div>
 
 <div class="spacer1">
-  <a href="https://twitter.com/lbryio" class="link-primary">
+  <a href="https://twitter.com/lbrycom" class="link-primary">
     <span class="icon-twitter icon-fw"></span>
     <span class="btn-label">Twitter</span>
   </a>

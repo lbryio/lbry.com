@@ -46,4 +46,4 @@ And he didn't just leave his mark in the real world - as a pioneering science fi
 
 ## Ready to Step Into The Future?
 
-[Download the LBRY app](/get) today, and if you have any questions, let us know on [Twitter](https://www.twitter.com/lbryio)!
+[Download the LBRY app](/get) today, and if you have any questions, let us know on [Twitter](https://www.twitter.com/lbrycom)!
