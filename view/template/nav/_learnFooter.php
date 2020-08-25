@@ -16,7 +16,7 @@
         <ul>
           <li><a href="/list/subscribe" class="link-primary"><?php echo __('email.subscribe') ?></a></li>
           <li>Join us on <a href="https://twitter.com/lbrycom" class="link-primary"><span class="btn-label">Twitter</span><span class="icon icon-twitter"></span></a>
-            <a href="https://facebook.com/lbryio" class="link-primary"><span class="btn-label">Facebook</span><span class="icon icon-facebook"></span></a>
+            <a href="https://facebook.com/lbrycom" class="link-primary"><span class="btn-label">Facebook</span><span class="icon icon-facebook"></span></a>
             <a href="https://chat.lbry.com" class="link-primary"><span class="btn-label">Discord</span><span class="icon-comments icon-fw"></span></a>
             <a href="https://reddit.com/r/lbry" class="link-primary"><span class="btn-label">Reddit</span><span class="icon-fw icon-reddit"></span></a> 
 	    <a href="https://www.instagram.com/lbryio/" class="link-primary"><span class="btn-label">Instagram</span><span class="fab fa-instagram icon-fw"></span></a>

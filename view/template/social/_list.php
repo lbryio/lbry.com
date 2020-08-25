@@ -13,7 +13,7 @@
 </div>
 
 <div class="spacer1">
-  <a href="https://www.facebook.com/lbryio" class="link-primary">
+  <a href="https://www.facebook.com/lbrycom" class="link-primary">
     <span class="icon-facebook icon-fw"></span>
     <span class="btn-label">Facebook</span>
   </a>

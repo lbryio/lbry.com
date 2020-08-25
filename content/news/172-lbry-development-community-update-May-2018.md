@@ -83,7 +83,7 @@ At LBRY, we are in the process of integrating Chainquery into our internal servi
 LBRY will undergo a hard fork on 7/9/18. There won't be any noticeable changes for most users, but miners and exchanges will need to make sure they are running [version 0.12.2.0 of the LBRYcrd full blockchain wallet ](https://github.com/lbryio/lbrycrd/releases/tag/v0.12.2.0) to ensure they are on the most up to date chain. Read [this blog post](/news/hf1807) for the whole story.
 
 # Community Happenings {#com-updates}
-If you aren't part of our Discord community yet, [join us](https://chat.lbry.com) anytime and say hello! Our community allows LBRYians to interact with the team directly and for us to engage users in order to grow the LBRY platform. Also follow us on [Twitter](https://twitter.com/lbrycom), [Facebook](https://facebook.com/lbryio), and also on [Reddit.](https://www.reddit.com/r/lbry)
+If you aren't part of our Discord community yet, [join us](https://chat.lbry.com) anytime and say hello! Our community allows LBRYians to interact with the team directly and for us to engage users in order to grow the LBRY platform. Also follow us on [Twitter](https://twitter.com/lbrycom), [Facebook](https://facebook.com/lbrycom), and also on [Reddit.](https://www.reddit.com/r/lbry)
 
 ### Help Create the Stack Exchange Community for LBRY
 Please check out the newly proposed LBRY Protocol site on Stack Exchange, and help get it to the next step. Example questions and up votes are needed!

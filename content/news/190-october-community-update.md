@@ -23,7 +23,7 @@ To read all of our previous updates, please visit our [Development and Community
 If you want to see a condensed view of what we have completed recently and what's planned for LBRY, check out our [roadmap](/roadmap).
 
 # Community Happenings {#com-updates}
-If you aren't part of our Discord community yet, [join us](https://chat.lbry.com) anytime and say hello! Our community allows LBRYians to interact with the team directly and for us to engage users and grow the LBRY platform. If you don't already, follow us on [Twitter](https://twitter.com/lbrycom), [Facebook](https://facebook.com/lbryio), [Reddit](https://www.reddit.com/r/lbry), [Instagram](https://www.instagram.com/lbryio), and [Telegram](https://t.me/lbryofficial).
+If you aren't part of our Discord community yet, [join us](https://chat.lbry.com) anytime and say hello! Our community allows LBRYians to interact with the team directly and for us to engage users and grow the LBRY platform. If you don't already, follow us on [Twitter](https://twitter.com/lbrycom), [Facebook](https://facebook.com/lbrycom), [Reddit](https://www.reddit.com/r/lbry), [Instagram](https://www.instagram.com/lbryio), and [Telegram](https://t.me/lbryofficial).
 
 ### LBRY.fund Featured Community Grants and Updates{#lbry-fund}
 The [LBRY.fund](https://lbry.fund) is a pool of LBC Credits set aside for promoting community development on the LBRY protocol. The fund is open to anybody, and you can submit requests for your ideas using, developing, or promoting use of the LBRY protocol, We're proud to share some of the projects we've funded.

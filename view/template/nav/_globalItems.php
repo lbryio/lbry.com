@@ -11,7 +11,7 @@
   <a href="https://twitter.com/lbrycom"><span class="btn-label">Twitter</span> <span class="icon-fw icon-twitter"></span></a>
 </div>
 <div class="control-item no-label-desktop">
-  <a href="https://www.facebook.com/lbryio"><span class="btn-label">Facebook</span> <span class="icon-fw icon-facebook"></span></a>
+  <a href="https://www.facebook.com/lbrycom"><span class="btn-label">Facebook</span> <span class="icon-fw icon-facebook"></span></a>
 </div>
 <div class="control-item no-label-desktop">
   <a href="https://reddit.com/r/lbry"><span class="btn-label">Reddit</span> <span class="icon-fw icon-reddit"></span> </a>
