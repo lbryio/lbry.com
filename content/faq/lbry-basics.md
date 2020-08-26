@@ -116,5 +116,5 @@ Currently, the LBRY in-app player supports MP4 videos, MP3 files, images, GIF im
 ## How do I begin troubleshooting problems myself?
 Please see [this guide](/faq/how-to-find-lbry-log-file) on how to find your LBRY log files. These may provide you additional information to troubleshoot issues or to provide to the [support team](/faq/support).
 
-## I need additional help. Where can find it? {#support}
+## I need additional help. Where can I find it? {#support}
 Please check our [other FAQ entries](/faq) for more information. We are always here to help as well and feel free to [reach out to us](/faq/support).
