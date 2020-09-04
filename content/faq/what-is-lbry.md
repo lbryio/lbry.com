@@ -45,4 +45,4 @@ For the same reasons that nobody can prevent a Bitcoin transaction from taking p
 
 We have bad news for you, you can use LBRY for free.
 
-[Download the LBRY app](/get?auto=1) or visit [lbry.tv](https://lbry.tv) for free and experience content freedom. Then [let us know what you think](https://chat.lbry.com)!.
+[Download the LBRY app](/get?auto=1) or visit [lbry.tv](https://lbry.tv) for free and experience content freedom. Then [let us know what you think](https://chat.lbry.com)!
