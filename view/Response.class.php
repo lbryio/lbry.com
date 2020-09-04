@@ -249,10 +249,10 @@ class Response
     public static function setDefaultSecurityHeaders()
     {
         $defaultHeaders = [
-      //'Content-Security-Policy' => "frame-ancestors 'none'",
-      //'X-Frame-Options'         => 'DENY',
-      'X-XSS-Protection'        => '1',
-    ];
+            'Content-Security-Policy' => "frame-ancestors 'none'",
+            'X-Frame-Options'         => 'DENY',
+            'X-XSS-Protection'        => '1',
+        ];
 
         if (IS_PRODUCTION) {
             $defaultHeaders['Strict-Transport-Security'] = 'max-age=31536000';
