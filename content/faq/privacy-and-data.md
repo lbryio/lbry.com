@@ -50,7 +50,7 @@ Blockchain metadata | yes | yes | yes | no |
 Blockchain transactions | yes | yes | yes | yes |
 
 ## What’s the difference between account data and cryptocurrency wallets?
-Each installable LBRY application also contains a cryptocurrency wallet That is stored locally on the respective device. The wallet allows you to store LBRY Credits and use them to [transact (spend, publish, purchase, and tip) on the network](https://lbry.com/faq/transaction-types). The private information, which is required to perform these actions, is under the sole control of the user.
+Each installable LBRY application also contains a cryptocurrency wallet that is stored locally on the respective device. The wallet allows you to store LBRY Credits and use them to [transact (spend, publish, purchase, and tip) on the network](https://lbry.com/faq/transaction-types). The private information, which is required to perform these actions, is under the sole control of the user.
 
 LBRY does provide a wallet syncing and backup mechanism to allow seamless access across multiple devices. The backup service ensures that a wallet can be retrieved by the user through their LBRY account in case they lose access to their local copy. Any storage and exchange of wallet data has end to end encryption, and the user can also provide an additional encryption password if desired.
 
