@@ -43,7 +43,7 @@ Typical disqualifications include:
 
 ## I'm eligible but not receiving tips, what can I do?
 
-We will monitor for new channels to opt in automatically, but most likely you will need to reach out to us if you quality. Please read the requirements carefully before contacting us. To reach out, [send us an email](mailto:hello@lbry.com) and tell us more about your channel and content. This will later be made clearer in the app and automated via an opt in process.
+We will monitor for new channels to opt in automatically, but most likely you will need to reach out to us if you qualify. Please read the requirements carefully before contacting us. To reach out, [send us an email](mailto:hello@lbry.com) and tell us more about your channel and content. This will later be made clearer in the app and automated via an opt in process.
 
 ## I'm in need of some assistance, can you help?
 
