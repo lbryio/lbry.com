@@ -3,6 +3,13 @@ title: Multisignature and Ledger hardware wallets
 category: powerusers
 ---
 
+**Important announcemnt**   
+Curently support for hardware wallets is broken cause the "derivation path is unusual" error. Read more [here](https://github.com/spesmilo/electrum/issues/6511) .
+If you have LBRY App version under 1.4.6 installed into Ledger device you can still use LBRY Vault without any problems.
+For users with App version 1.4.6+ is recomended to **backup wallet file** . If you lose this file you won't be able to recreate it.
+You can still can send and recive LBC into Ledger Device but you will need approve "The derivation path is unusual" error multiple times.
+We will update this page once problem gets fixed by Ledger and Electrum Teams.
+
 This guide is meant for power users and those who want to store LBRY Credits on their [Ledger Hardware devices](#HW) before official support is added.
 
 If you are participating in the LBRY Swarm program, this solution will allow you to store LBC at a multisignature address which typically requires more than 1 person to sign off on a transaction before it's sent to the network. **It is important to test a single small transaction incoming and outgoing before using the wallet to store larger amounts. Also make sure a backup is taken (see instructions below).**
