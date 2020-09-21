@@ -33,13 +33,7 @@
   }
 
   &.hero--half-height {
-    @media (min-width: 951px) {
-      height: 250px;
-    }
-
-    @media (max-width: 950px) {
-      height: 150px;
-    }
+    height: 250px;
   }
 
   &.hero--news {
