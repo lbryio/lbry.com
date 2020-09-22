@@ -35,7 +35,7 @@
       <h2>Business</h2>
     </div>
 
-    <?php foreach (['josh-finer', 'tom-zarebczan', 'julie-sigwart'] as $bioSlug): ?>
+    <?php foreach (['josh-finer', 'julian-chandra', 'tom-zarebczan', 'julie-sigwart'] as $bioSlug): ?>
       <?php echo View::render('content/_bio', ['person' => $bioSlug]) ?>
     <?php endforeach ?>
   </section>
