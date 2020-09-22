@@ -3,7 +3,7 @@ title: How do I change the location of blob files / hosted data?
 category: troubleshooting
 ---
 
-When you use the application LBRY Desktop on GNU/Linux, MacOS or Windows, you participate in the LBRY protocol which is a peer to peer, decentralized file sharing network similar to BitTorrent. As you upload and download conntent, the app will utilize your hard disk space for storing 2MB chunks of data used to share with others. The folder where these files are stored is named **blobfiles**, which is inside the [lbrynet folder](/faq/lbry-directories) and may grow over time. Currently there is no cleanup mechanism in place, so your drive may fill up with extended usage.
+When you use the application LBRY Desktop on GNU/Linux, MacOS or Windows, you participate in the LBRY protocol which is a peer to peer, decentralized file sharing network similar to BitTorrent. As you upload and download content, the app will utilize your hard disk space for storing 2MB chunks of data used to share with others. The folder where these files are stored is named **blobfiles**, which is inside the [lbrynet folder](/faq/lbry-directories) and may grow over time. Currently there is no cleanup mechanism in place, so your drive may fill up with extended usage.
 
 Currently there is no way to choose the location where these files are stored. The download folder setting is for the content files themselves, not the 2MB chunks. Because the application is installed on the operating system partition by default, this can be a problem if your partition is limited.
 

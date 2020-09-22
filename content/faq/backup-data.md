@@ -23,7 +23,7 @@ To summarize, the main directories to consider when backing up or migrating a LB
 
 ## How do I migrate all LBRY related data to a new installation?
 
-1. Install [LBRY](/get) onto the target PC. Close LBRY after the initial startup. LBRY minimizes to the system tray by defailt, so make sure that is is completely closed.
+1. Install [LBRY](/get) onto the target PC. Close LBRY after the initial startup. LBRY minimizes to the system tray by default, so make sure that is is completely closed.
 2. Copy the `lbrynet` folder from the previous section into the appropriate [location](/faq/lbry-directories) on your new installation.
 3. Copy the `lbryum` folder from the previous section into the appropriate [location](/faq/lbry-directories) on your new installation.
 4. Copy your LBRY Downloads from the previous section into the appropriate location.
