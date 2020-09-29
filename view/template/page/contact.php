@@ -19,6 +19,7 @@
         <li><a href="https://reddit.com/r/lbry" title="LBRY's subreddit">Reddit</a></li>
         <li><a href="https://facebook.com/lbrycom" title="LBRY's Facebook page">Facebook</a></li>
         <li><a href="https://t.me/lbryofficial" title="LBRY's Telegram channel">Telegram</a></li>
+        <li><a href="https://matrix.to/#/#lbry-community:madek.allaboutlbc.com" title="LBRY's Community Matrix Server">Matrix</a></li>
       </ul>
 
       <h3>Old School</h3>
