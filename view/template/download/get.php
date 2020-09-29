@@ -30,7 +30,14 @@
         <?php endif ?>
 
           <?php if ($os === OS::OS_ANDROID): ?>
-            <p style="font-size: 0.8rem;">You can also <a href="http://lbry.com/releases/lbry-android.apk" title="Download our Android app directly">download</a> our Android app directly</p>
+            <p style="font-size: 0.9rem;">You can also <a href="http://lbry.com/releases/lbry-android.apk" title="Download our Android app directly">download</a> our Android app directly</p>
+
+            <p style="font-size: 0.9rem;">Alternatively, scan the QR code below, to download the app on your Android Phone (allow from unknown sources):</p>
+
+            <figure>
+              <img src="/img/lbry-android-qr-code.png" alt="QR Code to APK file"/>
+              <figcaption>Scan this QR code on your Android phone, to get the APK file (may need to allow install from Unknown Sources in Android settings).</figcaption>
+            </figure>
           <?php endif ?>
 
           <br/><br/>
