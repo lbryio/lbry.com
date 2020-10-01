@@ -30,7 +30,7 @@
 
   <section class="home__callout">
     <p>LBRY is a secure, open, and community-run digital marketplace.</p>
-    <p>Enjoy the latest content from your favorite creators—as a user, not a product.</p>
+    <p>Enjoy the latest content from your favorite creators - as a user, not a product.</p>
   </section>
 
   <section class="home__hype">
@@ -43,7 +43,7 @@
 
     <section class="home__cta">
         <div class="inner-wrap">
-            <aside class="home__cta"><h2>Available on desktop, mobile, and in your browser.</h2></aside>
+            <aside class="home__cta"><h2>Now Available for Desktop, Mobile, and Web Browsers.</h2></aside>
           <?php echo View::render('download/_downloadRow') ?>
         </div>
     </section>
