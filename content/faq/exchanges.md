@@ -19,9 +19,6 @@ For a guide on buying/selling, see our [Bittrex purchasing/selling FAQ](/faq/buy
 - [Coindeal](https://frontend.coindeal.com/market/trade.html?pair=LBC/BTC)
 
 ## Instant exchanges
-- [Simple Swap](https://simpleswap.io)
-- [Stealthex](https://stealthex.io/)
-- [SwapSpace](https://swapspace.co)
 - [Swapzone](https://swapzone.io)
 
 ## Decentralized exchanges (DEX)
