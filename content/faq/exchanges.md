@@ -19,6 +19,7 @@ For a guide on buying/selling, see our [Bittrex purchasing/selling FAQ](/faq/buy
 - [Coindeal](https://frontend.coindeal.com/market/trade.html?pair=LBC/BTC)
 
 ## Instant exchanges
+Under maintenance / Not available currently:
 - [Simple Swap](https://simpleswap.io)
 - [Stealthex](https://stealthex.io/)
 - [SwapSpace](https://swapspace.co)
