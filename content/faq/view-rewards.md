@@ -6,7 +6,7 @@ order: 2
 
 We want creators to create quality content that other LBRY users will enjoy and to be able to earn at a comparable or greater amount to alternatives.
 
-If you publish quality original content, you may be eligible to receive additional rewards for views from validated lbry.tv accounts on behalf of us. These tips are separate from tips your followers may issue independently and ineligibility does not mean the content is demonetized.
+If you publish quality original content, you [may be eligible to receive additional rewards for views](#apply) from validated lbry.tv accounts on behalf of us. These tips are separate from tips your followers may issue independently and ineligibility does not mean the content is demonetized.
 
 We are slowly moving towards a reward system that's [outlined in our monetization blog post](https://lbry.tv/@lbry:3f/monetizationtwopointoh:5).
 
@@ -18,9 +18,9 @@ Creators will see these on their wallet page as Tips (filter on Received + Tips)
 
 ![](https://thumbs.spee.ch/view/@thumbnails:4c/9decca5b3974f17a.jpeg)
 
-## Requirements and disqualifications
+## Requirements and disqualifications {#requirements}
 
-Not all accounts are eligible for tips.
+Not all accounts may be eligible for tips from LBRY Inc via our rewards program.
 
 Existing YouTube synced channels with over 500 subscribers and other established creators on LBRY are automatically opted in. View rewards may vary based on type of content, quality, if homepage placements are used, and to prevent larger channels from getting a majority of LBC rewarded. Please see our [monetization goals blog post](https://lbry.tv/@lbry:3f/monetizationtwopointoh:5) for more details.
 
@@ -41,7 +41,7 @@ Typical disqualifications include:
 
 **LBRY Inc. reserves the right to disable or lessen view rewards on any account, similar to other rewards.**
 
-## I'm eligible but not receiving tips, what can I do?
+## I'm eligible but not receiving tips, what can I do? {#apply}
 
 We will monitor for new channels to opt in automatically, but most likely you will need to reach out to us if you qualify. Please read the requirements carefully before contacting us. To reach out, [send us an email](mailto:hello@lbry.com) and tell us more about your channel and content. This will later be made clearer in the app and automated via an opt in process.
 
