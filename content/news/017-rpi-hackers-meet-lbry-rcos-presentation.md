@@ -6,8 +6,6 @@ date: '2015-11-17 01:29:07'
 
 Last Friday, we had the pleasure of presenting LBRY to [RCOS](http://rcos.rpi.edu), the Rensselaer Center for Open Source Software. Jimmy was a member of this group when he attended RPI, and I certainly would have if I have known it had existed! In the years since I attended RPI it's grown from a handful of students to this:
 
-![RCOS 2015](http://rcos.rpi.edu/site-media/rcos/images/spring2015-group.jpg)
-
 ### Our Slides
 
 We gave a short overview of LBRY aimed at an audience that would already know BitTorrent, Bitcoin, and programming. On the slide that shows how LBRY works from a user's perspective, we gave a live streaming demo.
