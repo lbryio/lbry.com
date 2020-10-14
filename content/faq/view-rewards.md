@@ -1,50 +1,75 @@
 ---
-title: What are creator view rewards? What do creators earn for views?
+title: Monetization of Content
 category: publisher
 order: 2
 ---
 
-We want creators to create quality content that other LBRY users will enjoy and to be able to earn at a comparable or greater amount to alternatives.
+Creators that produce quality content that other users enjoy are monetized in a number of ways not limited to:
+1. Earnings per view from us (Rewards based on validated views from users that are signed in and hold validated accounts).
+2. Tips from users.
+3. Site/app promotions.
 
-If you publish quality original content, you [may be eligible to receive additional rewards for views](#apply) from validated lbry.tv accounts on behalf of us. These tips are separate from tips your followers may issue independently and ineligibility does not mean the content is demonetized.
+If you publish quality original content, you [may be eligible to receive view rewards](#apply) from us.
 
-We are slowly moving towards a reward system that's [outlined in our monetization blog post](https://lbry.tv/@lbry:3f/monetizationtwopointoh:5).
+## How do earnings per view work?
 
-## How creator view rewards work
-
-LBRY tracks views from lbry.tv users and other clients. When a user views your content that is reward-verified, we will automatically send an LBC tip for each of their daily first seven views. The view reward amount will vary and may change per LBRY Inc.'s discretion similar to other rewards based on homepage placements, type and quality of content, and to ensure that not one creator is earning a much higher percentage than others.
-
-Creators will see these on their wallet page as Tips (filter on Received + Tips) and they will be summed up monthly on the Rewards page under `Content View Tips: Month Year`. You may [unlock the tips](https://lbry.com/faq/tipping) to have the show in your balance, but while locked, they help your content be discovered.
+We track views from Odysee and other LBRY apps. When a user with a validated account views a creator's content, the creator receives a payment of Credits (LBRY Credits) for that view and is designated as a **Tip** on the wallet page. To prevent abuse, the first 7 daily validated views from a user will qualify.  
 
 ![](https://thumbs.spee.ch/view/@thumbnails:4c/9decca5b3974f17a.jpeg)
 
-## Requirements and disqualifications {#requirements}
+## How do I check how much I earn per view?
 
-Not all accounts may be eligible for tips from LBRY Inc via our rewards program.
+Click the User Avatar icon from the front page and then Channels to see your rate.
 
-Existing YouTube synced channels with over 500 subscribers and other established creators on LBRY are automatically opted in. View rewards may vary based on type of content, quality, if homepage placements are used, and to prevent larger channels from getting a majority of LBC rewarded. Please see our [monetization goals blog post](https://lbry.tv/@lbry:3f/monetizationtwopointoh:5) for more details.
+**Please note**: your rate is subject to change and is based on a number of variables including: average watch-time, average view count, type of content, engagement, creator location, price of credits, etc.
 
-In order for your account to qualify for view rewards, it must meet the following requirements:
+![](https://spee.ch/9/e03f4142ae5abdb8.png)
 
-- The majority of the content must be original content in video or audio form (we will expand to other formats later).
-- The content and channel must be properly tagged.
-- The account must be at least a week old.
+## How do I see a summary of what I have earned or been tipped?
 
-Typical disqualifications include:
+Click the Credit icon in the top right corner of the front page - this will take you to your wallet.
+Filter transactions by **Received** and **Tip**.
 
-- Spamming LBRY comments with your channel/content.
-- Participation in follow-for-follow/view-for-view activity on LBRY and other public/private chats.
-- Non-original, spam, manipulative, abusive, or other quality issues with your content.
-- Majority of content is non video/audio.
-- Majority of content is derivative works on top of other public/copyright-free/creative commons content.
-- Majority of content is related to airdrops/free money.
+Earning per view rewards will also be summarized monthly on the Rewards page under `Content View Tips: Month Year`.
 
-**LBRY Inc. reserves the right to disable or lessen view rewards on any account, similar to other rewards.**
+![](https://thumbs.spee.ch/view/@thumbnails:4c/9decca5b3974f17a.jpeg)
 
-## I'm eligible but not receiving tips, what can I do? {#apply}
+## How do I claim tips that I have earned per view and from users?
 
-We will monitor for new channels to opt in automatically, but most likely you will need to reach out to us if you qualify. Please read the requirements carefully before contacting us. To reach out, [send us an email](mailto:hello@lbry.com) and tell us more about your channel and content. This will later be made clearer in the app and automated via an opt in process.
+By leaving your tips locked in your content or channel, it increases its trust and discovery on the platform. 
+
+To unlock, access your your wallet, and filter transactions by **Received** and **Tip** and **Active**. You'll seed a padlock icon next to tips you've received.
+Click the padlock icon to unlock the tip you want to claim and have it enter your balance. 
+
+## How to qualify for monetization?
+
+All users are eligible to receive tips from other users and participate in any site/app promotional campaigns whereby Credits are offered as reward.
+
+Eligibility for earning per view is dependent on the following:
+
+1. The content must be your own original content and not derivative of others' original works.
+1. The content and channel must be accurately tagged.
+1. The account must be at least a week old.
+
+The following type of content is not eligible for earning per view:
+
+1. Copyrighted works.
+1. Illegal content.
+1. Controversial content (real violence, torture, abuse, pornography, incitation of hatred) - content that contains one or more of these elements but is not news/educational content.
+1. Spam.
+1. Republishes or derivative of works on top of other public/copyright-free/creative commons content.
+1. Related to airdrops/free money.
+
+The following can disqualify a user from monetisation:
+
+1. Spamming promotional messages.
+1. Participation in follow-for-follow/view-for-view activity on Odysee and other LBRY apps, as well as on public forums and within private chats.
+1. Any other abuse or maniupation of the rewards program.
+
+## I'm eligible for earning per view but I'm not earning anything, what do I do? {#apply}
+
+If you've carefully read the 'Eligibility for earning per view' criteria and believe your channel has not been monetized when it should be, [please email us](mailto:hello@lbry.com) with a link and description of your channel. YouTube Sync program users with over 500 subscribers should be automatically opted in if their content qualifies. 
 
 ## I'm in need of some assistance, can you help?
 
-Of course, we are always here to help! Check out our [help page](/faq/support) on how to reach us.
+Of course, we are always here to help! Check out our [help page](https://lbry.com/faq/support) on how to reach us.
