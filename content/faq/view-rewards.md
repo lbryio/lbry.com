@@ -9,7 +9,7 @@ Creators that produce quality content that other users enjoy are monetized in a 
 - Tips from users.
 - Site/app promotions.
 
-If you publish quality original content, you [may be eligible to receive view rewards](#apply) from us.
+If you upload quality original content, you [may be eligible to receive view rewards](#apply) from us.
 
 ## How do earnings per view work?
 
@@ -57,7 +57,7 @@ The following type of content is not eligible for earning per view:
 - Illegal content.
 - Controversial content (real violence, torture, abuse, incitation of hatred) - content that contains one or more of these elements but is not news/educational content.
 - Spam.
-- Republishes or derivative of works on top of other public/copyright-free/creative commons content.
+- Reuploads or derivative of works on top of other public/copyright-free/creative commons content.
 - Related to airdrops/free money.
 
 The following can disqualify a user from monetisation:
