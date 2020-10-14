@@ -5,9 +5,9 @@ order: 2
 ---
 
 Creators that produce quality content that other users enjoy are monetized in a number of ways not limited to:
-1. Earnings per view from us (Rewards based on validated views from users that are signed in and hold validated accounts).
-2. Tips from users.
-3. Site/app promotions.
+- Earnings per view from us (Rewards based on validated views from users that are signed in and hold validated accounts).
+- Tips from users.
+- Site/app promotions.
 
 If you publish quality original content, you [may be eligible to receive view rewards](#apply) from us.
 
@@ -47,24 +47,24 @@ All users are eligible to receive tips from other users and participate in any s
 
 Eligibility for earning per view is dependent on the following:
 
-1. The content must be your own original content and not derivative of others' original works.
-1. The content and channel must be accurately tagged.
-1. The account must be at least a week old.
+- The content must be your own original content and not derivative of others' original works.
+- The content and channel must be accurately tagged.
+- The account must be at least a week old.
 
 The following type of content is not eligible for earning per view:
 
-1. Copyrighted works.
-1. Illegal content.
-1. Controversial content (real violence, torture, abuse, pornography, incitation of hatred) - content that contains one or more of these elements but is not news/educational content.
-1. Spam.
-1. Republishes or derivative of works on top of other public/copyright-free/creative commons content.
-1. Related to airdrops/free money.
+- Copyrighted works.
+- Illegal content.
+- Controversial content (real violence, torture, abuse, incitation of hatred) - content that contains one or more of these elements but is not news/educational content.
+- Spam.
+- Republishes or derivative of works on top of other public/copyright-free/creative commons content.
+- Related to airdrops/free money.
 
 The following can disqualify a user from monetisation:
 
-1. Spamming promotional messages.
-1. Participation in follow-for-follow/view-for-view activity on Odysee and other LBRY apps, as well as on public forums and within private chats.
-1. Any other abuse or maniupation of the rewards program.
+- Spamming promotional messages.
+- Participation in follow-for-follow/view-for-view activity on Odysee and other LBRY apps, as well as on public forums and within private chats.
+- Any other abuse or maniupation of the rewards program.
 
 ## I'm eligible for earning per view but I'm not earning anything, what do I do? {#apply}
 
