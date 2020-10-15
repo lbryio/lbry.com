@@ -60,11 +60,11 @@ The following type of content is not eligible for earning per view:
 - Reuploads or derivative of works on top of other public/copyright-free/creative commons content.
 - Related to airdrops/free money.
 
-The following can disqualify a user from monetisation:
+The following can disqualify a user from monetization:
 
 - Spamming promotional messages.
 - Participation in follow-for-follow/view-for-view activity on Odysee and other LBRY apps, as well as on public forums and within private chats.
-- Any other abuse or maniupation of the rewards program.
+- Any other abuse or manipulation of the rewards program.
 
 ## I'm eligible for earning per view but I'm not earning anything, what do I do? {#apply}
 
