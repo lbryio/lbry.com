@@ -230,7 +230,7 @@ wonderfullife<span class="token punctuation">:</span> <span class="token punctua
         <li><p><strong>Expensive or impossible.</strong></p><p>Off-chain settlement will be a requirement for efficient purchases at any significant network size. Settlement providers, ourselves included, will be able to block purchases for infringing content. At significant traffic volume, if infringing content can't be outright removed or blocked, transaction fees will make it prohibitively expensive.</p></li>
       </ol>
 
-      <p>And of course, let's not forget that LBRY users are still subject to the DMCA and other laws governing intellectual property. Users who publishing infringing content are still subject to penalties for doing so in exactly the same way they would be via BitTorrent. LBRY only adds to the suite of options available. This makes LBRY a strict improvement over BitTorrent with regards to illegal usages, which provides none of the mechanisms listed.</p>
+      <p>And of course, let's not forget that LBRY users are still subject to the DMCA and other laws governing intellectual property. Users who publish infringing content are still subject to penalties for doing so in exactly the same way they would be via BitTorrent. LBRY only adds to the suite of options available. This makes LBRY a strict improvement over BitTorrent with regards to illegal usages, which provides none of the mechanisms listed.</p>
     </div>
   </section>
 
