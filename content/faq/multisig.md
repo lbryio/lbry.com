@@ -4,11 +4,7 @@ category: powerusers
 ---
 
 **Important announcement**
-Currently support for hardware wallets is broken cause the "derivation path is unusual" error. Read more [here](https://github.com/spesmilo/electrum/issues/6511) .
-If you have LBRY App version under 1.4.6 installed into Ledger device you can still use LBRY Vault without any problems.
-For users with App version 1.4.6+ is recommended to **backup wallet file** . If you lose this file you won't be able to recreate it.
-You can still can send and receive LBC into Ledger Device but you will need approve "The derivation path is unusual" error multiple times.
-We will update this page once problem gets fixed by Ledger and Electrum Teams.
+The latest version of LBRY Ledger app fixes issues with creating new wallets with hardware wallets. Make sure you have new version of app installed on your Ledger device via Ledger Manager. During creating/opening wallet files you might notice "derivation path is unusual" error, you can safely approve it (the adress shown on device tests if adresses are genearted in corect format).
 
 This guide is meant for power users and those who want to store LBRY Credits on their [Ledger Hardware devices](#HW) before official support is added.
 
