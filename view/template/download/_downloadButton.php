@@ -28,6 +28,11 @@
       href="<?php echo $downloadUrl ?>"
       title="Download our app"
     >Download</a>
+    <a
+      class="button button--fdroid
+      href="<?php echo $fdroidUrl ?>"
+      title="Download via F-Droid"
+    >Download</a>
   <?php endif ?>
 
   <?php if ($isAuto): ?>
