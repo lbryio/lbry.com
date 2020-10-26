@@ -30,7 +30,7 @@
         <?php endif ?>
 
           <?php if ($os === OS::OS_ANDROID): ?>
-            <p style="font-size: 0.8rem;">You can also <a href="http://lbry.com/releases/lbry-android.apk" title="Download our Android app directly">download</a> our Android app directly, or install it on <a href="http://f-droid.org/packages/io.lbry.browser" title="Get it on F-Droid">F-Droid</a>.</p>
+            <p style="font-size: 0.8rem;">You can also <a href="http://lbry.com/releases/lbry-android.apk" title="Download our Android app directly">download</a> our Android app directly.</p>
           <?php endif ?>
 
           <br/><br/>
