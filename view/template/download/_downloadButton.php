@@ -20,18 +20,18 @@
     <?php endif ?>
   <?php else: ?>
     <a
-      class="button button--google-play"
+      class="button button--fdroid"
+      href="<?php echo $downloadUrl ?>"
+      title="Download via F-droid"
+    >Download</a>
+    <a
+      class="button button--fdroid"
       data-analytics-action="Download"
       data-analytics-category="Sign Up"
       data-analytics-label="<?php echo $analyticsLabel ?>"
       data-facebook-track="1"
       href="<?php echo $downloadUrl ?>"
       title="Download our app"
-    >Download</a>
-    <a
-      class="button button--fdroid
-      href="<?php echo $fdroidUrl ?>"
-      title="Download via F-Droid"
     >Download</a>
   <?php endif ?>
 
