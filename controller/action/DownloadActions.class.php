@@ -4,6 +4,7 @@ class DownloadActions extends Actions
 {
     //bad, fix me!
     const ANDROID_STORE_URL = 'https://play.google.com/store/apps/details?id=io.lbry.browser';
+    const FDROID_STORE_URL = 'https://fdroid.com/packages/io.lbry.browser';
 
     public static function executeDownloadPrereleaseAsset(string $repo, string $ext)
     {
@@ -50,6 +51,7 @@ class DownloadActions extends Actions
       if ($os === OS::OS_ANDROID)
       {
         $params['downloadUrl'] = static::ANDROID_STORE_URL;
+        $params['fdroidUrl'] = static::FDROID_STORE_URL;
         $params['osScreenshotSrc'] = 'https://spee.ch/@lbry:3f/android-08-homepage.gif';
       }
       else

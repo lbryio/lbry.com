@@ -1,0 +1,5 @@
+vendor/
+scratch.php
+composer.lock
+build/
+.php_cs.cache

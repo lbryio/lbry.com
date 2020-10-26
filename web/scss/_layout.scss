@@ -171,6 +171,27 @@ input::placeholder {
   }
 }
 
+.button--fdroid {
+  @include hide-text;
+  width: 10rem; height: 4rem;
+
+  background-image: url("../img/fdroid-badge.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  position: relative;
+
+  .header & {
+    top: 0.5rem;
+  }
+
+  main & {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
 .flex-third {
   flex-basis: 33.333333%;
 }

@@ -22,6 +22,13 @@
             <a href="https://lbry.tv">Use on Web (lbry.tv)</a>
           </drawer-title>
         </drawer-section>
+        
+        <drawer-section class="header--mobile-only">
+          <drawer-title>
+            <a href="https://odysee.com">Use Odysee (odysee.com)</a>
+          </drawer-title>
+        </drawer-section>
+
 
         <drawer-section>
           <drawer-title>
@@ -253,6 +260,7 @@
       <span class="header__download">
         <a href="https://open.lbry.com" class="button button--primary">Open LBRY</a>
       </span>
+      
     </div>
   </header>
 <?php endif ?>

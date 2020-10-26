@@ -27,7 +27,10 @@
       data-facebook-track="1"
       href="<?php echo $downloadUrl ?>"
       title="Download our app"
-    >Download</a>
+      >Download</a>  
+
+    <a class="button button--fdroid" href="https://f-droid.org/en/packages/io.lbry.browser/" title="Download on F-Droid">Download via FDroid</a>
+
   <?php endif ?>
 
   <?php if ($isAuto): ?>

@@ -2,7 +2,7 @@
 
 set -e
 
-PHPBIN=php7.2
+PHPBIN=php7.3
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
