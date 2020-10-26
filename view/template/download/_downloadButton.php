@@ -25,7 +25,7 @@
       title="Download via F-droid"
     >Download</a>
     <a
-      class="button button--fdroid"
+      class="button button--google-play"
       data-analytics-action="Download"
       data-analytics-category="Sign Up"
       data-analytics-label="<?php echo $analyticsLabel ?>"
