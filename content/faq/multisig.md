@@ -56,11 +56,13 @@ LBRY Vault wallet files and blockchain data can be found in the App Data Roaming
 
 ## Troubleshooting
 
-If the balance is not updating properly or transaction not showing confirmed, try restarting the application. To resync the wallet data, delete the blockchain_headers file in `%appdata%\Electrum-lbry` and restart the application.
+1. If the balance is not updating properly or transaction not showing confirmed, try restarting the application. To resync the wallet data, delete the blockchain_headers file in `%appdata%\Electrum-lbry` and restart the application.
 
-If you are having trouble sending due to fees, make sure that fee estimation is set to static, and edit fees manually is checked under **Tools > Preferences**.
+2. If you are having trouble sending due to fees, make sure that fee estimation is set to static, and edit fees manually is checked under **Tools > Preferences**.
 
-If you have problems connecting to LBRY servers try adding one of community hosted server by going to **Tools > Network > Server.**
+3. If LBRY Vault stuck in connection mode (LBRY Vault keeps connecting and disconecting)  delete the blockchain_headers file in `%appdata%\Electrum-lbry` and restart the application.
+
+4. If you have problems connecting to LBRY servers try adding one of community hosted server by going to **Tools > Network > Server.**
 
 | Address   |      Region      |  Host |
 |----------|:-------------:|------:|
