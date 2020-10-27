@@ -20,11 +20,6 @@
     <?php endif ?>
   <?php else: ?>
     <a
-      class="button button--fdroid"
-      href="<?php echo $downloadUrl ?>"
-      title="Download via F-droid"
-    >Download</a>
-    <a
       class="button button--google-play"
       data-analytics-action="Download"
       data-analytics-category="Sign Up"
@@ -32,6 +27,11 @@
       data-facebook-track="1"
       href="<?php echo $downloadUrl ?>"
       title="Download our app"
+    >Download</a>
+    <a
+      class="button button--fdroid"
+      href="https://f-droid.org/packages/io.lbry.browser"
+      title="Download via F-droid"
     >Download</a>
   <?php endif ?>
 

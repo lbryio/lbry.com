@@ -23,6 +23,12 @@
           </drawer-title>
         </drawer-section>
 
+        <drawer-section class="header--mobile-only">
+          <drawer-title>
+            <a href="https://odysee.com">Use Odysee (odysee.com)</a>
+          </drawer-title>
+        </drawer-section>
+
         <drawer-section>
           <drawer-title>
             Community ⌄
