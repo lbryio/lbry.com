@@ -46,7 +46,7 @@ Evidently, Reddit really wants people to use their mobile app.
 
 Right now, it takes five clicks to view a GIF hosted on a non-Reddit site on mobile. It used to take one.
 
-<video controls src="https://spee.ch/@hostiletech/redditmobile.gif"></video>
+<iframe id="lbry-iframe" width="560" height="315" src="https://lbry.tv/$/embed/redditmobile/cf12fa4029185d66a4f6725da5d677113d940c2e?r=CPbTZ8H2XRWhickPGhzjrmYmdyyyKKM5" allowfullscreen></iframe>
 
 Not because there is anything wrong with the web-experience, of course. But forcing people onto mobile means Reddit can collect a lot more information about you. When pushed for an answer, Reddit's response was [less than impressive](https://www.reddit.com/r/redditmobile/comments/5yjqlp/why_am_i_forced_to_download_the_app_on_android/derkn32) - they claimed that they were annoying users to test ways to deliver better user experience.
 
