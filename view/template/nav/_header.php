@@ -45,7 +45,7 @@
               </drawer-child>
 
               <drawer-child>
-                <a href="https://lbry.tv/$/youtube">
+                <a href="/youtube">
                   <strong>Sync your YouTube Channel</strong>
                   <span>Sync your content instantly and start earning</span>
                 </a>
