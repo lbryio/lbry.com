@@ -45,8 +45,8 @@
               </drawer-child>
 
               <drawer-child>
-                <a href="/youtube">
-                  <strong>YouTube Partner Program</strong>
+                <a href="https://lbry.tv/$/youtube">
+                  <strong>Sync your YouTube Channel</strong>
                   <span>Sync your content instantly and start earning</span>
                 </a>
               </drawer-child>
