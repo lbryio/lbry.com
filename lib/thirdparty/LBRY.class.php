@@ -53,7 +53,7 @@ class LBRY
         return Curl::post(static::getApiUrl('/user/unsubscribe'), ['email' => $email], ['json_response' => true, 'timeout' => static::DEFAULT_TIMEOUT]);
     }
 
-    public static function connectYoutube($channel_name, $immediateSync = false)
+    /* public static function connectYoutube($channel_name, $immediateSync = false)
     {
         // Uncomment next line for production and comment other return
         return Curl::post(static::getApiUrl('/yt/new'), [ 'desired_lbry_channel_name' => $channel_name, 'immediate_sync' => $immediateSync, 'type' => 'sync' ], [ 'json_response' => true, 'timeout' => static::DEFAULT_TIMEOUT ]);
@@ -68,9 +68,10 @@ class LBRY
         //     'json_response' => true
         // ]);
     }
+    */
 
     // Check the sync status
-    public static function statusYoutube($status_token)
+    /* public static function statusYoutube($status_token)
     {
         return Curl::get(static::getApiUrl('/yt/status'), ['status_token' => $status_token], ['json_response' => true, 'timeout' => static::DEFAULT_TIMEOUT]);
     }
@@ -79,8 +80,10 @@ class LBRY
     {
         return CurlWithCache::post(static::getApiUrl('/yt/rewards'), [], ['cache' => 3600, 'json_response' => true, 'timeout' => static::DEFAULT_TIMEOUT]);
     }
+    */
+    
 
-    public static function editYouTube($status_token, $channel_name, $email, $sync_consent)
+    /* public static function editYouTube($status_token, $channel_name, $email, $sync_consent)
     {
         $postParams = array('status_token' => $status_token);
 
@@ -102,6 +105,7 @@ class LBRY
 
         return Curl::post(static::getApiUrl("/yt/update"), $postParams, ['json_response' => true, 'timeout' => static::DEFAULT_TIMEOUT]);
     }
+    */
 
     public static function logWebVisitor($site, $visitorID, $IPAddress)
     {

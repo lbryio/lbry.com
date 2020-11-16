@@ -2,9 +2,9 @@
 
 class AcquisitionActions extends Actions
 {
-    protected static $isYouTubeDisabled = false;
+    //protected static $isYouTubeDisabled = false;
 
-    public static function isYouTubeSyncEnabled()
+    /*public static function isYouTubeSyncEnabled()
     {
       return !static::$isYouTubeDisabled;
     }
@@ -45,6 +45,7 @@ class AcquisitionActions extends Actions
             'error_message' =>  $errorMessage
         ]];
     }
+    */
 
     public static function executeVerify(string $token)
     {
@@ -52,12 +53,14 @@ class AcquisitionActions extends Actions
         return ['acquisition/verify', ['token' => $token]];
     }
 
+    
     public static function executeAutoVerify()
     {
         Response::disableHttpCache();
         return ['acquisition/auto-verify'];
     }
-
+    
+    /*
     public static function executeYoutubeToken()
     {
         Response::disableHttpCache();
@@ -128,4 +131,5 @@ class AcquisitionActions extends Actions
     {
         return ['acquisition/youtube_status_redirect'];
     }
+    */
 }

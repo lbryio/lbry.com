@@ -13,7 +13,7 @@ class Config
     const GITHUB_APP_CLIENT_ID = "github_app_client_id";
     const GITHUB_APP_CLIENT_SECRET = "github_app_client_secret";
     const GITHUB_PERSONAL_AUTH_TOKEN = 'github_personal_auth_token';
-    const LBRY_API_SERVER = "lbry_api_server";
+    const LBRY_API_SERVER = "api.lbry.com";
     const MAILCHIMP_KEY = "mailchimp_key";
     const TRANSIFEX_API_KEY = 'transifex_api_key';
     const AWS_LOG_ACCESS_KEY = "aws_log_access_key";
