@@ -14,7 +14,7 @@ LBRY apps support dynamic trending and top discovery based on your interests and
 
 At the top of your Home area, you can toggle between Trending, Top, and New for either your channels, videos, audio, images, text or the whole LBRY network. When Top is selected, you can also choose the relevant time frame. You can also browse these same options for specific tags by clicking on the tag name anywhere on the screen or by searching for one.
 
-![pic](https://spee.ch/@lbrysh:6/lbry-new.jpeg)
+![pic](https://spee.ch/a/lbry-new.jpeg)
 
 ## How do these views work?
 
@@ -32,7 +32,7 @@ All of these views work the same whether you are viewing tags you follow, a sing
 
 To customize the tags you follow, click "Your Tags" from your home screen and select content areas that interest you. You can search for tags that have been used and follow those that interest you. You can even type in a tag that has never been used before, and follow it in case someone publishes content with that tag in the future.
 
-![yourtags](https://spee.ch/@lbrysh:6/your-tags.jpeg)
+![yourtags](https://spee.ch/6/your-tags.jpeg)
 
 ### Customizing channels
 
@@ -40,18 +40,18 @@ There are two ways to follow channels:
 
 1. Click the follow button for creators that you are interested in. These buttons appear on channel and content pages.
 
-![follow](https://spee.ch/@lbrysh:6/follow-v.jpg)
+![follow](https://spee.ch/f/follow-v.jpg)
 
 2. Click "Following" from your home screen to discover and follow new channels using the `Discover New Channels` option. Suggested channels include those most subscribed on LBRY, Top channels, and those who have been featured creators. More suggested channel options will be added in a future release.
 
-![pic](https://spee.ch/@lbrysh:6/following.jpeg)
-![follow-channel](https://spee.ch/@lbrysh:6/follow-channels.jpeg)
+![pic](https://spee.ch/1/following.jpeg)
+![follow-channel](https://spee.ch/e/follow-channels.jpeg)
 
 ### Exploring tags
 
 You can also explore each tag by clicking on it from anywhere on the screen or using the search function. Once you are on a tag page, you can click the follow button to add it to your customized list of tags.
 
-![exploretags](https://spee.ch/@lbrysh:6/follow-tag.jpg)
+![exploretags](https://spee.ch/1/follow-tag.jpg)
 
 ## How does content make it into top or trending?
 
