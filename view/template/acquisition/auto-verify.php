@@ -9,7 +9,7 @@
 
     <link rel="icon" href="images/favicon.ico"/>
 
-    <script src='https://www.google.com/recaptcha/api.js?' async defer></script>
+    <script src='https://hcaptcha.com/1/api.js' async defer></script>
 
     <script>
       const ENDPOINT = '<?php echo LBRY::getApiUrl('/user_email/confirm')?>'
@@ -67,7 +67,7 @@
           <div id="captcha-block">
             <p>Click the captcha to continue...</p>
             <br/>
-            <div class="g-recaptcha" data-sitekey="6LePsJgUAAAAAFTuWOKRLnyoNKhm0HA4C3elrFMG" data-callback="verifyCallback" data-expired-callback="expiredCallback"></div>
+            <div class="h-captcha" data-sitekey="9f3a05f1-610b-4c8a-84f8-b809b5929118" data-callback="verifyCallback" data-expired-callback="expiredCallback"></div>
           </div>
 
           <div style="display: none; margin-top: 10px;" id="verify">
