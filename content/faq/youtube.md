@@ -6,9 +6,11 @@ order: 4
 
 **IMPORTANT NOTE: Our sync queue for existing channels may be delayed for some users. If you are having issues with your channel, please email us at hello@lbry.com. Newly synced channels are currently backlogged and will take anywhere from a few days to a couple weeks to process.**
 
-LBRY offers an easy way for YouTubers to republish their content to the LBRY network, engage with LBRY users, and earn LBC. This program is available to new and existing LBRY users - installing or using our platform is not a prerequisite to syncing your channel. LBRY provides a one-click sync process that gathers your channel and video metadata (i.e. covers, thumbnails, etc.), creates a channel for you on LBRY, and publishes your videos to it. Creators with over 500 subs that qualify for sync are eligible for [view rewards](/faq/view-rewards).
+LBRY and Odysee.com offer an easy way for YouTubers to republish their content to the LBRY network, engage with LBRY users, and earn LBC. This program is available to new and existing LBRY users - using our platform is not a prerequisite to syncing your channel. We provide a one-click sync process that gathers your channel and video metadata (i.e. covers, thumbnails, etc.), creates a channel for you on LBRY, and publishes your videos to it. 
 
-To sync your existing YouTube channel to LBRY and learn more about the program, go to [lbry.com/youtube](/youtube).
+To qualify, the channel must have over 300 YouTube subscribers and recent, regular, and original content - see [requirements and limitations section](#limits) below for full details. Creators with over 500 subs also qualify for [view rewards](/faq/view-rewards).
+
+To sync your existing YouTube, start the process during sign up or from the Upload > Sync my Channel option on https://odysee.com
 
 **Please note:** The sync process will create a new channel for your channel which is later [transferred](#transfer) to you. If you created a channel in the app beforehand, [please see instructions on how to clean it up](#cleanup).
 
@@ -61,14 +63,13 @@ You are responsible for keeping your wallet safe | no |  maybe\* |
 
 ## Limitations {#limits}
 - **Subscription count must be public on YouTube**
-- Videos longer than 1 hour will only be synced for channels with more than 1000 subscribers
-- Videos longer than 2 hours will not be synced
-- Videos bigger than 2GB will be synced at lower quality (1080p, 720p, 480p, ...)
-- Only your 1000 most recent videos will be synced
-- Due to high demand, you will be only be synced if you have at least 100 subscribers 
-- Private or unlisted videos will not be published, but everything else will
+- Synced video limits: 80 under 600 subs, 200 under 800 subs, 250 under 1K subs, 400 under 5K subs, 500 under 10K, and 1K videos for all higher sub counts.
+- Video length limits: 30 minutes under 500 subs, 1hr under 1K subs, and 2hr for all higher sub counts. Longer videos will be skipped.
+- Videos bigger than 2GB will be synced at lower quality (720p, 480p, ...)
+- Due to high demand, you will be only be synced if you have at least 300 subscribers.
+- Private or unlisted videos will not be published, but everything else will.
 
-Exceptions can be discussed. Contact us at hello@lbry.com
+Exceptions can be discussed. Contact us at hello@lbry.com.
 
 ## What happens if I created a channel and/or published to LBRY before transfer? {#cleanup}
 
