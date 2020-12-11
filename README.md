@@ -9,14 +9,7 @@
 </div>
 
 <div align="center">
-  <video
-            autoplay
-            loop
-            playsinline
-          >
-            <source src="https://cdn.lbryplayer.xyz/content/claims/2019-09-lbry-interface-mp4-2/0/stream.mp4" type="video/mp4"/>
-            <source src="https://cdn.lbryplayer.xyz/content/claims/2019-09-lbry-interface-webm-2/b/stream.webm" type="video/webm"/>
-          </video>
+<img src="https://lbry.com/img/website-screenshot.png">
 </div>
 
 <div align="center">
