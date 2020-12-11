@@ -46,7 +46,7 @@
   div {
     font-size: 1rem;
 
-    a:not(:first-of-type):not(.button--google-play) {
+    a:not(:first-of-type):not(.button--google-play):not(.button--fdroid) {
       margin-left: 1rem;
     }
   }

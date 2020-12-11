@@ -28,6 +28,16 @@
       href="<?php echo $downloadUrl ?>"
       title="Download our app"
     >Download</a>
+
+    <a
+      class="button button--fdroid"
+      data-analytics-action="Download"
+      data-analytics-category="Sign Up"
+      data-analytics-label="<?php echo $analyticsLabel ?>"
+      data-facebook-track="1"
+      href="https://f-droid.org/en/packages/io.lbry.browser/"
+      title="Download on F-droid"
+    >Download</a>
   <?php endif ?>
 
   <?php if ($isAuto): ?>
