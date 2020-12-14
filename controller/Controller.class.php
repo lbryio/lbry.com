@@ -111,7 +111,6 @@ class Controller
         $router->get(['/', 'home'], 'ContentActions::executeHome');
 
         $router->get(['/get', 'get'], 'DownloadActions::executeGet');
-        $router->get(['/getrubin', 'getrubin'], 'DownloadActions::executeGet');
 
         foreach (array_keys(OS::getAll()) as $os) {
           $router->get(['/' . $os, 'get-' . $os], 'DownloadActions::executeGet');
@@ -132,20 +131,8 @@ class Controller
         $router->any('/dmca', 'ReportActions::executeDmca');
         $router->any('/dmca/{claimid}', 'ReportActions::executeDmcaWithClaimId');
 
-        $router->get('/escapeyoutube', 'AcquisitionActions::executeYouTube');
-        $router->get('/escapeyoutubeiframe', 'AcquisitionActions::executeYouTubeIframe');
-
-        $router->post('/youtube/edit', 'AcquisitionActions::executeYoutubeEdit');
-        $router->post('/youtube/token', 'AcquisitionActions::executeYoutubeToken');
         $router->any('/youtube/status/{token}', 'AcquisitionActions::executeYoutubeStatus');
-        $router->any('/youtube/status', 'AcquisitionActions::executeRedirectYoutube');
         $router->any('/youtube', 'AcquisitionActions::executeYouTube');
-        $router->get('/youtube/{version}', 'AcquisitionActions::executeYouTube');
-
-        $router->get('/verify/{token}', 'AcquisitionActions::executeVerify');
-        $router->get('/verify', 'AcquisitionActions::executeAutoVerify');
-
-        $router->get('/follow/{claim}', 'AcquisitionActions::executeFollowCampaign');
 
         $router->get('/i18n/get/{project}/{resource}/{language}.json', 'i18nActions::executeServeTranslationFile');
 

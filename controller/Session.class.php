@@ -3,7 +3,6 @@
 class Session
 {
     const KEY_LIST_SUB_ERROR = 'list_error',
-        KEY_YOUTUBE_SYNC_ERROR = 'youtube_sync_error',
         KEY_USER_CULTURE = 'user_culture';
 
     const NAMESPACE_DEFAULT = 'default',

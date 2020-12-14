@@ -27,9 +27,7 @@ h2,
 h3,
 h4,
 h5 {
-  &:not(.weight-light):not(.weight-normal) {
-    font-weight: 600;
-  }
+  font-weight: 600;
 
   &.weight-light {
     font-weight: 200;
@@ -196,10 +194,6 @@ input::placeholder {
   @media (min-width: 801px) {
     display: none;
   }
-}
-
-.align-text--center {
-  text-align: center;
 }
 
 .inner-wrap {
