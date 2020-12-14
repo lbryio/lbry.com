@@ -50,6 +50,7 @@
 /lbry-linux-latest.deb:   /get
 /lbry-osx-latest.dmg:     /get
 /news/get:                /get
+/getrubin:                /get
 
 # Mailing List
 /join-list: /list/subscribe
@@ -141,3 +142,7 @@
 /block-explorer:      https://explorer.lbry.com/
 /shop:                https://shop.lbry.com/
 
+# Legacy YouTube Sync
+/escapeyoutube: /youtube
+/escapeyoutubeiframe: /youtube
+/youtube/status: /youtube

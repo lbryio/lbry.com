@@ -10,7 +10,7 @@
 
   <section>
     <div class="inner-wrap">
-      <p class="align-text--center">Top priorities, definitions of success, status, and target completion dates for key initiatives in
+      <p>Top priorities, definitions of success, status, and target completion dates for key initiatives in
         <select id="roadmap-year-select">
           <?php foreach ($years as $aYear): ?>
               <option value="<?php echo $aYear ?>" <?php echo $aYear == $year ? 'selected="selected"' : '' ?>>
