@@ -127,10 +127,10 @@ section {
 
 small {
   font-size: 0.8rem;
+}
 
-  &.meta {
-    color: var(--lbry-gray-5);
-  }
+.meta {
+  color: var(--lbry-gray-5);
 }
 
 strong {

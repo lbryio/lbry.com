@@ -251,7 +251,7 @@
       <?php js_end() ?>
 
       <span class="header__download">
-        <a href="https://open.lbry.com" class="button button--primary">Open LBRY</a>
+        <a href="https://open.lbry.com" class="button button--primary">Try Odysee</a>
       </span>
     </div>
   </header>

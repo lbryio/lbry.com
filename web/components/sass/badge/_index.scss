@@ -22,11 +22,6 @@
 
 .badge--free {
   background-color: var(--lbry-blue-2);
-
-  [data-mode="dark"] & {
-    background-color: var(--lbry-blue-3);
-    color: var(--lbry-black);
-  }
 }
 
 .badge--large {
@@ -34,14 +29,6 @@
   line-height: 1;
 }
 
-.badge--nsfw {
-  background-color: var(--lbry-grape-2);
-
-  [data-mode="dark"] & {
-    background-color: var(--lbry-grape-3);
-    color: var(--lbry-black);
-  }
-}
 
 .badge--primary {
   background-color: var(--lbry-teal-5);
