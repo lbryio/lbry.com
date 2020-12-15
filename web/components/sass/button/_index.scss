@@ -2,6 +2,7 @@
   fill: currentColor;
   position: relative;
   white-space: nowrap;
+  display: inline-block;
 }
 
 .button--alt {
@@ -62,16 +63,8 @@
   color: inherit;
   transition: background-color 0.2s;
 
-  [data-mode="dark"] & {
-    border-color: rgba($lbry-white, 0.1);
-  }
-
   &:hover {
     background-color: var(--lbry-gray-1);
-
-    [data-mode="dark"] & {
-      background-color: rgba($lbry-white, 0.1);
-    }
   }
 }
 
