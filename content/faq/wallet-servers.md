@@ -9,7 +9,7 @@ Wallet servers are used to relay data to and from the LBRY blockchain. They also
 
 [LBRY Desktop](https://lbry.com/get) is required to configure and connect to a custom wallet server. Navigate to the Settings page and scroll down to experimental settings. Choose **Use custom wallet servers**. Here you can enter the server and port of the wallet server. The connection status will update after a few seconds. If an invalid server is used or it becomes unavailable, you'll lose any wallet and discovery features. If this happens on startup, it will reset to the lbry.tv servers.
 
-![config](https://spee.ch/@lbrynews:0/wallet-servers.jpeg)
+![config](https://spee.ch/e/wallet-servers.jpeg)
 
 ## Why would I want to run my own wallet server?
 
