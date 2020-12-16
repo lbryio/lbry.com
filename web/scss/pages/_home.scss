@@ -1,3 +1,7 @@
+main.home {
+  padding-bottom: 0 !important; //this site is poison i'm not fixing it
+}
+
 .home__hero,
 .home__sites {
   .inner-wrap {
@@ -8,25 +12,32 @@
 }
 
 .home__callout {
-  background-image: linear-gradient(to right, $lbry-teal-2, $lbry-cyan-3 100%);
+  background-image: linear-gradient(to right, $lbry-teal-5, $lbry-cyan-5 100%);
   background-size: cover;
   color: var(--lbry-white);
-  padding: 2rem;
-  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 
   font-size: 1.2rem;
 
   h2 {
+    text-align: center;
     margin-bottom: 1rem;
   }
 
   h2, p {
+    padding-right: 1rem;
+    padding-left: 1rem;
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
   }
+  p {
+    font-size: 1.0rem;
+  }
 
   iframe {
+    display: block;
     max-width: 560px;
     margin-left: auto;
     margin-right: auto;
@@ -63,6 +74,18 @@
     margin-bottom: 1rem;
   }
 
+  @media (min-width: 1001px) and (max-width: 1250px) {
+    h1 {
+      font-size: 2.0rem;
+    }
+  }
+
+  @media (max-width: 1000px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+  }
+
   p {
     margin-bottom: 1rem;
   }
@@ -82,8 +105,9 @@
 
 .home__hero {
   flex: 1;
-  padding-top: 4rem;
+  padding-top: 2rem;
   padding-bottom: 2rem;
+
 
   .inner-wrap {
     flex-direction: column;
@@ -148,6 +172,7 @@
 }
 
 .home__sites {
+  border-top: 1px solid var(--lbry-gray-1);
   background-color: var(--lbry-white);
   font-size: 1rem;
   padding-top: 2rem;
