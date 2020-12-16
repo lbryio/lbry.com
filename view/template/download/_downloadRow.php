@@ -11,7 +11,7 @@
                   <img style="height: 40px;" src="https://odysee.com/public/img/odysee.png" />
               </a>
               <br/>
-              <small class="meta" style=" display: inline-block; max-width: 160px">use LBRY in your browser, with odysee.com</small>
+              <small class="meta" style=" display: inline-block; max-width: 160px">use LBRY in your browser, with <a class="button button--link" href="https://odysee.com">odysee.com</a></small>
 
           </div>
 </div>

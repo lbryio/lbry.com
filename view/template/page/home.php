@@ -30,8 +30,8 @@
   </section>
 
   <section class="home__callout">
-    <h2>Enjoy the latest content from your favorite creators - as a user, not a product.</h2>
-      <p>This video shows footage from <a href="https://odysee.com">odysee.com</a>, the most popular LBRY app. This same content can be accessed by <a href="/get">LBRY Desktop</a> and other clients as part of the web 3.0 LBRY network.</p>
+    <h2 style="max-width: 700px">Enjoy the latest content from your favorite creators - as a user, not a product.</h2>
+      <p style="max-width: 800px">This video shows footage from <a href="https://odysee.com">odysee.com</a>, the most popular LBRY app. This same content can be accessed by <a href="/get">LBRY Desktop</a> and other clients as part of the web 3.0 LBRY network.</p>
       <div class="inner-wrap" style="margin-top: 1rem">
       <iframe id="lbry-iframe" width="560" height="315" src="https://odysee.com/$/embed/odysee/7a416c44a6888d94fe045241bbac055c726332aa?r=9wKhJPioiNxTBjT6Zoqaf7LNDJcauUjg" allowfullscreen></iframe>
       </div>
@@ -39,7 +39,7 @@
 
     <section class="home__cta">
         <div class="inner-wrap">
-            <aside class="home__cta"><h2>Use Desktop and Mobile apps for control. Use web for ease.</h2></aside>
+            <aside class="home__cta"><h2>Use Desktop and Mobile apps for full control.<br/>Use odysee.com for ease.</h2></aside>
           <?php echo View::render('download/_downloadRow') ?>
         </div>
     </section>
