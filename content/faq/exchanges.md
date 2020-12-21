@@ -14,9 +14,7 @@ For a guide on buying/selling, see our [Bittrex purchasing/selling FAQ](/faq/buy
 - [Hotbit](https://www.hotbit.io/exchange?symbol=LBC_BTC) / [USDT](https://www.hotbit.io/exchange?symbol=LBC_USDT)
 - [CoinEx BTC](https://www.coinex.com/exchange?currency=btc&dest=lbc) / [USDT](https://www.coinex.com/exchange?currency=usdt&dest=lbc)
 - [Upbit](https://upbit.com/exchange?code=CRIX.UPBIT.BTC-LBC)
-- [VCC](https://vcc.exchange/exchange/basic?currency=btc&coin=lbc)
 - [Coinspot](https://www.coinspot.com.au/buy/lbc)
-- [Coindeal](https://frontend.coindeal.com/market/trade.html?pair=LBC/BTC)
 
 ## Instant exchanges - Crypto Only (currently under maintenance and not available)
 - [Simple Swap](https://simpleswap.io)
