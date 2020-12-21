@@ -18,7 +18,7 @@ For a guide on buying/selling, see our [Bittrex purchasing/selling FAQ](/faq/buy
 - [Coinspot](https://www.coinspot.com.au/buy/lbc)
 - [Coindeal](https://frontend.coindeal.com/market/trade.html?pair=LBC/BTC)
 
-## Instant exchanges - Crypto Only
+## Instant exchanges - Crypto Only (currently under maintenance and not available)
 - [Simple Swap](https://simpleswap.io)
 - [Stealthex](https://stealthex.io/)
 - [SwapSpace](https://swapspace.co)
