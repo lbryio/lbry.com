@@ -257,6 +257,16 @@
     margin-bottom: 1rem;
     padding-top: 1rem;
 
+    td {
+      &:first-child {
+        white-space: nowrap;
+      }
+      
+      min-width: 150px;
+      border-right: 1px solid var(--lbry-gray-1);
+      &:last-child { border-right: 0 none; }
+    }
+
     ul {
       margin: 0 !important; padding: 0 !important;
 
