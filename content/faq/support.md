@@ -17,8 +17,8 @@ If you're using LBRY Desktop, LBRY log files will help us better understand the 
 
 To report an issue, you can do one of the following:
 
-1. Send us an email to [help@lbry.com](mailto:help@lbry.com) with the details of your issue or bug report. If it's troubleshooting related, please attach [your LBRY log file](/faq/how-to-find-lbry-log-file).
+- Send us an email to [help@lbry.com](mailto:help@lbry.com) with the details of your issue or bug report. If it's troubleshooting related, please attach [your LBRY log file](/faq/how-to-find-lbry-log-file).
 
-2. Go to the "Help" page of the app and then click the "Submit a Bug Report" button.
+- Go to the "Help" page of the app and then click the "Submit a Bug Report" button.
 
-3. If you're a developer or otherwise technical and want to interact with LBRY developers directly, you're welcome to open an issue directly on GitHub. Please try to open network or protocol related issues [here](https://github.com/lbryio/lbry/issues) and interface, usability, and other application related issues [here](https://github.com/lbryio/lbry-desktop/issues). We would appreciate a quick search to see if similar issues already exist, as well.
+- If you're a developer or otherwise technical and want to interact with LBRY developers directly, you're welcome to open an issue directly on GitHub. Please try to open network or protocol related issues [on our sdk channel in github](https://github.com/lbryio/lbry/issues) and interface, usability, and other application related issues [going to issues over your platform of choice](https://github.com/lbryio) (such as [desktop](https://github.com/lbryio/lbry-desktop/issues)). We would appreciate a quick search to see if similar issues already exist, as well.
