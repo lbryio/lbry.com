@@ -3,7 +3,7 @@ title: How does the invite program work?
 category: getstarted
 ---
 
-You can earn LBRY Credits (LBC) for inviting others to use LBRY as well as letting us know who invited you. Invite new users to LBRY via email or a customized link on the [Invites page of LBRY Desktop or lbry.tv](http://open.lbry.com/?invite). This page will also show the status of existing invites. Both the inviter and invitee are eligible for the reward. 
+You can earn LBRY Credits (LBC) for inviting others to use LBRY as well as letting us know who invited you. Invite new users to LBRY via email or a customized link on the [Invites page of LBRY Desktop or lbry.tv](http://open.lbry.com/?invite). This page will also show the status of existing invites. Both the inviter and invitee are eligible for a reward. 
 
 *Note: Referral redemptions are typically limited to 20, but increases as your channel grows in popularity on LBRY. See the [limits section below](#limits)*
 
@@ -31,7 +31,7 @@ For a limited time, you can claim a reward for being invited and letting us know
 
 ## How many LBRY Credits do I earn?
 
-New invites are eligible for a 15 LBC reward (subject to change based on our discretion).
+New invites are eligible for a 8 LBC reward (subject to change based on our discretion).
 
 ## Is there a limit to the credits I can earn? {#limits}
 
