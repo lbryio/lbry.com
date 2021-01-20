@@ -103,7 +103,7 @@ You can subscribe to a channel by clicking the Follow button from the homepage, 
 ![Manage tags](https://spee.ch/@lbryfaqsc:7/LBRY-manage-tags.jpg)
 
 ## How can I block channels?
-You can block a channel by clicking the **Block** button from the homepage, channel page, or content pages.
+You can block a channel by clicking the **Block** button from the homepage, channel page, or content pages. Blocking only prevents you from seeing content from the channel you block. Blocked channel can still access your content.
 
 ## Content consistently fails to stream or download. What should I do?
 Please see our [streaming guide](/faq/unable-to-stream) if you consistently cannot download or stream content on LBRY. If you are having intermittent issues with download failures, try closing LBRY Desktop completely (including ending the "lbrynet.exe" process in task manager) and re-initiating the download.
