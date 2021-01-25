@@ -20,6 +20,10 @@
   <a href="https://chat.lbry.com">
     <img src="https://img.shields.io/discord/362322208485277697.svg?style=flat-square&logo=discord"/>
   </a>
+
+  <a href="https://tosdr.org/en/service/2391">
+    <img src="https://shields.tosdr.org/en_2391.svg"/>
+  </a>
 </div>
 
 
@@ -78,5 +82,3 @@ The primary contact for this project is [@netoperatorwibby](https://github.com/n
 - [Facebook](https://www.facebook.com/lbrycom) - LBRY Facebook page
 - [Reddit](https://reddit.com/r/lbry) - LBRY Reddit page
 - [Telegram](https://t.me/lbryofficial) - Telegram group
-
-
