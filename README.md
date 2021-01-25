@@ -9,7 +9,9 @@
 </div>
 
 <div align="center">
-<img src="https://lbry.com/img/website-screenshot.png">
+ <a href="https://lbry.com">
+ <img src="https://lbry.com/img/website-screenshot.png">
+ </a>
 </div>
 
 <div align="center">
