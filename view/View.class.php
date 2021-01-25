@@ -117,16 +117,16 @@ class View
 
     public static function compileCss()
     {
-        $scssCompiler = new \Leafo\ScssPhp\Compiler();
+        $scssCompiler = new \ScssPhp\ScssPhp\Compiler();
 
         $scssCompiler->setImportPaths([self::COMPONENTS_DIR, self::COLORS_DIR, self::SCSS_DIR]);
 
         $compress = true;
         if ($compress) {
-            $scssCompiler->setFormatter('Leafo\ScssPhp\Formatter\Crunched');
+            $scssCompiler->setFormatter('ScssPhp\ScssPhp\Formatter\Crunched');
         } else {
-            $scssCompiler->setFormatter('Leafo\ScssPhp\Formatter\Expanded');
-            $scssCompiler->setLineNumberStyle(Leafo\ScssPhp\Compiler::LINE_COMMENTS);
+            $scssCompiler->setFormatter('ScssPhp\ScssPhp\Formatter\Expanded');
+            $scssCompiler->setLineNumberStyle(ScssPhp\ScssPhp\Compiler::LINE_COMMENTS);
         }
 
         $all_css = $scssCompiler->compile(file_get_contents(self::SCSS_DIR . '/all.scss'));

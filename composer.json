@@ -8,11 +8,11 @@
     "ext-pdo": "*",
     "ext-pdo_mysql": "*",
     "ext-json": "*",
-    "leafo/scssphp": "0.7.6",
-    "erusev/parsedown": "^1.6",
-    "erusev/parsedown-extra": "^0.7.1",
-    "pelago/emogrifier": "^2.0",
-    "mustangostang/spyc": "^0.6.2",
+    "scssphp/scssphp":"^1.3",
+    "erusev/parsedown": "^1.7",
+    "erusev/parsedown-extra": "^0.8.0",
+    "pelago/emogrifier": "^4.0.0",
+    "mustangostang/spyc": "0.6.3",
     "masterminds/html5": "^2.7"
   }
 }
