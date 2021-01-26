@@ -188,6 +188,21 @@ input::placeholder {
   }
 }
 
+.odysee{
+@media (min-width: 901px) {
+  img{
+    height: 40px;
+  }
+}
+// i want to detect android phones here because of fdroid problem, please help me
+@media (max-width: 900px) {
+  img {
+    height: 40px;
+  }
+  padding-top: 1.5rem;
+ }
+}
+
 .flex-third {
   flex-basis: 33.333333%;
 }
