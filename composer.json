@@ -14,5 +14,8 @@
     "pelago/emogrifier": "^4.0.0",
     "mustangostang/spyc": "0.6.3",
     "masterminds/html5": "^2.7"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
   }
 }

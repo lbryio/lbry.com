@@ -57,6 +57,12 @@
         <p>Do you have an awesome idea that could use some help? Want to connect with like-minded users?</p>
         <a href="https://lbry.org" class="button button--inverse">Join the party at LBRY.org</a>
       </aside>
+      
+      <aside class="home__site home__site--asfeatured">
+        <h3>As featured on</h3>
+        <a href="https://techcrunch.com/2020/12/07/odysee-launch/"><img src="../img/asfeaturedon/techcrunch.svg" /></a>
+      </aside>
+
     </div>
   </section>
 </main>
