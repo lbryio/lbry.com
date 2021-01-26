@@ -1,7 +1,7 @@
 {
   "name": "lbry/lbry.com",
   "require": {
-    "php": ">=7.2.5",
+    "php": ">=7.3",
     "ext-curl": "*",
     "ext-mbstring": "*",
     "ext-xml": "*",
