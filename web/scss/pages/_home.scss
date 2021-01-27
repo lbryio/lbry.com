@@ -248,15 +248,30 @@ main.home {
     padding-top: 2rem;
     padding-bottom: 5rem;
   }
+  @media (min-width: 901px) {
+    h3 {
+      padding-top: 1rem;
+    }
+  }
 
   h3 {
     padding-bottom: 1rem;  
     }
 
   img {
-    align-content: center;
-    max-width: 100%;
-    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  #reclaim {
+    background-color: black;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 

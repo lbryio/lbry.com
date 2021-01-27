@@ -61,6 +61,7 @@
       <aside class="home__site home__site--asfeatured">
         <h3>As featured on</h3>
         <a href="https://techcrunch.com/2020/12/07/odysee-launch/"><img src="../img/asfeaturedon/techcrunch.svg" /></a>
+        <a href="https://reclaimthenet.org/odysee-traffic-doubles-jan-2020/"><img id="reclaim" src="../img/asfeaturedon/reclaimthenet.png" /></a>
       </aside>
 
     </div>
