@@ -1,5 +1,7 @@
 {
   "name": "lbry/lbry.com",
+  "description": "lbry.com, the website for the LBRY protocol",
+  "license": "MIT", 
   "require": {
     "php": ">=7.3",
     "ext-curl": "*",
