@@ -16,7 +16,7 @@
       <?php if ($downloadUrl): ?>
 
         <div style="margin-bottom: 2rem; text-align: center;">
-          <p>Securely download the LBRY app here, and see what all the fuss is about!</p>
+          <p>Securely download the LBRY app here, and see what all the fuss is all about!</p>
           <?php $metaHtml = $os !== OS::OS_ANDROID ? View::Render('download/_meta') : false ?>
           <?php echo View::Render('download/_downloadButton', [
             'buttonStyle' => 'primary',

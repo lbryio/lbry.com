@@ -174,7 +174,6 @@ input::placeholder {
 .button--fdroid {
   @include hide-text;
   width: 10rem; height: 4rem;
-
   background-image: url("../img/fdroid-badge.png");
   background-position: center;
   background-repeat: no-repeat;
