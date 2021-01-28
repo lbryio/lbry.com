@@ -131,7 +131,7 @@ Channels and content claims are saved to your LBRY Wallet along with your LBRY C
 
 ## How and where can I share my content?
 
-LBRY URLs can be shared with anyone - users can view it in their Desktop app or on [lbry.tv](https://lbry.tv) (see Share button in app). If the content is free and public, it can also be retrieved through [spee.ch](https://www.spee.ch) by going to https://spee.ch/<claimname> or https://spee.ch/<@channelname>. You can also share the content on our on [Discord](https://chat.lbry.com) where we have a vibrant community with thousands of users.
+LBRY URLs can be shared with anyone - users can view it in their Desktop app or on [lbry.tv](https://lbry.tv) (see Share button in app). If the content is free and public. You can also share the content on our on [Discord](https://chat.lbry.com) where we have a vibrant community with thousands of users.
 
 ## I'm an advanced user, is there more I can poke around with?
 
