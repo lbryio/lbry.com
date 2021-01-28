@@ -1,4 +1,5 @@
 # Security Policy
+Our PGP key is [here](https://keybase.io/lbry/key.asc) if you need it.
 
 ## Supported PHP Versions
 
@@ -18,4 +19,4 @@ currently being supported with composer updates, to increase security.
 
 Go to "issues" tab, or pull request it yourself to fix this issue. That would be really appreciated.
 If you want to fix some vulnerability on desktop apps like lbry desktop, go to their respective pages and make a pull request.
-If you want some help, email us at [hello@lbry.com](mailto:hello@lbry.com)
+If you want to talk about security issues, email us at [security@lbry.com](mailto:security@lbry.com)
