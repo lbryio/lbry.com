@@ -10,10 +10,15 @@ currently being supported with composer updates, to increase security.
 | ----------- |      ---------     |
 | PHP 5.6.x   | :x:                |
 | PHP 7.0.x   | :x:                |
-| PHP 7.2.5+  | :white_check_mark: |
+| PHP 7.2.x   | :x:                |
 | PHP 7.3.x   | :white_check_mark: |
 | PHP 7.4.x   | :white_check_mark: |
 | PHP 8.x.x   | (soon)             |
+
+## Composer Security Advisories
+
+We added Roave Security Advisories to notify on every composer plugins that are vulnerable to attacks, etc.
+If you spot one while cloning, developing, or updating a dependency, please don't hesitate to message us. 
 
 ## Reporting a Vulnerability
 
