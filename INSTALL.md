@@ -1,10 +1,10 @@
 # Installation
 
 ## Prerequisites
-To run this project, you'll need to have either PHP7.3 or Docker installed, and be using either macOS or Linux.
+To run this project, you'll need to have either PHP7.2 or Docker installed, and be using either macOS or Linux.
 
 ## Development
-- Install [PHP7.3](http://php.net/downloads.php)
+- Install [PHP7.2 and up](http://php.net/downloads.php)
 - Possibly install additional PHP extensions: `curl` / `dom` / `mbstring` / `xml`
 - Checkout the project and install submodules: `git submodule update --init`
 - If you have already cloned the project, be sure to update submodules: `git submodule update --recursive --remote`
