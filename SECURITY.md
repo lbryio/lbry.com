@@ -9,7 +9,7 @@ currently being supported with composer updates, to increase security.
 | PHP Version |      Supported     |
 | ----------- |      ---------     |
 | PHP 5.6.x   | :x:                |
-| PHP 7.0.x   | :x:                |
+| PHP 7.0.x   | :white_check_mark: |
 | PHP 7.2.x   | :white_check_mark: |
 | PHP 7.3.x   | :white_check_mark: |
 | PHP 7.4.x   | :white_check_mark: |
@@ -22,6 +22,6 @@ If you spot one while cloning, developing, or updating a dependency, please don'
 
 ## Reporting a Vulnerability
 
-Go to "issues" tab, or pull request it yourself to fix this issue. That would be really appreciated.
+Go to pull request and if it's possible to code it yourself, do that to fix this issue. That would be really appreciated.
 If you want to fix some vulnerability on desktop apps like lbry desktop, go to their respective pages and make a pull request.
 If you want to talk about security issues, email us at [security@lbry.com](mailto:security@lbry.com)

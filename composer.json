@@ -3,7 +3,7 @@
   "description": "lbry.com, the website for the LBRY protocol",
   "license": "MIT", 
   "require": {
-    "php": ">=7.2.34",
+    "php": ">=7.0",
     "ext-curl": "*",
     "ext-mbstring": "*",
     "ext-xml": "*",
@@ -16,7 +16,8 @@
     "erusev/parsedown-extra": "^0.8.0",
     "pelago/emogrifier": "^4.0.0",
     "mustangostang/spyc": "0.6.3",
-    "masterminds/html5": "^2.7"
+    "masterminds/html5": "^2.7",
+    "symfony/css-selector": "^3.4.4"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest"

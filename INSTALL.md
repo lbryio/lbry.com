@@ -1,15 +1,26 @@
 # Installation
 
 ## Prerequisites
-To run this project, you'll need to have either PHP7.2 or Docker installed, and be using either macOS or Linux.
+To run this project, you'll need to have either PHP7.0 or Docker installed, and be using either macOS or Linux.
 
 ## Development
-- Install [PHP7.2 and up](http://php.net/downloads.php)
+- Install [PHP7.0 and up](http://php.net/downloads.php)
 - Possibly install additional PHP extensions: `curl` / `dom` / `mbstring` / `xml`
 - Checkout the project and install submodules: `git submodule update --init`
 - If you have already cloned the project, be sure to update submodules: `git submodule update --recursive --remote`
 - Run `./dev.sh` from the project root
 - Access [localhost:8000](http://localhost:8000) in your browser
+
+## Installing Composer
+To quickly install composer, run the following script to the terminal:
+```
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php -r "if (hash_file('sha384', 'composer-setup.php') === '756890a4488ce9024fc62c56153228907f1545c228516cbf63f885e036d37e9a59d27d63f46af1d4d07ee0f76181c7d3') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+php composer-setup.php
+php -r "unlink('composer-setup.php');"
+```
+then run 'composer update' to check the latest updates for your php version.
+More documentation available here on [https://getcomposer.org/doc](https://getcomposer.org/doc).
 
 ## Verifying Install
 If `localhost:8000` returns the lbry.com website, it's running correctly.
