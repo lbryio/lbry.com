@@ -75,7 +75,9 @@ class Dispatcher
         try {
             $handler = $this->dispatchVariableRoute($httpMethod, $uri);
             return (boolean)$handler;
-        } catch (HttpRouteNotFoundException | HttpMethodNotAllowedException $e) {
+        } 
+        catch (HttpRouteNotFoundException | HttpMethodNotAllowedException $e) 
+        {
             return false;
         }
 
