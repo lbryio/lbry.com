@@ -48,8 +48,8 @@ class ContentActions extends Actions
             $posts = array_filter(
                 Post::find(static::VIEW_FOLDER_NEWS, Post::SORT_DATE_DESC),
                 function (Post $post) {
-            return !$post->getDate() || $post->getDate()->format('U') <= date('U');
-        }
+                    return !$post->getDate() || $post->getDate()->format('U') <= date('U');
+                }
             );
 
             if ($slug == static::SLUG_RSS) {
@@ -269,8 +269,8 @@ class ContentActions extends Actions
         $posts = array_filter(
             Post::find(static::VIEW_FOLDER_NEWS, Post::SORT_DATE_DESC),
             function (Post $post) use ($category) {
-          return (($post->getCategory() === $category) && (!$post->getDate() || $post->getDate()->format('U') <= date('U')));
-      }
+                return (($post->getCategory() === $category) && (!$post->getDate() || $post->getDate()->format('U') <= date('U')));
+            }
         );
 
 
@@ -289,8 +289,8 @@ class ContentActions extends Actions
       array_filter(
           array_map('View::parseMarkdown', glob(static::VIEW_FOLDER_JOBS . '/*')),
           function ($job) {
-            return $job[0]['status'] !== 'closed';
-        }
+              return $job[0]['status'] !== 'closed';
+          }
       );
 
         usort($jobs, function ($jobA, $jobB) {
