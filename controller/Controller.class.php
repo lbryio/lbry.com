@@ -113,7 +113,7 @@ class Controller
         $router->get(['/get', 'get'], 'DownloadActions::executeGet');
 
         foreach (array_keys(OS::getAll()) as $os) {
-          $router->get(['/' . $os, 'get-' . $os], 'DownloadActions::executeGet');
+            $router->get(['/' . $os, 'get-' . $os], 'DownloadActions::executeGet');
         }
 
         $router->get('/roadmap', 'ContentActions::executeRoadmap');

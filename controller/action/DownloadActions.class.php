@@ -18,14 +18,14 @@ class DownloadActions extends Actions
     public static function executeDownloadSnapshot(string $type)
     {
         if (!in_array($type, ['blockchain', 'wallet'])) {
-          return ['page/404'];
+            return ['page/404'];
         }
 
         $bucketName = "snapshots.lbry.com";
         $bucket = S3::getBucket($bucketName, "$type/");
 
         if (!count($bucket)) {
-          return ['page/404'];
+            return ['page/404'];
         }
 
         krsort($bucket);
@@ -37,9 +37,9 @@ class DownloadActions extends Actions
      */
     public static function getGetTemplateParams($os)
     {
-      $osChoices = OS::getAll();
-      list($uri, $osTitle, $osIcon) = $osChoices[$os];
-      $params = [
+        $osChoices = OS::getAll();
+        list($uri, $osTitle, $osIcon) = $osChoices[$os];
+        $params = [
         'preferredExt' => $os === Os::OS_LINUX ? 'AppImage' : '',
         'osTitle' => $osTitle,
         'osIcon' => $osIcon,
@@ -47,18 +47,15 @@ class DownloadActions extends Actions
         'os' => $os
       ];
 
-      if ($os === OS::OS_ANDROID)
-      {
-        $params['downloadUrl'] = static::ANDROID_STORE_URL;
-        $params['osScreenshotSrc'] = 'https://spee.ch/@lbry:3f/android-08-homepage.gif';
-      }
-      else
-      {
-        $asset = Github::getRepoAsset(GitHub::REPO_LBRY_DESKTOP, $os, $params['preferredExt']);
-        $params['downloadUrl'] = $asset ? $asset['browser_download_url'] : null;
-      }
+        if ($os === OS::OS_ANDROID) {
+            $params['downloadUrl'] = static::ANDROID_STORE_URL;
+            $params['osScreenshotSrc'] = 'https://spee.ch/@lbry:3f/android-08-homepage.gif';
+        } else {
+            $asset = Github::getRepoAsset(GitHub::REPO_LBRY_DESKTOP, $os, $params['preferredExt']);
+            $params['downloadUrl'] = $asset ? $asset['browser_download_url'] : null;
+        }
 
-      return $params;
+        return $params;
     }
 
     public static function executeGet()
@@ -136,17 +133,17 @@ class DownloadActions extends Actions
             list($uri, $osTitle, $osIcon, $oldButtonLabel, $analyticsLabel) = $osChoices[$os];
 
             if ($os !== OS::OS_ANDROID) {
-              $asset = Github::getRepoAsset(GitHub::REPO_LBRY_DESKTOP, $os, $vars['preferredExt'] ?? '');
+                $asset = Github::getRepoAsset(GitHub::REPO_LBRY_DESKTOP, $os, $vars['preferredExt'] ?? '');
             } else {
-              $asset = ['browser_download_url' => static::ANDROID_STORE_URL];
+                $asset = ['browser_download_url' => static::ANDROID_STORE_URL];
             }
 
-          $buttonLabel = __('download.for-os2', ['%os%' => OS::OS_DETAIL($os)[1]]);
-          if (isset($vars['preferredExt']) && $vars['preferredExt']) {
-            $buttonLabel = __('Download .%ext%', ['%ext%' => $vars['preferredExt']]);
-          }
+            $buttonLabel = __('download.for-os2', ['%os%' => OS::OS_DETAIL($os)[1]]);
+            if (isset($vars['preferredExt']) && $vars['preferredExt']) {
+                $buttonLabel = __('Download .%ext%', ['%ext%' => $vars['preferredExt']]);
+            }
 
-          $vars += [
+            $vars += [
             'analyticsLabel' => $analyticsLabel,
             'buttonLabel' => $buttonLabel,
             'isDownload' => true,
@@ -160,8 +157,8 @@ class DownloadActions extends Actions
 
 
             if ($os === OS::OS_LINUX && !isset($vars['preferredExt'])) {
-              $vars['isDownload'] = false;
-              $vars['downloadUrl'] = '/linux';
+                $vars['isDownload'] = false;
+                $vars['downloadUrl'] = '/linux';
             }
         }
 
@@ -169,24 +166,24 @@ class DownloadActions extends Actions
     }
 
 
-  public static function prepareMetaPartial(array $vars)
-  {
-    $osChoices = OS::getAll();
+    public static function prepareMetaPartial(array $vars)
+    {
+        $osChoices = OS::getAll();
 
-    $os = static::guessOS();
+        $os = static::guessOS();
 
-    if ($os && isset($osChoices[$os])) {
-      list($uri, $osTitle, $osIcon, $buttonLabel, $analyticsLabel) = $osChoices[$os];
+        if ($os && isset($osChoices[$os])) {
+            list($uri, $osTitle, $osIcon, $buttonLabel, $analyticsLabel) = $osChoices[$os];
 
-      if ($os !== OS::OS_ANDROID) {
-        $release = Github::getRepoRelease(GitHub::REPO_LBRY_DESKTOP, false);
-        $asset = Github::getRepoAsset(GitHub::REPO_LBRY_DESKTOP, $os);
-      } else {
-        $asset = ['browser_download_url' => static::ANDROID_STORE_URL, 'size' => 0];
-        $release = [];
-      }
+            if ($os !== OS::OS_ANDROID) {
+                $release = Github::getRepoRelease(GitHub::REPO_LBRY_DESKTOP, false);
+                $asset = Github::getRepoAsset(GitHub::REPO_LBRY_DESKTOP, $os);
+            } else {
+                $asset = ['browser_download_url' => static::ANDROID_STORE_URL, 'size' => 0];
+                $release = [];
+            }
 
-      $vars += [
+            $vars += [
         'os' => $os,
         'osTitle' => $osTitle,
         'osIcon' => $osIcon,
@@ -196,8 +193,8 @@ class DownloadActions extends Actions
         'version' => $release ? $release['name'] : null,
         'isAuto' => Request::getParam('auto'),
       ];
-    }
+        }
 
-    return $vars;
-  }
+        return $vars;
+    }
 }

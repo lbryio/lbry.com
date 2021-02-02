@@ -26,7 +26,7 @@ class Session
         header_remove('expires');
 
         if (!static::get('secure_and_httponly_set')) {
-          session_regenerate_id(); // ensure that old cookies get new settings
+            session_regenerate_id(); // ensure that old cookies get new settings
         }
         static::set('secure_and_httponly_set', true);
 

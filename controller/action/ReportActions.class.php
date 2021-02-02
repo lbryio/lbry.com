@@ -10,8 +10,8 @@ class ReportActions extends Actions
      * @return array
      * @throws Exception
      */
-    public static function executeDmca() {
-
+    public static function executeDmca()
+    {
         self::setResponseHeader();
         self::redirectIfPostRequest(false, '');
 
@@ -35,8 +35,8 @@ class ReportActions extends Actions
      * @return array
      * @throws Exception
      */
-    public static function executeDmcaWithClaimId(string $claimId): array {
-
+    public static function executeDmcaWithClaimId(string $claimId): array
+    {
         $claimId = htmlspecialchars($claimId);
 
         self::setResponseHeader();
@@ -63,7 +63,6 @@ class ReportActions extends Actions
      */
     private static function validateForm(array $values, array $errors)
     {
-
         foreach (['name', 'email', 'rightsholder', 'identifier'] as $field) {
             $value = Request::getPostParam($field);
 
@@ -82,7 +81,6 @@ class ReportActions extends Actions
             Session::setFlash('success', '<h3>Report Submitted</h3><p>We will respond shortly.</p><p>This ID for this report is <strong>' . $values['report_id'] . '</strong>. Please reference this ID when contacting us regarding this report.</p>');
             return Controller::redirect(Request::getRelativeUri(), 303);
         }
-
     }
 
     /**
@@ -101,8 +99,8 @@ class ReportActions extends Actions
      *
      * @return array
      */
-    private static function redirectIfPostRequest(bool $hasClaimId = false, string $claimId = '') {
-
+    private static function redirectIfPostRequest(bool $hasClaimId = false, string $claimId = '')
+    {
         if ($hasClaimId && !empty($claimId)) {
             $returnValue = ['report/dmca', ['claimId' => $claimId]];
         } else {

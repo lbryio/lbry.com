@@ -15,8 +15,8 @@ class LBRY
 
     public static function listTags($authToken)
     {
-      $response = Curl::get(static::getApiUrl('/tag/list'), ['auth_token' => $authToken], ['json_response' => true]);
-      return $response['data'] ?? [];
+        $response = Curl::get(static::getApiUrl('/tag/list'), ['auth_token' => $authToken], ['json_response' => true]);
+        return $response['data'] ?? [];
     }
 
     public static function subscribe($email, $tag = null)
@@ -31,9 +31,9 @@ class LBRY
     {
         list($status, $headers, $body) = Curl::doCurl(
             Curl::POST,
-          static::getApiUrl('/user_email/status'),
-          ['auth_token' => $token],
-          ['json_response' => true, 'timeout' => static::DEFAULT_TIMEOUT]
+            static::getApiUrl('/user_email/status'),
+            ['auth_token' => $token],
+            ['json_response' => true, 'timeout' => static::DEFAULT_TIMEOUT]
         );
         return array($status,$headers,$body);
     }

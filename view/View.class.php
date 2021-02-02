@@ -193,8 +193,7 @@ class View
             }
 
             return $parser->saveHTML($dom);
-        }
-        catch (Error $e) {
+        } catch (Error $e) {
             Slack::slackGrin();
             return $html;
         }

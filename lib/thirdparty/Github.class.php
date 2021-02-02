@@ -102,10 +102,10 @@ class Github
         }
 
         return CurlWithCache::get(
-        'https://api.github.com' . $endpoint . '?' . http_build_query($params),
-        [],
-      ['headers' => $headers, 'user_agent' => 'LBRY', 'json_response' => true, 'cache' => $cache === true ? $twoHoursInSeconds : $cache]
-    );
+            'https://api.github.com' . $endpoint . '?' . http_build_query($params),
+            [],
+            ['headers' => $headers, 'user_agent' => 'LBRY', 'json_response' => true, 'cache' => $cache === true ? $twoHoursInSeconds : $cache]
+        );
     }
 
     public static function listRoadmapItems($year, $cache = true)

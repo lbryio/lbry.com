@@ -46,11 +46,11 @@ class ContentActions extends Actions
 
         if (!$slug || $slug == static::SLUG_RSS) {
             $posts = array_filter(
-        Post::find(static::VIEW_FOLDER_NEWS, Post::SORT_DATE_DESC),
-        function (Post $post) {
+                Post::find(static::VIEW_FOLDER_NEWS, Post::SORT_DATE_DESC),
+                function (Post $post) {
             return !$post->getDate() || $post->getDate()->format('U') <= date('U');
         }
-      );
+            );
 
             if ($slug == static::SLUG_RSS) {
                 Response::setHeader(Response::HEADER_CONTENT_TYPE, 'text/xml; charset=utf-8');
@@ -267,11 +267,11 @@ class ContentActions extends Actions
         $filter_post = [];
 
         $posts = array_filter(
-      Post::find(static::VIEW_FOLDER_NEWS, Post::SORT_DATE_DESC),
-      function (Post $post) use ($category) {
+            Post::find(static::VIEW_FOLDER_NEWS, Post::SORT_DATE_DESC),
+            function (Post $post) use ($category) {
           return (($post->getCategory() === $category) && (!$post->getDate() || $post->getDate()->format('U') <= date('U')));
       }
-    );
+        );
 
 
 
@@ -287,8 +287,8 @@ class ContentActions extends Actions
     {
         $jobs =
       array_filter(
-        array_map('View::parseMarkdown', glob(static::VIEW_FOLDER_JOBS . '/*')),
-        function ($job) {
+          array_map('View::parseMarkdown', glob(static::VIEW_FOLDER_JOBS . '/*')),
+          function ($job) {
             return $job[0]['status'] !== 'closed';
         }
       );

@@ -1,7 +1,7 @@
 <?php
-return array (
+return array(
     0 =>
-        array (
+        array(
             'url' => 'https://api.github.com/repos/lbryio/internal-issues/issues/243',
             'repository_url' => 'https://api.github.com/repos/lbryio/internal-issues',
             'labels_url' => 'https://api.github.com/repos/lbryio/internal-issues/issues/243/labels{/name}',
@@ -13,7 +13,7 @@ return array (
             'number' => 243,
             'title' => 'Android 1.0',
             'user' =>
-                array (
+                array(
                     'login' => 'kauffj',
                     'id' => 530774,
                     'node_id' => 'MDQ6VXNlcjUzMDc3NA==',
@@ -34,9 +34,9 @@ return array (
                     'site_admin' => false,
                 ),
             'labels' =>
-                array (
+                array(
                     0 =>
-                        array (
+                        array(
                             'id' => 1153942272,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyMjcy',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/2019',
@@ -45,7 +45,7 @@ return array (
                             'default' => false,
                         ),
                     1 =>
-                        array (
+                        array(
                             'id' => 1153942434,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyNDM0',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/App%20Team',
@@ -54,7 +54,7 @@ return array (
                             'default' => false,
                         ),
                     2 =>
-                        array (
+                        array(
                             'id' => 1222257315,
                             'node_id' => 'MDU6TGFiZWwxMjIyMjU3MzE1',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/Q1',
@@ -65,15 +65,15 @@ return array (
                 ),
             'state' => 'open',
             'locked' => false,
-            'assignee' => NULL,
+            'assignee' => null,
             'assignees' =>
-                array (
+                array(
                 ),
-            'milestone' => NULL,
+            'milestone' => null,
             'comments' => 3,
             'created_at' => '2019-01-07T18:50:36Z',
             'updated_at' => '2019-02-05T23:45:18Z',
-            'closed_at' => NULL,
+            'closed_at' => null,
             'author_association' => 'NONE',
             'body_html' => '<p>LBRY released a functional mobile beta in 2018.</p>
 <p>As soon as possible in 2019 we must release a proper mobile app as well as promotion around it.</p>
@@ -85,7 +85,7 @@ return array (
 </ol>',
         ),
     1 =>
-        array (
+        array(
             'url' => 'https://api.github.com/repos/lbryio/internal-issues/issues/242',
             'repository_url' => 'https://api.github.com/repos/lbryio/internal-issues',
             'labels_url' => 'https://api.github.com/repos/lbryio/internal-issues/issues/242/labels{/name}',
@@ -97,7 +97,7 @@ return array (
             'number' => 242,
             'title' => 'Advertising',
             'user' =>
-                array (
+                array(
                     'login' => 'kauffj',
                     'id' => 530774,
                     'node_id' => 'MDQ6VXNlcjUzMDc3NA==',
@@ -118,9 +118,9 @@ return array (
                     'site_admin' => false,
                 ),
             'labels' =>
-                array (
+                array(
                     0 =>
-                        array (
+                        array(
                             'id' => 1153942272,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyMjcy',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/2019',
@@ -129,7 +129,7 @@ return array (
                             'default' => false,
                         ),
                     1 =>
-                        array (
+                        array(
                             'id' => 1153942434,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyNDM0',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/App%20Team',
@@ -138,7 +138,7 @@ return array (
                             'default' => false,
                         ),
                     2 =>
-                        array (
+                        array(
                             'id' => 1153942704,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyNzA0',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/Growth%20Team',
@@ -147,7 +147,7 @@ return array (
                             'default' => false,
                         ),
                     3 =>
-                        array (
+                        array(
                             'id' => 1222257445,
                             'node_id' => 'MDU6TGFiZWwxMjIyMjU3NDQ1',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/Q3',
@@ -158,15 +158,15 @@ return array (
                 ),
             'state' => 'open',
             'locked' => false,
-            'assignee' => NULL,
+            'assignee' => null,
             'assignees' =>
-                array (
+                array(
                 ),
-            'milestone' => NULL,
+            'milestone' => null,
             'comments' => 6,
             'created_at' => '2019-01-07T18:01:17Z',
             'updated_at' => '2019-02-05T23:50:06Z',
-            'closed_at' => NULL,
+            'closed_at' => null,
             'author_association' => 'NONE',
             'body_html' => '<p>A significant majority of people prefer advertisements to paying small fees for content. Adding advertisements would allow users who are in that category to avoid spending LBC for content. Additionally, advertisements would allow new users to watch sufficiently cheap content for free without needing to acquire LBC, reducing startup costs.</p>
 <p>The most likely model for advertisements is:</p>
@@ -183,7 +183,7 @@ return array (
 </ol>',
         ),
     2 =>
-        array (
+        array(
             'url' => 'https://api.github.com/repos/lbryio/internal-issues/issues/237',
             'repository_url' => 'https://api.github.com/repos/lbryio/internal-issues',
             'labels_url' => 'https://api.github.com/repos/lbryio/internal-issues/issues/237/labels{/name}',
@@ -195,7 +195,7 @@ return array (
             'number' => 237,
             'title' => 'Technical Community',
             'user' =>
-                array (
+                array(
                     'login' => 'kauffj',
                     'id' => 530774,
                     'node_id' => 'MDQ6VXNlcjUzMDc3NA==',
@@ -216,9 +216,9 @@ return array (
                     'site_admin' => false,
                 ),
             'labels' =>
-                array (
+                array(
                     0 =>
-                        array (
+                        array(
                             'id' => 1153942272,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyMjcy',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/2019',
@@ -227,7 +227,7 @@ return array (
                             'default' => false,
                         ),
                     1 =>
-                        array (
+                        array(
                             'id' => 1153942434,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyNDM0',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/App%20Team',
@@ -236,7 +236,7 @@ return array (
                             'default' => false,
                         ),
                     2 =>
-                        array (
+                        array(
                             'id' => 1153942605,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyNjA1',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/Blockchain%20Team',
@@ -245,7 +245,7 @@ return array (
                             'default' => false,
                         ),
                     3 =>
-                        array (
+                        array(
                             'id' => 647280744,
                             'node_id' => 'MDU6TGFiZWw2NDcyODA3NDQ=',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/Epic',
@@ -254,7 +254,7 @@ return array (
                             'default' => false,
                         ),
                     4 =>
-                        array (
+                        array(
                             'id' => 1153942704,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyNzA0',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/Growth%20Team',
@@ -263,7 +263,7 @@ return array (
                             'default' => false,
                         ),
                     5 =>
-                        array (
+                        array(
                             'id' => 1222257315,
                             'node_id' => 'MDU6TGFiZWwxMjIyMjU3MzE1',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/Q1',
@@ -272,7 +272,7 @@ return array (
                             'default' => false,
                         ),
                     6 =>
-                        array (
+                        array(
                             'id' => 1153942516,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyNTE2',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/SDK%20Team',
@@ -283,15 +283,15 @@ return array (
                 ),
             'state' => 'open',
             'locked' => false,
-            'assignee' => NULL,
+            'assignee' => null,
             'assignees' =>
-                array (
+                array(
                 ),
-            'milestone' => NULL,
+            'milestone' => null,
             'comments' => 4,
             'created_at' => '2018-12-07T16:24:18Z',
             'updated_at' => '2019-02-05T23:58:59Z',
-            'closed_at' => NULL,
+            'closed_at' => null,
             'author_association' => 'NONE',
             'body_html' => '<p>Lbry.tech only soft-launched at the end of 2018 and the whitepaper and full specification of the protocol are only just being added as 2019 goals are being specified.</p>
 <p>With these resources ready, LBRY should make a concerted effort to grow it’s technical reputation and 3rd-party development.</p>
@@ -306,7 +306,7 @@ return array (
 </ol>',
         ),
     3 =>
-        array (
+        array(
             'url' => 'https://api.github.com/repos/lbryio/internal-issues/issues/236',
             'repository_url' => 'https://api.github.com/repos/lbryio/internal-issues',
             'labels_url' => 'https://api.github.com/repos/lbryio/internal-issues/issues/236/labels{/name}',
@@ -318,7 +318,7 @@ return array (
             'number' => 236,
             'title' => 'Robust Data Market',
             'user' =>
-                array (
+                array(
                     'login' => 'kauffj',
                     'id' => 530774,
                     'node_id' => 'MDQ6VXNlcjUzMDc3NA==',
@@ -339,9 +339,9 @@ return array (
                     'site_admin' => false,
                 ),
             'labels' =>
-                array (
+                array(
                     0 =>
-                        array (
+                        array(
                             'id' => 1153942272,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyMjcy',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/2019',
@@ -350,7 +350,7 @@ return array (
                             'default' => false,
                         ),
                     1 =>
-                        array (
+                        array(
                             'id' => 1153942605,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyNjA1',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/Blockchain%20Team',
@@ -359,7 +359,7 @@ return array (
                             'default' => false,
                         ),
                     2 =>
-                        array (
+                        array(
                             'id' => 647280744,
                             'node_id' => 'MDU6TGFiZWw2NDcyODA3NDQ=',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/Epic',
@@ -368,7 +368,7 @@ return array (
                             'default' => false,
                         ),
                     3 =>
-                        array (
+                        array(
                             'id' => 1222257481,
                             'node_id' => 'MDU6TGFiZWwxMjIyMjU3NDgx',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/Q4',
@@ -377,7 +377,7 @@ return array (
                             'default' => false,
                         ),
                     4 =>
-                        array (
+                        array(
                             'id' => 1153942516,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyNTE2',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/SDK%20Team',
@@ -388,15 +388,15 @@ return array (
                 ),
             'state' => 'open',
             'locked' => false,
-            'assignee' => NULL,
+            'assignee' => null,
             'assignees' =>
-                array (
+                array(
                 ),
-            'milestone' => NULL,
+            'milestone' => null,
             'comments' => 0,
             'created_at' => '2018-12-07T16:23:17Z',
             'updated_at' => '2019-02-05T23:52:51Z',
-            'closed_at' => NULL,
+            'closed_at' => null,
             'author_association' => 'NONE',
             'body_html' => '<p>While the LBRY data network is decentralized and designed to function without LBRY Inc. involvement, there’s room for improvement. The LBRY data network must improve incentives for participation and performance and ensure it has zero dependency on LBRY Inc. infrastructure.</p>
 <p>This means ensuring that proper incentives exist to participate as a host or to fulfill any role that LBRY Inc. currently participates in (e.g. wallet servers).</p>
@@ -408,7 +408,7 @@ return array (
 </ol>',
         ),
     4 =>
-        array (
+        array(
             'url' => 'https://api.github.com/repos/lbryio/internal-issues/issues/235',
             'repository_url' => 'https://api.github.com/repos/lbryio/internal-issues',
             'labels_url' => 'https://api.github.com/repos/lbryio/internal-issues/issues/235/labels{/name}',
@@ -420,7 +420,7 @@ return array (
             'number' => 235,
             'title' => 'Creator Partnerships',
             'user' =>
-                array (
+                array(
                     'login' => 'kauffj',
                     'id' => 530774,
                     'node_id' => 'MDQ6VXNlcjUzMDc3NA==',
@@ -441,9 +441,9 @@ return array (
                     'site_admin' => false,
                 ),
             'labels' =>
-                array (
+                array(
                     0 =>
-                        array (
+                        array(
                             'id' => 1153942272,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyMjcy',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/2019',
@@ -452,7 +452,7 @@ return array (
                             'default' => false,
                         ),
                     1 =>
-                        array (
+                        array(
                             'id' => 1153942434,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyNDM0',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/App%20Team',
@@ -461,7 +461,7 @@ return array (
                             'default' => false,
                         ),
                     2 =>
-                        array (
+                        array(
                             'id' => 647280744,
                             'node_id' => 'MDU6TGFiZWw2NDcyODA3NDQ=',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/Epic',
@@ -470,7 +470,7 @@ return array (
                             'default' => false,
                         ),
                     3 =>
-                        array (
+                        array(
                             'id' => 1153942704,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyNzA0',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/Growth%20Team',
@@ -479,7 +479,7 @@ return array (
                             'default' => false,
                         ),
                     4 =>
-                        array (
+                        array(
                             'id' => 1222257364,
                             'node_id' => 'MDU6TGFiZWwxMjIyMjU3MzY0',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/Q2',
@@ -490,15 +490,15 @@ return array (
                 ),
             'state' => 'open',
             'locked' => false,
-            'assignee' => NULL,
+            'assignee' => null,
             'assignees' =>
-                array (
+                array(
                 ),
-            'milestone' => NULL,
+            'milestone' => null,
             'comments' => 1,
             'created_at' => '2018-12-07T16:21:52Z',
             'updated_at' => '2019-02-05T23:50:36Z',
-            'closed_at' => NULL,
+            'closed_at' => null,
             'author_association' => 'NONE',
             'body_html' => '<p>While LBRY has relationships with a large number of creators, many of these are weak or passive relationships.</p>
 <p>LBRY must seek partnerships with creators that see enough value and potential in LBRY technology to proactively promote it, not just passively co-publish.</p>
@@ -510,7 +510,7 @@ return array (
 </ol>',
         ),
     5 =>
-        array (
+        array(
             'url' => 'https://api.github.com/repos/lbryio/internal-issues/issues/234',
             'repository_url' => 'https://api.github.com/repos/lbryio/internal-issues',
             'labels_url' => 'https://api.github.com/repos/lbryio/internal-issues/issues/234/labels{/name}',
@@ -522,7 +522,7 @@ return array (
             'number' => 234,
             'title' => 'Protocol Performance',
             'user' =>
-                array (
+                array(
                     'login' => 'kauffj',
                     'id' => 530774,
                     'node_id' => 'MDQ6VXNlcjUzMDc3NA==',
@@ -543,9 +543,9 @@ return array (
                     'site_admin' => false,
                 ),
             'labels' =>
-                array (
+                array(
                     0 =>
-                        array (
+                        array(
                             'id' => 1153942272,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyMjcy',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/2019',
@@ -554,7 +554,7 @@ return array (
                             'default' => false,
                         ),
                     1 =>
-                        array (
+                        array(
                             'id' => 1153942434,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyNDM0',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/App%20Team',
@@ -563,7 +563,7 @@ return array (
                             'default' => false,
                         ),
                     2 =>
-                        array (
+                        array(
                             'id' => 647280744,
                             'node_id' => 'MDU6TGFiZWw2NDcyODA3NDQ=',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/Epic',
@@ -572,7 +572,7 @@ return array (
                             'default' => false,
                         ),
                     3 =>
-                        array (
+                        array(
                             'id' => 1222257315,
                             'node_id' => 'MDU6TGFiZWwxMjIyMjU3MzE1',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/Q1',
@@ -581,7 +581,7 @@ return array (
                             'default' => false,
                         ),
                     4 =>
-                        array (
+                        array(
                             'id' => 1153942516,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyNTE2',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/SDK%20Team',
@@ -592,15 +592,15 @@ return array (
                 ),
             'state' => 'open',
             'locked' => false,
-            'assignee' => NULL,
+            'assignee' => null,
             'assignees' =>
-                array (
+                array(
                 ),
-            'milestone' => NULL,
+            'milestone' => null,
             'comments' => 2,
             'created_at' => '2018-12-07T16:21:00Z',
             'updated_at' => '2019-02-05T23:53:00Z',
-            'closed_at' => NULL,
+            'closed_at' => null,
             'author_association' => 'NONE',
             'body_html' => '<p>Performance was a focus in 2018 to decent success. Failed streams were reduced by more than 66% and stream performance has improved substantially as well, especially with the final releases of 2018.</p>
 <p>All of it is still not enough.</p>
@@ -614,7 +614,7 @@ return array (
 </ol>',
         ),
     6 =>
-        array (
+        array(
             'url' => 'https://api.github.com/repos/lbryio/internal-issues/issues/233',
             'repository_url' => 'https://api.github.com/repos/lbryio/internal-issues',
             'labels_url' => 'https://api.github.com/repos/lbryio/internal-issues/issues/233/labels{/name}',
@@ -626,7 +626,7 @@ return array (
             'number' => 233,
             'title' => 'LBC Onramps / Offramps',
             'user' =>
-                array (
+                array(
                     'login' => 'kauffj',
                     'id' => 530774,
                     'node_id' => 'MDQ6VXNlcjUzMDc3NA==',
@@ -647,9 +647,9 @@ return array (
                     'site_admin' => false,
                 ),
             'labels' =>
-                array (
+                array(
                     0 =>
-                        array (
+                        array(
                             'id' => 1153942272,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyMjcy',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/2019',
@@ -658,7 +658,7 @@ return array (
                             'default' => false,
                         ),
                     1 =>
-                        array (
+                        array(
                             'id' => 1153942434,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyNDM0',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/App%20Team',
@@ -667,7 +667,7 @@ return array (
                             'default' => false,
                         ),
                     2 =>
-                        array (
+                        array(
                             'id' => 647280744,
                             'node_id' => 'MDU6TGFiZWw2NDcyODA3NDQ=',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/Epic',
@@ -676,7 +676,7 @@ return array (
                             'default' => false,
                         ),
                     3 =>
-                        array (
+                        array(
                             'id' => 1153942704,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyNzA0',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/Growth%20Team',
@@ -685,7 +685,7 @@ return array (
                             'default' => false,
                         ),
                     4 =>
-                        array (
+                        array(
                             'id' => 1222257445,
                             'node_id' => 'MDU6TGFiZWwxMjIyMjU3NDQ1',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/Q3',
@@ -697,7 +697,7 @@ return array (
             'state' => 'open',
             'locked' => false,
             'assignee' =>
-                array (
+                array(
                     'login' => 'finer9',
                     'id' => 16390156,
                     'node_id' => 'MDQ6VXNlcjE2MzkwMTU2',
@@ -718,9 +718,9 @@ return array (
                     'site_admin' => false,
                 ),
             'assignees' =>
-                array (
+                array(
                     0 =>
-                        array (
+                        array(
                             'login' => 'finer9',
                             'id' => 16390156,
                             'node_id' => 'MDQ6VXNlcjE2MzkwMTU2',
@@ -741,11 +741,11 @@ return array (
                             'site_admin' => false,
                         ),
                 ),
-            'milestone' => NULL,
+            'milestone' => null,
             'comments' => 0,
             'created_at' => '2018-12-07T16:19:09Z',
             'updated_at' => '2019-02-05T23:51:10Z',
-            'closed_at' => NULL,
+            'closed_at' => null,
             'author_association' => 'NONE',
             'body_html' => '<p>All current primary ways of acquiring and/or converting LBC (rewards, community, and exchanges) are either high effort or inflexible.</p>
 <p>If we want creators to take LBC seriously, as well as allow users to participate fully, we need to provide a low friction way of converting to and from LBC to the currency they desire.</p>
@@ -757,7 +757,7 @@ return array (
 </ol>',
         ),
     7 =>
-        array (
+        array(
             'url' => 'https://api.github.com/repos/lbryio/internal-issues/issues/232',
             'repository_url' => 'https://api.github.com/repos/lbryio/internal-issues',
             'labels_url' => 'https://api.github.com/repos/lbryio/internal-issues/issues/232/labels{/name}',
@@ -769,7 +769,7 @@ return array (
             'number' => 232,
             'title' => 'Creator Features',
             'user' =>
-                array (
+                array(
                     'login' => 'kauffj',
                     'id' => 530774,
                     'node_id' => 'MDQ6VXNlcjUzMDc3NA==',
@@ -790,9 +790,9 @@ return array (
                     'site_admin' => false,
                 ),
             'labels' =>
-                array (
+                array(
                     0 =>
-                        array (
+                        array(
                             'id' => 1153942272,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyMjcy',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/2019',
@@ -801,7 +801,7 @@ return array (
                             'default' => false,
                         ),
                     1 =>
-                        array (
+                        array(
                             'id' => 1153942434,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyNDM0',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/App%20Team',
@@ -810,7 +810,7 @@ return array (
                             'default' => false,
                         ),
                     2 =>
-                        array (
+                        array(
                             'id' => 647280744,
                             'node_id' => 'MDU6TGFiZWw2NDcyODA3NDQ=',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/Epic',
@@ -819,7 +819,7 @@ return array (
                             'default' => false,
                         ),
                     3 =>
-                        array (
+                        array(
                             'id' => 1222257364,
                             'node_id' => 'MDU6TGFiZWwxMjIyMjU3MzY0',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/Q2',
@@ -828,7 +828,7 @@ return array (
                             'default' => false,
                         ),
                     4 =>
-                        array (
+                        array(
                             'id' => 1153942516,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyNTE2',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/SDK%20Team',
@@ -839,15 +839,15 @@ return array (
                 ),
             'state' => 'open',
             'locked' => false,
-            'assignee' => NULL,
+            'assignee' => null,
             'assignees' =>
-                array (
+                array(
                 ),
-            'milestone' => NULL,
+            'milestone' => null,
             'comments' => 1,
             'created_at' => '2018-12-07T16:18:16Z',
             'updated_at' => '2019-02-05T23:51:16Z',
-            'closed_at' => NULL,
+            'closed_at' => null,
             'author_association' => 'NONE',
             'body_html' => '<p>LBRY is a win for creators in terms of trust and earnings, but we have more to do in terms of the features creators expect out of a content distribution platform.</p>
 <p>This includes giving them more control over the presentation of their work, more insight into how their content is performing, and an ability to provide proof about their identity.</p>
@@ -860,7 +860,7 @@ return array (
 </ol>',
         ),
     8 =>
-        array (
+        array(
             'url' => 'https://api.github.com/repos/lbryio/internal-issues/issues/231',
             'repository_url' => 'https://api.github.com/repos/lbryio/internal-issues',
             'labels_url' => 'https://api.github.com/repos/lbryio/internal-issues/issues/231/labels{/name}',
@@ -872,7 +872,7 @@ return array (
             'number' => 231,
             'title' => 'Community Swarm',
             'user' =>
-                array (
+                array(
                     'login' => 'kauffj',
                     'id' => 530774,
                     'node_id' => 'MDQ6VXNlcjUzMDc3NA==',
@@ -893,9 +893,9 @@ return array (
                     'site_admin' => false,
                 ),
             'labels' =>
-                array (
+                array(
                     0 =>
-                        array (
+                        array(
                             'id' => 1153942272,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyMjcy',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/2019',
@@ -904,7 +904,7 @@ return array (
                             'default' => false,
                         ),
                     1 =>
-                        array (
+                        array(
                             'id' => 647280744,
                             'node_id' => 'MDU6TGFiZWw2NDcyODA3NDQ=',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/Epic',
@@ -913,7 +913,7 @@ return array (
                             'default' => false,
                         ),
                     2 =>
-                        array (
+                        array(
                             'id' => 1153942704,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyNzA0',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/Growth%20Team',
@@ -922,7 +922,7 @@ return array (
                             'default' => false,
                         ),
                     3 =>
-                        array (
+                        array(
                             'id' => 1222257364,
                             'node_id' => 'MDU6TGFiZWwxMjIyMjU3MzY0',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/Q2',
@@ -933,15 +933,15 @@ return array (
                 ),
             'state' => 'open',
             'locked' => false,
-            'assignee' => NULL,
+            'assignee' => null,
             'assignees' =>
-                array (
+                array(
                 ),
-            'milestone' => NULL,
+            'milestone' => null,
             'comments' => 0,
             'created_at' => '2018-12-07T16:17:10Z',
             'updated_at' => '2019-02-05T23:51:23Z',
-            'closed_at' => NULL,
+            'closed_at' => null,
             'author_association' => 'NONE',
             'body_html' => '<p>Existing community initiatives have relied too much on LBRY Inc. They do not scale, are resource intensive, require us to pick winners and losers under significant uncertainty, and hinder our ability to get traction internationally or in other areas where we’re less familiar.</p>
 <p>In Q4 2018, the growth team drafted and began implementing a plan to massively scale community efforts. Currently titled the “swarm plan”, it involves appointing and empowering a large number of community members with explicit roles, responsibilities, and budgets. Swarms are community slices aligned along a geographic area or cultural interest.</p>
@@ -955,7 +955,7 @@ return array (
 </ol>',
         ),
     9 =>
-        array (
+        array(
             'url' => 'https://api.github.com/repos/lbryio/internal-issues/issues/229',
             'repository_url' => 'https://api.github.com/repos/lbryio/internal-issues',
             'labels_url' => 'https://api.github.com/repos/lbryio/internal-issues/issues/229/labels{/name}',
@@ -967,7 +967,7 @@ return array (
             'number' => 229,
             'title' => 'Blockchain Bricklaying',
             'user' =>
-                array (
+                array(
                     'login' => 'kauffj',
                     'id' => 530774,
                     'node_id' => 'MDQ6VXNlcjUzMDc3NA==',
@@ -988,9 +988,9 @@ return array (
                     'site_admin' => false,
                 ),
             'labels' =>
-                array (
+                array(
                     0 =>
-                        array (
+                        array(
                             'id' => 1153942272,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyMjcy',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/2019',
@@ -999,7 +999,7 @@ return array (
                             'default' => false,
                         ),
                     1 =>
-                        array (
+                        array(
                             'id' => 1153942605,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyNjA1',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/Blockchain%20Team',
@@ -1008,7 +1008,7 @@ return array (
                             'default' => false,
                         ),
                     2 =>
-                        array (
+                        array(
                             'id' => 1222257445,
                             'node_id' => 'MDU6TGFiZWwxMjIyMjU3NDQ1',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/Q3',
@@ -1020,7 +1020,7 @@ return array (
             'state' => 'open',
             'locked' => false,
             'assignee' =>
-                array (
+                array(
                     'login' => 'BrannonKing',
                     'id' => 1509322,
                     'node_id' => 'MDQ6VXNlcjE1MDkzMjI=',
@@ -1041,9 +1041,9 @@ return array (
                     'site_admin' => false,
                 ),
             'assignees' =>
-                array (
+                array(
                     0 =>
-                        array (
+                        array(
                             'login' => 'BrannonKing',
                             'id' => 1509322,
                             'node_id' => 'MDQ6VXNlcjE1MDkzMjI=',
@@ -1064,11 +1064,11 @@ return array (
                             'site_admin' => false,
                         ),
                 ),
-            'milestone' => NULL,
+            'milestone' => null,
             'comments' => 0,
             'created_at' => '2018-12-07T16:12:04Z',
             'updated_at' => '2019-02-05T23:51:34Z',
-            'closed_at' => NULL,
+            'closed_at' => null,
             'author_association' => 'NONE',
             'body_html' => '<p>The LBRY blockchain layer has done an admirable job through 2018. It’s seen substantial improvements in terms of claim expiration and normalization, as well as improved performance and organization.</p>
 <p>Most importantly, the LBRY blockchain has remained secure, and the security of the blockchain layer is always goal number one.</p>
@@ -1083,7 +1083,7 @@ return array (
 </ol>',
         ),
     10 =>
-        array (
+        array(
             'url' => 'https://api.github.com/repos/lbryio/internal-issues/issues/227',
             'repository_url' => 'https://api.github.com/repos/lbryio/internal-issues',
             'labels_url' => 'https://api.github.com/repos/lbryio/internal-issues/issues/227/labels{/name}',
@@ -1095,7 +1095,7 @@ return array (
             'number' => 227,
             'title' => 'Community Metadata',
             'user' =>
-                array (
+                array(
                     'login' => 'kauffj',
                     'id' => 530774,
                     'node_id' => 'MDQ6VXNlcjUzMDc3NA==',
@@ -1116,9 +1116,9 @@ return array (
                     'site_admin' => false,
                 ),
             'labels' =>
-                array (
+                array(
                     0 =>
-                        array (
+                        array(
                             'id' => 1153942272,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyMjcy',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/2019',
@@ -1127,7 +1127,7 @@ return array (
                             'default' => false,
                         ),
                     1 =>
-                        array (
+                        array(
                             'id' => 1153942434,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyNDM0',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/App%20Team',
@@ -1136,7 +1136,7 @@ return array (
                             'default' => false,
                         ),
                     2 =>
-                        array (
+                        array(
                             'id' => 1153942605,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyNjA1',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/Blockchain%20Team',
@@ -1145,7 +1145,7 @@ return array (
                             'default' => false,
                         ),
                     3 =>
-                        array (
+                        array(
                             'id' => 1153942704,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyNzA0',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/Growth%20Team',
@@ -1154,7 +1154,7 @@ return array (
                             'default' => false,
                         ),
                     4 =>
-                        array (
+                        array(
                             'id' => 1222257481,
                             'node_id' => 'MDU6TGFiZWwxMjIyMjU3NDgx',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/Q4',
@@ -1163,7 +1163,7 @@ return array (
                             'default' => false,
                         ),
                     5 =>
-                        array (
+                        array(
                             'id' => 1153942516,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyNTE2',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/SDK%20Team',
@@ -1175,7 +1175,7 @@ return array (
             'state' => 'open',
             'locked' => false,
             'assignee' =>
-                array (
+                array(
                     'login' => 'BrannonKing',
                     'id' => 1509322,
                     'node_id' => 'MDQ6VXNlcjE1MDkzMjI=',
@@ -1196,9 +1196,9 @@ return array (
                     'site_admin' => false,
                 ),
             'assignees' =>
-                array (
+                array(
                     0 =>
-                        array (
+                        array(
                             'login' => 'BrannonKing',
                             'id' => 1509322,
                             'node_id' => 'MDQ6VXNlcjE1MDkzMjI=',
@@ -1219,11 +1219,11 @@ return array (
                             'site_admin' => false,
                         ),
                 ),
-            'milestone' => NULL,
+            'milestone' => null,
             'comments' => 3,
             'created_at' => '2018-12-07T16:09:29Z',
             'updated_at' => '2019-02-05T23:51:41Z',
-            'closed_at' => NULL,
+            'closed_at' => null,
             'author_association' => 'NONE',
             'body_html' => '<p>One downside of giving the publisher exclusive control over the metadata stored in the LBRY blockchain is that the publisher has exclusive control over the metadata stored in the LBRY blockchain. Less tautologically, metadata can sometimes be inaccurate, malicious, or immutable due to lost keys (<del>though expiration handles this eventually</del> we dont have expiration...).</p>
 <p>The strongest solution to this problem is to allow community-based updates to metadata. Sometimes called “metadata overlays”, these are suggested changes or corrections to publisher-provided metadata. Such corrections could range from correcting errors, to correctly marking a file as containing adult content, to attributions that a file is maligned via a tag.</p>
@@ -1237,7 +1237,7 @@ return array (
 </ol>',
         ),
     11 =>
-        array (
+        array(
             'url' => 'https://api.github.com/repos/lbryio/internal-issues/issues/226',
             'repository_url' => 'https://api.github.com/repos/lbryio/internal-issues',
             'labels_url' => 'https://api.github.com/repos/lbryio/internal-issues/issues/226/labels{/name}',
@@ -1249,7 +1249,7 @@ return array (
             'number' => 226,
             'title' => 'Multi-Device Experience',
             'user' =>
-                array (
+                array(
                     'login' => 'kauffj',
                     'id' => 530774,
                     'node_id' => 'MDQ6VXNlcjUzMDc3NA==',
@@ -1270,9 +1270,9 @@ return array (
                     'site_admin' => false,
                 ),
             'labels' =>
-                array (
+                array(
                     0 =>
-                        array (
+                        array(
                             'id' => 1153942272,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyMjcy',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/2019',
@@ -1281,7 +1281,7 @@ return array (
                             'default' => false,
                         ),
                     1 =>
-                        array (
+                        array(
                             'id' => 1153943283,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQzMjgz',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/API%20Team',
@@ -1290,7 +1290,7 @@ return array (
                             'default' => false,
                         ),
                     2 =>
-                        array (
+                        array(
                             'id' => 1153942434,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyNDM0',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/App%20Team',
@@ -1299,7 +1299,7 @@ return array (
                             'default' => false,
                         ),
                     3 =>
-                        array (
+                        array(
                             'id' => 1153942605,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyNjA1',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/Blockchain%20Team',
@@ -1308,7 +1308,7 @@ return array (
                             'default' => false,
                         ),
                     4 =>
-                        array (
+                        array(
                             'id' => 1222257364,
                             'node_id' => 'MDU6TGFiZWwxMjIyMjU3MzY0',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/Q2',
@@ -1317,7 +1317,7 @@ return array (
                             'default' => false,
                         ),
                     5 =>
-                        array (
+                        array(
                             'id' => 1153942516,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyNTE2',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/SDK%20Team',
@@ -1329,7 +1329,7 @@ return array (
             'state' => 'open',
             'locked' => false,
             'assignee' =>
-                array (
+                array(
                     'login' => 'skhameneh',
                     'id' => 1191370,
                     'node_id' => 'MDQ6VXNlcjExOTEzNzA=',
@@ -1350,9 +1350,9 @@ return array (
                     'site_admin' => false,
                 ),
             'assignees' =>
-                array (
+                array(
                     0 =>
-                        array (
+                        array(
                             'login' => 'skhameneh',
                             'id' => 1191370,
                             'node_id' => 'MDQ6VXNlcjExOTEzNzA=',
@@ -1373,11 +1373,11 @@ return array (
                             'site_admin' => false,
                         ),
                 ),
-            'milestone' => NULL,
+            'milestone' => null,
             'comments' => 1,
             'created_at' => '2018-12-07T16:08:19Z',
             'updated_at' => '2019-02-05T23:51:54Z',
-            'closed_at' => NULL,
+            'closed_at' => null,
             'author_association' => 'NONE',
             'body_html' => '<p>Even with a mobile application in an early beta, we ran into user experience issues and confusion around the locality of wallets and other user data.</p>
 <p>Regardless of the underlying architecture of LBRY, we must provide an emergent consumer experience that matches what they expect in other places: the ability to have the same views, data, and accounts across devices.</p>
@@ -1389,7 +1389,7 @@ return array (
 </ol>',
         ),
     12 =>
-        array (
+        array(
             'url' => 'https://api.github.com/repos/lbryio/internal-issues/issues/225',
             'repository_url' => 'https://api.github.com/repos/lbryio/internal-issues',
             'labels_url' => 'https://api.github.com/repos/lbryio/internal-issues/issues/225/labels{/name}',
@@ -1401,7 +1401,7 @@ return array (
             'number' => 225,
             'title' => 'Internationalization',
             'user' =>
-                array (
+                array(
                     'login' => 'kauffj',
                     'id' => 530774,
                     'node_id' => 'MDQ6VXNlcjUzMDc3NA==',
@@ -1422,9 +1422,9 @@ return array (
                     'site_admin' => false,
                 ),
             'labels' =>
-                array (
+                array(
                     0 =>
-                        array (
+                        array(
                             'id' => 1153942272,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyMjcy',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/2019',
@@ -1433,7 +1433,7 @@ return array (
                             'default' => false,
                         ),
                     1 =>
-                        array (
+                        array(
                             'id' => 1153943283,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQzMjgz',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/API%20Team',
@@ -1442,7 +1442,7 @@ return array (
                             'default' => false,
                         ),
                     2 =>
-                        array (
+                        array(
                             'id' => 1153942434,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyNDM0',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/App%20Team',
@@ -1451,7 +1451,7 @@ return array (
                             'default' => false,
                         ),
                     3 =>
-                        array (
+                        array(
                             'id' => 1153942605,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyNjA1',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/Blockchain%20Team',
@@ -1460,7 +1460,7 @@ return array (
                             'default' => false,
                         ),
                     4 =>
-                        array (
+                        array(
                             'id' => 647280744,
                             'node_id' => 'MDU6TGFiZWw2NDcyODA3NDQ=',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/Epic',
@@ -1469,7 +1469,7 @@ return array (
                             'default' => false,
                         ),
                     5 =>
-                        array (
+                        array(
                             'id' => 1153942704,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyNzA0',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/Growth%20Team',
@@ -1478,7 +1478,7 @@ return array (
                             'default' => false,
                         ),
                     6 =>
-                        array (
+                        array(
                             'id' => 1222257481,
                             'node_id' => 'MDU6TGFiZWwxMjIyMjU3NDgx',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/Q4',
@@ -1487,7 +1487,7 @@ return array (
                             'default' => false,
                         ),
                     7 =>
-                        array (
+                        array(
                             'id' => 1153942516,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyNTE2',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/SDK%20Team',
@@ -1499,7 +1499,7 @@ return array (
             'state' => 'open',
             'locked' => false,
             'assignee' =>
-                array (
+                array(
                     'login' => 'alyssaoc',
                     'id' => 26887062,
                     'node_id' => 'MDQ6VXNlcjI2ODg3MDYy',
@@ -1520,9 +1520,9 @@ return array (
                     'site_admin' => false,
                 ),
             'assignees' =>
-                array (
+                array(
                     0 =>
-                        array (
+                        array(
                             'login' => 'alyssaoc',
                             'id' => 26887062,
                             'node_id' => 'MDQ6VXNlcjI2ODg3MDYy',
@@ -1543,11 +1543,11 @@ return array (
                             'site_admin' => false,
                         ),
                 ),
-            'milestone' => NULL,
+            'milestone' => null,
             'comments' => 2,
             'created_at' => '2018-12-07T16:06:50Z',
             'updated_at' => '2019-02-05T23:52:23Z',
-            'closed_at' => NULL,
+            'closed_at' => null,
             'author_association' => 'NONE',
             'body_html' => '<p>International audiences are a ripe target for adoption of LBRY for several reasons:</p>
 <ol>
@@ -1567,7 +1567,7 @@ return array (
 </ol>',
         ),
     13 =>
-        array (
+        array(
             'url' => 'https://api.github.com/repos/lbryio/internal-issues/issues/224',
             'repository_url' => 'https://api.github.com/repos/lbryio/internal-issues',
             'labels_url' => 'https://api.github.com/repos/lbryio/internal-issues/issues/224/labels{/name}',
@@ -1579,7 +1579,7 @@ return array (
             'number' => 224,
             'title' => 'Discovery',
             'user' =>
-                array (
+                array(
                     'login' => 'kauffj',
                     'id' => 530774,
                     'node_id' => 'MDQ6VXNlcjUzMDc3NA==',
@@ -1600,9 +1600,9 @@ return array (
                     'site_admin' => false,
                 ),
             'labels' =>
-                array (
+                array(
                     0 =>
-                        array (
+                        array(
                             'id' => 1153942272,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyMjcy',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/2019',
@@ -1611,7 +1611,7 @@ return array (
                             'default' => false,
                         ),
                     1 =>
-                        array (
+                        array(
                             'id' => 1153943283,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQzMjgz',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/API%20Team',
@@ -1620,7 +1620,7 @@ return array (
                             'default' => false,
                         ),
                     2 =>
-                        array (
+                        array(
                             'id' => 1153942434,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyNDM0',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/App%20Team',
@@ -1629,7 +1629,7 @@ return array (
                             'default' => false,
                         ),
                     3 =>
-                        array (
+                        array(
                             'id' => 1222257364,
                             'node_id' => 'MDU6TGFiZWwxMjIyMjU3MzY0',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/Q2',
@@ -1638,7 +1638,7 @@ return array (
                             'default' => false,
                         ),
                     4 =>
-                        array (
+                        array(
                             'id' => 1153942516,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyNTE2',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/SDK%20Team',
@@ -1649,15 +1649,15 @@ return array (
                 ),
             'state' => 'open',
             'locked' => false,
-            'assignee' => NULL,
+            'assignee' => null,
             'assignees' =>
-                array (
+                array(
                 ),
-            'milestone' => NULL,
+            'milestone' => null,
             'comments' => 1,
             'created_at' => '2018-12-07T16:05:09Z',
             'updated_at' => '2019-02-05T23:53:14Z',
-            'closed_at' => NULL,
+            'closed_at' => null,
             'author_association' => 'NONE',
             'body_html' => '<p>Lackluster content discovery has throttled user engagement. While search has improved and subscriptions were added, existing experiences still do not do a sufficient job driving people to content that is interesting to them.</p>
 <p>LBRY must look to improve discovery through any possible mechanism. The most promising avenues are:</p>
@@ -1677,7 +1677,7 @@ return array (
 </ol>',
         ),
     14 =>
-        array (
+        array(
             'url' => 'https://api.github.com/repos/lbryio/internal-issues/issues/223',
             'repository_url' => 'https://api.github.com/repos/lbryio/internal-issues',
             'labels_url' => 'https://api.github.com/repos/lbryio/internal-issues/issues/223/labels{/name}',
@@ -1689,7 +1689,7 @@ return array (
             'number' => 223,
             'title' => 'Commenting',
             'user' =>
-                array (
+                array(
                     'login' => 'kauffj',
                     'id' => 530774,
                     'node_id' => 'MDQ6VXNlcjUzMDc3NA==',
@@ -1710,9 +1710,9 @@ return array (
                     'site_admin' => false,
                 ),
             'labels' =>
-                array (
+                array(
                     0 =>
-                        array (
+                        array(
                             'id' => 1153942272,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyMjcy',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/2019',
@@ -1721,7 +1721,7 @@ return array (
                             'default' => false,
                         ),
                     1 =>
-                        array (
+                        array(
                             'id' => 1153942434,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyNDM0',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/App%20Team',
@@ -1730,7 +1730,7 @@ return array (
                             'default' => false,
                         ),
                     2 =>
-                        array (
+                        array(
                             'id' => 1153942605,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyNjA1',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/Blockchain%20Team',
@@ -1739,7 +1739,7 @@ return array (
                             'default' => false,
                         ),
                     3 =>
-                        array (
+                        array(
                             'id' => 647280744,
                             'node_id' => 'MDU6TGFiZWw2NDcyODA3NDQ=',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/Epic',
@@ -1748,7 +1748,7 @@ return array (
                             'default' => false,
                         ),
                     4 =>
-                        array (
+                        array(
                             'id' => 1222257315,
                             'node_id' => 'MDU6TGFiZWwxMjIyMjU3MzE1',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/Q1',
@@ -1757,7 +1757,7 @@ return array (
                             'default' => false,
                         ),
                     5 =>
-                        array (
+                        array(
                             'id' => 1153942516,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyNTE2',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/SDK%20Team',
@@ -1768,15 +1768,15 @@ return array (
                 ),
             'state' => 'open',
             'locked' => false,
-            'assignee' => NULL,
+            'assignee' => null,
             'assignees' =>
-                array (
+                array(
                 ),
-            'milestone' => NULL,
+            'milestone' => null,
             'comments' => 0,
             'created_at' => '2018-12-07T16:04:03Z',
             'updated_at' => '2019-02-05T23:52:00Z',
-            'closed_at' => NULL,
+            'closed_at' => null,
             'author_association' => 'NONE',
             'body_html' => '<p>In a decentralized system with no authority like LBRY, it is imperative that the community itself be able to provide feedback about the content itself. Is it legitimate? Is there a problem with it? Was it good?</p>
 <p>One solution to this is comments. This is related to Community Metadata, but is a less thorny problem since it doesn’t pose the same user experience challenges. Any system that does this ought to meet the same egalitarian standard that LBRY itself aims for. Required attributes:</p>
@@ -1793,7 +1793,7 @@ return array (
 </ol>',
         ),
     15 =>
-        array (
+        array(
             'url' => 'https://api.github.com/repos/lbryio/internal-issues/issues/222',
             'repository_url' => 'https://api.github.com/repos/lbryio/internal-issues',
             'labels_url' => 'https://api.github.com/repos/lbryio/internal-issues/issues/222/labels{/name}',
@@ -1805,7 +1805,7 @@ return array (
             'number' => 222,
             'title' => 'LBRY on the Web',
             'user' =>
-                array (
+                array(
                     'login' => 'kauffj',
                     'id' => 530774,
                     'node_id' => 'MDQ6VXNlcjUzMDc3NA==',
@@ -1826,9 +1826,9 @@ return array (
                     'site_admin' => false,
                 ),
             'labels' =>
-                array (
+                array(
                     0 =>
-                        array (
+                        array(
                             'id' => 1153942272,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyMjcy',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/2019',
@@ -1837,7 +1837,7 @@ return array (
                             'default' => false,
                         ),
                     1 =>
-                        array (
+                        array(
                             'id' => 1153943283,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQzMjgz',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/API%20Team',
@@ -1846,7 +1846,7 @@ return array (
                             'default' => false,
                         ),
                     2 =>
-                        array (
+                        array(
                             'id' => 1153942434,
                             'node_id' => 'MDU6TGFiZWwxMTUzOTQyNDM0',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/App%20Team',
@@ -1855,7 +1855,7 @@ return array (
                             'default' => false,
                         ),
                     3 =>
-                        array (
+                        array(
                             'id' => 647280744,
                             'node_id' => 'MDU6TGFiZWw2NDcyODA3NDQ=',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/Epic',
@@ -1864,7 +1864,7 @@ return array (
                             'default' => false,
                         ),
                     4 =>
-                        array (
+                        array(
                             'id' => 1222257364,
                             'node_id' => 'MDU6TGFiZWwxMjIyMjU3MzY0',
                             'url' => 'https://api.github.com/repos/lbryio/internal-issues/labels/Q2',
@@ -1875,15 +1875,15 @@ return array (
                 ),
             'state' => 'open',
             'locked' => false,
-            'assignee' => NULL,
+            'assignee' => null,
             'assignees' =>
-                array (
+                array(
                 ),
-            'milestone' => NULL,
+            'milestone' => null,
             'comments' => 0,
             'created_at' => '2018-12-07T16:02:35Z',
             'updated_at' => '2019-02-05T23:52:08Z',
-            'closed_at' => NULL,
+            'closed_at' => null,
             'author_association' => 'NONE',
             'body_html' => '<p>Providing a desktop-based application experience was a necessary step towards getting the protocol working and will always be necessary for people who want a complete, full, and uncontrolled LBRY experience.</p>
 <p>We always knew most people wouldn’t want that. Installing an application is high friction and requires users to be fully responsible for their own security.</p>

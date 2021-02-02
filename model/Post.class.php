@@ -1,6 +1,8 @@
 <?php
 
-class PostException extends Exception {}
+class PostException extends Exception
+{
+}
 
 class PostNotFoundException extends PostException
 {
@@ -81,7 +83,7 @@ class Post
 
     public static function find($folder, $sort = null)
     {
-        $posts = array_filter(array_map(function($file) {
+        $posts = array_filter(array_map(function ($file) {
             try {
                 return static::load($file);
             } catch (PostException $e) {
@@ -122,9 +124,9 @@ class Post
             $metadata = $post->getMetadata();
             foreach ($filters as $filterAttr => $filterValue) {
                 if (!isset($metadata[$filterAttr]) || (
-            ($metadata[$filterAttr] != $filterValue) &&
+                    ($metadata[$filterAttr] != $filterValue) &&
             (!is_array($metadata[$filterAttr]) || !in_array($filterValue, $metadata[$filterAttr]))
-        )) {
+                )) {
                     return false;
                 }
             }
@@ -311,7 +313,7 @@ class Post
 
         $metadata = $this->getMetadata();
         if (isset($metadata['og']) && $metadata['og']) {
-          $urls[] = $metadata['og'];
+            $urls[] = $metadata['og'];
         }
 
         $cover = $this->getCover();
