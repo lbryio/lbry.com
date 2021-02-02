@@ -10,6 +10,7 @@ currently being supported with composer updates, to increase security.
 | ----------- |      ---------     |
 | PHP 5.6.x   | :x:                |
 | PHP 7.0.x   | :x:                |
+| PHP 7.1.x   | :white_check_mark: |
 | PHP 7.2.x   | :white_check_mark: |
 | PHP 7.3.x   | :white_check_mark: |
 | PHP 7.4.x   | :white_check_mark: |
