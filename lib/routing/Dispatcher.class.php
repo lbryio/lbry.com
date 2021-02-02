@@ -69,19 +69,19 @@ class Dispatcher
                 return false;
             }
 
-            return (boolean)$routes[$httpMethod];
+            return (bool) $routes[$httpMethod];
         }
 
         try {
             $handler = $this->dispatchVariableRoute($httpMethod, $uri);
-            return (boolean)$handler;
+
+            return (bool) $handler;
         } catch (HttpRouteNotFoundException | HttpMethodNotAllowedException $e) {
             return false;
         }
 
         return false;
     }
-
 
     /**
      * Dispatch a route filter.
@@ -114,14 +114,14 @@ class Dispatcher
     private function parseFilters($filters)
     {
         $beforeFilter = [];
-        $afterFilter  = [];
+        $afterFilter = [];
 
         if (isset($filters[Route::BEFORE])) {
-            $beforeFilter = array_intersect_key($this->filters, array_flip((array)$filters[Route::BEFORE]));
+            $beforeFilter = array_intersect_key($this->filters, array_flip((array) $filters[Route::BEFORE]));
         }
 
         if (isset($filters[Route::AFTER])) {
-            $afterFilter = array_intersect_key($this->filters, array_flip((array)$filters[Route::AFTER]));
+            $afterFilter = array_intersect_key($this->filters, array_flip((array) $filters[Route::AFTER]));
         }
 
         return [$beforeFilter, $afterFilter];
@@ -151,6 +151,7 @@ class Dispatcher
      * @param $uri
      *
      * @return mixed
+     *
      * @throws Exception\HttpMethodNotAllowedException
      */
     private function dispatchStaticRoute($httpMethod, $uri)
@@ -210,7 +211,6 @@ class Dispatcher
             $count = count($matches);
 
             while (!isset($data['routeMap'][$count++])) {
-                ;
             }
 
             $routes = $data['routeMap'][$count - 1];
@@ -230,6 +230,6 @@ class Dispatcher
             return $routes[$httpMethod];
         }
 
-        throw new HttpRouteNotFoundException('Route ' . $uri . ' does not exist');
+        throw new HttpRouteNotFoundException('Route '.$uri.' does not exist');
     }
 }
