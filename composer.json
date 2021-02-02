@@ -3,7 +3,7 @@
   "description": "lbry.com, the website for the LBRY protocol",
   "license": "MIT", 
   "require": {
-    "php": ">=7.0",
+    "php": ">=7.1",
     "ext-curl": "*",
     "ext-mbstring": "*",
     "ext-xml": "*",
