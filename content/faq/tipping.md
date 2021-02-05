@@ -30,11 +30,17 @@ Once you enter a value, click "Send". A tip will require a double confirmation, 
 
 ## How do I redeem my tips?
 
-When you receive a tip, the credits will come into your wallet, and you can see them in your Transaction History. However, since the credits come in as supporting a claim, they will not show in your available balance. See our [suggested guidelines](#guidelines) on tip unlocking.
+When you receive a tip, the credits will come in to your wallet, and you can see them in your Transaction History. However, since the credits come in as supporting a claim, they are not spendable unless unlocked. See our [suggested guidelines](#guidelines) on tip unlocking. If you plan to unlock them, consider re-supporting your channel or otherwise making use of the credits on or outside of the platform.
 
-To have these credits show in your balance, they must be unlocked. Tips can be unlocked in 1 of 2 ways.
+To have these credits show in your available balance, they must be unlocked. Tips can be unlocked in 1 of 3 ways.
 
-### 1. Unlocking tips by publish
+### 1. Unlocking all tips
+
+You can unlock tips across all your published content and channels with a single transaction by clicking the unlock button from the **View More** section of your wallet. For creators with large amounts of tips, this may take a few minutes to process. The balance may not be spendable until a block confirmation occurs. Once unlocked, we encourage you to re-support your channel or recent content, as having an available balance means your credits aren't being put to good use! 
+
+![](https://spee.ch/6/d35a1cb0be941cbe.png)
+
+### 2. Unlocking tips by publish
 
 You can mass unlock tips from a published item using the LBC Details section of the content page.
 
@@ -42,11 +48,11 @@ You can mass unlock tips from a published item using the LBC Details section of 
 
 You'll have an option choose the amount to unlock, with the default being 25%. Enter an amount or use the slider, and then click Unlock. The remaining LBC is sent back to you as a support on your content.
 
-**Please note: Mass tip unlocking may fail if there are over ~500 active tips. We're working on making this possible! If this occurs, you'll need to unlock some via the per tip method below.**
+**Please note: Mass tip unlocking may fail if there are over ~500 active tips. Consider using option #1 if this happens.
 
 ![](https://spee.ch/b/tip-unlock.jpeg)
 
-### 2. Unlocking tips in transaction history
+### 3. Unlocking tips in transaction history
 
 You can also unlock tips across all of your publishes in your transaction history.
 
