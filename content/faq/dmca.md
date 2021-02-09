@@ -3,7 +3,7 @@ title: DMCA takedown requests
 category: other
 ---
 
-Please see our [Content FAQ](/faq/content) for an explanation of how the LBRY network handles content and how to report infringing material.
+Please see our [Content FAQ](/faq/content) for an explanation of how the LBRY network handles content and how to report infringing material. Note: Other content which violates [our Terms of Service](https://lbry.com/termsofservice) or [content policy](/faq/content) may fall under this label at this time. 
 
 ## What is a DMCA request or takedown notice?
 
