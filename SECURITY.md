@@ -10,12 +10,17 @@ currently being supported with composer updates, to increase security.
 | ----------- |      ---------     |
 | PHP 5.6.x   | :x:                |
 | PHP 7.0.x   | :x:                |
+<<<<<<< HEAD
 | PHP 7.1.x   | :white_check_mark: |
 | PHP 7.2.x   | :white_check_mark: |
+=======
+| PHP 7.2.5+  | :white_check_mark: |
+>>>>>>> 4dbe33190647f7e7d682ad1ae98db70411466a9c
 | PHP 7.3.x   | :white_check_mark: |
 | PHP 7.4.x   | :white_check_mark: |
 | PHP 8.x.x   | (soon)             |
 
+<<<<<<< HEAD
 ## Composer Security Advisories
 
 We added Roave Security Advisories to notify on every composer plugins that are vulnerable to attacks, etc.
@@ -24,5 +29,10 @@ If you spot one while cloning, developing, or updating a dependency, please don'
 ## Reporting a Vulnerability
 
 Go to pull request and if it's possible to code it yourself, do that to fix this issue. That would be really appreciated.
+=======
+## Reporting a Vulnerability
+
+Go to "issues" tab, or pull request it yourself to fix this issue. That would be really appreciated.
+>>>>>>> 4dbe33190647f7e7d682ad1ae98db70411466a9c
 If you want to fix some vulnerability on desktop apps like lbry desktop, go to their respective pages and make a pull request.
 If you want to talk about security issues, email us at [security@lbry.com](mailto:security@lbry.com)
