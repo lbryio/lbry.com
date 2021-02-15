@@ -20,7 +20,7 @@ php composer-setup.php
 php -r "unlink('composer-setup.php');"
 sudo mv composer.phar /usr/local/bin/composer
 ```
-then run 'composer update' to check the latest updates for your php version.
+then run `composer update` to check the latest dependency updates for your php version.
 More documentation available here on [https://getcomposer.org/doc](https://getcomposer.org/doc).
 
 ## Verifying Install
