@@ -23,6 +23,8 @@ sudo mv composer.phar /usr/local/bin/composer
 then run `composer update` to check the latest dependency updates for your php version.
 More documentation available here on [https://getcomposer.org/doc](https://getcomposer.org/doc).
 
+For windows installation, you can click [here](https://getcomposer.org/doc/00-intro.md#installation-windows) on how to set up.
+
 ## Verifying Install
 If `localhost:8000` returns the lbry.com website, it's running correctly.
 
