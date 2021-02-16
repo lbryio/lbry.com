@@ -51,6 +51,7 @@
 /lbry-osx-latest.dmg:     /get
 /news/get:                /get
 /getrubin:                /get
+/android-alpha:           /android
 
 # Mailing List
 /join-list: /list/subscribe

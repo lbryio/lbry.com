@@ -1,6 +1,36 @@
 <?php if ($skipRender): ?>
 <?php elseif ($downloadUrl): ?>
-  <?php if ($os !== OS::OS_ANDROID): ?>
+  <?php if ($os === OS::OS_ANDROID): ?>
+        <a
+                class="button button--google-play"
+                data-analytics-action="Download"
+                data-analytics-category="Sign Up"
+                data-analytics-label="<?php echo $analyticsLabel ?>"
+                data-facebook-track="1"
+                href="<?php echo $downloadUrl ?>"
+                title="Download our app"
+        >Download</a>
+
+        <a
+                class="button button--fdroid"
+                data-analytics-action="Download"
+                data-analytics-category="Sign Up"
+                data-analytics-label="<?php echo $analyticsLabel ?>"
+                data-facebook-track="1"
+                href="https://f-droid.org/en/packages/io.lbry.browser/"
+                title="Download on F-droid"
+        >Download</a>
+  <?php elseif ($os === OS::OS_IOS): ?>
+        <a
+                class="button button--apple-store"
+                data-analytics-action="Download"
+                data-analytics-category="Sign Up"
+                data-analytics-label="<?php echo $analyticsLabel ?>"
+                data-facebook-track="1"
+                href="<?php echo $downloadUrl ?>"
+                title="Download our app"
+        >Download</a>
+  <?php else: ?>
     <?php if ($isDownload): ?>
       <a class="button button--<?php echo $buttonStyle?>"
         download
@@ -18,26 +48,6 @@
          title="Download LBRY App"
       ><?php echo $buttonLabel ?></a>
     <?php endif ?>
-  <?php else: ?>
-    <a
-      class="button button--google-play"
-      data-analytics-action="Download"
-      data-analytics-category="Sign Up"
-      data-analytics-label="<?php echo $analyticsLabel ?>"
-      data-facebook-track="1"
-      href="<?php echo $downloadUrl ?>"
-      title="Download our app"
-    >Download</a>
-
-    <a
-      class="button button--fdroid"
-      data-analytics-action="Download"
-      data-analytics-category="Sign Up"
-      data-analytics-label="<?php echo $analyticsLabel ?>"
-      data-facebook-track="1"
-      href="https://f-droid.org/en/packages/io.lbry.browser/"
-      title="Download on F-droid"
-    >Download</a>
   <?php endif ?>
 
   <?php if ($isAuto): ?>

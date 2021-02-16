@@ -6,7 +6,7 @@
   <section class="hero hero--half-height">
     <div class="inner-wrap inner-wrap--center-hero">
       <h1>
-        <?php echo __('download.for-os2', ['%os%' => OS::OS_DETAIL($os)[4]]) ?>
+        <?php echo $title ?>
       </h1>
     </div>
   </section>
@@ -14,10 +14,8 @@
   <section>
     <div class="inner-wrap">
       <?php if ($downloadUrl): ?>
-
         <div style="margin-bottom: 2rem; text-align: center;">
-          <p>Securely download the LBRY app here, and see what all the fuss is about!</p>
-          <?php $metaHtml = $os !== OS::OS_ANDROID ? View::Render('download/_meta') : false ?>
+          <?php $metaHtml = !in_array($os, [OS::OS_ANDROID, Os::OS_IOS]) ? View::Render('download/_meta') : false ?>
           <?php echo View::Render('download/_downloadButton', [
             'buttonStyle' => 'primary',
             'preferredExt' => $preferredExt
@@ -33,9 +31,9 @@
             <p style="font-size: 0.8rem;">You can also <a href="http://lbry.com/releases/lbry-android.apk" title="Download our Android app directly">download</a> our Android app directly.</p>
           <?php endif ?>
 
-          <br/><br/>
 
           <?php if ($metaHtml): ?>
+          <br/>
           <?php echo $metaHtml ?>
           <?php endif ?>
         </div>
@@ -48,6 +46,14 @@
               src="<?php echo $osScreenshotSrc ?>"
             />
           </figure>
+        <?php elseif ($os === OS::OS_IOS): ?>
+            <figure>
+                <img
+                        alt="Screenshot of Odysee"
+                        class="tall"
+                        src="<?php echo $osScreenshotSrc ?>"
+                />
+            </figure>
         <?php else: ?>
           <video
             autoplay
