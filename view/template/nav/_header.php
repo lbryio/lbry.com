@@ -201,7 +201,7 @@
         />
       </search-container>
 
-      <a href="https://lbry.tv" class="button button--primary header__lbrytv header--mobile-only">lbry.tv</a>
+      <a href="https://odysee.com" class="button button--primary header__lbrytv header--mobile-only">Try LBRY</a>
       <a href="#" class="header__toggle" id="menuToggle">Menu</a>
 
       <?php js_start() ?>
