@@ -213,10 +213,44 @@ main.home {
   }
 }
 
+.home__site--tech {
+  @media (max-width: 900px) {
+    padding-bottom: 5rem;
+  }
+  @media (min-width: 901px) {
+    padding-top: 3rem;
+  }
+
+  &::after {
+    background-color: var(--lbry-gray-1);
+    content: "";
+    position: absolute;
+
+    @media (min-width: 901px) {
+      width: 1px; height: 100%;
+      top: 0; right: 0;
+    }
+
+    @media (max-width: 900px) {
+      width: 100%; height: 1px;
+      bottom: 0; left: 0;
+    }
+  }
+
+  h3 {
+    &::before {
+      background-image: url("../img/emoji-gear.png");
+    }
+  }
+}
+
 .home__site--org {
   @media (max-width: 900px) {
     padding-bottom: 5rem;
     padding-top: 2rem;
+  }
+  @media (min-width: 901px) {
+    padding-top: 3rem;
   }
   
   &::after {
@@ -241,7 +275,6 @@ main.home {
     }
   }
 }
-
 
 .home__site--asfeatured {
   @media (max-width: 900px) {
@@ -282,34 +315,5 @@ main.home {
     background-color: #253137;
     padding-left: 1rem;
     padding-right: 1rem;
-  }
-}
-
-
-.home__site--tech {
-  @media (max-width: 900px) {
-    padding-bottom: 5rem;
-  }
-
-  &::after {
-    background-color: var(--lbry-gray-1);
-    content: "";
-    position: absolute;
-
-    @media (min-width: 901px) {
-      width: 1px; height: 100%;
-      top: 0; right: 0;
-    }
-
-    @media (max-width: 900px) {
-      width: 100%; height: 1px;
-      bottom: 0; left: 0;
-    }
-  }
-
-  h3 {
-    &::before {
-      background-image: url("../img/emoji-gear.png");
-    }
   }
 }
