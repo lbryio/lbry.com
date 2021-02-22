@@ -14,6 +14,8 @@ Please see these MoonPay FAQs for more information about using their services:
 
 [What are the daily and monthly limits?](https://help.moonpay.io/en/articles/2509649-what-are-the-daily-and-monthly-limits)
 
+[Moonpay Support - any issues with purchasing](mailto:support@moonpay.io)
+
 *Note: Currently, this service may not be available in all countries. LBRY will continue working on expanding availability.*
 
 ## Step by step LBC purchase
@@ -42,4 +44,4 @@ If you are having trouble on lbry.tv with cookies or want to purchase directly t
 
 ## Have additional questions or need support?
 
-We are always here to help! Check out our [help page](/faq/how-to-report-bugs) on how to reach us. If you are having trouble with something on the MoonPay side, you can also [reach out to them](support@moonpay.io).
+We are always here to help! Check out our [help page](/faq/how-to-report-bugs) on how to reach us. If you are having trouble with something on the MoonPay side, you can also [reach out to them](mailto:support@moonpay.io).
