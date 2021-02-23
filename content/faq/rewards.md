@@ -68,12 +68,13 @@ You receive additional rewards as you build a following on LBRY. Only verified L
 | ------------------- | --------- |
 | 1                   | 0.5 LBC     |
 | 5                   | 1 LBC     |
-| 20                  | 5 LBC    |
-| 100                 | 30 LBC    |
-| 500                 | 100 LBC   |
-| 1,000               | 400 LBC   |
-| 5,000               | 1,500 LBC |
-| 10,000              | 3,000 LBC |
+| 20                  | 3 LBC    |
+| 100                 | 10 LBC    |
+| 500                 | 25 LBC   |
+| 1,000               | 100 LBC   |
+| 5,000               | 250 LBC |
+| 10,000              | 500 LBC |
+| 25,000              | 1000 LBC |
 
 _Not seeing this reward despite being eligible? If you created your channel while not signed in to lbry.tv, we might not know about it. Publishing something new while signed in to lbry.tv will restore eligibility._
 
