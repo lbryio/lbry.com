@@ -10,11 +10,12 @@ You can also [purchase LBC directly via the app](/faq/buy-lbc).
 For a guide on buying/selling, see our [Bittrex purchasing/selling FAQ](/faq/buy-sell-bittrex)
 
 ## Traditional exchanges
-- [Bittrex](https://bittrex.com/Market/Index?MarketName=BTC-LBC)
+- [Bittrex](https://bittrex.com/Market/Index?MarketName=BTC-LBC) (BTC, USD, ETH, USDT)
 - [Hotbit](https://www.hotbit.io/exchange?symbol=LBC_BTC) / [USDT](https://www.hotbit.io/exchange?symbol=LBC_USDT)
 - [CoinEx BTC](https://www.coinex.com/exchange?currency=btc&dest=lbc) / [USDT](https://www.coinex.com/exchange?currency=usdt&dest=lbc)
 - [Upbit](https://upbit.com/exchange?code=CRIX.UPBIT.BTC-LBC)
 - [Coinspot](https://www.coinspot.com.au/buy/lbc)
+- [BigONE](https://big.one/cn/trade/LBC-BTC) (BTC, USDT)
 
 ## Instant exchanges - Crypto Only (currently under maintenance and not available)
 - [Simple Swap](https://simpleswap.io)
