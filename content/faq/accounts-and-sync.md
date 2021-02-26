@@ -56,7 +56,7 @@ This process is currently manual, please [contact us](/faq/support).
 
 As of writing, current limitations are:
 
-- Can't set or change wallet passwords (coming in mid 2020) if you previously did not have one. If you'd like to do this manually, please [contact us](/faq/support). Wallet passwords are separate from account passwords, and they cannot be reset or changed if lost/forgotten.
+- Can't set or change wallet passwords (coming in mid 2021) if you previously did not have one. If you'd like to do this manually, please [contact us](/faq/support). Wallet passwords are separate from account passwords, and they cannot be reset or changed if lost/forgotten.
 - On Desktop, if you sign out and back in with a different email, these wallets and accounts will be merged. Do not do this unless it's intentional and you expect the new email to be used by the same person. To prevent this, rename/remove the [default_wallet file in the lbryum/wallets folder](/faq/lbry-directories) and quit the app with Ctrl-Q after signing out.
 
 ### Desktop
