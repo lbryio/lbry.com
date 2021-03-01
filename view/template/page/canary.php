@@ -9,7 +9,7 @@
 
   <section>
     <div class="inner-wrap">
-      <p>Through Feb 17th, 2021, LBRY has received:</p>
+      <p>Through March 1st, 2021, LBRY has received:</p>
 
       <ul>
         <li>Zero National Security Letters</li>
