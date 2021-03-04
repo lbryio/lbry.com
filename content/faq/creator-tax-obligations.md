@@ -4,7 +4,7 @@ category: publisher
 order: 10
 ---
 
-**Important note:** LBRY Inc is providing these guidelines as a service to creators who may earn enough LBC to have to report it for tax purposes. These are just general guidelines for users in the USA as understood by LBRY. Creators are encouraged to seek tax guidance from a licensed CPA. In the US, IRS reporting is only necessary if you earned more than $600 USD/yr, so it would not apply to majority of regular users or smaller creators. 
+**Important note:** LBRY Inc is providing these guidelines as a service to creators in computing their taxes. These are just general guidelines for users in the USA as understood by LBRY. Creators are encouraged to seek tax guidance from a licensed CPA. 
 
 ## Income and gains taxes
 **Two different US taxes can apply on earned cryptocurrency: income tax and capital gains tax.**
