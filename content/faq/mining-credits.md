@@ -66,11 +66,6 @@ Please make sure to do your own research before making any decision on engaging 
 If you are self-hosting a farm you can check out various [ASIC management software](https://hashrateindex.com/blog/asic-miner-management-guide) to make your life easier. 
 
 
-### Renting Hashrate
-
-If you do not have the ability to buy a machine or it doesn’t make economic sense then you can also [rent hashrate](https://medium.com/luxor/how-to-mine-lbry-lbc-with-nicehash-on-luxor-89ae1280d339) directly to mine on platforms like Nicehash or Mining Rig Rental. 
-
-
 ### Setting up your FPGA
 
 For this guide, we will set up a Baikal but the process is pretty similar for any rig.
