@@ -43,7 +43,7 @@ Rewards that you have earned will be marked in your [wallet](/faq/transaction-ty
 | **Your First Nickel**    | 0.5 LBC       | One-time welcome gift for learning the basics of the application & wallet.                                                                                    |
 | **Go for a Stream**      | 0.5 LBC       | One-time reward for streaming your very first video.                                                                                                          |
 | **Welcome Back**         | 1 LBC       | One-time reward for returning to LBRY 24-48 hours following your first use of the app. (This reward cannot be earned after 48 hours.)                         |
-| **Daily View**           | 0.25 - 50 LBC | Repeatable reward for viewing any content. Earn a random reward of 0.5 to 50 LBC. Reward may be earned once every 23 hours.                                    |
+| **Daily View**           | 0.22 - 100 LBC | Repeatable reward for viewing any content. Earn a random reward of 0.5 to 50 LBC. Reward may be earned once every 23 hours.                                    |
 | **Many Views**           | 0.25+ LBC      | Multi-level reward for watching videos that increases with the number of videos you watch.                                                                    |
 | **Faithful Follower**    | 0.25 - 1 LBC   | Multi-level reward for following channels.                                                                                                                    |
 | **First Publish**        | 1 LBC       | One-time reward for publishing your first content on LBRY. If you are new to publishing, [learn how to publish](/faq/how-to-publish).                         |
