@@ -6,13 +6,13 @@ order: 4
 
 **IMPORTANT NOTE: Our sync queue for existing channels may be delayed for some users. If you are having issues with your channel, please email us at hello@lbry.com. Newly synced channels are currently backlogged and will take anywhere from a few days to a couple weeks to process.**
 
-LBRY and Odysee.com offer an easy way for YouTubers to republish their content to the LBRY network, engage with LBRY users, and earn LBC. This program is available to new and existing LBRY users - using our platform is not a prerequisite to syncing your channel. We provide a one-click sync process that gathers your channel and video metadata (i.e. covers, thumbnails, etc.), creates a channel for you on LBRY, and publishes your videos to it. 
+LBRY and Odysee.com offer an easy way for YouTubers to republish their content to the LBRY network, engage with LBRY users, and earn LBC. This program is available to new and existing LBRY users. We provide a one-click sync process that gathers your channel and video metadata (i.e. covers, thumbnails, etc.), creates a channel for you on LBRY, and publishes your videos to it.
 
 To qualify, the channel must have over 300 YouTube subscribers and recent, regular, and original content - see [requirements and limitations section](#limits) below for full details. Creators with over 500 subs also qualify for [view rewards](/faq/view-rewards).
 
-To sync your existing YouTube, start the process during sign up or from the Upload > Sync my Channel option on https://odysee.com
+You can start the sync process during sign up or from the Upload > Sync my Channel option on https://odysee.com
 
-**Please note:** The sync process will create a new channel for your channel which is later [transferred](#transfer) to you. If you created a channel in the app beforehand, [please see instructions on how to clean it up](#cleanup).
+**Please note:** The sync process will create a new channel for your channel which is later [transferred](#transfer) to you. If you created a channel in the app beforehand, [please see instructions on how to clean it up](#cleanup). In order to sync to an existing LBRY channel, you'll need to [reach out to us](mailto:help@lbry.com) and have a decent amount of subscribers alreayd on it. 
 
 ## What are the steps?
 
@@ -24,7 +24,7 @@ There are three main steps to this program:
 
 ### Enrolling {#enroll}
 
-To enroll, visit [lbry.com/youtube](/youtube).
+To enroll, visit [odysee.com](/youtube) and sync during sign up or or from the Upload > Sync my Channel option.
 
 The enrollment page will validate that you own your channel and that you agree to the terms of the LBRY YouTube program.You will also need to confirm your email. Please make sure to use your LBRY email account if you already have one. If you have multiple YouTube channels, they should all be linked to the same LBRY account (some exceptions allowed). 
 
