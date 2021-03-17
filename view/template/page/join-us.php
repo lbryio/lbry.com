@@ -33,7 +33,7 @@
         <li>Knack for user-experience and user-perspective. Even if you're designing the guts of our DHT, what you create ultimately has to work for real people. Our user base ranges from casual web surfers to crypto-nerd power users and you'll need an ability to understand how to create solutions that work for both.</li>
         <li>Reliable and independent. We expect a lot out of you, but we won't keep tabs on you. You must thrive in that kind of environment.</li>
         <li>No degree, credential, or age requirements. If you can do the work, we don't care how you got the skills.</li>
-        <li>Someone who appreciates that our CTO would <a href="https://gist.github.com/lyoshenka/0a43205aa9a072b196ff87e2c689a8b9">create this document</a> and then link it in a job posting.</li>
+        <li>Someone who appreciates that our CTO would <a href="https://grin.io/coding-maxims">create this document</a> and then link it in a job posting.</li>
       </ul>
 
       <h2 id="positions">Positions</h2>
