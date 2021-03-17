@@ -31,6 +31,7 @@
       <ul>
         <li>Ability to solve complex problems in simple ways. LBRY has many moving parts, but we try our hardest to power it with simple code. Your job is not just to solve problems, but to solve problems in a way that will last and can easily be picked up by other people.</li>
         <li>Knack for user-experience and user-perspective. Even if you're designing the guts of our DHT, what you create ultimately has to work for real people. Our user base ranges from casual web surfers to crypto-nerd power users and you'll need an ability to understand how to create solutions that work for both.</li>
+        <li>Thinking in tradeoffs. There are few one-sided answers in our work. How well can you navigate the <a href="https://cdixon.org/2014/03/16/theres-just-a-tremendous-amount-of-craftsmanship-in-between-a-great-idea-and-a-great-product">idea maze</a> of possibilities and competing priorites?</li>
         <li>Reliable and independent. We expect a lot out of you, but we won't keep tabs on you. You must thrive in that kind of environment.</li>
         <li>No degree, credential, or age requirements. If you can do the work, we don't care how you got the skills.</li>
         <li>Someone who appreciates that our CTO would <a href="https://grin.io/coding-maxims">create this document</a> and then link it in a job posting.</li>
