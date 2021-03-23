@@ -35,3 +35,7 @@ Depending on which OS and wallet you use, LBRY files may be stored in several pl
  *Use file manager to navigate to the path below*
 - `Internal storage/android/data/io.lbry.browser/files/lbrynet` - Daemon configuration, logs, encrypted blob files
 - `Internal storage/android/data/io.lbry.browser/files/lbryum` - Wallet and blockchain data
+
+_____________________________
+
+Note: do not confuse blobfiles with `Download directory` that you define in app settings. The `Download directory` is just a path where all downloaded files are copied for your potential convenience, the files placed there are not used by LBRY anyhow. You can disable saving copies of all viewed content in _Advanced Settings_. If you want to change the location of actual `/blobfiles/` participating in LBRY network distribution, refer to [this instruction](https://lbry.com/faq/how-to-change-lbry-blob-files).
