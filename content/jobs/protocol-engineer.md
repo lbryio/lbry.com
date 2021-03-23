@@ -1,7 +1,7 @@
 ---
 title: Protocol Engineer
 order: 4
-status: paused
+status: active
 location: remote (global)
 ---
 
