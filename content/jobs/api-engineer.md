@@ -1,7 +1,7 @@
 ---
 title: API Engineer
 order: 5
-status: paused
+status: closed
 location: remote (global)
 ---
 
