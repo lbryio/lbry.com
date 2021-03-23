@@ -24,7 +24,7 @@
   </a>
 
   <a href="https://tosdr.org/en/service/2391">
-    <img src="/api/badge//en_2391.svg"/>
+    <img src="https://shields.tosdr.org/en_2391.svg"/>
 </a>
 </div>
 
