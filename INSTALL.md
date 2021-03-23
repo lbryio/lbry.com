@@ -11,7 +11,7 @@ To run this project, you'll need to have either PHP7.0 or Docker installed, and 
 - Run `./dev.sh` from the project root
 - Access [localhost:8000](http://localhost:8000) in your browser
 
-## Installing Composer
+## Installing Composer (optional, for development purposes)
 To quickly install composer directly via Linux, run the following script to the terminal:
 ```
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
