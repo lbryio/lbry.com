@@ -40,6 +40,9 @@ First and foremost, please ensure you are on the [latest version](/get) of LBRY.
 - Other typical startup troubleshooting would be to ensure that the LBRY app or the lbrynet process is not already running in the background. If the processes cannot be killed, a restart of your computer may be required.
 
 ## Known startup issues and workarounds
+
+### Previous download location unavailable
+The app will fail to start if you had set a download location that is no longer available. To fix this, it must be removed or edited from the daemon_settings.yml file in the [lbrynet](/faq/lbry-directories) folder.
 ### Stuck at blockchain sync or wallet issues {#sync}
 If you are stuck on the blockchain sync step or it shows a block count that doesn't decrease, you may need to clear your blockchain headers and/or synced data. To do so, Shut LBRY down completely by closing it from the system tray (check for running LBRY/lbrynet-daemon processes), delete the `headers` and `blockchain.db` files in the [lbryum/lbc_mainnet folder](/faq/lbry-directories) and then start LBRY again.
 
