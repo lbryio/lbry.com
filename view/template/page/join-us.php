@@ -10,8 +10,7 @@
 
   <section>
     <div class="inner-wrap">
-        <div class="notice notice-success spacer1">LBRY is not currently hiring, but will be again soon. We recommend <strong><a href="https://lbry.tech/contribute">beginning as a contributor</a></strong> if you are interested in a technical position or just want to have a good time.</div>
-      <p>Changing the landscape of content distribution is no easy task. LBRY is growing rapidly, and we're always looking for great people to join us. If you're looking for a challenging and rewarding pursuit, if you want to work with a team that shares your passion and curiosity, you've come to the right place.</p>
+      <p>Changing the landscape of content distribution is no easy task. LBRY is growing rapidly, and we're looking for great people to join us. If you want a challenging and rewarding pursuit on a team that shares your passion and curiosity, you've come to the right place.</p>
 
       <h2 id="about">About LBRY</h2>
 
