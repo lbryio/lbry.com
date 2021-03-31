@@ -3,6 +3,8 @@ title: What are LBRY Rewards?
 category: getstarted
 ---
 
+Please note: iOS users will need to sign into odysee.com in their browser to claim rewards (Apple Policy not to allow earning cryptocurrencies in app). 
+
 Rewards are one of the ways LBRY users can obtain LBC (also known as LBRY credits, the digital currency token that powers the LBRY network). You can earn rewards for viewing content, following channels, publishing content, having other users to follow your channels, inviting other people to join LBRY, and more. Rewards are issued by LBRY Inc. **Reward amounts are subject to change at any time.**
 
 Not all users are eligible for rewards, but you can still use LBRY without earning rewards; there is no requirement to spend LBC or even create a LBRY.tv account if you just want to view content. [Learn more about eligibility below.](#eligibility)
