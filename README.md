@@ -10,7 +10,7 @@
 
 <div align="center">
  <a href="https://lbry.com">
- <img src="https://lbry.com/img/website-screenshot.png">
+ <img src="https://user-images.githubusercontent.com/24932514/113429766-a5137900-940b-11eb-91fa-2b2b7060df4b.png">
  </a>
 </div>
 
