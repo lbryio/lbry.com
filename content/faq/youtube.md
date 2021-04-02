@@ -4,13 +4,11 @@ category: publisher
 order: 4
 ---
 
-**IMPORTANT NOTE: Our sync queue for existing channels may be delayed for some users. If you are having issues with your channel, please email us at hello@lbry.com. Newly synced channels are currently backlogged and will take anywhere from a few days to a couple weeks to process.**
-
 LBRY and Odysee.com offer an easy way for YouTubers to republish their content to the LBRY network, engage with LBRY users, and earn LBC. This program is available to new and existing LBRY users. We provide a one-click sync process that gathers your channel and video metadata (i.e. covers, thumbnails, etc.), creates a channel for you on LBRY, and publishes your videos to it.
 
 To qualify, the channel must have over 300 YouTube subscribers and recent, regular, and original content - see [requirements and limitations section](#limits) below for full details. Creators with over 500 subs also qualify for [view rewards](/faq/view-rewards).
 
-You can start the sync process during sign up or from the Upload > Sync my Channel option on https://odysee.com
+You can start the sync process during sign up or from the Upload > Sync my Channel option on [Odysee](https://odysee.com).
 
 **Please note:** The sync process will create a new channel for your channel which is later [transferred](#transfer) to you. If you created a channel in the app beforehand, [please see instructions on how to clean it up](#cleanup). In order to sync to an existing LBRY channel, you'll need to [reach out to us](mailto:help@lbry.com) and have a decent amount of subscribers alreayd on it. 
 
@@ -31,8 +29,6 @@ The enrollment page will validate that you own your channel and that you agree t
 After enrolling, we collect information about your channel (title, description, etc.) and put your content into a queue to be automatically published to the LBRY network. This means you don't have to do anything to have your entire channel backed up and permanently available via LBRY.
 
 When the process is complete, you will receive a notice from LBRY indicating your channel is available to view.
-
-![status](https://spee.ch/2/sync-status.png)
 
 ### Channel and content transfer {#transfer}
 
