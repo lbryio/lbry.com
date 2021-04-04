@@ -150,6 +150,64 @@ input::placeholder {
   opacity: 0.4;
 }
 
+.anno__text {
+  background-color: #31afa1;
+  color: #fff;
+  display: block;
+}
+
+@media(min-width:901px) {
+  .anno__text {
+      margin: 0 10rem;
+      top: 20vh;
+      padding: auto;
+  }
+}
+@media(max-width:900px) {
+  .anno__text {
+    padding: auto;
+  }
+}
+
+.anno__title {
+  font-size: 2.5rem;
+  font-weight: 900
+}
+
+@media(min-width:901px) {
+  .anno__title {
+      font-size: 2rem;
+      text-align: center;
+  }
+}
+
+@media(max-width:900px) {
+  .anno__title {
+      font-size: 1.5rem;
+      text-align: center;
+  }
+}
+
+.anno__subtitle {
+  font-weight: 300
+}
+
+@media(min-width:901px) {
+  .anno__subtitle {
+      font-size: 1.3rem;
+      text-align: center;
+      margin-top: 0.3rem;
+  }
+
+}
+
+@media(max-width:900px) {
+  .anno__subtitle {
+      font-size: 1rem;
+      text-align: center;
+  }
+}
+
 .button--google-play {
   @include hide-text;
   width: 10rem; height: 4rem;
