@@ -6,7 +6,7 @@
     <h1 class="anno__title">HELP LBRY SAVE CRYPTO</h1>
     <div class="anno__subtitle">
       <div>The SEC doesn’t understand blockchain. The claims made in SEC vs. LBRY would destroy the United States
-        cryptocurrency industry. <br> Learn more at <a href="https://helplbrysavecrypto.com?ref=lbry.com">helplbrysavecrypto.com</a>
+        cryptocurrency industry. <br> Learn more at <a id="anno__link" href="https://helplbrysavecrypto.com?ref=lbry.com">helplbrysavecrypto.com</a>
     </div>
   </section>
   <section class="home__hero">

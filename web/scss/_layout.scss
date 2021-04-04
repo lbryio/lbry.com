@@ -158,14 +158,12 @@ input::placeholder {
 
 @media(min-width:901px) {
   .anno__text {
-      margin: 0 10rem;
-      top: 20vh;
-      padding: auto;
+      padding: 1rem;
   }
 }
 @media(max-width:900px) {
   .anno__text {
-    padding: auto;
+    padding: 1rem;
   }
 }
 
@@ -178,12 +176,14 @@ input::placeholder {
   .anno__title {
       font-size: 2rem;
       text-align: center;
+      margin-bottom: 1rem;
   }
 }
 
 @media(max-width:900px) {
   .anno__title {
       font-size: 1.5rem;
+      margin-bottom: 1rem;
       text-align: center;
   }
 }
@@ -192,11 +192,14 @@ input::placeholder {
   font-weight: 300
 }
 
+#anno__link {
+  text-decoration: underline;
+}
+
 @media(min-width:901px) {
   .anno__subtitle {
       font-size: 1.3rem;
       text-align: center;
-      margin-top: 0.3rem;
   }
 
 }
