@@ -19,15 +19,16 @@ _Note: If you are not using the sync service, wallets should be re-backed up aft
 
 ## How do I find my wallet in LBRY Desktop?
 
-The easiest way to find the location of your LBRY wallet is via the [LBRY app](/get). Open LBRY and on the left side, you should see a sidebar menu called "Help" - the wallet location is in the **Backup Your LBRY Credits** section.
+The easiest way to find the location of your LBRY wallet is via the [LBRY app](/get). Open LBRY and on the gear-icon at the top, you should see a menu item called "Help" - the wallet location is in the **Backup your LBRY wallet** section. Click on "Open Folder".
 
 ## How do I backup my LBRY Desktop wallet?
 
-Click on "Help" and scroll down to the **Backup Your LBRY Credits** section.
+Click on the gear-icon at the top of the application, you should see a sub-menu item called "Help" and scroll down to the **Backup your LBRY wallet** section.
 
 When you click **Create Backup**, the app will generate a zip file of your wallet directory. You'll be directed to the folder it's saved to.
 
-Wallet backups should be copied securely to one or more locations which only you have control over. Anyone with access to the wallet file could potentially have access to your LBRY Credits. Backing up is the process by which you copy the wallet files from your PC to another secure location. We recommend using Flash Drives/USBs or other external media which is kept in your possession. It is recommended to copy the wallet to more than one backup location for redundancy, especially if you are storing larger amounts of credits.
+Wallet backups should be copied securely to one or more locations which only you have control over. Anyone with access to the wallet file could potentially have access to your LBRY Credits. Backing up is the process by which you copy the wallet files from your PC to another secure location. We recommend using Flash Drives/USBs or other external media which is kept in your possession.  
+It is recommended to copy the wallet to more than one backup location for redundancy, especially if you are storing larger amounts of credits.
 
 ## How do I find my wallet if I don't have LBRY open?
 
