@@ -19,7 +19,7 @@ _Note: If you are not using the sync service, wallets should be re-backed up aft
 
 ## How do I find my wallet in LBRY Desktop?
 
-The easiest way to find the location of your LBRY wallet is via the [LBRY app](/get). Open LBRY and on the gear-icon at the top, you should see a menu item called "Help" - the wallet location is in the **Backup your LBRY wallet** section. Click on "Open Folder".
+The easiest way to find the location of your LBRY wallet is via the [LBRY app](/get). Open LBRY and click on the gear-icon at the top, you should see a menu item called "Help" - the wallet location is in the **Backup your LBRY wallet** section. Click on "Open Folder".
 
 ## How do I backup my LBRY Desktop wallet?
 
