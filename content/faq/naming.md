@@ -39,11 +39,11 @@ LBRY supports several types of URL resolution:
 
 | Type                 | Resolution                 |
 | --------------------- | ----------------------------- | -------------------------- |
-| **Permanent** <br/> `lbry://<name>#<claim_id>` | This URL consists of a name and randomly assigned ID. This is permanently owned and controlled by the publisher. Permanent URLs support partial, temporal-ordered ID matching, so these can be quite short (e.g. lbry://name#8 or lbry://name#ab) |
-| **Short** <br/> `lbry://<name>#<short_claim_id>` | This URL consists of a name and one or more characters (first come first serve to preserve uniqueness) from the Permanent URL. This is permanently owned and controlled by the publisher. If a shorter URL is made available, the claim next in line will take over its resolution.
+| **Permanent** <br/> `lbry://<name>:<claim_id>` | This URL consists of a name and randomly assigned ID. This is permanently owned and controlled by the publisher. Permanent URLs support partial, temporal-ordered ID matching, so these can be quite short (e.g. lbry://name:8 or lbry://name:ab) |
+| **Short** <br/> `lbry://<name>:<short_claim_id>` | This URL consists of a name and one or more characters (first come first serve to preserve uniqueness) from the Permanent URL. This is permanently owned and controlled by the publisher. If a shorter URL is made available, the claim next in line will take over its resolution.
 | **Community** <br/> `lbry://<name>` | Of all of the claims named `<name>`, this returns the publish with the most credits committed towards it, not just by the publisher, but by the entire community. These URLs are not permanent or owned but instead controlled by the community itself, allowing the resolution to settle on that which the community determines most appropriate. |
-| **Channel** <br/> `lbry://<@channel_name>` | A URL corresponding to a publisher identity. These resolve to the identity of a specific publisher and their publishes. Channel URLs can be specified with or without the `#` modifier. An unmodified URL returns the channel determined by the community.
-| **Signed** <br/> `lbry://<@channel_name>/<example>` | The piece of content published to the name `<example>` within the channel of `<@channel_name>`.
+| **Channel** <br/> `lbry://@<channel_name>` | A URL corresponding to a publisher identity. These resolve to the identity of a specific publisher and their publishes. Channel URLs can be specified with or without the `:` modifier. An unmodified URL returns the channel determined by the community.
+| **Signed** <br/> `lbry://@<channel_name>/<example>` | The piece of content published to the name `<example>` within the channel of `@<channel_name>`.
 
 ## Takeaways
 
