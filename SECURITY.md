@@ -17,7 +17,7 @@ currently being supported with composer updates, to increase security.
 | PHP 7.4.x   | :white_check_mark: |
 | PHP 8.x.x   | (soon)             |
 
-## Roave Security AdvisorieS
+## Roave Security Advisories
 
 We added Roave Security Advisories to notify on every composer plugins that are vulnerable to attacks, etc.
 If you spot one while cloning, developing, or updating a dependency, please don't hesitate to message us. 
