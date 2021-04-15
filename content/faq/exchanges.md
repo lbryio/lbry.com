@@ -5,9 +5,9 @@ category: getstarted
 
 We are listed on several cryptocurrency exchanges. You can buy or sell LBRY Credits at any of the below. 
 
-You can also [purchase LBC directly via the app](/faq/buy-lbc).
+You can also [purchase LBC directly via the app and Odysee.com](/faq/buy-lbc) or swap other cryptos (BTC, BCH, ETH, LTC, DAI, and USDC) to LBC via your wallet page. 
 
-For a guide on buying/selling, see our [Bittrex purchasing/selling FAQ](/faq/buy-sell-bittrex)
+For a guide on buying/selling, see our [Bittrex purchasing/selling FAQ, currently avialable for international users only](/faq/buy-sell-bittrex).
 
 ## Traditional exchanges
 - [Bittrex - International Only, US Trading Disabled](https://bittrex.com/Market/Index?MarketName=BTC-LBC) (BTC, USD, ETH, USDT)
