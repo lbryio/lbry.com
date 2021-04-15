@@ -2,6 +2,9 @@
 title: Buying and selling LBC on exchanges
 category: getstarted
 ---
+
+Note: Bittrex is currently only available for Non-US based users.
+
 This guide is meant for informational purposes only and is not financial advice. 
 
 Currently, in order to exchange LBC for traditional currencies (and vice versa), you'll need to use [cryptocurrency exchanges](/faq/exchanges). LBRY is actively working on ways to make this easier right inside our applications, but we don't have an ETA on when this would be available. 
