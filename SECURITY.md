@@ -6,16 +6,17 @@ Our PGP key is [here](https://keybase.io/lbry/key.asc) if you need it.
 Use this section to tell people about which PHP version of your project are
 currently being supported with composer updates, to increase stability, patches and security for these PHP versions.
 
-|   PHP Version    |      Supported     |
-|   -----------    |      ---------     |
-| PHP 5.6.x        | :x:                |
-| PHP 7.0.x        | :x:                |
-| PHP 7.1.x        | :x:                |
-| PHP 7.2.4 below  | :x:                |
-| PHP 7.2.5 and up | :white_check_mark: |
-| PHP 7.3.x        | :white_check_mark: |
-| PHP 7.4.x        | :white_check_mark: |
-| PHP 8.x.x        | :white_check_mark: |
+|     PHP Version     |      Is this supported?     |
+|---------------------|-----------------------------|
+| PHP 5.6.x           |             :x:             |
+| PHP 7.0.x           |             :x:             |
+| PHP 7.1.x           |             :x:             |
+| PHP 7.2.4 below     |             :x:             |
+| PHP 7.2.5 and up    |     :white_check_mark:      |
+| PHP 7.3.x           |     :white_check_mark:      |
+| PHP 7.4.x           |     :white_check_mark:      |
+| PHP 8.0.x           |     :white_check_mark:      |
+| Future PHP Versions | Coming soon after release.  |
 
 ## Roave Security Advisories
 
