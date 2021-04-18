@@ -4,7 +4,7 @@ Our PGP key is [here](https://keybase.io/lbry/key.asc) if you need it.
 ## Supported PHP Versions
 
 Use this section to tell people about which PHP version of your project are
-currently being supported with composer updates, to increase security.
+currently being supported with composer updates, to increase stability, patches and security for these PHP versions.
 
 |   PHP Version    |      Supported     |
 |   -----------    |      ---------     |
