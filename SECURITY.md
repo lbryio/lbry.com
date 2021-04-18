@@ -10,12 +10,12 @@ currently being supported with composer updates, to increase security.
 | ----------- |      ---------     |
 | PHP 5.6.x   | :x:                |
 | PHP 7.0.x   | :x:                |
-| PHP 7.1.x   | :white_check_mark: |
-| PHP 7.2.x   | :white_check_mark: |
+| PHP 7.1.x   | :x:                |
+| PHP 7.2.4-  | :x:                |
 | PHP 7.2.5+  | :white_check_mark: |
 | PHP 7.3.x   | :white_check_mark: |
 | PHP 7.4.x   | :white_check_mark: |
-| PHP 8.x.x   | (soon)             |
+| PHP 8.x.x   | :white_check_mark: |
 
 ## Roave Security AdvisorieS
 
