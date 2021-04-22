@@ -9,6 +9,12 @@
 
   <section>
     <div class="inner-wrap">
+      <div class="notice notice-info">
+          <p>LBRY Inc has ceased issuing credit reports due to regulatory uncertainty around communication this information. We will resume these reports if and when the SEC provides clear guidance that these reports are allowed.</p>
+
+          <p>Please visit <a href="helplbrysavecrypto.com">helplbrysavecrypto.com</a> for more.</p>
+      </div>
+        <br/>
       <p>LBRY issues a quarterly report every 3 months in January, April, July, and October, covering the preceding 3 full months. These reports outline the corresponding transaction history as well as the current state of LBRY, Inc.'s balance sheet and anticipated future expenditures.</p>
 
       <table>
