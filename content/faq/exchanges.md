@@ -10,12 +10,12 @@ You can also [purchase LBC directly via the app and Odysee.com](/faq/buy-lbc) or
 For a guide on buying/selling, see our [Bittrex purchasing/selling FAQ, currently avialable for international users only](/faq/buy-sell-bittrex).
 
 ## Traditional exchanges
-- [Bittrex - International Only, US Trading Disabled](https://bittrex.com/Market/Index?MarketName=BTC-LBC) (BTC, USD, ETH, USDT)
+- [Bittrex - International Only, US Trading Disabled](https://bittrex.com/Market/Index?MarketName=BTC-LBC) ([USD](https://bittrex.com/Market/Index?MarketName=USD-LBC), [ETH](https://bittrex.com/Market/Index?MarketName=ETH-LBC), [USDT](https://bittrex.com/Market/Index?MarketName=USDT-LBC))
 - [Lbank](https://www.lbank.me/exchange/lbc/btc) / [USDT](https://www.lbank.me/exchange/lbc/usdt)
 - [Hotbit](https://www.hotbit.io/exchange?symbol=LBC_BTC) / [USDT](https://www.hotbit.io/exchange?symbol=LBC_USDT)
-- [CoinEx BTC](https://www.coinex.com/exchange?currency=btc&dest=lbc) / [USDT](https://www.coinex.com/exchange?currency=usdt&dest=lbc)
-- [Upbit](https://upbit.com/exchange?code=CRIX.UPBIT.BTC-LBC)
-- [BigONE](https://big.one/cn/trade/LBC-BTC) (BTC, USDT)
+- [CoinEx](https://www.coinex.com/exchange?currency=btc&dest=lbc) / [USDT](https://www.coinex.com/exchange?currency=usdt&dest=lbc)
+- [Upbit](https://upbit.com/exchange?code=CRIX.UPBIT.BTC-LBC) / [KRW](https://upbit.com/exchange?code=CRIX.UPBIT.KRW-LBC)
+- [BigONE](https://big.one/cn/trade/LBC-BTC) /  [USDT](https://big.one/cn/trade/LBC-USD)
 
 ## Instant exchanges - Crypto Only (currently under maintenance and not available)
 - [Simple Swap](https://simpleswap.io)
