@@ -10,7 +10,7 @@
   <section>
     <div class="inner-wrap">
       <div class="notice notice-info">
-          <p>LBRY Inc has ceased issuing credit reports due to regulatory uncertainty around communication this information. We will resume these reports if and when the SEC provides clear guidance that these reports are allowed.</p>
+          <p>LBRY Inc has ceased issuing credit reports due to regulatory uncertainty around communication of this information. We will resume these reports if and when the SEC provides clear guidance that these reports are legal to produce.</p>
 
           <p>Please visit <a href="helplbrysavecrypto.com">helplbrysavecrypto.com</a> for more.</p>
       </div>
