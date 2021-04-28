@@ -6,6 +6,11 @@
   Response::addMetaImage(Request::getHostAndProto() . '/img/lbry-partner.png');
   $isEnabled = true;
 ?>
+<style>
+  #odysee {
+  color: var(--lbry-red-5);
+}
+</style>
 
 <main class="ancillary youtube youtube--landing">
   <section class="hero hero--youtube">
@@ -47,10 +52,10 @@
     <div class="inner-wrap">
       <h2>Sync Your YouTube Channel</h2>
       <p>
-          YouTube channel sync is now a feature of <a href="https://odysee.com">odysee.com</a>, the most popular way to access LBRY.
+          YouTube channel sync is now a feature of <a id="odysee" href="https://odysee.com">odysee.com</a>, the most popular way to access LBRY.
       </p>
         <p>
-            Just <a href="https://odysee.com/$/signup">sign up</a> at Odysee and you'll be prompted to sync your channel when you join.
+            Just <a id="odysee" href="https://odysee.com/$/signup">sign up</a> at Odysee and you'll be prompted to sync your channel when you join.
             It takes under a minute -- take back control and begin earning!
         </p>
         <p>
