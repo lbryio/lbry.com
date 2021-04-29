@@ -74,7 +74,11 @@
     <div class="inner-wrap">
     <h2> As featured on </h2>
       <aside class="featured__row">
-      
+      <a> <img /></a>
+      <a> <img /></a>
+      <a> <img /></a>
+      <a> <img /></a>
+      <a> <img /></a>
 
       </aside>
     </div>

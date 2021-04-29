@@ -252,22 +252,6 @@ main.home {
   @media (min-width: 901px) {
     padding-top: 3rem;
   }
-  
-  &::after {
-    background-color: var(--lbry-gray-1);
-    content: "";
-    position: absolute;
-
-    @media (min-width: 901px) {
-      width: 1px; height: 100%;
-      top: 0; right: 0;
-    }
-
-    @media (max-width: 900px) {
-      width: 100%; height: 1px;
-      bottom: 0; left: 0;
-    }
-  }
 
   h3 {
     &::before {
@@ -282,4 +266,13 @@ main.home {
   font-size: 1rem;
   padding-top: 2rem;
   text-align: center;
+}
+
+.featured__row {
+  a {
+    
+  }
+  img {
+    filter: grayscale(100%);
+  }
 }
