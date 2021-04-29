@@ -1,7 +1,7 @@
 <h1 align="center">lbry.com</h1>
 
 <div align="center">
-  <strong>We came from the future to help you save the Internet</strong>
+  <strong>We came from the future to help you save the Internet from it's "censored" state.</strong>
 </div>
 
 <div align="center">
@@ -9,7 +9,9 @@
 </div>
 
 <div align="center">
-<img src="https://lbry.com/img/website-screenshot.png">
+ <a href="https://lbry.com">
+ <img src="https://user-images.githubusercontent.com/24932514/113429766-a5137900-940b-11eb-91fa-2b2b7060df4b.png">
+ </a>
 </div>
 
 <div align="center">
@@ -20,6 +22,10 @@
   <a href="https://chat.lbry.com">
     <img src="https://img.shields.io/discord/362322208485277697.svg?style=flat-square&logo=discord"/>
   </a>
+
+  <a href="https://tosdr.org/en/service/2391">
+    <img src="https://shields.tosdr.org/en_2391.svg"/>
+</a>
 </div>
 
 
@@ -62,9 +68,7 @@ Release candidates can also be targeted. For release candidates, use the followi
 `lbry.com/releases/pre/<github_repo_name>.<extension>`
 
 ## Security
-We take security seriously. Please contact [security@lbry.com](mailto:security@lbry.com) regarding any security issues.
-
-[Our PGP key is here](https://keybase.io/lbry/key.asc) if you need it.
+Please see [SECURITY](SECURITY.md) to know more about the security and how to contact if the project has serious flaws.
 
 ## Contact
 The primary contact for this project is [@netoperatorwibby](https://github.com/netoperatorwibby) (paul+github@lbry.com).
@@ -78,5 +82,4 @@ The primary contact for this project is [@netoperatorwibby](https://github.com/n
 - [Facebook](https://www.facebook.com/lbrycom) - LBRY Facebook page
 - [Reddit](https://reddit.com/r/lbry) - LBRY Reddit page
 - [Telegram](https://t.me/lbryofficial) - Telegram group
-
 
