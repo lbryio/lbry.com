@@ -68,16 +68,15 @@
         <p>Do you have an awesome idea that could use some help? Want to connect with like-minded users?</p>
         <a href="https://lbry.org" class="button button--inverse">Join the party at LBRY.org</a>
       </aside>
+    </div>
+  </section>
+  <section class="home__asfeatured">
+    <div class="inner-wrap">
+    <h2> As featured on </h2>
+      <aside class="featured__row">
+      
 
-      <aside class="home__site home__site--asfeatured">
-        <h3>As featured on</h3>
-        <a href="https://techcrunch.com/2020/12/07/odysee-launch/"><img src="../img/asfeaturedon/techcrunch.svg" /></a>
-        <a href="https://reclaimthenet.org/odysee-traffic-doubles-jan-2020/"><img id="reclaim"
-            src="../img/asfeaturedon/reclaimthenet.png" /></a>
-        <a href="https://cointelegraph.com/news/whats-next-for-youtubers-impacted-by-crypto-related-content-ban"><img
-            id="ct" src="../img/asfeaturedon/cointelegraph.svg" /></a>
       </aside>
-
     </div>
   </section>
 </main>
