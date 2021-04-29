@@ -8,11 +8,14 @@
     "ext-pdo": "*",
     "ext-pdo_mysql": "*",
     "ext-json": "*",
-    "scssphp/scssphp": "^1.0",
-    "erusev/parsedown": "^1.6",
-    "erusev/parsedown-extra": "^0.8.1",
-    "pelago/emogrifier": "^3.0",
-    "mustangostang/spyc": "^0.6.2",
+    "scssphp/scssphp": "^1.4",
+    "erusev/parsedown": "^1.7",
+    "erusev/parsedown-extra": "^0.8",
+    "pelago/emogrifier": "^5.0",
+    "mustangostang/spyc": "^0.6.3",
     "masterminds/html5": "^2.7"
-  }
+  },
+    "require-dev": {
+    "roave/security-advisories": "dev-latest"
+    }
 }
