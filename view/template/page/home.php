@@ -72,12 +72,16 @@
   </section>
   <section class="home__asfeatured">
     <div class="inner-wrap">
-    <h2> As featured on </h2>
+    <h1> As featured on </h1>
       <aside class="featured__row">
       <a href="https://techcrunch.com/2020/12/07/odysee-launch/"><img src="../img/featured/techcrunch.svg"/></a>
       <a href="https://reclaimthenet.org/odysee-traffic-doubles-jan-2020/"><img id="reclaim" src="../img/featured/reclaimthenet.png"/></a>
       <a href="https://cointelegraph.com/news/whats-next-for-youtubers-impacted-by-crypto-related-content-ban"><img src="../img/featured/cointelegraph.svg"/></a>
-      <a href="https://techcrunch.com/2020/12/07/odysee-launch/"><img src="../img/asfeaturedon/techcrunch.svg"/></a>
+      <a href="https://techcrunch.com/2020/12/07/odysee-launch/"><img src="../img/featured/newyorktimes.svg"/></a>
+      <a href="https://techcrunch.com/2020/12/07/odysee-launch/"><img src="../img/featured/nationalpublicradio.svg"/></a>
+      <a href="https://techcrunch.com/2020/12/07/odysee-launch/"><img src="../img/featured/nasdaq.svg"/></a>
+      <a href="https://techcrunch.com/2020/12/07/odysee-launch/"><img src="../img/featured/forbes.svg"/></a>
+      <a href="https://techcrunch.com/2020/12/07/odysee-launch/"><img src="../img/featured/bitcoincom.png"/></a>
       </aside>
     </div>
   </section>
