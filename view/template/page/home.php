@@ -6,7 +6,7 @@
     <h1 class="anno__title">HELP LBRY SAVE CRYPTO</h1>
     <div class="anno__subtitle">
       <div>The SEC doesn’t understand blockchain. The claims made in SEC vs. LBRY would destroy the United States
-        cryptocurrency industry. <br> Learn more at <a id="anno__link" href="https://helplbrysavecrypto.com?ref=lbry.com">helplbrysavecrypto.com</a>
+        cryptocurrency industry. <br> Learn more at <a id="anno__link" href="https://helplbrysavecrypto.com?ref=lbrycom">helplbrysavecrypto.com</a>
     </div>
   </section>
   <section class="home__hero">
@@ -81,7 +81,7 @@
       <a href="https://www.wbur.org/hereandnow/2021/04/29/censorship-cryptocurrency-sec?ref=lbrycom"><img src="../img/featured/nationalpublicradio.svg"/></a>
       <a href="https://www.nasdaq.com/articles/us-government-sues-decentralized-content-platform-lbry-over-%2411m-in-token-sales-2021-03-29?ref=lbrycom"><img src="../img/featured/nasdaq.svg"/></a>
       <a href="https://www.forbes.com/sites/jonathanchester/2018/10/25/democratizing-media-in-the-era-of-blockchain/?sh=526a7d5b5c75?ref=lbrycom"><img src="../img/featured/forbes.svg"/></a>
-      <a href="#"><img src="../img/featured/bitcoincom.png"/></a>
+      <a href="https://news.bitcoin.com/big-techs-freedom-of-speech-purge-pushes-people-to-censorship-resistant-blockchain-social-media/?ref=lbrycom"><img src="../img/featured/bitcoincom.png"/></a>
       </aside>
     </div>
   </section>
