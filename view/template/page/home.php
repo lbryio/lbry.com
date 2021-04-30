@@ -74,14 +74,14 @@
     <div class="inner-wrap">
     <h1> As featured on </h1>
       <aside class="featured__row">
-      <a href="https://techcrunch.com/2020/12/07/odysee-launch/?=ref=lbrycom"><img src="../img/featured/techcrunch.svg"/></a>
-      <a href="https://reclaimthenet.org/odysee-traffic-doubles-jan-2020/?ref=lbrycom"><img id="reclaim" src="../img/featured/reclaimthenet.svg"/></a>
-      <a href="https://cointelegraph.com/news/whats-next-for-youtubers-impacted-by-crypto-related-content-ban?ref=lbrycom"><img src="../img/featured/cointelegraph.svg"/></a>
-      <a href="https://www.nytimes.com/2021/01/26/technology/big-tech-power-bitcoin.html?ref=lbrycom"><img src="../img/featured/newyorktimes.svg"/></a>
-      <a href="https://www.wbur.org/hereandnow/2021/04/29/censorship-cryptocurrency-sec?ref=lbrycom"><img src="../img/featured/nationalpublicradio.svg"/></a>
-      <a href="https://www.nasdaq.com/articles/us-government-sues-decentralized-content-platform-lbry-over-%2411m-in-token-sales-2021-03-29?ref=lbrycom"><img src="../img/featured/nasdaq.svg"/></a>
-      <a href="https://www.forbes.com/sites/jonathanchester/2018/10/25/democratizing-media-in-the-era-of-blockchain/?sh=526a7d5b5c75?ref=lbrycom"><img src="../img/featured/forbes.svg"/></a>
-      <a href="https://news.bitcoin.com/big-techs-freedom-of-speech-purge-pushes-people-to-censorship-resistant-blockchain-social-media/?ref=lbrycom"><img src="../img/featured/bitcoincom.png"/></a>
+      <img src="../img/featured/techcrunch.svg"/>
+      <img src="../img/featured/newyorktimes.svg"/>
+      <img src="../img/featured/nationalpublicradio.svg"/>
+      <img src="../img/featured/nasdaq.svg"/>
+      <img src="../img/featured/forbes.svg"/>
+      <img src="../img/featured/reclaimthenet.svg"/>
+      <img src="../img/featured/cointelegraph.svg"/>
+      <img src="../img/featured/bitcoincom.png"/>
       </aside>
     </div>
   </section>
