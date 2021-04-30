@@ -284,7 +284,7 @@ main.home {
 }
 
 .featured__row {
-  img {
+img {
     @media (max-width:900px) {
       display: block;
       margin-left: auto;
@@ -303,7 +303,6 @@ main.home {
       padding-right: 1.5rem;
       padding-bottom: 1.5rem;
     }
-
     filter: grayscale(100%);
   }
 }
