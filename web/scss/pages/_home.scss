@@ -264,11 +264,15 @@ main.home {
   border-top: 1px solid var(--lbry-gray-1);
   background-color: var(--lbry-white);
   font-size: 1rem;
-  padding-top: 2rem;
-  text-align: center;
 
+  text-align: center;
+  
   @media (max-width:900px) {
     padding-top: 1rem;
+  }
+
+  @media (min-width:901px) {
+    padding-top: 2rem;
   }
 
   h2 {
