@@ -266,13 +266,30 @@ main.home {
   font-size: 1rem;
   padding-top: 2rem;
   text-align: center;
+
+  h2 {
+    padding-bottom: 1rem;
+  }
 }
 
 .featured__row {
-  a {
-    
-  }
   img {
+    @media (max-width:900px) {
+      flex: 25%;
+      max-width: 25%;
+    }
+
+    @media (min-width:901px) {
+      flex: 25%;
+      max-width: 25%;
+    }
+
     filter: grayscale(100%);
+  }
+
+  #reclaim {
+    background-color: black;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
