@@ -267,6 +267,10 @@ main.home {
   padding-top: 2rem;
   text-align: center;
 
+  @media (max-width:900px) {
+    padding-top: 1rem;
+  }
+
   h2 {
     padding-bottom: 1rem;
   }
