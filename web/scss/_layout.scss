@@ -16,12 +16,6 @@ body {
   word-wrap: anywhere;
 }
 
-img, video{
-  pointer-events: none;
-}
-
-
-
 code {
   @include font-mono;
 }
