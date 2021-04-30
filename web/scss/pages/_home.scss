@@ -275,8 +275,15 @@ main.home {
 .featured__row {
   img {
     @media (max-width:900px) {
-      flex: 25%;
-      max-width: 25%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 60%;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      margin-bottom: 1.5rem;
     }
 
     @media (min-width:901px) {
