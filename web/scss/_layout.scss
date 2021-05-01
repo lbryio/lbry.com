@@ -16,6 +16,10 @@ body {
   word-wrap: anywhere;
 }
 
+video, img {
+pointer-events: none;
+}
+
 code {
   @include font-mono;
 }
