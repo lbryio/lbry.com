@@ -43,6 +43,7 @@
 /youtube/sync:                                        /faq/youtube
 /faq/referrals:                                       /faq/invites
 /faq/account-sync:                                    /faq/accounts-and-sync
+/faq/gpg-key:                                         /faq/pgp-key
 
 # Get
 /dl/lbry_setup.sh:        /get
