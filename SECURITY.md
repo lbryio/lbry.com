@@ -25,6 +25,6 @@ If you spot one while cloning, developing, or updating a dependency, please don'
 
 ## Reporting a Vulnerability
 
-Go to "Issues" tab, or pull request it yourself to fix this issue. That would be really appreciated.
-If you want to fix some vulnerability on desktop apps like lbry desktop, go to their respective pages and make a pull request.
+Go to [Issues](https://github.com/lbryio/lbry.com/issues) tab, or clone this repo and [make a PR](https://github.com/lbryio/lbry.com/pulls) to fix this issue. That would be really appreciated.
+If you want to fix some vulnerability on desktop apps like LBRY desktop, go to their respective pages and make a PR.
 If you want to talk about security issues, email us at [security@lbry.com](mailto:security@lbry.com)
