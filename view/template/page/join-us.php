@@ -60,11 +60,13 @@
           </tr>
         </thead>
         <tbody>
+
           <tr>
             <td><a href="https://github.com/lbryio/lbrycrd">lbrycrd</a></td>
             <td>Blockchain Engineer</td>
             <td><a href="https://github.com/lbryio/lbrycrd/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">good first issues</a></td>
           </tr>
+
           <tr>
             <td>
               <a href="https://github.com/lbryio/lbry-sdk">lbry-sdk (client)</a>
@@ -72,6 +74,7 @@
             <td>Protocol Engineer</td>
             <td><a href="https://github.com/lbryio/lbry-sdk/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">good first issues</a></td>
           </tr>
+
           <tr>
             <td>
               <a href="https://github.com/lbryio/lbry-desktop">lbry-desktop</a><br>
@@ -81,11 +84,16 @@
             <td>Lead Application Engineer</td>
             <td><a href="https://github.com/lbryio/lbry-desktop/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">good first issues</a></td>
           </tr>
+
           <tr>
-            <td><em>(not public)</em></td>
-            <td>API engineer</td>
-            <td>contact us / apply first</td>
+            <td>
+              <a href="https://github.com/lbryio/lbrytv">lbrytv</a><br>
+              <a href="https://github.com/lbryio/chainquery">chainquery</a>
+            </td>
+            <td>API Engineer</td>
+            <td><a href="https://github.com/lbryio/lbrytv/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">good first issues</a></td>
           </tr>
+
         </tbody>
       </table>
 
