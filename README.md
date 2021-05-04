@@ -4,6 +4,8 @@
   <strong> We came from the future to help you save the Internet. </strong>
 </div>
 
+<br />
+
 <div align="center">
   Official website for <a href="https://lbry.com">the LBRY protocol</a>.
 </div>
