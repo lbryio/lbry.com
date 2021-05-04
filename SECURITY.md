@@ -20,11 +20,11 @@ currently being supported with composer updates, to increase stability, patches 
 
 ## Roave Security Advisories
 
-We added Roave Security Advisories to notify on every composer plugins that are vulnerable to attacks, etc.
+We added Roave Security Advisories to notify on every composer plugins that are vulnerable to attacks, and prevents to install that known vulnerability.
 If you spot one while cloning, developing, or updating a dependency, please don't hesitate to message us. 
 
 ## Reporting a Vulnerability
 
-Go to "issues" tab, or pull request it yourself to fix this issue. That would be really appreciated.
+Go to "Issues" tab, or pull request it yourself to fix this issue. That would be really appreciated.
 If you want to fix some vulnerability on desktop apps like lbry desktop, go to their respective pages and make a pull request.
 If you want to talk about security issues, email us at [security@lbry.com](mailto:security@lbry.com)
