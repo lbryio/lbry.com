@@ -1,7 +1,7 @@
 <h1 align="center">lbry.com</h1>
 
 <div align="center">
-  We came from the future to help you save the Internet. </strong>
+  <strong> We came from the future to help you save the Internet. </strong>
 </div>
 
 <div align="center">
