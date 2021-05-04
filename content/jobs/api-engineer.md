@@ -1,12 +1,12 @@
 ---
 title: API Engineer
 order: 5
-status: closed
+status: active
 location: remote (global)
 ---
 
-This job combines the coolest language with a slightly less cool objective for an overall attractiveness quotient of still pretty neat.
-
-Specifically, being an API engineer at LBRY involves creating and modifying web-based API endpoints in Go. These endpoints are used for everything from analytics and user databasing to reward disbursement, notifications, and more.
-
-This is the only closed source project at LBRY. Competence in creating sane, secure, and well-structured API signatures is required, as is a mind for security. Strong knowledge of SQL and data structures is also necessary. This work involves interactions with blockchain, but no direct work on the LBRY blockchain or protocol.
+[odysee.com](https://odysee.com) is less than a year old, and already a million of people use it every day. 
+Help us scale our backend infrastructure to meet this ever-growing demand and prepare for the next 10x increase
+(and the 10x after that, and the one after that). This involves designing and implementing APIs in Go, 
+working with SQL databases, managing a Kubernetes cluster, and writing lots of test. 
+Experience with video delivery (e.g. CDNs, livestreaming) and high-availability systems is a plus.
