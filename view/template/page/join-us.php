@@ -81,7 +81,7 @@
               <a href="https://github.com/lbryio/lbry-android">lbry-android</a>
               </ul>
             </td>
-            <td>Lead Application Engineer</td>
+            <td>Application Engineer</td>
             <td><a href="https://github.com/lbryio/lbry-desktop/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">good first issues</a></td>
           </tr>
 
