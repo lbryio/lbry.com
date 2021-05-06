@@ -6,8 +6,8 @@ location: remote (global)
 ---
 
 This position involves working directly on the LBRY [blockchain](https://github.com/lbryio/lbrycrd) using C++ and Go. You would be
-responsible for anticipating LBRY's blockchain needs, understanding the tradeoffs between different ways to meet those needs, and
-designing and implementing your chosen solution.
+responsible for anticipating LBRY's blockchain needs (scaling, features, ecosystem integration), understanding the tradeoffs between 
+different ways to meet those needs, and designing and implementing your chosen solution.
 
 Requirements:
 

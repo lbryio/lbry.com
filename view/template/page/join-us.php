@@ -17,10 +17,21 @@
       <p>Some things to know about working at LBRY:</p>
 
       <ul>
-        <li>We understand the importance of <a href="http://blog.deliveringhappiness.com/the-motivation-trifecta-autonomy-mastery-and-purpose">autonomy, mastery, and purpose</a>.</li>
-        <li>We judge you entirely by what you produce. We don't care how long you work, where you work, how you work or what credentials you have. We care about what you get done.</li>
-        <li>We are extremely transparent, organizationally flat, and open-minded. While you will have clearly delineated responsibilities, you are welcome and encouraged to contribute beyond those areas. We judge ideas and results, not ranks and titles.</li>
-        <li>We believe great results can only come from great people. If you're interested in working <a href="/team">alongside people</a> who are bright, creative, and diligent, this is the place.</li>
+        <li>
+          We value <a href="http://blog.deliveringhappiness.com/the-motivation-trifecta-autonomy-mastery-and-purpose">autonomy, mastery, and purpose</a>.
+        </li>
+        <li>
+          We judge you by your work. We don't care about credentials, ranks, how long you work, or where you work from.
+          We care about what you get done.
+        </li>
+        <li>
+          We are extremely transparent, organizationally flat, and open-minded. There are no pure managers -- everyone's a doer.
+          While you will have clear responsibilities, you're welcome to contribute at any level or area of the company.
+        </li>
+        <li>
+          We believe great results come from great people.
+          If you're interested in working <a href="/team">with a team of</a> bright, creative, and diligent people, this is the place.
+        </li>
       </ul>
 
       <h2 id="looking">Who We're Looking For</h2>
@@ -39,17 +50,33 @@
       <h2 id="positions">Positions</h2>
       <?php echo View::render('content/_jobs') ?>
 
+      <h2 id="benefits">Benefits</h2>
+      <ul style="list-style-type: none">
+        <li>💵 Competitive salary and equity.</li>
+        <li>⚕️ Health insurance reimbursement.</li>
+        <li>🕰️ Flexible work hours.</li>
+        <li>🌴 Take as much time off as you want.</li>
+        <li>💻 Work-related expenses covered: laptop, software licenses, coffee, whatever helps you work better.</li>
+        <li>📚 Any books you want to read. It's LBRY, after all.</li>
+      </ul>
+
       <h2 id="applying">Hiring Process</h2>
       <p>Click "Apply" below any job listed above to begin the process. We use a 3-step hiring process:</p>
 
       <h3>1. Intro Call</h3>
-      <p>A brief (30 minute max), non-technical, introductory phone call with either the CEO, CTO, or appropriate lead.</p>
+      <p>
+        A brief (30 minute max), non-technical, introductory phone call with either the CEO, CTO, or appropriate lead.
+        We'll discuss what kind of work you want to do, what we're looking for, dealbreakers on both sides, and any questions you have.
+      </p>
 
       <h3>2. Code Contribution or Trial Task</h3>
-      <p>Non-technical hires will also be asked to complete a compensated trial task after they apply and complete step 1.</p>
-      <p>Technical hires are required to complete compensated code contribution on the repository they'd be working on.
+      <p>Non-technical hires will be asked to complete a compensated trial task after they apply and complete step 1.</p>
+      <p>Technical hires are required to complete a (compensated) code contribution to the repository they'd be working on.
         Issues tagged "good first issue" are suitable for this purpose, though you are welcome to work on another issue or even
-        something not filed at all.</p>
+        something that's not filed at all. You can work at your own pace -- there's no time limit. Successful candidates usually
+        spend 4 to 16 hours doing this.</p>
+
+      <p><strong>Steps 1 and 2 may be completed in either order</strong>. You're welcome to contribute a PR before the introductory call.</p>
 
       <table class="full-table">
         <thead>
@@ -103,16 +130,25 @@
 
       <p>For questions or problems with a particular issue, please comment directly on the GitHub issue. For setup or environment trouble,
         open a separate issue or email the contact listed in the project <code>README</code>. You can also join
-        <code>#dev</code> in <a href="https://chat.lbry.com">our chat</a> to interact with other community members.</p>
+        <code>#developers</code> in <a href="https://chat.lbry.com">our chat</a> to interact with other community members.</p>
 
       <h3>3. Meet the Team</h3>
-      <p>A longer meeting with the team members you'd be working directly with, as well as the CEO and/or CTO.</p>
 
-      <p>Steps 1 and 2 may be completed in either order (i.e. you're welcome to try contributing before the introductory call).</p>
+      <p>
+        A longer meeting with the team members you'd be working directly with, as well as the CEO and/or CTO.
+        We'll go deeper into the specific role, how you can best fit with the team, and what expectations we have for each other.
+        We may also ask you about your code contribution and your knowledge of key skills and technologies.
+      </p>
+
+      <p>
+        After this we'll make a hiring decision.
+      </p>
 
       <h2 id="referrals">Referrals</h2>
-      <p>Know someone who'd be a great fit? Tell them about us, send them a link to this page, or show up at their house unexpectedly
-        with a box of candy and a persuasive pitch. If we hire them, we'll pay you $5,000. That's what we call a win-win.</p>
+      <p>
+        Know someone who'd be a great fit? Tell them about us, send them a link to this page, or show up at their house unexpectedly
+        with a box of candy and a persuasive pitch. If we hire them, we'll pay you $5,000. That's what we call a win-win.
+      </p>
 
       <h2 id="other-work">Other Work</h2>
       <p>Interested in contributing but not ready for commitment? We have a <a href="/faq/contributing">guide for contributors</a>
