@@ -36,7 +36,7 @@
 
       <h2 id="looking">Who We're Looking For</h2>
 
-      <p>There's no one kind of LBRYian. We value people who can bring new perspectives to our team. Here are some traits that are important to us:</p>
+      <p>There's no one kind of LBRYan. We value people who can bring new perspectives to our team. Here are some traits that are important to us:</p>
 
       <ul>
         <li>Ability to solve complex problems in simple ways. LBRY has many moving parts, but we try our hardest to power it with simple code. Your job is not just to solve problems, but to solve problems in a way that will last and can easily be picked up by other people.</li>
@@ -115,12 +115,11 @@
       </table>
 
       <p>The issue you choose does not necessarily need to be fully completed, and we don't expect a perfect first contribution. Open a
-        pull request as soon as you'd like any feedback from one of our developers. We compensate at or above market rates for all
-        accepted pull requests.</p>
+        pull request as soon as you'd like any feedback from one of our developers. We offer cryptocurrency for accepted and good-faith attempts at a pull request.</p>
 
       <p>For questions or problems with a particular issue, please comment directly on the GitHub issue. For setup or environment trouble,
         open a separate issue or email the contact listed in the project <code>README</code>. You can also join
-        <code>#developers</code> in <a href="https://chat.lbry.com">our chat</a> to interact with other community members.</p>
+        <code>#developers</code> in <a href="https://chat.lbry.org">the chat</a> to interact with other community members.</p>
 
       <h3>3. Meet the Team</h3>
 
@@ -151,9 +150,9 @@
       </p>
 
       <h2 id="other-work">Other Work</h2>
-      <p>Interested in contributing but not ready for commitment? We have a <a href="/faq/contributing">guide for contributors</a>
-        to help you find other ways to get involved. If none of that suits your fancy, join our
-        <a href="https://chat.lbry.com">Discord chat</a> and we'll help you find something you'll love.</p>
+      <p>Interested in contributing but not ready for commitment? We have a <a href="https://lbry.tech/contribute">guide for contributors</a>
+        to help you find other ways to get involved. If none of that suits your fancy, join the
+        <a href="https://chat.lbry.org">Discord chat</a> and we'll help you find something you'll love.</p>
     </div>
   </section>
 </main>

@@ -1,12 +1,11 @@
 ---
-title: API Engineer
+title: Backend Engineer
 order: 5
 status: active
 location: remote (global)
 ---
 
-[odysee.com](https://odysee.com) is less than a year old, and already a million of people use it every day. 
-Help us scale our backend infrastructure to meet this ever-growing demand and prepare for the next 10x increase
-(and the 10x after that, and the one after that). This involves designing and implementing APIs in Go, 
-working with SQL databases, managing a Kubernetes cluster, and writing lots of test. 
-Experience with video delivery (e.g. CDNs, livestreaming) and high-availability systems is a plus.
+Backend engineers deal with the server-side portion of software related to [odysee.com](https://odysee.com). 
+
+This position involves developing Odysee's backend infrastructure to serve tens of millions of active users. It involves designing and implementing APIs in Go, 
+working with SQL databases, managing a Kubernetes cluster, and writing lots of tests. Experience with video delivery (e.g. CDNs, livestreaming) and high-availability systems is a plus.
