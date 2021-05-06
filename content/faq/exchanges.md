@@ -1,15 +1,16 @@
 ---
-title: Where can I exchange LBC?
+title: Where can I buy and sell LBC?
 category: getstarted
 ---
 
-We are listed on several cryptocurrency exchanges. You can buy or sell LBRY Credits at any of the below. 
+We are listed on several cryptocurrency exchanges. You can buy or sell LBRY Credits at any of the below, or swap crypto into creddits via the wallet page of your app.
 
-You can also [purchase LBC directly via the app and Odysee.com](/faq/buy-lbc) or swap other cryptos (BTC, BCH, ETH, LTC, DAI, and USDC) to LBC via your wallet page. 
+For a more in depth guide on buying/selling, see our [Bittrex FAQ](/faq/buy-sell-bittrex).
 
-For a guide on buying/selling, see our [Bittrex purchasing/selling FAQ, currently avialable for international users only](/faq/buy-sell-bittrex).
+## Buy or convert crypto to Credits in-app
+You can also [purchase LBC directly with credit card on the app and Odysee.com][certain regions excluded](/faq/buy-lbc) or swap other cryptos (BTC, BCH, ETH, LTC, DAI, and USDC) to Credits via your wallet page. 
 
-## Traditional exchanges
+## Traditional crypto exchanges
 - [Bittrex - International Only, US Trading Disabled](https://bittrex.com/Market/Index?MarketName=BTC-LBC) ([USD](https://bittrex.com/Market/Index?MarketName=USD-LBC), [ETH](https://bittrex.com/Market/Index?MarketName=ETH-LBC), [USDT](https://bittrex.com/Market/Index?MarketName=USDT-LBC))
 - [Lbank](https://www.lbank.me/exchange/lbc/btc) / [USDT](https://www.lbank.me/exchange/lbc/usdt)
 - [Hotbit](https://www.hotbit.io/exchange?symbol=LBC_BTC) / [USDT](https://www.hotbit.io/exchange?symbol=LBC_USDT)
