@@ -1,4 +1,4 @@
-<?php Response::setMetaDescription('Like contributing to digital freedom or making money? Why not both? LBRY is hiring!') ?>
+<?php Response::setMetaDescription('Like contributing to digital freedom or making money? Why not both! LBRY is hiring.') ?>
 <?php Response::addMetaImage('https://spee.ch/@lbryteam:6/everyone.jpg') ?>
 
 <main class="ancillary">
@@ -49,16 +49,6 @@
 
       <h2 id="positions">Positions</h2>
       <?php echo View::render('content/_jobs') ?>
-
-      <h2 id="benefits">Benefits</h2>
-      <ul style="list-style-type: none">
-        <li>💵 Competitive salary and equity.</li>
-        <li>⚕️ Health insurance reimbursement.</li>
-        <li>🕰️ Flexible work hours.</li>
-        <li>🌴 Take as much time off as you want.</li>
-        <li>💻 Work-related expenses covered: laptop, software licenses, coffee, whatever helps you work better.</li>
-        <li>📚 Any books you want to read. It's LBRY, after all.</li>
-      </ul>
 
       <h2 id="applying">Hiring Process</h2>
       <p>Click "Apply" below any job listed above to begin the process. We use a 3-step hiring process:</p>
@@ -143,6 +133,16 @@
       <p>
         After this we'll make a hiring decision.
       </p>
+
+      <h2 id="benefits">Benefits</h2>
+      <ul style="list-style-type: none">
+        <li>💵 Competitive salary and equity.</li>
+        <li>⚕️ Health insurance reimbursement.</li>
+        <li>🕰️ Flexible work hours.</li>
+        <li>🌴 Take as much time off as you want.</li>
+        <li>💻 Work-related expenses covered: laptop, software licenses, coffee, whatever helps you work better.</li>
+        <li>📚 Any books you want to read. It's LBRY, after all.</li>
+      </ul>
 
       <h2 id="referrals">Referrals</h2>
       <p>
