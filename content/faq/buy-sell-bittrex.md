@@ -1,5 +1,5 @@
 ---
-title: Buying and selling LBC on exchanges
+title: Buying and selling Credits on crypto exchanges
 category: getstarted
 ---
 
