@@ -38,7 +38,7 @@ Earning per view rewards will also be summarized monthly on the Rewards page und
 
 By leaving your tips locked in your content or channel, it increases its trust and discovery on the platform. 
 
-To unlock, access your your wallet, and filter transactions by **Received** and **Tip** and **Active**. You'll seed a padlock icon next to tips you've received.
+To unlock, access your wallet, and filter transactions by **Received** and **Tip** and **Active**. You'll seed a padlock icon next to tips you've received.
 Click the padlock icon to unlock the tip you want to claim and have it enter your balance. 
 
 ## How to qualify for monetization?
