@@ -98,4 +98,4 @@ To sell LBC for BTC or USDT, you will have to deposit your LBC to the Bittrex LB
 ### Withdrawing USDT to your bank
 Bittrex allows you to withdraw USDT to USD by first using the [USDT/USD market](https://bittrex.com/Market/Index?MarketName=USD-USDT) and then sending USD to your bank. 
 
-**Please note that it may take up to 10 minutes for the status to reflect under the deposit status. Bittrex requires 30 confirmations which can take anywhere from 60-90 minutes.**
+**Please note that it may take up to 10 minutes for the status to reflect under the deposit status. Bittrex requires 200 confirmations which can take a few hours.**
