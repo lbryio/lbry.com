@@ -14,6 +14,14 @@ On the LBRY Desktop application, you can configure the download options on the S
 
 On Android, only published data is saved in the blobs folder.
 
+To set ports manually, set values for following options in [lbrynet/daemon_settings.yml file](https://lbry.com/faq/lbry-directories).<br>
+```
+udp_port: <udp_port>
+tcp_port: <tcp_port>
+```
+**Note:** If the tcp port falls between port numbers 3333 and 3399, these ports included, the udp port should be set to 1111 higher than the tcp port.<br>
+Otherwise the upd port should be set to the same port number as the tcp port.
+
 ## Moving hosted content
 Currently, this process is manual and you can see our [FAQ on how to move the hosted content](/faq/how-to-change-lbry-blob-files) to another drive.
 
