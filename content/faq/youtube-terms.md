@@ -8,7 +8,7 @@ By agreeing to sync your content to the LBRY network, you agree to the terms spe
 
 ## The terms
 
-Visit our [Google Doc](https://docs.google.com/document/d/e/2PACX-1vS0H7gnSg7Zlx5JO_JkyJh3EP5qq8esTr1Y1Wi8R2eYGDfr1QEmS8SaEpGGCIcjW-mbj7LJ_RxmX_Am/pub) for more information.
+Visit our [Google Docs](https://docs.google.com/document/d/e/2PACX-1vS0H7gnSg7Zlx5JO_JkyJh3EP5qq8esTr1Y1Wi8R2eYGDfr1QEmS8SaEpGGCIcjW-mbj7LJ_RxmX_Am/pub) for more information.
 
 ## Human-friendly highlights
 
@@ -30,6 +30,6 @@ LBRY, Inc. makes no promises as to the availability or security of your content.
 
 ### 5. YouTube Terms of Service and Google Privacy Policy
 
-If you participate in the YouTube Creator Program, you also agree to [YouTube's Terms of Service (https://www.youtube.com/t/terms)](https://www.youtube.com/t/terms) and [Google's Privacy Policy (https://www.google.com/policies/privacy)](http://www.google.com/policies/privacy).
+If you participate in the YouTube Creator Program, you also agree to [YouTube's Terms of Service](https://www.youtube.com/t/terms) and [Google's Privacy Policy](https://www.google.com/policies/privacy).
 
-To revoke LBRY's access to your YouTube account or manage your security preferences, please refer to your [Google Security and Permissions Page (https://security.google.com/settings/security/permissions)](https://security.google.com/settings/security/permissions). If you plan to do this, please also email us to stop the sync process. You may need to return any LBC earned if you break the agreement before the term period. 
+To revoke LBRY's access to your YouTube account or manage your security preferences, please refer to your [Google Security and Permissions Page](https://security.google.com/settings/security/permissions). If you plan to do this, please also email us to stop the sync process. You may need to return any LBC earned if you break the agreement before the term period. 
