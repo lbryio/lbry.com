@@ -19,8 +19,7 @@ To set ports manually, set values for following options in [lbrynet/daemon_setti
 udp_port: <udp_port>
 tcp_port: <tcp_port>
 ```
-**Note:** If the tcp port falls between port numbers 3333 and 3399, these ports included, the udp port should be set to 1111 higher than the tcp port.<br>
-Otherwise the upd port should be set to the same port number as the tcp port.
+_Note:_ If the tcp port falls between port numbers 3333 and 3399 (inclusive), the UDP port should be set to 1111 higher than the TCP port. Otherwise, the UDP port should be set to the same port number as the TCP port.
 
 ## Moving hosted content
 Currently, this process is manual and you can see our [FAQ on how to move the hosted content](/faq/how-to-change-lbry-blob-files) to another drive.
