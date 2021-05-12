@@ -17,7 +17,7 @@ We ask you to follow these simple rules:
 
 2) The content is tagged properly, especially with mature content. Do not abuse tags with ones that don't pertain to your content.
 
-3) The content is not illegal in your jurisdiction. 
+3) The content is not illegal in your jurisdiction.
 
 Failure to follow these rules may result in the filtering of your content/channel and the ability to earn rewards will be revoked.
 
@@ -25,7 +25,7 @@ Failure to follow these rules may result in the filtering of your content/channe
 
 It is important to make a distinction between the LBRY protocol and any applications running on top when referring to censorship and the ability to block access to certain content. The LBRY protocol is fully decentralized and censorship-resistant - it provides permissionless access to [claiming of URLs](/faq/naming) and indexing metadata on the blockchain, and facilitates data transfers over a peer to peer (P2P) network which consists of our own content servers and anyone running the LBRY protocol. This means infringing content may be stored on our servers, by the uploader and by anyone else who may have downloaded it.
 
-On the other hand, LBRY also makes an App and other services like [spee.ch](https://spee.ch) to demonstrate the protocol's capabilities. Within our app, we will engage in non-arbitrary censorship, meaning only horrific or infringing content will be blocked and removed from our content servers. As a U.S. company, LBRY Inc. and management of our app, and other services in our control, will follow all U.S. laws, including the CDA and DMCA. If someone made an app or website using the LBRY protocol in some other country, it would have to follow that country's laws, which aren't necessarily the same as ours. Either app would read the same blockchain though.
+On the other hand, LBRY also makes an App and other services like [odysee.com](https://odysee.com) to demonstrate the protocol's capabilities. Within our app, we will engage in non-arbitrary censorship, meaning only horrific or infringing content will be blocked and removed from our content servers. As a U.S. company, LBRY Inc. and management of our app, and other services in our control, will follow all U.S. laws, including the CDA and DMCA. If someone made an app or website using the LBRY protocol in some other country, it would have to follow that country's laws, which aren't necessarily the same as ours. Either app would read the same blockchain though.
 
 LBRY Inc., makes no guarantee your content will be hosted on the network. The peer-to-peer network relies on seeders to host content. If no user continues to host data - including you, it will not continue to be available on the network.
 
