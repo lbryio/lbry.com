@@ -39,12 +39,12 @@
       <p>There's no one kind of LBRYan. We value people who can bring new perspectives to our team. Here are some traits that are important to us:</p>
 
       <ul>
-        <li>Ability to solve complex problems in simple ways. LBRY has many moving parts, but we try our hardest to power it with simple code. Your job is not just to solve problems, but to solve problems in a way that will last and can easily be picked up by other people.</li>
-        <li>Knack for user-experience and user-perspective. Even if you're designing the guts of our DHT, what you create ultimately has to work for real people. Our user base ranges from casual web surfers to crypto-nerd power users and you'll need an ability to understand how to create solutions that work for both.</li>
+        <li>Ability to solve complex problems in simple ways. LBRY has many moving parts, but we try our hardest to power it with simple processes and code. Your job is not just to solve problems, but to solve problems in a way that will last and can easily be picked up by other people.</li>
+        <li>Knack for user-experience and user-perspective. Whether you're meeting with creators or designing the guts of our DHT, what you do ultimately has to work for other people. Our user base ranges from casual viewers to crypto-nerd power users and you'll need an ability to understand how to create solutions for everyone.</li>
         <li>Thinking in tradeoffs. There are few one-sided answers in our work. How well can you navigate the <a href="https://cdixon.org/2014/03/16/theres-just-a-tremendous-amount-of-craftsmanship-in-between-a-great-idea-and-a-great-product">idea maze</a> of possibilities and competing priorites?</li>
         <li>Reliable and independent. We expect a lot out of you, but we won't keep tabs on you. You must thrive in that kind of environment.</li>
         <li>No degree, credential, or age requirements. If you can do the work, we don't care how you got the skills.</li>
-        <li>Someone who appreciates that our CTO would <a href="https://grin.io/coding-maxims">create this document</a> and then link it in a job posting.</li>
+        <li>For engineers, someone who appreciates that our CTO would <a href="https://grin.io/coding-maxims">create this document</a> and then link it in a job posting.</li>
       </ul>
 
       <h2 id="positions">Positions</h2>
@@ -55,8 +55,8 @@
 
       <h3>1. Intro Call</h3>
       <p>
-        A brief (30 minute max), non-technical, introductory phone call with either the CEO, CTO, or appropriate lead.
-        We'll discuss what kind of work you want to do, what we're looking for, dealbreakers on both sides, and any questions you have.
+        A brief (30 minute max), non-technical, introductory phone call with either the CEO, CTO, CMO, and/or appropriate lead.
+        We'll discuss what kind of work you want to do, what we're looking for, deal breakers on both sides, and any questions you have.
       </p>
 
       <h3>2. Code Contribution or Trial Task</h3>
@@ -66,7 +66,7 @@
         something that's not filed at all. You can work at your own pace -- there's no time limit. Successful candidates usually
         spend 4 to 16 hours doing this.</p>
 
-      <p><strong>Steps 1 and 2 may be completed in either order</strong>. You're welcome to contribute a PR before the introductory call.</p>
+      <p><strong>Steps 1 and 2 may be completed in either order</strong>. Engineers are welcome to contribute a pull request before the introductory call.</p>
 
       <table class="full-table">
         <thead>
@@ -124,7 +124,7 @@
       <h3>3. Meet the Team</h3>
 
       <p>
-        A longer meeting with the team members you'd be working directly with, as well as the CEO and/or CTO.
+        A longer meeting with the team members you'd be working directly with, as well as at least one of the CEO, CTO, or CMO.
         We'll go deeper into the specific role, how you can best fit with the team, and what expectations we have for each other.
         We may also ask you about your code contribution and your knowledge of key skills and technologies.
       </p>
