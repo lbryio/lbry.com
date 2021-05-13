@@ -16,7 +16,9 @@ body {
   word-wrap: anywhere;
 }
 
-
+video, img {
+pointer-events: none;
+}
 
 code {
   @include font-mono;
@@ -146,6 +148,67 @@ input::placeholder {
   opacity: 0.4;
 }
 
+.anno__text {
+  background-color: #31afa1;
+  color: #fff;
+  display: block;
+}
+
+@media(min-width:901px) {
+  .anno__text {
+      padding: 1rem;
+  }
+}
+@media(max-width:900px) {
+  .anno__text {
+    padding: 1rem;
+  }
+}
+
+.anno__title {
+  font-size: 2.5rem;
+  font-weight: 900
+}
+
+@media(min-width:901px) {
+  .anno__title {
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 1rem;
+  }
+}
+
+@media(max-width:900px) {
+  .anno__title {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      text-align: center;
+  }
+}
+
+.anno__subtitle {
+  font-weight: 300
+}
+
+#anno__link {
+  text-decoration: underline;
+}
+
+@media(min-width:901px) {
+  .anno__subtitle {
+      font-size: 1.3rem;
+      text-align: center;
+  }
+
+}
+
+@media(max-width:900px) {
+  .anno__subtitle {
+      font-size: 1rem;
+      text-align: center;
+  }
+}
+
 .button--google-play {
   @include hide-text;
   width: 10rem; height: 4rem;
@@ -167,31 +230,9 @@ input::placeholder {
   }
 }
 
-.button--apple-store {
-  @include hide-text;
-  width: 10rem; height: 4rem;
-
-  background-image: url("../img/apple-store-badge.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: block;
-  position: relative;
-
-  .header & {
-    top: 0.5rem;
-  }
-
-  main & {
-    margin-right: auto;
-    margin-left: auto;
-  }
-}
-
 .button--fdroid {
   @include hide-text;
   width: 10rem; height: 4rem;
-
   background-image: url("../img/fdroid-badge.png");
   background-position: center;
   background-repeat: no-repeat;
