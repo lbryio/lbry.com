@@ -1,12 +1,9 @@
 <section>
 <h3 id="<?php echo trim(str_replace(' ', '-', strtolower($metadata['title']))) ?>">
   <?php echo $metadata['title'] ?>
-  <?php if (isset($metadata['status'])): ?>
-  <small class="meta">/ <?php echo $metadata['status'] ?></small>
-  <?php endif ?>
 
   <?php if (isset($metadata['location']) && $metadata['location']): ?>
-  <small class="meta">/ <?php echo $metadata['location'] ?></small>
+  <small class="meta"><?php echo $metadata['location'] ?></small>
   <?php endif ?>
 </h3>
     <br/>

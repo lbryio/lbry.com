@@ -1,6 +1,6 @@
 ---
-title: Blockchain Lead
-order: 1
+title: Blockchain Engineer
+order: 2
 status: active
 location: remote (global)
 ---

@@ -1,6 +1,6 @@
 ---
 title: Protocol Engineer
-order: 2
+order: 3
 status: active
 location: remote (global)
 ---
