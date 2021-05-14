@@ -39,7 +39,7 @@ class i18nActions extends Actions
         Response::setHeader(Response::HEADER_CROSS_ORIGIN, "*");
 
         if ($usecache) {
-          Response::enablePublicMutableCache(md5(json_encode($json)));
+            Response::enablePublicMutableCache(md5(json_encode($json)));
         }
 
         return View::renderJson($json);

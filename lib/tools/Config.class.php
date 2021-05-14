@@ -2,26 +2,26 @@
 
 class Config
 {
-    const HELP_CONTACT_EMAIL = 'hello@lbry.com';
+    public const HELP_CONTACT_EMAIL = 'hello@lbry.com';
 
     //Constant to help with managing strings
-    const IS_PROD = "is_prod";
-    const CHAINQUERY_DSN = 'chainquery_dsn';
-    const CHAINQUERY_USERNAME = 'chainquery_username';
-    const CHAINQUERY_PASSWORD = 'chainquery_password';
-    const GITHUB_KEY = "github_key";
-    const GITHUB_APP_CLIENT_ID = "github_app_client_id";
-    const GITHUB_APP_CLIENT_SECRET = "github_app_client_secret";
-    const GITHUB_PERSONAL_AUTH_TOKEN = 'github_personal_auth_token';
-    const LBRY_API_SERVER = "lbry_api_server";
-    const MAILCHIMP_KEY = "mailchimp_key";
-    const TRANSIFEX_API_KEY = 'transifex_api_key';
-    const AWS_LOG_ACCESS_KEY = "aws_log_access_key";
-    const AWS_LOG_SECRET_KEY = "aws_log_secret_key";
-    const MAILGUN_API_KEY = "mailgun_api_key";
-    const SALESFORCE_KEY = "salesforce_key";
-    const SALESFORCE_SECRET = "salesforce_secret";
-    const SLACK_ERROR_NOTIFICATION_URL = "slack_error_notification_url";
+    public const IS_PROD = "is_prod";
+    public const CHAINQUERY_DSN = 'chainquery_dsn';
+    public const CHAINQUERY_USERNAME = 'chainquery_username';
+    public const CHAINQUERY_PASSWORD = 'chainquery_password';
+    public const GITHUB_KEY = "github_key";
+    public const GITHUB_APP_CLIENT_ID = "github_app_client_id";
+    public const GITHUB_APP_CLIENT_SECRET = "github_app_client_secret";
+    public const GITHUB_PERSONAL_AUTH_TOKEN = 'github_personal_auth_token';
+    public const LBRY_API_SERVER = "lbry_api_server";
+    public const MAILCHIMP_KEY = "mailchimp_key";
+    public const TRANSIFEX_API_KEY = 'transifex_api_key';
+    public const AWS_LOG_ACCESS_KEY = "aws_log_access_key";
+    public const AWS_LOG_SECRET_KEY = "aws_log_secret_key";
+    public const MAILGUN_API_KEY = "mailgun_api_key";
+    public const SALESFORCE_KEY = "salesforce_key";
+    public const SALESFORCE_SECRET = "salesforce_secret";
+    public const SLACK_ERROR_NOTIFICATION_URL = "slack_error_notification_url";
 
 
     protected static $loaded = false;

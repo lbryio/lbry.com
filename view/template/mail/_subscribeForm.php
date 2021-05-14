@@ -1,7 +1,7 @@
 <?php $error = $error ?? null ?>
 <?php $tag = $tag ?? null ?>
 <?php $largeInput = $largeInput ?? false ?>
-<?php $forceUrl = $forceUrl ?? '' //for cross-domain landing pages ?>
+<?php $forceUrl = $forceUrl ?? '' //for cross-domain landing pages?>
 
 <form id="mail_form" action="<?php echo $forceUrl ?>/list/subscribe" method="POST" novalidate>
   <?php if ($error): ?>

@@ -2,10 +2,10 @@
 
 class Session
 {
-    const KEY_LIST_SUB_ERROR = 'list_error',
+    public const KEY_LIST_SUB_ERROR = 'list_error',
         KEY_USER_CULTURE = 'user_culture';
 
-    const NAMESPACE_DEFAULT = 'default',
+    public const NAMESPACE_DEFAULT = 'default',
         NAMESPACE_FLASH = 'flash',
         NAMESPACE_FLASH_REMOVE = 'flash_remove',
         USER_ID = 'user_id',
@@ -26,7 +26,7 @@ class Session
         header_remove('expires');
 
         if (!static::get('secure_and_httponly_set')) {
-          session_regenerate_id(); // ensure that old cookies get new settings
+            session_regenerate_id(); // ensure that old cookies get new settings
         }
         static::set('secure_and_httponly_set', true);
 

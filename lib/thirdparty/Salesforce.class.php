@@ -2,7 +2,7 @@
 
 class Salesforce
 {
-    const
+    public const
     API_URL = 'https://api.salesforceiq.com/v2/',
     DEFAULT_LIST_ID = '58387a94e4b0a1fea2c76f4a';
 

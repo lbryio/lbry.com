@@ -2,7 +2,7 @@
 
 class Controller
 {
-    const CACHE_CLEAR_PATH = '/clear-cache';
+    public const CACHE_CLEAR_PATH = '/clear-cache';
 
     protected static $queuedFunctions = [];
 
@@ -113,7 +113,7 @@ class Controller
         $router->get(['/get', 'get'], 'DownloadActions::executeGet');
 
         foreach (array_keys(OS::getAll()) as $os) {
-          $router->get(['/' . $os, 'get-' . $os], 'DownloadActions::executeGet');
+            $router->get(['/' . $os, 'get-' . $os], 'DownloadActions::executeGet');
         }
 
         $router->get('/roadmap', 'ContentActions::executeRoadmap');

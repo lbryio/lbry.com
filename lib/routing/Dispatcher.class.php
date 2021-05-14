@@ -69,12 +69,12 @@ class Dispatcher
                 return false;
             }
 
-            return (boolean)$routes[$httpMethod];
+            return (bool)$routes[$httpMethod];
         }
 
         try {
             $handler = $this->dispatchVariableRoute($httpMethod, $uri);
-            return (boolean)$handler;
+            return (bool)$handler;
         } catch (HttpRouteNotFoundException | HttpMethodNotAllowedException $e) {
             return false;
         }

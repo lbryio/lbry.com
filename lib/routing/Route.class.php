@@ -7,19 +7,19 @@ class Route
     /**
      * Constants for before and after filters
      */
-    const BEFORE = 'before';
-    const AFTER  = 'after';
-    const PREFIX = 'prefix';
+    public const BEFORE = 'before';
+    public const AFTER  = 'after';
+    public const PREFIX = 'prefix';
 
     /**
      * Constants for common HTTP methods
      */
-    const ANY     = 'ANY';
-    const GET     = 'GET';
-    const HEAD    = 'HEAD';
-    const POST    = 'POST';
-    const PUT     = 'PUT';
-    const PATCH   = 'PATCH';
-    const DELETE  = 'DELETE';
-    const OPTIONS = 'OPTIONS';
+    public const ANY     = 'ANY';
+    public const GET     = 'GET';
+    public const HEAD    = 'HEAD';
+    public const POST    = 'POST';
+    public const PUT     = 'PUT';
+    public const PATCH   = 'PATCH';
+    public const DELETE  = 'DELETE';
+    public const OPTIONS = 'OPTIONS';
 }

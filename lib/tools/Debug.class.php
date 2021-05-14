@@ -26,13 +26,13 @@ class Debug
             $args = isset($frame['args']) ? static::exceptionFrameArgsToString($frame['args']) : '';
 
             $rtn .= sprintf(
-          "#%s %s(%s): %s(%s)\n",
-                      $count,
-                      $frame['file'] ?? 'unknown file',
-                      $frame['line'] ?? 'unknown line',
-                      isset($frame['class']) ? $frame['class'].$frame['type'].$frame['function'] : $frame['function'],
-                      $args
-      );
+                "#%s %s(%s): %s(%s)\n",
+                $count,
+                $frame['file'] ?? 'unknown file',
+                $frame['line'] ?? 'unknown line',
+                isset($frame['class']) ? $frame['class'].$frame['type'].$frame['function'] : $frame['function'],
+                $args
+            );
         }
         return $rtn;
     }

@@ -2,7 +2,7 @@
 
 class Curl
 {
-    const
+    public const
     GET = 'GET',
     POST = 'POST',
     PUT = 'PUT',
