@@ -2,7 +2,7 @@
 
 class CurlWithCache extends Curl
 {
-    const DEFAULT_CACHE = 600000;
+    public const DEFAULT_CACHE = 600000;
 
     public static function doCurl($method, $url, $params = [], $options = [])
     {

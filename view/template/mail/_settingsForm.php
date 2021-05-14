@@ -12,7 +12,7 @@
 <?php else: ?>
   <form id="<?php echo $formId ?>" novalidate style="display: none">
     <section class="email-section">
-        <div style="min-height: 33px"> <?php //hack fix to prevent jumping ?>
+        <div style="min-height: 33px"> <?php //hack fix to prevent jumping?>
             <div class="notice notice-error hide spacer-half"></div>
             <div class="notice notice-success hide spacer-half">Your email preferences have been updated.</div>
         </div>
@@ -34,7 +34,7 @@
     </section>
 
     <section class="tag-section spacer1">
-        <div style="min-height: 33px"> <?php //hack fix to prevent jumping ?>
+        <div style="min-height: 33px"> <?php //hack fix to prevent jumping?>
             <div class="notice notice-error hide spacer-half"></div>
             <div class="notice notice-success hide spacer-half">Your email preferences have been updated.</div>
         </div>
@@ -42,7 +42,9 @@
 
       <?php $tagIndex = 0 ?>
       <?php foreach ($tags as $tag => $enabled): ?>
-        <?php if (!isset($tagMetadata[$tag])) continue; ?>
+        <?php if (!isset($tagMetadata[$tag])) {
+    continue;
+} ?>
         <?php $tagId = 'tag_' . (++$tagIndex) ?>
         <div>
           <checkbox-element>

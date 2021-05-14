@@ -5,7 +5,7 @@ class Transifex
 {
     public static function isConfigured()
     {
-        return (boolean)Config::get(Config::TRANSIFEX_API_KEY);
+        return (bool)Config::get(Config::TRANSIFEX_API_KEY);
     }
 
     public static function getTranslationResourceFile($project, $resource, $language, $cache = true)

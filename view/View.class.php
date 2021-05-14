@@ -12,14 +12,14 @@ function js_end()
 
 class View
 {
-    const LAYOUT_PARAMS = '_layout_params';
+    public const LAYOUT_PARAMS = '_layout_params';
 
-    const WEB_DIR  = ROOT_DIR . '/web';
-    const COMPONENTS_DIR = self::WEB_DIR . '/components/sass';
-    const COLORS_DIR = self::WEB_DIR . '/scss/color';
-    const SCSS_DIR = self::WEB_DIR . '/scss';
-    const CSS_DIR  = self::WEB_DIR . '/css';
-    const JS_DIR   = self::WEB_DIR . '/js';
+    public const WEB_DIR  = ROOT_DIR . '/web';
+    public const COMPONENTS_DIR = self::WEB_DIR . '/components/sass';
+    public const COLORS_DIR = self::WEB_DIR . '/scss/color';
+    public const SCSS_DIR = self::WEB_DIR . '/scss';
+    public const CSS_DIR  = self::WEB_DIR . '/css';
+    public const JS_DIR   = self::WEB_DIR . '/js';
 
     public static function render($template, array $vars = []): string
     {
@@ -193,8 +193,7 @@ class View
             }
 
             return $parser->saveHTML($dom);
-        }
-        catch (Error $e) {
+        } catch (Error $e) {
             Slack::slackGrin();
             return $html;
         }

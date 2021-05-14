@@ -2,12 +2,12 @@
 
 class Mailgun
 {
-    const BASE_URL = 'https://api.mailgun.net/v3';
+    public const BASE_URL = 'https://api.mailgun.net/v3';
 
-    const TOP_DOMAIN = 'lbry.com';
-    const MAIL_DOMAIN = 'mail.lbry.com';
+    public const TOP_DOMAIN = 'lbry.com';
+    public const MAIL_DOMAIN = 'mail.lbry.com';
 
-    const LIST_GENERAL = 'lbryians@lbry.com';
+    public const LIST_GENERAL = 'lbryians@lbry.com';
 
     public static function sendDmcaReport($data)
     {

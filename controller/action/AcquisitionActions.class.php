@@ -2,7 +2,7 @@
 
 class AcquisitionActions extends Actions
 {
-  public static function executeYouTube()
+    public static function executeYouTube()
     {
         return ['acquisition/youtube'];
     }

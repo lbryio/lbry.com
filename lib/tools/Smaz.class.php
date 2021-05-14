@@ -13,11 +13,11 @@
  */
 class Smaz
 {
-    const CODEBOOK_DEFAULT = 'default';
-    const CODEBOOK_EMAIL   = 'email';
+    public const CODEBOOK_DEFAULT = 'default';
+    public const CODEBOOK_EMAIL   = 'email';
 
-    const VERBATIM_CHAR = 254;
-    const VERBATIM_STR  = 255;
+    public const VERBATIM_CHAR = 254;
+    public const VERBATIM_STR  = 255;
 
     protected static $encodeBooks = [];
     protected static $decodeBooks = [

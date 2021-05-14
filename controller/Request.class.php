@@ -2,10 +2,10 @@
 
 class Request
 {
-    const GET     = 'GET';
-    const POST    = 'POST';
-    const HEAD    = 'HEAD';
-    const OPTIONS = 'OPTIONS';
+    public const GET     = 'GET';
+    public const POST    = 'POST';
+    public const HEAD    = 'HEAD';
+    public const OPTIONS = 'OPTIONS';
 
     protected static $method;
 

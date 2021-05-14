@@ -9,7 +9,6 @@ namespace Routing;
  */
 class RouteParser
 {
-
   /**
    * Search through the given route looking for dynamic portions.
    *
@@ -22,7 +21,7 @@ class RouteParser
    *
    * Finally we look for an optional '?' which is used to signify an optional route.
    */
-    const VARIABLE_REGEX =
+    public const VARIABLE_REGEX =
     "~\{
     \s* ([a-zA-Z0-9_]*) \s*
     (?:
@@ -33,7 +32,7 @@ class RouteParser
     /**
      * The default parameter character restriction (One or more characters that is not a '/').
      */
-    const DEFAULT_DISPATCH_REGEX = '[^/]+';
+    public const DEFAULT_DISPATCH_REGEX = '[^/]+';
 
     private $parts;
 

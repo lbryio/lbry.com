@@ -2,18 +2,18 @@
 
 class Response
 {
-    const HEADER_STATUS   = 'Status';
-    const HEADER_LOCATION = 'Location';
+    public const HEADER_STATUS   = 'Status';
+    public const HEADER_LOCATION = 'Location';
 
-    const HEADER_CACHE_CONTROL = 'Cache-Control';
-    const HEADER_ETAG          = 'Etag';
+    public const HEADER_CACHE_CONTROL = 'Cache-Control';
+    public const HEADER_ETAG          = 'Etag';
 
-    const HEADER_CONTENT_TYPE         = 'Content-Type';
-    const HEADER_CONTENT_LENGTH       = 'Content-Length';
-    const HEADER_CONTENT_DISPOSITION  = 'Content-Disposition';
-    const HEADER_CONTENT_TYPE_OPTIONS = 'X-Content-Type-Options';
-    const HEADER_CONTENT_ENCODING     = 'Content-Encoding';
-    const HEADER_CROSS_ORIGIN = 'Access-Control-Allow-Origin';
+    public const HEADER_CONTENT_TYPE         = 'Content-Type';
+    public const HEADER_CONTENT_LENGTH       = 'Content-Length';
+    public const HEADER_CONTENT_DISPOSITION  = 'Content-Disposition';
+    public const HEADER_CONTENT_TYPE_OPTIONS = 'X-Content-Type-Options';
+    public const HEADER_CONTENT_ENCODING     = 'Content-Encoding';
+    public const HEADER_CROSS_ORIGIN = 'Access-Control-Allow-Origin';
 
     protected static $metaDescription = '';
     protected static $metaTitle = '';
@@ -357,12 +357,12 @@ class Response
     protected static function normalizeHeaderName($name): string
     {
         return preg_replace_callback(
-      '/\-(.)/',
-      function ($matches) {
+            '/\-(.)/',
+            function ($matches) {
           return '-' . strtoupper($matches[1]);
       },
-      strtr(ucfirst(strtolower($name)), '_', '-')
-    );
+            strtr(ucfirst(strtolower($name)), '_', '-')
+        );
     }
 
     public static function addPostRenderCallback($cb)

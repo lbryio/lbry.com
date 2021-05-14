@@ -16,9 +16,9 @@ class MailActions extends Actions
         $email = Request::getPostParam('email');
         if (!$email || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
             Session::set(
-          Session::KEY_LIST_SUB_ERROR,
-        $email ? __('Please provide a valid email address.') : __('Please provide an email address.')
-      );
+                Session::KEY_LIST_SUB_ERROR,
+                $email ? __('Please provide a valid email address.') : __('Please provide an email address.')
+            );
 
             return Controller::redirect(Request::getRelativeUri());
         }
@@ -80,17 +80,17 @@ class MailActions extends Actions
 
     public static function prepareSettingsFormPartial(array $vars)
     {
-      $tags = LBRY::listTags($vars['token']);
-      $tagMetadata = [];
+        $tags = LBRY::listTags($vars['token']);
+        $tagMetadata = [];
 
-      foreach($tags as $tag) {
-        if ($tag['is_user_addable']) {
-          $tagMetadata[$tag['name']] = [
+        foreach ($tags as $tag) {
+            if ($tag['is_user_addable']) {
+                $tagMetadata[$tag['name']] = [
             'label' => $tag['display_name'],
             'description' => $tag['description']
           ];
+            }
         }
-      }
-      return $vars + ['tagMetadata' => $tagMetadata];
+        return $vars + ['tagMetadata' => $tagMetadata];
     }
 }

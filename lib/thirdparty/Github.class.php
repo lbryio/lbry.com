@@ -2,7 +2,7 @@
 
 class Github
 {
-    const REPO_LBRY_DESKTOP = 'lbry-desktop';
+    public const REPO_LBRY_DESKTOP = 'lbry-desktop';
 
     public static function isAssetForOs(array $asset, string $os)
     {
@@ -102,10 +102,10 @@ class Github
         }
 
         return CurlWithCache::get(
-        'https://api.github.com' . $endpoint . '?' . http_build_query($params),
-        [],
-      ['headers' => $headers, 'user_agent' => 'LBRY', 'json_response' => true, 'cache' => $cache === true ? $twoHoursInSeconds : $cache]
-    );
+            'https://api.github.com' . $endpoint . '?' . http_build_query($params),
+            [],
+            ['headers' => $headers, 'user_agent' => 'LBRY', 'json_response' => true, 'cache' => $cache === true ? $twoHoursInSeconds : $cache]
+        );
     }
 
     public static function listRoadmapItems($year, $cache = true)

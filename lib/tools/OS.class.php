@@ -5,7 +5,7 @@ class OS
     /*
      * if changing below constants, you should add permanent redirects for old OS names used in URLs
      */
-    const OS_ANDROID = 'android',
+    public const OS_ANDROID = 'android',
     OS_IOS = 'ios',
     OS_LINUX = 'linux',
     OS_OSX = 'osx',
