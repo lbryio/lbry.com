@@ -34,7 +34,7 @@ In regards to operating expenses, this is in largely determined by your [cost of
 
 ### Sourcing Mining Equipment
 
-LBRY mining is dominated by the FPGA market. GPU & CPU mining is not viable at this point given the network difficulty.
+LBRY mining is dominated by the ASIC/FPGA market. GPU & CPU mining is not viable at this point given the network difficulty.
 
 FPGA’s are a bit more specialized hardware that have higher mining efficiencies than GPU’s for LBRY but also are more flexible than hardware like ASICs used to mine Bitcoin. 
 
@@ -45,12 +45,12 @@ The following LBRY rigs are available on the market today:
 | -------------|:-----------:|:-----------------------:|:----------------:|
 | Baikal BK-D  | 80 GH/s     |500 W                    |0.006j/Mh         |
 | Baikal BK-B  | 40 GH/s     |400 W                    |0.01j/Mh          |
+| GoldShell LB1  | 86 GH/s     |80 W                    | NA         |
 
 
-Going direct to the manufacturer is no longer an option given no new rigs have come to market.
+[GoldShell Purchase link](https://www.goldshell.com/lb1-lbry-miner/)
 
-
-ASIC resellers may also have miners available:
+Resellers may also have miners available:
 - [Blockware Mining](https://www.blockwaresolutions.com)
 - [Kaboom Racks](http://kaboomracks.com)
 
