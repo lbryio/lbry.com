@@ -280,7 +280,7 @@ main.home {
       padding-bottom: 1rem;
     }
     @media (min-width:901px) {
-      margin-bottom: 1rem;
+      margin-bottom: 2rem;
     }
   }
 }
@@ -297,9 +297,9 @@ img {
 
     @media (min-width:901px) {
       flex: 20%;
-      max-width: 20%;
-      padding-right: 1.5rem;
-      padding-bottom: 1.5rem;
+      max-width: 12%;
+      padding-right: 1rem;
+      padding-bottom: 1rem;
     }
     filter: grayscale(100%);
   }
