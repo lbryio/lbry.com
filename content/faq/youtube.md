@@ -65,7 +65,7 @@ You are responsible for keeping your wallet safe | no |  maybe\* |
 - Due to high demand, you will be only be synced if you have at least 300 subscribers.
 - Private or unlisted videos will not be published, but everything else will.
 
-Exceptions can be discussed. Contact us at hello@lbry.com.
+Exceptions can be discussed. Contact us at [hello@lbry.com](mailto:hello@lbry.com).
 
 ## What happens if I created a channel and/or published to LBRY before transfer? {#cleanup}
 
