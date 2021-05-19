@@ -189,6 +189,27 @@ input::placeholder {
   }
 }
 
+.button--apple-store {
+  @include hide-text;
+  width: 10rem; height: 4rem;
+
+  background-image: url("../img/apple-store-badge.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  position: relative;
+
+  .header & {
+    top: 0.5rem;
+  }
+
+  main & {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
 .odysee{
   @media (min-width: 901px) {
     img{
