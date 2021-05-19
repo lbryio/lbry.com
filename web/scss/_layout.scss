@@ -16,7 +16,9 @@ body {
   word-wrap: anywhere;
 }
 
-
+video, img {
+pointer-events: none;
+}
 
 code {
   @include font-mono;
@@ -167,31 +169,9 @@ input::placeholder {
   }
 }
 
-.button--apple-store {
-  @include hide-text;
-  width: 10rem; height: 4rem;
-
-  background-image: url("../img/apple-store-badge.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: block;
-  position: relative;
-
-  .header & {
-    top: 0.5rem;
-  }
-
-  main & {
-    margin-right: auto;
-    margin-left: auto;
-  }
-}
-
 .button--fdroid {
   @include hide-text;
   width: 10rem; height: 4rem;
-
   background-image: url("../img/fdroid-badge.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -208,6 +188,21 @@ input::placeholder {
     margin-left: auto;
   }
 }
+
+.odysee{
+  @media (min-width: 901px) {
+    img{
+      height: 40px;
+    }
+  }
+  // i want to detect android phones here because of fdroid problem, please help me
+  @media (max-width: 900px) {
+    img {
+      height: 40px;
+    }
+    padding-top: 1.5rem;
+   }
+  }
 
 .flex-third {
   flex-basis: 33.333333%;

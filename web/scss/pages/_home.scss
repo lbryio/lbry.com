@@ -2,6 +2,67 @@ main.home {
   padding-bottom: 0 !important; //this site is poison i'm not fixing it
 }
 
+//Announcement for Help LBRY save Crypto
+.anno__text {
+  background-color: #31afa1;
+  color: #fff;
+  display: block;
+}
+
+@media(min-width:901px) {
+  .anno__text {
+      padding: 0.5rem;
+  }
+}
+@media(max-width:900px) {
+  .anno__text {
+    padding: 1rem;
+  }
+}
+
+.anno__title {
+  font-size: 2.5rem;
+  font-weight: 900
+}
+
+@media(min-width:901px) {
+  .anno__title {
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 0.5rem;
+  }
+}
+
+@media(max-width:900px) {
+  .anno__title {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      text-align: center;
+  }
+}
+
+.anno__subtitle {
+  font-weight: 300
+}
+
+#anno__link {
+  text-decoration: underline;
+}
+
+@media(min-width:901px) {
+  .anno__subtitle {
+      font-size: 1.2rem;
+      text-align: center;
+  }
+}
+
+@media(max-width:900px) {
+  .anno__subtitle {
+      font-size: 1rem;
+      text-align: center;
+  }
+}
+
 .home__hero,
 .home__sites {
   .inner-wrap {
@@ -213,21 +274,12 @@ main.home {
   }
 }
 
-.home__site--org {
-  @media (max-width: 900px) {
-    padding-top: 4rem;
-  }
-
-  h3 {
-    &::before {
-      background-image: url("../img/emoji-wire-globe.png");
-    }
-  }
-}
-
 .home__site--tech {
   @media (max-width: 900px) {
     padding-bottom: 5rem;
+  }
+  @media (min-width: 901px) {
+    padding-top: 3rem;
   }
 
   &::after {
@@ -250,5 +302,64 @@ main.home {
     &::before {
       background-image: url("../img/emoji-gear.png");
     }
+  }
+}
+
+.home__site--org {
+  @media (max-width: 900px) {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+  @media (min-width: 901px) {
+    padding-top: 3rem;
+  }
+
+  h3 {
+    &::before {
+      background-image: url("../img/emoji-wire-globe.png");
+    }
+  }
+}
+
+.home__asfeatured {
+  border-top: 1px solid var(--lbry-gray-1);
+  background-color: var(--lbry-white);
+  font-size: 1rem;
+  text-align: center;
+  
+  @media (max-width:900px) {
+    padding-top: 3rem;
+  }
+
+  @media (min-width:901px) {
+    padding-top: 2rem;
+  }
+
+  h3 {
+    @media (max-width:900px) {
+      padding-bottom: 1rem;
+    }
+    @media (min-width:901px) {
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+.featured__row {
+img {
+    @media (max-width:900px) {
+      width: 40%;
+      padding-top: 1rem;
+      padding-bottom: 0.2rem;
+      margin-bottom: 1.5rem;
+      padding-right: 1rem;
+    }
+
+    @media (min-width:901px) {
+      max-width: 12%;
+      padding-right: 1rem;
+      padding-bottom: 1rem;
+    }
+    filter: grayscale(100%);
   }
 }
