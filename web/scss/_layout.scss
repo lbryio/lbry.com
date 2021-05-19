@@ -148,9 +148,9 @@ input::placeholder {
 
 .button--google-play {
   @include hide-text;
-  width: 10rem; height: 4rem;
+  width: 8.8rem; height: 4rem;
 
-  background-image: url("../img/google-play-badge.png");
+  background-image: url("../img/badges/google-play-badge.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -171,7 +171,7 @@ input::placeholder {
   @include hide-text;
   width: 10rem; height: 4rem;
 
-  background-image: url("../img/apple-store-badge.svg");
+  background-image: url("../img/badges/apple-store-badge.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -192,7 +192,7 @@ input::placeholder {
   @include hide-text;
   width: 10rem; height: 4rem;
 
-  background-image: url("../img/fdroid-badge.png");
+  background-image: url("../img/badges/fdroid-badge.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
