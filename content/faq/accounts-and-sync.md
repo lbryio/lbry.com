@@ -10,7 +10,7 @@ Users can establish accounts with lbry.tv on all of our applications. You'll be 
 
 ## Account passwords and logging in
 
-lbry.tv users will be prompted to set a password when signing up for a new account and also confirm that the email belongs to them. **It is important to set a strong password to ensure no one else can access your account, LBRY credits, and published content.**. These passwords can be reset via email or changed on the Settings page.
+lbry.tv users will be prompted to set a password when signing up for a new account and also confirm that the email belongs to them. **It is important to set a strong password to ensure no one else can access your account, LBRY Credits, and published content.**. These passwords can be reset via email or changed on the Settings page.
 
 ![](https://spee.ch/9/passwords-join.png)
 
