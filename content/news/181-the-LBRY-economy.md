@@ -42,7 +42,7 @@ These corporations have largely bettered the playing field for content creators,
 
 LBRY lets fans fund their favorite creators rather than advertisers (who couldn't care less about the content). It does so in two ways: bidding for channels/URLs, and enabling micropayments.
 
-Currently if you want to own a URL like internet.com you'd have to buy it for a high price considering somebody already owns it, and the owner of the domain could decide not to sell it. On LBRY, you can actually outbid 'lbry://internet' by staking more credits than the person claiming that URL.
+Currently if you want to own a URL like internet.com you'd have to buy it for a high price considering somebody already owns it, and the owner of the domain could decide not to sell it. On LBRY, you can actually outbid 'lbry://internet' by staking more Credits than the person claiming that URL.
 
 Although it's true that a bad actor could post unrelated content by scooping popular claims, they are limited by the amount of resources they can stake and have to wait a certain period of time before they're able to take over an already existing claim with a higher bid. Since they won't be creating any value, it's unlikely to sustain in the long run.
 
