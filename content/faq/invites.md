@@ -33,7 +33,7 @@ For a limited time, you can claim a reward for being invited and letting us know
 
 New invites are eligible for a 8 LBC reward (subject to change based on our discretion).
 
-## Is there a limit to the credits I can earn? {#limits}
+## Is there a limit to the Credits I can earn? {#limits}
 
 The default limit for claimable invites is 20. Your limit increases as you use LBRY more and your channel grows in popularity. If you want us to review your account and allow for more redemptions, please first make sure you've claimed your maximum and then [email us](mailto:help@lbry.com) with details about yourself and users you are inviting. This is typically reserved for creators or influencers.
 
@@ -51,4 +51,4 @@ LBRY users who abuse either the Invite or Rewards system will not be eligible fo
 
 If you want to waste your time to receive no reward, be our guest. We will monitor the system closely and go to significant lengths to only allow legitimate users to join.
 
-Rather than spending the time attempting to cheat and failing, we suggest you do productive work to earn LBRY credits. Join our [Discord chat](http://chat.lbry.com) and message or email [Tom](mailto:tom@lbry.com) (@jiggytom) or [Julie](mailto:julie@lbry.com) (@jsigwart) for opportunities.
+Rather than spending the time attempting to cheat and failing, we suggest you do productive work to earn LBRY Credits. Join our [Discord chat](http://chat.lbry.com) and message or email [Tom](mailto:tom@lbry.com) (@jiggytom) or [Julie](mailto:julie@lbry.com) (@jsigwart) for opportunities.
