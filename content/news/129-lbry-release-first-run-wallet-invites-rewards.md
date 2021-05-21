@@ -22,7 +22,7 @@ For immediate notification of releases, you can watch the project on GitHub.
 
 ### Changed
   * Updated to daemon [0.15](https://github.com/lbryio/lbry/releases). Most relevant changes to the app are improved announcing of content, and a fix for the daemon getting stuck running.
-  * Significant refinements to the first-run process, the process for new users, and introducing people to LBRY and LBRY credits.
+  * Significant refinements to the first-run process, the process for new users, and introducing people to LBRY and LBRY Credits.
 ![New Reward Enrollment](https://spee.ch/9/newlbryrewardproof.png)
   * Changed Wallet landing page to summarize the status of other areas. Refactored wallet and transaction logic.
   * Added icons to missing page, improved icon and title logic.
