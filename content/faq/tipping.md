@@ -7,11 +7,11 @@ LBRY allows you to tip and support your favorite creators using your LBC. You ca
 
 ![](https://thumbs.spee.ch/view/1/e8fa1df401147c2e.jpg)
 
-A _tip_ sends credits to a publisher permanently, while also boosting the trust and performance of the content (while active). Recipient can keep it staked or unlock (move to wallet balance).
+A _tip_ sends Credits to a publisher permanently, while also boosting the trust and performance of the content (while active). Recipient can keep it staked or unlock (move to wallet balance).
 
 A _support_ boosts trust and performance, but _does not_ give anything to the publisher permanently - therefore we call it a revokable support. The supporter can keep these staked as long as they like or [revoke them anytime via the wallet page](#revoke).
 
-In both cases, the amount of credits is stored as associated with (staked against) either the piece of content or the publisher channel. Either way, the amount staked:
+In both cases, the amount of Credits is stored as associated with (staked against) either the piece of content or the publisher channel. Either way, the amount staked:
 
 - Help content perform better in search results.
 - Helps content appear higher in the list of [top and trending](https://lbry.com/faq/trending) publishes.
@@ -30,13 +30,13 @@ Once you enter a value, click "Send". A tip will require a double confirmation, 
 
 ## How do I redeem my tips?
 
-When you receive a tip, the credits will come in to your wallet, and you can see them in your Transaction History. However, since the credits come in as supporting a claim, they are not spendable unless unlocked. See our [suggested guidelines](#guidelines) on tip unlocking. If you plan to unlock them, consider re-supporting your channel or otherwise making use of the credits on or outside of the platform.
+When you receive a tip, the Credits will come in to your wallet, and you can see them in your Transaction History. However, since the Credits come in as supporting a claim, they are not spendable unless unlocked. See our [suggested guidelines](#guidelines) on tip unlocking. If you plan to unlock them, consider re-supporting your channel or otherwise making use of the Credits on or outside of the platform.
 
-To have these credits show in your available balance, they must be unlocked. Tips can be unlocked in 1 of 3 ways.
+To have these Credits show in your available balance, they must be unlocked. Tips can be unlocked in 1 of 3 ways.
 
 ### 1. Unlocking all tips
 
-You can unlock tips across all your published content and channels with a single transaction by clicking the unlock button from the **View More** section of your wallet. For creators with large amounts of tips, this may take a few minutes to process. The balance may not be spendable until a block confirmation occurs. Once unlocked, we encourage you to re-support your channel or recent content, as having an available balance means your credits aren't being put to good use! 
+You can unlock tips across all your published content and channels with a single transaction by clicking the unlock button from the **View More** section of your wallet. For creators with large amounts of tips, this may take a few minutes to process. The balance may not be spendable until a block confirmation occurs. Once unlocked, we encourage you to re-support your channel or recent content, as having an available balance means your Credits aren't being put to good use! 
 
 ![](https://spee.ch/6/d35a1cb0be941cbe.png)
 
