@@ -12,7 +12,7 @@
   <section>
     <div class="inner-wrap">
       <h3>Interested in bringing LBRY to your local college campus or Meetup group?</h3>
-      <p> We're looking for folks to demonstrate our platform and latest technologies. What's in it for you? We'll provide you with LBRY credits for your group, LBRY swag, and presentation resources.</p>
+      <p> We're looking for folks to demonstrate our platform and latest technologies. What's in it for you? We'll provide you with LBRY Credits for your group, LBRY swag, and presentation resources.</p>
 
       <h3>Okay. How do I get involved?</h3>
       <p>Enter your email below and we'll tell you more.</p>
