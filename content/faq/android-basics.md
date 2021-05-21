@@ -4,7 +4,7 @@ category: getstarted
 order: 2
 ---
 
-The LBRY Browser for Android allows you to view free and paid content via the Explore and Trending sections, search for content on LBRY,  send/receive LBRY Credits (LBC) and earn credits through LBRY Rewards.
+The LBRY Browser for Android allows you to view free and paid content via the Explore and Trending sections, search for content on LBRY,  send/receive LBRY Credits (LBC) and earn Credits through LBRY Rewards.
 
 The app runs on top of the [LBRY protocol](/faq/what-is-lbry) which is a peer-to-peer (P2P), decentralized file sharing and payment network secured by blockchain technology.
 
