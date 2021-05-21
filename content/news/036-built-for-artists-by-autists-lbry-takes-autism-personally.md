@@ -12,4 +12,4 @@ A recent New York Times [op-ed](https://well.blogs.nytimes.com/2016/03/18/an-exp
 
 John's son, Jack Robison, is LBRY's own core developer. Jack, also on the autism spectrum (and who once [faced 60 years in prison](/news/jack-robison-escaped-60-years-in-prison-now-hes-revolutionizing-the-internet) for misunderstood high school chemistry experiments), has been a steadfast advocate for autism rights. To say autism awareness and understanding is an issue near and dear to our hearts is an understatement.
 
-What's more, we plan to put our credits where our mouth is and grant a significant sum of LBRY credits to [William and Mary's neurodiversity program](https://www.wm.edu/sites/neurodiversity) to further research, education, and outreach into autism.
+What's more, we plan to put our Credits where our mouth is and grant a significant sum of LBRY Credits to [William and Mary's neurodiversity program](https://www.wm.edu/sites/neurodiversity) to further research, education, and outreach into autism.
