@@ -17,7 +17,7 @@ Words don't do this madman justice. Feast your eyes on Super Mario 64 graphed on
 
 <video controls src="https://spee.ch/6a0eb0bd494c4715697623bda13c4f824c19b792/zelda-mario-64-crossover-hyrule-field.mp4"/></video>
 
-Recently, Nintendo had Kaze's Patreon and many videos deleted. **Please support his videos by donating LBRY credits to your favorite clips.**
+Recently, Nintendo had Kaze's Patreon and many videos deleted. **Please support his videos by donating LBRY Credits to your favorite clips.**
 
 Check out his work and guides here: https://sites.google.com/site/kazemario64/
 
