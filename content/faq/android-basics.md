@@ -37,7 +37,7 @@ To be eligible for Rewards, you need to verify your identity [phone number](/faq
 A wallet is a secure digital file used to store, send, and receive cryptocurrencies like LBRY Credits (LBC).
 The LBRY Android App comes with its own wallet and is stored locally on your phone and nowhere else!
 
-If you do not opt for the [sync program](/faq/account_sync), it is critical that you [backup your own wallet](/faq/how-to-backup-wallet#android) locally or else the credits, channels, and publishes will be lost.
+If you do not opt for the [sync program](/faq/account_sync), it is critical that you [backup your own wallet](/faq/how-to-backup-wallet#android) locally or else the Credits, channels, and publishes will be lost.
 
 To find your wallet in the LBRY Android app, click on the 3 horizontal bars at the upper left side of the app next to the Search bar. Clicking on it will open a sidebar and then click on Wallet. This will open the Wallet page which shows your wallet address, balance, and recent transactions.
 
