@@ -35,7 +35,7 @@ Google Analytics | | Android only |  LBRY | User behavior and interactions withi
 Content access analytics | Email | Yes, if email provided | LBRY | Content views used for Rewards and internal analytics
 IP addresses | | No, use VPN to protect | Everyone | Any access to LBRY services are logged to prevent abuse and comply with legal requirements
 Blockchain metadata | Email | Yes, if email provided | LBRY| Wallet addresses and transactions related to Rewards are logged to prevent abuse and comply with tax requirements (above $600 yearly threshold)
-Blockchain transactions | | No, don’t create transactions | Everyone | Any actions taken that use LBRY credits and create a permanent transaction on the blockchain. Not linked to any Account/User data.
+Blockchain transactions | | No, don’t create transactions | Everyone | Any actions taken that use LBRY Credits and create a permanent transaction on the blockchain. Not linked to any Account/User data.
 
 Scope of Data | LBRY Desktop App | lbry.tv (Web) | LBRY Android App | LBRY SDK |
 :------------ |:------------ |:------------ | :-------------| :-------------|
