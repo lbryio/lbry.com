@@ -53,7 +53,7 @@ However, we think LBRY will be far more than this and be used in ways we cannot 
 
 **Vine:** LBRY is definitely designed with the independent artist in mind. Unlike BitTorrent, LBRY's protocol actually incentivizes hosts to make available "obscure French indie films," as you say. With BitTorrent, the greater number of people seeding and leeching a file, the faster it goes for everyone. That's bad for obscure works.
 
-LBRY's hosts are motivated by what price people are paying for a given piece of a file, so as long as those indie cultists are willing to pony up a few more credits to get Un Chien Parlez-vous, it should remain readily available. Also, artists don't have much of an incentive to make their works available on BitTorrent because there is no built-in payment system.
+LBRY's hosts are motivated by what price people are paying for a given piece of a file, so as long as those indie cultists are willing to pony up a few more Credits to get Un Chien Parlez-vous, it should remain readily available. Also, artists don't have much of an incentive to make their works available on BitTorrent because there is no built-in payment system.
 
 With LBRY, artists have a turnkey publishing, distribution, and payment platform – all encapsulated in a neat little LBRY name like lbry://hipstershorts. Over time, LBRY's killer app will be its lower cost and greater reach than centralized media.
 
