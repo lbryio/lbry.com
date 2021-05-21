@@ -21,6 +21,6 @@ Skeptical? Fear not. Proof!
 
 <video controls src="https://spee.ch/86131eb2e741d127b5484a8b4e47a566a9e025ad/jc-c3NF349aEHM.mp4"/></video>
 
-Please support John Cleese's channel by tipping LBRY credits in-app to your favorite content.
+Please support John Cleese's channel by tipping LBRY Credits in-app to your favorite content.
 
 [**Download LBRY today**](/get). Is your favorite channel not on LBRY? Help us feature what you want to see! Email [reilly@lbry.com](mailto:reilly@lbry.com) to make it happen. Or sync your own channel at: /youtube
