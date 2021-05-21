@@ -124,7 +124,7 @@ wonderfullife<span class="token punctuation">:</span> <span class="token punctua
     <div class="inner-wrap">
       <div class="meta text-center content-inset"><p>A slightly simplified sample entry of metadata in the LBRY blockchain. Whichever party (or parties) bids the most in an ongoing auction, controls what a name returns.</p></div>
 
-      <p>Other than the usage of the LBRY blockchain to store names and metadata, there are only minor differences between the blockchains of LBRY and Bitcoin, and the changes are generally consensus improvements. We've buffed the hashing algorithm, smoothed the block reward function, increased the block size, increased the total number of credits, and prepared for off-chain settlement.</p>
+      <p>Other than the usage of the LBRY blockchain to store names and metadata, there are only minor differences between the blockchains of LBRY and Bitcoin, and the changes are generally consensus improvements. We've buffed the hashing algorithm, smoothed the block reward function, increased the block size, increased the total number of Credits, and prepared for off-chain settlement.</p>
 
       <p>The LBRY blockchain simply maintains LBC balances and a content namespace/catalogue. The next part, LBRYnet, specifies what to do with this data. To compare to the existing web, the blockchain is like the domain system (it maintains a listing of what is available), while the next piece makes it possible to actually fetch and pay for content.</p>
 
@@ -200,11 +200,11 @@ wonderfullife<span class="token punctuation">:</span> <span class="token punctua
       <h2 id="credits">LBRY Credits</h2>
       <p>LBRY Credits, or <em>LBC</em>, are the unit of account for LBRY. Eventually 1,000,000,000 LBC will exist, according to a defined schedule over 20 years. The schedule decays exponentially, with around 100,000,000 in the first year.</p>
 
-      <p>Additionally, some credits are awarded on a fixed basis. The total breakdown looks like this:</p>
+      <p>Additionally, some Credits are awarded on a fixed basis. The total breakdown looks like this:</p>
 
       <ul>
         <li>10% for organizations, charities, and other strategic partners. Organizations like the EFF, ACLU, and others that have fought for digital rights and the security and freedom of the internet.</li>
-        <li>20% for adoption programs. We'll be giving out lots of bonus credits, especially in the early days of LBRY, in order to encourage participation. We will also look to award credits broadly, ensuring the marketplace is egalitarian.</li>
+        <li>20% for adoption programs. We'll be giving out lots of bonus Credits, especially in the early days of LBRY, in order to encourage participation. We will also look to award Credits broadly, ensuring the marketplace is egalitarian.</li>
         <li>10% for us. For operational costs as well as profit.</li>
         <li>60% earned by LBRY users, via mining the LBRY cryptocurrency.</li>
       </ul>
