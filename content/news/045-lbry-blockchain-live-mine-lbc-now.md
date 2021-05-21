@@ -4,14 +4,14 @@ title: 'Come and Get 'Em! LBRY Credits Now Available to Mine'
 date: '2016-06-29 00:09:00'
 ---
 
-Guess what? The LBRY blockchain is now LIVE, and anyone can begin mining LBRY credits (LBC)! At this point, LBC are only mineable by CPU on OS X and Ubuntu. You can get started here: [How do I mine LBRY credits?](/faq/mining-credits)
+Guess what? The LBRY blockchain is now LIVE, and anyone can begin mining LBRY Credits (LBC)! At this point, LBC are only mineable by CPU on OS X and Ubuntu. You can get started here: [How do I mine LBRY Credits?](/faq/mining-credits)
 
 **Genesis Block**
 
-LBRY's genesis block contains 400 million LBC that are reserved for LBRY development. The credits in these wallets are awarded on a fixed basis, as follows:
+LBRY's genesis block contains 400 million LBC that are reserved for LBRY development. The Credits in these wallets are awarded on a fixed basis, as follows:
 
 * 10% for organizations, charities, and other strategic partners. Organizations like the EFF, ACLU, and others that have fought for digital rights and the security and freedom of the internet.
-* 20% for adoption programs. We'll be giving out lots of bonus credits, especially in the early days of LBRY, in order to encourage participation. We will also look to award credits broadly, ensuring the marketplace is egalitarian.
+* 20% for adoption programs. We'll be giving out lots of bonus Credits, especially in the early days of LBRY, in order to encourage participation. We will also look to award Credits broadly, ensuring the marketplace is egalitarian.
 * 10% for LBRY, for operational costs as well as profit.
 
 The final 60% is waiting for YOU! These remaining LBC don't yet exist and can be mined by anyone. You can see [how much has already been mined here](https://explorer.lbry.com).
@@ -31,4 +31,4 @@ Block rewards will remain intentionally low for a short period of time, then inc
 
 [Join our Discord chat](http://chat.lbry.com) to talk with the team about the technical details.
 
-Also – you don't have to mine LBC to get involved in LBRY and earn your credits! Let us know what you can offer – from testing/developing our code to uploading your own original films/songs/books/etc.
+Also – you don't have to mine LBC to get involved in LBRY and earn your Credits! Let us know what you can offer – from testing/developing our code to uploading your own original films/songs/books/etc.
