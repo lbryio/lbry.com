@@ -200,7 +200,7 @@ lbrycrd-cli generate 5
 lbryum getunsusedaddress
 ```
 
-#### Send credits from lbrycrd to your wallet
+#### Send Credits from lbrycrd to your wallet
 ```bash
 lbrycrd-cli sendtoaddress <address> <num_of_credits>
 ```
