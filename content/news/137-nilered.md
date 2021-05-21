@@ -21,6 +21,6 @@ Get lit on chemistry via spee.ch:
 
 <video controls poster="https://berk.ninja/thumbnails/5ZrfNAHDjWU" src="https://spee.ch/1fe933b8c0709dcc035ec4df73e3b0f63ba5d112/red-phosphorus-from-matchboxes.mp4"/></video>
 
-Please support NileRed by tipping LBRY credits in-app to your favorite chemical reactions. And also because tipping is a pretty, pretty, prettttty cool.
+Please support NileRed by tipping LBRY Credits in-app to your favorite chemical reactions. And also because tipping is a pretty, pretty, prettttty cool.
 
 [**Download LBRY today**](/get). Is your favorite channel not on LBRY? Help us feature what you want to see! Email [reilly@lbry.com](mailto:reilly@lbry.com) to make it happen. Or sync your own channel at: /youtube
