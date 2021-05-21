@@ -48,9 +48,9 @@ Indie production houses have seen the potential in LBRY. **[Oscilloscope Laborat
 
 In addition to watching these films and other pieces already uploaded to LBRY, there are several ways users can interact with the platform – and begin generating income – once they receive beta access:
 
-* Cryptocoin enthusiasts can **begin mining our new token**, called *LBRY credits*, by following [these instructions](/faq/mining-credits).
-* Creators can **upload their own content**, set a price, and start earning credits using the app's publishing tools.
-* And anyone with spare disk space can **host content** and earn credits simply by downloading something from LBRY and leaving the app running.
+* Cryptocoin enthusiasts can **begin mining our new token**, called *LBRY Credits*, by following [these instructions](/faq/mining-credits).
+* Creators can **upload their own content**, set a price, and start earning Credits using the app's publishing tools.
+* And anyone with spare disk space can **host content** and earn Credits simply by downloading something from LBRY and leaving the app running.
 
 <p style="text-align: center;">
   <a href="/get"><strong>Join the Waitlist for Early Access</strong></a>
