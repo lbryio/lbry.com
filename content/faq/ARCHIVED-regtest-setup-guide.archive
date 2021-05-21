@@ -160,7 +160,7 @@ lbryum daemon start
 
 Generate some more blocks, get a wallet address by running:
 `lbryum getunusedaddress`
-and then send some credits to your wallet by doing
+and then send some Credits to your wallet by doing
 `./lbrycrd-cli sendtoaddress <address> <num_of_credits>`
 
 ### 4) lbry
