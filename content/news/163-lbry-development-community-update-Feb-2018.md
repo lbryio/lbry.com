@@ -104,7 +104,7 @@ The [LBRY.Community](https://lbry.community) contest from January wrapped up, an
 ### New and updated LBRY FAQ Articles
 We recently revamped and simplified our ["What is LBRY?"](/faq/what-is-lbry) FAQ, so it's a tad easier to digest for first time LBRY users.
 
-The new [LBRY Basics](/faq/lbry-basics) FAQ entry which will provide first-time (and existing) LBRY app users a better understanding of the various components of the app. It also explains what LBRY accounts are used for and stresses that all LBRY data, including your wallet where credits are stored, is only available on your computer and should be [backed up](/faq/how-to-backup-wallet) accordingly.
+The new [LBRY Basics](/faq/lbry-basics) FAQ entry which will provide first-time (and existing) LBRY app users a better understanding of the various components of the app. It also explains what LBRY accounts are used for and stresses that all LBRY data, including your wallet where Credits are stored, is only available on your computer and should be [backed up](/faq/how-to-backup-wallet) accordingly.
 
 We've also added FAQs which detail LBRY's [content policy](/faq/content) and [acceptable use policy](/faq/acceptable-use-policy). Thanks to @julie for her hard work on these!
 
