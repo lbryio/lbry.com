@@ -16,4 +16,4 @@ Kauffman also didn't shy away from the tough questions Clair asked concerning qu
 
 > "The publishers, the creators, the people who actually make the stuff – if they don't end up making more money in this [LBRY] system, we've failed, and it was absolutely not what we intended."
 
-**<p style="text-align: center;">It's not too late to become an Alpha Tester of the LBRY Protocol. Earn 1,000 LBC (LBRY credits) for installing the protocol and completing our brief survey. [Get started now](/get).</p>**
+**<p style="text-align: center;">It's not too late to become an Alpha Tester of the LBRY Protocol. Earn 1,000 LBC (LBRY Credits) for installing the protocol and completing our brief survey. [Get started now](/get).</p>**
