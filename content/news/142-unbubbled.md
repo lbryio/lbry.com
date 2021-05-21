@@ -15,6 +15,6 @@ The first of two new shows are coming exclusively LBRY to expand the tradition: 
 
 And coming November 2017 is STEAL THIS SIDESHOW, a bi-weekly video podcast of the best asides from Jamie King's STEAL THIS SHOW presented by TorrentFreak.
 
-Please support your favorite creators by tipping LBRY credits in-app.
+Please support your favorite creators by tipping LBRY Credits in-app.
 
 [**Download LBRY today**](/get). Is your favorite channel not on LBRY? Help us feature what you want to see! [reilly@lbry.com](mailto:reilly@lbry.com) to make it happen. Or sync your own channel at: /youtube
