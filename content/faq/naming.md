@@ -30,10 +30,10 @@ First and foremost **it is absolutely possible to own and control a URL forever*
 In LBRY, a URL entry is called a _claim_. For simplicity, a claim can be considered to consist of:
 
 - The name (a string of characters chosen by the creator)
-- The number of credits
+- The number of Credits
 - Additional data related to the content and/or publisher identity
 
-Claims in LBRY are non-consumptive. When you designate a number of credits in a claim, nothing is lost or destroyed beyond the relatively minimal transaction fee. At any time, the credits allocated to a claim can be used for another purpose, recovered, or sent somewhere else. When this happens, the claim is no longer considered valid.
+Claims in LBRY are non-consumptive. When you designate a number of Credits in a claim, nothing is lost or destroyed beyond the relatively minimal transaction fee. At any time, the Credits allocated to a claim can be used for another purpose, recovered, or sent somewhere else. When this happens, the claim is no longer considered valid.
 
 LBRY supports several types of URL resolution:
 
