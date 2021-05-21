@@ -1,11 +1,11 @@
 ---
-title: Why does the app ask for my credit card?
+title: Why does the app ask for my Credit Card?
 category: other
 ---
 
 ## Why we ask
 
-LBRY controls [millions of credits](/faq/credit-policy) that it wants to get into the hands of content creators and content consumers.
+LBRY controls [Millions of Credits](/faq/credit-policy) that it wants to get into the hands of content creators and content consumers.
 
 Unfortunately, when running a rewards program, people may abuse it.
 
@@ -23,6 +23,6 @@ No problem! We've added two other rewards approval methods - [Phone ](/faq/phone
 
 Otherwise, you are welcome to use the LBRY browser without providing any personal information. We just can't give you any rewards.
 
-Note that without some credits, you will be unable to publish or access paid content.
+Note that without some Credits, you will be unable to publish or access paid content.
 
-However, you can get credits in lots of other ways. See [this article on purchasing and earning credits](/faq/earn-credits).
+However, you can get Credits in lots of other ways. See [this article on purchasing and earning credits](/faq/earn-credits).
