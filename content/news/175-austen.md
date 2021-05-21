@@ -48,7 +48,7 @@ Although a video is worth a million words, we made some improvements that allow 
 
 ### 8. Confirmation Prompt
 
-Money is power, and so is knowledge. Knowing what's happening with your LBC is ultra powerful. Now when you send credits from the LBRY app wallet you'll be prompted with a confirmation screen to review the destination address and amount
+Money is power, and so is knowledge. Knowing what's happening with your LBC is ultra powerful. Now when you send Credits from the LBRY app wallet you'll be prompted with a confirmation screen to review the destination address and amount
 
 ### 9. LBRY Daemon Upgrade
 
