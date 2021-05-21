@@ -21,7 +21,7 @@ In this guide we cover:
 
 Mining is a process where computing power is used to verify transactions on the LBRY network and add them to the public ledger (LBRY blockchain). It is also the process of how new LBRY Credits (LBC) are created as a reward for the successful miners (see details below). The process uses the mining software to calculate complex mathematical puzzles in order to secure the transactions. Both CPU and GPU hardware can be used for mining, but the current market is dominated by GPU and ASIC mining. LBRY uses a mix of SHA512, SHA256 and RIPEMD hash functions in its algorithm. To put it in the most simple terms: mining enables secure and fast LBC transactions.
 
-LBC Credits (LBC) are mined over a [20-year Proof of Work](/faq/block-rewards) period. Block rewards increase every 100 blocks by 1LBC, peak at 500, and decline slowly.
+LBRY Credits (LBC) are mined over a [20-year Proof of Work](/faq/block-rewards) period. Block rewards increase every 100 blocks by 1LBC, peak at 500, and decline slowly.
 
 ### Understanding Mining Profitability 
 
