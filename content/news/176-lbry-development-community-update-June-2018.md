@@ -8,7 +8,7 @@ category: community-update
 
 Welcome to the June 2018 LBRY Development and Community update! In this post we'll show you what we've been up to and review our progress for the month of June. This month we launched the [LBRY app redesign](#summary), made enhancements to the LBRY protocol, continued to move forward with our Android app alpha testing, and began several new community initiatives, including the [debut of the lbry.fund, created to fund projects promoting or using the LBRY protocol](#lbry-fund).
 
-Scroll down to learn about new [rewards updates](#reward) as well as a couple contests where you can earn up to $300 USD in LBRY credits. To read all of our previous updates, please visit our [Development and Community Update archive](/news/category/community-update).
+Scroll down to learn about new [rewards updates](#reward) as well as a couple contests where you can earn up to $300 USD in LBRY Credits. To read all of our previous updates, please visit our [Development and Community Update archive](/news/category/community-update).
 
 If you want to see what we have completed recently and what's planned for LBRY, check out our [roadmap](/roadmap).
 
@@ -133,7 +133,7 @@ Our [Twitter Tipbot](https://twitter.com/@LBC_Tipbot) received a small revamp wh
 > help - Shows this command.<br/>
 > balance - Get your balance.<br/>
 > deposit - Get address for your deposits.<br/>
-> withdraw ADDRESS AMOUNT - Withdraw AMOUNT credits to ADDRESS.<br/>
+> withdraw ADDRESS AMOUNT - Withdraw AMOUNT Credits to ADDRESS.<br/>
 > tip USER AMOUNT - Tip USER AMOUNT.<br/>
 > terms - Sends the TOS.<br/>
 >
