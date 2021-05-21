@@ -22,6 +22,6 @@ In fact, LBRY is a valve that could literally gush movies.
 
 The LBRY platform allows movie buffs like Will McKinley and Nora Fiore to connect directly to content published by anyone – including major movie studios. It also lets producers distribute content to niche markets in an economically viable way.
 
-Universal could easily publish "Alias Nick Beal" at the URL lbry://AliasNickBeal. Classic film lovers searching for the movie by title or keyword could then access the link and spend credits to watch the movie. Universal gets paid, and the user gets a hassle-free, seamless movie-viewing experience, all without any reserving server space or negotiating complex licensing deals.
+Universal could easily publish "Alias Nick Beal" at the URL lbry://AliasNickBeal. Classic film lovers searching for the movie by title or keyword could then access the link and spend Credits to watch the movie. Universal gets paid, and the user gets a hassle-free, seamless movie-viewing experience, all without any reserving server space or negotiating complex licensing deals.
 
 LBRY provides just the outlet movie studios need to bring these wonderful classic films out of their musty vaults and into the living rooms of eager movie fans. Let's open the valve!
