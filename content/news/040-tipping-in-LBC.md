@@ -6,7 +6,7 @@ date: '2016-05-12 00:06:18'
 
 As our team ramps up for the Beta release of the LBRY protocol, we're making sure to have a little fun too.
 
-New team member Alex Grin set up a LBC tipbot on LBRY's Slack, so now when someone does something cool, we're high-fiving each other with LBRY credits. It's a great feeling!  **We moved from Slack to Discord and the tipbot made its way over as well!**
+New team member Alex Grin set up a LBC tipbot on LBRY's Slack, so now when someone does something cool, we're high-fiving each other with LBRY Credits. It's a great feeling!  **We moved from Slack to Discord and the tipbot made its way over as well!**
 
 ![micropayments for artists](/img/micropayment-tip-busker.jpg)
 
