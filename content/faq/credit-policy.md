@@ -1,15 +1,15 @@
 ---
-title: What is LBRY doing with non-mined credits?
+title: What is LBRY doing with non-mined Credits?
 category: other
 ---
 
-LBRY, Inc. controls a significant number of LBRY credits (LBC). At the inception of the blockchain, it was 400,000,000 LBC.
+LBRY, Inc. controls a significant number of LBRY Credits (LBC). At the inception of the blockchain, it was 400,000,000 LBC.
 
-This document outlines LBRY, Inc. policies, disclosures and intentions in administering those credits. Its purpose is to ensure we operate forthrightly and in the best interests of the LBRY community.
+This document outlines LBRY, Inc. policies, disclosures and intentions in administering those Credits. Its purpose is to ensure we operate forthrightly and in the best interests of the LBRY community.
 
 ## Credit overview
 
-The initial 400m credits are broken down as follows:
+The initial 400m Credits are broken down as follows:
 
 | Name | Amount | Purpose | Wallet (Initial) | Wallet (Current) |
 | ---- | ------ | ---------------- | -------- | -------- |
@@ -29,7 +29,7 @@ The Community Fund is 200m LBC reserved for spreading usage and adoption of the 
 
 At a high-level, this fund will be used for the following purposes:
 
-- Seeding consumers with initial credits
+- Seeding consumers with initial Credits
 - Recruiting producers to use LBRY
 - Encouraging all users to share LBRY and invite friends
 - Rewarding community contributors
