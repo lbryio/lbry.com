@@ -21,7 +21,7 @@ We track views from Odysee and other LBRY apps. When a user with a validated acc
 
 Click the User Avatar icon from the front page and then Channels to see your rate.
 
-**Please note**: your rate is subject to change and is based on a number of variables including: average watch-time, average view count, type of content, engagement, creator location, price of credits, overall network usage etc. As a result, the rate moves up and down a bit on a regular basis. View rewards will also be limited if a creator earns over 1% of the weekly reward pool of credits.
+**Please note**: your rate is subject to change and is based on a number of variables including: average watch-time, average view count, type of content, engagement, creator location, price of Credits, overall network usage etc. As a result, the rate moves up and down a bit on a regular basis. View rewards will also be limited if a creator earns over 1% of the weekly reward pool of Credits.
 
 ![](https://spee.ch/9/e03f4142ae5abdb8.png)
 
