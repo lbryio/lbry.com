@@ -14,7 +14,7 @@
     "scssphp/scssphp":"^1.3",
     "erusev/parsedown": "^1.7",
     "erusev/parsedown-extra": "^0.8.0",
-    "pelago/emogrifier": "^4.0.0",
+    "pelago/emogrifier": "^5.0.0",
     "mustangostang/spyc": "0.6.3",
     "masterminds/html5": "^2.7",
     "symfony/css-selector": "^3.4.4"
