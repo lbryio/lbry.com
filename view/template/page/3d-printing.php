@@ -157,7 +157,7 @@
     <div class="inner-wrap">
       <h3>We want to see your first 3D upload!</h3>
       <p>
-        Send the <code>lbry://</code> address and your LBC wallet address to <a href="mailto:james@lbry.com" class="link-primary"><span class="btn-label">james@lbry.com</span></a> <strong>to receive 10 Library Credits on us</strong>.
+        Send the <code>lbry://</code> address and your LBC wallet address to <a href="mailto:james@lbry.com" class="link-primary"><span class="btn-label">james@lbry.com</span></a> <strong>to receive 10 LBRY Credits on us</strong>.
       </p>
 
       <h3>Looking for more exclusive content?</h3>
