@@ -244,13 +244,27 @@ drawer-child {
     }
   }
 
-  .icon-reddit {
+  .si {
+    margin-right: 1rem;
+    transition: color 0.2s;
+
+    &:hover {
+      color: var(--lbry-teal-4);
+    }
+  }
+
+  .si-reddit {
     left: -0.2rem;
     position: relative;
   }
 
-  .icon-telegram {
+  .si-telegram {
     left: -0.4rem;
+    position: relative;
+  }
+
+  .si-discord {
+    left: -0.6rem;
     position: relative;
   }
 }

@@ -21,6 +21,9 @@
     <?php endforeach ?>
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-icons-font@v4/font/simple-icons.min.css" type="text/css">
+    <link rel="stylesheet" href="https://unpkg.com/simple-icons-font@4/font/simple-icons.min.css" type="text/css">
+
 
     <link rel="apple-touch-icon" sizes="60x60" href="/img/fav/apple-touch-icon-60x60.png"/>
     <link rel="apple-touch-icon" sizes="114x114" href="/img/fav/apple-touch-icon-114x114.png"/>

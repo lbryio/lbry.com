@@ -64,10 +64,12 @@
                 <div>
                   <strong>Social</strong>
                   <span>
-                    <a href="https://twitter.com/lbrycom"><span class="icon icon-twitter"></span></a>
-                    <a href="https://reddit.com/r/lbry"><span class="icon icon-reddit"></span></a>
-                    <a href="https://www.facebook.com/lbrycom"><span class="icon icon-facebook-square"></span></a>
-                    <a href="https://t.me/lbryofficial"><span class="icon icon-telegram"></span></a>
+                    <a href="https://twitter.com/lbrycom"><span class="si si-twitter"></span></a>
+                    <a href="https://reddit.com/r/lbry"><span class="si si-reddit"></span></a>
+                    <a href="https://www.facebook.com/lbrycom"><span class="si si-facebook"></span></a>
+                    <a href="https://t.me/lbryofficial"><span class="si si-telegram"></span></a>
+                    <a href="https://matrix.to/#/#lbry-community:madek.allaboutlbc.com"><span class="si si-element"></span></a>
+                    <a href="https://chat.lbry.com"><span class="si si-discord"></span></a>
                   </span>
                 </div>
               </drawer-child>
