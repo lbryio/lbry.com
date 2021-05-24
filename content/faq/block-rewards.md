@@ -15,13 +15,13 @@ The source code, and not this file, is the only true definition of the block rew
 
 ## Mining reward schedule
 
-Eventually 1,083,202,000<sup>1</sup> LBRY credits will exist.
+Eventually 1,083,202,000<sup>1</sup> LBRY Credits will exist.
 
 <sup>1</sup>This value was [updated from 1B](https://github.com/lbryio/lbry.com/commit/4b4a8401d8ada40203d2bfb232066f42c4ac7a84) (which was a nice round number for a FAQ) on 09/21/2018 with the goal of increasing accuracy and transparency. [View the calculation here to verify](https://www.onlinegdb.com/r1NQOiyYQ) the source code referenced above.
 
 They are awarded on the following schedule:
 
-* The genesis block created 400,000,000 credits to be administered by LBRY, Inc. 300,000,000 of these will be strategically allocated to partners, many of whom have a direct interest in the naming layer.  It also includes 100,000,000 earmarked for charity. Additionally, some may be given directly to the public in ways that add value and make sense. 100,000,000 are owned by LBRY directly.
+* The genesis block created 400,000,000 Credits to be administered by LBRY, Inc. 300,000,000 of these will be strategically allocated to partners, many of whom have a direct interest in the naming layer.  It also includes 100,000,000 earmarked for charity. Additionally, some may be given directly to the public in ways that add value and make sense. 100,000,000 are owned by LBRY directly.
 
 * The remaining 600,000,000 are mined in 3 stages:
 

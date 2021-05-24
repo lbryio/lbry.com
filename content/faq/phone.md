@@ -5,7 +5,7 @@ category: other
 
 ## Why we ask
 
-LBRY controls [millions of credits](/faq/credit-policy) that it wants to get into the hands of content creators and content consumers.
+LBRY controls [Millions of Credits](/faq/credit-policy) that it wants to get into the hands of content creators and content consumers.
 
 Unfortunately, when running a rewards program, people may abuse it.
 

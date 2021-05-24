@@ -14,7 +14,7 @@ Please review [this document](https://docs.google.com/document/d/e/2PACX-1vS0H7g
 
 ### 1. Term Period
 
-This Agreement lasts twelve (12) months from the date that the Content is uploaded to your Channel on LBRY. After that time, your content will continue to be on the LBRY Network under the terms of this agreement for successive 6-month periods; if you decide to revoke your content, it will be taken down within 30 days of LBRY receiving notice from you. If the content is revoked before the initial term period is up, any credits earned will need to be returned. 
+This Agreement lasts twelve (12) months from the date that the Content is uploaded to your Channel on LBRY. After that time, your content will continue to be on the LBRY Network under the terms of this agreement for successive 6-month periods; if you decide to revoke your content, it will be taken down within 30 days of LBRY receiving notice from you. If the content is revoked before the initial term period is up, any Credits earned will need to be returned. 
 
 ### 2. Receiving LBRY Credits (LBC)
 

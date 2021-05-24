@@ -4,7 +4,7 @@ category: getstarted
 order: 1
 ---
 
-The LBRY Desktop app and lbry.tv allow you to view content, upload your digital media for free or at a set price, tip your favorite creators, send/receive LBRY Credits (LBC) and earn credits through [LBRY Rewards](/faq/rewards). The apps and web version run on top of the [LBRY protocol](/faq/what-is-lbry) which is a peer to peer, decentralized file sharing and payment network secured by blockchain technology.
+The LBRY Desktop app and lbry.tv allow you to view content, upload your digital media for free or at a set price, tip your favorite creators, send/receive LBRY Credits (LBC) and earn Credits through [LBRY Rewards](/faq/rewards). The apps and web version run on top of the [LBRY protocol](/faq/what-is-lbry) which is a peer to peer, decentralized file sharing and payment network secured by blockchain technology.
 
 The purpose of this FAQ is to answer questions about some of the basic functionality available on LBRY Desktop, LBRY mobile, and lbry.tv. Please see our [other FAQ entries](/faq) for additional information.
 
@@ -34,7 +34,7 @@ If you want to run LBRY on multiple PCs or other platforms like Android, you can
 A wallet is a secure, digital wallet used to store, send, and receive cryptocurrencies like LBRY Credits (LBC). LBRY comes with its own wallet and is stored locally on your device and nowhere else unless you enable the Sync feature. **If you do not enable syncing, it is critical that you [backup your wallet data](/faq/how-to-backup-wallet) in case you lose access to your PC or need to [migrate](/faq/backup-data) to a new one.**
 
 To find your wallet in LBRY:
-- in the **Desktop app** or on **lbry.tv** click on your LBC Balance showing at the top right and it should display the wallet overview page which shows your balance, send/receive and recent transactions (balance may show as **`0 LBC`** if you don't have any credits or as **`Wallet`** if the **"Hide wallet balance in header"** option is selected on the Settings page).
+- in the **Desktop app** or on **lbry.tv** click on your LBC Balance showing at the top right and it should display the wallet overview page which shows your balance, send/receive and recent transactions (balance may show as **`0 LBC`** if you don't have any Credits or as **`Wallet`** if the **"Hide wallet balance in header"** option is selected on the Settings page).
 
 - in the **mobile app**, you need to open the main menu and then choose the `Wallet` option, where you can see the address of your wallet, see recent transactions, send credits and synchronize your wallet.
 
