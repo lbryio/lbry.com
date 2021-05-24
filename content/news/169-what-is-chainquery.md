@@ -21,7 +21,7 @@ In the case of LBRY, Chainquery is both the easiest and most feature-rich method
 
 Chainquery takes all the raw data in the blockchain, decompresses and extracts it, and stores it in a relational database, all in real-time. This allows the rich features of SQL to be applied to live blockchain data.
 
-This is all rather abstract, so let's look at an example. Suppose we wanted to determine the 10 LBRY URLs with the largest number of staked credits. Without Chainquery, this would require making direct calls to the LBRY blockchain API, iterating over each claim, and storing the 10 largest. In addition to being non-trivial to write, it would also be quite slow.
+This is all rather abstract, so let's look at an example. Suppose we wanted to determine the 10 LBRY URLs with the largest number of staked Credits. Without Chainquery, this would require making direct calls to the LBRY blockchain API, iterating over each claim, and storing the 10 largest. In addition to being non-trivial to write, it would also be quite slow.
 
 With Chainquery, it's about a hundred characters of performant SQL:
 

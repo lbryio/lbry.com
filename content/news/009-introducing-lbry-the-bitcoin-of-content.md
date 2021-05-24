@@ -16,7 +16,7 @@ File sharing went mainstream with Napster. For the first time, content could be 
 >
 > *— Jeremy Kauffman, co-founder of LBRY*
 
-Content in LBRY is encrypted by its publisher, then cut apart and distributed to a decentralized network of host servers. LBRY hosts do not know the content of the encrypted files they store, and nobody can access the complete content without the publisher's unique decryption key. The publisher can exchange the key for a specified number of LBRY credits – a cryptocurrency native to the LBRY protocol.
+Content in LBRY is encrypted by its publisher, then cut apart and distributed to a decentralized network of host servers. LBRY hosts do not know the content of the encrypted files they store, and nobody can access the complete content without the publisher's unique decryption key. The publisher can exchange the key for a specified number of LBRY Credits – a cryptocurrency native to the LBRY protocol.
 
 Not only do LBRY publishers literally hold the keys to their content, but the end-user experience is also vastly improved compared to torrents. By encrypting and distributing content across the blockchain, LBRY provides a one-step streaming and downloading experience to the content-consuming patron.
 
@@ -28,7 +28,7 @@ Here's what a publisher and patron relationship looks like in LBRY:
 
 1. The film is encrypted and sliced into many pieces. These pieces are distributed to hosts. Jessica has now "published" her film in LBRY.
 
-1. Patron John wants to watch the movie, so he visits `lbry://futurelibraryfilm` and pays 5 credits to decrypt and watch the film. Those credits go to compensate Jessica for publishing the work and the many hosts for storing the content.
+1. Patron John wants to watch the movie, so he visits `lbry://futurelibraryfilm` and pays 5 Credits to decrypt and watch the film. Those Credits go to compensate Jessica for publishing the work and the many hosts for storing the content.
 
 1. John's LBRY client seamlessly streams or downloads the film by collecting the pieces from the hosts and reassembling them.
 

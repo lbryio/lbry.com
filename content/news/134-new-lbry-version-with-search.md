@@ -38,5 +38,5 @@ The latest LBRY app, v0.17, is now available. [**Get it here**](/get).
   * Fixed dark theme issues with text content.
   * Minor css fixes.
   * Fixed issue when a file fails to download.
-  * Fixed issue after accessing a video without enough credits.
+  * Fixed issue after accessing a video without enough Credits.
   * Fixed channel fetching without claims.

@@ -106,7 +106,7 @@ We've recently made a few updates to our [Roadmap](/roadmap) which include a sta
 ![roadmap](https://spee.ch/f/roadmap-update.jpeg)
 
 ### Q1 Credit Report
-Due to funding needs being met, no credits were moved from cold storage during the first quarter. The majority of credit outlays were for technical contributions and community - both things we love to reward! As usual, you can see both the [summary report](/credit-reports/2018-q1) and [detailed spreadsheet](https://docs.google.com/spreadsheets/d/17GIrc-cmoXEY9x3NYhtxd45g2mHnuJ7cjUy_TfmhLMA/edit?usp=sharing) on our website.
+Due to funding needs being met, no Credits were moved from cold storage during the first quarter. The majority of credit outlays were for technical contributions and community - both things we love to reward! As usual, you can see both the [summary report](/credit-reports/2018-q1) and [detailed spreadsheet](https://docs.google.com/spreadsheets/d/17GIrc-cmoXEY9x3NYhtxd45g2mHnuJ7cjUy_TfmhLMA/edit?usp=sharing) on our website.
 
 ### LBRY Merchandise Store
 We've added some brand new designs to our [swag store!](https://shop.lbry.com). New t-shirt designs and products are frequently added, so please be sure to stop by! We're very excited to offer some fresh items designed by our new marketing intern James Biller - if you like what you see, give him a shout out on [Twitter](https://twitter.com/BillerJames)!

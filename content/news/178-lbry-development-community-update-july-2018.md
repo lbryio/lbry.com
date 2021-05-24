@@ -8,7 +8,7 @@ category: community-update
 
 Welcome to the July 2018 LBRY Development and Community update! In this post we'll show you what we've been up to and review our progress for the month of July. We had a very busy month - new releases on the Protocol, new features in the LBRY app, project grants via the LBRY.fund, and wallet encryption progress are among the highlights.
 
-You asked for more ways to earn LBC credits in the app, so we've added multi-level rewards. Scroll down to learn about new [rewards updates](#reward).
+You asked for more ways to earn LBC Credits in the app, so we've added multi-level rewards. Scroll down to learn about new [rewards updates](#reward).
 
 To read all of our previous updates, please visit our [Development and Community Update archive](/news/category/community-update).
 
@@ -159,7 +159,7 @@ The next priorities for the Blockchain team include cleaning up the claimtrie co
 If you aren't part of our Discord community yet, [join us](https://chat.lbry.com) anytime and say hello! Our community allows LBRYians to interact with the team directly and for us to engage users in order to grow the LBRY platform. Also follow us on [Twitter](https://twitter.com/lbrycom), [Facebook](https://facebook.com/lbrycom), [Reddit](https://www.reddit.com/r/lbry), [Instagram](https://www.instagram.com/lbryio), and [Telegram](https://t.me/lbryofficial).
 
 ### Q2 2018 Credit Report
-This quarter we moved no credits from cold storage. We spent 738,027 total community credits on line items detailed in the Q2 report. No operational credits were moved to markets. No institutional credits were moved or spent. We anticipate comparable or larger total outlays in Q3 2018. Operational spending may increase, but not significantly, and community spending is likely to be higher. We will continue to incentivize new users and other beneficial behavior, which is likely to involve 300,000 to 1,500,000+ LBC. LBRY is also likely to form it's first institutional partnership, with spending anticipated to be around 500,000 LBC. [Read the details here.](/credit-reports/2018-q2)
+This quarter we moved no Credits from cold storage. We spent 738,027 total community Credits on line items detailed in the Q2 report. No operational Credits were moved to markets. No institutional Credits were moved or spent. We anticipate comparable or larger total outlays in Q3 2018. Operational spending may increase, but not significantly, and community spending is likely to be higher. We will continue to incentivize new users and other beneficial behavior, which is likely to involve 300,000 to 1,500,000+ LBC. LBRY is also likely to form it's first institutional partnership, with spending anticipated to be around 500,000 LBC. [Read the details here.](/credit-reports/2018-q2)
 
 ### Roadmap Check-in
 Things are fairly quiet on the [roadmap](/roadmap) front. We've moved the `Wallet Encryption in the LBRY App` goal to `In Progress` as it's almost ready to be released, see [above](#encrypt) for the update. Large amounts of progress have been made on [YouTube Sync automation](#youtube-updates) as well as [Wallet improvements](#wallet) - both of which we hope to check off as complete by the end of this month.

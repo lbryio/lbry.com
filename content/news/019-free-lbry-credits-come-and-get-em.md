@@ -4,7 +4,7 @@ title: 'Free LBRY Credits: Come and Get 'Em!'
 date: '2015-11-24 19:43:59'
 ---
 
-We are fast approaching the deadline to earn free LBRY credits (LBC) by being an alpha tester of the LBRY protocol. That's right – we're giving away 1,000 LBC to anyone who just **tries** to install LBRY, then completes our survey. [Get it here](/get) and be the first on your block with LBC.
+We are fast approaching the deadline to earn free LBRY Credits (LBC) by being an alpha tester of the LBRY protocol. That's right – we're giving away 1,000 LBC to anyone who just **tries** to install LBRY, then completes our survey. [Get it here](/get) and be the first on your block with LBC.
 
 A warm shoutout to Amanda Johnson, who reminded her viewers of this opportunity in the most recent regular episode of [The Daily Decrypt](https://www.youtube.com/channel/UCqNCLd2r19wpWWQE6yDLOOQ/featured).
 <p style="text-align: center;"><img src="https://spee.ch/@move:b/rH04oCZ.png" alt="The Daily Decrypt plugs LBRY"></p>

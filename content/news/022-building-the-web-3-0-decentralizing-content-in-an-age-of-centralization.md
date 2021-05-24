@@ -10,4 +10,4 @@ Still trying to wrap your head around LBRY? Mike Vine, our Technology Evangelist
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/u-03CWZeLpc?rel=0" frameborder="0" allowfullscreen></iframe>
 
-**Are you excited about LBRY? Do you want to get involved in building the Internet of the future? Become an alpha tester today and earn 1000 LBRY credits – [sign up here](/get).**
+**Are you excited about LBRY? Do you want to get involved in building the Internet of the future? Become an alpha tester today and earn 1000 LBRY Credits – [sign up here](/get).**

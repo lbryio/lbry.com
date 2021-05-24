@@ -21,6 +21,6 @@ A math whiz, a South African, his South African friend, and a troupe of funny me
 
 [@DerickWattsAndTheSundayBlues](https://open.lbry.com/%40DerickWattsAndTheSundayBlues) have lent their musical comedy acumen to us. Nic and Gareth are the most popular South African comedy duo on LBRY by a wide margin. They are also the 2nd and 3rd most popular South African comedy duo in the library LBRY.
 
-Please support your favorite creators by tipping LBRY credits in-app. And remember to look for the red rocketship icon next to reward-eligible weekly videos.
+Please support your favorite creators by tipping LBRY Credits in-app. And remember to look for the red rocketship icon next to reward-eligible weekly videos.
 
 [**Download LBRY today**](/get). Is your favorite channel not on LBRY? Help us feature what you want to see! Email [reilly@lbry.com](mailto:reilly@lbry.com) to make it happen. Or sync your own channel at: /youtube

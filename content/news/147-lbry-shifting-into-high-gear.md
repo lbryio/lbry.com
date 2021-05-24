@@ -21,7 +21,7 @@ You'll find all this (and a lot more) in LBRY v0.19 - [**get it here**](/get) an
 
 ### Changed
   * The first run process for new users has changed substantially. New users can now easily receive one credit.
-  * The wallet area has been re-organized. Send and Receive are now on the same page. A new page, "Get Credits", explains how users can add LBRY credits to the app.
+  * The wallet area has been re-organized. Send and Receive are now on the same page. A new page, "Get Credits", explains how users can add LBRY Credits to the app.
   * Significant structural changes to code organization, packaging, and building. The app now follows a typical electron folder structure. All 3 package.json files have been reduced to a single file. Redux related code was moved into its own subfolder.
   * The macOS docking icon has been improved.
   * The prompt for an insufficient balance is much more user-friendly.
@@ -30,7 +30,7 @@ You'll find all this (and a lot more) in LBRY v0.19 - [**get it here**](/get) an
   * Windows path to the daemon/CLI executables changed to: C:\Program Files (x86)\LBRY\resources\static\daemon
 
 ### Deprecated
-  * We previously had two separate models for insufficient credits. These have been combined.
+  * We previously had two separate models for insufficient Credits. These have been combined.
 
 ### Fixed
   * Long channel names causing inconsistent thumbnail sizes.

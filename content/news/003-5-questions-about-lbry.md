@@ -33,7 +33,7 @@ infringement. LBRY Inc. strongly encourages creators to refrain from publishing 
 patrons to wait for authorized providers to source content.
 
 Additionally, we've designed LBRY to protect miners and hosts. Content about information, or metadata, is stored in the LBRY blockchain
-and is required in the production of LBRY credits. Hosts only store tiny pieces of encrypted information, so they never have knowledge
+and is required in the production of LBRY Credits. Hosts only store tiny pieces of encrypted information, so they never have knowledge
 of their content nor, from a technical perspective, do they possess it. However, we are not your lawyers and this is neither
 legal advice nor a promise.
 

@@ -12,7 +12,7 @@ LBRY is currently compatible with Windows 7 and higher. That's 90% of the deskto
 
 - Search, browse, then download or stream all LBRY content.
 - Upload original content.
-- Send LBRY credits (LBC) between users.
+- Send LBRY Credits (LBC) between users.
 
 Check out this short demo video:
 
@@ -21,7 +21,7 @@ Check out this short demo video:
 - 0:05 – **Discover:** LBRY's home content discovery screen. Content on the left is featured and updated by LBRY. Content on the right comes directly from community bids.
 - 0:11 – Streaming a video.
 - 0:31 – **My Files:** Browse the content you have downloaded or published to LBRY.
-- 0:44 – **My Wallet:** Check your LBRY credits (LBC) balance, view your transaction history, send LBC to others, and copy your wallet address to receive LBC from others.
+- 0:44 – **My Wallet:** Check your LBRY Credits (LBC) balance, view your transaction history, send LBC to others, and copy your wallet address to receive LBC from others.
 - 0:53 – **Settings:** Control various LBRY settings.
 - 0:58 – **Publish:** Upload your own content to LBRY. Find out if a LBRY name is available and bid on it. Set a price for your content and add useful metadata.
 

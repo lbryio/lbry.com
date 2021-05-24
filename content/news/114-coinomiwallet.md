@@ -8,13 +8,13 @@ date: '2017-06-02 00:14:00'
 
 ![LBRY Coinomi Screenshot](https://spee.ch/lbrycoinomi)
 
-As our focus has been on building out a [great application](https://github.com/lbryio/lbry-desktop), we haven't put much emphasis on a standalone way to manage your LBRY credits. However, we have noticed the demand for easy backups and a simple, secure way to move credits between accounts.
+As our focus has been on building out a [great application](https://github.com/lbryio/lbry-desktop), we haven't put much emphasis on a standalone way to manage your LBRY Credits. However, we have noticed the demand for easy backups and a simple, secure way to move Credits between accounts.
 
 That's why we're excited to announce integration with Coinomi!
 
 ### What is Coinomi?
 
-Coinomi wallet is an open source, trusted, and secure mobile hardware wallet platform which now supports LBC. Coinomi allows LBRY users to be in control of their own keys and credits. For those looking to store their credits offline and not on an exchange, Coinomi is a great solution.
+Coinomi wallet is an open source, trusted, and secure mobile hardware wallet platform which now supports LBC. Coinomi allows LBRY users to be in control of their own keys and Credits. For those looking to store their Credits offline and not on an exchange, Coinomi is a great solution.
 
 In addition, Coinomi supports instant exchange between a variety of cryptocurrencies via Shapeshift. This enables another access path to acquire LBRY Credits as well as the instant exchange between LBC and BTC, ETH, LTC, ETC, DASH and many other cryptocurrencies.
 

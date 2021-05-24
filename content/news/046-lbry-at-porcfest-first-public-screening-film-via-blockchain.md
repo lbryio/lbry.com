@@ -22,7 +22,7 @@ In addition to the screening, Jeremy delivered a well-attended talk entitled, "L
 
 Want to know more about the excellent films having their blockchain premiere on LBRY? Well, join our mailing list with the form below and keep an eye on your inbox this holiday weekend for a BIG announcement. Got your fireworks ready?
 
-If the suspense is killing you, then go ahead and start mining LBRY credits (LBC) today! Our blockchain is live, and LBC can be mined right now via CPU. [Learn more here](/news/lbry-blockchain-live-mine-lbc-now).
+If the suspense is killing you, then go ahead and start mining LBRY Credits (LBC) today! Our blockchain is live, and LBC can be mined right now via CPU. [Learn more here](/news/lbry-blockchain-live-mine-lbc-now).
 
 **PorcFest Media Mentions:**
 

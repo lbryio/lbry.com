@@ -4,7 +4,7 @@ title: Try LBRY's Graphical Interface On OS X El Capitan
 date: '2016-01-23 00:15:31'
 ---
 
-We're pleased to announce a new Alpha version of LBRY featuring a browser-based graphical interface for OS X El Capitan. Anyone with an up-to-date Mac can now test out the library of the future – and earn 1,000 LBRY credits. [Try it now](/get). Here's a demo:
+We're pleased to announce a new Alpha version of LBRY featuring a browser-based graphical interface for OS X El Capitan. Anyone with an up-to-date Mac can now test out the library of the future – and earn 1,000 LBRY Credits. [Try it now](/get). Here's a demo:
 
 <iframe src="https://www.youtube.com/embed/2KmqQD6qK1c?rel=0" allowfullscreen></iframe>
 
