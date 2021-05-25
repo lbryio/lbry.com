@@ -23,13 +23,13 @@ description:
   home: Meet LBRY, a content sharing and publishing platform that is decentralized and owned by its users.
   join: Follow along and receive updates about LBRY via email.
   learn: Learn more about LBRY, the technology that puts you back in control of the internet.
-  news: Access information and content in ways you never dreamed possible. Earn credits for your unused bandwidth and diskspace.
+  news: Access information and content in ways you never dreamed possible. Earn Credits for your unused bandwidth and diskspace.
   no-os: Download or install the latest version of LBRY.
   press: LBRY Press Kit. Information and media for those who want to report on LBRY.
   publish: Publish your content on the world's first platform that leaves creators in control.
   team: LBRY is founded by a team passionate about connecting producers and consumers and breaking down broken models. Learn more about them.
   test: WHAT WHAT
-  what: Access information and content in ways you never dreamed possible. Earn credits for your unused bandwidth and diskspace.
+  what: Access information and content in ways you never dreamed possible. Earn Credits for your unused bandwidth and diskspace.
 
 dmca:
   form_help:
@@ -114,7 +114,7 @@ learn:
   meetup: LBRY is looking for ambassadors to spread the word to College campuses and Meetup groups worldwide!
   nerd: Nerd Out
   rebels: Learn more about the relentless rebels changing the internet.
-  shirt-contest: Win Library Credits with a shirt design
+  shirt-contest: Win LBRY Credits with a shirt design
   team: About The Team
 
 nav:
@@ -235,7 +235,7 @@ publish:
   abundance: Experience digital abundance
   allow: Allowance for us to promote availability of your content.
   control: Complete Creator Control
-  credits: Receive $1,000 worth of LBRY credits to hold, use or sell.
+  credits: Receive $1,000 worth of LBRY Credits to hold, use or sell.
   earn: "Earn $1,000 and join the next content epoch: the viewer and you, with nobody in between."
   feature: Content featured on the LBRY landing screen seen by all users, as well as on our blog, social media, and 100,000 person email list, including links to your YouTube or other profiles.
   hand: We hold your hand every step of the way while taking none of your revenue.
