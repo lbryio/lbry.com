@@ -10,7 +10,7 @@ To qualify, the channel must have over 300 YouTube subscribers and recent, regul
 
 You can start the sync process during sign up or from the Upload > Sync my Channel option on [Odysee](https://odysee.com).
 
-**Please note:** The sync process will create a new channel for your channel which is later [transferred](#transfer) to you. If you created a channel in the app beforehand, [please see instructions on how to clean it up](#cleanup). In order to sync to an existing LBRY channel, you'll need to [reach out to us](mailto:help@lbry.com) and have a decent amount of subscribers alreayd on it. 
+**Please note:** The sync process will create a new channel for your channel which is later [transferred](#transfer) to you. If you created a channel in the app beforehand, [please see instructions on how to clean it up](#cleanup). In order to sync to an existing LBRY channel, you'll need to [reach out to us](mailto:help@lbry.com) and have a decent amount of subscribers already on it. If you delete a channel or content, we will not be able to resync or recreate it for you. 
 
 ## What are the steps?
 
