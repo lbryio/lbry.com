@@ -66,7 +66,7 @@
   <br />
   <section class="home__asfeatured">
     <div class="inner-wrap">
-    <h3> As featured on: </h3>
+    <h4> As featured on </h4>
       <aside class="featured__row">
       <img src="../img/featured/techcrunch.svg"/>
       <img src="../img/featured/newyorktimes.svg"/>
