@@ -68,6 +68,7 @@
                     <a href="https://reddit.com/r/lbry"><span class="icon icon-reddit"></span></a>
                     <a href="https://www.facebook.com/lbrycom"><span class="icon icon-facebook-square"></span></a>
                     <a href="https://t.me/lbryofficial"><span class="icon icon-telegram"></span></a>
+                    <a href="https://chat.lbry.com/?_ga=2.248562951.1461166583.1622044432-743665075.1620595576"><span class="icon icon-discord"></span></a>
                   </span>
                 </div>
               </drawer-child>
