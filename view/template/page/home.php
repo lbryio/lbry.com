@@ -2,13 +2,6 @@
 <?php Response::setMetaDescription(__('description.home')) ?>
 
 <main class="home">
-  <section class="anno__text">
-    <h1 class="anno__title">HELP LBRY SAVE CRYPTO</h1>
-    <div class="anno__subtitle">
-      <div>The SEC doesn’t understand blockchain. The claims made in SEC vs. LBRY would destroy the United States
-        cryptocurrency industry. <br />Learn more at <a id="anno__link" href="https://helplbrysavecrypto.com?ref=lbrycom">helplbrysavecrypto.com</a>
-    </div>
-  </section>
   <section class="home__hero">
     <div class="inner-wrap">
       <aside class="home__cta">
