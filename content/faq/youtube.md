@@ -63,7 +63,7 @@ You are responsible for keeping your wallet safe | no |  maybe\* |
 - Video length limits: 30 minutes under 500 subs, 1hr under 1K subs, and 2hr for all higher sub counts. Longer videos will be skipped.
 - Videos bigger than 2GB will be synced at lower quality (720p, 480p, ...)
 - Due to high demand, you will be only be synced if you have at least 300 subscribers.
-- Private or unlisted videos will not be published, but everything else will.
+- Private or unlisted videos will not be published. Copyright and age restricted videos will also be skipped. 
 
 Exceptions can be discussed. Contact us at [hello@lbry.com](mailto:hello@lbry.com).
 
