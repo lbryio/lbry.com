@@ -33,6 +33,10 @@
     </figure>
 
     <div class="bio">
+        <?php if ($showName ?? false) :?>
+          <h3><?php echo $name ?></h3>
+        <?php endif ?>
+
       <?php echo $bioHtml ?>
     </div>
   </div>

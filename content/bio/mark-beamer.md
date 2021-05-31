@@ -1,6 +1,6 @@
 ---
 name: Mark Beamer
-role: Backend and Database Engineer
+role: Backend Engineer
 email: mark@lbry.com
 github: tiger5226
 ---

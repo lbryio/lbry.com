@@ -131,6 +131,8 @@ class Controller
         $router->any('/dmca', 'ReportActions::executeDmca');
         $router->any('/dmca/{claimid}', 'ReportActions::executeDmcaWithClaimId');
 
+        $router->any('/team/{slug}', 'TeamActions::executeBio');
+
         $router->any('/youtube/status/{token}', 'AcquisitionActions::executeYoutubeStatus');
         $router->any('/youtube', 'AcquisitionActions::executeYouTube');
 

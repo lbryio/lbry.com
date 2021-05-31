@@ -231,34 +231,43 @@ class ContentActions extends Actions
     {
         $person = $vars['person'];
         $path   = 'bio/' . $person . '.md';
-        list($metadata, $bioHtml) = View::parseMarkdown($path);
-        $imgSrc         = 'https://spee.ch/@lbryteam:6/' . $person . '.jpg';
+        [$metadata, $bioHtml] = View::parseMarkdown($path);
         return $vars + $metadata + [
-      'imgSrc'      => $imgSrc,
-      'bioHtml'     => $bioHtml,
-      'orientation' => 'vertical'
-    ];
+            'imgSrc'      => '/img/bio/' . $person . '.jpg',
+            'bioHtml'     => $bioHtml,
+        ];
+    }
+
+    public static function prepareBioCirclePartial(array $vars): array
+    {
+        $post = ContentActions::prepareBioPartial(['person' => $vars['slug']]);
+        return [
+            'bioSlug' => $vars['slug'],
+            'imgSrc' => $post['imgSrc'],
+            'name' => $post['name'],
+            'role' => $post['role'],
+        ];
     }
 
     public static function preparePostAuthorPartial(array $vars): array
     {
         $post = $vars['post'];
         return [
-      'authorName'    => $post->getAuthorName(),
-      'photoImgSrc'   => $post->getAuthorPhoto(),
-      'authorBioHtml' => $post->getAuthorBioHtml(),
-      'authorGithub' => $post->getAuthorGithubID(),
-      'authorTwitter' => $post->getAuthorTwitterID(),
-      'authorEmail' => $post->getAuthorPostEmail()
-    ];
+            'authorName'    => $post->getAuthorName(),
+            'photoImgSrc'   => $post->getAuthorPhoto(),
+            'authorBioHtml' => $post->getAuthorBioHtml(),
+            'authorGithub'  => $post->getAuthorGithubID(),
+            'authorTwitter' => $post->getAuthorTwitterID(),
+            'authorEmail'   => $post->getAuthorPostEmail()
+        ];
     }
 
     public static function preparePostListPartial(array $vars): array
     {
         $count = $vars['count'] ?? 3;
         return [
-      'posts' => array_slice(Post::find(static::VIEW_FOLDER_NEWS, Post::SORT_DATE_DESC), 0, $count)
-    ];
+            'posts' => array_slice(Post::find(static::VIEW_FOLDER_NEWS, Post::SORT_DATE_DESC), 0, $count)
+        ];
     }
     public static function executePostCategoryFilter(string $category)
     {
@@ -269,29 +278,29 @@ class ContentActions extends Actions
         $posts = array_filter(
             Post::find(static::VIEW_FOLDER_NEWS, Post::SORT_DATE_DESC),
             function (Post $post) use ($category) {
-          return (($post->getCategory() === $category) && (!$post->getDate() || $post->getDate()->format('U') <= date('U')));
-      }
+                return (($post->getCategory() === $category) && (!$post->getDate() || $post->getDate()->format('U') <= date('U')));
+            }
         );
 
 
 
         return ['content/news', [
-      'posts'             => $posts,
-      View::LAYOUT_PARAMS => [
-        'showRssLink' => true
-      ]
-    ]];
+            'posts'             => $posts,
+            View::LAYOUT_PARAMS => [
+                'showRssLink' => true
+            ]
+        ]];
     }
 
     public static function prepareJobsPartial(array $vars)
     {
         $jobs =
-      array_filter(
-          array_map('View::parseMarkdown', glob(static::VIEW_FOLDER_JOBS . '/*')),
-          function ($job) {
-            return $job[0]['status'] !== 'closed';
-        }
-      );
+            array_filter(
+                array_map('View::parseMarkdown', glob(static::VIEW_FOLDER_JOBS . '/*')),
+                function ($job) {
+                    return $job[0]['status'] !== 'closed';
+                }
+            );
 
         usort($jobs, function ($jobA, $jobB) {
             if ($jobA[0]['status'] === 'active' xor $jobB[0]['status'] === 'active') {
