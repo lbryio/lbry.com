@@ -10,7 +10,7 @@
 
   <section>
     <div class="inner-wrap">
-      <div class="notice notice-info spacer1">For more regular updates, see <a href="https://open.lbry.com/@lbry">the official @lbry channel</a> on LBRY itself.</div>
+      <div class="notice notice-warning spacer1">For more regular updates, see <a href="https://open.lbry.com/@lbry">the official @lbry channel</a> on LBRY itself.</div>
       <ul class="news-items bulletless">
         <?php foreach ($posts as $post): ?>
         <li class="news-item">

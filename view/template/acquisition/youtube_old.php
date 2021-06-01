@@ -91,7 +91,7 @@
             </checkbox-element>
           </form>
       <?php else: ?>
-          <div class="notice notice-info spacer1">
+          <div class="notice notice-warning spacer1">
             The YouTube Program is paused for maintenance. Enter your email address and we will notify you as soon as it returns. 
             If you have over 10K subs on YouTube, please <a href="https://docs.google.com/forms/d/1b9bEahq1L-hWaYN0MfnBZ8d0MnM4oQpsLFG1TlBHMrI/edit">use this form</a> for a manual sync request.
           </div>

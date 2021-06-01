@@ -35,6 +35,6 @@
   @include notice(var(--lbry-white), var(--lbry-red-4), var(--lbry-red-5));
 }
 
-.notice-info {
+.notice-warning {
   @include notice(var(--lbry-black), var(--lbry-yellow-1), var(--lbry-yellow-4));
 }

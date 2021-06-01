@@ -10,6 +10,9 @@
 
   <section>
     <div class="inner-wrap">
+        <div class="notice notice-warning spacer1 ">
+            For 2021, LBRY is not maintaining a public roadmap. Development is more active than ever and can be tracked on our <a href="https://github.com/lbryio">public GitHub</a>.
+        </div>
       <p>Top priorities, definitions of success, status, and target completion dates for key initiatives in
         <select id="roadmap-year-select">
           <?php foreach ($years as $aYear): ?>
@@ -48,7 +51,7 @@
             </div>
          <?php endforeach ?>
         <?php else: ?>
-          <div class="notice notice-info">No roadmap items found for this year.</div>
+          <div class="notice notice-warning">No roadmap items found for this year.</div>
         <?php endif ?>
       </div>
     </div>
