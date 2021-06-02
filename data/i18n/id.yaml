@@ -1,0 +1,293 @@
+# This file contains the text of the LBRY website, organized with labels.
+# Text segments are organized hierarchically. For any given language, the user's
+# browser will look at the corresponding language file for the appropriate label
+# and render the segment in the correct language.
+# For example, global.tagline renders as "Play, Share, Earn" if the user's langu
+# age settings are set to English, and the same label renders as "Assista, Compa
+# rtilhe, Ganhe" if the user's settings are set to Portuguese.
+#
+
+bounty:
+  list:
+    noresults: 
+  show:
+    completed_notice: Bounty ini telah selesai dan tidak dapat diklaim lagi.
+    pull_request_link: Lihat Permintaan Pull Request
+
+description:
+  android-alpha: Kami mencari pengembang untuk menguji alfa aplikasi Android kami - dapatkan detailnya di sini.
+  contact: Memiliki sesuatu untuk diberitahukan kepada kami atau ingin terhubung di media sosial? Dapatkan deet kami di sini!
+  faq: Pertanyaan yang sering diajukan tentang LBRY.
+  get: Rasakan kebebasan konten! Unduh versi terbaru LBRY untuk Windows, mac OS, atau Linux.
+  guns: Jangan biarkan perusahaan teknologi besar mengambil hak Anda
+  home: Temui LBRY, platform berbagi konten dan penerbitan yang terdesentralisasi dan dimiliki oleh penggunanya.
+  join: Ikuti dan terima pembaruan tentang LBRY melalui email.
+  learn: Pelajari lebih lanjut tentang LBRY, teknologi yang membuat Anda kembali mengendalikan internet.
+  news: Akses informasi dan konten dengan cara yang tidak pernah Anda impikan. Dapatkan Kredit untuk bandwidth dan ruang disk Anda yang belum terpakai.
+  no-os: Unduh atau instal LBRY versi terbaru..
+  press: Kit Pers LBRY. Informasi dan media bagi yang ingin meliput LBRY.
+  publish: Publikasikan konten Anda di platform pertama di dunia yang membuat pembuat konten memegang kendali.
+  team: LBRY didirikan oleh tim yang bersemangat untuk menghubungkan produsen dan konsumen serta memecah model yang rusak. Pelajari lebih lanjut tentang mereka.
+  test: APA APA
+  what: Akses informasi dan konten dengan cara yang tidak pernah Anda impikan. Dapatkan Kredit untuk bandwidth dan ruang disk Anda yang belum terpakai.
+
+dmca:
+  form_help:
+    email: Semua komunikasi mengenai klaim ini akan dikirim ke alamat ini
+    identifier: Nama, ID klaim, atau cara lain bagi kami untuk mengidentifikasi konten yang dilaporkan
+    rightsholder: Nama entitas yang memiliki hak atas konten yang dilaporkan
+    email: Alamat Email
+    identifier: Pengidentifikasi Konten yang Dilaporkan
+    name: Nama Anda
+    rightsholder: Pemegang Hak atau Nama Anda
+  form_submit: Kirim Laporan
+  header: Laporkan Konten yang Melanggar atau Salah Informasi
+
+download:
+  beta: Perangkat lunak ini dalam versi beta.
+  creator: kreator? Lewati Garis
+  credits: Klaim Kredit
+  curse: Ini mungkin macet, bekerja tidak dapat diandalkan, atau secara tidak sengaja memberi kutukan pada keluarga Anda selama beberapa generasi (kesalahan pemrograman umum).
+  earn1: dapatkan
+  # this many credits
+  earn2: setelah menginstal, selesaikan survei di bawah ini.
+  email1: Setelah mengunduh, gunakan email
+  email2:  dan kode yang Anda terima melalui email untuk menerima kredit Anda.
+  email3: Jika Anda menerima kode yang dicetak dan tidak berfungsi setelah Anda mengunduh, periksa email Anda untuk kode yang berbeda.
+  for-os: LBRY untuk %os%
+  for-os2: Unduh untuk %os%
+  github: Atau, lihat sumber dan kompilasi instruksi di
+  osx: Kedatangan diharapkan pada 5 Juli.
+  osx2: Unduh untuk macOS
+  other: Sistem Lainnya
+  popular: Kreator populer dapat memperoleh $1.000 dan akses awal untuk penerbitaan melalui LBRY.
+  select: Pilih OS
+  unavailable: LBRY belum keluar di platform ini, tetapi akan segera. Masukkan email Anda untuk diberitahu ketika dirilis.
+  verb: Unduh
+  windows: Unduh untuk Windows
+
+email:
+  address: Email
+  code: Kode Undangan
+  confirm_email_body: Konfirmasikan langganan Anda dengan mengeklik tautan di bawah.
+  confirm_email_button: Konfirmasi Berlangganan
+  confirm_email_subject: Konfirmasi Langganan Anda ke LBRY
+  confirm_success: Anda berlangganan. Terima kasih!
+  confirm_unsubscribe: Anda berhenti berlangganan.
+  disclaimer: Anda hanya akan menerima pesan dari LBRY Inc. dan hanya tentang LBRY. Anda bisa dengan mudah berhenti berlangganan kapanpun.
+  go: pergi
+  invalid_confirm_hash: Tautan ini kedaluwarsa atau tidak valid. Silakan masukkan kembali alamat email Anda.
+  nocode: Tidak ada, tapi saya ingin masuk sesegera mungkin!
+  placeholder: someone@somewhere.com
+  return: Kembali ke LBRY
+  subs: Bekangganan
+  subscribe: Berlangganan ke daftar email kami
+  subscribe_needs_confirm: Kami mengirimi Anda email dengan tautan konfirmasi. Klik tautan untuk menyelesaikan langganan Anda.
+  subscribe_send_failed: Ada yang tidak beres. Silakan masukkan kembali alamat email Anda.
+  unsubscribe: Tidak ingin tetap berada di ujung tombak revolusi distribusi konten?
+  updates: Dapatkan Pembaruan
+  yescode: "Ya"
+
+form_error:
+  invalid: Tidak valid. Silakan periksa masukan Anda.
+  required: Harap berikan ini.
+
+global:
+  get: Dapatkan LBRY
+  learn: Pelajari Lebih Lanjut
+  sentence: Tonton, baca, dan mainkan di perpustakaan digital terdesentralisasi yang dikendalikan oleh komunitas.
+  tagline: Kebebasan Konten
+
+learn:
+  3d-contest: Dapatkan bayaran untuk mengunggah ke LBRY
+  3d-printing: Pencetakan 3D memenuhi Blockchain
+  art: Seni di Era Internet
+  contact:  Hubungi Kami
+  essay: Baca Esai
+  exchange_faq: Beli/Jual LBRY Credits
+  explore: Jelajahi
+  explorer: Blok Penjelajah
+  how: Pelajari bagaimana LBRY akan selamanya meningkatkan cara kami membuat dan berbagi satu sama lain.
+  join:  Bergabunglah dengan Kami
+  meetup: LBRY mencari duta besar untuk menyebarkan berita ke kampus perguruan tinggi dan grup Meetup di seluruh dunia!
+  nerd: Nerd Out
+  rebels: Pelajari lebih lanjut tentang pemberontak tanpa henti mengubah internet.
+  shirt-contest: Menangkan LBRY Credits dengan desain kaos
+  team: Tentang Tim
+
+nav:
+  get: Dapatkan
+  home: Beranda
+  learn: Belajar
+  news: Berita
+
+news:
+  # It is worth noting other languages use different date formats.
+  author: Penulis
+  desk: Resepsionis
+  musings: Berita dan renungan dari tim LBRY
+  next: Selanjutnya
+  prev: Sebelumnya
+
+page:
+  badmethod:  Metode HTTP Tidak Diizinkan
+  badmethod_details: Apakah Anda MENDAPATKAN ketika Anda seharusnya POSTed? Atau sebaliknya?
+  badrequest: Bad Request - Browser Anda mengirimkan permintaan yang tidak dapat dimengerti oleh server ini
+  badrequest_details: Klien tidak boleh mengulangi permintaan tanpa modifikasi.
+  email_settings: Preferensi Email
+  error_contact_us: Jika masalah ini berlanjut atau memerlukan perhatian segera, harap hubungi %email%.
+  faq:
+    back:  Kembali ke FAQ
+    header: Pertanyaan yang Sering Diajukan
+  funnier: Suatu hari ini akan lebih lucu tapi hari ini bukan hari itu.
+  join: Gabung Daftar Email
+  notfound: Halaman Tidak Ditemukan
+  refer:
+    count0: Jangan khawatir, kami masih menyukaimu.
+    count1: Awal yang bagus! Terima kasih telah berbagi.
+    count2: Bagus! Terima kasih.
+    count3: Anda benar-benar melakukan bagian Anda! Menakjubkan.
+    count4: Anda adalah pembagi LBRY elit. Terima kasih banyak!
+    # earn1 and earn2 form a sentence with a number between them:
+    earn1: dapatkan
+    # this many credits
+    earn2: "untuk setiap pengguna yang bergabung melalui URL ini:"
+    # The whole sentence should make sense, even if each of these segments are n
+    # ot translated literally.
+    # This might be the case if required by the syntax of the translated languag
+    # e.
+    more: lebih banyak tentang referall
+    referone: <strong>1 LBRYian</strong> telah bergabung karena Anda.
+    refermany: <strong>%count% LBRYians</strong> telah bergabung karena Anda.
+    status: Status Berbagi Anda
+    zero: Nol
+  team:
+    advisory: Tim Penasehat
+    alex:
+      parag1: Alex Tabarrok adalah Bartley J. Madden Ketua Ekonomi di <a href="http://mercatus.org/" class="link-primary">Mercatus Center</a> dan profesor ekonomi di <a href="https://gmu.edu" class="link-primary">Universitas George Mason</a>. Dia mengkhususkan diri dalam reformasi kekayaan intelektual, efektivitas pasar, dan sistem peradilan.
+      parag3: Tabarrok adalah rekan penulis, dengan rekan Mercatus Tyler Cowen, dari blog ekonomi populer <a class="link-primary" href="http://www.marginalrevolution.com/"><em>Marginal Revolution</em ></a> dan salah satu pendiri platform pendidikan online <a class="link-primary" href="http://mruniversity.com/">Marginal Revolution University</a>. Dia adalah rekan penulis <em><a href="http://www.amazon.com/Modern-Principles-Economics-Tyler-Cowen/dp/1429239972" class="link-primary">Prinsip Ekonomi Modern< /a></em>, dan penulis buku terbaru <em><a href="http://www.amazon.com/Launching-The-Innovation-Renaissance-Market-ebook/dp/B006C1HX24" class= "link-primary">Meluncurkan Renaisans Inovasi</em></a>. Artikelnya telah muncul di<em> New York Times</em>,<em> Washington Post</em>,<em> Wall Street Journal</em>, dan banyak publikasi bergengsi lainnya.
+      parag3: Tabarrok menerima gelar PhD di bidang ekonomi dari <a class="link-primary" href="http://en.wikipedia.org/wiki/George_Mason_University" title="George Mason University">George Mason University</a> .
+      title: Penasihat Ekonomi
+    grin:
+      parag1: Salah satu pekerjaan Alex adalah Wizard, dinamakan demikian karena dia tampaknya dapat memahami dan memanfaatkan teknologi baru lebih cepat daripada yang dapat diciptakan.
+      parag2: Alex mendesain dan mengelola solusi infrastruktur yang dapat diskalakan untuk perusahaan SaaS, dan memanfaatkan pengalaman itu untuk memastikan arsitektur LBRY kokoh.
+      parag3: Alex adalah lulusan dual-degree ke-3 dari RPI di tim ini, menerima gelar di bidang Ilmu Komputer dan Psikologi. Ia juga merupakan alumni SMA Stuyvesant.
+      title: Pendiri, Chief Infrastructure Officer
+    header: Tim
+    jack:
+     parag1: Jalur Jack ke pengembang dengan LBRY cukup khas() <a href="http://www.masslive.com/localbuzz/index.ssf/2009/06/actionreaction_how_one_teens_c.html" class="link-primary"> menghadapi enam puluh tahun penjara karena eksperimen kimia yang tidak bersalah</a>; kehilangan minat dalam kimia; <a href="https://www.youtube.com/watch?v=dXZi4UZjiiI&t=10" class="link-primary">memprogram gitar listrik gila untuk Kiss</a>; memutuskan untuk merevolusi internet.
+      parag2: Jack adalah salah satu orang pertama yang menemukan LBRY dan melakukannya dengan sangat cepat sehingga dia mungkin lebih memahaminya daripada siapa pun.
+      parag3: Jack mengidap Sindrom Asperger dan aktif terlibat dalam komunitas autisme. Dia adalah seorang reguler di Autism Talk TV Wrong Planet, telah muncul di <em>Radio Publik Nasional</em>, <em>New York Times</em>, dan tampil di seluruh negeri.
+      title: Pendiri, Pengembang Inti
+    jeremy:
+     parag1: Jeremy tahu cara membangun dan menskalakan startup mulai dari hari pertama. Dia tahu cara memberikan produk yang dapat digunakan dan menampilkan produk tersebut kepada orang yang tepat.
+      parag2: Jeremy bertanggung jawab atas pengemasan, presentasi, dan strategi LBRY, serta beberapa aspek desain. Dia adalah penggemar komunitas BitTorrent yang sudah lama.
+      parag3: Jeremy mendirikan <a href="//usetopscore.com" class="link-primary">TopScore</a>, sebuah startup yang memproses jutaan dolar setiap bulan dalam pendaftaran acara dan aktivitas. Ia juga menghadiri <a href="//rpi.edu" class="link-primary">Institut Politeknik Rensselaer</a>, di mana ia menerima gelar dalam bidang fisika dan ilmu komputer.
+      title: Pendiri, Chief Executive Officer
+    jimmy:
+      parag1: Jimmy adalah lulusan comp science/physics kedua dari Rensselaer. Setelah itu, dia mendapati dirinya terperosok dalam birokrasi pemerintah, menghabiskan terlalu banyak waktu untuk menyelesaikan terlalu sedikit.
+      parag2: Siap mengerjakan proyek yang dia yakini, Jimmy meninggalkan pekerjaan pemrograman keamanan nasional untuk memulai LBRY. Jimmy menciptakan protokol LBRY dan aplikasi LBRY pertama.
+      parag3: Jimmy adalah seorang fanatik Bitcoin dan telah sejak awal. Dia telah lama tertarik pada manfaat desentralisasi.
+      title: Pendiri, Chief Executive Officer
+    josh:
+      parag1: Kombinasi Josh dari MBA, keterampilan analitis yang kuat, keterampilan pemrograman, keahlian periklanan, dan wawasan perseptif ke pasar keuangan membuatnya sering menyandang satu-satunya gelar yang dapat meringkas pemecah masalah yang beragam () sihir.
+      parag2: Josh telah mendirikan perusahaan keuangan yang inovatif (kemudian diakuisisi), menjalankan jutaan dolar dalam kampanye AdWords, dan menjadi aktor awal dalam proyek kripto lainnya. Kontribusi Josh untuk LBRY akan beragam seperti latar belakangnya.
+      title: Pendiri, Chief Operations & Growth Officer
+    michael:
+      parag1: Michael Huemer adalah Profesor Filsafat dan Etika di <a href="//www.colorado.edu/" class="link-primary">University of Colorado</a>, tempat dia mengajar sejak 1998. Dia telah menerbitkan tiga buku ilmiah penulis tunggal (termasuk <em><a href="http://www.amazon.com/Ethical-Intuitionism-Michael-Huemer/dp/0230573746" class="link-primary">Intuitionism Etis </a></em>), satu antologi yang diedit, dan lebih dari lima puluh artikel akademis dalam bidang epistemologi, etika, filsafat politik, dan metafisika.
+      parag2: Artikel Huemer telah muncul di jurnal seperti <em>Tinjauan Filsafat</em>, <em>Pikiran</em>, <em>Jurnal Filsafat</em>, <em>Etika</em> , dan lain-lain. Bahan-bahannya digunakan sebagai bacaan di ruang kelas nasional. Dia menerima gelar B.A. dari UC Berkeley dan Ph.D. dari Universitas Rutgers.
+      title: Penasihat Etis
+    mike:
+      parag1: Dengan gelar BA sederhana dalam Filsafat dari <a href="http://tulane.edu/" class="link-primary">Universitas Tulane</a>, Mike telah membangun perusahaan pemasaran jasa keuangan yang sukses, <a href="http://www.centinel.net/" class="link-primary">Konsultasi Centinel</a>. Centinel telah membantu klien tumbuh dari hampir tidak ada menjadi ratusan ribu pengunjung. Dia mengelola daftar pemasaran email dan akun media sosial dengan ukuran yang sama.
+      parag2: Mike telah terlibat dengan komunitas Bitcoin sejak awal. Teman-temannya telah meluncurkan perusahaan seperti <a class="link-primary" href="//lamassu.is">Lamassu BTM</a>, <a class="link-primary" href="//coinapult.com" >Coinapult</a>, <a class="link-primary" href="//shapeshift.io">Shapeshift</a>. Sekarang, dia siap untuk mengubah dunia dengan memanfaatkan teknologi blockchain. Mike mengepalai upaya pemasaran LBRY dan bertindak sebagai duta platform kami untuk media, investor, dan publik.
+      title: Pendiri, Penginjil
+    stephan:
+      parag1: Stephan Kinsella adalah pengacara paten terdaftar dan memiliki pengalaman lebih dari dua puluh tahun dalam paten, kekayaan intelektual, dan hukum komersial dan perusahaan umum. Dia adalah pendiri dan direktur <a href="http://c4sif.org/" class="link-primary">Pusat Studi Kebebasan Inovatif</a>. Kinsella telah menerbitkan banyak artikel dan buku tentang hukum kekayaan intelektual dan topik hukum termasuk <a href="http://www.amazon.com/International-Investment-Political-Dispute-Resolution/dp/0379215225" class="link-primary "> <em>Investasi Internasional, Risiko Politik, dan Penyelesaian Sengketa() Panduan Praktisi</em> </a> dan <a href="https://mises.org/library/against-intellectual-property-0 " class="link-primary"><em>Melawan Kekayaan Intelektual</em></a>.
+      parag2: Dia menerima LL.M. dalam hukum bisnis internasional dari <a href="http://www.kcl.ac.uk/" class="link-primary">King's College London</a>, JD dari Paul M. Hebert Law Center di <a href="//lsu.edu" class="link-primary">Universitas Negeri Louisana</a>, serta gelar BSEE dan MSEE. Situs webnya adalah <a href="stephankinsella.com" class="link-primary">stephankinsella.com</a> dan <a href="kinsellalaw.com" class="link-primary">kinsellalaw.com</ a>
+      title: Penasihat Hukum
+    you:
+      advheader: Penasihat Teknis atau Media
+      advtext: LBRY mencari penasihat teknis yang sangat berpengalaman atau penasihat dengan latar belakang yang kuat di bidang penerbitan dan media. Jika Anda orang itu atau memiliki saran, <a href="mailto:jeremy@lbry.com?subject=Advisor" class="link-primary">beri tahu kami</a>.
+      header: Anda
+      parag1: Apakah menurut Anda membuka informasi akan memfasilitasi perkembangan manusia? Apakah Anda ingin bergabung dengan orang-orang yang cerdas dengan obsesi untuk memperbaiki sistem yang rusak? <a href="mailto:jeremy@lbry.com" class="link-primary">Sampaikan salam.</a>
+      title:Pengembang, Desainer, Ekonom, Pemasar, Investor, ???
+    zargham:
+      parag1: Michael telah menghabiskan waktu bertahun-tahun untuk mengelola, merancang, dan mengawasi tim dan kerangka kerja ilmu data yang digunakan untuk membuat keputusan pembelian jutaan dolar untuk sebuah perusahaan media besar. Dia membawa pengetahuan tentang bisnis distribusi media, keahlian pengembangan perangkat lunak, pengalaman pengembangan bisnis, keterampilan teknis dan jaringan kontak perusahaan.
+      parag2: Kemampuan Michael untuk dengan cepat mengadaptasi keahlian baru membuatnya menjadi pisau saku teknis dan bisnis dari tim startup kami. Dia memiliki gelar PhD di bidang rekayasa sistem dari University of Pennsylvania, dengan fokus pada sistem terdistribusi.
+      title: Pendiri, Chief Technical Officer
+  unsubscribe: Berhenti berlangganan
+  updates: Bergabunglah dengan daftar email kami dan terima pembaruan tentang LBRY melalui email.
+press:
+  advisory: Tim Penasehat
+  archive: Unduh Arsip Media
+  includes: Arsip ini mencakup semua logo, tangkapan layar, dan bios, tetapi tidak mencakup semua teks di halaman ini.
+  info: Informasi dan media bagi yang ingin menulis atau melaporkan LBRY.
+  logo: Logo dan Gambar Produk
+  team: Tim Pendiri
+  title: LBRY Press Kit
+  used: Setiap informasi atau media di halaman ini atau dalam kit kami dapat digunakan kembali atau dipublikasikan tanpa atribusi.
+  zip: Unduh ZIP
+
+publish:
+  abundance: Rasakan kelimpahan digital
+  allow: Tunjangan bagi kami untuk mempromosikan ketersediaan konten Anda.
+  control: Kontrol Pembuat Lengkap
+  credits: Terima Kredit LBRY senilai $1.000 untuk disimpan, digunakan, atau dijual.
+  earn: "Dapatkan $1.000 dan bergabunglah dengan zaman konten berikutnya: pemirsa dan Anda, tanpa siapa pun di antaranya."
+  feature: Konten yang ditampilkan di layar arahan LBRY dilihat oleh semua pengguna, serta di blog kami, media sosial, dan daftar email 100.000 orang, termasuk tautan ke YouTube Anda atau profil lainnya.
+  hand: Kami memegang tangan Anda di setiap langkah tanpa mengambil pendapatan Anda.
+  how: Bagaimana Cara Itu Bekerja
+  keepl: Terus Belajar
+  keepr: Teruslah Membaca
+  loading: Memuat...
+  mention: Satu media sosial menyebutkan tentang ketersediaan Anda di LBRY.
+  next: Apa Selanjutnya?
+  now: Dapatkan Sekarang
+  onlbry: Publikasikan di LBRY
+  open: Terbuka, Teknologi Terpercaya
+  partner: Kemitraan penerbitan
+  premier: status Mitra Premium. Dapatkan akses orang dalam dan dukungan seumur hidup.
+  profit:  Lebih Banyak, Untung Lebih Baik
+  questions: Pertanyaan?
+  quote: Anda terinspirasi oleh dunia; biarkan dunia terinspirasi oleh [Anda]
+  upload: lima video melalui antarmuka LBRY (kami akan membantu Anda).
+  watch: "LBRY dalam 100 Detik", pengenalan teknologi luar biasa LBRY.
+  what: Apa itu LBRY?
+  why: Mengapa LBRY?
+  youget: Apa yang Anda Dapatkan
+  yougive: Apa yang Anda Berikan
+
+roadmap:
+  description: Lihat kemajuan masa lalu dan masa depan dalam pengembangan LBRY, pasar digital pertama yang dikendalikan pengguna di dunia.
+  title: Peta Jalan LBRY
+rss:
+  description: Berita terbaru tentang LBRY
+  lang: en
+  title: Berita LBRY
+
+social:
+  also: Juga Aktif
+  github: GitHub (kode sumber)
+  header: Dibangun Bersama Kami
+  humansheader: Manusia
+  humanstext: Bergabunglah dengan komunitas LBRY.
+  robotsheader: Robot
+  robotstext: Buat bersama kami. Semua kode LBRY adalah open source.
+  slack: Slack (obrolan)
+  tweets: Tweets oleh @LBRYio
+
+title:
+  3d-contest: Menangkan $100 untuk Desain Catur
+  3d-printing: Cetak file pertama Anda dari Blockchain
+  android-alpha: Jadilah Penguji Android Alfa!
+  contact: Hubungi LBRY
+  guns: LBRY Berjuang Untuk Kebebasan Berpendapat
+  home: LBRY - Kebebasan Konten
+  join: Bergabunglah dengan Daftar Email LBRY
+  learn: Pelajari Tentang LBRY
+  meetup: Minta LBRY Bergabung dengan Meetup Berikutnya!
+  publish: terbitkan
+  refer: Bagikan dan Hasilkan
+  shirt-contest: Menangkan $100 untuk Desain Kaos
+  unsubscribe:  Berhenti berlangganan
+  what: "Seni di Era Internet: Pengantar LBRY"
