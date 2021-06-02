@@ -3,7 +3,7 @@ name: Sean Yesmunt
 role: App Engineer
 email: sean@lbry.com
 twitter: seanyesmunt
-github: seanyesmunt
+github: neb-b
 ---
 
 Sean is an app engineer focused on user experience, which means he spends his time making the LBRY app easier to use. Sean was part way through an Aerospace Engineering degree at Penn State, when he decided he didn’t want to end up working on rockets for the government.

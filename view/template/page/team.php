@@ -11,11 +11,12 @@
   </section>
 
   <?php $teams = [
-    "Leadership" => ['jeremy-kauffman', 'alex-grintsvayg'],
-    "Technical" => ['lex-berezhny', 'brannon-king', 'jack-robison', 'akinwale-ariwodola',
-                    'andrey-beletsky', 'niko-storni', 'mark-beamer', 'roy-lee', 'johnny-nelson'],
-    "Growth" => ['julian-chandra', 'drew-hancock'],
-    "Business" => ['josh-finer', 'tom-zarebczan'],
+    "Leadership" => ['jeremy-kauffman', 'alex-grintsvayg', 'josh-finer'],
+    "Tech" => ['lex-berezhny',  'jack-robison', 'victor-shyba', 'brannon-king', 'roy-lee',
+               'akinwale-ariwodola', 'kp', 'jessop-breth',
+               'andrey-beletsky', 'mark-beamer', 'niko-storni',
+               'johnny-nelson'],
+    "Growth" => ['julian-chandra', 'tom-zarebczan', 'eliza-zheng', 'drew-hancock'],
     "Advisory Team" => ['alex-tabarrok', 'ray-carballada', 'stephan-kinsella', 'michael-huemer'],
   ] ?>
 
