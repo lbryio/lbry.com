@@ -1,6 +1,6 @@
 ---
 name: Julian Chandra
-role: VP of Growth
+role: Chief Marketing Officer
 email: julian@lbry.com
 github: julianchandra
 ---
