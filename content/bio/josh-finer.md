@@ -1,6 +1,6 @@
 ---
 name: Josh Finer
-role: Founder, Director of Operations & Analytics
+role: Founder, Director of Operations
 email: josh@lbry.com
 twitter: finer9
 github: finer9
