@@ -253,6 +253,25 @@ drawer-child {
     left: -0.4rem;
     position: relative;
   }
+
+  .si {
+    margin-right: 1rem;
+    transition: color 0.2s;
+
+    &:hover {
+      color: var(--lbry-teal-4);
+    }
+  }
+
+  .si-reddit {
+    left: -0.2rem;
+    position: relative;
+  }
+
+  .si-telegram {
+    left: -0.4rem;
+    position: relative;
+  }
 }
 
 drawer-navigation {
