@@ -3,7 +3,8 @@ title: Multisignature and Ledger hardware wallets
 category: powerusers
 ---
 
-**Important announcement**
+## Important announcement:
+
 The latest version of LBRY Ledger app fixes issues with creating new wallets with hardware wallets. Make sure you have new version of app installed on your Ledger device via Ledger Manager. During creating/opening wallet files you might notice "derivation path is unusual" error, you can safely approve it (the adress shown on device tests if adresses are genearted in corect format).
 
 This guide is meant for power users and those who want to store LBRY Credits on their [Ledger Hardware devices](#HW) before official support is added.
