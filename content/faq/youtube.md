@@ -83,6 +83,14 @@ Not all channels may qualify for the program, but users can always [upload the c
 
 Your content will continue to stay synced as long as you are enrolled in the program. Videos typically sync within 24 hours and within an hour or two for more popular channels.
 
+## What happens if my videos get deleted from YouTube?
+
+Your already synced videos are uploaded to our server and won't be affected by changes occuring to your videos on YouTube.
+
+## Will my videos stay on Odysee if I want to stop the sync?
+
+Already synced videos will stay on Odysee and act as they were originally uploaded to Odysee.
+
 ## Help me
 
 If you have questions this article did not cover, or are having any trouble with the enrollment process, transfer process, or staying calm and happy under the unrelenting pressure that is modern society, please contact [help@lbry.com](mailto:help@lbry.com).
