@@ -71,7 +71,7 @@
                     <a href="https://t.me/lbryofficial"><span class="si si-telegram"></span></a>
 
                     <a href="https://chat.lbry.com/?_ga=2.248562951.1461166583.1622044432-743665075.1620595576"><span class="si si-discord"></span></a>
-                    <a href="https://matrix.to/#/#lbry-community:madek.allaboutlbc.com"><span class="si si-matrix"></span></a>
+                    <a href="https://gitter.im/lbryio/lbry"><span class="si si-gitter"></span></a>
                   </span>
                 </div>
               </drawer-child>
