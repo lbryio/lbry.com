@@ -45,7 +45,7 @@ To find your wallet address in LBRY:
 
 - in the **Desktop app** or on **odysee.com**, click on your LBC Balance showing at the top right (Balance may show as `Your wallet` if you have no credits) and it should display the wallet overview page which shows your balance, send/receive, and recent transactions. To see your wallet address, click on the `Receive` button.
 
-<img src="https://spee.ch/6/e8f7bba674d6741f.png" width=700 alt="wallet-bar-image">
+![wallet](https://spee.ch/0/40672f3b32286096.png)
 
 - in the **mobile app**, you need to access the main menu of the app and then choose the `Wallet` option where you can see the address of your wallet.
 
@@ -76,7 +76,7 @@ In the **Desktop app**, if you want to delete faster more or all the files from 
 ## Where can I see my publishes?
 - In the **Desktop app** or on **odysee.com** click the user icon (the icon in the top right corner) and then choose the **`Uploads`** option.
 
-<img src="https://spee.ch/a/ad527ce3b11279f7.png" width=200 alt="profile-menu">
+![Publish](https://spee.ch/b/b0d86424fc232cef.png)
 
 - In the **mobile app** open the main menu of the app and then choose the **`Publishes`** option.
 
@@ -86,22 +86,23 @@ The easiest way to confirm that you are sharing correctly is to determine if the
 ## How can I search for content on LBRY?
 Searching on LBRY is as easy as typing your search term(s) into the address bar at the top and then pressing enter.
 When you press enter, you will be given both the direct URL and search results.
- 
-<img src="https://spee.ch/6/e8f7bba674d6741f.png" width=700 alt="search-bar">
+  
+![search](https://spee.ch/0/40672f3b32286096.png)
+
 
 ## How can I follow and view my favorite channels?
 You can follow to a channel by clicking the Follow button from the homepage, channel page, or content pages.
 
-<img src="https://spee.ch/2/1a01cb301297a170.png" width=700 alt="follow">
+![Follow](https://spee.ch/0/f471d753ef1eaa61.png)
 
 - Content from followed channels can be found from the "Following" category. To unfollow channel, go to the channel page and click "Following/Unfollow". You can find list of channels you follow from the sidebar.
 
-<img src="https://spee.ch/7/80aa01d1653da8c5.png" width=200 alt="follow-lis">
+![Manage Channels](https://spee.ch/2/0f0572762430afad.png)
 
 - To manage the tags that you follow, just click on **Your tags** option from the left sidebar of the app window and view the results for your selected tags. To modify the current followed tags, click on the **Manage** option from the upper-right corner of the displayed view. Then you can modify the tags you want to follow.
 
 
-<img src="https://spee.ch/f/cc88e78a2086618b.png" width=700>
+![Manage tags](https://spee.ch/7/1b2fbb94079f35bb.png)
 
 ## How can I block channels?
 You can block a channel by clicking the **Block** button from the homepage, channel page, or content pages. Blocking only prevents you from seeing content from the channel you block. Blocked channel can still access your content. Blocking will prevent blocked channel from creating comments on your channels or publishes. Already existing comments from the blocked channel on your publishes will be hidden. 
@@ -114,11 +115,11 @@ Please see our [streaming guide](/faq/unable-to-stream) if you consistently cann
 ## Some files don't open in the LBRY Desktop or odysee.com. What's going on?
 Currently, the LBRY in-app player supports MP4 videos, MP3 files, images, GIF images, HTML, and text files. Even though it doesn't support other formats from within the app or odysee.com, the files can still be externally opened when using the Desktop app by clicking the **Open file** icon or navigating to the file by clicking the **Downloaded to** file path on the content page.
 
-<img src="https://spee.ch/3/d25c1d9e20ec1836.png" width="500" alt="Open file image">
+![Open](https://spee.ch/6/90356057598f85fe.png)
 
 On Odysee you can get a download link to the file by clicking "Share" -> "links" icon -> "Download link". This also works on the LBRY dekstop app.
-
-<img src="https://spee.ch/c/7d8201d559a8a107.png" width="500" alt="Download link image">
+  
+![Download](https://spee.ch/2/0ce3e630a4193cb7.png)
 
 ## How do I begin troubleshooting problems myself?
 Please see [this guide](/faq/how-to-find-lbry-log-file) on how to find your LBRY log files. These may provide you additional information to troubleshoot issues or to provide to the [support team](/faq/support).
