@@ -5,7 +5,7 @@ category: getstarted
 
 LBRY allows you to tip and boost your favorite creators by using your LBC(LBRY Credits). You can find this feature by clicking the Support button on content or channel pages. You can also choose to link a channel to a support by selecting it from the channel dropdown, when creating a support. This will be shown on the wallet page, so you can see who has tipped you. In a future update, this information will be shown on content pages so you can tell who is supporting who. 
 
-![](https://spee.ch/3/48e80e50a5cea624.png)
+![TipBoost](https://spee.ch/3/48e80e50a5cea624.png)
 
 A _tip_ sends Credits to a publisher permanently, while also boosting the trust and performance of the content (while active). Recipient can keep it staked or unlock (move to wallet balance).
 
@@ -23,19 +23,19 @@ Sending support via LBRY is easy. Simply go to the page of the content or creato
 
 Next, you'll be prompted for the support amount in LBC - you can choose from a preset list of amounts, or enter a custom value. The default option is a tip which goes permanently to the creator. If you are on your own content, you will only have option to boost.
 
-Once you enter a value, click "Send". A tip will require a double confirmation, a revokable support will not.
-<img src="https://spee.ch/0/04f4b36b9d240737.jpg" width="500">
+Once you enter a value, click "Send". A tip will require a double confirmation, a revokable support will not.  
+![sendtip](https://spee.ch/e/b85f783db6ecf3f8.png)
 
 **Note: This amount will show up in your transaction list and will be deducted from your balance.**
 
 ### Comment tips and Hyperchats
 
-It's also possible to leave comment with a tip. Just write your comment like you normally would, click LBC icon under the text input and set tip amount. After review, click "Send" to confirm the comment and transaction. 
-<img src="https://spee.ch/2/48e10172cc9de192.png" width="700">  
-<img src="https://spee.ch/8/e800a26bdb0805fa.png" width="700">
+It's also possible to leave comment with a tip. Just write your comment like you normally would, click LBC icon under the text input and set tip amount. After review, click "Send" to confirm the comment and transaction.  
+![TipComment](https://spee.ch/4/5d30fd213353b411.png)  
+![CommentReview](https://spee.ch/3/f61f114121e01105.png)
 
 Process is similar for creating hyperchats on livestreams.  
-<img src="https://spee.ch/c/7b2ea0395408db5c.png" width="500">
+![Hyperchat](https://spee.ch/b/281abae43a7bba0f.png)
 
 **Note: Boosts can't be created with comments nor hyperchats.**
 
@@ -49,18 +49,20 @@ To have these Credits show in your available balance, they must be unlocked. Tip
 
 You can unlock tips across all your published content and channels with a single transaction by clicking the unlock button from the **View More** section of your wallet. For creators with large amounts of tips, this may take a few minutes to process. The balance may not be spendable until a block confirmation occurs. Once unlocked, we encourage you to re-support your channel or recent content, as having an available balance means your Credits aren't being put to good use! 
 
-<img src="https://spee.ch/6/d35a1cb0be941cbe.png" width="700">
+
+![ShowContentTips](https://spee.ch/a/f50b49582b951eb2.png)
+
 
 ### 2. Unlocking tips by publish
 
 You can mass unlock tips from a published item using the LBC Details section of the content page, which can be found by clicking the LBC amount at the bottom right corner of description.
 
-<img src="https://spee.ch/a/75e8ff2a8f6cde44.jpg" width="700">
+![WalletMassUnlock](https://spee.ch/7/df1f3758d1b11d73.png)
 
 You'll have an option choose the amount to unlock, with the default being 25%. Enter an amount or use the slider, and then click Unlock. The remaining LBC is sent back to you as a support on your content.
 
-**Please note: Mass tip unlocking may fail if there are over ~500 active tips. Consider using option #1 if this happens.**
-<img src="https://spee.ch/d/d6c188773c1ee8bc.jpg" width="500">
+**Please note: Mass tip unlocking may fail if there are over ~500 active tips. Consider using option #1 if this happens.**  
+![ContentTipUnlock](https://spee.ch/3/11114db6fd78329a.png)
 
 ### 3. Unlocking tips in transaction history
 
@@ -69,15 +71,15 @@ You can also unlock tips across all of your publishes in your transaction histor
 This is done by clicking the unlock icon next to `Tip` and then confirming your action on the following screen. Once the transaction is finalized, the icon will disappear.
 
 Unlock tip:  
-<img src="https://spee.ch/5/2d8813daeaea666e.png" width="700">
+![WalletTipList](https://spee.ch/a/86ef743faa69be38.png)
 
 Confirmation box:  
-<img src="https://spee.ch/9/2a4211da95bd0622.jpg" width="500">
+![ConfirmTipUnlock](https://spee.ch/f/4321c72b6833d43b.png)
 ## Revoking a support {#revoke}
 
 Similar to unlocking tips, you can revoke supports you've created via the wallet page. Filter on Supports + Active to see the currently staked ones. Click the trash can icon to revoke. 
 
-<img src="https://spee.ch/c/cdacfc9612facc85.png" width="700">
+![FilterSupports](https://spee.ch/5/40f9a137cefc91a0.png)
 
 ## What are the downsides of unlocking tips? Are there any good rules to follow? {#guidelines}
 
