@@ -11,10 +11,9 @@ LBRY apps support dynamic trending and top discovery based on your interests and
 **Please note: Content publishers are responsible for ensuring appropriate and valid tags are used. If posting content for mature audiences, the Mature tag MUST be specified. Tag abuse and failure to apply appropriate tags will not be tolerated. Your channel may be filtered and rewards revoked.**
 
 ## How do I use it?
+At the *Following* tab, you can toggle between Trending, Top, and New for content from the channels you follow. On *Discovery* tab you can browse the whole LBRY network. When Top is selected, you can also choose the relevant time frame. You can also browse these same options for specific tags by clicking on the tag name anywhere in the app or by searching for one.
 
-At the top of your Home area, you can toggle between Trending, Top, and New for either your channels, videos, audio, images, text or the whole LBRY network. When Top is selected, you can also choose the relevant time frame. You can also browse these same options for specific tags by clicking on the tag name anywhere on the screen or by searching for one.
-
-![pic](https://spee.ch/a/lbry-new.jpeg)
+![pic](https://spee.ch/4/61575f258acdc408.png)
 
 ## How do these views work?
 
@@ -30,28 +29,30 @@ All of these views work the same whether you are viewing tags you follow, a sing
 
 ### Customizing tags
 
-To customize the tags you follow, click "Your Tags" from your home screen and select content areas that interest you. You can search for tags that have been used and follow those that interest you. You can even type in a tag that has never been used before, and follow it in case someone publishes content with that tag in the future.
+To customize the tags you follow, click "Your Tags" in the sidebar and click `Manage` near the top right corner. You can set tags used for showing content in *Your tags* category. You can even type in a tag that has never been used before, and follow it in case someone publishes content with that tag in the future.
 
-![yourtags](https://spee.ch/6/your-tags.jpeg)
+![yourtags](https://spee.ch/8/73ef9c8d156db359.png)
 
 ### Customizing channels
 
-There are two ways to follow channels:
+There are two ways to find channels to follow:
 
 1. Click the follow button for creators that you are interested in. These buttons appear on channel and content pages.
 
-![follow](https://spee.ch/f/follow-v.jpg)
+![follow](https://spee.ch/5/6b670921539c1631.png)
 
-2. Click "Following" from your home screen to discover and follow new channels using the `Discover New Channels` option. Suggested channels include those most subscribed on LBRY, Top channels, and those who have been featured creators. More suggested channel options will be added in a future release.
+2. Click "Following" from your home screen to discover and find new channels to follow using the `Discover Channels` option.
 
-![pic](https://spee.ch/1/following.jpeg)
-![follow-channel](https://spee.ch/e/follow-channels.jpeg)
+![pic](https://spee.ch/2/f847156011ad616c.png)  
+Scrolling down in the *Disover channels* view, will also show you the Trending, Top, and New listings for channels.  
+![top-channels](https://spee.ch/6/a9e254f61d10ff25.png)  
+
 
 ### Exploring tags
 
-You can also explore each tag by clicking on it from anywhere on the screen or using the search function. Once you are on a tag page, you can click the follow button to add it to your customized list of tags.
+You can also explore each tag by clicking on it from anywhere on the screen or using the search function.
 
-![exploretags](https://spee.ch/1/follow-tag.jpg)
+![exploretags](https://spee.ch/1/aef21eec1303ca49.png)
 
 ## How does content make it into top or trending?
 
