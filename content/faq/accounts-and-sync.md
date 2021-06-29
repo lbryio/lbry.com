@@ -6,7 +6,7 @@ order: 3
 
 Users expect consistent experiences across devices and sessions. This includes everything from account preferences to subscriptions to account balances. In the land of central servers, this is straightforward, but in blockchain land, it is tricky. This article explains how we provide this functionality, various options in using it, and it's limitations.
 
-Users can establish accounts on all of our applications, but for some apps, like LBRY android and LBRY desktop, creating an account isn't mandatory. You'll be required to create and account signing up through Odysee.com and confirm the email address. You can sign into existing accounts via the password or via email confirmation. 
+Users can establish accounts on all of our applications, but for some apps, like LBRY android and LBRY desktop, creating an account isn't mandatory. You'll be required to create an account with password and confirm that your email exists to use all features on Odysee.com. You can sign into existing accounts via the password or via email confirmation. 
 
 ## Account passwords and logging in
 
