@@ -20,6 +20,7 @@ We'll start with publishing on LBRY Desktop and Odysee.com. Scroll down or [clic
 ![choose-file&name](https://spee.ch/6/2b648d023e2bd64c.png)
 1. Fill in other details for the content you are uploading, including description, tags, thumbnail, possible price, etc. 
 ![desc+thumb](https://spee.ch/b/19415056ee007623.png)  
+For content not suitable for minors, use the pink "mature" tag.  
 ![tags](https://spee.ch/d/fbcd0d4f89caa300.png)  
 1. Set *Deposit* for your publish. (This amount will be "locked" in your wallet. Deleting the publish will "unlock" the LBC back to your usable balance. You can edit this later. Higher amounts improve [discoverablility](faq/trending), but you can also use revocable [Boosts](/faq/tipping) to support your publish afterwards.)  
 1. You can set a price for your content, or make it available for free. Either way people will be able to tip your content.
