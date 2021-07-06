@@ -1,10 +1,4 @@
-on: [push, pull_request]
-name: php-cs-fixer checks
-jobs:
-  php-cs-fixer:
-    name: PHP-CS-Fixer
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-    - name: PHP-CS-Fixer
-      uses: docker://oskarstark/php-cs-fixer-ga
+- name: OSKAR-PHP-CS-Fixer
+  # You may pin to the exact commit or the version.
+  # uses: OskarStark/php-cs-fixer-ga@b374f27c71dde852ce9f70aae3ac70e477188ed1
+  uses: OskarStark/php-cs-fixer-ga@3.0.0
