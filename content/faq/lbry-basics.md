@@ -117,9 +117,9 @@ Currently, the LBRY in-app player supports MP4 videos, MP3 files, images, GIF im
 
 ![Open](https://spee.ch/6/90356057598f85fe.png)
 
-On Odysee you can get a download link to the file by clicking "Share" -> "links" icon -> "Download link". This also works on the LBRY dekstop app.
+On Odysee you can download the file by clicking the "3-dot menu" on content page and choosing "Download".
   
-![Download](https://spee.ch/2/0ce3e630a4193cb7.png)
+![Download](https://spee.ch/f/68a84012077a0501.png)
 
 ## How do I begin troubleshooting problems myself?
 Please see [this guide](/faq/how-to-find-lbry-log-file) on how to find your LBRY log files. These may provide you additional information to troubleshoot issues or to provide to the [support team](/faq/support).
