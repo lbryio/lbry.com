@@ -13,6 +13,7 @@ You can also [purchase LBC directly with credit card on the app and Odysee.com][
 ## Traditional crypto exchanges
 - [Bittrex - International Only, US Trading Disabled](https://bittrex.com/Market/Index?MarketName=BTC-LBC) ([USD](https://bittrex.com/Market/Index?MarketName=USD-LBC), [ETH](https://bittrex.com/Market/Index?MarketName=ETH-LBC), [USDT](https://bittrex.com/Market/Index?MarketName=USDT-LBC))
 - [MXC](https://www.mxc.la/trade/easy#LBC_USDT)
+- [BitMart](https://www.bitmart.com/trade/en?symbol=LBC_USDT&layout=basic) / [USDT](https://www.bitmart.com/trade/en?symbol=LBC_USDT&layout=basic)
 - [Lbank](https://www.lbank.me/exchange/lbc/btc) / [USDT](https://www.lbank.me/exchange/lbc/usdt)
 - [Hotbit](https://www.hotbit.io/exchange?symbol=LBC_BTC) / [USDT](https://www.hotbit.io/exchange?symbol=LBC_USDT)
 - [CoinEx](https://www.coinex.com/exchange?currency=btc&dest=lbc) / [USDT](https://www.coinex.com/exchange?currency=usdt&dest=lbc)

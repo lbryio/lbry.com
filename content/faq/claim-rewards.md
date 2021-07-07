@@ -6,7 +6,7 @@ order: 1
 
 Did you know you can earn LBC through the LBRY Rewards program just for watching sweet content and doing other simple actions? If not, today is your lucky day!
 
-![rewards](https://spee.ch/9/acd02a068eed2637.png)
+![rewards](https://spee.ch/reward-claim:5.jpg)
 
 _On the left, navigating to Rewards in LBRY Desktop and Odysee.com. On the right, navigating to Rewards on LBRY Android._
 
@@ -16,7 +16,7 @@ In addition to the one-time rewards, we have a daily reward for watching content
 
 LBC rewards can be used to buy content on the LBRY network, to support your favorite creators, or to publish yourself. Tipping creators also helps creators become discovered on LBRY by boosting their relevance in results.
 
-![rewardssample](https://spee.ch/d/22a24303c793435d.png)
+![rewardssample](https://spee.ch/reward-sample:6.jpg)
 
 You may need to complete account verification to participate in the rewards program. See our [Rewards FAQ](https://lbry.com/faq/rewards) for more information and details about what rewards are available.
 
