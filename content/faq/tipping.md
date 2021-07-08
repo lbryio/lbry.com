@@ -9,7 +9,7 @@ LBRY allows you to tip and boost your favorite creators by using your LBC(LBRY C
 
 A _tip_ sends Credits to a publisher permanently, while also boosting the trust and performance of the content (while active). Recipient can keep it staked or unlock (move to wallet balance).
 
-A _boost_ supports trust and performance, but _does not_ give anything to the publisher permanently - therefore we call it a revokable support. The supporter can keep these staked as long as they like or [revoke them anytime via the wallet page](#revoke). The creator receiving the LBC as a boost, has no contorl over it.
+A _boost_ supports trust and performance, but _does not_ give anything to the publisher permanently - therefore we call it a revokable support. The supporter can keep these staked as long as they like or [revoke them anytime via the wallet page](#revoke). The creator receiving the LBC as a boost, has no control over it.
 
 In both cases, the amount of Credits is stored as associated with (staked against) either the piece of content or the publisher channel. Either way, the amount staked:
 
