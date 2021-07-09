@@ -46,3 +46,16 @@ For the same reasons that nobody can prevent a Bitcoin transaction from taking p
 We have bad news for you, you can use LBRY for free.
 
 [Download the LBRY app](/get?auto=1) or visit [lbry.tv](https://lbry.tv) for free and experience content freedom. Then [let us know what you think](https://chat.lbry.com)!
+
+## How are LBRY Credits minted?
+
+LBRY Credits (LBC) are mined over a 20-year Proof of Work period. Block rewards increase every 100 blocks by 1LBC, peak at 500, and decline slowly.
+
+## What are the bandwidth usage economics and watch constitutes viewing a video?
+
+## What is playbuzz.com?
+
+## How does LBRY compare to Theta ?
+
+## What should I do if somebody uploads my own original content claims it as their own content?
+
