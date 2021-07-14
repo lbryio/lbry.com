@@ -29,7 +29,7 @@ First, make sure the application is completely closed - right-click on applicati
    >
    >- if your folder path contains spaces or other special characters, you’ll need to enclose it in quotation marks, like **"D:\LBRY Cache"** when you enter the commands.
 
-- if you don't have already created the folder where you want to move the blob files folder, then create it now. In our example this will be placed on drive **`D:`** and named **`LBRYCache`**.
+- if you haven't already created the folder where you want to move the blob files folder, then create it now. In our example this will be placed on drive **`D:`** and named **`LBRYCache`**.
 
 - if you want to preserve the existing downloaded blob files then enter the next command, if not, go the the next one:
 
@@ -89,7 +89,7 @@ If you respected all the above instructions you'll see a success message, otherw
    > 
    >- if your destination folder contains spaces or other special characters, you’ll need to enclose it in quotation marks, like **`/volumes/Volume_Name/"LBRY Cache"`** when enter the commands.
  
-- if you don't have already created the folder where you want to move the blob files folder, then create it now:
+- if you haven't already created the folder where you want to move the blob files folder, then create it now:
     
     **`mkdir /volumes/Volume_Name/LBRY_Cache`** [press Enter]
         
@@ -123,7 +123,7 @@ If you respected all the above instructions you'll see a success message, otherw
    >
    >- if your folder path contains spaces or other special characters, you’ll need to enclose it in quotation marks, like **`"/media/User_Name/Volume_Name/LBRY Cache"`** when you enter the commands;
    
-   - if you don't have already created the folder where you want to move the blob files folder, then create it now:
+   - if you haven't already created the folder where you want to move the blob files folder, then create it now:
     
        **`mkdir /media/User_Name/Volume_Name/LBRY_Cache`** [press Enter]
    
