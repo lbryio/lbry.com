@@ -5,7 +5,7 @@ category: troubleshooting
 
 ## Live community help
 
-For live help, you can join [our community chat](https://chat.lbry.com) and post in the #help channel. 
+For live help, you can join [our LBRY Foundation community chat](https://chat.lbry.com) and post in the #help channel. This service is run by a non-profit foundation, not LBRY Inc, however LBRY team members are available to provide support.
 
 ## Help via email
 
