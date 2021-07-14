@@ -13,7 +13,7 @@ class i18n
     protected static $language = null;
     protected static $translations = [];
     protected static $country = null;
-    protected static $cultures = ['pt_PT', 'en_US'];
+    protected static $cultures = ['id_ID','pt_PT', 'en_US'];
 
     public static function register() /*needed to trigger class include, presumably setup would happen here*/
     {
