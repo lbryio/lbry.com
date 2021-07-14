@@ -23,7 +23,7 @@ ffmpeg will automatically be found from your system path or [lbrynet folder](/fa
 
 ### Install and configure
 
-The easiest way to configure ffmpeg on Windows/Mac is to [download the executables](https://www.ffmpeg.org/download.html) and copy the bin folder into a new folder called ffmpeg inside your [lbrynet folder](/faq/lbry-directories). The final path to the files would be something like `...lbry/lbrynet/ffmpeg/bin/ffmpeg.exe`. **This path must be exactly followed if you want it to be picked up automatically**, otherwise you will have to choose the path where the ffmpeg.exe is located on the Settings > Advanced Settings page. 
+The easiest way to configure ffmpeg on Windows/Mac is to [download the executables](https://www.ffmpeg.org/download.html) and copy the bin folder into a new folder called ffmpeg inside your [lbrynet folder](/faq/lbry-directories) (make sure to use the Go To finder option on Mac). The final path to the files would be something like `...lbry/lbrynet/ffmpeg/bin/ffmpeg.exe`. **This path must be exactly followed if you want it to be picked up automatically**, otherwise you will have to choose the path where the ffmpeg.exe is located on the Settings > Advanced Settings page. 
 
 For Linux, the install process typically adds it to your system path. This will allow the application to automatically detect it, but you can also choose your own custom path on the Settings page (will require restart in some cases).
 
