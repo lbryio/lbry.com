@@ -158,59 +158,59 @@ Fax Number: 801-327-6808</p>
 
 <p><strong>Please read the following section carefully because it requires you to arbitrate certain disputes and claims with the Company and limits the manner in which you can seek relief from us.</strong></p>
 
-<h3 id="toc_16">17.1. Binding Arbitration</h3>
+<h3 id="toc_16">16.1. Binding Arbitration</h3>
 
 <p>Except for any disputes, claims, suits, actions, causes of action, demands or proceedings (collectively, <strong>“Disputes”</strong>) in which either party seeks to bring an individual action in small claims court or seeks injunctive or other equitable relief for the alleged unlawful use of intellectual property, including, without limitation, copyrights, trademarks, trade names, logos, trade secrets or patents, you and the Company (a) waive your and the Company’s respective rights to have any and all Disputes arising from or related to these Terms or the Services resolved in a court, and (b) waive your and the Company’s respective rights to a jury trial. Instead, you and the Company will arbitrate Disputes through binding arbitration (which is the referral of a Dispute to one or more persons charged with reviewing the Dispute and making a final and binding determination to resolve it instead of having the Dispute decided by a judge or jury in court).</p>
 
-<h3 id="toc_17">17.2. No Class Arbitrations, Class Actions or Representative Actions</h3>
+<h3 id="toc_17">16.2. No Class Arbitrations, Class Actions or Representative Actions</h3>
 
 <p>Any Dispute arising out of or related to these Terms or the Services is personal to you and the Company and will be resolved solely through individual arbitration and will not be brought as a class arbitration, class action or any other type of representative proceeding. There will be no class arbitration or arbitration in which an individual attempts to resolve a Dispute as a representative of another individual or group of individuals. Further, a Dispute cannot be brought as a class or other type of representative action, whether within or outside of arbitration, or on behalf of any other individual or group of individuals.</p>
 
-<h3 id="toc_18">17.3. Federal Arbitration Act</h3>
+<h3 id="toc_18">16.3. Federal Arbitration Act</h3>
 
 <p>These Terms affect interstate commerce and the enforceability of this Section 16 will be both substantively and procedurally governed by and construed and enforced in accordance with the Federal Arbitration Act, 9 U.S.C. § 1 et seq. (the <strong>“FAA”</strong>), to the maximum extent permitted by applicable law.</p>
 
-<h3 id="toc_19">17.4. Notice; Informal Dispute Resolution</h3>
+<h3 id="toc_19">16.4. Notice; Informal Dispute Resolution</h3>
 
 <p>Each party will notify the other party in writing of any arbitrable or small claims Dispute within thirty (30) days of the date it arises, so that the parties can attempt in good faith to resolve the Dispute informally. Notice to the Company will be sent by e-mail to the Company at hello@lbry.com Notice to you will be by email to the then-current email address in your Account. Your notice must include (a) your name, postal address, email address and telephone number, (b) a description in reasonable detail of the nature or basis of the Dispute, and (c) the specific relief that you are seeking. If you and the Company cannot agree how to resolve the Dispute within thirty (30) days after the date notice is received by the applicable party, then either you or the Company may, as appropriate and in accordance with this Section 16, commence an arbitration proceeding or, to the extent specifically provided for in Section 17.1, file a claim in court. </p>
 
-<h3 id="toc_20">17.5. Process</h3>
+<h3 id="toc_20">16.5. Process</h3>
 
 <p>Any arbitration will occur in New Castle County, Delaware. Arbitration will be conducted confidentially by a single arbitrator in accordance with the rules of the Judicial Arbitration and Mediation Services (<strong>“JAMS”</strong>), which are hereby incorporated by reference. The state and federal courts located in New Castle County, Delaware will have exclusive jurisdiction over any appeals and the enforcement of an arbitration award. You may also litigate a Dispute in the small claims court located in the county where you reside if the Dispute meets the requirements to be heard in small claims court. </p>
 
-<h3 id="toc_21">17.6. Authority of Arbitrator</h3>
+<h3 id="toc_21">16.6. Authority of Arbitrator</h3>
 
 <p>As limited by the FAA, these Terms and the applicable JAMS rules, the arbitrator will have (a) the exclusive authority and jurisdiction to make all procedural and substantive decisions regarding a Dispute, including the determination of whether a Dispute is arbitrable, and (b) the authority to grant any remedy that would otherwise be available in court; provided, however, that the arbitrator does not have the authority to conduct a class arbitration or a representative action, which is prohibited by these Terms. The arbitrator may only conduct an individual arbitration and may not consolidate more than one individual’s claims, preside over any type of class or representative proceeding or preside over any proceeding involving more than one individual.</p>
 
-<h3 id="toc_22">17.7. Rules of JAMS</h3>
+<h3 id="toc_22">16.7. Rules of JAMS</h3>
 
 <p>The rules of JAMS and additional information about JAMS are available on the <a href="http://www.jamsadr.com/">JAMS website.</a> By agreeing to be bound by these Terms, you either (a) acknowledge and agree that you have read and understand the rules of JAMS, or (b) waive your opportunity to read the rules of JAMS and any claim that the rules of JAMS are unfair or should not apply for any reason.</p>
 
-<h3 id="toc_23">18. Governing Law and Venue</h3>
+<h3 id="toc_23">17. Governing Law and Venue</h3>
 
 <p>These Terms and your access to and use of the Services will be governed by and construed and enforced in accordance with the laws of the State of Delaware, without regard to conflict of law rules or principles (whether of the State of Delaware or any other jurisdiction) that would cause the application of the laws of any other jurisdiction. Any Dispute between the parties arising out of or relating to these Terms that is not subject to arbitration or cannot be heard in small claims court will be resolved in the state or federal courts of the State of Delaware and the United States, respectively, sitting in New Castle County, Delaware. </p>
 
-<h3 id="toc_24">19. Severability</h3>
+<h3 id="toc_24">18. Severability</h3>
 
 <p>If any term, clause or provision of these Terms is held invalid or unenforceable, then that term, clause or provision will be severable from these Terms and will not affect the validity or enforceability of any remaining part of that term, clause or provision, or any other term, clause or provision of these Terms.</p>
 
-<h3 id="toc_25">20. Termination or Suspension</h3>
+<h3 id="toc_25">19. Termination or Suspension</h3>
 
 <p>Notwithstanding anything contained in these Terms, we reserve the right, without notice and in our sole discretion, to terminate this agreement or suspend your right to access the Services. You may terminate this agreement without notice by discontinuing use of the Services. All rights and licenses granted to you under these Terms will immediately be revoked upon our termination of the agreement or our suspension of your access to the Services. We make no representations that termination or suspension of the Services will prevent the spread or distribution of published Content through LBRY.</p>
 
-<h3 id="toc_26">21. Amendment</h3>
+<h3 id="toc_26">20. Amendment</h3>
 
 <p>We reserve the right to change these Terms from time to time upon notice to you. If we make changes to these Terms, we will provide notice of such changes by posting the revised Terms to the Services and updating the “Last Updated” date at the top of these Terms. In some cases, we may provide additional notice to you, such as via our Services or to an email address associated with your Account. Your continued use of the Services following our provision of any such notice will confirm your acceptance of the revised Terms. If you do not agree to the modified Terms, you must stop using the Services. </p>
 
-<h3 id="toc_27">22. Survival</h3>
+<h3 id="toc_27">21. Survival</h3>
 
 <p>The following sections will survive the expiration or termination of these Terms: all defined terms and Sections 12 - 18, 21 and 22.</p>
 
-<h3 id="toc_28">23. Miscellaneous</h3>
+<h3 id="toc_28">22. Miscellaneous</h3>
 
 <p>These Terms constitutes the entire agreement between you and the Company relating to your access to and use of the Services. We may assign our rights and obligations under these Terms. Under no circumstances may you assign your rights and obligations under these Terms, including in the event of change of control or by operation of law, without our prior written consent. The failure of the Company to exercise or enforce any right or provision of these Terms will not operate as a waiver of such right or provision. We will not be liable for any delay or failure to perform any obligation under these Terms where the delay or failure results from any cause beyond our reasonable control. Except as otherwise provided in herein, the agreement is intended solely for the benefit of the parties and are not intended to confer third-party beneficiary rights upon any other person or entity.</p>
 
- <h3 id="toc_28">24. Export Control and Prohibited Use</h3>
+ <h3 id="toc_28">23. Export Control and Prohibited Use</h3>
 
 <p>Use of the Service and Software, including transferring, posting, or uploading data, software or other Content via the Service, may be subject to the export and import laws of the United States and other countries. You agree to comply with all applicable export and import laws and regulations. In particular, but without limitation, the Software may not be exported or re-exported (a) into any U.S. embargoed countries or (b) to anyone on the U.S. Treasury Department’s list of Specially Designated Nationals or the U.S. Department of Commerce Denied Person’s List or Entity List. By using the Software or Service, you represent and warrant that you are not located in any such country or on any such list. You also agree that you will not use the Software or Service for any purposes prohibited by United States law, including, without limitation, the development, design, manufacture or production of missiles, nuclear, chemical or biological weapons. You further agree not to upload to your Account any data or software that is: (a) subject to International Traffic in Arms Regulations; or (b) that cannot be exported without prior written government authorization, including, but not limited to, certain types of encryption software and source code, without first obtaining that authorization. This assurance and commitment shall survive termination of this Agreement.</p>
 
