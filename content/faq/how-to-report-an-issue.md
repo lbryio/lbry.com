@@ -1,5 +1,5 @@
 ---
-title: Odysee.com troubleshooting
+title: How to report an issue on Odysee.com
 category: troubleshooting
 order: 2
 ---
