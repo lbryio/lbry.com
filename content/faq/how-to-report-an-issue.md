@@ -22,20 +22,21 @@ Clear reports about problems with detailed info help us to solve problems faster
 1. On most browsers you can open web developer tools by pressing "Ctrl + Shift + i" or "Option + Shift + j". (Optionally click 3-dot menu in the top-right corner and choose "More" --> "Developer tools", this may vary slightly for each browser)   
 1. While developer tools are open, reload the page and reproduce the issue.  
 1. Near the top, in the developer tool window, you can see row of tabs. Choose "Console" tab. In most browser's you can right-click any message and save the console output to a file. (See screenshots belove for chrome/brave/firefox)
-1. Next select "Network" tab and choose "export/save to HAR" (See screenshots belove for chrome/brave/firefox)
+1. Next select "Network" tab, make sure that you set filtering to "XHR" and choose "export/save to HAR" (See screenshots belove for chrome/brave/firefox)  
+_Note_: Don't let videos play while the dev tools are open, exporting output in "network" tab will create an un-necessary large file.
 1. Attach the created files to the email
 
 Screenshots for chrome/brave  
 Console:  
 ![chrome-console](https://spee.ch/c/bcd3de66da4ac40b.png)   
 Network:  
-![chrome-export-har](https://spee.ch/7/b7ff68da2cb8b616.png)  
+![chrome-export-har](https://spee.ch/1/a01e1b428ab85344.png)  
 
 Screenshots for firefox   
 Console:  
 ![firefox-console](https://spee.ch/d/249ce9c0ac0ea8e7.png)  
 Network:  
-![firefox-export-har](https://spee.ch/b/cb5032faaf6b42ad.png)   
+![firefox-export-har](https://spee.ch/b/cc6c5a91740c544a.png)   
 
 ## What to include when reporting issue on mobile version of the site? {#mobile}
 - What's the issue, does it show any error messages  
