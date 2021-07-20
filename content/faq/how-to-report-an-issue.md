@@ -22,7 +22,7 @@ Clear reports about problems with detailed info help us to solve problems faster
 1. On most browsers you can open web developer tools by pressing "Ctrl + Shift + i" or "Option + Shift + j". (Optionally click 3-dot menu in the top-right corner and choose "More" --> "Developer tools", this may vary slightly for each browser)   
 1. While developer tools are open, reload the page and reproduce the issue.  
 1. Near the top, in the developer tool window, you can see row of tabs. Choose "Console" tab. In most browser's you can right-click any message and save the console output to a file. (See screenshots belove for chrome/brave/firefox)
-1. Next select "Network" tab and choose "import/save to HAR" (See screenshots belove for chrome/brave/firefox)
+1. Next select "Network" tab and choose "export/save to HAR" (See screenshots belove for chrome/brave/firefox)
 1. Attach the created files to the email
 
 Screenshots for chrome/brave  
