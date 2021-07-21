@@ -17,7 +17,7 @@ If you don't have LBRY yet, download it [here](/get). You can also publish files
 ## How do I publish content?
 
 1. Click on the Publish button next to the search bar to the right. You will get a dropdown, select `Upload` from the menu.
-   ![Click the Publish Button](https://lbry2.vanwanet.com/speech/f9de76e5b2b2052d:9.png)
+   ![Click the Publish Button](https://spee.ch/f9de76e5b2b2052d:9.png)
    
 2. Under the `Upload` section, you have the option to select/create the channel you would like to publish the content under. If no channel is selected, it will be posted anonymously.
    ![Select Channel or Anonymous](https://spee.ch/3/3e792cfe222dd6ad.png)
@@ -70,7 +70,7 @@ First, you need to access your channel by clicking on the channel art or the ast
 ![Access Channel](https://spee.ch/8/e2874343f6eb54b6.png)
 
 1. You will now see an edit button next to the name. Click the button to proceed to the edit page.
-   ![edit1](https://lbry2.vanwanet.com/speech/181f0fcbfafa5098:9.png)
+   ![edit1](https://spee.ch/181f0fcbfafa5098:9.png)
 
 2. You can now upload your thumbnail and cover image by clicking the camera icon, select browse to choose the thumbnail or banner for your channel or use the option for url to add an image link. The page will update once a valid URL is available.
 
