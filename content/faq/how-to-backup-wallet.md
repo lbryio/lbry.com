@@ -53,7 +53,7 @@ _Please note that this may vary with each Android device_
 
 ## How do I restore my wallet? {#restore}
 
-The process of restoring a previously backed up wallet is fairly simple. After installing LBRY, you would find the location of your wallet (see section above on finding the wallet) and replace the newly generated wallet with your backup copy (LBRY needs to be completely shut down with Ctlr-Q). Before replacing the existing `default_wallet`, please confirm there are no credits inside of it by opening the LBRY app and checking the balance in the top right next to the bank icon - this should read 0 if the wallet is empty. Once the backed up `default_wallet` file is in place, start LBRY, and your balance should now be updated.
+The process of restoring a previously backed up wallet is fairly simple. After installing LBRY, you would find the location of your wallet (see section above on finding the wallet) and replace the newly generated wallet with your backup copy (LBRY needs to be completely shut down with Ctrl-Q). Before replacing the existing `default_wallet`, please confirm there are no credits inside of it by opening the LBRY app and checking the balance in the top right next to the bank icon - this should read 0 if the wallet is empty. Once the backed up `default_wallet` file is in place, start LBRY, and your balance should now be updated.
 
 ## Can I use the same wallet on multiple PCs / installations?
 
