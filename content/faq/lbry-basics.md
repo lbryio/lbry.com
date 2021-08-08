@@ -71,7 +71,7 @@ Please refer to our [publishing guide](/faq/how-to-publish) as a reference to as
 ## How can I delete my downloads?
 Access your Library section as mentioned before and then select the item you want to delete. After the page of the content is opened, click on the trash can icon located under the main content published. 
 
-In the **Desktop app**, if you want to delete faster more or all the files from your download folder, open the folder with a file explorer, select the files and delete them. If you also want to delete the blob files used for hosting, these can be found from (lbrynet folder)[/faq/lbry-directories].
+In the **Desktop app**, if you want to delete faster more or all the files from your download folder, open the folder with a file explorer, select the files and delete them. If you also want to delete the blob files used for hosting, these can be found from [lbrynet folder](/faq/lbry-directories).
 
 ## Where can I see my publishes?
 - In the **Desktop app** or on **odysee.com** click the user icon (the icon in the top right corner) and then choose the **`Uploads`** option.
