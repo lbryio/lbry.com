@@ -9,7 +9,7 @@ LBRY Inc. has reserved 10% of all LBRY Credits to fund continued development and
 
 Here's how LBRY Inc. **doesn't** make money:
 
-- **We do not take a cut of any transactions.** When users purchase content on LBRY, 100% of the listed price goes to the publisher. There is also a small fee added on top that is paid to the decentralized network of hosts that store and deliver the content to you. LBRY Inc. doesn't take any of that unless the company is publishing or hosting content itself. The same rules apply to everyone.
+- **We do not take a cut of any LBC transactions.** When users purchase content on LBRY, 100% of the listed price goes to the publisher. There is also a small fee added on top that is paid to the decentralized network of hosts that store and deliver the content to you. LBRY Inc. doesn't take any of that unless the company is publishing or hosting content itself. The same rules apply to everyone.
 - **We do not earn profits from auctioning of names**, nor do we benefit from bidding wars over names. Our goal with the naming system is simply to allocate names most efficiently to benefit users.
 - **This is not a "pump and dump" scheme or vaporware.** LBRY Credits have already experienced a bubble, and we paid it no mind. LBRY is real software with a live blockchain and hundreds of thousands active users. Our goal is to increase the long-term value of the protocol, which if adopted globally, will make our reserve many times more valuable than any short-term bubble. We're patient and focused on the future.
 
