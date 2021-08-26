@@ -14,6 +14,8 @@ LBRY videos can be embedded on your blog or other sites you want the video to pl
    ![](https://spee.ch/b/d34ce0643fb7725a.png)
 3. Paste the embed code into your website. Depending on what platform you are using, this may require an HTML code block.
    ![](https://spee.ch/5/embed-3.jpg)
+   
+*Note: If your site has a content security policy, [you may need to allow the Odysee domain](https://docs.hcaptcha.com/#content-security-policy-settings).*
 
 ## What does an embed look like?
 
