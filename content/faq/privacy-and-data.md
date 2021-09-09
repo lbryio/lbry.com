@@ -14,14 +14,14 @@ LBRY collects data for a variety of reasons, including but not limited to:
 - preventing fraud in our reward programs
 - providing statistics to content creators
 
-We promise to keep any collected data safe and to never share personal, private information with anyone outside of LBRY Inc. You must be over 13 years of age to sign into the Desktop app or create a lbry.tv account.
+We promise to keep any collected data safe and to never share personal, private information with anyone outside of LBRY Inc. You must be over 13 years of age to sign into the Desktop app or create a odysee.com account.
 
 Users can also [choose to use LBRY anonymously](#anonymous) however some features, like [LBRY Rewards](https://lbry.com/faq/rewards), will not be available.
 
-Additionally, even when not sending data to us, using LBRY (outside of lbry.tv) typically involves participation in the peer-to-peer LBRY network and certain information like your IP address is likely to be exposed regardless. See [below](#p2p) for more information.
+Additionally, even when not sending data to us, using LBRY (outside of odysee.com) typically involves participation in the peer-to-peer LBRY network and certain information like your IP address is likely to be exposed regardless. See [below](#p2p) for more information.
 
 ## What type of data is collected and where?
-As a first time user of LBRY applications and [lbry.tv](https://lbry.tv), you have the option of providing an email address to create an LBRY account. This allows for a richer user experience by enabling services such as [LBRY Rewards](https://lbry.com/faq/rewards), email notifications, and account synchronization (i.e. subscriptions and user preferences) across multiple devices/platforms. If you do not provide an email, any data collected cannot be associated with your identity, but may still be tied back to other system information like IP addresses.
+As a first time user of LBRY applications and [odysee.com](https://odysee.com), you have the option of providing an email address to create an LBRY account. This allows for a richer user experience by enabling services such as [LBRY Rewards](https://lbry.com/faq/rewards), email notifications, and account synchronization (i.e. subscriptions and user preferences) across multiple devices/platforms. If you do not provide an email, any data collected cannot be associated with your identity, but may still be tied back to other system information like IP addresses.
 
 See below tables for a break-down of the types of data collected and associated applications.
 
@@ -37,7 +37,7 @@ IP addresses | | No, use VPN to protect | Everyone | Any access to LBRY services
 Blockchain metadata | Email | Yes, if email provided | LBRY| Wallet addresses and transactions related to Rewards are logged to prevent abuse and comply with tax requirements (above $600 yearly threshold)
 Blockchain transactions | | No, don’t create transactions | Everyone | Any actions taken that use LBRY Credits and create a permanent transaction on the blockchain. Not linked to any Account/User data.
 
-Scope of Data | LBRY Desktop App | lbry.tv (Web) | LBRY Android App | LBRY SDK |
+Scope of Data | LBRY Desktop App | odysee.com (Web) | LBRY Android App | LBRY SDK |
 :------------ |:------------ |:------------ | :-------------| :-------------|
 Email addresses | yes | yes | yes | no |
 User preferences | yes | yes | yes | no |
@@ -59,7 +59,7 @@ To use LBRY privately, we recommend the LBRY Desktop application. By default, th
 
 For a maximally private experience, you should also use a Virtual Private Network (VPN) to protect your IP address. This will allow you to use features like retrieving content data, publishing, purchasing, tipping, and other transactions anonymously. Depending on VPN features and network configuration, hosting data currently may not be possible, but this is an area of active development.
 
-Note that if using LBRY anonymously or privately you are not eligible for [lbry.tv rewards](https://lbry.com/faq/rewards).
+Note that if using LBRY anonymously or privately you are not eligible for [odysee.com rewards](https://lbry.com/faq/rewards).
 
 ## Where is the account and analytics data stored?
 LBRY stores collected data on its own secured databases and ensures only authorized employees have access to this data. Google Analytics data is anonymized and protected by Google. We are soon moving away from GA completely - only the Android app has it enabled.
