@@ -28,7 +28,7 @@
 /faq/regtest-setup-guide:       https://lbry.tech/resources/regtest-setup
 /faq/bounty:                    https://lbry.tech/contribute
 /lbryonyoutube:                 https://www.youtube.com/channel/UCXAcp3dJuPqeUekOacsuyaQ
-/tv:                            https://lbry.tv/
+/odysee:                        https://odysee.com/
 
 # FAQ
 /faq/tips:                                            /faq/appreciation
@@ -134,7 +134,7 @@
 /press-kit.zip:   /press-kit
 /news/tag/events: /roadmap
 /privacy: /privacypolicy
-/publish:  https://lbry.tv/$/publish
+/publish:  https://odysee.com/$/publish
 
 # Images
 /img/lbry-ui.png:  /img/og-image.png

@@ -10,7 +10,7 @@
       <p>The requested page could not be found. Here is the image located at <code>lbry://404</code> to console you.</p>
 
       <figure>
-        <iframe src="https://lbry.tv/$/embed/404" alt="404"/>
+        <iframe src="https://odysee.com/$/embed/404" alt="404"/>
         <figcaption>The above image is not controlled by LBRY, Inc. Instead, it is the most popular claim for the URL <code>lbry://404</code>. Want to change it? <a href="/get" class="link-primary">Download LBRY</a>.</figcaption>
       </figure>
     </div>

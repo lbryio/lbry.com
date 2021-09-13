@@ -19,7 +19,7 @@
 
         <drawer-section class="header--mobile-only">
           <drawer-title>
-            <a href="https://lbry.tv">Use on Web (lbry.tv)</a>
+            <a href="https://odysee.com">Use on Web (odysee.com)</a>
           </drawer-title>
         </drawer-section>
 
