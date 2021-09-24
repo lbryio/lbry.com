@@ -1,7 +1,7 @@
 ---
 title: Senior Security Analyst/Engineer
 order: 5
-status: active
+status: closed
 location: remote (global)
 ---
 

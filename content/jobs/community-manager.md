@@ -1,7 +1,7 @@
 ---
 title: Odysee Community Manager (Creator Relationships)
 order: 7
-status: active
+status: closed
 location: remote (global)
 ---
 

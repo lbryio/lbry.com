@@ -1,7 +1,7 @@
 ---
 title: Senior Partnership Manager
 order: 1
-status: active
+status: closed
 location: remote (global)
 ---
 
