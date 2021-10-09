@@ -77,7 +77,7 @@ The primary contact for this project is [@netoperatorwibby](https://github.com/n
 - [Discord Chat](https://chat.lbry.com) - A chat room for the LBRYians
 - [LBRY Tech Forum](https://forum.lbry.tech) - LBRY Forum
 - [Email us](mailto:hello@lbry.com) - LBRY Support email
-- [Twitter](https://twitter.com/@lbryio) - LBRY Twitter page
+- [Twitter](https://twitter.com/@lbrycom) - LBRY Twitter page
 - [Facebook](https://www.facebook.com/lbrycom) - LBRY Facebook page
 - [Reddit](https://reddit.com/r/lbry) - LBRY Reddit page
 - [Telegram](https://t.me/lbryofficial) - Telegram group
