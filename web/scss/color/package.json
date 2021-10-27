@@ -1,0 +1,27 @@
+{
+  "author": {
+    "email": "paul+github@lbry.com",
+    "name": "Paul Anthony Webb"
+  },
+  "bugs": {
+    "url": "https://github.com/lbryio/color/issues"
+  },
+  "description": "Color schemes for LBRY properties",
+  "files": [
+    "lbry-color.css",
+    "lbry-color.json",
+    "lbry-color.scss"
+  ],
+  "homepage": "https://github.com/lbryio/color",
+  "license": "BSD 3-Clause",
+  "main": "lbry-color.json",
+  "name": "@lbry/color",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lbryio/color.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.1"
+}
