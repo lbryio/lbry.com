@@ -35,7 +35,7 @@ While there is a company behind LBRY called _LBRY Inc._, we attempt to tie our o
 
 Blockchain technology like Bitcoin and LBRY enables people to create databases that no single entity controls.
 
-With Bitcoin, when you send money to someone, your computer broadcasts "hey, the person with this particular secret (a private key) is sending money to that person over there" to the network, and the mining algorithm ensures everyone agrees that indeed, you sent that money, so your balance goes down and the recipient's goes up. For more on this, check out this [great video](https://beta.lbry.tv/@3Blue1Brown:b/ever-wonder-how-bitcoin-and-other:1) by LBRYian @3Blue1Brown.
+With Bitcoin, when you send money to someone, your computer broadcasts "hey, the person with this particular secret (a private key) is sending money to that person over there" to the network, and the mining algorithm ensures everyone agrees that indeed, you sent that money, so your balance goes down and the recipient's goes up. For more on this, check out this [great video](https://odysee.com/@3Blue1Brown:b/ever-wonder-how-bitcoin-and-other:1) by LBRYian @3Blue1Brown.
 
 In LBRY, the same mechanism is used to store *an index of what content is available* and *how to download it*, as well as financial transactions (such as tips, and purchases of paid content) using the Bitcoin-like currency LBC (LBRY Credits). When a creator publishes something on LBRY, an entry is made on the LBRY blockchain. You can think of it as an announcement: *hey everyone, I've published this file, here's some information about it, and instructions for how to download it from the peer-to-peer network*.
 
@@ -45,4 +45,4 @@ For the same reasons that nobody can prevent a Bitcoin transaction from taking p
 
 We have bad news for you, you can use LBRY for free.
 
-[Download the LBRY app](/get?auto=1) or visit [lbry.tv](https://lbry.tv) for free and experience content freedom. Then [let us know what you think](https://chat.lbry.com)!
+[Download the LBRY app](/get?auto=1) or visit [odysee.com](https://odysee.com) for free and experience content freedom. Then [let us know what you think](https://chat.lbry.com)!
