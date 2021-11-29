@@ -17,7 +17,6 @@ We tip our hat to the liberty movement and welcome two of the biggest podcasts t
 
 Stefan Molyneux's Freedomain Radio has grown from a part-time podcast to a full-fledged, daily radio show with millions of monthly downloads and views. Interviews with leading economists, academics, authors along with a hard-hitting philosophical analysis of current events make Freedomain Radio the essential counter-culture podcast.
 
-![The Schiff Report](/img/news/schiff-inline.jpg)
 
 **The Schiff Report**
 
