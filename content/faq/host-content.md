@@ -28,6 +28,6 @@ Currently, this process is manual and you can see our [FAQ on how to move the ho
 You can delete files from the blob folder directly, or you can also delete them from the My LBRY section of the App - both will get rid of the hosted content and you'll lose the ability to seed it anymore.
 
 ## Web apps (lbry.tv / odysee.com)
-Currently, the web applications take advtange of LBRY Inc hosted reflector servers to provide a high bandwidth and availablity solution to casual web users. All content is still available on the P2P network via the Desktop application regardless of where it's uploaded. In the future, we'll be looking into ways of providing the power of P2P over the web. 
+Currently, the web applications take advantage of LBRY Inc hosted reflector servers to provide a high bandwidth and availablity solution to casual web users. All content is still available on the P2P network via the Desktop application regardless of where it's uploaded. In the future, we'll be looking into ways of providing the power of P2P over the web. 
 
 **Please note: Hosting fees are currently disabled on the network as we're currently working on a better way to implement the fee structure.**
