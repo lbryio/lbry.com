@@ -28,7 +28,7 @@ If you sign out of the LBRY desktop app and back in with a different email, **th
 1. Scroll down to find `LBRY Browser`
 1. Click on it and select storage. Click `Clear data`
 1. Launch the LBRY app. It should ask for your new email
-1. Close app and backgorund services and [restore](https://lbry.com/faq/how-to-backup-wallet#android) the backed up wallet.
+1. Close app and background services and [restore](https://lbry.com/faq/how-to-backup-wallet#android) the backed up wallet.
 1. Send email to us, and we will do the clean up on our side, moving rewards status to the new email, deleting access from old email, etc.
   
 *Note:* To prevent users from causing harm to other users, we require the email to be sent from the **old email**.
