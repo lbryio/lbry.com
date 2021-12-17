@@ -84,6 +84,8 @@ class Controller
           case 'chat':
           case 'slack':
             return static::redirect('https://discord.gg/SJMUq8EjXB');
+          case 'verify-chat':
+            return static::redirect('https://discord.gg/C3ZFqV3btX'); 
         }
 
         /*
