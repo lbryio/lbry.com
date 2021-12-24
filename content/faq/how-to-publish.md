@@ -26,7 +26,7 @@ If you don't have LBRY yet, download it [here](/get). You can also publish files
 4. Next, type the title for your content. 
 5. After entering the title, click browse to browse the content you want to publish.
 
-6. On your local machine, select the content you wish to upload to Odysee. For video content, Odysee works best with MP4 files in H264/AAC format which support proper streaming (see [video publishing guide for details](/faq/video-publishing-guide)). Besides videos, other popular formats supported are MP3s, text documents like markdown (md)/HTML, PDF, CSV, and comic books (cbr, cbz). In the future, the in app player may support additional formats.
+6. On your local machine, select the content you wish to upload to LBRY. For video content, LBRY works best with MP4 files in H264/AAC format which support proper streaming (see [video publishing guide for details](/faq/video-publishing-guide)). Besides videos, other popular formats supported are MP3s, text documents like markdown (md)/HTML, PDF, CSV, and comic books (cbr, cbz). In the future, the in app player may support additional formats.
 
 Other file types can also be uploaded, but won't be streamable via Odysee directly. They can be opened externally for viewing on the Desktop/Android apps.
 
