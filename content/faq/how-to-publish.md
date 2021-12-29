@@ -12,7 +12,7 @@ If you are a YouTube Sync user, please make sure to [read our FAQ](https://lbry.
 
 If you don't have LBRY yet, download it [here](/get). You can also publish files up to 4 GB from the web at [Odysee.com](https://odysee.com).
 
-**IMPORTANT NOTE: Only use appropriate tags when publishing content. Tag abuse and follow for follow/view for view type activity is prohibited and will not be tolerated.**
+**IMPORTANT NOTE: Only use appropriate tags when publishing content. Tag abuse and follow-for-follow/view-for-view type activity is prohibited and will not be tolerated.**
 
 ## How do I publish content?
 
