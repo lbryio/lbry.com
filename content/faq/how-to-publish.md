@@ -10,9 +10,11 @@ To see our recommended video upload format and settings, please see our [video p
 
 If you are a YouTube Sync user, please make sure to [read our FAQ](https://lbry.com/faq/youtube) on how this process works.
 
-If you don't have LBRY yet, download it [here](/get). You can also publish files up to 4 GB from the web at [Odysee.com](https://odysee.com).
+If you don't have LBRY yet, download it [here](/get). You can also publish files up to 4 GB from the web at [Odysee.com](https://odysee.com). Please note that Odysee is a separate company. For specific help regarding Odysee, [refer to Odysee.com](https://odysee.com/$/help).
 
 **IMPORTANT NOTE: Only use appropriate tags when publishing content. Tag abuse and follow-for-follow/view-for-view type activity is prohibited and will not be tolerated.**
+
+**OTHER NOTE: The following photos are still from the Odysee user interface. However, the differences between that and the LBRY Desktop interface are minimal.**
 
 ## How do I publish content?
 
@@ -28,7 +30,7 @@ If you don't have LBRY yet, download it [here](/get). You can also publish files
 
 6. On your local machine, select the content you wish to upload to LBRY. For video content, LBRY works best with MP4 files in H264/AAC format which support proper streaming (see [video publishing guide for details](/faq/video-publishing-guide)). Besides videos, other popular formats supported are MP3s, text documents like markdown (md)/HTML, PDF, CSV, and comic books (cbr, cbz). In the future, the in app player may support additional formats.
 
-Other file types can also be uploaded, but won't be streamable via Odysee directly. They can be opened externally for viewing on the Desktop/Android apps.
+Other file types can also be uploaded, but won't be streamable via Odysee directly. They can be opened externally for viewing on the LBRY Desktop/Android apps.
 
 7. Enter a `Description` for your content.
 
