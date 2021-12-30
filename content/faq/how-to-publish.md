@@ -12,9 +12,11 @@ If you are a YouTube Sync user, please make sure to [read our FAQ](https://lbry.
 
 If you don't have LBRY yet, download it [here](/get). You can also publish files up to 4 GB from the web at [Odysee.com](https://odysee.com). Please note that Odysee is a separate company. For specific help regarding Odysee, [refer to Odysee.com](https://odysee.com/$/help).
 
-**IMPORTANT NOTE: Only use appropriate tags when publishing content. Tag abuse and follow-for-follow/view-for-view type activity is prohibited and will not be tolerated.**
+The following photos are still from the Odysee user interface. However, the differences between that and the LBRY Desktop interface are minimal. 
 
-**OTHER NOTE: The following photos are still from the Odysee user interface. However, the differences between that and the LBRY Desktop interface are minimal.**
+[comment]: <> (The above line can be removed once we update the photos to be of the LBRY UI.)
+
+**IMPORTANT NOTE: Only use appropriate tags when publishing content. Tag abuse and follow-for-follow/view-for-view type activity is prohibited and will not be tolerated.**
 
 ## How do I publish content?
 
@@ -37,13 +39,13 @@ Other file types can also be uploaded, but won't be streamable via Odysee direct
 8. Choose a `Thumbnail` or `Thumbnail URL` for your content. The `Thumbnail URL` is a hyperlink to an image file which will serve as a preview for your content. It can be any image/GIF URL. The default pixel size is 800x450, but the app will scale it up/down. Images uploaded directly from your local machine as `Thumbnail` will be uploaded to [spee.ch](https://www.spee.ch).
 
 9. Next you can add tags to your content which will help categorize it for [discovery purposes](https://lbry.com/faq/trending). If it's intended for mature audiences, please add the pink `mature` tag. Next, determine any other tags that relate to the content you are publishing. Please be mindful of accuracy when tagging content as this is currently up to the publisher only and cannot be edited. If incorrect/inappropriate tags are used, your content may be filtered to provide a better user experience. In the future, this will be done through community voting and building a web of trust.
-10. Right below the tags, you will be able to check disbale or enable viewers to leave a comment on your content.
+10. Right below the tags, you will be able to check, disable, or enable viewers to leave a comment on your content.
 
 11. Type in a minimum of 0.0001 LBC deposit for the upload (default amount is higher due to publishing fees). If you are trying to outbid a user-friendly/common URL, the system will suggest a minimum bid to take over the content at that vanity URL. There may be a delay for this takeover. Making your bid higher will result in [better discovery](https://lbry.com/faq/trending) for your content. For more details regarding the URL or bid, check out our [naming document](/faq/naming).
 
 12. You should have an option to set a price on on your content or make it free.
 
-13. Next, there is `Additional Option` which gives you an option to select language and license. Default language is set to `English`, and the License is set to `None`. If a change is needed, click the dropdown menus and select the appropriate choice.
+13. Next, there is `Additional Option` which gives you an option to select language and license. Default language is set to `English`, and the license is set to `None`. If a change is needed, click the dropdown menus and select the appropriate choice.
 
 _please review our terms of service before publishing [terms of service](/termsofservice)_
 
