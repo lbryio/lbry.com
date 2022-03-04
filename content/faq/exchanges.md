@@ -24,4 +24,4 @@ For a more in depth guide on buying/selling, see our [Bittrex FAQ](/faq/buy-sell
 
 ## Decentralized exchanges (DEX)
 - [Bisq](https://bisq.network)
-- [BlockDX](https://blockdx.com/)
+- [BlockDX](https://blockdx.net/)
