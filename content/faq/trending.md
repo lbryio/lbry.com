@@ -56,7 +56,7 @@ You can also explore each tag by clicking on it from anywhere on the screen or u
 
 ## How does content make it into top or trending?
 
-Top content is based on calculations around the total LBC value of content, which is accumulated through the claim bid amount plus any community [tipping and supports](https://lbry.com/faq/tipping). Trending is similar and is based on tip/support changes over a period of time. The Top category is normally instant - the highest-ranked LBC content will appear at the top when published in the time periods specified. Trending takes some time to update and larger tips/supports may see a delay to avoid abuse.
+Top content is based on calculations around the total LBC value of content, which is accumulated through the claim bid amount plus any community [tipping and supports](https://lbry.com/faq/tipping). Trending is similar and [is based on tip/support changes over a period of time](https://raw.githubusercontent.com/lbryio/scribe/master/scribe/elasticsearch/trending%20algorithm.pdf). The Top category is normally instant - the highest-ranked LBC content will appear at the top when published in the time periods specified. Trending takes some time to update and larger tips/supports may see a delay to avoid abuse.
 
 ## How is this different from YouTube?
 
