@@ -16,12 +16,6 @@ For a more in depth guide on buying/selling, see our [Bittrex FAQ](/faq/buy-sell
 - [Hotbit](https://www.hotbit.io/exchange?symbol=LBC_BTC) / [USDT](https://www.hotbit.io/exchange?symbol=LBC_USDT)
 - [CoinEx](https://www.coinex.com/exchange?currency=btc&dest=lbc) / [USDT](https://www.coinex.com/exchange?currency=usdt&dest=lbc)
 
-## Instant exchanges - Crypto Only (currently under maintenance and not available)
-- [Simple Swap](https://simpleswap.io)
-- [Stealthex](https://stealthex.io/)
-- [SwapSpace](https://swapspace.co)
-- [Swapzone](https://swapzone.io)
-
 ## Decentralized exchanges (DEX)
 - [Bisq](https://bisq.network)
 - [BlockDX](https://blockdx.com/)
