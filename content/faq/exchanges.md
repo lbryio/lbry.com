@@ -7,8 +7,6 @@ We are listed on several cryptocurrency exchanges. You can buy or sell LBRY Cred
 
 For a more in depth guide on buying/selling, see our [Bittrex FAQ](/faq/buy-sell-bittrex).
 
-## Buy or convert crypto to Credits in-app
-
 ## Traditional crypto exchanges
 - [Bittrex - International Only, US Trading Disabled](https://bittrex.com/Market/Index?MarketName=BTC-LBC) ([USD](https://bittrex.com/Market/Index?MarketName=USD-LBC), [ETH](https://bittrex.com/Market/Index?MarketName=ETH-LBC), [USDT](https://bittrex.com/Market/Index?MarketName=USDT-LBC))
 - [MXC](https://www.mxc.la/trade/easy#LBC_USDT)
