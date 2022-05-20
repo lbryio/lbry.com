@@ -3,7 +3,7 @@ title: Is there a standalone wallet?
 category: wallet
 ---
 
-Yes, please visit [Coinomi](http://www.coinomi.com) to download their excellent and easy to use wallet, and [ViaWallet](https://viawallet.com/) which is powered by ViaBTC, the owner of CoinEx. You can also use the [LBRY Desktop App](https://lbry.com/get) or [lbry.tv](https://lbry.tv) simply as a wallet. 
+Yes, please visit [Coinomi](http://www.coinomi.com) to download their excellent and easy to use wallet, and [ViaWallet](https://viawallet.com/) which is powered by ViaBTC, the owner of CoinEx. You can also use the [LBRY Desktop App](https://lbry.com/get) or [Odysee](https://odysee.com) as a wallet. 
 
 For technical users, we have
 
