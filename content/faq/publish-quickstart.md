@@ -15,7 +15,7 @@ We'll start with publishing on LBRY Desktop and Odysee.com. Scroll down or [clic
 ![publish-menu](https://spee.ch/2/73d8c9c9e2267c62.png)  
 1. From top left dropdown menu, you can choose channel you want to use for current publish.
 1. Choose *Name* for your publish. (This will become part of the URL of your publish and can't be edited later, learn more from here: [Naming](/faq/naming))
-1. Set *Title* for your publish. (This is the title shown with thumbnaile, when browsing the website or apps, and it can be edited later.)
+1. Set *Title* for your publish. (This is the title shown with thumbnail, when browsing the website or apps, and it can be edited later.)
 1. Select the file you want to publish by clicking **Browse**. On desktop app you may have option to ![automatically transcode](/faq/video-publishing-guide#automatic) video for better streaming performance.
 ![choose-file&name](https://spee.ch/6/2b648d023e2bd64c.png)
 1. Fill in other details for the content you are uploading, including description, tags, thumbnail, possible price, etc. 
