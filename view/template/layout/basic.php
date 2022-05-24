@@ -12,8 +12,8 @@
       'LBRY' ?>
     <title><?php echo $title ?></title>
 
-    <link rel="stylesheet" href="https://rsms.me/inter/inter.css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@master/distr/fira_code.css"/>
+    <link rel="stylesheet" href="/font/inter/inter.css"/>
+    <link rel="stylesheet" href="/font/fira-code/fira_code.css"/>
     <link rel="stylesheet" href="/components/dist/index.css"/>
 
     <?php foreach (Response::getCssAssets() as $src): ?>
