@@ -1,5 +1,5 @@
 ---
-title: What moderation tools are avaialble?
+title: What moderation tools are available?
 category: publisher
 order: 5
 ---
