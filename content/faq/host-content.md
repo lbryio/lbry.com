@@ -5,7 +5,7 @@ category: getstarted
 
 Right now, it's simple: you host what you download and publish on the LBRY Desktop app (hosting not available on odysee.com or Android). The hosted data is stored in the [lbrynet/blob files folder](https://lbry.com/faq/lbry-directories). On publish, the content is also sent to LBRY in order to help re-host content so your PC does not need to remain available.
 
-While LBRY Desktop is running, it communicates to the network whatever content you're making available. For proper communication to occur, your router must have UPNP enabled or you have to manually port forward 3333 TCP / 4444 UDP (see router on how to do so, each one is different).
+While LBRY Desktop is running, it communicates to the network whatever content you're making available. For proper communication to occur, your router must have UPNP enabled or you have to manually port forward 4444 TCP / 4444 UDP (see router on how to do so, each one is different).
 
 Think of it like how torrents or any other peer-to-peer (P2P) service works. First, you download a file from the host(s) that have made it available via seeding. When the download has finished, you become a host in the network (seeder) that other people can download from.
 
@@ -19,7 +19,7 @@ To set ports manually, set values for following options in [lbrynet/daemon_setti
 udp_port: <udp_port>
 tcp_port: <tcp_port>
 ```
-_Note:_ If the tcp port falls between port numbers 3333 and 3399 (inclusive), the UDP port should be set to 1111 higher than the TCP port. Otherwise, the UDP port should be set to the same port number as the TCP port.
+_Note:_ If the TCP port falls between port numbers 3333 and 3399 (inclusive), the UDP port should be set to 1111 higher than the TCP port. Otherwise, the UDP port should be set to the same port number as the TCP port.
 
 ## Moving hosted content
 Currently, this process is manual and you can see our [FAQ on how to move the hosted content](/faq/how-to-change-lbry-blob-files) to another drive.
