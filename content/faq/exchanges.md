@@ -18,3 +18,6 @@ For a more in depth guide on buying/selling, see our [Bittrex FAQ](/faq/buy-sell
 - [Bisq](https://bisq.network)
 - [BlockDX](https://blockdx.com/)
 - [AtomicDEX](https://atomicdex.io)
+
+## Cross-Chain Exchanges
+- [pNetwork](https://dapp.ptokens.io/swap?asset=lbc&from=lbc&to=bsc)
