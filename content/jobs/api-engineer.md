@@ -1,7 +1,7 @@
 ---
 title: Backend Engineer
 order: 6
-status: active
+status: closed
 location: remote (global)
 ---
 
