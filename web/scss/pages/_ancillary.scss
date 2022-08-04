@@ -116,10 +116,10 @@
 
   ol,
   ul {
-    //list-style-position: outside;
+    list-style-position: outside;
 
     li {
-      //list-style-position: inherit;
+      list-style-position: inherit;
 
       //&:not(:first-of-type) {
         margin-top: 0.5rem;
