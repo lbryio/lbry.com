@@ -13,6 +13,7 @@ For a more in depth guide on buying/selling, see our [Bittrex FAQ](/faq/buy-sell
 - [BitMart](https://www.bitmart.com/trade/en?symbol=LBC_USDT&layout=basic) / [USDT](https://www.bitmart.com/trade/en?symbol=LBC_USDT&layout=basic)
 - [Hotbit](https://www.hotbit.io/exchange?symbol=LBC_BTC) / [USDT](https://www.hotbit.io/exchange?symbol=LBC_USDT)
 - [CoinEx](https://www.coinex.com/exchange?currency=btc&dest=lbc) / [USDT](https://www.coinex.com/exchange?currency=usdt&dest=lbc)
+- [CoinSpot](https://www.coinspot.com.au/chart/lbc) 
 
 ## Decentralized exchanges (DEX)
 - [Bisq](https://bisq.network)
