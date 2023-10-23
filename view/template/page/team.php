@@ -9,7 +9,10 @@
       <h2>Teamwork makes the dream work</h2>
     </div>
   </section>
-
-  <p>No one.</p>
+  <section>
+    <div class="inner-wrap">
+      <p>No one.</p
+    </div>
+  </section>
 
 </main>
