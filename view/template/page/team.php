@@ -11,7 +11,7 @@
   </section>
   <section>
     <div class="inner-wrap">
-      <p>No one.</p
+      <p>No one works at LBRY Inc. any longer.</p
     </div>
   </section>
 
