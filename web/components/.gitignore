@@ -1,8 +1,0 @@
-# Files
-.DS_Store
-.env
-*.log
-.sass-cache
-
-# Directories
-node_modules
