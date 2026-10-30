@@ -3,7 +3,7 @@ title: Buying and selling Credits on crypto exchanges
 category: getstarted
 ---
 
-Note: Bittrex is currently only available for Non-US based users.
+> **Historical guide:** Bittrex Global's exchange operators are in liquidation. Do not use the archived steps below to open an account, deposit funds or trade. Withdrawal and creditor procedures depend on the legal entity. Consult the [official Bittrex Global notice](https://bittrexglobal.com/). See also [Holder's exchange-status summary](https://holder.io/exchange/bittrex/).
 
 This guide is meant for informational purposes only and is not financial advice. 
 
