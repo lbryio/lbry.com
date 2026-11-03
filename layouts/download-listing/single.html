@@ -1,0 +1,10 @@
+{{ define "main" }}
+{{ $selected := false }}
+{{ with .Params.download_os }}{{ $selected = index (where hugo.Data.download_page.platforms "id" .) 0 }}{{ end }}
+{{ partial "downloads/view.html" (dict "platform" $selected) }}
+{{ range hugo.Data.download_page.platforms }}
+<template data-download-platform="{{ .id }}" data-document-title="{{ .title }}{{ if eq .id "ios" }} - LBRY{{ end }}">{{ partial "downloads/view.html" (dict "platform" .) }}</template>
+{{ end }}
+<template data-download-platform="" data-document-title="Get LBRY">{{ partial "downloads/view.html" (dict "platform" false) }}</template>
+<script src="/js/download.js"></script>
+{{ end }}

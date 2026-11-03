@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>LBRY News</title>
+    <link>https://lbry.com/news</link>
+    <description>Recent news about LBRY</description>
+    <generator>https://github.com/lbryio/lbry.io</generator>
+    <language>en</language>
+        <atom:link href="https://lbry.com/news/rss.xml" rel="self" type="application/rss+xml" />
+        <item>
+      <title>Development Update for February 2020</title>
+      <link>https://lbry.com/news/dev-feb20</link>
+      <guid>https://lbry.com/news/dev-feb20</guid>
+      <pubDate>Mon, 24 Feb 2020 16:00:00 +0000</pubDate>
+      <author>tom@lbry.com (Tom Zarebczan)</author>
+      <description>Welcome to the January-February 2020 LBRY Development update, the first of the new decade! In this post we’ll show you what we’ve been up to since our last update in December. Sit tight, there’s been lots of progress and releases, including updates from the Apps (Desktop, lbry.tv, and Mobile), SDK,…</description>
+      <content:encoded><![CDATA[
+        <p>Welcome to the January-February 2020 LBRY Development update, the first of the new decade! In this post we’ll show you what we’ve been up to since our <a href="https://lbry.com/news/nov-dec-dev-2019">last update in December</a>. Sit tight, there’s been lots of progress and releases, including updates from the Apps (Desktop, lbry.tv, and Mobile), SDK, and blockchain teams! </p>
+<p>To read previous updates, please visit our <a href="https://lbry.com/news/category/community-update">Development and Community Update archive</a>.</p>
+<p>If you want to see a condensed view of what we've completed recently and what’s planned for LBRY, check out our <a href="https://lbry.com/roadmap">Roadmap</a>. We’ve recently updated it with our 2020 priorities, and you can watch our <a href="https://lbry.tv/@lbry:3f/LBRY-2020-Roadmap-Release:6">video overview on lbry.tv</a>.</p>
+<p>Let’s start with some GitHub stats across all our repos since our last update about 51 days ago. 45 repos were updated. 770 issues were created and 100 were closed. 21 pull requests were merged. 13 GitHub users outside of LBRY made code contributions: <a href="https://github.com/kodxana">kodxana</a>, <a href="https://github.com/andbeletsky">andbeletsky</a>, <a href="https://github.com/Meantub">Meantub</a>, <a href="https://github.com/TigerxWood">TigerxWood</a>, <a href="https://github.com/Yamboy1">Yamboy1</a>, <a href="https://github.com/dalhill">dalhill</a>, <a href="https://github.com/eggplantbren">eggplantbren</a>, <a href="https://github.com/er013">er013</a>, <a href="https://github.com/joebass85">joebass85</a>, <a href="https://github.com/michaeltintiuc">michaeltintiuc</a>, <a href="https://github.com/mkroman">mkroman</a>, <a href="https://github.com/nestordominguez">nestordominguez</a>, <a href="https://github.com/osilkin98">osilkin98</a>, <a href="https://github.com/tuxfoo">tuxfoo</a>, and <a href="https://github.com/ykris45">ykris45</a>.</p>
+<p>Thanks to everyone who took time from their busy days to help LBRY out!</p>
+<h2>In this report</h2>
+<ul>
+<li><a href="#summary-desktop">Desktop app</a> </li>
+<li><a href="#summary-sdk">SDK</a> </li>
+<li><a href="#web">lbry.tv</a></li>
+<li><a href="#thumbs">Thumbnails on LBRY</a></li>
+<li><a href="#android">LBRY for Android</a></li>
+<li><a href="#blockchain">Blockchain</a></li>
+<li><a href="#youtube">YouTube Sync</a></li>
+<li><a href="#rewards">New creator repost reward is live, analytics via email, and a special surprise</a></li>
+<li><a href="#roadmap">2019 review and new 2020 roadmap</a></li>
+</ul>
+<h2 id="summary-desktop">Desktop app</h2>
+<p>Since our last development update, the app team shipped two named releases: <a href="https://github.com/lbryio/lbry-desktop/releases/tag/v0.39.0">0.39.0</a>, under codename <a href="https://lbry.com/news/joule">Joule</a>, and <a href="https://github.com/lbryio/lbry-desktop/releases/tag/v0.41.0">0.41.0</a>, under codename <a href="https://lbry.com/news/kelvin">Kelvin</a>. Both continue to improve user experience through homepage improvements and a new repost feature. Version number 0.40 was skipped due to a bad build, and <a href="https://github.com/lbryio/lbry-desktop/releases/tag/v0.42.0">0.42.0</a> finished up the repost work started in Kelvin by allowing them to be created in the directly in the app. </p>
+<h3>Joule improvements - homepage, invites, and more</h3>
+<p>Joule brought a huge revamp to the homepage experience by moving away from the default trending + tags view, to a more dynamic and larger tile listing of your preferred content. </p>
+<p>We want to make the experience more about the content you’re already interested in, as opposed to trying to force you into trending-first discovery as in previous versions. The other main feature in this release was invites. We re-worked this area allowing users to share special invite URLs featuring their channels instead of a random invite code. Inviting friends and fans of your channel has never been easier! </p>
+<p>A bit more on the UI changes: front and center is your Following feed, which includes two rows of the latest content from your subscriptions. Below this you are presented with trending content for some of your tags, then trending across LBRY, and finally content from the @lbry channel to help you stay up to date with the latest news and happens on our platform. Each of these sections can be clicked into via the hyperlink to a more detailed listing. We moved from dropdowns to more user-friendly buttons to sort by top/trending/new. The sidebar is also a bit more dynamic and shows your followed tags or channels, depending on your choice of view. </p>
+<p><img src="https://spee.ch/@lbrynews:0/lbry-joule.gif" alt="Joule" /></p>
+<h3>Kelvin features - reposts, top claims, autoplay, and more</h3>
+<p>In Kelvin, we added the ability to display reposts. This is a new feature created for LBRY and is similar to what you’ve seen on platforms like Twitter where you can repost someone else’s content to your own feed. </p>
+<p>We are hoping it will help in the discovery process as it allows creators to share content from other creators. It also enables a cool new type of channel, dedicated to curating content. We call these repost only-channels (check out <a href="https://lbry.tv/@Top-LBRY-YouTubers:d">lbry://@Top-LBRY-YouTubers</a> for an example). Another cool use case is the ability to repost your own or others’ content under a different URL (i.e. when you go to lbry://lbryrocks it redirects to lbry://jiggytom). </p>
+<p>On LBRY, reposts work by creating a new claim, which references the content you are reposting, and signs it with your channel. Attribution still goes to the original claim holder, i.e. tips go to them, but your channel can still get tipped for having a well curated feed or helping share content from other creators you enjoy. Version 0.42 introduced the ability to make reposts directly from file pages. By default, it keeps the same claim name as the original post, and specifies a low bid. However, you can also change the claim name and bid to anything you want (e.g., with the jiggytom example above, the claim name was changed, and you might want the bid to be high enough to obtain the vanity name). Sometimes it requires you to do so as the app currently doesn't allow a wallet to have two claims with the same name at present.</p>
+<p>We also added a top claims page when typing any URL in the search bar, see <a href="https://lbry.tv/$/top?name=elon-musk">lbry://elon-musk</a>. This page also allows you to directly support this content to help it appear higher in the search and trending. Finally, other new features include a download button on claim hover, new icons that show the file type, and the ability to edit and delete your own comments. </p>
+<p><img src="https://spee.ch/5/lbry-kelvin.gif" alt="Kelvin" /></p>
+<h3>Other features, tweaks, and bug fixes</h3>
+<p>Other new features and changes in Joule/Kelvin, and since our last update include:</p>
+<ul>
+<li>Autoplay next improvements: a countdown/cancel button, prevent playing channels/blocked content, remove mature recommendations on non-mature content </li>
+<li>More languages: Danish, Romanian, and Urdu.</li>
+<li>Improved display and handling of text content including markdown.</li>
+<li>AppImage support on Linux, including seamless auto upgrades!</li>
+<li>Authentication data now stored in a cookie rather than keyring (including a migration).</li>
+<li>Ability to unfollow deleted channels.</li>
+<li>Fix followed-channel syncing between devices.</li>
+<li>Thumbnail of content auto-generated on lbry.tv when no thumbnail is present.</li>
+<li>Improved embed links - with support Twitter video, thumbnails, and better autoplay support (off by default).</li>
+</ul>
+<h3>Privacy at LBRY</h3>
+<p>If you’ve checked out the @lbry channel recently, you may have seen our <a href="https://lbry.tv/@lbry:3f/privacy-update:f">latest video explaining privacy changes coming to LBRY</a>. On the desktop side, it will now be clearer which types of data is tracked and by whom, and users will have control over their settings. Both new and existing users will be prompted with the above welcome screen on startup. Users who choose to sign into lbry.tv on desktop will have to at least share data with LBRY to be eligible to earn rewards. Telemetry and other analytics data through Google Analytics will be opt-in. </p>
+<p><img src="https://spee.ch/4/privacy-lbry.jpeg" alt="privacy" /></p>
+<h3>Channel discovery on first run</h3>
+<p>In order to help users better curate their homepage and follow channels they will enjoy, we’ll be encouraging following of top channels during the first run process on sign in. We’ve also revamped the <a href="https://lbry.tv/$/following/channels/discover">Discover New Channels page</a> to show top, trending, and channels from @lbrycast to aid in content discovery. </p>
+<p><img src="https://spee.ch/2/find-new-2.jpg" alt="findchanels" /></p>
+<h3>Additional discovery filters</h3>
+<p>We want to give users more control over discovery, so we’ll be adding additional options to filter by similar to those you’ve seen on the search page. At first, these will include: claim type (reposts, channels, streams), file type (video/audio/document), and duration. We’ll be adding more like free/paid, language, and release time. </p>
+<p><img src="https://spee.ch/a/filters-1.jpg" alt="filters" /></p>
+<h2 id="summary-sdk">SDK</h2>
+<p>On the SDK side of the house, we’ve shipped versions every weeks since our last update: <a href="https://github.com/lbryio/lbry-sdk/releases/tag/v0.52.0">0.52.0</a>, <a href="https://github.com/lbryio/lbry-sdk/releases/tag/v0.53.0">0.53.0</a>,
+<a href="https://github.com/lbryio/lbry-sdk/releases/tag/v0.53.0">0.54.0</a>,
+<a href="https://github.com/lbryio/lbry-sdk/releases/tag/v0.55.0">0.55.0</a>,
+<a href="https://github.com/lbryio/lbry-sdk/releases/tag/v0.56.0">0.56.0</a>, 
+<a href="https://github.com/lbryio/lbry-sdk/releases/tag/v0.57.0">0.57.0</a>, 
+<a href="https://github.com/lbryio/lbry-sdk/releases/tag/v0.58.0">0.58.0</a>, 
+<a href="https://github.com/lbryio/lbry-sdk/releases/tag/v0.59.0">0.59.0</a>, 
+<a href="https://github.com/lbryio/lbry-sdk/releases/tag/v0.60.0">0.60.0</a>, and the latest patch at <a href="https://github.com/lbryio/lbry-sdk/releases/tag/v0.60.1">0.60.1</a>. </p>
+<p>The main features and bug fixes include:</p>
+<ul>
+<li>Add file transcoding options (see below).</li>
+<li>New <a href="https://github.com/lbryio/lbry-sdk/pull/2811">wallet server indexes</a> and ability to filter by duration (coming to an app soon!).</li>
+<li>Reflected status on file list.</li>
+<li>Ability to pay wallet servers (not enabled by default).</li>
+<li>Torba, the wallet, is now part of the main lbry-sdk codebase.</li>
+<li>Ability to update comments (editing).</li>
+<li>Wallet sync speed improvements through batching.</li>
+<li>UPnP improvements to support more routers.</li>
+<li>Add ability to pass blocking and filtering channels to wallet server configurations.</li>
+<li>Add Prometheus metrics for better monitoring.</li>
+<li>Add additional trending algorithm called AR which is more responsive by recalculating every 10 blocks (Thanks @EF).</li>
+<li>Resolve flag to claim/stream/channel list (to get canonical urls and other trending metadata).</li>
+</ul>
+<p><img src="https://spee.ch/b/headers-sync.png" alt="sync" /></p>
+<h3>Transcoding of content on upload</h3>
+<p>The latest SDK includes the ability to transcode content during the publish process if FFMPEG is installed on the system. It must be present in the path, or specified via the ffpmeg_folder configuration item in daemon_settings. There are two flags available: 
+<strong>--validate_file</strong> -  validate that the video container and encodings match common web browser support or that optimization succeeds if specified.
+<strong>--optimize_file</strong> -  transcode the video &amp; audio if necessary to ensure common web browser support. </p>
+<p>The first will simply tell you whether or not the file is within spec for typical streaming scenarios at LBRY (i.e. it will check the bitrate, that it’s web optimized - faststart, and has the correct encoding) and won’t actually transcode. The 2nd flag is the one that does the transcoding to the most compatible spec (h264/AAC, faststart, streamable bitrate). A new file is created along side the original in the same folder, which is then used to upload to LBRY. Currently this file must be manually deleted. </p>
+<p><img src="https://spee.ch/0/sdk-validate.png" alt="validate" /></p>
+<h3>Claim search indexes added</h3>
+<p>We recently revamped our <a href="https://github.com/lbryio/lbry-sdk/pull/2811">wallet server indexes</a> to include additional sorting and filtering options so that the Desktop app can give users advanced discovery options. This includes duration, claim type, stream type, fee amount, and channels. We also cleaned up some old indexes for trending global that were not being used. Currently there is a limitation with SQLite where only one index can be used at a time and we hope we can take more advantage of multiple indexes when we move to a POSTGRES database. </p>
+<h3>Faster sync and performance improvements</h3>
+<p>The SDK team has also been working closely with the blockchain team on sharing/consuming data directly without having to sync. Part of this work will also allow us to make the client/server work directly together without having to make additional calls to sync address data, transaction history, and to make claim search/resolve calls. This is going to speed things up considerably for the lbry.tv use case.</p>
+<h3>BitTorrent progress</h3>
+<p>We’ve made additional progress on our ability to download Torrent files directly into the LBRY app as if they were regular LBRY files. These will show up in file list alongside LBRY files and will give app users more decentralized content options by allowing Torrent downloads.</p>
+<h2 id="web">lbry.tv</h2>
+<p>After the silent lbry.tv launch, we officially launched lbry.tv at the end of January, and have been heavily promoting it throughout February. We’ve had tons of new users sign up for the LBRY app experience on the web and we are thrilled with the growth and attention we are seeing! </p>
+<p>With this large and quick growth, we’ve also experienced technical and resource growing pains. Although we’ve added additional streaming servers in the US, they are sometimes still overloaded, causing buffering issues. Our plan to to add additional servers here and around the world in the next couple of weeks - lbry.tv will be able to figure out which server is the best for a particular user. </p>
+<p>On the SDK side, we’ve also seen large loads due to many wallets being loaded and tons of wallet related activity. Some of the calls are not optimized yet, which may bog down the experience for some users. This led us to scale up with additional SDK servers, and we are currently moving to a cluster solution to support more traffic across multiple server instances. We are also re-working some of the inner designs of how the SDKs interact with wallet servers to provide the most optimized environment for users (there’s really no need to have these databases on separate servers like the typical LBRY app &gt; wallet server connection we have today). </p>
+<p>We are excited to see how performance improves once we get the larger server and SDK improvements in place. Thank you for bearing with us during some of the downtimes and slowness during this large growth period. We promise a much smoother experience is on the horizon. </p>
+<h3>Monitoring data and metrics</h3>
+<p>During the last couple of months, we’ve beefed up our system monitoring and metrics tools to get a better understanding of the lbry.tv environment and the pieces that come into play. We’re integrating Prometheus into more of the various layers, and using a tool called Grafana to put together some fantastic metrics and monitoring tools so we can understand what’s happening at a glance. </p>
+<p><img src="https://spee.ch/9/metrics-lbry.jpeg" alt="metrics" /></p>
+<h3>Dedicated streaming servers</h3>
+<p>As LBRY becomes increasingly more popular, we have to ensure the network remains stable and fast when it comes to content delivery. For this reason, we provisioned multiple servers with absurdly high capacity (almost 50TB of space) to better cache and quickly deliver content straight to our users. If you're interested in running your own content storage you should stay tuned as we will likely release instructions on how to better help the network en masse.</p>
+<p>One key component that we detached and deployed as a standalone service is the streaming server itself, which used to be part of lbry.tv. It now has its <a href="https://github.com/lbryio/lbrytv-player">own repository</a> and runs on several dedicated servers. The improvement was very noticeable: the website became snappier, loaded faster and most importantly, videos played more reliably!</p>
+<p>We intend to continue working on scaling lbry.tv better and reaching regions all around the world providing an experience at least comparable to the one North Americans are having now.</p>
+<h3>Invite page</h3>
+<p>With our invites improvements, there is now a dedicated landing page for content creator’s channels when they share their invite links. Once a user hits an invite URL, they are automatically subscribed to the channel, the invite is credited, and new users can proceed to create a lbry.tv account. </p>
+<p><img src="https://spee.ch/6/invite-page.jpg" alt="invite" /></p>
+<h3>Privacy on lbry.tv</h3>
+<p>As part of our privacy improvements for DTF February week 3, we’ve made it clearer that lbry.tv collects usage information, even with third parties like Google Analytics. Users who wish to opt out can run the Desktop app, or run an ad blocker that disables typical GA products. </p>
+<p><img src="https://spee.ch/0/privacy---lbrytv.jpg" alt="privacy-lbrytv" /></p>
+<h2 id="thumbs">Thumbnails on LBRY</h2>
+<p>You may have noticed a few instances where the Thumbnail upload service was down due to spee.ch having issues. The spee.ch wallet and server have grown very large over the years due to tens of thousands of thumbnail uploads. We are exploring solutions to replace this, one of which is adding a special 2MB blob directly to the file itself which will store the thumbnail. Thank you for your patience while we work out a better solution.</p>
+<h2 id="android">LBRY for Android</h2>
+<p>Since our last update, our team has released <a href="https://github.com/lbryio/lbry-android/releases/tag/0.12.2">0.12.2</a> codename [Fireworks] (<a href="https://lbry.com/news/fireworks">https://lbry.com/news/fireworks</a>) and <a href="https://github.com/lbryio/lbry-android/releases/tag/0.13.0">0.13.0</a> codename <a href="https://lbry.com/news/android-galaxy">Galaxy</a> which continue to polish up the Android app experience, and bring it closer to feature parity with Desktop/lbry.tv. </p>
+<h3>Fireworks</h3>
+<p>Fireworks greatly improved the search experience by preloading content from the lighthouse search service so it didn’t need to be resolved, basic text rendering (including markdown), added view and follower counts, ability to download videos/content, and removed sign in on first run. You’ll see the content download progress in the notification bar, file page, and in the Library area - you can stop downloads from any of the areas too. </p>
+<p><img src="https://spee.ch/@lbrynews:0/fireworks-android.jpeg" alt="fireworks" /></p>
+<h3>Galaxy</h3>
+<p>The Galaxy release enabled a long awaited feature on Android - Invites! This area works similar to the one on Desktop/lbry.tv where you can select (or create) a channel to customize you invite URL. You can also invite via email, and see your invite list. The invite reward must be claimed from the rewards page which now has a filter for claimed/unclaimed invites. </p>
+<p><img src="https://spee.ch/3/galaxy-lbry-android.jpg" alt="Galaxy" /></p>
+<h3>Other improvements and bug fixes</h3>
+<p>Other new features and changes in Fireworks/Galaxy, and since our last update include:</p>
+<ul>
+<li>More responsive content pages (related content delayed load).</li>
+<li>Quick skip in videos (10 seconds at a time).</li>
+<li>Improved search results when dealing with non-mature content (no mature content suggested even with setting enabled).</li>
+<li>Fixed background playback bugs (still happens rarely).</li>
+<li>Purchase confirmations for paid content.</li>
+<li>Tipping of channels directly from channel pages.</li>
+<li>Improved notifications at bottom of the screen.</li>
+</ul>
+<h3>First run improvements around following and reposts</h3>
+<p>Next steps for Android include the similar first run changes as Desktop where we want to encourage users to follow creators for a better overall experience. Currently reposted claims do not display correctly on Android and thus are not accessible, so we will also be adding basic repost display and repost capabilities to match lbry.tv/Desktop. </p>
+<p><img src="https://spee.ch/d/Follow-android.jpg" alt="follow" /></p>
+<h3>F-Droid</h3>
+<p>As part of our privacy initiative for DTF February, we’ve begun making the necessary changes to our build process and removing analytics/Firebase so that we can be officially part of the F-Droid repository. Both of these were requirements in order to be considered and require a standalone SDK build without buildozer and a refactor of our code to easily remove GA. Since Firebase will also be removed, these versions will not have notification capabilities until we can replace it with a non-Google alternative. </p>
+<h2 id="blockchain">Blockchain</h2>
+<p>In the last couple of months, the blockchain team has been working on two main tasks - assisting the SDK team with a single claim database mechanism and bringing in Bitcoin version 19 upstream changes. The claim database redesign will allow the LBRY SDK to directly access claim data without having the wallet servers needing to sync from LBRYcrd, which is currently a slow and tedious process. </p>
+<p>The Bitcoin version 19 changes will bring additional stability improvements to our codebase, but will force us to revamp how our tipbots work since the accounts mechanism is removed in this version. The team has also been assisting with providing the video transcoding capabilities in the SDK and debugging slowness of wallet related calls. </p>
+<h2 id="youtube">YouTube Sync</h2>
+<p>YouTube Sync has played a fundamental role in the previous months. YouTube has become more aggressive in censoring topics and channels on their platform and with their recent ban on crypto related videos we've observed a huge influx of new creators wanting to transfer to LBRY. During the first month and a half of the year we published more than 200,000 new videos with an average of 4500 videos every day!</p>
+<p>With so many new users and creators flooding into LBRY we had to better optimize the process of syncing new channels and keeping previous ones up to date. We have been very successful at that as we not only managed to keep up with the great demand, we also reduced the time it takes for popular channels to be updated: while in the past it would take up to 24 hours for a new video to appear on LBRY, we've reduced this latency to up to 3 hours maximum.
+We're currently researching ways to further speed this process up as we'd like to see new videos come in as soon as they're released on YouTube.</p>
+<p><img src="https://spee.ch/8/sync-channels.jpeg" alt="channels" /></p>
+<p>(source: <a href="https://lbry.social/lbrynomics/live-graphs/">https://lbry.social/lbrynomics/live-graphs/</a>)</p>
+<h2>New creator repost reward is live, analytics via email, and a special surprise</h2>
+<p>Recently we rolled out a new reward around the repost feature and our DTF February campaign which allows creators with at least 50 validated followers to re-share content from five different creators to earn 105 LBC. We think this will help users discover new channels from the creators they already follow, and helps creators co-promote their content between channels. </p>
+<p>We’ve been working on a new email that will go out weekly to creators to share some of their analytics for the last week. This will also eventually feed data into the LBRY apps to show similar information. </p>
+<p>Finally, we’ve got <a href="https://lbry.tv/@lbry:3f/hmmm:4">a big surprise scheduled for the final week of February</a> to our largest and most loyal content creators. If you are one of them, you should have received an email asking for some information from you, and we’ll publically share what the special gift is later this week! </p>
+<p><img src="https://spee.ch/2/stats-creators.jpg" alt="creatorstats" /></p>
+<h2 id="roadmap">2019 review and new 2020 roadmap</h2>
+<p>We’re excited to announce our <a href="https://lbry.tv/@lbry:3f/LBRY-2019-Review:0">2019 review by Jeremy</a> and the <a href="https://lbry.com/roadmap">roadmap for 2020</a>! Jeremy covers the roadmap in details on our lbry.tv channel in both <a href="https://lbry.tv/@lbry:3f/LBRY-2020-Roadmap-Release:6">video</a> and <a href="https://lbry.tv/@lbry:3f/lbry-in-2019-2020:5">text formats</a>. </p>
+<p>Everyone at LBRY is excited about what’s in store for this year, especially with the interest we’ve seen in lbry.tv and more awesome creators coming on board. We hope to continue improving the creator experience through analytics and LBRY first publishing, which we think will change the game considerably (once content is exclusive on LBRY for the first X hours).</p>
+<h2>Limited Reward Code!</h2>
+<p>We’ve got a special bonus for readers of this update, enjoy some LBC via this code (while supplies last!): <code>feb-dev-yuosd</code></p>
+<h2>Want to Develop on the LBRY ecosystem?</h2>
+<p>All of our code is open source and available on <a href="https://github.com/lbryio">GitHub</a>. Are you a developer and want to find out more? Check out our <a href="https://lbry.tech/contribute">contributing guide</a> and our <a href="https://github.com/lbryio/lbry-app/blob/master/CONTRIBUTING.md">LBRY App specific contributing document</a>. Make sure you have turned on the Developer option in your email preferences (see app overview page), or sign up at <a href="https://lbry.tech">lbry.tech</a>. We also have a <a href="https://discourse.lbry.io">LBRY Discourse Forum</a> where developers can interact with the team and ask questions across all our different projects. </p>
+<p>If you aren’t part of our Discord community yet, join us anytime and say hello! </p>
+<p>Our community allows LBRYians to interact with the team directly and for us to engage users in order to grow the LBRY platform. Also follow us on <a href="https://twitter.com/lbrycom">Twitter</a>, <a href="https://facebook.com/lbrycom">Facebook</a>, <a href="https://www.reddit.com/r/lbry">Reddit</a>, <a href="https://bitcointalk.org/index.php?topic=5116826.new#new">BitcoinTalk</a>, and <a href="https://t.me/lbryofficial">Telegram</a>. </p>
+<p>Thanks for supporting LBRY - stay tuned for more news and updates! And if you haven’t downloaded the <a href="https://lbry.com/get?auto=1">LBRY app</a> yet, what are you waiting for?</p>      ]]></content:encoded>
+    </item>
+        <item>
+      <title>Looking Back and Moving Forward: LBRY in 2019/2020</title>
+      <link>https://lbry.com/news/lbry-in-2019-2020</link>
+      <guid>https://lbry.com/news/lbry-in-2019-2020</guid>
+      <pubDate>Fri, 07 Feb 2020 17:17:17 +0000</pubDate>
+      <author>jeremy@lbry.com (Jeremy Kauffman)</author>
+      <description>How was your year, everyone? Ours was… okay. Before we begin our annual review, let’s go ahead and knock out the sentence that’s been in this thing three years running. Our token price is irrelevant compared to what actually matters: building and marketing a technology that solves problems and is…</description>
+      <content:encoded><![CDATA[
+        <p>How was your year, everyone? Ours was… okay.</p>
+<p><img src="https://spee.ch/1/lbrytvq12020weekly.png" alt="Weekly lbry.tv User Graph" /></p>
+<p>Before we begin our annual review, let’s go ahead and knock out the sentence that’s been in <a href="https://lbry.com/news/lbry-in-2018-2019">this thing three years running</a>.</p>
+<p>Our token price is irrelevant compared to what actually matters: building and marketing a technology that solves problems and is a joy to use.</p>
+<p>By that metric, LBRY had it’s best year yet, and by a pretty absurd percent: our <strong>weekly user numbers are up about 20x year-over-year</strong>.</p>
+<p>As lbry.tv has made it easier to embed and show video content to everyone, we're moving away from written blog posts to video content for our yearly review and roadmap announcement.</p>
+<h2>Looking back at 2019</h2>
+<h3>See the 2019 Report Card</h3>
+<p><a href="https://lbry.com/2019goalsreportcard">Open the report card spreadsheet</a> and follow along with the video below.</p>
+<h3>Watch the 2019 roadmap review video</h3>
+<iframe width="560" height="315" src="https://lbry.tv/$/embed/LBRY-2019-Review/0368a0ccd107d86c6fe953ffc980b0da40db3455" allowfullscreen></iframe>
+<h2>Looking forward to 2020</h2>
+<h3>See the 2020 Roadmap</h3>
+<p><a href="https://lbry.com/roadmap">Open the roadmap</a> and follow along with the video below.</p>
+<h3>Watch the 2020 roadmap release video</h3>
+<iframe width="560" height="315" src="https://lbry.tv/$/embed/LBRY-2020-Roadmap-Release/64eb16ad73773ef9a894918a8f2d2066993d5c77" allowfullscreen></iframe>
+<h2>Now spread LBRY love</h2>
+<p>We're only going to <a href="https://lbry.tv/@lbry:3f/downtofollowfebruary:b">give away 5,000,000 LBC, but only if you f*&amp;(@# your friends</a>.</p>      ]]></content:encoded>
+    </item>
+        <item>
+      <title>Down to F*&amp;%@# February</title>
+      <link>https://lbry.com/news/2002dtf</link>
+      <guid>https://lbry.com/news/2002dtf</guid>
+      <pubDate>Wed, 05 Feb 2020 12:00:00 +0000</pubDate>
+      <author>jeremy@lbry.com (Jeremy Kauffman)</author>
+      <description>Five million LBC for fifty thousand people, because February is a month for people who like to F… ...ollow their favorite creators and be free on LBRY. We’re following up the lbry.tv launch finally firing with Down to Follow February. Down to Follow February will: Funnel up to five million…</description>
+      <content:encoded><![CDATA[
+        <h2>Five million LBC for fifty thousand people, because February is a month for people who like to F…</h2>
+<p>...ollow their favorite creators and be free on LBRY.</p>
+<p>We’re following up the lbry.tv launch finally firing with Down to Follow February.</p>
+<p>Down to Follow February will:</p>
+<ol>
+<li>Funnel up to five million LBC to creators, existing users, and new users.</li>
+<li>Feature something fantastic for creators and fans each week this month.</li>
+</ol>
+<h2>Down to Follow Announcement Video</h2>
+<iframe width="560" height="315" src="https://lbry.tv/$/embed/DTF-Feb/ebb024d2976eeb2c30b50dc0c8380deb4eac64ca" allowfullscreen></iframe>
+<h2>Down to Follow February Specifics</h2>
+<p>The program has three parts.</p>
+<h3>15 LBC for Everyone</h3>
+<p>If five hundred thousand new follows happen and fifty thousand new users join LBRY in February, *<em>everyone who participates</em> in DTF February gets 15 LBC**.</p>
+<p>Participation is defined as: inviting a user, making a video about LBRY, or joining LBRY this month as a new user and following five creators.</p>
+<p>This is an ambitious but easily achievable goal. Have you told a friend or favorite creator about LBRY yet?</p>
+<h3>50,000 LBC for 5 Creators</h3>
+<p><strong>The number one way LBRY grows is by creators talking about it.</strong> </p>
+<p>Whether you’re a LBRY-exclusive creator or you post your content elsewhere, we’re asking you to encourage your audience to check you out and follow you on LBRY this month. That can be either by making a video about LBRY specifically, or mentioning LBRY in your other videos or other communications.</p>
+<p>50,000 LBC will be given to:</p>
+<ul>
+<li>The three creators that resulted in the most new users, as measured by invite and referral tracking.</li>
+<li>The creator who makes a video about LBRY with the most views on YouTube.</li>
+<li>The creator who makes a video about LBRY with the most views on Bitchute.</li>
+</ul>
+<p>We’ll also be giving rewards and tips to any creator who makes a good-faith effort to do this. You can make sure we see it by tagging us on Twitter, applying the #dtflbry tag to your video on LBRY, YouTube, or BitChute, or emailing us at <a href="mailto:hello@lbry.com">hello@lbry.com</a>.</p>
+<p>Please make sure to link to your invite page so you receive the 20 bonus LBC immediately after someone joins. If a new user does not visit your invite page, channel page, or a video of yours first, they become difficult to attribute.</p>
+<p><em>Note that unlike invite bonuses, creator rewards will be granted even if we do not hit the overall goal.</em></p>
+<h3>Invite Bonuses</h3>
+<p>If we hit our overall targets of five hundred thousand follows and fifty thousand new users, we’ll be granting some extra bonuses as the end of the month for invites:</p>
+<ul>
+<li>30 extra LBC for new users that follow five creators and visit five times (55 instead of 25).</li>
+<li>20 extra LBC per user invited that does the above (45 instead of 25)</li>
+</ul>
+<p>These bonuses will be awarded in a single reward in early March.</p>
+<h2>Down to Follow February Schedule</h2>
+<h3>Week 1: Goals</h3>
+<p>This first week is about setting and communicating goals. In addition to announcing and pushing out DTF February, <strong>we’ll be releasing our 2020 roadmap and our 2019 goals report card</strong>.</p>
+<h3>Week 2: Following and Reposts</h3>
+<p>The second week we’ll be releasing features to facilitate more following (and a better experience in general). This will primarily be from two features:</p>
+<ol>
+<li><strong>Reposts.</strong> Creators will be able to repost other creators, facilitating discovery across channels from creators that want to support each other and share great content made by others.</li>
+<li><strong>Revamped following.</strong> We will be updating the features around finding new channels and especially for new users, who will go through an explicit step to encourage this.</li>
+</ol>
+<h3>Week 3: Privacy and Education</h3>
+<p>We want to make sure <strong>everyone understands how their data is stored, when it is shared with others, and how to not share data you want private or inaccessible</strong> to third parties. </p>
+<p>In addition to some new features and changes here, we’ll be reaching out to privacy-oriented creators and communities.</p>
+<p>Are you a creator that cares about privacy, or a member of a community group that does? Please let us know!</p>
+<h3>Week 4: ???</h3>
+<p>This one would be spoiled if we announced it today, but it’s as big or bigger than all the others.</p>
+<h2>The Bottom Summary for the Scroll Bar Junkies and/or Goldfish</h2>
+<ul>
+<li>Down to Follow February is a campaign to get 500,000 new follows and 50,000 new users on LBRY in February.</li>
+<li>Up to 5 million LBC if we come together to hit goals. Participate by inviting someone or making a video.</li>
+<li>Big rewards for creators who mention LBRY or make videos about LBRY. Big high fives, too.</li>
+<li>A feature each week this month:<ul>
+<li>DTF February and 2020 Roadmap</li>
+<li>Reposts and revamped following</li>
+<li>Privacy and education</li>
+<li>Top-secret mystery</li>
+</ul>
+</li>
+</ul>      ]]></content:encoded>
+    </item>
+        <item>
+      <title>Shining warm (and cool) lights on LBRY Kelvin</title>
+      <link>https://lbry.com/news/kelvin</link>
+      <guid>https://lbry.com/news/kelvin</guid>
+      <pubDate>Wed, 05 Feb 2020 10:00:00 +0000</pubDate>
+      <author>hello@lbry.com (Samuel Bryan)</author>
+      <description>Reposts, content type icons, comment editing and more are here in the coolest LBRY Desktop release ever. Look, we get paid by how ridiculous our titles are, okay? You’ll probably live. But, caveat emptor and all. Let’s look at what’s in LBRY Kelvin. Download Kelvin for desktop Reposts Reposts are…</description>
+      <content:encoded><![CDATA[
+        <h2>Reposts, content type icons, comment editing and more are here in the coolest LBRY Desktop release ever.</h2>
+<p>Look, we get paid by how ridiculous our titles are, okay? You’ll probably live. But, <em>caveat emptor</em> and all.</p>
+<p>Let’s look at what’s in LBRY Kelvin.</p>
+<p><a href="https://lbry.com/get">Download Kelvin for desktop</a></p>
+<p><img src="https://spee.ch/5/lbry-kelvin.gif" alt="Kelvin" /></p>
+<h3>Reposts</h3>
+<p>Reposts are inspired by retweets on Twitter, sharing on Facebook, or reposts on Tumblr, but designed for LBRY.</p>
+<p>This update allows reposts to display in your browser, but does not allow your browser to issue them (command line junkies, <a href="https://lbry.tech/api/sdk#stream_repost">go here</a>).</p>
+<p>You can see an example repost in the <a href="https://open.lbry.com/@lbry:3f">official @lbry channel</a>.</p>
+<p>Reposts will be a big part of our quest to have <a href="https://open.lbry.com/@lbry:3f/downtofollowfebruary:b">500,000 new followers</a> on the LBRY network this month, as we enable creators to recommend other creators and improve content discovery in general.</p>
+<h3>Content Type Icons and Download Buttons</h3>
+<p>You will now see feedback on tiles regarding content types, as well as download buttons. Sweet!</p>
+<p><img src="https://spee.ch/@lbry:3f/mediatypeicons.png]" alt="Content type icons" /></p>
+<h3>Comment Editing and Deleting</h3>
+<p>The title says it. Now you can fat finger comments with reckless abandon. Click the menu in the top right of your comment to access these features.</p>
+<h2>Full Release Notes</h2>
+<h3>Added</h3>
+<ul>
+<li>Basic display of reposts (<a href="https://github.com/lbryio/lbry-desktop/pull/3593">#3593</a>)</li>
+<li>File type and content length icons (<a href="https://github.com/lbryio/lbry-desktop/pull/3572">#3572</a>)</li>
+<li>Download buttons on file previews (<a href="https://github.com/lbryio/lbry-desktop/pull/3546">#3546</a>)</li>
+<li>Comment edit and delete (<a href="https://github.com/lbryio/lbry-desktop/pull/3453">#3453</a>)</li>
+<li>Autoplay countdown timer (<a href="https://github.com/lbryio/lbry-desktop/pull/3556">#3556</a>)</li>
+</ul>
+<h3><strong>Changed</strong></h3>
+<ul>
+<li>Improved embed links on share page (<a href="https://github.com/lbryio/lbry-desktop/pull/3565">#3565</a>)</li>
+<li>Improved search and related content if mature setting enabled (<a href="https://github.com/lbryio/lbry-desktop/pull/3586">#3586</a> / <a href="https://github.com/lbryio/lbry-desktop/pull/3577">#3577</a>)</li>
+<li>Library moved to sidebar (<a href="https://github.com/lbryio/lbry-desktop/pull/3562">#3562</a>)</li>
+<li>Better aria-labels for use with voiceover apps (<a href="https://github.com/lbryio/lbry-desktop/pull/3588">#3588</a>)</li>
+</ul>
+<h3><strong>Fixed</strong></h3>
+<ul>
+<li>Channels failing to update between synced devices (<a href="https://github.com/lbryio/lbry-desktop/pull/3619">#3619</a>)</li>
+<li>Channels that have been abandoned can now be unfollowed (<a href="https://github.com/lbryio/lbry-desktop/pull/3636">#3636</a>)</li>
+<li>Context menu not working properly in some cases (<a href="https://github.com/lbryio/lbry-desktop/pull/3604">#3604</a>)</li>
+<li>Don't autoplay paid content or content from blocked channels (<a href="https://github.com/lbryio/lbry-desktop/pull/3570">#3570</a>)</li>
+</ul>      ]]></content:encoded>
+    </item>
+        <item>
+      <title>Invites and Downloads Come to LBRY on Android with Galaxy Release</title>
+      <link>https://lbry.com/news/android-galaxy</link>
+      <guid>https://lbry.com/news/android-galaxy</guid>
+      <pubDate>Mon, 03 Feb 2020 13:13:13 +0000</pubDate>
+      <author>hello@lbry.com (Samuel Bryan)</author>
+      <description>Galaxy release of LBRY for Android is LIVE in the Play Store Today, LBRY releases LBRY Galaxy for Android, which brings the invite program to mobile, adds support for downloading, improves performance, and more. Download from Play Store or Direct download More about LBRY Galaxy Invites area allows users to…</description>
+      <content:encoded><![CDATA[
+        <h2>Galaxy release of LBRY for Android is LIVE in the Play Store</h2>
+<p>Today, LBRY releases LBRY Galaxy for Android, which brings the invite program to mobile, adds support for downloading, improves performance, and more.</p>
+<p><a href="https://play.google.com/store/apps/details?id=io.lbry.browser">Download from Play Store</a> or <a href="http://lbry.com/releases/lbry-android.apk">Direct download</a></p>
+<p><img src="https://spee.ch/3/galaxy-lbry-android.jpg" alt="LBRY Galaxy for Android" /></p>
+<h3>More about LBRY Galaxy</h3>
+<ul>
+<li>Invites area allows users to invite friends and earn LBC rewards.</li>
+<li>File pages now support downloading for videos and more.</li>
+<li>App start up speed has been improved. The app now resumes on your last visited page, rather than returning to home.</li>
+<li>The rewards area now has tabs to split between available and claimed, making it much more navigable for long-term users.</li>
+<li>Videos support quick skip and rewind. Double tap the left or right of the video screen to jump forward or back 10 seconds.</li>
+<li>Search is more performant, now scrolls infinitely, and filters mature content better (if desired).</li>
+<li>Updated to LBRY SDK 0.56.0 for improved stability and performance.</li>
+<li>Fixed bug causing inappropriate background video play.</li>
+<li>Fixed behavior of publish page when missing credentials.</li>
+<li>A number of smaller bug fixes.</li>
+</ul>
+<p>For the full release notes, see both versions <a href="https://github.com/lbryio/lbry-android/releases/tag/0.12.3">0.12.3</a> and <a href="https://github.com/lbryio/lbry-android/releases/tag/0.13.0">0.13.0.</a></p>      ]]></content:encoded>
+    </item>
+        <item>
+      <title>Introducing lbry.tv</title>
+      <link>https://lbry.com/news/lbrytv</link>
+      <guid>https://lbry.com/news/lbrytv</guid>
+      <pubDate>Fri, 31 Jan 2020 12:00:00 +0000</pubDate>
+      <author>hello@lbry.com (Samuel Bryan)</author>
+      <description>We are thrilled to announce the public launch of lbry.tv, the most free way to share, follow, and support digital content. Via lbry.tv, you can create a secure publishing account that you and only you (not even us) have the ability to update or modify. You can also watch content…</description>
+      <content:encoded><![CDATA[
+        <p>We are thrilled to announce the public launch of lbry.tv, the most free way to share, follow, and support digital content.</p>
+<p>Via lbry.tv, you can create a secure publishing account that you and only you (not even us) have the ability to update or modify. You can also watch content from top creators, stream Hollywood films, and browse a quirky digital wonderland while earning a stake in a community-controlled protocol.</p>
+<p>If a picture is worth a thousand words, then a personal experience is worth like... a billion? So one option is that rather continue to read this, you simply <a href="https://lbry.tv/">go over to lbry.tv and try it out</a>. </p>
+<p>Still here, huh? You must want more moving pictures and more words. We shall supply them.</p>
+<h2>What is lbry.tv?</h2>
+<p>lbry.tv is a nearly feature-complete web version of LBRY desktop, a browser for the LBRY network. lbry.tv allows you to...</p>
+<h2>Boring, please stop. I don’t know what LBRY is. Can you start there?</h2>
+<p>LBRY is an open-source, censorship-resistant protocol that facilitates the discovery, distribution, and purchase of digital content.</p>
+<h2>You’re still nerding it too much.</h2>
+<p>OK. LBRY is a YouTube-like service but instead of it being owned by a single company (Google), we created an open, distributed, and inter-operable standard (like HTTP).</p>
+<p>This means that when you use LBRY, you as a creator or viewer are left in complete control. Your account is truly yours, funds you earn are truly yours, and not only is there not a middleman taking a cut or putting thumbs on scales, <em>LBRY makes it impossible for that middleman to ever exploit you.</em></p>
+<h2>Hot stuff. So what is LBRY.tv?</h2>
+<p>lbry.tv is the full LBRY experience in the convenience of your browser, with the ability to transition seamlessly from the web version to the desktop or mobile version of LBRY.If you’re familiar with Bitcoin, you can think of lbry.tv as Coinbase - a web interface for an underlying decentralized network.</p>
+<p>If you’re not familiar with Bitcoin or that previous sentence did not make sense, you can just think of lbry.tv as YouTube but YouTube back in 2009 when it was actually cool.</p>
+<h2>Words words blah blah blah. Do you have some kind of epic video?</h2>
+<iframe width="560" height="315" src="https://lbry.tv/$/embed/befreeonlbry/56cbb8e075d0f1971b311c9c9d82e0bf91919710" allowfullscreen></iframe>
+<h2>Well thanks now my American eagle is crying, but it didn’t actually tell me much about what I can do on LBRY. Do you have a less epic video, maybe one showcasing creators on LBRY with cheerful pop music?</h2>
+<iframe width="560" height="315" src="https://lbry.tv/$/embed/meetlbrytv/c6c0a5caa6cc391696e1270e33cd9d24ee7c2d52" allowfullscreen></iframe>
+<h2>Maybe you could just list some what you can find on LBRY?</h2>
+<ul>
+<li>Hundreds of huge YouTubers, like <a href="https://lbry.tv/@veritasium:f">Veritasium</a>, <a href="https://lbry.tv/@MinutePhysics:5">minutephysics</a>, <a href="https://lbry.tv/@johnstossel:7">John Stossel</a>, and <a href="https://lbry.tv/@3Blue1Brown:b">3Blue1Brown</a>. Tens of thousands of popular YouTubers co-publish or publish unique content to LBRY.</li>
+<li>Hollywood films, including the catalog from <a href="https://lbry.tv/@oscopelabs:4">Oscilloscope Studios</a>, which includes award-winning films starring actors like James Franco, Julia Stiles, David Cross and more.</li>
+<li>Creators who stand up for free speech and free expression like <a href="https://lbry.tv/@JordanBPeterson:c">Jordan Peterson</a>, <a href="https://lbry.tv/@BenjaminABoyce:2">Benjamin Boyce</a>, <a href="https://lbry.tv/@justinmurphy:0">Justin Murphy</a> and more.</li>
+<li><a href="https://lbry.com/news/20000-illegal-college-lectures-rescued">20,000 top college lectures that almost disappeared</a> forever due to threat of censorship.</li>
+<li>All kinds of weird and original gems.</li>
+</ul>
+<h2>What’s in it for me, besides great content on an open platform that actually stands up for its users?</h2>
+<p>While it seems a bit demanding to be asking for more, this is a good time to mention there are bonus rewards to celebrate the lbry.tv launch.LBRY is backed by a blockchain token. This token is used to publish, tip creators, incentivize hosting, and secure the network. It also gives you a say in how the network and content discovery work.</p>
+<h2>Can I publish to lbry.tv?</h2>
+<p>Yes! The account creation process walks you through setting up an initial channel, and then it’s as easy as clicking Publish.</p>
+<p>If you have an active YouTube channel, you can sync the entire channel and earn great rewards in just one click. Head on over to <a href="http://lbry.com/youtube">lbry.com/youtube</a>.</p>
+<h2>I didn’t read anything and just scrolled to the bottom because I have ADD. Can you give me a TL;DR?</h2>
+<ul>
+<li>LBRY is an internet protocol (like HTTP or SMTP) that allows the publishing of digital content with no middlemen, no censorship, and no interference (even from us).</li>
+<li><a href="https://lbry.tv/">lbry.tv</a> just launched and allows anyone in the world to immediately start using LBRY.</li>
+<li>LBRY has millions of pieces of content from top creators available on a platform that guarantees free speech and user control.</li>
+<li>Create a lbry.tv account now and get a special bonus of magic internet coins.</li>
+</ul>      ]]></content:encoded>
+    </item>
+        <item>
+      <title>I̶t̶&#039;̶s̶ ̶a̶b̶o̶u̶t̶ ̶e̶t̶h̶i̶c̶s̶ ̶i̶n̶ ̶g̶a̶m̶e̶ ̶j̶o̶u̶r̶n̶a̶l̶i̶s̶m̶  Aw who knows just watch The Quartering</title>
+      <link>https://lbry.com/news/0130quartering</link>
+      <guid>https://lbry.com/news/0130quartering</guid>
+      <pubDate>Thu, 30 Jan 2020 13:00:00 +0000</pubDate>
+      <author>hello@lbry.com (Samuel Bryan)</author>
+      <description>The Quartering talks video games, movies, comics, and culture. At last, a break from all the politics? Video games. Comics. Movies. The enjoyable entertainment we consume after a long day at work, free from the day-to-day drama of the real world. No. No, stop. We have to fight about this…</description>
+      <content:encoded><![CDATA[
+        <h2>The Quartering talks video games, movies, comics, and culture. At last, a break from all the politics?</h2>
+<p><img src="https://spee.ch/@lbrynews:0/quartering.jpeg" alt="The Quartering" /></p>
+<p>Video games. Comics. Movies. The enjoyable entertainment we consume after a long day at work, free from the day-to-day drama of the real world.</p>
+<p>No.</p>
+<p>No, stop.</p>
+<p>We have to fight about this sh*t now too?</p>
+<p>I’ve learned three things this week:</p>
+<ol>
+<li>We are indeed fighting about these things.</li>
+<li>The Quartering provides a pretty frickin funny and informative take on this stuff.</li>
+<li>You should not watch the Quartering if you are prone to beard envy.</li>
+</ol>
+<h3>Drink from the hose</h3>
+<p>Jeremy is a great follow for prompt coverage of hot topics in gaming, culture, and the news at large. Here’s some just from the last week:</p>
+<h4><a href="https://open.lbry.com/@TheQuartering:1/warcraft-3-reforged-is-a-total-disgrace:2">Warcraft 3: Reforged Is A Total DISGRACE &amp; Blizzard's New RIDICULOUS Policy!</a></h4>
+<video controls poster="https://thumbnails.lbry.com/w6b78tyr0nQ" src="https://lbryplayer.xyz/content/claims/warcraft-3-reforged-is-a-total-disgrace/29663cf285a45cad897ebfa7e4a9fe2663121e01/stream"></video>
+<h4><a href="https://open.lbry.com/@TheQuartering:1/youtube-just-destroyed-an-entire-genre:2">Youtube Just DESTROYED An ENTIRE Genre Of Videos! Please Help! (watch this and tell them about LBRY!)</a></h4>
+<video controls poster="https://thumbnails.lbry.com/IFhz7MyiRQA" src="https://lbryplayer.xyz/content/claims/youtube-just-destroyed-an-entire-genre/2450dc4320d99fbad58e2c6b4d8717e483b71a1f/stream.mp4"></video>
+<h4><a href="https://open.lbry.com/@TheQuartering:1/calm-down-on-china-coronavirus-media:8">Calm Down On China Coronavirus! Media Profits From Fear</a></h4>
+<video controls poster="https://thumbnails.lbry.com/F9gtmIzk_-g" src="https://lbryplayer.xyz/content/claims/calm-down-on-china-coronavirus-media/8956d003cb5f6c262ffb6b83a2dccb1e27cd0081/stream.mp4"></video>
+<h3>The Greatest Hits</h3>
+<p>Some hits from the last year:</p>
+<ol>
+<li><a href="https://open.lbry.com/@TheQuartering:1/avengers-cast-savagely-roast-brie-larson:b">Avengers Cast Savagely Roast Brie Larson &amp; Her Lies About Doing Her Own Stunts</a></li>
+<li><a href="https://open.lbry.com/@TheQuartering:1/court-orders-pewdiepie-delete:d">Court Orders PewDiePie Delete "Congratulations" &amp; "Bitch Lasagna"</a></li>
+<li><a href="https://open.lbry.com/@TheQuartering:1/outrage-over-call-of-duty-modern-warfare:d">Outrage Over Call of Duty: Modern Warfare! Demands For Censorship</a></li>
+</ol>
+<h3>Support the Quartering</h3>
+<p>Jeremy has faced censorship and exclusion for speaking his mind in the past. Please <a href="https://open.lbry.com/@TheQuartering:1">click here to follow and support him on LBRY.</a> Let’s continue to show we are a community that accepts all voices, even if we disagree!</p>      ]]></content:encoded>
+    </item>
+        <item>
+      <title>Wrapping up 2019 and looking into 2020 Community update!</title>
+      <link>https://lbry.com/news/20-01comm</link>
+      <guid>https://lbry.com/news/20-01comm</guid>
+      <pubDate>Sat, 25 Jan 2020 13:00:00 +0000</pubDate>
+      <author>Julie@lbry.com (Julie Sigwart)</author>
+      <description>Here come the Roaring 20s! We finished strong in 2019, increasing our user base by more than 1500% (that’s 15x!), and we can’t wait to tackle 2020! All of our apps have changed dramatically, new features have been added, and we had a slew of press coverage recently. In this…</description>
+      <content:encoded><![CDATA[
+        <p>Here come the Roaring 20s! We finished strong in 2019, increasing our user base by more than 1500% (that’s 15x!), and we can’t wait to tackle 2020! All of our apps have changed dramatically, new features have been added, and we had a slew of press coverage recently.</p>
+<p><img src="https://spee.ch/7/qeJp3LYGNTFrUOPd8HNvcUEj.jpeg" alt="YouTube boot" /></p>
+<h2 id="updates">In this update</h2>
+<ul>
+<li><a href="#wrapup">So long 2019 (and YouTube), hello to Content Freedom 2020!</a></li>
+<li><a href="#news">What's new at LBRY?</a></li>
+<li><a href="#swarm">LBRY Foundation and the Swarm</a></li>
+<li><a href="#contest">LBRY Foundation logo contest - up to 70,000 LBC in prizes to be awarded</a></li>
+<li><a href="#i18n">Internationalization update</a></li>
+<li><a href="#treat">The cherry on the top</a></li>
+</ul>
+<h3 id="wrapup">So long 2019 (and YouTube), hello to Content Freedom 2020!</h3>
+<p>All of our projects have progressed significantly since our last community report, and 2019 was an amazing year. Some of our achievements:</p>
+<ul>
+<li><a href="https://lbry.tv">LBRY on the web, lbry.tv, is introduced</a></li>
+<li>App Internationalization: our community contributed 39 languages to LBRY apps</li>
+<li>Launch of Swarm program and LBRY Foundation</li>
+<li>Commenting on content launched</li>
+<li>Much better creator features and control</li>
+<li>Improved discovery</li>
+<li>Launch of Chainquery</li>
+<li>A single LBRY account across all your devices</li>
+<li>Protocol improvements including faster resolution and fewer errors</li>
+<li>Overall more robust network</li>
+<li>File tagging, more new metadata </li>
+</ul>
+<p>CEO Jeremy Kauffman will publish a 2019 wrapup blog, and we'll reveal our 2020 Roadmap by the end of January.</p>
+<h3 id="news">What's new at LBRY?</h3>
+<h4>YouTube gave LBRY an amazing Christmas present</h4>
+<p>With the rise of YouTube stars, the legal path for tech companies like Google is unclear. Bumbling along, Google released new YouTube terms of service on December 10 designed to address the Children's Online Privacy Protection Act (COPPA.) </p>
+<p>While this may help YouTube comply with the law, the bottom line for YouTubers meant more demonetization of their content, fewer views of their videos, and many unanswered questions about what kind of legal jeopardy they might face, including huge fines.</p>
+<p>LBRY community member <a href="https://lbry.tv/@neohumaneve:e?r=J9AzYYBK8iuEiH53V5PgyYUJqbvzJsnW">@neohumaneve</a> contributed this video about the situation:</p>
+<p><a href="https://lbry.tv/@neohumaneve:e/Escape-YouTube:8">Escape from YouTube</a></p>
+<p><img src="https://spee.ch/8/M2i88IwngJsZwYuUFRzSpiYe.jpeg" alt="Escape card" /></p>
+<p>Included among the changes, was a disclaimer that YouTube could terminate services (including access to Google services) if they deemed your content was not "commercially viable." </p>
+<p>Many folks dismissed YouTube's terms of service change as "Business as normal," and that it was no big deal. </p>
+<p>Abruptly on December 23, YouTube gave hundreds of creators of cryptocurrency-related content a strike, locked them out of their channels, or outright deleted some channels and Google accounts entirely. Learn more about this and how to find/support these creators on LBRY on our <a href="https://lbry.com/news/youtubecryptocrackdown">blog post regarding the crackdown</a>.</p>
+<p><a href="https://www.businessinsider.com/markiplier-youtube-fans-heist-lost-access-google-accounts-spamming-emotes-2019-11">Horror stories emerged</a> of folks who lost their longtime Google account (including access to their gmail address) when their YouTube account was terminated.</p>
+<p>A huge influx of users rushed to LBRY, and despite some growing pains, the network scaled well, and LBRY received good press coverage:</p>
+<ul>
+<li>Cointelegraph: <a href="https://cointelegraph.com/news/cryptocurrency-influencers-speak-out-on-youtube-deleting-crypto-related-content">Cryptocurrency Influencers Speak Out On YouTube Deleting Crypto-Related Content </a></li>
+<li>Cointelegraph: <a href="https://cointelegraph.com/news/youtube-reinstates-more-crypto-related-content-admits-to-mistake-via-twitter">YouTube Reinstates More Crypto-Related Content, Admits To Mistake Via Twitter</a></li>
+<li>Cointelegraph: <a href="https://cointelegraph.com/news/whats-next-for-youtubers-impacted-by-crypto-related-content-ban">What’s Next For YouTubers Impacted By Crypto-Related Content Ban?</a>
+<em>“Building a business or a following on YouTube is building on quicksand. YouTube regularly censors and bans creators, with capricious and arbitrary rules enforcement.”</em></li>
+<li>Coinspice: <a href="https://coinspice.io/news/christmas-massacre-youtube-begins-crackdown-on-crypto-as-lbry-tried-to-warn-content-creators/">Christmas Massacre: YouTube Begins Crackdown on Crypto as LBRY Tried to Warn Content Creators</a> 
+<em>"Decentralized, crypto-friendly platform LBRY seized the opportunity. “Sneaky of YouTube to do this to all the crypto content creators right before Christmas when everyone is distracted.” Earlier this month LBRY highlighted coming changes to the YouTube platform. “Escape YouTube before it’s too late,” the company urged, which turned out to be very good advice."</em></li>
+<li>Bitcoin.com: <a href="https://news.bitcoin.com/youtube-christmas-purge-has-content-creators-pointing-to-these-alternate-platforms/">Youtube 'Christmas Purge' Has Content Creators Pointing to These Alternate Platforms</a> </li>
+<li>Altcoinbuzz: <a href="https://www.altcoinbuzz.io/bitcoin-and-crypto-guide/decentralized-alternatives-to-youtube/">Decentralized Alternatives to Youtube</a></li>
+<li>Cryptocracy: <a href="https://cryptocracy.substack.com/p/special-edition-youtubes-war-on-crypto">Special Edition: YouTube's War on Crypto Content
+Refugee video creators are migrating to LBRY with a hope and a prayer</a></li>
+<li>Yahoo: <a href="https://finance.yahoo.com/news/youtube-restored-deleted-videos-crypto-103023456.html">YouTube has restored deleted videos from crypto channels</a></li>
+<li>Bitcoin Warrior: <a href="https://bitcoinwarrior.net/2019/12/crypto-youtubers-claim-platform-is-censoring-their-videos/">Crypto YouTubers claim platform is censoring their videos</a></li>
+</ul>
+<h4>Joule for desktop released</h4>
+<p>LBRY Joule brings many great updates such as a brand new homepage, improved navigation, invites and more.</p>
+<p>The new homepage brings a grid of content tiles and offers a mix of content depending on the number of channels and tags you follow. Navigation changes have made it easier to return to content you like, as well as your published content.</p>
+<p>Full details of the Joule release <a href="https://open.lbry.com/@lbry:3f/joule:a?r=J9AzYYBK8iuEiH53V5PgyYUJqbvzJsnW">are here.</a></p>
+<p><img src="https://spee.ch/@lbrynews:0/lbry-joule.gif" alt="Joule" /></p>
+<h4>Fireworks for Android released</h4>
+<p>The new Android Fireworks release adds improved search, rich text support, a better video play experience, channel view and play counts, and more. </p>
+<ul>
+<li><a href="https://play.google.com/store/apps/details?id=io.lbry.browser&amp;_ga=2.119991816.1200782483.1578512453-972114350.1553020414">Download from the Play Store</a></li>
+</ul>
+<p>Full details and changes are available <a href="https://open.lbry.com/@lbry:3f/android-fireworks:d?r=J9AzYYBK8iuEiH53V5PgyYUJqbvzJsnW">on our blog.</a></p>
+<h4>Searching on LBRY</h4>
+<p>If you’ve used LBRY recently, you may have noticed improved search results - that’s because we’ve made large strides with our search algorithm to better process and spit out more relevant and timely results. This includes putting some weight on newer content and taking into account better multi-word scenarios. You can now also put quotes around entire phrases for exact search matches. We will continue to improve this area of the LBRY experience by adding additional filters and sorting criteria in the coming months.  </p>
+<h4 id="wallet-servers">Wallet servers</h4>
+<p>Adding an option to select <a href="https://lbry.com/faq/wallet-servers">wallet servers</a> is a large step towards our goal to further decentralize the LBRY apps and allows different communities to customize their view of the LBRY network, including search results, trending, and block lists.</p>
+<p>One such example is a community member (@EF on Discord) who is running an alternative trending algorithm on his server, connect to it to check it out: 199.192.31.122:50001. If a server is unavailable on startup, it will default back to the known lbry.tv wallet servers. We’ve also dockerized the process to make it super simple to run, check out our guide on lbry.tech.</p>
+<h4>Invites changes</h4>
+<p>We have revamped our invites program to make it easier for users to share referrals and claim referrers. You can access your invites link <a href="https://open.lbry.com/?invite">here</a> and learn more on our <a href="https://lbry.com/faq/invites">FAQ</a>.</p>
+<p><img src="https://spee.ch/7/invites6.jpg" alt="invites" /></p>
+<h4>Support for more file types and downloads on lbry.tv</h4>
+<p>We now support additional file types for viewing in the web experience - this includes markdown, text, HTML, and PDF. You can now also save content from lbry.tv using the download button! </p>
+<p><img src="https://spee.ch/c/file-types-1.png" alt="md" /></p>
+<h3 id="swarm">LBRY Foundation and the Swarm</h3>
+<p>Our community held its first election, adding community member Jon Ringo to our foundation board. </p>
+<p>The results were extremely tight - a single vote could have changed the outcome. All of the candidates are standouts among our community, and we're looking forward to adding another two board seats soon.</p>
+<p><img src="https://spee.ch/7/dUmxRoqH3PRTxv01CK7jv3RJ.jpeg" alt="Jon Ringo" /></p>
+<p>We're very excited Jon has joined us! He brings relevant experience from the Gridcoin community as a Core contributor, Twitter Admin, Github Repo Organizer, and is their Discord Moderator.</p>
+<p>Intro from Jon’s candidate statement:</p>
+<p><em>”Hi there. My name is Jon, I come from the US, I received a few humanities degrees from one of those sciency ivy-esque schools several years ago. I made a pilgrimage to Zuccotti park during OWS, started my first successful long-term business, and learned about Bitcoin shortly thereafter. I have been involved with crypto in some form ever since. As a result I have been following LBRY (and a lot of other projects) since their release. Gridcoin is the project to which I have dedicated much of my time during the past few years, and a project I have been directly involved in since 2013. While my certificates say "humanities", economics, FOSS, and human/network/complex systems science have been my fields of study for some time now”</em></p>
+<p>Some skills Jon brings to the LBRY Foundation:</p>
+<ul>
+<li>Experience in communicating from small teams to large groups</li>
+<li>A focus on the big picture</li>
+<li>15+ years of business, media, and on/offline community development experience</li>
+<li>Nearly 3 years of crypto community, infrastructure, and organization development in a FOSS environment</li>
+<li>6+ years of crypto experience</li>
+</ul>
+<h4>Want to participate in LBRY Foundations future? Please make sure you add the lbryian role on Discord to gain access to the Swarm-related channels</h4>
+<ol>
+<li>
+<p>After joining the main Discord at chat.lbry.com, type "!addrole lbryian" in #bots-and-roles channel to be added to the Swarm governance channel.</p>
+</li>
+<li>
+<p>Edit your email preferences (click the link in the footer of every email LBRY has sent you) and ensure the lbry.org box is checked.</p>
+</li>
+</ol>
+<p>Come chat with us on Discord to get involved!</p>
+<h3>LBRY Foundation logo contest - up to 70,000 LBC in prizes to be awarded</h3>
+<p>The LBRY Foundation is asking for submissions for its logo design. You are tasked with creating a logo for the LBRY Foundation that embodies your vision of LBRY’s implementation of decentralized and independent technology. This will be the logo used on the Foundation's website and other materials.</p>
+<p><strong>There will be two rounds to the contest.</strong></p>
+<p><strong>Round 1 - Submissions</strong>
+Round one will be open to everyone. To participate, submit your design to the #logo-contest-submissions channel on the LBRY Discord. Please keep any discussion about designs or about the contest in the #logo-contest-discussion channel. <strong> Submission deadline: January 31, 2020, 11:59 ET.</strong></p>
+<p><strong>Round 1 - Voting</strong>
+Everyone will be able to vote on the round one logos from February 1 through February 7th. The full details on the voting process will be released prior to the start of the voting period.</p>
+<p><strong>Round 1 - Winners</strong>
+The top 20 designs will receive 1,000 LBC</p>
+<p>Round 2 - Finalists refine concepts
+The LBRY Foundation board will choose 5 of the top 20 designs to participate in round 2. Each of these designs will receive an additional 5,000 LBC.</p>
+<p>The submitters of these designs will be given feedback and an additional week to modify anything they’d like. Final designs must be submitted to the Foundation board by February 17th.</p>
+<p>LBRY Veterans will vote on a final design starting February 17th and ending on February 21th. The full details on the voting process will be released prior to the start of the voting period.</p>
+<p>The winner will be announced on February 15th and receive an additional 25,000 LBC.</p>
+<p>Good luck everyone! Submissions are open, and we’re looking forward to seeing your concepts!</p>
+<h3 id="i18n">LBRY app language translations</h3>
+<p>21 languages have been translated by the LBRY community and are live in the app! We still are seeking volunteers to help translate to add more languages and to update the current translations as new strings are added to the apps.</p>
+<p>You can sign up for your <a href="https://www.transifex.com/lbry/">language or request a new language</a> for the Desktop and mobile projects in Transifex.</p>
+<p>If you have been helping translate, we ask you please continue to <a href="https://www.transifex.com/lbry/">check Transifex for new strings</a>. We are continually updating and adding new features to both the Desktop/Web app and the Mobile app.</p>
+<h3 id="treat">The cherry on the top 🍒</h3>
+<p>2020 is going to be cherry! Enter custom code <code>lbry-is-cherry</code> in the app and we'll give you a nice treat!</p>
+<h2>Want to develop on the LBRY ecosystem?</h2>
+<p>All of our code is open source and available on <a href="https://github.com/lbryio">GitHub</a>. Are you a developer and want to find out more? Check out our <a href="https://lbry.tech/contribute">contributing guide</a> and our <a href="https://github.com/lbryio/lbry-app/blob/master/CONTRIBUTING.md">LBRY App specific contributing document</a>. Make sure you have turned on the Developer option in your email preferences (see app overview page), or sign up at <a href="https://lbry.tech">lbry.tech</a>. We also have a <a href="https://discourse.lbry.io">LBRY Discourse Forum</a> where developers can interact with the team and ask questions across all our different projects. </p>
+<p>If you aren’t part of our Discord community yet, join us anytime and say hello! Our community allows LBRYians to interact with the team directly and for us to engage users and grow the LBRY platform. If you don't already, follow us on <a href="https://twitter.com/lbrycom">Twitter</a>, <a href="https://facebook.com/lbrycom">Facebook</a>, <a href="https://www.reddit.com/r/lbry">Reddit</a>, and <a href="https://t.me/lbryofficial">Telegram</a>.</p>
+<p><a href="#updates">Back to <strong>Community Updates</strong></a></p>
+<p>Thanks for supporting LBRY - stay tuned for more news and updates! And if you haven’t downloaded the <a href="https://lbry.com/get?auto=1">LBRY app</a> or checked out <a href="https://lbry.tv">lbry.tv</a> yet, what are you waiting for?</p>      ]]></content:encoded>
+    </item>
+        <item>
+      <title>What Did WeAreChange Find on Epstein&#039;s Private Island?</title>
+      <link>https://lbry.com/news/wearechange</link>
+      <guid>https://lbry.com/news/wearechange</guid>
+      <pubDate>Thu, 23 Jan 2020 13:00:00 +0000</pubDate>
+      <author>hello@lbry.com (Samuel Bryan)</author>
+      <description>News is what somebody somewhere wants to suppress; all the rest is advertising. We Are Change is an independent, non-partisan news organization that seeks to find and and uncover the stories the mainstream media does not. Visiting Epstein’s Island If you want an example of their coverage style, check out…</description>
+      <content:encoded><![CDATA[
+        <h2>News is what somebody somewhere wants to suppress; all the rest is advertising.</h2>
+<p><img src="https://spee.ch/@lbrynews:0/wearechange.jpg" alt="WeAreChange graphic" /></p>
+<p>We Are Change is an independent, non-partisan news organization that seeks to find and and uncover the stories the mainstream media does not.</p>
+<h3>Visiting Epstein’s Island</h3>
+<p>If you want an example of their coverage style, check out their coverage of Jeffery Epstein’s private island. We Are Change wanted to learn more about it, so they did the most direct and logical thing: they just went there.</p>
+<p>What was on Epstein’s island? 
+<a href="https://open.lbry.com/@wearechange:1/exclusive-first-ever-look-inside-epstein:c">EXCLUSIVE: First-Ever Look Inside Epstein’s Private Island</a></p>
+<h3>Virginia Gun Protests</h3>
+<p>Going on the ground to get a first-hand, in-person look and see how things really are is a central tenet of coverage at We Are Change. For a fresh example, check out their visit to Virginia Lobby Day.</p>
+<p>Was Virginia Lobby Day full of violent Neo Nazis or a day of peaceful protest? </p>
+<p><a href="https://lbry.tv/@wearechange:1/live-richmond-virginia-now-during-lobby:c">Richmond Virginia During Lobby Day</a></p>
+<h3>How Did Senior Saudis’ Get Bezos’ Boy Bits?</h3>
+<p>While on the ground reporting is one of their more unique touches, We Are Change isn’t afraid to cover a story du jour. Especially if that story involves a foreign government obtaining private photos of one of the most powerful men in America.</p>
+<p><a href="https://lbry.tv/@wearechange:1/mystery-chinese-virus-reaches-us-saudi:5">Saudi Crown Prince Hacks Amazon CEO Jeff Bezos</a></p>
+<p>Follow We Are Change on LBRY and Support Independent Journalism
+Organizations like We Are Change are fighting to enable people to directly tell stories to other people.</p>
+<p>This is vital in a time when the news is less trustworthy than it has been in generations, if not ever.</p>
+<p>Follow <a href="https://open.lbry.com/@WeAreChange:1">@WeAreChange on LBRY</a>, and show them some support!</p>      ]]></content:encoded>
+    </item>
+        <item>
+      <title>LBRY Joule for Desktop</title>
+      <link>https://lbry.com/news/joule</link>
+      <guid>https://lbry.com/news/joule</guid>
+      <pubDate>Wed, 22 Jan 2020 10:00:00 +0000</pubDate>
+      <author>hello@lbry.com (Samuel Bryan)</author>
+      <description>Introducing a High-Energy Homepage, Improved ERGonomics, and More Changes that Will Make You Say Watt?! Today, LBRY releases LBRY Joule for Windows, macOS, and Linux. This new release adds a brand new homepage, improved navigation, and more. Download Joule for desktop Use LBRY in your browser The new homepage brings…</description>
+      <content:encoded><![CDATA[
+        <h2>Introducing a High-Energy Homepage, Improved ERGonomics, and More Changes that Will Make You Say Watt?!</h2>
+<p>Today, LBRY releases LBRY Joule for Windows, macOS, and Linux. This new release adds a brand new homepage, improved navigation, and more.</p>
+<ul>
+<li><a href="https://lbry.com/get">Download Joule for desktop</a> </li>
+<li><a href="https://lbry.tv">Use LBRY in your browser</a></li>
+</ul>
+<p>The new homepage brings larger tiles and offers a mix of content, rather than a single, specific view. The homepage view will look different depending on the number of channels and tags you follow. In general, the navigation has made it easier and clearer how to get back to content you like, as well as content you create.</p>
+<p>A typical homepage view might show:</p>
+<ul>
+<li>Latest content from channels you follow</li>
+<li>Trending for tags you follow</li>
+<li>Content trending across the network</li>
+<li>Content tagged #homepagecagematch</li>
+<li>Latest from @lbry channel</li>
+</ul>
+<p>We expect to add further customization of the homepage in future updates. </p>
+<p><img src="https://spee.ch/@lbrynews:0/lbry-joule.gif" alt="Joule" /></p>
+<p>LBRY Joule also includes a revamped Invites area as part of a larger update to Invites for lbry.tv account holders. This will be shared in more detail in a separate announcement, but you are welcome to check it out and use them now.</p>
+<h3>More about LBRY Joule</h3>
+<ul>
+<li>Revamped homepage. Homepage uses grid display with images to display a variety of claim filters, such as new content from your follows or trending across the network.</li>
+<li>Improved navigation in the sidebar and header.</li>
+<li>Improved display and handling of text content including markdown. </li>
+<li>Now released via AppImage for Linux users.</li>
+<li>The cursor automatically hides on full screen videos.</li>
+<li>Fixed issues with the color profile on some Linux distributions.</li>
+<li>Fixed issues around sign in occasionally getting inappropriately stuck.</li>
+<li>Fixed issues with app crashes on some content edits. Fixed some other minor presentation bugs around editing.</li>
+</ul>
+<p>For the full release notes, visit <a href="https://github.com/lbryio/lbry-desktop/releases/tag/v0.39.0">GitHub</a>.</p>
+<p>For a limited time, enter custom reward code <code>lbry-joule-buzz</code> to zap a little LBC into your wallet.</p>      ]]></content:encoded>
+    </item>
+      </channel>
+</rss>

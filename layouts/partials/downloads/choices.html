@@ -1,0 +1,6 @@
+<aside style="text-align: center;">
+  <h3>{{ if .selected }}Other Systems{{ else }}Select an OS{{ end }}</h3>
+  <ul class="download-cards bulletless">
+    {{ range hugo.Data.download_page.platforms }}{{ if ne .id $.selected }}<li class="download-card"><a href="{{ .path }}"><span class="{{ .icon }} icon-fw"></span>{{ .name }}</a></li> {{ end }}{{ end }}
+  </ul>
+</aside>

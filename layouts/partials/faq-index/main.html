@@ -1,0 +1,34 @@
+
+<main class="ancillary">
+  <section class="hero hero--half-height">
+    <div class="inner-wrap inner-wrap--center-hero"><h1>Frequently Asked Questions</h1></div>
+  </section>
+  <section>
+    <div class="inner-wrap">
+      <form method="get" action="/faq" id="faq-filter-form">
+        <fieldset-section>
+          <label for="category">Category</label>
+          <select name="category">
+            {{ range hugo.Data.faq_categories }}<option value="{{ .id }}">{{ .label }}</option>{{ end }}
+          </select>
+        </fieldset-section>
+      </form>
+      {{ $articles := where site.RegularPages "Type" "faq" }}
+      {{ range hugo.Data.faq_categories }}
+        {{ $group := where $articles "Params.category" .id }}
+        {{ if $group }}
+          <h2>{{ .label }}</h2>
+          <ul>
+            {{ range $group.ByWeight }}<li><a href="{{ strings.TrimSuffix "/" .RelPermalink }}">{{ .Title | safeHTML }}</a></li>{{ end }}
+          </ul>
+        {{ end }}
+      {{ end }}
+    </div>
+  </section>
+  <section>
+    <div class="inner-wrap">
+      <h3>Ask A Question</h3>
+      <p>See something not answered above? <a href="mailto:hello@lbry.com?subject=Question%20for%20the%20FAQ" rel="noopener noreferrer" target="_blank" title="">Send us your question</a>!</p>
+    </div>
+  </section>
+</main>

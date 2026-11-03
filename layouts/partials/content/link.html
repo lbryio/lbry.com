@@ -1,0 +1,15 @@
+{{- $rule := partial "content/link-policy.html" (dict "href" .href "page" .page) -}}
+{{- $text := .text -}}
+{{- with $rule.email.text_code -}}
+  {{- $address := $rule.email.address -}}
+  {{- $protected := printf `<span class="__cf_email__" data-cfemail="%s">[email&#160;protected]</span>` . -}}
+  {{- with $rule.email.standalone_href -}}
+    {{- $protected = printf `<a href="%s" class="__cf_email__" data-cfemail="%s">[email&#160;protected]</a>` . $rule.email.text_code -}}
+  {{- end -}}
+  {{- $text = replace (string $text) $address $protected -}}
+{{- end -}}
+{{- if or $rule.excluded $rule.email.text_only -}}
+  {{- $text | safeHTML -}}
+{{- else -}}
+<a href="{{ $rule.href | safeURL }}"{{ with .title }} title="{{ . }}"{{ end }}{{ if $rule.external }} rel="noopener"{{ end }}>{{ $text | safeHTML }}</a>
+{{- end -}}

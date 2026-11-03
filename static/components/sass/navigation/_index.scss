@@ -1,0 +1,126 @@
+drawer-navigation {
+  width: 100%; height: 5rem;
+
+  display: inline-flex;
+  flex: 1;
+  font-size: inherit;
+  justify-content: center;
+  position: relative;
+  z-index: 10;
+}
+
+drawer-navigation-helper { // This is to make mouse movement forgiving
+  width: 0; height: 0;
+  top: 3rem; left: -5rem;
+
+  border-right: 8rem solid transparent;
+  border-bottom: 5rem solid transparent;
+  border-left: 8rem solid transparent;
+  position: absolute;
+}
+
+drawer-section {
+  padding-right: 1rem;
+  padding-left: 1rem;
+
+  &:not(:hover):not(.active) {
+    drawer-title::after {
+      background-color: transparent;
+    }
+
+    drawer-navigation-helper,
+    drawer-wrap {
+      display: none;
+    }
+  }
+
+  &:hover,
+  &.active {
+    z-index: 3;
+
+    drawer-title::after {
+      background-color: var(--lbry-teal-4);
+    }
+  }
+}
+
+drawer-title {
+  height: 100%;
+  align-items: center;
+  cursor: default;
+  display: flex;
+  line-height: 3;
+  position: relative;
+  z-index: 1;
+
+  &::after {
+    width: 100%; height: 1px;
+    bottom: -1px; left: 0;
+
+    content: "";
+    position: absolute;
+    z-index: 1;
+  }
+}
+
+drawer-wrap {
+  width: 100%;
+  top: 5rem; left: 0;
+
+  background-color: var(--lbry-white);
+  border-top: 1px solid var(--lbry-gray-1);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  position: absolute;
+
+  &::after {
+    width: 100vw; height: calc(100vh - 5rem);
+    top: 5rem; left: 0;
+
+    background-color: var(--lbry-black);
+    content: "";
+    opacity: 0.3;
+    pointer-events: none;
+    position: absolute;
+    z-index: -1;
+  }
+}
+
+drawer-children {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+drawer-child {
+  padding: var(--spacing-s);
+  border: 2px solid;
+  transition: all 0.2s;
+
+  &:not(:hover) {
+    border-color: transparent;
+  }
+
+  &:hover {
+    border-color: var(--lbry-gray-1);
+    padding-left: var(--spacing-m);
+
+    > a {
+      color: var(--lbry-teal-4);
+    }
+  }
+
+  &:not([full-width]) {
+    width: 50%;
+  }
+
+  &[full-width] {
+    width: 100%;
+  }
+
+  span {
+    display: flex;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+}

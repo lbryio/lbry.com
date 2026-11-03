@@ -1,0 +1,30 @@
+<script>        (function () {
+  const form = document.getElementById('faq-filter-form');
+  const select = form.querySelector('select');
+  const choices = Array.from(select.options);
+  const all = document.createElement('option');
+  all.value = 'back-to-faq'; all.textContent = 'Back to FAQ';
+  select.prepend(all);
+  const headings = Array.from(form.parentElement.querySelectorAll('h2'));
+  function update() {
+    const requested = new URLSearchParams(location.search).get('category');
+    const category = choices.some(o => o.value === requested) ? requested : null;
+    select.value = category || 'back-to-faq';
+    headings.forEach(heading => {
+      const choice = choices.find(o => o.textContent.trim() === heading.textContent.trim());
+      const visible = !category || category === 'back-to-faq' || (choice && choice.value === category);
+      heading.hidden = !visible;
+      if (heading.nextElementSibling) heading.nextElementSibling.hidden = !visible;
+    });
+  }
+  form.addEventListener('submit', event => event.preventDefault());
+  form.addEventListener('change', () => {
+    const url = new URL(location.href);
+    if (select.value === 'back-to-faq') url.searchParams.delete('category');
+    else url.searchParams.set('category', select.value);
+    history.pushState(null, '', url); update();
+  });
+  window.addEventListener('popstate', update); update();
+})();
+      
+        </script>

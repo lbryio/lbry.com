@@ -1,0 +1,24 @@
+
+{{ $author := site.GetPage (printf "team/%s" .Params.author) }}
+<main class="news ancillary">
+  <section class="hero hero--news{{ if not .Params.cover }} hero--half-height{{ end }}"{{ with .Params.cover_url }} style="{{ printf "background-image: url('%s')" . | safeCSS }}"{{ end }}>
+    <div class="inner-wrap inner-wrap--center-hero">
+      <h1>{{ replace (htmlEscape .Title) "\n" "<br>" | safeHTML }}</h1>
+      <h2>{{ with $author }}{{ .Title }}{{ end }}{{ if and $author .Params.has_date }} • {{ end }}{{ if .Params.has_date }}<span title="{{ partial "news/date-title.html" .Date }}">{{ .Date.Format "Jan 2 2006" }}</span>{{ end }}</h2>
+    </div>
+  </section>
+  <section>
+    <div class="inner-wrap">
+      {{ partial "content/html-links.html" (dict "html" .Content "page" .) }}
+      <nav class="post-navigation">
+        {{ if isset .Params "navigation" }}
+          {{ range .Params.navigation }}<a href="{{ .href | safeURL }}" title="{{ .title }}">{{ .label_html | safeHTML }}</a>{{ end }}
+        {{ else }}
+        {{ with .PrevInSection }}<a href="{{ strings.TrimSuffix "/" .RelPermalink }}" title="Read '{{ .Title }}'">← {{ .Title }}</a>{{ end }}
+        {{ with .NextInSection }}<a href="{{ strings.TrimSuffix "/" .RelPermalink }}" title="Read '{{ .Title }}'">{{ .Title }} →</a>{{ end }}
+        {{ end }}
+      </nav>
+    </div>
+  </section>
+  {{ with $author }}{{ partial "news/author.html" (dict "person" . "article" $) }}{{ end }}
+</main>

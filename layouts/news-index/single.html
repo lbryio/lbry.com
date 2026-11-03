@@ -1,0 +1,26 @@
+{{ define "main" }}
+<main class="news ancillary">
+  <section class="hero hero--news" style="background-image: url(/img/bangalore.jpg); background-position: center 15%;">
+    <div class="inner-wrap inner-wrap--center-hero">
+      <h1>The Front Desk</h1>
+      <h2>News and musings from the LBRY team</h2>
+    </div>
+  </section>
+  <section>
+    <div class="inner-wrap">
+      <div class="notice notice-warning spacer1">For more regular updates, see <a href="https://open.lbry.com/@lbry">the official @lbry channel</a> on LBRY itself.</div>
+      {{ $articles := where site.RegularPages "Type" "news" }}
+      {{ with site.GetPage "news-history/redactedtonight-2017" }}{{ $articles = union $articles (slice .) }}{{ end }}
+      {{ with .Params.news_category }}{{ $articles = where $articles "Params.category" . }}{{ end }}
+      <ul class="news-items bulletless">
+        {{ range sort $articles "Params.index_order" }}
+        <li class="news-item">
+          <h3><a href="{{ .Params.index_url | default (strings.TrimSuffix "/" .RelPermalink) }}" class="link-primary">{{ .Title | safeHTML }}</a></h3>
+          <small class="meta" title="{{ partial "news/date-title.html" .Date }}">{{ .Date.Format "Jan 2, 2006" }} · {{ with site.GetPage (printf "team/%s" .Params.author) }}{{ .Title }}{{ end }}</small>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+  </section>
+</main>
+{{ end }}

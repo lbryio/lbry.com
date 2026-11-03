@@ -1,0 +1,44 @@
+{{ $platform := .platform }}
+{{ $selectedId := "" }}{{ with $platform }}{{ $selectedId = .id }}{{ end }}
+<main class="ancillary" data-download-page data-download-os="{{ with $platform }}{{ .id }}{{ end }}">
+  <section class="hero hero--half-height">
+    <div class="inner-wrap inner-wrap--center-hero"><h1>{{ with $platform }}{{ .title }}{{ else }}Use LBRY on your preferred platform{{ end }}</h1></div>
+  </section>
+  {{ with $platform }}
+  <section>
+    <div class="inner-wrap">
+      <div style="margin-bottom: 2rem; text-align: center;">
+        {{ if .types }}
+          {{ $selected := . }}
+          {{ range $index, $type := .types }}
+            {{ $asset := index (where (where (where hugo.Data.downloads.options "product" "LBRY") "os" $selected.os) "type" $type) 0 }}
+            <a class="button button--primary" download href="{{ $asset.url }}" id="get-download-btn" data-analytics-category="Sign Up" data-analytics-action="Download" data-analytics-label="{{ $selected.analytics }}" title="Download LBRY App" rel="noopener">{{ if eq $selected.id "linux" }}Download {{ $type }}{{ else }}Download for {{ $selected.name }}{{ end }}</a>
+          {{ end }}
+          <br>
+          <small class="meta">
+            Version {{ path.Base (index (where (where hugo.Data.downloads.options "product" "LBRY") "os" .os) 0).release }}
+            <br>
+            {{ if eq .id "osx" }}Works with with macOS version 10.12.4 (Sierra), and higher.{{ end }}
+            {{ if eq .id "linux" }}For other Linux flavors including Arch and Flatpak support or compiling from source, <a href="https://github.com/lbryio/lbry-desktop#install" rel="noopener">see our GitHub install page</a>.{{ end }}
+          </small>
+        {{ else if eq .id "android" }}
+          <a class="button button--google-play" data-analytics-action="Download" data-analytics-category="Sign Up" data-analytics-label="" data-facebook-track="1" href="{{ .store }}" title="Download our app" rel="noopener">Download</a>
+          <a class="button button--fdroid" data-analytics-action="Download" data-analytics-category="Sign Up" data-analytics-label="" data-facebook-track="1" href="https://f-droid.org/en/packages/io.lbry.browser/" title="Download on F-droid" rel="noopener">Download</a>
+          <p style="font-size: 0.8rem;">You can also <a href="https://lbry.com/releases/lbry-android.apk" title="Download our Android app directly" rel="noopener">download</a> our Android app directly.</p>
+        {{ else }}
+          <a class="button button--apple-store" data-analytics-action="Download" data-analytics-category="Sign Up" data-analytics-label="" data-facebook-track="1" href="{{ .store }}" title="Download our app" rel="noopener">Download</a>
+        {{ end }}
+      </div>
+      {{ if .screenshot }}
+        <figure><img alt="Screenshot of {{ if eq .id "ios" }}Odysee{{ else }}LBRY{{ end }}" class="tall" src="{{ .screenshot }}"></figure>
+      {{ else }}
+        <video autoplay loop poster="https://spee.ch/f/2019-08-lbry-interface-poster.jpg" playsinline style="display: block; margin-right: auto; margin-left: auto; max-width: 700px; ">
+          <source src="https://spee.ch/b/2019-09-lbry-interface-webm-2.webm" type="video/webm">
+          <source src="https://spee.ch/0/2019-09-lbry-interface-mp4-2.mp4" type="video/mp4">
+        </video>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+  <section><div class="inner-wrap">{{ partial "downloads/choices.html" (dict "selected" $selectedId) }}</div></section>
+</main>

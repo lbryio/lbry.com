@@ -1,0 +1,48 @@
+{
+  "title": "Fly into the future with LBRY Galileo",
+  "url": "/news/galileo",
+  "type": "news",
+  "source_url": "https://lbry.com/news/galileo",
+  "description": "We’re very excited to announce the release of our newest app version, LBRY Galileo! This upgrade brings some major changes…",
+  "images": [
+    "https://lbry.com/img/blog-covers/galileo-blog.jpg",
+    "https://spee.ch/@lbry:3f/galileo-gif.gif"
+  ],
+  "og_type": "article",
+  "twitter_card": "summary_large_image",
+  "news_feed": true,
+  "footer_email_href": "/cdn-cgi/l/email-protection#98f0fdf4f4f7d8f4faeae1b6fbf7f5",
+  "footer_email_code": "78101d14141738141a0a01561b1715",
+  "meta_title": "Fly into the future with LBRY Galileo",
+  "source_file": "content/news/224-galileo.md",
+  "weight": -219,
+  "has_date": true,
+  "author": "brinck-slattery",
+  "date": "2019-10-04T10:00:00+00:00",
+  "cover": "galileo-blog.jpg",
+  "category": "update",
+  "cover_url": "/img/blog-covers/galileo-blog.jpg",
+  "author_email_href": "/cdn-cgi/l/email-protection#2341514a4d4048634f41515a0d404c4e",
+  "source_date": "2019-10-04 10:00:00",
+  "index_order": 37
+}
+## We’re very excited to announce the release of our newest app version, LBRY Galileo!
+
+![GIF](https://spee.ch/@lbry:3f/galileo-gif.gif)
+
+This upgrade brings some major changes to LBRY, including:
+* YouTube Partner Program (Sync) users can now claim ownership of their channels and content. See the Channels page to start! See [our YouTube FAQ](https://lbry.com/faq/youtube) for details.
+* An all new “Channels” page so you can see all your channels in one place.
+* New first-run process during sign in. Includes a 1 LBC reward and creating a channel. YouTubers can claim their channel here as well.
+* Universal Credentials. New users can now enjoy the same LBRY experience on desktop and mobile with a single account. See [our Account Sync FAQ](https://lbry.com/faq/account-sync) for details. 
+* Subscription and file view counts.
+* Pagination on the Library, Publishes, and Wallet pages.
+* And much, much more!
+
+Just open your app to upgrade - and if you haven’t tried LBRY yet, what are you waiting for? [Get it here](https://lbry.com/get) now!
+
+We couldn’t do what we do here at LBRY without our amazing community - make sure to join us on [Discord](https://chat.lbry.com), [Twitter](https://twitter.com/lbrycom), and [Reddit](https://www.reddit.com/r/lbry/) to get all the latest news and information. And let us know what you think and what you want to see next!
+
+### PS!
+The first 200 users to upgrade can use the code below for a 50LBC reward - so hurry up and start upgrading!
+* `galileo-104-yxap`

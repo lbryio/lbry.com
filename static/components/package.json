@@ -1,0 +1,44 @@
+{
+  "author": {
+    "email": "paul+github@lbry.com",
+    "name": "Paul Anthony Webb"
+  },
+  "bugs": {
+    "url": "https://github.com/lbryio/components/issues"
+  },
+  "description": "Styling for shared components across LBRY properties",
+  "devDependencies": {
+    "@inc/sasslint-config": "^2019.6.22",
+    "husky": "^3.0.1",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.22.7",
+    "sass-lint": "^1.13.1",
+    "updates": "^8.5.1"
+  },
+  "files": [
+    "dist/style.css",
+    "sass/*"
+  ],
+  "homepage": "https://github.com/lbryio/components#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run test:sass && npm run sass:prod && git add -A :/"
+    }
+  },
+  "license": "BSD-3-Clause",
+  "main": "sass/",
+  "name": "@lbry/components",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lbryio/components.git"
+  },
+  "scripts": {
+    "sass:dev": "sass --load-path=node_modules --watch sass:dist --style compressed",
+    "sass:prod": "sass --load-path=node_modules --update sass:dist --style compressed",
+    "test": "run-s test:*",
+    "test:dependencies": "updates --update ./",
+    "test:sass": "sass-lint --config ./node_modules/@inc/sasslint-config/config.json --verbose",
+    "watch": "npm run sass:dev"
+  },
+  "version": "2.8.0"
+}

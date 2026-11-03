@@ -1,0 +1,2 @@
+# Preserve static asset bytes without newline conversion.
+static/** -text -whitespace

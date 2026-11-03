@@ -1,0 +1,6 @@
+{{- $day := int (.Format "2") -}}
+{{- $suffix := "th" -}}
+{{- if not (in (slice 11 12 13) (mod $day 100)) -}}
+  {{- if eq (mod $day 10) 1 -}}{{- $suffix = "st" -}}{{- else if eq (mod $day 10) 2 -}}{{- $suffix = "nd" -}}{{- else if eq (mod $day 10) 3 -}}{{- $suffix = "rd" -}}{{- end -}}
+{{- end -}}
+{{- return (printf "%s %d%s, %s" (.Format "January") $day $suffix (.Format "2006")) -}}

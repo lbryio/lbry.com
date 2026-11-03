@@ -1,0 +1,264 @@
+{
+  "checked_at": "2026-10-31T07:13:58Z",
+  "options": [
+    {
+      "os": "Linux",
+      "product": "LBRY",
+      "channel": "stable",
+      "name": "LBRY_0.53.9.AppImage",
+      "url": "https://github.com/lbryio/lbry-desktop/releases/download/v0.53.9/LBRY_0.53.9.AppImage",
+      "type": ".AppImage",
+      "release": "https://github.com/lbryio/lbry-desktop/releases/tag/v0.53.9",
+      "verification": "GitHub published release asset",
+      "size": 339920521
+    },
+    {
+      "os": "Windows",
+      "product": "LBRY",
+      "channel": "stable",
+      "name": "LBRY_0.53.9.exe",
+      "url": "https://github.com/lbryio/lbry-desktop/releases/download/v0.53.9/LBRY_0.53.9.exe",
+      "type": ".exe",
+      "release": "https://github.com/lbryio/lbry-desktop/releases/tag/v0.53.9",
+      "verification": "GitHub published release asset",
+      "size": 288269720
+    },
+    {
+      "os": "Linux",
+      "product": "LBRY",
+      "channel": "stable",
+      "name": "LBRY_0.53.9.deb",
+      "url": "https://github.com/lbryio/lbry-desktop/releases/download/v0.53.9/LBRY_0.53.9.deb",
+      "type": ".deb",
+      "release": "https://github.com/lbryio/lbry-desktop/releases/tag/v0.53.9",
+      "verification": "GitHub published release asset",
+      "size": 302380328
+    },
+    {
+      "os": "macOS",
+      "product": "LBRY",
+      "channel": "stable",
+      "name": "LBRY_0.53.9.dmg",
+      "url": "https://github.com/lbryio/lbry-desktop/releases/download/v0.53.9/LBRY_0.53.9.dmg",
+      "type": ".dmg",
+      "release": "https://github.com/lbryio/lbry-desktop/releases/tag/v0.53.9",
+      "verification": "GitHub published release asset",
+      "size": 314929688
+    },
+    {
+      "os": "macOS",
+      "product": "LBRY",
+      "channel": "stable",
+      "name": "LBRY_0.53.9.zip",
+      "url": "https://github.com/lbryio/lbry-desktop/releases/download/v0.53.9/LBRY_0.53.9.zip",
+      "type": ".zip",
+      "release": "https://github.com/lbryio/lbry-desktop/releases/tag/v0.53.9",
+      "verification": "GitHub published release asset",
+      "size": 309193479
+    },
+    {
+      "os": "Source code",
+      "product": "lbry-desktop",
+      "channel": "stable",
+      "name": "v0.53.9 source .zip",
+      "type": ".zip",
+      "url": "https://github.com/lbryio/lbry-desktop/archive/refs/tags/v0.53.9.zip",
+      "verification": "GitHub source archive for published release tag"
+    },
+    {
+      "os": "Source code",
+      "product": "lbry-desktop",
+      "channel": "stable",
+      "name": "v0.53.9 source .tar.gz",
+      "type": ".tar.gz",
+      "url": "https://github.com/lbryio/lbry-desktop/archive/refs/tags/v0.53.9.tar.gz",
+      "verification": "GitHub source archive for published release tag"
+    },
+    {
+      "os": "Android",
+      "product": "LBRY",
+      "channel": "stable",
+      "name": "browser-0.17.1-release__arm.apk",
+      "url": "https://github.com/lbryio/lbry-android/releases/download/0.17.1/browser-0.17.1-release__arm.apk",
+      "type": ".apk",
+      "release": "https://github.com/lbryio/lbry-android/releases/tag/0.17.1",
+      "verification": "GitHub published release asset",
+      "size": 63753251
+    },
+    {
+      "os": "Android",
+      "product": "LBRY",
+      "channel": "stable",
+      "name": "browser-0.17.1-release__arm64.apk",
+      "url": "https://github.com/lbryio/lbry-android/releases/download/0.17.1/browser-0.17.1-release__arm64.apk",
+      "type": ".apk",
+      "release": "https://github.com/lbryio/lbry-android/releases/tag/0.17.1",
+      "verification": "GitHub published release asset",
+      "size": 53310628
+    },
+    {
+      "os": "Source code",
+      "product": "lbry-android",
+      "channel": "stable",
+      "name": "0.17.1 source .zip",
+      "type": ".zip",
+      "url": "https://github.com/lbryio/lbry-android/archive/refs/tags/0.17.1.zip",
+      "verification": "GitHub source archive for published release tag"
+    },
+    {
+      "os": "Source code",
+      "product": "lbry-android",
+      "channel": "stable",
+      "name": "0.17.1 source .tar.gz",
+      "type": ".tar.gz",
+      "url": "https://github.com/lbryio/lbry-android/archive/refs/tags/0.17.1.tar.gz",
+      "verification": "GitHub source archive for published release tag"
+    },
+    {
+      "os": "Linux",
+      "product": "SDK",
+      "channel": "stable",
+      "name": "lbrynet-linux.zip",
+      "url": "https://github.com/lbryio/lbry-sdk/releases/download/v0.113.0/lbrynet-linux.zip",
+      "type": ".zip",
+      "release": "https://github.com/lbryio/lbry-sdk/releases/tag/v0.113.0",
+      "verification": "GitHub published release asset",
+      "size": 31392761
+    },
+    {
+      "os": "macOS",
+      "product": "SDK",
+      "channel": "stable",
+      "name": "lbrynet-mac.zip",
+      "url": "https://github.com/lbryio/lbry-sdk/releases/download/v0.113.0/lbrynet-mac.zip",
+      "type": ".zip",
+      "release": "https://github.com/lbryio/lbry-sdk/releases/tag/v0.113.0",
+      "verification": "GitHub published release asset",
+      "size": 18976602
+    },
+    {
+      "os": "Windows",
+      "product": "SDK",
+      "channel": "stable",
+      "name": "lbrynet-windows.zip",
+      "url": "https://github.com/lbryio/lbry-sdk/releases/download/v0.113.0/lbrynet-windows.zip",
+      "type": ".zip",
+      "release": "https://github.com/lbryio/lbry-sdk/releases/tag/v0.113.0",
+      "verification": "GitHub published release asset",
+      "size": 21487268
+    },
+    {
+      "os": "Source code",
+      "product": "lbry-sdk",
+      "channel": "stable",
+      "name": "v0.113.0 source .zip",
+      "type": ".zip",
+      "url": "https://github.com/lbryio/lbry-sdk/archive/refs/tags/v0.113.0.zip",
+      "verification": "GitHub source archive for published release tag"
+    },
+    {
+      "os": "Source code",
+      "product": "lbry-sdk",
+      "channel": "stable",
+      "name": "v0.113.0 source .tar.gz",
+      "type": ".tar.gz",
+      "url": "https://github.com/lbryio/lbry-sdk/archive/refs/tags/v0.113.0.tar.gz",
+      "verification": "GitHub source archive for published release tag"
+    },
+    {
+      "os": "Linux",
+      "product": "SDK",
+      "channel": "prerelease",
+      "name": "lbrynet-linux.zip",
+      "url": "https://github.com/lbryio/lbry-sdk/releases/download/v0.30.2rc1/lbrynet-linux.zip",
+      "type": ".zip",
+      "release": "https://github.com/lbryio/lbry-sdk/releases/tag/v0.30.2rc1",
+      "verification": "GitHub published release asset",
+      "size": 20423301
+    },
+    {
+      "os": "macOS",
+      "product": "SDK",
+      "channel": "prerelease",
+      "name": "lbrynet-mac.zip",
+      "url": "https://github.com/lbryio/lbry-sdk/releases/download/v0.30.2rc1/lbrynet-mac.zip",
+      "type": ".zip",
+      "release": "https://github.com/lbryio/lbry-sdk/releases/tag/v0.30.2rc1",
+      "verification": "GitHub published release asset",
+      "size": 12115850
+    },
+    {
+      "os": "Windows",
+      "product": "SDK",
+      "channel": "prerelease",
+      "name": "lbrynet-windows.zip",
+      "url": "https://github.com/lbryio/lbry-sdk/releases/download/v0.30.2rc1/lbrynet-windows.zip",
+      "type": ".zip",
+      "release": "https://github.com/lbryio/lbry-sdk/releases/tag/v0.30.2rc1",
+      "verification": "GitHub published release asset",
+      "size": 15510809
+    },
+    {
+      "os": "Source code",
+      "product": "lbry-sdk",
+      "channel": "prerelease",
+      "name": "v0.30.2rc1 source .zip",
+      "type": ".zip",
+      "url": "https://github.com/lbryio/lbry-sdk/archive/refs/tags/v0.30.2rc1.zip",
+      "verification": "GitHub source archive for published release tag"
+    },
+    {
+      "os": "Source code",
+      "product": "lbry-sdk",
+      "channel": "prerelease",
+      "name": "v0.30.2rc1 source .tar.gz",
+      "type": ".tar.gz",
+      "url": "https://github.com/lbryio/lbry-sdk/archive/refs/tags/v0.30.2rc1.tar.gz",
+      "verification": "GitHub source archive for published release tag"
+    },
+    {
+      "os": "Android",
+      "product": "LBRY",
+      "channel": "store",
+      "name": "Google Play (unavailable in our check; APKs are listed above)",
+      "type": "Store",
+      "url": "https://play.google.com/store/apps/details?id=io.lbry.browser",
+      "verification": "Anonymous HEAD and GET both returned 404; legacy store reference retained explicitly",
+      "availability": "unavailable in anonymous check"
+    },
+    {
+      "os": "iOS",
+      "product": "Odysee",
+      "channel": "store",
+      "name": "Odysee on the App Store",
+      "type": "Store",
+      "url": "https://apps.apple.com/us/app/odysee/id1539444143",
+      "verification": "Existing source distribution channel; availability may vary by region"
+    },
+    {
+      "os": "Android",
+      "product": "LBRY",
+      "channel": "legacy testing; enrollment unverified",
+      "name": "Google Play testing program",
+      "type": "Store testing",
+      "url": "https://play.google.com/apps/testing/io.lbry.browser",
+      "verification": "Existing distribution channel linked by retained articles; anonymous enrollment availability is unverified"
+    },
+    {
+      "os": "Android",
+      "product": "LBRY",
+      "channel": "distribution",
+      "name": "F-Droid (unavailable in our check; APKs are listed above)",
+      "type": "Package repository",
+      "url": "https://f-droid.org/en/packages/io.lbry.browser/",
+      "verification": "Anonymous HEAD and GET both returned 404; legacy repository reference retained explicitly",
+      "availability": "unavailable in anonymous check"
+    }
+  ],
+  "notes": [
+    "Complete public release histories checked: desktop and SDK have historical prereleases; Android has none. Stable releases may be newer than prereleases.",
+    "The desktop ZIP is the macOS archive distributed with the DMG.",
+    "Updater YAML and blockmap files are update metadata, not independent application installers.",
+    "Store links retain existing distribution choices; no availability claim across all regions."
+  ]
+}

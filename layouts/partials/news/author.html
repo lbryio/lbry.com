@@ -1,0 +1,16 @@
+{{- $person := .person -}}
+{{- $article := .article -}}
+<section class="person-bio --author">
+  <div class="inner-wrap">
+    <figure class="author">
+      <img src="{{ $person.Params.photo }}" alt="Photo of {{ $person.Title }}">
+      <figcaption>
+        {{ $person.Title }}
+        {{ with $person.Params.email }} · <a href="{{ $article.Params.author_email_href | safeURL }}" class="link-primary"><span class="icon icon-envelope"></span></a>{{ end }}
+        {{ with $person.Params.github }} · <a href="https://github.com/{{ . }}" class="link-primary" rel="noopener"><span class="icon icon-github"></span></a>{{ end }}
+        {{ with $person.Params.twitter }} · <a href="https://www.twitter.com/{{ . }}" class="link-primary" rel="noopener"><span class="icon icon-twitter"></span></a>{{ end }}
+      </figcaption>
+    </figure>
+    <div class="bio">{{ partial "content/html-links.html" (dict "html" $person.Content "page" $person) }}</div>
+  </div>
+</section>

@@ -1,0 +1,103 @@
+:root {
+  // Spacing
+  @include root-prop(--spacing-xxs, 0.2rem);
+  @include root-prop(--spacing-xs, 0.4rem);
+  @include root-prop(--spacing-s, 0.8rem);
+  @include root-prop(--spacing-m, 1.6rem);
+  @include root-prop(--spacing-l, 2.4rem);
+  @include root-prop(--spacing-xl, 3.2rem);
+  @include root-prop(--spacing-xxl, 6.4rem);
+
+  // Aspect ratio
+  @include root-prop(--aspect-ratio-bluray, 41.6666666667%); // 12:5
+  @include root-prop(--aspect-ratio-panavision, 36.3636363636%); // 11:4
+  @include root-prop(--aspect-ratio-sd, 75%); // 4:3
+  @include root-prop(--aspect-ratio-standard, 56.25%); // 16:9
+
+  // Color
+  @include root-prop(--lbry-black, $lbry-black);
+  @include root-prop(--lbry-white, $lbry-white);
+
+  @include root-prop(--lbry-gray-1, $lbry-gray-1);
+  @include root-prop(--lbry-gray-2, $lbry-gray-2);
+  @include root-prop(--lbry-gray-3, $lbry-gray-3);
+  @include root-prop(--lbry-gray-4, $lbry-gray-4);
+  @include root-prop(--lbry-gray-5, $lbry-gray-5);
+
+  @include root-prop(--lbry-teal-1, $lbry-teal-1);
+  @include root-prop(--lbry-teal-2, $lbry-teal-2);
+  @include root-prop(--lbry-teal-3, $lbry-teal-3);
+  @include root-prop(--lbry-teal-4, $lbry-teal-4);
+  @include root-prop(--lbry-teal-5, $lbry-teal-5);
+
+  @include root-prop(--lbry-cyan-1, $lbry-cyan-1);
+  @include root-prop(--lbry-cyan-2, $lbry-cyan-2);
+  @include root-prop(--lbry-cyan-3, $lbry-cyan-3);
+  @include root-prop(--lbry-cyan-4, $lbry-cyan-4);
+  @include root-prop(--lbry-cyan-5, $lbry-cyan-5);
+
+  @include root-prop(--lbry-blue-1, $lbry-blue-1);
+  @include root-prop(--lbry-blue-2, $lbry-blue-2);
+  @include root-prop(--lbry-blue-3, $lbry-blue-3);
+  @include root-prop(--lbry-blue-4, $lbry-blue-4);
+  @include root-prop(--lbry-blue-5, $lbry-blue-5);
+
+  @include root-prop(--lbry-indigo-1, $lbry-indigo-1);
+  @include root-prop(--lbry-indigo-2, $lbry-indigo-2);
+  @include root-prop(--lbry-indigo-3, $lbry-indigo-3);
+  @include root-prop(--lbry-indigo-4, $lbry-indigo-4);
+  @include root-prop(--lbry-indigo-5, $lbry-indigo-5);
+
+  @include root-prop(--lbry-violet-1, $lbry-violet-1);
+  @include root-prop(--lbry-violet-2, $lbry-violet-2);
+  @include root-prop(--lbry-violet-3, $lbry-violet-3);
+  @include root-prop(--lbry-violet-4, $lbry-violet-4);
+  @include root-prop(--lbry-violet-5, $lbry-violet-5);
+
+  @include root-prop(--lbry-grape-1, $lbry-grape-1);
+  @include root-prop(--lbry-grape-2, $lbry-grape-2);
+  @include root-prop(--lbry-grape-3, $lbry-grape-3);
+  @include root-prop(--lbry-grape-4, $lbry-grape-4);
+  @include root-prop(--lbry-grape-5, $lbry-grape-5);
+
+  @include root-prop(--lbry-pink-1, $lbry-pink-1);
+  @include root-prop(--lbry-pink-2, $lbry-pink-2);
+  @include root-prop(--lbry-pink-3, $lbry-pink-3);
+  @include root-prop(--lbry-pink-4, $lbry-pink-4);
+  @include root-prop(--lbry-pink-5, $lbry-pink-5);
+
+  @include root-prop(--lbry-red-1, $lbry-red-1);
+  @include root-prop(--lbry-red-2, $lbry-red-2);
+  @include root-prop(--lbry-red-3, $lbry-red-3);
+  @include root-prop(--lbry-red-4, $lbry-red-4);
+  @include root-prop(--lbry-red-5, $lbry-red-5);
+
+  @include root-prop(--lbry-orange-1, $lbry-orange-1);
+  @include root-prop(--lbry-orange-2, $lbry-orange-2);
+  @include root-prop(--lbry-orange-3, $lbry-orange-3);
+  @include root-prop(--lbry-orange-4, $lbry-orange-4);
+  @include root-prop(--lbry-orange-5, $lbry-orange-5);
+
+  @include root-prop(--lbry-yellow-1, $lbry-yellow-1);
+  @include root-prop(--lbry-yellow-2, $lbry-yellow-2);
+  @include root-prop(--lbry-yellow-3, $lbry-yellow-3);
+  @include root-prop(--lbry-yellow-4, $lbry-yellow-4);
+  @include root-prop(--lbry-yellow-5, $lbry-yellow-5);
+
+  @include root-prop(--lbry-lime-1, $lbry-lime-1);
+  @include root-prop(--lbry-lime-2, $lbry-lime-2);
+  @include root-prop(--lbry-lime-3, $lbry-lime-3);
+  @include root-prop(--lbry-lime-4, $lbry-lime-4);
+  @include root-prop(--lbry-lime-5, $lbry-lime-5);
+
+  @include root-prop(--lbry-green-1, $lbry-green-1);
+  @include root-prop(--lbry-green-2, $lbry-green-2);
+  @include root-prop(--lbry-green-3, $lbry-green-3);
+  @include root-prop(--lbry-green-4, $lbry-green-4);
+  @include root-prop(--lbry-green-5, $lbry-green-5);
+
+  // Type
+  @include root-prop(--font-mono, "Fira Code");
+  @include root-prop(--font-sans, Inter);
+  @include root-prop(--font-serif, Georgia);
+}

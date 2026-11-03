@@ -1,0 +1,396 @@
+years:
+- '2019'
+- '2020'
+items_by_year:
+  '2019':
+  - id: technical-community
+    name: Technical Community
+    date: Q1 2019
+    body_html: |
+      <p dir="auto">Lbry.tech only soft-launched at the end of 2018 and the whitepaper and full specification of the protocol are only just being added as 2019 goals are being specified.</p>
+      <p dir="auto">With these resources ready, LBRY should make a concerted effort to grow it’s technical reputation and 3rd-party development.</p>
+      <p dir="auto">This includes submitting our paper to major computer science journals, attending relevant conferences, and using LBC to fund more development and community efforts.</p>
+      <h3 dir="auto">Success</h3>
+      <ol dir="auto">
+      <li>LBRY protocol published in major computer science journal</li>
+      <li>LBRY technology featured prominently and organically on tech community hubs (e.g. Hacker News, /r/programming, lobste.rs, etc.)</li>
+      <li>“Active” developer community (metric TBD)</li>
+      <li>Sustained 3rd-party application development</li>
+      <li>4x growth in public contributions and PRs</li>
+      </ol>
+  - id: website-redesign
+    name: Website Redesign
+    date: Q1 2019
+    body_html: |
+      <p dir="auto">lbry.io has gotten stale. We ought to redesign it from the ground up, as well as reconsider it's purpose with lbry.tech, lbry.fund, lbry.org, and lbry.tv all live and/or in the works. Additionally, we should continue to unify our web branding.</p>
+      <h3 dir="auto">Success</h3>
+      <ol dir="auto">
+      <li>Launch a redesigned lbry.io.</li>
+      <li>Have consistent branding across web properties and applications.</li>
+      </ol>
+  - id: commenting
+    name: Commenting
+    date: Q2 2019
+    body_html: |
+      <p dir="auto">In a decentralized system with no authority like LBRY, it is imperative that the community itself be able to provide feedback about the content itself. Is it legitimate? Is there a problem with it? Was it good?</p>
+      <p dir="auto">One solution to this is comments. This is related to Community Metadata, but is a less thorny problem since it doesn’t pose the same user experience challenges. Any system that does this ought to meet the same egalitarian standard that LBRY itself aims for. Required attributes:</p>
+      <ol dir="auto">
+      <li>Anyone can participate.</li>
+      <li>It is not controlled by us or any other single party.</li>
+      <li>The most useful contributions float to the top.</li>
+      <li>Resistant to Sybil attacks.</li>
+      </ol>
+      <p dir="auto">Related: Community Metadata</p>
+      <p dir="auto">This was delayed from Q1 to Q2.</p>
+      <h3 dir="auto">Success</h3>
+      <ol dir="auto">
+      <li>A user can leave a comment and/or rating about a LBRY URL in a permissionless, decentralized, trustless fashion that is accessible by other users of the network.</li>
+      </ol>
+  - id: community-swarm
+    name: Community Swarm
+    date: Q2 2019
+    body_html: |
+      <p dir="auto">Existing community initiatives have relied too much on LBRY Inc. They do not scale, are resource intensive, require us to pick winners and losers under significant uncertainty, and hinder our ability to get traction internationally or in other areas where we’re less familiar.</p>
+      <p dir="auto">In Q4 2018, the growth team drafted and began implementing a plan to massively scale community efforts. Currently titled the “swarm plan”, it involves appointing and empowering a large number of community members with explicit roles, responsibilities, and budgets. Swarms are community slices aligned along a geographic area or cultural interest.</p>
+      <p dir="auto">Further introduction to this plan is outlined in the <a href="https://docs.google.com/document/d/1mI_wter8A6W9m8dhwJq75_kWaCpEjyoJE_8hoAs4nC0/edit" rel="noopener">Community @ LBRY</a> internal document.</p>
+      <h3 dir="auto">Success</h3>
+      <ol dir="auto">
+      <li>Launch of lbry.org as a new community hub.</li>
+      <li>500,000 swarm members (or people who completed the simplest CTA).</li>
+      <li>Over 100 distinct and active sub communities.</li>
+      <li>Over 20,000,000 LBC dispersed through swarm plan.</li>
+      </ol>
+  - id: creator-features
+    name: Creator Features
+    date: Q2 2019
+    body_html: |
+      <p dir="auto">LBRY is a win for creators in terms of trust and earnings, but we have more to do in terms of the features creators expect out of a content distribution platform.</p>
+      <p dir="auto">This includes giving them more control over the presentation of their work, more insight into how their content is performing, and an ability to provide proof about their identity.</p>
+      <h3 dir="auto">Success</h3>
+      <ol dir="auto">
+      <li>The LBRY protocol can store the appropriate metadata about creators, presumably in the blockchain claim.</li>
+      <li>Metadata is displayed and editable in all relevant applications. Via this metadata, creators have control over the presentation of their channel (TBD how much).</li>
+      <li>A creator has the ability to access reports/data about how their content is performing, as well as the ability to receive ongoing notifications about content performance.</li>
+      <li>A creator has the ability to provide proof about their identity via external platforms, such as proving they own a certain Twitter or YouTube handle.</li>
+      </ol>
+  - id: creator-partnerships
+    name: Creator Partnerships
+    date: Q2 2019
+    body_html: |
+      <p dir="auto">While LBRY has relationships with a large number of creators, many of these are weak or passive relationships.</p>
+      <p dir="auto">LBRY must seek partnerships with creators that see enough value and potential in LBRY technology to proactively promote it, not just passively co-publish.</p>
+      <p dir="auto">If existing experiences and programs are insufficient for this, this could involve using LBRY technology to create specific branded experiences, using the community fund, or another more custom tailored partnership design.</p>
+      <h3 dir="auto">Success</h3>
+      <ol dir="auto">
+      <li>Have one-to-one conversations with over 50 prominent creators.</li>
+      <li>Form over 100 formal partnerships that require or encourage active promotion rather than just co-publishing.</li>
+      </ol>
+  - id: discovery
+    name: Discovery
+    date: Q2 2019
+    body_html: |
+      <p dir="auto">Lackluster content discovery has throttled user engagement. While search has improved and subscriptions were added, existing experiences still do not do a sufficient job driving people to content that is interesting to them.</p>
+      <p dir="auto">LBRY must look to improve discovery through any possible mechanism. The most promising avenues are:</p>
+      <ol dir="auto">
+      <li>Traditional recommendation algorithms (e.g. machine-learning) based on user behavior.</li>
+      <li>A combination of Community Swarm, subscriptions, and playlists to provide interest and community oriented discovery pages and feeds.</li>
+      <li>Continuing to improve search, as well as metrics for measuring search performance.</li>
+      </ol>
+      <p dir="auto">Related: Community Metadata, Community Swarm</p>
+      <h3 dir="auto">Success</h3>
+      <ol dir="auto">
+      <li>Add a recommender system in all application experiences.</li>
+      <li>Combine playlists and community engagement to create interest, geographic, and community based hubs.</li>
+      <li>Implement a better mechanism for assessing search performance and use this metric to substantially improve search.</li>
+      <li>Add support for re-publishing (listing another's content in your channel).</li>
+      <li>Discovery and engagement experiences that improve engagement metrics at least 300%.</li>
+      </ol>
+  - id: lbry-on-the-web
+    name: LBRY on the Web
+    date: Q2 2019
+    body_html: |
+      <p dir="auto">Providing a desktop-based application experience was a necessary step towards getting the protocol working and will always be necessary for people who want a complete, full, and uncontrolled LBRY experience.</p>
+      <p dir="auto">We always knew most people wouldn’t want that. Installing an application is high friction and requires users to be fully responsible for their own security.</p>
+      <p dir="auto">By taking LBRY to the web, we can reach a lot more people.</p>
+      <h3 dir="auto">Success</h3>
+      <ol dir="auto">
+      <li>A user can have an experience entirely over the web that is extremely close, if not identical, to the experience of the LBRY desktop or mobile browser.</li>
+      </ol>
+  - id: multi-device-experience
+    name: Multi-Device Experience
+    date: Q2 2019
+    body_html: |
+      <p dir="auto">Even with a mobile application in an early beta, we ran into user experience issues and confusion around the locality of wallets and other user data.</p>
+      <p dir="auto">Regardless of the underlying architecture of LBRY, we must provide an emergent consumer experience that matches what they expect in other places: the ability to have the same views, data, and accounts across devices.</p>
+      <p dir="auto">Work on this began at the end of 2018 and will continue into 2019. Ideally, users would not be dependent on LBRY, Inc. servers to sync data across devices, but it is likely that a first version will work this way.</p>
+      <p dir="auto">This issue includes the user’s ability to sync proof of purchase and channel identities across devices, as well as resolving any remaining issues that may exist within those features.</p>
+      <h3 dir="auto">Success</h3>
+      <ol dir="auto">
+      <li>A user can have a consistent experience across multiple devices in a way comparable to other platforms (e.g. they provide a username/password on each device), including balance, channels, and purchase history.</li>
+      </ol>
+  - id: protocol-performance
+    name: Protocol Performance
+    date: Q2 2019
+    body_html: |
+      <p dir="auto">Performance was a focus in 2018 to decent success. Failed streams were reduced by more than 66% and stream performance has improved substantially as well, especially with the final releases of 2018.</p>
+      <p dir="auto">All of it is still not enough.</p>
+      <p dir="auto">We want stream times to approach what’s capable via complete centralization and we want as few users as possible to have the negative experience of a failed stream.</p>
+      <h3 dir="auto">Success</h3>
+      <ol dir="auto">
+      <li>&lt; 5% failure rate in Q1 2019, &lt; 2% failure rate in Q2, &lt; 0.5% failure rate Q3+.</li>
+      <li>&lt; 2s average start time for broadband, well-networked countries, &lt;4s average start time globally.</li>
+      <li>&lt; 3s average end-to-end start time from clicking an open.lbry.io link to stream start regardless of platform and state of application.</li>
+      <li>&lt; 50ms average resolution time (to metadata) for URLs.</li>
+      </ol>
+  - id: advertising
+    name: Advertising
+    date: Q3 2019
+    body_html: |
+      <p dir="auto">A significant majority of people prefer advertisements to paying small fees for content. Adding advertisements would allow users who are in that category to avoid spending LBC for content. Additionally, advertisements would allow new users to watch sufficiently cheap content for free without needing to acquire LBC, reducing startup costs.</p>
+      <p dir="auto">The most likely model for advertisements is:</p>
+      <ul dir="auto">
+      <li>LBRY partners with an existing advertisement providers.</li>
+      <li>Via an API or some other logic, LBRY apps can determine how much of a cost the advertiser is willing to subsidize for that specific user.</li>
+      <li>Users have the option to watch advertisements rather than pay the cost for a piece of content when the cost of the content is lower than the above value.</li>
+      </ul>
+      <h3 dir="auto">Success</h3>
+      <ol dir="auto">
+      <li>LBRY selects a suitable provider.</li>
+      <li>LBRY builds any infrastructure required for settlement.</li>
+      <li>Application experiences allow consumption of content via advertisements rather than LBC payments.</li>
+      </ol>
+  - id: blockchain-bricklaying
+    name: Blockchain Bricklaying
+    date: Q3 2019
+    body_html: |
+      <p dir="auto">The LBRY blockchain layer has done an admirable job through 2018. It’s seen substantial improvements in terms of claim expiration and normalization, as well as improved performance and organization.</p>
+      <p dir="auto">Most importantly, the LBRY blockchain has remained secure, and the security of the blockchain layer is always goal number one.</p>
+      <p dir="auto">In 2019, the primary objective of the blockchain team is to continue its track record of security, as well as to lay the groundwork for the continued growth of the LBRY protocol. This means keeping current with core, beginning to tackle scaling questions, and a few other changes related to other goals.</p>
+      <p dir="auto">Related: Multi-device Experience</p>
+      <h3 dir="auto">Success</h3>
+      <ol dir="auto">
+      <li>No network disruptions or security issues.</li>
+      <li>The LBRY blockchain is current with bitcoin core or has explicitly chosen to not include more recent bitcoin features.</li>
+      <li>Non-winning claims included in the blockchain claimtrie. Claimtrie design re-assessed for viability to handle more than 1 billion claims.</li>
+      <li>Segwit implemented, lightning implemented and/or other changes made to continue to improve throughput.</li>
+      </ol>
+  - id: lbc-onramps-offramps
+    name: LBC Onramps / Offramps
+    date: Q3 2019
+    body_html: |
+      <p dir="auto">All current primary ways of acquiring and/or converting LBC (rewards, community, and exchanges) are either high effort or inflexible.</p>
+      <p dir="auto">If we want creators to take LBC seriously, as well as allow users to participate fully, we need to provide a low friction way of converting to and from LBC to the currency they desire.</p>
+      <p dir="auto">The standard for this goal should be to reach a user experience comparable to Coinbase, PayPal, or other ecommerce ecosystems in which funds both enter, exit, and circulate within the ecosystem.</p>
+      <h3 dir="auto">Success</h3>
+      <ol dir="auto">
+      <li>A user can acquire a flexible amount of LBC via a purchasing or onboarding experience comparable to major ecommerce or media sites.</li>
+      <li>A creator can convert LBC to the currency they desire with an experience comparable to major peer-to-peer ecommerce portals (e.g. PayPal, AirBnB).</li>
+      </ol>
+  - id: community-metadata
+    name: Community Metadata
+    date: Q4 2019
+    body_html: |
+      <p dir="auto">One downside of giving the publisher exclusive control over the metadata stored in the LBRY blockchain is that the publisher has exclusive control over the metadata stored in the LBRY blockchain. Less tautologically, metadata can sometimes be inaccurate, malicious, or immutable due to lost keys (<del>though expiration handles this eventually</del> we dont have expiration...).</p>
+      <p dir="auto">The strongest solution to this problem is to allow community-based updates to metadata. Sometimes called “metadata overlays”, these are suggested changes or corrections to publisher-provided metadata. Such corrections could range from correcting errors, to correctly marking a file as containing adult content, to attributions that a file is maligned via a tag.</p>
+      <p dir="auto">Any eventual solution will always be clear to differentiate between what a publisher says vs. what the community says. It is likely that significant choice will reside at the user/application level, and could even involve web-of-trust style approaches.</p>
+      <p dir="auto">This is a thorny problem that will require thoughtful design. It is unlikely to be fully resolved even inside of 2019.</p>
+      <p dir="auto">Side note: if community updates are attributable (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/bob/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/bob" rel="noopener">@bob</a> and <a class="user-mention notranslate" data-hovercard-type="organization" data-hovercard-url="/orgs/jane/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/jane" rel="noopener">@jane</a> say this content is incomplete) then it can also be used to bring IP compliance in-protocol rather than relying on an external LBRY, Inc. server (@LBRYInc says this content is a DMCA violation).</p>
+      <h3 dir="auto">Success</h3>
+      <ol dir="auto">
+      <li>Community metadata goes through proposals process and a design is selected.</li>
+      <li>The design undergoes implementation to the point of reaching initial testing and community feedback.</li>
+      </ol>
+  - id: internationalization
+    name: Internationalization
+    date: Q4 2019
+    body_html: |
+      <p dir="auto">International audiences are a ripe target for adoption of LBRY for several reasons:</p>
+      <ol dir="auto">
+      <li>The peer-to-peer nature of LBRY’s data distribution is more capable of outcompeting performance in countries with less targeted infrastructure.</li>
+      <li>Non-US countries are more likely to face concerns around censorship or freedom of speech.</li>
+      <li>In many non-US countries, the token itself means more.</li>
+      </ol>
+      <p dir="auto">International success is dependent on and closely linked to our swarm plan to empower and unleash our community. Additionally, it would require internationalizing our applications and websites as well as our community itself.</p>
+      <p dir="auto">Related: Community Swarm</p>
+      <h3 dir="auto">Success</h3>
+      <ol dir="auto">
+      <li>LBRY updates all website and application code to support internationalized strings.</li>
+      <li>LBRY blockchain supports unicode.</li>
+      <li>LBRY websites and apps work in several non-US countries.</li>
+      <li>LBRY has identified influencers and community leaders in every country for which we provide translations.</li>
+      <li>LBRY has a community of translators and a release cycle that incorporates translations.</li>
+      </ol>
+  - id: robust-data-market
+    name: Robust Data Market
+    date: Q4 2019
+    body_html: |
+      <p dir="auto">While the LBRY data network is decentralized and designed to function without LBRY Inc. involvement, there’s room for improvement. The LBRY data network must improve incentives for participation and performance and ensure it has zero dependency on LBRY Inc. infrastructure.</p>
+      <p dir="auto">This means ensuring that proper incentives exist to participate as a host or to fulfill any role that LBRY Inc. currently participates in (e.g. wallet servers).</p>
+      <h3 dir="auto">Success</h3>
+      <ol dir="auto">
+      <li>Prices for data are set dynamically via market-based incentives.</li>
+      <li>Reasonable user-experience to participate solely as a host, including some incentives to do so (even if LBRY market rate makes it a losing proposition). This includes the ability to dedicate a specific amount of space and let the software handle the rest.</li>
+      <li>Every LBRY Inc. server can be switched off with minimal to no loss in performance or experience.</li>
+      </ol>
+  '2020':
+  - id: creator-analytics-and-reporting
+    name: Creator Analytics and Reporting
+    date: Q1 2020
+    body_html: |
+      <p dir="auto">Creators must receive prompt, regular, and useful reports about how their content is performing and behaving on the LBRY network.</p>
+      <h3 dir="auto">Success</h3>
+      <ol dir="auto">
+      <li>Creators have an in-app dashboard allowing them to view content performance, including views, follows, tips/supports, and claim staking status.</li>
+      <li>Creators receive regular content reports via email.</li>
+      <li>Creators receive notifications related to content performance (for example, when trending, or entering/exiting top for a tag) as well as when URL changes happen or could happen.</li>
+      </ol>
+  - id: decentralize-organization
+    name: Decentralize Organization
+    date: Q1 2020
+    body_html: |
+      <p dir="auto">LBRY as a protocol is decentralized, but it's organization is still fairly centralized.</p>
+      <p dir="auto">While the incentives of the LBRY Inc. are fairly closely aligned with the success of the LBRY protocol itself, they are not necessarily perfectly so.</p>
+      <p dir="auto">A community-owned non-profit organization increases stakeholders that care about LBRY and gives a name, place, and framework for anyone who want to build on or with LBRY. It also reduces potential conflicts of interest LBRY may face in terms of community organization and community management.</p>
+      <h3 dir="auto">Success</h3>
+      <ol dir="auto">
+      <li>Launch a separate organization with a seed amount of LBC that is owned by community members of the LBRY protocol.</li>
+      <li>If successful, create a program for creating more of these, especially for different countries, cultures, or regions.</li>
+      </ol>
+  - id: lbry-first-publishing
+    name: LBRY-first Publishing
+    date: Q1 2020
+    body_html: |
+      <p dir="auto">LBRY must do more to encourage and support LBRY-first publishing, especially in moving YouTube creators from YouTube-first to LBRY-first.</p>
+      <p dir="auto">Creators with YouTube sync enabled should be able to publish to LBRY and have content show up on YouTube afterward and earn rewards for doing so.</p>
+      <p dir="auto">LBRY-first publishing also drives engagement, as users will have the ability to see their favorite content sooner.</p>
+      <h3 dir="auto">Success</h3>
+      <ol dir="auto">
+      <li>Creators who publish to LBRY-first instead of other platforms are identified, encouraged, and rewarded.</li>
+      <li>A creator enrolled in the YouTube program can publish to LBRY first and have that content deploy to YouTube later (and at least 25% of those who sign into lbry.tv do so).</li>
+      <li>LBRY apps support optional transcoding when creators supply videos that may not perform well without modification.</li>
+      </ol>
+  - id: wallets-and-passwords
+    name: Wallets and Passwords
+    date: Q1 2020
+    body_html: |
+      <p dir="auto">lbry.tv and wallet sync, both added in 2019, introduce a number of complicated user-interface and user-experience choices around password management and wallet custody.</p>
+      <p dir="auto">In 2020, we must fill in the gaps, provide clarity about how everything works, and ensure users can use LBRY with an ability to set the slider between user-experience and security to a place that is right for them.</p>
+      <h3 dir="auto">Success</h3>
+      <ol dir="auto">
+      <li>Users can log in to lbry.tv with a password.</li>
+      <li>Users are provided with a clear indication of wallet custody, who can access it, and when.</li>
+      <li>Users have a reasonable user-experience to convert between a wallet that is fully theirs (lbry.tv has no copy), secured by them (lbry.tv has encrypted copy it cannot access; no password reset), or shared with us (lbry.tv can access it as well as reset your password). Note that all 3 of these modes are possible now. We do not have a copy of wallets for users of our desktop or mobile apps unless they log in to lbry.tv and enable wallet sync.</li>
+      </ol>
+  - id: commenting
+    name: Commenting
+    date: Q2 2020
+    body_html: |
+      <p dir="auto">LBRY added commenting support in 2019, but it is minimal and not part of the core protocol.</p>
+      <p dir="auto">In 2020, we make commenting awesome and decentralized.</p>
+      <h3 dir="auto">Success</h3>
+      <ol dir="auto">
+      <li>Expected traditional commenting features exist, including but not limited to, editing, replying, and notifications.</li>
+      <li>Resolve tensions between where ultimate control of comment display resides via discussion with community. How do we allow the community to police bad actors, without these tools also being usable by bad actors to prevent helpful comments?</li>
+      <li>Move commenting API into the core LBRY protocol, with all of the properties of LBRY (decentralized, robust, etc.).</li>
+      </ol>
+  - id: lbc-exchanging
+    name: LBC Exchanging
+    date: Q2 2020
+    body_html: |
+      <p dir="auto">Regardless of whether someone is looking to buy or sell LBC, they face a user experience that only the most dedicated and/or masochistic of users make it through.</p>
+      <p dir="auto">The ability to acquire LBC for users as well as for creators to convert LBC when desired is absolutely vital to creating an ecosystem that reaches the mainstream.</p>
+      <h3 dir="auto">Success</h3>
+      <ol dir="auto">
+      <li>A user can acquire varying amounts of LBC via flows that begin in LBRY apps via a process that is broadly accessible, minimally invasive, and secure.</li>
+      <li>A creator can initiate a flow to convert LBC to their desired currency via a LBRY app. Just like with purchasing, it must be accessible, intuitive, and secure.</li>
+      </ol>
+  - id: ios
+    name: iOS
+    date: Q2 2020
+    body_html: |
+      <p dir="auto">A LBRY browser is available on Windows, Android, macOS, and Linux, leaving iOS as the only major operating system without a native browser client.</p>
+      <h3 dir="auto">Success</h3>
+      <ol dir="auto">
+      <li>A LBRY browser exists for iOS that is at a minimum is roughly on par with our LBRY on Android experience.</li>
+      </ol>
+  - id: alternative-monetization
+    name: Alternative Monetization
+    date: Q3 2020
+    body_html: |
+      <p dir="auto">A lot of creator value-based benefits come from using lbry.tv and LBRY, Inc. itself. While this is sustainable as the company was specifically designed with this usage in mind, it's time we begin giving creators more ways to earn from the content they create and their fans.</p>
+      <h3 dir="auto">Success</h3>
+      <ol dir="auto">
+      <li>Paid content is supported on lbry.tv.</li>
+      <li>For content priced below that which an advertiser would pay, a viewer can watch an advertisement rather than pay.</li>
+      <li>Non-authenticated users on lbry.tv receive advertising, with portions going to creators.</li>
+      <li>Explore and then implement or decide against the following features:
+      <ol dir="auto">
+      <li>Paid, recurring subscriptions</li>
+      <li>Content releasable via assurance contract (kickstarter-style release mechanism)</li>
+      <li>Paid memberships that distribute funds automatically along users followers</li>
+      </ol>
+      </li>
+      </ol>
+  - id: stronger-data-network
+    name: Stronger Data Network
+    date: Q3 2020
+    body_html: |
+      <p dir="auto">While the LBRY data network is relatively strong (especially for popular content), we must ensure it remains strong as lbry.tv increases in usage. Additionally, users who are contributing to the network are not sufficiently rewarded.</p>
+      <h3 dir="auto">Success</h3>
+      <ol dir="auto">
+      <li>Ensure all data is well-hosted without our participation.</li>
+      <li>Utilize disk space provided by users pro-actively. Offer rewards and benefits for this.</li>
+      <li>Test, rework, and re-enable code for market-based data payments.</li>
+      <li>Host-only setup process is user-friendly to do at scale.</li>
+      <li>Form partnerships with data providers in other countries.</li>
+      </ol>
+  - id: cheetah-performance
+    name: Cheetah Performance
+    date: Q4 2020
+    body_html: |
+      <p dir="auto"><em>(This is labeled Q4 because we will be improving performance for all time. However, we expect improvements to come here with each quarter.)</em></p>
+      <p dir="auto">Performance. Can it ever be good enough? Probably not, so let's make it better.</p>
+      <p dir="auto">LBRY performed much better in 2019 than it did in 2018, and much better in 2018 than it did in 2017. We must continue the cycle.</p>
+      <p dir="auto">In 2020, performance is about end-to-end stream times (especially from cold app starts), lbry.tv, and wallet servers.</p>
+      <h3 dir="auto">Success</h3>
+      <ol dir="auto">
+      <li>For all broadband users, lbry.tv stream start times and buffering events are comparable to a site like YouTube or Vimeo.</li>
+      <li>lbry.tv provides varying video qualities, either because it has been added to the LBRY protocol, or by proxying and transcoding.</li>
+      <li>Mobile users can click a notification and begin watching a video in a time comparable to the YouTube app.</li>
+      <li>The desktop app can start and be kept running with minimal footprint. Stream start times between a docked desktop app and lbry.tv (browser open but not loaded) should be comparable.</li>
+      <li>The LBRY SDK adds support for callbacks in places where polling is currently being used.</li>
+      <li>Wallet servers can be brought online and synced quickly (presumably, limited only by bandwidth).</li>
+      <li>LBRY URL resolutions happen in under 100ms under typical load and network conditions.</li>
+      </ol>
+  - id: creator-owned-relationships
+    name: Creator-Owned Relationships
+    date: Q4 2020
+    body_html: |
+      <p dir="auto">On platforms like YouTube, Facebook, and literally all of them, the relationship between creator and fan is owned by the platform. If possible at all, a creator can only engage directly with her fans by taking steps to circumvent the platform itself (e.g. building a mailing list of fans outside of YouTube).</p>
+      <p dir="auto">Currently, it’s no different on LBRY -- if anything, it’s worse! While a user can subscribe to a creator and receive notifications, it’s difficult for creators to directly get message followers and impossible outside of a LBRY application.</p>
+      <p dir="auto">Subject to compatible user and creator preferences, creators should be able to collect and access certain data about their users, up to and including messaging credentials (like email) that would allow the creator to engage outside of LBRY entirely.</p>
+      <p dir="auto">Related: <a href="https://github.com/lbryio/internal-issues/issues/232" data-hovercard-type="issue" data-hovercard-url="/lbryio/internal-issues/issues/232/hovercard" rel="noopener">Creator Features</a></p>
+      <h3 dir="auto">Success</h3>
+      <ol dir="auto">
+      <li>Users have personal profiles and preferences about sharing info with creators.</li>
+      <li>Users that follow creators share certain information with them subject to preferences. Creators are able to access and use this information.</li>
+      <li>The system provides proper incentives (whether emotional or financial) to encourage usage.</li>
+      </ol>
+  - id: improved-content-discovery
+    name: Improved Content Discovery
+    date: Q4 2020
+    body_html: |
+      <p dir="auto"><em>(This is labeled Q4 because we will be improving discovery for all time. However, we expect improvements to come here with each quarter.)</em></p>
+      <p dir="auto">Providing decentralized content discovery mechanisms is absolutely central to the success of the LBRY protocol.</p>
+      <p dir="auto">While LBRY is possibly already the best system in the entire world for this, our design has <em>plenty</em> of room for improvement, particularly around inaccurate or malicious contributions.</p>
+      <p dir="auto">This issue is substantial and everything necessary is not likely to be enumerated below.</p>
+      <h3 dir="auto">Success</h3>
+      <ol dir="auto">
+      <li>Develop finer metrics to ascertain whether various algorithms are doing a better or worse job at returning relevant results.</li>
+      <li>The problem of inaccurate tagging is eliminated or substantially reduced.</li>
+      <li>Requesting trending content, whether by tag, channel, network wide, or other factors returns content that is maximally desired and germane to the request.</li>
+      <li>Incorporate more user-specific information into claim search results. For example, leveraging what channels users follow or what content they like. Investigate weighted web-of-trust algorithms.</li>
+      <li>Clearly document and communicate how discovery algorithms work. Run a campaign to encourage broader participation in the problem solving process.</li>
+      <li>Investigate and implement other changes to align user behavior. Seek to maximize incentive that when content is prominent and easily discovered it is also desired.</li>
+      <li>Continue to experiment with home page, search, following, and other discovery paradigms based on our own experiences and through listening and collecting to user feedback, both explicit and implicit.</li>
+      </ol>

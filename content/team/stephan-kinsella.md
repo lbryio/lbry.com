@@ -1,0 +1,23 @@
+{
+  "title": "Stephan Kinsella",
+  "url": "/team/stephan-kinsella",
+  "type": "bio",
+  "source_url": "https://lbry.com/team/stephan-kinsella",
+  "description": "description.team",
+  "images": [
+    "https://spee.ch/@lbryteam/everyone-banner2.jpg"
+  ],
+  "og_type": "article",
+  "twitter_card": "summary_large_image",
+  "news_feed": false,
+  "footer_email_href": "/cdn-cgi/l/email-protection#85ede0e9e9eac5e9e7f7fcabe6eae8",
+  "footer_email_code": "2b434e4747446b4749595205484446",
+  "meta_title": "The Team - LBRY",
+  "source_file": "content/bio/stephan-kinsella.md",
+  "role": "Legal Advisor",
+  "section_id": "stephan-kinsella",
+  "photo": "/img/bio/stephan-kinsella.jpg"
+}
+N. Stephan Kinsella is an attorney in Houston with over twenty-nine years' experience in patent, intellectual property, and general commercial and corporate law. He was previously General Counsel for Applied Optoelectronics, Inc., a partner with Duane Morris, and adjunct law professor at South Texas College of Law. He is the founder and director of the [Center for the Study of Innovative Freedom](http://c4sif.org/), serves on the Advisory Board to the [Open Crypto Alliance](https://www.opencryptoalliance.org/) and other groups and publications; and has published numerous articles and books on intellectual property law and legal topics including *\[Against Intellectual Propert*y\](<https://mises.org/library/against-intellectual-property-0>) (Mises Institute, 2008) *\[International Investment, Political Risk, and Dispute Resolution: A Practitioner's Guid*e\](<http://www.kinsellalaw.com/iipr/>) (Oxford, 2020), *\[Law in a Libertarian World: Legal Foundations of a Free Societ*y\](<http://www.stephankinsella.com/llw/>) (2021), and *\[Copy This Book: The Case for Abolishing Intellectual Propert*y\](<http://www.stephankinsella.com/copy-this-book/>) (forthcoming).
+
+He received an LL.M. (international business law) from [King's College London-University of London](http://www.kcl.ac.uk/), a JD from the Paul M. Hebert Law Center at [Louisiana State University](https://lsu.edu/), as well as BSEE and MSEE degrees from LSU. He is licensed to practice law in Texas, Louisiana, and Pennsylvania, and before the US Patent & Trademark Office. His websites are [StephanKinsella.com](http://stephankinsella.com/) and [KinsellaLaw.com](http://kinsellalaw.com/).

@@ -1,0 +1,57 @@
+.person-bio {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  .bio {
+    flex: 1;
+    padding-top: 1rem;
+    padding-left: 2rem;
+  }
+
+  img {
+    max-width: 250px;
+  }
+
+  &.--author {
+    background-color: rgba($lbry-teal-1, 0.3);
+  }
+}
+
+//https://www.webfx.com/blog/web-design/circular-images-css/
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+  .bio-circle {
+    margin: 1.5rem 2rem;
+  }
+}
+
+.bio-circle {
+  text-align: center;
+
+  a {
+    margin-bottom: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    //filter: grayscale(100%);
+    //&:hover {
+    //  filter: none;
+    //}
+
+    img {
+      display: block;
+      max-width: 250px;
+      width: 100%;
+      height: auto;
+      max-height: none;
+    }
+  }
+}

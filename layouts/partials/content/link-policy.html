@@ -1,0 +1,31 @@
+{{- /* Preserve the reviewed download/exclusion rules in native Markdown and HTML. */ -}}
+{{- $href := .href -}}
+{{- $page := .page -}}
+{{- $host := "" -}}
+{{- $invalidPort := false -}}
+{{- $path := replaceRE `[?#].*$` "" $href -}}
+{{- if findRE `^(?:[a-zA-Z][a-zA-Z0-9+.-]*:)?//` $href -}}
+  {{- /* PHP treated nonnumeric ports (including some native claim IDs) as invalid URLs. */ -}}
+  {{- $parsedURL := try (urls.Parse $href) -}}
+  {{- if and $parsedURL.Err (findRE `invalid port` (printf "%v" $parsedURL.Err)) -}}{{- $invalidPort = true -}}{{- end -}}
+  {{- $host = lower (replaceRE `^(?:[a-zA-Z][a-zA-Z0-9+.-]*:)?//([^/:?#]+).*$` "$1" $href) -}}
+  {{- $path = replaceRE `^(?:[a-zA-Z][a-zA-Z0-9+.-]*:)?//[^/]+` "" $path -}}
+{{- end -}}
+{{- $local := or (eq $host "") (eq $host "lbry.com") -}}
+{{- $excluded := or (in (hugo.Data.link_policy.excluded_hosts | default slice) $host) (and $local (or (in hugo.Data.link_policy.excluded_paths $path) (in (slice "/chat" "/discord" "/slack" "/shop") (lower (strings.TrimSuffix "/" $path))) (hasPrefix $path "/snapshot/") (hasPrefix $path "/i18n/"))) -}}
+{{- $download := and $local (or (in hugo.Data.link_policy.download_paths $path) (hasPrefix $path "/releases/") (hasPrefix $path "/get/")) -}}
+{{- if and (eq $host "github.com") (findRE `^/lbryio/(lbry-desktop|lbry-sdk|lbry-android)/releases/download/[^/]+/[^/]+[.](exe|dmg|AppImage|deb|apk|zip|msi|pkg)$` $path) -}}{{- $download = true -}}{{- end -}}
+{{- if and (eq $host "play.google.com") (or (and (eq $path "/store/apps/details") (findRE `[?&]id=io[.]lbry[.]browser(?:&|$)` $href)) (eq $path "/apps/testing/io.lbry.browser")) -}}{{- $download = true -}}{{- end -}}
+{{- if and (eq $host "f-droid.org") (hasSuffix (strings.TrimSuffix "/" $path) "/packages/io.lbry.browser") -}}{{- $download = true -}}{{- end -}}
+{{- if and (in (slice "apps.apple.com" "itunes.apple.com") $host) (in $path "id1539444143") -}}{{- $download = true -}}{{- end -}}
+{{- if $download -}}{{- $href = "/get" -}}{{- end -}}
+{{- $external := and (not $invalidPort) (ne $host "") (ne $host "lbry.com") (not (hasSuffix $host ".lbry.com")) -}}
+{{- $email := dict -}}
+{{- if hasPrefix $href "mailto:" -}}
+  {{- $key := lower (strings.TrimPrefix "mailto:" $href) -}}
+  {{- with index ($page.Params.protected_emails | default dict) $key -}}
+    {{- $email = . -}}
+    {{- with .href -}}{{- $href = . -}}{{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return (dict "href" $href "excluded" $excluded "external" $external "email" $email) -}}

@@ -1,0 +1,24 @@
+baseURL = 'https://lbry.com/'
+locale = 'en-US'
+title = 'LBRY'
+disableHugoGeneratorInject = true
+disableKinds = ['section', 'taxonomy', 'term', 'RSS', 'sitemap', 'robotsTXT', '404']
+
+[markup.goldmark.renderer]
+unsafe = true
+[markup.goldmark.parser]
+autoHeadingID = false
+[markup.goldmark.parser.attribute]
+block = true
+title = true
+[markup.goldmark.extensions]
+taskList = false
+[markup.highlight]
+codeFences = false
+
+[markup.goldmark.extensions.typographer]
+disable = true
+
+# Trusted local HTML pages and Markdown are the site's two content formats.
+[security]
+allowContent = ['^text/html$', '^text/markdown$']

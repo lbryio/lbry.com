@@ -1,0 +1,26 @@
+{{- /* Raw HTML inside Markdown follows the same policy as Markdown links. */ -}}
+{{- $html := .html -}}
+{{- $page := .page -}}
+{{- range findRE `(?s)<a\b[^>]*\bhref=(?:"[^"]*"|'[^']*')[^>]*>.*?</a>` $html -}}
+  {{- $anchor := . -}}
+  {{- $attribute := index (findRE `\bhref=(?:"[^"]*"|'[^']*')` $anchor 1) 0 -}}
+  {{- $href := replaceRE `^href=["'](.*)["']$` "$1" $attribute -}}
+  {{- $rule := partial "content/link-policy.html" (dict "href" (htmlUnescape $href) "page" $page) -}}
+  {{- $updated := $anchor -}}
+  {{- if $rule.excluded -}}
+    {{- $updated = replaceRE `(?s)^<a\b[^>]*>(.*)</a>$` "$1" $anchor -}}
+  {{- else -}}
+    {{- if ne (htmlUnescape $href) $rule.href -}}
+      {{- $updated = replace $updated $attribute (printf `href="%s"` ($rule.href | htmlEscape)) -}}
+    {{- end -}}
+    {{- if $rule.external -}}
+      {{- if findRE `\brel=["']` $updated -}}
+        {{- $updated = replaceRE `\s+rel=["'][^"']*["']` ` rel="noopener"` $updated -}}
+      {{- else -}}
+        {{- $updated = replaceRE `^<a\b([^>]*)>` `<a$1 rel="noopener">` $updated -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $html = replace $html $anchor $updated -}}
+{{- end -}}
+{{- return ($html | safeHTML) -}}

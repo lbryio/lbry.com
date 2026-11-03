@@ -1,0 +1,49 @@
+{
+  "title": "How does LBRY handle content and what am I allowed to upload?",
+  "url": "/faq/content",
+  "type": "faq",
+  "source_url": "https://lbry.com/faq/content",
+  "description": "This guide provides answers to questions regarding what you may upload to LBRY and network and how it differs from…",
+  "images": [
+    "https://lbry.com/img/og-faq.png?_cache=2026-10-31"
+  ],
+  "og_type": "article",
+  "twitter_card": "summary_large_image",
+  "news_feed": false,
+  "footer_email_href": "/cdn-cgi/l/email-protection#93fbf6fffffcd3fff1e1eabdf0fcfe",
+  "footer_email_code": "a1c9c4cdcdcee1cdc3d3d88fc2cecc",
+  "meta_title": "How does LBRY handle content and what am I allowed to upload?",
+  "category": "publisher",
+  "source_file": "content/faq/content.md",
+  "edit_url": "https://github.com/lbryio/lbry.com/tree/master/content/faq/content.md",
+  "source_order": 4,
+  "weight": 30
+}
+This guide provides answers to questions regarding what you may upload to LBRY and network and how it differs from current centralized/status quo systems. To learn more about reporting infringing or illegal content and DMCA procedures, please see our [DMCA article](/faq/dmca).
+
+## What content can I legally upload to LBRY?
+
+You may upload legal content that you own or have obtained permission to use, as long as it does not infringe on the rights of others.
+This includes Public Domain content, Creative Commons or Open Source content shared according to the license requirements, and Copyrighted content where you have permission from the owner.
+
+We ask you to follow these simple rules:
+
+1) The content is yours, you have permission to post it, or it's public domain / fair use / license allows re-use. If re-use is allowed, the original source and any other licensing rules must be followed.
+
+2) The content is tagged properly, especially with mature content. Do not abuse tags with ones that don't pertain to your content.
+
+3) The content is not illegal in your jurisdiction.
+
+Failure to follow these rules may result in the filtering of your content/channel and the ability to earn rewards will be revoked.
+
+## Because LBRY is decentralized, doesn't this mean the content can't be removed?
+
+It is important to make a distinction between the LBRY protocol and any applications running on top when referring to censorship and the ability to block access to certain content. The LBRY protocol is fully decentralized and censorship-resistant - it provides permissionless access to [claiming of URLs](/faq/naming) and indexing metadata on the blockchain, and facilitates data transfers over a peer to peer (P2P) network which consists of our own content servers and anyone running the LBRY protocol. This means infringing content may be stored on our servers, by the uploader and by anyone else who may have downloaded it.
+
+On the other hand, LBRY also makes an App and other services like [odysee.com](https://odysee.com) to demonstrate the protocol's capabilities. Within our app, we will engage in non-arbitrary censorship, meaning only horrific or infringing content will be blocked and removed from our content servers. As a U.S. company, LBRY Inc. and management of our app, and other services in our control, will follow all U.S. laws, including the CDA and DMCA. If someone made an app or website using the LBRY protocol in some other country, it would have to follow that country's laws, which aren't necessarily the same as ours. Either app would read the same blockchain though.
+
+LBRY Inc., makes no guarantee your content will be hosted on the network. The peer-to-peer network relies on seeders to host content. If no user continues to host data - including you, it will not continue to be available on the network.
+
+## What do I do if I see content that's illegal or infringing on LBRY?
+
+Please read our [DMCA FAQ](/faq/dmca) for more information on reporting infringing content.

@@ -1,0 +1,291 @@
+
+//  General
+//  ───────────────────────────────────
+
+$lbry-white: #fff;
+$lbry-silver: #f1f3f5;
+$lbry-black: #212529;
+
+$base-gray: #ced4da;
+$base-teal: #38d9a9;
+$base-cyan: #3bc9db;
+$base-blue: #339af0;
+$base-indigo: #748ffc;
+$base-violet: #9775fa;
+$base-grape: #da77f2;
+$base-pink: #f783ac;
+$base-red: #e03131;
+$base-orange: #ff922b;
+$base-yellow: #ffe066;
+$base-lime: #a9e34b;
+$base-green: #51cf66;
+
+
+
+//  Gray
+//  ───────────────────────────────────
+
+$lbry-gray-list: (
+  "1": mix($lbry-white, $base-gray, 40%),
+  "2": mix($lbry-white, $base-gray, 20%),
+  "3": $base-gray,
+  "4": mix($lbry-black, $base-gray, 20%),
+  "5": mix($lbry-black, $base-gray, 40%)
+);
+
+$lbry-gray-1: map-get($lbry-gray-list, "1");
+$lbry-gray-2: map-get($lbry-gray-list, "2");
+$lbry-gray-3: map-get($lbry-gray-list, "3");
+$lbry-gray-4: map-get($lbry-gray-list, "4");
+$lbry-gray-5: map-get($lbry-gray-list, "5");
+
+
+
+//  Teal
+//  ───────────────────────────────────
+
+$lbry-teal-list: (
+  "1": mix($lbry-white, $base-teal, 40%),
+  "2": mix($lbry-white, $base-teal, 20%),
+  "3": $base-teal,
+  "4": mix($lbry-black, $base-teal, 20%),
+  "5": mix($lbry-black, $base-teal, 40%)
+);
+
+$lbry-teal-1: map-get($lbry-teal-list, "1");
+$lbry-teal-2: map-get($lbry-teal-list, "2");
+$lbry-teal-3: map-get($lbry-teal-list, "3");
+$lbry-teal-4: map-get($lbry-teal-list, "4");
+$lbry-teal-5: map-get($lbry-teal-list, "5");
+
+
+
+//  Cyan
+//  ───────────────────────────────────
+
+$lbry-cyan-list: (
+  "1": mix($lbry-white, $base-cyan, 40%),
+  "2": mix($lbry-white, $base-cyan, 20%),
+  "3": $base-cyan,
+  "4": mix($lbry-black, $base-cyan, 20%),
+  "5": mix($lbry-black, $base-cyan, 40%)
+);
+
+$lbry-cyan-1: map-get($lbry-cyan-list, "1");
+$lbry-cyan-2: map-get($lbry-cyan-list, "2");
+$lbry-cyan-3: map-get($lbry-cyan-list, "3");
+$lbry-cyan-4: map-get($lbry-cyan-list, "4");
+$lbry-cyan-5: map-get($lbry-cyan-list, "5");
+
+
+
+//  Blue
+//  ───────────────────────────────────
+
+$lbry-blue-list: (
+  "1": mix($lbry-white, $base-blue, 40%),
+  "2": mix($lbry-white, $base-blue, 20%),
+  "3": $base-blue,
+  "4": mix($lbry-black, $base-blue, 20%),
+  "5": mix($lbry-black, $base-blue, 40%)
+);
+
+$lbry-blue-1: map-get($lbry-blue-list, "1");
+$lbry-blue-2: map-get($lbry-blue-list, "2");
+$lbry-blue-3: map-get($lbry-blue-list, "3");
+$lbry-blue-4: map-get($lbry-blue-list, "4");
+$lbry-blue-5: map-get($lbry-blue-list, "5");
+
+
+
+//  Indigo
+//  ───────────────────────────────────
+
+$lbry-indigo-list: (
+  "1": mix($lbry-white, $base-indigo, 40%),
+  "2": mix($lbry-white, $base-indigo, 20%),
+  "3": $base-indigo,
+  "4": mix($lbry-black, $base-indigo, 20%),
+  "5": mix($lbry-black, $base-indigo, 40%)
+);
+
+$lbry-indigo-1: map-get($lbry-indigo-list, "1");
+$lbry-indigo-2: map-get($lbry-indigo-list, "2");
+$lbry-indigo-3: map-get($lbry-indigo-list, "3");
+$lbry-indigo-4: map-get($lbry-indigo-list, "4");
+$lbry-indigo-5: map-get($lbry-indigo-list, "5");
+
+
+
+//  Violet
+//  ───────────────────────────────────
+
+$lbry-violet-list: (
+  "1": mix($lbry-white, $base-violet, 40%),
+  "2": mix($lbry-white, $base-violet, 20%),
+  "3": $base-violet,
+  "4": mix($lbry-black, $base-violet, 20%),
+  "5": mix($lbry-black, $base-violet, 40%)
+);
+
+$lbry-violet-1: map-get($lbry-violet-list, "1");
+$lbry-violet-2: map-get($lbry-violet-list, "2");
+$lbry-violet-3: map-get($lbry-violet-list, "3");
+$lbry-violet-4: map-get($lbry-violet-list, "4");
+$lbry-violet-5: map-get($lbry-violet-list, "5");
+
+
+
+//  Grape
+//  ───────────────────────────────────
+
+$lbry-grape-list: (
+  "1": mix($lbry-white, $base-grape, 40%),
+  "2": mix($lbry-white, $base-grape, 20%),
+  "3": $base-grape,
+  "4": mix($lbry-black, $base-grape, 20%),
+  "5": mix($lbry-black, $base-grape, 40%)
+);
+
+$lbry-grape-1: map-get($lbry-grape-list, "1");
+$lbry-grape-2: map-get($lbry-grape-list, "2");
+$lbry-grape-3: map-get($lbry-grape-list, "3");
+$lbry-grape-4: map-get($lbry-grape-list, "4");
+$lbry-grape-5: map-get($lbry-grape-list, "5");
+
+
+
+//  Pink
+//  ───────────────────────────────────
+
+$lbry-pink-list: (
+  "1": mix($lbry-white, $base-pink, 40%),
+  "2": mix($lbry-white, $base-pink, 20%),
+  "3": $base-pink,
+  "4": mix($lbry-black, $base-pink, 20%),
+  "5": mix($lbry-black, $base-pink, 40%)
+);
+
+$lbry-pink-1: map-get($lbry-pink-list, "1");
+$lbry-pink-2: map-get($lbry-pink-list, "2");
+$lbry-pink-3: map-get($lbry-pink-list, "3");
+$lbry-pink-4: map-get($lbry-pink-list, "4");
+$lbry-pink-5: map-get($lbry-pink-list, "5");
+
+
+
+//  Red
+//  ───────────────────────────────────
+
+$lbry-red-list: (
+  "1": mix($lbry-white, $base-red, 40%),
+  "2": mix($lbry-white, $base-red, 20%),
+  "3": $base-red,
+  "4": mix($lbry-black, $base-red, 20%),
+  "5": mix($lbry-black, $base-red, 40%)
+);
+
+$lbry-red-1: map-get($lbry-red-list, "1");
+$lbry-red-2: map-get($lbry-red-list, "2");
+$lbry-red-3: map-get($lbry-red-list, "3");
+$lbry-red-4: map-get($lbry-red-list, "4");
+$lbry-red-5: map-get($lbry-red-list, "5");
+
+
+
+//  Orange
+//  ───────────────────────────────────
+
+$lbry-orange-list: (
+  "1": mix($lbry-white, $base-orange, 40%),
+  "2": mix($lbry-white, $base-orange, 20%),
+  "3": $base-orange,
+  "4": mix($lbry-black, $base-orange, 20%),
+  "5": mix($lbry-black, $base-orange, 40%)
+);
+
+$lbry-orange-1: map-get($lbry-orange-list, "1");
+$lbry-orange-2: map-get($lbry-orange-list, "2");
+$lbry-orange-3: map-get($lbry-orange-list, "3");
+$lbry-orange-4: map-get($lbry-orange-list, "4");
+$lbry-orange-5: map-get($lbry-orange-list, "5");
+
+
+
+//  Yellow
+//  ───────────────────────────────────
+
+$lbry-yellow-list: (
+  "1": mix($lbry-white, $base-yellow, 40%),
+  "2": mix($lbry-white, $base-yellow, 20%),
+  "3": $base-yellow,
+  "4": mix($lbry-black, $base-yellow, 20%),
+  "5": mix($lbry-black, $base-yellow, 40%)
+);
+
+$lbry-yellow-1: map-get($lbry-yellow-list, "1");
+$lbry-yellow-2: map-get($lbry-yellow-list, "2");
+$lbry-yellow-3: map-get($lbry-yellow-list, "3");
+$lbry-yellow-4: map-get($lbry-yellow-list, "4");
+$lbry-yellow-5: map-get($lbry-yellow-list, "5");
+
+
+
+//  Lime
+//  ───────────────────────────────────
+
+$lbry-lime-list: (
+  "1": mix($lbry-white, $base-lime, 40%),
+  "2": mix($lbry-white, $base-lime, 20%),
+  "3": $base-lime,
+  "4": mix($lbry-black, $base-lime, 20%),
+  "5": mix($lbry-black, $base-lime, 40%)
+);
+
+$lbry-lime-1: map-get($lbry-lime-list, "1");
+$lbry-lime-2: map-get($lbry-lime-list, "2");
+$lbry-lime-3: map-get($lbry-lime-list, "3");
+$lbry-lime-4: map-get($lbry-lime-list, "4");
+$lbry-lime-5: map-get($lbry-lime-list, "5");
+
+
+
+//  Green
+//  ───────────────────────────────────
+
+$lbry-green-list: (
+  "1": mix($lbry-white, $base-green, 40%),
+  "2": mix($lbry-white, $base-green, 20%),
+  "3": $base-green,
+  "4": mix($lbry-black, $base-green, 20%),
+  "5": mix($lbry-black, $base-green, 40%)
+);
+
+$lbry-green-1: map-get($lbry-green-list, "1");
+$lbry-green-2: map-get($lbry-green-list, "2");
+$lbry-green-3: map-get($lbry-green-list, "3");
+$lbry-green-4: map-get($lbry-green-list, "4");
+$lbry-green-5: map-get($lbry-green-list, "5");
+
+
+
+//  Color list
+//  ───────────────────────────────────
+
+$lbry-color-spectrum: 9;
+
+$lbry-color-list: (
+  $lbry-gray-list: "gray",
+  $lbry-teal-list: "teal",
+  $lbry-cyan-list: "cyan",
+  $lbry-blue-list: "blue",
+  $lbry-indigo-list: "indigo",
+  $lbry-violet-list: "violet",
+  $lbry-grape-list: "grape",
+  $lbry-pink-list: "pink",
+  $lbry-red-list: "red",
+  $lbry-orange-list: "orange",
+  $lbry-yellow-list: "yellow",
+  $lbry-lime-list: "lime",
+  $lbry-green-list: "green"
+);

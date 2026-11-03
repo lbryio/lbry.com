@@ -1,0 +1,30 @@
+checkbox-element {
+  span {
+    color: initial;
+  }
+}
+
+input-submit {
+  position: relative;
+}
+
+label {
+  &.symbol-prefix {
+    width: 2rem; height: 100%;
+
+    color: var(--lbry-gray-4);
+    display: block;
+    line-height: 2.3;
+    padding-left: 0.3rem;
+    position: absolute;
+    text-align: center;
+
+    + input {
+      padding-left: 2rem;
+    }
+  }
+
+  a {
+    font-weight: 600;
+  }
+}

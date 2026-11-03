@@ -1,0 +1,10 @@
+
+<main class="ancillary">
+  <section class="hero hero--half-height"><div class="inner-wrap inner-wrap--center-hero"><h1>{{ .Title }}</h1></div></section>
+  <section>
+    <div class="inner-wrap">
+      <div class="meta"><a href="/credit-reports">« Credit Reports</a> | <a href="{{ .Params.sheet }}" rel="noopener">Sheet</a></div>
+      {{ partial "content/html-links.html" (dict "html" .Content "page" .) }}
+    </div>
+  </section>
+</main>

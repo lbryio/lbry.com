@@ -1,0 +1,305 @@
+main.home {
+  padding-bottom: 0 !important; //this site is poison i'm not fixing it
+}
+
+.home__hero,
+.home__sites {
+  .inner-wrap {
+    @media (min-width: 901px) {
+      display: flex;
+    }
+  }
+}
+
+.home__callout {
+  background-image: linear-gradient(to right, $lbry-teal-5, $lbry-cyan-5 100%);
+  background-size: cover;
+  color: var(--lbry-white);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  font-size: 1.2rem;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  h2, p {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  p {
+    font-size: 1.0rem;
+  }
+
+  iframe {
+    display: block;
+    max-width: 560px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+}
+
+.button--odysee {
+  padding: var(--spacing-xs) var(--spacing-s); // sass-lint:disable-line shorthand-values
+  background-color: rgb(229, 0, 84);
+  color: white;
+  border: 1px solid var(--lbry-gray-1);
+  border-radius: 1rem;
+  color: inherit;
+  transition: background-color 0.2s;
+
+  &:hover {
+    background-color: var(--lbry-gray-1);
+  }
+}
+
+.home__cta {
+  text-align: center;
+  align-self: center;
+
+
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 200;
+    margin-bottom: 1rem;
+  }
+
+  @media (min-width: 1001px) and (max-width: 1250px) {
+    h1 {
+      font-size: 2.0rem;
+    }
+  }
+
+  @media (max-width: 1000px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+  }
+
+  p {
+    margin-bottom: 1rem;
+  }
+
+  div {
+    font-size: 1rem;
+
+    a:not(:first-of-type):not(.button--google-play):not(.button--fdroid) {
+      margin-left: 1rem;
+    }
+  }
+}
+
+.home__cta-copy {
+  max-width: 500px;
+}
+
+.home__hero {
+  flex: 1;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+
+  .inner-wrap {
+    flex-direction: column;
+  }
+}
+
+.home__hype {
+  border-bottom: 1px solid var(--lbry-gray-1);
+  font-size: 1.25rem;
+  line-height: 1.33;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.home__preview {
+  @include center;
+  position: relative;
+
+  @media (min-width: 901px) {
+    height: 500px;
+
+    &::before,
+    &::after {
+      width: 100%; height: 100%;
+      top: 0; left: 0;
+
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      content: "";
+      position: absolute;
+    }
+
+    &::before {
+      background-image: url("../img/hero-cta--front.png");
+      z-index: 1;
+    }
+
+    &::after {
+      background-image: url("../img/hero-cta--back.png");
+      z-index: -1;
+    }
+  }
+
+  @media (max-width: 900px) {
+    padding-top: 1.5rem;
+    width: 100%;
+  }
+
+  a {
+    position: relative;
+    width: 520px;
+
+    @media (min-width: 901px) {
+      top: -2rem; left: -1rem;
+    }
+  }
+
+  img {
+    box-shadow: 0 0 1rem rgba($lbry-black, 0.3);
+  }
+}
+
+.home__sites {
+  border-top: 1px solid var(--lbry-gray-1);
+  background-color: var(--lbry-white);
+  font-size: 1rem;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.home__site {
+  padding-right: 2rem;
+  padding-left: 2rem;
+  position: relative;
+
+  @media (min-width: 901px) {
+    width: 50%;
+  }
+
+  h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    padding-top: 3rem;
+    position: relative;
+
+    &::before {
+      width: 2.5rem; height: 2.5rem;
+      top: 0; left: calc(50% - 1.25rem);
+
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      content: "";
+      position: absolute;
+    }
+  }
+
+  p {
+    font-size: 1.25rem;
+    line-height: 1.33;
+    margin-bottom: 2rem;
+  }
+}
+
+.home__site--tech {
+  @media (max-width: 900px) {
+    padding-bottom: 5rem;
+  }
+  @media (min-width: 901px) {
+    padding-top: 3rem;
+  }
+
+  &::after {
+    background-color: var(--lbry-gray-1);
+    content: "";
+    position: absolute;
+
+    @media (min-width: 901px) {
+      width: 1px; height: 100%;
+      top: 0; right: 0;
+    }
+
+    @media (max-width: 900px) {
+      width: 100%; height: 1px;
+      bottom: 0; left: 0;
+    }
+  }
+
+  h3 {
+    &::before {
+      background-image: url("../img/emoji-gear.png");
+    }
+  }
+}
+
+.home__site--org {
+  @media (max-width: 900px) {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+  @media (min-width: 901px) {
+    padding-top: 3rem;
+  }
+
+  h3 {
+    &::before {
+      background-image: url("../img/emoji-wire-globe.png");
+    }
+  }
+}
+
+.home__asfeatured {
+  border-top: 1px solid var(--lbry-gray-1);
+  background-color: var(--lbry-white);
+  font-size: 1rem;
+  text-align: center;
+  
+  @media (max-width:900px) {
+    padding-top: 3rem;
+  }
+
+  @media (min-width:901px) {
+    padding-top: 2rem;
+  }
+
+  h4 {
+    @media (max-width:900px) {
+      padding-bottom: 1rem;
+    }
+    @media (min-width:901px) {
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+.featured__row {
+  img {
+    filter: grayscale(100%);
+
+    @media (max-width:900px) {
+      width: 40%;
+      padding-top: 1rem;
+      padding-bottom: 0.2rem;
+      margin-bottom: 1.5rem;
+      padding-right: 1rem;
+    }
+
+    @media (min-width:901px) {
+      max-width: 12%;
+      padding-right: 1rem;
+      padding-bottom: 1rem;
+    }
+  }
+}

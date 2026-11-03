@@ -1,0 +1,484 @@
+# Production site. Build with Hugo before starting Caddy.
+{
+  admin off
+  auto_https disable_redirects
+}
+http://lbry.com {
+  redir https://lbry.com{uri} 301
+}
+https://lbry.com {
+  root * {$SITE_ROOT:./public}
+  route {
+    # Shared policies; assets cache longer, errors override caching below.
+    header {
+      Cache-Control "public, max-age=300"
+      Content-Security-Policy "frame-ancestors 'none'"
+      X-Frame-Options "DENY"
+      Strict-Transport-Security "max-age=31536000"
+      X-Content-Type-Options "nosniff"
+    }
+    @assets path_regexp assets `(?i)[.](?:css|js|png|jpe?g|gif|svg|ico|webp|woff2?|ttf|eot|pdf|zip|apk|exe|dmg|deb|appimage)$`
+    header @assets Cache-Control "public, max-age=14400"
+
+    @unsupported not method GET HEAD
+    handle @unsupported {
+      header Allow "GET, HEAD"
+      header Cache-Control "private, no-cache"
+      header Content-Type "text/html;charset=UTF-8"
+      method GET
+      rewrite * /405/index.html
+      file_server {
+        status 405
+      }
+    }
+
+    # Never expose internal files left in an old build directory.
+    @internal path_regexp internal `^/_[^/]*(?:/|$)`
+    handle @internal {
+      header Cache-Control "private, no-cache"
+      header Content-Type "text/html;charset=UTF-8"
+      rewrite * /404/index.html
+      file_server {
+        status 404
+      }
+    }
+
+    vars original_path {http.request.uri.path}
+    map {query} {query_suffix} {
+      "" ""
+      default "?{query}"
+    }
+    # One leading slash and no trailing slash, except for the root URL.
+    uri path_regexp /+ /
+    uri path_regexp ^(.+?)/+$ $1
+
+    # Exact files keep their spelling. Other paths try lowercase URLs.
+    @needs_lowercase {
+      path_regexp uppercase_path [A-Z]
+      not file {path}/index.html {path}
+    }
+    route @needs_lowercase {
+      uri path_regexp A a
+      uri path_regexp B b
+      uri path_regexp C c
+      uri path_regexp D d
+      uri path_regexp E e
+      uri path_regexp F f
+      uri path_regexp G g
+      uri path_regexp H h
+      uri path_regexp I i
+      uri path_regexp J j
+      uri path_regexp K k
+      uri path_regexp L l
+      uri path_regexp M m
+      uri path_regexp N n
+      uri path_regexp O o
+      uri path_regexp P p
+      uri path_regexp Q q
+      uri path_regexp R r
+      uri path_regexp S s
+      uri path_regexp T t
+      uri path_regexp U u
+      uri path_regexp V v
+      uri path_regexp W w
+      uri path_regexp X x
+      uri path_regexp Y y
+      uri path_regexp Z z
+    }
+    vars request_path {http.request.uri.path}
+
+    # Public shortlinks and exceptions. Article filename patterns follow below.
+    map {http.vars.request_path} {redirect_destination} {redirect_status} {
+      `~^(?:/3d\-contest|/lgbtq|/pewpewpew|/reefermadness|/rubin|/sexed|/shirt\-contest)$` "/" 301
+      "/3d-printing" "https://open.lbry.com/$/discover?t=3d-printing" 301
+      `~^(?:/flo|/there|/developer\-program|/news/every\-major\-tech\-company\-hates\-you|/news/lbry\-promo\-video\-raw\-footage|/news/lbry\.io|/news/page/2|/news/page/5|/news/www\.maidsafe\.com|/nothing\-here|/youtube/cdsso)$` "/news" 301
+      `~^(?:/about|/what\-is\-lbry)$` "/faq/what-is-lbry" 301
+      `~^(?:/android\-alpha|/dl/lbry_setup\.sh|/faq/why\-care\-about\-lbry|/get/lbry\.appimage|/get/lbry\.deb|/get/lbry\.dmg|/get/lbry\.exe|/get/lbry\.msi|/get/lbry\.pkg|/get/lbry\.pre\.appimage|/get/lbry\.pre\.deb|/get/lbry\.pre\.dmg|/get/lbry\.pre\.exe|/get/lbry\.pre\.msi|/get/lbry\.pre\.pkg|/get/lbrynet\.linux\.zip|/get/lbrynet\.macos\.zip|/get/lbrynet\.osx\.zip|/get/lbrynet\.windows\.zip|/getrubin|/lbry\-linux\-latest\.deb|/lbry\-osx\-latest\.dmg|/news/get|/releases/lbry\-desktop\.appimage|/releases/lbry\-desktop\.deb|/releases/lbry\-desktop\.dmg|/releases/lbry\-desktop\.exe|/releases/lbry\.deb|/releases/lbry\.exe|/releases/lbry\.pkg|/releases/pre/lbry\-desktop\.appimage|/releases/pre/lbry\-desktop\.deb|/releases/pre/lbry\-desktop\.dmg|/releases/pre/lbry\-desktop\.exe)$` "/get" 301
+      `~^(?:/art|/learn|/news/what)$` "/what" 301
+      `~^(?:/block\-explorer|/explorer)$` "https://explorer.lbry.com/" 301
+      `~^(?:/bounty|/faq/bounty|/faq/contributing|/participate)$` "https://lbry.tech/contribute" 301
+      `~^(?:/bounty/automatic\-app\-updates|/bounty/bittorrent\-support|/bounty/custom\-project|/bounty/http\-support|/bounty/lbry\-club|/bounty/migration\-public\-reference|/bounty/pr\-for\-lbry|/bounty/publish\-open\-content|/bounty/refer\-publisher|/bounty/typos\-and\-edits|/bounty/web\-i18n)$` "https://lbry.tech/contribute" 302
+      `~^(?:/chat|/discord|/slack)$` "https://chat.lbry.com" 301
+      `~^(?:/escapeyoutube|/escapeyoutubeiframe|/youtube/status)$` "/youtube" 301
+      `~^(?:/facebook|/lbryonfacebook)$` "https://www.facebook.com/LBRYcom/" 301
+      "/faq/q1-17-creditreport" "/credit-reports/2017-Q1" 301
+      "/faq/q4-credit-report" "/credit-reports/2016-Q4" 301
+      "/faq/account-sync" "/faq/accounts-and-sync" 301
+      `~^(?:/faq/account_sync|/faq/community\-top\-bid|/faq/shapeshift|/faq/unable\-to\-stream)$` "/faq" 302
+      "/faq/api-help" "/faq/how-to-cli" 301
+      "/faq/claimtrie-implementation" "https://lbry.tech/resources/lbry-claimtrie" 301
+      "/faq/gpg-key" "/faq/pgp-key" 301
+      "/faq/how-to-encrypt-wallet" "https://lbry.tech/resources/encrypt-lbrycrd" 301
+      "/faq/how-to-report-bugs" "/faq/support" 301
+      "/faq/make-money" "/faq/earn-income" 301
+      "/faq/no-auction-options" "/faq/naming" 301
+      "/faq/proof-algorithm" "https://lbry.tech/resources/pow" 301
+      "/faq/quarterly-report-3q-2016" "/credit-reports/2016-Q3" 301
+      "/faq/quarterly-report-july-2016" "/credit-reports/2016-Q2" 301
+      "/faq/referrals" "/faq/invites" 301
+      "/faq/regtest-setup-guide" "https://lbry.tech/resources/regtest-setup" 301
+      "/faq/tips" "/faq/appreciation" 301
+      "/faq/when-referral-payouts" "/faq/referrals" 301
+      "/feedback" "/learn" 301
+      "/get.how+to+create+an+identity+lbry+tutorialsfollow" "/faq/identity-requirements" 301
+      "/getfree" "/news/free-lbry-credits-come-and-get-em" 301
+      `~^(?:/join\-list|/list)$` "/list/subscribe" 301
+      "/joinus" "/join-us" 301
+      `~^(?:/lbryontwitter|/twitter)$` "https://twitter.com/lbrycom" 301
+      "/lbryonyoutube" "https://www.youtube.com/channel/UCXAcp3dJuPqeUekOacsuyaQ" 301
+      "/news/$1.2b-market-cap-we-dont-care" "/news/1.2b-market-cap-we-dont-care" 301
+      `~^(?:/news/040\-tipping\-in\-lbc|/news/040\-tipping\-in\-lbc\.md)$` "/news/tipping-in-lbc{query_suffix}" 301
+      `~^(?:/news/050\-1\.2b\-market\-cap\-we\-dont\-care|/news/050\-1\.2b\-market\-cap\-we\-dont\-care\.md)$` "/news/1.2b-market-cap-we-dont-care{query_suffix}" 301
+      `~^(?:/news/138\-always\-gif\-responsibly|/news/138\-always\-gif\-responsibly\.md)$` "/news/always-gif-responsibly{query_suffix}" 301
+      `~^(?:/news/139\-memesafe|/news/139\-memesafe\.md)$` "/news/memesafe{query_suffix}" 301
+      `~^(?:/news/144\-howl\-with\-us|/news/144\-howl\-with\-us\.md)$` "/news/howl-with-us{query_suffix}" 301
+      `~^(?:/news/153\-blockchain\-is\-love\-blockchain\-is\-life|/news/153\-blockchain\-is\-love\-blockchain\-is\-life\.md)$` "/news/blockchain-is-love-blockchain-is-life{query_suffix}" 301
+      `~^(?:/news/158\-lbry\-in\-2017\-2018|/news/158\-lbry\-in\-2017\-2018\.md)$` "/news/lbry-in-2017-2018{query_suffix}" 301
+      `~^(?:/news/159\-lbry\-development\-community\-update\-jan\-2018|/news/159\-lbry\-development\-community\-update\-jan\-2018\.md)$` "/news/lbry-development-community-update-jan-2018{query_suffix}" 301
+      `~^(?:/news/163\-lbry\-development\-community\-update\-feb\-2018|/news/163\-lbry\-development\-community\-update\-feb\-2018\.md)$` "/news/lbry-development-community-update-feb-2018{query_suffix}" 301
+      `~^(?:/news/165\-lbry\-development\-community\-update\-mar\-2018|/news/165\-lbry\-development\-community\-update\-mar\-2018\.md)$` "/news/lbry-development-community-update-mar-2018{query_suffix}" 301
+      `~^(?:/news/167\-lbry\-development\-community\-update\-apr\-2018|/news/167\-lbry\-development\-community\-update\-apr\-2018\.md)$` "/news/lbry-development-community-update-apr-2018{query_suffix}" 301
+      `~^(?:/news/172\-lbry\-development\-community\-update\-may\-2018|/news/172\-lbry\-development\-community\-update\-may\-2018\.md)$` "/news/lbry-development-community-update-may-2018{query_suffix}" 301
+      `~^(?:/news/176\-lbry\-development\-community\-update\-june\-2018|/news/176\-lbry\-development\-community\-update\-june\-2018\.md)$` "/news/lbry-development-community-update-june-2018{query_suffix}" 301
+      `~^(?:/news/181\-the\-lbry\-economy|/news/181\-the\-lbry\-economy\.md)$` "/news/the-lbry-economy{query_suffix}" 301
+      `~^(?:/news/188\-3\-rules\-to\-find\-the\-best\-youtube\-alternative|/news/188\-3\-rules\-to\-find\-the\-best\-youtube\-alternative\.md)$` "/news/3-rules-to-find-the-best-youtube-alternative{query_suffix}" 301
+      `~^(?:/news/206\-lbry\-evolves|/news/206\-lbry\-evolves\.md)$` "/news/lbry-evolves{query_suffix}" 301
+      `~^(?:/news/210\-malabarize\-se|/news/210\-malabarize\-se\.md)$` "/news/malabarize-se{query_suffix}" 301
+      `~^(?:/news/213\-erikson\-sets\-sail|/news/213\-erikson\-sets\-sail\.md)$` "/news/erikson-sets-sail{query_suffix}" 301
+      `~^(?:/news/217\-franklin\-is\-minted|/news/217\-franklin\-is\-minted\.md)$` "/news/franklin-is-minted{query_suffix}" 301
+      `~^(?:/news/218\-lbry\-blockchain\-update|/news/218\-lbry\-blockchain\-update\.md)$` "/news/lbry-blockchain-update{query_suffix}" 301
+      `~^(?:/news/219\-what\-is\-censorship\-resistance\-and\-why\-does\-it\-matter|/news/219\-what\-is\-censorship\-resistance\-and\-why\-does\-it\-matter\.md)$` "/news/what-is-censorship-resistance-and-why-does-it-matter{query_suffix}" 301
+      `~^(?:/news/220\-butterfly\-flits\-onto\-the\-scene|/news/220\-butterfly\-flits\-onto\-the\-scene\.md)$` "/news/butterfly-flits-onto-the-scene{query_suffix}" 301
+      `~^(?:/news/255\-2002dtf|/news/255\-2002dtf\.md)$` "/news/2002dtf{query_suffix}" 301
+      `~^(?:/news/author/jeremy|/news/author/jeremy/2|/news/author/jimmy\-kiselak|/news/author/sam/page/2|/news/author/sam/page/3|/news/author/samuel|/news/meet\-the\-lbry\-founders|/news/tag/team|/news/team)$` "/team" 301
+      "/news/boom" "/news/boombust" 301
+      "/news/hacktoberfest" "/hacktoberfest" 301
+      "/news/ios" "/ios" 301
+      "/news/news/lbry-app-sneak-peak-big-questions-answered-lbry-on-blocktalk-last-night" "/news/lbry-app-sneak-peak-big-questions-answered-lbry-on-blocktalk-last-night" 301
+      "/news/news/meet-the-lbry-founders" "/news/meet-the-lbry-founders" 301
+      "/news/news/ultimate-wizard-meet-alex-grin" "/news/ultimate-wizard-meet-alex-grin" 301
+      "/news/tag/events" "/roadmap" 301
+      "/news/tag/freedom-of-information" "/news/crypto-freedom" 301
+      "/news/windows" "/news/lbry-windows" 301
+      "/news/www.porcfest.com" "/news/lbry-at-porcfest-first-public-screening-film-via-blockchain" 301
+      "/odysee" "https://odysee.com/" 301
+      "/press-kit.zip" "/press-kit" 301
+      "/privacy" "/privacypolicy" 301
+      "/publish" "https://odysee.com/$/publish" 301
+      "/quickstart" "https://lbry.tech/playground" 301
+      `~^(?:/reddit|/subreddit)$` "https://www.reddit.com/r/lbry/" 301
+      "/releases/lbry-android.apk" "https://github.com/lbryio/lbry-android/releases/download/0.17.1/browser-0.17.1-release__arm.apk" 302
+      "/roadmap/1900" "/roadmap" 302
+      "/shop" "https://shop.lbry.com/" 301
+      "/speech-admin" "https://github.com/lbryio/spee.ch" 301
+      "/telegram" "https://t.me/lbryofficial" 301
+      "/youtube/sync" "/faq/youtube" 301
+      "/2019goalsreportcard" "https://docs.google.com/spreadsheets/d/1SrHI53hBQnz4Lc7_hKb-rHSH9XiGE6ROATVf8Z-ygKo/edit" 307
+      `~^(?:/lbry\-deck\.pdf|/deck\.pdf)$` "https://www.dropbox.com/s/0xj4vgucsbi8rtv/lbry-deck.pdf?dl=1" 307
+      `~^(?:/api|/api\-help)$` "https://lbry.tech/api/sdk" 307
+      "/doitlive" "https://meet.jit.si/lbry" 307
+      "/hacktoberfest" "/news/hacktoberfest-2019" 307
+      "/security" "/faq/security" 307
+      "/support" "/faq/support" 307
+      "/swarm" "https://docs.google.com/document/d/1W4chXeUvF4I9T3lVyyeZ-N1SUuyoMrp_QH_ITA9BrZ4/edit#" 307
+      "/web3july2019" "https://docs.google.com/presentation/d/1oep9pXAT0unYw8EKiPsUSdsQ3DajOxsyGMjwljq43cY/edit" 307
+      "/youtubecryptocrackdown" "https://docs.google.com/spreadsheets/d/1xGOSn60BW-aqheHEr-5iye8fw5PmgKoOcE1pA20Bpys" 307
+      "/youtubers" "https://traction.lbry.com/public/question/8dfc23e2-71e7-44cb-9740-0aec18d1da73" 307
+      `~^(?:/credit\-reports/1900\-q1|/credit\-reports/999\-2017\-q1)$` "/credit-reports" 302
+      "/credit-reports/999-2017-q1.md" "/credit-reports/2017-q1{query_suffix}" 301
+      "/news/999-20-01comm.md" "/news/20-01comm{query_suffix}" 301
+      default "" 301
+    }
+    # Never redirect a path to itself, including same-origin absolute URLs.
+    @public_redirect expression `{redirect_destination} != "" && {redirect_destination} != {http.vars.request_path} && {redirect_destination} != {http.vars.request_path} + {query_suffix} && {redirect_destination} != "https://lbry.com" + {http.vars.request_path} && {redirect_destination} != "https://lbry.com" + {http.vars.request_path} + {query_suffix}`
+    redir @public_redirect {redirect_destination} {redirect_status}
+
+    # Recognized numbered stems, then the generic .md filename alias rule.
+    map {http.vars.request_path} {article_redirect_target} {
+      `~^/news/001\-the\-lbry\-opens(?:[.]md)?$` "/news/the-lbry-opens"
+      `~^/news/002\-as\-reddit\-burns\-it\-powers\-the\-world(?:[.]md)?$` "/news/as-reddit-burns-it-powers-the-world"
+      `~^/news/003\-5\-questions\-about\-lbry(?:[.]md)?$` "/news/5-questions-about-lbry"
+      `~^/news/009\-introducing\-lbry\-the\-bitcoin\-of\-content(?:[.]md)?$` "/news/introducing-lbry-the-bitcoin-of-content"
+      `~^/news/010\-slides\-from\-media\-demo(?:[.]md)?$` "/news/slides-from-media-demo"
+      `~^/news/011\-testimony\-to\-subcommittee\-on\-hb552\-to\-legalize\-bitcoin\-for\-payments\-of\-taxes\-and\-fees(?:[.]md)?$` "/news/testimony-to-subcommittee-on-hb552-to-legalize-bitcoin-for-payments-of-taxes-and-fees"
+      `~^/news/012\-why\-not\-use\-bitcoin\-a\-dialogue(?:[.]md)?$` "/news/why-not-use-bitcoin-a-dialogue"
+      `~^/news/013\-mike\-vine\-joins\-lbry\-as\-technology\-evangelist\-2(?:[.]md)?$` "/news/mike-vine-joins-lbry-as-technology-evangelist-2"
+      `~^/news/014\-lbry\-gets\-content\-creators\-out\-of\-precarious\-position\-daily\-decrypts\-amanda\-b\-johnson(?:[.]md)?$` "/news/lbry-gets-content-creators-out-of-precarious-position-daily-decrypts-amanda-b-johnson"
+      `~^/news/015\-renowned\-ip\-attorney\-kinsella\-joins\-lbry\-cryptoapp\-as\-legal\-advisor(?:[.]md)?$` "/news/renowned-ip-attorney-kinsella-joins-lbry-cryptoapp-as-legal-advisor"
+      `~^/news/016\-digging\-into\-lbry(?:[.]md)?$` "/news/digging-into-lbry"
+      `~^/news/017\-rpi\-hackers\-meet\-lbry\-rcos\-presentation(?:[.]md)?$` "/news/rpi-hackers-meet-lbry-rcos-presentation"
+      `~^/news/018\-its\-time\-to\-liberate\-anne\-franks\-diary(?:[.]md)?$` "/news/its-time-to-liberate-anne-franks-diary"
+      `~^/news/019\-free\-lbry\-credits\-come\-and\-get\-em(?:[.]md)?$` "/news/free-lbry-credits-come-and-get-em"
+      `~^/news/020\-open\-a\-valve\-to\-gush\-classic\-movies(?:[.]md)?$` "/news/open-a-valve-to-gush-classic-movies"
+      `~^/news/021\-gmu\-economist\-alex\-tabarrok\-joins\-lbry(?:[.]md)?$` "/news/gmu-economist-alex-tabarrok-joins-lbry"
+      `~^/news/022\-building\-the\-web\-3\-0\-decentralizing\-content\-in\-an\-age\-of\-centralization(?:[.]md)?$` "/news/building-the-web-3-0-decentralizing-content-in-an-age-of-centralization"
+      `~^/news/023\-bravenewcoin(?:[.]md)?$` "/news/bravenewcoin"
+      `~^/news/024\-our\-christmas\-surprise(?:[.]md)?$` "/news/our-christmas-surprise"
+      `~^/news/025\-huemer\-joins\-lbry\-ethical\-advisor(?:[.]md)?$` "/news/huemer-joins-lbry-ethical-advisor"
+      `~^/news/026\-jack\-robison\-escaped\-60\-years\-in\-prison\-now\-hes\-revolutionizing\-the\-internet(?:[.]md)?$` "/news/jack-robison-escaped-60-years-in-prison-now-hes-revolutionizing-the-internet"
+      `~^/news/027\-lbry\-adds\-chief\-growth\-officer\-josh\-finer(?:[.]md)?$` "/news/lbry-adds-chief-growth-officer-josh-finer"
+      `~^/news/028\-the\-dmcas\-chilling\-effect\-on\-security\-research\-and\-innovation(?:[.]md)?$` "/news/the-dmcas-chilling-effect-on-security-research-and-innovation"
+      `~^/news/029\-lbry\-app\-sneak\-peak\-big\-questions\-answered\-lbry\-on\-blocktalk\-last\-night(?:[.]md)?$` "/news/lbry-app-sneak-peak-big-questions-answered-lbry-on-blocktalk-last-night"
+      `~^/news/030\-try\-lbry\-on\-os\-x\-el\-capitan(?:[.]md)?$` "/news/try-lbry-on-os-x-el-capitan"
+      `~^/news/031\-annefrank2(?:[.]md)?$` "/news/annefrank2"
+      `~^/news/032\-if\-lbry\-succeeds\-humanity\-wins\-lbry\-ceo\-on\-lions\-of\-liberty\-podcast(?:[.]md)?$` "/news/if-lbry-succeeds-humanity-wins-lbry-ceo-on-lions-of-liberty-podcast"
+      `~^/news/033\-zarghamjoins(?:[.]md)?$` "/news/zarghamjoins"
+      `~^/news/035\-why\-doesnt\-lbry\-just\-use\-bitcoin(?:[.]md)?$` "/news/why-doesnt-lbry-just-use-bitcoin"
+      `~^/news/036\-built\-for\-artists\-by\-autists\-lbry\-takes\-autism\-personally(?:[.]md)?$` "/news/built-for-artists-by-autists-lbry-takes-autism-personally"
+      `~^/news/038\-information\-gatekeepers\-make\-our\-culture\-sick(?:[.]md)?$` "/news/information-gatekeepers-make-our-culture-sick"
+      `~^/news/039\-bandcamp\-cool\-growing\-but\-still\-take\-15\-percent(?:[.]md)?$` "/news/bandcamp-cool-growing-but-still-take-15-percent"
+      `~^/news/041\-apple\-lost\-my\-music(?:[.]md)?$` "/news/apple-lost-my-music"
+      `~^/news/042\-bittorrents\-new\-streaming\-service(?:[.]md)?$` "/news/bittorrents-new-streaming-service"
+      `~^/news/043\-ultimate\-wizard\-meet\-alex\-grin(?:[.]md)?$` "/news/ultimate-wizard-meet-alex-grin"
+      `~^/news/044\-meet\-reilly\-smith\-storyteller(?:[.]md)?$` "/news/meet-reilly-smith-storyteller"
+      `~^/news/045\-lbry\-blockchain\-live\-mine\-lbc\-now(?:[.]md)?$` "/news/lbry-blockchain-live-mine-lbc-now"
+      `~^/news/046\-lbry\-at\-porcfest\-first\-public\-screening\-film\-via\-blockchain(?:[.]md)?$` "/news/lbry-at-porcfest-first-public-screening-film-via-blockchain"
+      `~^/news/047\-beta\-live\-declare\-independence\-big\-media(?:[.]md)?$` "/news/beta-live-declare-independence-big-media"
+      `~^/news/048\-lbry\-credits\-on\-bittrex(?:[.]md)?$` "/news/lbry-credits-on-bittrex"
+      `~^/news/049\-mysterious\-100k\-lbc\-revealed(?:[.]md)?$` "/news/mysterious-100k-lbc-revealed"
+      `~^/news/051\-launch\-a\-disaster(?:[.]md)?$` "/news/launch-a-disaster"
+      `~^/news/052\-day\-in\-shoes\-venezuelan(?:[.]md)?$` "/news/day-in-shoes-venezuelan"
+      `~^/news/053\-publish\-tools\-live\-earn\-1000\-dollars(?:[.]md)?$` "/news/publish-tools-live-earn-1000-dollars"
+      `~^/news/054\-shapeshift\-adds\-lbc(?:[.]md)?$` "/news/shapeshift-adds-lbc"
+      `~^/news/055\-fight\-of\-century(?:[.]md)?$` "/news/fight-of-century"
+      `~^/news/056\-mde\-on\-lbry(?:[.]md)?$` "/news/mde-on-lbry"
+      `~^/news/057\-lbry\-bounties(?:[.]md)?$` "/news/lbry-bounties"
+      `~^/news/058\-reweighting\-wait\-list(?:[.]md)?$` "/news/reweighting-wait-list"
+      `~^/news/059\-ui\-publishing\-tools\-upgrades(?:[.]md)?$` "/news/ui-publishing-tools-upgrades"
+      `~^/news/060\-heckbender\-charney\-on\-lbry(?:[.]md)?$` "/news/heckbender-charney-on-lbry"
+      `~^/news/061\-nsfw\-lbry\-settings(?:[.]md)?$` "/news/nsfw-lbry-settings"
+      `~^/news/062\-content\-without\-borders(?:[.]md)?$` "/news/content-without-borders"
+      `~^/news/063\-joaquin\-pixan\-singleton\-band(?:[.]md)?$` "/news/joaquin-pixan-singleton-band"
+      `~^/news/064\-500k\-vc\-funds\-pillar(?:[.]md)?$` "/news/500k-vc-funds-pillar"
+      `~^/news/065\-animal\-robot\-on\-lbry(?:[.]md)?$` "/news/animal-robot-on-lbry"
+      `~^/news/066\-brookes\-eggleston\-character\-design\-forge(?:[.]md)?$` "/news/brookes-eggleston-character-design-forge"
+      `~^/news/067\-ray\-carballada\-media\-advisor(?:[.]md)?$` "/news/ray-carballada-media-advisor"
+      `~^/news/068\-skate\-yrself\-clean(?:[.]md)?$` "/news/skate-yrself-clean"
+      `~^/news/069\-reddit\-ama\-answers(?:[.]md)?$` "/news/reddit-ama-answers"
+      `~^/news/070\-fleischer\-superman(?:[.]md)?$` "/news/fleischer-superman"
+      `~^/news/071\-credit\-policy\-third\-quarter\-report(?:[.]md)?$` "/news/credit-policy-third-quarter-report"
+      `~^/news/072\-sporthocking(?:[.]md)?$` "/news/sporthocking"
+      `~^/news/073\-alex\-liebowitz(?:[.]md)?$` "/news/alex-liebowitz"
+      `~^/news/073\-what\-makes\-lbry\-different(?:[.]md)?$` "/news/what-makes-lbry-different"
+      `~^/news/074\-lbry\-trailblazers(?:[.]md)?$` "/news/lbry-trailblazers"
+      `~^/news/075\-roadmap(?:[.]md)?$` "/news/roadmap"
+      `~^/news/076\-night\-living\-dead(?:[.]md)?$` "/news/night-living-dead"
+      `~^/news/077\-lbry\-windows(?:[.]md)?$` "/news/lbry-windows"
+      `~^/news/078\-bellflower\-movie(?:[.]md)?$` "/news/bellflower-movie"
+      `~^/news/079\-singletree(?:[.]md)?$` "/news/singletree"
+      `~^/news/080\-tpbafk(?:[.]md)?$` "/news/tpbafk"
+      `~^/news/081\-acryptypical(?:[.]md)?$` "/news/acryptypical"
+      `~^/news/082\-coherence(?:[.]md)?$` "/news/coherence"
+      `~^/news/083\-adult\-swim\-cancels\-show\-for\-supporting\-trump(?:[.]md)?$` "/news/adult-swim-cancels-show-for-supporting-trump"
+      `~^/news/083\-listenup(?:[.]md)?$` "/news/listenup"
+      `~^/news/084\-jinglebells(?:[.]md)?$` "/news/jinglebells"
+      `~^/news/085\-freedomfm(?:[.]md)?$` "/news/freedomfm"
+      `~^/news/086\-rare\-exports(?:[.]md)?$` "/news/rare-exports"
+      `~^/news/087\-positive\-returns(?:[.]md)?$` "/news/positive-returns"
+      `~^/news/088\-cryptoverse(?:[.]md)?$` "/news/cryptoverse"
+      `~^/news/089\-steal\-this(?:[.]md)?$` "/news/steal-this"
+      `~^/news/090\-sundance2017(?:[.]md)?$` "/news/sundance2017"
+      `~^/news/091\-new\-hampshire\-statehouse\-testimony\-on\-virtual\-currencies(?:[.]md)?$` "/news/new-hampshire-statehouse-testimony-on-virtual-currencies"
+      `~^/news/092\-mike\-hill(?:[.]md)?$` "/news/mike-hill"
+      `~^/news/093\-1791l(?:[.]md)?$` "/news/1791l"
+      `~^/news/094\-crypt0(?:[.]md)?$` "/news/crypt0"
+      `~^/news/095\-gutenberg(?:[.]md)?$` "/news/gutenberg"
+      `~^/news/096\-timcast(?:[.]md)?$` "/news/timcast"
+      `~^/news/097\-ohgeegeo(?:[.]md)?$` "/news/ohgeegeo"
+      `~^/news/098\-crypto\-freedom(?:[.]md)?$` "/news/crypto-freedom"
+      `~^/news/099\-censored\-gaming(?:[.]md)?$` "/news/censored-gaming"
+      `~^/news/100\-20000\-illegal\-college\-lectures\-rescued(?:[.]md)?$` "/news/20000-illegal-college-lectures-rescued"
+      `~^/news/101\-airsoft(?:[.]md)?$` "/news/airsoft"
+      `~^/news/102\-montage(?:[.]md)?$` "/news/montage"
+      `~^/news/103\-great\-week\-for\-lbry\-developer\-beta(?:[.]md)?$` "/news/great-week-for-lbry-developer-beta"
+      `~^/news/104\-blesshay(?:[.]md)?$` "/news/blesshay"
+      `~^/news/105\-auto\-diy(?:[.]md)?$` "/news/auto-diy"
+      `~^/news/106\-matt\-sokol(?:[.]md)?$` "/news/matt-sokol"
+      `~^/news/107\-whoiscapital(?:[.]md)?$` "/news/whoiscapital"
+      `~^/news/108\-mayer\-makes(?:[.]md)?$` "/news/mayer-makes"
+      `~^/news/109\-growing\-green(?:[.]md)?$` "/news/growing-green"
+      `~^/news/110\-julia\-galef(?:[.]md)?$` "/news/julia-galef"
+      `~^/news/111\-kokesh(?:[.]md)?$` "/news/kokesh"
+      `~^/news/112\-epicenter(?:[.]md)?$` "/news/epicenter"
+      `~^/news/113\-trailers(?:[.]md)?$` "/news/trailers"
+      `~^/news/114\-coinomiwallet(?:[.]md)?$` "/news/coinomiwallet"
+      `~^/news/115\-juicemedia(?:[.]md)?$` "/news/juicemedia"
+      `~^/news/116\-acousticlabs(?:[.]md)?$` "/news/acousticlabs"
+      `~^/news/117\-jordanbpeterson(?:[.]md)?$` "/news/jordanbpeterson"
+      `~^/news/118\-lukehall(?:[.]md)?$` "/news/lukehall"
+      `~^/news/119\-fee(?:[.]md)?$` "/news/fee"
+      `~^/news/120\-slav(?:[.]md)?$` "/news/slav"
+      `~^/news/121\-makestuff(?:[.]md)?$` "/news/makestuff"
+      `~^/news/122\-jaylight(?:[.]md)?$` "/news/jaylight"
+      `~^/news/123\-popup\-open\-beta(?:[.]md)?$` "/news/popup-open-beta"
+      `~^/news/124\-rocketsaway(?:[.]md)?$` "/news/rocketsaway"
+      `~^/news/125\-rerez(?:[.]md)?$` "/news/rerez"
+      `~^/news/126\-casuallyexplained(?:[.]md)?$` "/news/casuallyexplained"
+      `~^/news/127\-lunduke(?:[.]md)?$` "/news/lunduke"
+      `~^/news/129\-lbry\-release\-first\-run\-wallet\-invites\-rewards(?:[.]md)?$` "/news/lbry-release-first-run-wallet-invites-rewards"
+      `~^/news/130\-new\-lbry\-version\-with\-tipping(?:[.]md)?$` "/news/new-lbry-version-with-tipping"
+      `~^/news/131\-eevblog(?:[.]md)?$` "/news/eevblog"
+      `~^/news/132\-nurdrage(?:[.]md)?$` "/news/nurdrage"
+      `~^/news/133\-minutephysics(?:[.]md)?$` "/news/minutephysics"
+      `~^/news/134\-new\-lbry\-version\-with\-search(?:[.]md)?$` "/news/new-lbry-version-with-search"
+      `~^/news/135\-kaze(?:[.]md)?$` "/news/kaze"
+      `~^/news/136\-johncleese(?:[.]md)?$` "/news/johncleese"
+      `~^/news/137\-nilered(?:[.]md)?$` "/news/nilered"
+      `~^/news/140\-3blue1brown(?:[.]md)?$` "/news/3blue1brown"
+      `~^/news/141\-lbry\-is\-trending(?:[.]md)?$` "/news/lbry-is-trending"
+      `~^/news/142\-unbubbled(?:[.]md)?$` "/news/unbubbled"
+      `~^/news/143\-nono(?:[.]md)?$` "/news/nono"
+      `~^/news/145\-chronos(?:[.]md)?$` "/news/chronos"
+      `~^/news/146\-a\-very\-special\-holiday\-special(?:[.]md)?$` "/news/a-very-special-holiday-special"
+      `~^/news/147\-lbry\-shifting\-into\-high\-gear(?:[.]md)?$` "/news/lbry-shifting-into-high-gear"
+      `~^/news/148\-lbry\-development\-community\-update\-1(?:[.]md)?$` "/news/lbry-development-community-update-1"
+      `~^/news/149\-stop\-net\-banality(?:[.]md)?$` "/news/stop-net-banality"
+      `~^/news/150\-rubin\-youtubeweek(?:[.]md)?$` "/news/rubin-youtubeweek"
+      `~^/news/151\-boombust(?:[.]md)?$` "/news/boombust"
+      `~^/news/152\-why\-do\-tech\-giants\-abuse\-their\-users(?:[.]md)?$` "/news/why-do-tech-giants-abuse-their-users"
+      `~^/news/154\-how\-ads\-wrecked\-entertainment(?:[.]md)?$` "/news/how-ads-wrecked-entertainment"
+      `~^/news/155\-the\-birth\-of\-entertainment(?:[.]md)?$` "/news/the-birth-of-entertainment"
+      `~^/news/156\-sidequest(?:[.]md)?$` "/news/sidequest"
+      `~^/news/157\-verified\-awesome(?:[.]md)?$` "/news/verified-awesome"
+      `~^/news/160\-srodalmenara(?:[.]md)?$` "/news/srodalmenara"
+      `~^/news/161\-nickatnyte(?:[.]md)?$` "/news/nickatnyte"
+      `~^/news/162\-colinslaststand(?:[.]md)?$` "/news/colinslaststand"
+      `~^/news/164\-if\-you\-still\-havent\-found\-what\-youre\-searching\-for(?:[.]md)?$` "/news/if-you-still-havent-found-what-youre-searching-for"
+      `~^/news/166\-imineblocks(?:[.]md)?$` "/news/imineblocks"
+      `~^/news/168\-we\-are\-hiring\-our\-boss(?:[.]md)?$` "/news/we-are-hiring-our-boss"
+      `~^/news/169\-what\-is\-chainquery(?:[.]md)?$` "/news/what-is-chainquery"
+      `~^/news/170\-forking\-for\-asic\-resistance(?:[.]md)?$` "/news/forking-for-asic-resistance"
+      `~^/news/171\-hf1807(?:[.]md)?$` "/news/hf1807"
+      `~^/news/173\-lbry\-fund\-launches(?:[.]md)?$` "/news/lbry-fund-launches"
+      `~^/news/174\-lbry\-desktop\-redesign(?:[.]md)?$` "/news/lbry-desktop-redesign"
+      `~^/news/175\-austen(?:[.]md)?$` "/news/austen"
+      `~^/news/177\-app\-release\-023(?:[.]md)?$` "/news/app-release-023"
+      `~^/news/178\-lbry\-development\-community\-update\-july\-2018(?:[.]md)?$` "/news/lbry-development-community-update-july-2018"
+      `~^/news/179\-is\-everything\-better\-on\-the\-blockchain(?:[.]md)?$` "/news/is-everything-better-on-the-blockchain"
+      `~^/news/180\-something\-wicked\-cool\-this\-way\-comes(?:[.]md)?$` "/news/something-wicked-cool-this-way-comes"
+      `~^/news/181\-lbry\-is\-not\-an\-app(?:[.]md)?$` "/news/lbry-is-not-an-app"
+      `~^/news/182\-why\-is\-lbry\-android\-only(?:[.]md)?$` "/news/why-is-lbry-android-only"
+      `~^/news/183\-lbry\-in\-your\-pocket(?:[.]md)?$` "/news/lbry-in-your-pocket"
+      `~^/news/185\-august\-community\-update(?:[.]md)?$` "/news/august-community-update"
+      `~^/news/186\-hacktoberfest\-2018(?:[.]md)?$` "/news/hacktoberfest-2018"
+      `~^/news/187\-sept\-dev\-update(?:[.]md)?$` "/news/sept-dev-update"
+      `~^/news/189\-to\-hacktoberfest\-and\-beyond(?:[.]md)?$` "/news/to-hacktoberfest-and-beyond"
+      `~^/news/190\-october\-community\-update(?:[.]md)?$` "/news/october-community-update"
+      `~^/news/191\-anti\-media(?:[.]md)?$` "/news/anti-media"
+      `~^/news/192\-what\-to\-look\-for\-in\-a\-spotify\-alternative(?:[.]md)?$` "/news/what-to-look-for-in-a-spotify-alternative"
+      `~^/news/193\-c\-is\-for\-clarke(?:[.]md)?$` "/news/c-is-for-clarke"
+      `~^/news/194\-the\-calm(?:[.]md)?$` "/news/the-calm"
+      `~^/news/195\-nov\-dec\-update(?:[.]md)?$` "/news/nov-dec-update"
+      `~^/news/196\-thingiverse(?:[.]md)?$` "/news/thingiverse"
+      `~^/news/197\-the\-revolt(?:[.]md)?$` "/news/the-revolt"
+      `~^/news/198\-lbry\-is\-turning\-27(?:[.]md)?$` "/news/lbry-is-turning-27"
+      `~^/news/199\-one\-million\-installs(?:[.]md)?$` "/news/one-million-installs"
+      `~^/news/200\-our\-android\-is\-getting\-smarter(?:[.]md)?$` "/news/our-android-is-getting-smarter"
+      `~^/news/201\-bring\-a\-friend\-to\-lbry(?:[.]md)?$` "/news/bring-a-friend-to-lbry"
+      `~^/news/202\-lbry\-in\-2018\-2019(?:[.]md)?$` "/news/lbry-in-2018-2019"
+      `~^/news/203\-jan\-community(?:[.]md)?$` "/news/jan-community"
+      `~^/news/204\-hf1903(?:[.]md)?$` "/news/hf1903"
+      `~^/news/205\-lbrytech(?:[.]md)?$` "/news/lbrytech"
+      `~^/news/207\-feb\-19\-update(?:[.]md)?$` "/news/feb-19-update"
+      `~^/news/208\-claim\-trie\-memory\-reduction(?:[.]md)?$` "/news/claim-trie-memory-reduction"
+      `~^/news/209\-binance(?:[.]md)?$` "/news/binance"
+      `~^/news/211\-32\-skidoo(?:[.]md)?$` "/news/32-skidoo"
+      `~^/news/212\-comm\-update(?:[.]md)?$` "/news/comm-update"
+      `~^/news/214\-jun\-july\-dev(?:[.]md)?$` "/news/jun-july-dev"
+      `~^/news/215\-aug\-comm\-update(?:[.]md)?$` "/news/aug-comm-update"
+      `~^/news/216\-launch\-into\-andromeda(?:[.]md)?$` "/news/launch-into-andromeda"
+      `~^/news/219\-aug\-dev(?:[.]md)?$` "/news/aug-dev"
+      `~^/news/221\-comm\-report\-2019\-09(?:[.]md)?$` "/news/comm-report-2019-09"
+      `~^/news/222\-hacktoberfest\-2019(?:[.]md)?$` "/news/hacktoberfest-2019"
+      `~^/news/223\-hf1910(?:[.]md)?$` "/news/hf1910"
+      `~^/news/224\-galileo(?:[.]md)?$` "/news/galileo"
+      `~^/news/225\-swarm\-intro(?:[.]md)?$` "/news/swarm-intro"
+      `~^/news/226\-sept\-dev\-2019(?:[.]md)?$` "/news/sept-dev-2019"
+      `~^/news/227\-lbrycast\-kaccreatve(?:[.]md)?$` "/news/lbrycast-kaccreatve"
+      `~^/news/228\-unification(?:[.]md)?$` "/news/unification"
+      `~^/news/229\-lbrycast\-richardharris(?:[.]md)?$` "/news/lbrycast-richardharris"
+      `~^/news/230\-comm\-2019\-10(?:[.]md)?$` "/news/comm-2019-10"
+      `~^/news/231\-darknesscast(?:[.]md)?$` "/news/darknesscast"
+      `~^/news/232\-doppler(?:[.]md)?$` "/news/doppler"
+      `~^/news/233\-lbrycast\-linuxscoop(?:[.]md)?$` "/news/lbrycast-linuxscoop"
+      `~^/news/234\-2019\-hacktober(?:[.]md)?$` "/news/2019-hacktober"
+      `~^/news/235\-dev\-oct19(?:[.]md)?$` "/news/dev-oct19"
+      `~^/news/236\-moreno(?:[.]md)?$` "/news/moreno"
+      `~^/news/237\-eljefedave(?:[.]md)?$` "/news/eljefedave"
+      `~^/news/238\-dadreviews(?:[.]md)?$` "/news/dadreviews"
+      `~^/news/239\-cryptotips(?:[.]md)?$` "/news/cryptotips"
+      `~^/news/240\-comm\-2019\-11(?:[.]md)?$` "/news/comm-2019-11"
+      `~^/news/240\-eclipse(?:[.]md)?$` "/news/eclipse"
+      `~^/news/241\-scammerrevolts(?:[.]md)?$` "/news/scammerrevolts"
+      `~^/news/242\-benjaminboyce(?:[.]md)?$` "/news/benjaminboyce"
+      `~^/news/243\-creator\-rewards(?:[.]md)?$` "/news/creator-rewards"
+      `~^/news/243\-youtubecryptocrackdown(?:[.]md)?$` "/news/youtubecryptocrackdown"
+      `~^/news/244\-isaac(?:[.]md)?$` "/news/isaac"
+      `~^/news/245\-redactedtonight(?:[.]md)?$` "/news/redactedtonight"
+      `~^/news/246\-nov\-dec\-dev\-2019(?:[.]md)?$` "/news/nov-dec-dev-2019"
+      `~^/news/247\-fireworks(?:[.]md)?$` "/news/fireworks"
+      `~^/news/248\-naomiwu(?:[.]md)?$` "/news/naomiwu"
+      `~^/news/249\-stossel(?:[.]md)?$` "/news/stossel"
+      `~^/news/250\-joule(?:[.]md)?$` "/news/joule"
+      `~^/news/251\-wearechange(?:[.]md)?$` "/news/wearechange"
+      `~^/news/252\-0130quartering(?:[.]md)?$` "/news/0130quartering"
+      `~^/news/252\-20\-01comm(?:[.]md)?$` "/news/20-01comm"
+      `~^/news/253\-lbrytv(?:[.]md)?$` "/news/lbrytv"
+      `~^/news/254\-android\-galaxy(?:[.]md)?$` "/news/android-galaxy"
+      `~^/news/256\-kelvin(?:[.]md)?$` "/news/kelvin"
+      `~^/news/257\-lbry\-in\-2019\-2020(?:[.]md)?$` "/news/lbry-in-2019-2020"
+      `~^/news/258\-dev\-feb20(?:[.]md)?$` "/news/dev-feb20"
+      `~^/(news|faq|credit-reports)/(.+)[.]md$` "/${1}/${2}"
+      default ""
+    }
+    @article_alias {
+      expression `{article_redirect_target} != "" && {article_redirect_target} != {http.vars.request_path}`
+      file {article_redirect_target}/index.html
+    }
+    redir @article_alias {article_redirect_target}{query_suffix} 301
+
+    @downloads path_regexp downloads `^/(?:releases/(?:pre/)?[^/]+[.][^/]+|get/.+)$`
+    redir @downloads /get 301
+    @bounty path_regexp bounty `^/bounty/.*$`
+    redir @bounty https://lbry.tech/contribute 302
+    @roadmap path_regexp roadmap `^/roadmap/.*$`
+    redir @roadmap /roadmap 302
+
+    # Retained static replacements for former dynamic URL families.
+    @list_action path_regexp list_action `^/list/(?:confirm|edit|unsubscribe)/[^/]+$`
+    rewrite @list_action /list/subscribe
+    @dmca_action path_regexp dmca_action `^/dmca/[^/]+$`
+    rewrite @dmca_action /dmca
+    @youtube_status path_regexp youtube_status `^/youtube/status/[^/]+$`
+    rewrite @youtube_status /youtube/status/migration-public-reference
+    @news_category path_regexp news_category `^/news/category/[^/]+$`
+    rewrite @news_category /news/category/migration-public-reference
+
+    @page_or_asset file {path}/index.html {path}
+    handle @page_or_asset {
+      # Normalization is public only when an actual destination exists.
+      @normalized expression `{http.vars.original_path} != {http.vars.request_path}`
+      redir @normalized {http.vars.request_path}{query_suffix} 301
+      @team_filename path /team/*.md
+      header @team_filename Content-Type "text/html;charset=UTF-8"
+      try_files {path}/index.html {path}
+      file_server {
+        disable_canonical_uris
+      }
+    }
+    handle {
+      header Cache-Control "private, no-cache"
+      header Content-Type "text/html;charset=UTF-8"
+      rewrite * /404/index.html
+      file_server {
+        status 404
+      }
+    }
+  }
+}
+http://lbry.tv {
+  redir https://odysee.com{uri} 301
+}
+https://lbry.tv {
+  redir https://odysee.com{uri} 301
+}

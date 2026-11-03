@@ -1,0 +1,32 @@
+{{ define "main" }}
+<main class="ancillary">
+  <section class="hero hero--half-height" style="background-image: url(/img/here-be-dragons.jpg); background-position: center;">
+    <div class="inner-wrap inner-wrap--center-hero">
+      <h1>LBRY Roadmap</h1>
+      <h2>Future plans for the journey into the land of dragons</h2>
+    </div>
+  </section>
+  <section><div class="inner-wrap">
+    <div class="notice notice-warning spacer1 ">
+      For 2021, LBRY is not maintaining a public roadmap. Development is more active than ever and can be tracked on our <a href="https://github.com/lbryio" rel="noopener">public GitHub</a>.
+    </div>
+    <p>Top priorities, definitions of success, status, and target completion dates for key initiatives in
+      <select id="roadmap-year-select">
+        {{ range hugo.Data.roadmaps.years }}<option value="{{ . }}"{{ if eq . $.Params.roadmap_year }} selected="selected"{{ end }}>{{ . }}</option>{{ end }}
+      </select>
+    </p>
+    <div class="roadmap-container" id="project-roadmap">
+      {{ range index hugo.Data.roadmaps.items_by_year .Params.roadmap_year }}
+      <div class="roadmap-item" id="{{ .id }}">
+        <h3 class="roadmap-item-title">{{ if .title_link }}<a href="{{ .title_link.href }}" class="{{ .title_link.class }}"{{ with .title_link.rel }} rel="{{ . }}"{{ end }}>{{ .name }}</a>{{ else }}{{ .name }}{{ end }}</h3>
+        <div class="roadmap-item-date">
+          {{ .date }}</div>
+        <div class="roadmap-item-content content markdown">
+          {{ .body_html | safeHTML }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div></section>
+</main>
+{{ end }}

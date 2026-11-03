@@ -1,0 +1,46 @@
+[
+  {
+    "id": "LBRY 101",
+    "label": "Intro to LBRY"
+  },
+  {
+    "id": "getstarted",
+    "label": "Getting Started"
+  },
+  {
+    "id": "tutorial",
+    "label": "LBRY Tutorials"
+  },
+  {
+    "id": "publisher",
+    "label": "Publishers and Creators"
+  },
+  {
+    "id": "troubleshooting",
+    "label": "Help and Troubleshooting"
+  },
+  {
+    "id": "powerusers",
+    "label": "LBRY for Power Users"
+  },
+  {
+    "id": "wallet",
+    "label": "Wallet and Transactions"
+  },
+  {
+    "id": "bots",
+    "label": "LBRY Bots"
+  },
+  {
+    "id": "mining",
+    "label": "Mining LBC"
+  },
+  {
+    "id": "differences",
+    "label": "What Makes LBRY Different?"
+  },
+  {
+    "id": "other",
+    "label": "Other Questions"
+  }
+]

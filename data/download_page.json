@@ -1,0 +1,61 @@
+{
+  "platforms": [
+    {
+      "id": "windows",
+      "path": "/windows",
+      "name": "Windows",
+      "icon": "icon-windows",
+      "title": "Get LBRY Desktop for Windows",
+      "analytics": "Windows",
+      "os": "Windows",
+      "types": [
+        ".exe"
+      ]
+    },
+    {
+      "id": "osx",
+      "path": "/osx",
+      "name": "macOS",
+      "icon": "icon-apple",
+      "title": "Get LBRY Desktop for macOS",
+      "analytics": "OSX",
+      "os": "macOS",
+      "types": [
+        ".dmg"
+      ]
+    },
+    {
+      "id": "linux",
+      "path": "/linux",
+      "name": "Linux",
+      "icon": "icon-linux",
+      "title": "Get LBRY Desktop for Linux",
+      "analytics": "Linux",
+      "os": "Linux",
+      "types": [
+        ".AppImage",
+        ".deb"
+      ]
+    },
+    {
+      "id": "android",
+      "path": "/android",
+      "name": "Android",
+      "icon": "icon-android",
+      "title": "Get LBRY Android",
+      "screenshot": "https://spee.ch/@lbry:3f/android-08-homepage.gif",
+      "store": "https://play.google.com/store/apps/details?id=io.lbry.browser"
+    },
+    {
+      "id": "ios",
+      "path": "/ios",
+      "name": "iOS",
+      "icon": "icon-ios",
+      "title": "Get Odysee for iOS",
+      "screenshot": "https://spee.ch/odyseeiosimage.png",
+      "store": "https://apps.apple.com/us/app/odysee/id1539444143"
+    }
+  ],
+  "android_apk": "https://github.com/lbryio/lbry-android/releases/download/0.17.1/browser-0.17.1-release__arm.apk",
+  "description": "Experience content freedom! Download the latest version of LBRY for Windows, mac OS, or Linux."
+}

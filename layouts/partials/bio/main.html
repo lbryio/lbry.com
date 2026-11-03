@@ -1,0 +1,24 @@
+
+<main class="ancillary">
+  <section class="hero hero--half-height" style="background-image: url(https://spee.ch/3cb82a81e95c147686dbf90e9983640939461c53/everyone-banner3.jpg)">
+    <div class="inner-wrap inner-wrap--center-hero"><h1>The Team</h1><h2>Teamwork makes the dream work</h2></div>
+  </section>
+  <section class="person-bio" id="{{ .Params.section_id }}">
+    <div class="inner-wrap inner-wrap--team">
+      <figure class="author">
+        <img src="{{ .Params.photo }}" alt="Photo of {{ .Title }}">
+        <figcaption>
+          {{ .Title }}
+          {{ with .Params.email }} · <a href="{{ $.Params.email_href | safeURL }}" class="link-primary"><span class="icon icon-envelope"></span></a>{{ end }}
+          {{ with .Params.github }} · <a href="https://github.com/{{ . }}" class="link-primary" rel="noopener"><span class="icon icon-github"></span></a>{{ end }}
+          {{ with .Params.twitter }} · <a href="https://www.twitter.com/{{ . }}" class="link-primary" rel="noopener"><span class="icon icon-twitter"></span></a>{{ end }}
+          <br>{{ .Params.role }}
+        </figcaption>
+      </figure>
+      <div class="bio">
+        <h3>{{ .Title }}</h3>
+        {{ partial "content/html-links.html" (dict "html" .Content "page" .) }}
+      </div>
+    </div>
+  </section>
+</main>

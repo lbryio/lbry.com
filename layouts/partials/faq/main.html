@@ -1,0 +1,15 @@
+
+<main class="ancillary">
+  <section class="hero hero--half-height">
+    <div class="inner-wrap inner-wrap--center-hero"><h1>{{ .Title }}</h1></div>
+  </section>
+  <section>
+    <div class="inner-wrap">
+      <section><small class="meta"><a href="/faq">« Back to FAQ</a></small></section>
+      {{ partial "content/html-links.html" (dict "html" .Content "page" .) }}
+    </div>
+  </section>
+  <section>
+    <div class="inner-wrap"><p>See a mistake? <a href="{{ .Params.edit_url }}" rel="noopener">Edit this page on GitHub</a>.</p></div>
+  </section>
+</main>

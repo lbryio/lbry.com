@@ -1,0 +1,95 @@
+$lbry-yt-blue: mix($lbry-blue-5, $lbry-black, 50%);
+
+.hero--youtube {
+  .shape {
+    width: 100%; height: 100%;
+    top: 0; left: 0;
+
+    position: absolute;
+
+    svg {
+      width: 100%; height: 100%;
+
+      path {
+        fill: none;
+        stroke: $lbry-yt-blue;
+        stroke-width: 0.3px;
+      }
+    }
+
+    .circle,
+    .dot {
+      width: 60px; height: 60px;
+
+      background-color: $lbry-yt-blue;
+      border-radius: 50%;
+      margin: -30px 0 0 -30px;
+      position: absolute;
+    }
+
+    .circle {
+      background-color: $lbry-yt-blue;
+      background-position: center;
+      background-repeat: no-repeat;
+      box-shadow: 0 10px 50px 0 rgba($lbry-black, 0.25);
+
+      &.one {
+        width: 76px; height: 76px;
+        top: 31%; left: 50%;
+
+        background-image: url("../img/youtube/core@2x.png");
+        background-size: 25px;
+        margin: -38px 0 0 -38px;
+      }
+
+      &.two {
+        top: 20%; left: 75%;
+
+        background-image: url("../img/youtube/video@2x.png");
+        background-size: 15px;
+      }
+
+      &.three {
+        top: 73%; left: 82%;
+
+        background-image: url("../img/youtube/music@2x.png");
+        background-size: 13px;
+      }
+    }
+
+    .dot {
+      width: 6px; height: 6px;
+      margin: -3px 0 0 -3px;
+
+      &.a {
+        top: 34%; left: 72%;
+      }
+
+      &.b {
+        top: 27%; left: 80%;
+      }
+
+      &.c {
+        top: 81%; left: 75%;
+      }
+
+      &.d {
+        top: 92%; left: 76%;
+      }
+
+      &.e {
+        top: 81%; left: 93%;
+      }
+
+      &.f {
+        top: 109%; left: 90%;
+      }
+    }
+  }
+
+  button {
+    &:hover {
+      color: initial;
+    }
+  }
+}

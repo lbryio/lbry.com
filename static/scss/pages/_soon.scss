@@ -1,0 +1,54 @@
+.soon {
+  top: 0; left: 0;
+  bottom: 0; right: 0;
+
+  align-items: center;
+  background-image: linear-gradient(to right, #60e1ba, #3bc9db 100%);
+  background-size: cover;
+  color: var(--lbry-white);
+  display: flex;
+  font-size: 1rem;
+  font-weight: 300;
+  justify-content: center;
+  padding: 2rem;
+  position: absolute;
+  text-align: center;
+  z-index: 30;
+
+  h1 {
+    font-weight: normal;
+    line-height: 1.33;
+
+    @media (min-width: 501px) {
+      font-size: 2rem;
+    }
+
+    @media (max-width: 500px) {
+      font-size: 1.5rem;
+    }
+  }
+
+  p {
+    line-height: 1.55;
+    margin-bottom: 1rem;
+  }
+
+  [type="email"] {
+    background-color: var(--lbry-white);
+    color: var(--lbry-black);
+  }
+
+  section {
+    @media (max-width: 500px) {
+      width: 100%;
+    }
+  }
+
+  .meta {
+    color: inherit;
+  }
+
+  strong {
+    font-weight: bold;
+  }
+}
